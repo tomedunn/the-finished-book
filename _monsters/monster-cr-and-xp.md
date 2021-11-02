@@ -44,9 +44,9 @@ adjustments to a monster's HP comes from resistances and immunities to multiple 
 healing, and legendary resistances. For AC, the most common adjustments are abilities that give attackers disadvantage 
 on attacks, reactions that temporarily raise AC, and proficiencies in multiple saving throws.
 
-<figure class="half">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/hp-vs-cr.png">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/ac-vs-cr.png">
+<figure class="half" style="width:1000px;min-width:50%;max-width:100%">
+    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/hp-vs-cr.svg">
+    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/ac-vs-cr.svg">
     <figcaption>Hit points and armor class vs CR (adjusted and unadjusted).</figcaption>
 </figure>
 
@@ -58,8 +58,8 @@ higher than expected with the biggest difference coming from monsters CR 17 and 
 might seem like a large discrepancy, but recall that AC acts only as a minor adjustment to a monster's overall D-CR.
 
 <center>
-<figure style="min-width:50%;max-width:100%">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/d-cr-vs-cr.png">
+<figure style="width:500px;min-width:50%;max-width:100%">
+    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/d-cr-vs-cr.svg">
     <figcaption>Calculated defensive CR mean and inner 60% quantile vs CR.</figcaption>
 </figure>
 </center>
@@ -75,9 +75,9 @@ expected.
 Offensive CR (O-CR) is calculated from a monster's DPR and adjusted AB. The most common adjustments to AB are abilities
 that give advantage on attack rolls.
 
-<figure class="half">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/dpr-vs-cr.png">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/ab-vs-cr.png">
+<figure class="half" style="width:1000px;min-width:50%;max-width:100%">
+    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/dpr-vs-cr.svg">
+    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/ab-vs-cr.svg">
     <figcaption>Damage per round and attack bonus vs CR (adjusted and unadjusted).</figcaption>
 </figure>
 
@@ -85,8 +85,8 @@ The above figure shows how published creatures compare, on average, against the 
 AB shows little to no difference between adjusted and non-adjusted values.
 
 <center>
-<figure style="width: 500px">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/o-cr-vs-cr.png">
+<figure style="width:500px;min-width:50%;max-width:100%">
+    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/o-cr-vs-cr.svg">
     <figcaption>Calculated offensive CR mean and inner 60% quantile vs CR.</figcaption>
 </figure>
 </center>
