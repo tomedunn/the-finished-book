@@ -1,5 +1,5 @@
 ---
-title: "Monster CR and XP"
+title: "Monster CR"
 excerpt: "How to calculate CR and XP and how published monsters compare to expectation."
 ---
 
@@ -58,7 +58,7 @@ higher than expected with the biggest difference coming from monsters CR 17 and 
 might seem like a large discrepancy, but recall that AC acts only as a minor adjustment to a monster's overall D-CR.
 
 <center>
-<figure style="width: 500px">
+<figure style="min-width:50%;max-width:100%">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/d-cr-vs-cr.png">
     <figcaption>Calculated defensive CR mean and inner 60% quantile vs CR.</figcaption>
 </figure>
@@ -102,8 +102,8 @@ The CR for each monster is calculated by taking the average of the D-CR and O-CR
 results of this are shown in the figure below.
 
 <center>
-<figure style="width: 500px">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/dmg-cr-vs-cr.png">
+<figure style="width:500px;min-width:50%;max-width:100%">
+    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/dmg-cr-vs-cr.svg">
     <figcaption>Calculated CR mean and inner 60% quantile vs CR.</figcaption>
 </figure>
 </center>
