@@ -45,8 +45,8 @@ healing, and legendary resistances. For AC, the most common adjustments are abil
 on attacks, reactions that temporarily raise AC, and proficiencies in multiple saving throws.
 
 <figure class="half">
-    <img src="/monsters/monster-cr-and-xp/hp-vs-cr.png">
-    <img src="/monsters/monster-cr-and-xp/ac-vs-cr.png">
+    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/hp-vs-cr.png">
+    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/ac-vs-cr.png">
     <figcaption>Hit points and armor class vs CR (adjusted and unadjusted).</figcaption>
 </figure>
 
