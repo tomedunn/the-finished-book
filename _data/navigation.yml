@@ -1,0 +1,20 @@
+# main links
+main:
+  - title: "Classes"
+    url: /classes/
+  - title: "Monsters"
+    url: /monsters/
+
+monsters:
+  - title: "Categorizing Monsters"
+    url: /monsters/categorizing-monsters
+  - title: "Monster CR and XP"
+    url: /monsters/monster-cr-and-xp
+  - title: "Monster Saving Throws"
+    url: /monsters/monster-saving-throws
+
+classes:
+  - title: "Monk"
+    children:
+      - title: "Stunning Strike"
+        url: /classes/stunning-strike
