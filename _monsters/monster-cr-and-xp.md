@@ -59,7 +59,7 @@ might seem like a large discrepancy, but recall that AC acts only as a minor adj
 
 <center>
 <figure style="width: 500px">
-    <img src="/monsters/monster-cr-and-xp/d-cr-vs-cr.png">
+    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/d-cr-vs-cr.png">
     <figcaption>Calculated defensive CR mean and inner 60% quantile vs CR.</figcaption>
 </figure>
 </center>
@@ -76,8 +76,8 @@ Offensive CR (O-CR) is calculated from a monster's DPR and adjusted AB. The most
 that give advantage on attack rolls.
 
 <figure class="half">
-    <img src="/monsters/monster-cr-and-xp/dpr-vs-cr.png">
-    <img src="/monsters/monster-cr-and-xp/ab-vs-cr.png">
+    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/dpr-vs-cr.png">
+    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/ab-vs-cr.png">
     <figcaption>Damage per round and attack bonus vs CR (adjusted and unadjusted).</figcaption>
 </figure>
 
@@ -86,7 +86,7 @@ AB shows little to no difference between adjusted and non-adjusted values.
 
 <center>
 <figure style="width: 500px">
-    <img src="/monsters/monster-cr-and-xp/o-cr-vs-cr.png">
+    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/o-cr-vs-cr.png">
     <figcaption>Calculated offensive CR mean and inner 60% quantile vs CR.</figcaption>
 </figure>
 </center>
@@ -103,7 +103,7 @@ results of this are shown in the figure below.
 
 <center>
 <figure style="width: 500px">
-    <img src="/monsters/monster-cr-and-xp/dmg-cr-vs-cr.png">
+    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-cr-and-xp/dmg-cr-vs-cr.png">
     <figcaption>Calculated CR mean and inner 60% quantile vs CR.</figcaption>
 </figure>
 </center>
