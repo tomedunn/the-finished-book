@@ -25,7 +25,12 @@ To illustrate this point, I've split monsters taken from official source/adventu
 
 These categories are designed to group monsters by their relative rarity. Over the course of an adventure, regardless of level, the PCs are far more likely to encounter a Generic monster than they are a Legendary monster or Unique monster. And, while Unique monsters are probably more common at lower levels, due to how rare Legendary monsters are, at high level play they are likely even rarer than Legendary monsters.
 
-![Distribution of monsters by category](monster-distribution.png)
+<center>
+<figure style="width:700px;min-width:50%;max-width:100%">
+    <img src="{{ site.url }}{{ site.baseurl }}/monsters/categorizing-monsters/monster-distribution.svg">
+    <figcaption>Distribution of monsters by CR for each category.</figcaption>
+</figure>
+</center>
 
 The above figure shows how these categories of monsters are distributed from CR 1 to 30. 
 
