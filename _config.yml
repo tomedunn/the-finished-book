@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "Tom Dunn"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Long time D&D player and analysis junkie."
   #location         : "Somewhere"
   email            : "tomedunn@gmail.com"
   links:
@@ -293,6 +293,7 @@ defaults:
       layout: single
       classes: wide
       author_profile: false
+      read_time: true
       share: true
       toc: false
       toc_label: "Table of Contents"
@@ -313,6 +314,7 @@ defaults:
       layout: single
       classes: wide
       author_profile: false
+      read_time: true
       share: true
       toc: false
       toc_label: "Table of Contents"
