@@ -1,6 +1,12 @@
 ---
 title: "Monster Saving Throws"
-excerpt: "I go through how the different saving throw modifiers compare to one another."
+excerpt: "An analysis of how monster saving throw modifiers scale with CR."
+date: 2021-10-23
+last_modified_at: 2021-11-03
+#tags:
+#  - analysis
+#  - monsters
+#  - saving throws
 ---
 
 Monster saving throw modifiers are an important part of D&D 5th edition, especially when it comes to evaluating the strengths and weaknesses of various class features and spells. Despite its importance, though, it's also an aspect of analyzing the game that people frequently get wrong.

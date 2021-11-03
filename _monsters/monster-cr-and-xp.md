@@ -1,6 +1,12 @@
 ---
 title: "Monster CR"
-excerpt: "How to calculate CR and XP and how published monsters compare to expectation."
+excerpt: "Compares listed monster CRs with those calculated according to the rules in chapter 9 of the DMG."
+date: 2021-10-30
+last_modified_at: 2021-11-03
+#tags:
+#  - analysis
+#  - CR
+#  - monsters
 ---
 
 # Introduction

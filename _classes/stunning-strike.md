@@ -2,6 +2,14 @@
 title: "Stunning Strike"
 excerpt: "Analysis of how Stunning Strike holds up against published monsters"
 share: true
+date: 2021-10-27
+last_modified_at: 2021-11-03
+#tags:
+#  - analysis
+#  - classes
+#  - monk
+#  - stunning strike
+#  - saving throws
 ---
 
 # Introduction
