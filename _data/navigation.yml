@@ -8,8 +8,8 @@ main:
 monsters:
   - title: "Categorizing Monsters"
     url: /monsters/categorizing-monsters
-  - title: "Monster CR and XP"
-    url: /monsters/monster-cr-and-xp
+  - title: "Calculating Monster CR"
+    url: /monsters/calculating-monster-cr
   - title: "Monster Saving Throws"
     url: /monsters/monster-saving-throws
 

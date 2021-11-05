@@ -1,0 +1,13 @@
+# Authors
+
+Tom Dunn:
+  name        : "Tom Dunn"
+  bio         : "Long time D&D player and analysis junkie."
+  avatar      : #"/assets/images/missing.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:tomedunn@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://tomedunn.github.io/the-finished-book/"
