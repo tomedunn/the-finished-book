@@ -78,7 +78,7 @@ For Legendary and Unique monsters the story is similar, however, the size of the
 
 <center>
 <figure style="width:1200px;min-width:50%;max-width:100%" alt="Ki per stun probability range">
-    <img src="{{ site.url }}{{ site.baseurl }}/classes/stunning-strike/ki-per-stun-probability-distribution-categories.svg">
+    <img src="{{ site.url }}{{ site.baseurl }}/classes/stunning-strike/ki-per-stun-probability-inner-quantile60-categories.svg">
     <figcaption>Average ki needed to land a Stunning Strike along with 60% confidence interval.</figcaption>
 </figure>
 </center>
