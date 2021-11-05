@@ -98,7 +98,7 @@ In the same way the probability of stunning a monster was calculated for a singl
 </figure>
 </center>
 
-Without spending too much time focusing on the distributions, the above plots show how the median (dashed line) and inner 60th percentile (shaded region) change with level for each category of monster.
+Without spending too much time focusing on the distributions, the above plots show how the median (dashed line) and 60% confidence interval (shaded region) change with level for each category of monster.
 
 For generic monsters, the average number of attacks needed to successfully stun a monster stays close to 3 attacks per stun for all levels. However, for Legendary and Unique monsters the number of attacks is generally higher, at around 4 attacks per stun.
 
