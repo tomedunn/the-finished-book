@@ -30,7 +30,7 @@ The monk that we will be calculating this for is assumed to have 16 Dexterity an
 
 The monsters our monk will be facing come from a range of CRs around the monk's level. The CR range our monk will face at level 5 is CRs 1-9, at level 10 they'll face CRs 5-15, at level 15 they'll face CRs 9-21, and at level 20 they'll face CRs 13-27. These ranges were picked to reflect that PCs typically face a wide range of monster CRs. The number of monsters tends to decrease as CR increases, which roughly fits with how CR impacts the number of monsters in a typical encounter.
 
-As a final note, I have divided monsters up into three broad categories. A full description can be found [here]({% link _monsters/categorizing-monsters.md %}), but simply put, **Generic** monsters are templates for a certain type of monsters, **Legendary** monsters are templates for monsters with legendary traits, and **Unique** monsters each represent a singular NPC and have a unique stat block which may or may not have legendary traits. 
+As a final note, I have divided monsters up into three broad categories. A full description can be found [here]({{ site.baseurl }}{% link _monsters/categorizing-monsters.md %}), but simply put, **Generic** monsters are templates for a certain type of monsters, **Legendary** monsters are templates for monsters with legendary traits, and **Unique** monsters each represent a singular NPC and have a unique stat block which may or may not have legendary traits. 
 
 # Analysis
 
