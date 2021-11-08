@@ -45,6 +45,7 @@ MM,342.0,humanoid,generic,N,12.0,4
 MOoT,212.0,celestial,legendary,L,12.0,4
 GGtR,192.0,celestial,legendary,L,14.0,5
 GGtR,193.0,elemental,generic,N,12.0,4
+WDotMM,296.0,undead,unique,L,21.0,7
 BGDiA,111.0,humanoid,unique,N,16.0,5
 MToF,130.0,fiend,generic,N,7.0,3
 CM,157.0,humanoid,unique,N,11.0,4
@@ -68,6 +69,7 @@ CoS,228.0,humanoid,unique,N,11.0,4
 CoS,226.0,construct,unique,N,11.0,4
 VGtM,136.0,fiend,generic,N,4.0,2
 MToF,170.0,fiend,unique,L,19.0,6
+CM,168.0,humanoid,unique,L,13.0,5
 MToF,118.0,aberration,legendary,L,11.0,4
 MM,55.0,fiend,generic,N,19.0,6
 VGtM,122.0,monstrosity,generic,N,5.0,3
@@ -141,6 +143,7 @@ PotA,196.0,humanoid,generic,N,4.0,2
 MToF,122.0,construct,generic,N,14.0,5
 MM,36.0,fiend,generic,N,5.0,3
 MToF,247.0,fiend,generic,N,8.0,3
+CM,179.0,construct,generic,N,13.0,5
 HotDQ,89.0,humanoid,unique,N,5.0,3
 MM,37.0,monstrosity,generic,N,2.0,2
 VGtM,129.0,monstrosity,generic,N,5.0,3
@@ -254,6 +257,7 @@ GoS,234.0,undead,generic,N,4.0,2
 GoS,235.0,undead,generic,N,2.0,2
 GoS,235.0,undead,generic,N,9.0,4
 MM,346.0,humanoid,generic,N,2.0,2
+GGtR,230.0,humanoid,generic,N,7.0,3
 MM,121.0,fey,generic,N,1.0,2
 MM,122.0,humanoid,generic,N,1.0,2
 MToF,188.0,humanoid,generic,N,12.0,4
@@ -297,6 +301,8 @@ MM,131.0,monstrosity,generic,N,2.0,2
 MM,132.0,giant,generic,N,4.0,2
 VGtM,214.0,humanoid,generic,N,9.0,4
 CoS,230.0,humanoid,unique,N,8.0,3
+MM,133.0,dragon,generic,N,2.0,2
+MM,133.0,dragon,generic,N,1.0,2
 PotA,207.0,humanoid,generic,N,2.0,2
 PotA,189.0,humanoid,generic,N,1.0,2
 GGtR,199.0,celestial,generic,N,5.0,3
@@ -406,11 +412,13 @@ VGtM,158.0,dragon,generic,N,2.0,2
 VGtM,158.0,dragon,generic,N,2.0,2
 VGtM,158.0,dragon,generic,N,2.0,2
 GGtR,201.0,giant,generic,N,8.0,3
+CoS,227.0,construct,unique,N,1.0,2
 BR,,monstrosity,generic,N,4.0,2
 IDRotF,305.0,humanoid,unique,N,5.0,3
 VGtM,159.0,fey,generic,N,6.0,3
 VGtM,160.0,fey,generic,N,7.0,3
 MM,177.0,fey,generic,N,3.0,2
+MM,178.0,fiend,generic,N,5.0,3
 MM,179.0,fey,generic,N,2.0,2
 WDotMM,310.0,humanoid,unique,LL,23.0,7
 MM,238.0,giant,generic,N,1.0,2
@@ -497,6 +505,8 @@ BGDiA,105.0,fiend,unique,L,25.0,8
 MM,197.0,monstrosity,legendary,LL,23.0,7
 VGtM,215.0,humanoid,generic,N,5.0,3
 GoS,238.0,monstrosity,legendary,L,14.0,5
+GGtR,210.0,monstrosity,generic,N,1.0,2
+GGtR,211.0,monstrosity,generic,N,6.0,3
 GGtR,214.0,humanoid,generic,N,4.0,2
 BGDiA,110.0,humanoid,unique,N,6.0,3
 MToF,212.0,monstrosity,generic,N,5.0,3
@@ -511,6 +521,7 @@ MM,201.0,monstrosity,generic,N,4.0,2
 MOoT,235.0,fey,generic,N,3.0,2
 HotDQ,91.0,humanoid,unique,N,4.0,2
 WDotMM,313.0,humanoid,generic,N,3.0,2
+GGtR,228.0,humanoid,generic,N,6.0,3
 GGtR,232.0,monstrosity,unique,L,17.0,6
 MOoT,232.0,humanoid,generic,N,5.0,3
 TftYP,239.0,monstrosity,generic,N,3.0,2
@@ -518,6 +529,7 @@ MToF,198.0,elemental,legendary,L,20.0,6
 ToA,227.0,humanoid,unique,N,4.0,2
 MM,202.0,undead,generic,N,21.0,7
 GGtR,198.0,undead,legendary,L,14.0,5
+CM,223.0,undead,legendary,LL,18.0,6
 TftYP,236.0,beast,generic,N,3.0,2
 MM,331.0,beast,generic,N,1.0,2
 IDRotF,298.0,construct,generic,N,4.0,2
@@ -529,6 +541,7 @@ ERftLW,299.0,construct,generic,N,5.0,3
 MM,205.0,humanoid,generic,N,4.0,2
 GoS,241.0,humanoid,generic,N,3.0,2
 GoS,242.0,humanoid,generic,N,1.0,2
+MM,205.0,humanoid,generic,N,2.0,2
 GoS,242.0,humanoid,generic,N,3.0,2
 GGtR,170.0,construct,generic,N,1.0,2
 GoS,243.0,humanoid,generic,N,2.0,2
@@ -565,6 +578,7 @@ MToF,166.0,fiend,generic,N,4.0,2
 MToF,249.0,fiend,generic,N,3.0,2
 MM,219.0,monstrosity,generic,N,2.0,2
 MM,313.0,fiend,generic,N,5.0,3
+CM,16.0,undead,unique,L,22.0,7
 MM,220.0,monstrosity,generic,N,2.0,2
 WDH,122.0,monstrosity,generic,N,3.0,2
 GGtR,224.0,undead,generic,N,4.0,2
@@ -612,6 +626,7 @@ MOoT,221.0,fiend,generic,N,11.0,4
 MToF,216.0,undead,generic,N,20.0,6
 WDH,212.0,construct,generic,N,4.0,2
 BGDiA,170.0,humanoid,unique,N,5.0,3
+CM,197.0,fey,unique,LL,16.0,5
 GGtR,214.0,dragon,unique,L,26.0,8
 MM,236.0,aberration,generic,N,2.0,2
 MM,314.0,fiend,generic,N,9.0,4
@@ -710,6 +725,7 @@ MOoT,241.0,undead,generic,N,1.0,2
 MM,259.0,undead,generic,N,5.0,3
 HotDQ,93.0,humanoid,unique,L,7.0,3
 MM,336.0,beast,generic,N,2.0,2
+CoS,238.0,humanoid,unique,N,5.0,3
 BGDiA,199.0,humanoid,unique,N,3.0,2
 GoS,248.0,humanoid,generic,N,2.0,2
 MM,260.0,monstrosity,generic,N,11.0,4
@@ -821,6 +837,7 @@ ToA,231.0,construct,unique,N,12.0,4
 PotA,197.0,humanoid,generic,N,4.0,2
 MM,156.0,giant,generic,N,13.0,5
 VGtM,151.0,giant,legendary,LL,16.0,5
+CM,208.0,undead,generic,N,16.0,5
 CoS,239.0,undead,unique,LL,15.0,5
 CoS,227.0,construct,unique,N,6.0,3
 VGtM,143.0,monstrosity,generic,N,1.0,2
@@ -890,6 +907,7 @@ MM,292.0,monstrosity,generic,N,5.0,3
 GGtR,222.0,monstrosity,generic,N,6.0,3
 MOoT,215.0,monstrosity,generic,N,6.0,3
 ERftLW,311.0,undead,generic,N,2.0,2
+MM,294.0,celestial,generic,N,5.0,3
 SKT,243.0,humanoid,generic,N,2.0,2
 WDH,217.0,humanoid,unique,N,13.0,5
 MM,297.0,undead,legendary,L,13.0,5
@@ -919,6 +937,7 @@ ERftLW,314.0,construct,legendary,L,25.0,8
 ERftLW,320.0,humanoid,generic,N,1.0,2
 ERftLW,315.0,construct,generic,N,8.0,3
 ERftLW,300.0,humanoid,unique,L,18.0,6
+VGtM,219.0,humanoid,generic,N,4.0,2
 VGtM,219.0,humanoid,generic,N,7.0,3
 VGtM,220.0,humanoid,generic,N,6.0,3
 VGtM,220.0,humanoid,legendary,L,12.0,4
@@ -949,6 +968,7 @@ MOoT,247.0,aberration,generic,N,7.0,3
 MM,321.0,beast,generic,N,1.0,2
 MM,340.0,monstrosity,generic,N,3.0,2
 VGtM,198.0,plant,generic,N,5.0,3
+MM,302.0,undead,generic,N,5.0,3
 GGtR,225.0,monstrosity,generic,N,14.0,5
 MM,303.0,dragon,generic,N,6.0,3
 ToA,236.0,humanoid,unique,N,7.0,3
