@@ -3,7 +3,7 @@ title: "Stunning Strike"
 excerpt: "Analysis of how Stunning Strike holds up against published monsters"
 share: true
 date: 2021-10-27
-last_modified_at: 2021-11-03
+last_modified_at: 2021-11-09
 #tags:
 #  - analysis
 #  - classes
@@ -16,7 +16,9 @@ last_modified_at: 2021-11-03
 
 Over the years, I've seen countless debates online around how strong the monk Stunning Strike feature is. In the early days of 5th edition the consensus seemed to be that Stunning Strike was extremely strong. However, in the last few years that consensus has changed within some portions of the online D&D community to Stunning Strike being considered weak instead. 
 
-The reason often cited for this change is that Stunning Strike relies on Constitution saving throws which higher CR monsters generally strong against. This line of argument seems reasonable enough, but does the data actually support it? This is the question I'll be attempting to answer here.
+The reason often cited for why Stunning Strike is weak is that it relies on Constitution saving throws which monsters are generally strong agaist, especially at higher CRs. As I showed previously in my post on [Monster Saving Throws]({{ site.url }}{{ site.baseurl }}{% link _monsters/monster-saving-throws.md %}), there is some truth to this. However, the topic definitely warrants a more in-depth look.
+
+In this post, I'll be taking a deep dive into how Stunning Strike holds up against published monsters from official source books.
 
 # Method
 
@@ -61,7 +63,7 @@ The strength of Stunning Strike for our monk at higher levels, therefore, depend
 
 ## Ki per Stun
 
-Another useful way of looking at this data is to calculate the average ki our monk needs to expend in order to successfully stun a monster. Since the probability of our monk needed to spend "X" ki points in order to successfully stun a specific monster follows the binomial distribution, the average number of ki needed for each monster is calculated by taking the inverse of their probability of being stunned from a single Stunning Strike. For example, if our monk had a 25% chance of stunning some monster then they would need to spend $$1/0.25 = 4$$ ki on average to stun that monster.
+Another useful way of looking at this data is to calculate the average ki our monk needs to expend in order to successfully stun a monster. Since the probability of our monk needed to spend "X" ki points in order to successfully stun a specific monster follows the binomial distribution, the average number of ki needed for each monster is calculated by taking the inverse of their probability of being stunned from a single Stunning Strike. For example, if our monk had a 25% chance of stunning some monster then they would need to spend 1 / 0.25 = 4 ki on average to stun that monster.
 
 <center>
 <figure style="width:1200px;min-width:50%;max-width:100%" alt="Ki per stun probability distribution">
@@ -108,6 +110,20 @@ When facing Generic monsters, the overall likelihood of stunning a monster with 
 
 # Extra Credit
 
+For anyone wondering how Stunning Strike holds up against similar abilities for spellcasters, the figure below compares the average stun probability (red dashed line), along with the 80% confidence interval (red shaded region), with the average probability of landing a spell with a Wisdom saving throw (blue dashed line), along with the 80% confidence interval (blue shaded region), for each category of monsters.
+
+<center>
+<figure style="width:1200px;min-width:50%;max-width:100%" alt="Stunning Strike and Wisdom spell save probability range">
+    <img src="{{ site.url }}{{ site.baseurl }}/classes/stunning-strike/stun-spell-probability-confidence80-categories.svg">
+    <figcaption>Average probability of landing a Stunning Strike and 80% confidence interval (red) along with probability of landing a spell with a Wisdom saving throw and 80% confidence interval (blue).</figcaption>
+</figure>
+</center>
+
+On average the odds of landing a Stunning Strike are slightly lower than the odds of landing a spell with a Wisdom saving throw. However, the difference between them is small (on order of 5%) and the width of the distribution is generally narrower for Stunning Strike. This means Stunning Strike will produce more consistent results than spells that use Wisdom saving throw. 
+
+The reason for this difference in consistency comes almost entirely from the Magic Resistance monster trait that grants monsters advantage on saving throws against spells and magical effect. For Stunning Strike, the probability distribution is influence by the distribution in monster Constitution modifiers as well as whether each monster is proficient in Constitution saving throws. Spells with Wisdom saving throws are influence by both of these things for Wisdom as well as whether or not the monster has the Magic Resistance trait, which is increasingly common as monster CR increases.
+
+<!-- 
 For those wondering why the probability distributions of stunning a monster have two peaks at higher levels, this comes from the ever widening gap between monsters with proficiency in Constitution saves and those without. Since monsters' proficiency bonus scales with CR this gap gets wider the higher we go. And, since the frequency of monsters having saving throw proficiencies increases with CR as well, this second peak gets taller and taller.
 
 <center>
@@ -116,3 +132,4 @@ For those wondering why the probability distributions of stunning a monster have
     <figcaption>Distribution of Stunning Strike probabilities, grouped by whether or not monsters are proficient in Constitution saving throws.</figcaption>
 </figure>
 </center>
+-->
