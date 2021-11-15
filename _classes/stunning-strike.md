@@ -3,7 +3,7 @@ title: "Stunning Strike"
 excerpt: "Analysis of how Stunning Strike holds up against published monsters"
 share: true
 date: 2021-10-27
-last_modified_at: 2021-11-09
+last_modified_at: 2021-11-14
 #tags:
 #  - analysis
 #  - classes
@@ -16,17 +16,25 @@ last_modified_at: 2021-11-09
 
 Over the years, I've seen countless debates online around how strong the monk Stunning Strike feature is. In the early days of 5th edition the consensus seemed to be that Stunning Strike was extremely strong. However, in the last few years that consensus has changed within some portions of the online D&D community to Stunning Strike being considered weak instead. 
 
-The reason often cited for why Stunning Strike is weak is that it relies on Constitution saving throws which monsters are generally strong agaist, especially at higher CRs. As I showed previously in my post on [Monster Saving Throws]({{ site.url }}{{ site.baseurl }}{% link _monsters/monster-saving-throws.md %}), there is some truth to this. However, the topic definitely warrants a more in-depth look.
+The reason often cited for why Stunning Strike is weak is that it relies on Constitution saving throws which monsters are generally strong against, especially at higher CRs. As I showed previously in my post on [Monster Saving Throws]({{ site.url }}{{ site.baseurl }}{% link _monsters/monster-saving-throws.md %}), there is some truth to this. However, the topic definitely warrants a more in-depth look.
 
 In this post, I'll be taking a deep dive into how Stunning Strike holds up against published monsters from official source books.
 
 # Method
 
-The probability of monster failing the Constitution saving throw against being stunned can be calculated using the following equation.
+In order to assess how often Stunning Strike can successfully stun a monster we need to be able to calculate the probability that monster fails the Constitution saving throw against the effect, as well as the probability that the monster is hit by an attack from a monk in the first place. 
 
-$$ p_{\rm stun} = \frac{ {\rm min}(20, {\rm max}(0, DC - SB - 1)) }{ 20 } $$
+We can express the probability of a monster failing the Constitution saving throw against being stunned as 
 
-Here, DC is the monk's ki save DC and SB is the monster's Constitution saving throw bonus. The maximum and minimum functions are there to keep the probability between 0 and 1.
+$$ p_{\rm stun} = \frac{ {\rm min}(20, {\rm max}(0, DC - SB - 1)) }{ 20 }\ , $$
+
+where DC is the monk's ki save difficulty class, and SB is the monster's Constitution saving throw bonus. The maximum and minimum functions are there to keep the probability between 0 and 1.
+
+The probability of an attack hitting a monster can be calculated in a similar manner as
+
+$$ p_{\rm hit} = \frac{ {\rm min}(19, {\rm max}(1, 20 + AB - AC)) }{ 20 }\ , $$
+
+where AB is the monk's attack bonus, and AC is the monster's armor class. Here, the maximum and minimum functions keep the probability above 5%, to reflect the chance of rolling a critical hit on a natural 20, and below 95%, to reflect the chance of rolling a critical miss on a natural 1.
 
 The monk that we will be calculating this for is assumed to have 16 Dexterity and 16 Wisdom at 1st level. They then takes +2 Dexterity for their Ability Score Improvement at 4th level, +2 Wisdom at 8th level, +2 Dexterity at 12th level, and finally +2 Wisdom at 16th level.
 
