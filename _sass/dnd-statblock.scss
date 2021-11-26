@@ -1,0 +1,201 @@
+
+/*
+body {
+    text-align: center;
+    font-size: 13.5px;
+    line-height: 1.2em;
+}
+body *{
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica,
+        Arial, sans-serif;
+}*/
+.stat-block {
+    //margin: auto;
+
+    font-size: 13.5px;
+    line-height: 1.2em;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Noto Sans', 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+
+    text-align: left;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    width: 17%;
+    min-width:280px;
+    background: #FDF1DC;
+    padding: 5px 10px 20px;
+    box-shadow: 0 0 1.5em #867453;
+}
+.stat-block.wide{
+    box-sizing: border-box; // added
+    width: 80%; //46.5;%
+    min-width: 560px;
+
+    column-count: 2; // added
+}
+@media screen and (max-width: 675px){
+    .stat-block.wide{
+        min-width: 280px;
+        column-count: 1; // added
+    }
+}
+.orange-border{
+    display: block;
+    background: #E69A28;
+    border: 1px solid #000;
+    height: 5px;
+    margin: -10px -10px 0;
+    box-sizing: initial;
+    column-span: all; // added
+}
+.orange-border.bottom{
+    margin: 15px -10px -20px;
+}
+.clear-border{
+    display: block;
+    //background: #d628e6;
+    height: 5px;
+    margin: 0px -10px 0;
+    box-sizing: initial;
+    column-span: all;
+}
+.tapered-rule{
+    display: block;
+    width: 100%;
+    height: 5px;
+    border: none;
+    color: #922610;
+    fill: #922610;
+    stroke: #922610;
+}
+.creature-heading h1{
+    font-family: 'Libre Baskerville', 'Lora', 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
+    color: #922610;
+    font-size: 23px;
+    line-height: 1.2em;
+    margin: 0 0 0;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.creature-heading h2{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 1.2em;
+    margin: 0 0 5px;
+}
+.property-line h4,
+.property-line p{
+    display: inline;
+    margin: 0;
+    color: #922610;
+    font-size: 13.5px;
+    line-height: 1.2em;
+}
+.property-line h4{
+    color: #7A200D;
+}
+.property-line{
+    text-indent: -1em;
+    padding-left: 1.1em;
+    line-height: 1.4em;
+}
+.property-line.first{
+    margin: 8px 0 0
+}
+.property-line.last{
+    margin: 0 0 10px;
+}
+.abilities{
+    text-align: center;
+    color: #922610;
+}
+.abilities > div{
+    display: inline-block;
+    vertical-align: middle;
+    width: 15.5%;
+    min-width: 40px; 
+    font-size: 12px;
+    line-height: 1em;
+}
+.abilities h4{
+    margin: 10px 0 2px;
+    font-size: 14px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    color: #7A200D;
+}
+.abilities p{
+    margin: 0 0 10px;
+    line-height: 1.2em;
+}
+.property-block h4,
+.property-block p{
+    font-size: 13.5px;
+    line-height: 1.2em;
+    display: inline;
+    margin: 0;
+}
+.property-block h4{
+    font-style: italic;
+}
+.property-block{
+    padding: 10px 2px 0;
+    -webkit-column-break-inside: avoid; //added
+}
+.actions h3{
+    border-bottom: 1px solid #7A200D;
+    color: #7A200D;
+    font-size: 21px;
+    font-variant: small-caps;
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin: 20px 0 0;
+    padding: 0 0 0px;
+    text-indent: 5px;
+}
+.actions{
+    margin: 0 0 20px;
+}
+.actions:last-child{
+    margin: 0;
+}
+
+@media print{
+    .orange-border{
+        display: none;
+    }
+    .stat-block,
+    .stat-block.wide, 
+    .stat-block.wide .section-left,
+    .stat-block.wide .section-right,
+    .property-line,
+    .property-block{
+        width: 100%;
+        display: block;
+    }
+    .stat-block.wide .section-left{
+    margin: 0;
+    }
+    .stat-block.wide .section-right{
+    margin: 0;
+    }
+    .stat-block{
+        width: 40%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .stat-block.wide{
+        page-break-after: always;
+    }
+}
+@media screen and (max-width: 575px){
+    .stat-block{
+        margin: 20px 0;
+    }
+}

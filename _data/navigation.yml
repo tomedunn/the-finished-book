@@ -10,6 +10,8 @@ monsters:
     url: /monsters/categorizing-monsters
   - title: "Calculating Monster CR"
     url: /monsters/calculating-monster-cr
+  - title: "Calculating Monster XP"
+    url: /monsters/calculating-monster-xp
   - title: "Monster Saving Throws"
     url: /monsters/monster-saving-throws
 
