@@ -73,10 +73,10 @@ Not only does this method for calculating a monster's XP give us additional insi
 
 ## Full Comparison
 
-To check the accuracy of this approach, I applied Eqn. \eqref{eq:eXP-full} to monsters with CRs of 1 or more, taken from official 5th edition source books. I used the same adjusted HP, AC, DPR, and AB values I used previously in [Calculating Monster CR]({{ site.url }}{% link _monsters/calculating-monster-cr.md %}). A comparison of the calculated XP values and listed XP values is shown in Fig. 1 below.
+To check the accuracy of this approach, I applied Eqn. \eqref{eq:eXP-full} to monsters with CRs of 1 or more, taken from official 5th edition source books. I used the same adjusted HP, AC, DPR, and AB values I used previously in [Calculating Monster CR]({{ site.url }}{{ site.baseurl }}{% link _monsters/calculating-monster-cr.md %}). A comparison of the calculated XP values and listed XP values is shown in Fig. 1 below.
 
 <center>
-<figure style="width:700px;min-width:50%;max-width:100%">
+<figure style="width:500px;min-width:50%;max-width:100%">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-xp/calc-xp-vs-xp-log-log.svg">
     <figcaption>Figure 1: Calculated XP mean (line) and 60% confidence interval (shaded region) vs listed XP.</figcaption>
 </figure>
@@ -85,7 +85,7 @@ To check the accuracy of this approach, I applied Eqn. \eqref{eq:eXP-full} to mo
 The general trend shows a strong correlation between the two, however, there are some small differences. Namely, that this method tends to underestimate monster XP at low CRs and slightly overestimates it at high CRs.
 
 <center>
-<figure style="width:700px;min-width:50%;max-width:100%">
+<figure style="width:500px;min-width:50%;max-width:100%">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-xp/xp-cr-vs-cr.svg">
     <figcaption>Figure 2: Calculated eCR mean and 60% confidence interval vs CR.</figcaption>
 </figure>
@@ -94,7 +94,7 @@ The general trend shows a strong correlation between the two, however, there are
 Next, I converted the calculated XP values to their equivalent CR for each monster. As Fig. 2 illustrates, the CRs calculated using this method are generally in good agreement with the CRs listed in the monsters' stat blocks, with the vast majority of monsters having a calculated CR within +/- 1 of their listed value. 
 
 <center>
-<figure style="width:700px;min-width:50%;max-width:100%">
+<figure style="width:500px;min-width:50%;max-width:100%">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-xp/ecr-dmg-cr-delta-vs-cr.svg">
     <figcaption>Figure 3: Shows the difference between the calculated CR and the listed CR as a function of CR for both eCR and CR calculated using the method given in the DMG.</figcaption>
 </figure>
