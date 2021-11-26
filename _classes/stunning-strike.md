@@ -3,7 +3,7 @@ title: "Stunning Strike"
 excerpt: "Analysis of how Stunning Strike holds up against published monsters"
 share: true
 date: 2021-10-27
-last_modified_at: 2021-11-14
+last_modified_at: 2021-11-25
 #tags:
 #  - analysis
 #  - classes
@@ -26,13 +26,19 @@ In order to assess how often Stunning Strike can successfully stun a monster we 
 
 We can express the probability of a monster failing the Constitution saving throw against being stunned as 
 
-$$ p_{\rm stun} = \frac{ {\rm min}(20, {\rm max}(0, DC - SB - 1)) }{ 20 }\ , $$
+\begin{equation}
+    \label{eq:prob-stun}
+    p_{\rm stun} = \frac{ {\rm min}(20, {\rm max}(0, DC - SB - 1)) }{ 20 }\ ,
+\end{equation}
 
 where DC is the monk's ki save difficulty class, and SB is the monster's Constitution saving throw bonus. The maximum and minimum functions are there to keep the probability between 0 and 1.
 
 The probability of an attack hitting a monster can be calculated in a similar manner as
 
-$$ p_{\rm hit} = \frac{ {\rm min}(19, {\rm max}(1, 20 + AB - AC)) }{ 20 }\ , $$
+\begin{equation}
+    \label{eq:prob-hit}
+    p_{\rm hit} = \frac{ {\rm min}(19, {\rm max}(1, 20 + AB - AC)) }{ 20 }\ ,
+\end{equation}
 
 where AB is the monk's attack bonus, and AC is the monster's armor class. Here, the maximum and minimum functions keep the probability above 5%, to reflect the chance of rolling a critical hit on a natural 20, and below 95%, to reflect the chance of rolling a critical miss on a natural 1.
 
@@ -48,23 +54,23 @@ In most campaigns, the vast majority of monsters come from the Generic category 
 
 ## Probability of Stunning a Monster
 
-Using the above formula, the probability of our monk landing a Stunning Strike can be calculated for a wide array of monsters taken from official source books. To understand how likely it is for our monk to encounter a monster with a given probability of being stunned, the figure below groups  monsters by their Stunning Strike probability and plots the number of monsters in each category.
+Using Eqn. \eqref{eq:prob-stun}, the probability of our monk landing a Stunning Strike can be calculated for a wide array of monsters taken from official source books. To understand how likely it is for our monk to encounter a monster with a given probability of being stunned, Fig. 1 below groups monsters by their Stunning Strike probability and plots the number of monsters in each category.
 
 <center>
 <figure style="width:1200px;min-width:50%;max-width:100%" alt="Stunning Strike probability distribution">
     <img src="{{ site.url }}{{ site.baseurl }}/classes/stunning-strike/stun-probability-distribution-categories.svg">
-    <figcaption>Distribution of Stunning Strike probabilities.</figcaption>
+    <figcaption>Figure 1: Distribution of Stunning Strike probabilities.</figcaption>
 </figure>
 </center>
 
 Right away we see why our monster categories are important for this analysis. While the shape of the distribution for Generic monsters widens as our monk levels up, the average remains fairly consistently around 50%. Unique monsters, though, have a similar distribution to Generic monsters at levels 5 and 10, but shift much more towards the lower end of the spectrum for levels 15 and 20. Finally, Legendary monsters are nearly absent from our level 5 distribution and for levels 10, 15, and 20 they skew consistently towards lower chances of being stunned.
 
-To further illustrate these observations, the previous data is plotted again in the figure below. It shows the average stun probability (dashed line), along with the 80% confidence interval (shaded region) for each category of monsters.
+To further illustrate these observations, the previous data is plotted again in Fig. 2 below. It shows the average stun probability (dashed line), along with the 80% confidence interval (shaded region) for each category of monsters.
 
 <center>
 <figure style="width:1200px;min-width:50%;max-width:100%" alt="Stunning Strike probability range">
     <img src="{{ site.url }}{{ site.baseurl }}/classes/stunning-strike/stun-probability-confidence80-categories.svg">
-    <figcaption>Average probability of landing a Stunning Strike along with 80% confidence interval.</figcaption>
+    <figcaption>Figure 2: Average probability of landing a Stunning Strike along with 80% confidence interval.</figcaption>
 </figure>
 </center>
 
@@ -78,11 +84,11 @@ Another useful way of looking at this data is to calculate the average ki our mo
 <center>
 <figure style="width:1200px;min-width:50%;max-width:100%" alt="Ki per stun probability distribution">
     <img src="{{ site.url }}{{ site.baseurl }}/classes/stunning-strike/ki-per-stun-probability-distribution-categories.svg">
-    <figcaption>Probability distribution of average ki needed to land a Stunning Strike.</figcaption>
+    <figcaption>Figure 3: Probability distribution of average ki needed to land a Stunning Strike.</figcaption>
 </figure>
 </center>
 
-The above figure show how the average ki cost per stun is distributed for each of the level ranges we've looked at so far.
+Figure 3 show how the average ki cost per stun is distributed for each of the level ranges we've looked at so far.
 
 For our monk at levels 5 and 10, the distribution for Generic monsters is sharply peaked around 2 ki per stun. Indeed, when we calculated the median values for these levels we get an average cost of 1.82 ki per stun. For levels 15 and 20, the distributions still have a strong peak around 2 ki per stun, but they also have a longer tail. Still, the vast majority of monsters take 4 ki per stun or less. The calculated median values for these levels are 2.0 and 2.2 ki per stun respectively.
 
@@ -91,26 +97,26 @@ For Legendary and Unique monsters the story is similar, however, the size of the
 <center>
 <figure style="width:1200px;min-width:50%;max-width:100%" alt="Ki per stun probability range">
     <img src="{{ site.url }}{{ site.baseurl }}/classes/stunning-strike/ki-per-stun-probability-confidence60-categories.svg">
-    <figcaption>Average ki needed to land a Stunning Strike along with 60% confidence interval.</figcaption>
+    <figcaption>Figure 4: Average ki needed to land a Stunning Strike along with 60% confidence interval.</figcaption>
 </figure>
 </center>
 
-These averages (dashed line) along with their 60% confidence intervals (shaded region) are plotted above.
+These averages (dashed line) along with their 60% confidence intervals (shaded region) are plotted above, in Fig. 4.
 
 In total, our monk will not experience a significant change in the effectiveness of Stunning Strike against Generic monsters, and on average they'll still fair decently well against both Legendary and Unique monsters. However, the lengths of the tails for Legendary and Unique monsters at higher levels makes it much more likely that our monk will face an important monster during a campaign that cannot practically be stunned.
 
 ## Attacks per Stun
 
-In the same way the number of ki needed to stun a monster was calculated, the number of attacks needed to stun a monster can be calculated as well. 
+In the same way the number of ki needed to stun a monster was calculated, the number of attacks needed to stun a monster can be calculated as well using Eqns. \eqref{eq:prob-stun} and \eqref{eq:prob-hit}. 
 
 <center>
 <figure style="width:1200px;min-width:50%;max-width:100%" alt="Attacks per stun probability range">
     <img src="{{ site.url }}{{ site.baseurl }}/classes/stunning-strike/attacks-per-stun-confidence60-categories.svg">
-    <figcaption>Average number of attacks needed to land a Stunning Strike along with 60% confidence interval.</figcaption>
+    <figcaption>Figure 5: Average number of attacks needed to land a Stunning Strike along with 60% confidence interval.</figcaption>
 </figure>
 </center>
 
-Without spending too much time focusing on the distributions, the above figure show how the median number of attacks needed to land a Stunning Strike (dashed line) and 60% confidence interval (shaded region) change with our monk's level for each category of monster.
+Without spending too much time focusing on the distributions, Fig. 5 shows how the median number of attacks needed to land a Stunning Strike (dashed line) and 60% confidence interval (shaded region) change with our monk's level for each category of monster.
 
 For generic monsters, the average number of attacks needed to successfully stun a monster stays close to 3 attacks per stun for all levels. However, for Legendary and Unique monsters the number of attacks is generally higher, at around 4 attacks per stun.
 
@@ -120,12 +126,12 @@ To put all of this into context, lets look at how Stunning Strike holds up again
 
 For the purpose of this comparison, I'll be using an example spellcaster that starts off with a spellcasting ability score of 16 at 1st level, increases it by +2 using their Ability Score Improvement at 4th level, and another +2 at 8th level.
 
-The figure below compares the average stun probability (red dashed line), along with the 80% confidence interval (red shaded region), with the average probability of landing a spell with a Wisdom saving throw (blue dashed line), along with the 80% confidence interval (blue shaded region), for each category of monsters.
+Figure 6, shown below, compares the average stun probability (red dashed line), along with the 80% confidence interval (red shaded region), with the average probability of landing a spell with a Wisdom saving throw (blue dashed line), along with the 80% confidence interval (blue shaded region), for each category of monsters.
 
 <center>
 <figure style="width:1200px;min-width:50%;max-width:100%" alt="Stunning Strike and Wisdom spell save probability range">
     <img src="{{ site.url }}{{ site.baseurl }}/classes/stunning-strike/stun-spell-probability-confidence80-categories.svg">
-    <figcaption>Average probability of landing a Stunning Strike and 80% confidence interval (red) along with probability of landing a spell with a Wisdom saving throw and 80% confidence interval (blue).</figcaption>
+    <figcaption>Figure 6: Average probability of landing a Stunning Strike and 80% confidence interval (red) along with probability of landing a spell with a Wisdom saving throw and 80% confidence interval (blue).</figcaption>
 </figure>
 </center>
 
@@ -148,7 +154,7 @@ For those wondering why the probability distributions of stunning a monster have
 <center>
 <figure style="width:1200px;min-width:50%;max-width:100%" alt="Stunning Strike probability distribution by proficiency">
     <img src="{{ site.url }}{{ site.baseurl }}/classes/stunning-strike/stun-probability-distribution-proficient.svg">
-    <figcaption>Distribution of Stunning Strike probabilities, grouped by whether or not monsters are proficient in Constitution saving throws.</figcaption>
+    <figcaption>Figure 7 Distribution of Stunning Strike probabilities, grouped by whether or not monsters are proficient in Constitution saving throws.</figcaption>
 </figure>
 </center>
 
