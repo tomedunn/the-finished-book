@@ -24,10 +24,9 @@ Every adventure module WotC has published so far has legendary monsters in it th
 
 This approach gives better resolution than comparing listed CRs with CR values calculated using chapter 9 of the DMG. And, since the difference between CRs is not uniformly defined, it also gives a much more consistent measure of how much stronger/weaker a monster is than expected across a wide range of CRs.
 
-Figure 1 shows how these calculated XP values compare to the target XP value for both normal and legendary monsters from adventure modules. 
+Figure <a href="#fig:exp-ratio-vs-time-adventure-modules" class="fig-ref">1</a> shows how these calculated XP values compare to the target XP value for both normal and legendary monsters from adventure modules. 
 
-
-<figure>
+<figure id="fig:exp-ratio-vs-time-adventure-modules">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/early-legendary-monsters/exp-ratio-mean-vs-time-adventure-modules-legendary.svg"  style="width:800px;min-width:50%;max-width:100%">
     <figcaption>Figure 1: Calculated XP mean (points) normalized to target XP values for monsters published in official adventure modules as a function of the adventure modules' publication dates.</figcaption>
 </figure>
@@ -62,18 +61,18 @@ Finally, in _Tomb of Annihilation_, Acererak is intended to be encountered with 
 This means that of the monsters listed from these adventures only Rezmir from _Hoard of the Dragon Queen_, Yestabrod from _Out of the Abyss_, Tarul Var from _Tales from the Yawning Portal_, and the atropal from _Tomb of Annihilation_ are intended to be fought directly and under normal circumstances.
 -->
 
-<figure class="half">
+<figure id="fig:exp-ratio-vs-encounter-type">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/early-legendary-monsters/exp-ratio-vs-encounter-type.svg">
     <figcaption>Figure 2: Calculated XP mean (points) normalized to target XP values for the monsters listed in Table 1.</figcaption>
 </figure>
 
-As shown in Fig. 2, when split into monsters who are fought directly by the PCs and those who aren't, the legendary monsters who are driving this trend are clearly the later. 
+As shown in Fig. <a href="#fig:exp-ratio-vs-encounter-type" class="fig-ref">2</a>, when split into monsters who are fought directly by the PCs and those who aren't, the legendary monsters who are driving this trend are clearly the later. 
 
 This result isn't too surprising. The legendary monsters who are fought directly in these adventure modules are much more likely to have been encountered by playtesters and given feedback on than those who were intended to be avoided. And, for those legendary monsters encountered with support from allies or in weakened state, the playtest feedback would naturally be focused more on how the encounter felt as a whole, than how each monster felt individually.
 
-Another interesting point to note about these monsters is that nearly all of the legendary monsters from _Out of the Abyss_ (the demon lords) were republished in _Mordenkainen's Tome of Foes_ with adjustments made to their stat blocks. A comparison between XP ratio from each of these books for each demon lord is shown in Fig. 3.  
+Another interesting point to note about these monsters is that nearly all of the legendary monsters from _Out of the Abyss_ (the demon lords) were republished in _Mordenkainen's Tome of Foes_ with adjustments made to their stat blocks. A comparison between XP ratio from each of these books for each demon lord is shown in Fig. <a href="#fig:exp-ratio-vs-monster-oota-mtof" class="fig-ref">3</a>.  
 
-<figure class="half">
+<figure id="fig:exp-ratio-vs-monster-oota-mtof">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/early-legendary-monsters/exp-ratio-vs-monster-oota-mtof.svg">
     <figcaption>Figure 3: Calculated XP mean normalized to target XP values for the demon lords published in <i>Out of the Abyss</i> (OotA) and then republished in <i>Mordenkainen's Tome of Foes</i> (MtoF).</figcaption>
 </figure>
@@ -83,44 +82,44 @@ For all of the monsters except Juiblex, who was the most on target of the origin
 
 # Source Books
 
-For source books, the story is a bit more subtle. As Fig. 4 shows, the average XP ratio for the published source books stays fairly consistent for both normal and legendary monsters.
+For source books, the story is a bit more subtle. As Fig. <a href="#fig:exp-ratio-vs-time-source-books" class="fig-ref">4</a> shows, the average XP ratio for the published source books stays fairly consistent for both normal and legendary monsters.
 
-<figure>
+<figure id="fig:exp-ratio-vs-time-source-books">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/early-legendary-monsters/exp-ratio-mean-vs-time-source-books-legendary.svg" style="width:800px;min-width:50%;max-width:100%">
     <figcaption>Figure 4: Calculated XP mean normalized to target XP values for source books as a function of the source books' publication dates.</figcaption>
 </figure>
 
 The _Monster Manual_ (MM) has a slightly higher average ratio, but the difference is small compared to what the trend showed for adventure modules.
 
-However, when comparing the distribution of XP ratio values, as shown in Fig. 5, the MM stands out as a clear outlier from the rest of the source books, with a higher than normal portion of its monsters having a XP ratio between 1.3 and 1.7.
+However, when comparing the distribution of XP ratio values, as shown in Fig. <a href="#fig:exp-ratio-cdf-mm-vs-source-books" class="fig-ref">5</a>, the MM stands out as a clear outlier from the rest of the source books, with a higher than normal portion of its monsters having a XP ratio between 1.3 and 1.7.
 
-<figure class="half">
+<figure id="fig:exp-ratio-cdf-mm-vs-source-books">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/early-legendary-monsters/exp-ratio-cdf-mm-vs-source-books.svg">
     <figcaption>Figure 5: Cumulative probability distribution of XP normalized to target XP values for monsters from official source books. For source books outside of the <i>Monster Manual</i> (non-MM, orange), the thin lines represent each individual book while the thick line represents the average of the group as a whole.</figcaption>
 </figure>
 
-After looking through the legendary monsters from the MM in this range, this deviation was clearly the result of dragons. This is clearly illustrated in Fig. 6, which shows how the distribution of XP ratio values changes for the MM when dragons are removed from it.
+After looking through the legendary monsters from the MM in this range, this deviation was clearly the result of dragons. This is clearly illustrated in Fig. <a href="#fig:exp-ratio-cdf-mm-vs-source-books-no-dragons" class="fig-ref">6</a>, which shows how the distribution of XP ratio values changes for the MM when dragons are removed from it.
 
-<figure class="half">
+<figure id="fig:exp-ratio-cdf-mm-vs-source-books-no-dragons">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/early-legendary-monsters/exp-ratio-cdf-mm-vs-source-books-no-dragons.svg">
     <figcaption>Figure 6: Cumulative probability distribution of XP normalized to target XP values for monsters from official source books.</figcaption>
 </figure>
 
-Indeed, the legendary dragons in the MM have an average XP ratio of around 1.7 while legendary non-dragon monsters have an average XP ratio of around 1.2. In other words, the legendary dragons in the MM are around 40% tougher, on average, than the rest of the legendary monsters in the MM. This relationship is illustrated again in Fig. 7, which shows XP ratios for individual monsters along with their target CR.
+Indeed, the legendary dragons in the MM have an average XP ratio of around 1.7 while legendary non-dragon monsters have an average XP ratio of around 1.2. In other words, the legendary dragons in the MM are around 40% tougher, on average, than the rest of the legendary monsters in the MM. This relationship is illustrated again in Fig. <a href="#fig:exp-ratio-vs-cr-mm-type-dragon" class="fig-ref">7</a>, which shows XP ratios for individual monsters along with their target CR.
 
-<figure class="half">
+<figure id="fig:exp-ratio-vs-cr-mm-type-dragon">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/early-legendary-monsters/exp-ratio-vs-cr-mm-type-dragon.svg">
     <figcaption>Figure 7: Calculated XP normalized to target XP values for legendary monsters from the <i>Monster Manual</i>.</figcaption>
 </figure>
 
-I first came across this observation around the start of 2020, and my initial theory was that this was probably intentional on the part of WotC. After all, dragons are suppose to be iconic creatures in Dungeons & Dragons. They're in the name of the game! However, WotC recently released a source book dedicated specifically to dragons, _Fizban's Treasury of Dragons_ (FToD), which was included in the collection of non-MM source books shown in Fig. 5 and it does not show this same behavior.
+I first came across this observation around the start of 2020, and my initial theory was that this was probably intentional on the part of WotC. After all, dragons are suppose to be iconic creatures in Dungeons & Dragons. They're in the name of the game! However, WotC recently released a source book dedicated specifically to dragons, _Fizban's Treasury of Dragons_ (FToD), which was included in the collection of non-MM source books shown in Fig. <a href="#fig:exp-ratio-cdf-mm-vs-source-books" class="fig-ref">5</a> and it does not show this same behavior.
 
-<figure class="half">
+<figure id="fig:exp-ratio-vs-cr-mm-ftod-type-dragon">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/early-legendary-monsters/exp-ratio-vs-cr-mm-ftod-type-dragon.svg">
     <figcaption>Figure 8: Calculated XP normalized to target XP values for legendary monsters from the <i>Monster Manual</i> and <i>Fizban's Treasury of Dragons</i>.</figcaption>
 </figure>
 
-When compared with the legendary dragons from the MM, as Fig. 8 shows, the dragons published in FToD are consistently weaker, and more in line with their target values. In terms of a numeric average, the legendary dragons from the MM, again, have an average XP ratio of around 1.7 while the legendary dragons from FToD have an average XP ratio of 1.2.
+When compared with the legendary dragons from the MM, as Fig. <a href="#fig:exp-ratio-vs-cr-mm-ftod-type-dragon" class="fig-ref">8</a>, shows, the dragons published in FToD are consistently weaker, and more in line with their target values. In terms of a numeric average, the legendary dragons from the MM, again, have an average XP ratio of around 1.7 while the legendary dragons from FToD have an average XP ratio of 1.2.
 
 # Conclusion
 

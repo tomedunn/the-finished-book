@@ -65,13 +65,13 @@ For AC, the most common adjustments are abilities that give attackers disadvanta
 raise AC, and proficiencies in multiple saving throws. Like adjustments to HP, these adjustments play a larger role at 
 higher CRs than they do at lower CRs. 
 
-<figure class="half" style="width:1000px;min-width:50%;max-width:100%">
+<figure class="half" id="fig:hp-and-ac-vs-cr">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-cr/hp-vs-cr.svg">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-cr/ac-vs-cr.svg">
-    <figcaption>Hit points and armor class vs CR (adjusted and unadjusted).</figcaption>
+    <figcaption>Figure 1: Hit points and armor class vs CR (adjusted and unadjusted).</figcaption>
 </figure>
 
-The above figure shows how published creatures compare, on average, against the HP and AC targets listed in the DMG.
+Figure <a href="#fig:hp-and-ac-vs-cr" class="fig-ref">1</a> shows how published creatures compare, on average, against the HP and AC targets listed in the DMG.
 
 For HP, while average effective HP closely matches the DMG target, the average HP consistently falls short. For AC, 
 though, the average AC generally match the DMG target, while the average effective AC comes out consistently higher than 
@@ -79,19 +79,17 @@ expected with the biggest difference coming from monsters CR 17 and above.
 
 The differences in effective AC might seem like a large discrepancy, but AC only acts as a minor adjustment to a monster's 
 overall D-CR so the overall impact is relatively small. This impact is reflected in the calculated D-CR, which is shown in 
-the figure below.
+the Fig. <a href="#fig:d-cr-vs-cr" class="fig-ref">2</a> below.
 
-<center>
-<figure style="width:500px;min-width:50%;max-width:100%">
+<figure id="fig:d-cr-vs-cr">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-cr/d-cr-vs-cr.svg">
-    <figcaption>Calculated defensive CR mean and 60% confidence interval vs CR.</figcaption>
+    <figcaption>Figure 2: Calculated defensive CR mean and 60% confidence interval vs CR.</figcaption>
 </figure>
-</center>
 
 Overall, D-CR appears to be on target, with the average D-CR for published monsters coming within +/- 1 of target. It's 
 worth noting that the biggest differences come from the extreme ends of the CR spectrum, with very low CR monsters showing 
 consistently lower D-CR than expected due to low effective HP, and very high CR monsters showing consistently higher D-CR 
-than expected dueto high effective AC.
+than expected due to high effective AC.
 
 ## Offensive CR
 
@@ -101,13 +99,13 @@ them to score a critical hit against surprised creatures. However, I did not dif
 calculating DPR for each monster and so, for the time being, they are not split apart from the effective DPR. The most common 
 adjustments to AB are abilities that give advantage on attack rolls.
 
-<figure class="half" style="width:1000px;min-width:50%;max-width:100%">
+<figure class="half" id="fig:dpr-and-ab-vs-cr">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-cr/dpr-vs-cr.svg">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-cr/ab-vs-cr.svg">
-    <figcaption>Damage per round and attack bonus vs CR (adjusted and unadjusted).</figcaption>
+    <figcaption>Figure 3: Damage per round and attack bonus vs CR (adjusted and unadjusted).</figcaption>
 </figure>
 
-The above figure shows how published creatures compare, on average, against the DPR and AB targets listed in the DMG. 
+Figure <a href="#fig:dpr-and-ab-vs-cr" class="fig-ref">3</a> shows how published creatures compare, on average, against the DPR and AB targets listed in the DMG. 
 
 Effective DPR closely matches the expected DPR values from the DMG for all but the highest CRs which tend to be a bit lower 
 than expected. The DPR values shown here only include effective DPR. As mentioned earlier, there are adjustments made to DPR 
@@ -117,15 +115,13 @@ DPR values.
 Effective AB shows a similar story to effective AC. It is generally higher than the expected value and that difference is 
 largest at higher CRs. However, unlike AC, there is little to no difference between effective AB and unadjusted values.
 
-The combined impact of effective DPR and AB is shown in the figure below which shows how the average O-CR compares with the
+The combined impact of effective DPR and AB is shown in Fig. <a href="#fig:o-cr-vs-cr" class="fig-ref">4</a> below which shows how the average O-CR compares with the
 expected values in the DMG.
 
-<center>
-<figure style="width:500px;min-width:50%;max-width:100%">
+<figure id="fig:o-cr-vs-cr">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-cr/o-cr-vs-cr.svg">
-    <figcaption>Calculated offensive CR mean and  60% confidence interval vs CR.</figcaption>
+    <figcaption>Figure 4: Calculated offensive CR mean and  60% confidence interval vs CR.</figcaption>
 </figure>
-</center>
 
 On average, the calculated O-CR closely matches the expected target and is rarely more than +/- 1 away across the full 
 range of CRs. The width of the distribution is also generally narrower than what was observed for D-CR, except for CRs 
@@ -135,14 +131,12 @@ frequency of legendary monsters which tend to deal a bit more damage than non-le
 ## CR
 
 With D-CR and O-CR both calculated, the CR for each monster is calculated by taking the average of the two. The results of 
-this are shown in the figure below.
+this are shown in Fig. <a href="#fig:dmg-cr-vs-cr" class="fig-ref">5</a> below.
 
-<center>
-<figure style="width:500px;min-width:50%;max-width:100%">
+<figure id="fig:dmg-cr-vs-cr">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-cr/dmg-cr-vs-cr.svg">
-    <figcaption>Calculated CR mean and 60% confidence interval vs CR.</figcaption>
+    <figcaption>Figure 5: Calculated CR mean and 60% confidence interval vs CR.</figcaption>
 </figure>
-</center>
 
 As with D-CR and O-CR, the calculated CR for published monsters closely matches the listed values on average. It's 
 interesting to note that the calculated CR is more accurate than either of the component D-CR and O-CR.
@@ -156,25 +150,3 @@ The large difference between effective HP and actual HP values for monsters pose
 that I'm sure many DMs grapple with regularly. It indicates that a significant portion of most monster's effective health
 is dependent on the PCs strengths and weaknesses as well as how the PCs choose to engage the monster. However, that's
 a discussion for another time.
-
-<!---
-# Calculating XP
-A monster's XP can be calculated using the following equation
-
-
-
-$$XP_{\rm NPC} = \frac{1}{4} HP \cdot DPR \cdot 1.05^{AB + AC - 14}$$
-
-$$XP_{\rm NPC} = \frac{1}{4} eHP \cdot eDPR$$
-
-where 
-
-$$eDPR = DPR \cdot 1.05^{AB - 2}$$
-
-$$eHP = HP \cdot 1.05^{AC - 12}$$
-
-![Calculated XP vs target XP](calculated-xp-vs-target-xp.png)
-
-![Calculated CR vs target CR](calculated-cr-vs-cr.png)
---->
-

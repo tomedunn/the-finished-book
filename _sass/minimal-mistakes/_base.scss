@@ -140,6 +140,10 @@ a {
   }
 }
 
+.fig-ref {
+  text-decoration: none
+}
+
 /* buttons */
 
 button:focus {
@@ -222,7 +226,9 @@ figure {
   }
 
   img {
-    width: 100%;
+    width: 600px; //width: 100%;
+    min-width: 50%;
+    max-width: 100%;
     margin: auto;
     border-radius: $border-radius;
     -webkit-transition: $global-transition;
