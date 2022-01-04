@@ -14,3 +14,10 @@ header:
 Welcome! These posts are a collection of my thoughts and analysis on D&D 5th edition. It's possible I will expand this to other games or topics in the future, but for now my focus will be exclusively on D&D.
 
 This is not a blog, and I will not be sticking to any kind of regular posting schedule. I like to do these sorts of analysis in my spare time. When I find something worth sharing I'll post about it.
+
+# Recent Posts
+
+{% assign sorted = site.documents | sort: 'date' | reverse %}
+{% for post in sorted limit:5 %}
+  {% include archive-single.html %}
+{% endfor %}
