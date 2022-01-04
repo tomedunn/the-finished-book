@@ -27,7 +27,7 @@ repository               : tomedunn/the-finished-book # GitHub username/repo-nam
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -217,8 +217,8 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -285,27 +285,6 @@ collections:
 
 # Defaults
 defaults:
-  # _monsters
-  - scope:
-      path: ""
-      type: monsters
-    values:
-      layout: single
-      classes: wide
-      author_profile: false
-      read_time: true
-      share: true
-      toc: false
-      toc_label: "Table of Contents"
-      toc_sticky: true
-      sidebar:
-        nav: "monsters"
-      header:
-        overlay_color: "#000"
-        overlay_filter: "0.5"
-        overlay_image: /assets/images/site-header.jpg
-        show_overlay_excerpt: false
-        caption: "Photo credit: **tomedunn**"
   # _classes
   - scope:
       path: ""
@@ -315,12 +294,35 @@ defaults:
       classes: wide
       author_profile: false
       read_time: true
+      show_date: true
       share: true
       toc: false
       toc_label: "Table of Contents"
       toc_sticky: true
       sidebar:
         nav: "classes"
+      header:
+        overlay_color: "#000"
+        overlay_filter: "0.5"
+        overlay_image: /assets/images/site-header.jpg
+        show_overlay_excerpt: false
+        caption: "Photo credit: **tomedunn**"
+  # _monsters
+  - scope:
+      path: ""
+      type: monsters
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+      read_time: true
+      show_date: true
+      share: true
+      toc: false
+      toc_label: "Table of Contents"
+      toc_sticky: true
+      sidebar:
+        nav: "monsters"
       header:
         overlay_color: "#000"
         overlay_filter: "0.5"
@@ -335,6 +337,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
+      show_date: true
       comments: # true
       share: true
       related: true
