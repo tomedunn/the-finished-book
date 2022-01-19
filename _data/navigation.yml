@@ -4,6 +4,8 @@ main:
     url: /classes/
   - title: "Monsters"
     url: /monsters/
+  - title: "Theory"
+    url: /theory/
 
 monsters:
   - title: "Categorizing Monsters"
@@ -22,3 +24,7 @@ classes:
     children:
       - title: "Stunning Strike"
         url: /classes/stunning-strike
+
+theory:
+  - title: "Effective HP and Damage"
+    url: /theory/effective-hp-and-damage
