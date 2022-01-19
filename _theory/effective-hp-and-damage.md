@@ -22,9 +22,13 @@ last_modified_at: 2022-1-17
 \newcommand{\SBave}{\mathit{SB}\_\mathrm{ave}}
 \newcommand{\HP}{\mathit{HP}}
 \newcommand{\eHP}{\mathit{eHP}}
+\newcommand{\eHPatck}{\mathit{eHP}\_\mathrm{a}}
+\newcommand{\eHPsave}{\mathit{eHP}\_\mathrm{s}}
 \newcommand{\AB}{\mathit{AB}}
 \newcommand{\DC}{\mathit{DC}}
 \newcommand{\eD}{\mathit{eD}}
+\newcommand{\eDatck}{\mathit{eD}\_\mathrm{a}}
+\newcommand{\eDsave}{\mathit{eD}\_\mathrm{s}}
 \newcommand{\eDPR}{\mathit{eDPR}}
 \newcommand{\D}{\mathit{D}}
 \newcommand{\Dave}{\mathit{D}\_\mathrm{ave}}
@@ -152,8 +156,8 @@ At this point our task is essentially done. We've successfully moved all the sta
 where $$\eHP$$ is the defending creature's effective hit points and $$\eD$$ is the attacking creature's effective damage, which are given by
 
 \begin{align}
-    \eHP &= 1.05^{ 4} \cdot \HP  \cdot {1.05}^{\AC - 12}\,, \label{eq:effective-hit-points-attack} \\\\ 
-    \eD  &= 1.05^{-4} \cdot \Dhit \cdot {1.05}^{\AB -  2}\,. \label{eq:effective-damage-attack}
+    \eHPatck &= 1.05^{ 4} \cdot \HP  \cdot {1.05}^{\AC - 12}\,, \label{eq:effective-hit-points-attack} \\\\ 
+    \eDatck  &= 1.05^{-4} \cdot \Dhit \cdot {1.05}^{\AB -  2}\,. \label{eq:effective-damage-attack}
 \end{align}
 
 It's worth pointing out that while Eqns. \eqref{eq:effective-hit-points-attack} and \eqref{eq:effective-damage-attack} do satisfied equation \eqref{eq:uses-to-win-attack}, they are not the only solutions to our problem. I've chosen these particular forms for our effective hit points and effective damage for two reasons. First, the factors of $$-12$$ ($$-2$$) in the exponents were chosen to match the minimum $$\AC$$ $$(\AB\,)$$ values listed in the [Monster Statistics by Challenge Rating](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop\#MonsterStatisticsbyChallengeRating) table in chapter 9 of the DMG (p. 275). And second, the factors of $$1.05^{ 4}$$ $$(1.05^{-4})$$ in front mean that $$\eHP(\HP, 12)\cdot\eD(\Dhit, 2) = \HP\cdot\Dhit$$. Neither of these are strict requirements, but they will prove useful later on when calculating a creature's XP which I will cover in a future post.
@@ -200,8 +204,8 @@ Calculating the number of times a creature needs to use their saving throw effec
 which can be expressed in terms of $$\eHP$$ and $$\eD$$ using the following definitions,
 
 \begin{align}
-    \eHP &= 1.05^{ 4} \cdot \HP  \cdot {1.05}^{\SB + 1}\,, \label{eq:effective-hit-points-save} \\\\ 
-    \eD  &= 1.05^{-4} \cdot \Dfail \cdot {1.05}^{\DC - 12}\,. \label{eq:effective-damage-save}
+    \eHPsave &= 1.05^{ 4} \cdot \HP  \cdot {1.05}^{\SB + 1}\,, \label{eq:effective-hit-points-save} \\\\ 
+    \eDsave  &= 1.05^{-4} \cdot \Dfail \cdot {1.05}^{\DC - 12}\,. \label{eq:effective-damage-save}
 \end{align}
 
 Just like in the previous section with attacks, I chosen the factors of $$+1$$ ($$-12$$) in the exponents to match the minimum $$\SB$$ $$(\DC\,)$$ values listed in the [Monster Statistics by Challenge Rating](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop\#MonsterStatisticsbyChallengeRating) table in chapter 9 of the DMG (p. 275). It's worth noting that the DMG doesn't actually list recommended values for $$\SB$$, which is an unfortunate oversight, but the suggested minimum value presented here of $$+1$$ is significant, as I'll discuss later on in this post.
@@ -239,7 +243,7 @@ As it stands now, we have two ways of calculating effective hit points and two w
 For damage, this doesn't pose any potential conflict. We can simply pick whichever equation best fits how are creature is dealing damage. If we wanted to calculate the effective damage per round $$(\eDPR)$$ for a creature that deals damage using one attack and one saving throw effect, we can simply add the effective damage of the two together. Put more generally,
 
 \begin{align}
-    \eDPR = \sum \eD \left(\Dhit, \AB\,\right)  + \sum \eD \left(\Dfail, \DC\,\right)\,,
+    \eDPR = \sum \eDatck \left(\Dhit, \AB\,\right)  + \sum \eDsave \left(\Dfail, \DC\,\right)\,,
     \label{eq:effective-dpr-general}
 \end{align}
 
