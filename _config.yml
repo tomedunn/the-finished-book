@@ -282,6 +282,9 @@ collections:
   monsters:
     output: true
     permalink: /:collection/:path/
+  theory:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -323,6 +326,28 @@ defaults:
       toc_sticky: true
       sidebar:
         nav: "monsters"
+      header:
+        overlay_color: "#000"
+        overlay_filter: "0.5"
+        overlay_image: /assets/images/site-header.jpg
+        show_overlay_excerpt: false
+        caption: "Photo credit: **tomedunn**"
+  # _theory
+  - scope:
+      path: ""
+      type: theory
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+      read_time: true
+      show_date: true
+      share: true
+      toc: false
+      toc_label: "Table of Contents"
+      toc_sticky: true
+      sidebar:
+        nav: "theory"
       header:
         overlay_color: "#000"
         overlay_filter: "0.5"
