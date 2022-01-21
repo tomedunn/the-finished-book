@@ -2,7 +2,7 @@
 title: "Effective HP and Damage"
 excerpt: "How to represent creature defensive and offensive strengths in effective terms that don't require calculating chances to hit or save against an enemy creature."
 date: 2022-1-17
-last_modified_at: 2022-1-20
+last_modified_at: 2022-1-21
 #tags:
 #  - theory
 #  - monsters
@@ -18,6 +18,7 @@ last_modified_at: 2022-1-20
 \newcommand{\psave}{\rho\_\mathrm{save}}
 \newcommand{\pfail}{\rho\_\mathrm{fail}}
 \newcommand{\AC}{\mathit{AC}}
+\newcommand{\eAC}{\mathit{eAC}}
 \newcommand{\SB}{\mathit{SB}}
 \newcommand{\SBave}{\mathit{SB}\_\mathrm{ave}}
 \newcommand{\HP}{\mathit{HP}}
@@ -246,6 +247,7 @@ For damage, this doesn't pose any potential conflict. We can simply pick whichev
 
 \begin{align}
     \eDPR = \sum \eDatck \left(\Dhit, \AB\,\right)  + \sum \eDsave \left(\Dfail, \DC\,\right)\,,
+    %\eDPR = \sqrt{0.6} \cdot \left( \sum \Dhit \cdot 1.083^{\AB - 3}  + \sum \cdot \Dfail \cdot {1.083}^{\DC - 13}\right)\,,
     \label{eq:effective-dpr-general}
 \end{align}
 
@@ -255,9 +257,36 @@ For hit points, however, this raises a difficult question. Which formulation, Eq
 
 \begin{align}
     \eHP = \frac{1}{\sqrt{0.6}} \cdot \HP  \cdot {1.083}^{\frac{1}{2}\left(\AC - 13\right) + \frac{1}{2} \left(\SBave\right)}\,.
+    \label{eq:effective-hit-points-general}
 \end{align}
 
 This assumes that a creature is just as likely to be subjected to a damaging attack as they are a damaging saving throw effect, and that the saving throw effects target each of the creature's ability scores equally. Again, this may not be the best assumption, but how all this is weighted can easily be adjusted to account for differences discovered later on.
+
+The exponent in Eqn. \eqref{eq:effective-hit-points-general} can also be used to define an effective armor class,
+\begin{align}
+    %\eAC = \frac{1}{2}\left(\AC + \SBave + 13\right)\,.
+    \eAC = \frac{\AC + \SBave + 13}{2}\,.
+\end{align}
+
+## Linear approximation
+
+For some, the form of Eqns. \eqref{eq:effective-hit-points-attack} - \eqref{eq:effective-damage-attack} and Eqns. \eqref{eq:effective-hit-points-save} - \eqref{eq:effective-damage-save} can be a bit intimidating due to their exponential nature. For those wanting more linear equations for effective hit points and effective health, the same approximation used previously can be used in reverse, $$\left(1 + x\right)^n \approx 1 + n \cdot x$$ when $$x \ll 1$$, resulting in the following for attacks,
+
+\begin{align}
+    \eHPatck &\approx \frac{1}{\sqrt{0.6}} \cdot \HP \left( 1 + 0.083 \left(\AC - 13\right)\right)\,, \label{eq:effective-hit-points-attack-approx} \\\\ 
+    \eDatck  &\approx \sqrt{0.6} \cdot \Dhit \left( 1 + 0.083 \left(\AB - 3\right)\right)\,, \label{eq:effective-damage-attack-approx}
+\end{align}
+
+and for saving throws,
+
+\begin{align}
+    \eHPsave &\approx \frac{1}{\sqrt{0.6}} \cdot \HP  \left(1 + 0.083 \left(\SB\right)\right)\,, \label{eq:effective-hit-points-save-approx} \\\\ 
+    \eDsave  &\approx \sqrt{0.6} \cdot \Dfail \left(1 + 0.083\left(\DC - 13\right)\right)\,. \label{eq:effective-damage-save-approx}
+\end{align}
+
+It should be noted, however, that while this works well for low CR creatures, at higher CRs this approach will introduce minor errors due to the exclusion of higher order terms in the approximation.
+
+Another small adjustment that some may find useful is to multiply all four of the above equations by $$\sqrt{0.6}$$. This removes the prefactor from Eqns. \eqref{eq:effective-hit-points-attack-approx} and \eqref{eq:effective-hit-points-save-approx}, and also removes the square root from Eqns. \eqref{eq:effective-damage-attack-approx} and \eqref{eq:effective-damage-save-approx}. As mentioned before, my choice to split the factor of $$0.6$$ between the two terms was a stylistic choice that will prove useful when discussing how XP is calculated, which I will cover in a later post.
 
 # Conclusion
 
