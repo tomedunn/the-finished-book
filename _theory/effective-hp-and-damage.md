@@ -2,7 +2,7 @@
 title: "Effective HP and Damage"
 excerpt: "How to represent creature defensive and offensive strengths in effective terms that don't require calculating chances to hit or save against an enemy creature."
 date: 2022-1-17
-last_modified_at: 2022-1-17
+last_modified_at: 2022-1-20
 #tags:
 #  - theory
 #  - monsters
@@ -122,14 +122,15 @@ If we plug Eqns. \eqref{eq:attack-hit-probability} and \eqref{eq:attack-crit-pro
 \begin{align}
     %\Dave &\approx \Dhit \left(\frac{22 + \AB - \AC\,}{20}\right) \nonumber \\\\ 
     \Dave &\approx \Dhit \cdot 0.05 \left(22 + \AB - \AC\,\right) \nonumber \\\\ 
-    &= \Dhit \left(1 + 0.05 \left(2 + \AB - \AC\,\right)\right)\,.
+          &= \Dhit \left(0.6 + 0.05 \left(10 + \AB - \AC\,\right)\right)  \nonumber \\\\ 
+          &= 0.6 \cdot \Dhit \, \left(1 + 0.083 \left(10 + \AB - \AC\,\right)\right)\,.
     \label{eq:attack-damage-average-full}
 \end{align}
 
 The form of Eqn. \eqref{eq:attack-damage-average-full} may seem like an odd choice, but it allows us to take advantage of the following approximation, $$\left(1 + x\right)^n \approx 1 + n \cdot x$$ when $$x \ll 1$$, which turns Eqn. \eqref{eq:attack-damage-average-full} into
 
 \begin{align}
-    \Dave \approx \Dhit 1.05^{2 + \AB - \AC}\,.
+    \Dave \approx 0.6 \cdot \Dhit \cdot 1.083^{10 + \AB - \AC}\,.
     \label{eq:attack-damage-average-exp}
 \end{align}
 
@@ -137,14 +138,14 @@ At this point we're ready to go back to our test equation. Putting Eqn. \eqref{e
 
 \begin{align}
     N_\mathrm{attacks} &= \frac{\HP}{\Dave(\AB, \AC\,)} \nonumber \\\\\\
-      &\approx \frac{\HP}{\Dhit} 1.05^{-2 - \AB + \AC}\,.
+      &\approx \frac{\HP}{0.6 \cdot \Dhit \cdot 1.083^{10 + \AB - \AC}}\,.
     \label{eq:uses-to-win-attack}
 \end{align}
 
 Since $$x^{a + b} = x^a\,x^b$$, Eqn. \eqref{eq:uses-to-win-attack} can also be written as
 
 \begin{align}
-    N_\mathrm{attacks} &\approx 1.05^{8} \frac{\HP \cdot 1.05^{\AC - 12}}{\Dhit \cdot 1.05^{\AB - 2}}\,.
+    N_\mathrm{attacks} &\approx \frac{\HP \cdot 1.083^{\AC - 13}}{0.6 \cdot \Dhit \cdot 1.083^{\AB - 3}}\,.
 \end{align}
 
 At this point our task is essentially done. We've successfully moved all the stats of the defending creature to the numerator, $$\HP$$ and $$\AC$$, and all the stats of the attacking creature in the denominator, $$\Dave$$ and $$\AB$$. The average number of attacks it takes the attacker to win can now be written in the form
@@ -156,11 +157,11 @@ At this point our task is essentially done. We've successfully moved all the sta
 where $$\eHP$$ is the defending creature's effective hit points and $$\eD$$ is the attacking creature's effective damage, which are given by
 
 \begin{align}
-    \eHPatck &= 1.05^{ 4} \cdot \HP  \cdot {1.05}^{\AC - 12}\,, \label{eq:effective-hit-points-attack} \\\\ 
-    \eDatck  &= 1.05^{-4} \cdot \Dhit \cdot {1.05}^{\AB -  2}\,. \label{eq:effective-damage-attack}
+    \eHPatck &= \frac{1}{\sqrt{0.6}} \cdot \HP \cdot 1.083^{\AC - 13}\,, \label{eq:effective-hit-points-attack} \\\\ 
+    \eDatck  &= \sqrt{0.6} \cdot \Dhit \cdot 1.083^{\AB - 3}\,. \label{eq:effective-damage-attack}
 \end{align}
 
-It's worth pointing out that while Eqns. \eqref{eq:effective-hit-points-attack} and \eqref{eq:effective-damage-attack} do satisfied equation \eqref{eq:uses-to-win-attack}, they are not the only solutions to our problem. I've chosen these particular forms for our effective hit points and effective damage for two reasons. First, the factors of $$-12$$ ($$-2$$) in the exponents were chosen to match the minimum $$\AC$$ $$(\AB\,)$$ values listed in the [Monster Statistics by Challenge Rating](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop\#MonsterStatisticsbyChallengeRating) table in chapter 9 of the DMG (p. 275). And second, the factors of $$1.05^{ 4}$$ $$(1.05^{-4})$$ in front mean that $$\eHP(\HP, 12)\cdot\eD(\Dhit, 2) = \HP\cdot\Dhit$$. Neither of these are strict requirements, but they will prove useful later on when calculating a creature's XP which I will cover in a future post.
+It's worth pointing out that while Eqns. \eqref{eq:effective-hit-points-attack} and \eqref{eq:effective-damage-attack} do satisfied equation \eqref{eq:uses-to-win-attack}, they are not the only solutions to our problem. I've chosen these particular forms for our effective hit points and effective damage for two reasons. First, the factors of $$-13$$ ($$-3$$) in the exponents were chosen to match the minimum $$\AC$$ $$(\AB\,)$$ values listed in the [Monster Statistics by Challenge Rating](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop\#MonsterStatisticsbyChallengeRating) table in chapter 9 of the DMG (p. 275). And second, the factors of $$\sqrt{0.6}$$ in front mean that $$\eHPatck(\HP, 13)\cdot\eDatck(\Dhit, 3) = \HP\cdot\Dhit$$. Neither of these are strict requirements, but they will prove useful later on when calculating a creature's XP which I will cover in a future post.
 
 ## Simple saving throws
 
@@ -186,8 +187,9 @@ Assuming the effect deals no damage on a successful save, $$\Dsave = 0$$, then \
 \begin{align}
     %\Dave &= \Dfail \left(\frac{DC - SB - 1}{20}\right) \nonumber \\\\ 
     \Dave &= \Dfail \cdot 0.05 \left(DC - SB - 1\,\right) \nonumber \\\\ 
-          &= \Dfail \left(1 + 0.05 \left(DC - SB - 21\,\right)\right) \nonumber \\\\ 
-          &\approx \Dfail \cdot 1.05^{DC - SB - 21}\,.
+          &= \Dfail \left(0.6 + 0.05 \left(DC - SB - 13\,\right)\right) \nonumber \\\\ 
+          &= 0.6 \cdot \Dfail \left(1 + 0.083 \left(DC - SB - 13\,\right)\right) \nonumber \\\\ 
+          &\approx 0.6 \cdot \Dfail \cdot 1.083^{DC - SB - 13}\,.
     %\Dave = \Dfail \left(\frac{DC - SB - 1}{20}\right) \approx \Dfail 1.05^{DC - SB - 21}\,.
     \label{eq:save-damage-average-none-exp}
 \end{align}
@@ -197,18 +199,18 @@ Here, I've used the same approximation I used for attacks, $$\left(1 + x\right)^
 Calculating the number of times a creature needs to use their saving throw effect in order to defeat another creature gives
 
 \begin{align}
-    N \approx 1.05^{8} \frac{\HP \cdot 1.05^{\SB + 1}}{\Dfail \cdot 1.05^{\DC - 12}}\,,
+    N \approx \frac{\HP \cdot 1.083^{\SB}}{0.6 \cdot \Dfail \cdot 1.083^{\DC - 13}}\,,
     \label{eq:saves-to-win-none}
 \end{align}
 
 which can be expressed in terms of $$\eHP$$ and $$\eD$$ using the following definitions,
 
 \begin{align}
-    \eHPsave &= 1.05^{ 4} \cdot \HP  \cdot {1.05}^{\SB + 1}\,, \label{eq:effective-hit-points-save} \\\\ 
-    \eDsave  &= 1.05^{-4} \cdot \Dfail \cdot {1.05}^{\DC - 12}\,. \label{eq:effective-damage-save}
+    \eHPsave &= \frac{1}{\sqrt{0.6}} \cdot \HP  \cdot {1.083}^{\SB}\,, \label{eq:effective-hit-points-save} \\\\ 
+    \eDsave  &= \sqrt{0.6} \cdot \Dfail \cdot {1.083}^{\DC - 13}\,. \label{eq:effective-damage-save}
 \end{align}
 
-Just like in the previous section with attacks, I chosen the factors of $$+1$$ ($$-12$$) in the exponents to match the minimum $$\SB$$ $$(\DC\,)$$ values listed in the [Monster Statistics by Challenge Rating](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop\#MonsterStatisticsbyChallengeRating) table in chapter 9 of the DMG (p. 275). It's worth noting that the DMG doesn't actually list recommended values for $$\SB$$, which is an unfortunate oversight, but the suggested minimum value presented here of $$+1$$ is significant, as I'll discuss later on in this post.
+Just like in the previous section with attacks, I chosen the factor of $$-13$$ in the exponent of Eqn. \eqref{eq:effective-damage-save} to match the minimum $$\DC$$ value listed in the [Monster Statistics by Challenge Rating](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop\#MonsterStatisticsbyChallengeRating) table in chapter 9 of the DMG (p. 275). It's worth noting that the DMG doesn't actually list recommended values for $$\SB$$, which is an unfortunate oversight, but the suggested minimum value presented here of $$+0$$ is significant, as I'll discuss later on in this post.
 
 The form of the effective hit points in Eqn. \eqref{eq:effective-hit-points-save} poses another interesting problem because every creature has six different $$\SB$$ values, one for each ability score. If we think of each ability score's $$\SB$$ value as representing a creatures defense against one avenue of effect, then their overall defense against saving throw effects can be represented by averaging across all ability scores,
 
@@ -252,7 +254,7 @@ where the first summation includes all of the attacks the creature is likely to 
 For hit points, however, this raises a difficult question. Which formulation, Eqn. \eqref{eq:effective-hit-points-attack} or \eqref{eq:effective-hit-points-save}, should we use to reflect a creature true defensive strength? The simple answer, of course, is to just average between the two, as was done previously to account for each ability score having its own saving throw bonus,
 
 \begin{align}
-    \eHP = 1.05^{ 4} \cdot \HP  \cdot {1.05}^{\frac{1}{2}\left(\AC - 12\right) + \frac{1}{2} \left(\SBave + 1\right)}\,.
+    \eHP = \frac{1}{\sqrt{0.6}} \cdot \HP  \cdot {1.083}^{\frac{1}{2}\left(\AC - 13\right) + \frac{1}{2} \left(\SBave\right)}\,.
 \end{align}
 
 This assumes that a creature is just as likely to be subjected to a damaging attack as they are a damaging saving throw effect, and that the saving throw effects target each of the creature's ability scores equally. Again, this may not be the best assumption, but how all this is weighted can easily be adjusted to account for differences discovered later on.
