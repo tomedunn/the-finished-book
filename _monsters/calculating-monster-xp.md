@@ -44,14 +44,14 @@ The math behind this one is a bit complicated. For those interested in a full de
 With that out of the way, XP in 5th edition is proportional to the product of a monster's effective hit points $$(\eHP)$$ and effective damage per round $$(\eDPR)$$, 
 
 \begin{equation}
-    \label{eq:eXP-simple}
+    \label{eq:XP-simple}
     \NXP = \frac{1}{4} \eHP \cdot \eDPR\,,
 \end{equation}
 
 which can be approximated as, 
 
 \begin{equation}
-    \label{eq:eXP-full}
+    \label{eq:XP-full}
     \NXP = \frac{1}{4} \HP \cdot \DPRhit \left(1 + 0.083\left(\AC + \AB - 16\right)\right)\,,
 \end{equation}
 
@@ -61,7 +61,7 @@ where $$\HP$$ is the monster's average hit points, $$\AC$$ is their effective ar
 With that out of the way, XP in 5th edition is proportional to the product of a monster's effective hit points $$(\eHP)$$ and effective damage per round $$(\eDPR)$$, 
 
 \begin{equation}
-    \label{eq:eXP-simple}
+    \label{eq:XP-simple}
     \NXP = \frac{1}{4} \eHP \cdot \eDPR\,.
 \end{equation}
 
@@ -82,7 +82,7 @@ Similarly, a monster's _eDPR_ can be calculated using the adjusted damage per ro
 Combining these two equations together, a monster's XP can be calculated as follows,
 
 \begin{equation}
-    \label{eq:eXP-full}
+    \label{eq:XP-full}
     \NXP = \frac{1}{4} HP \cdot DPR \cdot 1.05^{AC + AB - 14}\, .
 \end{equation}
 -->
@@ -104,15 +104,15 @@ The Whirlwind action requires a DC 13 Strength saving throw, which is roughly eq
 <!--Assuming the air elemental is able to use Whirlwind once and Slam twice during a three round encounter, the DMG estimates an **offensive CR of 5** and Eqn. \eqref{eq:eDPR} gives it **29.7 _eDPR_**.-->
 Assuming the air elemental is able to use Whirlwind once and Multiattack twice during a three round encounter, their average $$\DPRhit$$ would be 31 and their effective attack bonus would be around +7.
 
-<!--Feeding these values into Eqn. \eqref{eq:eXP-full} gives **1,410.75 XP** which, while only 78% of the creature's listed value of 1,800 XP, is just high enough to still qualify it as a CR 5 monster. This tells us that the air elemental is likely on the weaker side of of CR 5. And, given how much its HP was adjusted to account for its multiple resistances, when facing PCs with access to magical weapons its combat strength will be more on the lower side of CR 4, and possibly even on the upper side of CR 3 depending on how its played.-->
+<!--Feeding these values into Eqn. \eqref{eq:XP-full} gives **1,410.75 XP** which, while only 78% of the creature's listed value of 1,800 XP, is just high enough to still qualify it as a CR 5 monster. This tells us that the air elemental is likely on the weaker side of of CR 5. And, given how much its HP was adjusted to account for its multiple resistances, when facing PCs with access to magical weapons its combat strength will be more on the lower side of CR 4, and possibly even on the upper side of CR 3 depending on how its played.-->
 
-Feeding these values into Eqn. \eqref{eq:eXP-full} gives 1,567 XP, while only 87% of the creature's listed value of 1,800 XP, is still high enough to qualify it as a CR 5 monster. This tells us that the air elemental is likely on the weaker side of of CR 5. And, given how much its HP was adjusted to account for its multiple resistances, when facing PCs with access to magical weapons its combat strength will be more on the lower side of CR 4, and possibly even on the upper side of CR 3 depending on how its played.
+Feeding these values into Eqn. \eqref{eq:XP-full} gives 1,567 XP, while only 87% of the creature's listed value of 1,800 XP, is still high enough to qualify it as a CR 5 monster. This tells us that the air elemental is likely on the weaker side of of CR 5. And, given how much its HP was adjusted to account for its multiple resistances, when facing PCs with access to magical weapons its combat strength will be more on the lower side of CR 4, and possibly even on the upper side of CR 3 depending on how its played.
 
 Not only does this method for calculating a monster's XP give us additional insights into how tough the monster might be for our PCs, it also gives us an easy method for adjusting monster's to fit our needs. When facing PCs with magical weapons, we can increase the air elemental's hit points by 50% to compensate for their resistances being less valuable. Alternatively, if we it to be a more offensively oriented monster, we could increase the damage of each of the air elemental's actions by 50% instead.
 
 ## Full Comparison
 
-To check the accuracy of this approach, I applied Eqn. \eqref{eq:eXP-full} to monsters with CRs of 1 or more, taken from official 5th edition source books. I used the same adjusted HP, AC, DPR, and AB values I used previously in [Calculating Monster CR]({{ site.url }}{{ site.baseurl }}{% link _monsters/calculating-monster-cr.md %}). A comparison of the calculated XP values and listed XP values is shown in Fig. <a href="#fig:calc-xp-vs-xp-log-log" class="fig-ref">1</a> below.
+To check the accuracy of this approach, I applied Eqn. \eqref{eq:XP-full} to monsters with CRs of 1 or more, taken from official 5th edition source books. I used the same adjusted HP, AC, DPR, and AB values I used previously in [Calculating Monster CR]({{ site.url }}{{ site.baseurl }}{% link _monsters/calculating-monster-cr.md %}). A comparison of the calculated XP values and listed XP values is shown in Fig. <a href="#fig:calc-xp-vs-xp-log-log" class="fig-ref">1</a> below.
 
 <figure id="fig:calc-xp-vs-xp-log-log">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-xp/calc-xp-vs-xp-log-log.svg">
@@ -123,14 +123,14 @@ The general trend shows a strong correlation between the two, however, there are
 
 <figure id="fig:xp-cr-vs-cr">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-xp/xp-cr-vs-cr.svg">
-    <figcaption>Figure 2: Calculated eCR mean and 60% confidence interval vs CR.</figcaption>
+    <figcaption>Figure 2: Calculated CR mean and 60% confidence interval vs listed CR.</figcaption>
 </figure>
 
 Next, I converted the calculated XP values to their equivalent CR for each monster. As Fig. <a href="#fig:xp-cr-vs-cr" class="fig-ref">2</a> illustrates, the CRs calculated using this method are generally in good agreement with the CRs listed in the monsters' stat blocks, with the vast majority of monsters having a calculated CR within +/- 1 of their listed value. 
 
 <figure id="fig:ecr-dmg-cr-delta-vs-cr">
     <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-xp/ecr-dmg-cr-delta-vs-cr.svg">
-    <figcaption>Figure 3: Shows the difference between the calculated CR and the listed CR as a function of CR for both eCR and CR calculated using the method given in the DMG.</figcaption>
+    <figcaption>Figure 3: Shows the difference between the calculated CR and the listed CR as a function of CR for both calculated XP and CR calculated using the method given in the DMG.</figcaption>
 </figure>
 
 When compared with the method for calculating CR in the DMG, as shown in Fig. <a href="#fig:ecr-dmg-cr-delta-vs-cr" class="fig-ref">3</a>, the results are also quite close. Both tend to underestimate monster CRs at the lower end of the CR spectrum, and both tend to overestimate it as well at the higher end. 
