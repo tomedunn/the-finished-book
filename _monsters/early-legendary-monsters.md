@@ -2,7 +2,7 @@
 title: "Early Legendary Monsters"
 excerpt: "Legendary monsters were overpowered, but not anymore."
 date: 2021-12-27
-last_modified_at: 2021-12-27
+last_modified_at: 2022-01-28
 #tags:
 #  - analysis
 #  - monsters
@@ -20,7 +20,7 @@ over the years. The second looks at legendary monster from source books. Specifi
 
 # Adventure Modules
 
-Every adventure module WotC has published so far has legendary monsters in it that can't be found in any other books. To get a sense of how strong these monsters are for their respective CR values, I've calculated their effective XP value (eXP) following the method outlined in my paper "[Calculating XP and encounter difficulty in D&D 5e](https://drive.google.com/file/d/1VnvdnJYTIym1QNGvONWZkOFYgbFO66Bx/view?usp=sharing)", which I discussed in my previous post [Calculating Monster XP]({{ site.url }}{{ site.baseurl }}{% link _monsters/calculating-monster-xp.md %}). 
+Every adventure module WotC has published so far has legendary monsters in it that can't be found in any other books. To get a sense of how strong these monsters are for their respective CR values, I've calculated their XP values following the method I discussed in my previous post [Calculating Monster XP]({{ site.url }}{{ site.baseurl }}{% link _monsters/calculating-monster-xp.md %}). 
 
 This approach gives better resolution than comparing listed CRs with CR values calculated using chapter 9 of the DMG. And, since the difference between CRs is not uniformly defined, it also gives a much more consistent measure of how much stronger/weaker a monster is than expected across a wide range of CRs.
 
