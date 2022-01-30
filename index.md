@@ -11,26 +11,20 @@ header:
   caption: "Photo credit: **tomedunn**"
 feature_row:
   - image_path: /assets/images/classes-image1.png
+    image_url: "/classes/"
+    image_caption: "Classes"
     alt: "cool character mini"
-    title: "Classes"
     excerpt: "Posts about player character and class related content."
-    url: "/classes/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
   - image_path: /assets/images/monsters-image1.png
+    image_url: "/monsters/"
+    image_caption: "Monsters"
     alt: "scary monster mini"
-    title: "Monsters"
     excerpt: "Posts about monsters and such."
-    url: "/monsters/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
   - image_path: /assets/images/theory-image1.png
+    image_url: "/theory/"
+    image_caption: "Theory"
     alt: "dice and diagrams"
-    title: "Theory"
     excerpt: "Posts about the mechanics and theories behind the game."
-    url: "/theory/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
 ---
 
 Welcome! These posts are a collection of my thoughts and analysis on D&D 5th edition. It's possible I will expand this to other games or topics in the future, but for now my focus will be exclusively on D&D.

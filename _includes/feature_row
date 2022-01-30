@@ -10,13 +10,19 @@
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="archive__item">
         {% if f.image_path %}
-          <div class="archive__item-teaser">
-            <img src="{{ f.image_path | relative_url }}"
-                 alt="{% if f.alt %}{{ f.alt }}{% endif %}">
-            {% if f.image_caption %}
-              <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
-            {% endif %}
-          </div>
+          {% if f.image_url %}
+            <a href="{{ f.image_url | relative_url }}">
+          {% endif %}
+              <div class="archive__item-teaser">
+                <img src="{{ f.image_path | relative_url }}"
+                    alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+                {% if f.image_caption %}
+                  <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+                {% endif %}
+              </div>
+          {% if f.image_url %}
+            </a>
+          {% endif %}
         {% endif %}
 
         <div class="archive__item-body">
