@@ -92,6 +92,11 @@
 
   img {
     width: 100%;
+    transition: transform .5s; /* Animation */
+  }
+
+  img:hover {
+    transform: scale(1.1); /* (120% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
 }
 
