@@ -2,7 +2,7 @@
 title: "XP and Encounter Balancing"
 excerpt: "A detailed explanation of where XP comes from and how encounter balancing works."
 date: 2022-1-27
-last_modified_at: 2022-1-27
+last_modified_at: 2022-2-7
 #tags:
 #  - theory
 #  - monsters
@@ -23,20 +23,19 @@ last_modified_at: 2022-1-27
 \newcommand{\CR}{\mathit{CR}}
 \newcommand{\XP}{\mathit{XP}}
 \newcommand{\diff}{\mathit{diff}}
-\newcommand{\EM}{\mathit{E}}
+\newcommand{\EM}{\mathit{EM}}
+\newcommand{\W}{\mathit{W}}
 % NPCs
 \newcommand{\NPC}{\mathrm{NPC}}
 \newcommand{\NRTW}{\mathit{RTW}\_\mathrm{\NPC}}
 \newcommand{\NeHP}{\mathit{eHP}\_\mathrm{\NPC}}
 \newcommand{\NeDPR}{\mathit{eDPR}\_\mathrm{\NPC}}
-\newcommand{\NeXP}{\mathit{eXP}\_\mathrm{\NPC}}
 \newcommand{\NXP}{\mathit{XP}\_\mathrm{\NPC}}
 % PCs
 \newcommand{\PC}{\mathrm{PC}}
 \newcommand{\PRTW}{\mathit{RTW}\_\mathrm{\PC}}
 \newcommand{\PeHP}{\mathit{eHP}\_\mathrm{\PC}}
 \newcommand{\PeDPR}{\mathit{eDPR}\_\mathrm{\PC}}
-\newcommand{\PeXP}{\mathit{eXP}\_\mathrm{\PC}}
 \newcommand{\PXP}{\mathit{XP}\_\mathrm{\PC}}
 \\)
 
@@ -85,6 +84,7 @@ At this point, Eqn. \eqref{eq:difficulty-experience} is far to complicated to be
 This bares a striking resemblance to how encounter difficulty is calculated in chapter 13, "[Building Combat Encounters](https://www.dndbeyond.com/sources/basic-rules/building-combat-encounters)", from the _Basic Rules_, which can be expressed as the sum of each PC's experience points threshold for a given encounter difficulty, $$\PXP$$, and each NPC's experience points value, $$\NXP$$, 
 \begin{equation}
     \sum \PXP(L, \diff\,) = \EM(N, M)\ \sum \NXP(\CR\,)\,.
+    \label{eq:encounter-balance-dmg}
 \end{equation}
 Here $$L$$ represents a PC's level, $$\CR$$ represents a NPC's challenge rating, and $$\EM(N, M)$$ is the encounter multiplier which depends on the number of PCs and NPCs in the encounter.
 
@@ -137,11 +137,11 @@ Now that I've established what $$\XP$$ is and how it's calculated, let's turn ou
 To start, Eqn. \eqref{eq:difficulty-experience} can be rewritten in terms of $$\XP$$, 
 
 \begin{equation}
-    \diff \sum_{i,j} \PXP^{\,i,j} = 4 \sum_{i,j} \NXP^{\,i,j}\,,
+    \diff \sum_{i,j} \XP\_{\,\mathrm{PC}\_{i,j}} = 4 \sum_{i,j} \XP\_{\,\mathrm{NPC}\_{i,j}}\,,
     \label{eq:difficulty-xp}
 \end{equation}
 
-where $$\PXP^{\,i,j}$$ $$(\NXP^{\,i,j})$$ represents the cross term from the $$i$$th and $$j$$th PCs (NPCs), and the summation on each side represents the sum over all combinations of PCs (NPCs).
+where $$\XP_{\,\mathrm{PC}_{i,j}}$$ $$(\XP_{\,\mathrm{NPC}_{i,j}})$$ represents the cross term between the $$i$$th and $$j$$th PCs (NPCs), and the summation on each side represents the sum over all combinations of PCs (NPCs).
 
 This is simpler to write, but it doesn't offer any immediately improved understanding. The diagonal terms, when $$i = j$$, are clearly the individual $$\XP$$ values for each PC (NPC), but what about the off diagonal terms when $$i \neq j\,$$? 
 
@@ -152,13 +152,32 @@ To understand this better, consider the diagram in Fig. <a href="#fig:xp-encount
     <figcaption>Figure 2: Graphical representation of the RHS of Eqn. \eqref{eq:difficulty-xp} for and encounter with three NPCs.</figcaption>
 </figure>
 
-The area of each square, $$\XP^{\,i, j} \propto \eHP^{\,i} \cdot \eDPR^{\,j}$$, represents how much $$\XP$$ each contributes to the difficulty of the encounter. The white regions represent the $$\XP$$ of each NPC individually, and the remaining $$\XP$$, colored blue and red, represents the $$\XP$$ added to the encounter due to the NPCs being in a group.
+The area of each square, $$\XP_{i,j} \propto \eHP_{i} \cdot \eDPR_{j}$$, represents how much $$\XP$$ each contributes to the difficulty of the encounter. The white regions represent the $$\XP$$ of each NPC individually, and the remaining $$\XP$$, colored blue and red, represents the $$\XP$$ added to the encounter due to the NPCs being in a group.
 
-Focusing on just the first column, the meaning of this additional $$\XP$$ becomes clear. Moving from bottom to top, the first square, $$\XP^{\,1,1} \propto \eHP^{\,1} \cdot \eDPR^{\,1}$$, is the individual $$\XP$$ for $$\NPC_1$$ and represents the damage they do in the time it takes the PCs to defeat them. The second square, $$\XP^{\,1,2} \propto \eHP^{\,2} \cdot \eDPR^{\,1}$$, represents the extra damage dealt by $$\NPC^{\,1}$$ in the time it takes the PCs to defeat $$\NPC^{\,2}$$. Finally, the third square, $$\XP^{\,1,3} \propto \eHP^{\,3} \cdot \eDPR^{\,1}$$, represents the extra damage dealt by $$\NPC^{\,1}$$ in the time it takes the PCs to defeat $$\NPC^{\,3}$$.
+Focusing on just the first column, the meaning of this additional $$\XP$$ becomes clear. Moving from bottom to top, the first square, $$\XP_{1,1} \propto \eHP_{1} \cdot \eDPR_{1}$$, is the individual $$\XP$$ for NPC 1 and represents the damage they do in the time it takes the PCs to defeat them. The second square, $$\XP_{1,2} \propto \eHP_{2} \cdot \eDPR_{1}$$, represents the extra damage dealt by NPC 1 in the time it takes the PCs to defeat NPC 2. Finally, the third square, $$\XP_{1,3} \propto \eHP_{3} \cdot \eDPR_{1}$$, represents the extra damage dealt by NPC 1 in the time it takes the PCs to defeat NPC 3.
 
-Of course, if $$\NPC^{\,1}$$ is defeated first then $$\XP^{\,1,2}$$ and $$\XP^{\,1,3}$$ shouldn't add to the encounter's difficulty. With this in mind, the blue region in Fig. <a href="#fig:xp-encounter-diagram" class="fig-ref">2</a> represents the additional $$\XP$$ added to the encounter when defeating the NPCs one at a time in the following order $$\NPC^{\,3} \rightarrow \NPC^{\,2} \rightarrow \NPC^{\,1}$$, while the red region represents the additional $$\XP$$ for the opposite order. Note that the area of the red and blue regions are not equal in this example. This means the difficulty of the encounter depends on the order the NPCs are defeated in!
+Of course, if NPC 1 is defeated first then $$\XP_{1,2}$$ and $$\XP_{1,3}$$ shouldn't add to the encounter's difficulty. With this in mind, the blue region in Fig. <a href="#fig:xp-encounter-diagram" class="fig-ref">2</a> represents the additional $$\XP$$ added to the encounter when defeating the NPCs one at a time in the following order NPC 3 $$\rightarrow$$ NPC 2 $$\rightarrow$$ NPC 1, while the red region represents the additional $$\XP$$ for defeating the NPCs in the opposite order.
+
+Looking at Fig. <a href="#fig:xp-encounter-diagram" class="fig-ref">2</a>, it's clear that areas of the red and blue regions are not equal in this example. This means the difficulty of the encounter depends on the order the NPCs are defeated in!
 
 Applied more generally, this means the $$\XP$$ added to an encounter's difficulty by the encounter multiplier accounts for the extra damage dealt by some of the NPCs while the PCs are focusing their attention on others. This explains why the DMG applies the encounter multiplier to groups of NPCs fought at the same time but not to encounters where multiple NPCs fought one after the other.
+
+To account for the fact that the order the PCs and NPCs are defeated in changes the total $$\XP$$ on each side of our encounter balancing equation, each term can be given a weight, $$0 \le \W \le 1$$, that depends on how the PCs and NPCs are likely to engage with one another. Doing so, Eqn. \eqref{eq:difficulty-xp} can be rewritten as, 
+
+\begin{equation}
+    \diff \sum_{i,j} \W\_{\,\PC\_{i,j}} \cdot \XP\_{\,\PC\_{i,j}} = 4 \sum_{i,j} \W\_{\,\NPC\_{i,j}} \cdot \XP\_{\,\NPC\_{i,j}}\,.
+    \label{eq:difficulty-xp-weighted}
+\end{equation}
+
+Rearranging Eqn. \eqref{eq:difficulty-xp-weighted} into the same form as Eqn. \eqref{eq:encounter-balance-dmg}, the encounter multiplier can be written in its full general form,
+
+\begin{equation}
+    \EM = \left( \frac{ \sum_{i,j} \W\_{\,\NPC\_{i,j}} \cdot \XP\_{\,\NPC\_{i,j}} }{ \sum_{i} \XP\_{\,\NPC\_{i}} } \right) 
+    \cdot \left( \frac{ 4\,\sum_{i} \XP\_{\,\PC\_{i}} }{ \sum_{i,j} \W\_{\,\PC\_{i,j}} \cdot \XP\_{\,\PC\_{i,j}} } \right) \,.
+    \label{eq:encounter-multiplier-weighted}
+\end{equation}
+
+At this point, Eqn. \eqref{eq:encounter-multiplier-weighted} probably looks like an incomprehensible mess, and it definitely is, but things can be simplified considerably by making some key assumptions about how the PCs and NPCs choose to engage each other, which I will talk about in a future post.
 
 # Conclusion
 
