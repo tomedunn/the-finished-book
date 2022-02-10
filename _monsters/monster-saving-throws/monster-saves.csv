@@ -17,6 +17,7 @@ EGtW,283.0,monstrosity,generic,N,10.0,4,large,21,18,18,6,14,8,5.0,4.0,4.0,-2.0,2
 EGtW,284.0,monstrosity,generic,N,8.0,3,large,21,16,18,6,14,8,5.0,3.0,4.0,-2.0,2.0,-1.0,False,False,False,False,True,True,5,3,4,-2,5,2
 EGtW,283.0,monstrosity,generic,N,12.0,4,large,19,14,18,7,14,18,4.0,2.0,4.0,-2.0,2.0,4.0,False,False,False,False,True,True,4,2,4,-2,6,8
 PotA,193.0,humanoid,unique,N,7.0,3,medium,8,16,12,17,10,16,-1.0,3.0,1.0,3.0,0.0,3.0,False,False,False,False,False,False,-1,3,1,3,0,3
+WBtW,73.0,fey,unique,N,2.0,2,medium,11,20,11,11,14,16,0.0,5.0,0.0,0.0,2.0,3.0,False,True,False,False,True,False,0,7,0,0,4,3
 WDH,193.0,humanoid,unique,N,9.0,4,medium,20,15,14,15,14,12,5.0,2.0,2.0,2.0,2.0,1.0,True,False,True,False,False,False,9,2,6,2,2,1
 MM,124.0,elemental,generic,N,5.0,3,large,14,20,14,6,10,6,2.0,5.0,2.0,-2.0,0.0,-2.0,False,False,False,False,False,False,2,5,2,-2,0,-2
 PotA,212.0,elemental,generic,N,7.0,3,medium,18,14,14,9,10,10,4.0,2.0,2.0,-1.0,0.0,0.0,False,False,False,False,False,False,4,2,2,-1,0,0
@@ -35,6 +36,7 @@ FToD,160.0,dragon,legendary,L,23.0,7,gargantuan,26,14,27,26,19,23,8.0,2.0,8.0,8.
 FToD,160.0,dragon,legendary,LL,24.0,7,gargantuan,26,14,27,26,19,23,8.0,2.0,8.0,8.0,4.0,6.0,False,True,True,False,True,True,8,9,15,8,11,13
 FToD,161.0,dragon,generic,N,9.0,4,large,21,12,21,18,15,19,5.0,1.0,5.0,4.0,2.0,4.0,False,True,True,False,True,True,5,5,9,4,6,8
 FToD,201.0,dragon,legendary,L,26.0,8,gargantuan,28,14,29,30,24,25,9.0,2.0,9.0,10.0,7.0,7.0,False,True,True,False,True,True,9,10,17,10,15,15
+WBtW,135.0,plant,unique,N,0.5,2,small,6,15,10,13,12,17,-2.0,2.0,0.0,1.0,1.0,3.0,True,True,True,False,True,False,0,4,2,1,3,3
 WDH,193.0,humanoid,unique,N,5.0,3,medium,9,14,11,17,12,15,-1.0,2.0,0.0,3.0,1.0,2.0,False,False,False,True,True,False,-1,2,0,6,4,2
 MToF,163.0,fiend,generic,N,18.0,6,medium,11,13,16,20,12,18,0.0,1.0,3.0,5.0,1.0,4.0,False,True,True,False,True,True,0,7,9,5,7,10
 TftYP,84.0,beast,generic,N,3.0,2,huge,19,14,12,1,10,3,4.0,2.0,1.0,-5.0,0.0,-4.0,False,False,False,False,False,False,4,2,1,-5,0,-4
@@ -116,6 +118,7 @@ CoS,229.0,humanoid,generic,N,0.5,2,medium,7,11,13,14,11,12,-2.0,0.0,1.0,2.0,0.0,
 MM,24.0,monstrosity,generic,N,3.0,2,medium,16,8,15,2,8,7,3.0,-1.0,2.0,-4.0,-1.0,-2.0,False,False,False,False,False,False,3,-1,2,-4,-1,-2
 PotA,201.0,humanoid,unique,N,8.0,3,medium,12,14,15,11,9,18,1.0,2.0,2.0,0.0,-1.0,4.0,False,False,False,False,False,False,1,2,2,0,-1,4
 GGtR,189.0,celestial,generic,N,5.0,3,medium,16,12,13,11,17,18,3.0,1.0,1.0,0.0,3.0,4.0,False,False,False,False,True,True,3,1,1,0,6,7
+WBtW,216.0,fey,unique,N,7.0,3,medium,22,11,18,16,12,15,6.0,0.0,4.0,3.0,1.0,2.0,False,False,True,True,True,True,6,0,7,6,4,5
 MM,319.0,beast,generic,N,1.0,2,large,19,10,16,2,13,7,4.0,0.0,3.0,-4.0,1.0,-2.0,False,False,False,False,False,False,4,0,3,-4,1,-2
 MM,334.0,beast,generic,N,2.0,2,large,20,10,16,2,13,7,5.0,0.0,3.0,-4.0,1.0,-2.0,False,False,False,False,False,False,5,0,3,-4,1,-2
 MM,25.0,monstrosity,generic,N,11.0,4,huge,23,16,18,7,14,12,6.0,3.0,4.0,-2.0,2.0,1.0,False,False,False,False,False,False,6,3,4,-2,2,1
@@ -177,6 +180,7 @@ MM,105.0,dragon,legendary,L,13.0,5,huge,23,10,21,14,13,17,6.0,0.0,5.0,2.0,1.0,3.
 MM,104.0,dragon,legendary,LL,20.0,6,gargantuan,27,10,25,16,15,19,8.0,0.0,7.0,3.0,2.0,4.0,False,True,True,False,True,True,8,6,13,3,8,10
 MM,105.0,dragon,generic,N,6.0,3,large,19,10,17,12,11,15,4.0,0.0,3.0,1.0,0.0,2.0,False,True,True,False,True,True,4,3,6,1,3,5
 FToD,208.0,dragon,legendary,L,28.0,8,gargantuan,30,16,29,21,22,30,10.0,3.0,9.0,5.0,6.0,10.0,False,True,True,True,True,True,10,11,17,13,14,18
+WBtW,230.0,fey,generic,N,0.125,2,tiny,4,15,14,10,11,13,-3.0,2.0,2.0,0.0,0.0,1.0,False,True,True,False,False,False,-3,4,4,0,0,1
 VGtM,139.0,beast,generic,N,5.0,3,gargantuan,21,9,17,2,10,7,5.0,-1.0,3.0,-4.0,0.0,-2.0,False,False,True,False,False,False,5,-1,6,-4,0,-2
 MM,109.0,dragon,generic,N,2.0,2,medium,17,10,15,12,11,15,3.0,0.0,2.0,1.0,0.0,2.0,False,True,True,False,True,True,3,2,4,1,2,4
 MM,108.0,dragon,legendary,L,15.0,5,huge,25,10,23,16,15,19,7.0,0.0,6.0,3.0,2.0,4.0,False,True,True,False,True,True,7,5,11,3,7,9
@@ -191,6 +195,7 @@ MM,34.0,monstrosity,generic,N,5.0,3,large,19,11,21,2,10,5,4.0,0.0,5.0,-4.0,0.0,-
 MToF,131.0,fiend,generic,N,3.0,2,medium,15,14,17,8,9,6,2.0,2.0,3.0,-1.0,-1.0,-2.0,False,False,False,False,False,False,2,2,3,-1,-1,-2
 MM,35.0,humanoid,generic,N,0.25,2,medium,12,12,13,7,10,7,1.0,1.0,1.0,-2.0,0.0,-2.0,False,False,False,False,False,False,1,1,1,-2,0,-2
 GoS,232.0,humanoid,generic,N,2.0,2,medium,14,12,12,7,15,10,2.0,1.0,1.0,-2.0,2.0,0.0,False,False,False,False,False,False,2,1,1,-2,2,0
+WBtW,231.0,humanoid,generic,N,3.0,2,medium,16,12,13,9,11,14,3.0,1.0,1.0,-1.0,0.0,2.0,False,False,True,False,True,False,3,1,3,-1,2,2
 GoS,232.0,humanoid,generic,N,3.0,2,medium,16,12,14,10,11,14,3.0,1.0,2.0,0.0,0.0,2.0,True,True,False,False,False,False,5,3,2,0,0,2
 MOoT,211.0,construct,generic,N,2.0,2,medium,17,14,16,3,15,1,3.0,2.0,3.0,-4.0,2.0,-5.0,False,False,False,False,False,False,3,2,3,-4,2,-5
 PotA,196.0,humanoid,generic,N,4.0,2,medium,18,12,16,10,11,13,4.0,1.0,3.0,0.0,0.0,1.0,False,False,False,False,False,False,4,1,3,0,0,1
@@ -220,7 +225,7 @@ MOoT,216.0,monstrosity,generic,N,7.0,3,large,18,13,19,3,14,10,4.0,1.0,4.0,-4.0,2
 VGtM,131.0,monstrosity,generic,N,0.5,2,small,10,14,12,10,10,7,0.0,2.0,1.0,0.0,0.0,-2.0,False,False,False,False,False,False,0,2,1,0,0,-2
 VGtM,132.0,monstrosity,generic,N,3.0,2,medium,12,16,12,11,14,10,1.0,3.0,1.0,0.0,2.0,0.0,False,False,False,False,False,False,1,3,1,0,2,0
 MM,40.0,aberration,generic,N,4.0,2,large,19,10,16,5,11,5,4.0,0.0,3.0,-3.0,0.0,-3.0,False,False,False,False,False,False,4,0,3,-3,0,-3
-SKT,96.0,dragon,unique,LL,23.0,7,gargantuan,27,12,25,20,17,19,8.0,1.0,7.0,5.0,3.0,4.0,False,True,True,False,True,True,8,8,14,5,10,11
+WBtW,78.0,construct,unique,N,0.5,2,small,14,13,11,7,10,10,2.0,1.0,0.0,-2.0,0.0,0.0,False,False,False,False,False,False,2,1,0,-2,0,0
 ERftLW,289.0,beast,generic,N,1.0,2,medium,12,16,14,4,12,6,1.0,3.0,2.0,-3.0,1.0,-2.0,False,False,False,False,False,False,1,3,2,-3,1,-2
 MM,168.0,construct,generic,N,9.0,4,large,20,9,18,3,8,1,5.0,-1.0,4.0,-4.0,-1.0,-5.0,False,False,False,False,False,False,5,-1,4,-4,-1,-5
 MM,41.0,aberration,generic,N,8.0,3,large,17,15,12,13,12,14,3.0,2.0,1.0,1.0,1.0,2.0,False,False,False,False,False,False,3,2,1,1,1,2
@@ -315,6 +320,7 @@ VGtM,138.0,fiend,generic,N,13.0,5,large,20,12,20,13,10,16,5.0,1.0,5.0,1.0,0.0,3.
 MToF,248.0,fiend,generic,N,7.0,3,medium,17,10,19,7,10,9,3.0,0.0,4.0,-2.0,0.0,-1.0,True,False,False,False,False,False,6,0,4,-2,0,-1
 VGtM,139.0,beast,generic,N,0.25,2,medium,14,10,15,2,10,5,2.0,0.0,2.0,-4.0,0.0,-3.0,False,False,False,False,False,False,2,0,2,-4,0,-3
 MM,81.0,monstrosity,generic,N,3.0,2,large,18,15,16,6,12,8,4.0,2.0,3.0,-2.0,1.0,-1.0,False,False,False,False,False,False,4,2,3,-2,1,-1
+WBtW,108.0,monstrosity,generic,N,0.125,2,small,12,13,12,4,10,6,1.0,1.0,1.0,-3.0,0.0,-2.0,False,False,False,False,False,False,1,1,1,-3,0,-2
 VGtM,213.0,humanoid,generic,N,8.0,3,medium,9,14,11,18,12,11,-1.0,2.0,0.0,4.0,1.0,0.0,False,False,False,True,True,False,-1,2,0,7,4,0
 ERftLW,290.0,aberration,generic,N,3.0,2,medium,14,18,12,13,14,11,2.0,4.0,1.0,1.0,2.0,0.0,False,False,False,False,False,False,2,4,1,1,2,0
 ERftLW,291.0,aberration,generic,N,0.5,2,small,15,14,12,8,10,8,2.0,2.0,1.0,-1.0,0.0,-1.0,False,False,False,False,False,False,2,2,1,-1,0,-1
@@ -416,6 +422,7 @@ MM,322.0,beast,generic,N,4.0,2,huge,22,9,17,3,11,6,6.0,-1.0,3.0,-4.0,0.0,-2.0,Fa
 PotA,202.0,humanoid,unique,N,5.0,3,medium,13,15,14,11,18,10,1.0,2.0,2.0,0.0,4.0,0.0,False,False,False,False,False,False,1,2,2,0,4,0
 MM,322.0,beast,generic,N,0.25,2,large,16,10,12,2,10,6,3.0,0.0,1.0,-4.0,0.0,-2.0,False,False,False,False,False,False,3,0,1,-4,0,-2
 MM,325.0,beast,generic,N,2.0,2,huge,19,16,14,7,14,10,4.0,3.0,2.0,-2.0,2.0,0.0,False,False,False,False,False,False,4,3,2,-2,2,0
+WBtW,224.0,humanoid,unique,N,2.0,2,medium,9,13,16,9,10,11,-1.0,1.0,3.0,-1.0,0.0,0.0,True,False,True,False,False,False,1,1,5,-1,0,0
 FToD,197.0,dragon,generic,N,2.0,2,medium,15,12,15,14,12,14,2.0,1.0,2.0,2.0,1.0,2.0,False,True,True,False,True,True,2,3,4,2,3,4
 FToD,196.0,dragon,legendary,L,14.0,5,huge,23,12,21,18,16,18,6.0,1.0,5.0,4.0,3.0,4.0,False,True,True,False,True,True,6,6,10,4,8,9
 FToD,196.0,dragon,legendary,LL,15.0,5,huge,23,12,21,18,16,18,6.0,1.0,5.0,4.0,3.0,4.0,False,True,True,False,True,True,6,6,10,4,8,9
@@ -425,6 +432,7 @@ FToD,197.0,dragon,generic,N,8.0,3,large,21,12,19,16,14,16,5.0,1.0,4.0,3.0,2.0,3.
 FToD,201.0,dragon,legendary,L,26.0,8,gargantuan,28,14,29,30,24,25,9.0,2.0,9.0,10.0,7.0,7.0,False,True,True,False,True,True,9,10,17,10,15,15
 MM,130.0,celestial,legendary,L,23.0,7,huge,30,21,30,21,22,27,10.0,5.0,10.0,5.0,6.0,8.0,True,False,False,True,True,True,17,5,10,12,13,15
 VGtM,213.0,humanoid,generic,N,5.0,3,medium,9,14,11,17,12,11,-1.0,2.0,0.0,3.0,1.0,0.0,False,False,False,True,True,False,-1,2,0,6,4,0
+WBtW,217.0,fey,unique,N,6.0,3,medium,20,13,20,13,10,17,5.0,1.0,5.0,1.0,0.0,3.0,False,False,True,True,True,True,5,1,8,4,3,6
 MM,73.0,fiend,generic,N,12.0,4,medium,18,16,18,14,14,18,4.0,3.0,4.0,2.0,2.0,4.0,False,True,True,False,True,True,4,7,8,2,6,8
 PotA,200.0,humanoid,generic,N,2.0,2,medium,15,13,14,8,11,13,2.0,1.0,2.0,-1.0,0.0,1.0,False,False,False,False,False,False,2,1,2,-1,0,1
 PotA,200.0,humanoid,generic,N,3.0,2,medium,12,15,14,10,11,16,1.0,2.0,2.0,0.0,0.0,3.0,False,False,False,False,False,False,1,2,2,0,0,3
@@ -461,6 +469,7 @@ GGtR,242.0,humanoid,generic,N,5.0,3,medium,10,15,12,20,9,14,0.0,2.0,1.0,5.0,-1.0
 GGtR,208.0,elemental,generic,N,7.0,3,large,15,18,15,6,10,7,2.0,4.0,2.0,-2.0,0.0,-2.0,False,False,False,False,False,False,2,4,2,-2,0,-2
 BGDiA,30.0,construct,generic,N,0.125,2,tiny,12,15,11,1,5,1,1.0,2.0,0.0,-5.0,-3.0,-5.0,False,True,False,False,False,False,1,4,0,-5,-3,-5
 GGtR,203.0,aberration,generic,N,3.0,2,medium,9,20,12,2,15,16,-1.0,5.0,1.0,-4.0,2.0,3.0,False,False,False,False,False,False,-1,5,1,-4,2,3
+WBtW,121.0,construct,generic,N,0.125,2,medium,10,10,13,1,3,1,0.0,0.0,1.0,-5.0,-4.0,-5.0,False,False,False,False,False,False,0,0,1,-5,-4,-5
 MM,322.0,beast,generic,N,0.125,2,tiny,4,18,11,2,12,5,-3.0,4.0,0.0,-4.0,1.0,-3.0,False,False,False,False,False,False,-3,4,0,-4,1,-3
 MM,20.0,construct,generic,N,0.25,2,small,12,15,11,1,5,1,1.0,2.0,0.0,-5.0,-3.0,-5.0,False,True,False,False,False,False,1,4,0,-5,-3,-5
 MM,136.0,giant,generic,N,8.0,3,huge,23,10,20,9,14,6,6.0,0.0,5.0,-1.0,2.0,-2.0,False,False,False,False,False,False,6,0,5,-1,2,-2
@@ -510,6 +519,7 @@ MM,323.0,beast,generic,N,0.25,2,small,5,14,12,1,7,3,-3.0,2.0,1.0,-5.0,-2.0,-4.0,
 MM,324.0,beast,generic,N,0.125,2,medium,13,15,11,1,9,3,1.0,2.0,0.0,-5.0,-1.0,-4.0,False,False,False,False,False,False,1,2,0,-5,-1,-4
 TftYP,103.0,beast,unique,N,8.0,3,huge,20,15,20,1,9,3,5.0,2.0,5.0,-5.0,-1.0,-4.0,False,False,False,False,False,False,5,2,5,-5,-1,-4
 TftYP,235.0,beast,generic,N,2.0,2,large,15,13,13,1,9,3,2.0,1.0,1.0,-5.0,-1.0,-4.0,False,False,False,False,False,False,2,1,1,-5,-1,-4
+WBtW,234.0,beast,generic,N,0.5,2,large,15,18,11,3,10,3,2.0,4.0,0.0,-4.0,0.0,-4.0,False,False,False,False,False,False,2,4,0,-4,0,-4
 ToA,221.0,elemental,generic,N,10.0,4,large,19,11,20,6,11,9,4.0,0.0,5.0,-2.0,0.0,-1.0,False,False,False,False,True,False,4,0,5,-2,4,-1
 MM,325.0,beast,generic,N,0.25,2,medium,12,13,11,2,10,3,1.0,1.0,0.0,-4.0,0.0,-4.0,False,False,False,False,False,False,1,1,0,-4,0,-4
 TftYP,235.0,monstrosity,generic,N,3.0,2,large,16,13,14,8,10,6,3.0,1.0,2.0,-1.0,0.0,-2.0,False,False,False,False,False,False,3,1,2,-1,0,-2
@@ -520,6 +530,7 @@ MM,327.0,beast,generic,N,0.25,2,medium,10,18,13,2,10,3,0.0,4.0,1.0,-4.0,0.0,-4.0
 MM,327.0,beast,generic,N,0.125,2,small,7,15,11,2,10,4,-2.0,2.0,0.0,-4.0,0.0,-3.0,False,False,False,False,False,False,-2,2,0,-4,0,-3
 MM,327.0,beast,generic,N,0.125,2,small,7,15,11,2,10,4,-2.0,2.0,0.0,-4.0,0.0,-3.0,False,False,False,False,False,False,-2,2,0,-4,0,-3
 TftYP,236.0,undead,generic,N,7.0,3,huge,21,10,20,4,6,6,5.0,0.0,5.0,-3.0,-2.0,-2.0,False,False,False,False,False,False,5,0,5,-3,-2,-2
+WBtW,234.0,beast,generic,N,0.25,2,large,15,3,11,3,10,3,2.0,-4.0,0.0,-4.0,0.0,-4.0,False,False,False,False,False,False,2,-4,0,-4,0,-4
 TftYP,236.0,beast,generic,N,4.0,2,huge,21,9,17,2,10,7,5.0,-1.0,3.0,-4.0,0.0,-2.0,False,False,False,False,False,False,5,-1,3,-4,0,-2
 MM,329.0,beast,generic,N,1.0,2,large,15,13,13,2,10,3,2.0,1.0,1.0,-4.0,0.0,-4.0,False,False,False,False,False,False,2,1,1,-4,0,-4
 MM,329.0,beast,generic,N,0.125,2,medium,11,16,10,4,12,5,0.0,3.0,0.0,-3.0,1.0,-3.0,False,False,False,False,False,False,0,3,0,-3,1,-3
@@ -541,6 +552,7 @@ MM,161.0,humanoid,generic,N,2.0,2,medium,12,15,12,13,14,10,1.0,2.0,1.0,1.0,2.0,0
 MM,161.0,humanoid,generic,N,6.0,3,medium,13,18,15,16,17,12,1.0,4.0,2.0,3.0,3.0,1.0,True,True,False,True,True,False,4,7,2,6,6,1
 MM,58.0,fiend,generic,N,9.0,4,large,20,15,21,19,17,16,5.0,2.0,5.0,4.0,3.0,3.0,True,False,True,False,True,True,9,2,9,4,7,7
 MM,399.0,humanoid,generic,N,5.0,3,medium,18,15,16,10,12,15,4.0,2.0,3.0,0.0,1.0,2.0,True,True,True,False,False,False,7,5,6,0,1,2
+WBtW,193.0,construct,generic,N,2.0,2,medium,13,10,10,1,10,1,1.0,0.0,0.0,-5.0,0.0,-5.0,False,True,True,False,True,False,1,2,2,-5,2,-5
 GGtR,215.0,undead,generic,N,8.0,3,large,20,16,17,2,11,6,5.0,3.0,3.0,-4.0,0.0,-2.0,True,True,False,False,False,False,8,6,3,-4,0,-2
 MToF,224.0,humanoid,generic,N,9.0,4,medium,11,18,14,15,12,18,0.0,4.0,2.0,2.0,1.0,4.0,False,True,True,False,False,False,0,8,6,2,1,4
 EGtW,291.0,monstrosity,generic,N,6.0,3,large,22,16,14,5,17,14,6.0,3.0,2.0,-3.0,3.0,2.0,True,True,False,False,False,False,9,6,2,-3,3,2
@@ -607,6 +619,7 @@ VGtM,158.0,dragon,generic,N,2.0,2,medium,16,11,16,4,10,7,3.0,0.0,3.0,-3.0,0.0,-2
 VGtM,158.0,dragon,generic,N,2.0,2,medium,16,11,16,4,10,7,3.0,0.0,3.0,-3.0,0.0,-2.0,False,False,False,False,False,False,3,0,3,-3,0,-2
 GGtR,201.0,giant,generic,N,8.0,3,huge,24,17,22,10,18,12,7.0,3.0,6.0,0.0,4.0,1.0,False,True,False,False,True,False,7,6,6,0,7,1
 CoS,227.0,construct,unique,N,1.0,2,medium,1,1,10,14,10,10,-5.0,-5.0,0.0,2.0,0.0,0.0,False,False,False,False,False,False,-5,-5,0,2,0,0
+EGtW,271.0,monstrosity,generic,N,4.0,2,huge,22,14,16,5,12,8,6.0,2.0,3.0,-3.0,1.0,-1.0,False,False,False,False,False,False,6,2,3,-3,1,-1
 IDRotF,305.0,humanoid,unique,N,5.0,3,medium,20,8,18,9,10,16,5.0,-1.0,4.0,-1.0,0.0,3.0,False,False,False,False,False,False,5,-1,4,-1,0,3
 TftYP,21.0,beast,unique,N,0.25,2,medium,7,15,11,2,10,4,-2.0,2.0,0.0,-4.0,0.0,-3.0,False,False,False,False,False,False,-2,2,0,-4,0,-3
 VGtM,140.0,beast,generic,N,0.25,2,large,15,10,13,2,10,5,2.0,0.0,1.0,-4.0,0.0,-3.0,False,False,False,False,False,False,2,0,1,-4,0,-3
@@ -618,6 +631,8 @@ MM,179.0,fey,generic,N,2.0,2,medium,16,13,16,12,12,13,3.0,1.0,3.0,1.0,1.0,1.0,Fa
 WDotMM,310.0,humanoid,unique,LL,23.0,7,medium,10,18,18,24,18,18,0.0,4.0,4.0,7.0,4.0,4.0,False,False,False,True,True,False,0,4,4,14,11,4
 MM,238.0,giant,generic,N,1.0,2,large,17,10,14,7,9,10,3.0,0.0,2.0,-2.0,-1.0,0.0,False,False,False,False,False,False,3,0,2,-2,-1,0
 MM,180.0,humanoid,generic,N,5.0,3,medium,16,13,14,10,11,10,3.0,1.0,2.0,0.0,0.0,0.0,False,False,False,False,False,False,3,1,2,0,0,0
+WBtW,235.0,humanoid,generic,N,0.125,2,medium,14,17,11,10,11,10,2.0,3.0,0.0,0.0,0.0,0.0,False,True,False,False,False,False,2,5,0,0,0,0
+WBtW,235.0,humanoid,generic,N,0.25,2,medium,10,17,11,10,13,10,0.0,3.0,0.0,0.0,1.0,0.0,False,True,False,False,False,False,0,5,0,0,1,0
 MM,181.0,monstrosity,generic,N,1.0,2,medium,12,13,12,7,10,13,1.0,1.0,1.0,-2.0,0.0,1.0,False,False,False,False,False,False,1,1,1,-2,0,1
 GoS,237.0,monstrosity,generic,N,5.0,3,medium,13,16,12,9,10,16,1.0,3.0,1.0,-1.0,0.0,3.0,False,True,False,False,False,True,1,6,1,-1,0,6
 MOoT,227.0,monstrosity,generic,N,0.125,2,medium,12,13,10,6,11,13,1.0,1.0,0.0,-2.0,0.0,1.0,False,False,False,False,False,False,1,1,0,-2,0,1
@@ -665,6 +680,7 @@ MToF,249.0,fiend,generic,N,9.0,4,medium,12,21,16,19,10,14,1.0,5.0,3.0,4.0,0.0,2.
 MM,326.0,beast,generic,N,1.0,2,large,16,14,14,2,12,7,3.0,2.0,2.0,-4.0,1.0,-2.0,False,False,False,False,False,False,3,2,2,-4,1,-2
 MOoT,252.0,monstrosity,unique,LL,17.0,6,large,21,17,19,14,16,18,5.0,3.0,4.0,2.0,3.0,4.0,True,False,True,False,False,True,11,3,10,2,3,10
 RoT,90.0,monstrosity,generic,N,1.0,2,medium,13,10,14,8,10,6,1.0,0.0,2.0,-1.0,0.0,-2.0,False,False,False,False,False,False,1,0,2,-1,0,-2
+WBtW,205.0,fey,unique,L,20.0,6,medium,10,18,18,27,12,23,0.0,4.0,4.0,8.0,1.0,6.0,False,False,False,True,True,True,0,4,4,14,7,12
 VGtM,214.0,humanoid,generic,N,3.0,2,medium,9,14,13,16,11,12,-1.0,2.0,1.0,3.0,0.0,1.0,False,False,False,True,True,False,-1,2,1,5,2,1
 PotA,214.0,elemental,unique,LL,19.0,6,huge,19,24,22,15,16,23,4.0,7.0,6.0,2.0,3.0,6.0,False,True,True,False,False,True,4,13,12,2,3,12
 CM,165.0,humanoid,generic,N,5.0,3,medium,12,16,14,11,14,10,1.0,3.0,2.0,0.0,2.0,0.0,False,False,False,False,False,False,1,3,2,0,2,0
@@ -689,6 +705,7 @@ WDH,199.0,humanoid,unique,N,8.0,3,medium,12,10,14,11,17,13,1.0,0.0,2.0,0.0,3.0,1
 OotA,225.0,aberration,generic,N,0.25,2,small,12,16,13,12,13,7,1.0,3.0,1.0,1.0,1.0,-2.0,False,False,False,False,False,False,1,3,1,1,1,-2
 OotA,226.0,aberration,generic,N,2.0,2,medium,14,18,13,12,13,7,2.0,4.0,1.0,1.0,1.0,-2.0,False,False,False,False,False,False,2,4,1,1,1,-2
 CoS,232.0,humanoid,unique,N,5.0,3,medium,18,15,16,10,9,15,4.0,2.0,3.0,0.0,-1.0,2.0,False,False,False,False,False,False,4,2,3,0,-1,2
+WBtW,236.0,dragon,legendary,L,13.0,5,huge,20,12,20,4,7,11,5.0,1.0,5.0,-3.0,-2.0,0.0,True,True,True,True,True,True,10,6,10,2,3,5
 MM,193.0,humanoid,generic,N,0.5,2,medium,11,15,11,13,11,10,0.0,2.0,0.0,1.0,0.0,0.0,False,False,False,False,False,False,0,2,0,1,0,0
 ToA,225.0,beast,generic,N,0.5,2,large,15,14,11,2,8,3,2.0,2.0,0.0,-4.0,-1.0,-4.0,False,False,False,False,False,False,2,2,0,-4,-1,-4
 CM,166.0,humanoid,unique,N,8.0,3,medium,18,14,15,11,16,11,4.0,2.0,2.0,0.0,3.0,0.0,True,False,True,False,False,False,7,2,5,0,3,0
@@ -706,8 +723,10 @@ ERftLW,317.0,humanoid,generic,N,0.25,2,medium,12,14,12,13,15,15,1.0,2.0,1.0,1.0,
 TftYP,238.0,monstrosity,unique,N,3.0,2,large,17,12,16,15,16,12,3.0,1.0,3.0,2.0,3.0,1.0,False,False,False,False,False,False,3,1,3,2,3,1
 ToA,225.0,monstrosity,generic,N,4.0,2,large,16,16,14,3,14,10,3.0,3.0,2.0,-4.0,2.0,0.0,False,False,False,False,False,False,3,3,2,-4,2,0
 ERftLW,295.0,undead,generic,N,3.0,2,medium,16,14,16,12,13,5,3.0,2.0,3.0,1.0,1.0,-3.0,False,False,False,False,False,False,3,2,3,1,1,-3
+WBtW,219.0,humanoid,unique,N,5.0,3,medium,15,10,14,15,13,17,2.0,0.0,2.0,2.0,1.0,3.0,False,False,True,False,False,True,2,0,5,2,1,6
 TftYP,238.0,plant,generic,N,4.0,2,medium,14,14,16,7,12,10,2.0,2.0,3.0,-2.0,1.0,0.0,False,False,False,False,False,False,2,2,3,-2,1,0
 MM,194.0,humanoid,generic,N,0.25,2,medium,10,16,10,11,10,10,0.0,3.0,0.0,0.0,0.0,0.0,False,False,False,False,False,False,0,3,0,0,0,0
+WBtW,52.0,humanoid,unique,N,1.0,2,medium,10,16,10,11,10,16,0.0,3.0,0.0,0.0,0.0,3.0,False,False,False,False,True,True,0,3,0,0,2,5
 VGtM,163.0,celestial,legendary,L,12.0,4,huge,21,16,16,19,20,20,5.0,3.0,3.0,4.0,5.0,5.0,False,False,False,False,False,False,5,3,3,4,5,5
 CM,136.0,construct,generic,N,0.5,2,small,6,14,18,1,10,1,-2.0,2.0,4.0,-5.0,0.0,-5.0,False,False,False,False,False,False,-2,2,4,-5,0,-5
 MM,331.0,beast,generic,N,3.0,2,huge,19,10,13,3,12,7,4.0,0.0,1.0,-4.0,1.0,-2.0,False,False,False,False,False,False,4,0,1,-4,1,-2
@@ -765,6 +784,7 @@ IDRotF,298.0,construct,generic,N,4.0,2,large,26,10,20,1,10,1,8.0,0.0,5.0,-5.0,0.
 IDRotF,299.0,construct,generic,N,8.0,3,small,10,16,19,6,10,3,0.0,3.0,4.0,-2.0,0.0,-4.0,False,False,False,False,False,False,0,3,4,-2,0,-4
 ERftLW,298.0,construct,generic,N,1.0,2,medium,10,12,16,3,6,6,0.0,1.0,3.0,-4.0,-2.0,-2.0,False,False,False,False,False,False,0,1,3,-4,-2,-2
 ERftLW,299.0,construct,generic,N,7.0,3,large,10,15,20,3,11,6,0.0,2.0,5.0,-4.0,0.0,-2.0,False,False,False,False,False,False,0,2,5,-4,0,-2
+WBtW,238.0,construct,generic,N,2.0,2,tiny,3,11,13,10,10,7,-4.0,0.0,1.0,0.0,0.0,-2.0,False,False,False,True,True,True,-4,0,1,2,2,0
 GoS,241.0,construct,unique,N,5.0,3,medium,16,14,18,6,10,5,3.0,2.0,4.0,-2.0,0.0,-3.0,False,False,False,False,False,False,3,2,4,-2,0,-3
 ERftLW,299.0,construct,generic,N,5.0,3,large,10,15,18,3,10,6,0.0,2.0,4.0,-4.0,0.0,-2.0,False,False,False,False,False,False,0,2,4,-4,0,-2
 MM,204.0,humanoid,generic,N,0.5,2,medium,15,10,13,7,12,7,2.0,0.0,1.0,-2.0,1.0,-2.0,False,False,False,False,False,False,2,0,1,-2,1,-2
@@ -818,6 +838,7 @@ MM,216.0,elemental,generic,N,0.5,2,small,8,12,12,7,10,10,-1.0,1.0,1.0,-2.0,0.0,0
 MM,216.0,elemental,generic,N,0.25,2,small,8,12,12,9,11,7,-1.0,1.0,1.0,-1.0,0.0,-2.0,False,False,False,False,False,False,-1,1,1,-1,0,-2
 MM,217.0,elemental,generic,N,0.25,2,small,6,14,12,10,10,11,-2.0,2.0,1.0,0.0,0.0,0.0,False,False,False,False,False,False,-2,2,1,0,0,0
 MM,217.0,elemental,generic,N,0.25,2,small,5,11,10,11,10,12,-3.0,0.0,0.0,0.0,0.0,1.0,False,False,False,False,False,False,-3,0,0,0,0,1
+WBtW,224.0,humanoid,unique,N,3.0,2,medium,15,10,9,12,17,17,2.0,0.0,-1.0,1.0,3.0,3.0,False,False,False,False,True,True,2,0,-1,1,5,5
 MM,218.0,humanoid,generic,N,0.125,2,medium,10,13,12,11,11,12,0.0,1.0,1.0,0.0,0.0,1.0,False,False,False,False,False,False,0,1,1,0,0,1
 GoS,244.0,humanoid,generic,N,1.0,2,medium,12,14,12,11,10,13,1.0,2.0,1.0,0.0,0.0,1.0,False,True,False,False,False,False,1,4,1,0,0,1
 MToF,166.0,fiend,generic,N,4.0,2,medium,18,14,17,6,12,8,4.0,2.0,3.0,-2.0,1.0,-1.0,False,False,False,False,False,False,4,2,3,-2,1,-1
@@ -842,6 +863,9 @@ MM,223.0,monstrosity,generic,N,3.0,2,large,18,11,16,6,16,9,4.0,0.0,3.0,-2.0,3.0,
 GoS,245.0,construct,unique,N,6.0,3,large,18,9,16,6,10,5,4.0,-1.0,3.0,-2.0,0.0,-3.0,False,False,False,False,False,False,4,-1,3,-2,0,-3
 PotA,198.0,humanoid,unique,N,6.0,3,medium,12,10,17,13,11,18,1.0,0.0,3.0,1.0,0.0,4.0,False,False,False,False,False,False,1,0,3,1,0,4
 WDH,211.0,humanoid,unique,N,9.0,4,medium,18,18,18,15,12,15,4.0,4.0,4.0,2.0,1.0,2.0,False,True,False,False,True,False,4,8,4,2,5,2
+WBtW,26.0,humanoid,unique,N,3.0,2,medium,10,16,12,12,13,17,0.0,3.0,1.0,1.0,1.0,3.0,False,True,False,False,False,True,0,5,1,1,1,5
+WBtW,25.0,humanoid,unique,N,3.0,2,medium,14,11,16,16,13,14,2.0,0.0,3.0,3.0,1.0,2.0,False,False,False,True,True,False,2,0,3,5,3,2
+WBtW,226.0,humanoid,unique,N,3.0,2,medium,9,17,16,10,9,16,-1.0,3.0,3.0,0.0,-1.0,3.0,False,True,False,True,False,False,-1,5,3,2,-1,3
 MToF,176.0,fiend,unique,L,21.0,7,large,26,19,22,21,18,23,8.0,4.0,6.0,5.0,4.0,6.0,False,True,True,False,True,True,8,11,13,5,11,13
 MToF,134.0,fiend,legendary,L,21.0,7,huge,28,22,25,21,24,24,9.0,6.0,7.0,5.0,7.0,7.0,True,False,True,False,True,True,16,6,14,5,14,14
 CoS,234.0,humanoid,generic,N,0.25,2,medium,12,9,15,9,10,6,1.0,-1.0,2.0,-1.0,0.0,-2.0,False,False,False,False,False,False,1,-1,2,-1,0,-2
@@ -1040,6 +1064,7 @@ MM,336.0,beast,generic,N,2.0,2,large,21,8,15,2,12,6,5.0,-1.0,2.0,-4.0,1.0,-2.0,F
 PotA,140.0,humanoid,unique,N,0.125,2,medium,18,12,12,10,11,10,4.0,1.0,1.0,0.0,0.0,0.0,False,False,False,False,False,False,4,1,1,0,0,0
 CoS,238.0,humanoid,unique,N,5.0,3,medium,9,12,13,16,18,16,-1.0,1.0,1.0,3.0,4.0,3.0,False,False,True,False,True,False,-1,1,4,3,7,3
 BGDiA,199.0,humanoid,unique,N,3.0,2,medium,14,18,14,10,11,15,2.0,4.0,2.0,0.0,0.0,2.0,False,True,False,False,True,False,2,6,2,0,2,2
+WBtW,227.0,humanoid,unique,N,5.0,3,medium,9,10,9,17,13,11,-1.0,0.0,-1.0,3.0,1.0,0.0,True,True,True,True,True,True,2,3,2,6,4,3
 GoS,248.0,humanoid,generic,N,2.0,2,medium,15,11,14,10,11,16,2.0,0.0,2.0,0.0,0.0,3.0,False,False,False,False,False,False,2,0,2,0,0,3
 MM,260.0,monstrosity,generic,N,11.0,4,gargantuan,28,10,20,3,10,9,9.0,0.0,5.0,-4.0,0.0,-1.0,False,True,True,False,True,True,9,4,9,-4,4,3
 MM,261.0,monstrosity,generic,N,5.0,3,large,18,8,17,7,16,6,4.0,-1.0,3.0,-2.0,3.0,-2.0,False,False,False,False,False,False,4,-1,3,-2,3,-2
@@ -1093,6 +1118,7 @@ TftYP,242.0,monstrosity,generic,N,5.0,3,large,17,15,15,3,12,8,3.0,2.0,2.0,-4.0,1
 FToD,219.0,dragon,legendary,L,14.0,5,gargantuan,24,15,20,13,16,12,7.0,2.0,5.0,1.0,3.0,1.0,True,False,True,False,False,False,12,2,10,1,3,1
 FToD,291.0,dragon,generic,N,8.0,3,huge,19,12,17,11,13,10,4.0,1.0,3.0,0.0,1.0,0.0,True,False,True,False,False,False,7,1,6,0,1,0
 VGtM,189.0,humanoid,generic,N,1.0,2,medium,15,8,15,6,10,8,2.0,-1.0,2.0,-2.0,0.0,-1.0,False,False,False,False,False,False,2,-1,2,-2,0,-1
+WBtW,241.0,humanoid,unique,N,2.0,2,medium,7,18,13,12,10,17,-2.0,4.0,1.0,1.0,0.0,3.0,False,True,False,False,False,True,-2,6,1,1,0,5
 IDRotF,23.0,undead,unique,N,3.0,2,medium,16,14,16,11,16,18,3.0,2.0,3.0,0.0,3.0,4.0,False,False,False,False,False,False,3,2,3,0,3,4
 MOoT,229.0,humanoid,generic,N,4.0,2,medium,14,16,14,13,16,11,2.0,3.0,2.0,1.0,3.0,0.0,False,True,False,False,True,False,2,5,2,1,5,0
 RoT,92.0,humanoid,unique,L,11.0,4,medium,10,13,16,17,12,20,0.0,1.0,3.0,3.0,1.0,5.0,False,True,False,False,True,False,0,5,3,3,5,5
@@ -1130,6 +1156,7 @@ TftYP,243.0,humanoid,unique,N,0.5,2,medium,16,9,14,10,13,14,3.0,-1.0,2.0,0.0,1.0
 CoS,139.0,undead,unique,N,6.0,3,medium,18,14,18,13,16,18,4.0,2.0,4.0,1.0,3.0,4.0,True,False,True,False,True,True,7,2,7,1,6,7
 GGtR,197.0,fiend,generic,N,12.0,4,huge,23,6,19,14,19,22,6.0,-2.0,4.0,2.0,4.0,6.0,False,False,True,True,True,True,6,-2,8,6,8,10
 TftYP,243.0,fey,generic,N,3.0,2,medium,10,18,12,13,14,16,0.0,4.0,1.0,1.0,2.0,3.0,False,False,False,False,False,False,0,4,1,1,2,3
+WBtW,218.0,fey,unique,N,8.0,3,medium,18,9,16,12,16,15,4.0,-1.0,3.0,1.0,3.0,2.0,False,False,True,True,True,True,4,-1,6,4,6,5
 WDH,200.0,humanoid,generic,N,6.0,3,small,9,14,12,17,12,15,-1.0,2.0,1.0,3.0,1.0,2.0,False,False,False,True,True,False,-1,2,1,6,4,2
 GoS,253.0,undead,generic,N,0.5,2,medium,9,13,15,14,10,9,-1.0,1.0,2.0,2.0,0.0,-1.0,False,False,False,False,False,False,-1,1,2,2,0,-1
 GoS,253.0,undead,generic,N,5.0,3,large,16,14,15,6,8,5,3.0,2.0,2.0,-2.0,-1.0,-3.0,False,False,False,False,False,False,3,2,2,-2,-1,-3
@@ -1145,6 +1172,7 @@ BGDiA,234.0,humanoid,generic,N,1.0,2,medium,10,14,15,16,13,10,0.0,2.0,2.0,3.0,1.
 MToF,230.0,undead,legendary,L,15.0,5,medium,14,16,17,16,15,21,2.0,3.0,3.0,3.0,2.0,5.0,False,False,False,False,False,False,2,3,3,3,2,5
 GoS,254.0,aberration,generic,N,5.0,3,medium,19,11,18,7,12,9,4.0,0.0,4.0,-2.0,1.0,-1.0,False,False,False,False,False,False,4,0,4,-2,1,-1
 GGtR,219.0,monstrosity,generic,N,2.0,2,large,20,13,14,3,10,8,5.0,1.0,2.0,-4.0,0.0,-1.0,False,True,False,False,True,False,5,3,2,-4,2,-1
+WBtW,220.0,humanoid,unique,N,2.0,2,medium,9,11,14,12,15,17,-1.0,0.0,2.0,1.0,2.0,3.0,False,False,False,False,True,True,-1,0,2,1,4,5
 GGtR,220.0,monstrosity,generic,N,13.0,5,gargantuan,23,15,16,7,12,6,6.0,2.0,3.0,-2.0,1.0,-2.0,False,False,True,False,False,False,6,2,8,-2,1,-2
 PotA,191.0,humanoid,generic,N,3.0,2,medium,8,14,12,11,10,16,-1.0,2.0,1.0,0.0,0.0,3.0,False,False,False,False,False,False,-1,2,1,0,0,3
 MM,276.0,aberration,generic,N,7.0,3,large,20,15,18,7,7,9,5.0,2.0,4.0,-2.0,-2.0,-1.0,False,False,False,False,False,False,5,2,4,-2,-2,-1
@@ -1178,6 +1206,8 @@ OotA,228.0,plant,generic,N,4.0,2,large,19,10,16,2,6,1,4.0,0.0,3.0,-4.0,-2.0,-5.0
 OotA,229.0,plant,generic,N,3.0,2,medium,18,10,15,2,6,1,4.0,0.0,2.0,-4.0,-2.0,-5.0,False,False,False,False,False,False,4,0,2,-4,-2,-5
 MM,230.0,plant,generic,N,1.0,2,medium,17,12,16,2,6,1,3.0,1.0,3.0,-4.0,-2.0,-5.0,False,False,False,False,False,False,3,1,3,-4,-2,-5
 MM,283.0,fey,generic,N,0.25,2,tiny,3,18,10,14,13,11,-4.0,4.0,0.0,2.0,1.0,0.0,False,False,False,False,False,False,-4,4,0,2,1,0
+MM,,humanoid,generic,N,1.0,2,medium,10,15,10,12,14,16,0.0,2.0,0.0,1.0,2.0,3.0,False,False,False,False,False,False,0,2,0,1,2,3
+WBtW,110.0,construct,unique,N,0.25,2,tiny,3,15,10,11,8,15,-4.0,2.0,0.0,0.0,-1.0,2.0,False,False,False,False,False,False,-4,2,0,0,-1,2
 VRGtR,245.0,aberration,legendary,L,21.0,7,huge,24,13,26,27,22,25,7.0,1.0,8.0,8.0,6.0,7.0,False,False,True,True,True,True,7,1,15,15,13,14
 VRGtR,245.0,aberration,legendary,L,19.0,6,medium,21,18,24,25,20,23,5.0,4.0,7.0,7.0,5.0,6.0,False,False,False,True,True,True,5,4,7,13,11,12
 MToF,234.0,aberration,generic,N,0.25,2,small,6,13,10,9,11,6,-2.0,1.0,0.0,-1.0,0.0,-2.0,False,False,False,False,False,False,-2,1,0,-1,0,-2
@@ -1208,11 +1238,13 @@ CoS,227.0,construct,unique,N,6.0,3,medium,17,13,16,9,10,9,3.0,1.0,3.0,-1.0,0.0,-
 VGtM,143.0,monstrosity,generic,N,1.0,2,large,18,13,14,4,12,6,4.0,1.0,2.0,-3.0,1.0,-2.0,False,False,False,False,False,False,4,1,2,-3,1,-2
 VRGtR,246.0,monstrosity,generic,N,4.0,2,medium,17,14,16,11,17,10,3.0,2.0,3.0,0.0,3.0,0.0,True,True,False,False,True,False,5,4,3,0,5,0
 SaCoC,217.0,construct,generic,N,1.0,2,small,15,14,13,10,12,12,2.0,2.0,1.0,0.0,1.0,1.0,False,True,False,False,False,False,2,4,1,0,1,1
+WBtW,228.0,humanoid,unique,N,4.0,2,medium,15,12,13,12,13,17,2.0,1.0,1.0,1.0,1.0,3.0,False,False,False,False,True,True,2,1,1,1,3,5
 ToA,232.0,monstrosity,generic,N,1.0,2,medium,14,15,12,9,13,9,2.0,2.0,1.0,-1.0,1.0,-1.0,False,False,False,False,False,False,2,2,1,-1,1,-1
 MM,285.0,fiend,generic,N,4.0,2,medium,8,17,13,15,12,20,-1.0,3.0,1.0,2.0,1.0,5.0,False,False,False,False,False,False,-1,3,1,2,1,5
 ERftLW,304.0,fiend,unique,L,28.0,8,large,18,21,19,30,22,25,4.0,5.0,4.0,10.0,6.0,7.0,False,False,True,True,True,True,4,5,12,18,14,15
 CM,19.0,construct,generic,N,0.25,2,medium,10,13,12,1,10,1,0.0,1.0,1.0,-5.0,0.0,-5.0,False,False,False,False,False,False,0,1,1,-5,0,-5
 MM,337.0,beast,generic,N,0.25,2,medium,5,15,10,2,12,4,-3.0,2.0,0.0,-4.0,1.0,-3.0,False,False,False,False,False,False,-3,2,0,-4,1,-3
+WBtW,232.0,plant,generic,N,1.0,2,medium,3,7,10,4,10,8,-4.0,-2.0,0.0,-3.0,0.0,-1.0,False,False,False,False,False,False,-4,-2,0,-3,0,-1
 VGtM,133.0,beast,generic,N,5.0,3,medium,9,14,10,15,11,14,-1.0,2.0,0.0,2.0,0.0,2.0,False,False,False,False,False,False,-1,2,0,2,0,2
 VRGtR,235.0,monstrosity,generic,N,2.0,2,medium,12,14,10,12,14,4,1.0,2.0,0.0,1.0,2.0,-3.0,False,False,False,False,False,False,1,2,0,1,2,-3
 FToD,205.0,monstrosity,generic,N,2.0,2,medium,6,16,11,3,8,6,-2.0,3.0,0.0,-4.0,-1.0,-2.0,False,False,False,False,False,False,-2,3,0,-4,-1,-2
@@ -1259,7 +1291,6 @@ SKT,99.0,undead,generic,N,3.0,2,huge,19,11,15,2,12,5,4.0,0.0,2.0,-4.0,1.0,-3.0,F
 PotA,192.0,humanoid,unique,N,3.0,2,medium,16,14,14,11,10,15,3.0,2.0,2.0,0.0,0.0,2.0,False,False,False,False,False,False,3,2,2,0,0,2
 BGDiA,34.0,humanoid,unique,N,0.125,2,medium,7,8,6,15,17,12,-2.0,-1.0,-2.0,2.0,3.0,1.0,False,False,False,False,False,False,-2,-1,-2,2,3,1
 RoT,92.0,fiend,unique,L,30.0,9,gargantuan,30,10,30,26,26,28,10.0,0.0,10.0,8.0,8.0,9.0,True,True,False,False,True,False,19,9,10,8,17,9
-FToD,166.0,dragon,unique,L,30.0,9,gargantuan,30,14,30,21,20,26,10.0,2.0,10.0,5.0,5.0,8.0,False,True,True,False,True,True,10,11,19,5,14,17
 MToF,178.0,fiend,unique,L,16.0,5,medium,19,22,17,24,22,26,4.0,6.0,3.0,7.0,6.0,8.0,False,True,True,False,True,True,4,11,8,7,11,13
 VGtM,193.0,monstrosity,generic,N,5.0,3,large,16,13,16,8,12,8,3.0,1.0,3.0,-1.0,1.0,-1.0,False,False,False,False,False,False,3,1,3,-1,1,-1
 IDRotF,310.0,construct,generic,N,10.0,4,huge,22,10,21,14,14,11,6.0,0.0,5.0,2.0,2.0,0.0,False,False,False,False,False,False,6,0,5,2,2,0
@@ -1276,6 +1307,7 @@ MToF,242.0,humanoid,generic,N,2.0,2,medium,14,10,12,11,15,12,2.0,0.0,1.0,0.0,2.0
 VGtM,218.0,humanoid,generic,N,5.0,3,medium,9,14,11,17,12,11,-1.0,2.0,0.0,3.0,1.0,0.0,False,False,False,True,True,False,-1,2,0,6,4,0
 VGtM,194.0,monstrosity,generic,N,3.0,2,large,17,10,17,2,13,4,3.0,0.0,3.0,-4.0,1.0,-3.0,False,False,False,False,False,False,3,0,3,-4,1,-3
 MM,289.0,plant,generic,N,9.0,4,huge,23,8,21,12,16,12,6.0,-1.0,5.0,1.0,3.0,1.0,False,False,False,False,False,False,6,-1,5,1,3,1
+WBtW,36.0,plant,generic,N,2.0,2,large,17,8,15,12,12,10,3.0,-1.0,2.0,1.0,1.0,0.0,False,False,False,False,False,False,3,-1,2,1,1,0
 ToA,234.0,plant,generic,N,0.5,2,medium,1,10,12,1,10,1,-5.0,0.0,1.0,-5.0,0.0,-5.0,False,False,False,False,False,False,-5,0,1,-5,0,-5
 MM,350.0,humanoid,generic,N,0.125,2,medium,13,11,12,8,11,8,1.0,0.0,1.0,-1.0,0.0,-1.0,False,False,False,False,False,False,1,0,1,-1,0,-1
 MM,80.0,beast,generic,N,5.0,3,huge,22,9,17,2,11,5,6.0,-1.0,3.0,-4.0,0.0,-3.0,False,False,False,False,False,False,6,-1,3,-4,0,-3
@@ -1343,6 +1375,7 @@ WDH,219.0,construct,generic,N,18.0,6,gargantuan,30,8,27,1,10,1,10.0,-1.0,8.0,-5.
 IDRotF,312.0,beast,generic,N,0.25,2,large,15,9,14,3,11,4,2.0,-1.0,2.0,-4.0,0.0,-3.0,False,False,False,False,False,False,2,-1,2,-4,0,-3
 IDRotF,312.0,beast,generic,N,4.0,2,huge,22,9,16,3,11,4,6.0,-1.0,3.0,-4.0,0.0,-3.0,False,False,False,False,False,False,6,-1,3,-4,0,-3
 VGtM,218.0,humanoid,generic,N,9.0,4,medium,16,10,14,11,17,13,3.0,0.0,2.0,0.0,3.0,1.0,False,False,True,False,True,False,3,0,6,0,7,1
+WBtW,221.0,humanoid,unique,N,5.0,3,medium,16,11,14,9,11,11,3.0,0.0,2.0,-1.0,0.0,0.0,True,False,True,False,False,False,6,0,5,-1,0,0
 ERftLW,314.0,construct,generic,N,25.0,8,gargantuan,30,11,30,3,11,8,10.0,0.0,10.0,-4.0,0.0,-1.0,False,False,False,True,True,True,10,0,10,4,8,7
 ERftLW,320.0,humanoid,generic,N,1.0,2,medium,16,12,16,10,14,11,3.0,1.0,3.0,0.0,2.0,0.0,False,False,False,False,False,False,3,1,3,0,2,0
 ERftLW,315.0,construct,generic,N,8.0,3,huge,23,8,22,3,11,1,6.0,-1.0,6.0,-4.0,0.0,-5.0,False,False,False,False,False,False,6,-1,6,-4,0,-5
@@ -1377,6 +1410,7 @@ PotA,192.0,humanoid,unique,N,3.0,2,medium,10,16,12,14,10,17,0.0,3.0,1.0,2.0,0.0,
 MOoT,214.0,celestial,generic,N,4.0,2,large,20,14,18,6,10,5,5.0,2.0,4.0,-2.0,0.0,-3.0,False,False,False,False,False,False,5,2,4,-2,0,-3
 MOoT,214.0,celestial,generic,N,4.0,2,large,20,16,18,6,14,5,5.0,3.0,4.0,-2.0,2.0,-3.0,False,False,False,False,False,False,5,3,4,-2,2,-3
 GGtR,248.0,humanoid,generic,N,7.0,3,medium,16,14,15,13,9,19,3.0,2.0,2.0,1.0,-1.0,4.0,False,False,False,False,True,True,3,2,2,1,2,7
+WBtW,27.0,humanoid,generic,N,0.125,2,medium,10,14,11,12,13,12,0.0,2.0,0.0,1.0,1.0,1.0,False,False,False,False,False,False,0,2,0,1,1,1
 SaCoC,221.0,humanoid,generic,N,2.0,2,medium,10,14,13,12,15,11,0.0,2.0,1.0,1.0,2.0,0.0,False,False,True,False,True,False,0,2,3,1,4,0
 SaCoC,222.0,humanoid,generic,N,4.0,2,medium,10,15,13,14,17,11,0.0,2.0,1.0,2.0,3.0,0.0,False,False,True,False,True,False,0,2,3,2,5,0
 SaCoC,223.0,humanoid,generic,N,7.0,3,medium,11,14,16,16,19,13,0.0,2.0,3.0,3.0,4.0,1.0,False,False,True,True,True,True,0,2,6,6,7,4
@@ -1424,7 +1458,9 @@ VGtM,205.0,monstrosity,generic,N,4.0,2,medium,16,14,13,14,12,16,3.0,2.0,1.0,2.0,
 VGtM,206.0,monstrosity,generic,N,5.0,3,medium,16,14,13,14,12,16,3.0,2.0,1.0,2.0,1.0,3.0,False,False,False,False,True,True,3,2,1,2,4,6
 MM,310.0,humanoid,generic,N,1.0,2,medium,11,12,11,13,12,14,0.0,1.0,0.0,1.0,1.0,2.0,False,False,False,False,False,False,0,1,0,1,1,2
 TftYP,248.0,humanoid,unique,N,1.0,2,small,8,15,14,10,10,16,-1.0,2.0,2.0,0.0,0.0,3.0,False,False,False,False,False,False,-1,2,2,0,0,3
+WBtW,222.0,humanoid,unique,N,2.0,2,medium,13,16,16,11,15,6,1.0,3.0,3.0,0.0,2.0,-2.0,False,True,False,True,False,False,1,5,3,2,2,-2
 MToF,201.0,elemental,legendary,L,22.0,7,gargantuan,30,10,30,2,21,18,10.0,0.0,10.0,-4.0,5.0,4.0,False,False,False,False,True,True,10,0,10,-4,12,11
+WBtW,223.0,humanoid,unique,N,3.0,2,medium,14,10,14,12,16,15,2.0,0.0,2.0,1.0,3.0,2.0,False,False,False,False,True,True,2,0,2,1,5,4
 MToF,180.0,fiend,unique,LL,26.0,8,large,27,24,28,26,27,30,8.0,7.0,9.0,8.0,8.0,10.0,False,False,False,True,True,True,8,7,9,16,16,18
 GGtR,255.0,humanoid,unique,L,16.0,5,medium,11,14,14,20,18,16,0.0,2.0,2.0,5.0,4.0,3.0,False,False,False,True,True,False,0,2,2,10,9,3
 SKT,33.0,giant,unique,N,13.0,5,huge,27,10,22,18,16,16,8.0,0.0,6.0,4.0,3.0,3.0,False,False,True,False,True,True,8,0,11,4,8,8
