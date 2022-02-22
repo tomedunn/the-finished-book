@@ -158,7 +158,7 @@ or half the sum of the the maximum total encounter XP and the total XP for the N
 For a group of $$N$$ identical NPCs, putting Eqn. \eqref{eq:adjusted-experience-average} into Eqn. \eqref{eq:encounter-multiplier-short-simple} gives an encounter multiplier of
 
 \begin{align}
-    \EM \propto \frac{\left(N + 1\right)}{2}\,.
+    \EM = \frac{\left(N + 1\right)}{2}\,.
     \label{eq:encounter-multiplier-approx-single-target}
 \end{align}
 
@@ -313,7 +313,7 @@ which simplifies to just the total XP for the NPCs in the encounter divided by t
 The encounter multiplier for this kind of multi-target strategy, therefore, is simply,
 
 \begin{equation}
-    \EM \propto \frac{1}{\effMT}\,.
+    \EM = \frac{1}{\effMT}\,.
     \label{eq:encounter-multiplier-general-multi-target}
 \end{equation}
 
@@ -324,7 +324,7 @@ Figure <a href="#fig:xp-encounter-multiplier-aoe" class="fig-ref">5</a> (below),
     <figcaption>Figure 5: Encounter multiplier for multi-target strategies that damage all enemies equally and simultaneously as a function of multi-target damage efficiency.</figcaption>
 </figure>
 
-Using the [Spell Damage](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#SpellDamage) table in chapter 9 of the DMG as a reference gives $$\effMT \approx 0.70$$ for spells, which translates to $$\EM \propto 1.43$$. Against monsters who are resistant to spell damage, or the specific damage type dealt by the PCs' spells, this changes to $$\effMT \approx 0.35$$ and $$\EM \propto 2.86$$, assuming the single target alternatives aren't effected by those same resistances. 
+Using the [Spell Damage](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#SpellDamage) table in chapter 9 of the DMG as a reference gives $$\effMT \approx 0.70$$ for spells, which translates to $$\EM \approx 1.43$$. Against monsters who are resistant to spell damage, or the specific damage type dealt by the PCs' spells, this changes to $$\effMT \approx 0.35$$ and $$\EM \approx 2.86$$, assuming the single target alternatives aren't effected by those same resistances. 
 
 # Mixed strategies
 
@@ -405,7 +405,7 @@ It's worth noting that if $$\dMTi = 0$$ for all NPCs then Eqns. \eqref{eq:encoun
 For a group of $$N$$ identical NPCs, putting Eqn. \eqref{eq:encounter-weights-mixed-target-average} into Eqn. \eqref{eq:encounter-multiplier-short-simple} gives an encounter multiplier of
 
 \begin{align}
-    \EM \propto \frac{\left(N + 1\right) \left(1 - \dMTi\right)}{2} + \frac{\dMTi}{\effMT}\,.
+    \EM = \frac{\left(N + 1\right) \left(1 - \dMTi\right)}{2} + \frac{\dMTi}{\effMT}\,.
     \label{eq:encounter-multiplier-approx-mixed-target}
 \end{align}
 
