@@ -2,7 +2,7 @@
 title: "XP and Encounter Balancing"
 excerpt: "A detailed explanation of where XP comes from and how encounter balancing works."
 date: 2022-1-27
-last_modified_at: 2022-2-7
+last_modified_at: 2022-2-21
 #tags:
 #  - theory
 #  - monsters
@@ -137,11 +137,11 @@ Now that I've established what $$\XP$$ is and how it's calculated, let's turn ou
 To start, Eqn. \eqref{eq:difficulty-experience} can be rewritten in terms of $$\XP$$, 
 
 \begin{equation}
-    \diff \sum_{i,j} \XP\_{\,\mathrm{PC}\_{i,j}} = 4 \sum_{i,j} \XP\_{\,\mathrm{NPC}\_{i,j}}\,,
+    \diff \sum_{i,j} \XP\_{\,\mathrm{PC}\_{ij}} = 4 \sum_{i,j} \XP\_{\,\mathrm{NPC}\_{ij}}\,,
     \label{eq:difficulty-xp}
 \end{equation}
 
-where $$\XP_{\,\mathrm{PC}_{i,j}}$$ $$(\XP_{\,\mathrm{NPC}_{i,j}})$$ represents the cross term between the $$i$$th and $$j$$th PCs (NPCs), and the summation on each side represents the sum over all combinations of PCs (NPCs).
+where $$\XP_{\,\mathrm{PC}_{ij}}$$ $$(\XP_{\,\mathrm{NPC}_{ij}})$$ represents the cross term between the $$i$$th and $$j$$th PCs (NPCs), and the summation on each side represents the sum over all combinations of PCs (NPCs).
 
 This is simpler to write, but it doesn't offer any immediately improved understanding. The diagonal terms, when $$i = j$$, are clearly the individual $$\XP$$ values for each PC (NPC), but what about the off diagonal terms when $$i \neq j\,$$? 
 
@@ -152,28 +152,28 @@ To understand this better, consider the diagram in Fig. <a href="#fig:xp-encount
     <figcaption>Figure 2: Graphical representation of the RHS of Eqn. \eqref{eq:difficulty-xp} for and encounter with three NPCs.</figcaption>
 </figure>
 
-The area of each square, $$\XP_{i,j} \propto \eHP_{i} \cdot \eDPR_{j}$$, represents how much $$\XP$$ each contributes to the difficulty of the encounter. The white regions represent the $$\XP$$ of each NPC individually, and the remaining $$\XP$$, colored blue and red, represents the $$\XP$$ added to the encounter due to the NPCs being in a group.
+The area of each square, $$\XP_{ij} \propto \eHP_{i} \cdot \eDPR_{j}$$, represents how much $$\XP$$ each contributes to the difficulty of the encounter. The white regions represent the $$\XP$$ of each NPC individually, and the remaining $$\XP$$, colored blue and red, represents the $$\XP$$ added to the encounter due to the NPCs being in a group.
 
-Focusing on just the first column, the meaning of this additional $$\XP$$ becomes clear. Moving from bottom to top, the first square, $$\XP_{1,1} \propto \eHP_{1} \cdot \eDPR_{1}$$, is the individual $$\XP$$ for NPC 1 and represents the damage they do in the time it takes the PCs to defeat them. The second square, $$\XP_{1,2} \propto \eHP_{2} \cdot \eDPR_{1}$$, represents the extra damage dealt by NPC 1 in the time it takes the PCs to defeat NPC 2. Finally, the third square, $$\XP_{1,3} \propto \eHP_{3} \cdot \eDPR_{1}$$, represents the extra damage dealt by NPC 1 in the time it takes the PCs to defeat NPC 3.
+Focusing on just the first column, the meaning of this additional $$\XP$$ becomes clear. Moving from bottom to top, the first square, $$\XP_{1,1} \propto \eHP_{1} \cdot \eDPR_{1}$$, is the individual $$\XP$$ for NPC 1 and represents the damage they do in the time it takes the PCs to defeat them. The second square, $$\XP_{2,1} \propto \eHP_{2} \cdot \eDPR_{1}$$, represents the extra damage dealt by NPC 1 in the time it takes the PCs to defeat NPC 2. Finally, the third square, $$\XP_{3,1} \propto \eHP_{3} \cdot \eDPR_{1}$$, represents the extra damage dealt by NPC 1 in the time it takes the PCs to defeat NPC 3.
 
-Of course, if NPC 1 is defeated first then $$\XP_{1,2}$$ and $$\XP_{1,3}$$ shouldn't add to the encounter's difficulty. With this in mind, the blue region in Fig. <a href="#fig:xp-encounter-diagram" class="fig-ref">2</a> represents the additional $$\XP$$ added to the encounter when defeating the NPCs one at a time in the following order NPC 3 $$\rightarrow$$ NPC 2 $$\rightarrow$$ NPC 1, while the red region represents the additional $$\XP$$ for defeating the NPCs in the opposite order.
+Of course, if NPC 1 is defeated first then $$\XP_{2,1}$$ and $$\XP_{3,1}$$ shouldn't add to the encounter's difficulty. With this in mind, the blue region in Fig. <a href="#fig:xp-encounter-diagram" class="fig-ref">2</a> represents the additional $$\XP$$ added to the encounter when defeating the NPCs one at a time in the following order, NPC 3 $$\rightarrow$$ NPC 2 $$\rightarrow$$ NPC 1, while the red region represents the additional $$\XP$$ for defeating the NPCs in the opposite order.
 
 Looking at Fig. <a href="#fig:xp-encounter-diagram" class="fig-ref">2</a>, it's clear that areas of the red and blue regions are not equal in this example. This means the difficulty of the encounter depends on the order the NPCs are defeated in!
 
 Applied more generally, this means the $$\XP$$ added to an encounter's difficulty by the encounter multiplier accounts for the extra damage dealt by some of the NPCs while the PCs are focusing their attention on others. This explains why the DMG applies the encounter multiplier to groups of NPCs fought at the same time but not to encounters where multiple NPCs fought one after the other.
 
-To account for the fact that the order the PCs and NPCs are defeated in changes the total $$\XP$$ on each side of our encounter balancing equation, each term can be given a weight, $$0 \le \W \le 1$$, that depends on how the PCs and NPCs are likely to engage with one another. Doing so, Eqn. \eqref{eq:difficulty-xp} can be rewritten as, 
+To account for the fact that the order the PCs and NPCs are defeated in changes the total $$\XP$$ on each side of our encounter balancing equation, each term can be given a weight, $$\W_{ij}$$, that depends on how the PCs and NPCs are likely to engage with one another. Doing so, Eqn. \eqref{eq:difficulty-xp} can be rewritten as, 
 
 \begin{equation}
-    \diff \sum_{i,j} \W\_{\,\PC\_{i,j}} \cdot \XP\_{\,\PC\_{i,j}} = 4 \sum_{i,j} \W\_{\,\NPC\_{i,j}} \cdot \XP\_{\,\NPC\_{i,j}}\,.
+    \diff \sum_{i,j} \W\_{\,\PC\_{ij}} \cdot \XP\_{\,\PC\_{ij}} = 4 \sum_{i,j} \W\_{\,\NPC\_{ij}} \cdot \XP\_{\,\NPC\_{ij}}\,.
     \label{eq:difficulty-xp-weighted}
 \end{equation}
 
 Rearranging Eqn. \eqref{eq:difficulty-xp-weighted} into the same form as Eqn. \eqref{eq:encounter-balance-dmg}, the encounter multiplier can be written in its full general form,
 
 \begin{equation}
-    \EM = \left( \frac{ \sum_{i,j} \W\_{\,\NPC\_{i,j}} \cdot \XP\_{\,\NPC\_{i,j}} }{ \sum_{i} \XP\_{\,\NPC\_{i}} } \right) 
-    \cdot \left( \frac{ 4\,\sum_{i} \XP\_{\,\PC\_{i}} }{ \sum_{i,j} \W\_{\,\PC\_{i,j}} \cdot \XP\_{\,\PC\_{i,j}} } \right) \,.
+    \EM = \left( \frac{ \sum_{i,j} \W\_{\,\NPC\_{ij}} \cdot \XP\_{\,\NPC\_{ij}} }{ \sum_{i} \XP\_{\,\NPC\_{i}} } \right) 
+    \cdot \left( \frac{ 4\,\sum_{i} \XP\_{\,\PC\_{i}} }{ \sum_{i,j} \W\_{\,\PC\_{ij}} \cdot \XP\_{\,\PC\_{ij}} } \right) \,.
     \label{eq:encounter-multiplier-weighted}
 \end{equation}
 
@@ -183,4 +183,4 @@ At this point, Eqn. \eqref{eq:encounter-multiplier-weighted} probably looks like
 
 To summarize, both XP and the encounter multiplier arise as natural consequences of encounter balancing. XP can be calculated directly from the product of a creature's effective hit points and effective damage per round, as shown in Eqns. \eqref{eq:experience-PC-linear} and \eqref{eq:experience-NPC-linear}, and can be thought of as representing the amount of damage a creature is expected to do in the time it takes them to be defeated. And, the encounter multiplier estimates the additional XP for encounters with multiple creatures, and represents the extra damage some creatures are able to do while their enemies are busy dealing with their allies.
 
-While this covers the key concepts I wanted to touch on for where XP comes from and what the encounter multiplier represents, there is still a lot more to cover on these topics, especially the encounter multiplier, which I plan on dedicating at least one future post to.
+While this covers the key concepts I wanted to touch on for where XP comes from and what the encounter multiplier represents, there is still a lot more to cover on these topics, especially the encounter multiplier, which you can read more about [here]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier.md %}).
