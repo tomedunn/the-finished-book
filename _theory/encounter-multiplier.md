@@ -252,7 +252,7 @@ If we assume that the PCs' multi-target abilities deal only a fraction of the da
 
 where $$\eDPRMT_\mathrm{PCs}$$ is the average effective DPR per target for the PCs' multi-target abilities, and $$\eDPRST_\mathrm{PCs}$$ is the average effective DPR for the PCs' single target abilities.
 
-How much longer each NPC is expected to survive can be calculated from the inverse of this, $$\effMT^{\,-1}$$, which means the value of each NPC's individual XP terms is
+How much longer each NPC is expected to survive can be calculated from the inverse of this, $$1/\effMT$$, which means the value of each NPC's individual XP terms is
 
 \begin{align}
     \W\_{ii}\cdot\XP\_{ii} &= \frac{1}{4}\left(\frac{\eHP\_{i}}{\effMT}\right)\cdot \eDPR\_{i} \nonumber \\\\ 
