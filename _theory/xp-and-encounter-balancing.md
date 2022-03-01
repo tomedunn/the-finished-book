@@ -49,7 +49,7 @@ In this post I will answer these questions by showing how encounter balancing ru
 
 # Review
 
-Before I jump into deriving how XP is calculated and the encounter balancing equation, let review how the an encounter's difficulty is determined in chapter 13 of the _Basic Rules_. 
+Before I jump into deriving how XP is calculated and the encounter balancing equation, let review how an encounter's difficulty is determined in chapter 13 of the _Basic Rules_. 
 
 The first step in the process is to calculate the XP thresholds for the PCs, which is done by adding up all of the PCs' individual XP thresholds,
 
@@ -75,7 +75,7 @@ The total XP is then adjusted by applying an encounter multiplier, $$\EM\left(N,
 
 This new total is referred to as the adjusted XP total, and it is compared against the different XP thresholds for the PCs to determine the encounter's difficulty.
 
-Putting this all together, balancing an encounter's difficulty can be expressed as an attempt to balance the following equation,
+Putting this all together, determining an encounter's difficulty can be expressed as an attempt to balance the following equation,
 
 \begin{align}
     \sum_i \XP\_{\,\PC}\left(L\_{i}, \diff\,\right) = \EM\left(N,M\right) \cdot \sum_i \XP\_{\,\NPC}\left(\CR\_{i}\,\right)\,. \label{eq:encounter-balance-equation-dmg}
