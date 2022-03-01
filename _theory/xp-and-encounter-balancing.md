@@ -2,7 +2,7 @@
 title: "XP and Encounter Balancing"
 excerpt: "A detailed explanation of where XP comes from and how encounter balancing works."
 date: 2022-1-27
-last_modified_at: 2022-2-28
+last_modified_at: 2022-3-1
 #tags:
 #  - theory
 #  - monsters
@@ -27,6 +27,7 @@ last_modified_at: 2022-2-28
 \newcommand{\W}{\mathit{W}}
 \newcommand{\XPtot}{\overline{\mathit{XP}}}
 \newcommand{\eXPtot}{\mathrm{enc}\,\overline{\mathit{XP}}}
+\newcommand{\aXPtot}{\mathrm{adj}\,\overline{\mathit{XP}}}
 % NPCs
 \newcommand{\NPC}{\mathrm{NPC}}
 \newcommand{\NRTW}{\mathit{RTW}\_\mathrm{\NPC}}
@@ -49,7 +50,7 @@ In this post I will answer these questions by showing how encounter balancing ru
 
 # Review
 
-Before I jump into deriving how XP is calculated and the encounter balancing equation, let review how an encounter's difficulty is determined in chapter 13 of the _Basic Rules_. 
+Before jumping into deriving the encounter balancing equation and how XP is calculated, let's review how an encounter's difficulty is determined in chapter 13 of the _Basic Rules_. 
 
 The first step in the process is to calculate the XP thresholds for the PCs, which is done by adding up all of the PCs' individual XP thresholds,
 
@@ -70,7 +71,7 @@ where $$\CR$$ represents an enemy NPC's challenge rating.
 The total XP is then adjusted by applying an encounter multiplier, $$\EM\left(N,M\right)$$, that depends on the number of PCs, $$N$$, and enemy NPCs, $$M$$, in the encounter,
 
 \begin{align}
-    \eXPtot_\mathrm{NPCs} = \EM\left(N,M\right) \cdot \XPtot_\mathrm{NPCs}\,. \label{eq:adjusted-xp-total-dmg}
+    \aXPtot_\mathrm{NPCs} = \EM\left(N,M\right) \cdot \XPtot_\mathrm{NPCs}\,. \label{eq:adjusted-xp-total-dmg}
 \end{align}
 
 This new total is referred to as the adjusted XP total, and it is compared against the different XP thresholds for the PCs to determine the encounter's difficulty.
@@ -81,11 +82,11 @@ Putting this all together, determining an encounter's difficulty can be expresse
     \sum_i \XP\_{\,\PC}\left(L\_{i}, \diff\,\right) = \EM\left(N,M\right) \cdot \sum_i \XP\_{\,\NPC}\left(\CR\_{i}\,\right)\,. \label{eq:encounter-balance-equation-dmg}
 \end{align}
 
-Normally, the difficulty for the encounter corresponds to the highest XP threshold for the PCs that is still lower than the RHS of Eqn. \eqref{eq:encounter-balance-equation-dmg}, which makes the equality in that equation a bit questionable. However, since the difficulty XP thresholds come as nearly fixed ratios of one another, as shown in Fig. <a href="#fig:pc-xp-thresholds-vs-level" class="fig-ref">1</a> (below), we can treat $$\diff$$ as a continuous variable while solving, and then use it to determine the final difficulty.
+Normally, the difficulty for the encounter corresponds to the highest XP threshold for the PCs that is still lower than the RHS of Eqn. \eqref{eq:encounter-balance-equation-dmg}. This makes the equality in that equation a bit questionable. However, since the difficulty XP thresholds come as nearly fixed ratios of one another, as shown in Fig. <a href="#fig:pc-xp-thresholds-vs-level" class="fig-ref">1</a> (below), $$\diff\,$$ can be treated as a continuous variable while balancing Eqn. \eqref{eq:encounter-balance-equation-dmg}, and then compared against the actual difficulty threshold values to determine the final difficulty.
 
 <figure id="fig:pc-xp-thresholds-vs-level">
     <img src="{{ site.url }}{{ site.baseurl }}/theory/xp-and-encounter-balancing/fig-pc-xp-thresholds-vs-level.svg">
-    <figcaption>Figure 1: Plots PC XP thresholds divided by the Easy difficulty XP threshold as a function of PC level. The average ratio for each threshold is 1.0 for Easy, 2.0 for Medium, 3.0 for Hard, and 4.5 for Deadly encounters.</figcaption>
+    <figcaption>Figure 1: Plots PC XP thresholds divided by the Easy difficulty XP threshold, taken from the <a href="https://www.dndbeyond.com/sources/basic-rules/building-combat-encounters#XPThresholdsbyCharacterLevel">XP Threshold by Character Level</a> table in chapter 13 of the <i>Basic Rules</i>. The average ratio for each threshold is 1.0 for Easy, 2.0 for Medium, 3.0 for Hard, and 4.5 for Deadly encounters.</figcaption>
 </figure>
 
 
@@ -120,13 +121,21 @@ This can also be rearranged in the following way,
 \end{equation}
 which moves all of the PC related terms to the LHS of the equation and all of the NPC related terms to the RHS.
 
+<!--
+Finally, multiplying out the terms on each side of the equation gives,
+\begin{equation}
+    \diff \cdot \sum_{i,j} \eHP\_{\,\PC\_{i}} \cdot \eDPR\_{\,\PC\_{j}} = \sum_{i,j} \eHP\_{\,\NPC\_{i}} \cdot \eDPR\_{\,\NPC\_{j}}\,.
+    \label{eq:difficulty-experience-final}
+\end{equation}
+-->
+
 At this point, Eqn. \eqref{eq:difficulty-experience} is starting to look like Eqn. \eqref{eq:encounter-balance-equation-dmg} but is still far to complicated to be of any practical use. To simplify things, lets see how things play out for an encounter consisting of $$N$$ identical PCs and $$M$$ identical NPCs.  Under these conditions, Eqn. \eqref{eq:difficulty-experience} simplifies to 
 \begin{equation}
     \diff \cdot N^{2} \cdot \PeHP \cdot \PeDPR = M^{2}\cdot \NeHP \cdot \NeDPR\,.
     \label{eq:difficulty-experience-simple}
 \end{equation}
 
-This simplifies this considerably, and Eqn. \eqref{eq:difficulty-experience-simple} can easily be rewritten to match the form of Eqn. \eqref{eq:encounter-balance-equation-dmg} via the following relationships:
+This simplifies the equation considerably, and Eqn. \eqref{eq:difficulty-experience-simple} can easily be rewritten to match the form of Eqn. \eqref{eq:encounter-balance-equation-dmg} via the following relationships:
 
 \begin{gather}
     \PXP(L, \diff\,)  = \diff \cdot \PeHP(L) \cdot \PeDPR(L)\,, \label{eq:experience-PC} \\\\ 
@@ -134,13 +143,13 @@ This simplifies this considerably, and Eqn. \eqref{eq:difficulty-experience-simp
     \EM(N, M)         = \frac{4\,M}{N}\,. \label{eq:encounter-multiplier-full}
 \end{gather}
 
-The factor of $$4$$ in the encounter multiplier in Eqn. \eqref{eq:encounter-multiplier-full}, as well as the factor of $$1/4$$ in $$\NXP$$ in Eqn. \eqref{eq:experience-NPC}, comes from the empirical observation that the DMG assigns an encounter with four PCs and one NPC $$\EM(4, 1) = 1$$, rather than $$1 / 4$$ as expected. While this choice may appear arbitrary at first, it makes sense in the context of monster CR being defined relative of a party of four PCs.
+The factor of $$4$$ in the encounter multiplier in Eqn. \eqref{eq:encounter-multiplier-full}, as well as the factor of $$1/4$$ in $$\NXP$$ in Eqn. \eqref{eq:experience-NPC}, comes from the observation that the DMG assigns an encounter multiplier of one for encounters with four PCs and one NPC, i.e., $$\EM(4, 1) = 1$$, rather than $$1 / 4$$ as expected. While this choice may appear arbitrary at first, it makes sense in the context of monster CR being defined relative of a party of four PCs.
 
-The implication of Eqns. \eqref{eq:experience-PC} and \eqref{eq:experience-NPC}, that XP is the product of a creature's effective hit points and effective damage per round, is quite profound. Not only does it give us a direct way of calculating a creature's XP that's independent of the CR calculations in the DMG, it also means that XP can be thought of as a measure for how much damage a creature will likely do in the time it takes an enemy to defeat them.
+The implication of Eqns. \eqref{eq:experience-PC} and \eqref{eq:experience-NPC}, that XP is the product of a creature's effective hit points and effective damage per round, is quite profound. Not only does it give us a direct way of calculating a creature's XP that's independent of the CR calculations in the DMG, it also means XP can be thought of as a measure for how much damage a creature will likely do in the time it takes it's enemy to defeat it.
 
 # Calculating XP
 
-Before moving on to talk about the encounter multiplier and what it represents, let's take a moment to verify that we're heading down the right path by confirming that Eqn. \eqref{eq:experience-NPC} matches the monster XP values listed for each CR. To do this, we'll need a more explicit version of the equation. We need to know how to calculate $$\eHP$$ and $$\eDPR$$. 
+Before moving on to talk about the encounter multiplier and what it represents, let's take a moment to verify that we're heading down the right path by confirming that Eqn. \eqref{eq:experience-NPC} matches the monster XP values listed for each CR. To do this, we'll need a more explicit version of the equation, which means we need to know how to calculate $$\eHP$$ and $$\eDPR$$. 
 
 Taking advantage of the equations for $$\eHP$$ and $$\eDPR$$ from my previous post, [Effective HP and Damage]({{ site.url }}{{ site.baseurl }}{% link _theory/effective-hp-and-damage.md %}), Eqns. \eqref{eq:experience-PC} and \eqref{eq:experience-NPC} can be written more explicitly in terms of a creature's armor class $$(\AC\,)$$, attack bonus $$(\AB\,)$$, and average damage per round assuming all attacks hit $$(\DPRhit)$$, as
 
@@ -165,7 +174,7 @@ To verify that these methods for calculating XP are accurate, Fig. <a href="#fig
     <figcaption>Figure 2: Plots XP values for typical monsters at each CR calculated using Eqn. \eqref{eq:experience-NPC-explicit} (blue) and Eqn. \eqref{eq:experience-NPC-linear} (orange). Typical values for monster statistics were taken from the Monster Statistics by Challenge Rating table in chapter 9 of the DMG.</figcaption>
 </figure>
 
-Clearly, the linear approximation given by Eqn. \eqref{eq:experience-NPC-linear} matches the target XP values the best out of the two. From an theoretical perspective, I would consider Eqn. \eqref{eq:experience-NPC-linear} to be less correct than \eqref{eq:experience-NPC-explicit}. However, since the since the same approximation would be applied to both PCs and NPCs alike, I think it's unlikely this loss in theoretical correctness leads to any significant problems.
+Clearly, the linear approximation given by Eqn. \eqref{eq:experience-NPC-linear} matches the target XP values the best out of the two. From an theoretical perspective, I would consider Eqn. \eqref{eq:experience-NPC-linear} to be less correct than Eqn. \eqref{eq:experience-NPC-explicit}, since the approximation needed to reach it doesn't hold up for higher CR monsters. However, since the same approximation would be applied to both PCs and NPCs alike, I think it's unlikely cause to any significant problems unless there is a large gap between $$\AC + \AB\,$$ for the PCs and NPCs in the encounter.
 
 For a more expansive analysis of how this method of calculating monster XP holds up for actual monsters published in official source books, check out [Calculating Monster XP]({{ site.url }}{{ site.baseurl }}{% link _monsters/calculating-monster-xp.md %}).
 
@@ -182,7 +191,7 @@ To start, Eqn. \eqref{eq:difficulty-experience} can be rewritten in terms of XP,
 
 where $$\XP_{\,\mathrm{PC}_{ij}}$$ $$(\XP_{\,\mathrm{NPC}_{ij}})$$ represents the cross term between the $$i$$th and $$j$$th PCs (NPCs), and the summation on each side represents the sum over all combinations of PCs (NPCs).
 
-This is simpler to write, but it doesn't offer any immediately improved understanding. The diagonal terms, when $$i = j$$, are clearly the individual XP values for each PC (NPC), but what about the off diagonal terms when $$i \neq j\,$$? 
+This is simpler to write, but it doesn't offer any immediately improved understanding. The diagonal terms, when $$i = j$$, are clearly the individual XP values for each PC (NPC), but what about the off-diagonal terms when $$i \neq j\,$$? 
 
 To understand this better, consider the diagram in Fig. <a href="#fig:xp-encounter-diagram" class="fig-ref">3</a> (below), which is a graphical representation of the RHS of Eqn. \eqref{eq:difficulty-xp} for and encounter with three enemy NPCs.
 
@@ -216,10 +225,10 @@ Rearranging Eqn. \eqref{eq:difficulty-xp-weighted} into the same form as Eqn. \e
     \label{eq:encounter-multiplier-weighted}
 \end{equation}
 
-At this point, Eqn. \eqref{eq:encounter-multiplier-weighted} probably looks like an incomprehensible mess, and it definitely is, but things can be simplified considerably by making some key assumptions about how the PCs and NPCs choose to engage each other, which I discuss in detail in my post [Calculating the Encounter Multiplier]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier.md %}).
+At this point, Eqn. \eqref{eq:encounter-multiplier-weighted} probably looks like an incomprehensible mess, and it definitely is, but things can be simplified considerably by making some key assumptions about how the PCs and NPCs choose to engage each other. This is a complex topic that requires much more time and consideration that I can easily fit into this post. For a full detailed discussion of the encounter multiplier, see [Calculating the Encounter Multiplier]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier.md %}).
 
 # Conclusion
 
 To summarize, both XP and the encounter multiplier arise as natural consequences of encounter balancing. XP can be calculated directly from the product of a creature's effective hit points and effective damage per round, as shown in Eqns. \eqref{eq:experience-PC-linear} and \eqref{eq:experience-NPC-linear}, and can be thought of as representing the amount of damage a creature is expected to do in the time it takes them to be defeated. And, the encounter multiplier estimates the additional XP for encounters with multiple creatures, and represents the extra damage some creatures are able to do while their enemies are busy dealing with their allies.
 
-While this covers the key concepts I wanted to touch on for where XP comes from and what the encounter multiplier represents, there is still a lot more to cover on these topics, especially the encounter multiplier, which you can read more about [here]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier.md %}).
+While this covers the key concepts I wanted to touch on for where XP comes from and what the encounter multiplier represents, there is still a lot more to cover on these topics, especially the encounter multiplier, which you can read more about in [Calculating the Encounter Multiplier]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier.md %}).
