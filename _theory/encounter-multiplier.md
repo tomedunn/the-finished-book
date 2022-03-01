@@ -1,8 +1,8 @@
 ---
-title: "Encounter Multiplier"
+title: "Calculating the Encounter Multiplier"
 excerpt: "A deep dive into the encounter multiplier and how to calculate it more accurately."
 date: 2022-2-21
-last_modified_at: 2022-2-21
+last_modified_at: 2022-2-28
 #tags:
 #  - theory
 #  - monsters

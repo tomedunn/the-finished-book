@@ -28,7 +28,7 @@ classes:
 theory:
   - title: "Effective HP and Damage"
     url: /theory/effective-hp-and-damage
-  - title: "Encounter Multiplier"
+  - title: "Calculating the Encounter Multiplier"
     url: /theory/encounter-multiplier
   - title: "XP and Encounter Balancing"
     url: /theory/xp-and-encounter-balancing

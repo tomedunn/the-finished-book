@@ -216,7 +216,7 @@ Rearranging Eqn. \eqref{eq:difficulty-xp-weighted} into the same form as Eqn. \e
     \label{eq:encounter-multiplier-weighted}
 \end{equation}
 
-At this point, Eqn. \eqref{eq:encounter-multiplier-weighted} probably looks like an incomprehensible mess, and it definitely is, but things can be simplified considerably by making some key assumptions about how the PCs and NPCs choose to engage each other, which I discuss in detail in my post [Encounter Multiplier]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier.md %}).
+At this point, Eqn. \eqref{eq:encounter-multiplier-weighted} probably looks like an incomprehensible mess, and it definitely is, but things can be simplified considerably by making some key assumptions about how the PCs and NPCs choose to engage each other, which I discuss in detail in my post [Calculating the Encounter Multiplier]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier.md %}).
 
 # Conclusion
 
