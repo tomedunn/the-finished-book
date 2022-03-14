@@ -81,7 +81,7 @@ The other term in Eqn. \eqref{eq:encounter-xp-npcs}, $$\W_{\,\NPC_{ij}}$$, is th
 To help in understanding how these weights are calculated, I've included visual representations of Eqn. \eqref{eq:encounter-xp-npcs}, like the one shown in Fig. <a href="#fig:xp-encounter-diagram-example" class="fig-ref">1</a> below, for the various strategies discussed in this post. The area of each square in these diagrams is proportional to one of the XP terms found in Eqn. \eqref{eq:encounter-xp-npcs}, as described by Eqn. \eqref{eq:xp-npc}.
 
 <figure id="fig:xp-encounter-diagram-example">
-    <img src="{{ site.url }}{{ site.baseurl }}/theory/encounter-multiplier/fig-xp-encounter-diagram-two-npcs.svg">
+    <img src="{{ site.url }}{{ site.baseurl }}/theory/encounter-multiplier-p1/fig-xp-encounter-diagram-two-npcs.svg">
     <figcaption>Figure 1: Visual representation of Eqn. \eqref{eq:encounter-xp-npcs} for an encounter with two NPCs.</figcaption>
 </figure>
 
@@ -120,8 +120,8 @@ For our example encounter with only two NPCs, if the PCs choose to focus on defe
 These two scenarios are visualized in Fig. <a href="#fig:xp-encounter-diagram-single" class="fig-ref">2</a> below, where the area of the blue regions represent the XP that contributes to the total encounter XP from \eqref{eq:encounter-xp-two-npcs-focused}.
 
 <figure class="half" id="fig:xp-encounter-diagram-single">
-    <img src="{{ site.url }}{{ site.baseurl }}/theory/encounter-multiplier/fig-xp-encounter-diagram-two-npcs-forward.svg">
-    <img src="{{ site.url }}{{ site.baseurl }}/theory/encounter-multiplier/fig-xp-encounter-diagram-two-npcs-reverse.svg">
+    <img src="{{ site.url }}{{ site.baseurl }}/theory/encounter-multiplier-p1/fig-xp-encounter-diagram-two-npcs-forward.svg">
+    <img src="{{ site.url }}{{ site.baseurl }}/theory/encounter-multiplier-p1/fig-xp-encounter-diagram-two-npcs-reverse.svg">
     <figcaption>Figure 2: Graphical representation of the total encounter XP contributions for the two strategies described by Eqn. \eqref{eq:encounter-xp-two-npcs-focused}. The blue regions represent the XP that contributes to the total encounter XP for each strategy.</figcaption>
 </figure>
 
@@ -165,7 +165,7 @@ For a group of $$N$$ identical NPCs, putting Eqn. \eqref{eq:adjusted-experience-
 This is plotted in Fig. <a href="#fig:encounter-multiplier-approx-single" class="fig-ref">3</a> below for a range of NPC group sizes.
 
 <figure id="fig:encounter-multiplier-approx-single">
-    <img src="{{ site.url }}{{ site.baseurl }}/theory/encounter-multiplier/fig-encounter-approximate-general-single-target.svg">
+    <img src="{{ site.url }}{{ site.baseurl }}/theory/encounter-multiplier-p1/fig-encounter-approximate-general-single-target.svg">
     <figcaption>Figure 3: Encounter multiplier for single target strategies calculated using Eqn. \eqref{eq:encounter-multiplier-approx-single-target} for identical NPCs.</figcaption>
 </figure>
 
@@ -240,7 +240,7 @@ For these individual XP terms, one might naively assume that $$\W_{1,1} = \W_{2,
 If NPCs 1 and NPC 2 survive equally long in both encounter then this makes sense. However, since multi-target abilities generally deal less damage per target than their single target counterparts, this is unlikely to be the case. Because of this, both NPCs are likely to live longer when fought together using multi-target abilities than they are when fought separately using single target abilities.
 
 <figure id="fig:xp-encounter-diagram-multiple">
-    <img src="{{ site.url }}{{ site.baseurl }}/theory/encounter-multiplier/fig-xp-encounter-diagram-two-npcs-multi-uniform.svg">
+    <img src="{{ site.url }}{{ site.baseurl }}/theory/encounter-multiplier-p1/fig-xp-encounter-diagram-two-npcs-multi-uniform.svg">
     <figcaption>Figure 4: Graphical representation of the total encounter XP contributions for two NPCs damaged simultaneously using multi-target abilities. Red regions represent the XP contributing to the total encounter XP using this strategy.</figcaption>
 </figure>
 
@@ -320,7 +320,7 @@ The encounter multiplier for this kind of multi-target strategy, therefore, is s
 Figure <a href="#fig:xp-encounter-multiplier-aoe" class="fig-ref">5</a> (below), plots this encounter multiplier as a function of the multi-target damage efficiency.
 
 <figure id="fig:xp-encounter-multiplier-aoe">
-    <img src="{{ site.url }}{{ site.baseurl }}/theory/encounter-multiplier/fig-encounter-multiplier-general-multi-target.svg">
+    <img src="{{ site.url }}{{ site.baseurl }}/theory/encounter-multiplier-p1/fig-encounter-multiplier-general-multi-target.svg">
     <figcaption>Figure 5: Encounter multiplier for multi-target strategies that damage all enemies equally and simultaneously as a function of multi-target damage efficiency.</figcaption>
 </figure>
 
@@ -368,7 +368,7 @@ Ignoring the order the NPCs are dealt with using single target abilities, the ma
 To help visualize all of this, Fig. <a href="#fig:xp-encounter-diagram-mixed" class="fig-ref">6</a> below show an encounter diagram for our example encounter with two NPCs with a mixed strategy applied to them where NPC 1 is defeated first.
 
 <figure id="fig:xp-encounter-diagram-mixed">
-    <img src="{{ site.url }}{{ site.baseurl }}/theory/encounter-multiplier/fig-xp-encounter-diagram-two-npcs-mixed-forward.svg">
+    <img src="{{ site.url }}{{ site.baseurl }}/theory/encounter-multiplier-p1/fig-xp-encounter-diagram-two-npcs-mixed-forward.svg">
     <figcaption>Figure 6: Graphical representation of the total encounter XP contributions for two NPCs using a mixed strategy. Red regions represent the XP added to the encounter using multi-target abilities at the start of the encounter, and blue regions represent the XP added to the encounter using single target abilities.</figcaption>
 </figure>
 
@@ -410,7 +410,7 @@ For a group of $$N$$ identical NPCs, putting Eqn. \eqref{eq:encounter-weights-mi
 \end{align}
 
 <figure id="fig:encounter-multiplier-approx-mixed">
-    <img src="{{ site.url }}{{ site.baseurl }}/theory/encounter-multiplier/fig-encounter-multiplier-approx-mixed-target.svg">
+    <img src="{{ site.url }}{{ site.baseurl }}/theory/encounter-multiplier-p1/fig-encounter-multiplier-approx-mixed-target.svg">
     <figcaption>Figure 7: Encounter multiplier for several mixed target strategies calculated using Eqn. \eqref{eq:encounter-multiplier-approx-single-target} for identical NPCs with multi-target damage efficiency of 70%.</figcaption>
 </figure>
 
@@ -420,6 +420,6 @@ This encounter multiplier is plotted in Fig. <a href="#fig:encounter-multiplier-
 
 As this post has hopefully shown, there is a lot going on behind the scenes regarding the encounter multiplier, and how a group of PCs choose to engage an encounter, or how and encounter is set up by the DM can have a huge impact on the overall difficulty. 
 
-The strategies I've shown here are the simplest each category has to offer, and there are other types of strategies I haven't even touched on, such as using abilities to incapacitate one or more of the NPCs for some part of the encounter. And I still need to address how the number of PCs and how the DM chooses to play the NPCs impacts the encounter difficulty, which I plan to write a post on in the near future.
+The strategies I've shown here are the simplest each category has to offer, and there are other types of strategies I haven't even touched on, such as using abilities to incapacitate one or more of the NPCs for some part of the encounter. And I still need to address how the number of PCs and how the DM chooses to play the NPCs impacts the encounter difficulty, which I plan to cover in [part 2]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier-p2.md %}).
 
 All of this is to say, I've really just scratched the surface of this topic.

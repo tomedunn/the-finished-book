@@ -47,7 +47,7 @@ last_modified_at: 2022-3-14
 
 # Introduction
 
-In [Calculating the Encounter Multiplier: part 1]({{ site.url }}{{ site.baseurl }}{% link _theory/xp-and-encounter-balancing.md %}), I showed how the encounter multiplier depends on the number of enemy NPCs, as well as on the tactics used by the PCs. This gave way to a wide range of possible values the encounter multiplier could take, but it was only half of the picture.
+In [Calculating the Encounter Multiplier: part 1]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier-p1.md %}), I showed how the encounter multiplier depends on the number of enemy NPCs, as well as on the tactics used by the PCs. This gave way to a wide range of possible values the encounter multiplier could take, but it was only half of the picture.
 
 In this post, I will be covering the other half of the encounter multiplier by looking at how the number of PCs affects it, as well as how the DM's strategy does while controlling the enemy NPCs.
 
@@ -146,7 +146,7 @@ Of course, one could argue that the factor of 4 in Eqn. \eqref{eq:encounter-mult
 
 The assumption that none of the PCs are defeated during an encounter works well for Easy and Medium difficulty encounters, but breaks down somewhat for Hard encounters, and more significantly for Deadly encounters, where the chance of the PCs being defeated is substantially higher. To account for this, lets looks at how Eqn. \eqref{eq:encounter-multiplier-short-simple} changes when the NPCs use a single target strategy and focus on defeating one only PC at a time.
 
-Taking the results from the "Single target strategies" section for PCs in [part 1]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier.md %}) and applying it to NPCs gives us insight into the worse case scenario for the PCs, where the PCs are defeated one at a time until the NPCs defeat them.
+Taking the results from the "Single target strategies" section for PCs in [part 1]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier-p1.md %}) and applying it to NPCs gives us insight into the worse case scenario for the PCs, where the PCs are defeated one at a time until the NPCs defeat them.
 The total encounter XP for the PCs under this scenario can be calculated by arranging the PCs in the order they are expected to be defeated in and applying the following weights,
 
 \begin{equation}
