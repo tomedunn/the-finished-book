@@ -2,7 +2,7 @@
 title: "Calculating the Encounter Multiplier: part 1"
 excerpt: "A deep dive into the encounter multiplier and how it depends on the number of NPCs and PC strategies."
 date: 2022-2-21
-last_modified_at: 2022-2-28
+last_modified_at: 2022-3-14
 #tags:
 #  - theory
 #  - monsters
@@ -130,8 +130,8 @@ Applying this strategy more generally, in encounters where the PCs choose to foc
 \begin{equation}
     \W_{ij} = 
     \begin{cases} 
-        1 & i \geq j\,; \\\\ 
-        0 & i \lt j\,.
+        1 & i \leq j\,; \\\\ 
+        0 & i \gt j\,.
     \end{cases}
     \label{eq:encounter-weights-single-target-focused}
 \end{equation}
@@ -381,7 +381,7 @@ With that in mind, if the order the NPCs will be focused after switching to sing
     \begin{cases} 
         1 - \dMTi + \frac{\dMTi}{\effMT} & i = j\,; \\\\ 
         %0 & i < j \ \mathrm{or}\ \dMTi \ge 1\ \mathrm{or}\ \dMTj \ge 1\,; \\\\ 
-        0 & i < j\,; \\\\ 
+        0 & i > j\,; \\\\ 
         0 & \dMTj = 1\,; \\\\ 
         1 - \dMTi & \mathrm{otherwise}\,.
     \end{cases}
