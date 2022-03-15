@@ -207,8 +207,8 @@ For an encounter where the NPCs are able to use a focused single target strategy
     \W_{ij} = 
     \begin{cases} 
         1 & i \leq j\,; \\\\ 
-        1 & i \gt j \;\mathrm{and}\; i \gt n\,; \\\\ 
-        0 & i \gt j \;\mathrm{and}\;  i \leq n\,.
+        1 & i \gt j \;\mathrm{and}\; j \gt n\,; \\\\ 
+        0 & i \gt j \;\mathrm{and}\; j \leq n\,.
     \end{cases}
     \label{eq:encounter-weights-single-target-focused-intermediate}
 \end{equation}
