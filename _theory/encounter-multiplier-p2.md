@@ -2,7 +2,7 @@
 title: "Calculating the Encounter Multiplier: part 2"
 excerpt: "A deep dive into the encounter multiplier and how it depends on the number of PCs and NPC strategies."
 date: 2022-3-14
-last_modified_at: 2022-3-14
+last_modified_at: 2022-3-18
 #tags:
 #  - theory
 #  - monsters
@@ -147,6 +147,7 @@ Of course, one could argue that the factor of 4 in Eqn. \eqref{eq:encounter-mult
 The assumption that none of the PCs are defeated during an encounter works well for Easy and Medium difficulty encounters, but breaks down somewhat for Hard encounters, and more significantly for Deadly encounters, where the chance of the PCs being defeated is substantially higher. To account for this, lets looks at how Eqn. \eqref{eq:encounter-multiplier-short-simple} changes when the NPCs use a single target strategy and focus on defeating one only PC at a time.
 
 Taking the results from the "Single target strategies" section for PCs in [part 1]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier-p1.md %}) and applying it to NPCs gives us insight into the worse case scenario for the PCs, where the PCs are defeated one at a time until the NPCs defeat them.
+
 The total encounter XP for the PCs under this scenario can be calculated by arranging the PCs in the order they are expected to be defeated in and applying the following weights,
 
 \begin{equation}
@@ -157,6 +158,13 @@ The total encounter XP for the PCs under this scenario can be calculated by arra
     \end{cases}
     \label{eq:encounter-weights-single-target-focused}
 \end{equation}
+
+Figure <a href="#fig:xp-encounter-diagram-three-pcs-single-target" class="fig-ref">2</a> (below) provides a visual representation of Eqn. \eqref{eq:encounter-xp-pcs} using these weights for a party of three PCs.
+
+<figure id="fig:xp-encounter-diagram-three-pcs-single-target">
+    <img src="{{ site.url }}{{ site.baseurl }}/theory/encounter-multiplier-p2/fig-xp-encounter-diagram-three-pcs-single-target.svg">
+    <figcaption>Figure 2: PC encounter XP diagram for party with three identical PCs defeated in order. Blue regions represent the XP that contributes to the total encounter XP.</figcaption>
+</figure>
 
 When the order isn't known, the average total encounter XP can instead be calculated using the following weighting,
 
@@ -190,11 +198,11 @@ Taking the ratio of Eqn. \eqref{eq:encounter-multiplier-approx-single-target} an
     \label{eq:encounter-multiplier-approx-single-ratio}
 \end{align}
 
-which tells us how much the encounter multiplier might increase by having the NPCs use a focused single target strategy. The results of Eqn. \eqref{eq:encounter-multiplier-approx-single-ratio} are plotted in Fig. <a href="#fig:single-target-em-ratio-vs-pcs" class="fig-ref">2</a> (below).
+which tells us how much the encounter multiplier might increase by having the NPCs use a focused single target strategy. The results of Eqn. \eqref{eq:encounter-multiplier-approx-single-ratio} are plotted in Fig. <a href="#fig:single-target-em-ratio-vs-pcs" class="fig-ref">3</a> (below).
 
 <figure id="fig:single-target-em-ratio-vs-pcs">
     <img src="{{ site.url }}{{ site.baseurl }}/theory/encounter-multiplier-p2/fig-single-target-em-ratio-vs-pcs.svg">
-    <figcaption>Figure 2: Plots the ratio between the encounter multipliers given by Eqn. \eqref{eq:encounter-multiplier-approx-single-target} and Eqn. \eqref{eq:encounter-multiplier-short-identical}.</figcaption>
+    <figcaption>Figure 3: Plots the ratio between the encounter multipliers given by Eqn. \eqref{eq:encounter-multiplier-approx-single-target} and Eqn. \eqref{eq:encounter-multiplier-short-identical}.</figcaption>
 </figure>
 
 For a party of four PCs, having the NPCs focus their damage on defeating only one PC at a time can increase the adjusted XP total for the encounter by as much as 60%. For reference, the Deadly encounter threshold is around 50% higher than the Hard encounter threshold on average. For Hard encounters, this means that how much the NPCs focus their damage can potentially increase the encounter's difficulty by one category.
@@ -213,6 +221,13 @@ For an encounter where the NPCs are able to use a focused single target strategy
     \label{eq:encounter-weights-single-target-focused-intermediate}
 \end{equation}
 
+A visual representation of Eqn. \eqref{eq:encounter-xp-pcs} using this weighting is shown in Fig. <a href="#fig:xp-encounter-diagram-pcs-single-target-partial" class="fig-ref">4</a> (below) for a party of four PCs with $$n = 2$$.
+
+<figure id="fig:xp-encounter-diagram-pcs-single-target-partial">
+    <img src="{{ site.url }}{{ site.baseurl }}/theory/encounter-multiplier-p2/fig-xp-encounter-diagram-pcs-single-target-partial.svg">
+    <figcaption>Figure 4: PC encounter XP diagram for party with four identical PCs where only two of the PCs are defeated during the encounter, PC 1 and PC 2. Blue regions represent the XP that contributes to the total encounter XP.</figcaption>
+</figure>
+
 Applied to a party of $$N$$ PCs, all with the same level, this gives a total encounter XP of 
 
 \begin{align}
@@ -230,11 +245,11 @@ and an encounter multiplier of
 
 Note that in the limiting case where $$n = 0$$, Eqn. \eqref{eq:encounter-multiplier-single-target-identical-general} gives the same result as Eqn. \eqref{eq:encounter-multiplier-short-identical}. And, on the other side of the spectrum, when $$n = N$$, Eqn. \eqref{eq:encounter-multiplier-single-target-identical-general} matches Eqn. \eqref{eq:encounter-multiplier-approx-single-target}.
 
-To illustrate how the encounter difficulty changes as the number of PC deaths increases, Fig. <a href="#fig:single-target-em-ratio-vs-pcs-deaths" class="fig-ref">3</a> (below) plots the ratio between the encounter multipliers given by Eqn. \eqref{eq:encounter-multiplier-single-target-identical-general} and Eqn. \eqref{eq:encounter-multiplier-short-identical} for different party sizes.
+To illustrate how the encounter difficulty changes as the number of PC deaths increases, Fig. <a href="#fig:single-target-em-ratio-vs-pcs-deaths" class="fig-ref">5</a> (below) plots the ratio between the encounter multipliers given by Eqn. \eqref{eq:encounter-multiplier-single-target-identical-general} and Eqn. \eqref{eq:encounter-multiplier-short-identical} for different party sizes.
 
 <figure id="fig:single-target-em-ratio-vs-pcs-deaths">
     <img src="{{ site.url }}{{ site.baseurl }}/theory/encounter-multiplier-p2/fig-single-target-em-ratio-vs-pcs-deaths.svg">
-    <figcaption>Figure 3: Plots the ratio between the encounter multipliers given by Eqn. \eqref{eq:encounter-multiplier-single-target-identical-general} and Eqn. \eqref{eq:encounter-multiplier-short-identical} for different party sizes and number of PC deaths.</figcaption>
+    <figcaption>Figure 5: Plots the ratio between the encounter multipliers given by Eqn. \eqref{eq:encounter-multiplier-single-target-identical-general} and Eqn. \eqref{eq:encounter-multiplier-short-identical} for different party sizes and number of PC deaths.</figcaption>
 </figure>
 
 # Conclusion
