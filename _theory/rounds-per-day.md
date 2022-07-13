@@ -1,6 +1,6 @@
 ---
 title: "Rounds of Combat Per Day"
-excerpt: "How many rounds of combat should you experience per encounter or per day?"
+excerpt: "How many rounds should combat take? And how does encounter difficulty affect the number of rounds in a full adventuring day?"
 date: 2022-7-12
 last_modified_at: 2022-7-12
 #tags:
