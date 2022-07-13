@@ -26,11 +26,13 @@ classes:
         url: /classes/stunning-strike
 
 theory:
-  - title: "Effective HP and Damage"
-    url: /theory/effective-hp-and-damage
   - title: "Calculating the Encounter Multiplier: part 1"
     url: /theory/encounter-multiplier-p1
   - title: "Calculating the Encounter Multiplier: part 2"
     url: /theory/encounter-multiplier-p2
+  - title: "Effective HP and Damage"
+    url: /theory/effective-hp-and-damage
+  - title: "Rounds of Combat Per Day"
+    url: /theory/rounds-per-day
   - title: "XP and Encounter Balancing"
     url: /theory/xp-and-encounter-balancing
