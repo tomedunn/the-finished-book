@@ -1,0 +1,16 @@
+figure {
+    & > div {
+        width: 600px;
+        min-width: 50%;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    &.half {
+        > div {
+            @include breakpoint($small) {
+                width: calc(50% - 0.5em);
+            }
+        }
+    }
+}
