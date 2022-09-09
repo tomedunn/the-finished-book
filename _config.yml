@@ -267,6 +267,10 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
+# Scripts
+head_scripts:
+  - https://cdn.plot.ly/plotly-2.14.0.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
 
 # HTML Compression
 # - https://jch.penibelst.de/
