@@ -2,7 +2,7 @@
 title: "Calculating the Encounter Multiplier: part 1"
 excerpt: "A deep dive into the encounter multiplier and how it depends on the number of NPCs and PC strategies."
 date: 2022-2-21
-last_modified_at: 2022-3-14
+last_modified_at: 2022-9-8
 #tags:
 #  - theory
 #  - monsters
@@ -414,12 +414,16 @@ For a group of $$N$$ identical NPCs, putting Eqn. \eqref{eq:encounter-weights-mi
     <figcaption>Figure 7: Encounter multiplier for several mixed target strategies calculated using Eqn. \eqref{eq:encounter-multiplier-approx-single-target} for identical NPCs with multi-target damage efficiency of 70%.</figcaption>
 </figure>
 
-This encounter multiplier is plotted in Fig. <a href="#fig:encounter-multiplier-approx-mixed" class="fig-ref">7</a> (above) for $$\effMT = 0.7$$ and for several values of $$\dMTi$$. For $$N > 3$$ and $$\effMT = 0.7$$, the encounter multiplier given by the DMG falls between a multi-target damage efficiency of $$50\%$$ and $$75\%$$. This means the encounter multiplier given by the DMG assumes the PCs are able to rather effectively deal multi-target damage in combat with large numbers of enemies. For groups that have weak AoE damage capabilities, encounter difficulties calculated using the encounter multiplier in the DMG will likely underestimate the encounter's difficulty by as much as $$50\%$$.
+This encounter multiplier is plotted in Fig. <a href="#fig:encounter-multiplier-approx-mixed" class="fig-ref">7</a> (above) for $$\effMT = 0.7$$ and for several values of $$\dMTi$$. For $$N > 3$$ and $$\effMT = 0.7$$, the encounter multiplier given by the DMG falls between a multi-target damage efficiency of $$50\%$$ and $$75\%$$. This means the encounter multiplier given by the DMG assumes the PCs are able to rather effectively deal multi-target damage in combat with large numbers of enemies.
+
+From my post on [calculating XP values for PCs]({{ site.url }}{{ site.baseurl }}{% link _theory/xp-and-player-characters.md %}), the effective damage per round "budgets" for each class are roughly equal to one another. This means that for a standard party of four PCs, if two are capable of dealing AoE damage, then both would need target around four monsters with each of their AoEs in order to achieve $$\dMTi = 0.75$$. When facing six or more monsters, this is definitely an achievable target.
+
+For groups that have weak or no AoE damage capabilities, encounter difficulties calculated using the encounter multiplier in the DMG can underestimate the encounter's difficulty by as much as $$50\%$$! Thankfully, classes that tend to have weak AoE damage capabilities also tend to have higher individual XP values due to having higher effective hit points which will, at least, partially offset this difference.
 
 # Conclusion
 
 As this post has hopefully shown, there is a lot going on behind the scenes regarding the encounter multiplier, and how a group of PCs choose to engage an encounter, or how and encounter is set up by the DM can have a huge impact on the overall difficulty. 
 
-The strategies I've shown here are the simplest each category has to offer, and there are other types of strategies I haven't even touched on, such as using abilities to incapacitate one or more of the NPCs for some part of the encounter. And I still need to address how the number of PCs and how the DM chooses to play the NPCs impacts the encounter difficulty, which I plan to cover in [part 2]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier-p2.md %}).
+The strategies I've shown here are the simplest each category has to offer, and there are other types of strategies I haven't even touched on, such as using abilities to incapacitate one or more of the NPCs for some part of the encounter. 
 
-All of this is to say, I've really just scratched the surface of this topic.
+To top it all off, I still haven't even touched on how the number of PCs, or how NPC strategies impact the encounter difficulty. For a detailed look at these two topics, check out [Calculating the Encounter Multiplier: part 2]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier-p2.md %}).
