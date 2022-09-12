@@ -2,13 +2,8 @@
 title: "The Finished Book"
 layout: splash
 permalink: /
-author_profile: false
 date: 2021-10-29T12:00:00-04:00
-header:
-  overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/site-header.jpg
-  caption: "Photo credit: **tomedunn**"
+show_date: false
 feature_row:
   - image_path: /assets/images/classes-image1.png
     image_url: "/classes/"

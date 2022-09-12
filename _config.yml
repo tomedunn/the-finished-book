@@ -79,7 +79,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -132,13 +132,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      url: https://twitter.com/tomedunn
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      #url: https://github.com/tomedunn/the-finished-book
+      url: https://github.com/tomedunn/the-finished-book
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -292,6 +292,24 @@ collections:
 
 # Defaults
 defaults:
+  # all
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: single
+      author_profile: false
+      comments: false
+      share: true
+      show_date: true
+      toc: false
+      toc_label: "Table of Contents"
+      toc_sticky: true
+      header:
+        overlay_color: "#000"
+        overlay_filter: "0.5"
+        overlay_image: /assets/images/site-header.jpg
+        show_overlay_excerpt: false
+        caption: "Photo credit: **tomedunn**"
   # _classes
   - scope:
       path: ""
@@ -299,21 +317,9 @@ defaults:
     values:
       layout: single
       classes: wide
-      author_profile: false
       read_time: true
-      show_date: true
-      share: true
-      toc: false
-      toc_label: "Table of Contents"
-      toc_sticky: true
       sidebar:
         nav: "classes"
-      header:
-        overlay_color: "#000"
-        overlay_filter: "0.5"
-        overlay_image: /assets/images/site-header.jpg
-        show_overlay_excerpt: false
-        caption: "Photo credit: **tomedunn**"
   # _monsters
   - scope:
       path: ""
@@ -321,21 +327,9 @@ defaults:
     values:
       layout: single
       classes: wide
-      author_profile: false
       read_time: true
-      show_date: true
-      share: true
-      toc: false
-      toc_label: "Table of Contents"
-      toc_sticky: true
       sidebar:
         nav: "monsters"
-      header:
-        overlay_color: "#000"
-        overlay_filter: "0.5"
-        overlay_image: /assets/images/site-header.jpg
-        show_overlay_excerpt: false
-        caption: "Photo credit: **tomedunn**"
   # _theory
   - scope:
       path: ""
@@ -343,30 +337,6 @@ defaults:
     values:
       layout: single
       classes: wide
-      author_profile: false
       read_time: true
-      show_date: true
-      share: true
-      toc: false
-      toc_label: "Table of Contents"
-      toc_sticky: true
       sidebar:
         nav: "theory"
-      header:
-        overlay_color: "#000"
-        overlay_filter: "0.5"
-        overlay_image: /assets/images/site-header.jpg
-        show_overlay_excerpt: false
-        caption: "Photo credit: **tomedunn**"
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      show_date: true
-      comments: # true
-      share: true
-      related: true
