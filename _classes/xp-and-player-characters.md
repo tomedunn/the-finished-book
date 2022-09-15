@@ -1,11 +1,11 @@
 ---
-title: "XP and Player Characters"
-excerpt: "How player character XP thresholds are calculated and what the adventuring day really represents."
+title: "Player Character XP"
+excerpt: "Calculates encounter and adventuring day XPs for each class and compares them with XP thresholds and budgets in the DMG."
+#excerpt: "Have you ever wondered where the adventuring day XP budget values come from? In this post I discuss how XP values can be calculated for each of the classes in the PH, and show how those values stack up against the encounter difficulty XP thresholds and adventuring day XP budgets given in the DMG."
 date: 2022-9-3
-last_modified_at: 2022-9-3
+last_modified_at: 2022-9-15
 #tags:
-#  - theory
-#  - monsters
+#  - combat
 #  - classes
 ---
 
