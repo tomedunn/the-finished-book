@@ -148,6 +148,9 @@ body *{
     padding: 10px 2px 0;
     -webkit-column-break-inside: avoid; //added
 }
+.actions{
+    margin: 0 0 20px;
+}
 .actions h3{
     border-bottom: 1px solid #7A200D;
     color: #7A200D;
@@ -159,11 +162,26 @@ body *{
     padding: 0 0 0px;
     text-indent: 5px;
 }
-.actions{
-    margin: 0 0 20px;
+.actions p{
+    margin: 8px 0 0;
 }
 .actions:last-child{
     margin: 0;
+}
+
+.legendary-action{
+    text-indent: -1em;
+    padding-top: 10px;
+    padding-left: 1.1em;
+    line-height: 1.4em;
+    -webkit-column-break-inside: avoid;
+}
+.legendary-action h4,
+.legendary-action p{
+    font-size: 13.5px;
+    line-height: 1.2em;
+    display: inline;
+    margin: 8px 0 0;
 }
 
 @media print{
@@ -172,18 +190,10 @@ body *{
     }
     .stat-block,
     .stat-block.wide, 
-    .stat-block.wide .section-left,
-    .stat-block.wide .section-right,
     .property-line,
     .property-block{
         width: 100%;
         display: block;
-    }
-    .stat-block.wide .section-left{
-    margin: 0;
-    }
-    .stat-block.wide .section-right{
-    margin: 0;
     }
     .stat-block{
         width: 40%;
