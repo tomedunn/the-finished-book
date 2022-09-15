@@ -125,7 +125,7 @@ where $$\mathit{L}$$ is the PCs' level. When put into Eqn. \eqref{eq:encounter-m
     \label{eq:encounter-multiplier-short-identical}
 \end{align}
 
-It's worth pointing out here, that PCs of the same level generally aren't worth the same amount of XP (see [XP and Player Characters]({{ site.url }}{{ site.baseurl }}{% link _classes/xp-and-player-characters.md %})). However, for parties with a mix of martial and spellcasting PCs, they can still be treated as such when the risk of any PCs dying or being knocked unconscious is low.
+It's worth pointing out here, that PCs of the same level generally aren't worth the same amount of XP (see [Player Character XP]({{ site.url }}{{ site.baseurl }}{% link _classes/xp-and-player-characters.md %})). However, for parties with a mix of martial and spellcasting PCs, they can still be treated as such when the risk of any PCs dying or being knocked unconscious is low.
 
 To verify that Eqn. \eqref{eq:encounter-multiplier-short-identical} is accurate, Fig. <a href="#fig:encounter-multiplier-vs-pcs" class="fig-ref">1</a> (below) plots the encounter multiplier against the number of PCs using the sensitivities from the [Encounter Multipliers](https://www.dndbeyond.com/sources/basic-rules/building-combat-encounters#EvaluatingEncounterDifficulty) table in chapter 13 of the _Basic Rules_, and using Eqn. \eqref{eq:encounter-multiplier-short-identical}, which is scaled up for the encounters shown with 7 and 15 NPCs, to account for the impact that multiple enemy NPCs have on the encounter multiplier.
 

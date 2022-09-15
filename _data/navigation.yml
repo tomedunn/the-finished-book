@@ -22,7 +22,7 @@ monsters:
 classes:
   - title: "General"
     children:
-      - title: "XP and Player Characters"
+      - title: "Player Character XP"
         url: /classes/xp-and-player-characters
   - title: "Monk"
     children:
