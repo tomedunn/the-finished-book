@@ -27,7 +27,7 @@ This approach gives better resolution than comparing listed CRs with CR values c
 Figure <a href="#fig:exp-ratio-vs-time-adventure-modules" class="fig-ref">1</a> shows how these calculated XP values compare to the target XP value for both normal and legendary monsters from adventure modules. 
 
 <figure id="fig:exp-ratio-vs-time-adventure-modules">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/early-legendary-monsters/exp-ratio-mean-vs-time-adventure-modules-legendary.svg"  style="width:800px;min-width:50%;max-width:100%">
+    {% include_relative early-legendary-monsters/exp-ratio-mean-vs-time-adventure-modules-legendary.html %}
     <figcaption>Figure 1: Calculated XP mean (points) normalized to target XP values for monsters published in official adventure modules as a function of the adventure modules' publication dates.</figcaption>
 </figure>
 
@@ -85,7 +85,7 @@ For all of the monsters except Juiblex, who was the most on target of the origin
 For source books, the story is a bit more subtle. As Fig. <a href="#fig:exp-ratio-vs-time-source-books" class="fig-ref">4</a> shows, the average XP ratio for the published source books stays fairly consistent for both normal and legendary monsters.
 
 <figure id="fig:exp-ratio-vs-time-source-books">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/early-legendary-monsters/exp-ratio-mean-vs-time-source-books-legendary.svg" style="width:800px;min-width:50%;max-width:100%">
+    {% include_relative early-legendary-monsters/exp-ratio-mean-vs-time-source-books-legendary.html %}
     <figcaption>Figure 4: Calculated XP mean normalized to target XP values for source books as a function of the source books' publication dates.</figcaption>
 </figure>
 
@@ -108,14 +108,14 @@ After looking through the legendary monsters from the MM in this range, this dev
 Indeed, the legendary dragons in the MM have an average XP ratio of around 1.7 while legendary non-dragon monsters have an average XP ratio of around 1.2. In other words, the legendary dragons in the MM are around 40% tougher, on average, than the rest of the legendary monsters in the MM. This relationship is illustrated again in Fig. <a href="#fig:exp-ratio-vs-cr-mm-type-dragon" class="fig-ref">7</a>, which shows XP ratios for individual monsters along with their target CR.
 
 <figure id="fig:exp-ratio-vs-cr-mm-type-dragon">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/early-legendary-monsters/exp-ratio-vs-cr-mm-type-dragon.svg">
+    {% include_relative early-legendary-monsters/exp-ratio-vs-cr-mm-type-dragon.html %}
     <figcaption>Figure 7: Calculated XP normalized to target XP values for legendary monsters from the <i>Monster Manual</i>.</figcaption>
 </figure>
 
 I first came across this observation around the start of 2020, and my initial theory was that this was probably intentional on the part of WotC. After all, dragons are suppose to be iconic creatures in Dungeons & Dragons. They're in the name of the game! However, WotC recently released a source book dedicated specifically to dragons, _Fizban's Treasury of Dragons_ (FToD), which was included in the collection of non-MM source books shown in Fig. <a href="#fig:exp-ratio-cdf-mm-vs-source-books" class="fig-ref">5</a> and it does not show this same behavior.
 
 <figure id="fig:exp-ratio-vs-cr-mm-ftod-type-dragon">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/early-legendary-monsters/exp-ratio-vs-cr-mm-ftod-type-dragon.svg">
+    {% include_relative early-legendary-monsters/exp-ratio-vs-cr-mm-ftod-type-dragon.html %}
     <figcaption>Figure 8: Calculated XP normalized to target XP values for legendary monsters from the <i>Monster Manual</i> and <i>Fizban's Treasury of Dragons</i>.</figcaption>
 </figure>
 
