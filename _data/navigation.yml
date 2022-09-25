@@ -16,6 +16,8 @@ monsters:
     url: /monsters/calculating-monster-xp
   - title: "Early Legendary Monsters"
     url: /monsters/early-legendary-monsters
+  - title: "Legendary Resistances"
+    url: /monsters/legendary-resistances
   - title: "Monster Saving Throws"
     url: /monsters/monster-saving-throws
 
