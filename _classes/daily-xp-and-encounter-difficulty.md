@@ -36,7 +36,7 @@ What is perhaps a bit surprisingly, though, is that the difference between each 
 
 Figure <a href="#fig:daily-xp-ratio-vs-level" class="fig-ref">2</a> (above) replots this data relative to the average daily XP values for Medium encounters. Easy encounters come out 10% lower than Medium on average, Hard encounters are 6% higher, and Deadly are 12% higher. This means that only minor corrections to the adventuring day XP budgets are needed in order to compensate for different average encounter difficulties.
 
-To give a sense of where these changes in XP come from, Fig. <a href="#fig:daily-xp-ratio-vs-level" class="fig-ref">3</a> (below) shows how the average effective damage per round for each average encounter difficulty. The relative differences in effective damage per round match those for XP almost exactly. This makes sense, since the amount of damage each class can take is largely independent of the number of encounters they face. 
+To give a sense of where these changes in XP come from, Fig. <a href="#fig:edpr-vs-level" class="fig-ref">3</a> (below) shows how the average effective damage per round for each average encounter difficulty. The relative differences in effective damage per round match those for XP almost exactly. This makes sense, since the amount of damage each class can take is largely independent of the number of encounters they face. 
 
 <figure id="fig:edpr-vs-level">
     {% include_relative daily-xp-and-encounter-difficulty/fig-full-daily-edpr-vs-level-adventuring-days.html %}
