@@ -26,6 +26,8 @@ classes:
     children:
       - title: "Player Character XP"
         url: /classes/xp-and-player-characters
+      - title: "Daily XP and Encounter Difficulty"
+        url: /classes/daily-xp-and-encounter-difficulty
   - title: "Monk"
     children:
       - title: "Stunning Strike"
