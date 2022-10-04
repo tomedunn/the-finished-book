@@ -1399,9 +1399,9 @@ def wizardPC(name='Wizard', **kwargs):
             actName = 'Cast a Spell ({:d})'.format(i)
             pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[i], 'attack bonus': spMod + pb}], resources={resName: -1})     
 
-            if i <= 3:
+            if i <= 3 and i >= 1:
                 actName = 'Spell Reaction ({:d})'.format(i)
-                #pc['reactions'][actName] = newAction(acbonus=3, resources={resName: -1}, comment='Shield or Counterspell')  
+                #pc['reactions'][actName] = newAction(acbonus=3, resources={resName: -1}, comment='Shield or Counterspell')
 
     return pc
 

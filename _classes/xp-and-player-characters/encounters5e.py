@@ -727,7 +727,7 @@ def longRestSummary(pc, rounds):
     return copy.deepcopy(rSum)
 
 # adventuring days
-def dailyEngine(pc, day):
+def dailyEngine(pc, day, options={}):
     """
     pc - dictionary with player character actions, bonus actions, and reactions.
     day - list of encounters and rests.
@@ -747,10 +747,16 @@ def dailyEngine(pc, day):
     for x in day:
         if x['type'] == 'encounter':
             nRounds = x['rounds']
+            actsLimit = {
+                'top eDPR': 2*nRounds, 
+                'top healing': 1 if options.get('combat healing', True) else 0, 
+                'pad None': nRounds
+            }
             rndOpts = createRoundOptions(pc, resRemaining, 
-                actsLimit={'top eDPR': 2*nRounds, 'top healing': 1, 'pad None': nRounds}, 
+                actsLimit=actsLimit, 
                 bactsLimit={'top eDPR': 2*nRounds, 'pad None': nRounds},
                 ractsLimit={'pad None': nRounds})
+            
             #rounds = [rndOpts[0]]*nRounds
             rounds = [rndZero]*nRounds
             eSum = encounterEngine(pc, rounds, resRemaining, rndOpts)
