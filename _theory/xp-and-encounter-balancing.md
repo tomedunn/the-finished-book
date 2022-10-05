@@ -9,7 +9,8 @@ last_modified_at: 2022-3-1
 #  - classes
 ---
 
-\\(
+<div style="display:none">
+\(
 \newcommand{\RTW}{\mathit{RTW}}
 \newcommand{\AC}{\mathit{AC}}
 \newcommand{\eAC}{\mathit{eAC}}
@@ -18,29 +19,30 @@ last_modified_at: 2022-3-1
 \newcommand{\AB}{\mathit{AB}}
 \newcommand{\eDPR}{\mathit{eDPR}}
 \newcommand{\DPR}{\mathit{DPR}} 
-\newcommand{\DPRhit}{\mathit{DPR}\_\mathrm{hit}} 
+\newcommand{\DPRhit}{\mathit{DPR}_\mathrm{hit}} 
 % other
 \newcommand{\CR}{\mathit{CR}}
 \newcommand{\XP}{\mathit{XP}}
 \newcommand{\diff}{\mathit{diff}}
 \newcommand{\EM}{\mathit{EM}}
 \newcommand{\W}{\mathit{W}}
-\newcommand{\XPtot}{\overline{\mathit{XP}}}
-\newcommand{\eXPtot}{\mathrm{enc}\,\overline{\mathit{XP}}}
-\newcommand{\aXPtot}{\mathrm{adj}\,\overline{\mathit{XP}}}
+\newcommand{\XPtot}{\overline{\XP}}
+\newcommand{\eXPtot}{\mathrm{enc}\,\overline{\XP}}
+\newcommand{\aXPtot}{\mathrm{adj}\,\overline{\XP}}
 % NPCs
 \newcommand{\NPC}{\mathrm{NPC}}
-\newcommand{\NRTW}{\mathit{RTW}\_\mathrm{\NPC}}
-\newcommand{\NeHP}{\mathit{eHP}\_\mathrm{\NPC}}
-\newcommand{\NeDPR}{\mathit{eDPR}\_\mathrm{\NPC}}
-\newcommand{\NXP}{\mathit{XP}\_\mathrm{\NPC}}
+\newcommand{\NRTW}{\RTW_\NPC}
+\newcommand{\NeHP}{\eHP_\NPC}
+\newcommand{\NeDPR}{\eDPR_\NPC}
+\newcommand{\NXP}{\XP_\NPC}
 % PCs
 \newcommand{\PC}{\mathrm{PC}}
-\newcommand{\PRTW}{\mathit{RTW}\_\mathrm{\PC}}
-\newcommand{\PeHP}{\mathit{eHP}\_\mathrm{\PC}}
-\newcommand{\PeDPR}{\mathit{eDPR}\_\mathrm{\PC}}
-\newcommand{\PXP}{\mathit{XP}\_\mathrm{\PC}}
-\\)
+\newcommand{\PRTW}{\RTW_\PC}
+\newcommand{\PeHP}{\eHP_\PC}
+\newcommand{\PeDPR}{\eDPR_\PC}
+\newcommand{\PXP}{\XP_\PC}
+\)
+</div>
 
 # Introduction
 

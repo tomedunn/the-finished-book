@@ -9,7 +9,8 @@ last_modified_at: 2022-9-15
 #  - classes
 ---
 
-\\(
+<div style="display:none">
+\(
 \newcommand{\LV}{\mathit{LV}}
 \newcommand{\AC}{\mathit{AC}}
 \newcommand{\eAC}{\mathit{eAC}}
@@ -18,17 +19,18 @@ last_modified_at: 2022-9-15
 \newcommand{\AB}{\mathit{AB}}
 \newcommand{\eDPR}{\mathit{eDPR}}
 \newcommand{\DPR}{\mathit{DPR}} 
-\newcommand{\DPRhit}{\mathit{DPR}\_\mathrm{hit}} 
+\newcommand{\DPRhit}{\DPR_\mathrm{hit}} 
 \newcommand{\HD}{\mathit{HD}}
 \newcommand{\CON}{\mathit{CM}}
 % other
 \newcommand{\XP}{\mathit{XP}}
 % PCs
 \newcommand{\PC}{\mathrm{PC}}
-\newcommand{\PeHP}{\mathit{eHP}\_\mathrm{\PC}}
-\newcommand{\PeDPR}{\mathit{eDPR}\_\mathrm{\PC}}
-\newcommand{\PXP}{\mathit{XP}\_\mathrm{\PC}}
-\\)
+\newcommand{\PeHP}{\eHP_\PC}
+\newcommand{\PeDPR}{\eDPR_\PC}
+\newcommand{\PXP}{\XP_\PC}
+\)
+</div>
 
 # Introduction
 

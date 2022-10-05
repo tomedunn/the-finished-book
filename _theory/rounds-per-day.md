@@ -9,7 +9,8 @@ last_modified_at: 2022-7-12
 #  - combat
 ---
 
-\\(
+<div style="display:none">
+\(
 \newcommand{\eHP}{\mathit{eHP}}
 \newcommand{\eDPR}{\mathit{eDPR}}
 \newcommand{\DPR}{\mathit{DPR}} 
@@ -18,21 +19,22 @@ last_modified_at: 2022-7-12
 \newcommand{\XP}{\mathit{XP}}
 % generic
 \newcommand{\RTW}{\mathit{R}}
-\newcommand{\RTWM}{\mathit{R}\_{\mathrm{Med}}}
-\newcommand{\XPM}{\mathit{XP}\_{\mathrm{Med}}}
+\newcommand{\RTWM}{\RTW_{\mathrm{Med}}}
+\newcommand{\XPM}{\XP_{\mathrm{Med}}}
 % NPCs
 \newcommand{\NPC}{\mathrm{N}}
-\newcommand{\NRTW}{\mathit{RTW}\_{\NPC}}
-\newcommand{\NeHP}{\mathit{eHP}\_{\NPC}}
-\newcommand{\NeDPR}{\mathit{eDPR}\_{\NPC}}
-\newcommand{\NXP}{\mathit{XP}\_{\NPC}}
+\newcommand{\NRTW}{\RTW_\NPC}
+\newcommand{\NeHP}{\eHP_\NPC}
+\newcommand{\NeDPR}{\eDPR_\NPC}
+\newcommand{\NXP}{\XP_\NPC}
 % PCs
 \newcommand{\PC}{\mathrm{P}}
-\newcommand{\PRTW}{\mathit{RTW}\_{\PC}}
-\newcommand{\PeHP}{\mathit{eHP}\_{\PC}}
-\newcommand{\PeDPR}{\mathit{eDPR}\_{\PC}}
-\newcommand{\PXP}{\mathit{XP}\_{\PC}}
-\\)
+\newcommand{\PRTW}{\RTW_\PC}
+\newcommand{\PeHP}{\eHP_\PC}
+\newcommand{\PeDPR}{\eDPR_\PC}
+\newcommand{\PXP}{\XP_\PC}
+\)
+</div>
 
 # Introduction
 The rules for building combat encounters show how to fit a wide range of encounter difficulties into a full adventuring day by combining encounters of different difficulties (see "[The Adventuring Day](https://www.dndbeyond.com/sources/basic-rules/building-combat-encounters#TheAdventuringDay)" in chapter 13 of the _Basic Rules_). And, while this information is extremely useful for a variety of reasons, there's one bit of information that I find conspicuously absent from it; how this impacts the number of rounds of combat per day?

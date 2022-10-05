@@ -9,8 +9,8 @@ last_modified_at: 2022-1-21
 #  - classes
 ---
 
-
-\\(
+<div style="display:none">
+\(
 \newcommand{\RTW}{\mathit{RTW}}
 \newcommand{\phit}{\rho\_\mathrm{hit}}
 \newcommand{\pcrit}{\rho\_\mathrm{crit}}
@@ -20,29 +20,30 @@ last_modified_at: 2022-1-21
 \newcommand{\AC}{\mathit{AC}}
 \newcommand{\eAC}{\mathit{eAC}}
 \newcommand{\SB}{\mathit{SB}}
-\newcommand{\SBave}{\mathit{SB}\_\mathrm{ave}}
+\newcommand{\SBave}{\SB_\mathrm{ave}}
 \newcommand{\HP}{\mathit{HP}}
 \newcommand{\eHP}{\mathit{eHP}}
-\newcommand{\eHPatck}{\mathit{eHP}\_\mathrm{a}}
-\newcommand{\eHPsave}{\mathit{eHP}\_\mathrm{s}}
+\newcommand{\eHPatck}{\eHP_\mathrm{a}}
+\newcommand{\eHPsave}{\eHP_\mathrm{s}}
 \newcommand{\AB}{\mathit{AB}}
 \newcommand{\DC}{\mathit{DC}}
 \newcommand{\eD}{\mathit{eD}}
-\newcommand{\eDatck}{\mathit{eD}\_\mathrm{a}}
-\newcommand{\eDsave}{\mathit{eD}\_\mathrm{s}}
+\newcommand{\eDatck}{\eD_\mathrm{a}}
+\newcommand{\eDsave}{\eD_\mathrm{s}}
 \newcommand{\eDPR}{\mathit{eDPR}}
 \newcommand{\D}{\mathit{D}}
-\newcommand{\Dave}{\mathit{D}\_\mathrm{ave}}
-\newcommand{\Dhit}{\mathit{D}\_\mathrm{hit}} 
-\newcommand{\Dcrit}{\mathit{D}\_\mathrm{crit}}
-\newcommand{\Dsave}{\mathit{D}\_\mathrm{save}}
-\newcommand{\Dfail}{\mathit{D}\_\mathrm{fail}}
+\newcommand{\Dave}{\D_\mathrm{ave}}
+\newcommand{\Dhit}{\D_\mathrm{hit}} 
+\newcommand{\Dcrit}{\D_\mathrm{crit}}
+\newcommand{\Dsave}{\D_\mathrm{save}}
+\newcommand{\Dfail}{\D_\mathrm{fail}}
 \newcommand{\DPR}{\mathit{DPR}} 
-\newcommand{\DPRhit}{\mathit{DPR}\_\mathrm{hit}} 
-\newcommand{\DPRcrit}{\mathit{DPR}\_\mathrm{crit}}
-\newcommand{\DPRsave}{\mathit{DPR}\_\mathrm{save}}
-\newcommand{\DPRfail}{\mathit{DPR}\_\mathrm{fail}}
-\\)
+\newcommand{\DPRhit}{\DPR_\mathrm{hit}} 
+\newcommand{\DPRcrit}{\DPR_\mathrm{crit}}
+\newcommand{\DPRsave}{\DPR_\mathrm{save}}
+\newcommand{\DPRfail}{\DPR_\mathrm{fail}}
+\)
+</div>
 
 <!--
 This is the first post in a series that will cover and expand upon what's in my paper "[Calculating XP and encounter difficulty in D&D 5e](https://drive.google.com/file/d/1VnvdnJYTIym1QNGvONWZkOFYgbFO66Bx/view?usp=sharing)".

@@ -9,7 +9,9 @@ last_modified_at: 2022-9-8
 #  - encounters
 ---
 
-\\(
+<div style="display:none">
+\(
+\newcommand{\RTW}{\mathit{RTW}}
 \newcommand{\HP}{\mathit{HP}}
 \newcommand{\eHP}{\mathit{eHP}}
 \newcommand{\eD}{\mathit{eD}}
@@ -17,8 +19,8 @@ last_modified_at: 2022-9-8
 \newcommand{\DPR}{\mathit{DPR}} 
 % other
 \newcommand{\XP}{\mathit{XP}}
-\newcommand{\XPtot}{\overline{\mathit{XP}}}
-\newcommand{\eXPtot}{\mathrm{enc}\,\overline{\mathit{XP}}}
+\newcommand{\XPtot}{\overline{\XP}}
+\newcommand{\eXPtot}{\mathrm{enc}\,\overline{\XP}}
 \newcommand{\EM}{\mathit{EM}}
 \newcommand{\W}{\mathit{W}}
 \newcommand{\effMT}{\mathit{eff}^{\,\mathrm{MT}}}
@@ -27,23 +29,23 @@ last_modified_at: 2022-9-8
 \newcommand{\eDPTMT}{\mathit{eDPT}^\mathrm{\,MT}}
 \newcommand{\eDPTST}{\mathit{eDPT}^\mathrm{\,ST}}
 \newcommand{\dMT}{\mathit{d}}
-\newcommand{\dMTi}{\mathit{d}\_{\mspace{2mu}i}}
-\newcommand{\dMTj}{\mathit{d}\_{\mspace{2mu}j}}
+\newcommand{\dMTi}{\dMT_{\mspace{2mu}i}}
+\newcommand{\dMTj}{\dMT_{\mspace{2mu}j}}
 % NPCs
 \newcommand{\NN}{N\_\mathrm{N}}
 \newcommand{\NPC}{\mathrm{NPC}}
-\newcommand{\NeHP}{\mathit{eHP}\_\mathrm{\NPC}}
-\newcommand{\NeDPR}{\mathit{eDPR}\_\mathrm{\NPC}}
+\newcommand{\NeHP}{\eHP_\NPC}
+\newcommand{\NeDPR}{\eDPR_\NPC}
 % PCs
 \newcommand{\NP}{N\_\mathrm{P}}
 \newcommand{\nP}{n\_\mathrm{P}}
 \newcommand{\PC}{\mathrm{PC}}
-\newcommand{\PRTW}{\mathit{RTW}\_\mathrm{\PC}}
-\newcommand{\PeHP}{\mathit{eHP}\_\mathrm{\PC}}
-\newcommand{\PeDPR}{\mathit{eDPR}\_\mathrm{\PC}}
-\newcommand{\PXP}{\mathit{XP}\_\mathrm{\PC}}
-\\)
-
+\newcommand{\PRTW}{\RTW_\PC}
+\newcommand{\PeHP}{\eHP_\PC}
+\newcommand{\PeDPR}{\eDPR_\PC}
+\newcommand{\PXP}{\XP_\PC}
+\)
+</div>
 
 # Introduction
 
