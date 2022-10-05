@@ -9,13 +9,14 @@ last_modified_at: 2022-09-24
 #  - legendary resistance
 ---
 
-
-\\(
+<div style="display:none">
+\(
 \newcommand{\AC}{\mathit{AC}}
 \newcommand{\HP}{\mathit{HP}}
 \newcommand{\eHP}{\mathit{eHP}}
 \newcommand{\eDPR}{\mathit{eDPR}}
-\\)
+\)
+</div>
 
 # Introduction
 
