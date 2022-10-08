@@ -21,11 +21,11 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Tom Dunn"
 description              : "Analysis of Dungeons & Dragon's 5th edition"
-url                      : https://tomedunn.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://tomedunn.github.io
 baseurl                  : /the-finished-book # the subpath of your site, e.g. "/blog"
-repository               : tomedunn/the-finished-book # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : tomedunn/the-finished-book
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/site-logo.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
@@ -340,3 +340,5 @@ defaults:
       read_time: true
       sidebar:
         nav: "theory"
+      header:
+        image: /assets/images/theory-image1.jpg
