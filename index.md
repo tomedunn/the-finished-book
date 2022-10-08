@@ -2,20 +2,21 @@
 title: "The Finished Book"
 layout: splash
 permalink: /
-date: 2021-10-29T12:00:00-04:00
+date: 2021-10-29
+last_modified_at: 2022-10-8
 show_date: false
 feature_row:
-  - image_path: /assets/images/classes-image1.png
+  - image_path: /assets/images/classes-image1.jpg
     image_url: "/classes/"
     image_caption: "Classes"
     alt: "cool character mini"
     excerpt: "Posts about player character and class related content."
-  - image_path: /assets/images/monsters-image1.png
+  - image_path: /assets/images/monsters-image1.jpg
     image_url: "/monsters/"
     image_caption: "Monsters"
     alt: "scary monster mini"
     excerpt: "Posts about monsters and such."
-  - image_path: /assets/images/theory-image1.png
+  - image_path: /assets/images/theory-image1.jpg
     image_url: "/theory/"
     image_caption: "Theory"
     alt: "dice and diagrams"
