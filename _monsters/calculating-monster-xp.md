@@ -2,7 +2,7 @@
 title: "Calculating Monster XP"
 excerpt: "Compares listed monster XP values with those calculated from their offensive and defensive abilities."
 date: 2021-11-24
-last_modified_at: 2022-01-27
+last_modified_at: 2022-10-30
 #tags:
 #  - analysis
 #  - CR
@@ -55,7 +55,13 @@ which can be approximated as,
     \NXP = \frac{1}{4} \HP \cdot \DPRhit \left(1 + 0.083\left(\AC + \AB - 16\right)\right)\,,
 \end{equation}
 
-where $$\HP$$ is the monster's average hit points, $$\AC$$ is their effective armor class, $$(\DPRhit)$$ is their average damage per round assuming all attacks hit, and $$\AB$$ is their effective attack bonus.
+where $$\HP$$ is the monster's average hit points, $$\AC$$ is their effective armor class, $$\DPRhit$$ is their average damage per round assuming all attacks hit, and $$\AB$$ is their effective attack bonus.
+
+When calculating a monster's XP using Eqn. \eqref{eq:XP-full}, I'll be following the same guidance given in "[Creating a Monster](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#CreatingaMonster)" from chapter 9 of the DMG for calculating monster CR values. The key components of which are outlined below.
+
+* _**Three Round Encounters.**_ Combat is assumed to last three rounds. Contributions to $$\AC$$, $$\AB$$, and $$\DPRhit$$ are averaged over over these rounds, while contributions to $$\HP$$ are added together.
+
+* _**Limited Area of Effect Targets.**_ Abilities capable of targeting an area of effect (AoE) are assumed to only hit a modest number of target. This number is typically two for standard sized AoE abilities, like the _[fireball](https://www.dndbeyond.com/spells/fireball)_ spell.
 
 <!--
 With that out of the way, XP in 5th edition is proportional to the product of a monster's effective hit points $$(\eHP)$$ and effective damage per round $$(\eDPR)$$, 
