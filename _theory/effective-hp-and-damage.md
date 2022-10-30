@@ -12,11 +12,11 @@ last_modified_at: 2022-1-21
 <div style="display:none">
 \(
 \newcommand{\RTW}{\mathit{RTW}}
-\newcommand{\phit}{\rho\_\mathrm{hit}}
-\newcommand{\pcrit}{\rho\_\mathrm{crit}}
-\newcommand{\pmiss}{\rho\_\mathrm{miss}}
-\newcommand{\psave}{\rho\_\mathrm{save}}
-\newcommand{\pfail}{\rho\_\mathrm{fail}}
+\newcommand{\phit}{\rho_\mathrm{hit}}
+\newcommand{\pcrit}{\rho_\mathrm{crit}}
+\newcommand{\pmiss}{\rho_\mathrm{miss}}
+\newcommand{\psave}{\rho_\mathrm{save}}
+\newcommand{\pfail}{\rho_\mathrm{fail}}
 \newcommand{\AC}{\mathit{AC}}
 \newcommand{\eAC}{\mathit{eAC}}
 \newcommand{\SB}{\mathit{SB}}

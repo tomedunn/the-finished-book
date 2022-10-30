@@ -32,7 +32,7 @@ last_modified_at: 2022-9-8
 \newcommand{\dMTi}{\dMT_{\mspace{2mu}i}}
 \newcommand{\dMTj}{\dMT_{\mspace{2mu}j}}
 % NPCs
-\newcommand{\NN}{N\_\mathrm{N}}
+\newcommand{\NN}{N_\mathrm{N}}
 \newcommand{\NPC}{\mathrm{NPC}}
 \newcommand{\NeHP}{\eHP_\NPC}
 \newcommand{\NeDPR}{\eDPR_\NPC}
