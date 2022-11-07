@@ -9,7 +9,8 @@ last_modified_at: 2022-10-30
 #  - monsters
 ---
 
-\\(
+<div style="display:none">
+\(
 \newcommand{\RTW}{\mathit{RTW}}
 \newcommand{\AC}{\mathit{AC}}
 \newcommand{\eAC}{\mathit{eAC}}
@@ -18,16 +19,17 @@ last_modified_at: 2022-10-30
 \newcommand{\AB}{\mathit{AB}}
 \newcommand{\eDPR}{\mathit{eDPR}}
 \newcommand{\DPR}{\mathit{DPR}} 
-\newcommand{\DPRhit}{\mathit{DPR}\_\mathrm{hit}} 
+\newcommand{\DPRhit}{\mathit{DPR}_\mathrm{hit}} 
 % other
 \newcommand{\CR}{\mathit{CR}}
 \newcommand{\XP}{\mathit{XP}}
 % NPCs
 \newcommand{\NPC}{\mathrm{NPC}}
-\newcommand{\NeHP}{\mathit{eHP}\_\mathrm{\NPC}}
-\newcommand{\NeDPR}{\mathit{eDPR}\_\mathrm{\NPC}}
-\newcommand{\NXP}{\mathit{XP}\_\mathrm{\NPC}}
-\\)
+\newcommand{\NeHP}{\mathit{eHP}_\mathrm{\NPC}}
+\newcommand{\NeDPR}{\mathit{eDPR}_\mathrm{\NPC}}
+\newcommand{\NXP}{\mathit{XP}_\mathrm{\NPC}}
+\)
+</div>
 
 # Introduction
 
