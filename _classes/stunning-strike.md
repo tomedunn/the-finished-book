@@ -3,7 +3,7 @@ title: "Stunning Strike"
 excerpt: "Analysis of how Stunning Strike holds up against published monsters"
 share: true
 date: 2021-10-27
-last_modified_at: 2021-11-25
+last_modified_at: 2022-11-24
 #tags:
 #  - analysis
 #  - classes
@@ -11,6 +11,17 @@ last_modified_at: 2021-11-25
 #  - stunning strike
 #  - saving throws
 ---
+
+<div style="display:none">
+\(
+\newcommand{\AC}{\mathit{AC}}
+\newcommand{\AB}{\mathit{AB}}
+\newcommand{\DC}{\mathit{DC}}
+\newcommand{\SB}{\mathit{SB}}
+\newcommand{\phit}{\rho_\mathrm{hit}}
+\newcommand{\pstun}{\rho_\mathrm{stun}}
+\)
+</div>
 
 # Introduction
 
@@ -28,19 +39,19 @@ We can express the probability of a monster failing the Constitution saving thro
 
 \begin{equation}
     \label{eq:prob-stun}
-    p_{\rm stun} = \frac{ {\rm min}(20, {\rm max}(0, DC - SB - 1)) }{ 20 }\ ,
+    \pstun = \frac{ {\rm min}(20, {\rm max}(0, \DC - \SB - 1)) }{ 20 }\ ,
 \end{equation}
 
-where DC is the monk's ki save difficulty class, and SB is the monster's Constitution saving throw bonus. The maximum and minimum functions are there to keep the probability between 0 and 1.
+where $$\DC\,$$ is the monk's ki save difficulty class, and $$\SB\,$$ is the monster's Constitution saving throw bonus. The maximum and minimum functions are there to keep the probability between 0 and 1.
 
 The probability of an attack hitting a monster can be calculated in a similar manner as
 
 \begin{equation}
     \label{eq:prob-hit}
-    p_{\rm hit} = \frac{ {\rm min}(19, {\rm max}(1, 20 + AB - AC)) }{ 20 }\ ,
+    \phit = \frac{ {\rm min}(19, {\rm max}(1, 21 + \AB - \AC)) }{ 20 }\ ,
 \end{equation}
 
-where AB is the monk's attack bonus, and AC is the monster's armor class. Here, the maximum and minimum functions keep the probability above 5%, to reflect the chance of rolling a critical hit on a natural 20, and below 95%, to reflect the chance of rolling a critical miss on a natural 1.
+where $$\AB\,$$ is the monk's attack bonus, and $$\AC\,$$ is the monster's armor class. Here, the maximum and minimum functions keep the probability above 5%, to reflect the chance of rolling a critical hit on a natural 20, and below 95%, to reflect the chance of rolling a critical miss on a natural 1.
 
 The monk that we will be calculating this for is assumed to have 16 Dexterity and 16 Wisdom at 1st level. They then takes +2 Dexterity for their Ability Score Improvement at 4th level, +2 Wisdom at 8th level, +2 Dexterity at 12th level, and finally +2 Wisdom at 16th level.
 
@@ -75,18 +86,18 @@ The strength of Stunning Strike for our monk at higher levels, therefore, depend
 
 ## Ki per Stun
 
-Another useful way of looking at this data is to calculate the average ki our monk needs to expend in order to successfully stun a monster. Since the probability of our monk needed to spend "X" ki points in order to successfully stun a specific monster follows the binomial distribution, the average number of ki needed for each monster is calculated by taking the inverse of their probability of being stunned from a single Stunning Strike. For example, if our monk had a 25% chance of stunning a particular monster then they would need to spend 1 / 0.25 = 4 ki on average to do so.
+Another useful way of looking at this data is to calculate the average ki our monk needs to expend in order to successfully stun a monster. Since the probability our monk needs to spend "X" ki points in order to successfully stun a specific monster follows the binomial distribution, the average number of ki needed for each monster is calculated by taking the inverse of their probability of being stunned from a single Stunning Strike. For example, if our monk had a 25% chance of stunning a particular monster then they would need to spend 1 / 0.25 = 4 ki on average to do so.
 
 <figure alt="Ki per stun probability distribution" id="fig:ki-per-stun-prob-dist-categories">
     <img src="{{ site.url }}{{ site.baseurl }}/classes/stunning-strike/ki-per-stun-probability-distribution-categories.svg" style="width:100%">
-    <figcaption>Figure 3: Probability distribution of average ki needed to land a Stunning Strike.</figcaption>
+    <figcaption>Figure 3: Probability distribution of the average ki needed to land a Stunning Strike.</figcaption>
 </figure>
 
 Figure <a href="#fig:ki-per-stun-prob-dist-categories" class="fig-ref">3</a> show how the average ki cost per stun is distributed for each of the level ranges we've looked at so far.
 
 For our monk at levels 5 and 10, the distribution for Generic monsters is sharply peaked around 2 ki per stun. Indeed, when we calculated the median values for these levels we get an average cost of 1.82 ki per stun. For levels 15 and 20, the distributions still have a strong peak around 2 ki per stun, but they also have a longer tail. Still, the vast majority of monsters take 4 ki per stun or less. The calculated median values for these levels are 2.0 and 2.2 ki per stun respectively.
 
-For Legendary and Unique monsters the story is similar, however, the size of the tails are much larger compared to Generic monsters. For Legendary monsters the median is 2.0 ki per stun at 5th level, 2.9 ki per stun at 10th level, 2.9 ki per stun at 15th level, and 2.5 ki per stun at 20th level. And, for Unique monsters the median is 2.0 ki per stun at 5th level, 1.8 ki per stun at 10th level, 2.0 ki per stun at 15th level, and 2.9 ki per stun at 20th level.
+For Legendary and Unique monsters the story is similar, however, the size of the tails are much larger compared to Generic monsters. For Legendary monsters the median is 2.4 ki per stun at 5th level, 2.5 ki per stun at 10th level, 2.5 ki per stun at 15th level, and 2.5 ki per stun at 20th level. And, for Unique monsters the median is 2.0 ki per stun at 5th level, 1.8 ki per stun at 10th level, 2.2 ki per stun at 15th level, and 3.3 ki per stun at 20th level.
 
 <figure alt="Ki per stun probability range" id="fig:ki-per-stun-prob-dist-conf60-categories">
     <img src="{{ site.url }}{{ site.baseurl }}/classes/stunning-strike/ki-per-stun-probability-confidence60-categories.svg" style="width:100%">
@@ -95,7 +106,7 @@ For Legendary and Unique monsters the story is similar, however, the size of the
 
 These averages (dashed line) along with their 60% confidence intervals (shaded region) are plotted above, in Fig. <a href="#fig:ki-per-stun-prob-dist-conf60-categories" class="fig-ref">4</a>.
 
-In total, our monk will not experience a significant change in the effectiveness of Stunning Strike against Generic monsters, and on average they'll still fair decently well against both Legendary and Unique monsters. However, the lengths of the tails for Legendary and Unique monsters at higher levels makes it much more likely that our monk will face an important monster during a campaign that cannot practically be stunned.
+In total, our monk will not experience a significant change in the effectiveness of Stunning Strike against Generic monsters, and on average they'll still fair decently well against both Legendary and Unique monsters. However, the lengths of the tails of the distributions for Legendary and Unique monsters at higher levels makes it much more likely that our monk will face an important monster during a campaign that cannot practically be stunned.
 
 ## Attacks per Stun
 
@@ -108,7 +119,7 @@ In the same way the number of ki needed to stun a monster was calculated, the nu
 
 Without spending too much time focusing on the distributions, Fig. <a href="#fig:attacks-per-stun-conf60-categories" class="fig-ref">5</a> shows how the median number of attacks needed to land a Stunning Strike (dashed line) and 60% confidence interval (shaded region) change with our monk's level for each category of monster.
 
-For generic monsters, the average number of attacks needed to successfully stun a monster stays close to 3 attacks per stun for all levels. However, for Legendary and Unique monsters the number of attacks is generally higher, at around 4 attacks per stun.
+For generic monsters, the average number of attacks needed to successfully stun a monster stays close to 3 attacks per stun for all levels. However, for Legendary and Unique monsters the number of attacks is generally higher, ranging between 3 and 4 attacks per stun.
 
 ## Spellcaster Comparison
 
