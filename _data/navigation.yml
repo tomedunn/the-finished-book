@@ -40,6 +40,8 @@ theory:
         url: /theory/effective-hp-and-damage
       - title: "Rounds of Combat Per Day"
         url: /theory/rounds-per-day
+      - title: "Valuing Conditions"
+        url: /theory/valuing-conditions
   - title: "Encounter Math"
     children:
       - title: "XP and Encounter Balancing"
@@ -48,4 +50,3 @@ theory:
         url: /theory/encounter-multiplier-p1
       - title: "Encounter Multiplier: part 2"
         url: /theory/encounter-multiplier-p2
-
