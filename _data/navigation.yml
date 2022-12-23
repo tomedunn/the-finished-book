@@ -18,6 +18,8 @@ monsters:
     url: /monsters/early-legendary-monsters
   - title: "Legendary Resistances"
     url: /monsters/legendary-resistance
+  - title: "Monster Condition Immunities"
+    url: /monsters/monster-condition-immunities
   - title: "Monster Saving Throws"
     url: /monsters/monster-saving-throws
 
