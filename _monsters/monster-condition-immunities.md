@@ -10,6 +10,21 @@ last_modified_at: 2022-12-23
 #  - immunities
 ---
 
+<style>
+.plotly-div-small {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .plotly-div-small {
+        display: block;
+    }
+    .plotly-div-large {
+        display: none;
+    }
+}
+</style>
+
 # Introduction
 Recently, I published a post on [valuing conditions]({{ site.url }}{{ site.baseurl }}{% link _theory/valuing-conditions.md %}) which showed how each of the conditions in 5th edition D&D can be calculated from their mechanical impact. Since those calculations didn't factor in the probability of each condition actually effecting a target, they can be thought of as representing the upper limit in how valuable each condition can be. In practice, these probabilities depend on two things in the majority of cases: how strong the monster's saving throw bonuses are, and whether or not the monster is immune to the condition being applied.
 
@@ -19,7 +34,8 @@ Since I've already covered how [monster saving throws]({{ site.url }}{{ site.bas
 To begin, lets look at how likely published monsters are to be immune to each condition on average. As shown in Fig. <a href="#fig:condition-immunity-probability" class="fig-ref">1</a> (below), the most common conditions monsters are immune to are **charmed**, **frightened**, and **poisoned**. Each having an average likelihood between $$25 - 30\%$$.
 
 <figure id="fig:condition-immunity-probability">
-    {% include_relative monster-condition-immunities/fig-condition-immunity-probability.html %}
+    {% include_relative monster-condition-immunities/fig-condition-immunity-probability-small.html %}
+    {% include_relative monster-condition-immunities/fig-condition-immunity-probability-large.html %}
     <figcaption>Figure 1: Probability of a published monster being immune to a condition as a percent of total published monsters.</figcaption>
 </figure>
 
@@ -34,7 +50,8 @@ Only the **incapacitated** and **invisible** conditions sit firmly at $$0\%$$, w
 The likelihood of a monster being immune to a specific condition can also depend strongly on the monster's type. This is illustrated in Fig. <a href="#fig:condition-immunity-probability-heat-map" class="fig-ref">2</a> (below), which shows how likely a monster is to be immune to a condition depending on its type.
 
 <figure id="fig:condition-immunity-probability-heat-map">
-    {% include_relative monster-condition-immunities/fig-condition-immunity-probability-heat-map.html %}
+    {% include_relative monster-condition-immunities/fig-condition-immunity-probability-heat-map-small.html %}
+    {% include_relative monster-condition-immunities/fig-condition-immunity-probability-heat-map-large.html %}
     <figcaption>Figure 2: Probability of a published monster being immune to a condition as a percent of the total monsters for its type.</figcaption>
 </figure>
 
@@ -51,7 +68,8 @@ The rest of the monster types have far fewer condition immunities than those men
 The likelihood of a monster being immune to a condition can also depend on their CR. As Fig. <a href="#fig:condition-immunity-prob-vs-cr" class="fig-ref">3</a> (below) shows, some condition immunities depend strongly on CR, while others are completely independent of it.
 
 <figure id="fig:condition-immunity-prob-vs-cr">
-    {% include_relative monster-condition-immunities/fig-condition-immunity-prob-vs-cr.html %}
+    {% include_relative monster-condition-immunities/fig-condition-immunity-prob-vs-cr-small.html %}
+    {% include_relative monster-condition-immunities/fig-condition-immunity-prob-vs-cr-large.html %}
     <figcaption>Figure 3: Probability of a published monster being immune to a condition as a percent of the total monsters for their challenge rating (points), along with trend lines for each condition (lines). <i>Note: You can toggle individual conditions on and off by clicking on them in the legend.</i></figcaption>
 </figure>
 
