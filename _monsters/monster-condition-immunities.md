@@ -2,28 +2,13 @@
 title: "Monster Condition Immunities"
 excerpt: "An analysis of how monster condition immunities depend on monster type and challenge rating."
 date: 2022-12-23
-last_modified_at: 2022-12-23
+last_modified_at: 2022-12-29
 #tags:
 #  - analysis
 #  - monsters
 #  - conditions
 #  - immunities
 ---
-
-<style>
-.plotly-div-small {
-    display: none;
-}
-
-@media only screen and (max-width: 600px) {
-    .plotly-div-small {
-        display: block;
-    }
-    .plotly-div-large {
-        display: none;
-    }
-}
-</style>
 
 # Introduction
 Recently, I published a post on [valuing conditions]({{ site.url }}{{ site.baseurl }}{% link _theory/valuing-conditions.md %}) which showed how each of the conditions in 5th edition D&D can be calculated from their mechanical impact. Since those calculations didn't factor in the probability of each condition actually effecting a target, they can be thought of as representing the upper limit in how valuable each condition can be. In practice, these probabilities depend on two things in the majority of cases: how strong the monster's saving throw bonuses are, and whether or not the monster is immune to the condition being applied.
@@ -55,13 +40,13 @@ The likelihood of a monster being immune to a specific condition can also depend
     <figcaption>Figure 2: Probability of a published monster being immune to a condition as a percent of the total monsters for its type.</figcaption>
 </figure>
 
-**Oozes** are the most consistent out of all of the monster types, with every ooze being immune to the blinded, charmed, deafened, exhaustion, and prone conditions, and all but one being immune to the frightened condition. This level of consistency is likely due, at least in part, to there only being nine oozes of CR 1/8 or higher published in official source books.
+**Oozes** are the most consistent out of all of the monster types, with every ooze being immune to the blinded, deafened, exhaustion, and prone conditions, and all but one being immune to the charmed condition. This level of consistency is likely due, at least in part, to there only being 13 oozes of CR 1/8 or higher published in official source books.
 
 **Constructs** are the next, with over two thirds being immune to charmed, exhaustion, frightened, paralyzed, petrified, and poisoned.
 
-Celestials, elementals, and undead all have similarly strong results, with over half of **celestials** being immune to charmed, exhaustion, and frightened, over half of **elementals** being immune to paralyzed, petrified, and poisoned, and over half of **undead** immune to charmed, exhaustion, paralyzed, and poisoned.
+Celestials, elementals, and undead all have similarly strong results, with over half of **celestials** being immune to charmed, exhaustion, and frightened, over half of **elementals** being immune to paralyzed, petrified, and poisoned, and over half of **undead** immune to charmed, exhaustion, and poisoned.
 
-The rest of the monster types have far fewer condition immunities than those mentioned already, with **humanoids** having the lowest number of condition immunities on average at only $$0.2$$ immunities per creature.
+The rest of the monster types have far fewer condition immunities than those mentioned already, with **humanoids** having the lowest number of condition immunities on average at only $$0.3$$ immunities per creature.
 
 # Condition Immunities by Challenge Rating
 
@@ -73,7 +58,7 @@ The likelihood of a monster being immune to a condition can also depend on their
     <figcaption>Figure 3: Probability of a published monster being immune to a condition as a percent of the total monsters for their challenge rating (points), along with trend lines for each condition (lines). <i>Note: You can toggle individual conditions on and off by clicking on them in the legend.</i></figcaption>
 </figure>
 
-The condition immunities with the strongest dependence on CR are also the most common: **charmed**, **frightened**, and **poisoned**. All three show very similar overall trend lines, with immunity to the poisoned condition having a slightly lower slope and slightly higher value at low CRs. At very high CRs, while the probabilities can vary quite a lot between CRs, the average for each reaches $$70\%$$ and higher. Even for CRs as low as 12 the average value for each is above $$40\%$$.
+The condition immunities with the strongest dependence on CR are also the most common: **charmed**, **frightened**, and **poisoned**. All three show very similar overall trend lines, with immunity to the poisoned condition having a slightly lower slope and slightly higher value at low CRs. At very high CRs, while the probabilities can vary quite a lot between CRs, the average for each reaches $$80\%$$ and higher. Even for CRs as low as 13, the average value for each is above $$40\%$$.
 
 Immunity to **exhaustion** and **paralyzed** also show a trend with CR, but their likelihood only increases a small amount in comparison (only around $$15-20\%$$ on average).
 
