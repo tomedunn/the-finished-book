@@ -2,12 +2,16 @@ Monster,Book,Page,Type,Category,Legendary,CR,PB,XP,HP,AC,adj HP,adj AC,AB,adj AB
 Aarakocra Simulacrum,SKT,188.0,humanoid,generic,N,0.125,2,25.0,6.0,12.0,6.0,12.0,4.0,4.0,5.5,6.6666665
 Aarakokra,MM,12.0,humanoid,generic,N,0.25,2,50.0,13.5,12.0,13.5,12.0,4.0,4.0,5.5,6.6666665
 Abhorrent Overlord,MOoT,219.0,fiend,generic,N,9.0,4,5000.0,136.0,16.0,157.0,18.0,9.0,9.0,58.666668,58.666668
-"Abishai, Black",MToF,160.0,fiend,generic,N,7.0,3,2900.0,58.5,15.0,116.0,21.0,6.0,10.0,29.0,29.0
-"Abishai, Blue",MToF,161.0,fiend,generic,N,17.0,6,18000.0,195.0,19.0,292.5,21.0,12.0,12.0,118.0,118.0
-"Abishai, Green",MToF,162.0,fiend,generic,N,15.0,5,13000.0,187.5,18.0,233.8,20.0,8.0,8.0,29.5,29.5
-"Abishai, Red",MToF,162.0,fiend,generic,N,19.0,6,22000.0,255.0,22.0,255.0,26.0,12.0,12.0,87.5,87.5
-"Abishai, White",MToF,163.0,fiend,generic,N,6.0,3,2300.0,68.0,15.0,136.0,17.0,6.0,6.0,17.0,25.5
-Abjurer,VGtM,209.0,humanoid,generic,N,9.0,4,5000.0,84.5,15.0,129.0,17.0,8.0,8.0,80.666664,80.666664
+"Abishai, Black",MPMotM,38.0,fiend,generic,N,7.0,3,2900.0,58.5,15.0,117.0,21.0,6.0,8.0,30.5,30.5
+"Abishai, Black",MToF,160.0,fiend,legacy,N,7.0,3,2900.0,58.5,15.0,117.0,21.0,6.0,10.0,29.0,29.0
+"Abishai, Blue",MPMotM,39.0,fiend,generic,N,17.0,6,18000.0,202.5,19.0,253.1,21.0,12.0,12.0,108.0,108.0
+"Abishai, Blue",MToF,161.0,fiend,legacy,N,17.0,6,18000.0,195.0,19.0,292.5,21.0,12.0,12.0,118.0,118.0
+"Abishai, Green",MPMotM,40.0,fiend,generic,N,15.0,5,13000.0,195.0,18.0,292.5,20.0,8.0,8.0,57.0,57.0
+"Abishai, Green",MToF,162.0,fiend,legacy,N,15.0,5,13000.0,187.5,18.0,233.8,20.0,8.0,8.0,29.5,29.5
+"Abishai, Red",MPMotM,40.0,fiend,generic,N,19.0,6,22000.0,289.0,22.0,361.3,26.0,12.0,12.0,89.0,89.0
+"Abishai, Red",MToF,162.0,fiend,legacy,N,19.0,6,22000.0,255.0,22.0,255.0,26.0,12.0,12.0,87.5,87.5
+"Abishai, White",MPMotM,41.0,fiend,generic,N,6.0,3,2300.0,68.0,15.0,136.0,17.0,6.0,6.0,35.0,35.0
+"Abishai, White",MToF,163.0,fiend,legacy,N,6.0,3,2300.0,68.0,15.0,136.0,17.0,6.0,6.0,17.0,25.5
 Aboleth,MM,13.0,aberration,legendary,LL,10.0,4,5900.0,135.0,17.0,135.0,19.0,9.0,9.0,98.0,98.0
 Abyssal Chicken,BGDiA,97.0,fiend,generic,N,0.25,2,50.0,10.5,13.0,15.8,13.0,4.0,4.0,9.0,9.0
 Abyssal Wretch,MToF,136.0,fiend,generic,N,0.25,2,50.0,18.0,11.0,36.0,11.0,3.0,3.0,5.5,5.5
@@ -20,15 +24,27 @@ Aerisi Kalinoth,PotA,193.0,humanoid,unique,N,7.0,3,2900.0,66.0,16.0,106.0,16.0,6
 Agdon Longscarf,WBtW,73.0,fey,unique,N,2.0,2,450.0,36.0,19.0,36.0,22.0,7.0,9.0,21.0,21.0
 Ahmaergo,WDH,193.0,humanoid,unique,N,9.0,4,5000.0,143.0,18.0,183.0,18.0,9.0,9.0,47.0,47.0
 Air Elemental,MM,124.0,elemental,generic,N,5.0,3,1800.0,90.0,15.0,135.0,15.0,8.0,8.0,31.333334,31.333334
+Air Elemental Myrmidon,MPMotM,122.0,elemental,generic,N,7.0,3,2900.0,117.0,18.0,190.5,18.0,7.0,7.0,25.833334,25.833334
 Air Elemental Myrmidon,PotA,212.0,elemental,generic,N,7.0,3,2900.0,117.0,18.0,175.5,18.0,7.0,7.0,24.666666,24.666666
 Akroan Hoplite,MOoT,228.0,humanoid,generic,N,3.0,2,700.0,52.0,18.0,52.0,18.0,5.0,5.0,28.0,28.0
 Albino Dwarf Warrior,ToA,210.0,humanoid,generic,N,0.25,2,50.0,30.0,13.0,30.0,13.0,3.0,3.0,4.0,4.0
 Aldani,ToA,210.0,monstrosity,generic,N,1.0,2,200.0,49.5,14.0,49.5,14.0,3.0,3.0,10.0,10.0
-Alhoon,VGtM,172.0,undead,generic,N,10.0,4,5900.0,120.0,15.0,240.0,24.0,8.0,8.0,72.0,72.0
-Alkilith,MToF,130.0,fiend,generic,N,11.0,4,7200.0,157.5,17.0,245.3,19.0,8.0,8.0,54.0,54.0
-Allip,MToF,116.0,undead,generic,N,5.0,3,1800.0,40.5,13.0,80.0,15.0,6.0,6.0,42.0,42.0
+Alhoon,MPMotM,43.0,undead,generic,N,10.0,4,5900.0,150.0,15.0,315.0,21.0,8.0,8.0,52.0,52.0
+Alhoon,VGtM,172.0,undead,legacy,N,10.0,4,5900.0,120.0,15.0,240.0,24.0,8.0,8.0,72.333336,72.333336
+Alkilith,MPMotM,44.0,fiend,generic,N,11.0,4,7200.0,168.0,17.0,210.0,21.0,8.0,8.0,54.0,54.0
+Alkilith,MToF,130.0,fiend,legacy,N,11.0,4,7200.0,157.5,17.0,245.3,19.0,8.0,8.0,54.0,54.0
+Allip,MPMotM,45.0,undead,generic,N,5.0,3,1800.0,40.5,13.0,75.8,13.0,6.0,6.0,32.0,37.0
+Allip,MToF,116.0,undead,legacy,N,5.0,3,1800.0,40.5,13.0,80.0,15.0,6.0,6.0,42.0,42.0
 Allosaurus,MM,79.0,beast,generic,N,2.0,2,450.0,51.0,13.0,51.0,13.0,6.0,6.0,17.666666,17.666666
 Alseid,MOoT,235.0,fey,generic,N,1.0,2,200.0,22.0,15.0,22.0,17.0,6.0,6.0,18.0,18.0
+Alyxian Aboleth,CRCotN,195.0,aberration,unique,L,12.0,4,8400.0,135.0,17.0,195.0,21.0,9.0,9.0,73.0,73.0
+Alyxian the Absolved,CRCotN,182.0,humanoid,unique,LL,14.0,5,11500.0,161.5,15.0,231.5,18.0,9.0,9.0,94.833336,97.666664
+Alyxian the Callous,CRCotN,179.0,celestial,unique,LL,12.0,4,8400.0,157.5,17.0,227.5,19.0,10.0,10.0,91.0,93.833336
+Alyxian the Callous,CRCotN,179.0,celestial,unique,LL,12.0,4,8400.0,157.5,17.0,385.0,19.0,10.0,10.0,131.5,134.33333
+Alyxian the Dispossessed,CRCotN,180.0,humanoid,unique,LL,13.0,5,10000.0,153.0,15.0,253.0,18.0,9.0,9.0,77.5,80.333336
+Alyxian the Dispossessed,CRCotN,180.0,humanoid,unique,LL,13.0,5,10000.0,153.0,15.0,406.0,18.0,9.0,9.0,110.5,113.333336
+Alyxian the Tormented,CRCotN,179.0,aberration,unique,LL,11.0,4,7200.0,150.0,16.0,220.0,18.0,9.0,9.0,90.833336,93.666664
+Alyxian the Tormented,CRCotN,179.0,aberration,unique,LL,11.0,4,7200.0,150.0,16.0,415.0,18.0,9.0,9.0,143.5,146.33333
 Amethyst Dragon Wyrmling,FToD,162.0,dragon,generic,N,4.0,2,1100.0,75.0,17.0,75.0,19.0,6.0,6.0,24.333334,24.333334
 "Amethyst Dragon, Adult",FToD,161.0,dragon,legendary,L,16.0,5,15000.0,229.5,19.0,319.5,21.0,12.0,12.0,97.833336,97.833336
 "Amethyst Dragon, Adult",FToD,161.0,dragon,legendary,LL,17.0,6,18000.0,229.5,19.0,394.5,21.0,12.0,12.0,97.833336,97.833336
@@ -38,7 +54,8 @@ Amethyst Dragon Wyrmling,FToD,162.0,dragon,generic,N,4.0,2,1100.0,75.0,17.0,75.0
 Amethyst Greatwyrm,FToD,201.0,dragon,legendary,L,26.0,8,90000.0,507.0,21.0,627.0,23.0,17.0,17.0,173.83333,173.83333
 Amidor the Dandelion,WBtW,135.0,plant,unique,N,0.5,2,100.0,28.0,12.0,28.0,15.0,4.0,4.0,6.5,6.5
 Ammalia Cassalanter,WDH,193.0,humanoid,unique,N,5.0,3,1800.0,45.0,15.0,67.5,15.0,6.0,6.0,64.666664,64.666664
-Amnizu,MToF,163.0,fiend,generic,N,18.0,6,20000.0,202.5,21.0,262.0,25.0,11.0,11.0,103.0,103.0
+Amnizu,MPMotM,46.0,fiend,generic,N,18.0,6,20000.0,202.5,21.0,247.5,27.0,11.0,11.0,95.333336,100.333336
+Amnizu,MToF,163.0,fiend,legacy,N,18.0,6,20000.0,202.5,21.0,262.0,25.0,11.0,11.0,103.0,103.0
 Amphisbaena,TftYP,84.0,beast,generic,N,3.0,2,700.0,60.0,12.0,60.0,12.0,6.0,6.0,24.0,24.0
 Amphisbaena (Monstrosity),GoS,230.0,monstrosity,generic,N,0.5,2,100.0,11.0,14.0,11.0,14.0,6.0,6.0,22.0,22.0
 Amrik Vanthampur,BGDiA,30.0,humanoid,unique,N,3.0,2,700.0,66.0,17.0,66.0,17.0,6.0,6.0,18.0,18.0
@@ -47,6 +64,8 @@ Anarch,GGtR,239.0,humanoid,generic,N,0.25,2,50.0,11.0,13.0,11.0,13.0,4.0,4.0,9.5
 "Angel, Deva",MM,16.0,celestial,generic,N,10.0,4,5900.0,136.0,17.0,204.0,21.0,8.0,8.0,50.0,50.0
 "Angel, Firemane",GGtR,190.0,celestial,generic,N,12.0,4,8400.0,135.0,18.0,195.0,22.0,10.0,10.0,69.333336,69.333336
 "Angel, Planetar",MM,17.0,celestial,generic,N,16.0,5,15000.0,200.0,19.0,250.0,23.0,12.0,12.0,86.0,86.0
+Angry Sorrowsworn,MPMotM,222.0,monstrosity,generic,N,13.0,5,10000.0,255.0,18.0,318.8,18.0,8.0,12.0,32.0,51.5
+Angry Sorrowsworn,MToF,231.0,monstrosity,legacy,N,13.0,5,10000.0,255.0,18.0,318.8,18.0,8.0,11.0,51.0,51.0
 Animated Armor,MM,19.0,construct,generic,N,1.0,2,200.0,33.0,18.0,33.0,18.0,4.0,4.0,10.0,10.0
 Animated Breath (Acid),FToD,163.0,elemental,generic,N,6.0,3,2300.0,95.0,15.0,95.0,16.0,7.0,7.0,55.0,55.0
 Animated Breath (Cold),FToD,163.0,elemental,generic,N,6.0,3,2300.0,95.0,17.0,95.0,17.0,7.0,7.0,48.0,48.0
@@ -61,57 +80,75 @@ Animated Table,TftYP,230.0,construct,generic,N,2.0,2,450.0,39.0,15.0,39.0,15.0,6
 Ankheg,MM,21.0,monstrosity,generic,N,2.0,2,450.0,39.0,14.0,39.0,14.0,5.0,5.0,18.666666,18.666666
 Ankylosaurus,MM,79.0,beast,generic,N,3.0,2,700.0,68.0,15.0,68.0,15.0,7.0,7.0,18.0,18.0
 Ankylosaurus Zombie,ToA,240.0,undead,generic,N,3.0,2,700.0,68.0,14.0,75.0,14.0,6.0,6.0,18.0,18.0
+Annis Hag,MPMotM,47.0,fey,generic,N,6.0,3,2300.0,90.0,17.0,90.0,17.0,8.0,8.0,46.5,46.5
+Annis Hag,VGtM,159.0,fey,legacy,N,6.0,3,2300.0,75.0,17.0,112.5,17.0,8.0,8.0,45.0,45.0
 Anvilwrought Raptor,MOoT,209.0,construct,generic,N,0.5,2,100.0,18.0,14.0,18.0,14.0,5.0,5.0,11.0,11.0
 Ape,MM,317.0,beast,generic,N,0.5,2,100.0,19.5,12.0,19.5,12.0,5.0,5.0,12.0,12.0
 "Ape, Giant",MM,323.0,beast,generic,N,7.0,3,2900.0,157.5,12.0,157.5,12.0,9.0,9.0,44.0,44.0
 Aphemia,MOoT,226.0,monstrosity,unique,N,5.0,3,1800.0,52.0,15.0,92.0,17.0,6.0,6.0,31.0,31.0
-Apprentice Wizard,VGtM,209.0,humanoid,generic,N,0.25,2,50.0,9.0,10.0,9.0,10.0,4.0,4.0,15.833333,15.833333
+Apprentice Wizard,MPMotM,259.0,humanoid,generic,N,0.25,2,50.0,13.5,13.0,13.5,13.0,4.0,4.0,12.0,12.0
+Apprentice Wizard,VGtM,209.0,humanoid,legacy,N,0.25,2,50.0,9.0,10.0,9.0,10.0,4.0,4.0,15.833333,15.833333
 Arasta,MOoT,248.0,monstrosity,unique,LL,21.0,7,33000.0,300.0,19.0,440.0,23.0,14.0,14.0,137.0,137.0
 Arcanaloth,MM,313.0,fiend,generic,N,12.0,4,8400.0,104.0,17.0,130.0,21.0,9.0,9.0,115.666664,115.666664
 Archaic,SaCoC,184.0,celestial,legendary,L,18.0,6,20000.0,245.0,20.0,335.0,22.0,14.0,14.0,106.666664,118.333336
-Archdruid,VGtM,210.0,humanoid,generic,N,12.0,4,8400.0,132.0,16.0,132.0,16.0,9.0,9.0,115.5,115.5
-Archer,VGtM,210.0,humanoid,generic,N,3.0,2,700.0,75.0,16.0,75.0,16.0,6.0,6.0,21.0,21.0
+Archdruid,MPMotM,48.0,humanoid,generic,N,12.0,4,8400.0,154.0,14.0,308.0,14.0,9.0,9.0,78.0,78.0
+Archdruid,VGtM,210.0,humanoid,legacy,N,12.0,4,8400.0,132.0,16.0,132.0,16.0,9.0,9.0,115.5,115.5
+Archer,MPMotM,49.0,humanoid,generic,N,3.0,2,700.0,75.0,16.0,75.0,16.0,6.0,6.0,17.0,22.5
+Archer,VGtM,210.0,humanoid,legacy,N,3.0,2,700.0,75.0,16.0,75.0,16.0,6.0,6.0,21.0,21.0
 Archmage,MM,342.0,humanoid,generic,N,12.0,4,8400.0,99.0,15.0,123.8,22.0,9.0,9.0,122.5,122.5
 Archon of Falling Stars,MOoT,212.0,celestial,legendary,L,12.0,4,8400.0,144.5,18.0,174.5,22.0,9.0,9.0,118.666664,118.666664
 Archon of the Triumvirate,GGtR,192.0,celestial,legendary,L,14.0,5,11500.0,144.5,18.0,180.6,20.0,10.0,10.0,107.0,107.0
 Arclight Phoenix,GGtR,193.0,elemental,generic,N,12.0,4,8400.0,142.5,16.0,178.1,16.0,10.0,10.0,105.0,105.0
 Arcturia,WDotMM,296.0,undead,unique,L,21.0,7,33000.0,135.0,17.0,281.3,24.0,12.0,12.0,145.0,145.0
 Arkhan the Cruel,BGDiA,111.0,humanoid,unique,N,16.0,5,15000.0,221.0,23.0,276.3,23.0,13.0,13.0,89.0,89.0
-Armanite,MToF,130.0,fiend,generic,N,7.0,3,2900.0,84.0,16.0,126.0,18.0,8.0,8.0,43.333332,43.333332
+Armanite,MPMotM,50.0,fiend,generic,N,7.0,3,2900.0,94.5,16.0,141.8,18.0,8.0,8.0,56.666668,56.666668
+Armanite,MToF,130.0,fiend,legacy,N,7.0,3,2900.0,84.0,16.0,126.0,18.0,8.0,8.0,43.333332,43.333332
 Arrant Quill,CM,157.0,humanoid,unique,N,11.0,4,7200.0,135.0,14.0,135.0,16.0,9.0,9.0,88.666664,88.666664
 Art Elemental Mascot,SaCoC,185.0,elemental,generic,N,0.25,2,50.0,18.0,11.0,18.0,11.0,3.0,3.0,6.0,6.0
 Artus Cimber,ToA,212.0,humanoid,unique,N,7.0,3,2900.0,82.5,14.0,82.5,14.0,9.0,9.0,56.0,56.0
 Ashen Rider,MOoT,213.0,celestial,legendary,L,16.0,5,15000.0,178.5,18.0,178.5,20.0,10.0,10.0,162.0,162.0
 Assassin,MM,343.0,humanoid,generic,N,8.0,3,3900.0,78.0,15.0,78.0,17.0,6.0,6.0,76.0,83.166664
 Assassin Vine,ToA,213.0,plant,generic,N,3.0,2,700.0,85.0,13.0,85.0,13.0,6.0,6.0,37.0,37.0
-Astral Dreadnought,MToF,117.0,monstrosity,legendary,L,21.0,7,33000.0,297.5,20.0,387.0,20.0,16.0,16.0,131.0,131.0
+Astral Dreadnought,MPMotM,51.0,monstrosity,legendary,L,21.0,7,33000.0,297.5,20.0,387.5,20.0,16.0,16.0,134.0,134.0
+Astral Dreadnought,MToF,117.0,monstrosity,legacy,L,21.0,7,33000.0,297.5,20.0,387.0,20.0,16.0,16.0,131.0,131.0
 Atropal,ToA,214.0,undead,legendary,L,13.0,5,10000.0,225.0,7.0,418.5,9.0,11.0,11.0,67.0,67.0
 Aurelia,GGtR,230.0,celestial,unique,L,23.0,7,50000.0,287.5,22.0,377.5,27.0,15.0,15.0,160.0,160.0
 Auril (1st Form),IDRotF,275.0,monstrosity,unique,LL,9.0,4,5000.0,95.0,13.0,135.0,15.0,10.0,10.0,71.0,71.0
 Auril (2nd Form),IDRotF,277.0,elemental,unique,LL,10.0,4,5900.0,136.5,16.0,196.5,18.0,10.0,10.0,108.666664,108.666664
 Auril (3rd Form),IDRotF,278.0,elemental,unique,LL,11.0,4,7200.0,136.0,19.0,166.0,21.0,13.0,13.0,80.0,80.0
-Aurochs,VGtM,208.0,beast,generic,N,2.0,2,450.0,38.0,11.0,38.0,11.0,7.0,7.0,17.0,17.0
+Aurochs,MPMotM,71.0,beast,generic,N,2.0,2,450.0,38.0,11.0,38.0,11.0,7.0,7.0,14.0,23.0
+Aurochs,VGtM,208.0,beast,legacy,N,2.0,2,450.0,38.0,11.0,38.0,11.0,7.0,7.0,17.0,17.0
 Avarice,IDRotF,269.0,humanoid,unique,N,7.0,3,2900.0,84.5,16.0,84.5,19.0,6.0,6.0,95.333336,95.333336
 Awakened Tree,MM,317.0,plant,generic,N,2.0,2,450.0,59.5,13.0,59.5,13.0,6.0,6.0,14.0,14.0
 Awakened White Moose,IDRotF,82.0,beast,generic,N,3.0,2,700.0,68.0,11.0,68.0,11.0,6.0,6.0,25.0,25.0
 Axe Beak,MM,317.0,beast,generic,N,0.25,2,50.0,19.5,11.0,19.5,11.0,4.0,4.0,6.5,6.5
+Ayo Jabe (tier 1),CRCotN,188.0,humanoid,unique,N,3.0,2,700.0,65.0,14.0,65.0,14.0,4.0,4.0,22.0,22.0
+Ayo Jabe (tier 2),CRCotN,190.0,humanoid,unique,N,5.0,3,1800.0,97.5,15.0,97.5,15.0,6.0,6.0,36.0,36.0
+Ayo Jabe (tier 3),CRCotN,192.0,humanoid,unique,N,8.0,3,3900.0,150.0,17.0,150.0,17.0,8.0,8.0,54.0,54.0
 Azbara Jos,HotDQ,88.0,humanoid,unique,N,4.0,2,1100.0,39.0,16.0,39.0,21.0,5.0,5.0,56.0,56.0
 Azer,MM,22.0,elemental,generic,N,2.0,2,450.0,39.0,17.0,39.0,17.0,5.0,5.0,10.0,10.0
 Baba Lysaga,CoS,228.0,humanoid,unique,N,11.0,4,7200.0,120.0,15.0,120.0,15.0,9.0,9.0,83.333336,83.333336
 Baba Lysaga's Creeping Hut,CoS,226.0,construct,unique,N,11.0,4,7200.0,263.5,16.0,263.5,16.0,12.0,12.0,90.0,90.0
-Babau,VGtM,136.0,fiend,generic,N,4.0,2,1100.0,82.5,16.0,206.0,16.0,6.0,6.0,16.0,16.0
-Bael,MToF,170.0,fiend,unique,L,19.0,6,22000.0,189.0,18.0,339.0,22.0,13.0,13.0,87.0,87.0
+Babau,MPMotM,52.0,fiend,generic,N,4.0,2,1100.0,82.5,16.0,165.0,16.0,6.0,6.0,18.0,18.0
+Babau,VGtM,136.0,fiend,legacy,N,4.0,2,1100.0,82.5,16.0,206.0,16.0,6.0,6.0,16.0,16.0
+Bael,MPMotM,54.0,fiend,unique,L,19.0,6,22000.0,189.0,18.0,339.0,22.0,13.0,13.0,120.0,120.0
+Bael,MToF,170.0,fiend,legacy,L,19.0,6,22000.0,189.0,18.0,339.0,22.0,13.0,13.0,87.0,87.0
+"Bahamut, Aspect of",FToD,165.0,dragon,unique,L,30.0,9,155000.0,585.0,23.0,918.8,25.0,19.0,19.0,172.33333,172.33333
 Bak Mei,CM,168.0,humanoid,unique,L,13.0,5,10000.0,102.0,17.0,304.5,21.0,9.0,9.0,66.0,66.0
-Balhannoth,MToF,118.0,aberration,legendary,L,11.0,4,7200.0,114.0,17.0,174.0,17.0,7.0,7.0,120.0,120.0
+Balhannoth,MPMotM,55.0,aberration,legendary,LL,11.0,4,7200.0,114.0,17.0,174.0,19.0,7.0,7.0,98.0,98.0
 Balor,MM,55.0,fiend,generic,N,19.0,6,22000.0,262.5,19.0,262.5,23.0,14.0,14.0,125.666664,125.666664
-Banderhobb,VGtM,122.0,monstrosity,generic,N,5.0,3,1800.0,84.0,15.0,84.0,19.0,8.0,8.0,35.333332,35.333332
+Banderhobb,MPMotM,56.0,monstrosity,generic,N,5.0,3,1800.0,84.0,15.0,84.0,17.0,8.0,12.0,29.5,29.5
+Banderhobb,VGtM,122.0,monstrosity,legacy,N,5.0,3,1800.0,84.0,15.0,84.0,19.0,8.0,8.0,35.333332,35.333332
 Bandit,MM,343.0,humanoid,generic,N,0.125,2,25.0,11.0,12.0,11.0,12.0,3.0,3.0,5.5,5.5
 Bandit Captain,MM,344.0,humanoid,generic,N,2.0,2,450.0,65.0,15.0,65.0,16.0,5.0,5.0,18.5,18.5
 Banshee,MM,23.0,undead,generic,N,4.0,2,1100.0,58.5,12.0,145.0,14.0,4.0,4.0,21.333334,21.333334
-Baphomet,MToF,143.0,fiend,unique,LL,23.0,7,50000.0,275.5,22.0,456.3,26.0,17.0,17.0,153.33333,153.33333
+Baphomet,MPMotM,58.0,fiend,unique,LL,23.0,7,50000.0,319.0,22.0,511.3,26.0,17.0,17.0,136.5,136.5
+Baphomet,MToF,143.0,fiend,legacy,LL,23.0,7,50000.0,275.5,22.0,456.3,26.0,17.0,17.0,153.33333,153.33333
 Baphomet,OotA,235.0,fiend,unique,LL,23.0,7,50000.0,333.5,22.0,528.8,26.0,17.0,17.0,171.33333,171.33333
-Bard,VGtM,211.0,humanoid,generic,N,2.0,2,450.0,44.0,15.0,44.0,16.0,4.0,4.0,26.0,26.0
-Barghest,VGtM,123.0,fiend,generic,N,4.0,2,1100.0,90.0,17.0,180.0,17.0,6.0,6.0,13.0,13.0
+Bard,MPMotM,59.0,humanoid,generic,N,2.0,2,450.0,44.0,15.0,44.0,17.0,4.0,4.0,15.666667,15.666667
+Bard,VGtM,211.0,humanoid,legacy,N,2.0,2,450.0,44.0,15.0,44.0,16.0,4.0,4.0,26.0,26.0
+Barghest,MPMotM,60.0,fiend,generic,N,4.0,2,1100.0,60.0,17.0,120.0,17.0,6.0,6.0,31.0,31.0
+Barghest,VGtM,123.0,fiend,legacy,N,4.0,2,1100.0,90.0,17.0,180.0,17.0,6.0,6.0,13.0,13.0
 Barlgura,MM,56.0,fiend,generic,N,5.0,3,1800.0,68.0,15.0,102.0,15.0,7.0,7.0,29.0,29.0
 Barnibus Blastwind,WDH,195.0,humanoid,unique,N,2.0,2,450.0,24.5,10.0,24.5,18.0,5.0,5.0,16.0,16.0
 Barovian Witch,CoS,229.0,humanoid,generic,N,0.5,2,100.0,16.5,10.0,16.5,10.0,4.0,4.0,11.666667,11.666667
@@ -122,15 +159,18 @@ Bavlorna Blightstraw,WBtW,216.0,fey,unique,N,7.0,3,2900.0,110.5,15.0,130.5,17.0,
 "Bear, Brown",MM,319.0,beast,generic,N,1.0,2,200.0,34.0,11.0,34.0,11.0,6.0,6.0,20.0,20.0
 "Bear, Polar",MM,334.0,beast,generic,N,2.0,2,450.0,42.5,12.0,42.5,12.0,7.0,7.0,21.0,21.0
 Behir,MM,25.0,monstrosity,generic,N,11.0,4,7200.0,168.0,17.0,168.0,17.0,10.0,10.0,81.666664,81.666664
-Beholder,MM,28.0,aberration,legendary,LL,13.0,5,10000.0,180.5,18.0,180.5,20.0,8.0,8.0,181.0,181.0
 Beholder,MM,28.0,aberration,legendary,L,13.0,5,10000.0,180.5,18.0,180.5,20.0,8.0,8.0,136.0,136.0
+Beholder,MM,28.0,aberration,legendary,LL,14.0,5,11500.0,180.5,18.0,180.5,20.0,8.0,8.0,181.0,181.0
 Beholder Zombie,MM,316.0,undead,generic,N,5.0,3,1800.0,93.5,15.0,107.0,15.0,6.0,6.0,45.0,45.0
 Bel,BGDiA,115.0,fiend,unique,L,25.0,8,75000.0,364.5,19.0,454.5,23.0,16.0,16.0,307.33334,307.33334
-Belashyrra,ERftLW,286.0,aberration,unique,LL,22.0,7,41000.0,304.0,19.0,454.0,23.0,14.0,14.0,158.0,158.0
 Belashyrra,ERftLW,286.0,aberration,unique,L,22.0,7,41000.0,304.0,19.0,454.0,23.0,14.0,14.0,134.0,134.0
+Belashyrra,ERftLW,286.0,aberration,unique,LL,23.0,7,50000.0,304.0,19.0,454.0,23.0,14.0,14.0,158.0,158.0
 Beledros Witherbloom,SaCoC,186.0,dragon,unique,L,24.0,7,62000.0,444.0,22.0,570.0,24.0,16.0,18.0,116.666664,116.666664
-Berbalang,MToF,120.0,aberration,generic,N,2.0,2,450.0,38.5,14.0,38.5,14.0,5.0,5.0,16.0,16.0
+Berbalang,MPMotM,61.0,aberration,generic,N,2.0,2,450.0,49.0,14.0,49.0,14.0,5.0,5.0,21.0,21.0
+Berbalang,MToF,120.0,aberration,legacy,N,2.0,2,450.0,38.5,14.0,38.5,14.0,5.0,5.0,16.0,16.0
 Berserker,MM,344.0,humanoid,generic,N,2.0,2,450.0,67.5,13.0,67.5,13.0,5.0,5.0,9.0,9.0
+Bheur Hag,MPMotM,62.0,fey,generic,N,7.0,3,2900.0,91.0,17.0,91.0,19.0,6.0,6.0,64.0,64.0
+Bheur Hag,VGtM,160.0,fey,legacy,N,7.0,3,2900.0,91.0,17.0,91.0,17.0,6.0,6.0,72.0,72.0
 Big Xorn,WDotMM,51.0,elemental,unique,N,8.0,3,3900.0,103.5,19.0,154.5,19.0,8.0,8.0,49.0,49.0
 Bjornhild Solvigsdottir,IDRotF,306.0,humanoid,unique,N,5.0,3,1800.0,102.0,12.0,102.0,12.0,7.0,7.0,31.0,31.0
 Black Bear,MM,318.0,beast,generic,N,0.5,2,100.0,19.5,11.0,19.5,11.0,4.0,4.0,12.0,12.0
@@ -145,7 +185,8 @@ Black Gauntlet of Bane,BGDiA,232.0,humanoid,generic,N,6.0,3,2300.0,51.0,16.0,51.
 Black Greatwyrm,FToD,168.0,dragon,legendary,L,27.0,8,105000.0,533.0,22.0,653.0,24.0,18.0,18.0,183.0,183.0
 Black Pudding,MM,241.0,ooze,generic,N,4.0,2,1100.0,85.0,7.0,85.0,7.0,5.0,5.0,56.0,56.0
 Black Viper,WDH,196.0,humanoid,unique,N,5.0,3,1800.0,84.5,16.0,99.0,18.0,7.0,7.0,42.0,42.0
-Blackguard,VGtM,211.0,humanoid,generic,N,8.0,3,3900.0,153.0,18.0,153.0,18.0,7.0,8.0,38.0,38.0
+Blackguard,MPMotM,63.0,humanoid,generic,N,8.0,3,3900.0,119.0,18.0,119.0,20.0,7.0,7.0,55.5,55.5
+Blackguard,VGtM,211.0,humanoid,legacy,N,8.0,3,3900.0,153.0,18.0,153.0,18.0,7.0,8.0,38.0,38.0
 Blagothkus,HotDQ,89.0,giant,unique,N,9.0,4,5000.0,138.0,17.0,138.0,24.0,10.0,10.0,51.333332,51.333332
 "Blight, Needle",MM,32.0,plant,generic,N,0.25,2,50.0,11.0,12.0,11.0,12.0,3.0,3.0,8.0,8.0
 "Blight, Tree",WBtW,230.0,plant,generic,N,7.0,3,2900.0,138.0,15.0,138.0,15.0,9.0,9.0,51.833332,51.833332
@@ -163,13 +204,16 @@ Blue Dragon Wyrmling,MM,91.0,dragon,generic,N,3.0,2,700.0,52.0,17.0,52.0,19.0,5.
 Blue Greatwyrm,FToD,168.0,dragon,legendary,L,27.0,8,105000.0,533.0,22.0,653.0,24.0,18.0,18.0,183.0,183.0
 Boar,MM,319.0,beast,generic,N,0.25,2,50.0,11.0,11.0,18.0,11.0,3.0,3.0,5.6666665,5.6666665
 "Boar, Giant",MM,323.0,beast,generic,N,2.0,2,450.0,42.5,12.0,42.5,12.0,5.0,5.0,12.333333,12.333333
-Bodak,VGtM,127.0,undead,generic,N,6.0,3,2300.0,58.5,15.0,87.0,15.0,5.0,5.0,64.0,64.0
+Bodak,MPMotM,64.0,undead,generic,N,6.0,3,2300.0,58.5,15.0,87.8,19.0,5.0,5.0,37.0,37.0
+Bodak,VGtM,127.0,undead,legacy,N,6.0,3,2300.0,58.5,15.0,87.0,15.0,5.0,5.0,64.0,64.0
 Bodytaker Plant,VRGtR,226.0,plant,generic,N,7.0,3,2900.0,92.0,16.0,140.0,18.0,7.0,9.0,33.0,33.0
-Boggle,VGtM,128.0,fey,generic,N,0.125,2,25.0,18.0,14.0,18.0,14.0,1.0,1.0,2.5,2.5
+Boggle,MPMotM,65.0,fey,generic,N,0.125,2,25.0,18.0,14.0,18.0,14.0,1.0,1.0,2.5,2.5
+Boggle,VGtM,128.0,fey,legacy,N,0.125,2,25.0,18.0,14.0,18.0,14.0,1.0,1.0,2.5,2.5
 Bol'bara,EGtW,261.0,humanoid,unique,L,3.0,2,700.0,40.5,15.0,76.5,19.0,4.0,8.0,16.0,16.0
 Bone Knight,ERftLW,316.0,humanoid,generic,N,5.0,3,1800.0,84.5,20.0,84.5,20.0,7.0,7.0,40.0,40.0
 Bone Whelk,BGDiA,119.0,monstrosity,generic,N,0.25,2,50.0,27.5,12.0,27.5,12.0,2.0,2.0,13.0,13.0
-Boneclaw,MToF,121.0,undead,generic,N,12.0,4,8400.0,127.5,16.0,127.5,18.0,8.0,8.0,80.0,80.0
+Boneclaw,MPMotM,66.0,undead,generic,N,12.0,4,8400.0,150.0,16.0,150.0,20.0,8.0,10.0,65.0,96.5
+Boneclaw,MToF,121.0,undead,legacy,N,12.0,4,8400.0,127.5,16.0,127.5,18.0,8.0,8.0,80.0,80.0
 Boneless,VRGtR,228.0,undead,generic,N,1.0,2,200.0,26.0,12.0,26.0,12.0,5.0,5.0,16.5,16.5
 Borborygmos,GGtR,238.0,giant,unique,L,18.0,6,20000.0,270.0,14.0,360.0,14.0,13.0,13.0,130.0,130.0
 Bore Worm,WDotMM,171.0,construct,unique,N,16.0,5,15000.0,247.5,18.0,415.5,18.0,9.0,9.0,83.0,83.0
@@ -181,7 +225,8 @@ Brass Dragon Wyrmling,MM,106.0,dragon,generic,N,1.0,2,200.0,16.5,16.0,16.5,18.0,
 "Brass Dragon, Young",MM,105.0,dragon,generic,N,6.0,3,2300.0,110.5,17.0,110.5,19.0,7.0,7.0,52.666668,52.666668
 Brass Greatwyrm,FToD,208.0,dragon,legendary,L,28.0,8,120000.0,565.5,22.0,685.5,24.0,18.0,18.0,195.0,195.0
 Brigganock,WBtW,230.0,fey,generic,N,0.125,2,25.0,9.0,12.0,9.0,12.0,4.0,4.0,4.5,4.5
-Brontosaurus,VGtM,139.0,beast,generic,N,5.0,3,1800.0,121.5,15.0,121.5,15.0,8.0,8.0,32.0,32.0
+Brontosaurus,MPMotM,95.0,beast,generic,N,5.0,3,1800.0,121.5,15.0,121.5,15.0,8.0,8.0,32.0,32.0
+Brontosaurus,VGtM,139.0,beast,legacy,N,5.0,3,1800.0,121.5,15.0,121.5,15.0,8.0,8.0,32.0,32.0
 Bronze Dragon Wyrmling,MM,109.0,dragon,generic,N,2.0,2,450.0,32.5,17.0,32.5,19.0,5.0,5.0,29.333334,29.333334
 "Bronze Dragon, Adult",MM,108.0,dragon,legendary,L,15.0,5,13000.0,212.5,19.0,311.0,21.0,12.0,12.0,122.666664,122.666664
 "Bronze Dragon, Ancient",MM,107.0,dragon,legendary,LL,22.0,7,41000.0,444.0,22.0,534.0,24.0,16.0,16.0,157.33333,157.33333
@@ -191,29 +236,35 @@ Bronze Stable,MOoT,210.0,construct,generic,N,1.0,2,200.0,32.5,15.0,32.5,15.0,5.0
 Broom of Animated Attack,CoS,226.0,construct,generic,N,0.25,2,50.0,17.5,15.0,17.5,15.0,5.0,5.0,10.0,10.0
 Bugbear,MM,33.0,humanoid,generic,N,1.0,2,200.0,27.5,16.0,27.5,16.0,5.0,5.0,13.333333,13.333333
 Bugbear Chief,MM,33.0,humanoid,generic,N,3.0,2,700.0,65.0,17.0,65.0,17.0,5.0,5.0,28.666666,28.666666
+Bulesau,MPMotM,67.0,fiend,generic,N,3.0,2,700.0,52.5,14.0,78.8,15.0,4.0,4.0,13.0,20.0
 Bulette,MM,34.0,monstrosity,generic,N,5.0,3,1800.0,94.5,17.0,94.5,17.0,7.0,7.0,38.666668,38.666668
-Bulezau,MToF,131.0,fiend,generic,N,3.0,2,700.0,52.5,14.0,104.0,14.0,4.0,4.0,14.0,14.0
+Bulezau,MToF,131.0,fiend,legacy,N,3.0,2,700.0,52.5,14.0,104.0,14.0,4.0,4.0,14.0,14.0
 Bullywug,MM,35.0,humanoid,generic,N,0.25,2,50.0,11.0,15.0,11.0,15.0,3.0,3.0,8.0,8.0
 Bullywug Croaker,GoS,232.0,humanoid,generic,N,2.0,2,450.0,33.0,15.0,33.0,15.0,4.0,4.0,27.0,27.0
 Bullywug Knight,WBtW,231.0,humanoid,generic,N,3.0,2,700.0,66.0,18.0,71.0,18.0,5.0,5.0,17.0,17.0
 Bullywug Royal,GoS,232.0,humanoid,generic,N,3.0,2,700.0,65.0,15.0,65.0,15.0,5.0,9.0,13.0,16.0
 Burnished Hart,MOoT,211.0,construct,generic,N,2.0,2,450.0,45.0,14.0,45.0,14.0,5.0,5.0,21.333334,21.333334
 Burrowshark,PotA,196.0,humanoid,generic,N,4.0,2,1100.0,82.5,18.0,82.5,18.0,6.0,6.0,24.0,24.0
-Cadaver Collector,MToF,122.0,construct,generic,N,14.0,5,11500.0,189.0,17.0,263.8,19.0,10.0,10.0,78.0,78.0
+Cadaver Collector,MPMotM,68.0,construct,generic,N,14.0,5,11500.0,189.0,17.0,283.5,19.0,10.0,10.0,70.0,91.0
+Cadaver Collector,MToF,122.0,construct,legacy,N,14.0,5,11500.0,189.0,17.0,283.5,19.0,10.0,10.0,78.0,78.0
 Cambion,MM,36.0,fiend,generic,N,5.0,3,1800.0,82.5,19.0,123.8,21.0,7.0,7.0,24.0,24.0
 Camel,MM,320.0,beast,generic,N,0.125,2,25.0,15.0,9.0,15.0,9.0,5.0,5.0,2.5,2.5
-Canoloth,MToF,247.0,fiend,generic,N,8.0,3,3900.0,120.0,16.0,180.0,18.0,7.0,7.0,40.0,40.0
+Canoloth,MPMotM,69.0,fiend,generic,N,8.0,3,3900.0,120.0,16.0,180.0,18.0,7.0,7.0,42.0,42.0
+Canoloth,MToF,247.0,fiend,legacy,N,8.0,3,3900.0,120.0,16.0,180.0,18.0,7.0,7.0,40.0,40.0
 Canopic Golem,CM,179.0,construct,generic,N,13.0,5,10000.0,252.0,17.0,315.0,19.0,10.0,10.0,54.0,54.0
 Captain Othelstan,HotDQ,89.0,humanoid,unique,N,5.0,3,1800.0,93.5,19.0,113.0,19.0,7.0,7.0,21.333334,21.333334
 Carrion Crawler,MM,37.0,monstrosity,generic,N,2.0,2,450.0,51.0,13.0,51.0,13.0,8.0,8.0,11.0,11.0
 Carrion Stalker,VRGtR,230.0,monstrosity,generic,N,3.0,2,700.0,35.0,14.0,35.0,14.0,5.0,7.0,21.666666,21.666666
 Carrionette,VRGtR,231.0,construct,generic,N,1.0,2,200.0,27.0,15.0,54.0,15.0,4.0,4.0,8.166667,8.166667
-Catoblepas,VGtM,129.0,monstrosity,generic,N,5.0,3,1800.0,84.0,14.0,104.0,15.0,7.0,7.0,32.0,32.0
-Cave Fisher,VGtM,130.0,monstrosity,generic,N,3.0,2,700.0,58.5,16.0,58.5,16.0,5.0,5.0,20.0,20.0
+Catoblepas,MPMotM,70.0,monstrosity,generic,N,5.0,3,1800.0,84.0,14.0,94.0,15.0,7.0,7.0,35.666668,35.666668
+Catoblepas,VGtM,129.0,monstrosity,legacy,N,5.0,3,1800.0,84.0,14.0,104.0,15.0,7.0,7.0,32.0,32.0
+Cave Fisher,MPMotM,73.0,monstrosity,generic,N,3.0,2,700.0,58.5,16.0,58.5,16.0,5.0,5.0,20.0,20.0
+Cave Fisher,VGtM,130.0,monstrosity,legacy,N,3.0,2,700.0,58.5,16.0,58.5,16.0,5.0,5.0,20.0,20.0
 Centaur,MM,38.0,monstrosity,generic,N,2.0,2,450.0,45.0,12.0,45.0,12.0,6.0,6.0,23.333334,23.333334
 Centaur Mummy,TftYP,231.0,undead,generic,N,6.0,3,2300.0,85.0,13.0,127.5,13.0,8.0,8.0,35.333332,35.333332
 Chamberlain of Zuggtmoy,OotA,230.0,plant,generic,N,2.0,2,450.0,45.0,13.0,45.0,15.0,5.0,5.0,20.0,20.0
-Champion,VGtM,212.0,humanoid,generic,N,9.0,4,5000.0,143.0,18.0,163.0,20.0,9.0,9.0,50.0,50.0
+Champion,MPMotM,74.0,humanoid,generic,N,9.0,4,5000.0,143.0,18.0,163.0,18.0,9.0,9.0,57.0,57.0
+Champion,VGtM,212.0,humanoid,legacy,N,9.0,4,5000.0,143.0,18.0,163.0,20.0,9.0,9.0,50.0,50.0
 Changeling,ERftLW,317.0,humanoid,generic,N,0.5,2,100.0,22.0,13.0,22.0,13.0,4.0,4.0,9.0,9.0
 Chardalyn Berserker,IDRotF,280.0,fiend,generic,N,4.0,2,1100.0,90.0,13.0,90.0,15.0,5.0,5.0,21.0,21.0
 Chardalyn Dragon,IDRotF,281.0,construct,unique,N,11.0,4,7200.0,147.0,17.0,220.5,21.0,11.0,11.0,51.333332,51.333332
@@ -222,21 +273,31 @@ Chief Guh,SKT,140.0,giant,unique,N,5.0,3,1800.0,105.0,9.0,160.0,9.0,8.0,8.0,36.0
 "Chief, Kartha-Kaya",SKT,173.0,monstrosity,unique,N,4.0,2,1100.0,60.0,11.0,70.0,11.0,6.0,6.0,50.0,50.0
 Chimera,MM,39.0,monstrosity,generic,N,6.0,3,2300.0,114.0,14.0,114.0,14.0,7.0,7.0,53.333332,53.333332
 "Chimera, Theran",MOoT,216.0,monstrosity,generic,N,7.0,3,2900.0,95.0,15.0,95.0,15.0,7.0,7.0,52.0,52.0
-Chitine,VGtM,131.0,monstrosity,generic,N,0.5,2,100.0,18.0,14.0,18.0,14.0,4.0,4.0,13.5,13.5
-Choldrith,VGtM,132.0,monstrosity,generic,N,3.0,2,700.0,66.0,15.0,66.0,16.0,5.0,5.0,21.0,21.0
+Chitine,MPMotM,75.0,monstrosity,generic,N,0.5,2,100.0,18.0,14.0,18.0,14.0,4.0,4.0,13.5,13.5
+Chitine,VGtM,131.0,monstrosity,legacy,N,0.5,2,100.0,18.0,14.0,18.0,14.0,4.0,4.0,13.5,13.5
+Choker,MPMotM,76.0,aberration,generic,N,1.0,2,200.0,13.5,16.0,13.5,18.0,5.0,7.0,14.666667,14.666667
+Choldrith,MPMotM,77.0,monstrosity,generic,N,3.0,2,700.0,66.0,15.0,66.0,15.0,5.0,5.0,22.5,22.5
+Choldrith,VGtM,132.0,monstrosity,legacy,N,3.0,2,700.0,66.0,15.0,66.0,16.0,5.0,5.0,21.0,21.0
 Chuul,MM,40.0,aberration,generic,N,4.0,2,1100.0,93.5,16.0,93.5,16.0,6.0,6.0,22.0,22.0
 Clapperclaw the Scarecrow,WBtW,78.0,construct,unique,N,0.5,2,100.0,14.0,12.0,14.0,13.0,5.0,5.0,7.0,7.0
 Clawfoot,ERftLW,289.0,beast,generic,N,1.0,2,200.0,19.5,13.0,19.5,13.0,5.0,6.0,16.333334,16.333334
 Clay Golem,MM,168.0,construct,generic,N,9.0,4,5000.0,133.0,14.0,270.0,17.0,8.0,8.0,32.0,32.0
 Cloaker,MM,41.0,aberration,generic,N,8.0,3,3900.0,78.0,14.0,156.0,14.0,6.0,6.0,43.0,43.0
+Clockwork Bronze Scout,MPMotM,79.0,construct,generic,N,1.0,2,200.0,36.0,13.0,36.0,15.0,5.0,5.0,15.333333,15.333333
+Clockwork Iron Cobra,MPMotM,79.0,construct,generic,N,4.0,2,1100.0,91.0,13.0,101.0,15.0,5.0,5.0,6.5,11.0
+Clockwork Iron Cobra,MToF,125.0,construct,legacy,N,4.0,2,1100.0,45.5,13.0,90.0,15.0,5.0,5.0,19.0,19.0
+Clockwork Oaken Bolter,MPMotM,80.0,construct,generic,N,5.0,3,1800.0,117.0,16.0,117.0,18.0,7.0,7.0,31.666666,31.666666
+Clockwork Oaken Bolter,MToF,126.0,construct,legacy,N,5.0,3,1800.0,58.5,16.0,116.0,18.0,7.0,7.0,31.333334,31.333334
+Clockwork Stone Defender,MPMotM,80.0,construct,generic,N,4.0,2,1100.0,105.0,16.0,105.0,20.0,6.0,6.0,11.0,11.0
+Clockwork Stone Defender,MToF,126.0,construct,legacy,N,4.0,2,1100.0,52.5,16.0,104.0,18.0,6.0,6.0,11.0,11.0
 Cloud Giant,MM,154.0,giant,generic,N,9.0,4,5000.0,200.0,14.0,200.0,16.0,12.0,12.0,42.0,42.0
 Cloud Giant Ghost,CM,146.0,undead,generic,N,9.0,4,5000.0,104.0,15.0,134.0,17.0,12.0,12.0,45.166668,45.166668
-Cloud Giant Smiling One,VGtM,146.0,giant,generic,N,11.0,4,7200.0,262.5,15.0,262.5,17.0,12.0,12.0,51.333332,51.333332
+Cloud Giant Smiling One,MPMotM,81.0,giant,generic,N,11.0,4,7200.0,250.0,15.0,250.0,17.0,12.0,12.0,54.0,54.0
+Cloud Giant Smiling One,VGtM,146.0,giant,legacy,N,11.0,4,7200.0,262.5,15.0,262.5,17.0,12.0,12.0,51.333332,51.333332
 Cockatrice,MM,42.0,monstrosity,generic,N,0.5,2,100.0,27.0,11.0,54.0,11.0,3.0,3.0,3.0,3.0
 Cogwork Archivist,SaCoC,188.0,construct,generic,N,4.0,2,1100.0,90.0,17.0,90.0,19.0,6.0,6.0,26.0,26.0
 Coldlight Walker,IDRotF,284.0,undead,generic,N,5.0,3,1800.0,82.5,13.0,82.5,14.0,5.0,6.0,50.0,50.0
 Colossus of Akros,MOoT,218.0,construct,unique,N,23.0,7,50000.0,350.0,21.0,437.5,21.0,16.0,16.0,131.33333,131.33333
-Conjurer,VGtM,212.0,humanoid,generic,N,6.0,3,2300.0,40.5,15.0,60.0,15.0,6.0,6.0,67.333336,67.333336
 Constrictor Snake,MM,320.0,beast,generic,N,0.25,2,50.0,13.0,12.0,13.0,12.0,4.0,4.0,6.5,6.5
 "Constrictor Snake, Giant",MM,324.0,beast,generic,N,2.0,2,450.0,60.0,12.0,60.0,12.0,6.0,6.0,13.0,13.0
 Copper Dragon Wyrmling,MM,112.0,dragon,generic,N,1.0,2,200.0,22.0,16.0,22.0,18.0,4.0,4.0,16.666666,16.666666
@@ -249,8 +310,10 @@ Core Spawn Crawler,EGtW,286.0,aberration,generic,N,1.0,2,200.0,21.0,12.0,21.0,13
 Core Spawn Emissary,EGtW,286.0,aberration,generic,N,6.0,3,2300.0,102.0,15.0,102.0,19.0,6.0,6.0,42.0,42.0
 Core Spawn Seer,EGtW,286.0,aberration,generic,N,13.0,5,10000.0,153.0,17.0,222.0,21.0,8.0,8.0,55.0,58.5
 Core Spawn Worm,EGtW,287.0,aberration,generic,N,15.0,5,13000.0,279.0,18.0,279.0,20.0,13.0,15.0,56.0,70.0
-Corpse Flower,MToF,127.0,plant,generic,N,8.0,3,3900.0,127.5,12.0,160.0,13.0,5.0,5.0,69.0,69.0
+Corpse Flower,MPMotM,82.0,plant,generic,N,8.0,3,3900.0,127.5,12.0,160.5,13.0,5.0,5.0,58.5,58.5
+Corpse Flower,MToF,127.0,plant,legacy,N,8.0,3,3900.0,127.5,12.0,160.0,13.0,5.0,5.0,69.0,69.0
 Corrupted Avatar of Lurue,CM,123.0,monstrosity,unique,N,8.0,3,3900.0,90.0,14.0,120.0,16.0,7.0,7.0,64.0,64.0
+Corrupted Giant Shark,CRCotN,196.0,aberration,generic,N,9.0,4,5000.0,126.5,13.0,156.5,13.0,10.0,14.0,44.5,44.5
 Cosmotronics Blastseeker,GGtR,242.0,humanoid,generic,N,4.0,2,1100.0,37.5,15.0,37.5,20.0,6.0,6.0,49.666668,49.666668
 Couatl,MM,43.0,celestial,generic,N,4.0,2,1100.0,97.5,19.0,242.5,21.0,6.0,6.0,10.0,10.0
 Count Thullen,SKT,198.0,giant,unique,N,10.0,4,5900.0,200.0,14.0,200.0,16.0,12.0,12.0,42.0,42.0
@@ -279,21 +342,28 @@ Cyclops,MM,45.0,giant,generic,N,6.0,3,2300.0,138.0,14.0,138.0,14.0,9.0,9.0,38.0,
 Daemogoth,SaCoC,189.0,fiend,generic,N,10.0,4,5900.0,157.5,16.0,202.5,18.0,9.0,9.0,47.666668,47.666668
 Daemogoth Titan,SaCoC,190.0,fiend,legendary,L,16.0,5,15000.0,203.5,17.0,368.5,19.0,12.0,12.0,87.5,87.5
 Dark Tide Knight,PotA,205.0,humanoid,generic,N,3.0,2,700.0,58.5,13.0,70.2,13.0,5.0,5.0,19.0,19.0
-Darkling,VGtM,134.0,fey,generic,N,0.5,2,100.0,13.5,14.0,13.5,14.0,5.0,5.0,12.5,12.5
-Darkling Elder,VGtM,134.0,fey,generic,N,2.0,2,450.0,27.5,15.0,27.5,15.0,5.0,5.0,31.666666,31.666666
+Darkling,MPMotM,84.0,fey,generic,N,0.5,2,100.0,13.5,14.0,13.5,14.0,5.0,5.0,12.5,12.5
+Darkling,VGtM,134.0,fey,legacy,N,0.5,2,100.0,13.5,14.0,13.5,14.0,5.0,5.0,12.5,12.5
+Darkling Elder,MPMotM,84.0,fey,generic,N,2.0,2,450.0,27.5,15.0,27.5,15.0,5.0,5.0,29.333334,29.333334
+Darkling Elder,VGtM,134.0,fey,legacy,N,2.0,2,450.0,27.5,15.0,27.5,15.0,5.0,5.0,31.666666,31.666666
 Darkmantle,MM,46.0,monstrosity,generic,N,0.5,2,100.0,22.5,11.0,22.5,11.0,5.0,9.0,6.0,6.0
 Davil Starsong,WDH,199.0,humanoid,unique,N,6.0,3,2300.0,82.5,15.0,82.5,15.0,6.0,6.0,47.666668,47.666668
 Death Dog,MM,321.0,monstrosity,generic,N,1.0,2,200.0,39.0,12.0,39.0,12.0,4.0,4.0,10.0,10.0
+Death Embrace,CRCotN,197.0,aberration,generic,N,11.0,4,7200.0,147.0,13.0,192.0,17.0,10.0,10.0,48.0,63.0
+Death Kiss,MPMotM,85.0,aberration,generic,N,10.0,4,5900.0,142.5,15.0,208.5,17.0,8.0,8.0,55.0,65.0
+Death Kiss,VGtM,124.0,aberration,legacy,N,10.0,4,5900.0,161.5,16.0,249.0,16.0,8.0,8.0,58.0,58.0
 Death Knight,MM,47.0,undead,generic,N,17.0,6,18000.0,180.5,20.0,180.5,27.0,11.0,11.0,110.0,110.0
-Death Tyrant,MM,29.0,undead,legendary,LL,14.0,5,11500.0,187.5,19.0,187.5,23.0,9.0,9.0,181.0,181.0
 Death Tyrant,MM,29.0,undead,legendary,L,14.0,5,11500.0,187.5,19.0,187.5,23.0,9.0,9.0,136.0,136.0
+Death Tyrant,MM,29.0,undead,legendary,LL,15.0,5,13000.0,187.5,19.0,187.5,23.0,9.0,9.0,181.0,181.0
 Death's Head of Bhaal,BGDiA,233.0,humanoid,generic,N,5.0,3,1800.0,76.0,15.0,106.0,17.0,7.0,9.0,30.0,30.0
 Death’s Head (Aberrant),VRGtR,232.0,undead,generic,N,0.5,2,100.0,17.5,16.0,17.5,16.0,3.0,3.0,11.5,11.5
 Death’s Head (Gnashing),VRGtR,232.0,undead,generic,N,0.5,2,100.0,17.5,16.0,17.5,16.0,3.0,3.0,10.0,10.0
 Death’s Head (Petrifying),VRGtR,232.0,undead,generic,N,0.5,2,100.0,17.5,16.0,26.3,16.0,3.0,3.0,3.5,3.5
-Deathkiss,VGtM,124.0,aberration,generic,N,10.0,4,5900.0,161.5,16.0,249.0,16.0,8.0,8.0,58.0,58.0
-Deathlock,MToF,128.0,undead,generic,N,4.0,2,1100.0,36.0,15.0,72.0,15.0,5.0,5.0,22.333334,22.333334
-Deathlock Mastermind,MToF,129.0,undead,generic,N,8.0,3,3900.0,110.0,16.0,165.0,16.0,6.0,6.0,32.666668,32.666668
+Deathlock,MPMotM,86.0,undead,generic,N,4.0,2,1100.0,36.0,15.0,72.0,15.0,5.0,5.0,28.0,28.0
+Deathlock,MToF,128.0,undead,legacy,N,4.0,2,1100.0,36.0,15.0,72.0,15.0,5.0,5.0,22.333334,22.333334
+Deathlock Mastermind,MPMotM,87.0,undead,generic,N,8.0,3,3900.0,110.0,16.0,165.0,16.0,6.0,6.0,27.0,27.0
+Deathlock Mastermind,MToF,129.0,undead,legacy,N,8.0,3,3900.0,110.0,16.0,165.0,16.0,6.0,6.0,32.666668,32.666668
+Deathlock Wight,MPMotM,87.0,undead,generic,N,3.0,2,700.0,37.5,15.0,75.0,15.0,5.0,5.0,24.0,24.0
 Deathlock Wight,TftYP,233.0,undead,generic,N,3.0,2,700.0,37.5,15.0,74.0,15.0,5.0,5.0,16.333334,16.333334
 Deep Dragon Wyrmling,FToD,175.0,dragon,generic,N,1.0,2,200.0,27.5,15.0,27.5,19.0,4.0,4.0,8.666667,8.666667
 "Deep Dragon, Adult",FToD,174.0,dragon,legendary,L,11.0,4,7200.0,147.0,17.0,237.0,21.0,9.0,9.0,92.166664,92.166664
@@ -301,13 +371,24 @@ Deep Dragon Wyrmling,FToD,175.0,dragon,generic,N,1.0,2,200.0,27.5,15.0,27.5,19.0
 "Deep Dragon, Ancient",FToD,173.0,dragon,legendary,L,18.0,6,20000.0,201.5,20.0,291.5,22.0,12.0,12.0,107.666664,107.666664
 "Deep Dragon, Ancient",FToD,173.0,dragon,legendary,LL,19.0,6,22000.0,201.5,20.0,336.5,22.0,12.0,12.0,126.333336,126.333336
 "Deep Dragon, Young",FToD,175.0,dragon,generic,N,5.0,3,1800.0,93.5,16.0,93.5,20.0,7.0,7.0,33.333332,33.333332
-Deep Scion,VGtM,135.0,humanoid,generic,N,3.0,2,700.0,67.5,11.0,67.5,11.0,6.0,6.0,20.0,20.0
-Deinonychus,VGtM,139.0,beast,generic,N,1.0,2,200.0,26.0,13.0,26.0,13.0,4.0,4.0,20.0,20.0
-Demilich,MM,48.0,undead,legendary,LL,18.0,6,20000.0,80.0,20.0,523.8,23.0,11.0,11.0,63.0,63.0
-Demilich,MM,48.0,undead,legendary,L,18.0,6,20000.0,80.0,20.0,448.8,23.0,11.0,11.0,63.0,63.0
-Demogorgon,MToF,144.0,fiend,unique,LL,26.0,8,90000.0,406.0,22.0,620.0,28.0,17.0,17.0,118.0,118.0
+Deep Rothé,MPMotM,71.0,beast,generic,N,0.25,2,50.0,13.0,10.0,13.0,10.0,6.0,6.0,7.5,9.833333
+Deep Rothé,VGtM,207.0,beast,legacy,N,0.25,2,50.0,13.0,10.0,13.0,10.0,6.0,6.0,9.833333,9.833333
+Deep Scion,MPMotM,88.0,monstrosity,generic,N,3.0,2,700.0,67.5,11.0,67.5,11.0,6.0,6.0,21.5,21.5
+Deep Scion,VGtM,135.0,humanoid,legacy,N,3.0,2,700.0,67.5,11.0,67.5,11.0,6.0,6.0,20.0,20.0
+Deinonychus,MPMotM,95.0,beast,generic,N,1.0,2,200.0,26.0,13.0,26.0,13.0,4.0,5.0,19.5,21.666666
+Deinonychus,VGtM,139.0,beast,legacy,N,1.0,2,200.0,26.0,13.0,26.0,13.0,4.0,4.0,20.0,20.0
+Demilich,MM,48.0,undead,legendary,L,18.0,6,20000.0,80.0,20.0,448.8,24.0,11.0,11.0,63.0,63.0
+Demilich,MM,48.0,undead,legendary,LL,20.0,6,25000.0,80.0,20.0,523.8,24.0,11.0,11.0,63.0,63.0
+Demogorgon,MPMotM,90.0,fiend,unique,LL,26.0,8,90000.0,464.0,22.0,730.0,26.0,17.0,17.0,119.0,119.0
+Demogorgon,MToF,144.0,fiend,legacy,LL,26.0,8,90000.0,406.0,22.0,620.0,28.0,17.0,17.0,118.0,118.0
 Demogorgon,OotA,236.0,fiend,unique,LL,26.0,8,90000.0,493.0,22.0,728.8,28.0,17.0,17.0,172.0,172.0
+Dermot Wurder (tier 1),CRCotN,188.0,humanoid,unique,N,3.0,2,700.0,44.0,17.0,44.0,17.0,5.0,5.0,16.5,16.5
+Dermot Wurder (tier 2),CRCotN,191.0,humanoid,unique,N,5.0,3,1800.0,82.5,19.0,82.5,19.0,7.0,7.0,26.5,26.5
+Dermot Wurder (tier 3),CRCotN,193.0,humanoid,unique,N,8.0,3,3900.0,93.5,20.0,93.5,20.0,8.0,8.0,38.0,38.0
+Derro,MPMotM,91.0,aberration,generic,N,0.25,2,50.0,13.5,13.0,13.5,15.0,4.0,4.0,6.5,6.5
 Derro,OotA,224.0,humanoid,generic,N,0.25,2,50.0,13.5,13.0,13.5,15.0,4.0,4.0,6.0,6.0
+Derro Savant,MPMotM,92.0,aberration,generic,N,3.0,2,700.0,36.0,13.0,36.0,15.0,4.0,4.0,42.0,42.0
+Derro Savant,MToF,159.0,humanoid,legacy,N,3.0,2,700.0,36.0,13.0,36.0,15.0,4.0,4.0,46.666668,46.666668
 Derro Savant,OotA,225.0,humanoid,generic,N,3.0,2,700.0,36.0,13.0,49.0,15.0,4.0,4.0,46.666668,46.666668
 "Devil, Barbed",MM,70.0,fiend,generic,N,5.0,3,1800.0,110.5,15.0,165.0,19.0,6.0,6.0,22.0,22.0
 "Devil, Bearded",MM,70.0,fiend,generic,N,3.0,2,700.0,52.0,13.0,104.0,17.0,5.0,5.0,19.0,19.0
@@ -316,15 +397,19 @@ Derro Savant,OotA,225.0,humanoid,generic,N,3.0,2,700.0,36.0,13.0,49.0,15.0,4.0,4
 "Devil, Horned",MM,74.0,fiend,generic,N,11.0,4,7200.0,178.5,18.0,222.5,22.0,10.0,10.0,53.333332,53.333332
 "Devil, Ice",MM,75.0,fiend,generic,N,14.0,5,11500.0,180.5,18.0,270.0,22.0,10.0,10.0,77.666664,77.666664
 "Devil, Spined",MM,78.0,fiend,generic,N,2.0,2,450.0,22.5,13.0,22.5,17.0,4.0,4.0,14.0,14.0
-Devourer,VGtM,138.0,fiend,generic,N,13.0,5,10000.0,178.5,16.0,222.5,16.0,10.0,10.0,95.333336,95.333336
-Dhergoloth,MToF,248.0,fiend,generic,N,7.0,3,2900.0,119.0,15.0,238.0,17.0,6.0,6.0,30.666666,30.666666
-Dimetrodon,VGtM,139.0,beast,generic,N,0.25,2,50.0,19.5,12.0,19.5,12.0,4.0,4.0,9.0,9.0
+Devourer,MPMotM,93.0,undead,generic,N,13.0,5,10000.0,189.0,16.0,267.5,16.0,10.0,10.0,80.666664,80.666664
+Devourer,VGtM,138.0,fiend,legacy,N,13.0,5,10000.0,178.5,16.0,222.5,16.0,10.0,10.0,95.333336,95.333336
+Dhergoloth,MPMotM,94.0,fiend,generic,N,7.0,3,2900.0,119.0,15.0,178.5,17.0,6.0,6.0,31.0,31.0
+Dhergoloth,MToF,248.0,fiend,legacy,N,7.0,3,2900.0,119.0,15.0,238.0,17.0,6.0,6.0,30.666666,30.666666
+Dimetrodon,MPMotM,95.0,beast,generic,N,0.25,2,50.0,19.5,12.0,19.5,12.0,4.0,4.0,9.0,9.0
+Dimetrodon,VGtM,139.0,beast,legacy,N,0.25,2,50.0,19.5,12.0,19.5,12.0,4.0,4.0,9.0,9.0
 Displacer Beast,MM,81.0,monstrosity,generic,N,3.0,2,700.0,85.0,13.0,85.0,16.0,6.0,6.0,20.0,20.0
 Displacer Beast Kitten,WBtW,108.0,monstrosity,generic,N,0.125,2,25.0,9.0,12.0,9.0,14.0,3.0,3.0,4.0,4.0
-Diviner,VGtM,213.0,humanoid,generic,N,8.0,3,3900.0,67.5,15.0,100.5,15.0,7.0,7.0,83.333336,83.333336
 Dolgaunt,ERftLW,290.0,aberration,generic,N,3.0,2,700.0,33.0,16.0,54.0,18.0,6.0,6.0,26.0,26.0
 Dolgrim,ERftLW,291.0,aberration,generic,N,0.5,2,100.0,13.5,15.0,13.5,15.0,4.0,4.0,19.5,19.5
-Dolphin,VGtM,208.0,beast,generic,N,0.125,2,25.0,11.0,12.0,11.0,12.0,4.0,4.0,6.3333335,6.3333335
+Dolphin,MPMotM,97.0,beast,generic,N,0.125,2,25.0,11.0,12.0,11.0,12.0,4.0,4.0,5.5,6.6666665
+Dolphin,VGtM,208.0,beast,legacy,N,0.125,2,25.0,11.0,12.0,11.0,12.0,4.0,4.0,6.3333335,6.3333335
+Dolphin Delighter,MPMotM,97.0,fey,generic,N,3.0,2,700.0,27.5,14.0,38.5,14.0,4.0,4.0,25.0,25.0
 Doomwake Giant,MOoT,224.0,giant,generic,N,11.0,4,7200.0,162.5,15.0,162.5,17.0,11.0,11.0,74.0,74.0
 Doppelganger,MM,82.0,monstrosity,generic,N,3.0,2,700.0,52.0,14.0,52.0,14.0,6.0,8.0,20.666666,20.666666
 Dracohydra,FToD,176.0,monstrosity,generic,N,11.0,4,7200.0,218.5,17.0,218.5,19.0,9.0,9.0,61.5,61.5
@@ -335,7 +420,8 @@ Draconian Infiltrator,FToD,178.0,monstrosity,generic,N,3.0,2,700.0,39.0,15.0,44.
 Draconian Mage,FToD,179.0,monstrosity,generic,N,2.0,2,450.0,40.5,15.0,40.5,17.0,4.0,4.0,27.0,27.0
 Draconian Mastermind,FToD,180.0,monstrosity,generic,N,6.0,3,2300.0,67.5,17.0,67.5,22.0,6.0,6.0,40.0,40.0
 Draconic Shard,FToD,181.0,undead,legendary,L,17.0,6,18000.0,168.0,17.0,258.0,19.0,12.0,12.0,120.0,120.0
-Draegloth,VGtM,141.0,fiend,generic,N,7.0,3,2900.0,123.5,15.0,184.5,15.0,8.0,8.0,48.0,48.0
+Draegloth,MPMotM,98.0,fiend,generic,N,7.0,3,2900.0,123.5,15.0,154.4,15.0,8.0,8.0,48.0,48.0
+Draegloth,VGtM,141.0,fiend,legacy,N,7.0,3,2900.0,123.5,15.0,184.5,15.0,8.0,8.0,48.0,48.0
 Dragon Blessed,FToD,188.0,humanoid,generic,N,5.0,3,1800.0,75.0,14.0,91.5,14.0,6.0,6.0,48.666668,48.666668
 Dragon Blessed,FToD,188.0,humanoid,generic,N,5.0,3,1800.0,75.0,14.0,75.0,14.0,4.0,4.0,56.0,56.0
 Dragon Chosen,FToD,189.0,humanoid,generic,N,3.0,2,700.0,45.5,17.0,45.5,19.0,6.0,7.0,22.5,30.0
@@ -367,16 +453,22 @@ Dretch,MM,57.0,fiend,generic,N,0.25,2,50.0,18.0,11.0,18.0,11.0,2.0,2.0,8.5,8.5
 Drider,MM,120.0,monstrosity,generic,N,6.0,3,2300.0,123.5,19.0,123.5,19.0,6.0,6.0,33.0,33.0
 Droki,OotA,231.0,humanoid,unique,N,2.0,2,450.0,31.5,15.0,31.5,18.0,5.0,5.0,22.333334,22.333334
 Drow,MM,128.0,humanoid,generic,N,0.25,2,50.0,13.5,15.0,13.5,17.0,4.0,4.0,5.5,5.5
-Drow Arachnomancer,MToF,182.0,humanoid,generic,N,13.0,5,10000.0,162.5,15.0,162.5,15.0,7.0,7.0,102.0,102.0
+Drow Arachnomancer,MPMotM,99.0,humanoid,generic,N,13.0,5,10000.0,162.5,15.0,162.5,17.0,8.0,8.0,130.5,130.5
+Drow Arachnomancer,MToF,182.0,humanoid,legacy,N,13.0,5,10000.0,162.5,15.0,162.5,15.0,7.0,7.0,102.0,102.0
 Drow Elite Warrior,MM,128.0,humanoid,generic,N,5.0,3,1800.0,71.5,18.0,71.5,21.0,7.0,7.0,34.0,34.0
-Drow Favored Consort,MToF,183.0,humanoid,generic,N,18.0,6,20000.0,225.0,18.0,225.0,25.0,11.0,11.0,119.0,119.0
+Drow Favored Consort,MPMotM,100.0,humanoid,generic,N,18.0,6,20000.0,240.0,18.0,240.0,23.0,10.0,10.0,128.0,128.0
+Drow Favored Consort,MToF,183.0,humanoid,legacy,N,18.0,6,20000.0,225.0,18.0,225.0,25.0,11.0,11.0,119.0,119.0
 Drow Gunslinger,WDH,201.0,humanoid,generic,N,4.0,2,1100.0,84.5,18.0,84.5,18.0,6.0,6.0,20.0,20.0
-Drow House Captain,MToF,184.0,humanoid,generic,N,9.0,4,5000.0,162.5,16.0,162.5,19.0,8.0,8.0,58.0,58.0
-Drow Inquisitor,MToF,184.0,humanoid,generic,N,14.0,5,11500.0,143.0,16.0,143.0,20.0,10.0,10.0,96.0,96.0
+Drow House Captain,MPMotM,101.0,humanoid,generic,N,9.0,4,5000.0,162.5,16.0,162.5,22.0,8.0,8.0,50.5,50.5
+Drow House Captain,MToF,184.0,humanoid,legacy,N,9.0,4,5000.0,162.5,16.0,162.5,19.0,8.0,8.0,58.0,58.0
+Drow Inquisitor,MPMotM,102.0,humanoid,generic,N,14.0,5,11500.0,149.5,16.0,149.5,18.0,10.0,10.0,89.0,89.0
+Drow Inquisitor,MToF,184.0,humanoid,legacy,N,14.0,5,11500.0,143.0,16.0,143.0,20.0,10.0,10.0,96.0,96.0
 Drow Mage,MM,129.0,humanoid,generic,N,7.0,3,2900.0,45.0,15.0,45.0,20.0,6.0,6.0,67.666664,67.666664
-Drow Matron Mother,MToF,186.0,humanoid,legendary,L,20.0,6,25000.0,262.5,17.0,262.5,21.0,10.0,10.0,136.0,136.0
+Drow Matron Mother,MPMotM,104.0,humanoid,legendary,LL,20.0,6,25000.0,247.5,17.0,362.5,20.0,10.0,10.0,142.83333,159.16667
+Drow Matron Mother,MToF,186.0,humanoid,legacy,L,20.0,6,25000.0,262.5,17.0,262.5,21.0,10.0,10.0,136.0,136.0
 Drow Priestess of Lolth,MM,129.0,humanoid,generic,N,8.0,3,3900.0,71.5,16.0,71.5,18.0,6.0,6.0,80.666664,80.666664
-Drow Shadowblade,MToF,187.0,humanoid,generic,N,11.0,4,7200.0,150.0,17.0,150.0,19.0,9.0,10.0,73.0,73.0
+Drow Shadowblade,MPMotM,105.0,humanoid,generic,N,11.0,4,7200.0,150.0,17.0,150.0,21.0,9.0,11.0,82.5,82.5
+Drow Shadowblade,MToF,187.0,humanoid,legacy,N,11.0,4,7200.0,150.0,17.0,150.0,19.0,9.0,10.0,73.0,73.0
 Drowned Ascetic,GoS,233.0,undead,generic,N,3.0,2,700.0,75.0,13.0,82.0,13.0,5.0,5.0,21.0,21.0
 Drowned Assassin,GoS,234.0,undead,generic,N,4.0,2,1100.0,67.5,14.0,74.5,18.0,5.0,9.0,28.0,28.0
 Drowned Blade,GoS,235.0,undead,generic,N,2.0,2,450.0,45.0,10.0,52.0,10.0,5.0,5.0,14.0,14.0
@@ -385,39 +477,57 @@ Druid,MM,346.0,humanoid,generic,N,2.0,2,450.0,27.5,16.0,27.5,16.0,4.0,4.0,23.333
 Druid of the Old Ways,GGtR,230.0,humanoid,generic,N,7.0,3,2900.0,90.0,14.0,90.0,16.0,8.0,8.0,57.0,57.0
 Dryad,MM,121.0,fey,generic,N,1.0,2,200.0,22.5,16.0,22.5,18.0,6.0,6.0,8.0,8.0
 Duergar,MM,122.0,humanoid,generic,N,1.0,2,200.0,26.0,16.0,26.0,16.0,4.0,4.0,11.0,11.0
-Duergar Despot,MToF,188.0,humanoid,generic,N,12.0,4,8400.0,119.0,21.0,119.0,23.0,8.0,8.0,144.0,144.0
-Duergar Hammerer,MToF,188.0,construct,generic,N,2.0,2,450.0,33.0,17.0,33.0,17.0,5.0,5.0,21.333334,21.333334
-Duergar Kavalrachni,MToF,189.0,humanoid,generic,N,2.0,2,450.0,26.0,16.0,26.0,18.0,4.0,4.0,28.0,28.0
-Duergar Mind Master,MToF,189.0,humanoid,generic,N,2.0,2,450.0,39.0,19.0,39.0,19.0,5.0,5.0,28.0,28.0
-Duergar Screamer,MToF,190.0,construct,generic,N,3.0,2,700.0,38.5,15.0,38.5,15.0,6.0,6.0,22.666666,22.666666
+Duergar Despot,MPMotM,107.0,humanoid,generic,N,12.0,4,8400.0,119.0,21.0,119.0,23.0,9.0,9.0,103.5,108.166664
+Duergar Despot,MToF,188.0,humanoid,legacy,N,12.0,4,8400.0,119.0,21.0,119.0,23.0,8.0,8.0,144.0,144.0
+Duergar Hammerer,MPMotM,112.0,construct,generic,N,2.0,2,450.0,33.0,17.0,33.0,17.0,5.0,5.0,26.5,26.5
+Duergar Hammerer,MToF,188.0,construct,legacy,N,2.0,2,450.0,33.0,17.0,33.0,17.0,5.0,5.0,21.333334,21.333334
+Duergar Kavalrachni,MPMotM,107.0,humanoid,generic,N,2.0,2,450.0,26.0,16.0,26.0,16.0,4.0,4.0,23.0,39.5
+Duergar Kavalrachni,MToF,189.0,humanoid,legacy,N,2.0,2,450.0,26.0,16.0,26.0,18.0,4.0,4.0,28.0,28.0
+Duergar Mind Master,MPMotM,108.0,humanoid,generic,N,2.0,2,450.0,39.0,14.0,39.0,14.0,5.0,5.0,32.0,32.0
+Duergar Mind Master,MToF,189.0,humanoid,legacy,N,2.0,2,450.0,39.0,19.0,39.0,19.0,5.0,5.0,28.0,28.0
+Duergar Screamer,MPMotM,112.0,construct,generic,N,3.0,2,700.0,38.5,15.0,38.5,15.0,6.0,6.0,24.5,35.0
+Duergar Screamer,MToF,190.0,construct,legacy,N,3.0,2,700.0,38.5,15.0,38.5,15.0,6.0,6.0,22.666666,22.666666
+Duergar Soulblade,MPMotM,109.0,humanoid,generic,N,1.0,2,200.0,27.0,14.0,27.0,14.0,5.0,5.0,17.0,17.0
 Duergar Spy,TftYP,234.0,humanoid,generic,N,2.0,2,450.0,33.0,15.0,33.0,15.0,5.0,5.0,33.0,33.0
+Duergar Stone Guard,MPMotM,110.0,humanoid,generic,N,2.0,2,450.0,39.0,18.0,39.0,18.0,6.0,7.0,22.0,22.0
 Duergar Stone Guard,OotA,227.0,humanoid,generic,N,2.0,2,450.0,39.0,18.0,39.0,20.0,5.0,5.0,11.0,11.0
-Duergar Warlord,MToF,192.0,humanoid,generic,N,6.0,3,2300.0,75.0,20.0,75.0,22.0,7.0,7.0,74.0,74.0
+Duergar Warlord,MPMotM,111.0,humanoid,generic,N,6.0,3,2300.0,75.0,20.0,75.0,20.0,7.0,7.0,61.5,61.5
+Duergar Warlord,MToF,192.0,humanoid,legacy,N,6.0,3,2300.0,75.0,20.0,75.0,22.0,7.0,7.0,74.0,74.0
+Duergar Xarrorn,MPMotM,111.0,humanoid,generic,N,2.0,2,450.0,26.0,18.0,26.0,18.0,5.0,5.0,20.0,20.0
 Duergar Xarrorn,OotA,228.0,humanoid,generic,N,2.0,2,450.0,26.0,18.0,26.0,20.0,5.0,5.0,19.333334,19.333334
 Duke Thalamra Vanthampur,BGDiA,38.0,humanoid,unique,N,4.0,2,1100.0,78.0,10.0,78.0,10.0,6.0,6.0,23.333334,23.333334
 Dullahan,VRGtR,233.0,undead,legendary,L,10.0,4,5900.0,135.0,16.0,175.0,16.0,8.0,8.0,102.5,102.5
 Duodrone,MM,225.0,construct,generic,N,0.25,2,50.0,11.0,15.0,11.0,15.0,3.0,3.0,9.0,9.0
 Durnan,WDH,203.0,humanoid,unique,N,9.0,4,5000.0,144.5,16.0,154.0,18.0,8.0,8.0,48.0,48.0
 Dusk Hag,ERftLW,292.0,fey,generic,N,6.0,3,2300.0,82.5,17.0,82.5,20.0,7.0,7.0,46.333332,46.333332
-Dybbuk,MToF,132.0,fiend,generic,N,4.0,2,1100.0,37.5,14.0,74.0,16.0,6.0,6.0,13.0,13.0
+Dybbuk,MPMotM,113.0,fiend,generic,N,4.0,2,1100.0,37.5,14.0,143.8,16.0,6.0,6.0,13.0,13.0
+Dybbuk,MToF,132.0,fiend,legacy,N,4.0,2,1100.0,37.5,14.0,74.0,16.0,6.0,6.0,13.0,13.0
 Dyrrn,ERftLW,288.0,aberration,unique,LL,24.0,7,62000.0,325.5,21.0,475.0,25.0,15.0,15.0,208.33333,208.33333
 Dzaan,IDRotF,270.0,humanoid,unique,N,4.0,2,1100.0,49.5,10.0,49.5,10.0,5.0,5.0,84.333336,84.333336
 Dzaan's Simulacrum,IDRotF,270.0,construct,unique,N,1.0,2,200.0,49.5,10.0,24.0,10.0,5.0,5.0,21.0,21.0
 "Eagle, Giant",MM,324.0,beast,generic,N,1.0,2,200.0,26.0,13.0,26.0,13.0,5.0,5.0,16.5,16.5
 Earth Elemental,MM,124.0,elemental,generic,N,5.0,3,1800.0,126.0,17.0,189.0,17.0,8.0,8.0,28.0,28.0
+Earth Elemental Myrmidon,MPMotM,122.0,elemental,generic,N,7.0,3,2900.0,127.5,18.0,191.3,18.0,7.0,7.0,25.666666,25.666666
 Earth Elemental Myrmidon,PotA,212.0,elemental,generic,N,7.0,3,2900.0,127.5,18.0,191.3,18.0,7.0,7.0,23.666666,23.666666
 Eater of Hope,MOoT,220.0,fiend,generic,N,6.0,3,2300.0,90.0,17.0,90.0,19.0,7.0,7.0,37.333332,37.333332
 Eblis,ToA,219.0,monstrosity,generic,N,1.0,2,200.0,26.0,13.0,26.0,15.0,5.0,5.0,10.0,10.0
 Egg Hunter Adult,FToD,193.0,monstrosity,generic,N,5.0,3,1800.0,52.0,16.0,88.0,20.0,8.0,8.0,35.0,35.0
 Egg Hunter Hatchling,FToD,193.0,monstrosity,generic,N,2.0,2,450.0,28.0,14.0,38.0,14.0,5.0,5.0,20.0,20.0
-Eidolon,MToF,193.0,undead,generic,N,12.0,4,8400.0,63.0,9.0,237.0,19.0,8.0,8.0,86.0,86.0
-"Eladrin, Autumn",MToF,195.0,fey,generic,N,10.0,4,5900.0,127.5,19.0,213.0,21.0,7.0,7.0,25.0,25.0
-"Eladrin, Spring",MToF,196.0,fey,generic,N,10.0,4,5900.0,127.5,19.0,213.0,21.0,7.0,7.0,22.0,22.0
-"Eladrin, Summer",MToF,196.0,fey,generic,N,10.0,4,5900.0,127.5,19.0,190.5,24.0,8.0,8.0,36.0,36.0
-"Eladrin, Winter",MToF,197.0,fey,generic,N,10.0,4,5900.0,127.5,19.0,213.0,21.0,8.0,8.0,52.0,52.0
-Elder Brain,VGtM,174.0,aberration,legendary,LL,14.0,5,11500.0,210.0,10.0,330.0,14.0,7.0,7.0,138.33333,138.33333
+Eidolon,MPMotM,114.0,undead,generic,N,12.0,4,8400.0,63.0,9.0,98.4,9.0,,,,
+Eidolon,MToF,193.0,undead,legacy,N,12.0,4,8400.0,63.0,9.0,237.0,19.0,8.0,8.0,86.0,86.0
+"Eladrin, Autumn",MPMotM,115.0,fey,generic,N,10.0,4,5900.0,165.0,19.0,206.3,21.0,7.0,7.0,60.0,60.0
+"Eladrin, Autumn",MToF,195.0,fey,legacy,N,10.0,4,5900.0,127.5,19.0,213.0,21.0,7.0,7.0,25.0,25.0
+"Eladrin, Spring",MPMotM,116.0,fey,generic,N,10.0,4,5900.0,165.0,19.0,206.3,21.0,7.0,7.0,60.0,60.0
+"Eladrin, Spring",MToF,196.0,fey,legacy,N,10.0,4,5900.0,127.5,19.0,213.0,21.0,7.0,7.0,22.0,22.0
+"Eladrin, Summer",MPMotM,116.0,fey,generic,N,10.0,4,5900.0,165.0,19.0,206.3,22.0,8.0,8.0,48.0,48.0
+"Eladrin, Summer",MToF,196.0,fey,legacy,N,10.0,4,5900.0,127.5,19.0,190.5,24.0,8.0,8.0,36.0,36.0
+"Eladrin, Winter",MPMotM,117.0,fey,generic,N,10.0,4,5900.0,165.0,19.0,206.3,21.0,7.0,7.0,53.0,53.0
+"Eladrin, Winter",MToF,197.0,fey,legacy,N,10.0,4,5900.0,127.5,19.0,213.0,21.0,8.0,8.0,52.0,52.0
+Elder Brain,MPMotM,120.0,aberration,legendary,LL,14.0,5,11500.0,210.0,10.0,370.0,14.0,7.0,7.0,91.833336,91.833336
+Elder Brain,VGtM,174.0,aberration,legacy,LL,14.0,5,11500.0,210.0,10.0,330.0,14.0,7.0,7.0,138.33333,138.33333
 Elder Brain Dragon,FToD,194.0,aberration,legendary,L,22.0,7,41000.0,350.0,17.0,470.0,19.0,15.0,15.0,150.83333,150.83333
-Elder Tempest,MToF,200.0,elemental,legendary,L,23.0,7,50000.0,264.0,19.0,480.0,21.0,16.0,16.0,132.66667,132.66667
+Elder Tempest,MPMotM,121.0,elemental,legendary,L,23.0,7,50000.0,264.0,19.0,399.0,21.0,16.0,16.0,139.66667,139.66667
+Elder Tempest,MToF,200.0,elemental,legacy,L,23.0,7,50000.0,264.0,19.0,480.0,21.0,16.0,16.0,132.66667,132.66667
 Elephant,MM,322.0,beast,generic,N,4.0,2,1100.0,76.0,12.0,76.0,12.0,8.0,8.0,28.333334,28.333334
 Elizar Dryflagon,PotA,202.0,humanoid,unique,N,5.0,3,1800.0,71.5,14.0,71.5,14.0,7.0,7.0,56.0,56.0
 Elk,MM,322.0,beast,generic,N,0.25,2,50.0,13.0,10.0,13.0,10.0,5.0,5.0,9.833333,9.833333
@@ -431,14 +541,12 @@ Emerald Dragon Wyrmling,FToD,197.0,dragon,generic,N,2.0,2,450.0,39.0,16.0,39.0,2
 "Emerald Dragon, Young",FToD,197.0,dragon,generic,N,8.0,3,3900.0,142.5,17.0,142.5,20.0,8.0,8.0,45.333332,45.333332
 Emerald Greatwyrm,FToD,201.0,dragon,legendary,L,26.0,8,90000.0,507.0,21.0,627.0,23.0,17.0,17.0,173.83333,173.83333
 Empyrean,MM,130.0,celestial,legendary,L,23.0,7,50000.0,313.5,22.0,503.8,26.0,17.0,17.0,146.66667,146.66667
-Enchanter,VGtM,213.0,humanoid,generic,N,5.0,3,1800.0,40.5,15.0,70.5,15.0,6.0,6.0,67.333336,67.333336
 Endelyn Moongrave,WBtW,217.0,fey,unique,N,6.0,3,2300.0,114.0,17.0,114.0,19.0,6.0,6.0,34.0,34.0
 Erinyes,MM,73.0,fiend,generic,N,12.0,4,8400.0,153.0,18.0,191.3,23.0,8.0,8.0,66.0,66.0
 Eternal Flame Guardian,PotA,200.0,humanoid,generic,N,2.0,2,450.0,45.5,17.0,45.5,17.0,4.0,4.0,17.333334,17.333334
 Eternal Flame Priest,PotA,200.0,humanoid,generic,N,3.0,2,700.0,52.0,15.0,52.0,15.0,5.0,5.0,46.666668,46.666668
 Ettercap,MM,131.0,monstrosity,generic,N,2.0,2,450.0,44.0,13.0,44.0,13.0,4.0,4.0,17.0,17.0
 Ettin,MM,132.0,giant,generic,N,4.0,2,1100.0,85.0,12.0,85.0,12.0,7.0,7.0,28.0,28.0
-Evoker,VGtM,214.0,humanoid,generic,N,9.0,4,5000.0,66.0,15.0,99.0,20.0,7.0,7.0,102.0,102.0
 Expeditious Messenger,ERftLW,293.0,construct,generic,N,0.125,2,25.0,7.0,13.0,7.0,15.0,5.0,5.0,5.5,5.5
 Eyedrake,FToD,199.0,aberration,generic,N,8.0,3,3900.0,119.0,16.0,119.0,18.0,6.0,6.0,70.333336,70.333336
 Ezmerelda d'Avenir,CoS,230.0,humanoid,unique,N,8.0,3,3900.0,82.5,17.0,82.5,22.0,8.0,8.0,58.0,58.0
@@ -449,21 +557,28 @@ Fathomer,PotA,207.0,humanoid,generic,N,2.0,2,450.0,52.0,13.0,82.0,13.0,4.0,4.0,1
 Feathergale Knight,PotA,189.0,humanoid,generic,N,1.0,2,200.0,33.0,16.0,33.0,16.0,4.0,4.0,14.0,14.0
 Felidar,GGtR,199.0,celestial,generic,N,5.0,3,1800.0,93.5,17.0,93.5,19.0,7.0,7.0,35.666668,35.666668
 Fire Elemental,MM,125.0,elemental,generic,N,5.0,3,1800.0,102.0,13.0,153.0,13.0,8.0,8.0,35.0,35.0
+Fire Elemental Myrmidon,MPMotM,123.0,elemental,generic,N,7.0,3,2900.0,123.5,18.0,185.3,20.0,7.0,7.0,29.5,29.5
 Fire Elemental Myrmidon,PotA,213.0,elemental,generic,N,7.0,3,2900.0,123.5,18.0,185.3,18.0,7.0,7.0,26.0,26.0
 Fire Giant,MM,154.0,giant,generic,N,9.0,4,5000.0,162.5,18.0,162.5,20.0,11.0,11.0,56.0,56.0
-Fire Giant Dreadnought,VGtM,147.0,giant,generic,N,14.0,5,11500.0,187.5,21.0,187.5,23.0,13.0,13.0,72.0,72.0
+Fire Giant Dreadnought,MPMotM,124.0,giant,generic,N,14.0,5,11500.0,187.5,21.0,187.5,21.0,13.0,13.0,81.333336,81.333336
+Fire Giant Dreadnought,VGtM,147.0,giant,legacy,N,14.0,5,11500.0,187.5,21.0,187.5,23.0,13.0,13.0,72.0,72.0
 Firefist,GGtR,231.0,humanoid,generic,N,7.0,3,2900.0,117.0,18.0,117.0,18.0,6.0,6.0,48.0,48.0
-Firenewt Warlock of Imix,VGtM,143.0,humanoid,generic,N,1.0,2,200.0,33.0,13.0,38.0,13.0,4.0,4.0,18.0,18.0
-Firenewt Warrior,VGtM,142.0,humanoid,generic,N,0.5,2,100.0,22.0,16.0,22.0,16.0,3.0,3.0,9.0,9.0
+Firenewt Warlock of Imix,MPMotM,125.0,elemental,generic,N,1.0,2,200.0,33.0,13.0,38.0,13.0,4.0,4.0,16.5,16.5
+Firenewt Warlock of Imix,VGtM,143.0,humanoid,legacy,N,1.0,2,200.0,33.0,13.0,38.0,13.0,4.0,4.0,18.0,18.0
+Firenewt Warrior,MPMotM,125.0,elemental,generic,N,0.5,2,100.0,27.5,13.0,27.5,13.0,3.0,3.0,9.0,9.0
+Firenewt Warrior,VGtM,142.0,humanoid,legacy,N,0.5,2,100.0,22.0,16.0,22.0,16.0,3.0,3.0,9.0,9.0
 First-Year Student,SaCoC,191.0,humanoid,generic,N,0.5,2,100.0,33.0,11.0,33.0,13.0,3.0,3.0,7.5,8.166667
 Fist of Bane,BGDiA,232.0,humanoid,generic,N,0.5,2,100.0,22.0,18.0,22.0,20.0,5.0,5.0,6.0,6.0
-Flail Snail,VGtM,144.0,elemental,generic,N,3.0,2,700.0,52.5,16.0,52.5,18.0,5.0,5.0,24.0,24.0
+Flail Snail,MPMotM,126.0,elemental,generic,N,3.0,2,700.0,52.5,16.0,52.5,18.0,5.0,5.0,27.5,32.166668
+Flail Snail,VGtM,144.0,elemental,legacy,N,3.0,2,700.0,52.5,16.0,52.5,18.0,5.0,5.0,24.0,24.0
 Flameskull,MM,134.0,undead,generic,N,4.0,2,1100.0,40.5,13.0,80.0,20.0,5.0,5.0,32.666668,32.666668
 Flamewrath,PotA,201.0,humanoid,generic,N,6.0,3,2300.0,105.0,15.0,105.0,15.0,6.0,6.0,65.0,65.0
 Fleecemane Lion,MOoT,223.0,monstrosity,legendary,L,3.0,2,700.0,45.0,15.0,67.5,17.0,6.0,6.0,31.666666,31.666666
 Flesh Golem,MM,169.0,construct,generic,N,5.0,3,1800.0,93.5,9.0,187.0,11.0,7.0,7.0,26.0,26.0
 "Flesh Golem, Damaged",EGtW,248.0,construct,unique,N,1.0,2,200.0,5.0,9.0,10.0,11.0,7.0,7.0,13.0,13.0
 "Flesh Golem, Fiendish",BGDiA,236.0,construct,generic,N,8.0,3,3900.0,210.0,12.0,420.0,14.0,8.0,8.0,32.0,32.0
+Flind,MPMotM,127.0,fiend,generic,N,9.0,4,5000.0,127.5,16.0,157.5,16.0,9.0,9.0,48.0,75.0
+Flind,VGtM,153.0,humanoid,legacy,N,9.0,4,5000.0,127.5,16.0,187.0,16.0,9.0,9.0,52.0,52.0
 Flumph,MM,135.0,aberration,generic,N,0.125,2,25.0,7.0,12.0,7.0,12.0,4.0,4.0,8.666667,8.666667
 Flux Blastseeker,GGtR,242.0,humanoid,generic,N,5.0,3,1800.0,55.0,15.0,55.0,15.0,8.0,8.0,63.0,63.0
 Fluxcharger,GGtR,208.0,elemental,generic,N,7.0,3,2900.0,60.0,16.0,120.0,16.0,7.0,7.0,46.0,46.0
@@ -474,29 +589,41 @@ Flying Snake,MM,322.0,beast,generic,N,0.125,2,25.0,5.0,14.0,5.0,16.0,6.0,6.0,8.5
 Flying Sword,MM,20.0,construct,generic,N,0.25,2,50.0,17.5,17.0,17.5,17.0,3.0,3.0,5.5,5.5
 Fomorian,MM,136.0,giant,generic,N,8.0,3,3900.0,149.5,14.0,149.5,14.0,9.0,9.0,46.0,46.0
 Fractal Mascot,SaCoC,192.0,construct,generic,N,0.25,2,50.0,27.0,12.0,27.0,12.0,3.0,3.0,6.0,6.0
-Fraz-Urb’luu,MToF,146.0,fiend,unique,LL,23.0,7,50000.0,337.5,18.0,533.8,22.0,16.0,16.0,222.0,222.0
+Fraz-Urb’luu,MPMotM,129.0,fiend,unique,L,23.0,7,50000.0,337.5,18.0,534.4,22.0,16.0,16.0,141.0,141.0
+Fraz-Urb’luu,MPMotM,129.0,fiend,unique,LL,24.0,7,62000.0,337.5,18.0,534.4,22.0,16.0,16.0,141.0,207.0
+Fraz-Urb’luu,MToF,146.0,fiend,legacy,L,23.0,7,50000.0,337.5,18.0,533.8,22.0,16.0,16.0,123.0,123.0
+Fraz-Urb’luu,MToF,146.0,fiend,legacy,LL,24.0,7,62000.0,337.5,18.0,533.8,22.0,16.0,16.0,222.0,222.0
 Fraz-Urb’luu,OotA,238.0,fiend,unique,LL,23.0,7,50000.0,350.0,18.0,550.0,22.0,16.0,16.0,269.0,269.0
-Froghemoth,VGtM,145.0,monstrosity,generic,N,10.0,4,5900.0,184.0,14.0,184.0,14.0,10.0,10.0,47.666668,47.666668
+Froghemoth,MPMotM,130.0,monstrosity,generic,N,10.0,4,5900.0,161.0,14.0,161.0,14.0,10.0,10.0,61.5,68.5
+Froghemoth,VGtM,145.0,monstrosity,legacy,N,10.0,4,5900.0,184.0,14.0,184.0,14.0,10.0,10.0,47.666668,47.666668
 Frontline Medic,GGtR,231.0,humanoid,generic,N,0.25,2,50.0,19.5,20.0,19.5,24.0,4.0,4.0,5.5,5.5
 Frost Druid,IDRotF,288.0,humanoid,generic,N,5.0,3,1800.0,67.5,13.0,67.5,13.0,6.0,6.0,48.666668,48.666668
 Frost Giant,MM,155.0,giant,generic,N,8.0,3,3900.0,138.0,15.0,138.0,17.0,9.0,9.0,50.0,50.0
-Frost Giant Everlasting One,VGtM,148.0,giant,generic,N,12.0,4,8400.0,189.0,15.0,273.8,17.0,11.0,11.0,60.0,60.0
+Frost Giant Everlasting One,MPMotM,131.0,giant,generic,N,12.0,4,8400.0,189.0,15.0,273.8,17.0,11.0,11.0,61.0,61.0
+Frost Giant Everlasting One,VGtM,148.0,giant,legacy,N,12.0,4,8400.0,189.0,15.0,273.8,17.0,11.0,11.0,60.0,60.0
 Frost Giant Skeleton,IDRotF,288.0,undead,generic,N,6.0,3,2300.0,102.0,14.0,102.0,14.0,9.0,9.0,50.0,50.0
 Frost Giant Zombie,EGtW,288.0,undead,generic,N,9.0,4,5000.0,138.0,15.0,176.0,15.0,10.0,10.0,56.0,56.0
+Frost Salamander,MPMotM,132.0,elemental,generic,N,9.0,4,5000.0,168.0,17.0,168.0,17.0,9.0,9.0,62.0,62.0
+Frost Salamander,MToF,223.0,elemental,legacy,N,9.0,4,5000.0,168.0,17.0,168.0,17.0,9.0,9.0,60.0,60.0
 Frost Worm,EGtW,289.0,monstrosity,generic,N,17.0,6,18000.0,264.0,18.0,264.0,18.0,15.0,15.0,84.666664,105.666664
 Frulam Mondath,HotDQ,90.0,humanoid,unique,N,2.0,2,450.0,44.0,16.0,44.0,16.0,6.0,6.0,40.0,40.0
 "Fungus, Violet",MM,138.0,plant,generic,N,0.25,2,50.0,18.0,5.0,18.0,5.0,2.0,2.0,10.5,10.5
 Galazeth Prismari,SaCoC,193.0,dragon,unique,L,23.0,7,50000.0,402.5,21.0,492.5,23.0,15.0,15.0,113.833336,113.833336
 Galeb Duhr,MM,139.0,elemental,generic,N,6.0,3,2300.0,85.5,16.0,127.5,16.0,8.0,8.0,31.0,31.0
 Gallows Speaker,VRGtR,234.0,undead,generic,N,6.0,3,2300.0,85.5,12.0,128.3,12.0,7.0,7.0,46.5,46.5
+Galsariad Ardyth (tier 1),CRCotN,188.0,humanoid,unique,N,3.0,2,700.0,49.0,15.0,59.0,15.0,5.0,5.0,22.666666,23.833334
+Galsariad Ardyth (tier 2),CRCotN,190.0,humanoid,unique,N,5.0,3,1800.0,67.5,15.0,77.5,15.0,7.0,7.0,38.0,40.333332
+Galsariad Ardyth (tier 3),CRCotN,193.0,humanoid,unique,N,8.0,3,3900.0,90.0,17.0,110.0,17.0,8.0,8.0,50.333332,55.0
 Galvan Magen,IDRotF,301.0,construct,generic,N,3.0,2,700.0,68.0,14.0,68.0,16.0,6.0,7.0,24.0,24.0
 Galvanic Blastseeker,GGtR,243.0,humanoid,generic,N,5.0,3,1800.0,52.0,13.0,78.0,13.0,7.0,7.0,59.0,59.0
 Galvanice Weird,GGtR,209.0,elemental,generic,N,1.0,2,200.0,22.5,12.0,45.0,12.0,4.0,4.0,14.666667,14.666667
 Gar Shatterkeel,PotA,208.0,humanoid,unique,N,9.0,4,5000.0,112.5,16.0,152.5,16.0,7.0,7.0,48.666668,48.666668
 Gargoyle,MM,140.0,elemental,generic,N,2.0,2,450.0,52.5,15.0,52.5,15.0,4.0,4.0,10.0,10.0
 Gas Spore,MM,138.0,plant,generic,N,0.5,2,100.0,1.5,5.0,1.5,5.0,7.0,7.0,7.3333335,7.3333335
-Gauth,VGtM,125.0,aberration,generic,N,6.0,3,2300.0,67.5,15.0,88.0,21.0,6.0,6.0,48.666668,48.666668
-Gazer,VGtM,126.0,aberration,generic,N,0.5,2,100.0,13.5,13.0,13.5,14.0,4.0,4.0,10.5,10.5
+Gauth,MPMotM,133.0,aberration,generic,N,6.0,3,2300.0,52.5,15.0,82.5,23.0,6.0,6.0,40.0,49.0
+Gauth,VGtM,125.0,aberration,legacy,N,6.0,3,2300.0,67.5,15.0,88.0,21.0,6.0,6.0,48.666668,48.666668
+Gazer,MPMotM,134.0,aberration,generic,N,0.5,2,100.0,13.5,13.0,13.5,15.0,4.0,4.0,10.5,10.5
+Gazer,VGtM,126.0,aberration,legacy,N,0.5,2,100.0,13.5,13.0,13.5,14.0,4.0,4.0,10.5,10.5
 Gearkeeper Construct,EGtW,290.0,construct,generic,N,10.0,4,5900.0,161.5,18.0,242.3,18.0,9.0,9.0,38.666668,43.166668
 Gelainous Cube,MM,242.0,ooze,generic,N,2.0,2,450.0,84.0,6.0,84.0,6.0,4.0,4.0,20.0,20.0
 Gem Stalker,FToD,202.0,monstrosity,generic,N,5.0,3,1800.0,67.5,17.0,97.5,17.0,6.0,6.0,47.5,47.5
@@ -504,7 +631,8 @@ Gem Stalker,FToD,202.0,monstrosity,generic,N,5.0,3,1800.0,67.5,17.0,97.5,17.0,6.
 "Genie, Djinni",MM,144.0,elemental,generic,N,11.0,4,7200.0,161.0,17.0,161.0,19.0,9.0,9.0,45.0,45.0
 "Genie, Efreeti",MM,145.0,elemental,generic,N,11.0,4,7200.0,200.0,17.0,200.0,21.0,10.0,10.0,40.0,40.0
 "Genie, Marid",MM,146.0,elemental,generic,N,11.0,4,7200.0,229.5,17.0,286.3,21.0,10.0,10.0,42.0,42.0
-Geryon,MToF,172.0,fiend,unique,LL,22.0,7,41000.0,300.0,19.0,480.0,23.0,16.0,16.0,122.666664,122.666664
+Geryon,MPMotM,136.0,fiend,unique,LL,22.0,7,41000.0,300.0,19.0,510.0,23.0,16.0,16.0,114.333336,132.33333
+Geryon,MToF,172.0,fiend,legacy,LL,22.0,7,41000.0,300.0,19.0,480.0,23.0,16.0,16.0,122.666664,122.666664
 Ghald,PotA,209.0,humanoid,unique,N,7.0,3,2900.0,102.0,15.0,102.0,17.0,7.0,8.0,56.333332,56.333332
 Ghast,MM,148.0,undead,generic,N,2.0,2,450.0,36.0,13.0,36.0,14.0,5.0,5.0,10.0,10.0
 Ghost,MM,147.0,undead,generic,N,4.0,2,1100.0,45.0,11.0,180.0,13.0,5.0,5.0,17.0,17.0
@@ -531,39 +659,49 @@ Giant Rat,MM,327.0,beast,generic,N,0.125,2,25.0,7.0,12.0,7.0,12.0,4.0,5.0,4.5,4.
 "Giant Rat, Diseased",MM,327.0,beast,generic,N,0.125,2,25.0,7.0,12.0,7.0,12.0,4.0,5.0,4.5,4.5
 Giant Skeleton,TftYP,236.0,undead,generic,N,7.0,3,2900.0,115.0,17.0,115.0,20.0,8.0,8.0,45.0,45.0
 Giant Snail,WBtW,234.0,beast,generic,N,0.25,2,50.0,22.0,11.0,22.0,11.0,4.0,4.0,5.5,5.5
+Giant Strider,MPMotM,137.0,elemental,generic,N,1.0,2,200.0,22.5,14.0,36.5,14.0,6.0,6.0,15.0,15.0
+Giant Strider,VGtM,143.0,monstrosity,legacy,N,1.0,2,200.0,22.5,14.0,38.0,14.0,6.0,6.0,16.0,16.0
 Giant Subterranean Lizard,TftYP,236.0,beast,generic,N,4.0,2,1100.0,66.5,14.0,66.5,14.0,7.0,7.0,39.333332,39.333332
 Giant Toad,MM,329.0,beast,generic,N,1.0,2,200.0,39.0,11.0,39.0,11.0,4.0,4.0,16.5,16.5
 Giant Weasel,MM,329.0,beast,generic,N,0.125,2,25.0,9.0,13.0,9.0,13.0,5.0,5.0,5.5,5.5
 Giant Wolf Spider,MM,330.0,beast,generic,N,0.25,2,50.0,11.0,13.0,11.0,13.0,3.0,3.0,12.0,12.0
 Gibbering Mouther,MM,157.0,aberration,generic,N,2.0,2,450.0,67.5,9.0,67.5,9.0,2.0,2.0,17.0,17.0
 Gideon Lightward,BGDiA,65.0,undead,unique,N,6.0,3,2300.0,136.0,11.0,249.0,11.0,7.0,7.0,22.0,22.0
-Giff,MToF,204.0,humanoid,generic,N,3.0,2,700.0,60.0,16.0,60.0,16.0,4.0,4.0,22.666666,22.666666
+Giff,MPMotM,138.0,humanoid,generic,N,3.0,2,700.0,60.0,16.0,60.0,16.0,6.0,6.0,24.333334,26.666666
+Giff,MToF,204.0,humanoid,legacy,N,3.0,2,700.0,60.0,16.0,60.0,16.0,4.0,4.0,22.666666,22.666666
 Gingwatzim,CM,27.0,aberration,generic,N,2.0,2,450.0,39.0,12.0,39.0,12.0,4.0,4.0,16.0,16.0
-Girallon,VGtM,152.0,monstrosity,generic,N,4.0,2,1100.0,59.5,13.0,59.5,13.0,6.0,6.0,52.0,52.0
+Girallon,MPMotM,139.0,monstrosity,generic,N,4.0,2,1100.0,59.5,13.0,59.5,13.0,6.0,6.0,37.5,45.0
+Girallon,VGtM,152.0,monstrosity,legacy,N,4.0,2,1100.0,59.5,13.0,59.5,13.0,6.0,6.0,52.0,52.0
 Girallon Zombie,ToA,240.0,undead,generic,N,3.0,2,700.0,59.5,11.0,66.0,11.0,6.0,6.0,37.0,37.0
-Githyanki Gish,MToF,204.0,humanoid,generic,N,10.0,4,5900.0,123.5,17.0,123.5,21.0,7.0,7.0,94.666664,94.666664
-Githyanki Kith'rak,MToF,205.0,humanoid,generic,N,12.0,4,8400.0,180.0,18.0,180.0,21.0,8.0,8.0,84.0,84.0
+Githyanki Gish,MPMotM,140.0,humanoid,generic,N,10.0,4,5900.0,130.0,17.0,130.0,19.0,7.0,7.0,91.5,91.5
+Githyanki Gish,MToF,204.0,humanoid,legacy,N,10.0,4,5900.0,123.5,17.0,123.5,21.0,7.0,7.0,94.666664,94.666664
+Githyanki Kith'rak,MToF,205.0,humanoid,legacy,N,12.0,4,8400.0,180.0,18.0,180.0,21.0,8.0,8.0,84.0,84.0
+Githyanki Kith’rak,MPMotM,140.0,humanoid,generic,N,12.0,4,8400.0,180.0,18.0,180.0,21.0,8.0,8.0,85.5,85.5
 Githyanki Knight,MM,160.0,humanoid,generic,N,8.0,3,3900.0,91.0,18.0,91.0,20.0,9.0,9.0,46.0,46.0
-Githyanki Supreme Commander,MToF,206.0,humanoid,legendary,L,14.0,5,11500.0,187.0,18.0,187.0,21.0,12.0,12.0,93.0,93.0
+Githyanki Supreme Commander,MPMotM,141.0,humanoid,legendary,L,14.0,5,11500.0,187.0,18.0,277.0,22.0,12.0,12.0,94.5,94.5
+Githyanki Supreme Commander,MToF,206.0,humanoid,legacy,L,14.0,5,11500.0,187.0,18.0,187.0,21.0,12.0,12.0,93.0,93.0
 Githyanki Warrior,MM,160.0,humanoid,generic,N,3.0,2,700.0,49.5,17.0,49.5,19.0,4.0,4.0,32.0,32.0
-Githzerai Anarch,MToF,207.0,humanoid,legendary,LL,16.0,5,15000.0,144.5,20.0,144.5,27.0,10.0,10.0,229.33333,229.33333
-Githzerai Elightened,MToF,208.0,humanoid,generic,N,10.0,4,5900.0,112.5,18.0,127.0,25.0,8.0,8.0,73.666664,73.666664
+Githzerai Anarch,MPMotM,142.0,humanoid,legendary,LL,16.0,5,15000.0,144.5,20.0,294.5,22.0,10.0,10.0,165.0,211.66667
+Githzerai Anarch,MToF,207.0,humanoid,legacy,LL,16.0,5,15000.0,144.5,20.0,144.5,27.0,10.0,10.0,229.33333,229.33333
+Githzerai Enlightened,MPMotM,143.0,humanoid,generic,N,10.0,4,5900.0,112.5,18.0,112.5,20.0,8.0,8.0,93.0,93.0
+Githzerai Enlightened,MToF,208.0,humanoid,legacy,N,10.0,4,5900.0,112.5,18.0,127.0,25.0,8.0,8.0,73.666664,73.666664
 Githzerai Monk,MM,161.0,humanoid,generic,N,2.0,2,450.0,38.5,14.0,38.5,19.0,4.0,4.0,30.0,30.0
 Githzerai Zerth,MM,161.0,humanoid,generic,N,6.0,3,2300.0,84.5,17.0,84.5,24.0,7.0,7.0,48.0,48.0
 Glabrezu,MM,58.0,fiend,generic,N,9.0,4,5000.0,157.5,17.0,235.5,21.0,9.0,9.0,46.0,46.0
 Gladiator,MM,399.0,humanoid,generic,N,5.0,3,1800.0,112.5,16.0,112.5,19.0,7.0,7.0,33.0,33.0
 Glasswork Golem,WBtW,193.0,construct,generic,N,2.0,2,450.0,36.0,13.0,66.0,16.0,3.0,4.0,11.0,11.0
 Gloamwing,GGtR,215.0,undead,generic,N,8.0,3,3900.0,136.0,16.0,204.0,16.0,8.0,8.0,33.0,33.0
-Gloom Weaver,MToF,224.0,humanoid,generic,N,9.0,4,5000.0,104.0,17.0,179.0,17.0,8.0,8.0,73.0,73.0
 Gloomstalker,EGtW,291.0,monstrosity,generic,N,6.0,3,2300.0,90.0,15.0,90.0,17.0,9.0,9.0,42.0,50.0
 Gnoll,MM,163.0,humanoid,generic,N,0.5,2,100.0,22.5,15.0,22.5,15.0,4.0,4.0,7.0,7.0
 Gnoll Fang of Yeenoghu,MM,163.0,fiend,generic,N,4.0,2,1100.0,65.0,14.0,65.0,16.0,5.0,5.0,29.0,29.0
-Gnoll Flesh Gnawer,VGtM,154.0,humanoid,generic,N,1.0,2,200.0,22.0,14.0,22.0,14.0,4.0,4.0,16.0,16.0
-Gnoll Flind,VGtM,153.0,humanoid,generic,N,9.0,4,5000.0,127.5,16.0,187.0,16.0,9.0,9.0,52.0,52.0
-Gnoll Hunter,VGtM,154.0,humanoid,generic,N,0.5,2,100.0,22.0,13.0,22.0,13.0,4.0,4.0,13.0,15.0
+Gnoll Flesh Gnawer,MPMotM,144.0,monstrosity,generic,N,1.0,2,200.0,22.0,14.0,22.0,14.0,4.0,4.0,15.5,17.333334
+Gnoll Flesh Gnawer,VGtM,154.0,humanoid,legacy,N,1.0,2,200.0,22.0,14.0,22.0,14.0,4.0,4.0,16.0,16.0
+Gnoll Hunter,MPMotM,144.0,monstrosity,generic,N,0.5,2,100.0,22.0,13.0,22.0,13.0,4.0,4.0,13.0,14.5
+Gnoll Hunter,VGtM,154.0,humanoid,legacy,N,0.5,2,100.0,22.0,13.0,22.0,13.0,4.0,4.0,13.0,15.0
 Gnoll Pack Lord,MM,163.0,humanoid,generic,N,2.0,2,450.0,49.5,15.0,49.5,15.0,5.0,5.0,16.0,16.0
 Gnoll Vampire,IDRotF,290.0,undead,generic,N,8.0,3,3900.0,93.5,17.0,225.8,17.0,8.0,8.0,41.0,41.0
-Gnoll Witherling,VGtM,155.0,undead,generic,N,0.25,2,50.0,11.0,12.0,11.0,12.0,4.0,4.0,10.5,13.5
+Gnoll Witherling,MPMotM,145.0,undead,generic,N,0.25,2,50.0,11.0,12.0,11.0,12.0,4.0,4.0,9.0,12.0
+Gnoll Witherling,VGtM,155.0,undead,legacy,N,0.25,2,50.0,11.0,12.0,11.0,12.0,4.0,4.0,10.5,13.5
 Gnome Ceremorph,IDRotF,304.0,aberration,generic,N,5.0,3,1800.0,58.5,16.0,88.5,20.0,7.0,7.0,45.333332,45.333332
 Gnome Squidling,IDRotF,303.0,aberration,generic,N,0.5,2,100.0,10.5,8.0,14.5,10.0,0.0,0.0,12.333333,12.333333
 "Gnome, Deep",MM,164.0,humanoid,generic,N,0.5,2,100.0,16.5,15.0,16.5,20.0,4.0,4.0,6.0,6.0
@@ -571,7 +709,6 @@ Gnome Squidling,IDRotF,303.0,aberration,generic,N,0.5,2,100.0,10.5,8.0,14.5,10.0
 Goblin,MM,166.0,humanoid,generic,N,0.25,2,50.0,7.0,15.0,7.0,19.0,4.0,8.0,5.5,5.5
 Goblin Boss,MM,166.0,humanoid,generic,N,1.0,2,200.0,21.0,17.0,36.0,21.0,4.0,8.0,10.0,10.0
 Goblin Gang Member,GGtR,167.0,humanoid,generic,N,0.25,2,50.0,10.5,14.0,10.5,18.0,5.0,9.0,7.5,7.5
-Goblin Nilbog,VGtM,182.0,humanoid,generic,N,1.0,2,200.0,7.0,13.0,46.0,17.0,4.0,8.0,5.0,5.0
 Gold Dragon Wyrmling,MM,115.0,dragon,generic,N,3.0,2,700.0,60.0,17.0,60.0,19.0,6.0,6.0,20.666666,20.666666
 "Gold Dragon, Adult",MM,114.0,dragon,legendary,L,17.0,6,18000.0,256.5,19.0,346.0,21.0,14.0,14.0,127.666664,127.666664
 "Gold Dragon, Ancient",MM,113.0,dragon,legendary,LL,24.0,7,62000.0,546.0,22.0,636.0,26.0,17.0,21.0,141.0,141.0
@@ -587,8 +724,10 @@ Grandolpha Muzgardt,IDRotF,176.0,humanoid,unique,N,2.0,2,450.0,59.5,9.0,119.0,9.
 Gray Ooze,MM,243.0,ooze,generic,N,0.5,2,100.0,22.5,8.0,22.5,8.0,3.0,3.0,11.5,11.5
 "Gray Ooze, Huge",WDotMM,244.0,ooze,unique,N,8.0,3,3900.0,152.0,8.0,152.0,8.0,7.0,7.0,84.0,84.0
 "Gray Ooze, Psychic",MM,240.0,ooze,generic,N,0.5,2,100.0,22.5,8.0,22.5,8.0,3.0,3.0,11.5,11.5
-Gray Render,MToF,209.0,monstrosity,generic,N,12.0,4,8400.0,189.0,19.0,189.0,19.0,8.0,8.0,77.0,77.0
-Graz’zt,MToF,149.0,fiend,unique,LL,24.0,7,62000.0,346.5,20.0,545.0,29.0,13.0,15.0,150.0,150.0
+Gray Render,MPMotM,146.0,monstrosity,generic,N,12.0,4,8400.0,189.0,19.0,189.0,19.0,8.0,10.0,64.0,77.0
+Gray Render,MToF,209.0,monstrosity,legacy,N,12.0,4,8400.0,189.0,19.0,189.0,19.0,8.0,8.0,77.0,77.0
+Graz'zt,MPMotM,148.0,fiend,unique,LL,24.0,7,62000.0,346.5,20.0,545.6,25.0,13.0,13.0,170.0,170.0
+Graz’zt,MToF,149.0,fiend,legacy,LL,24.0,7,62000.0,346.5,20.0,545.0,29.0,13.0,15.0,150.0,150.0
 Graz’zt,OotA,248.0,fiend,unique,LL,24.0,7,62000.0,378.0,20.0,585.0,29.0,13.0,15.0,170.0,170.0
 Greater Zombie,TftYP,237.0,undead,generic,N,5.0,3,1800.0,97.5,15.0,111.0,15.0,7.0,7.0,28.0,28.0
 Green Dragon Wyrmling,MM,95.0,dragon,generic,N,2.0,2,450.0,38.5,17.0,38.5,19.0,4.0,4.0,27.666666,27.666666
@@ -607,24 +746,32 @@ Grimlock,MM,175.0,humanoid,generic,N,0.25,2,50.0,11.0,11.0,11.0,11.0,5.0,5.0,8.0
 Grippli Warrior,CM,99.0,humanoid,generic,N,0.25,2,50.0,13.5,12.0,13.5,12.0,4.0,4.0,9.0,9.0
 Grisha,OotA,232.0,humanoid,unique,N,2.0,2,450.0,33.0,18.0,33.0,18.0,4.0,4.0,44.0,44.0
 Groff,SaCoC,194.0,plant,generic,N,4.0,2,1100.0,68.0,13.0,68.0,13.0,7.0,7.0,18.0,25.0
-Grung,VGtM,156.0,humanoid,generic,N,0.25,2,50.0,11.0,12.0,11.0,12.0,4.0,4.0,9.5,9.5
-Grung Elite Warrior,VGtM,157.0,humanoid,generic,N,2.0,2,450.0,49.5,13.0,49.5,14.0,5.0,5.0,11.0,11.0
-Grung Wildling,VGtM,157.0,humanoid,generic,N,1.0,2,200.0,27.5,16.0,27.5,16.0,5.0,5.0,17.333334,17.333334
+Grung,MPMotM,149.0,humanoid,generic,N,0.25,2,50.0,11.0,12.0,11.0,12.0,4.0,4.0,9.5,9.5
+Grung,VGtM,156.0,humanoid,legacy,N,0.25,2,50.0,11.0,12.0,11.0,12.0,4.0,4.0,9.5,9.5
+Grung Elite Warrior,MPMotM,150.0,humanoid,generic,N,2.0,2,450.0,49.5,13.0,49.5,13.0,5.0,5.0,11.5,11.5
+Grung Elite Warrior,VGtM,157.0,humanoid,legacy,N,2.0,2,450.0,49.5,13.0,49.5,14.0,5.0,5.0,11.0,11.0
+Grung Wildling,MPMotM,150.0,humanoid,generic,N,1.0,2,200.0,27.5,16.0,27.5,16.0,5.0,5.0,11.5,11.5
+Grung Wildling,VGtM,157.0,humanoid,legacy,N,1.0,2,200.0,27.5,16.0,27.5,16.0,5.0,5.0,17.333334,17.333334
 Guard,MM,347.0,humanoid,generic,N,0.125,2,25.0,11.0,16.0,11.0,16.0,3.0,3.0,4.5,4.5
-Guard Drake,VGtM,158.0,dragon,generic,N,2.0,2,450.0,52.5,14.0,52.5,14.0,5.0,5.0,13.0,13.0
-"Guard Drake, Black",VGtM,158.0,dragon,generic,N,2.0,2,450.0,52.5,14.0,52.5,14.0,5.0,5.0,13.0,13.0
+Guard Drake,MPMotM,151.0,dragon,generic,N,2.0,2,450.0,52.5,14.0,52.5,14.0,5.0,5.0,14.0,14.0
+Guard Drake,VGtM,158.0,dragon,legacy,N,2.0,2,450.0,52.5,14.0,52.5,14.0,5.0,5.0,13.0,13.0
+"Guard Drake, Black",MPMotM,151.0,dragon,generic,N,2.0,2,450.0,52.5,14.0,52.5,14.0,5.0,5.0,14.0,14.0
+"Guard Drake, Black",VGtM,158.0,dragon,legacy,N,2.0,2,450.0,52.5,14.0,52.5,14.0,5.0,5.0,13.0,13.0
 "Guard Drake, Blue",HotDQ,91.0,dragon,generic,N,2.0,2,450.0,52.5,14.0,52.5,14.0,5.0,5.0,13.0,13.0
-"Guard Drake, Green",VGtM,158.0,dragon,generic,N,2.0,2,450.0,52.5,14.0,52.5,14.0,5.0,5.0,13.0,13.0
-"Guard Drake, Red",VGtM,158.0,dragon,generic,N,2.0,2,450.0,52.5,14.0,52.5,14.0,5.0,5.0,13.0,13.0
-"Guard Drake, White",VGtM,158.0,dragon,generic,N,2.0,2,450.0,52.5,14.0,52.5,14.0,5.0,5.0,13.0,13.0
+"Guard Drake, Blue",MPMotM,151.0,dragon,generic,N,2.0,2,450.0,52.5,14.0,52.5,14.0,5.0,5.0,14.0,14.0
+"Guard Drake, Green",MPMotM,151.0,dragon,generic,N,2.0,2,450.0,52.5,14.0,52.5,14.0,5.0,5.0,14.0,14.0
+"Guard Drake, Green",VGtM,158.0,dragon,legacy,N,2.0,2,450.0,52.5,14.0,52.5,14.0,5.0,5.0,13.0,13.0
+"Guard Drake, Red",MPMotM,151.0,dragon,generic,N,2.0,2,450.0,52.5,14.0,52.5,14.0,5.0,5.0,14.0,14.0
+"Guard Drake, Red",VGtM,158.0,dragon,legacy,N,2.0,2,450.0,52.5,14.0,52.5,14.0,5.0,5.0,13.0,13.0
+"Guard Drake, White",MPMotM,151.0,dragon,generic,N,2.0,2,450.0,52.5,14.0,52.5,14.0,5.0,5.0,14.0,14.0
+"Guard Drake, White",VGtM,158.0,dragon,legacy,N,2.0,2,450.0,52.5,14.0,52.5,14.0,5.0,5.0,13.0,13.0
 Guardian Giant,GGtR,201.0,giant,generic,N,8.0,3,3900.0,137.5,19.0,137.5,19.0,10.0,10.0,51.0,51.0
 Guardian Portrait,CoS,227.0,construct,unique,N,1.0,2,200.0,22.5,5.0,22.5,5.0,4.0,4.0,10.5,10.5
 Guardian Wolf,EGtW,271.0,monstrosity,generic,N,4.0,2,1100.0,66.5,14.0,66.5,14.0,8.0,8.0,26.0,26.0
 Gunvald Halraggson,IDRotF,305.0,humanoid,unique,N,5.0,3,1800.0,76.5,13.0,106.5,13.0,8.0,8.0,33.0,33.0
 Guthash,TftYP,21.0,beast,unique,N,0.25,2,50.0,9.0,12.0,16.0,12.0,5.0,6.0,4.0,4.0
-Hadrosaurus,VGtM,140.0,beast,generic,N,0.25,2,50.0,19.5,11.0,19.5,11.0,4.0,4.0,7.5,7.5
-"Hag, Annis",VGtM,159.0,fey,generic,N,6.0,3,2300.0,75.0,17.0,112.5,17.0,8.0,8.0,45.0,45.0
-"Hag, Bheur",VGtM,160.0,fey,generic,N,7.0,3,2900.0,91.0,17.0,91.0,17.0,6.0,6.0,72.0,72.0
+Hadrosaurus,MPMotM,96.0,beast,generic,N,0.25,2,50.0,19.5,11.0,19.5,11.0,4.0,4.0,7.5,7.5
+Hadrosaurus,VGtM,140.0,beast,legacy,N,0.25,2,50.0,19.5,11.0,19.5,11.0,4.0,4.0,7.5,7.5
 "Hag, Green",MM,177.0,fey,generic,N,3.0,2,700.0,82.5,17.0,82.5,17.0,6.0,6.0,13.0,13.0
 "Hag, Night",MM,178.0,fiend,generic,N,5.0,3,1800.0,112.5,17.0,168.8,19.0,7.0,7.0,13.0,13.0
 "Hag, Sea",MM,179.0,fey,generic,N,2.0,2,450.0,52.5,14.0,52.5,14.0,5.0,5.0,10.0,10.0
@@ -638,7 +785,8 @@ Harpy Matriarch,GoS,237.0,monstrosity,generic,N,5.0,3,1800.0,88.0,14.0,148.0,16.
 "Harpy, Blood-Toll",MOoT,227.0,monstrosity,generic,N,0.125,2,25.0,9.0,11.0,9.0,11.0,3.0,7.0,7.0,7.0
 Hell Hound,MM,182.0,fiend,generic,N,3.0,2,700.0,45.5,15.0,45.5,15.0,5.0,6.0,23.333334,23.333334
 Hellenrae,PotA,198.0,humanoid,unique,N,5.0,3,1800.0,78.0,16.0,88.0,18.0,7.0,7.0,36.0,36.0
-Hellfire Engine,MToF,165.0,construct,generic,N,16.0,5,15000.0,216.0,18.0,270.0,22.0,11.0,11.0,86.0,86.0
+Hellfire Engine,MPMotM,152.0,construct,generic,N,16.0,5,15000.0,216.0,18.0,270.0,22.0,10.0,10.0,94.0,94.0
+Hellfire Engine,MToF,165.0,construct,legacy,N,16.0,5,15000.0,216.0,18.0,270.0,22.0,11.0,11.0,86.0,86.0
 Hellwasp,BGDiA,236.0,fiend,generic,N,5.0,3,1800.0,52.0,19.0,82.0,19.0,7.0,7.0,26.0,26.0
 Helmed Horror,MM,183.0,construct,generic,N,4.0,2,1100.0,60.0,20.0,120.0,22.0,6.0,6.0,16.0,16.0
 Hezrou,MM,60.0,fiend,generic,N,8.0,3,3900.0,136.5,16.0,170.0,21.0,7.0,7.0,37.0,37.0
@@ -650,8 +798,10 @@ Hoard Mimic,FToD,204.0,monstrosity,generic,N,8.0,3,3900.0,123.5,14.0,123.5,15.0,
 Hoard Scarab,FToD,204.0,monstrosity,generic,N,0.125,2,25.0,7.5,14.0,7.5,15.0,5.0,5.0,5.5,5.5
 Hobgoblin,MM,186.0,humanoid,generic,N,0.5,2,100.0,11.0,18.0,11.0,18.0,3.0,3.0,12.0,12.0
 Hobgoblin Captain,MM,186.0,humanoid,generic,N,3.0,2,700.0,39.0,17.0,39.0,17.0,4.0,4.0,28.0,28.0
-Hobgoblin Devastator,VGtM,161.0,humanoid,generic,N,4.0,2,1100.0,45.5,13.0,45.5,13.0,5.0,5.0,65.0,65.0
-Hobgoblin Iron Shadow,VGtM,162.0,humanoid,generic,N,2.0,2,450.0,32.5,15.0,32.5,15.0,5.0,5.0,20.0,20.0
+Hobgoblin Devastator,MPMotM,153.0,fey,generic,N,4.0,2,1100.0,45.5,13.0,45.5,13.0,5.0,5.0,56.0,56.0
+Hobgoblin Devastator,VGtM,161.0,humanoid,legacy,N,4.0,2,1100.0,45.5,13.0,45.5,13.0,5.0,5.0,65.0,65.0
+Hobgoblin Iron Shadow,MPMotM,154.0,fey,generic,N,2.0,2,450.0,32.5,15.0,32.5,15.0,5.0,5.0,22.0,22.0
+Hobgoblin Iron Shadow,VGtM,162.0,humanoid,legacy,N,2.0,2,450.0,32.5,15.0,32.5,15.0,5.0,5.0,20.0,20.0
 Hobgoblin Warlord,MM,187.0,humanoid,generic,N,6.0,3,2300.0,97.5,20.0,97.5,23.0,9.0,9.0,35.0,35.0
 Hollow Dragon,FToD,206.0,undead,legendary,L,18.0,6,20000.0,241.5,19.0,331.5,21.0,12.0,12.0,109.666664,109.666664
 Hollyphant,BGDiA,237.0,celestial,generic,N,5.0,3,1800.0,36.0,18.0,108.0,40.0,6.0,6.0,34.0,34.0
@@ -660,15 +810,19 @@ Horizonback Tortoise,EGtW,292.0,monstrosity,generic,N,8.0,3,3900.0,227.5,22.0,22
 Horncaller,GGtR,253.0,humanoid,generic,N,1.0,2,200.0,39.0,13.0,39.0,13.0,3.0,3.0,15.0,15.0
 "Horse, Draft",MM,321.0,beast,generic,N,0.25,2,50.0,19.5,10.0,19.5,10.0,6.0,6.0,9.0,9.0
 "Horse, Riding",MM,336.0,beast,generic,N,0.25,2,50.0,13.0,10.0,13.0,10.0,5.0,5.0,8.0,8.0
-Howler,MToF,210.0,fiend,generic,N,8.0,3,3900.0,90.0,16.0,135.0,16.0,6.0,7.0,42.666668,42.666668
+Howler,MPMotM,155.0,fiend,generic,N,8.0,3,3900.0,90.0,16.0,157.5,16.0,6.0,7.0,53.666668,53.666668
+Howler,MToF,210.0,fiend,legacy,N,8.0,3,3900.0,90.0,16.0,157.5,16.0,6.0,7.0,42.666668,42.666668
 Howling Hatred Initiate,PotA,190.0,humanoid,generic,N,0.125,2,25.0,9.0,13.0,9.0,13.0,4.0,5.0,4.0,4.0
 Howling Hatred Priest,PotA,190.0,humanoid,generic,N,2.0,2,450.0,45.0,15.0,45.0,20.0,5.0,5.0,17.0,17.0
 Hrabbaz,WDH,205.0,humanoid,unique,N,5.0,3,1800.0,112.5,12.0,140.0,12.0,8.0,8.0,35.0,35.0
 Hundred-Handed One,MOoT,225.0,giant,generic,N,15.0,5,13000.0,243.0,15.0,243.0,20.0,13.0,13.0,84.0,84.0
+Hungry Sorrowsworn,MPMotM,223.0,monstrosity,generic,N,11.0,4,7200.0,225.0,17.0,281.3,17.0,8.0,10.0,39.5,54.166668
+Hungry Sorrowsworn,MToF,232.0,monstrosity,legacy,N,11.0,4,7200.0,225.0,17.0,281.3,17.0,8.0,10.0,54.666668,54.666668
 Hurricane,PotA,191.0,humanoid,generic,N,2.0,2,450.0,33.0,14.0,43.0,14.0,3.0,3.0,23.333334,23.333334
 Husk Zombie,EGtW,293.0,undead,generic,N,1.0,2,200.0,37.5,10.0,44.5,10.0,5.0,5.0,13.0,13.0
 Husk Zombie Burster,EGtW,293.0,undead,generic,N,1.0,2,200.0,37.5,10.0,44.5,10.0,5.0,5.0,18.0,18.0
-Hutijin,MToF,174.0,fiend,unique,L,21.0,7,33000.0,200.0,19.0,350.0,23.0,15.0,15.0,111.0,111.0
+Hutijin,MPMotM,157.0,fiend,unique,L,21.0,7,33000.0,200.0,19.0,350.0,23.0,15.0,15.0,123.0,133.5
+Hutijin,MToF,174.0,fiend,legacy,L,21.0,7,33000.0,200.0,19.0,350.0,23.0,15.0,15.0,111.0,111.0
 Hybrid Brute,GGtR,217.0,humanoid,generic,N,2.0,2,450.0,52.0,18.0,52.0,18.0,6.0,6.0,14.0,14.0
 Hybrid Flier,GGtR,217.0,humanoid,generic,N,2.0,2,450.0,39.0,13.0,39.0,15.0,5.0,5.0,16.0,16.0
 Hybrid Poisoner,GGtR,217.0,humanoid,generic,N,1.0,2,200.0,26.0,14.0,26.0,14.0,6.0,6.0,16.0,16.0
@@ -676,12 +830,12 @@ Hybrid Shocker,GGtR,218.0,humanoid,generic,N,1.0,2,200.0,39.0,12.0,39.0,12.0,4.0
 Hybrid Spy,GGtR,218.0,humanoid,generic,N,0.5,2,100.0,22.0,13.0,22.0,13.0,5.0,5.0,13.0,13.0
 Hydra,MM,190.0,monstrosity,generic,N,8.0,3,3900.0,172.5,15.0,172.5,15.0,8.0,8.0,50.0,50.0
 "Hydra, Ironscale",MOoT,231.0,monstrosity,generic,N,12.0,4,8400.0,181.5,17.0,181.5,17.0,10.0,10.0,103.0,103.0
-Hydroloth,MToF,249.0,fiend,generic,N,9.0,4,5000.0,135.0,15.0,202.5,17.0,9.0,11.0,38.0,38.0
+Hydroloth,MPMotM,158.0,fiend,generic,N,9.0,4,5000.0,135.0,15.0,202.5,17.0,9.0,9.0,50.0,50.0
+Hydroloth,MToF,249.0,fiend,legacy,N,9.0,4,5000.0,135.0,15.0,202.5,17.0,9.0,11.0,38.0,38.0
 "Hyena, Giant",MM,326.0,beast,generic,N,1.0,2,200.0,45.0,12.0,45.0,12.0,5.0,5.0,12.0,12.0
 Hythonia,MOoT,252.0,monstrosity,unique,LL,17.0,6,18000.0,199.5,17.0,289.5,22.0,11.0,11.0,194.66667,194.66667
 Ice Toad,RoT,90.0,monstrosity,generic,N,1.0,2,200.0,32.5,12.0,32.5,12.0,3.0,3.0,12.0,12.0
 Iggwilv the Witch Queen,WBtW,205.0,fey,unique,L,20.0,6,25000.0,255.0,19.0,517.5,26.0,16.0,16.0,61.0,61.0
-Illusionist,VGtM,214.0,humanoid,generic,N,3.0,2,700.0,38.5,15.0,38.5,17.0,5.0,5.0,31.0,31.0
 Imix,PotA,214.0,elemental,unique,LL,19.0,6,22000.0,325.0,17.0,415.0,21.0,12.0,12.0,216.0,216.0
 Immortal Lotus Monk,CM,165.0,humanoid,generic,N,5.0,3,1800.0,65.0,15.0,65.0,15.0,6.0,10.0,15.0,15.0
 Imp,MM,76.0,fiend,generic,N,1.0,2,200.0,10.5,13.0,20.0,15.0,5.0,5.0,15.0,15.0
@@ -694,10 +848,12 @@ Inquisitor of the Tome,VRGtR,249.0,humanoid,generic,N,8.0,3,3900.0,77.0,14.0,77.
 Inspired,ERftLW,294.0,humanoid,generic,N,2.0,2,450.0,40.5,15.0,40.5,15.0,4.0,4.0,34.0,34.0
 Intellect Devourer,MM,191.0,aberration,generic,N,2.0,2,450.0,21.0,12.0,21.0,12.0,4.0,4.0,18.0,18.0
 Invisible Stalker,MM,192.0,elemental,generic,N,6.0,3,2300.0,104.0,14.0,156.0,16.0,6.0,6.0,20.0,20.0
-Iron Cobra,MToF,125.0,construct,generic,N,4.0,2,1100.0,45.5,13.0,90.0,15.0,5.0,5.0,19.0,19.0
 Iron Consul,BGDiA,232.0,humanoid,generic,N,2.0,2,450.0,45.0,16.0,45.0,18.0,5.0,5.0,14.0,14.0
 Iron Defender,ERftLW,293.0,construct,generic,N,1.0,2,200.0,30.0,17.0,30.0,17.0,5.0,5.0,9.0,9.0
 Iron Golem,MM,170.0,construct,generic,N,16.0,5,15000.0,210.0,20.0,315.0,22.0,13.0,13.0,60.666668,60.666668
+Irvan Wastewalker (tier 1),CRCotN,189.0,humanoid,unique,N,3.0,2,700.0,66.0,13.0,71.0,13.0,4.0,4.0,23.0,23.0
+Irvan Wastewalker (tier 2),CRCotN,191.0,humanoid,unique,N,5.0,3,1800.0,99.0,15.0,109.0,15.0,6.0,6.0,39.0,39.0
+Irvan Wastewalker (tier 3),CRCotN,194.0,humanoid,unique,N,8.0,3,3900.0,123.5,17.0,133.5,17.0,8.0,8.0,56.0,56.0
 Isarr Kronenstrom,IDRotF,307.0,humanoid,unique,N,8.0,3,3900.0,117.0,15.0,147.0,15.0,6.0,10.0,54.0,54.0
 Ishel,EGtW,231.0,humanoid,unique,N,0.5,2,100.0,24.0,15.0,24.0,17.0,4.0,4.0,5.5,5.5
 Isperia,GGtR,227.0,monstrosity,unique,L,21.0,7,33000.0,261.0,17.0,438.8,25.0,12.0,12.0,119.0,119.0
@@ -715,7 +871,9 @@ Jarad Vod Savo,GGtR,235.0,undead,unique,L,22.0,7,41000.0,180.0,17.0,373.0,21.0,1
 Jarlaxle Baenre,WDH,206.0,humanoid,unique,L,15.0,5,13000.0,123.5,24.0,153.0,24.0,14.0,14.0,100.0,100.0
 Jarund Elkhardt,IDRotF,305.0,humanoid,unique,N,5.0,3,1800.0,104.0,14.0,104.0,14.0,7.0,7.0,39.0,39.0
 Jiangshi,VRGtR,236.0,undead,generic,N,9.0,4,5000.0,119.0,16.0,173.0,18.0,8.0,8.0,57.0,57.0
-Juiblex,MToF,151.0,fiend,unique,LL,23.0,7,50000.0,350.0,18.0,625.0,24.0,14.0,14.0,126.0,126.0
+Juiblex,MPMotM,160.0,fiend,unique,L,23.0,7,50000.0,350.0,18.0,625.0,22.0,14.0,14.0,126.0,126.0
+Juiblex,MPMotM,160.0,fiend,unique,LL,24.0,7,62000.0,350.0,18.0,625.0,24.0,14.0,14.0,126.0,126.0
+Juiblex,MToF,151.0,fiend,legacy,LL,23.0,7,50000.0,350.0,18.0,625.0,24.0,14.0,14.0,126.0,126.0
 Juiblex,OotA,243.0,fiend,unique,LL,23.0,7,50000.0,350.0,18.0,625.0,24.0,14.0,14.0,126.0,126.0
 Kaarghaz,TftYP,45.0,humanoid,unique,N,2.0,2,450.0,39.0,13.0,39.0,19.0,4.0,4.0,28.0,28.0
 Kalaraq Quori,ERftLW,306.0,aberration,generic,N,19.0,6,22000.0,161.5,18.0,322.0,22.0,13.0,13.0,68.666664,68.666664
@@ -727,7 +885,8 @@ Kelek,WBtW,219.0,humanoid,unique,N,5.0,3,1800.0,45.5,12.0,69.5,19.0,6.0,6.0,59.6
 Kelpie,TftYP,238.0,plant,generic,N,4.0,2,1100.0,67.5,14.0,134.0,14.0,4.0,4.0,22.0,22.0
 Kenku,MM,194.0,humanoid,generic,N,0.25,2,50.0,13.5,13.0,13.5,13.0,5.0,6.0,6.5,6.5
 Kettlesteam the Kenku,WBtW,52.0,humanoid,unique,N,1.0,2,200.0,22.5,13.0,22.5,13.0,5.0,5.0,11.0,11.0
-Ki-rin,VGtM,163.0,celestial,legendary,L,12.0,4,8400.0,152.0,20.0,242.0,22.0,9.0,9.0,88.0,88.0
+Ki-rin,MPMotM,162.0,celestial,legendary,LL,12.0,4,8400.0,153.0,20.0,243.0,22.0,9.0,9.0,102.5,102.5
+Ki-rin,VGtM,163.0,celestial,legacy,L,12.0,4,8400.0,152.0,20.0,242.0,22.0,9.0,9.0,88.0,88.0
 Kiddywidget,CM,136.0,construct,generic,N,0.5,2,100.0,15.0,16.0,15.0,16.0,4.0,4.0,11.5,11.5
 Killer Whale,MM,331.0,beast,generic,N,3.0,2,700.0,90.0,12.0,90.0,12.0,6.0,6.0,21.0,21.0
 King of Feathers,ToA,106.0,monstrosity,unique,N,8.0,3,3900.0,136.5,13.0,260.0,19.0,10.0,10.0,53.0,53.0
@@ -737,27 +896,35 @@ Knight,MM,347.0,humanoid,generic,N,3.0,2,700.0,52.0,18.0,52.0,19.0,5.0,5.0,20.0,
 Koalinth,GoS,238.0,humanoid,generic,N,0.5,2,100.0,16.5,14.0,16.5,14.0,3.0,3.0,12.0,12.0
 Koalinth Sergeant,GoS,239.0,humanoid,generic,N,2.0,2,450.0,33.0,14.0,33.0,14.0,4.0,4.0,23.0,23.0
 Kobold,MM,195.0,humanoid,generic,N,0.125,2,25.0,5.0,12.0,5.0,12.0,4.0,5.0,4.5,4.5
-Kobold Dragonshield,VGtM,165.0,humanoid,generic,N,1.0,2,200.0,44.0,15.0,44.0,13.0,3.0,4.0,10.0,10.0
-Kobold Inventor,VGtM,166.0,humanoid,generic,N,0.25,2,50.0,13.5,12.0,13.5,12.0,4.0,5.0,7.0,7.0
-Kobold Scale Sorcerer,VGtM,167.0,humanoid,generic,N,1.0,2,200.0,27.5,15.0,27.5,15.0,4.0,5.0,18.333334,18.333334
+Kobold Dragonshield,MPMotM,163.0,dragon,generic,N,1.0,2,200.0,44.0,15.0,44.0,15.0,3.0,4.0,9.0,9.0
+Kobold Dragonshield,VGtM,165.0,humanoid,legacy,N,1.0,2,200.0,44.0,15.0,44.0,13.0,3.0,4.0,10.0,10.0
+Kobold Inventor,MPMotM,164.0,humanoid,generic,N,0.25,2,50.0,13.5,12.0,13.5,12.0,4.0,5.0,9.0,9.0
+Kobold Inventor,VGtM,166.0,humanoid,legacy,N,0.25,2,50.0,13.5,12.0,13.5,12.0,4.0,5.0,7.0,7.0
+Kobold Scale Sorcerer,MPMotM,165.0,humanoid,generic,N,1.0,2,200.0,27.5,15.0,27.5,15.0,4.0,5.0,18.0,18.0
+Kobold Scale Sorcerer,VGtM,167.0,humanoid,legacy,N,1.0,2,200.0,27.5,15.0,27.5,15.0,4.0,5.0,18.333334,18.333334
 Kobold Underling,EGtW,221.0,humanoid,generic,N,0.125,2,25.0,7.5,13.0,7.5,13.0,5.0,6.0,6.5,6.5
 Kobold Vampire Spawn,IDRotF,297.0,undead,generic,N,3.0,2,700.0,39.0,14.0,168.0,14.0,6.0,6.0,11.0,11.0
 "Kobold Zombie, Icewind",IDRotF,297.0,undead,generic,N,0.125,2,25.0,19.5,9.0,26.5,9.0,1.0,1.0,2.5,2.5
 "Kobold, Icewind",IDRotF,296.0,humanoid,generic,N,0.125,2,25.0,9.0,14.0,9.0,14.0,4.0,4.0,4.5,4.5
 "Kobold, Winged",MM,195.0,humanoid,generic,N,0.25,2,50.0,7.5,13.0,7.5,13.0,5.0,6.0,6.5,6.5
-Korred,VGtM,168.0,fey,generic,N,7.0,3,2900.0,93.5,17.0,160.3,17.0,9.0,9.0,39.0,39.0
+Korred,MPMotM,166.0,fey,generic,N,7.0,3,2900.0,93.5,17.0,140.3,17.0,9.0,11.0,39.0,39.0
+Korred,VGtM,168.0,fey,legacy,N,7.0,3,2900.0,93.5,17.0,160.3,17.0,9.0,9.0,39.0,39.0
 Kostchtchie,BGDiA,105.0,fiend,unique,L,25.0,8,75000.0,243.0,16.0,416.3,20.0,18.0,18.0,216.0,216.0
 Kraken,MM,197.0,monstrosity,legendary,LL,23.0,7,50000.0,472.5,18.0,590.0,22.0,15.0,15.0,284.0,284.0
-Kraken Priest,VGtM,215.0,humanoid,generic,N,5.0,3,1800.0,75.0,10.0,112.5,10.0,5.0,5.0,27.0,27.0
+Kraken Priest,MPMotM,167.0,monstrosity,generic,N,5.0,3,1800.0,75.0,15.0,93.8,15.0,5.0,5.0,55.0,55.0
+Kraken Priest,VGtM,215.0,humanoid,legacy,N,5.0,3,1800.0,75.0,10.0,112.5,10.0,5.0,5.0,27.0,27.0
 "Kraken, Juvenile",GoS,238.0,monstrosity,legendary,L,14.0,5,11500.0,207.0,16.0,310.5,20.0,12.0,12.0,65.0,65.0
 "Krasis, Category 1",GGtR,210.0,monstrosity,generic,N,1.0,2,200.0,19.5,15.0,19.5,15.0,5.0,5.0,16.0,16.0
 "Krasis, Category 2",GGtR,211.0,monstrosity,generic,N,6.0,3,2300.0,136.0,15.0,136.0,15.0,7.0,7.0,34.0,34.0
 Kraul Death Priest,GGtR,214.0,humanoid,generic,N,4.0,2,1100.0,65.0,18.0,80.0,20.0,4.0,4.0,18.666666,18.666666
 Kraul Warrior,GGtR,213.0,humanoid,generic,N,0.5,2,100.0,27.5,18.0,27.5,18.0,4.0,5.0,6.5,6.5
 Krull,BGDiA,110.0,humanoid,unique,N,6.0,3,2300.0,117.0,17.0,117.0,17.0,8.0,8.0,87.333336,87.333336
-Kruthik Hive Lord,MToF,212.0,monstrosity,generic,N,5.0,3,1800.0,102.0,20.0,102.0,20.0,7.0,8.0,26.666666,26.666666
-"Kruthik, Adult",MToF,212.0,monstrosity,generic,N,2.0,2,450.0,39.0,18.0,39.0,18.0,5.0,6.0,12.0,12.0
-"Kruthik, Young",MToF,211.0,monstrosity,generic,N,0.125,2,25.0,9.0,16.0,9.0,16.0,5.0,6.0,5.5,5.5
+Kruthik Hive Lord,MPMotM,169.0,monstrosity,generic,N,5.0,3,1800.0,102.0,20.0,102.0,20.0,7.0,8.0,27.333334,27.333334
+Kruthik Hive Lord,MToF,212.0,monstrosity,legacy,N,5.0,3,1800.0,102.0,20.0,102.0,20.0,7.0,8.0,26.666666,26.666666
+"Kruthik, Adult",MPMotM,169.0,monstrosity,generic,N,2.0,2,450.0,39.0,18.0,39.0,18.0,5.0,6.0,13.0,13.0
+"Kruthik, Adult",MToF,212.0,monstrosity,legacy,N,2.0,2,450.0,39.0,18.0,39.0,18.0,5.0,6.0,12.0,12.0
+"Kruthik, Young",MPMotM,168.0,monstrosity,generic,N,0.125,2,25.0,9.0,16.0,9.0,16.0,5.0,6.0,5.5,5.5
+"Kruthik, Young",MToF,211.0,monstrosity,legacy,N,0.125,2,25.0,9.0,16.0,9.0,16.0,5.0,6.0,5.5,5.5
 Kuo-toa,MM,199.0,humanoid,generic,N,0.25,2,50.0,18.0,13.0,18.0,13.0,3.0,3.0,4.5,4.5
 Kuo-toa Archpriest,MM,200.0,humanoid,generic,N,6.0,3,2300.0,97.5,13.0,97.5,13.0,6.0,6.0,70.666664,70.666664
 Kuo-toa Monitor,MM,198.0,humanoid,generic,N,3.0,2,700.0,65.0,13.0,65.0,13.0,6.0,6.0,21.0,21.0
@@ -772,12 +939,16 @@ Lava Child,WDotMM,313.0,humanoid,generic,N,3.0,2,700.0,60.0,11.0,120.0,11.0,6.0,
 Lawmage,GGtR,228.0,humanoid,generic,N,6.0,3,2300.0,84.5,15.0,84.5,20.0,6.0,6.0,11.0,11.0
 Lazav,GGtR,232.0,monstrosity,unique,L,17.0,6,18000.0,204.0,18.0,294.0,20.0,13.0,13.0,120.0,120.0
 Leonin Iconoclast,MOoT,232.0,humanoid,generic,N,5.0,3,1800.0,67.5,17.0,67.5,19.0,7.0,7.0,54.0,54.0
+Leucrotta,MPMotM,170.0,monstrosity,generic,N,3.0,2,700.0,67.5,14.0,67.5,15.0,6.0,6.0,19.5,19.5
 Leucrotta,TftYP,239.0,monstrosity,generic,N,3.0,2,700.0,67.5,14.0,67.5,16.0,6.0,6.0,24.0,24.0
-Leviathan,MToF,198.0,elemental,legendary,L,20.0,6,25000.0,328.0,17.0,418.0,17.0,16.0,16.0,108.0,108.0
+Leucrotta,VGtM,169.0,monstrosity,legacy,N,3.0,2,700.0,67.5,14.0,67.5,14.0,6.0,6.0,24.0,24.0
+Leviathan,MPMotM,171.0,elemental,legendary,L,20.0,6,25000.0,328.0,17.0,418.0,17.0,14.0,14.0,106.666664,106.666664
+Leviathan,MToF,198.0,elemental,legacy,L,20.0,6,25000.0,328.0,17.0,418.0,17.0,16.0,16.0,108.0,108.0
 Liara Portyr,ToA,227.0,humanoid,unique,N,4.0,2,1100.0,84.5,15.0,84.5,15.0,5.0,5.0,31.0,31.0
 Lich,MM,202.0,undead,generic,N,21.0,7,33000.0,135.0,17.0,281.3,24.0,12.0,12.0,145.0,145.0
 "Lich, Devkarin",GGtR,198.0,undead,legendary,L,14.0,5,11500.0,97.5,14.0,260.6,16.0,9.0,9.0,96.333336,96.333336
 "Lich, Lichen",CM,223.0,undead,legendary,LL,18.0,6,20000.0,225.0,20.0,315.0,22.0,9.0,9.0,122.5,122.5
+Light Devourer,CRCotN,200.0,aberration,generic,N,6.0,3,2300.0,119.0,14.0,119.0,14.0,7.0,7.0,59.333332,59.333332
 Lion,MM,331.0,beast,generic,N,1.0,2,200.0,26.0,12.0,26.0,12.0,5.0,6.0,9.666667,9.666667
 Liondrake,FToD,207.0,monstrosity,generic,N,7.0,3,2900.0,119.0,16.0,238.0,16.0,7.0,8.0,24.666666,24.666666
 Living Bigby's Hand,IDRotF,298.0,construct,generic,N,4.0,2,1100.0,52.5,20.0,52.5,22.0,10.0,10.0,26.0,26.0
@@ -797,10 +968,14 @@ Lizardfolk Subchief,GoS,242.0,humanoid,generic,N,3.0,2,700.0,52.0,14.0,52.0,14.0
 Loading Rig,GGtR,170.0,construct,generic,N,1.0,2,200.0,39.0,18.0,39.0,18.0,6.0,6.0,7.0,7.0
 Locathah,GoS,243.0,humanoid,generic,N,0.5,2,100.0,22.0,13.0,22.0,13.0,3.0,3.0,10.0,10.0
 Locathah Hunter,GoS,243.0,humanoid,generic,N,2.0,2,450.0,33.0,14.0,33.0,16.0,4.0,4.0,22.0,22.0
+Lonely Sorrowsworn,MPMotM,223.0,monstrosity,generic,N,9.0,4,5000.0,112.5,16.0,168.8,16.0,7.0,11.0,49.5,49.5
+Lonely Sorrowsworn,MToF,232.0,monstrosity,legacy,N,9.0,4,5000.0,112.5,16.0,168.0,16.0,7.0,9.0,61.0,61.0
 Lorehold Apprentice,SaCoC,197.0,humanoid,generic,N,2.0,2,450.0,33.0,15.0,33.0,15.0,4.0,4.0,22.0,22.0
 Lorehold Pledgemage,SaCoC,197.0,humanoid,generic,N,4.0,2,1100.0,60.5,16.0,74.5,16.0,5.0,5.0,38.0,41.333332
 Lorehold Professor of Chaos,SaCoC,198.0,humanoid,generic,N,7.0,3,2900.0,110.5,15.0,110.5,19.0,7.0,9.0,39.0,39.0
 Lorehold Professor of Order,SaCoC,198.0,humanoid,generic,N,7.0,3,2900.0,104.0,15.0,134.0,19.0,7.0,9.0,26.0,26.0
+Lost Sorrowsworn,MPMotM,224.0,monstrosity,generic,N,7.0,3,2900.0,78.0,15.0,117.0,15.0,6.0,6.0,63.0,63.0
+Lost Sorrowsworn,MToF,233.0,monstrosity,legacy,N,7.0,3,2900.0,78.0,15.0,117.0,15.0,6.0,6.0,70.0,70.0
 Loup Garou,VRGtR,237.0,monstrosity,legendary,L,13.0,5,10000.0,170.0,16.0,260.0,18.0,9.0,13.0,75.0,75.0
 Madam Eva,CoS,233.0,humanoid,unique,N,10.0,4,5900.0,88.0,10.0,176.0,10.0,9.0,9.0,98.333336,98.333336
 Maddgoths Homunculus,WDotMM,96.0,construct,unique,N,2.0,2,450.0,55.0,13.0,55.0,13.0,4.0,4.0,9.0,9.0
@@ -809,6 +984,9 @@ Mage,MM,347.0,humanoid,generic,N,6.0,3,2300.0,40.5,15.0,40.5,20.0,6.0,6.0,98.0,9
 Mage Hunter,SaCoC,199.0,monstrosity,generic,N,5.0,3,1800.0,85.0,15.0,106.0,17.0,7.0,7.0,30.0,37.0
 "Magen, Demos",IDRotF,300.0,construct,generic,N,2.0,2,450.0,51.0,16.0,51.0,18.0,4.0,4.0,18.0,18.0
 "Magen, Hypnos",IDRotF,301.0,construct,generic,N,1.0,2,200.0,34.0,12.0,34.0,14.0,4.0,4.0,11.0,11.0
+Maggie Keeneyes (tier 1),CRCotN,189.0,giant,unique,N,3.0,2,700.0,85.0,13.0,85.0,13.0,6.0,6.0,13.0,13.0
+Maggie Keeneyes (tier 2),CRCotN,191.0,giant,unique,N,5.0,3,1800.0,114.0,15.0,129.0,15.0,7.0,7.0,26.0,26.0
+Maggie Keeneyes (tier 3),CRCotN,194.0,giant,unique,N,8.0,3,3900.0,142.5,18.0,172.5,18.0,8.0,8.0,32.0,32.0
 Magmin,MM,212.0,elemental,generic,N,0.5,2,100.0,9.0,14.0,18.0,14.0,4.0,4.0,15.333333,15.333333
 Mahadi the Rakshasa,BGDiA,127.0,fiend,unique,N,14.0,5,11500.0,195.5,17.0,293.3,19.0,7.0,7.0,47.0,47.0
 Malformed Kraken,TftYP,239.0,monstrosity,unique,N,10.0,4,5900.0,172.5,17.0,258.8,21.0,11.0,11.0,42.0,42.0
@@ -820,16 +998,23 @@ Manticore,MM,213.0,monstrosity,generic,N,3.0,2,700.0,68.0,14.0,68.0,16.0,5.0,5.0
 Mantrap,ToA,227.0,plant,generic,N,1.0,2,200.0,45.5,12.0,45.5,12.0,5.0,5.0,14.0,14.0
 Marilith,MM,61.0,fiend,generic,N,16.0,5,15000.0,189.0,18.0,236.3,25.0,9.0,9.0,93.0,93.0
 Marlos Urnrayle,PotA,199.0,monstrosity,unique,N,8.0,3,3900.0,136.0,15.0,176.0,19.0,8.0,12.0,47.0,47.0
-Martial Arts Adept,VGtM,216.0,humanoid,generic,N,3.0,2,700.0,60.5,16.0,75.0,16.0,5.0,5.0,21.0,21.0
-Marut,MToF,213.0,construct,generic,N,25.0,8,75000.0,432.0,22.0,522.0,26.0,20.0,20.0,125.0,125.0
+Martial Arts Adept,MPMotM,172.0,humanoid,generic,N,3.0,2,700.0,60.5,16.0,69.0,16.0,5.0,5.0,27.5,27.5
+Martial Arts Adept,VGtM,216.0,humanoid,legacy,N,3.0,2,700.0,60.5,16.0,90.5,16.0,5.0,5.0,22.5,22.5
+Marut,MPMotM,173.0,construct,generic,N,25.0,8,75000.0,432.0,22.0,582.0,26.0,20.0,20.0,125.0,125.0
+Marut,MToF,213.0,construct,legacy,N,25.0,8,75000.0,432.0,22.0,522.0,26.0,20.0,20.0,125.0,125.0
 Master of Souls,BGDiA,234.0,humanoid,generic,N,4.0,2,1100.0,45.0,12.0,45.0,17.0,6.0,6.0,49.333332,49.333332
-Master Thief,VGtM,216.0,humanoid,generic,N,5.0,3,1800.0,84.5,16.0,105.0,17.0,7.0,7.0,35.0,35.0
-Maurezhi,MToF,133.0,fiend,generic,N,7.0,3,2900.0,88.0,15.0,177.0,17.0,6.0,8.0,26.0,26.0
-Maw Demon,VGtM,137.0,fiend,generic,N,1.0,2,200.0,33.0,13.0,66.0,13.0,4.0,4.0,16.0,16.0
+Master Thief,MPMotM,174.0,humanoid,generic,N,5.0,3,1800.0,84.5,16.0,99.5,21.0,7.0,7.0,33.0,33.0
+Master Thief,VGtM,216.0,humanoid,legacy,N,5.0,3,1800.0,84.5,16.0,105.0,17.0,7.0,7.0,35.0,35.0
+Maurezhi,MPMotM,175.0,fiend,generic,N,7.0,3,2900.0,88.0,15.0,177.0,17.0,6.0,10.0,26.0,26.0
+Maurezhi,MToF,133.0,fiend,legacy,N,7.0,3,2900.0,88.0,15.0,177.0,17.0,6.0,8.0,26.0,26.0
+Maw Demon,MPMotM,176.0,fiend,generic,N,1.0,2,200.0,33.0,13.0,33.0,13.0,4.0,4.0,14.666667,14.666667
+Maw Demon,VGtM,137.0,fiend,legacy,N,1.0,2,200.0,33.0,13.0,66.0,13.0,4.0,4.0,16.0,16.0
 Maw of Sekolah,GoS,244.0,monstrosity,unique,L,7.0,3,2900.0,114.0,12.0,154.0,12.0,8.0,8.0,53.0,53.0
+Meazel,MPMotM,177.0,monstrosity,generic,N,1.0,2,200.0,35.0,13.0,35.0,17.0,5.0,9.0,10.0,10.0
 Medusa,MM,214.0,monstrosity,generic,N,6.0,3,2300.0,127.5,15.0,127.5,15.0,5.0,5.0,28.0,28.0
 "Medusa, Theran",MOoT,206.0,monstrosity,generic,N,6.0,3,2300.0,127.5,15.0,127.5,19.0,5.0,9.0,30.0,30.0
-Meenlock,VGtM,170.0,fey,generic,N,2.0,2,450.0,31.5,15.0,31.5,17.0,4.0,4.0,7.0,7.0
+Meenlock,MPMotM,178.0,fey,generic,N,2.0,2,450.0,31.5,15.0,46.5,16.0,4.0,4.0,7.0,7.0
+Meenlock,VGtM,170.0,fey,legacy,N,2.0,2,450.0,31.5,15.0,31.5,17.0,4.0,4.0,7.0,7.0
 Meletian Hoplite,MOoT,229.0,humanoid,generic,N,3.0,2,700.0,49.5,18.0,49.5,18.0,5.0,5.0,18.0,18.0
 Meloon Wardragon,WDH,210.0,humanoid,unique,N,9.0,4,5000.0,143.0,18.0,193.0,18.0,9.0,9.0,44.0,44.0
 "Mephit, Dust",MM,215.0,elemental,generic,N,0.5,2,100.0,17.5,12.0,34.0,12.0,4.0,4.0,4.0,4.0
@@ -841,8 +1026,10 @@ Meloon Wardragon,WDH,210.0,humanoid,unique,N,9.0,4,5000.0,143.0,18.0,193.0,18.0,
 Mercion,WBtW,224.0,humanoid,unique,N,3.0,2,700.0,31.5,19.0,31.5,19.0,5.0,5.0,32.666668,32.666668
 Merfolk,MM,218.0,humanoid,generic,N,0.125,2,25.0,11.0,11.0,11.0,11.0,2.0,2.0,4.5,4.5
 Merfolk Salvager,GoS,244.0,humanoid,generic,N,1.0,2,200.0,22.0,12.0,22.0,12.0,4.0,4.0,12.0,12.0
-Merregon,MToF,166.0,fiend,generic,N,4.0,2,1100.0,45.0,16.0,90.0,18.0,6.0,6.0,27.0,27.0
-Merrenoloth,MToF,249.0,fiend,generic,N,3.0,2,700.0,40.5,13.0,80.0,15.0,5.0,5.0,27.0,27.0
+Merregon,MPMotM,179.0,fiend,generic,N,4.0,2,1100.0,45.0,16.0,90.0,18.0,6.0,6.0,28.5,28.5
+Merregon,MToF,166.0,fiend,legacy,N,4.0,2,1100.0,45.0,16.0,90.0,18.0,6.0,6.0,27.0,27.0
+Merrenoloth,MPMotM,180.0,fiend,generic,N,3.0,2,700.0,40.5,13.0,81.0,16.0,5.0,5.0,8.0,8.0
+Merrenoloth,MToF,249.0,fiend,legacy,N,3.0,2,700.0,40.5,13.0,80.0,15.0,5.0,5.0,27.0,27.0
 Merrow,MM,219.0,monstrosity,generic,N,2.0,2,450.0,45.0,13.0,45.0,13.0,6.0,6.0,17.666666,17.666666
 Merrow Shallowpriest,EGtW,294.0,monstrosity,generic,N,4.0,2,1100.0,75.0,15.0,75.0,15.0,5.0,5.0,56.0,56.0
 Metallic Peacekeeper,FToD,210.0,construct,generic,N,4.0,2,1100.0,68.0,17.0,68.0,17.0,5.0,5.0,33.0,33.0
@@ -858,7 +1045,8 @@ Mind Flayer Lich,VGtM,172.0,undead,legendary,L,22.0,7,41000.0,135.0,17.0,356.3,2
 Mind Flayer Psion,VGtM,71.0,aberration,generic,N,8.0,3,3900.0,71.5,15.0,71.5,19.0,7.0,7.0,52.666668,52.666668
 "Mind Flayer, Vampiric",VRGtR,252.0,undead,generic,N,5.0,3,1800.0,85.0,15.0,85.0,17.0,7.0,7.0,38.0,38.0
 Mind Mage,GGtR,233.0,humanoid,generic,N,5.0,3,1800.0,49.5,15.0,49.5,15.0,8.0,8.0,55.333332,55.333332
-Mindwitness,VGtM,176.0,aberration,generic,N,5.0,3,1800.0,75.0,15.0,75.0,17.0,5.0,5.0,36.0,36.0
+Mindwitness,MPMotM,181.0,aberration,generic,N,5.0,3,1800.0,75.0,15.0,75.0,15.0,5.0,5.0,36.0,36.0
+Mindwitness,VGtM,176.0,aberration,legacy,N,5.0,3,1800.0,75.0,15.0,75.0,17.0,5.0,5.0,36.0,36.0
 Minotaur,MM,223.0,monstrosity,generic,N,3.0,2,700.0,76.5,14.0,76.5,14.0,6.0,6.0,24.333334,24.333334
 Minotaur Living Crystal Statue,GoS,245.0,construct,unique,N,6.0,3,2300.0,136.0,15.0,136.0,15.0,7.0,7.0,41.0,41.0
 Miraj Vizann,PotA,198.0,humanoid,unique,N,6.0,3,2300.0,82.5,13.0,82.5,17.0,7.0,7.0,68.666664,68.666664
@@ -866,8 +1054,13 @@ Mirt,WDH,211.0,humanoid,unique,N,9.0,4,5000.0,153.0,16.0,153.0,19.0,9.0,9.0,52.0
 Mister Light,WBtW,26.0,humanoid,unique,N,3.0,2,700.0,77.0,13.0,87.0,13.0,5.0,5.0,22.0,22.0
 Mister Witch,WBtW,25.0,humanoid,unique,N,3.0,2,700.0,82.5,10.0,92.5,10.0,4.0,4.0,22.0,22.0
 Molliver,WBtW,226.0,humanoid,unique,N,3.0,2,700.0,60.0,15.0,69.0,16.0,5.0,5.0,27.0,27.0
-Moloch,MToF,176.0,fiend,unique,L,21.0,7,33000.0,253.0,19.0,403.0,23.0,15.0,15.0,139.0,139.0
-Molydeus,MToF,134.0,fiend,legendary,L,21.0,7,33000.0,216.0,19.0,306.0,23.0,16.0,16.0,144.0,144.0
+Moloch,MPMotM,183.0,fiend,unique,L,21.0,7,33000.0,253.0,19.0,403.0,23.0,15.0,15.0,145.0,145.0
+Moloch,MToF,176.0,fiend,legacy,L,21.0,7,33000.0,253.0,19.0,403.0,23.0,15.0,15.0,139.0,139.0
+Molydeus,MPMotM,184.0,fiend,legendary,L,21.0,7,33000.0,216.0,19.0,306.0,23.0,16.0,16.0,181.5,181.5
+Molydeus,MToF,134.0,fiend,legacy,L,21.0,7,33000.0,216.0,19.0,306.0,23.0,16.0,16.0,144.0,144.0
+Monastic High Curator,CRCotN,201.0,humanoid,generic,N,10.0,4,5900.0,130.0,19.0,130.0,19.0,10.0,10.0,69.666664,88.333336
+Monastic Infiltrator,CRCotN,202.0,humanoid,generic,N,6.0,3,2300.0,112.5,18.0,112.5,18.0,8.0,8.0,42.0,42.0
+Monastic Operative,CRCotN,202.0,humanoid,generic,N,5.0,3,1800.0,84.5,17.0,84.5,17.0,7.0,7.0,39.5,39.5
 Mongrelfolk,CoS,234.0,humanoid,generic,N,0.25,2,50.0,26.0,11.0,26.0,11.0,3.0,3.0,6.0,6.0
 Monodrone,MM,224.0,construct,generic,N,0.125,2,25.0,5.5,15.0,5.5,15.0,3.0,3.0,4.5,4.5
 Moonstone Dragon Wyrmling,FToD,213.0,dragon,generic,N,2.0,2,450.0,39.0,17.0,39.0,21.0,5.0,5.0,19.666666,19.666666
@@ -879,44 +1072,55 @@ Moonstone Dragon Wyrmling,FToD,213.0,dragon,generic,N,2.0,2,450.0,39.0,17.0,39.0
 Moorbounder,EGtW,295.0,beast,generic,N,1.0,2,200.0,30.0,13.0,30.0,13.0,6.0,6.0,14.0,14.0
 "Moorbounder, Bristled",EGtW,295.0,beast,generic,N,3.0,2,700.0,52.5,15.0,52.5,15.0,6.0,6.0,25.0,25.0
 Mordakhesh,ERftLW,301.0,fiend,legendary,L,15.0,5,13000.0,170.0,18.0,212.5,18.0,10.0,10.0,122.0,122.0
-Morkoth,VGtM,178.0,aberration,generic,N,11.0,4,7200.0,130.0,17.0,130.0,19.0,9.0,9.0,91.666664,91.666664
+Morkoth,MPMotM,186.0,aberration,generic,N,11.0,4,7200.0,165.0,17.0,195.0,19.0,9.0,9.0,56.0,66.0
+Morkoth,VGtM,178.0,aberration,legacy,N,11.0,4,7200.0,130.0,17.0,130.0,19.0,9.0,9.0,91.666664,91.666664
 Mortlock Vanthampur,BGDiA,26.0,humanoid,unique,N,3.0,2,700.0,90.0,12.0,90.0,12.0,6.0,6.0,28.0,28.0
 Mountain Goat,IDRotF,304.0,beast,generic,N,0.125,2,25.0,13.0,11.0,13.0,11.0,4.0,4.0,6.6666665,6.6666665
-Mouth of Grolantor,VGtM,149.0,giant,generic,N,6.0,3,2300.0,105.0,14.0,127.5,14.0,8.0,8.0,45.3,45.3
+Mouth of Grolantor,MPMotM,187.0,giant,generic,N,6.0,3,2300.0,105.0,14.0,105.0,14.0,8.0,8.0,55.5,55.5
+Mouth of Grolantor,VGtM,149.0,giant,legacy,N,6.0,3,2300.0,105.0,14.0,127.5,14.0,8.0,8.0,45.3,45.3
 Mr. Dory,GoS,246.0,aberration,unique,N,10.0,4,5900.0,170.0,18.0,170.0,18.0,9.0,9.0,64.0,64.0
 Muiral,WDotMM,314.0,monstrosity,unique,L,13.0,5,10000.0,195.5,16.0,285.0,21.0,9.0,9.0,105.0,105.0
 Mule,MM,333.0,beast,generic,N,0.125,2,25.0,11.0,10.0,11.0,10.0,2.0,2.0,4.5,4.5
 Mummy,MM,228.0,undead,generic,N,3.0,2,700.0,58.5,11.0,116.0,11.0,5.0,5.0,20.0,20.0
-Mummy Lord,MM,229.0,undead,legendary,LL,15.0,5,13000.0,97.5,17.0,175.5,21.0,9.0,9.0,166.33333,166.33333
 Mummy Lord,MM,229.0,undead,legendary,L,15.0,5,13000.0,97.5,17.0,145.5,21.0,9.0,9.0,157.0,157.0
+Mummy Lord,MM,229.0,undead,legendary,LL,16.0,5,15000.0,97.5,17.0,175.5,21.0,9.0,9.0,166.33333,166.33333
 Mwaxanaré,ToA,228.0,humanoid,unique,N,0.125,2,25.0,13.5,10.0,13.5,10.0,5.0,5.0,5.0,5.0
 Myconid Adult,MM,232.0,plant,generic,N,0.5,2,100.0,22.0,12.0,22.0,12.0,2.0,2.0,10.0,10.0
 Myconid Sovereign,MM,232.0,plant,generic,N,2.0,2,450.0,60.0,13.0,60.0,13.0,3.0,3.0,15.0,15.0
-Nabassu,MToF,135.0,fiend,generic,N,15.0,5,13000.0,190.0,18.0,286.3,20.0,11.0,11.0,62.0,62.0
+Nabassu,MPMotM,188.0,fiend,generic,N,15.0,5,13000.0,190.0,18.0,237.5,20.0,11.0,11.0,79.5,79.5
+Nabassu,MToF,135.0,fiend,legacy,N,15.0,5,13000.0,190.0,18.0,286.3,20.0,11.0,11.0,62.0,62.0
 Naergoth Bladelord,RoT,90.0,undead,unique,N,11.0,4,7200.0,135.0,18.0,168.8,18.0,9.0,9.0,60.0,60.0
 "Naga, Bone",MM,233.0,undead,generic,N,4.0,2,1100.0,58.5,15.0,58.5,15.0,5.0,5.0,44.0,44.0
 "Naga, Guardian",MM,234.0,monstrosity,generic,N,10.0,4,5900.0,127.5,18.0,127.5,18.0,8.0,8.0,84.0,84.0
 "Naga, Spirit",MM,234.0,monstrosity,generic,N,8.0,3,3900.0,75.0,15.0,75.0,17.0,6.0,6.0,70.0,70.0
-Nagpa,MToF,215.0,humanoid,generic,N,17.0,6,18000.0,187.0,19.0,257.0,21.0,12.0,12.0,105.0,105.0
+Nagpa,MPMotM,189.0,monstrosity,generic,N,17.0,6,18000.0,203.5,19.0,263.5,21.0,12.0,12.0,117.0,117.0
+Nagpa,MToF,215.0,humanoid,legacy,N,17.0,6,18000.0,187.0,19.0,257.0,21.0,12.0,12.0,105.0,105.0
 Naiad,MOoT,236.0,fey,generic,N,2.0,2,450.0,31.5,15.0,31.5,17.0,6.0,6.0,18.0,18.0
 Nalfeshnee,MM,62.0,fiend,generic,N,13.0,5,10000.0,184.0,18.0,230.0,22.0,10.0,10.0,62.0,62.0
 Narrak,OotA,232.0,humanoid,unique,N,2.0,2,450.0,40.5,15.0,50.0,17.0,5.0,5.0,21.333334,21.333334
-Narzugon,MToF,167.0,fiend,generic,N,13.0,5,10000.0,112.5,20.0,265.0,24.0,10.0,10.0,54.0,54.0
+Narzugon,MPMotM,190.0,fiend,generic,N,13.0,5,10000.0,112.5,20.0,140.6,24.0,10.0,10.0,114.0,114.0
+Narzugon,MToF,167.0,fiend,legacy,N,13.0,5,10000.0,112.5,20.0,265.0,24.0,10.0,10.0,54.0,54.0
 Nass Lantomir's Ghost,IDRotF,276.0,undead,unique,N,6.0,3,2300.0,45.0,11.0,112.5,11.0,6.0,6.0,36.0,36.0
 Necrichor,VRGtR,238.0,undead,generic,N,7.0,3,2900.0,67.5,12.0,215.0,14.0,5.0,5.0,24.0,46.5
-Necromancer,VGtM,217.0,humanoid,generic,N,9.0,4,5000.0,66.0,15.0,121.5,15.0,7.0,7.0,50.0,50.0
 Necromite of Myrkul,BGDiA,234.0,humanoid,generic,N,0.5,2,100.0,13.0,11.0,13.0,11.0,5.0,5.0,8.0,8.0
-Neogi,VGtM,180.0,aberration,generic,N,3.0,2,700.0,33.0,15.0,33.0,17.0,5.0,5.0,28.0,28.0
-Neogi Hatchling,VGtM,179.0,aberration,generic,N,0.125,2,25.0,7.5,11.0,7.5,11.0,3.0,3.0,10.5,10.5
-Neogi Master,VGtM,180.0,aberration,generic,N,4.0,2,1100.0,71.5,15.0,71.5,18.0,5.0,5.0,28.0,28.0
-Neothelid,VGtM,181.0,aberration,generic,N,13.0,5,10000.0,325.5,16.0,325.5,20.0,13.0,13.0,69.333336,69.333336
+Neogi,MPMotM,192.0,aberration,generic,N,3.0,2,700.0,33.0,15.0,43.0,15.0,5.0,5.0,36.5,36.5
+Neogi,VGtM,180.0,aberration,legacy,N,3.0,2,700.0,33.0,15.0,33.0,17.0,5.0,5.0,28.0,28.0
+Neogi Hatchling,MPMotM,191.0,aberration,generic,N,0.125,2,25.0,7.5,11.0,7.5,11.0,3.0,3.0,7.0,7.0
+Neogi Hatchling,VGtM,179.0,aberration,legacy,N,0.125,2,25.0,7.5,11.0,7.5,11.0,3.0,3.0,10.5,10.5
+Neogi Master,MPMotM,192.0,aberration,generic,N,4.0,2,1100.0,71.5,15.0,81.5,15.0,6.0,6.0,29.0,29.0
+Neogi Master,VGtM,180.0,aberration,legacy,N,4.0,2,1100.0,71.5,15.0,71.5,18.0,5.0,5.0,28.0,28.0
+Neothelid,MPMotM,193.0,aberration,generic,N,13.0,5,10000.0,232.5,16.0,232.5,20.0,13.0,13.0,45.0,66.0
+Neothelid,VGtM,181.0,aberration,legacy,N,13.0,5,10000.0,325.5,16.0,325.5,20.0,13.0,13.0,69.333336,69.333336
 Nereid,TftYP,240.0,fey,unique,N,2.0,2,450.0,44.0,13.0,44.0,18.0,5.0,10.0,18.666666,18.666666
 Nergaliid,EGtW,296.0,fiend,generic,N,3.0,2,700.0,42.0,12.0,126.0,16.0,6.0,6.0,11.333333,11.333333
 Neronvain,RoT,91.0,humanoid,unique,N,9.0,4,5000.0,117.0,17.0,117.0,17.0,7.0,7.0,40.0,40.0
 Night Blade,BGDiA,233.0,humanoid,generic,N,0.25,2,50.0,11.0,12.0,11.0,12.0,4.0,4.0,8.0,8.0
 Nightmare,MM,235.0,fiend,generic,N,3.0,2,700.0,68.0,13.0,68.0,13.0,6.0,6.0,20.0,20.0
 Nightmare Shepherd,MOoT,221.0,fiend,generic,N,11.0,4,7200.0,133.0,18.0,226.3,20.0,8.0,8.0,79.0,79.0
-Nightwalker,MToF,216.0,undead,generic,N,20.0,6,25000.0,297.0,14.0,371.3,14.0,12.0,14.0,84.0,84.0
+Nightwalker,MPMotM,194.0,undead,generic,N,20.0,6,25000.0,337.5,14.0,357.5,14.0,12.0,12.0,102.5,102.5
+Nightwalker,MToF,216.0,undead,legacy,N,20.0,6,25000.0,297.0,14.0,371.3,14.0,12.0,14.0,84.0,84.0
+Nilbog,MPMotM,195.0,fey,generic,N,1.0,2,200.0,7.0,13.0,57.8,17.0,4.0,8.0,5.5,5.5
+Nilbog,VGtM,182.0,humanoid,legacy,N,1.0,2,200.0,7.0,13.0,46.0,17.0,4.0,8.0,5.0,5.0
 Nimblewright,WDH,212.0,construct,generic,N,4.0,2,1100.0,45.0,18.0,45.0,21.0,6.0,6.0,22.0,22.0
 Nine-Fingers Keene,BGDiA,170.0,humanoid,unique,N,5.0,3,1800.0,84.5,15.0,99.5,17.0,7.0,9.0,36.0,36.0
 Nintra Siotta,CM,197.0,fey,unique,LL,16.0,5,15000.0,306.0,17.0,396.0,19.0,12.0,12.0,62.666668,62.666668
@@ -925,23 +1129,34 @@ Noble,MM,348.0,humanoid,generic,N,0.125,2,25.0,9.0,15.0,9.0,16.0,3.0,3.0,5.5,5.5
 Nosferatu,VRGtR,239.0,undead,generic,N,8.0,3,3900.0,85.5,17.0,148.5,19.0,8.0,8.0,39.5,39.5
 Nothic,MM,236.0,aberration,generic,N,2.0,2,450.0,45.0,15.0,45.0,15.0,4.0,4.0,12.0,12.0
 Nupperibo,BGDiA,239.0,fiend,generic,N,0.5,2,100.0,11.0,13.0,22.0,13.0,5.0,5.0,10.0,10.0
-Nupperibo,MToF,168.0,fiend,generic,N,0.5,2,100.0,11.0,13.0,22.0,13.0,5.0,5.0,9.0,9.0
+Nupperibo,MPMotM,196.0,fiend,generic,N,0.5,2,100.0,11.0,13.0,11.0,13.0,5.0,5.0,16.5,16.5
+Nupperibo,MToF,168.0,fiend,legacy,N,0.5,2,100.0,11.0,13.0,22.0,13.0,5.0,5.0,9.0,9.0
 Nycaloth,MM,314.0,fiend,generic,N,9.0,4,5000.0,123.5,18.0,184.5,20.0,9.0,9.0,44.0,44.0
 Nyx-Fleece Ram,MOoT,233.0,monstrosity,generic,N,1.0,2,200.0,27.5,14.0,27.5,16.0,5.0,5.0,12.666667,12.666667
-Oaken Bolter,MToF,126.0,construct,generic,N,5.0,3,1800.0,58.5,16.0,116.0,18.0,7.0,7.0,31.333334,31.333334
-Oblex Spawn,MToF,217.0,ooze,generic,N,0.25,2,50.0,18.0,13.0,18.0,13.0,5.0,5.0,8.0,8.0
-"Oblex, Adult",MToF,218.0,ooze,generic,N,5.0,3,1800.0,75.0,14.0,75.0,14.0,7.0,7.0,30.0,30.0
+Oblex Spawn,MPMotM,197.0,ooze,generic,N,0.25,2,50.0,18.0,13.0,18.0,13.0,5.0,5.0,8.0,8.0
+Oblex Spawn,MToF,217.0,ooze,legacy,N,0.25,2,50.0,18.0,13.0,18.0,13.0,5.0,5.0,8.0,8.0
+"Oblex, Adult",MPMotM,198.0,ooze,generic,N,5.0,3,1800.0,75.0,14.0,75.0,14.0,7.0,7.0,54.0,54.0
+"Oblex, Adult",MToF,218.0,ooze,legacy,N,5.0,3,1800.0,75.0,14.0,75.0,14.0,7.0,7.0,30.0,30.0
+"Oblex, Elder",MPMotM,199.0,ooze,generic,N,10.0,4,5900.0,115.0,16.0,115.0,16.0,7.0,7.0,106.0,106.0
+Occult Extollant,CRCotN,204.0,humanoid,generic,N,6.0,3,2300.0,91.0,15.0,91.0,15.0,7.0,7.0,57.5,57.5
+Occult Initiate,CRCotN,205.0,humanoid,generic,N,2.0,2,450.0,66.0,15.0,66.0,15.0,4.0,4.0,15.333333,15.333333
+Occult Silvertongue,CRCotN,205.0,humanoid,generic,N,8.0,3,3900.0,127.5,16.0,127.5,18.0,8.0,8.0,55.0,55.0
 Oceanus,GoS,246.0,humanoid,unique,N,0.5,2,100.0,30.0,12.0,30.0,12.0,4.0,4.0,6.0,6.0
 Ochre Jelly,MM,243.0,ooze,generic,N,2.0,2,450.0,45.0,8.0,45.0,8.0,4.0,4.0,12.5,12.5
 "Octopus, Giant",MM,326.0,beast,generic,N,1.0,2,200.0,52.0,11.0,52.0,11.0,5.0,5.0,10.0,10.0
 Ogre,MM,237.0,giant,generic,N,2.0,2,450.0,59.5,11.0,59.5,11.0,6.0,6.0,13.0,13.0
-Ogre Battering Ram,MToF,220.0,giant,generic,N,4.0,2,1100.0,59.5,14.0,59.5,18.0,6.0,10.0,31.0,31.0
-Ogre Bolt Launcher,MToF,220.0,giant,generic,N,2.0,2,450.0,59.5,13.0,59.5,13.0,3.0,3.0,17.0,17.0
-Ogre Chain Brute,MToF,221.0,giant,generic,N,3.0,2,700.0,59.5,11.0,59.5,11.0,6.0,6.0,16.0,16.0
-Ogre Howdah,MToF,221.0,giant,generic,N,2.0,2,450.0,59.5,13.0,59.5,13.0,6.0,6.0,11.0,11.0
+Ogre Battering Ram,MPMotM,200.0,giant,generic,N,4.0,2,1100.0,76.5,11.0,76.5,11.0,6.0,6.0,45.0,45.0
+Ogre Battering Ram,MToF,220.0,giant,legacy,N,4.0,2,1100.0,59.5,14.0,59.5,18.0,6.0,10.0,31.0,31.0
+Ogre Bolt Launcher,MPMotM,200.0,giant,generic,N,2.0,2,450.0,59.5,13.0,59.5,13.0,3.0,3.0,17.5,17.5
+Ogre Bolt Launcher,MToF,220.0,giant,legacy,N,2.0,2,450.0,59.5,13.0,59.5,13.0,3.0,3.0,17.0,17.0
+Ogre Chain Brute,MPMotM,201.0,giant,generic,N,3.0,2,700.0,59.5,11.0,73.5,11.0,6.0,6.0,15.666667,15.666667
+Ogre Chain Brute,MToF,221.0,giant,legacy,N,3.0,2,700.0,59.5,11.0,59.5,11.0,6.0,6.0,16.0,16.0
+Ogre Howdah,MPMotM,201.0,giant,generic,N,2.0,2,450.0,59.5,15.0,59.5,15.0,6.0,6.0,11.0,11.0
+Ogre Howdah,MToF,221.0,giant,legacy,N,2.0,2,450.0,59.5,13.0,59.5,13.0,6.0,6.0,11.0,11.0
 Ogre Zombie,MM,316.0,undead,generic,N,2.0,2,450.0,85.5,8.0,85.5,8.0,6.0,6.0,13.0,13.0
 Ogremoch,PotA,216.0,elemental,unique,LL,20.0,6,25000.0,526.5,20.0,616.5,26.0,14.0,18.0,78.0,78.0
-Oinoloth,MToF,251.0,fiend,generic,N,12.0,4,8400.0,126.0,17.0,157.5,19.0,8.0,8.0,76.666664,76.666664
+Oinoloth,MPMotM,202.0,fiend,generic,N,12.0,4,8400.0,119.0,17.0,148.8,23.0,8.0,12.0,86.0,86.0
+Oinoloth,MToF,251.0,fiend,legacy,N,12.0,4,8400.0,126.0,17.0,157.5,19.0,8.0,8.0,76.666664,76.666664
 Olhydra,PotA,218.0,elemental,unique,LL,18.0,6,20000.0,324.0,18.0,517.5,22.0,11.0,11.0,135.0,135.0
 One-Eyed Shiver,PotA,207.0,humanoid,generic,N,3.0,2,700.0,49.5,15.0,49.5,15.0,5.0,5.0,42.666668,42.666668
 Oni,MM,239.0,giant,generic,N,7.0,3,2900.0,110.5,16.0,140.0,18.0,7.0,7.0,44.0,44.0
@@ -956,20 +1171,23 @@ Orc Hand of Yurtrus,VGtM,184.0,humanoid,generic,N,2.0,2,450.0,30.0,12.0,30.0,12.
 Orc Nurtured One of Yurtrus,VGtM,184.0,humanoid,generic,N,0.5,2,100.0,30.0,9.0,30.0,9.0,4.0,4.0,16.333334,18.333334
 Orc Red Fang of Shargaas,VGtM,185.0,humanoid,generic,N,3.0,2,700.0,52.0,15.0,52.0,15.0,5.0,5.0,33.333332,33.333332
 Orc War Chief,MM,246.0,humanoid,generic,N,4.0,2,1100.0,93.5,16.0,93.5,18.0,6.0,6.0,32.0,32.0
-Orcus,MToF,153.0,fiend,unique,LL,26.0,8,90000.0,405.0,20.0,618.8,24.0,18.0,18.0,191.33333,191.33333
+Orcus,MPMotM,204.0,fiend,unique,LL,26.0,8,90000.0,405.0,20.0,618.8,24.0,19.0,19.0,204.0,204.0
+Orcus,MToF,153.0,fiend,legacy,LL,26.0,8,90000.0,405.0,20.0,618.8,24.0,18.0,18.0,191.33333,191.33333
 Orcus,OotA,245.0,fiend,unique,LL,26.0,8,90000.0,405.0,20.0,618.8,24.0,18.0,18.0,218.33333,218.33333
 Oread,MOoT,237.0,fey,generic,N,4.0,2,1100.0,49.5,16.0,49.5,18.0,6.0,6.0,25.666666,25.666666
 Oreioth,PotA,211.0,humanoid,unique,N,2.0,2,450.0,39.0,14.0,50.0,14.0,5.0,5.0,25.5,25.5
 Oriq Blood Mage,SaCoC,201.0,humanoid,generic,N,9.0,4,5000.0,127.5,16.0,167.5,18.0,9.0,9.0,65.666664,65.666664
 Oriq Recruiter,SaCoC,202.0,humanoid,generic,N,4.0,2,1100.0,55.0,16.0,55.0,18.0,6.0,6.0,43.0,43.0
 Orog,MM,247.0,humanoid,generic,N,2.0,2,450.0,42.5,18.0,42.5,18.0,6.0,6.0,20.0,20.0
-Orthon,MToF,169.0,fiend,generic,N,10.0,4,5900.0,105.0,17.0,180.0,21.0,10.0,14.0,39.0,39.0
+Orthon,MPMotM,205.0,fiend,generic,N,10.0,4,5900.0,105.0,17.0,187.5,21.0,10.0,10.0,37.333332,49.333332
+Orthon,MToF,169.0,fiend,legacy,N,10.0,4,5900.0,105.0,17.0,180.0,21.0,10.0,14.0,39.0,39.0
 Orzhov Giant,GGtR,202.0,giant,generic,N,6.0,3,2300.0,84.0,18.0,84.0,18.0,9.0,11.0,50.0,50.0
 Otto,WDotMM,96.0,dragon,unique,N,3.0,2,700.0,104.0,15.0,104.0,19.0,7.0,7.0,11.0,11.0
 Otyugh,MM,248.0,aberration,generic,N,5.0,3,1800.0,114.0,14.0,114.0,14.0,6.0,6.0,34.0,34.0
 Owlbear,MM,249.0,monstrosity,generic,N,3.0,2,700.0,59.5,13.0,59.5,13.0,7.0,7.0,24.0,24.0
 "Owlbear, Snowy",IDRotF,309.0,monstrosity,generic,N,3.0,2,700.0,59.5,13.0,59.5,13.0,7.0,7.0,24.0,24.0
-Ox,VGtM,208.0,beast,generic,N,0.25,2,50.0,15.0,10.0,15.0,10.0,6.0,6.0,9.833333,9.833333
+Ox,MPMotM,72.0,beast,generic,N,0.25,2,50.0,15.0,10.0,15.0,10.0,6.0,6.0,9.833333,9.833333
+Ox,VGtM,208.0,beast,legacy,N,0.25,2,50.0,15.0,10.0,15.0,10.0,6.0,6.0,9.833333,9.833333
 Panther,MM,333.0,beast,generic,N,0.25,2,50.0,13.5,12.0,13.5,12.0,4.0,4.0,7.0,7.0
 Pegasus,MM,250.0,celestial,generic,N,2.0,2,450.0,59.5,12.0,59.5,12.0,6.0,6.0,11.0,11.0
 Pentadrone,MM,226.0,construct,generic,N,2.0,2,450.0,32.5,16.0,32.5,16.0,4.0,4.0,25.0,25.0
@@ -979,7 +1197,8 @@ Pest Mascot,SaCoC,203.0,monstrosity,generic,N,0.25,2,50.0,22.0,13.0,37.0,13.0,4.
 Phantom Warrior,CoS,235.0,undead,generic,N,3.0,2,700.0,45.0,16.0,90.0,16.0,5.0,5.0,14.0,14.0
 Pharblex Splattergoo,HotDQ,91.0,humanoid,unique,N,3.0,2,700.0,59.5,15.0,59.5,15.0,5.0,5.0,36.0,36.0
 Phase Spider,MM,334.0,monstrosity,generic,N,3.0,2,700.0,32.5,13.0,64.0,13.0,4.0,4.0,25.0,25.0
-Phoenix,MToF,199.0,elemental,legendary,L,16.0,5,15000.0,175.0,18.0,265.0,18.0,13.0,13.0,109.333336,109.333336
+Phoenix,MPMotM,206.0,elemental,legendary,L,16.0,5,15000.0,175.0,18.0,331.3,18.0,13.0,13.0,91.666664,102.666664
+Phoenix,MToF,199.0,elemental,legacy,L,16.0,5,15000.0,175.0,18.0,265.0,18.0,13.0,13.0,109.333336,109.333336
 Phylaskia,MOoT,239.0,undead,generic,N,9.0,4,5000.0,104.5,18.0,118.5,18.0,9.0,9.0,66.0,66.0
 Pidlwick II,CoS,236.0,construct,unique,N,0.25,2,50.0,10.5,14.0,10.5,14.0,4.0,5.0,4.0,4.0
 Piercer,MM,252.0,monstrosity,generic,N,0.5,2,100.0,22.5,15.0,12.5,15.0,3.0,3.0,7.0,7.0
@@ -1025,8 +1244,10 @@ Quandrix Professor of Substance,SaCoC,209.0,humanoid,generic,N,7.0,3,2900.0,104.
 Quandrix Professor of Theory,SaCoC,209.0,humanoid,generic,N,7.0,3,2900.0,97.5,15.0,137.5,17.0,7.0,7.0,32.666668,39.333332
 Quasit,MM,63.0,fiend,generic,N,1.0,2,200.0,7.5,13.0,14.0,15.0,4.0,4.0,9.0,9.0
 Quenthel Baenre,OotA,204.0,humanoid,unique,N,22.0,7,41000.0,132.0,19.0,244.0,21.0,12.0,12.0,75.0,75.0
-Quetzalcoatlus,VGtM,140.0,beast,generic,N,2.0,2,450.0,30.0,13.0,30.0,13.0,4.0,4.0,22.0,22.0
-Quickling,VGtM,187.0,fey,generic,N,1.0,2,200.0,10.5,16.0,10.5,21.0,8.0,8.0,25.5,25.5
+Quetzalcoatlus,MPMotM,96.0,beast,generic,N,2.0,2,450.0,30.0,13.0,30.0,15.0,4.0,4.0,23.0,23.0
+Quetzalcoatlus,VGtM,140.0,beast,legacy,N,2.0,2,450.0,30.0,13.0,30.0,13.0,4.0,4.0,22.0,22.0
+Quickling,MPMotM,208.0,fey,generic,N,1.0,2,200.0,10.5,16.0,10.5,21.0,8.0,8.0,25.5,25.5
+Quickling,VGtM,187.0,fey,legacy,N,1.0,2,200.0,10.5,16.0,10.5,21.0,8.0,8.0,25.5,25.5
 Radiant Idol,ERftLW,308.0,celestial,generic,N,11.0,4,7200.0,142.5,18.0,177.5,20.0,10.0,10.0,61.333332,61.333332
 Rahadin,CoS,237.0,humanoid,unique,N,10.0,4,5900.0,135.0,18.0,135.0,18.0,10.0,10.0,59.0,59.0
 Rak Tulkhesh,ERftLW,303.0,fiend,unique,L,28.0,8,120000.0,478.5,25.0,710.0,28.0,17.0,17.0,210.0,210.0
@@ -1046,14 +1267,16 @@ Red Dragon Wyrmling,MM,98.0,dragon,generic,N,4.0,2,1100.0,75.0,17.0,75.0,21.0,6.
 "Red Dragon, Young",MM,98.0,dragon,generic,N,10.0,4,5900.0,178.5,18.0,178.5,20.0,10.0,10.0,66.0,66.0
 Red Greatwyrm,FToD,168.0,dragon,legendary,L,27.0,8,105000.0,533.0,22.0,653.0,24.0,18.0,18.0,183.0,183.0
 "Red Shadow Dragon, Young",MM,85.0,dragon,generic,N,13.0,5,10000.0,178.5,18.0,178.5,21.0,10.0,11.0,68.0,68.0
-Redcap,VGtM,188.0,fey,generic,N,3.0,2,700.0,45.0,14.0,45.0,14.0,6.0,6.0,27.0,27.0
+Redcap,MPMotM,208.0,fey,generic,N,3.0,2,700.0,45.0,14.0,45.0,14.0,6.0,6.0,27.0,27.0
+Redcap,VGtM,188.0,fey,legacy,N,3.0,2,700.0,45.0,14.0,45.0,14.0,6.0,6.0,27.0,27.0
 Relentless Juggernaut,VRGtR,243.0,fiend,legendary,L,12.0,4,8400.0,161.0,17.0,311.0,19.0,10.0,10.0,61.0,61.0
 Relentless Slasher,VRGtR,242.0,fiend,legendary,L,8.0,3,3900.0,84.5,15.0,104.5,17.0,7.0,7.0,98.5,98.5
 Relic Sloth,SaCoC,210.0,beast,generic,N,2.0,2,450.0,76.0,13.0,76.0,13.0,7.0,7.0,14.0,14.0
 Remallia Haventree,WDH,214.0,humanoid,unique,N,9.0,4,5000.0,66.0,15.0,162.0,20.0,8.0,8.0,76.666664,76.666664
 Remorhaz,MM,258.0,monstrosity,generic,N,11.0,4,7200.0,195.5,17.0,195.5,17.0,11.0,11.0,84.0,84.0
 "Remorhaz, Young",MM,258.0,monstrosity,generic,N,5.0,3,1800.0,93.5,14.0,93.5,14.0,6.0,6.0,34.0,34.0
-Retriever,MToF,222.0,construct,generic,N,14.0,5,11500.0,210.0,19.0,315.0,21.0,11.0,11.0,57.0,57.0
+Retriever,MPMotM,209.0,construct,generic,N,14.0,5,11500.0,210.0,19.0,360.0,21.0,11.0,11.0,48.333332,48.333332
+Retriever,MToF,222.0,construct,legacy,N,14.0,5,11500.0,210.0,19.0,315.0,21.0,11.0,11.0,57.0,57.0
 Returned Drifter,MOoT,240.0,undead,generic,N,0.25,2,50.0,11.0,13.0,11.0,13.0,4.0,4.0,9.0,9.0
 Returned Kakomantis,MOoT,240.0,undead,generic,N,4.0,2,1100.0,65.0,15.0,65.0,15.0,4.0,8.0,17.0,17.0
 Returned Palamnite,MOoT,241.0,undead,generic,N,4.0,2,1100.0,65.0,15.0,65.0,15.0,5.0,9.0,32.0,32.0
@@ -1070,12 +1293,12 @@ Roc,MM,260.0,monstrosity,generic,N,11.0,4,7200.0,248.0,15.0,248.0,17.0,13.0,13.0
 Roper,MM,261.0,monstrosity,generic,N,5.0,3,1800.0,93.5,20.0,153.0,20.0,7.0,11.0,22.0,22.0
 "Roper, Molten Magma",PotA,143.0,monstrosity,generic,N,11.0,4,7200.0,93.5,20.0,213.5,20.0,7.0,7.0,54.0,54.0
 Rothé,VGtM,207.0,beast,generic,N,0.25,2,50.0,15.0,10.0,15.0,10.0,6.0,6.0,9.833333,9.833333
-"Rothé, Deep",VGtM,207.0,beast,generic,N,0.25,2,50.0,13.0,10.0,13.0,10.0,6.0,6.0,9.833333,9.833333
 Rubblebelt Stalker,GGtR,239.0,humanoid,generic,N,0.5,2,100.0,11.0,14.0,11.0,18.0,4.0,8.0,11.0,11.0
 Rug of Smothering,MM,20.0,construct,generic,N,2.0,2,450.0,33.0,12.0,33.0,12.0,5.0,5.0,10.0,10.0
 Ruin Grinder,SaCoC,211.0,construct,generic,N,5.0,3,1800.0,82.5,16.0,82.5,16.0,9.0,9.0,26.0,26.0
 Rust Monster,MM,262.0,monstrosity,generic,N,0.5,2,100.0,27.5,14.0,27.5,14.0,3.0,3.0,5.0,5.0
-Rutterkin,MToF,136.0,fiend,generic,N,2.0,2,450.0,37.5,12.0,74.0,12.0,4.0,4.0,12.0,12.0
+Rutterkin,MPMotM,210.0,fiend,generic,N,2.0,2,450.0,37.5,12.0,93.8,12.0,4.0,8.0,12.5,12.5
+Rutterkin,MToF,136.0,fiend,legacy,N,2.0,2,450.0,37.5,12.0,74.0,12.0,4.0,4.0,12.0,12.0
 Sacred Stone Monk,PotA,196.0,humanoid,generic,N,0.5,2,100.0,22.0,14.0,22.0,15.0,4.0,4.0,10.0,10.0
 Saeth Cromley,WDH,215.0,humanoid,unique,N,3.0,2,700.0,58.5,17.0,58.5,17.0,5.0,5.0,20.0,20.0
 Sage,CM,9.0,humanoid,generic,N,0.5,2,100.0,22.5,13.0,22.5,18.0,6.0,6.0,9.0,9.0
@@ -1093,7 +1316,6 @@ Sahuagin Warlock of Uk'otoa,EGtW,297.0,humanoid,generic,N,3.0,2,700.0,22.5,14.0,
 Sahuagin Wave Shaper,GoS,251.0,humanoid,generic,N,5.0,3,1800.0,60.5,14.0,60.5,14.0,4.0,8.0,46.0,46.0
 Salamander,MM,266.0,elemental,generic,N,5.0,3,1800.0,90.0,15.0,135.0,15.0,7.0,7.0,41.0,41.0
 "Salamander, Fire Snake",MM,265.0,elemental,generic,N,1.0,2,200.0,22.5,14.0,44.0,14.0,3.0,3.0,15.0,15.0
-"Salamander, Frost",MToF,223.0,elemental,generic,N,9.0,4,5000.0,168.0,17.0,168.0,17.0,9.0,9.0,60.0,60.0
 Sanbalet,GoS,252.0,humanoid,unique,N,1.0,2,200.0,27.0,11.0,27.0,11.0,5.0,5.0,19.0,19.0
 Sapphire Dragon Wyrmling,FToD,216.0,dragon,generic,N,3.0,2,700.0,45.0,16.0,55.0,18.0,5.0,5.0,22.666666,22.666666
 "Sapphire Dragon, Adult",FToD,215.0,dragon,legendary,L,15.0,5,13000.0,225.0,18.0,345.0,20.0,11.0,11.0,89.833336,89.833336
@@ -1107,9 +1329,13 @@ Satyr Reveler,MOoT,242.0,fey,generic,N,1.0,2,200.0,33.0,13.0,33.0,15.0,5.0,5.0,1
 Satyr Thornbearer,MOoT,243.0,fey,generic,N,2.0,2,450.0,38.5,15.0,38.5,17.0,6.0,6.0,25.333334,25.333334
 Scaladar,WDotMM,315.0,construct,generic,N,8.0,3,3900.0,94.5,19.0,141.0,19.0,7.0,7.0,51.0,51.0
 Scarecrow,MM,268.0,construct,generic,N,1.0,2,200.0,36.0,11.0,72.0,11.0,3.0,3.0,12.0,12.0
+Scholarly Agent,CRCotN,206.0,humanoid,generic,N,1.0,2,200.0,22.0,14.0,22.0,16.0,5.0,5.0,14.0,14.0
+Scholarly Excavator,CRCotN,206.0,humanoid,generic,N,3.0,2,700.0,67.5,16.0,67.5,16.0,4.0,4.0,22.5,22.5
+Scholarly Mastermind,CRCotN,207.0,humanoid,generic,N,5.0,3,1800.0,82.5,15.0,82.5,15.0,7.0,7.0,52.0,52.0
 Scorchbringer Guard,GGtR,243.0,humanoid,generic,N,0.5,2,100.0,11.0,16.0,11.0,16.0,4.0,4.0,12.333333,12.333333
 "Scorpion, Giant",MM,327.0,beast,generic,N,3.0,2,700.0,52.5,15.0,52.5,15.0,4.0,4.0,41.0,41.0
 Scout,MM,349.0,humanoid,generic,N,0.5,2,100.0,16.5,13.0,16.5,13.0,4.0,4.0,12.0,12.0
+Scuttling Serpentmaw,CRCotN,208.0,aberration,generic,N,4.0,2,1100.0,65.0,17.0,65.0,17.0,5.0,7.0,32.0,32.0
 "Sea Eel, Giant",GoS,237.0,beast,generic,N,0.5,2,100.0,19.5,14.0,19.5,14.0,4.0,4.0,13.0,13.0
 Sea Fury,EGtW,299.0,fey,legendary,L,12.0,4,8400.0,105.0,14.0,400.5,16.0,8.0,8.0,26.0,49.333332
 Sea Fury,EGtW,299.0,fey,legendary,LL,14.0,5,11500.0,105.0,14.0,444.5,16.0,8.0,8.0,26.0,56.0
@@ -1117,17 +1343,25 @@ Sea Fury,EGtW,299.0,fey,legendary,LL,14.0,5,11500.0,105.0,14.0,444.5,16.0,8.0,8.
 Sea Lion,TftYP,242.0,monstrosity,generic,N,5.0,3,1800.0,90.0,15.0,90.0,15.0,6.0,7.0,36.0,36.0
 "Sea Serpent, Ancient",FToD,219.0,dragon,legendary,L,14.0,5,11500.0,170.5,17.0,230.5,18.0,12.0,13.0,110.5,110.5
 "Sea Serpent, Young",FToD,291.0,dragon,generic,N,8.0,3,3900.0,123.5,16.0,123.5,17.0,7.0,8.0,53.666668,53.666668
-Sea Spawn,VGtM,189.0,humanoid,generic,N,1.0,2,200.0,32.5,11.0,32.5,11.0,4.0,4.0,12.0,12.0
+Sea Spawn,MPMotM,211.0,monstrosity,generic,N,1.0,2,200.0,32.5,11.0,32.5,11.0,4.0,4.0,14.5,14.5
+Sea Spawn,VGtM,189.0,humanoid,legacy,N,1.0,2,200.0,32.5,11.0,32.5,11.0,4.0,4.0,12.0,12.0
 Selenelion Twin,WBtW,241.0,humanoid,unique,N,2.0,2,450.0,33.0,14.0,60.0,14.0,5.0,5.0,12.0,12.0
 Sephek Kaltro,IDRotF,23.0,undead,unique,N,3.0,2,700.0,75.0,12.0,90.0,12.0,5.0,5.0,26.0,26.0
 Setessan Hoplite,MOoT,229.0,humanoid,generic,N,4.0,2,1100.0,58.5,16.0,58.5,16.0,5.0,6.0,34.0,34.0
 Severin,RoT,92.0,humanoid,unique,L,11.0,4,7200.0,150.0,16.0,375.0,16.0,5.0,5.0,184.0,184.0
+Shadar-kai Gloom Weaver,MPMotM,213.0,humanoid,generic,N,9.0,4,5000.0,104.0,17.0,104.0,19.0,8.0,8.0,100.5,100.5
+Shadar-kai Gloom Weaver,MToF,224.0,humanoid,generic,N,9.0,4,5000.0,104.0,17.0,179.0,17.0,8.0,8.0,73.0,73.0
+Shadar-kai Shadow Dancer,MPMotM,213.0,humanoid,generic,N,7.0,3,2900.0,71.5,15.0,71.5,15.0,6.0,6.0,96.0,96.0
+Shadar-kai Shadow Dancer,MToF,225.0,humanoid,legacy,N,7.0,3,2900.0,71.5,15.0,71.5,15.0,6.0,6.0,96.0,96.0
+Shadar-kai Soul Monger,MPMotM,214.0,humanoid,generic,N,11.0,4,7200.0,136.5,15.0,204.8,19.0,7.0,7.0,81.666664,81.666664
+Shadar-kai Soul Monger,MToF,226.0,humanoid,legacy,N,11.0,4,7200.0,123.5,15.0,123.5,19.0,7.0,7.0,135.0,135.0
 Shadow,MM,269.0,undead,generic,N,0.5,2,100.0,16.5,12.0,33.0,16.0,4.0,4.0,9.0,9.0
 Shadow Assassin,WDotMM,316.0,undead,generic,N,9.0,4,5000.0,78.0,14.0,117.0,18.0,8.0,12.0,36.0,36.0
-Shadow Dancer,MToF,225.0,humanoid,generic,N,7.0,3,2900.0,71.5,15.0,71.5,15.0,6.0,6.0,96.0,96.0
 Shadow Demon,MM,64.0,fiend,generic,N,4.0,2,1100.0,66.0,13.0,132.0,17.0,5.0,5.0,17.0,17.0
-Shadow Mastiff,VGtM,190.0,monstrosity,generic,N,2.0,2,450.0,33.0,12.0,66.0,16.0,5.0,9.0,10.0,10.0
-Shadow Mastiff Alpha,VGtM,190.0,monstrosity,generic,N,2.0,2,450.0,33.0,12.0,66.0,16.0,5.0,9.0,10.0,10.0
+Shadow Mastiff,MPMotM,215.0,monstrosity,generic,N,2.0,2,450.0,33.0,12.0,66.0,16.0,5.0,9.0,10.0,10.0
+Shadow Mastiff,VGtM,190.0,monstrosity,legacy,N,2.0,2,450.0,33.0,12.0,66.0,16.0,5.0,9.0,10.0,10.0
+Shadow Mastiff Alpha,MPMotM,215.0,monstrosity,generic,N,3.0,2,700.0,44.0,12.0,110.0,16.0,5.0,9.0,10.0,10.0
+Shadow Mastiff Alpha,VGtM,190.0,monstrosity,legacy,N,2.0,2,450.0,33.0,12.0,66.0,16.0,5.0,9.0,10.0,10.0
 Shadowghast,EGtW,299.0,undead,generic,N,5.0,3,1800.0,49.5,15.0,64.5,19.0,8.0,12.0,28.5,28.5
 Shadrix Silverquill,SaCoC,212.0,dragon,unique,L,22.0,7,41000.0,363.0,21.0,453.0,24.0,14.0,14.0,98.833336,98.833336
 Shambling Mound,MM,270.0,plant,generic,N,5.0,3,1800.0,136.0,15.0,168.8,15.0,7.0,7.0,30.333334,30.333334
@@ -1141,8 +1375,10 @@ Shield Guardian,MM,271.0,construct,generic,N,7.0,3,2900.0,142.5,17.0,172.0,17.0,
 Shifter,ERftLW,319.0,humanoid,generic,N,0.5,2,100.0,19.5,14.0,24.5,14.0,5.0,5.0,12.0,12.0
 Shoalar Quanderil,PotA,208.0,humanoid,unique,N,4.0,2,1100.0,60.0,13.0,60.0,13.0,5.0,5.0,31.0,31.0
 Shockerstomper,WDotMM,174.0,construct,unique,N,14.0,5,11500.0,310.0,20.0,310.0,20.0,8.0,8.0,176.0,176.0
-Shoosuva,VGtM,137.0,fiend,generic,N,8.0,3,3900.0,110.5,14.0,210.0,16.0,7.0,7.0,47.666668,47.666668
-Sibriex,MToF,137.0,fiend,legendary,L,18.0,6,20000.0,150.0,19.0,240.0,19.0,6.0,6.0,200.0,200.0
+Shoosuva,MPMotM,216.0,fiend,generic,N,8.0,3,3900.0,136.0,14.0,207.5,16.0,7.0,7.0,39.0,47.666668
+Shoosuva,VGtM,137.0,fiend,legacy,N,8.0,3,3900.0,110.5,14.0,210.0,16.0,7.0,7.0,47.666668,47.666668
+Sibriex,MPMotM,217.0,fiend,legendary,L,18.0,6,20000.0,150.0,19.0,240.0,21.0,13.0,13.0,186.0,195.33333
+Sibriex,MToF,137.0,fiend,legacy,L,18.0,6,20000.0,150.0,19.0,240.0,19.0,6.0,6.0,200.0,200.0
 Silver Dragon Wyrmling,MM,118.0,dragon,generic,N,2.0,2,450.0,45.0,17.0,45.0,19.0,6.0,6.0,24.0,24.0
 "Silver Dragon, Adult",MM,117.0,dragon,legendary,L,16.0,5,15000.0,243.0,19.0,333.0,21.0,13.0,13.0,122.333336,122.333336
 "Silver Dragon, Ancient",MM,116.0,dragon,legendary,LL,23.0,7,50000.0,487.5,22.0,577.0,24.0,17.0,17.0,158.33333,158.33333
@@ -1167,9 +1403,11 @@ Skeleton,MM,272.0,undead,generic,N,0.25,2,50.0,13.0,13.0,13.0,13.0,4.0,4.0,5.5,5
 Sken Zabriss,EGtW,221.0,humanoid,unique,N,1.0,2,200.0,45.5,16.0,54.0,16.0,5.0,5.0,7.5,7.5
 Skittering Horror,GGtR,205.0,aberration,generic,N,15.0,5,13000.0,228.0,17.0,288.0,17.0,11.0,14.0,76.0,76.0
 Skitterwidget,CM,136.0,construct,generic,N,5.0,3,1800.0,85.0,18.0,115.0,18.0,6.0,6.0,27.0,27.0
-Skulk,MToF,227.0,humanoid,generic,N,0.5,2,100.0,18.0,14.0,18.0,18.0,6.0,10.0,13.5,13.5
+Skulk,MPMotM,219.0,monstrosity,generic,N,0.5,2,100.0,18.0,14.0,18.0,18.0,6.0,10.0,10.0,10.0
+Skulk,MToF,227.0,humanoid,legacy,N,0.5,2,100.0,18.0,14.0,18.0,18.0,6.0,10.0,13.5,13.5
 Skull Lasher of Myrkul,BGDiA,234.0,humanoid,generic,N,1.0,2,200.0,32.5,12.0,32.5,17.0,2.0,2.0,22.0,22.0
-Skull Lord,MToF,230.0,undead,legendary,L,15.0,5,13000.0,105.0,18.0,243.8,18.0,10.0,10.0,131.33333,131.33333
+Skull Lord,MPMotM,220.0,undead,legendary,L,15.0,5,13000.0,112.5,18.0,253.1,18.0,8.0,8.0,171.0,171.0
+Skull Lord,MToF,230.0,undead,legacy,L,15.0,5,13000.0,105.0,18.0,243.8,18.0,10.0,10.0,131.33333,131.33333
 Skum,GoS,254.0,aberration,generic,N,5.0,3,1800.0,93.5,14.0,93.5,14.0,7.0,7.0,32.0,32.0
 Skyjek Roc,GGtR,219.0,monstrosity,generic,N,2.0,2,450.0,37.5,15.0,37.5,15.0,7.0,7.0,19.0,19.0
 Skylla,WBtW,220.0,humanoid,unique,N,2.0,2,450.0,39.0,13.0,59.0,13.0,2.0,2.0,7.5,22.5
@@ -1182,7 +1420,9 @@ Skyweaver,PotA,191.0,humanoid,generic,N,3.0,2,700.0,44.0,15.0,44.0,15.0,5.0,5.0,
 "Slaad, Red",MM,276.0,aberration,generic,N,5.0,3,1800.0,93.5,14.0,184.5,14.0,6.0,6.0,22.0,22.0
 "Slaad, Tadpole",MM,276.0,aberration,generic,N,0.125,2,25.0,10.0,12.0,20.0,14.0,4.0,4.0,4.5,4.5
 Slarkrethel,SKT,224.0,monstrosity,unique,LL,25.0,8,75000.0,472.5,18.0,703.1,26.0,17.0,17.0,332.5,332.5
-Slithering Tracker,VGtM,191.0,ooze,generic,N,3.0,2,700.0,32.5,14.0,64.0,14.0,5.0,5.0,31.333334,31.333334
+Slithering Bloodfin,CRCotN,209.0,aberration,generic,N,9.0,4,5000.0,93.5,16.0,121.5,16.0,9.0,13.0,33.0,54.0
+Slithering Tracker,MPMotM,221.0,ooze,generic,N,3.0,2,700.0,39.0,14.0,78.0,14.0,5.0,5.0,22.166666,22.166666
+Slithering Tracker,VGtM,191.0,ooze,legacy,N,3.0,2,700.0,32.5,14.0,64.0,14.0,5.0,5.0,31.333334,31.333334
 Smiler the Defiler,BGDiA,133.0,fey,unique,N,7.0,3,2900.0,165.0,18.0,247.5,20.0,9.0,9.0,18.0,18.0
 "Snapping Turtle, Giant",ToA,222.0,beast,generic,N,3.0,2,700.0,75.0,17.0,75.0,17.0,6.0,6.0,18.0,18.0
 Snarla,TftYP,102.0,humanoid,unique,N,5.0,3,1800.0,58.5,12.0,116.0,17.0,4.0,4.0,36.0,36.0
@@ -1190,8 +1430,8 @@ Snow Golem,IDRotF,308.0,construct,generic,N,3.0,2,700.0,39.0,8.0,78.0,8.0,4.0,4.
 Snurrevin,TftYP,53.0,humanoid,unique,N,2.0,2,450.0,45.5,16.0,45.5,21.0,4.0,4.0,21.0,21.0
 Solar,MM,18.0,celestial,legendary,L,21.0,7,33000.0,243.0,21.0,243.0,25.0,15.0,15.0,126.0,126.0
 Soldier,GGtR,226.0,humanoid,generic,N,0.5,2,100.0,16.5,18.0,16.5,19.0,3.0,3.0,13.0,13.0
-Soul Monger,MToF,226.0,humanoid,generic,N,11.0,4,7200.0,123.5,15.0,123.5,19.0,7.0,7.0,135.0,135.0
-Spawn of Kyuss,VGtM,192.0,undead,generic,N,5.0,3,1800.0,76.5,10.0,106.0,10.0,6.0,6.0,40.0,40.0
+Spawn of Kyuss,MPMotM,225.0,undead,generic,N,5.0,3,1800.0,76.5,10.0,106.5,10.0,6.0,6.0,13.5,30.5
+Spawn of Kyuss,VGtM,192.0,undead,legacy,N,5.0,3,1800.0,76.5,10.0,106.0,10.0,6.0,6.0,40.0,40.0
 Spectator,MM,30.0,aberration,generic,N,3.0,2,700.0,39.0,14.0,39.0,16.0,5.0,5.0,32.0,32.0
 Specter,MM,279.0,undead,generic,N,1.0,2,200.0,22.5,12.0,44.0,12.0,4.0,4.0,10.0,10.0
 Spellix Romwod,IDRotF,144.0,humanoid,unique,N,0.5,2,100.0,33.0,14.0,33.0,18.0,5.0,5.0,7.6666665,7.6666665
@@ -1210,32 +1450,43 @@ Spy,MM,,humanoid,generic,N,1.0,2,200.0,27.0,12.0,27.0,12.0,4.0,4.0,18.0,18.0
 Squirt the Oilcan,WBtW,110.0,construct,unique,N,0.25,2,50.0,17.5,15.0,17.5,15.0,4.0,4.0,4.5,4.5
 "Star Spawn Emissary, Greater",VRGtR,245.0,aberration,legendary,L,21.0,7,33000.0,290.0,15.0,410.0,17.0,14.0,14.0,220.5,220.5
 "Star Spawn Emissary, Lesser",VRGtR,245.0,aberration,legendary,L,19.0,6,22000.0,241.5,19.0,331.5,21.0,11.0,11.0,142.5,142.5
-Star Spawn Grue,MToF,234.0,aberration,generic,N,0.25,2,50.0,17.5,11.0,17.5,11.0,3.0,5.0,6.0,6.0
-Star Spawn Hulk,MToF,234.0,aberration,generic,N,10.0,4,5900.0,136.5,16.0,271.5,16.0,9.0,9.0,38.666668,38.666668
-Star Spawn Larva Mage,MToF,235.0,aberration,legendary,L,16.0,5,15000.0,168.0,16.0,247.5,18.0,8.0,8.0,131.33333,131.33333
-Star Spawn Mangler,MToF,236.0,aberration,generic,N,5.0,3,1800.0,71.5,14.0,71.5,14.0,7.0,11.0,50.0,50.0
-Star Spawn Seer,MToF,236.0,aberration,generic,N,13.0,5,10000.0,153.0,17.0,266.3,19.0,11.0,11.0,73.666664,73.666664
+Star Spawn Grue,MPMotM,227.0,aberration,generic,N,0.25,2,50.0,17.5,11.0,17.5,11.0,3.0,3.0,6.0,6.0
+Star Spawn Grue,MToF,234.0,aberration,legacy,N,0.25,2,50.0,17.5,11.0,17.5,11.0,3.0,5.0,6.0,6.0
+Star Spawn Hulk,MPMotM,227.0,aberration,generic,N,10.0,4,5900.0,136.5,16.0,204.8,16.0,9.0,9.0,37.0,37.0
+Star Spawn Hulk,MToF,234.0,aberration,legacy,N,10.0,4,5900.0,136.5,16.0,271.5,16.0,9.0,9.0,38.666668,38.666668
+Star Spawn Larva Mage,MPMotM,228.0,aberration,legendary,L,16.0,5,15000.0,168.0,16.0,262.5,18.0,8.0,8.0,96.0,96.0
+Star Spawn Larva Mage,MToF,235.0,aberration,legacy,L,16.0,5,15000.0,168.0,16.0,247.5,18.0,8.0,8.0,131.33333,131.33333
+Star Spawn Mangler,MPMotM,229.0,aberration,generic,N,5.0,3,1800.0,71.5,14.0,71.5,18.0,7.0,7.0,28.333334,47.0
+Star Spawn Mangler,MToF,236.0,aberration,legacy,N,5.0,3,1800.0,71.5,14.0,71.5,14.0,7.0,11.0,50.0,50.0
+Star Spawn Seer,MPMotM,230.0,aberration,generic,N,13.0,5,10000.0,153.0,17.0,241.3,19.0,11.0,11.0,64.0,75.0
+Star Spawn Seer,MToF,236.0,aberration,legacy,N,13.0,5,10000.0,153.0,17.0,266.3,19.0,11.0,11.0,73.666664,73.666664
 Statue of Lloth,WDotMM,142.0,construct,unique,N,11.0,4,7200.0,230.0,17.0,287.5,19.0,10.0,10.0,38.0,38.0
+"Steeder, Female",MPMotM,231.0,monstrosity,generic,N,1.0,2,200.0,30.0,14.0,30.0,14.0,5.0,5.0,16.5,16.5
 "Steeder, Female",OotA,231.0,monstrosity,generic,N,1.0,2,200.0,30.0,14.0,30.0,14.0,5.0,5.0,15.0,15.0
+"Steeder, Male",MPMotM,231.0,monstrosity,generic,N,0.25,2,50.0,13.0,12.0,13.0,12.0,4.0,4.0,11.0,11.0
 Steel Crane,CM,164.0,humanoid,unique,N,8.0,3,3900.0,76.5,17.0,183.0,17.0,7.0,7.0,25.5,25.5
-Steel Predator,MToF,239.0,construct,generic,N,16.0,5,15000.0,207.0,20.0,388.1,22.0,12.0,12.0,48.666668,48.666668
-Stegosaurus,VGtM,140.0,beast,generic,N,4.0,2,1100.0,76.0,13.0,76.0,13.0,7.0,7.0,26.0,26.0
-Stench Kow,VGtM,207.0,beast,generic,N,0.25,2,50.0,15.0,10.0,15.0,11.0,6.0,6.0,9.833333,9.833333
+Steel Predator,MPMotM,232.0,construct,generic,N,16.0,5,15000.0,207.0,20.0,370.5,22.0,12.0,12.0,55.333332,55.333332
+Steel Predator,MToF,239.0,construct,legacy,N,16.0,5,15000.0,207.0,20.0,388.1,22.0,12.0,12.0,48.666668,48.666668
+Stegosaurus,MPMotM,96.0,beast,generic,N,4.0,2,1100.0,76.0,13.0,76.0,13.0,7.0,7.0,26.0,26.0
+Stegosaurus,VGtM,140.0,beast,legacy,N,4.0,2,1100.0,76.0,13.0,76.0,13.0,7.0,7.0,26.0,26.0
+Stench Kow,MPMotM,72.0,fiend,generic,N,0.25,2,50.0,15.0,10.0,15.0,10.0,6.0,6.0,7.5,9.833333
+Stench Kow,VGtM,207.0,beast,legacy,N,0.25,2,50.0,15.0,10.0,15.0,11.0,6.0,6.0,9.833333,9.833333
 Stirge,MM,284.0,beast,generic,N,0.125,2,25.0,2.5,14.0,2.5,14.0,5.0,5.0,5.5,5.5
-Stone Defender,MToF,126.0,construct,generic,N,4.0,2,1100.0,52.5,16.0,104.0,18.0,6.0,6.0,11.0,11.0
+Stone Cursed,MPMotM,233.0,construct,generic,N,1.0,2,200.0,19.5,17.0,19.5,19.0,5.0,5.0,12.0,12.0
 Stone Giant,MM,156.0,giant,generic,N,7.0,3,2900.0,126.5,17.0,126.5,19.0,9.0,9.0,38.0,38.0
-Stone Giant Dreamwalker,VGtM,150.0,giant,generic,N,10.0,4,5900.0,161.0,18.0,176.0,18.0,10.0,10.0,38.0,38.0
+Stone Giant Dreamwalker,MPMotM,234.0,giant,generic,N,10.0,4,5900.0,161.0,18.0,181.0,20.0,10.0,10.0,48.0,48.0
+Stone Giant Dreamwalker,VGtM,150.0,giant,legacy,N,10.0,4,5900.0,161.0,18.0,176.0,18.0,10.0,10.0,38.0,38.0
 Stone Giant of Deadstone Cleft,SKT,146.0,giant,generic,N,7.0,3,2900.0,126.5,17.0,189.8,19.0,9.0,9.0,38.0,38.0
 Stone Golem,MM,170.0,construct,generic,N,10.0,4,5900.0,178.5,17.0,223.1,19.0,10.0,10.0,39.0,39.0
 Stone Juggernaut,ToA,231.0,construct,unique,N,12.0,4,8400.0,157.5,15.0,196.3,15.0,10.0,10.0,80.0,80.0
 Stonemelder,PotA,197.0,humanoid,generic,N,4.0,2,1100.0,75.0,17.0,75.0,22.0,5.0,5.0,38.0,38.0
 Storm Giant,MM,156.0,giant,generic,N,13.0,5,10000.0,230.0,16.0,230.0,18.0,14.0,14.0,76.0,76.0
-Storm Giant Quintessent,VGtM,151.0,giant,legendary,LL,16.0,5,15000.0,230.0,12.0,287.5,16.0,14.0,14.0,102.0,102.0
+Storm Giant Quintessent,MPMotM,235.0,giant,legendary,LL,16.0,5,15000.0,230.0,12.0,325.0,14.0,14.0,14.0,125.0,125.0
+Storm Giant Quintessent,VGtM,151.0,giant,legacy,LL,16.0,5,15000.0,230.0,12.0,287.5,16.0,14.0,14.0,102.0,102.0
 Storm Giant Skeleton,CM,208.0,undead,generic,N,16.0,5,15000.0,204.0,13.0,306.0,13.0,14.0,14.0,100.0,100.0
 Strahd von Zarovich,CoS,239.0,undead,unique,LL,15.0,5,13000.0,144.5,16.0,408.1,18.0,9.0,9.0,130.66667,130.66667
 Strahd Zombie,CoS,241.0,undead,generic,N,1.0,2,200.0,30.0,8.0,30.0,8.0,3.0,3.0,11.0,11.0
 Strahd's Animated Armor,CoS,227.0,construct,unique,N,6.0,3,2300.0,112.5,21.0,168.8,21.0,6.0,6.0,26.0,26.0
-"Strider, Giant",VGtM,143.0,monstrosity,generic,N,1.0,2,200.0,22.5,14.0,38.0,14.0,6.0,6.0,16.0,16.0
 Strigoi,VRGtR,246.0,monstrosity,generic,N,4.0,2,1100.0,52.5,16.0,84.0,18.0,5.0,5.0,33.0,33.0
 Strixhaven Campus Guide,SaCoC,217.0,construct,generic,N,1.0,2,200.0,31.5,17.0,31.5,17.0,4.0,4.0,13.0,13.0
 Strongheart,WBtW,228.0,humanoid,unique,N,4.0,2,1100.0,55.0,20.0,55.0,21.0,6.0,8.0,25.5,25.5
@@ -1245,7 +1496,8 @@ Sul Khatesh,ERftLW,304.0,fiend,unique,L,28.0,8,120000.0,475.0,22.0,706.3,31.0,18
 Swarm of Animated Books,CM,19.0,construct,generic,N,0.25,2,50.0,22.0,12.0,22.0,12.0,3.0,3.0,5.1666665,5.1666665
 Swarm of Bats,MM,337.0,beast,generic,N,0.25,2,50.0,22.5,12.0,45.0,12.0,4.0,4.0,4.1666665,4.1666665
 Swarm of Campestris,WBtW,232.0,plant,generic,N,1.0,2,200.0,27.0,12.0,54.0,12.0,0.0,0.0,8.333333,8.333333
-Swarm of Cranium Rats,VGtM,133.0,beast,generic,N,5.0,3,1800.0,36.0,12.0,54.0,12.0,5.0,5.0,14.0,14.0
+Swarm of Cranium Rats,MPMotM,83.0,aberration,generic,N,5.0,3,1800.0,76.5,12.0,153.0,12.0,5.0,5.0,33.0,33.0
+Swarm of Cranium Rats,VGtM,133.0,beast,legacy,N,5.0,3,1800.0,36.0,12.0,54.0,12.0,5.0,5.0,14.0,14.0
 Swarm of Gremishkas,VRGtR,235.0,monstrosity,generic,N,2.0,2,450.0,24.5,12.0,49.0,16.0,4.0,4.0,17.166666,17.166666
 Swarm of Hoard Scarabs,FToD,205.0,monstrosity,generic,N,2.0,2,450.0,31.5,14.0,63.0,15.0,5.0,5.0,11.166667,11.166667
 Swarm of Insects,MM,338.0,beast,generic,N,0.5,2,100.0,22.5,12.0,45.0,12.0,3.0,3.0,7.5,7.5
@@ -1253,17 +1505,23 @@ Swarm of Maggots,VRGtR,247.0,beast,generic,N,2.0,2,450.0,22.5,11.0,45.0,13.0,3.0
 Swarm of Poisonous Snakes,MM,338.0,beast,generic,N,2.0,2,450.0,36.0,14.0,72.0,14.0,6.0,6.0,19.833334,19.833334
 Swarm of Rats,MM,339.0,beast,generic,N,0.25,2,50.0,24.5,10.0,49.0,10.0,2.0,2.0,5.8333335,5.8333335
 Swarm of Ravens,MM,339.0,beast,generic,N,0.25,2,50.0,24.5,12.0,49.0,12.0,4.0,4.0,5.8333335,5.8333335
-Swarm of Rot Grubs,VGtM,208.0,beast,generic,N,0.5,2,100.0,22.5,8.0,45.0,8.0,0.0,0.0,10.5,10.5
+Swarm of Rot Grubs,MPMotM,237.0,beast,generic,N,0.5,2,100.0,22.5,8.0,22.5,8.0,0.0,0.0,14.0,14.0
+Swarm of Rot Grubs,VGtM,208.0,beast,legacy,N,0.5,2,100.0,22.5,8.0,45.0,8.0,0.0,0.0,10.5,10.5
 Swarm of Scarabs,VRGtR,247.0,beast,generic,N,3.0,2,700.0,27.5,13.0,55.0,13.0,4.0,4.0,18.666666,18.666666
+Swarm of Sorrowfish,CRCotN,210.0,aberration,generic,N,6.0,3,2300.0,104.0,14.0,171.0,16.0,8.0,8.0,18.666666,18.666666
 Swarm of Zombie Limbs,VRGtR,254.0,undead,generic,N,1.0,2,200.0,22.5,10.0,45.0,10.0,4.0,6.0,19.166666,19.166666
-Swashbuckler,VGtM,217.0,humanoid,generic,N,3.0,2,700.0,66.0,17.0,66.0,17.0,6.0,6.0,32.0,32.0
+Swashbuckler,MPMotM,238.0,humanoid,generic,N,3.0,2,700.0,66.0,17.0,66.0,17.0,6.0,6.0,23.5,23.5
+Swashbuckler,VGtM,217.0,humanoid,legacy,N,3.0,2,700.0,66.0,17.0,66.0,17.0,6.0,6.0,32.0,32.0
 Swavain Basilisk,EGtW,300.0,monstrosity,generic,N,7.0,3,2900.0,85.0,16.0,85.0,17.0,6.0,10.0,38.0,38.0
-Sword Wraith Commander,MToF,241.0,undead,generic,N,8.0,3,3900.0,127.5,18.0,190.5,18.0,7.0,7.0,43.666668,43.666668
-Sword Wraith Warrior,MToF,241.0,undead,generic,N,3.0,2,700.0,45.0,16.0,90.0,12.0,6.0,6.0,16.0,16.0
+Sword Wraith Commander,MPMotM,239.0,undead,generic,N,8.0,3,3900.0,127.5,18.0,191.3,14.0,7.0,7.0,57.0,57.0
+Sword Wraith Commander,MToF,241.0,undead,legacy,N,8.0,3,3900.0,127.5,18.0,191.3,14.0,7.0,7.0,57.0,57.0
+Sword Wraith Warrior,MPMotM,239.0,undead,generic,N,3.0,2,700.0,45.0,16.0,90.0,12.0,6.0,6.0,17.0,17.0
+Sword Wraith Warrior,MToF,241.0,undead,legacy,N,3.0,2,700.0,45.0,16.0,90.0,12.0,6.0,6.0,17.0,17.0
 Tabaxi Hunter,ToA,232.0,humanoid,generic,N,1.0,2,200.0,40.5,14.0,40.5,14.0,5.0,5.0,14.0,14.0
 Tabaxi Minstrel,ToA,233.0,humanoid,generic,N,0.25,2,50.0,22.5,12.0,22.5,12.0,4.0,4.0,8.0,8.0
 Talis the White,HotDQ,93.0,humanoid,unique,N,5.0,3,1800.0,58.5,18.0,68.0,18.0,5.0,5.0,39.0,39.0
-Tanarukk,VGtM,186.0,fiend,generic,N,5.0,3,1800.0,95.0,14.0,95.0,16.0,7.0,7.0,39.0,39.0
+Tanarukk,MPMotM,240.0,fiend,generic,N,5.0,3,1800.0,95.0,14.0,95.0,16.0,7.0,7.0,19.5,36.5
+Tanarukk,VGtM,186.0,fiend,legacy,N,5.0,3,1800.0,95.0,14.0,95.0,16.0,7.0,7.0,39.0,39.0
 Tanazir Quandrix,SaCoC,218.0,dragon,unique,L,24.0,7,62000.0,444.0,21.0,534.0,23.0,16.0,16.0,144.33333,144.33333
 Tarkanan Assassin,ERftLW,319.0,humanoid,generic,N,2.0,2,450.0,45.5,15.0,45.5,15.0,5.0,5.0,26.0,26.0
 Tarrasque,MM,286.0,monstrosity,unique,L,30.0,9,155000.0,676.5,25.0,766.0,29.0,19.0,19.0,249.33333,249.33333
@@ -1273,14 +1531,8 @@ Tecuziztecatl,TftYP,245.0,monstrosity,unique,N,4.0,2,1100.0,102.0,13.0,102.0,13.
 Thavius Kreeg,BGDiA,42.0,humanoid,unique,N,0.5,2,100.0,40.5,10.0,40.5,10.0,3.0,3.0,4.0,4.0
 Thayan Apprentice,TftYP,245.0,humanoid,generic,N,2.0,2,450.0,27.5,15.0,27.5,20.0,4.0,4.0,28.0,28.0
 Thayan Warrior,TftYP,246.0,humanoid,generic,N,2.0,2,450.0,52.0,16.0,52.0,16.0,5.0,6.0,14.0,14.0
-The Angry,MToF,231.0,monstrosity,generic,N,13.0,5,10000.0,255.0,18.0,318.8,18.0,8.0,11.0,51.0,51.0
-The Hungry,MToF,232.0,monstrosity,generic,N,11.0,4,7200.0,225.0,17.0,281.3,17.0,8.0,10.0,54.666668,54.666668
 The Keeper,TftYP,173.0,giant,unique,N,7.0,3,2900.0,126.5,17.0,126.5,19.0,10.0,10.0,40.0,40.0
-The Lonely,MToF,232.0,monstrosity,generic,N,9.0,4,5000.0,112.5,16.0,168.0,16.0,7.0,9.0,61.0,61.0
-The Lost,MToF,233.0,monstrosity,generic,N,7.0,3,2900.0,78.0,15.0,117.0,15.0,6.0,6.0,70.0,70.0
-The Wretched,MToF,233.0,monstrosity,generic,N,0.25,2,50.0,10.0,15.0,20.0,15.0,3.0,4.0,6.5,6.5
 Thorn Slinger,TftYP,246.0,plant,unique,N,0.5,2,100.0,32.5,11.0,32.5,11.0,3.0,3.0,11.0,11.0
-Thorny,VGtM,197.0,plant,generic,N,1.0,2,200.0,27.5,14.0,42.0,14.0,3.0,3.0,8.0,8.0
 Thought Spy,GGtR,233.0,humanoid,generic,N,1.0,2,200.0,27.0,13.0,27.0,17.0,4.0,4.0,12.0,12.0
 Thousand Teeth,GoS,256.0,monstrosity,unique,L,6.0,3,2300.0,93.5,12.0,133.5,12.0,7.0,7.0,43.0,43.0
 Thri-kreen,MM,288.0,humanoid,generic,N,1.0,2,200.0,33.0,15.0,33.0,15.0,3.0,3.0,10.0,10.0
@@ -1291,8 +1543,11 @@ Thunderbeast Skeleton,SKT,99.0,undead,generic,N,3.0,2,700.0,68.0,15.0,68.0,15.0,
 Thurl Merosska,PotA,192.0,humanoid,unique,N,3.0,2,700.0,70.5,16.0,70.5,19.0,5.0,5.0,23.333334,23.333334
 Thurstwell Vanthampur,BGDiA,34.0,humanoid,unique,N,0.125,2,25.0,5.0,9.0,5.0,13.0,5.0,5.0,4.0,4.0
 Tiamat,RoT,92.0,fiend,unique,L,30.0,9,155000.0,615.0,25.0,1068.8,29.0,19.0,19.0,480.0,480.0
-Titivilus,MToF,178.0,fiend,unique,L,16.0,5,15000.0,127.5,20.0,308.8,24.0,9.0,9.0,50.0,50.0
-Tlincalli,VGtM,193.0,monstrosity,generic,N,5.0,3,1800.0,85.0,15.0,85.0,15.0,6.0,6.0,28.0,28.0
+"Tiamat, Aspect of",FToD,166.0,dragon,unique,L,30.0,9,155000.0,574.0,23.0,905.0,25.0,19.0,14.0,214.0,214.0
+Titivilus,MPMotM,242.0,fiend,unique,L,16.0,5,15000.0,150.0,20.0,393.8,24.0,9.0,9.0,52.0,62.0
+Titivilus,MToF,178.0,fiend,legacy,L,16.0,5,15000.0,127.5,20.0,308.8,24.0,9.0,9.0,50.0,50.0
+Tlincalli,MPMotM,243.0,monstrosity,generic,N,5.0,3,1800.0,85.0,15.0,85.0,17.0,6.0,6.0,29.0,29.0
+Tlincalli,VGtM,193.0,monstrosity,legacy,N,5.0,3,1800.0,85.0,15.0,85.0,15.0,6.0,6.0,28.0,28.0
 Tomb Tapper,IDRotF,310.0,construct,generic,N,10.0,4,5900.0,207.0,17.0,207.0,17.0,10.0,10.0,54.0,54.0
 Tomokratis,MOoT,254.0,monstrosity,unique,L,26.0,8,90000.0,409.5,22.0,624.4,24.0,18.0,18.0,153.0,153.0
 Topaz Dragon Wyrmling,FToD,223.0,dragon,generic,N,2.0,2,450.0,33.0,16.0,33.0,18.0,4.0,4.0,20.666666,20.666666
@@ -1303,9 +1558,11 @@ Topaz Dragon Wyrmling,FToD,223.0,dragon,generic,N,2.0,2,450.0,33.0,16.0,33.0,18.
 "Topaz Dragon, Young",FToD,223.0,dragon,generic,N,7.0,3,2900.0,127.5,17.0,134.5,19.0,6.0,6.0,39.0,39.0
 Topaz Greatwyrm,FToD,201.0,dragon,legendary,L,26.0,8,90000.0,507.0,21.0,627.0,23.0,17.0,17.0,173.83333,173.83333
 Torogar Steelfist,BGDiA,112.0,monstrosity,unique,N,11.0,4,7200.0,168.0,17.0,210.0,17.0,11.0,11.0,59.0,59.0
-Tortle Druid,MToF,242.0,humanoid,generic,N,2.0,2,450.0,33.0,17.0,33.0,17.0,4.0,4.0,26.0,26.0
-Transmuter,VGtM,218.0,humanoid,generic,N,5.0,3,1800.0,40.5,15.0,60.0,17.0,6.0,6.0,67.333336,67.333336
-Trapper,VGtM,194.0,monstrosity,generic,N,3.0,2,700.0,85.0,13.0,85.0,13.0,6.0,6.0,20.0,20.0
+Tortle,MPMotM,244.0,humanoid,generic,N,0.25,2,50.0,22.0,17.0,22.0,17.0,4.0,4.0,6.5,6.5
+Tortle Druid,MPMotM,244.0,humanoid,generic,N,2.0,2,450.0,33.0,17.0,33.0,17.0,4.0,4.0,18.0,18.0
+Tortle Druid,MToF,242.0,humanoid,legacy,N,2.0,2,450.0,33.0,17.0,33.0,17.0,4.0,4.0,26.0,26.0
+Trapper,MPMotM,245.0,monstrosity,generic,N,3.0,2,700.0,68.0,13.0,68.0,13.0,5.0,5.0,17.0,17.0
+Trapper,VGtM,194.0,monstrosity,legacy,N,3.0,2,700.0,85.0,13.0,85.0,13.0,6.0,6.0,20.0,20.0
 Treant,MM,289.0,plant,generic,N,9.0,4,5000.0,138.0,16.0,207.0,16.0,10.0,10.0,44.0,44.0
 Treant Sapling,WBtW,36.0,plant,generic,N,2.0,2,450.0,45.0,14.0,90.0,14.0,5.0,5.0,17.0,17.0
 Tri-Flower Frond,ToA,234.0,plant,generic,N,0.5,2,100.0,11.0,10.0,29.0,10.0,2.0,2.0,12.0,12.0
@@ -1318,13 +1575,17 @@ Trobriand,WDotMM,294.0,construct,unique,N,22.0,7,41000.0,210.0,20.0,488.8,27.0,1
 Troglodyte,MM,290.0,humanoid,generic,N,0.25,2,50.0,13.0,11.0,13.0,12.0,4.0,4.0,13.5,13.5
 Troglodyte Champion of Laogzed,OotA,229.0,humanoid,generic,N,3.0,2,700.0,59.5,14.0,59.5,15.0,6.0,6.0,22.0,22.0
 Troll,MM,291.0,giant,generic,N,5.0,3,1800.0,84.0,15.0,114.0,15.0,7.0,7.0,29.0,29.0
-"Troll, Dire",MToF,243.0,giant,generic,N,13.0,5,10000.0,172.5,15.0,252.5,15.0,11.0,11.0,82.0,82.0
+"Troll, Dire",MPMotM,246.0,giant,generic,N,13.0,5,10000.0,172.5,15.0,253.1,15.0,11.0,11.0,84.0,84.0
+"Troll, Dire",MToF,243.0,giant,legacy,N,13.0,5,10000.0,172.5,15.0,252.5,15.0,11.0,11.0,82.0,82.0
 "Troll, Five-Armed",WDotMM,154.0,giant,generic,N,8.0,3,3900.0,84.0,15.0,114.0,15.0,7.0,7.0,62.0,62.0
 "Troll, Four-Armed",HotDQ,65.0,giant,generic,N,6.0,3,2300.0,84.0,15.0,114.0,15.0,7.0,7.0,58.0,58.0
 "Troll, Ice",IDRotF,295.0,giant,generic,N,8.0,3,3900.0,115.0,16.0,145.0,16.0,7.0,7.0,66.0,66.0
-"Troll, Rot",MToF,244.0,giant,generic,N,9.0,4,5000.0,138.0,16.0,138.0,16.0,8.0,8.0,66.0,66.0
-"Troll, Spirit",MToF,244.0,giant,generic,N,11.0,4,7200.0,97.5,17.0,294.4,17.0,7.0,7.0,47.0,47.0
-"Troll, Venom",MToF,245.0,giant,generic,N,7.0,3,2900.0,94.5,15.0,124.0,15.0,7.0,7.0,50.0,50.0
+"Troll, Rot",MPMotM,247.0,giant,generic,N,9.0,4,5000.0,138.0,16.0,138.0,16.0,8.0,8.0,73.0,73.0
+"Troll, Rot",MToF,244.0,giant,legacy,N,9.0,4,5000.0,138.0,16.0,138.0,16.0,8.0,8.0,66.0,66.0
+"Troll, Spirit",MPMotM,247.0,giant,generic,N,11.0,4,7200.0,130.0,17.0,275.0,17.0,7.0,7.0,58.5,58.5
+"Troll, Spirit",MToF,244.0,giant,legacy,N,11.0,4,7200.0,97.5,17.0,294.4,17.0,7.0,7.0,47.0,47.0
+"Troll, Venom",MPMotM,248.0,giant,generic,N,7.0,3,2900.0,94.5,15.0,124.5,15.0,7.0,7.0,61.0,61.0
+"Troll, Venom",MToF,245.0,giant,legacy,N,7.0,3,2900.0,94.5,15.0,124.0,15.0,7.0,7.0,50.0,50.0
 Trostani,GGtR,252.0,fey,unique,L,18.0,6,20000.0,252.0,17.0,342.0,21.0,16.0,16.0,107.0,107.0
 Tsucora Quori,ERftLW,307.0,aberration,generic,N,7.0,3,2900.0,68.0,16.0,136.0,16.0,6.0,6.0,39.0,39.0
 Turlang,SKT,107.0,plant,unique,N,9.0,4,5000.0,138.0,16.0,300.0,16.0,10.0,10.0,42.666668,42.666668
@@ -1334,7 +1595,8 @@ Tyrannosaurus Rex,MM,80.0,beast,generic,N,8.0,3,3900.0,136.5,13.0,136.5,13.0,10.
 Tyrannosaurus Zombie,ToA,241.0,undead,generic,N,8.0,3,3900.0,136.5,11.0,150.0,11.0,10.0,10.0,53.0,53.0
 Udaak,EGtW,301.0,fiend,generic,N,16.0,5,15000.0,165.0,18.0,247.5,20.0,13.0,13.0,64.0,82.0
 Ulder Ravengard,BGDiA,70.0,humanoid,unique,N,5.0,3,1800.0,112.5,20.0,112.5,20.0,7.0,7.0,32.0,32.0
-Ulitharid,VGtM,175.0,aberration,generic,N,9.0,4,5000.0,127.5,15.0,127.5,19.0,9.0,9.0,58.333332,58.333332
+Ulitharid,MPMotM,249.0,aberration,generic,N,9.0,4,5000.0,127.5,15.0,172.5,19.0,9.0,9.0,48.0,48.0
+Ulitharid,VGtM,175.0,aberration,legacy,N,9.0,4,5000.0,127.5,15.0,127.5,19.0,9.0,9.0,58.333332,58.333332
 Ultroloth,MM,314.0,fiend,generic,N,13.0,5,10000.0,153.0,19.0,191.3,21.0,8.0,8.0,53.0,53.0
 Umberhulk,MM,292.0,monstrosity,generic,N,5.0,3,1800.0,93.5,18.0,93.5,22.0,8.0,12.0,32.0,32.0
 Undercity Medusa,GGtR,222.0,monstrosity,generic,N,6.0,3,2300.0,120.0,16.0,150.0,18.0,7.0,7.0,32.666668,32.666668
@@ -1353,14 +1615,21 @@ Vampire Spellcaster,MM,298.0,undead,legendary,L,15.0,5,13000.0,144.5,16.0,367.5,
 Vampire Warrior,MM,298.0,undead,legendary,L,15.0,5,13000.0,144.5,18.0,367.5,20.0,9.0,9.0,47.0,47.0
 "Vampire, Blood Drinker",GGtR,223.0,undead,generic,N,8.0,3,3900.0,90.0,16.0,270.0,19.0,7.0,7.0,29.0,29.0
 Vampiric Jade Statue,GoS,256.0,construct,unique,L,8.0,3,3900.0,114.0,14.0,174.0,14.0,6.0,10.0,60.0,60.0
-Vampiric Mist,MToF,247.0,undead,generic,N,3.0,2,700.0,30.0,13.0,120.0,13.0,5.0,5.0,10.0,10.0
+Vampiric Mist,MPMotM,250.0,undead,generic,N,3.0,2,700.0,30.0,13.0,120.0,13.0,5.0,5.0,10.0,10.0
+Vampiric Mist,MToF,247.0,undead,legacy,N,3.0,2,700.0,30.0,13.0,120.0,13.0,5.0,5.0,10.0,10.0
 Vampiric Mist,TftYP,247.0,undead,generic,N,3.0,2,700.0,30.0,13.0,120.0,13.0,5.0,5.0,10.0,10.0
 Vanifer,PotA,203.0,humanoid,unique,N,9.0,4,5000.0,112.5,15.0,152.5,20.0,8.0,8.0,67.333336,67.333336
-Vargouille,VGtM,194.0,fiend,generic,N,1.0,2,200.0,13.5,12.0,26.0,12.0,4.0,4.0,15.0,15.0
-Vegepygmy,VGtM,196.0,plant,generic,N,0.25,2,50.0,9.0,13.0,18.0,13.0,4.0,4.0,5.5,5.5
-Vegepygmy Chief,VGtM,197.0,plant,generic,N,2.0,2,450.0,33.0,14.0,48.0,15.0,4.0,4.0,14.0,14.0
+Vargouille,MPMotM,251.0,fiend,generic,N,1.0,2,200.0,18.0,12.0,36.0,12.0,4.0,4.0,16.0,16.0
+Vargouille,VGtM,194.0,fiend,legacy,N,1.0,2,200.0,13.5,12.0,26.0,12.0,4.0,4.0,15.0,15.0
+Vegepygmy,MPMotM,252.0,plant,generic,N,0.25,2,50.0,13.5,13.0,22.5,13.0,4.0,4.0,5.5,5.5
+Vegepygmy,VGtM,196.0,plant,legacy,N,0.25,2,50.0,9.0,13.0,18.0,13.0,4.0,4.0,5.5,5.5
+Vegepygmy Chief,MPMotM,253.0,plant,generic,N,2.0,2,450.0,33.0,14.0,48.0,14.0,4.0,4.0,20.666666,20.666666
+Vegepygmy Chief,VGtM,197.0,plant,legacy,N,2.0,2,450.0,33.0,14.0,48.0,15.0,4.0,4.0,14.0,14.0
+"Vegepygmy, Thorny",MPMotM,253.0,plant,generic,N,1.0,2,200.0,27.5,14.0,42.5,14.0,3.0,3.0,10.0,10.0
+"Vegepygmy, Thorny",VGtM,197.0,plant,legacy,N,1.0,2,200.0,27.5,14.0,42.0,14.0,3.0,3.0,8.0,8.0
 Vellynne Harpell,IDRotF,273.0,humanoid,unique,N,4.0,2,1100.0,67.5,13.0,74.5,13.0,6.0,6.0,28.666666,28.666666
-Velociraptor,VGtM,140.0,beast,generic,N,0.25,2,50.0,10.5,13.0,10.5,13.0,4.0,5.0,10.0,10.0
+Velociraptor,MPMotM,96.0,beast,generic,N,0.25,2,50.0,10.5,13.0,10.5,13.0,4.0,5.0,10.0,10.0
+Velociraptor,VGtM,140.0,beast,legacy,N,0.25,2,50.0,10.5,13.0,10.5,13.0,4.0,5.0,10.0,10.0
 Velomachus Lorehold,SaCoC,219.0,dragon,unique,L,25.0,8,75000.0,487.5,21.0,577.5,23.0,18.0,20.0,133.83333,133.83333
 Verbeeg Longstrider,IDRotF,311.0,giant,generic,N,5.0,3,1800.0,119.0,14.0,119.0,16.0,7.0,7.0,34.0,34.0
 Verbeeg Marauder,IDRotF,311.0,giant,generic,N,4.0,2,1100.0,85.0,14.0,85.0,14.0,6.0,6.0,28.0,28.0
@@ -1374,20 +1643,27 @@ Vrock,MM,64.0,fiend,generic,N,6.0,3,2300.0,104.5,15.0,156.0,19.0,6.0,6.0,24.0,24
 Walking Statue of Waterdeep,WDH,219.0,construct,generic,N,18.0,6,20000.0,314.5,17.0,392.5,19.0,16.0,16.0,72.666664,72.666664
 Walrus,IDRotF,312.0,beast,generic,N,0.25,2,50.0,22.5,9.0,22.5,9.0,4.0,4.0,7.0,7.0
 "Walrus, Giant",IDRotF,312.0,beast,generic,N,4.0,2,1100.0,85.5,9.0,85.5,9.0,8.0,8.0,31.0,31.0
-War Priest,VGtM,218.0,humanoid,generic,N,9.0,4,5000.0,117.0,18.0,117.0,18.0,7.0,7.0,69.333336,69.333336
+War Priest,MPMotM,254.0,humanoid,generic,N,9.0,4,5000.0,117.0,18.0,141.0,18.0,7.0,7.0,53.0,53.0
+War Priest,VGtM,218.0,humanoid,legacy,N,9.0,4,5000.0,117.0,18.0,117.0,18.0,7.0,7.0,69.333336,69.333336
 Warduke,WBtW,221.0,humanoid,unique,N,5.0,3,1800.0,78.0,17.0,91.0,17.0,6.0,6.0,43.5,43.5
 Warforged Colossus,ERftLW,314.0,construct,generic,N,25.0,8,75000.0,410.0,23.0,625.0,27.0,18.0,18.0,131.0,131.0
 Warforged Soldier,ERftLW,320.0,humanoid,generic,N,1.0,2,200.0,30.0,16.0,30.0,16.0,5.0,5.0,12.0,12.0
 Warforged Titan,ERftLW,315.0,construct,generic,N,8.0,3,3900.0,125.0,20.0,125.0,20.0,9.0,9.0,51.666668,51.666668
 "Warforged, Lord of Blades",ERftLW,300.0,humanoid,unique,L,18.0,6,20000.0,195.5,19.0,195.5,21.0,11.0,11.0,161.0,161.0
 Warhorse,MM,340.0,beast,generic,N,0.5,2,100.0,19.5,11.0,19.5,11.0,6.0,6.0,14.666667,14.666667
-Warlock of the Archfey,VGtM,219.0,humanoid,generic,N,4.0,2,1100.0,49.5,14.0,69.5,14.0,6.0,6.0,16.5,16.5
-Warlock of the Fiend,VGtM,219.0,humanoid,generic,N,7.0,3,2900.0,78.0,15.0,117.0,15.0,7.0,7.0,79.666664,79.666664
-Warlock of the Great Old One,VGtM,220.0,humanoid,generic,N,6.0,3,2300.0,91.0,15.0,91.0,15.0,7.0,7.0,52.0,52.0
-Warlord,VGtM,220.0,humanoid,legendary,L,12.0,4,8400.0,229.5,18.0,239.0,22.0,9.0,9.0,60.0,60.0
+Warlock of the Archfey,MPMotM,255.0,humanoid,generic,N,4.0,2,1100.0,67.5,16.0,87.5,16.0,5.0,5.0,29.0,29.0
+Warlock of the Archfey,VGtM,219.0,humanoid,legacy,N,4.0,2,1100.0,49.5,14.0,69.5,14.0,6.0,6.0,16.5,16.5
+Warlock of the Fiend,MPMotM,255.0,humanoid,generic,N,7.0,3,2900.0,78.0,16.0,78.0,16.0,6.0,6.0,83.5,83.5
+Warlock of the Fiend,VGtM,219.0,humanoid,legacy,N,7.0,3,2900.0,78.0,15.0,117.0,15.0,7.0,7.0,79.666664,79.666664
+Warlock of the Great Old One,MPMotM,256.0,humanoid,generic,N,6.0,3,2300.0,91.0,16.0,91.0,16.0,6.0,6.0,43.0,43.0
+Warlock of the Great Old One,VGtM,220.0,humanoid,legacy,N,6.0,3,2300.0,91.0,15.0,91.0,15.0,7.0,7.0,52.0,52.0
+Warlord,MPMotM,257.0,humanoid,legendary,L,12.0,4,8400.0,229.5,18.0,269.5,20.0,9.0,9.0,60.0,60.0
+Warlord,VGtM,220.0,humanoid,legacy,L,12.0,4,8400.0,229.5,18.0,239.0,22.0,9.0,9.0,60.0,60.0
 "Wasp, Giant",MM,329.0,beast,generic,N,0.5,2,100.0,13.5,12.0,13.5,12.0,4.0,4.0,15.0,15.0
-Wastrilith,MToF,139.0,fiend,generic,N,13.0,5,10000.0,157.5,18.0,196.3,20.0,9.0,9.0,102.0,102.0
+Wastrilith,MPMotM,258.0,fiend,generic,N,13.0,5,10000.0,157.5,18.0,196.9,20.0,9.0,9.0,88.0,97.333336
+Wastrilith,MToF,139.0,fiend,legacy,N,13.0,5,10000.0,157.5,18.0,196.3,20.0,9.0,9.0,102.0,102.0
 Water Elemental,MM,125.0,elemental,generic,N,5.0,3,1800.0,114.0,14.0,171.0,14.0,7.0,7.0,34.666668,34.666668
+Water Elemental Myrmidon,MPMotM,123.0,elemental,generic,N,7.0,3,2900.0,127.5,18.0,191.3,18.0,7.0,7.0,31.0,31.0
 Water Elemental Myrmidon,PotA,213.0,elemental,generic,N,7.0,3,2900.0,127.5,18.0,191.3,18.0,7.0,7.0,29.0,29.0
 Water Wierd,MM,299.0,elemental,generic,N,3.0,2,700.0,58.5,13.0,116.0,13.0,5.0,5.0,13.0,13.0
 Werebat,WDotMM,317.0,humanoid,generic,N,2.0,2,450.0,24.5,13.0,48.0,13.0,5.0,5.0,12.0,12.0
@@ -1415,31 +1691,55 @@ Witherbloom Apprentice,SaCoC,221.0,humanoid,generic,N,2.0,2,450.0,44.0,13.0,59.0
 Witherbloom Pledgemage,SaCoC,222.0,humanoid,generic,N,4.0,2,1100.0,66.0,15.0,88.0,15.0,5.0,9.0,26.5,28.833334
 Witherbloom Professor of Decay,SaCoC,223.0,humanoid,generic,N,7.0,3,2900.0,105.0,14.0,125.0,16.0,7.0,7.0,39.0,39.0
 Witherbloom Professor of Growth,SaCoC,223.0,humanoid,generic,N,7.0,3,2900.0,112.5,13.0,180.5,15.0,7.0,7.0,49.0,49.0
+"Wizard, Abjurer",MPMotM,260.0,humanoid,generic,N,9.0,4,5000.0,104.0,15.0,156.0,15.0,8.0,8.0,72.0,72.0
+"Wizard, Abjurer",VGtM,209.0,humanoid,legacy,N,9.0,4,5000.0,84.5,15.0,129.0,17.0,8.0,8.0,80.666664,80.666664
+"Wizard, Conjurer",MPMotM,260.0,humanoid,generic,N,6.0,3,2300.0,58.5,15.0,88.5,15.0,6.0,6.0,67.0,67.0
+"Wizard, Conjurer",VGtM,212.0,humanoid,legacy,N,6.0,3,2300.0,40.5,15.0,60.0,15.0,6.0,6.0,67.333336,67.333336
+"Wizard, Diviner",MPMotM,261.0,humanoid,generic,N,8.0,3,3900.0,90.0,15.0,110.0,17.0,7.0,7.0,71.0,71.0
+"Wizard, Diviner",VGtM,213.0,humanoid,legacy,N,8.0,3,3900.0,67.5,15.0,100.5,15.0,7.0,7.0,83.333336,83.333336
+"Wizard, Enchanter",MPMotM,261.0,humanoid,generic,N,5.0,3,1800.0,49.5,15.0,69.5,15.0,6.0,6.0,58.5,65.166664
+"Wizard, Enchanter",VGtM,213.0,humanoid,legacy,N,5.0,3,1800.0,40.5,15.0,70.5,15.0,6.0,6.0,67.333336,67.333336
+"Wizard, Evoker",MPMotM,262.0,humanoid,generic,N,9.0,4,5000.0,121.0,15.0,121.0,15.0,7.0,7.0,106.0,106.0
+"Wizard, Evoker",VGtM,214.0,humanoid,legacy,N,9.0,4,5000.0,66.0,15.0,99.0,20.0,7.0,7.0,102.0,102.0
+"Wizard, Illusionist",MPMotM,263.0,humanoid,generic,N,3.0,2,700.0,44.0,15.0,44.0,19.0,5.0,5.0,28.0,28.0
+"Wizard, Illusionist",VGtM,214.0,humanoid,legacy,N,3.0,2,700.0,38.5,15.0,38.5,17.0,5.0,5.0,31.0,31.0
+"Wizard, Necromancer",MPMotM,264.0,humanoid,generic,N,9.0,4,5000.0,110.0,15.0,119.0,15.0,7.0,7.0,75.0,102.5
+"Wizard, Necromancer",VGtM,217.0,humanoid,legacy,N,9.0,4,5000.0,66.0,15.0,121.5,15.0,7.0,7.0,50.0,50.0
+"Wizard, Transmuter",MPMotM,265.0,humanoid,generic,N,5.0,3,1800.0,49.5,15.0,49.5,15.0,6.0,6.0,58.5,58.5
+"Wizard, Transmuter",VGtM,218.0,humanoid,legacy,N,5.0,3,1800.0,40.5,15.0,60.0,17.0,6.0,6.0,67.333336,67.333336
 Woe Strider,MOoT,247.0,aberration,generic,N,7.0,3,2900.0,110.5,17.0,110.5,17.0,7.0,7.0,49.0,49.0
 Wolf,MM,341.0,beast,generic,N,0.25,2,50.0,11.0,13.0,11.0,13.0,4.0,5.0,7.0,7.0
 "Wolf, Dire",MM,321.0,beast,generic,N,1.0,2,200.0,37.5,14.0,37.5,14.0,5.0,6.0,10.0,10.0
 "Wolf, Winter",MM,340.0,monstrosity,generic,N,3.0,2,700.0,75.0,13.0,75.0,13.0,6.0,7.0,19.333334,19.333334
-Wood Woad,VGtM,198.0,plant,generic,N,5.0,3,1800.0,75.0,18.0,105.0,18.0,7.0,7.0,28.0,28.0
+Wood Woad,MPMotM,266.0,plant,generic,N,5.0,3,1800.0,75.0,18.0,105.0,18.0,7.0,7.0,28.0,28.0
+Wood Woad,VGtM,198.0,plant,legacy,N,5.0,3,1800.0,75.0,18.0,105.0,18.0,7.0,7.0,28.0,28.0
 Worg,MM,341.0,monstrosity,generic,N,0.5,2,100.0,26.0,13.0,26.0,13.0,5.0,5.0,10.0,10.0
 Wraith,MM,302.0,undead,generic,N,5.0,3,1800.0,67.5,13.0,101.3,13.0,6.0,6.0,21.0,21.0
+Wretched Sorrowsworn,MPMotM,224.0,monstrosity,generic,N,0.25,2,50.0,10.0,15.0,20.0,15.0,3.0,4.0,6.5,6.5
+Wretched Sorrowsworn,MToF,233.0,monstrosity,legacy,N,0.25,2,50.0,10.0,15.0,20.0,15.0,3.0,4.0,6.5,6.5
 Wurm,GGtR,225.0,monstrosity,generic,N,14.0,5,11500.0,200.0,18.0,200.0,18.0,12.0,12.0,61.0,61.0
 Wyvern,MM,303.0,dragon,generic,N,6.0,3,2300.0,110.5,13.0,110.5,13.0,7.0,7.0,48.0,48.0
 Xandala,ToA,236.0,humanoid,unique,N,7.0,3,2900.0,71.5,13.0,71.5,18.0,7.0,7.0,75.666664,75.666664
 Xardorok Sunblight,IDRotF,287.0,humanoid,unique,N,5.0,3,1800.0,93.5,16.0,93.5,16.0,7.0,7.0,28.666666,28.666666
 Xorn,MM,304.0,elemental,generic,N,5.0,3,1800.0,73.5,19.0,109.5,19.0,6.0,6.0,31.0,31.0
-Xvart,VGtM,200.0,humanoid,generic,N,0.125,2,25.0,7.0,13.0,7.0,13.0,4.0,4.0,5.5,5.5
-Xvart Speaker,VGtM,200.0,humanoid,generic,N,0.125,2,25.0,7.0,13.0,7.0,13.0,4.0,4.0,5.5,5.5
-Xvart Warlock of Raxivort,VGtM,200.0,humanoid,generic,N,1.0,2,200.0,22.5,15.0,28.0,15.0,3.0,3.0,15.666667,15.666667
-Yagnoloth,MToF,252.0,fiend,generic,N,11.0,4,7200.0,147.0,17.0,221.3,21.0,8.0,8.0,50.0,50.0
+Xvart,MPMotM,267.0,monstrosity,generic,N,0.125,2,25.0,7.0,13.0,7.0,13.0,4.0,4.0,5.5,5.5
+Xvart,VGtM,200.0,humanoid,legacy,N,0.125,2,25.0,7.0,13.0,7.0,13.0,4.0,4.0,5.5,5.5
+Xvart Warlock of Raxivort,MPMotM,267.0,monstrosity,generic,N,1.0,2,200.0,22.5,15.0,26.5,15.0,3.0,3.0,17.0,17.0
+Xvart Warlock of Raxivort,VGtM,200.0,humanoid,legacy,N,1.0,2,200.0,22.5,15.0,28.0,15.0,3.0,3.0,15.666667,15.666667
+Yagnoloth,MPMotM,268.0,fiend,generic,N,11.0,4,7200.0,147.0,17.0,266.9,21.0,8.0,8.0,45.833332,45.833332
+Yagnoloth,MToF,252.0,fiend,legacy,N,11.0,4,7200.0,147.0,17.0,221.3,21.0,8.0,8.0,50.0,50.0
 Yakfolk Priest,SKT,245.0,monstrosity,generic,N,4.0,2,1100.0,52.5,12.0,52.5,16.0,5.0,5.0,37.0,37.0
 Yakfolk Warrior,SKT,244.0,monstrosity,generic,N,3.0,2,700.0,60.0,11.0,60.0,11.0,6.0,6.0,36.0,36.0
 Yan-C-Bin,PotA,220.0,elemental,unique,LL,18.0,6,20000.0,283.5,22.0,466.9,26.0,14.0,14.0,141.0,141.0
-Yeenoghu,MToF,155.0,fiend,unique,LL,24.0,7,62000.0,333.5,20.0,528.8,24.0,16.0,16.0,141.0,141.0
+Yeenoghu,MPMotM,270.0,fiend,unique,L,24.0,7,62000.0,333.5,20.0,585.6,24.0,16.0,16.0,145.0,145.0
+Yeenoghu,MPMotM,270.0,fiend,unique,LL,25.0,8,75000.0,333.5,20.0,585.6,24.0,16.0,16.0,145.0,163.0
+Yeenoghu,MToF,155.0,fiend,legacy,LL,24.0,7,62000.0,333.5,20.0,528.8,24.0,16.0,16.0,141.0,141.0
 Yeenoghu,OotA,247.0,fiend,unique,LL,24.0,7,62000.0,348.0,22.0,547.5,26.0,16.0,16.0,183.0,183.0
 Yellow Musk Creeper,ToA,237.0,plant,generic,N,2.0,2,450.0,60.5,6.0,90.0,6.0,3.0,3.0,13.0,13.0
 Yellow Musk Zombie,ToA,237.0,undead,generic,N,0.25,2,50.0,33.0,9.0,40.0,9.0,3.0,3.0,5.0,5.0
 Yestabrod,OotA,233.0,monstrosity,unique,L,4.0,2,1100.0,75.0,15.0,85.0,15.0,4.0,4.0,43.0,43.0
-Yeth Hound,VGtM,201.0,fey,generic,N,4.0,2,1100.0,51.0,14.0,102.0,14.0,6.0,6.0,25.0,25.0
+Yeth Hound,MPMotM,271.0,fey,generic,N,4.0,2,1100.0,51.0,14.0,102.0,14.0,6.0,6.0,11.0,25.0
+Yeth Hound,VGtM,201.0,fey,legacy,N,4.0,2,1100.0,51.0,14.0,102.0,14.0,6.0,6.0,25.0,25.0
 Yeti,MM,305.0,monstrosity,generic,N,3.0,2,700.0,51.0,12.0,51.0,12.0,6.0,6.0,32.5,32.5
 Yeti Tyke,IDRotF,313.0,monstrosity,generic,N,0.125,2,25.0,9.0,11.0,9.0,11.0,2.0,2.0,5.0,5.0
 "Yeti, Abominable",MM,306.0,monstrosity,generic,N,9.0,4,5000.0,137.5,15.0,137.5,15.0,11.0,11.0,72.0,72.0
@@ -1448,20 +1748,27 @@ Yochlol,MM,65.0,fiend,generic,N,10.0,4,5900.0,136.0,15.0,170.0,19.0,6.0,6.0,52.0
 Young Griffon (Medium),IDRotF,163.0,monstrosity,generic,N,1.0,2,200.0,32.5,12.0,32.5,12.0,3.0,3.0,10.5,10.5
 Young Griffon (Small),IDRotF,163.0,monstrosity,generic,N,0.25,2,50.0,13.0,12.0,13.0,12.0,1.0,1.0,5.0,5.0
 Yuan-ti Abomination,MM,308.0,monstrosity,generic,N,7.0,3,2900.0,127.5,15.0,127.5,17.0,6.0,6.0,44.0,44.0
-Yuan-ti Anathema,VGtM,202.0,monstrosity,generic,N,12.0,4,8400.0,189.0,16.0,236.3,18.0,10.0,10.0,90.0,90.0
-Yuan-ti Broodguard,VGtM,203.0,humanoid,generic,N,2.0,2,450.0,45.5,14.0,45.5,16.0,4.0,4.0,16.0,16.0
+Yuan-ti Anathema,MPMotM,272.0,monstrosity,generic,N,12.0,4,8400.0,189.0,16.0,236.3,18.0,10.0,10.0,67.0,67.0
+Yuan-ti Anathema,VGtM,202.0,monstrosity,legacy,N,12.0,4,8400.0,189.0,16.0,236.3,18.0,10.0,10.0,90.0,90.0
+Yuan-ti Broodguard,MPMotM,273.0,monstrosity,generic,N,2.0,2,450.0,45.5,14.0,45.5,16.0,4.0,4.0,17.5,17.5
+Yuan-ti Broodguard,VGtM,203.0,humanoid,legacy,N,2.0,2,450.0,45.5,14.0,45.5,16.0,4.0,4.0,16.0,16.0
 Yuan-ti Malison,MM,309.0,monstrosity,generic,N,3.0,2,700.0,66.0,12.0,66.0,14.0,5.0,5.0,24.0,24.0
 Yuan-ti Malison (Type 4),VGtM,96.0,monstrosity,generic,N,3.0,2,700.0,66.0,12.0,66.0,14.0,5.0,5.0,24.0,24.0
 Yuan-ti Malison (Type 5),VGtM,96.0,monstrosity,generic,N,3.0,2,700.0,66.0,12.0,66.0,14.0,5.0,5.0,24.0,24.0
-Yuan-ti Mind Whisperer,VGtM,204.0,monstrosity,generic,N,4.0,2,1100.0,71.5,14.0,80.0,16.0,5.0,5.0,28.666666,28.666666
-Yuan-ti Nightmare Speaker,VGtM,205.0,monstrosity,generic,N,4.0,2,1100.0,71.5,14.0,71.5,16.0,5.0,5.0,26.666666,26.666666
-Yuan-ti Pit Master,VGtM,206.0,monstrosity,generic,N,5.0,3,1800.0,88.0,14.0,88.0,16.0,5.0,5.0,49.333332,49.333332
+Yuan-ti Mind Whisperer,MPMotM,274.0,monstrosity,generic,N,4.0,2,1100.0,71.5,14.0,80.5,16.0,5.0,5.0,33.0,33.0
+Yuan-ti Mind Whisperer,VGtM,204.0,monstrosity,legacy,N,4.0,2,1100.0,71.5,14.0,80.0,16.0,5.0,5.0,28.666666,28.666666
+Yuan-ti Nightmare Speaker,MPMotM,275.0,monstrosity,generic,N,4.0,2,1100.0,71.5,14.0,71.5,16.0,5.0,5.0,36.666668,36.666668
+Yuan-ti Nightmare Speaker,VGtM,205.0,monstrosity,legacy,N,4.0,2,1100.0,71.5,14.0,71.5,16.0,5.0,5.0,26.666666,26.666666
+Yuan-ti Pit Master,MPMotM,276.0,monstrosity,generic,N,5.0,3,1800.0,88.0,14.0,88.0,16.0,6.0,6.0,37.5,37.5
+Yuan-ti Pit Master,VGtM,206.0,monstrosity,legacy,N,5.0,3,1800.0,88.0,14.0,88.0,16.0,5.0,5.0,49.333332,49.333332
 Yuan-ti Pureblood,MM,310.0,humanoid,generic,N,1.0,2,200.0,40.5,11.0,40.5,13.0,3.0,3.0,11.0,11.0
 Yusdrayl,TftYP,248.0,humanoid,unique,N,1.0,2,200.0,16.5,15.0,16.5,15.0,5.0,6.0,20.0,20.0
 Zarak,WBtW,222.0,humanoid,unique,N,2.0,2,450.0,37.5,14.0,46.5,18.0,5.0,9.0,11.0,17.666666
-Zaratan,MToF,201.0,elemental,legendary,L,22.0,7,41000.0,307.5,21.0,397.0,21.0,17.0,17.0,138.0,138.0
+Zaratan,MPMotM,278.0,elemental,legendary,L,22.0,7,41000.0,307.5,21.0,397.5,21.0,17.0,17.0,136.0,136.0
+Zaratan,MToF,201.0,elemental,legacy,L,22.0,7,41000.0,307.5,21.0,397.0,21.0,17.0,17.0,138.0,138.0
 Zargash,WBtW,223.0,humanoid,unique,N,3.0,2,700.0,45.5,13.0,72.5,13.0,5.0,5.0,25.0,28.0
-Zariel,MToF,180.0,fiend,unique,LL,26.0,8,90000.0,580.0,21.0,730.0,25.0,16.0,16.0,169.33333,169.33333
+Zariel,MPMotM,280.0,fiend,unique,LL,26.0,8,90000.0,420.5,21.0,570.5,25.0,16.0,16.0,187.0,224.33333
+Zariel,MToF,180.0,fiend,legacy,LL,26.0,8,90000.0,580.0,21.0,730.0,25.0,16.0,16.0,169.33333,169.33333
 Zegana,GGtR,255.0,humanoid,unique,L,16.0,5,15000.0,130.0,16.0,220.0,23.0,10.0,10.0,143.0,143.0
 Zephyros,SKT,33.0,giant,unique,N,13.0,5,10000.0,200.0,14.0,260.0,18.0,9.0,9.0,84.0,84.0
 Zindar,ToA,239.0,humanoid,unique,N,8.0,3,3900.0,110.5,13.0,165.0,20.0,7.0,7.0,50.666668,50.666668
@@ -1470,5 +1777,6 @@ Zombie,MM,316.0,undead,generic,N,0.25,2,50.0,22.5,8.0,22.5,8.0,3.0,3.0,4.5,4.5
 Zombie Clot,VRGtR,255.0,undead,generic,N,6.0,3,2300.0,104.5,12.0,151.5,13.0,8.0,8.0,42.666668,42.666668
 Zombie Plague Spreader,VRGtR,255.0,undead,generic,N,4.0,2,1100.0,78.0,10.0,85.0,11.0,5.0,5.0,31.0,31.0
 Zorbo,ToA,241.0,monstrosity,generic,N,0.5,2,100.0,27.0,10.0,27.0,12.0,3.0,3.0,8.0,8.0
-Zuggtmoy,MToF,157.0,fiend,unique,LL,23.0,7,50000.0,304.0,18.0,492.5,22.0,13.0,13.0,168.0,168.0
+Zuggtmoy,MPMotM,282.0,fiend,unique,LL,23.0,7,50000.0,304.0,18.0,548.8,22.0,13.0,13.0,144.0,144.0
+Zuggtmoy,MToF,157.0,fiend,legacy,LL,23.0,7,50000.0,304.0,18.0,492.5,22.0,13.0,13.0,168.0,168.0
 Zuggtmoy,OotA,249.0,fiend,unique,LL,23.0,7,50000.0,304.0,18.0,567.5,22.0,13.0,13.0,194.66667,194.66667
