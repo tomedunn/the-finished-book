@@ -25,15 +25,15 @@ In this post, I look at how common each of these damage modifiers are, as well a
 Before digging into how monster types and CR impact a monsters' damage immunities, resistances, and vulnerabilities, lets take a step back and look at things from a broad perspective.
 
 ## Non-physical Damage Types
-To get a sense of how common each type of damage modification is, Fig. <a href="#fig:modifier-types-by-damage" class="fig-ref">1</a> (below) shows the percent of monsters that are immune, resistant, or vulnerable to each non-physical damage type (everything other than bludgeoning, piercing, and slashing damage).
+To get a sense of how common each type of damage modification is, Fig. <a href="#fig:nonphysical-modifier-types-by-damage" class="fig-ref">1</a> (below) shows the percent of monsters that are immune, resistant, or vulnerable to each non-physical damage type (everything other than bludgeoning, piercing, and slashing damage).
 
-<figure id="fig:modifier-types-by-damage">
+<figure id="fig:nonphysical-modifier-types-by-damage">
     {% include_relative monster-damage-modifiers/fig-nonphysical-modifier-types-by-damage-small.html %}
     {% include_relative monster-damage-modifiers/fig-nonphysical-modifier-types-by-damage-large.html %}
     <figcaption>Figure 1: Percent of monsters with either resistance, immunity, or vulnerability to each non-physical damage type.</figcaption>
 </figure>
 
-Before talking about individual damage types, one thing Fig. <a href="#fig:modifier-types-by-damage" class="fig-ref">1</a> makes clear is that damage vulnerabilities are exceptionally rare. In fact, only $$4\%$$ of monsters have any kind of damage vulnerability, and only one monster is vulnerable to more than one damage type, the slithering tracker from _Mordenkainen Presents: Monsters of the Multiverse_, which is vulnerable to both cold and fire damage.
+Before talking about individual damage types, one thing Fig. <a href="#fig:nonphysical-modifier-types-by-damage" class="fig-ref">1</a> makes clear is that damage vulnerabilities are exceptionally rare. In fact, only $$4\%$$ of monsters have any kind of damage vulnerability, and only one monster is vulnerable to more than one damage type, the slithering tracker from _Mordenkainen Presents: Monsters of the Multiverse_, which is vulnerable to both cold and fire damage.
 
 This means the vast majority of damage modifiers present on monsters are either immunities or resistances.
 
@@ -55,13 +55,13 @@ For some of these sub-categories, there can even be multiple wordings that produ
 
 Rather than breaking out all of these sub-categories and phrasings, for now I'd just like to focus on a few of the broader categories: immune, resistant, and vulnerable, as well as immune to non-magical damage, and resistant to non-magical damage. The later two are defined by whether or not a magical weapon can be used to overcome them.
 
-<figure id="fig:modifier-types-by-damage">
+<figure id="fig:physical-modifier-types-by-damage">
     {% include_relative monster-damage-modifiers/fig-physical-modifier-types-by-damage-small.html %}
     {% include_relative monster-damage-modifiers/fig-physical-modifier-types-by-damage-large.html %}
     <figcaption>Figure 2: Percent of monsters with either resistance, immunity, or vulnerability to each physical damage type.</figcaption>
 </figure>
 
-The probability of a monster falling into each of these categories is shown in Fig. <a href="#fig:modifier-types-by-damage" class="fig-ref">2</a> (above) for each physical damage type. 
+The probability of a monster falling into each of these categories is shown in Fig. <a href="#fig:physical-modifier-types-by-damage" class="fig-ref">2</a> (above) for each physical damage type. 
 
 While the overall levels of immunity and resistance is on the higher side compared to the non-physical damage types, the vast majority of each can be overcome using a magic weapon, or some other kind of magical attack.
 
