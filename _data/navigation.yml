@@ -20,6 +20,8 @@ monsters:
     url: /monsters/legendary-resistance
   - title: "Monster Condition Immunities"
     url: /monsters/monster-condition-immunities
+  - title: "Monster Damage Modifiers"
+    url: /monsters/monster-damage-modifiers
   - title: "Monster Saving Throws"
     url: /monsters/monster-saving-throws
 
