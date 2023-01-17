@@ -46,6 +46,8 @@ theory:
         url: /theory/rounds-per-day
       - title: "Valuing Conditions"
         url: /theory/valuing-conditions
+      - title: "XP in D&D vs Pathfinder"
+        url: /theory/xp-dnd-vs-pathfinder
   - title: "Encounter Math"
     children:
       - title: "XP and Encounter Balancing"
