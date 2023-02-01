@@ -3,6 +3,18 @@ import numpy as np
 import diceEq as de
 import estats5e as es5
 
+# utility
+def remove_empty_data( obj ):
+    if type(obj) == list:
+        for i in range(len(obj)):
+            obj[i] = remove_empty_data(obj[i])
+        obj = [l for l in obj if l]
+    elif type(obj) == dict:
+        for k in obj:
+            obj[k] = remove_empty_data(obj[k])
+        obj = {k: v for k, v in obj.items() if v}
+    return obj
+
 # resources
 def resourcesUsed(actions=None, rounds=None, resources=None):
     """Returns dictionary of resources and the number of times they're used.
@@ -20,7 +32,7 @@ def resourcesUsed(actions=None, rounds=None, resources=None):
         if not resources: 
             resources = {}
         for a in actions:
-            if actions[a]['resources']:
+            if actions[a].get('resources', None):
                 for r in actions[a]['resources']:
                     if r in resources:
                         resources[r] += -actions[a]['resources'][r]
@@ -83,7 +95,7 @@ def action_uses_remaining(action, resources=None):
     resources - dictionary of available resources.
     """
 
-    if not action['resources']:
+    if not action.get('resources', None):
         return np.inf
 
     if not resources:
@@ -106,7 +118,7 @@ def round_uses_remaining(round, resources=None):
     resources - dictionary of available resources.
     """
 
-    if not round['resources used']:
+    if not round.get('resources used', None):
         return np.inf
 
     if not resources:
@@ -169,17 +181,17 @@ def applyAction(round, action):
     round - dictionary of round properties
     action - dictionary of action properties.
     """
-    if action['armor class bonus']:
+    if action.get('armor class bonus', None):
         round['armor class'] += action['armor class bonus']
     
-    if action['hit points multiplier']:
+    if action.get('hit points multiplier', None):
         round['hit points multiplier'] *= action['hit points multiplier']
 
-    if action['healing']:
+    if action.get('healing', None):
         round['healing mean'].append(de.rollAverage(action['healing']))
         round['healing var'].append(np.power(de.rollSigma(action['healing']), 2))
 
-    if action['attacks']:
+    if action.get('attacks', None):
         for atk in action['attacks']:
             round['damage mean'].append(de.rollAverage(atk['damage']))
             round['damage var'].append(np.power(de.rollSigma(atk['damage']), 2))
@@ -773,7 +785,15 @@ def dailyEngine(pc, day, options={}):
             resRemaining = remainingResources(resRemaining, lSum['resources used'])
             resRemaining = refreshResources(pc, 'short rest', resRemaining)
     
-    return dailySummary(pc, encounters)
+    dSum = dailySummary(pc, encounters)
+    
+    if options.get('remove empty data', False):
+        dSum = remove_empty_data(dSum)
+    
+    if options.get('simplify summary', False):
+        dSum = simplify_summary(dSum)
+
+    return dSum
 
 def dailySummary(pc, encounters):
     """Returns summary object of daily encounters.
@@ -843,3 +863,24 @@ def dailySummary(pc, encounters):
         'resources used': resourcesUsed(rounds=rounds)
     }
     return copy.deepcopy(eSum)
+
+def simplify_summary( dSum ):
+    for enc in dSum['encounters']:
+        if 'round options' in enc:
+            enc.pop('round options')
+
+        if 'rounds' not in enc:
+            continue
+        
+        for ir in range(len(enc['rounds'])):
+            rnd = enc['rounds'][ir]
+            new_rnd = {}
+            if rnd.get('actions', None):
+                new_rnd['actions'] = [a for a in rnd['actions']]
+            if rnd.get('effects', None):
+                new_rnd['effects'] = [e for e in rnd['effects']]
+            if rnd.get('resources used', None):
+                new_rnd['resources used'] = rnd['resources used']
+            enc['rounds'][ir] = new_rnd
+
+    return dSum

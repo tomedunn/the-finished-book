@@ -765,7 +765,7 @@ def fighterPC(name='Fighter', **kwargs):
                 stats = applyASI(stats, asi[i])
     
     conMod = abilityModifier(stats['Constitution'])
-    attacks = np.sum(np.array([1,5,11,17]) <= lvl)
+    attacks = np.sum(np.array([1,5,11,20]) <= lvl)
 
     # equipment
     if lvl >= 5:
