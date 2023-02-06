@@ -5,19 +5,19 @@
       "hit points mean": 15.0,
       "healing mean": 9.5,
       "healing var": 11.916666666666664,
-      "hit points multiplier": 1.2307692307692308,
+      "hit points multiplier": 1.3461538461538463,
       "armor class": 15.0,
-      "effective hit points mean": 45.4165226580904,
-      "effective hit points var": 40.949667616334295,
-      "damage per round mean": 10.423076923076923,
+      "effective hit points mean": 49.67432165728638,
+      "effective hit points var": 48.987639482431156,
+      "damage per round mean": 10.884615384615385,
       "damage per round var": 11.916666666666664,
       "attack bonus": 5.0,
-      "effective damage per round mean": 9.419294112507014,
+      "effective damage per round mean": 9.836384626713967,
       "effective damage per round var": 9.731944444444444,
-      "XP mean": 419.061143984221,
-      "XP var": 23131.54499120575,
-      "encounter XP mean": 260.3846153846154,
-      "encounter XP var": 7447.916666666667,
+      "XP mean": 478.64398422090744,
+      "XP var": 28049.55688031379,
+      "encounter XP mean": 297.3076923076923,
+      "encounter XP var": 8891.666666666666,
       "encounters": [
         {
           "type": "encounter",
@@ -104,32 +104,17 @@
         {
           "type": "encounter",
           "hit points mean": 15.0,
-          "hit points multiplier": 1.125,
+          "hit points multiplier": 1.5,
           "armor class": 15.0,
-          "effective hit points mean": 25.416453209486175,
-          "damage per round mean": 10.0,
+          "effective hit points mean": 33.8886042793149,
+          "damage per round mean": 11.5,
           "damage per round var": 11.916666666666664,
           "attack bonus": 5.0,
-          "effective damage per round mean": 9.03696114115064,
+          "effective damage per round mean": 10.392505312323237,
           "effective damage per round var": 9.731944444444444,
-          "XP mean": 225.00000000000003,
-          "XP var": 6032.8125,
+          "XP mean": 345.00000000000006,
+          "XP var": 10724.999999999998,
           "rounds": [
-            {
-              "actions": [
-                "Attack"
-              ]
-            },
-            {
-              "actions": [
-                "Attack"
-              ]
-            },
-            {
-              "actions": [
-                "Attack"
-              ]
-            },
             {
               "actions": [
                 "Attack",
@@ -141,6 +126,30 @@
               "resources used": {
                 "Rage": 1
               }
+            },
+            {
+              "actions": [
+                "Attack"
+              ],
+              "effects": [
+                "Rage"
+              ]
+            },
+            {
+              "actions": [
+                "Attack"
+              ],
+              "effects": [
+                "Rage"
+              ]
+            },
+            {
+              "actions": [
+                "Attack"
+              ],
+              "effects": [
+                "Rage"
+              ]
             }
           ],
           "resources used": {
@@ -205,19 +214,19 @@
       "hit points var": 11.916666666666664,
       "healing mean": 19.0,
       "healing var": 23.83333333333333,
-      "hit points multiplier": 1.2307692307692308,
+      "hit points multiplier": 1.3461538461538463,
       "armor class": 12.0,
-      "effective hit points mean": 63.358035253341846,
-      "effective hit points var": 75.84045584045582,
-      "damage per round mean": 10.423076923076923,
+      "effective hit points mean": 69.29785105834264,
+      "effective hit points var": 90.72710781695153,
+      "damage per round mean": 10.884615384615385,
       "damage per round var": 11.916666666666664,
       "attack bonus": 9.0,
-      "effective damage per round mean": 12.110521001794732,
+      "effective damage per round mean": 12.646780234346526,
       "effective damage per round var": 16.087500000000002,
-      "XP mean": 790.5502958579883,
-      "XP var": 81654.89183903977,
-      "encounter XP mean": 451.8758012820513,
-      "encounter XP var": 27208.593563126924,
+      "XP mean": 902.9521079881657,
+      "XP var": 98961.48463815938,
+      "encounter XP mean": 515.9527243589744,
+      "encounter XP var": 32901.36987606095,
       "encounters": [
         {
           "type": "encounter",
@@ -316,33 +325,18 @@
           "type": "encounter",
           "hit points mean": 24.5,
           "hit points var": 11.916666666666664,
-          "hit points multiplier": 1.125,
+          "hit points multiplier": 1.5,
           "armor class": 12.0,
-          "effective hit points mean": 32.61778161884059,
-          "effective hit points var": 21.121826171874996,
-          "damage per round mean": 10.0,
+          "effective hit points mean": 43.490375491787454,
+          "effective hit points var": 37.54991319444443,
+          "damage per round mean": 11.5,
           "damage per round var": 11.916666666666664,
           "attack bonus": 9.0,
-          "effective damage per round mean": 11.618950038622252,
+          "effective damage per round mean": 13.36179254441559,
           "effective damage per round var": 16.087500000000002,
-          "XP mean": 390.46875,
-          "XP var": 21556.429565429684,
+          "XP mean": 598.71875,
+          "XP var": 40057.95258246527,
           "rounds": [
-            {
-              "actions": [
-                "Attack"
-              ]
-            },
-            {
-              "actions": [
-                "Attack"
-              ]
-            },
-            {
-              "actions": [
-                "Attack"
-              ]
-            },
             {
               "actions": [
                 "Attack",
@@ -354,6 +348,30 @@
               "resources used": {
                 "Rage": 1
               }
+            },
+            {
+              "actions": [
+                "Attack"
+              ],
+              "effects": [
+                "Rage"
+              ]
+            },
+            {
+              "actions": [
+                "Attack"
+              ],
+              "effects": [
+                "Rage"
+              ]
+            },
+            {
+              "actions": [
+                "Attack"
+              ],
+              "effects": [
+                "Rage"
+              ]
             }
           ],
           "resources used": {
@@ -422,19 +440,19 @@
       "hit points var": 23.83333333333333,
       "healing mean": 28.5,
       "healing var": 35.74999999999999,
-      "hit points multiplier": 1.3666666666666667,
+      "hit points multiplier": 1.5,
       "armor class": 12.0,
-      "effective hit points mean": 101.08307228816811,
-      "effective hit points var": 155.85531871570637,
-      "damage per round mean": 10.966666666666667,
+      "effective hit points mean": 110.94483543823328,
+      "effective hit points var": 187.7495659722222,
+      "damage per round mean": 11.5,
       "damage per round var": 11.916666666666664,
       "attack bonus": 9.0,
-      "effective damage per round mean": 12.742115209022403,
+      "effective damage per round mean": 13.36179254441559,
       "effective damage per round var": 16.087500000000002,
-      "XP mean": 1327.0428240740744,
-      "XP var": 204015.2983057449,
-      "encounter XP mean": 728.7616666666667,
-      "encounter XP var": 65085.89974056069,
+      "XP mean": 1527.34375,
+      "XP var": 248988.8970269097,
+      "encounter XP mean": 830.875,
+      "encounter XP var": 77721.30685763889,
       "encounters": [
         {
           "type": "encounter",
@@ -611,38 +629,18 @@
           "type": "encounter",
           "hit points mean": 34.0,
           "hit points var": 23.83333333333333,
-          "hit points multiplier": 1.1,
+          "hit points multiplier": 1.5,
           "armor class": 12.0,
-          "effective hit points mean": 44.25959301749254,
-          "effective hit points var": 40.38701774691357,
-          "damage per round mean": 9.9,
+          "effective hit points mean": 60.35399047839891,
+          "effective hit points var": 75.09982638888886,
+          "damage per round mean": 11.5,
           "damage per round var": 11.916666666666664,
           "attack bonus": 9.0,
-          "effective damage per round mean": 11.502760538236029,
+          "effective damage per round mean": 13.36179254441559,
           "effective damage per round var": 16.087500000000002,
-          "XP mean": 524.5350000000001,
-          "XP var": 39815.08550640432,
+          "XP mean": 830.875,
+          "XP var": 77721.30685763889,
           "rounds": [
-            {
-              "actions": [
-                "Attack"
-              ]
-            },
-            {
-              "actions": [
-                "Attack"
-              ]
-            },
-            {
-              "actions": [
-                "Attack"
-              ]
-            },
-            {
-              "actions": [
-                "Attack"
-              ]
-            },
             {
               "actions": [
                 "Attack",
@@ -654,6 +652,38 @@
               "resources used": {
                 "Rage": 1
               }
+            },
+            {
+              "actions": [
+                "Attack"
+              ],
+              "effects": [
+                "Rage"
+              ]
+            },
+            {
+              "actions": [
+                "Attack"
+              ],
+              "effects": [
+                "Rage"
+              ]
+            },
+            {
+              "actions": [
+                "Attack"
+              ],
+              "effects": [
+                "Rage"
+              ]
+            },
+            {
+              "actions": [
+                "Attack"
+              ],
+              "effects": [
+                "Rage"
+              ]
             }
           ],
           "resources used": {
@@ -679,19 +709,19 @@
       "hit points var": 35.75,
       "healing mean": 38.0,
       "healing var": 47.66666666666666,
-      "hit points multiplier": 1.3928571428571428,
+      "hit points multiplier": 1.5,
       "armor class": 12.0,
-      "effective hit points mean": 134.33834645349506,
-      "effective hit points var": 226.64054749503964,
-      "damage per round mean": 12.071428571428571,
+      "effective hit points mean": 144.6720654114562,
+      "effective hit points var": 262.84939236111103,
+      "damage per round mean": 12.5,
       "damage per round var": 11.916666666666666,
       "attack bonus": 10.0,
-      "effective damage per round mean": 14.80493991032383,
+      "effective damage per round mean": 15.330559078737693,
       "effective damage per round var": 17.924652777777776,
-      "XP mean": 2055.4840561224487,
-      "XP var": 402912.98747551464,
-      "encounter XP mean": 1104.5892857142858,
-      "encounter XP var": 125492.19559151786,
+      "XP mean": 2292.1875,
+      "XP var": 471730.74609374994,
+      "encounter XP mean": 1223.4375,
+      "encounter XP var": 144591.43359375,
       "encounters": [
         {
           "type": "encounter",
@@ -876,33 +906,18 @@
           "type": "encounter",
           "hit points mean": 43.5,
           "hit points var": 35.75,
-          "hit points multiplier": 1.125,
+          "hit points multiplier": 1.5,
           "armor class": 12.0,
-          "effective hit points mean": 57.91320409875778,
-          "effective hit points var": 63.365478515624986,
-          "damage per round mean": 11.0,
+          "effective hit points mean": 77.21760546501037,
+          "effective hit points var": 112.64973958333333,
+          "damage per round mean": 12.5,
           "damage per round var": 11.916666666666664,
           "attack bonus": 10.0,
-          "effective damage per round mean": 13.490891989289173,
+          "effective damage per round mean": 15.330559078737693,
           "effective damage per round var": 17.924652777777776,
-          "XP mean": 807.46875,
-          "XP var": 77744.1005859375,
+          "XP mean": 1223.4375,
+          "XP var": 144591.43359375,
           "rounds": [
-            {
-              "actions": [
-                "Attack"
-              ]
-            },
-            {
-              "actions": [
-                "Attack"
-              ]
-            },
-            {
-              "actions": [
-                "Attack"
-              ]
-            },
             {
               "actions": [
                 "Attack",
@@ -914,6 +929,30 @@
               "resources used": {
                 "Rage": 1
               }
+            },
+            {
+              "actions": [
+                "Attack"
+              ],
+              "effects": [
+                "Rage"
+              ]
+            },
+            {
+              "actions": [
+                "Attack"
+              ],
+              "effects": [
+                "Rage"
+              ]
+            },
+            {
+              "actions": [
+                "Attack"
+              ],
+              "effects": [
+                "Rage"
+              ]
             }
           ],
           "resources used": {
@@ -939,19 +978,19 @@
       "hit points var": 47.66666666666666,
       "healing mean": 47.5,
       "healing var": 59.58333333333332,
-      "hit points multiplier": 1.3928571428571428,
+      "hit points multiplier": 1.5,
       "armor class": 12.0,
-      "effective hit points mean": 165.65648857148776,
-      "effective hit points var": 291.3949896364794,
-      "damage per round mean": 24.142857142857142,
+      "effective hit points mean": 178.39929538467914,
+      "effective hit points var": 337.94921874999994,
+      "damage per round mean": 25.0,
       "damage per round var": 23.833333333333332,
       "attack bonus": 11.0,
-      "effective damage per round mean": 31.168294548050167,
+      "effective damage per round mean": 32.274861218395145,
       "effective damage per round var": 39.72222222222222,
-      "XP mean": 5350.984056122449,
-      "XP var": 1487251.7968326996,
-      "encounter XP mean": 2841.1785714285716,
-      "encounter XP var": 476976.6108320932,
+      "XP mean": 5967.187500000001,
+      "XP var": 1750342.34375,
+      "encounter XP mean": 3146.8750000000005,
+      "encounter XP var": 552079.3055555555,
       "encounters": [
         {
           "type": "encounter",
@@ -1144,33 +1183,18 @@
           "type": "encounter",
           "hit points mean": 53.0,
           "hit points var": 47.66666666666666,
-          "hit points multiplier": 1.125,
+          "hit points multiplier": 1.5,
           "armor class": 12.0,
-          "effective hit points mean": 70.56091533871637,
-          "effective hit points var": 84.48730468749999,
-          "damage per round mean": 22.0,
+          "effective hit points mean": 94.08122045162183,
+          "effective hit points var": 150.19965277777771,
+          "damage per round mean": 25.0,
           "damage per round var": 23.83333333333333,
           "attack bonus": 11.0,
-          "effective damage per round mean": 28.40187787218773,
+          "effective damage per round mean": 32.274861218395145,
           "effective damage per round var": 39.72222222222222,
-          "XP mean": 2076.9375,
-          "XP var": 289219.8740234375,
+          "XP mean": 3146.8750000000005,
+          "XP var": 552079.3055555555,
           "rounds": [
-            {
-              "actions": [
-                "Attack"
-              ]
-            },
-            {
-              "actions": [
-                "Attack"
-              ]
-            },
-            {
-              "actions": [
-                "Attack"
-              ]
-            },
             {
               "actions": [
                 "Attack",
@@ -1182,6 +1206,30 @@
               "resources used": {
                 "Rage": 1
               }
+            },
+            {
+              "actions": [
+                "Attack"
+              ],
+              "effects": [
+                "Rage"
+              ]
+            },
+            {
+              "actions": [
+                "Attack"
+              ],
+              "effects": [
+                "Rage"
+              ]
+            },
+            {
+              "actions": [
+                "Attack"
+              ],
+              "effects": [
+                "Rage"
+              ]
             }
           ],
           "resources used": {
@@ -38072,15 +38120,15 @@
       "armor class": 17.0,
       "effective hit points mean": 76.59900395832447,
       "effective hit points var": 73.33333333333336,
-      "damage per round mean": 11.73076923076923,
-      "damage per round var": 7.852564102564103,
+      "damage per round mean": 12.076923076923077,
+      "damage per round var": 8.256410256410257,
       "attack bonus": 5.0,
-      "effective damage per round mean": 10.601050569426711,
-      "effective damage per round var": 6.412927350427353,
-      "XP mean": 783.0288461538461,
-      "XP var": 43088.0894045858,
-      "encounter XP mean": 343.125,
-      "encounter XP var": 9507.493990384617,
+      "effective damage per round mean": 10.913868455081927,
+      "effective damage per round var": 6.742735042735048,
+      "XP mean": 806.1346153846154,
+      "XP var": 45368.86797337279,
+      "encounter XP mean": 353.25,
+      "encounter XP var": 10052.627884615385,
       "encounters": [
         {
           "type": "encounter",
@@ -38090,13 +38138,13 @@
           "armor class": 17.0,
           "effective hit points mean": 33.565855667130954,
           "effective hit points var": 24.444444444444446,
-          "damage per round mean": 14.5,
-          "damage per round var": 11.083333333333334,
+          "damage per round mean": 15.4,
+          "damage per round var": 12.133333333333335,
           "attack bonus": 5.0,
-          "effective damage per round mean": 13.103593654668428,
-          "effective damage per round var": 9.051388888888892,
-          "XP mean": 424.125,
-          "XP var": 13590.984375000002,
+          "effective damage per round mean": 13.916920157371985,
+          "effective damage per round var": 9.90888888888889,
+          "XP mean": 450.45000000000005,
+          "XP var": 15008.332500000002,
           "rounds": [
             {
               "actions": [
@@ -38115,16 +38163,20 @@
             },
             {
               "actions": [
-                "Attack"
-              ]
-            },
-            {
-              "actions": [
-                "Attack - Smite (1)",
+                "Attack",
                 "Bonus Spell (1)"
               ],
               "resources used": {
-                "Spell Slot (1)": 2
+                "Spell Slot (1)": 1
+              }
+            },
+            {
+              "actions": [
+                "Attack",
+                "Bonus Spell (1)"
+              ],
+              "resources used": {
+                "Spell Slot (1)": 1
               }
             }
           ],
@@ -38287,15 +38339,15 @@
       "armor class": 17.0,
       "effective hit points mean": 111.0255225912793,
       "effective hit points var": 122.22222222222227,
-      "damage per round mean": 12.4,
-      "damage per round var": 8.633333333333333,
+      "damage per round mean": 12.7,
+      "damage per round var": 8.983333333333333,
       "attack bonus": 5.0,
-      "effective damage per round mean": 11.205831815026794,
-      "effective damage per round var": 7.050555555555557,
-      "XP mean": 1199.7,
-      "XP var": 95884.9875,
-      "encounter XP mean": 502.2,
-      "encounter XP var": 20617.3575,
+      "effective damage per round mean": 11.476940649261312,
+      "effective damage per round var": 7.336388888888891,
+      "XP mean": 1228.725,
+      "XP var": 99892.546875,
+      "encounter XP mean": 514.35,
+      "encounter XP var": 21597.592500000006,
       "encounters": [
         {
           "type": "encounter",
@@ -38305,19 +38357,14 @@
           "armor class": 17.0,
           "effective hit points mean": 46.475800154489,
           "effective hit points var": 48.8888888888889,
-          "damage per round mean": 17.2,
-          "damage per round var": 14.233333333333334,
+          "damage per round mean": 18.1,
+          "damage per round var": 15.283333333333335,
           "attack bonus": 5.0,
-          "effective damage per round mean": 15.543573162779099,
-          "effective damage per round var": 11.623888888888894,
-          "XP mean": 696.5999999999999,
-          "XP var": 34857.6975,
+          "effective damage per round mean": 16.35689966548266,
+          "effective damage per round var": 12.481388888888894,
+          "XP mean": 733.0500000000001,
+          "XP var": 37798.40250000001,
           "rounds": [
-            {
-              "actions": [
-                "Attack"
-              ]
-            },
             {
               "actions": [
                 "Attack"
@@ -38339,11 +38386,20 @@
             },
             {
               "actions": [
-                "Attack - Smite (1)",
+                "Attack",
                 "Bonus Spell (1)"
               ],
               "resources used": {
-                "Spell Slot (1)": 2
+                "Spell Slot (1)": 1
+              }
+            },
+            {
+              "actions": [
+                "Attack",
+                "Bonus Spell (1)"
+              ],
+              "resources used": {
+                "Spell Slot (1)": 1
               }
             }
           ],
@@ -38532,15 +38588,15 @@
       "armor class": 17.0,
       "effective hit points mean": 145.4520412242341,
       "effective hit points var": 171.11111111111111,
-      "damage per round mean": 13.571428571428571,
-      "damage per round var": 8.833333333333334,
+      "damage per round mean": 13.892857142857142,
+      "damage per round var": 9.208333333333334,
       "attack bonus": 6.0,
-      "effective damage per round mean": 13.140479210346594,
-      "effective damage per round var": 8.281250000000002,
-      "XP mean": 1815.7440476190477,
-      "XP var": 186062.76049933868,
-      "encounter XP mean": 741.3392857142857,
-      "encounter XP var": 39072.28705357144,
+      "effective damage per round mean": 13.451701086381117,
+      "effective damage per round var": 8.632812499999998,
+      "XP mean": 1858.748511904762,
+      "XP var": 194107.68511801423,
+      "encounter XP mean": 758.8973214285714,
+      "encounter XP var": 40958.411328125,
       "encounters": [
         {
           "type": "encounter",
@@ -38550,19 +38606,14 @@
           "armor class": 17.0,
           "effective hit points mean": 59.38574464184706,
           "effective hit points var": 73.33333333333336,
-          "damage per round mean": 18.2,
-          "damage per round var": 14.233333333333334,
+          "damage per round mean": 19.1,
+          "damage per round var": 15.283333333333335,
           "attack bonus": 6.0,
-          "effective damage per round mean": 17.622074225243747,
-          "effective damage per round var": 13.343750000000002,
-          "XP mean": 994.1750000000001,
-          "XP var": 63906.25062500002,
+          "effective damage per round mean": 18.493495478140417,
+          "effective damage per round var": 14.328125000000002,
+          "XP mean": 1043.3375,
+          "XP var": 69187.39859375001,
           "rounds": [
-            {
-              "actions": [
-                "Attack"
-              ]
-            },
             {
               "actions": [
                 "Attack"
@@ -38584,11 +38635,20 @@
             },
             {
               "actions": [
-                "Attack - Smite (1)",
+                "Attack",
                 "Bonus Spell (1)"
               ],
               "resources used": {
-                "Spell Slot (1)": 2
+                "Spell Slot (1)": 1
+              }
+            },
+            {
+              "actions": [
+                "Attack",
+                "Bonus Spell (1)"
+              ],
+              "resources used": {
+                "Spell Slot (1)": 1
               }
             }
           ],
@@ -40015,15 +40075,15 @@
       "armor class": 20.0,
       "effective hit points mean": 377.13175333694727,
       "effective hit points var": 585.9982638888889,
-      "damage per round mean": 38.607142857142854,
-      "damage per round var": 27.375000000000004,
+      "damage per round mean": 38.964285714285715,
+      "damage per round var": 27.458333333333336,
       "attack bonus": 9.0,
-      "effective damage per round mean": 44.85744639910947,
-      "effective damage per round var": 36.95625000000002,
-      "XP mean": 14839.620535714286,
-      "XP var": 4968469.7157671675,
-      "encounter XP mean": 5791.071428571429,
-      "encounter XP var": 1160766.9270833337,
+      "effective damage per round mean": 45.27240890048884,
+      "effective damage per round var": 37.06875,
+      "XP mean": 14976.897321428572,
+      "XP var": 4997696.592715862,
+      "encounter XP mean": 5844.642857142858,
+      "encounter XP var": 1176047.4950396828,
       "encounters": [
         {
           "type": "encounter",
@@ -40033,13 +40093,13 @@
           "armor class": 20.0,
           "effective hit points mean": 147.17336715588186,
           "effective hit points var": 275.76388888888886,
-          "damage per round mean": 64.9,
-          "damage per round var": 55.65,
+          "damage per round mean": 65.9,
+          "damage per round var": 55.883333333333326,
           "attack bonus": 9.0,
-          "effective damage per round mean": 75.40698575065842,
-          "effective damage per round var": 75.1275,
-          "XP mean": 9735.000000000002,
-          "XP var": 2474631.7708333344,
+          "effective damage per round mean": 76.56888075452065,
+          "effective damage per round var": 75.44250000000001,
+          "XP mean": 9885.000000000002,
+          "XP var": 2517417.361111112,
           "rounds": [
             {
               "actions": [
@@ -40072,19 +40132,21 @@
             {
               "actions": [
                 "Attack - Smite (2)",
-                "Bonus Spell (2)"
+                "Bonus Spell (3)"
               ],
               "resources used": {
-                "Spell Slot (2)": 2
+                "Spell Slot (2)": 1,
+                "Spell Slot (3)": 1
               }
             },
             {
               "actions": [
-                "Attack - Smite (3)",
+                "Attack - Smite (2)",
                 "Bonus Spell (3)"
               ],
               "resources used": {
-                "Spell Slot (3)": 2
+                "Spell Slot (2)": 1,
+                "Spell Slot (3)": 1
               }
             }
           ],
@@ -40368,15 +40430,15 @@
       "armor class": 20.0,
       "effective hit points mean": 418.0132442135811,
       "effective hit points var": 654.9392361111113,
-      "damage per round mean": 37.63333333333333,
-      "damage per round var": 26.327777777777783,
+      "damage per round mean": 37.96666666666667,
+      "damage per round var": 26.40555555555556,
       "attack bonus": 9.0,
-      "effective damage per round mean": 43.72598197868174,
-      "effective damage per round var": 35.54250000000001,
-      "XP mean": 16033.368055555557,
-      "XP var": 5760247.838300542,
-      "encounter XP mean": 6233.020833333334,
-      "encounter XP var": 1306910.6879340282,
+      "effective damage per round mean": 44.11328031330248,
+      "effective damage per round var": 35.64750000000001,
+      "XP mean": 16175.381944444445,
+      "XP var": 5791562.846016591,
+      "encounter XP mean": 6288.229166666668,
+      "encounter XP var": 1323120.1063368057,
       "encounters": [
         {
           "type": "encounter",
@@ -40386,13 +40448,13 @@
           "armor class": 20.0,
           "effective hit points mean": 162.50392623461954,
           "effective hit points var": 310.2343750000001,
-          "damage per round mean": 64.9,
-          "damage per round var": 55.65,
+          "damage per round mean": 65.9,
+          "damage per round var": 55.883333333333326,
           "attack bonus": 9.0,
-          "effective damage per round mean": 75.40698575065842,
-          "effective damage per round var": 75.1275,
-          "XP mean": 10749.062500000002,
-          "XP var": 2901890.917968751,
+          "effective damage per round mean": 76.56888075452065,
+          "effective damage per round var": 75.44250000000001,
+          "XP mean": 10914.687500000002,
+          "XP var": 2950519.173177084,
           "rounds": [
             {
               "actions": [
@@ -40425,19 +40487,21 @@
             {
               "actions": [
                 "Attack - Smite (2)",
-                "Bonus Spell (2)"
+                "Bonus Spell (3)"
               ],
               "resources used": {
-                "Spell Slot (2)": 2
+                "Spell Slot (2)": 1,
+                "Spell Slot (3)": 1
               }
             },
             {
               "actions": [
-                "Attack - Smite (3)",
+                "Attack - Smite (2)",
                 "Bonus Spell (3)"
               ],
               "resources used": {
-                "Spell Slot (3)": 2
+                "Spell Slot (2)": 1,
+                "Spell Slot (3)": 1
               }
             }
           ],
@@ -40742,15 +40806,15 @@
       "armor class": 20.0,
       "effective hit points mean": 458.8947350902149,
       "effective hit points var": 723.8802083333336,
-      "damage per round mean": 51.76923076923077,
-      "damage per round var": 41.73076923076922,
+      "damage per round mean": 52.15384615384615,
+      "damage per round var": 41.82051282051282,
       "attack bonus": 9.0,
-      "effective damage per round mean": 60.15041058455981,
-      "effective damage per round var": 56.336538461538446,
-      "XP mean": 24212.90064102564,
-      "XP var": 11175305.05218606,
-      "encounter XP mean": 9383.173076923076,
-      "encounter XP var": 2547347.5060096155,
+      "effective damage per round mean": 60.597293278352964,
+      "effective damage per round var": 56.457692307692305,
+      "XP mean": 24392.78846153846,
+      "XP var": 11225059.920659382,
+      "encounter XP mean": 9452.884615384615,
+      "encounter XP var": 2572996.627938035,
       "encounters": [
         {
           "type": "encounter",
@@ -40760,13 +40824,13 @@
           "armor class": 20.0,
           "effective hit points mean": 177.83448531335725,
           "effective hit points var": 344.7048611111111,
-          "damage per round mean": 81.8,
-          "damage per round var": 73.03333333333333,
+          "damage per round mean": 82.8,
+          "damage per round var": 73.26666666666668,
           "attack bonus": 9.0,
-          "effective damage per round mean": 95.04301131593002,
-          "effective damage per round var": 98.59500000000003,
-          "XP mean": 14826.25,
-          "XP var": 4821362.196180556,
+          "effective damage per round mean": 96.20490631979224,
+          "effective damage per round var": 98.91000000000001,
+          "XP mean": 15007.5,
+          "XP var": 4888049.913194446,
           "rounds": [
             {
               "actions": [
@@ -40789,10 +40853,11 @@
             {
               "actions": [
                 "Attack - Smite (2)",
-                "Bonus Spell (2)"
+                "Bonus Spell (3)"
               ],
               "resources used": {
-                "Spell Slot (2)": 2
+                "Spell Slot (2)": 1,
+                "Spell Slot (3)": 1
               }
             },
             {
@@ -40807,11 +40872,12 @@
             },
             {
               "actions": [
-                "Attack - Smite (3)",
+                "Attack - Smite (2)",
                 "Bonus Spell (3)"
               ],
               "resources used": {
-                "Spell Slot (3)": 2
+                "Spell Slot (2)": 1,
+                "Spell Slot (3)": 1
               }
             }
           ],
@@ -41122,15 +41188,15 @@
       "armor class": 20.5,
       "effective hit points mean": 512.9282319133447,
       "effective hit points var": 835.0976562499998,
-      "damage per round mean": 53.333333333333336,
-      "damage per round var": 43.36111111111111,
+      "damage per round mean": 54.125,
+      "damage per round var": 43.895833333333336,
       "attack bonus": 9.0,
-      "effective damage per round mean": 61.96773353931868,
-      "effective damage per round var": 58.53749999999999,
-      "XP mean": 27710.0,
-      "XP var": 14179510.29947916,
-      "encounter XP mean": 10710.0,
-      "encounter XP var": 3156527.274861653,
+      "effective damage per round mean": 62.887567084042935,
+      "effective damage per round var": 59.25937500000001,
+      "XP mean": 28121.3203125,
+      "XP var": 14397206.540466309,
+      "encounter XP mean": 10868.9765625,
+      "encounter XP var": 3220669.640686035,
       "encounters": [
         {
           "type": "encounter",
@@ -41140,13 +41206,13 @@
           "armor class": 20.5,
           "effective hit points mean": 198.24833503399213,
           "effective hit points var": 399.39453124999994,
-          "damage per round mean": 86.125,
-          "damage per round var": 76.5625,
+          "damage per round mean": 87.375,
+          "damage per round var": 76.85416666666667,
           "attack bonus": 9.0,
-          "effective damage per round mean": 100.06820720763415,
-          "effective damage per round var": 103.359375,
-          "XP mean": 17294.9765625,
-          "XP var": 6158453.878601074,
+          "effective damage per round mean": 101.52057596246192,
+          "effective damage per round var": 103.75312500000001,
+          "XP mean": 17545.9921875,
+          "XP var": 6259208.9025268555,
           "rounds": [
             {
               "actions": [
@@ -41155,15 +41221,6 @@
               ],
               "resources used": {
                 "Spell Slot (1)": 2
-              }
-            },
-            {
-              "actions": [
-                "Attack - Smite (2)",
-                "Bonus Spell (2)"
-              ],
-              "resources used": {
-                "Spell Slot (2)": 2
               }
             },
             {
@@ -41178,11 +41235,22 @@
             },
             {
               "actions": [
-                "Attack - Smite (3)",
+                "Attack - Smite (2)",
                 "Bonus Spell (3)"
               ],
               "resources used": {
-                "Spell Slot (3)": 2
+                "Spell Slot (2)": 1,
+                "Spell Slot (3)": 1
+              }
+            },
+            {
+              "actions": [
+                "Attack - Smite (2)",
+                "Bonus Spell (3)"
+              ],
+              "resources used": {
+                "Spell Slot (2)": 1,
+                "Spell Slot (3)": 1
               }
             }
           ],
@@ -41308,13 +41376,13 @@
           "armor class": 20.5,
           "effective hit points mean": 198.24833503399213,
           "effective hit points var": 399.39453124999994,
-          "damage per round mean": 40.875,
-          "damage per round var": 31.354166666666664,
+          "damage per round mean": 42.0,
+          "damage per round var": 32.66666666666666,
           "attack bonus": 9.0,
-          "effective damage per round mean": 47.492458282868455,
-          "effective damage per round var": 42.32812499999999,
-          "XP mean": 8208.2109375,
-          "XP var": 1961894.1920776358,
+          "effective damage per round mean": 48.79959016221345,
+          "effective damage per round var": 44.09999999999998,
+          "XP mean": 8434.125,
+          "XP var": 2053566.2656249995,
           "rounds": [
             {
               "actions": [
@@ -41328,16 +41396,18 @@
             },
             {
               "actions": [
-                "Attack"
-              ]
+                "Attack - Smite (1)"
+              ],
+              "resources used": {
+                "Spell Slot (1)": 1
+              }
             },
             {
               "actions": [
-                "Attack - Smite (1)",
-                "Bonus Spell (1)"
+                "Attack - Smite (1)"
               ],
               "resources used": {
-                "Spell Slot (1)": 2
+                "Spell Slot (1)": 1
               }
             }
           ],
@@ -41516,15 +41586,15 @@
       "armor class": 20.5,
       "effective hit points mean": 554.8855514972585,
       "effective hit points var": 907.7148437499999,
-      "damage per round mean": 57.083333333333336,
-      "damage per round var": 47.73611111111111,
+      "damage per round mean": 57.875,
+      "damage per round var": 48.270833333333336,
       "attack bonus": 10.0,
-      "effective damage per round mean": 70.00955312623547,
-      "effective damage per round var": 71.80306712962964,
-      "XP mean": 33342.612847222226,
-      "XP var": 19612003.47095932,
-      "encounter XP mean": 12858.020833333334,
-      "encounter XP var": 4339822.247884115,
+      "effective damage per round mean": 70.98048853455552,
+      "effective damage per round var": 72.60737847222224,
+      "XP mean": 33805.028645833336,
+      "XP var": 19886515.56682898,
+      "encounter XP mean": 13036.34375,
+      "encounter XP var": 4421462.696533204,
       "encounters": [
         {
           "type": "encounter",
@@ -41534,57 +41604,59 @@
           "armor class": 20.5,
           "effective hit points mean": 213.98232987795978,
           "effective hit points var": 435.70312499999994,
-          "damage per round mean": 92.875,
-          "damage per round var": 84.4375,
+          "damage per round mean": 94.125,
+          "damage per round var": 84.72916666666667,
           "attack bonus": 10.0,
-          "effective damage per round mean": 113.90605395502106,
-          "effective damage per round var": 127.00807291666669,
-          "XP mean": 20920.09375,
-          "XP var": 8489411.782958986,
+          "effective damage per round mean": 115.43910986289482,
+          "effective damage per round var": 127.4467881944445,
+          "XP mean": 21201.65625,
+          "XP var": 8617204.823974611,
           "rounds": [
             {
               "actions": [
+                "Attack - Smite (1)",
+                "Bonus Spell (3)"
+              ],
+              "resources used": {
+                "Spell Slot (1)": 1,
+                "Spell Slot (3)": 1
+              }
+            },
+            {
+              "actions": [
                 "Attack - Smite (2)",
-                "Bonus Spell (1)"
+                "Bonus Spell (3)"
               ],
               "resources used": {
                 "Spell Slot (2)": 1,
-                "Spell Slot (1)": 1
+                "Spell Slot (3)": 1
               }
             },
             {
               "actions": [
                 "Attack - Smite (2)",
-                "Bonus Spell (2)"
-              ],
-              "resources used": {
-                "Spell Slot (2)": 2
-              }
-            },
-            {
-              "actions": [
-                "Attack - Smite (3)",
                 "Bonus Spell (3)"
               ],
               "resources used": {
-                "Spell Slot (3)": 2
-              }
-            },
-            {
-              "actions": [
-                "Attack - Smite (4)",
-                "Bonus Spell (3)"
-              ],
-              "resources used": {
-                "Spell Slot (4)": 1,
+                "Spell Slot (2)": 1,
                 "Spell Slot (3)": 1
+              }
+            },
+            {
+              "actions": [
+                "Attack - Smite (2)",
+                "Bonus Spell (4)"
+              ],
+              "resources used": {
+                "Spell Slot (2)": 1,
+                "Spell Slot (4)": 1
               }
             }
           ],
           "resources used": {
-            "Spell Slot (2)": 3,
             "Spell Slot (1)": 1,
             "Spell Slot (3)": 3,
+            "Spell Slot (2)": 3,
             "Spell Slot (4)": 1
           }
         },
@@ -41712,19 +41784,14 @@
           "armor class": 20.5,
           "effective hit points mean": 213.98232987795978,
           "effective hit points var": 435.70312499999994,
-          "damage per round mean": 45.375,
-          "damage per round var": 36.60416666666666,
+          "damage per round mean": 46.5,
+          "damage per round var": 37.91666666666666,
           "attack bonus": 10.0,
-          "effective damage per round mean": 55.649929455817826,
-          "effective damage per round var": 55.0587673611111,
-          "XP mean": 10220.71875,
-          "XP var": 2868904.531005859,
+          "effective damage per round mean": 57.02967977290422,
+          "effective damage per round var": 57.03298611111112,
+          "XP mean": 10474.125,
+          "XP var": 2986032.8359374995,
           "rounds": [
-            {
-              "actions": [
-                "Attack"
-              ]
-            },
             {
               "actions": [
                 "Attack"
@@ -41740,11 +41807,18 @@
             },
             {
               "actions": [
-                "Attack - Smite (1)",
-                "Bonus Spell (1)"
+                "Attack - Smite (1)"
               ],
               "resources used": {
-                "Spell Slot (1)": 2
+                "Spell Slot (1)": 1
+              }
+            },
+            {
+              "actions": [
+                "Attack - Smite (1)"
+              ],
+              "resources used": {
+                "Spell Slot (1)": 1
               }
             }
           ],
@@ -41912,9 +41986,9 @@
         }
       ],
       "resources used": {
-        "Spell Slot (2)": 3,
         "Spell Slot (1)": 4,
         "Spell Slot (3)": 3,
+        "Spell Slot (2)": 3,
         "Spell Slot (4)": 1,
         "hit dice": 13,
         "Lay on Hands": 65
@@ -41932,15 +42006,15 @@
       "armor class": 20.5,
       "effective hit points mean": 596.8428710811721,
       "effective hit points var": 980.3320312499998,
-      "damage per round mean": 57.083333333333336,
-      "damage per round var": 47.73611111111111,
+      "damage per round mean": 57.875,
+      "damage per round var": 48.270833333333336,
       "attack bonus": 10.0,
-      "effective damage per round mean": 70.00955312623547,
-      "effective damage per round var": 71.80306712962964,
-      "XP mean": 35863.79340277778,
-      "XP var": 22434148.763946153,
-      "encounter XP mean": 13803.463541666666,
-      "encounter XP var": 4868912.924700702,
+      "effective damage per round mean": 70.98048853455552,
+      "effective damage per round var": 72.60737847222224,
+      "XP mean": 36361.17447916667,
+      "XP var": 22744659.541506168,
+      "encounter XP mean": 13994.8984375,
+      "encounter XP var": 4959232.331698948,
       "encounters": [
         {
           "type": "encounter",
@@ -41950,57 +42024,59 @@
           "armor class": 20.5,
           "effective hit points mean": 229.7163247219274,
           "effective hit points var": 472.01171875000006,
-          "damage per round mean": 92.875,
-          "damage per round var": 84.4375,
+          "damage per round mean": 94.125,
+          "damage per round var": 84.72916666666667,
           "attack bonus": 10.0,
-          "effective damage per round mean": 113.90605395502106,
-          "effective damage per round var": 127.00807291666669,
-          "XP mean": 22458.3359375,
-          "XP var": 9493035.102193197,
+          "effective damage per round mean": 115.43910986289482,
+          "effective damage per round var": 127.4467881944445,
+          "XP mean": 22760.6015625,
+          "XP var": 9632500.611090768,
           "rounds": [
             {
               "actions": [
+                "Attack - Smite (1)",
+                "Bonus Spell (3)"
+              ],
+              "resources used": {
+                "Spell Slot (1)": 1,
+                "Spell Slot (3)": 1
+              }
+            },
+            {
+              "actions": [
                 "Attack - Smite (2)",
-                "Bonus Spell (1)"
+                "Bonus Spell (3)"
               ],
               "resources used": {
                 "Spell Slot (2)": 1,
-                "Spell Slot (1)": 1
+                "Spell Slot (3)": 1
               }
             },
             {
               "actions": [
                 "Attack - Smite (2)",
-                "Bonus Spell (2)"
-              ],
-              "resources used": {
-                "Spell Slot (2)": 2
-              }
-            },
-            {
-              "actions": [
-                "Attack - Smite (3)",
                 "Bonus Spell (3)"
               ],
               "resources used": {
-                "Spell Slot (3)": 2
-              }
-            },
-            {
-              "actions": [
-                "Attack - Smite (4)",
-                "Bonus Spell (3)"
-              ],
-              "resources used": {
-                "Spell Slot (4)": 1,
+                "Spell Slot (2)": 1,
                 "Spell Slot (3)": 1
+              }
+            },
+            {
+              "actions": [
+                "Attack - Smite (2)",
+                "Bonus Spell (4)"
+              ],
+              "resources used": {
+                "Spell Slot (2)": 1,
+                "Spell Slot (4)": 1
               }
             }
           ],
           "resources used": {
-            "Spell Slot (2)": 3,
             "Spell Slot (1)": 1,
             "Spell Slot (3)": 3,
+            "Spell Slot (2)": 3,
             "Spell Slot (4)": 1
           }
         },
@@ -42136,19 +42212,14 @@
           "armor class": 20.5,
           "effective hit points mean": 229.7163247219274,
           "effective hit points var": 472.01171875000006,
-          "damage per round mean": 45.375,
-          "damage per round var": 36.60416666666666,
+          "damage per round mean": 46.5,
+          "damage per round var": 37.91666666666666,
           "attack bonus": 10.0,
-          "effective damage per round mean": 55.649929455817826,
-          "effective damage per round var": 55.0587673611111,
-          "XP mean": 10972.2421875,
-          "XP var": 3236372.4071519636,
+          "effective damage per round mean": 57.02967977290422,
+          "effective damage per round var": 57.03298611111112,
+          "XP mean": 11244.28125,
+          "XP var": 3367865.1192491325,
           "rounds": [
-            {
-              "actions": [
-                "Attack"
-              ]
-            },
             {
               "actions": [
                 "Attack"
@@ -42164,11 +42235,18 @@
             },
             {
               "actions": [
-                "Attack - Smite (1)",
-                "Bonus Spell (1)"
+                "Attack - Smite (1)"
               ],
               "resources used": {
-                "Spell Slot (1)": 2
+                "Spell Slot (1)": 1
+              }
+            },
+            {
+              "actions": [
+                "Attack - Smite (1)"
+              ],
+              "resources used": {
+                "Spell Slot (1)": 1
               }
             }
           ],
@@ -42344,9 +42422,9 @@
         }
       ],
       "resources used": {
-        "Spell Slot (2)": 3,
         "Spell Slot (1)": 4,
         "Spell Slot (3)": 3,
+        "Spell Slot (2)": 3,
         "Spell Slot (4)": 1,
         "hit dice": 14,
         "Lay on Hands": 70
@@ -42364,15 +42442,15 @@
       "armor class": 20.5,
       "effective hit points mean": 638.8001906650858,
       "effective hit points var": 1052.94921875,
-      "damage per round mean": 58.34615384615385,
-      "damage per round var": 49.403846153846146,
+      "damage per round mean": 59.07692307692308,
+      "damage per round var": 49.8974358974359,
       "attack bonus": 10.0,
-      "effective damage per round mean": 71.5583326844464,
-      "effective damage per round var": 74.31161858974359,
-      "XP mean": 39234.141826923085,
-      "XP var": 26368655.098497983,
-      "encounter XP mean": 15075.1875,
-      "encounter XP var": 5661844.012312202,
+      "effective damage per round mean": 72.45458075366491,
+      "effective damage per round var": 75.05405982905985,
+      "XP mean": 39725.53846153847,
+      "XP var": 26692537.187921185,
+      "encounter XP mean": 15264.0,
+      "encounter XP var": 5751569.825667734,
       "encounters": [
         {
           "type": "encounter",
@@ -42382,13 +42460,13 @@
           "armor class": 20.5,
           "effective hit points mean": 245.45031956589506,
           "effective hit points var": 508.3203125,
-          "damage per round mean": 92.6,
-          "damage per round var": 85.63333333333333,
+          "damage per round mean": 93.6,
+          "damage per round var": 85.86666666666667,
           "attack bonus": 10.0,
-          "effective damage per round mean": 113.56878165528883,
-          "effective damage per round var": 128.8068055555556,
-          "XP mean": 23925.524999999998,
-          "XP var": 10594758.602725698,
+          "effective damage per round mean": 114.79522638158785,
+          "effective damage per round var": 129.15777777777782,
+          "XP mean": 24183.899999999998,
+          "XP var": 10715346.388055557,
           "rounds": [
             {
               "actions": [
@@ -42397,15 +42475,6 @@
               ],
               "resources used": {
                 "Spell Slot (1)": 2
-              }
-            },
-            {
-              "actions": [
-                "Attack - Smite (2)",
-                "Bonus Spell (2)"
-              ],
-              "resources used": {
-                "Spell Slot (2)": 2
               }
             },
             {
@@ -42420,11 +42489,22 @@
             },
             {
               "actions": [
-                "Attack - Smite (3)",
+                "Attack - Smite (2)",
                 "Bonus Spell (3)"
               ],
               "resources used": {
-                "Spell Slot (3)": 2
+                "Spell Slot (2)": 1,
+                "Spell Slot (3)": 1
+              }
+            },
+            {
+              "actions": [
+                "Attack - Smite (2)",
+                "Bonus Spell (3)"
+              ],
+              "resources used": {
+                "Spell Slot (2)": 1,
+                "Spell Slot (3)": 1
               }
             },
             {
@@ -42584,13 +42664,13 @@
           "armor class": 20.5,
           "effective hit points mean": 245.45031956589506,
           "effective hit points var": 508.3203125,
-          "damage per round mean": 40.875,
-          "damage per round var": 31.354166666666664,
+          "damage per round mean": 42.0,
+          "damage per round var": 32.66666666666666,
           "attack bonus": 10.0,
-          "effective damage per round mean": 50.13092818747226,
-          "effective damage per round var": 47.161892361111114,
-          "XP mean": 10561.078125,
-          "XP var": 3051871.326104058,
+          "effective damage per round mean": 51.51067850455865,
+          "effective damage per round var": 49.1361111111111,
+          "XP mean": 10851.75,
+          "XP var": 3192745.487847221,
           "rounds": [
             {
               "actions": [
@@ -42604,16 +42684,18 @@
             },
             {
               "actions": [
-                "Attack"
-              ]
+                "Attack - Smite (1)"
+              ],
+              "resources used": {
+                "Spell Slot (1)": 1
+              }
             },
             {
               "actions": [
-                "Attack - Smite (1)",
-                "Bonus Spell (1)"
+                "Attack - Smite (1)"
               ],
               "resources used": {
-                "Spell Slot (1)": 2
+                "Spell Slot (1)": 1
               }
             }
           ],
@@ -42817,15 +42899,15 @@
       "armor class": 21.0,
       "effective hit points mean": 698.212831024615,
       "effective hit points var": 1184.027777777778,
-      "damage per round mean": 59.708333333333336,
-      "damage per round var": 50.79861111111111,
+      "damage per round mean": 60.125,
+      "damage per round var": 50.895833333333336,
       "attack bonus": 10.0,
-      "effective damage per round mean": 73.22897053277039,
-      "effective damage per round var": 76.40957754629632,
-      "XP mean": 43594.546875,
-      "XP var": 31761460.298583984,
-      "encounter XP mean": 16725.796875,
-      "encounter XP var": 6769593.292236328,
+      "effective damage per round mean": 73.73998916872831,
+      "effective damage per round var": 76.55581597222226,
+      "XP mean": 43898.765625,
+      "XP var": 31878060.448974613,
+      "encounter XP mean": 16842.515625,
+      "encounter XP var": 6829620.778564454,
       "encounters": [
         {
           "type": "encounter",
@@ -42835,21 +42917,22 @@
           "armor class": 21.0,
           "effective hit points mean": 267.8813481126797,
           "effective hit points var": 572.9166666666666,
-          "damage per round mean": 99.625,
-          "damage per round var": 92.3125,
+          "damage per round mean": 100.875,
+          "damage per round var": 92.60416666666667,
           "attack bonus": 10.0,
-          "effective damage per round mean": 122.18455585753944,
-          "effective damage per round var": 138.85338541666667,
-          "XP mean": 27907.453125,
-          "XP var": 13519541.177490236,
+          "effective damage per round mean": 123.71761176541318,
+          "effective damage per round var": 139.29210069444449,
+          "XP mean": 28257.609375,
+          "XP var": 13699623.636474613,
           "rounds": [
             {
               "actions": [
                 "Attack - Smite (2)",
-                "Bonus Spell (2)"
+                "Bonus Spell (3)"
               ],
               "resources used": {
-                "Spell Slot (2)": 2
+                "Spell Slot (2)": 1,
+                "Spell Slot (3)": 1
               }
             },
             {
@@ -42864,11 +42947,12 @@
             },
             {
               "actions": [
-                "Attack - Smite (3)",
+                "Attack - Smite (2)",
                 "Bonus Spell (3)"
               ],
               "resources used": {
-                "Spell Slot (3)": 2
+                "Spell Slot (2)": 1,
+                "Spell Slot (3)": 1
               }
             },
             {
@@ -43288,15 +43372,15 @@
       "armor class": 21.0,
       "effective hit points mean": 741.2459793158084,
       "effective hit points var": 1260.4166666666667,
-      "damage per round mean": 65.34615384615384,
-      "damage per round var": 58.98076923076922,
+      "damage per round mean": 65.73076923076923,
+      "damage per round var": 59.07051282051282,
       "attack bonus": 11.0,
-      "effective damage per round mean": 84.36152186162053,
-      "effective damage per round var": 98.30128205128206,
-      "XP mean": 52527.416666666664,
-      "XP var": 44527117.06734876,
-      "encounter XP mean": 20126.615384615383,
-      "encounter XP var": 9479832.492307693,
+      "effective damage per round mean": 84.85805818805737,
+      "effective damage per round var": 98.45085470085469,
+      "XP mean": 52836.583333333336,
+      "XP var": 44659964.18300735,
+      "encounter XP mean": 20245.076923076922,
+      "encounter XP var": 9547451.654700857,
       "encounters": [
         {
           "type": "encounter",
@@ -43306,21 +43390,22 @@
           "armor class": 21.0,
           "effective hit points mean": 284.01877872187725,
           "effective hit points var": 611.1111111111112,
-          "damage per round mean": 106.3,
-          "damage per round var": 105.28333333333333,
+          "damage per round mean": 107.3,
+          "damage per round var": 105.51666666666668,
           "attack bonus": 11.0,
-          "effective damage per round mean": 137.23270990061616,
-          "effective damage per round var": 175.47222222222226,
-          "XP mean": 32740.4,
-          "XP var": 18183972.302222222,
+          "effective damage per round mean": 138.52370434935193,
+          "effective damage per round var": 175.86111111111111,
+          "XP mean": 33048.4,
+          "XP var": 18359782.124444447,
           "rounds": [
             {
               "actions": [
                 "Attack - Smite (2)",
-                "Bonus Spell (2)"
+                "Bonus Spell (3)"
               ],
               "resources used": {
-                "Spell Slot (2)": 2
+                "Spell Slot (2)": 1,
+                "Spell Slot (3)": 1
               }
             },
             {
@@ -43335,11 +43420,12 @@
             },
             {
               "actions": [
-                "Attack - Smite (3)",
+                "Attack - Smite (2)",
                 "Bonus Spell (3)"
               ],
               "resources used": {
-                "Spell Slot (3)": 2
+                "Spell Slot (2)": 1,
+                "Spell Slot (3)": 1
               }
             },
             {
@@ -43787,15 +43873,15 @@
       "armor class": 21.0,
       "effective hit points mean": 784.2791276070019,
       "effective hit points var": 1336.8055555555559,
-      "damage per round mean": 65.34615384615384,
-      "damage per round var": 58.98076923076922,
+      "damage per round mean": 65.73076923076923,
+      "damage per round var": 59.07051282051282,
       "attack bonus": 11.0,
-      "effective damage per round mean": 84.36152186162053,
-      "effective damage per round var": 98.30128205128206,
-      "XP mean": 55576.903846153844,
-      "XP var": 49469461.056829385,
-      "encounter XP mean": 21270.173076923078,
-      "encounter XP var": 10376500.59519231,
+      "effective damage per round mean": 84.85805818805737,
+      "effective damage per round var": 98.45085470085469,
+      "XP mean": 55904.01923076923,
+      "XP var": 49613773.514751814,
+      "encounter XP mean": 21395.365384615383,
+      "encounter XP var": 10448808.785363248,
       "encounters": [
         {
           "type": "encounter",
@@ -43805,21 +43891,22 @@
           "armor class": 21.0,
           "effective hit points mean": 300.1562093310748,
           "effective hit points var": 649.3055555555555,
-          "damage per round mean": 106.3,
-          "damage per round var": 105.28333333333333,
+          "damage per round mean": 107.3,
+          "damage per round var": 105.51666666666668,
           "attack bonus": 11.0,
-          "effective damage per round mean": 137.23270990061616,
-          "effective damage per round var": 175.47222222222226,
-          "XP mean": 34600.65,
-          "XP var": 19863443.041944448,
+          "effective damage per round mean": 138.52370434935193,
+          "effective damage per round var": 175.86111111111111,
+          "XP mean": 34926.15,
+          "XP var": 20051444.33638889,
           "rounds": [
             {
               "actions": [
                 "Attack - Smite (2)",
-                "Bonus Spell (2)"
+                "Bonus Spell (3)"
               ],
               "resources used": {
-                "Spell Slot (2)": 2
+                "Spell Slot (2)": 1,
+                "Spell Slot (3)": 1
               }
             },
             {
@@ -43834,11 +43921,12 @@
             },
             {
               "actions": [
-                "Attack - Smite (3)",
+                "Attack - Smite (2)",
                 "Bonus Spell (3)"
               ],
               "resources used": {
-                "Spell Slot (3)": 2
+                "Spell Slot (2)": 1,
+                "Spell Slot (3)": 1
               }
             },
             {
@@ -44302,15 +44390,15 @@
       "armor class": 21.0,
       "effective hit points mean": 909.0752576514632,
       "effective hit points var": 1413.1944444444443,
-      "damage per round mean": 73.375,
-      "damage per round var": 69.7986111111111,
+      "damage per round mean": 73.5,
+      "damage per round var": 70.52777777777776,
       "attack bonus": 11.0,
-      "effective damage per round mean": 94.72671767598975,
-      "effective damage per round var": 116.33101851851849,
-      "XP mean": 72335.52083333334,
-      "XP var": 76898569.0260899,
-      "encounter XP mean": 28420.583333333332,
-      "encounter XP var": 15938383.403838737,
+      "effective damage per round mean": 94.88809198208172,
+      "effective damage per round var": 117.54629629629628,
+      "XP mean": 72458.75,
+      "XP var": 77638945.8757716,
+      "encounter XP mean": 28469.0,
+      "encounter XP var": 16061821.648919754,
       "encounters": [
         {
           "type": "encounter",
@@ -44546,13 +44634,13 @@
           "armor class": 21.0,
           "effective hit points mean": 357.17513081690623,
           "effective hit points var": 687.5,
-          "damage per round mean": 66.375,
-          "damage per round var": 59.35416666666667,
+          "damage per round mean": 66.75,
+          "damage per round var": 61.54166666666667,
           "attack bonus": 11.0,
-          "effective damage per round mean": 85.6897565348391,
-          "effective damage per round var": 98.92361111111111,
-          "XP mean": 25709.25,
-          "XP var": 12514682.446469912,
+          "effective damage per round mean": 86.17387945311503,
+          "effective damage per round var": 102.56944444444446,
+          "XP mean": 25854.5,
+          "XP var": 12884997.181712966,
           "rounds": [
             {
               "actions": [
@@ -44561,15 +44649,6 @@
               ],
               "resources used": {
                 "Spell Slot (1)": 1
-              }
-            },
-            {
-              "actions": [
-                "Attack - Smite (1)",
-                "Bonus Spell (1)"
-              ],
-              "resources used": {
-                "Spell Slot (1)": 2
               }
             },
             {
@@ -44585,10 +44664,21 @@
             {
               "actions": [
                 "Attack - Smite (2)",
-                "Bonus Spell (2)"
+                "Bonus Spell (1)"
               ],
               "resources used": {
-                "Spell Slot (2)": 2
+                "Spell Slot (2)": 1,
+                "Spell Slot (1)": 1
+              }
+            },
+            {
+              "actions": [
+                "Attack - Smite (2)",
+                "Bonus Spell (1)"
+              ],
+              "resources used": {
+                "Spell Slot (2)": 1,
+                "Spell Slot (1)": 1
               }
             }
           ],
@@ -44826,15 +44916,15 @@
       "armor class": 21.0,
       "effective hit points mean": 956.411720771776,
       "effective hit points var": 1489.5833333333337,
-      "damage per round mean": 66.85714285714286,
-      "damage per round var": 61.61904761904761,
+      "damage per round mean": 67.21428571428571,
+      "damage per round var": 61.70238095238094,
       "attack bonus": 11.0,
-      "effective damage per round mean": 86.31220028690817,
-      "effective damage per round var": 102.6984126984127,
-      "XP mean": 69342.0,
-      "XP var": 74222564.14814815,
-      "encounter XP mean": 27222.0,
-      "encounter XP var": 15113976.603703706,
+      "effective damage per round mean": 86.77326973288521,
+      "effective damage per round var": 102.83730158730158,
+      "XP mean": 69712.41666666666,
+      "XP var": 74396231.45601852,
+      "encounter XP mean": 27367.416666666664,
+      "encounter XP var": 15196928.904629631,
       "encounters": [
         {
           "type": "encounter",
@@ -44844,30 +44934,32 @@
           "armor class": 21.0,
           "effective hit points mean": 375.4642188406635,
           "effective hit points var": 725.6944444444445,
-          "damage per round mean": 112.8,
-          "damage per round var": 116.53333333333333,
+          "damage per round mean": 113.8,
+          "damage per round var": 116.76666666666665,
           "attack bonus": 11.0,
-          "effective damage per round mean": 145.62417381739888,
-          "effective damage per round var": 194.22222222222223,
-          "XP mean": 45928.4,
-          "XP var": 30277631.668148153,
+          "effective damage per round mean": 146.91516826613469,
+          "effective damage per round var": 194.6111111111111,
+          "XP mean": 46335.566666666666,
+          "XP var": 30509898.110740744,
           "rounds": [
             {
               "actions": [
                 "Attack - Smite (2)",
-                "Bonus Spell (2)"
+                "Bonus Spell (3)"
               ],
               "resources used": {
-                "Spell Slot (2)": 2
+                "Spell Slot (2)": 1,
+                "Spell Slot (3)": 1
               }
             },
             {
               "actions": [
-                "Attack - Smite (3)",
+                "Attack - Smite (2)",
                 "Bonus Spell (3)"
               ],
               "resources used": {
-                "Spell Slot (3)": 2
+                "Spell Slot (2)": 1,
+                "Spell Slot (3)": 1
               }
             },
             {

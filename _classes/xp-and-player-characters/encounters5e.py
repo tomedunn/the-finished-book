@@ -2,6 +2,7 @@ import copy
 import numpy as np
 import diceEq as de
 import estats5e as es5
+import itertools as itt
 
 # utility
 def remove_empty_data( obj ):
@@ -269,9 +270,9 @@ def createRoundOptions(pc, resources, actsLimit=None, bactsLimit=None, ractsLimi
     """
     debugging = kwargs.get('debugging', False)
     # limit actions
-    acts = limitActions(pc['actions'], resources=resources, actsLimit=actsLimit)
-    bcts = limitActions(pc['bonus actions'], resources=resources, actsLimit=bactsLimit)
-    rcts = limitActions(pc['reactions'], resources=resources, actsLimit=ractsLimit)
+    acts = limitActions(pc['actions'], resources=resources, actsLimit=actsLimit, **kwargs)
+    bcts = limitActions(pc['bonus actions'], resources=resources, actsLimit=bactsLimit, **kwargs)
+    rcts = limitActions(pc['reactions'], resources=resources, actsLimit=ractsLimit, **kwargs)
     if debugging:
         print(pc['actions'])
         print(acts)
@@ -303,6 +304,7 @@ def limitActions(actions, resources=None, actsLimit=None, **kwargs):
     actsLimit - dictionary of limits to be applied to acts.
     """
     debugging = kwargs.get('debugging', False)
+    method = kwargs.get('effective_method', 'linear')
     limActs = copy.deepcopy(actions)
     if debugging: print('incoming actions:\n', limActs)
     if resources:
@@ -326,7 +328,7 @@ def limitActions(actions, resources=None, actsLimit=None, **kwargs):
             nUses = []
             for a in limActs:
                 if limActs[a]['attacks']:
-                    eDPR = np.array([es5.effDPR(de.rollAverage(atk['damage']), atk['attack bonus']) for atk in limActs[a]['attacks']]).sum()
+                    eDPR = np.array([es5.effDPR(de.rollAverage(atk['damage']), atk['attack bonus'], method=method) for atk in limActs[a]['attacks']]).sum()
                     eDPRs.append(eDPR)
                     actNames.append(a)
                     nUses.append(action_uses_remaining(limActs[a], resources=resources))
@@ -443,7 +445,7 @@ def limitActions(actions, resources=None, actsLimit=None, **kwargs):
     return limActs
 
 # encounters
-def encounterEngine(pc, rounds, resources, roundOptions, i=0):
+def encounterEngine_old(pc, rounds, resources, roundOptions, i=0, **kwargs):
     """Returns highest XP rounds for encounter.
     pc - dictionary with player character actions, bonus actions, and reactions.
     rounds - list of initial rounds for encounter.
@@ -452,16 +454,16 @@ def encounterEngine(pc, rounds, resources, roundOptions, i=0):
     i - integer round number.
     """
     XPmax = 0
-    eSumMax = encounterSummary(pc, rounds)
+    eSumMax = encounterSummary(pc, rounds, **kwargs)
     for ro in roundOptions:
         rounds[i] = copy.deepcopy(ro)
         rUsed = resourcesUsed(rounds=rounds)
         if sufficientResources(resources, rUsed):
             if i == len(rounds)-1:
-                eSum = encounterSummary(pc, rounds)
+                eSum = encounterSummary(pc, rounds, **kwargs)
             else:
                 # look for the best rounds following this one in the encounter
-                eSum = encounterEngine(pc, rounds, resources, roundOptions, i=i+1)
+                eSum = encounterEngine(pc, rounds, resources, roundOptions, i=i+1, **kwargs)
                 rounds = copy.deepcopy(eSum['rounds'])
 
             tXP = eSum['XP mean']
@@ -476,6 +478,48 @@ def encounterEngine(pc, rounds, resources, roundOptions, i=0):
     eSumMax['round options'] = roundOptions
     return eSumMax
 
+def encounterEngine(pc, rounds, resources, roundOptions, i=0, **kwargs):
+    """Returns highest XP rounds for encounter.
+    pc - dictionary with player character actions, bonus actions, and reactions.
+    rounds - list of initial rounds for encounter.
+    resources - dictionary of available resources.
+    roundOptions - list of rounds that can be picked for encounter.
+    """
+    # order options so those with effects are listed first
+    round_options = []
+    for ro in roundOptions:
+        if any([act.get('effect', None) != None for act in ro['actions'].values()]):
+            round_options.append(ro)
+        
+    for ro in roundOptions:
+        if all([act.get('effect', None) == None for act in ro['actions'].values()]):
+            round_options.append(ro)
+
+    # loop through each combination of rounds to find the highest encounter XP
+    xp_max = 0
+    enc_max = []
+    rUsed_max = {}
+    for enc in itt.combinations_with_replacement(range(len(round_options)), len(rounds)):
+        rounds = [round_options[i] for i in list(enc)]
+        rUsed = resourcesUsed(rounds=rounds)
+        if sufficientResources(resources, rUsed):
+            eSum = encounterSummary(pc, rounds, **kwargs)
+            if eSum['XP mean'] > xp_max:
+                xp_max = eSum['XP mean']
+                enc_max = list(enc)
+                rUsed_max = rUsed.copy() if rUsed else {}
+            elif eSum['XP mean'] == xp_max:
+                # pick one that used fewer resources:
+                if np.sum(list(rUsed.values())) < np.sum(list(rUsed_max.values())):
+                    xp_max = eSum['XP mean']
+                    enc_max = list(enc)
+                    rUsed_max = rUsed.copy() if rUsed else {}
+
+    rounds = [round_options[i] for i in enc_max]
+    eSum = encounterSummary(pc, rounds, **kwargs)
+    eSum['round options'] = round_options
+    return eSum
+
 """
 Should add a way for determining when a simpler encounter engine can be used.
 If each resource that can be used can only be used by one action, then we can
@@ -487,11 +531,12 @@ until that effect ends.
 If all rounds can be filled with actions, then a None action isn't needed.
 """
 
-def encounterSummary(pc, rounds):
+def encounterSummary(pc, rounds, **kwargs):
     """Returns summary object of combat actions.
     pc - dictionary with player character actions, bonus actions, and reactions.
     rounds - list of encounter rounds.
     """
+    method = kwargs.get('effective_method', 'linear')
     # manage effects
     rnds = copy.deepcopy(rounds)
     effects = {}
@@ -523,14 +568,14 @@ def encounterSummary(pc, rounds):
     dprv = dv/len(rnds)
     abm  = abm/max(dm, 1.0)
 
-    eHPm  = es5.effHP((hpm + hlm)*hmm, acm, method='linear')
-    eHPv  = np.power(es5.effHP(np.sqrt(hpv + hlv)*hmm, acm, method='linear'), 2)
-    eDPRm = es5.effDPR(dprm, abm, method='linear')
-    eDPRv = np.power(es5.effDPR(np.sqrt(dprv), abm, method='linear'), 2)
-    eXPm  = es5.effXP((hpm + hlm)*hmm, acm, dprm, abm, method='linear', ctype='PC')
-    eXPv  = np.power(es5.effXP((hpm + hlm)*hmm, acm, np.sqrt(dprv), abm, method='linear', ctype='PC'), 2) \
-          + np.power(es5.effXP(np.sqrt(hpv + hlv)*hmm, acm, dprm, abm, method='linear', ctype='PC'), 2) \
-          + np.power(es5.effXP(np.sqrt(hpv + hlv)*hmm, acm, np.sqrt(dprv), abm, method='linear', ctype='PC'), 2)
+    eHPm  = es5.effHP((hpm + hlm)*hmm, acm, method=method)
+    eHPv  = np.power(es5.effHP(np.sqrt(hpv + hlv)*hmm, acm, method=method), 2)
+    eDPRm = es5.effDPR(dprm, abm, method=method)
+    eDPRv = np.power(es5.effDPR(np.sqrt(dprv), abm, method=method), 2)
+    eXPm  = es5.effXP((hpm + hlm)*hmm, acm, dprm, abm, method=method, ctype='PC')
+    eXPv  = np.power(es5.effXP((hpm + hlm)*hmm, acm, np.sqrt(dprv), abm, method=method, ctype='PC'), 2) \
+          + np.power(es5.effXP(np.sqrt(hpv + hlv)*hmm, acm, dprm, abm, method=method, ctype='PC'), 2) \
+          + np.power(es5.effXP(np.sqrt(hpv + hlv)*hmm, acm, np.sqrt(dprv), abm, method=method, ctype='PC'), 2)
     eSum = {
         'type': 'encounter',
         'hit points mean': hpm,
@@ -739,7 +784,7 @@ def longRestSummary(pc, rounds):
     return copy.deepcopy(rSum)
 
 # adventuring days
-def dailyEngine(pc, day, options={}):
+def dailyEngine(pc, day, **kwargs):
     """
     pc - dictionary with player character actions, bonus actions, and reactions.
     day - list of encounters and rests.
@@ -761,17 +806,18 @@ def dailyEngine(pc, day, options={}):
             nRounds = x['rounds']
             actsLimit = {
                 'top eDPR': 2*nRounds, 
-                'top healing': 1 if options.get('combat healing', True) else 0, 
+                'top healing': 1 if kwargs.get('combat healing', True) else 0, 
                 'pad None': nRounds
             }
             rndOpts = createRoundOptions(pc, resRemaining, 
                 actsLimit=actsLimit, 
                 bactsLimit={'top eDPR': 2*nRounds, 'pad None': nRounds},
-                ractsLimit={'pad None': nRounds})
+                ractsLimit={'pad None': nRounds},
+                **kwargs)
             
             #rounds = [rndOpts[0]]*nRounds
             rounds = [rndZero]*nRounds
-            eSum = encounterEngine(pc, rounds, resRemaining, rndOpts)
+            eSum = encounterEngine(pc, rounds, resRemaining, rndOpts, i=0, **kwargs)
             encounters += [eSum]
             resRemaining = remainingResources(resRemaining, eSum['resources used'])
         elif x['type'] == 'short rest':
@@ -785,21 +831,22 @@ def dailyEngine(pc, day, options={}):
             resRemaining = remainingResources(resRemaining, lSum['resources used'])
             resRemaining = refreshResources(pc, 'short rest', resRemaining)
     
-    dSum = dailySummary(pc, encounters)
+    dSum = dailySummary(pc, encounters, **kwargs)
     
-    if options.get('remove empty data', False):
+    if kwargs.get('remove empty data', False):
         dSum = remove_empty_data(dSum)
     
-    if options.get('simplify summary', False):
+    if kwargs.get('simplify summary', False):
         dSum = simplify_summary(dSum)
 
     return dSum
 
-def dailySummary(pc, encounters):
+def dailySummary(pc, encounters, **kwargs):
     """Returns summary object of daily encounters.
     pc - dictionary with player character actions, bonus actions, and reactions.
     encounters - list of encounters.
     """
+    method = kwargs.get('effective_method', 'linear')
     hpm = de.rollAverage(pc['hit points'])
     hpv = np.power(de.rollSigma(pc['hit points']), 2)
     hlm = 0; hlv = 0
@@ -832,14 +879,14 @@ def dailySummary(pc, encounters):
     eXPm /= cRnds
     eXPv /= cRnds
     
-    eHPm = es5.effHP((hpm + hlm)*hmm, acm, method='linear')
-    eHPv = np.power(es5.effHP(np.sqrt(hpv + hlv)*hmm, acm, method='linear'), 2)
-    eDPRm = es5.effDPR(dprm, abm, method='linear')
-    eDPRv = np.power(es5.effDPR(np.sqrt(dprv), abm, method='linear'), 2)
-    dXPm  = es5.effXP((hpm + hlm)*hmm, acm, dprm, abm, method='linear', ctype='PC')
-    dXPv  = np.power(es5.effXP((hpm + hlm)*hmm, acm, np.sqrt(dprv), abm, method='linear', ctype='PC'), 2) \
-          + np.power(es5.effXP(np.sqrt(hpv + hlv)*hmm, acm, dprm, abm, method='linear', ctype='PC'), 2) \
-          + np.power(es5.effXP(np.sqrt(hpv + hlv)*hmm, acm, np.sqrt(dprv), abm, method='linear', ctype='PC'), 2)
+    eHPm = es5.effHP((hpm + hlm)*hmm, acm, method=method)
+    eHPv = np.power(es5.effHP(np.sqrt(hpv + hlv)*hmm, acm, method=method), 2)
+    eDPRm = es5.effDPR(dprm, abm, method=method)
+    eDPRv = np.power(es5.effDPR(np.sqrt(dprv), abm, method=method), 2)
+    dXPm  = es5.effXP((hpm + hlm)*hmm, acm, dprm, abm, method=method, ctype='PC')
+    dXPv  = np.power(es5.effXP((hpm + hlm)*hmm, acm, np.sqrt(dprv), abm, method=method, ctype='PC'), 2) \
+          + np.power(es5.effXP(np.sqrt(hpv + hlv)*hmm, acm, dprm, abm, method=method, ctype='PC'), 2) \
+          + np.power(es5.effXP(np.sqrt(hpv + hlv)*hmm, acm, np.sqrt(dprv), abm, method=method, ctype='PC'), 2)
     eSum = {
         'type': 'day',
         'hit points mean': hpm,

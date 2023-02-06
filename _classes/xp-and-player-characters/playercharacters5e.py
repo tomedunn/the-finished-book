@@ -168,12 +168,24 @@ def applyASI(stats, asi):
     return stats
 
 # equipment
-def armor(name, stats):
-    m = re.match(r'(\w+(?:\s+\w+)?)\s*(\+\d)?', name)
-    acB = int(m.group(2)) if m.group(2) else 0
+def armor(name, stats, **kwargs):
+    p = re.compile(
+        r'(?P<armor_name>\w+(?:\s+\w+)?)'
+        r'\s*(?P<ac_bonus>\+\d)?',
+        re.IGNORECASE)
+    m = p.match(name)
+    armor_name = m.group('armor_name')
+    acB = int(m.group('ac_bonus')) if m.group('ac_bonus') else 0
+    acB += kwargs.get('armorClassBonus', 0)
+
     dexMod = abilityModifier(stats['Dexterity'])
+    conMod = abilityModifier(stats['Constitution'])
+    wisMod = abilityModifier(stats['Wisdom'])
     arms = {
-        'none':            {'armor class': 10 + dexMod },
+        'none':            {'armor class': 10 + dexMod + acB},
+        'barbarian':       {'armor class': 10 + dexMod + conMod + acB},
+        'monk':            {'armor class': 10 + dexMod + wisMod + acB},
+        'mage armor':      {'armor class': 13 + dexMod + acB},
         # light armor
         'padded':          {'armor class': 11 + dexMod + acB},
         'leather':         {'armor class': 11 + dexMod + acB},
@@ -190,12 +202,44 @@ def armor(name, stats):
         'splint':          {'armor class': 17 + acB},
         'plate':           {'armor class': 18 + acB}
     }
-    return arms[m.group(1)]
+    return arms[armor_name]
 
-def weapon(name, stats, lvl):
-    pb = proficiencyBonus(lvl)
-    strMod = abilityModifier(stats['Strength'])
+"""def armor(name, stats, **kwargs):
+    p = re.compile(
+        r'(?P<armor_name>\w+(?:\s+\w+)?)'
+        r'\s*(?P<ac_bonus>\+\d)?',
+        re.IGNORECASE)
+    m = p.match(name)
+    armor_name = m.group('armor_name')
+    acB = int(m.group('ac_bonus')) if m.group('ac_bonus') else 0
+    acB += kwargs.get('armorClassBonus', 0)
+
     dexMod = abilityModifier(stats['Dexterity'])
+    ARMOR_DICT = {
+        'none':            {'armor class': '10 + {DEX_MOD}'},
+        # light armor
+        'padded':          {'armor class': '11 + {DEX_MOD}'},
+        'leather':         {'armor class': '11 + {DEX_MOD}'},
+        'studded leather': {'armor class': '12 + {DEX_MOD}'},
+        # medium armor
+        'hide':            {'armor class': 12 + min(dexMod, 2) + acB},
+        'chain shirt':     {'armor class': 13 + min(dexMod, 2) + acB},
+        'scale mail':      {'armor class': 14 + min(dexMod, 2) + acB},
+        'breastplate':     {'armor class': 14 + min(dexMod, 2) + acB},
+        'half plate':      {'armor class': 15 + min(dexMod, 2) + acB},
+        # heavy armor
+        'ring mail':       {'armor class': '14'},
+        'chain mail':      {'armor class': '16'},
+        'splint':          {'armor class': '17'},
+        'plate':           {'armor class': '18'}
+    }
+    return arms[armor_name]"""
+
+def weapon(name, ability_scores, **kwargs):
+    lvl = int(kwargs.get('lvl', 1))
+    pb = proficiencyBonus(lvl)
+    strMod = abilityModifier(ability_scores['Strength'])
+    dexMod = abilityModifier(ability_scores['Dexterity'])
     finMod = max(strMod, dexMod)
     arms = {
         'none':         {'attack bonus': strMod + pb, 'damage': '{:d}'.format(max(strMod, 0))},
@@ -242,24 +286,35 @@ def weapon(name, stats, lvl):
     }
 
     # select weapon
-    m = re.match(r'(\w+(?:\s+\w+)?)\s*([\+\-].+)?', name)
-    wpn = arms[m.group(1)]
+    p = re.compile(
+        r'(?P<weapon_name>\w+(?:\s+\w+)?)'
+        r'\s*(?P<weapon_bonus>[\+\-].+)?',
+        re.IGNORECASE)
+    m = p.match(name)
+    #m = re.match(r'(\w+(?:\s+\w+)?)\s*([\+\-].+)?', name)
+    wpn = arms[m.group('weapon_name')]
 
     # apply weapon damage and attack bonuses
-    if m.group(2):
-        mod = re.sub(' ', '', m.group(2))
+    if m.group('weapon_bonus'):
+        mod = re.sub(' ', '', m.group('weapon_bonus'))
         wpn['damage'] += mod
+        # adds to attack bonus if it's a number
         m = re.search(r'([\-\+]?(?<!d)\d+(?!d))', mod)
         if m:
             wpn['attack bonus'] += int(m.group(0))
     
+    if m.group('weapon_name') != 'none':
+        wpn['attack bonus'] += kwargs.get('weaponAttackBonus', 0)
+        wpn['damage'] += kwargs.get('weaponDamageBonus', '')
+
     return wpn
 
 # class specific
-def monkWeapon(name, stats, lvl):
+def monkWeapon(name, ability_scores, **kwargs):
+    lvl = int(kwargs.get('lvl', 1))
     pb = proficiencyBonus(lvl)
-    strMod = abilityModifier(stats['Strength'])
-    dexMod = abilityModifier(stats['Dexterity'])
+    strMod = abilityModifier(ability_scores['Strength'])
+    dexMod = abilityModifier(ability_scores['Dexterity'])
     finMod = max(strMod, dexMod)
     arms = {
         'none':         {'attack bonus': finMod + pb, 'damage': '1d4 + {:d}'.format(max(finMod, 0))},
@@ -297,8 +352,12 @@ def monkWeapon(name, stats, lvl):
     }
 
     # select weapon
-    m = re.match(r'(\w+(?:\s+\w+)?)\s*([\+\-].+)?', name)
-    wpn = arms[m.group(1)]
+    p = re.compile(
+        r'(?P<weapon_name>\w+(?:\s+\w+)?)'
+        r'\s*(?P<weapon_bonus>[\+\-].+)?',
+        re.IGNORECASE)
+    m = p.match(name)
+    wpn = arms[m.group('weapon_name')]
     
     # apply monk weapon damage rules
     if lvl >= 17:
@@ -309,13 +368,17 @@ def monkWeapon(name, stats, lvl):
         wpn['damage'] = re.sub(r'(d4)', 'd6', wpn['damage'])
 
     # apply weapon damage and attack bonuses
-    if m.group(2):
-        mod = re.sub(' ', '', m.group(2))
+    if m.group('weapon_bonus'):
+        mod = re.sub(' ', '', m.group('weapon_bonus'))
         wpn['damage'] += mod
         m = re.search(r'([\-\+]?(?<!d)\d+(?!d))', mod)
         if m:
             wpn['attack bonus'] += int(m.group(0))
-        
+    
+    if m.group('weapon_name') != 'none':
+        wpn['attack bonus'] += kwargs.get('weaponAttackBonus', 0)
+        wpn['damage'] += kwargs.get('weaponDamageBonus', '')
+
     return wpn
 
 def sorcererFlexibleCasting(lvl, spSlots):
@@ -450,13 +513,9 @@ def barbarianPC(name='Barbarian', **kwargs):
     rageBonus = 2 + np.sum(np.array([9,16]) <= lvl)
 
     # equipment
-    armorName = kwargs.get('armorName', 'none')
-    if armorName == 'none':
-        arm = {'armor class': 10 + conMod + dexMod}
-    else:
-        arm = armor(armorName, stats)
+    arm = armor(kwargs.get('armorName', 'barbarian'), stats, **kwargs)
     weaponName = kwargs.get('weaponName', 'greataxe')
-    wpn = weapon(weaponName, stats, lvl)
+    wpn = weapon(weaponName, stats, **kwargs)
 
     # brutal critical
     if lvl >= 17:
@@ -530,15 +589,18 @@ def bardPC(name='Bard', **kwargs):
 
     conMod = abilityModifier(stats['Constitution'])
     spMod = abilityModifier(stats['Charisma'])
+    spMod += kwargs.get('spellModBonus', 0)
+    spAtkMod = spMod + pb
+    spAtkMod += kwargs.get('spellAttackBonus', 0)
 
     # equipment
     if lvl >= 5:
         armorName = kwargs.get('armorName', 'studded leather')
     else:
         armorName = kwargs.get('armorName', 'leather')
-    arm = armor(armorName, stats)
+    arm = armor(armorName, stats, **kwargs)
     weaponName = kwargs.get('weaponName', 'rapier')
-    wpn = weapon(weaponName, stats, lvl)
+    wpn = weapon(weaponName, stats, **kwargs)
 
     pc = {
         'name': name,
@@ -584,7 +646,7 @@ def bardPC(name='Bard', **kwargs):
             resName = 'Spell Slot ({:d})'.format(i)
             pc['resources'][resName] = newResource(uses=spSlots[i], recharge='long rest')
             actName = 'Cast a Spell ({:d})'.format(i)
-            pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[i], 'attack bonus': spMod + pb}], resources={resName: -1})
+            pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[i], 'attack bonus': spAtkMod}], resources={resName: -1})
 
             actName = 'Cast a Spell ({:d}) - Healing'.format(i)
             #pc['actions'][actName] = newAction(healing=spHeal[i], resources={resName: -1})
@@ -615,15 +677,18 @@ def clericPC(name='Cleric', **kwargs):
 
     conMod = abilityModifier(stats['Constitution'])
     spMod = abilityModifier(stats['Wisdom'])
+    spMod += kwargs.get('spellModBonus', 0)
+    spAtkMod = spMod + pb
+    spAtkMod += kwargs.get('spellAttackBonus', 0)
 
     # equipment
     if lvl >= 5:
         armorName = kwargs.get('armorName', 'half plate')
     else:
         armorName = kwargs.get('armorName', 'scale mail')
-    arm = armor(armorName, stats)
+    arm = armor(armorName, stats, **kwargs)
     weaponName = kwargs.get('weaponName', 'mace')
-    wpn = weapon(weaponName, stats, lvl)
+    wpn = weapon(weaponName, stats, **kwargs)
 
     pc = {
         'name': name,
@@ -663,7 +728,7 @@ def clericPC(name='Cleric', **kwargs):
             resName = 'Spell Slot ({:d})'.format(i)
             pc['resources'][resName] = newResource(uses=spSlots[i], recharge='long rest')
             actName = 'Cast a Spell ({:d})'.format(i)
-            pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[i], 'attack bonus': spMod + pb}], resources={resName: -1})
+            pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[i], 'attack bonus': spAtkMod}], resources={resName: -1})
 
             actName = 'Cast a Spell ({:d}) - Healing'.format(i)
             #pc['actions'][actName] = newAction(healing=spHeal[i], resources={resName: -1})
@@ -672,7 +737,7 @@ def clericPC(name='Cleric', **kwargs):
         pc['resources']['Channel Divinity'] = newResource(uses=np.sum(np.array([2,6,18]) <= lvl), recharge='short rest')
 
     if lvl >= 8: # Potent Spellcasting
-        pc['actions']['Cast a Spell (0)'] = newAction(attacks=[{'damage': spDmg[0] + ' + {:d}'.format(spMod), 'attack bonus': spMod + pb}], resources={'Spell Slot (0)': -1})
+        pc['actions']['Cast a Spell (0)'] = newAction(attacks=[{'damage': spDmg[0] + ' + {:d}'.format(spMod), 'attack bonus': spAtkMod}], resources={'Spell Slot (0)': -1})
     
     return pc
 
@@ -694,15 +759,18 @@ def druidPC(name='Druid', **kwargs):
 
     conMod = abilityModifier(stats['Constitution'])
     spMod = abilityModifier(stats['Wisdom'])
+    spMod += kwargs.get('spellModBonus', 0)
+    spAtkMod = spMod + pb
+    spAtkMod += kwargs.get('spellAttackBonus', 0)
 
     # equipment
     if lvl >= 5:
         armorName = kwargs.get('armorName', 'scale mail')
     else:
         armorName = kwargs.get('armorName', 'leather')
-    arm = armor(armorName, stats)
+    arm = armor(armorName, stats, **kwargs)
     weaponName = kwargs.get('weaponName', 'scimitar')
-    wpn = weapon(weaponName, stats, lvl)
+    wpn = weapon(weaponName, stats, **kwargs)
 
     pc = {
         'name': name,
@@ -742,7 +810,7 @@ def druidPC(name='Druid', **kwargs):
             resName = 'Spell Slot ({:d})'.format(i)
             pc['resources'][resName] = newResource(uses=spSlots[i], recharge='long rest')
             actName = 'Cast a Spell ({:d})'.format(i)
-            pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[i], 'attack bonus': spMod + pb}], resources={resName: -1})
+            pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[i], 'attack bonus': spAtkMod}], resources={resName: -1})
             
             actName = 'Cast a Spell ({:d}) - Healing'.format(i)
             #pc['actions'][actName] = newAction(healing=spHeal[i], resources={resName: -1})
@@ -772,9 +840,9 @@ def fighterPC(name='Fighter', **kwargs):
         armorName = kwargs.get('armorName', 'plate')
     else:
         armorName = kwargs.get('armorName', 'chain mail')
-    arm = armor(armorName, stats)
+    arm = armor(armorName, stats, **kwargs)
     weaponName = kwargs.get('weaponName', 'greatsword')
-    wpn = weapon(weaponName, stats, lvl)
+    wpn = weapon(weaponName, stats, **kwargs)
 
     # fighting style
     fightingstyle='defense'
@@ -849,14 +917,11 @@ def monkPC(name='Monk', **kwargs):
     attacks = np.sum(np.array([1,5]) <= lvl)
 
     # equipment
-    armorName = kwargs.get('armorName', 'none')
-    if armorName == 'none':
-        arm = {'armor class': 10 + wisMod + dexMod}
-    else:
-        arm = armor(armorName, stats)
+    armorName = kwargs.get('armorName', 'monk')
+    arm = armor(armorName, stats, **kwargs)
     weaponName = kwargs.get('weaponName', 'quarterstaff')
-    wpn   = monkWeapon(weaponName, stats, lvl)
-    unarm = monkWeapon('none', stats, lvl)
+    wpn   = monkWeapon(weaponName, stats, **kwargs)
+    unarm = monkWeapon('none', stats, **kwargs)
 
     pc = {
         'name': name,
@@ -912,6 +977,7 @@ def monkPC(name='Monk', **kwargs):
 
 def paladinPC(name='Paladin', **kwargs):
     lvl = int(kwargs.get('lvl', 1))
+    pb = proficiencyBonus(lvl)
 
     # stats
     stats = kwargs.get('stats', [16,12,14,10,12,14])
@@ -927,15 +993,18 @@ def paladinPC(name='Paladin', **kwargs):
     
     conMod = abilityModifier(stats['Constitution'])
     spMod = abilityModifier(stats['Charisma'])
+    spMod += kwargs.get('spellModBonus', 0)
+    spAtkMod = spMod + pb
+    spAtkMod += kwargs.get('spellAttackBonus', 0)
 
     # equipment
     if lvl >= 5:
         armorName = kwargs.get('armorName', 'plate')
     else:
         armorName = kwargs.get('armorName', 'chain mail')
-    arm = armor(armorName, stats)
+    arm = armor(armorName, stats, **kwargs)
     weaponName = kwargs.get('weaponName', 'greatsword')
-    wpn = weapon(weaponName, stats, lvl)
+    wpn = weapon(weaponName, stats, **kwargs)
     if lvl >= 11: #Improved Divine Smite
         wpn['damage'] += ' + 1d8'
     
@@ -1006,6 +1075,7 @@ def paladinPC(name='Paladin', **kwargs):
 
 def rangerPC(name='Ranger', **kwargs):
     lvl = int(kwargs.get('lvl', 1))
+    pb = proficiencyBonus(lvl)
 
     # stats
     stats = kwargs.get('stats', [10,16,14,10,14,12])
@@ -1021,15 +1091,18 @@ def rangerPC(name='Ranger', **kwargs):
     
     conMod = abilityModifier(stats['Constitution'])
     spMod = abilityModifier(stats['Wisdom'])
+    spMod += kwargs.get('spellModBonus', 0)
+    spAtkMod = spMod + pb
+    spAtkMod += kwargs.get('spellAttackBonus', 0)
 
     # equipment
     if lvl >= 5:
         armorName = kwargs.get('armorName', 'studded leather')
     else:
         armorName = kwargs.get('armorName', 'leather')
-    arm = armor(armorName, stats)
+    arm = armor(armorName, stats, **kwargs)
     weaponName = kwargs.get('weaponName', 'longbow')
-    wpn = weapon(weaponName, stats, lvl)
+    wpn = weapon(weaponName, stats, **kwargs)
     wpn['attack bonus'] += 2 # archery fighting style
     
     attacks = np.sum(np.array([1,5]) <= lvl)
@@ -1103,9 +1176,9 @@ def roguePC(name='Rogue', **kwargs):
         armorName = kwargs.get('armorName', 'studded leather')
     else:
         armorName = kwargs.get('armorName', 'leather')
-    arm = armor(armorName, stats)
+    arm = armor(armorName, stats, **kwargs)
     weaponName = kwargs.get('weaponName', 'shortbow')
-    wpn = weapon(weaponName, stats, lvl)
+    wpn = weapon(weaponName, stats, **kwargs)
     wpn['damage'] += ' + {:d}d6'.format(sneakDice)
     wpn['attack bonus'] += 4
     
@@ -1167,15 +1240,15 @@ def sorcererPC(name='Sorcerer', **kwargs):
     dexMod = abilityModifier(stats['Dexterity'])
     conMod = abilityModifier(stats['Constitution'])
     spMod = abilityModifier(stats['Charisma'])
+    spMod += kwargs.get('spellModBonus', 0)
+    spAtkMod = spMod + pb
+    spAtkMod += kwargs.get('spellAttackBonus', 0)
 
     # equipment
     armorName = kwargs.get('armorName', 'mage armor')
-    if armorName == 'mage armor':
-        arm = {'armor class': 13 + dexMod}
-    else:
-        arm = armor(armorName, stats)
+    arm = armor(armorName, stats, **kwargs)
     weaponName = kwargs.get('weaponName', 'dagger')
-    wpn = weapon(weaponName, stats, lvl)
+    wpn = weapon(weaponName, stats, **kwargs)
 
     pc = {
         'name': name,
@@ -1218,7 +1291,7 @@ def sorcererPC(name='Sorcerer', **kwargs):
             resName = 'Spell Slot ({:d})'.format(i)
             pc['resources'][resName] = newResource(uses=spSlots[i], recharge='long rest')
             actName = 'Cast a Spell ({:d})'.format(i)
-            pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[i], 'attack bonus': spMod + pb}], resources={resName: -1})
+            pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[i], 'attack bonus': spAtkMod}], resources={resName: -1})
 
             if i <= 3:
                 actName = 'Spell Reaction ({:d})'.format(i)
@@ -1245,15 +1318,15 @@ def warlockPC(name='Warlock', **kwargs):
     dexMod = abilityModifier(stats['Dexterity'])
     conMod = abilityModifier(stats['Constitution'])
     spMod = abilityModifier(stats['Charisma'])
+    spMod += kwargs.get('spellModBonus', 0)
+    spAtkMod = spMod + pb
+    spAtkMod += kwargs.get('spellAttackBonus', 0)
 
     # equipment
     armorName = kwargs.get('armorName', 'leather')
-    if armorName == 'mage armor':
-        arm = {'armor class': 13 + dexMod}
-    else:
-        arm = armor(armorName, stats)
+    arm = armor(armorName, stats, **kwargs)
     weaponName = kwargs.get('weaponName', 'dagger')
-    wpn = weapon(weaponName, stats, lvl)
+    wpn = weapon(weaponName, stats, **kwargs)
 
     pc = {
         'name': name,
@@ -1286,7 +1359,7 @@ def warlockPC(name='Warlock', **kwargs):
 
     # add spellcasting actions
     ctrpMult = np.sum(np.array([1,5,11,17]) <= lvl)
-    pc['actions']['Cast a Spell (0)'] = newAction(attacks=ctrpMult*[{'damage': '1d10 + {:d}'.format(spMod), 'attack bonus': spMod + pb}]) 
+    pc['actions']['Cast a Spell (0)'] = newAction(attacks=ctrpMult*[{'damage': '1d10 + {:d}'.format(spMod), 'attack bonus': spAtkMod}]) 
 
     spDmg = spellDamage(lvl)
     pmlvl = int(min(np.ceil(lvl/2), 5))
@@ -1294,7 +1367,7 @@ def warlockPC(name='Warlock', **kwargs):
     resName = 'Spell Slot ({:d})'.format(pmlvl)
     pc['resources'][resName] = newResource(uses=pmSlots, recharge='short rest')
     actName = 'Cast a Spell ({:d})'.format(pmlvl)
-    pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[pmlvl], 'attack bonus': spMod + pb}], resources={resName: -1}) 
+    pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[pmlvl], 'attack bonus': spAtkMod}], resources={resName: -1}) 
 
     #actName = 'Reaction Spell ({:d})'.format(pmlvl)
     #pc['reactions'][actName] = newAction(acbonus=3, resources={resName: -1}, comment='Shield or Counterspell') 
@@ -1304,28 +1377,28 @@ def warlockPC(name='Warlock', **kwargs):
         resName = 'Mystic Arcanum ({:d})'.format(spLvl)
         pc['resources'][resName] = newResource(uses=1, recharge='long rest')
         actName = 'Cast a Spell ({:d})'.format(spLvl)
-        pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[spLvl], 'attack bonus': spMod + pb}], resources={resName: -1}) 
+        pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[spLvl], 'attack bonus': spAtkMod}], resources={resName: -1}) 
 
     if lvl >= 13:
         spLvl = 7
         resName = 'Mystic Arcanum ({:d})'.format(spLvl)
         pc['resources'][resName] = newResource(uses=1, recharge='long rest')
         actName = 'Cast a Spell ({:d})'.format(spLvl)
-        pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[spLvl], 'attack bonus': spMod + pb}], resources={resName: -1}) 
+        pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[spLvl], 'attack bonus': spAtkMod}], resources={resName: -1}) 
 
     if lvl >= 15:
         spLvl = 8
         resName = 'Mystic Arcanum ({:d})'.format(spLvl)
         pc['resources'][resName] = newResource(uses=1, recharge='long rest')
         actName = 'Cast a Spell ({:d})'.format(spLvl)
-        pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[spLvl], 'attack bonus': spMod + pb}], resources={resName: -1}) 
+        pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[spLvl], 'attack bonus': spAtkMod}], resources={resName: -1}) 
 
     if lvl >= 17:
         spLvl = 9
         resName = 'Mystic Arcanum ({:d})'.format(spLvl)
         pc['resources'][resName] = newResource(uses=1, recharge='long rest')
         actName = 'Cast a Spell ({:d})'.format(spLvl)
-        pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[spLvl], 'attack bonus': spMod + pb}], resources={resName: -1}) 
+        pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[spLvl], 'attack bonus': spAtkMod}], resources={resName: -1}) 
     
     return pc
 
@@ -1348,15 +1421,16 @@ def wizardPC(name='Wizard', **kwargs):
     dexMod = abilityModifier(stats['Dexterity'])
     conMod = abilityModifier(stats['Constitution'])
     spMod = abilityModifier(stats['Intelligence'])
+    spMod += kwargs.get('spellModBonus', 0)
+    spAtkMod = spMod + pb
+    spAtkMod += kwargs.get('spellAttackBonus', 0)
 
     # equipment
     armorName = kwargs.get('armorName', 'mage armor')
-    if armorName == 'mage armor':
-        arm = {'armor class': 13 + dexMod}
-    else:
-        arm = armor(armorName, stats)
+    arm = armor(armorName, stats, **kwargs)
     weaponName = kwargs.get('weaponName', 'dagger')
-    wpn = weapon(weaponName, stats, lvl)
+    wpn = weapon(weaponName, stats, **kwargs)
+
     pc = {
         'name': name,
         'class': 'wizard',
@@ -1397,17 +1471,11 @@ def wizardPC(name='Wizard', **kwargs):
             resName = 'Spell Slot ({:d})'.format(i)
             pc['resources'][resName] = newResource(uses=spSlots[i], recharge='long rest')
             actName = 'Cast a Spell ({:d})'.format(i)
-            pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[i], 'attack bonus': spMod + pb}], resources={resName: -1})     
+            pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[i], 'attack bonus': spAtkMod}], resources={resName: -1})     
 
             if i <= 3 and i >= 1:
                 actName = 'Spell Reaction ({:d})'.format(i)
                 #pc['reactions'][actName] = newAction(acbonus=3, resources={resName: -1}, comment='Shield or Counterspell')
 
     return pc
-
-
-
-
-
-
 
