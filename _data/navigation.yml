@@ -32,6 +32,8 @@ classes:
         url: /classes/xp-and-player-characters
       - title: "Daily XP and Encounter Difficulty"
         url: /classes/daily-xp-and-encounter-difficulty
+      - title: "Balancing Short Adventuring Days"
+        url: /classes/short-adventuring-days
   - title: "Monk"
     children:
       - title: "Stunning Strike"
