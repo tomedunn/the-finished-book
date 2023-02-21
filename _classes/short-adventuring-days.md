@@ -2,7 +2,7 @@
 title: "Balancing Short Adventuring Days"
 excerpt: "How do XP thresholds change for adventuring days with only one or two encounters?"
 date: 2023-2-13
-last_modified_at: 2023-2-13
+last_modified_at: 2023-2-20
 #tags:
 #  - combat
 #  - classes
@@ -47,7 +47,7 @@ To estimate how much more encounter XP each class can handle for such days, I ca
 <figure id="fig:single-encounter-xp-vs-level">
     {% include_relative short-adventuring-days/fig-single-encounter-xp-vs-level-deadly-small.html %}
     {% include_relative short-adventuring-days/fig-single-encounter-xp-vs-level-deadly-large.html %}
-    <figcaption>Figure 1: Ratio between an average PC's encounter XP for a single Deadly encounter adventuring day and their average encounter XP for a full adventuring day with only Deadly encounters.</figcaption>
+    <figcaption>Figure 1: Ratio between an average PC's encounter XP for a single Deadly encounter adventuring day and their average encounter XP for a full adventuring day with only Medium encounters.</figcaption>
 </figure>
 
 On average, this shows the **PCs are able to handle roughly $$40\%$$ more XP** than they'd be able to for a full adventuring day made up of Medium encounters. However, looking at the individual classes tells a very different story, with some classes able to handle nearly twice as much, and other the same as they can normally.
@@ -56,7 +56,17 @@ Looking at the classes within each group the dividing factor becomes clear. Clas
 
 Barbarians and warlocks break these two general trends, but for entirely different reasons. The barbarian's XP increase gets smaller as they level due to having more uses of their Rage feature per long rest, and the warlock's XP increase grows larger as they level and gain access to higher level spells that can only be used once per long rest.
 
-For virtually all classes, this improvement in encounter XP comes from improvements in average effective damage per round. The only classes that saw substantial changes in effective hit points were the barbarian, due to how their Rage feature increases their effective hit points, and the fighter, due to the hit points restored by their Second Wind feature.
+For most classes, this improvement in encounter XP comes from improvements in average effective damage per round. However, as shown in Fig. <a href="#fig:single-encounter-ehp-vs-level" class="fig-ref">2</a> (below), a few saw improvements in effective hit points as well.
+
+<figure id="fig:single-encounter-ehp-vs-level">
+    {% include_relative short-adventuring-days/fig-single-encounter-ehp-vs-level-deadly-small.html %}
+    {% include_relative short-adventuring-days/fig-single-encounter-ehp-vs-level-deadly-large.html %}
+    <figcaption>Figure 2: Ratio between an average PC's encounter effective hit points for a single Deadly encounter adventuring day and their average  for a full adventuring day with only Medium encounters.</figcaption>
+</figure>
+
+These classes include the barbarian, due to their limited uses for Rage at low levels, the fighter, due to the hit points restored by their Second Wind feature, as well as the sorcerer and wizard, both due to having more spell slots as they level up for defensive spells like _shield_ and _counterspell_. 
+
+The bard also shows a slight improvement effective hit points, which comes from their Bardic Inspiration feature. This representation isn't entirely accurate for two reasons. First, Bardic Inspiration can be used both offensively and defensively, though both provide the same mathematical benefit. And second, the benefits of Bardic Inspiration go to one of the bard's allies and not the bard.
 
 # Two encounter adventuring days
 
@@ -64,36 +74,40 @@ For adventuring days with two encounters, I'd like to focus on two examples. The
 
 ## Deadly encounters with a short rest
 
-For the adventuring day with two Deadly encounters and one short rest, Fig. <a href="#fig:two-deadly-encounter-xp-vs-level" class="fig-ref">2</a> (below) shows the average encounter XP for each class relative to a full adventuring day with only Medium encounters.
+For the adventuring day with two Deadly encounters and one short rest, Fig. <a href="#fig:two-deadly-encounter-xp-vs-level" class="fig-ref">3</a> (below) shows the average encounter XP for each class relative to a full adventuring day with only Medium encounters.
 
 <figure id="fig:two-deadly-encounter-xp-vs-level">
     {% include_relative short-adventuring-days/fig-two-encounters-xp-vs-level-deadly-small.html %}
     {% include_relative short-adventuring-days/fig-two-encounters-xp-vs-level-deadly-large.html %}
-    <figcaption>Figure 2: Ratio between an average PC's encounter XP for adventuring days with two Deadly encounters and one short rests and their average encounter XP for a full adventuring day with only Medium encounters.</figcaption>
+    <figcaption>Figure 3: Ratio between an average PC's encounter XP for adventuring days with two Deadly encounters and one short rests and their average encounter XP for a full adventuring day with only Medium encounters.</figcaption>
 </figure>
 
-On average the **encounter XP for two Deadly encounters and one short rest increases around $$20\%$$**, roughly half the increase shown in Fig. <a href="#fig:single-encounter-xp-vs-level" class="fig-ref">1</a> for a single encounter adventuring day. The classes most effective are those with the Spellcasting feature, as well as the warlock at higher levels. Meanwhile, the purely martial classes performed identically to how they did for the adventuring day with only a single encounter.
+On average the **encounter XP for two Deadly encounters and one short rest increases around $$20\%$$**, roughly half the increase shown in Fig. <a href="#fig:single-encounter-xp-vs-level" class="fig-ref">1</a> for a single encounter adventuring day. The classes most effected are those with the Spellcasting feature, as well as the warlock at higher levels. Meanwhile, the purely martial classes performed identically to how they did for the adventuring day with only a single encounter.
 
 ## Hard encounters with no short rest
 
-For the adventuring day with two Hard encounters and no short rest, Fig. <a href="#fig:two-hard-encounter-xp-vs-level" class="fig-ref">3</a> (below) shows the average encounter XP for each class relative to a full adventuring day with only Medium encounters.
+For the adventuring day with two Hard encounters and no short rest, Fig. <a href="#fig:two-hard-encounter-xp-vs-level" class="fig-ref">4</a> (below) shows the average encounter XP for each class relative to a full adventuring day with only Medium encounters.
 
 <figure id="fig:two-hard-encounter-xp-vs-level">
     {% include_relative short-adventuring-days/fig-two-encounters-xp-vs-level-hard-small.html %}
     {% include_relative short-adventuring-days/fig-two-encounters-xp-vs-level-hard-large.html %}
-    <figcaption>Figure 3: Ratio between an average PC's encounter XP for adventuring days with two Hard encounters and no short rests and their average encounter XP for a full adventuring day with only Medium encounters.</figcaption>
+    <figcaption>Figure 4: Ratio between an average PC's encounter XP for adventuring days with two Hard encounters and no short rests and their average encounter XP for a full adventuring day with only Medium encounters.</figcaption>
 </figure>
 
-As with the previous scenario with two Deadly encounters, the average **increase in encounter XP for two Hard encounters is also around $$20\%$$**. However, there are some subtle differences worth noting. Classes with Spellcasting tend to fair slightly better due to the fewer number of combat rounds, while classes like fighter, monk, and warlock tend to perform worse due to the lack of a short rest. 
+As with the previous scenario with two Deadly encounters, the average **increase in encounter XP for two Hard encounters is also around $$20\%$$**. However, there are some subtle differences worth noting.
 
+Classes with Spellcasting tend to fair slightly better due to the fewer number of combat rounds, while classes like fighter, monk, and warlock tend to perform worse due to the lack of a short rest. In fact, because the number of rounds across the two encounters is greater than what's typical between short rests for our baseline adventuring day, these three classes actually perform worse than the baseline for certain levels.
+
+<!--
 Fighters show the largest overall loss of any class due to only having one use of Action Surge and Second Wind to spread across both encounters.
 
 Warlocks show similar losses to fighters at lower levels, but start to fair better above level 10 as they gain access to more long rest spells through their Mystic Arcanum features.
+-->
 
-Barbarian was the only class that showed no significant change between the two, which makes sense as their Rage feature starts off with two uses and each one lasts a single encounter.
+Barbarian was the only class that showed no significant change, which makes sense as their Rage feature starts off with two uses and each one lasts a single encounter.
 
 
 # Conclusion
 For adventuring days with only one or two encounters, PCs can handle significantly more dangerous encounters because their average damage per round is higher than it would be for full adventuring days. The classes that benefit the most from this are spellcasters because they are able to use their strongest spells all at once instead of rationing them out across several encounters.
 
-I don't think these results will come as a surprise to anyone who's spend much time DMing or playing in 5th edition D&D. Still, for DMs who wish to run short adventuring days and still challenge their PCs with their encounters, **increasing the party's XP thresholds by $$40\%$$ for single encounter adventuring days, and by $$20\%$$ for two encounter adventuring days** should prove useful.
+I don't think these results will come as a surprise to anyone who's spend much time DMing or playing 5th edition D&D. Still, for DMs who wish to run short adventuring days and still challenge their PCs with their encounters, **increasing the party's XP thresholds by $$40\%$$ for single encounter adventuring days, and by $$20\%$$ for two encounter adventuring days** should prove useful.

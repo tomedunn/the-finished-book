@@ -548,34 +548,25 @@ def encounterSummary(pc, rounds, **kwargs):
     # calculate stats
     hpm = de.rollAverage(pc['hit points'])
     hpv = np.power(de.rollSigma(pc['hit points']), 2)
-    hlm = 0.0; hlv = 0.0
-    hmm = 0.0
-    acm = 0.0
-    dm  = 0.0; dv  = 0.0
-    abm = 0.0
-    for r in rnds:
-        hlm += np.array(r['healing mean']).sum()
-        hlv += np.array(r['healing var']).sum()
-        hmm += r['hit points multiplier']
-        acm += r['armor class']
-        dm  += np.array(r['damage mean']).sum()
-        dv  += np.array(r['damage var']).sum()
-        abm += np.dot(np.array(r['attack bonus']), np.array(r['damage mean']))
-    
-    hmm  = hmm/len(rnds)
-    acm  = acm/len(rnds)
-    dprm = dm/len(rnds)
-    dprv = dv/len(rnds)
-    abm  = abm/max(dm, 1.0)
 
+    hmm = np.mean([r['hit points multiplier'] for r in rnds])
+    acm = np.mean([r['armor class']           for r in rnds])
+    hlm = np.sum([np.sum(r['healing mean']) for r in rnds])
+    hlv = np.sum([np.sum(r['healing var'])  for r in rnds])
     eHPm  = es5.effHP((hpm + hlm)*hmm, acm, method=method)
     eHPv  = np.power(es5.effHP(np.sqrt(hpv + hlv)*hmm, acm, method=method), 2)
+
+    abm  = np.mean([np.dot(r['attack bonus'], r['damage mean']) for r in rnds]) / np.mean([np.sum(r['damage mean']) for r in rnds])
+    dprm = np.mean([np.sum(r['damage mean']) for r in rnds])
+    dprv = np.mean([np.sum(r['damage var'])  for r in rnds])
     eDPRm = es5.effDPR(dprm, abm, method=method)
     eDPRv = np.power(es5.effDPR(np.sqrt(dprv), abm, method=method), 2)
+
     eXPm  = es5.effXP((hpm + hlm)*hmm, acm, dprm, abm, method=method, ctype='PC')
     eXPv  = np.power(es5.effXP((hpm + hlm)*hmm, acm, np.sqrt(dprv), abm, method=method, ctype='PC'), 2) \
           + np.power(es5.effXP(np.sqrt(hpv + hlv)*hmm, acm, dprm, abm, method=method, ctype='PC'), 2) \
           + np.power(es5.effXP(np.sqrt(hpv + hlv)*hmm, acm, np.sqrt(dprv), abm, method=method, ctype='PC'), 2)
+    
     eSum = {
         'type': 'encounter',
         'hit points mean': hpm,
@@ -669,8 +660,8 @@ def shortRestSummary(pc, rounds):
     """
     hpm = de.rollAverage(pc['hit points'])
     hpv = np.power(de.rollSigma(pc['hit points']), 2)
-    hlm = np.array([r['healing mean'] for r in rounds]).sum()
-    hlv = np.array([r['healing var'] for r in rounds]).sum()
+    hlm = np.sum([r['healing mean'] for r in rounds])
+    hlv = np.sum([r['healing var'] for r in rounds])
     hmm = 0
     acm = 0
     eHPm = 0
@@ -748,8 +739,8 @@ def longRestSummary(pc, rounds):
     """
     hpm = de.rollAverage(pc['hit points'])
     hpv = np.power(de.rollSigma(pc['hit points']), 2)
-    hlm = np.array([r['healing mean'] for r in rounds]).sum()
-    hlv = np.array([r['healing var'] for r in rounds]).sum()
+    hlm = np.sum([r['healing mean'] for r in rounds])
+    hlv = np.sum([r['healing var'] for r in rounds])
     hmm = 0
     acm = 0
     eHPm = 0
@@ -847,67 +838,65 @@ def dailySummary(pc, encounters, **kwargs):
     encounters - list of encounters.
     """
     method = kwargs.get('effective_method', 'linear')
-    hpm = de.rollAverage(pc['hit points'])
-    hpv = np.power(de.rollSigma(pc['hit points']), 2)
-    hlm = 0; hlv = 0
-    hmm = 0
-    acm = 0
-    dprm = 0; dprv = 0
-    abm = 0
-    eXPm = 0
-    eXPv = 0
-    cRnds = 0
-    rounds = []
-    for e in encounters:
-        rounds += e['rounds']
-        hlm += e['healing mean']
-        hlv += e['healing var']
-        if e['type'] == 'encounter':
-            cRnds += len(e['rounds'])
-            hmm  += e['hit points multiplier']*len(e['rounds'])
-            acm  += e['armor class']*len(e['rounds'])
-            dprm += e['damage per round mean']*len(e['rounds'])
-            dprv += e['damage per round var']*len(e['rounds'])
-            abm  += e['attack bonus']*len(e['rounds'])
-            eXPm += e['XP mean']*len(e['rounds'])
-            eXPv += e['XP var']*len(e['rounds'])
-    hmm  /= cRnds
-    acm  /= cRnds
-    dprm /= cRnds
-    dprv /= cRnds
-    abm  /= cRnds
-    eXPm /= cRnds
-    eXPv /= cRnds
-    
-    eHPm = es5.effHP((hpm + hlm)*hmm, acm, method=method)
-    eHPv = np.power(es5.effHP(np.sqrt(hpv + hlv)*hmm, acm, method=method), 2)
+    cRnds = np.sum([len(e['rounds']) for e in encounters if e['type'] == 'encounter'])
+
+    hpm  = de.rollAverage(pc['hit points'])
+    hpv  = np.power(de.rollSigma(pc['hit points']), 2)
+    hmm  = np.sum([len(e['rounds'])*e['hit points multiplier'] for e in encounters if e['type'] == 'encounter'])/cRnds
+    acm  = np.sum([len(e['rounds'])*e['armor class']           for e in encounters if e['type'] == 'encounter'])/cRnds
+
+    dprm = np.sum([len(e['rounds'])*e['damage per round mean'] for e in encounters if e['type'] == 'encounter'])/cRnds
+    dprv = np.sum([len(e['rounds'])*e['damage per round var']  for e in encounters if e['type'] == 'encounter'])/cRnds
+    abm  = np.sum([len(e['rounds'])*e['attack bonus']          for e in encounters if e['type'] == 'encounter'])/cRnds
     eDPRm = es5.effDPR(dprm, abm, method=method)
     eDPRv = np.power(es5.effDPR(np.sqrt(dprv), abm, method=method), 2)
-    dXPm  = es5.effXP((hpm + hlm)*hmm, acm, dprm, abm, method=method, ctype='PC')
-    dXPv  = np.power(es5.effXP((hpm + hlm)*hmm, acm, np.sqrt(dprv), abm, method=method, ctype='PC'), 2) \
-          + np.power(es5.effXP(np.sqrt(hpv + hlv)*hmm, acm, dprm, abm, method=method, ctype='PC'), 2) \
-          + np.power(es5.effXP(np.sqrt(hpv + hlv)*hmm, acm, np.sqrt(dprv), abm, method=method, ctype='PC'), 2)
+
+    enc_hlm = np.mean([e['healing mean'] for e in encounters if e['type'] == 'encounter'])
+    enc_hlv = np.mean([e['healing var']  for e in encounters if e['type'] == 'encounter'])
+    enc_eHPm = es5.effHP((hpm + enc_hlm)*hmm, acm, method=method)
+    enc_eHPv = np.power(es5.effHP(np.sqrt(hpv + enc_hlv)*hmm, acm, method=method), 2)
+
+    #enc_XPm = np.sum([len(e['rounds'])*e['XP mean']               for e in encounters if e['type'] == 'encounter'])/cRnds
+    #enc_XPv = np.sum([len(e['rounds'])*e['XP var']                for e in encounters if e['type'] == 'encounter'])/cRnds
+    enc_XPm = es5.effXP((hpm + enc_hlm)*hmm, acm, dprm, abm, method=method, ctype='PC')
+    enc_XPv = np.power(es5.effXP((hpm + enc_hlm)*hmm, acm, np.sqrt(dprv), abm, method=method, ctype='PC'), 2) \
+            + np.power(es5.effXP(np.sqrt(hpv + enc_hlv)*hmm, acm, dprm, abm, method=method, ctype='PC'), 2) \
+            + np.power(es5.effXP(np.sqrt(hpv + enc_hlv)*hmm, acm, np.sqrt(dprv), abm, method=method, ctype='PC'), 2)
+
+    day_hlm  = np.sum([e['healing mean'] for e in encounters])
+    day_hlv  = np.sum([e['healing var'] for e in encounters])
+    day_eHPm = es5.effHP((hpm + day_hlm)*hmm, acm, method=method)
+    day_eHPv = np.power(es5.effHP(np.sqrt(hpv + day_hlv)*hmm, acm, method=method), 2)
+    
+    day_XPm = es5.effXP((hpm + day_hlm)*hmm, acm, dprm, abm, method=method, ctype='PC')
+    day_XPv = np.power(es5.effXP((hpm + day_hlm)*hmm, acm, np.sqrt(dprv), abm, method=method, ctype='PC'), 2) \
+            + np.power(es5.effXP(np.sqrt(hpv + day_hlv)*hmm, acm, dprm, abm, method=method, ctype='PC'), 2) \
+            + np.power(es5.effXP(np.sqrt(hpv + day_hlv)*hmm, acm, np.sqrt(dprv), abm, method=method, ctype='PC'), 2)
     eSum = {
         'type': 'day',
         'hit points mean': hpm,
         'hit points var': hpv,
-        'healing mean': hlm,
-        'healing var': hlv,
+        'healing mean': day_hlm,
+        'healing var': day_hlv,
         'hit points multiplier': hmm,
         'armor class': acm,
-        'effective hit points mean': eHPm,
-        'effective hit points var': eHPv,
+        'effective hit points mean': day_eHPm,
+        'effective hit points var': day_eHPv,
         'damage per round mean': dprm,
         'damage per round var': dprv,
         'attack bonus': abm,
         'effective damage per round mean': eDPRm,
         'effective damage per round var': eDPRv,
-        'XP mean': dXPm,
-        'XP var': dXPv,
-        'encounter XP mean': eXPm,
-        'encounter XP var': eXPv,
+        'XP mean': day_XPm,
+        'XP var': day_XPv,
+        'encounter healing mean': enc_hlm,
+        'encounter healing var': enc_hlv,
+        'encounter effective hit points mean': enc_eHPm,
+        'encounter effective hit points var': enc_eHPv,
+        'encounter XP mean': enc_XPm,
+        'encounter XP var': enc_XPv,
         'encounters': encounters,
-        'resources used': resourcesUsed(rounds=rounds)
+        'resources used': resourcesUsed(rounds=[r for e in encounters for r in e['rounds']])
     }
     return copy.deepcopy(eSum)
 

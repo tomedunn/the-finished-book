@@ -1286,6 +1286,14 @@ def sorcererPC(name='Sorcerer', **kwargs):
         spSlots[1] -= 1
     if lvl >= 2:
         spSlots = sorcererFlexibleCasting(lvl, spSlots)
+    
+    react_max_level = 0
+    if lvl >= 5:
+        react_max_level += 1
+    if lvl >= 11:
+        react_max_level += 1
+    if lvl >= 17:
+        react_max_level += 1
     for i in range(10):
         if spSlots[i] > 0:
             resName = 'Spell Slot ({:d})'.format(i)
@@ -1293,9 +1301,9 @@ def sorcererPC(name='Sorcerer', **kwargs):
             actName = 'Cast a Spell ({:d})'.format(i)
             pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[i], 'attack bonus': spAtkMod}], resources={resName: -1})
 
-            if i <= 3:
+            if i >= 1 and i <= react_max_level:
                 actName = 'Spell Reaction ({:d})'.format(i)
-                #pc['reactions'][actName] = newAction(acbonus=3, resources={resName: -1}, comment='Shield or Counterspell')  
+                pc['reactions'][actName] = newAction(acbonus=3, resources={resName: -1}, comment='Shield or Counterspell')
     
     return pc
 
@@ -1466,6 +1474,13 @@ def wizardPC(name='Wizard', **kwargs):
     if armorName == 'mage armor':
         spSlots[1] -= 1
     spSlots = wizardArcaneRecovery(lvl, spSlots, spDmg)
+    react_max_level = 0
+    if lvl >= 5:
+        react_max_level += 1
+    if lvl >= 11:
+        react_max_level += 1
+    if lvl >= 17:
+        react_max_level += 1
     for i in range(10):
         if spSlots[i] > 0:
             resName = 'Spell Slot ({:d})'.format(i)
@@ -1473,9 +1488,9 @@ def wizardPC(name='Wizard', **kwargs):
             actName = 'Cast a Spell ({:d})'.format(i)
             pc['actions'][actName] = newAction(attacks=[{'damage': spDmg[i], 'attack bonus': spAtkMod}], resources={resName: -1})     
 
-            if i <= 3 and i >= 1:
+            if i >= 1 and i <= react_max_level:
                 actName = 'Spell Reaction ({:d})'.format(i)
-                #pc['reactions'][actName] = newAction(acbonus=3, resources={resName: -1}, comment='Shield or Counterspell')
+                pc['reactions'][actName] = newAction(acbonus=3, resources={resName: -1}, comment='Shield or Counterspell')
 
     return pc
 
