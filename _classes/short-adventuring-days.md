@@ -66,7 +66,7 @@ For most classes, this improvement in encounter XP comes from improvements in av
 
 These classes include the barbarian, due to their limited uses for Rage at low levels, the fighter, due to the hit points restored by their Second Wind feature, as well as the sorcerer and wizard, both due to having more spell slots as they level up for defensive spells like _shield_ and _counterspell_. 
 
-The bard also shows a slight improvement effective hit points, which comes from their Bardic Inspiration feature. This representation isn't entirely accurate for two reasons. First, Bardic Inspiration can be used both offensively and defensively, though both provide the same mathematical benefit. And second, the benefits of Bardic Inspiration go to one of the bard's allies and not the bard.
+The bard also shows a slight improvement effective hit points, which comes from their Bardic Inspiration feature. This representation isn't entirely accurate for two reasons. First, Bardic Inspiration can be used both offensively and defensively, though both provide the same mathematical benefit to XP. And second, the benefits of Bardic Inspiration go to one of the bard's allies and not the bard.
 
 # Two encounter adventuring days
 
