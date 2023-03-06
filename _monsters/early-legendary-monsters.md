@@ -2,7 +2,7 @@
 title: "Early Legendary Monsters"
 excerpt: "Legendary monsters were overpowered, but not anymore."
 date: 2021-12-27
-last_modified_at: 2022-12-29
+last_modified_at: 2023-03-04
 #tags:
 #  - analysis
 #  - monsters

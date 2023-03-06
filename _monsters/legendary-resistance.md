@@ -2,7 +2,7 @@
 title: "The Value of Legendary Resistances"
 excerpt: "How valuable are legendary resistances and when should DMs use them?"
 date: 2022-09-24
-last_modified_at: 2022-09-24
+last_modified_at: 2023-03-04
 #tags:
 #  - analysis
 #  - monsters
@@ -33,7 +33,7 @@ The "Creating a Monster" section from chapter 9 of the DMG covers how monster CR
 These hit point values can be converted to effective hit points using the following equation,
 
 \begin{align}
-    \eHP &\approx \frac{1}{\sqrt{0.6}} \cdot \HP \left( 1 + 0.083 \left(\AC - 13\right)\right)\,, \label{eq:effective-hit-points-attack-approx} 
+    \eHP &\approx \frac{1}{\sqrt{0.65}} \cdot \HP \left( 1 + 0.077 \left(\AC - 12\right)\right)\,, \label{eq:effective-hit-points-attack-approx} 
 \end{align}
 
 where $$\HP$$ represents the hit point value of a legendary resistance, and $$\AC$$ is the typical monster armor class values taken from the [Monster Statistics by Challenge Rating](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#MonsterStatisticsbyChallengeRating) table from the same chapter (for a full derivation of Eqn. \eqref{eq:effective-hit-points-attack-approx}, see [Effective HP and Damage]({{ site.url }}{{ site.baseurl }}{% link _theory/effective-hp-and-damage.md %})). The results of this calculation are shown in Fig. <a href="#fig:pcs-encounter-edpr-legendary-resistance-vs-level-medium-adventuring-days" class="fig-ref">1</a> (below).
