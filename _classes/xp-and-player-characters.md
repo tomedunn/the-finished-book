@@ -3,7 +3,7 @@ title: "Player Character XP"
 excerpt: "Calculates encounter and adventuring day XPs for each class and compares them with XP thresholds and budgets in the DMG."
 #excerpt: "Have you ever wondered where the adventuring day XP budget values come from? In this post I discuss how XP values can be calculated for each of the classes in the PH, and show how those values stack up against the encounter difficulty XP thresholds and adventuring day XP budgets given in the DMG."
 date: 2022-9-3
-last_modified_at: 2022-9-15
+last_modified_at: 2023-03-04
 #tags:
 #  - combat
 #  - classes
@@ -51,7 +51,7 @@ As I covered in [XP and Encounter Balancing]({{ site.url }}{{ site.baseurl }}{% 
 The specifics of how $$\eHP$$ and $$\eDPR$$ are calculated are covered in [Effective HP and Damage]({{ site.url }}{{ site.baseurl }}{% link _theory/effective-hp-and-damage.md %}), but for a simple approximation Eqn. \eqref{eq:XP-simple} can be written as,
 
 \begin{equation}
-    \PXP = \HP \cdot \DPRhit \left(1 + 0.083\left(\AC + \AB - 16\right)\right)\,, \label{eq:XP-full}
+    \PXP = \HP \cdot \DPRhit \left(1 + 0.077\left(\AC + \AB - 15\right)\right)\,, \label{eq:XP-full}
 \end{equation}
 
 where $$\HP$$ is the PC's average hit points, $$\AC\,$$ is their effective armor class, $$\DPRhit$$ is their average damage per round assuming all attacks hit, and $$\AB\,$$ is their effective attack bonus.
