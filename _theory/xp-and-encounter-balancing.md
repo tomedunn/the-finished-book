@@ -87,7 +87,8 @@ Putting this all together, determining an encounter's difficulty can be expresse
 Normally, the difficulty for the encounter corresponds to the highest XP threshold for the PCs that is still lower than the RHS of Eqn. \eqref{eq:encounter-balance-equation-dmg}. This makes the equality in that equation a bit questionable. However, since the difficulty XP thresholds come as nearly fixed ratios of one another, as shown in Fig. <a href="#fig:pc-xp-thresholds-vs-level" class="fig-ref">1</a> (below), $$\diff\,$$ can be treated as a continuous variable while balancing Eqn. \eqref{eq:encounter-balance-equation-dmg}, and then compared against the actual difficulty threshold values to determine the final difficulty.
 
 <figure id="fig:pc-xp-thresholds-vs-level">
-    <img src="{{ site.url }}{{ site.baseurl }}/theory/xp-and-encounter-balancing/fig-pc-xp-thresholds-vs-level.svg">
+    {% include_relative xp-and-encounter-balancing/fig-pc-xp-thresholds-vs-level-small.html %}
+    {% include_relative xp-and-encounter-balancing/fig-pc-xp-thresholds-vs-level-large.html %}
     <figcaption>Figure 1: Plots PC XP thresholds divided by the Easy difficulty XP threshold, taken from the <a href="https://www.dndbeyond.com/sources/basic-rules/building-combat-encounters#XPThresholdsbyCharacterLevel">XP Threshold by Character Level</a> table in chapter 13 of the <i>Basic Rules</i>. The average ratio for each threshold is 1.0 for Easy, 2.0 for Medium, 3.0 for Hard, and 4.5 for Deadly encounters.</figcaption>
 </figure>
 
@@ -156,29 +157,34 @@ Before moving on to talk about the encounter multiplier and what it represents, 
 Taking advantage of the equations for $$\eHP$$ and $$\eDPR$$ from my previous post, [Effective HP and Damage]({{ site.url }}{{ site.baseurl }}{% link _theory/effective-hp-and-damage.md %}), Eqns. \eqref{eq:experience-PC} and \eqref{eq:experience-NPC} can be written more explicitly in terms of a creature's armor class $$(\AC\,)$$, attack bonus $$(\AB\,)$$, and average damage per round assuming all attacks hit $$(\DPRhit)$$, as
 
 \begin{align}
-    \PXP  &= \HP \cdot \DPRhit \cdot 1.083^{\AC + \AB - 16} \,, \label{eq:experience-PC-explicit} \\\\ 
-    \NXP  &= \frac{1}{4}\HP \cdot \DPRhit \cdot 1.083^{\AC + \AB - 16}\,. \label{eq:experience-NPC-explicit}
+    \PXP  &= \HP \cdot \DPRhit \cdot 1.077^{\AC + \AB - 15} \,, \label{eq:experience-PC-explicit} \\\\ 
+    \NXP  &= \frac{1}{4}\HP \cdot \DPRhit \cdot 1.077^{\AC + \AB - 15}\,. \label{eq:experience-NPC-explicit}
 \end{align}
+
+Here, $$1.077 \equiv 14/13$$.
 
 This can be simplified further by taking a linear approximation for the exponential term in each equation via $$\left(1 + x\right)^n \approx 1 + n \cdot x$$ when $$x \ll 1$$, 
 
 \begin{align}
-    \PXP  &= \HP \cdot \DPRhit \cdot \left(1 + 0.083\left(\AC + \AB - 16\right)\right) \,, \label{eq:experience-PC-linear} \\\\ 
-    \NXP  &= \frac{1}{4}\HP \cdot \DPRhit \left(1 + 0.083\left(\AC + \AB - 16\right)\right)\,. \label{eq:experience-NPC-linear}
+    \PXP  &= \HP \cdot \DPRhit \left(1 + 0.077\left(\AC + \AB - 15\right)\right) \,, \label{eq:experience-PC-linear} \\\\ 
+    \NXP  &= \frac{1}{4}\HP \cdot \DPRhit \left(1 + 0.077\left(\AC + \AB - 15\right)\right)\,, \label{eq:experience-NPC-linear}
 \end{align}
 
-This approximation loses accuracy as $$\AC + \AB$$ get significantly larger than $$16$$, however, it will prove useful when comparing with the values in the DMG.
+Where $$0.077 \equiv 1/13$$.
+
+This approximation loses accuracy as $$\AC + \AB$$ get significantly larger than $$15$$, however, it will prove useful when comparing with the values in the DMG.
 
 To verify that these methods for calculating XP are accurate, Fig. <a href="#fig:effective-xp-ratio-vs-cr" class="fig-ref">2</a> below plots XP values, calculated using Eqns. \eqref{eq:experience-NPC-explicit} and \eqref{eq:experience-NPC-linear}, for monsters with typical stats taken from [Monster Statistics by Challenge Rating](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#MonsterStatisticsbyChallengeRating) table in chapter 9 of the DMG.
 
 <figure id="fig:effective-xp-ratio-vs-cr">
-    <img src="{{ site.url }}{{ site.baseurl }}/theory/xp-and-encounter-balancing/fig-effective-xp-ratio-vs-cr.svg">
+    {% include_relative xp-and-encounter-balancing/fig-effective-xp-ratio-vs-cr-small.html %}
+    {% include_relative xp-and-encounter-balancing/fig-effective-xp-ratio-vs-cr-large.html %}
     <figcaption>Figure 2: Plots XP values for typical monsters at each CR calculated using Eqn. \eqref{eq:experience-NPC-explicit} (blue) and Eqn. \eqref{eq:experience-NPC-linear} (orange). Typical values for monster statistics were taken from the Monster Statistics by Challenge Rating table in chapter 9 of the DMG.</figcaption>
 </figure>
 
 Clearly, the linear approximation given by Eqn. \eqref{eq:experience-NPC-linear} matches the target XP values the best out of the two. From an theoretical perspective, I would consider Eqn. \eqref{eq:experience-NPC-linear} to be less correct than Eqn. \eqref{eq:experience-NPC-explicit}, since the approximation needed to reach it doesn't hold up for higher CR monsters. However, since the same approximation would be applied to both PCs and NPCs alike, I think it's unlikely cause to any significant problems unless there is a large gap between $$\AC + \AB\,$$ for the PCs and NPCs in the encounter.
 
-This method also works well for calculating XP values for published monsters as well as for player characters. For a comparison between calculated XP and target XP values of published monsters, see [Calculating Monster XP]({{ site.url }}{{ site.baseurl }}{% link _monsters/calculating-monster-xp.md %}). And, for a comparison of calculated XP values and player character XP thresholds, see [Player Character XP]({{ site.url }}{{ site.baseurl }}{% link _classes/xp-and-player-characters.md %}).
+This method also works well for calculating XP values for published monsters and for player characters. For a comparison between calculated XP and target XP values of published monsters, see [Calculating Monster XP]({{ site.url }}{{ site.baseurl }}{% link _monsters/calculating-monster-xp.md %}). And, for a comparison of calculated XP values and player character XP thresholds, see [Player Character XP]({{ site.url }}{{ site.baseurl }}{% link _classes/xp-and-player-characters.md %}).
 
 <!--
 For a more expansive analysis of how this method of calculating monster XP holds up for actual monsters published in official source books, check out [Calculating Monster XP]({{ site.url }}{{ site.baseurl }}{% link _monsters/calculating-monster-xp.md %}).
