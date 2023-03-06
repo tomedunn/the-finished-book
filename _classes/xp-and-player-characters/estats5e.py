@@ -1,8 +1,14 @@
 import numpy as np
 
-norm    = np.power(0.6,  0.5)
-norminv = np.power(0.6, -0.5)
-scale   = (0.05/0.6)
+P0 = 0.65  # Baseline chance to hit
+AB0 = 3    # Baseline attack bonus
+AC0 = 12   # Baseline armor class
+SB0 = -2   # Baseline saving throw bonus
+DC0 = 12   # Baseline save DC
+
+norm    = np.power(P0,  0.5)
+norminv = np.power(P0, -0.5)
+scale   = (0.05/P0)
 
 def effDPR(DPR, AB, method='linear'):
     """Returns effective damage per round
@@ -11,9 +17,9 @@ def effDPR(DPR, AB, method='linear'):
     method -- calculation method
     """
     if method == 'exp':
-        return norm*DPR*np.power(1 + scale, AB - 3)
+        return norm*DPR*np.power(1 + scale, AB - AB0)
     elif method == 'linear':
-        return norm*DPR*(1 + scale*(AB - 3))
+        return norm*DPR*(1 + scale*(AB - AB0))
 
 def effHP(HP, AC, method='linear'):
     """Returns effective damage per round
@@ -22,9 +28,9 @@ def effHP(HP, AC, method='linear'):
     method -- calculation method
     """
     if method == 'exp':
-        return norminv*HP*np.power(1 + scale, AC - 13)
+        return norminv*HP*np.power(1 + scale, AC - AC0)
     elif method == 'linear':
-        return norminv*HP*(1 + scale*(AC - 13))
+        return norminv*HP*(1 + scale*(AC - AC0))
 
 def effXP(hp, ac, dpr, ab, method='linear', ctype='NPC'):
     """Returns effective damage per round
@@ -43,8 +49,8 @@ def effXP(hp, ac, dpr, ab, method='linear', ctype='NPC'):
         c = np.nan
 
     if method == 'exp':
-        return c*hp*dpr*np.power(1 + scale, ac + ab - 16)
+        return c*hp*dpr*np.power(1 + scale, ac + ab - (AC0 + AB0))
     elif method == 'linear':
-        return c*hp*dpr*(1 + scale*(ac + ab - 16))
+        return c*hp*dpr*(1 + scale*(ac + ab - (AC0 + AB0)))
     elif method == 'quadratic':
-        return c*hp*dpr*(1 + scale*(ac - 13))*(1 + scale*(ab - 3))
+        return c*hp*dpr*(1 + scale*(ac - AC0))*(1 + scale*(ab - AB0))

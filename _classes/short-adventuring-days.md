@@ -2,7 +2,7 @@
 title: "Balancing Short Adventuring Days"
 excerpt: "How do XP thresholds change for adventuring days with only one or two encounters?"
 date: 2023-2-13
-last_modified_at: 2023-2-20
+last_modified_at: 2023-03-04
 #tags:
 #  - combat
 #  - classes

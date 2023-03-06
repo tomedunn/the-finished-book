@@ -2,7 +2,7 @@
 title: "Daily XP and Encounter Difficulty"
 excerpt: "Shows how much player character daily XP budgets change with average encounter difficulty."
 date: 2022-10-3
-last_modified_at: 2022-10-3
+last_modified_at: 2023-03-04
 #tags:
 #  - combat
 #  - classes
@@ -16,8 +16,10 @@ In my previous post, [Player Character XP]({{ site.url }}{{ site.baseurl }}{% li
 
 Calculating the daily XP values for each class follows the same process I outlined [here]({{ site.url }}{{ site.baseurl }}{% link _classes/xp-and-player-characters.md %}), but with the number of rounds and encounters adjusted to fit each encounter difficulty. The number of rounds per encounter and encounters per day for a given encounter difficulty vary a bit from level to level, but those variations are small compared to the average for each difficulty. These average values are summarized in the <a href="#tab:rounds-summary" class="fig-ref">Encounters and Rounds</a> table (below).
 
-### Encounters and Rounds
+<div class="dataframe center" style="width:660px;">
+<h3 id="tab:rounds-summary">Encounters and Rounds</h3>
 {% include_relative daily-xp-and-encounter-difficulty/table-rounds-summary.html %}
+</div>
 
 The results of these calculations, averaged across all classes, is shown in Fig. <a href="#fig:daily-xp-budgets-vs-level" class="fig-ref">1</a> (below). Unsurprisingly, as the average encounter difficulty goes up, so does the daily XP the PCs can handle. This is because the number of rounds per day decreases as the difficulty goes up, which allows many of the classes to deal higher average damage per round.
 
