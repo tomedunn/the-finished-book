@@ -2,23 +2,26 @@
 title: "Monster Saving Throws"
 excerpt: "An analysis of how monster saving throw modifiers scale with CR."
 date: 2021-10-23
-last_modified_at: 2022-02-08
+last_modified_at: 2023-03-07
 #tags:
 #  - analysis
 #  - monsters
 #  - saving throws
 ---
 
+# Introduction
+
 Monster saving throw bonuses are an important part of D&D 5th edition, especially when it comes to evaluating the strengths and weaknesses of various class features and spells. Despite their importance, though, they're also an aspect of analyzing the game that people frequently get wrong.
 
 In this post, I go through how the different saving throw bonuses for monsters compare to one another, followed by a detailed breakdown of how monster ability score modifiers and saving throw proficiencies combine to produce these results.
 
-## Saving Throw Bonuses
+# Saving Throw Bonuses
 
 To begin, lets look at the how saving throw bonuses scale with monster CR. It's important to note that these trends are what's observed from published sources. It's not as statement on how the various saving throws bonuses ought to scale.
 
 <figure alt="Saving Throw Modifier vs CR" id="fig:monster-saving-throw-modifier-trends">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-saving-throws/monster-saving-throw-modifier-trends.svg">
+    {% include_relative monster-saving-throws/fig-saving-throw-modifier-vs-cr-small.html %}
+    {% include_relative monster-saving-throws/fig-saving-throw-modifier-vs-cr-large.html %}
     <figcaption>Figure 1: Monster average saving throw bonuses as a function of CR. Monsters are grouped in CR bins of width 3.</figcaption>
 </figure>
 
@@ -28,12 +31,13 @@ At low CRs all six ability scores are relatively close to one another with only 
 
 Strength and Intelligence both start off as stronger saves for monsters at low CRs. However, since they increase slower than the other four ability scores they end up on the weaker side of the spectrum at high CRs. Also, while both Strength and Intelligence appear to scale similarly, they do so for entirely different reasons.
 
-## Ability Score Modifiers
+# Ability Score Modifiers
 
 There are two key factors that go into defining a monster's saving throw bonus, their ability score modifiers and what saving throws they are proficient in. In this section we'll look at how the different ability score modifiers scale, and in the next section we'll look at how saving throw proficiency impacts monster saving throw bonuses.
 
 <figure alt="Ability Score Modifier vs CR" id="fig:monster-ability-score-modifier-trends">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-saving-throws/monster-ability-score-modifier-trends.svg">
+    {% include_relative monster-saving-throws/fig-ability-score-modifier-vs-cr-small.html %}
+    {% include_relative monster-saving-throws/fig-ability-score-modifier-vs-cr-large.html %}
     <figcaption>Figure 2: Monster average ability score modifiers as a function of CR. Monsters are grouped in CR bins of width 3.</figcaption>
 </figure>
 
@@ -45,12 +49,13 @@ Strength and Constitutions stand out as the strongest out of all the ability sco
 
 In total, three ability scores -- Constitution, Intelligence, and Charisma -- match what we saw in the previous section while the other three -- Strength, Dexterity, and Wisdom -- don't. For Wisdom, the difference isn't nearly as pronounced as it is for Strength and Dexterity, but it is sufficient enough to make Wisdom look like it would be the second lowest save at higher CRs, when in truth it's the second highest save. The reason for these difference, of course, lies in monster saving throw proficiencies.
 
-## Saving Throw Proficiencies
+# Saving Throw Proficiencies
 
 As mentioned earlier, the second half of the picture comes from how saving throw proficiencies scale with monster CR. Figure <a href="#fig:monster-saving-throw-proficiency-trends" class="fig-ref">3</a> shows the probability of a monster having a particular saving throw proficiency at a given CR, where the CRs are binned in groups of three as they were in the previous plots.
 
 <figure alt="Saving Throw Proficiency vs CR" id="fig:monster-saving-throw-proficiency-trends">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-saving-throws/monster-saving-throw-proficiency-trends.svg">
+    {% include_relative monster-saving-throws/fig-saving-throw-proficiency-vs-cr-small.html %}
+    {% include_relative monster-saving-throws/fig-saving-throw-proficiency-vs-cr-large.html %}
     <figcaption>Figure 3: Monster average saving throw proficiency rates as a function of CR. Monsters are grouped in CR bins of width 3.</figcaption>
 </figure>
 
@@ -59,16 +64,21 @@ Strength is, by far, the least likely saving throw for monsters to be proficient
 It's worth pointing out that monster proficiency bonuses increases with CR as well. Figure <a href="#fig:monster-saving-throw-proficiency-bonus-trends" class="fig-ref">4</a> shows the same data with proficiency bonus factored in.
 
 <figure alt="Saving Throw Proficiency Bonus vs CR" id="fig:monster-saving-throw-proficiency-bonus-trends">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-saving-throws/monster-saving-throw-proficiency-bonus-trends.svg">
+    {% include_relative monster-saving-throws/fig-saving-throw-proficiency-bonus-vs-cr-small.html %}
+    {% include_relative monster-saving-throws/fig-saving-throw-proficiency-bonus-vs-cr-large.html %}
     <figcaption>Figure 4: Monster average saving throw proficiency bonuses as a function of CR. Monsters are grouped in CR bins of width 3.</figcaption>
 </figure>
 
-## Extra Credit
+<!--
+# Extra Credit
 
 For those wanting to see the trends for ability score modifiers and proficiency bonuses side by side, Fig. <a href="#fig:ability-mods-and-prof-bonus-vs-cr" class="fig-ref">5</a> shows a side by side comparison between the two.
 
 <figure class="half" id="fig:ability-mods-and-prof-bonus-vs-cr">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-saving-throws/monster-ability-score-modifier-trends.svg">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/monster-saving-throws/monster-saving-throw-proficiency-bonus-trends.svg">
+    {% include_relative monster-saving-throws/fig-ability-score-modifier-vs-cr-small.html %}
+    {% include_relative monster-saving-throws/fig-ability-score-modifier-vs-cr-large.html %}
+    {% include_relative monster-saving-throws/fig-saving-throw-proficiency-bonus-vs-cr-small.html %}
+    {% include_relative monster-saving-throws/fig-saving-throw-proficiency-bonus-vs-cr-large.html %}
     <figcaption>Figure 5: Monster average ability score modifier and proficiency bonuses as a function of CR. Monsters are grouped in CR bins of width 3.</figcaption>
 </figure>
+-->
