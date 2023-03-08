@@ -2,7 +2,7 @@
 title: "Calculating Monster CR"
 excerpt: "Compares listed monster CRs with those calculated according to the rules in chapter 9 of the DMG."
 date: 2021-10-30
-last_modified_at: 2021-11-03
+last_modified_at: 2023-03-07
 #tags:
 #  - analysis
 #  - CR
@@ -66,8 +66,10 @@ raise AC, and proficiencies in multiple saving throws. Like adjustments to HP, t
 higher CRs than they do at lower CRs. 
 
 <figure class="half" id="fig:hp-and-ac-vs-cr">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-cr/hp-vs-cr.svg">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-cr/ac-vs-cr.svg">
+    {% include_relative calculating-monster-cr/fig-hp-vs-cr-small.html %}
+    {% include_relative calculating-monster-cr/fig-hp-vs-cr-large.html %}
+    {% include_relative calculating-monster-cr/fig-ac-vs-cr-small.html %}
+    {% include_relative calculating-monster-cr/fig-ac-vs-cr-large.html %}
     <figcaption>Figure 1: Hit points and armor class vs CR (adjusted and unadjusted).</figcaption>
 </figure>
 
@@ -82,7 +84,8 @@ overall D-CR so the overall impact is relatively small. This impact is reflected
 the Fig. <a href="#fig:d-cr-vs-cr" class="fig-ref">2</a> below.
 
 <figure id="fig:d-cr-vs-cr">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-cr/d-cr-vs-cr.svg">
+    {% include_relative calculating-monster-cr/fig-d-cr-vs-cr-small.html %}
+    {% include_relative calculating-monster-cr/fig-d-cr-vs-cr-large.html %}
     <figcaption>Figure 2: Calculated defensive CR mean and 60% confidence interval vs CR.</figcaption>
 </figure>
 
@@ -100,8 +103,10 @@ calculating DPR for each monster and so, for the time being, they are not split 
 adjustments to AB are abilities that give advantage on attack rolls.
 
 <figure class="half" id="fig:dpr-and-ab-vs-cr">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-cr/dpr-vs-cr.svg">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-cr/ab-vs-cr.svg">
+    {% include_relative calculating-monster-cr/fig-dpr-vs-cr-small.html %}
+    {% include_relative calculating-monster-cr/fig-dpr-vs-cr-large.html %}
+    {% include_relative calculating-monster-cr/fig-ab-vs-cr-small.html %}
+    {% include_relative calculating-monster-cr/fig-ab-vs-cr-large.html %}
     <figcaption>Figure 3: Damage per round and attack bonus vs CR (adjusted and unadjusted).</figcaption>
 </figure>
 
@@ -119,7 +124,8 @@ The combined impact of effective DPR and AB is shown in Fig. <a href="#fig:o-cr-
 expected values in the DMG.
 
 <figure id="fig:o-cr-vs-cr">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-cr/o-cr-vs-cr.svg">
+    {% include_relative calculating-monster-cr/fig-o-cr-vs-cr-small.html %}
+    {% include_relative calculating-monster-cr/fig-o-cr-vs-cr-large.html %}
     <figcaption>Figure 4: Calculated offensive CR mean and  60% confidence interval vs CR.</figcaption>
 </figure>
 
@@ -134,7 +140,8 @@ With D-CR and O-CR both calculated, the CR for each monster is calculated by tak
 this are shown in Fig. <a href="#fig:dmg-cr-vs-cr" class="fig-ref">5</a> below.
 
 <figure id="fig:dmg-cr-vs-cr">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-cr/dmg-cr-vs-cr.svg">
+    {% include_relative calculating-monster-cr/fig-dmg-cr-vs-cr-small.html %}
+    {% include_relative calculating-monster-cr/fig-dmg-cr-vs-cr-large.html %}
     <figcaption>Figure 5: Calculated CR mean and 60% confidence interval vs CR.</figcaption>
 </figure>
 
