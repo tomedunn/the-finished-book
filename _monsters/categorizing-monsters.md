@@ -2,7 +2,7 @@
 title: "Categorizing Monsters"
 excerpt: "Grouping monsters into categories, because not all monsters in D&D 5e should be weighted equally."
 date: 2021-10-15
-last_modified_at: 2021-11-03
+last_modified_at: 2023-03-09
 #tags:
 #  - analysis
 #  - monsters
@@ -32,7 +32,8 @@ To illustrate this point, I've split monsters taken from official source/adventu
 These categories are designed to group monsters by their relative rarity. Over the course of an adventure, regardless of level, the PCs are far more likely to encounter a Generic monster than they are a Legendary monster or Unique monster. And, while Unique monsters are probably more common at lower levels, due to how rare Legendary monsters are, at high level play they are likely even rarer than Legendary monsters.
 
 <figure id="fig:monster-distribution">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/categorizing-monsters/monster-distribution.svg">
+    {% include_relative categorizing-monsters/fig-monster-distribution-small.html %}
+    {% include_relative categorizing-monsters/fig-monster-distribution-large.html %}
     <figcaption>Figure 1: Distribution of monsters by CR for each category.</figcaption>
 </figure>
 
