@@ -2,7 +2,7 @@
 title: "Early Legendary Monsters"
 excerpt: "Legendary monsters were overpowered, but not anymore."
 date: 2021-12-27
-last_modified_at: 2023-03-04
+last_modified_at: 2023-03-09
 #tags:
 #  - analysis
 #  - monsters
@@ -63,7 +63,8 @@ This means that of the monsters listed from these adventures only Rezmir from _H
 -->
 
 <figure id="fig:exp-ratio-vs-encounter-type">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/early-legendary-monsters/exp-ratio-vs-encounter-type.svg">
+    {% include_relative early-legendary-monsters/fig-exp-ratio-vs-encounter-type-small.html %}
+    {% include_relative early-legendary-monsters/fig-exp-ratio-vs-encounter-type-large.html %}
     <figcaption>Figure 2: Calculated XP mean (points) normalized to target XP values for the monsters listed in Table 1.</figcaption>
 </figure>
 
@@ -97,14 +98,16 @@ The _Monster Manual_ (MM) has a slightly higher average ratio, but the differenc
 However, when comparing the distribution of XP ratio values, as shown in Fig. <a href="#fig:exp-ratio-cdf-mm-vs-source-books" class="fig-ref">5</a>, the MM stands out as a clear outlier from the rest of the source books, with a higher than normal portion of its monsters having a XP ratio between 1.3 and 1.7.
 
 <figure id="fig:exp-ratio-cdf-mm-vs-source-books">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/early-legendary-monsters/exp-ratio-cdf-mm-vs-source-books.svg">
+    {% include_relative early-legendary-monsters/fig-exp-ratio-cdf-mm-vs-source-books-small.html %}
+    {% include_relative early-legendary-monsters/fig-exp-ratio-cdf-mm-vs-source-books-large.html %}
     <figcaption>Figure 5: Cumulative probability distribution of XP normalized to target XP values for monsters from official source books. For source books outside of the <i>Monster Manual</i> (non-MM, orange), the thin lines represent each individual book while the thick line represents the average of the group as a whole.</figcaption>
 </figure>
 
 After looking through the legendary monsters from the MM in this range, this deviation was clearly the result of dragons. This is clearly illustrated in Fig. <a href="#fig:exp-ratio-cdf-mm-vs-source-books-no-dragons" class="fig-ref">6</a>, which shows how the distribution of XP ratio values changes for the MM when dragons are removed from it.
 
 <figure id="fig:exp-ratio-cdf-mm-vs-source-books-no-dragons">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/early-legendary-monsters/exp-ratio-cdf-mm-vs-source-books-no-dragons.svg">
+    {% include_relative early-legendary-monsters/fig-exp-ratio-cdf-mm-vs-source-books-no-dragons-small.html %}
+    {% include_relative early-legendary-monsters/fig-exp-ratio-cdf-mm-vs-source-books-no-dragons-large.html %}
     <figcaption>Figure 6: Cumulative probability distribution of XP normalized to target XP values for monsters from official source books.</figcaption>
 </figure>
 
