@@ -3,7 +3,7 @@ title: "The Finished Book"
 layout: splash
 permalink: /
 date: 2021-10-29
-last_modified_at: 2022-10-8
+last_modified_at: 2023-03-27
 show_date: false
 feature_row:
   - image_path: /assets/images/classes-image1.jpg
@@ -23,15 +23,15 @@ feature_row:
     excerpt: "Posts about the mechanics and theories behind the game."
 ---
 
-Welcome! These posts are a collection of my thoughts and analysis on D&D 5th edition. It's possible I will expand this to other games or topics in the future, but for now my focus will be exclusively on D&D.
+Welcome! These posts are a collection of my thoughts and analysis on D&D 5th edition. As One D&D is fleshed out more I will likely make posts about that as well, but for the most part I will be posting about 5th edition D&D.
 
-This is not a blog, and I will not be sticking to any kind of regular posting schedule. I like to do these sorts of analysis in my spare time. When I find something worth sharing I'll post about it.
+I like to think of this as more of a living text book than a blog. When I find something worth sharing, I'll make a post about it. And if I find something new related to something I've already written about, or discover I've made and error somewhere, I'll update those post with new information.
 
 {% include feature_row  %}
 
 # Recent Posts
 
 {% assign sorted = site.documents | sort: 'date' | reverse %}
-{% for post in sorted limit:5 %}
+{% for post in sorted limit:10 %}
   {% include archive-single.html %}
 {% endfor %}
