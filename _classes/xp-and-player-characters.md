@@ -9,28 +9,7 @@ last_modified_at: 2023-03-04
 #  - classes
 ---
 
-<div style="display:none">
-\(
-\newcommand{\LV}{\mathit{LV}}
-\newcommand{\AC}{\mathit{AC}}
-\newcommand{\eAC}{\mathit{eAC}}
-\newcommand{\HP}{\mathit{HP}}
-\newcommand{\eHP}{\mathit{eHP}}
-\newcommand{\AB}{\mathit{AB}}
-\newcommand{\eDPR}{\mathit{eDPR}}
-\newcommand{\DPR}{\mathit{DPR}} 
-\newcommand{\DPRhit}{\DPR_\mathrm{hit}} 
-\newcommand{\HD}{\mathit{HD}}
-\newcommand{\CON}{\mathit{CM}}
-% other
-\newcommand{\XP}{\mathit{XP}}
-% PCs
-\newcommand{\PC}{\mathrm{PC}}
-\newcommand{\PeHP}{\eHP_\PC}
-\newcommand{\PeDPR}{\eDPR_\PC}
-\newcommand{\PXP}{\XP_\PC}
-\)
-</div>
+{% include LaTex.html %}
 
 # Introduction
 
@@ -45,13 +24,13 @@ As I covered in [XP and Encounter Balancing]({{ site.url }}{{ site.baseurl }}{% 
 
 \begin{equation}
     \label{eq:XP-simple}
-    \PXP = \eHP \cdot \eDPR\,.
+    \XP_{\PC} = \eHP \cdot \eDPR\,.
 \end{equation}
 
 The specifics of how $$\eHP$$ and $$\eDPR$$ are calculated are covered in [Effective HP and Damage]({{ site.url }}{{ site.baseurl }}{% link _theory/effective-hp-and-damage.md %}), but for a simple approximation Eqn. \eqref{eq:XP-simple} can be written as,
 
 \begin{equation}
-    \PXP = \HP \cdot \DPRhit \left(1 + 0.077\left(\AC + \AB - 15\right)\right)\,, \label{eq:XP-full}
+    \XP_{\PC} = \HP \cdot \DPRhit \left(1 + 0.077\left(\AC + \AB - 15\right)\right)\,, \label{eq:XP-full}
 \end{equation}
 
 where $$\HP$$ is the PC's average hit points, $$\AC\,$$ is their effective armor class, $$\DPRhit$$ is their average damage per round assuming all attacks hit, and $$\AB\,$$ is their effective attack bonus.

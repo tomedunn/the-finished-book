@@ -7,19 +7,7 @@ last_modified_at: 2023-3-1
 #  - theory
 ---
 
-<div style="display:none">
-\(
-\newcommand{\LV}{\mathit{L}}
-\newcommand{\AC}{\mathit{AC}}
-\newcommand{\HP}{\mathit{HP}}
-\newcommand{\AB}{\mathit{AB}}
-\newcommand{\DPR}{\mathit{DPR}} 
-\newcommand{\DPRhit}{\mathit{DPR}_\mathrm{hit}} 
-% other
-\newcommand{\CR}{\mathit{CR}}
-\newcommand{\XP}{\mathit{XP}}
-\)
-</div>
+{% include LaTex.html %}
 
 # Introduction
 This will be a bit different from my typical post. Until now, I've exclusively covered the game mechanics of D&D 5th edition (D&D 5e), but in this post I'd like to take a look at how the XP and encounter building rules in Pathfinder 2nd edition (PF 2e) work. Hopefully, this will server as an interesting contrast between the two systems and a good test of the theoretical approaches I've developed so far in my analysis of D&D 5e's monsters and encounter building rules.

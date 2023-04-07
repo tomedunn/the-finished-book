@@ -9,39 +9,30 @@ last_modified_at: 2023-3-4
 #  - classes
 ---
 
+{% include LaTex.html %}
+
 <div style="display:none">
 \(
-\newcommand{\RTW}{\mathit{RTW}}
+% probability
 \newcommand{\phit}{\rho_\mathrm{hit}}
 \newcommand{\pcrit}{\rho_\mathrm{crit}}
 \newcommand{\pmiss}{\rho_\mathrm{miss}}
 \newcommand{\psave}{\rho_\mathrm{save}}
 \newcommand{\pfail}{\rho_\mathrm{fail}}
-\newcommand{\AC}{\mathit{AC}}
-\newcommand{\eAC}{\mathit{eAC}}
-\newcommand{\SB}{\mathit{SB}}
+
 \newcommand{\SBave}{\SB_\mathrm{ave}}
-\newcommand{\HP}{\mathit{HP}}
-\newcommand{\eHP}{\mathit{eHP}}
 \newcommand{\eHPatck}{\eHP_\mathrm{a}}
 \newcommand{\eHPsave}{\eHP_\mathrm{s}}
-\newcommand{\AB}{\mathit{AB}}
-\newcommand{\DC}{\mathit{DC}}
 \newcommand{\eD}{\mathit{eD}}
 \newcommand{\eDatck}{\eD_\mathrm{a}}
 \newcommand{\eDsave}{\eD_\mathrm{s}}
-\newcommand{\eDPR}{\mathit{eDPR}}
+% damage
 \newcommand{\D}{\mathit{D}}
 \newcommand{\Dave}{\D_\mathrm{ave}}
 \newcommand{\Dhit}{\D_\mathrm{hit}} 
 \newcommand{\Dcrit}{\D_\mathrm{crit}}
 \newcommand{\Dsave}{\D_\mathrm{save}}
 \newcommand{\Dfail}{\D_\mathrm{fail}}
-\newcommand{\DPR}{\mathit{DPR}} 
-\newcommand{\DPRhit}{\DPR_\mathrm{hit}} 
-\newcommand{\DPRcrit}{\DPR_\mathrm{crit}}
-\newcommand{\DPRsave}{\DPR_\mathrm{save}}
-\newcommand{\DPRfail}{\DPR_\mathrm{fail}}
 \)
 </div>
 

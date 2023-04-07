@@ -9,20 +9,13 @@ last_modified_at: 2022-9-8
 #  - encounters
 ---
 
+{% include LaTex.html %}
+
 <div style="display:none">
 \(
-\newcommand{\RTW}{\mathit{RTW}}
-\newcommand{\HP}{\mathit{HP}}
-\newcommand{\eHP}{\mathit{eHP}}
-\newcommand{\eD}{\mathit{eD}}
-\newcommand{\eDPR}{\mathit{eDPR}}
-\newcommand{\DPR}{\mathit{DPR}} 
 % other
-\newcommand{\XP}{\mathit{XP}}
 \newcommand{\XPtot}{\overline{\XP}}
 \newcommand{\eXPtot}{\mathrm{enc}\,\overline{\XP}}
-\newcommand{\EM}{\mathit{EM}}
-\newcommand{\W}{\mathit{W}}
 \newcommand{\effMT}{\mathit{eff}^{\,\mathrm{MT}}}
 \newcommand{\eDPRMT}{\mathit{eDRT}^\mathrm{\,MT}}
 \newcommand{\eDPRST}{\mathit{eDRT}^\mathrm{\,ST}}
@@ -33,17 +26,9 @@ last_modified_at: 2022-9-8
 \newcommand{\dMTj}{\dMT_{\mspace{2mu}j}}
 % NPCs
 \newcommand{\NN}{N_\mathrm{N}}
-\newcommand{\NPC}{\mathrm{NPC}}
-\newcommand{\NeHP}{\eHP_\NPC}
-\newcommand{\NeDPR}{\eDPR_\NPC}
 % PCs
 \newcommand{\NP}{N\_\mathrm{P}}
 \newcommand{\nP}{n\_\mathrm{P}}
-\newcommand{\PC}{\mathrm{PC}}
-\newcommand{\PRTW}{\RTW_\PC}
-\newcommand{\PeHP}{\eHP_\PC}
-\newcommand{\PeDPR}{\eDPR_\PC}
-\newcommand{\PXP}{\XP_\PC}
 \)
 </div>
 

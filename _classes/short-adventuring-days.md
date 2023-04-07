@@ -8,15 +8,7 @@ last_modified_at: 2023-03-04
 #  - classes
 ---
 
-<div style="display:none">
-\(
-\newcommand{\eHP}{\mathit{eHP}}
-\newcommand{\eDPR}{\mathit{eDPR}}
-\newcommand{\XP}{\mathit{XP}}
-\newcommand{\PC}{\mathrm{PC}}
-\newcommand{\PXP}{\XP_\PC}
-\)
-</div>
+{% include LaTex.html %}
 
 # Introduction
 In my previous post, "[Daily XP and Encounter Difficulty]({{ site.url }}{{ site.baseurl }}{% link _classes/daily-xp-and-encounter-difficulty.md %})", I showed how player character XP thresholds change with the average encounter difficulty for full adventuring days. Since the number of encounters per day depends strongly on the encounter difficulty, you could say I also effectively showed how these XP thresholds change with the number of encounters per long rest.
@@ -29,7 +21,7 @@ As a reminder, XP values can be calculated for player characters by taking the p
 
 \begin{equation}
     \label{eq:XP-simple}
-    \PXP = \eHP \cdot \eDPR\,.
+    \XP_{\PC} = \eHP \cdot \eDPR\,.
 \end{equation}
 
 For a detailed summary of how these XP values are calculated, see [Player Character XP]({{ site.url }}{{ site.baseurl }}{% link _classes/xp-and-player-characters.md %}).

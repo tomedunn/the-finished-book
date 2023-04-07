@@ -9,19 +9,13 @@ last_modified_at: 2022-9-8
 #  - encounters
 ---
 
+{% include LaTex.html %}
+
 <div style="display:none">
 \(
-\newcommand{\HP}{\mathit{HP}}
-\newcommand{\eHP}{\mathit{eHP}}
-\newcommand{\eD}{\mathit{eD}}
-\newcommand{\eDPR}{\mathit{eDPR}}
-\newcommand{\DPR}{\mathit{DPR}} 
 % other
-\newcommand{\XP}{\mathit{XP}}
 \newcommand{\XPtot}{\overline{\XP}}
 \newcommand{\eXPtot}{\mathrm{enc}\,\overline{\XP}}
-\newcommand{\EM}{\mathit{EM}}
-\newcommand{\W}{\mathit{W}}
 \newcommand{\effMT}{\mathit{eff}^{\,\mathrm{MT}}}
 \newcommand{\eDPRMT}{\mathit{eDRT}^\mathrm{\,MT}}
 \newcommand{\eDPRST}{\mathit{eDRT}^\mathrm{\,ST}}
@@ -30,10 +24,6 @@ last_modified_at: 2022-9-8
 \newcommand{\dMT}{\mathit{d}}
 \newcommand{\dMTi}{\dMT_{\mspace{2mu}i}}
 \newcommand{\dMTj}{\dMT_{\mspace{2mu}j}}
-% NPCs
-\newcommand{\NPC}{\mathrm{NPC}}
-\newcommand{\NeHP}{\eHP_\NPC}
-\newcommand{\NeDPR}{\eDPR_\NPC}
 \)
 </div>
 
@@ -142,7 +132,6 @@ For encounters where there is no obvious order the NPCs will be defeated in, it 
 
 \begin{equation}
     \eXPtot_\mathrm{NPCs} = \frac{ \sum_{i, j} \XP_{ij}  + \sum_{i} \XP_{i}}{2}\,,
-    %\overline{\aXP}_{\rm NPCs} = \frac{\left( \sum \NeHP \right) \cdot \left( \sum \NeDPR \right) + \sum \NeHP \NeDPR}{8}\,,
     \label{eq:adjusted-experience-average}
 \end{equation}
 

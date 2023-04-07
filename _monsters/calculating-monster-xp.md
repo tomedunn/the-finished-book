@@ -9,27 +9,8 @@ last_modified_at: 2023-3-4
 #  - monsters
 ---
 
-<div style="display:none">
-\(
-\newcommand{\RTW}{\mathit{RTW}}
-\newcommand{\AC}{\mathit{AC}}
-\newcommand{\eAC}{\mathit{eAC}}
-\newcommand{\HP}{\mathit{HP}}
-\newcommand{\eHP}{\mathit{eHP}}
-\newcommand{\AB}{\mathit{AB}}
-\newcommand{\eDPR}{\mathit{eDPR}}
-\newcommand{\DPR}{\mathit{DPR}} 
-\newcommand{\DPRhit}{\mathit{DPR}_\mathrm{hit}} 
-% other
-\newcommand{\CR}{\mathit{CR}}
-\newcommand{\XP}{\mathit{XP}}
-% NPCs
-\newcommand{\NPC}{\mathrm{NPC}}
-\newcommand{\NeHP}{\mathit{eHP}_\mathrm{\NPC}}
-\newcommand{\NeDPR}{\mathit{eDPR}_\mathrm{\NPC}}
-\newcommand{\NXP}{\mathit{XP}_\mathrm{\NPC}}
-\)
-</div>
+{% include LaTex.html %}
+
 
 # Introduction
 
@@ -47,14 +28,14 @@ With that out of the way, XP in 5th edition is proportional to the product of a 
 
 \begin{equation}
     \label{eq:XP-simple}
-    \NXP = \frac{1}{4} \eHP \cdot \eDPR\,,
+    \XP_{\NPC} = \frac{1}{4} \eHP \cdot \eDPR\,,
 \end{equation}
 
 which can be approximated as, 
 
 \begin{equation}
     \label{eq:XP-full}
-    \NXP = \frac{1}{4} \HP \cdot \DPRhit \left(1 + 0.077\left(\AC + \AB - 15\right)\right)\,,
+    \XP_{\NPC} = \frac{1}{4} \HP \cdot \DPRhit \left(1 + 0.077\left(\AC + \AB - 15\right)\right)\,,
 \end{equation}
 
 where $$\HP$$ is the monster's average hit points, $$\AC$$ is their effective armor class, $$\DPRhit$$ is their average damage per round assuming all attacks hit, and $$\AB$$ is their effective attack bonus.
@@ -70,7 +51,7 @@ With that out of the way, XP in 5th edition is proportional to the product of a 
 
 \begin{equation}
     \label{eq:XP-simple}
-    \NXP = \frac{1}{4} \eHP \cdot \eDPR\,.
+    \XP_{\NPC} = \frac{1}{4} \eHP \cdot \eDPR\,.
 \end{equation}
 
 A monster's _eHP_ can be calculated using the same adjusted hit points (HP) and adjusted armor class (AC) used when calculating CR, following the rules in "Creating a Monster" from chapter 9 of the DMG, along with the following equation, 
@@ -91,7 +72,7 @@ Combining these two equations together, a monster's XP can be calculated as foll
 
 \begin{equation}
     \label{eq:XP-full}
-    \NXP = \frac{1}{4} HP \cdot DPR \cdot 1.05^{AC + AB - 14}\, .
+    \XP_{\NPC} = \frac{1}{4} HP \cdot DPR \cdot 1.05^{AC + AB - 14}\, .
 \end{equation}
 -->
 
