@@ -108,7 +108,7 @@ Before closing, I think it's worth discussing how the _XGtE_ encounter building 
 
 From a theoretical perspective, they could have factored it into the conversion ratios listed in the various multiple monster tables, but as the results in Fig. <a href="#fig:multi-monster-ratios" class="fig-ref">4</a> show, this is clearly not the case. So, why isn't it there?
 
-To understand how the multiple monster rules in _XGtE_ get away with not including an $$\EM\,$$, lets look at how our re-centered $$\EM\,$$ compares to the one from the _Basic Rules_. As shown in Fig. <a href="#fig:multi-monster-ratios" class="fig-ref">6</a> (below), rescaling the $$\EM\,$$ to be centered around one monster per PC also flattens it's overall value across a wide range of encounter sizes.
+To understand how the multiple monster rules in _XGtE_ get away with not including an $$\EM\,$$, lets look at how our re-centered $$\EM\,$$ compares to the one from the _Basic Rules_. As shown in Fig. <a href="fig:encounter-multiplier" class="fig-ref">6</a> (below), rescaling the $$\EM\,$$ to be centered around one monster per PC also flattens it's overall value across a wide range of encounter sizes.
 
 <figure id="fig:encounter-multiplier">
     {% include_relative xgte-encounter-building/fig-encounter-multiplier-small.html %}
