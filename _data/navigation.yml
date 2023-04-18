@@ -9,52 +9,54 @@ main:
 
 monsters:
   - title: "Categorizing Monsters"
-    url: /monsters/categorizing-monsters
+    url: /monsters/categorizing-monsters/
   - title: "Calculating Monster CR"
-    url: /monsters/calculating-monster-cr
+    url: /monsters/calculating-monster-cr/
   - title: "Calculating Monster XP"
-    url: /monsters/calculating-monster-xp
+    url: /monsters/calculating-monster-xp/
   - title: "Early Legendary Monsters"
-    url: /monsters/early-legendary-monsters
+    url: /monsters/early-legendary-monsters/
   - title: "Legendary Resistances"
-    url: /monsters/legendary-resistance
+    url: /monsters/legendary-resistance/
   - title: "Monster Condition Immunities"
-    url: /monsters/monster-condition-immunities
+    url: /monsters/monster-condition-immunities/
   - title: "Monster Damage Modifiers"
-    url: /monsters/monster-damage-modifiers
+    url: /monsters/monster-damage-modifiers/
   - title: "Monster Saving Throws"
-    url: /monsters/monster-saving-throws
+    url: /monsters/monster-saving-throws/
 
 classes:
   - title: "General"
     children:
       - title: "Player Character XP"
-        url: /classes/xp-and-player-characters
+        url: /classes/xp-and-player-characters/
       - title: "Daily XP and Encounter Difficulty"
-        url: /classes/daily-xp-and-encounter-difficulty
+        url: /classes/daily-xp-and-encounter-difficulty/
       - title: "Balancing Short Adventuring Days"
-        url: /classes/short-adventuring-days
+        url: /classes/short-adventuring-days/
   - title: "Monk"
     children:
       - title: "Stunning Strike"
-        url: /classes/stunning-strike
+        url: /classes/stunning-strike/
 
 theory:
   - title: "General"
     children:
       - title: "Effective HP and Damage"
-        url: /theory/effective-hp-and-damage
+        url: /theory/effective-hp-and-damage/
       - title: "Rounds of Combat Per Day"
-        url: /theory/rounds-per-day
+        url: /theory/rounds-per-day/
       - title: "Valuing Conditions"
-        url: /theory/valuing-conditions
+        url: /theory/valuing-conditions/
   - title: "Encounter Math"
     children:
       - title: "XP and Encounter Balancing"
-        url: /theory/xp-and-encounter-balancing
+        url: /theory/xp-and-encounter-balancing/
       - title: "Encounter Multiplier: part 1"
-        url: /theory/encounter-multiplier-p1
+        url: /theory/encounter-multiplier-p1/
       - title: "Encounter Multiplier: part 2"
-        url: /theory/encounter-multiplier-p2
+        url: /theory/encounter-multiplier-p2/
       - title: "Encounter Building in Pathfinder vs D&D"
-        url: /theory/xp-dnd-vs-pathfinder
+        url: /theory/xp-dnd-vs-pathfinder/
+      - title: "Encounter Building in Xanathar's Guide to Everything"
+        url: /theory/xgte-encounter-building/
