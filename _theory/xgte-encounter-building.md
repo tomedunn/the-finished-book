@@ -19,11 +19,11 @@ In addition to providing player character (PC) options, such as spells and subcl
 
 Since I've already covered, quite extensively, how the rules for [building combat encounters](https://tomedunn.github.io/the-finished-book/theory/xp-and-encounter-balancing/) in the _Basic Rules_ work, this alternative system presents a unique opportunity to further our understanding of that system.
 
-In this post, I explore the math behind these alternative encounter building rules and compare them to those presented in the _Basic Rules_, first for solo monster encounters and then for encounters with multiple monsters. I've omitted a lot of the specifics from the _XGtE_ rules (though, I do link to them on D&D Beyond), but I do provide the math needed to reproduce those tables for those who would like to use them but don't have access to the book.
+In this post, I explore the math behind these alternative encounter building rules and compare them to those presented in the _Basic Rules_, first for solo monster encounters and then for encounters with multiple monsters. I've omitted a lot of the specifics from the _XGtE_ rules (though, I do link to them on D&D Beyond), but I cover the math needed to reproduce the tables used by them for anyone who would like to use them but doesn't have access to the book.
 
 # Solo monsters
 
-For encounters with only a single monster, the [Solo Monster Challenge Rating](https://www.dndbeyond.com/sources/xgte/dungeon-masters-tools#SoloMonsterChallengeRating) table from _XGtE_ shows what challenge rating (CR) a monster should be for a group of 4-6 PCs of a given level in order to have a "satisfying but difficult battle". 
+For encounters with only a single monster, the [Solo Monster Challenge Rating](https://www.dndbeyond.com/sources/xgte/dungeon-masters-tools#SoloMonsterChallengeRating) table from _XGtE_ shows what challenge rating (CR) a monster should be to act as a "satisfying but difficult battle" for a group of 4-6 PCs of a given level. 
 
 Building encounters with a single monster against a group of four or more PCs is well within the capabilities of the encounter building rules in the _Basic Rules_. So this section is less an alternative way of building encounters, and more a collection of pre-calculated encounters. What isn't entirely clear, though, is what the _XGtE_ rules mean by a "satisfying but difficult battle".
 
@@ -53,7 +53,7 @@ For easier encounters, the rules suggest decreasing the monster's CR by 3 or mor
 
 These rules should work well for building solo monster encounters that fall into the Medium, Hard, or Deadly difficulty categories. Though, they appear to work best when the PCs are level 6 or higher. Of course, it's worth pointing out that these rules were designed to work with legendary monsters, and there aren't that many at low CRs, making it hard to build solo monster encounters below 6th level without building your own monsters. 
 
-In principle, a legendary monster and a non-legndary one of the same CR are equally dangerous. So these rules can be extended to non-legendary monsters. However, legendary monsters often have their damage spread out over a larger number of attacks, which makes them more predictable, and less likely to unexpectedly kill a PC in a single hit.
+In principle, a legendary monster and a non-legendary one of the same CR are equally dangerous. So these rules can be extended to non-legendary monsters. However, legendary monsters often have their damage spread out over a larger number of attacks, which makes them more predictable, and less likely to unexpectedly kill a PC in a single hit.
 
 # Multiple monsters
 
@@ -86,7 +86,7 @@ Applying these substitutions, the equation for converting a PC into a group of e
 \end{equation}
 While the rules don't explicitly say what difficulty they are built around (i.e., what value of $$\XP_{\thresh}$$ to use), given the results of the previous section, the Hard XP threshold $$(\XP_{\mathrm{Hard}})$$ seems like a natural choice.
 
-To test this, Fig. <a href="#fig:multi-monster-ratios" class="fig-ref">4</a> (below) compares the monster conversion ratios calculated from Eqn. \eqref{eq:n-npcs}, where $$\XP_{\thresh} = \XP_{\mathrm{Hard}}$$, with the values given in _XGtE_. The results follow the expected trend, and rounding to the nearest whole number ratio reproduces the tables in _XGtE_ almost exactly. Thus, confirming the _XGtE_ encounter building rules are built around creating Hard encounters.
+To test this, Fig. <a href="#fig:multi-monster-ratios" class="fig-ref">4</a> (below) compares the monster conversion ratios calculated from Eqn. \eqref{eq:n-npcs}, where $$\XP_{\thresh} = \XP_{\mathrm{Hard}}$$, with the values given in _XGtE_. The results follow the expected trend, and rounding to the nearest whole number ratio reproduces the tables in _XGtE_ almost exactly. This confirms that that multiple monster encounter building rules in _XGtE_ are also built around creating Hard encounters.
 
 <figure id="fig:multi-monster-ratios">
     {% include_relative xgte-encounter-building/fig-multi-monster-ratios-small.html %}
@@ -94,7 +94,7 @@ To test this, Fig. <a href="#fig:multi-monster-ratios" class="fig-ref">4</a> (be
     <figcaption>Figure 4: Plots monster conversions given by Eqn. \eqref{eq:n-npcs} with \(\XP_{\thresh} = \XP_{\mathrm{Hard}}\) against values given in the <a href="https://www.dndbeyond.com/sources/xgte/dungeon-masters-tools#MultipleMonsters1st5thLevel">Multiple Monsters</a> tables in <em>XGtE</em>.</figcaption>
 </figure>
 
-The _XGtE_ rules also include guidelines for building encounters that are easier or harder than this default Hard difficulty. For easier encounters, they recommend treating the party as $$1/3$$ smaller, and for harder encounters treating the party as $$50\%$$ larger. This are fitting adjustments because, as Fig. <a href="#fig:xp-threshold-ratios" class="fig-ref">5</a> shows (below) the Medium XP threshold is generally $$1/3$$ smaller than the Hard XP threshold, and the Deadly XP threshold is generally $$50\%$$ higher than the Hard XP threshold. Meaning, these adjustments are designed to create Medium and Deadly encounters respectively.
+The multiple monster encounter building rules also include guidelines for building encounters that are easier or harder than this default Hard difficulty. For easier encounters, they recommend treating the party as $$1/3$$ smaller, and for harder encounters treating the party as $$50\%$$ larger. This are fitting adjustments because, as Fig. <a href="#fig:xp-threshold-ratios" class="fig-ref">5</a> shows (below) the Medium XP threshold is generally $$1/3$$ smaller than the Hard XP threshold, and the Deadly XP threshold is generally $$50\%$$ higher than the Hard XP threshold. Meaning, these adjustments are designed to create Medium and Deadly encounters respectively.
 
 <figure id="fig:xp-threshold-ratios">
     {% include_relative xgte-encounter-building/fig-xp-threshold-ratios-small.html %}
@@ -118,10 +118,12 @@ To understand how the multiple monster rules in _XGtE_ get away with not includi
 
 For encounters with 2-10 monsters, the maximum error in encounter $$\XP$$ incurred by ommiting the new $$\EM\,$$ is only $$25\%$$, which is considerably smaller than the maximum error of $$60\%$$ incurred for ignoring the $$\EM$$ when building encounters in the _Basic Rules_. 
 
-To put these values in perspective, recall from Fig. <a href="#fig:xp-threshold-ratios" class="fig-ref">5</a> that the Deadly XP threshold is typically  $$50\%$$ higher than the Hard XP threshold. So, while ignoring the $$\EM\,$$ in the _Basic Rules_ encounter building rules can potentially misjudge an encounter's difficulty by a full category, this is unlikely to be the case using the _XGtE_ rules.
+To put these values in perspective, recall from Fig. <a href="#fig:xp-threshold-ratios" class="fig-ref">5</a> that the Deadly XP threshold is typically  $$50\%$$ higher than the Hard XP threshold. So, while ignoring the $$\EM\,$$ in the _Basic Rules_ encounter building rules can potentially misjudge an encounter's difficulty by a full category, this is unlikely to be the case using the rules in _XGtE_.
 
 # Conclusion
 
-To conclude, the alternative encounter building rules presented in _XGtE_ are indeed based on the same math as the rules in the _Basic Rules_ are. The tables for building solo monster encounters and multiple monster encounters are both aimed at producing encounters right at the Hard XP threshold, and the guidance for creating easier or more challenging encounters are aimed at the Medium and Deadly encounter XP thresholds respectively. The ability for these rules to operate without an encounter multiplier rests in how they re-center the math around one monster per PC, rather than one monster per party of four.
+To conclude, the alternative encounter building rules presented in _XGtE_ are indeed based on the same math used in the _Basic Rules_. The tables for building solo monster encounters and multiple monster encounters are both aimed at producing encounters right at the Hard XP threshold, and the guidance for creating easier or more challenging encounters are aimed at the Medium and Deadly encounter XP thresholds respectively. 
 
-Given they both are based on the same underlying math, these two systems for building encounters should give very similar results. Which means, whether or not the _XGtE_ rules work better than those in the _Basic Rules_ will mostly depend on what system you prefer to work with. 
+The ability for these rules to operate without an encounter multiplier rests in how they re-center the math around one monster per PC, rather than one monster per party of four, which reduces the overall impact of the encounter multiplier over a wide range of encounter sizes. Removing the encounter multiplier also remove the potential for DMs, as well as online encounter calculators, to apply it incorrect; an extremely common problem in my experience.
+
+Given that both are based on the same underlying math, these two systems for building encounters should give very similar results. Which means, whether or not the _XGtE_ rules work better than those in the _Basic Rules_ will mostly depend on what system you prefer to work with. 
