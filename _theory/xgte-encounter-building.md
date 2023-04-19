@@ -2,7 +2,7 @@
 title: "Encounter Building in Xanathar's Guide to Everything"
 excerpt: "A comparison of the encounter building rules in XGtE and the DMG."
 date: 2023-4-18
-last_modified_at: 2023-4-18
+last_modified_at: 2023-4-19
 #tags:
 #  - theory
 #  - monsters
@@ -91,7 +91,7 @@ To test this, Fig. <a href="#fig:multi-monster-ratios" class="fig-ref">4</a> (be
 <figure id="fig:multi-monster-ratios">
     {% include_relative xgte-encounter-building/fig-multi-monster-ratios-small.html %}
     {% include_relative xgte-encounter-building/fig-multi-monster-ratios-large.html %}
-    <figcaption>Figure 4: Plots monster conversions given by Eqn. \eqref{eq:n-npcs} with \(\XP_{\thresh} = \XP_{\mathrm{Hard}}\) against values given in the <a href="https://www.dndbeyond.com/sources/xgte/dungeon-masters-tools#MultipleMonsters1st5thLevel">Multiple Monsters</a> tables in <em>XGtE</em>.</figcaption>
+    <figcaption>Figure 4: Plots monster conversion ratios given by Eqn. \eqref{eq:n-npcs} with \(\XP_{\thresh} = \XP_{\mathrm{Hard}}\) against values given in the <a href="https://www.dndbeyond.com/sources/xgte/dungeon-masters-tools#MultipleMonsters1st5thLevel">Multiple Monsters</a> tables in <em>XGtE</em>. A ratio of 1:5 indicates 1 PC is balanced by 5 monsters, and a ratio of 2:1 indicates 2 PCs are balanced by 1 monster.</figcaption>
 </figure>
 
 The multiple monster encounter building rules also include guidelines for building encounters that are easier or harder than this default Hard difficulty. For easier encounters, they recommend treating the party as $$1/3$$ smaller, and for harder encounters treating the party as $$50\%$$ larger. This are fitting adjustments because, as Fig. <a href="#fig:xp-threshold-ratios" class="fig-ref">5</a> shows (below) the Medium XP threshold is generally $$1/3$$ smaller than the Hard XP threshold, and the Deadly XP threshold is generally $$50\%$$ higher than the Hard XP threshold. Meaning, these adjustments are designed to create Medium and Deadly encounters respectively.
