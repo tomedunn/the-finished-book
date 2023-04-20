@@ -151,22 +151,6 @@ By defining a reference XP value for the PCs at each level $$(\XP_{\PC})$$ that'
 \end{align}
 for $$\d\,$$, and then comparing it against fixed values of $$\XP_{\thresh} / \XP_{\PC}$$ for each $$\diff$$ to determine an encounter's difficulty.
 
-<!--
-for $$\d\,$$, and then comparing it against fixed values of $$\XP_{\thresh} / \XP_{\PC}$$ for each $$\diff$$, 
-\begin{align}
-    %\XP_{\thresh} \left(\LV, \diff \,\right) = \d \left( \diff \,\right) \cdot \XP_{\PC} \left(\LV \right)\,, \label{eq:xp-thresh-xp-pc}
-    \d \left( \diff \,\right) = \frac{ \XP_{\thresh} \left(\LV, \diff \,\right) }{ \XP_{\PC} \left(\LV \right) }\,, \label{eq:xp-thresh-xp-pc}
-\end{align}
-to determine an encounter's difficulty.
--->
-
-<!--
-Here, $$\XPtot_{\PCs}$$ is calculated by adding up the values for each individual PC,
-\begin{align}
-    \XPtot_{\PCs} = \sum_{i=1}^{N_{\PC}} \XP_{\PC} \left(\LV_{i}\right)\,. \label{eq:xp-pcs-total-dmg}
-\end{align}
--->
-
 For example, using the Easy difficulty category as our reference, $$\XP_{\PC} = \XP_{\thresh}(\mathrm{Easy})$$, would yield $$\d = 1.0$$ for Easy encounters, $$\d = 2.0$$ for Medium encounters, $$\d = 3.0$$ for Hard encounters, and $$\d = 4.5$$ for Deadly encounters.
 
 Replacing $$\XPtot_{\PCs}$$ and $$\XPtot_{\NPCs}$$ with their full summations, Eqn. \eqref{eq:encounter-balance-equation-dmg} becomes
@@ -176,58 +160,9 @@ Replacing $$\XPtot_{\PCs}$$ and $$\XPtot_{\NPCs}$$ with their full summations, E
 \end{align}
 which will prove useful in the derivation that follows in the next section.
 
-<!--
-\begin{align}
-    \sum_{i=1}^{N_{\PC}} \PXP \left(\LV\_{i}, \diff\,\right) \leq \EM\left(N_{\PC}, N_{\NPC}\right) \cdot \sum_{i=1}^{N_{\NPC}} \NXP \left(\CR\_{i}\,\right) \,.
-    \label{eq:encounter-balance-equation-dmg-inequality-full}
-\end{align}
--->
-
-<!--
-Before jumping into the [derivation](#derivation), let's review how an encounter's difficulty is determined in chapter 13 of the _Basic Rules_. 
-
-The first step in the process is to calculate the party's XP thresholds, $$\XPtot_{\PCs}$$, which are used to determine whether an encounter is Easy, Medium, Hard, or Deadly. This is done by adding up the individual XP thresholds for each PC, $$\PXP$$, which depend on the PC's level as described in the [XP Thresholds by Character Level](https://www.dndbeyond.com/sources/basic-rules/building-combat-encounters#XPThresholdsbyCharacterLevel) table from chapter 13 of the _Basic Rules_. For a party with $$N_{\PC}$$ PCs this can be expressed as
-
-\begin{align}
-    \XPtot_{\PCs}\left(\diff\,\right) = \sum_{i=1}^{N_{\PC}} \PXP \left(\LV\_{i}, \diff\,\right)\,, \label{eq:xp-threshold-total-dmg}
-\end{align}
-
-where $$\diff$$ represents the difficulty threshold being targeted, and $$\LV$$ represents a PC's level.
-
-The next step is to calculate the total XP for NPCs in the encounter, $$\XPtot_{ \NPCs}$$, by adding up the individual XP values for each of the enemy NPCs, $$\NXP$$, which depend on the monster challenge rating as described in the [Experience Points by Challenge Rating](https://www.dndbeyond.com/sources/basic-rules/monsters#ExperiencePointsbyChallengeRating) table in chapter 12 of the _Basic Rules_. For an encounter with $$N_{ \NPC}$$ NPCs this can be expressed as
-
-\begin{align}
-    \XPtot_{\NPCs} = \sum_{i=1}^{N_{\NPC}} \NXP \left(\CR\_{i}\,\right)\,, \label{eq:xp-total-dmg}
-\end{align}
-
-where $$\CR$$ represents an enemy NPC's challenge rating.
-
-The total XP for the NPCs is then adjusted by applying an encounter multiplier, $$\EM$$, that depends on the number of PCs, $$N_{ \PC}$$, and enemy NPCs, $$N_{ \NPC}$$, in the encounter,
-
-\begin{align}
-    \aXPtot_{\NPCs} = \EM\left(N_{\PC}, N_{\NPC}\right) \cdot \XPtot_{\NPCs}\,. \label{eq:adjusted-xp-total-dmg}
-\end{align}
-
-This new total is referred to as the adjusted XP total, and it is compared against the different XP thresholds for the PCs to determine the encounter's difficulty.
-
-Putting this all together, determining an encounter's difficulty can be expressed as an attempt to balance the following equation,
-
-\begin{align}
-    \sum_{i=1}^{N_{\PC}} \PXP \left(L\_{i}, \diff\,\right) = \EM\left(N_{\PC}, N_{\NPC}\right) \cdot \sum_{i=1}^{N_{\NPC}} \NXP \left(\CR\_{i}\,\right)\,. \label{eq:encounter-balance-equation-dmg}
-\end{align}
-
-Normally, the difficulty for the encounter corresponds to the highest XP threshold for the PCs that is still lower than the RHS of Eqn. \eqref{eq:encounter-balance-equation-dmg}. This makes the equality in that equation a bit questionable. However, since the difficulty XP thresholds come as nearly fixed ratios of one another, as shown in Fig. <a href="#fig:pc-xp-thresholds-vs-level" class="fig-ref">1</a> (below), $$\diff\,$$ can be treated as a continuous variable while balancing Eqn. \eqref{eq:encounter-balance-equation-dmg}, and then compared against the actual difficulty threshold values to determine the final difficulty.
-
-<figure id="fig:pc-xp-thresholds-vs-level">
-    {% include_relative xp-and-encounter-balancing/fig-pc-xp-thresholds-vs-level-small.html %}
-    {% include_relative xp-and-encounter-balancing/fig-pc-xp-thresholds-vs-level-large.html %}
-    <figcaption>Figure 1: Plots PC XP thresholds divided by the Easy difficulty XP threshold, taken from the <a href="https://www.dndbeyond.com/sources/basic-rules/building-combat-encounters#XPThresholdsbyCharacterLevel">XP Threshold by Character Level</a> table in chapter 13 of the <i>Basic Rules</i>. The average ratio for each threshold is 1.0 for Easy, 2.0 for Medium, 3.0 for Hard, and 4.5 for Deadly encounters.</figcaption>
-</figure>
--->
-
 # Derivation
 
-Reading through the descriptions for the game's four difficulty categories, it's clear that as encounter difficulty increases the party will take more damage and be forced to use more resources as a result. Because each class uses resources differently, it can be hard to quantify them in an absolute sense. Damage, on the other hand, is relatively easy to quantify.
+Reading through the descriptions for the game's four difficulty categories, it's clear that as encounter difficulty increases the party will take more damage and be forced to use more resources as a result. Because each class uses resources differently, it can be hard to quantify them in an absolute sense. Damage, on the other hand, is relatively easy to quantify. So, **for this derivation,lets use damage dealt to the PCs to define encounter difficulty**.
 
 Thinking about encounter difficulty in terms of damage is convenient in that it gives us a hard range for how far we can push when challenging the PCs. If we think about the party as having some amount of effective hit points $$(\eHPtot_{\PCs})$$ then we'll want to keep the amount of effective damage dealt by the enemy NPCs $$(\eDtot_{\NPCs})$$ between
 \begin{align}
@@ -239,11 +174,16 @@ If we divide each term in Eqn. \eqref{eq:effective-damage-inequality} by $$\eHPt
 \begin{align}
     0 \lt \d \lt 1\,, \label{eq:effective-difficulty-inequality}
 \end{align}
-where $$\d$$ represents the encounter's difficulty and must satisfy the following equation,
+where $$\d$$ represents the encounter's difficulty and must satisfy the following "difficulty" equation,
 \begin{align}
     \d \cdot \eHPtot_{\PCs} = \eDtot_{\NPCs}\,. 
     \label{eq:difficulty-definition}
 \end{align}
+
+<!--
+where $$\d$$ represents the amount of damage the PCs are expected to take relative to their maximum health as well as the difficulty of the encounter.
+-->
+
 This is similar in form to Eqn. \eqref{eq:encounter-balance-equation-dmg} in an abstract sense, but it's not especially useful because, while $$\eHPtot_{\PCs}$$ is an easily calculable quantity, $$\eDtot_{\NPCs}$$ is not. To fix this, we want to rewrite Eqn. \eqref{eq:difficulty-definition} entirely in terms of effective hit points $$(\eHP\,)$$ and effective damage per round $$(\eDPR\,)$$, since both can be calculated fairly easily from a PC's character sheet or a NPC's stat block. 
 
 We can do this by noting $$\eDtot_{\NPCs}$$ can be calculated from the total effective damage per round of the enemy NPCs $$(\eDPRtot_{\NPCs})$$ and the number of rounds it takes the enemy NPCs to be defeated by the PCs $$(\rounds_{\NPC})$$,
@@ -276,7 +216,7 @@ Using these to write out Eqn. \eqref{eq:effective-difficulty-eq} in full detail 
 \end{align}
 where, unlike Eqn. \eqref{eq:encounter-balance-equation-full-dmg}, each side contains a double summation rather than a single one.
 
-To help gain some insight into how Eqn. \eqref{eq:effective-difficulty-eq-full} maps to Eqn. \eqref{eq:encounter-balance-equation-full-dmg}, lets consider the simple example of an encounter with $$N_{\PCs}$$ identical PCs and $$N_{\NPCs}$$ identical enemy NPCs. Applying these conditions to Eqn. \eqref{eq:effective-difficulty-eq-full}, and performing only one of the summations on each side of the equation, yields
+To help gain some insight into how Eqn. \eqref{eq:effective-difficulty-eq-full} maps to Eqn. \eqref{eq:encounter-balance-equation-full-dmg}, consider the simple example of an encounter with $$N_{\PCs}$$ identical PCs and $$N_{\NPCs}$$ identical enemy NPCs. Applying these conditions to Eqn. \eqref{eq:effective-difficulty-eq-full}, and performing only one of the summations on each side of the equation, yields
 \begin{equation}
     \d \cdot \sum_{i = 1}^{N_{\PC}} \eHP_{\PC_{i}} \cdot \eDPR_{\PC_{i}} = \frac{ N_{\NPCs} }{ N_{\PCs} } \sum_{i = 1}^{N_{\NPC}} \eHP_{\NPC_{i}} \cdot \eDPR_{\NPC_{i}}\,.
     \label{eq:effective-difficulty-eq-simple}
@@ -294,67 +234,6 @@ The factor of $$4$$ in the encounter multiplier in Eqn. \eqref{eq:em-example}, a
 The implication of Eqns. \eqref{eq:xp-pc} and \eqref{eq:xp-npc}, that XP is the product of a creature's effective hit points and effective damage per round, is quite profound. Not only does it give us a direct way of calculating a creature's XP, independent of the CR calculations in the DMG, it also means a creature's XP can be thought of as a measure for how much damage they can be expected to do in the time it takes them to be defeated.
 
 This is a great first step towards understanding how the game's encounter balancing rules work, but more work is needed. In the section that follows, [Calculating XP](#calculating-xp), I compare the XP values given by Eqn. \eqref{eq:xp-npc} to those assigned to each CR using monster stats from the the DMG. And, in the section after that, [Encounter Multiplier](#encounter-multiplier), I take a deeper look at how the encounter multiplier can be determined for encounters beyond our simple example, as well as how to fully understand the meaning of Eqn. \eqref{eq:effective-difficulty-eq-full}.
-
-
-
-<!--
-Just like in my previous post, [Effective HP and Damage]({{ site.url }}{{ site.baseurl }}{% link _theory/effective-hp-and-damage.md %}), let's start with the equation for a measurable quantity to base this derivation on. Specifically, the number of rounds it takes for either the PCs or enemy NPCs to win a combat encounter. The rounds to win $$(\RTW\,)$$ can be calculated by dividing the effective hit points $$(\eHP\,)$$ of one side by the effective damage per round $$(\eDPR)$$ of the other,
-
-\begin{align}
-    \PRTW &= \frac{\sum \NeHP}{\sum \PeDPR}\,, \label{eq:rounds-to-win-full-PCs} \\\\ 
-    \NRTW &= \frac{\sum \PeHP}{\sum \NeDPR}\,, \label{eq:rounds-to-win-full-NPCs}
-\end{align}
-
-where $$\sum$$ denotes a summation over all PCs (NPCs) in the encounter.
-
-The difficulty of a combat encounter can be expressed in terms of the number of rounds it takes each side to win as either a difference or a ratio. For this derivation, I'll focus on the later and express the encounter difficulty as
-
-\begin{equation}
-    \diff =\frac{\PRTW}{\NRTW}\,.
-    \label{eq:difficulty}
-\end{equation}
-For easy encounters $$\diff \ll 1$$ (i.e., the PCs win well before the NPC have a chance to), while for deadly encounters $$\diff \simeq 1$$ (i.e., each side wins in a similar number of rounds).
-
-Inserting Eqns. \eqref{eq:rounds-to-win-full-PCs} and \eqref{eq:rounds-to-win-full-NPCs} into Eqn. \eqref{eq:difficulty} yields 
-\begin{equation}
-    \diff =\frac{\left( \sum \NeHP \right) \cdot \left( \sum \NeDPR \right)}{\left( \sum \PeHP \right) \cdot \left( \sum \PeDPR \right)}\,.
-    \label{eq:difficulty-ratio}
-\end{equation}
-This can also be rearranged in the following way, 
-\begin{equation}
-    \diff \cdot \left( \sum \PeHP \right) \cdot \left( \sum \PeDPR \right) = \left( \sum \NeHP \right) \cdot \left( \sum \NeDPR \right)\,,
-    \label{eq:difficulty-experience}
-\end{equation}
-which moves all of the PC related terms to the LHS of the equation and all of the NPC related terms to the RHS.
--->
-
-<!--
-Finally, multiplying out the terms on each side of the equation gives,
-\begin{equation}
-    \diff \cdot \sum_{i,j} \eHP\_{\,\PC\_{i}} \cdot \eDPR\_{\,\PC\_{j}} = \sum_{i,j} \eHP\_{\,\NPC\_{i}} \cdot \eDPR\_{\,\NPC\_{j}}\,.
-    \label{eq:difficulty-experience-final}
-\end{equation}
--->
-
-<!--
-At this point, Eqn. \eqref{eq:difficulty-experience} is starting to look like Eqn. \eqref{eq:encounter-balance-equation-dmg} but is still far to complicated to be of any practical use. To simplify things, lets see how things play out for an encounter consisting of $$N$$ identical PCs and $$M$$ identical NPCs.  Under these conditions, Eqn. \eqref{eq:difficulty-experience} simplifies to 
-\begin{equation}
-    \diff \cdot N^{2} \cdot \PeHP \cdot \PeDPR = M^{2}\cdot \NeHP \cdot \NeDPR\,.
-    \label{eq:difficulty-experience-simple}
-\end{equation}
-
-This simplifies the equation considerably, and Eqn. \eqref{eq:difficulty-experience-simple} can easily be rewritten to match the form of Eqn. \eqref{eq:encounter-balance-equation-dmg} via the following relationships:
-
-\begin{gather}
-    \PXP(L, \diff\,)  = \diff \cdot \PeHP(L) \cdot \PeDPR(L)\,, \label{eq:experience-PC} \\\\ 
-    \NXP(\CR\,)       = \frac{1}{4}\NeHP(\CR\,) \cdot \NeDPR(\CR\,)\,, \label{eq:experience-NPC} \\\\ 
-    \EM(N, M)         = \frac{4\,M}{N}\,. \label{eq:encounter-multiplier-full}
-\end{gather}
-
-The factor of $$4$$ in the encounter multiplier in Eqn. \eqref{eq:encounter-multiplier-full}, as well as the factor of $$1/4$$ in $$\NXP$$ in Eqn. \eqref{eq:experience-NPC}, comes from the observation that the DMG assigns an encounter multiplier of one for encounters with four PCs and one NPC, i.e., $$\EM(4, 1) = 1$$, rather than $$1 / 4$$ as expected. While this choice may appear arbitrary at first, it makes sense in the context of monster CR being defined relative of a party of four PCs.
-
-The implication of Eqns. \eqref{eq:experience-PC} and \eqref{eq:experience-NPC}, that XP is the product of a creature's effective hit points and effective damage per round, is quite profound. Not only does it give us a direct way of calculating a creature's XP that's independent of the CR calculations in the DMG, it also means XP can be thought of as a measure for how much damage a creature will likely do in the time it takes it's enemy to defeat it.
--->
 
 # Calculating XP
 
@@ -403,13 +282,6 @@ The diagonal terms in Eqn. \eqref{eq:effective-difficulty-xp}, when $$i = j$$, a
 
 To understand this better, consider the diagram in Fig. <a href="#fig:xp-encounter-diagram" class="fig-ref">3</a> (below), which gives a graphical representation of the right-hand side of Eqn. \eqref{eq:effective-difficulty-xp} for an encounter with three enemy NPCs.
 
-<!--
-<figure id="fig:xp-encounter-diagram">
-    <img src="{{ site.url }}{{ site.baseurl }}/theory/xp-and-encounter-balancing/fig-xp-encounter-diagram.svg" style="width:700px;min-width:50%;max-width:100%">
-    <figcaption>Figure 3: Graphical representation of the RHS of Eqn. \eqref{eq:effective-difficulty-xp} for and encounter with three NPCs.</figcaption>
-</figure>
--->
-
 <figure id="fig:xp-encounter-diagram">
     {% include_relative xp-and-encounter-balancing/fig-xp-encounter-diagram-small.html %}
     {% include_relative xp-and-encounter-balancing/fig-xp-encounter-diagram-large.html %}
@@ -444,40 +316,14 @@ Rearranging Eqn. \eqref{eq:difficulty-xp-weighted} into the same form as Eqn. \e
 \end{equation}
 where
 \begin{equation}
-    %\XP^{\,\weighted} = \sum_{i,j = 1}^{N} \W\_{ij} \cdot \XP\_{ij}
     \XP^{\,\weighted} = \sum_{i,j = 1}^{N} \W_{ij} \cdot \XP_{ij}
-    %\XP\_{\NPCs/\PCs}^{\,\weighted} = \sum\_{i,j = 1}^{N\_{\NPCs/\PCs}} \W\_{ij} \cdot \XP\_{ij}
 \end{equation}
 is the total weighted XP of the NPCs or PCs in the encounter.
-
-<!--
-\begin{equation}
-    \EM = \left( 
-        \frac{ \sum_{i,j = 1}^{N_{\NPCs}} \W_{\NPC_{ij}} \cdot \XP_{\NPC_{ij}} }{ \sum_{i = 1}^{N_{\NPCs}} \XP_{\NPC_{i}} } 
-    \right) 
-    \cdot \left( 
-        \frac{ 4\,\sum_{i = 1}^{N_{\PCs}} \XP_{\PC_{i}} }{ \sum_{i,j = 1}^{N_{\PCs}} \W_{\PC_{ij}} \cdot \XP_{\PC_{ij}} }
-    \right) \,.
-    \label{eq:encounter-multiplier-weighted}
-\end{equation}
--->
-
-<!--
-\begin{equation}
-    \EM = \left( 
-        \frac{ \sum\limits_{i,j = 1}^{N_{\NPCs}} \W_{\NPC_{ij}} \cdot \XP_{\NPC_{ij}} }{ \sum\limits_{i = 1}^{N_{\NPCs}} \XP_{\NPC_{i}} } 
-    \right) 
-    \cdot \left( 
-        \frac{ 4\,\sum\limits_{i = 1}^{N_{\PCs}} \XP_{\PC_{i}} }{ \sum\limits_{i,j = 1}^{N_{\PCs}} \W_{\PC_{ij}} \cdot \XP_{\PC_{ij}} }
-    \right) \,.
-    \label{eq:encounter-multiplier-weighted}
-\end{equation}
--->
 
 At this point, Eqn. \eqref{eq:encounter-multiplier-weighted} probably looks like an incomprehensible mess, and it definitely is, but things can be simplified considerably by making some key assumptions about how the PCs and NPCs choose to engage each other. This is a complex topic that requires much more time and consideration that I can easily fit into this post. For a full detailed discussion of the encounter multiplier, see [Calculating the Encounter Multiplier: part 1]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier-p1.md %}).
 
 # Conclusion
 
-To summarize, both XP and the encounter multiplier arise as natural consequences of encounter balancing. XP can be calculated directly from the product of a creature's effective hit points and effective damage per round, as shown in Eqns. \eqref{eq:experience-PC-linear} and \eqref{eq:experience-NPC-linear}, and can be thought of as representing the amount of damage a creature is expected to do in the time it takes them to be defeated. And, the encounter multiplier estimates the additional XP for encounters with multiple creatures, and represents the extra damage some creatures are able to do while their enemies are busy dealing with their allies.
+To summarize, both XP and the encounter multiplier arise as natural consequences of balancing encounters around the amount of damage the PCs are likely to take relative to their maximum health. XP can be calculated directly from the product of a creature's effective hit points and effective damage per round, as shown in Eqns. \eqref{eq:experience-PC-linear} and \eqref{eq:experience-NPC-linear}, and can be thought of as representing the amount of damage a creature is expected to do in the time it takes them to be defeated. And, the encounter multiplier estimates the additional XP for encounters with multiple creatures, and represents the extra damage some creatures are able to do while their enemies are busy dealing with their allies.
 
 While this covers the key concepts I wanted to touch on for where XP comes from and what the encounter multiplier represents, there is still a lot more to cover on these topics, especially the encounter multiplier, which you can read more about in [Calculating the Encounter Multiplier: part 1]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier-p1.md %}).
