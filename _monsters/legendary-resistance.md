@@ -24,11 +24,11 @@ The "Creating a Monster" section from chapter 9 of the DMG covers how monster CR
 > Each per-day use of this trait increases the monster’s effective hit points based on the expected challenge rating: 1–4, 10 hp; 5–10, 20 hp; 11 or higher, 30 hp.
 
 These hit point values can be converted to effective hit points using the following equation,
-
 \begin{align}
-    \eHP &\approx \frac{1}{\sqrt{0.65}} \cdot \HP \left( 1 + 0.077 \left(\AC - 12\right)\right)\,, \label{eq:effective-hit-points-attack-approx} 
+    %\eHP &\approx \frac{1}{\sqrt{0.65}} \cdot \HP \left( 1 + 0.077 \left(\AC - 12\right)\right)\,, 
+    \eHP &\approx \frac{1}{\sqrt{0.65}} \cdot \HP \left(\frac{\AC - 1 }{ 13 }\right)\,, 
+    \label{eq:effective-hit-points-attack-approx} 
 \end{align}
-
 where $$\HP$$ represents the hit point value of a legendary resistance, and $$\AC$$ is the typical monster armor class values taken from the [Monster Statistics by Challenge Rating](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#MonsterStatisticsbyChallengeRating) table from the same chapter (for a full derivation of Eqn. \eqref{eq:effective-hit-points-attack-approx}, see [Effective HP and Damage]({{ site.url }}{{ site.baseurl }}{% link _theory/effective-hp-and-damage.md %})). The results of this calculation are shown in Fig. <a href="#fig:pcs-encounter-edpr-legendary-resistance-vs-level-medium-adventuring-days" class="fig-ref">1</a> (below).
 
 <figure id="fig:pcs-encounter-edpr-legendary-resistance-vs-level-medium-adventuring-days">

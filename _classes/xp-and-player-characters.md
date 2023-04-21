@@ -20,17 +20,19 @@ In this post, I'd like to rectify this, by calculating XP values for each of the
 
 # Calculating player character XP
 
-As I covered in [XP and Encounter Balancing]({{ site.url }}{{ site.baseurl }}{% link _theory/xp-and-encounter-balancing.md %}), XP values can be calculated for player characters, similarly to how they're calculated for non-player characters, by taking the product of a PC's effective hit points $$(\eHP)$$ and average effective damage per round $$(\eDPR)$$, 
+As I covered in [XP and Encounter Balancing]({{ site.url }}{{ site.baseurl }}{% link _theory/xp-and-encounter-balancing.md %}), XP values can be calculated for player characters, similarly to how they're calculated for non-player characters, by taking the product of a PC's effective hit points $$(\eHP\,)$$ and average effective damage per round $$(\eDPR\,)$$, 
 
 \begin{equation}
-    \label{eq:XP-simple}
     \XP_{\PC} = \eHP \cdot \eDPR\,.
+    \label{eq:XP-simple}
 \end{equation}
 
 The specifics of how $$\eHP$$ and $$\eDPR$$ are calculated are covered in [Effective HP and Damage]({{ site.url }}{{ site.baseurl }}{% link _theory/effective-hp-and-damage.md %}), but for a simple approximation Eqn. \eqref{eq:XP-simple} can be written as,
 
 \begin{equation}
-    \XP_{\PC} = \HP \cdot \DPRhit \left(1 + 0.077\left(\AC + \AB - 15\right)\right)\,, \label{eq:XP-full}
+    %\XP_{\PC} = \HP \cdot \DPRhit \left(1 + 0.077\left(\AC + \AB - 15\right)\right)\,, 
+    \XP_{\PC} = \HP \cdot \DPRhit \left( \frac{\AC + \AB - 2}{13} \right)\,,
+    \label{eq:XP-full}
 \end{equation}
 
 where $$\HP$$ is the PC's average hit points, $$\AC\,$$ is their effective armor class, $$\DPRhit$$ is their average damage per round assuming all attacks hit, and $$\AB\,$$ is their effective attack bonus.
@@ -63,7 +65,8 @@ The number of rounds in an encounter can vary quite a bit for PCs, but we can si
 Across a full adventuring day Eqns. \eqref{eq:AC-encounter} - \eqref{eq:DPR-encounter} can also be used to calculate $$\AC\,$$, $$\AB\,$$, and $$\DPRhit$$, but with $$N_\mathrm{rounds}$$ being the number of rounds in the adventuring day, rather than a single encounter. For calculating $$\HP$$, Eqn. \eqref{eq:HP-encounter} must be modified to also include any healing done outside of combat, such as hit points recovered from hit dice during a short rest. This can be expressed mathematically as
 
 \begin{equation}
-    \HP = \HP_{\mathrm{max}} + \LV \left( \HD + \CON\right) + \sum_{i = 1}^{N_\mathrm{rounds}} \Delta \HP_{\,i} \,, \label{eq:HP-daily}
+    \HP = \HP_{\mathrm{max}} + \LV \left( \HD + \CON\right) + \sum_{i = 1}^{N_\mathrm{rounds}} \Delta \HP_{\,i} \,, 
+    \label{eq:HP-daily}
 \end{equation}
 
 where $$\LV$$ is the PC's level, $$\HD$$ is the average value for their hit die, and $$\CON$$ is their Constitution modifier.

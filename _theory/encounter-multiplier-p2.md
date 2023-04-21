@@ -14,21 +14,12 @@ last_modified_at: 2022-9-8
 <div style="display:none">
 \(
 % other
-\newcommand{\XPtot}{\overline{\XP}}
-\newcommand{\eXPtot}{\mathrm{enc}\,\overline{\XP}}
+\newcommand{\XPwt}{\XP^{\,\weighted}}
+\newcommand{\XPtot}{\XP^{\,\total}}
 \newcommand{\effMT}{\mathit{eff}^{\,\mathrm{MT}}}
-\newcommand{\eDPRMT}{\mathit{eDRT}^\mathrm{\,MT}}
-\newcommand{\eDPRST}{\mathit{eDRT}^\mathrm{\,ST}}
-\newcommand{\eDPTMT}{\mathit{eDPT}^\mathrm{\,MT}}
-\newcommand{\eDPTST}{\mathit{eDPT}^\mathrm{\,ST}}
 \newcommand{\dMT}{\mathit{d}}
 \newcommand{\dMTi}{\dMT_{\mspace{2mu}i}}
 \newcommand{\dMTj}{\dMT_{\mspace{2mu}j}}
-% NPCs
-\newcommand{\NN}{N_\mathrm{N}}
-% PCs
-\newcommand{\NP}{N\_\mathrm{P}}
-\newcommand{\nP}{n\_\mathrm{P}}
 \)
 </div>
 
@@ -41,36 +32,29 @@ In this post, I will be covering the other half of the encounter multiplier by l
 # Calculating the encounter multiplier
 
 From [XP and Encounter Balancing]({{ site.url }}{{ site.baseurl }}{% link _theory/xp-and-encounter-balancing.md %}), the general equation for calculating the encounter multiplier is
-
 \begin{equation}
-    \EM = \left( \frac{ \eXPtot_\mathrm{NPCs} }{ \XPtot_\mathrm{NPCs} } \right) 
-    \cdot \left( \frac{ 4\,\XPtot_\mathrm{PCs} }{ \eXPtot_\mathrm{PCs} } \right) \,,
+    \EM = \left( \frac{ \XPwt_{\NPCs} }{ \XPtot_{\NPCs} } \right) 
+    \cdot \left( \frac{ 4\,\XPtot_{\PCs} }{ \XPwt_{\PCs} } \right) \,,
     \label{eq:encounter-multiplier-short}
 \end{equation}
-
-where $$\XPtot$$ is the total XP for either the PCs or NPCs, and $$\eXPtot$$ is the total encounter XP for either the PCs or NPCs.
+where $$\XPtot$$ is the total XP for either the PCs or NPCs, and $$\XPwt$$ is the weighted XP total for the encounter for either the PCs or NPCs.
 
 Since I covered the first term in Eqn. \eqref{eq:encounter-multiplier-short} in part 1, in this post I'll focus on the second term,
-
 \begin{equation}
-    \EM = \left( \frac{ 4\,\XPtot_\mathrm{PCs} }{ \eXPtot_\mathrm{PCs} } \right) \,,
+    \EM = \left( \frac{ 4\,\XPtot_{\PCs} }{ \XPwt_{\PCs} } \right) \,,
     \label{eq:encounter-multiplier-short-simple}
 \end{equation}
-
-which is what Eqn. \eqref{eq:encounter-multiplier-short} simplifies to for encounters with only a single enemy NPC. The total XP for the PCs, $$\XPtot_\mathrm{PCs}$$, is independent of how the NPCs choose to engage, which means the only term that needs to be considered is the total encounter XP for the PCs, 
-
+which is what Eqn. \eqref{eq:encounter-multiplier-short} simplifies to for encounters with only a single enemy NPC. The total XP for the PCs, $$\XPtot_{\PCs}$$, is independent of how the NPCs choose to engage, which means the only term that needs to be considered is the total encounter XP for the PCs, 
 \begin{align}
-    \eXPtot_\mathrm{PCs} &= \sum_{i,j} \W\_{\,\PC\_{ij}} \cdot \XP\_{\,\PC\_{ij}}\,.
+    \XPwt_{\PCs} &= \sum_{i,j} \W\_{\,\PC\_{ij}} \cdot \XP\_{\,\PC\_{ij}}\,.
     \label{eq:encounter-xp-pcs}
 \end{align}
 
 The XP terms in the summation on the RHS of Eqn. \eqref{eq:encounter-xp-pcs} are calculated from the effective hit points $$(\eHP\,)$$ and the effective damage per round $$(\eDPR\,)$$ of the PCs in the encounter, 
-
 \begin{equation}
-    \XP\_{\,\PC\_{ij}} = \eHP\_{\,\PC\_{i}} \cdot \eDPR\_{\,\PC\_{j}}\,,
+    \XP_{\,\PC_{ij}} = \eHP_{\,\PC_{i}} \cdot \eDPR_{\,\PC_{j}}\,,
     \label{eq:xp-pc}
 \end{equation}
-
 and represents the average damage that PC $$\mathit{j}$$ is capable of doing in the time it takes PC $$\mathit{i}$$ to be defeated. The remaining term, $$\W_{\,\PC}$$, weights each of these XP contributions, and depends on the strategy the NPCs take during the encounter. 
 
 Just as in part 1, the real challenge here comes from determining $$\W_{\,\PC}$$ for each terms in Eqn. \eqref{eq:encounter-xp-pcs}.
@@ -90,23 +74,19 @@ The second difference has to do with how likely the NPCs are to defeat the PCs a
 When calculating the encounter multiplier in part 1, it was assumed that some NPCs would live longer than others, and would therefore contribute more XP to the encounter as a result. This made sense because, in the vast majority of combat encounters, all enemy NPCs are defeated. However, the same can't be said for the PCs.
 
 Since the PCs win nearly all encounters, they survive through most encounters as well. In fact, it's uncommon for a PC to be knocked unconscious during an encounter, and rare for one to be killed or taken out permanently. Going off of the descriptions for the different encounter difficulty categories, it's not until the difficulty reaches Deadly that the likelihood of one or more of the PCs dying in combat becomes significant. This means for most encounters $$\W_{\,\PC_{ij}} = 1$$ and   
-
 \begin{align}
-    \eXPtot_\mathrm{PCs} = \sum_{i,j} \XP\_{\,\PC\_{ij}}\,.
+    \XPwt_{\PCs} = \sum_{i,j} \XP\_{\,\PC\_{ij}}\,.
     \label{eq:encounter-xp-pcs-simple}
 \end{align}
 
 For PCs who are all the same level, i.e., identical PCs,
-
 \begin{align}
-    \eXPtot_\mathrm{PCs} = N^2 \cdot \XP\_{\,\PC}\left(\mathit{L}\right)\,,
+    \XPwt_{\PCs} = N^2 \cdot \XP\_{\,\PC}\left(\LV\right)\,,
     \label{eq:encounter-xp-pcs-simple-identical}
 \end{align}
-
-where $$\mathit{L}$$ is the PCs' level. When put into Eqn. \eqref{eq:encounter-multiplier-short-simple}, this gives an encounter multiplier of
-
+where $$\LV$$ is the PCs' level. When put into Eqn. \eqref{eq:encounter-multiplier-short-simple}, this gives an encounter multiplier of
 \begin{align}
-    %\EM &= 4 \left( \frac{ N \cdot \XP\_{\,\PC}\left(\mathit{L}\right) }{ N^2 \cdot \XP\_{\,\PC}\left(\mathit{L}\right) } \right) \nonumber \\\\ 
+    %\EM &= 4 \left( \frac{ N \cdot \XP\_{\,\PC}\left(\LV\right) }{ N^2 \cdot \XP\_{\,\PC}\left(\LV\right) } \right) \nonumber \\\\ 
     %    &= \frac{ 4 }{ N }\,.
     \EM &= \frac{ 4 }{ N }\,.
     \label{eq:encounter-multiplier-short-identical}
@@ -127,7 +107,7 @@ Given the way the DMG adjusts the encounter multiplier for the number of PCs, th
 
 In other words, given the sheer simplicity of how the DMG chooses to adjust the encounter multiplier to account for different numbers of PCs, there are bound to be large inaccuracies in the values it gives for group sizes outside the range it explicitly covers.
 
-For encounters with only one PC and one NPC there is no need to consider single or multi-target strategies, or make approximations. The total encounter XP is always equal to the individual XP for each side, i.e., $$\eXPtot_\mathrm{PCs} = \XP_{\mathrm{PC}_1}$$ and $$\eXPtot_\mathrm{NPCs} = \XP_{\mathrm{NPC}_1}$$. The encounter multiplier given by Eqn. \eqref{eq:encounter-multiplier-short} for these encounters is simply $$\EM = 4$$, which is nearly three times larger than the value of $$1.5$$ given by the DMG.
+For encounters with only one PC and one NPC there is no need to consider single or multi-target strategies, or make approximations. The total encounter XP is always equal to the individual XP for each side, i.e., $$\XPwt_{\PCs} = \XP_{\PC_1}$$ and $$\XPwt_{\NPCs} = \XP_{\NPC_1}$$. The encounter multiplier given by Eqn. \eqref{eq:encounter-multiplier-short} for these encounters is simply $$\EM = 4$$, which is nearly three times larger than the value of $$1.5$$ given by the DMG.
 
 Of course, one could argue that the factor of 4 in Eqn. \eqref{eq:encounter-multiplier-short-identical} might simply be incorrect, but given how well that same factor worked for [Calculating Monster XP]({{ site.url }}{{ site.baseurl }}{% link _monsters/calculating-monster-xp.md %}) this is unlikely to be the case. 
 
@@ -138,7 +118,6 @@ The assumption that none of the PCs are defeated during an encounter works well 
 Taking the results from the "Single target strategies" section for PCs in [part 1]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier-p1.md %}) and applying it to NPCs gives us insight into the worse case scenario for the PCs, where the PCs are defeated one at a time until the NPCs defeat them.
 
 The total encounter XP for the PCs under this scenario can be calculated by arranging the PCs in the order they are expected to be defeated in and applying the following weights,
-
 \begin{equation}
     \W_{ij} = 
     \begin{cases} 
@@ -156,7 +135,6 @@ Figure <a href="#fig:xp-encounter-diagram-three-pcs-single-target" class="fig-re
 </figure>
 
 When the order isn't known, the average total encounter XP can instead be calculated using the following weighting,
-
 \begin{equation}
     \W_{ij} = 
     \begin{cases} 
@@ -166,27 +144,22 @@ When the order isn't known, the average total encounter XP can instead be calcul
     \label{eq:encounter-weights-single-target-average}
 \end{equation}
 
-For a party of $$N$$ PCs, all level $$\mathit{L}$$, putting Eqn. \eqref{eq:encounter-weights-single-target-average} into Eqn. \eqref{eq:encounter-xp-pcs} gives a total encounter XP of
-
+For a party of $$N$$ PCs, all level $$\LV$$, putting Eqn. \eqref{eq:encounter-weights-single-target-average} into Eqn. \eqref{eq:encounter-xp-pcs} gives a total encounter XP of
 \begin{align}
-    \eXPtot_\mathrm{PCs} = \frac{N\left(N + 1\right)}{2} \XP\_{\,\PC}\left(\mathit{L}\right)\,,
+    \XPwt_{\PCs} = \frac{N\left(N + 1\right)}{2} \XP\_{\,\PC}\left(\LV\right)\,,
     \label{eq:encounter-xp-pcs-single-target-identical}
 \end{align}
-
 which leads to the encounter multiplier,
-
 \begin{align}
     \EM = \frac{8}{N + 1}\,.
     \label{eq:encounter-multiplier-approx-single-target}
 \end{align}
 
 Taking the ratio of Eqn. \eqref{eq:encounter-multiplier-approx-single-target} and Eqn. \eqref{eq:encounter-multiplier-short-identical} results in
-
 \begin{align}
     \left(\frac{8}{N + 1}\right) \left(\frac{ N }{ 4 }\right) = \frac{2\,N}{N + 1}\,,
     \label{eq:encounter-multiplier-approx-single-ratio}
 \end{align}
-
 which tells us how much the encounter multiplier might increase by having the NPCs use a focused single target strategy. The results of Eqn. \eqref{eq:encounter-multiplier-approx-single-ratio} are plotted in Fig. <a href="#fig:single-target-em-ratio-vs-pcs" class="fig-ref">3</a> (below).
 
 <figure id="fig:single-target-em-ratio-vs-pcs">
@@ -199,7 +172,6 @@ For a party of four PCs, having the NPCs focus their damage on defeating only on
 This covers the worst case scenario for the PCs, but what about intermediate cases where only one or two PCs are defeated by the NPCs using a single target strategy? For the PCs who are defeated during the encounter, their contribution to the encounter XP will be the same as it would be under the previous single target scenario, and they will only contribute extra XP for the PCs who are defeated before them. Alternatively, for the PCs who aren't defeated, their contributions will be the same as in the previous section where all the PCs survived.
 
 For an encounter where the NPCs are able to use a focused single target strategy to defeat $$n$$ PCs, the total encounter XP can be calculated by arranging the PCs in the order they will be defeated in and applying the following weighting,
-
 \begin{equation}
     \W_{ij} = 
     \begin{cases} 
@@ -218,16 +190,13 @@ A visual representation of Eqn. \eqref{eq:encounter-xp-pcs} using this weighting
 </figure>
 
 Applied to a party of $$N$$ PCs, all with the same level, this gives a total encounter XP of 
-
 \begin{align}
-    \eXPtot_\mathrm{PCs} = \frac{1}{2} \left(2N^2 - 2n \cdot N + n\left(n + 1\right)\right) \XP\_{\,\PC}\left(\mathit{L}\right)\,,
+    \XPwt_{\PCs} = \frac{1}{2} \left(2N^2 - 2n \cdot N + n\left(n + 1\right)\right) \XP\_{\,\PC}\left(\LV\right)\,,
     \label{eq:encounter-xp-pcs-single-target-identical-general}
 \end{align}
-
 and an encounter multiplier of
-
 \begin{align}
-    \EM &= \frac{ 4 N \cdot \XP\_{\,\PC}\left(\mathit{L}\right) }{ \frac{1}{2} \left(2N^2 - 2n \cdot N + n\left(n + 1\right)\right) \XP\_{\,\PC}\left(\mathit{L}\right) } \nonumber \\\\ 
+    \EM &= \frac{ 4 N \cdot \XP\_{\,\PC}\left(\LV\right) }{ \frac{1}{2} \left(2N^2 - 2n \cdot N + n\left(n + 1\right)\right) \XP\_{\,\PC}\left(\LV\right) } \nonumber \\\\ 
         &= \frac{ 8 N  }{ \left(2N^2 - 2n \cdot N + n\left(n + 1\right)\right) }\,.
     \label{eq:encounter-multiplier-single-target-identical-general}
 \end{align}

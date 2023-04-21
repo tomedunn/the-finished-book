@@ -24,20 +24,17 @@ In this post, I review one such method for calculating monster XP (the only meth
 
 The math behind this one is a bit complicated. For those interested in a full derivation, check out my post [XP and Encounter Balancing]({{ site.url }}{{ site.baseurl }}{% link _theory/xp-and-encounter-balancing.md %}). For the purposes of this analysis, though, I'll be skipping the derivation and focusing on the conclusions for calculating monster XP instead.
 
-With that out of the way, XP in 5th edition is proportional to the product of a monster's effective hit points $$(\eHP)$$ and effective damage per round $$(\eDPR)$$, 
-
+With that out of the way, XP in 5th edition is proportional to the product of a monster's effective hit points $$(\eHP\,)$$ and effective damage per round $$(\eDPR\,)$$, 
 \begin{equation}
     \label{eq:XP-simple}
     \XP_{\NPC} = \frac{1}{4} \eHP \cdot \eDPR\,,
 \end{equation}
-
 which can be approximated as, 
-
 \begin{equation}
+    %\XP_{\NPC} = \frac{1}{4} \HP \cdot \DPRhit \left(1 + 0.077\left(\AC + \AB - 15\right)\right)\,,
+    \XP_{\NPC}  = \frac{1}{4}\HP \cdot \DPRhit \left( \frac{ \AC + \AB - 2 }{13} \right)\,,
     \label{eq:XP-full}
-    \XP_{\NPC} = \frac{1}{4} \HP \cdot \DPRhit \left(1 + 0.077\left(\AC + \AB - 15\right)\right)\,,
 \end{equation}
-
 where $$\HP$$ is the monster's average hit points, $$\AC$$ is their effective armor class, $$\DPRhit$$ is their average damage per round assuming all attacks hit, and $$\AB$$ is their effective attack bonus.
 
 When calculating a monster's XP using Eqn. \eqref{eq:XP-full}, I'll be following the same guidance given in "[Creating a Monster](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#CreatingaMonster)" from chapter 9 of the DMG for calculating monster CR values. The key components of which are outlined below.

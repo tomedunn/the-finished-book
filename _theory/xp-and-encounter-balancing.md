@@ -18,20 +18,12 @@ last_modified_at: 2022-4-18
 \newcommand{\d}{\mathit{d}}
 % other
 \newcommand{\diff}{\mathit{diff}}
-% totals
 
-\newcommand{\weighted}{\mathrm{wt}}
+% totals
 \newcommand{\eHPtot}{\eHP^{\,\total}}
 \newcommand{\eDtot}{\eD^{\,\total}}
 \newcommand{\eDPRtot}{\eDPR^{\,\total}}
 \newcommand{\XPtot}{\XP^{\,\total}}
-
-% NPCs
-\newcommand{\NPC}{\mathrm{n}}
-\newcommand{\NPCs}{\mathrm{n}}
-% PCs
-\newcommand{\PC}{\mathrm{p}}
-\newcommand{\PCs}{\mathrm{p}}
 \)
 </div>
 
@@ -306,11 +298,11 @@ To account for the fact that the order the PCs and NPCs are defeated in changes 
 
 Rearranging Eqn. \eqref{eq:difficulty-xp-weighted} into the same form as Eqn. \eqref{eq:encounter-balance-equation-dmg}, the encounter multiplier can be written in its full general form,
 \begin{equation}
-    \EM = 4\, \left( 
+    \EM = \left( 
         \frac{ \XP_{\NPCs}^{\,\weighted} }{ \XPtot_{\NPCs} } 
     \right) 
     \cdot \left( 
-        \frac{ \XPtot_{\PCs} }{ \XP_{\PCs}^{\,\weighted} }
+        \frac{ 4\,  \XPtot_{\PCs} }{ \XP_{\PCs}^{\,\weighted} }
     \right) \,,
     \label{eq:encounter-multiplier-weighted}
 \end{equation}

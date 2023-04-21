@@ -17,7 +17,7 @@ This covered a fairly wide range of encounters per adventuring day, anything bet
 
 These calculations assume the PCs will be using only their most powerful abilities during combat, and aren't attempting to hold back any resources for later. For games where a short adventuring day only happen occasionally, and the players don't know they're free to go all out, these findings likely won't apply.
 
-As a reminder, XP values can be calculated for player characters by taking the product of a PC's effective hit points $$(\eHP)$$ and average effective damage per round $$(\eDPR)$$, 
+As a reminder, XP values can be calculated for player characters by taking the product of a PC's effective hit points $$(\eHP\,)$$ and average effective damage per round $$(\eDPR\,)$$, 
 
 \begin{equation}
     \label{eq:XP-simple}
