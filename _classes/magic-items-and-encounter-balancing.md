@@ -191,3 +191,9 @@ If we approximate a PC's adventuring day XP budget as twice their encounter XP b
 Magic items are powerful tools in the hands of the PCs, and, if not accounted for, can have a serious impact on a DM's ability to properly build and balance combat encounters. This is especially true at higher levels, where the bonuses from magic items are generally much larger than they are at low levels.
 
 While there are many more magic items than the ones covered here, these results should form a strong basis that DMs can use to improve encounter balancing in their campaigns as their PCs level up and acquire new and powerful magic items.
+
+As a final comment on these findings, the fact that the XP increase from a $$+1$$ to hit, armor class, save DC, or saving throw bonus gets smaller as a PC's level increases is not a true reflection of how these changes impact combat at later levels. Because the game's combat math is centered around the PCs having a baseline chance to hit or be hit of $$65\%$$ at all levels, a $$+1$$ to any of these should always increase a PC's XP values by the same percentage, regardless of their level.
+
+The fact that these XP increases get smaller at higher levels is the result of the specific XP formula used in this post. As I show [here]({{ site.url }}{{ site.baseurl }}{% link _theory/xp-and-encounter-balancing.md %}), while this formulation matches XP values used by the D&D core rules quite well, it's based on a linear approximation to the more general XP formula derived from the game's combat mechanics. The result of this approximation is that XP values for monsters and PCs underestimate the impact of a creature having $$\AB\,$$, $$\AC\,$$, $$\DC\,$$, or $$\SB\,$$ values that are higher/lower than baseline relative to differences $$\HP\,$$ and $$\DPR\,$$.
+
+That's all I'll say on the topic for now, but I will be covering this in more detail in a future post.
