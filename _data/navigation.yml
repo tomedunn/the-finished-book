@@ -34,6 +34,8 @@ classes:
         url: /classes/daily-xp-and-encounter-difficulty/
       - title: "Balancing Short Adventuring Days"
         url: /classes/short-adventuring-days/
+      - title: "Magic Items and Encounter Balancing"
+        url: /classes/magic-items-and-encounter-balancing/
   - title: "Monk"
     children:
       - title: "Stunning Strike"
