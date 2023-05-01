@@ -1,5 +1,6 @@
 import copy
 import numpy as np
+from adventuredays import create_adventuring_day
 import diceEq as de
 import estats5e as es5
 import itertools as itt
