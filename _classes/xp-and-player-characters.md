@@ -3,7 +3,7 @@ title: "Player Character XP"
 excerpt: "Calculates encounter and adventuring day XPs for each class and compares them with XP thresholds and budgets in the DMG."
 #excerpt: "Have you ever wondered where the adventuring day XP budget values come from? In this post I discuss how XP values can be calculated for each of the classes in the PH, and show how those values stack up against the encounter difficulty XP thresholds and adventuring day XP budgets given in the DMG."
 date: 2022-9-3
-last_modified_at: 2023-03-04
+last_modified_at: 2023-05-06
 #tags:
 #  - combat
 #  - classes
@@ -37,6 +37,8 @@ The specifics of how $$\eHP$$ and $$\eDPR$$ are calculated are covered in [Effec
 
 where $$\HP$$ is the PC's average hit points, $$\AC\,$$ is their effective armor class, $$\DPRhit$$ is their average damage per round assuming all attacks hit, and $$\AB\,$$ is their effective attack bonus.
 
+Since, as I show [here]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier-p1.md %}), the encounter multiplier already factors in the PC's ability to deal damage to multiple targets at once via area of effect abilities, $$\DPRhit$$ should only reflect a PC's single target damaging abilities in order to avoid double counting.
+ 
 For NPCs, XP was calculated for a single three round encounter with the NPC fully rested at the start of it. This fit well with how NPCs typically experience combat, but the same can't be said for PCs. PCs often face several encounters before resting, and the number of rounds can vary significantly, depending on a variaty of factors.
 
 Over the course of multiple encounters, the resources available to each PC for healing, damage, or other combat effects change. The values used to calculate Eqn. \eqref{eq:XP-full} also change as a result, which means a PCs encounter XP will vary from one encounter to the next. The consequences of this is that a PC's XP value can be defined in a number of ways: it can be defined for a single encounter, as an average across multiple encounters, and for a full adventuring day. In terms of how XP is used for balancing encounters, the second and third of these are generally the most important.
