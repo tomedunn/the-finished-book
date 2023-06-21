@@ -45,7 +45,7 @@ Hit points (HP) comprised the second most common change, with 33% of monsters (8
 
 For HP, DPR, and AB the majority of the changes were to the raw, or unadjusted stat, while for AC most were to the adjusted stat. This means that republished monsters were more likely to see a change to their defensive features, like the Magic Resistance trait, than to the AC value listed in their stat blocks.
 
-In total, 63% (159 out of 252) of all monster republished in MotM saw some form a change that would have impacted their overall combat strength, i.e., their calculated XP and possibly their CR. And, when broken down by CR, as shown in Fig. [2](#fig:change-distribution){: .fig-ref} (below), we see that a significantly higher portion of these changes were directed at high CR monsters than at low CR monsters.
+In total, 63% (159 out of 252) of all monster republished in MotM saw some kind of change impacting their overall combat strength, i.e., their calculated XP and possibly their CR. And, when broken down by CR, as shown in Fig. [2](#fig:change-distribution){: .fig-ref} (below), we see that a significantly higher portion of these changes were directed at high CR monsters than at low CR monsters.
 
 <figure alt="How monsters changed in MotM" id="fig:change-distribution">
     {% include_relative monsters-of-the-multiverse/fig-change-distribution-small.html %}
