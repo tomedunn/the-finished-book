@@ -81,9 +81,9 @@ For monsters CR 5 and below, while some follow this trend, the majority fall a w
 
 
 # Conclusion
-To conclude, the republished monsters in MotM hit closer to to their CR than their original counterparts, improving the overall consistency of monster combat power, i.e., their calculated XP, at each CR compared to VGtM and MToF. This comes on top of the other changes to monster formatting and design that WotC has discussed, which should make these monsters easier to play at or near their intended CR as well.
+To conclude, the republished monsters in MotM hit closer to to their CR than their original counterparts, improving the overall consistency of monster combat power at each CR compared to VGtM and MToF. This comes on top of the other changes to monster formatting and design that WotC has discussed, which should make these monsters easier to play at or near their intended CR as well.
 
-The changes target high CR monsters more so than low CR monsters. While the changes to low CR monsters does tend to move their average closer to target, the republished monsters still hit well below that target. This further supports the idea that WotC is either intentially erroring on the side of weaker monsters at low CR, or that their internal targets are slightly lower than those listed in chapter 9 of the _Dungeon Master's Guide_.
+The changes target high CR monsters more so than low CR monsters. While the changes to low CR monsters do tend to move their average XP closer to target, the republished monsters still hit well below that target. This further supports the idea that Wizards of the Coast is either intentionally erroring on the side of weaker monsters at low CR, or that their internal targets are slightly lower than those listed in chapter 9 of the _Dungeon Master's Guide_.
 
 
 # Extra Credit
@@ -93,7 +93,7 @@ When I run this kind of analysis, I do the DPR calculations for each monster by 
 
 To help automate this process, I've be developing a monster feature parser that's capable of doing these calculations for me. The parser isn't finished yet - it gives the correct answer for the vast majority of monster actions, including the Multiattack action - but it still needs to be expanded to cover spells, legendary actions, and mythic actions.
 
-That said, it's now at the point where it's starting to give useful and reliable data for the things it does cover. So, for now, here's some preliminary data on how the types of damage dealt by monster attacks has changed for the monsters republished in MotM.
+That said, it's now at the point where it's starting to give useful and reliable data for the things it does cover. So, as a preview, here's some preliminary data on how the types of damage dealt by monster attacks changed for the monsters republished in MotM.
 
 <figure alt="Monster damage by type" id="fig:damage-by-type">
     {% include_relative monsters-of-the-multiverse/fig-damage-by-type-small.html %}
@@ -101,7 +101,7 @@ That said, it's now at the point where it's starting to give useful and reliable
     <figcaption>Figure 5: Shows the amount of damage dealt of each type dealt by monsters from <em>Volo's Guide to Monsters</em> and <em>Mordenkainen's Tome of Foes</em>, as well as from <em>Mordenkainen Presents: Monsters of the Multiverse</em>. Data includes damage from monster actions, but not legendary actions, mythic actions, or spells.</figcaption>
 </figure>
 
-As Fig. [5](#fig:damage-by-type){: .fig-ref} shows (above), there has been a large increase in the amount of force damage done by the republished monsters, and a large decrease in the amount of physical damage (bludgeoning, piercing, and slashing). This shift is most dramatic at higher CRs, and is accompanied by a complete removal of the Magic Weapons trait found in some monsters, which asserted that a monster's weapon attacks be considered magical for the purposes of overcoming resistances and immunities to non-magical damage.
+As Fig. [5](#fig:damage-by-type){: .fig-ref} shows (above), the republished monsters deal significantly more force damage, and significantly less physical damage (bludgeoning, piercing, and slashing) than their original counterparts on average. This shift is most dramatic at higher CRs, and is accompanied by a complete removal of the Magic Weapons trait found in some monsters, which asserted that a monster's weapon attacks be considered magical for the purposes of overcoming resistances and immunities to non-magical damage.
 
 
 <!--
