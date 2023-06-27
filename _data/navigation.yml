@@ -8,6 +8,8 @@ main:
     url: /theory/
 
 monsters:
+  - title: "Baseline Monster Stats"
+    url: /monsters/baseline-monster-stats/
   - title: "Categorizing Monsters"
     url: /monsters/categorizing-monsters/
   - title: "Calculating Monster CR"
