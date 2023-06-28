@@ -3,10 +3,10 @@ title: "Rounds of Combat Per Day"
 excerpt: "How many rounds should combat take? And how does encounter difficulty affect the number of rounds in a full adventuring day?"
 date: 2022-07-12
 last_modified_at: 2023-05-05
-#tags:
-#  - theory
-#  - monsters
-#  - combat
+tags:
+  - encounter balancing
+  - theory
+  - xp
 ---
 
 {% include LaTex.html %}

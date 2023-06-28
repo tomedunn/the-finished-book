@@ -3,12 +3,11 @@ title: "Valuing Conditions"
 excerpt: "How strong are conditions in 5th edition D&D?"
 date: 2022-12-14
 last_modified_at: 2022-12-14
-#tags:
-#  - theory
-#  - conditions
-#  - combat
-#  - conditions
-#  - balance
+tags:
+  - conditions
+  - mechanics
+  - theory
+  - xp
 ---
 
 <div style="display:none">

@@ -3,10 +3,11 @@ title: "The Value of Legendary Resistances"
 excerpt: "How valuable are legendary resistances and when should DMs use them?"
 date: 2022-09-24
 last_modified_at: 2023-03-04
-#tags:
-#  - analysis
-#  - monsters
-#  - legendary resistance
+tags:
+  - analysis
+  - legendary resistance
+  - mechanics
+  - monsters
 ---
 
 {% include LaTex.html %}

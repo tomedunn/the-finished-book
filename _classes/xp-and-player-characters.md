@@ -4,9 +4,12 @@ excerpt: "Calculates encounter and adventuring day XPs for each class and compar
 #excerpt: "Have you ever wondered where the adventuring day XP budget values come from? In this post I discuss how XP values can be calculated for each of the classes in the PH, and show how those values stack up against the encounter difficulty XP thresholds and adventuring day XP budgets given in the DMG."
 date: 2022-9-3
 last_modified_at: 2023-05-06
-#tags:
-#  - combat
-#  - classes
+tags:
+  - analysis
+  - adventuring day
+  - classes
+  - encounter balancing
+  - xp
 ---
 
 {% include LaTex.html %}

@@ -3,10 +3,9 @@ title: "Monster Dataset"
 excerpt: "A list of the book that make up the monster datasets used for these analysis."
 date: 2023-06-27
 last_modified_at: 2023-06-27
-#tags:
-#  - analysis
-#  - CR
-#  - monsters
+tags:
+  - analysis
+  - monsters
 ---
 
 The [Book Progress](#tab:book-progress){: .fig-ref} table (below) summarizes the dataset used throughout these posts for analyzing monsters from D&D 5th edition. The "Added" column signifies the number of monsters from each book that have been added to the dataset, which means they can be referenced for basic monster statistics, and the "Processed" column indicates the number of monsters who have been analyzed in more detail, which means they can be reference for more advanced monster statistics. Here is a list of stats available from each of these categories:

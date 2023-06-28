@@ -3,10 +3,11 @@ title: "Encounter Building in Xanathar's Guide to Everything"
 excerpt: "A comparison of the encounter building rules in XGtE and the DMG."
 date: 2023-4-18
 last_modified_at: 2023-4-19
-#tags:
-#  - theory
-#  - monsters
-#  - classes
+tags:
+  - encounter balancing
+  - encounter multiplier
+  - theory
+  - xp
 ---
 
 {% include LaTex.html %}

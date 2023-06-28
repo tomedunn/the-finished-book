@@ -3,9 +3,13 @@ title: "Magic Items and Encounter Balancing"
 excerpt: "How much do magic items change encounter balancing?"
 date: 2023-04-30
 last_modified_at: 2023-04-30
-#tags:
-#  - combat
-#  - classes
+tags:
+  - analysis
+  - adventuring day
+  - classes
+  - encounter balancing
+  - magic items
+  - xp
 ---
 
 {% include LaTex.html %}

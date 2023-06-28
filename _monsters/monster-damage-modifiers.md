@@ -3,13 +3,14 @@ title: "Monster Damage Modifiers"
 excerpt: "An analysis of how damage resistances, immunities, and vulnerabilities depend on monster type and challenge rating."
 date: 2023-01-15
 last_modified_at: 2023-06-27
-#tags:
-#  - analysis
-#  - monsters
-#  - damage
-#  - immunities
-#  - resistances
-#  - vulnerabilities
+tags:
+  - analysis
+  - damage types
+  - immunities
+  - mechanics
+  - monsters
+  - resistances
+  - vulnerabilities
 ---
 
 # Introduction

@@ -4,12 +4,12 @@ excerpt: "Analysis of how Stunning Strike holds up against published monsters"
 share: true
 date: 2021-10-27
 last_modified_at: 2022-11-24
-#tags:
-#  - analysis
-#  - classes
-#  - monk
-#  - stunning strike
-#  - saving throws
+tags:
+  - analysis
+  - classes
+  - monk
+  - saving throws
+  - stunning strike
 ---
 
 <div style="display:none">

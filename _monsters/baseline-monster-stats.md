@@ -6,6 +6,7 @@ last_modified_at: 2023-06-27
 tags:
   - analysis
   - monsters
+  - xp
 ---
 
 {% include LaTex.html %}

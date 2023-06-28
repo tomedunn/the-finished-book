@@ -3,9 +3,13 @@ title: "Daily XP and Encounter Difficulty"
 excerpt: "Shows how much player character daily XP budgets change with average encounter difficulty."
 date: 2022-10-3
 last_modified_at: 2023-03-04
-#tags:
-#  - combat
-#  - classes
+tags:
+  - analysis
+  - adventuring day
+  - classes
+  - encounter balancing
+  - encounter difficulty
+  - xp
 ---
 
 # Introduction

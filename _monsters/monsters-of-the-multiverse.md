@@ -3,10 +3,11 @@ title: "Monsters of the Multiverse"
 excerpt: "How have the monsters in Mordenkainen Presents: Monsters of the Multiverse changed?"
 date: 2023-06-21
 last_modified_at: 2023-06-21
-#tags:
-#  - analysis
-#  - CR
-#  - monsters
+tags:
+  - analysis
+  - challenge rating
+  - monsters
+  - xp
 ---
 
 {% include LaTex.html %}

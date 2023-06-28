@@ -3,10 +3,11 @@ title: "Calculating the Encounter Multiplier: part 2"
 excerpt: "A deep dive into the encounter multiplier and how it depends on the number of PCs and NPC strategies."
 date: 2022-3-14
 last_modified_at: 2022-9-8
-#tags:
-#  - theory
-#  - monsters
-#  - encounters
+tags:
+  - encounter balancing
+  - encounter multiplier
+  - theory
+  - xp
 ---
 
 {% include LaTex.html %}

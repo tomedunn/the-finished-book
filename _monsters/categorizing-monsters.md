@@ -3,10 +3,10 @@ title: "Categorizing Monsters"
 excerpt: "Grouping monsters into categories, because not all monsters in D&D 5e should be weighted equally."
 date: 2021-10-15
 last_modified_at: 2023-03-09
-#tags:
-#  - analysis
-#  - monsters
-#  - monster categories
+tags:
+  - analysis
+  - monsters
+  - monster categories
 ---
 
 # Introduction

@@ -3,10 +3,9 @@ title: "Effective HP and Damage"
 excerpt: "How to represent creature defensive and offensive strengths in effective terms that don't require calculating chances to hit or save against an enemy creature."
 date: 2022-1-17
 last_modified_at: 2023-3-4
-#tags:
-#  - theory
-#  - monsters
-#  - classes
+tags:
+  - theory
+  - xp
 ---
 
 {% include LaTex.html %}

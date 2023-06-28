@@ -3,10 +3,11 @@ title: "XP and Encounter Balancing"
 excerpt: "A detailed explanation of where XP comes from and how encounter balancing works."
 date: 2022-1-27
 last_modified_at: 2022-4-18
-#tags:
-#  - theory
-#  - monsters
-#  - classes
+tags:
+  - encounter balancing
+  - encounter multiplier
+  - theory
+  - xp
 ---
 
 {% include LaTex.html %}

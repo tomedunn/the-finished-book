@@ -3,11 +3,12 @@ title: "Monster Condition Immunities"
 excerpt: "An analysis of how monster condition immunities depend on monster type and challenge rating."
 date: 2022-12-23
 last_modified_at: 2023-06-27
-#tags:
-#  - analysis
-#  - monsters
-#  - conditions
-#  - immunities
+tags:
+  - analysis
+  - conditions
+  - immunities
+  - mechanics
+  - monsters
 ---
 
 # Introduction
