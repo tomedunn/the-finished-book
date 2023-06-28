@@ -3,10 +3,9 @@ title: "Baseline Monster Stats"
 excerpt: "What are the baseline monster stats Wizards of the Coast uses for making monsters?"
 date: 2023-06-27
 last_modified_at: 2023-06-27
-#tags:
-#  - theory
-#  - monsters
-#  - classes
+tags:
+  - analysis
+  - monsters
 ---
 
 {% include LaTex.html %}

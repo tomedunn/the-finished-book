@@ -4,40 +4,53 @@ layout: archive
 
 {{ content }}
 
-{% assign tags_max = 0 %}
-{% for tag in site.tags %}
-  {% if tag[1].size > tags_max %}
-    {% assign tags_max = tag[1].size %}
+
+<!--Get a list of all tags-->
+{% assign sorted = site.documents | where_exp:"item", "item.tags" %}
+{% for post in sorted %}
+  {% if post.tags %}
+    {% for tag in post.tags %}
+        {% if mytags %}
+            {% capture temptags %}
+                {{ mytags }},{{ tag }}
+            {% endcapture %}
+            {% assign mytags = temptags | strip %}
+        {% else %}
+            {% assign mytags = tag | strip %}
+        {% endif %}
+    {% endfor %}
   {% endif %}
 {% endfor %}
+{% assign mytags = mytags | split: "," | uniq | sort %}
 
+<!--Create taxonomy index-->
 <ul class="taxonomy__index">
-  {% for i in (1..tags_max) reversed %}
-    {% for tag in site.tags %}
-      {% if tag[1].size == i %}
+    {% for tag in mytags %}
+        {% capture where_clause %}
+            item.tags contains "{{ tag }}"
+        {% endcapture %}
+        {% assign posts = site.documents | where_exp:"item", where_clause %}
         <li>
-          <a href="#{{ tag[0] | slugify }}">
-            <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
-          </a>
+            <a href="#{{ tag | slugify }}">
+                <strong>{{ tag }}</strong> <span class="taxonomy__count">{{ posts | size }}</span>
+            </a>
         </li>
-      {% endif %}
     {% endfor %}
-  {% endfor %}
 </ul>
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-{% for i in (1..tags_max) reversed %}
-  {% for tag in site.tags %}
-    {% if tag[1].size == i %}
-      <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
-        <h2 class="archive__subtitle">{{ tag[0] }}</h2>
+<!--Create entries for each tag-->
+{% for tag in mytags %}
+    <section id="{{ tag | slugify | downcase }}" class="taxonomy__section">
+        <h2 class="archive__subtitle">{{ tag }}</h2>
         <div class="entries-{{ entries_layout }}">
-          {% for post in tag.last %}
-            {% include archive-single.html type=entries_layout %}
-          {% endfor %}
+            {% capture where_clause %}
+                item.tags contains "{{ tag }}"
+            {% endcapture %}
+            {% assign posts = site.documents | where_exp:"item", where_clause %}
+            {% for post in posts %}
+                {% include archive-single.html type=entries_layout %}
+            {% endfor %}
         </div>
         <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-      </section>
-    {% endif %}
-  {% endfor %}
+    </section>
 {% endfor %}
