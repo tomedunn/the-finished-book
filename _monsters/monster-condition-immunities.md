@@ -2,7 +2,7 @@
 title: "Monster Condition Immunities"
 excerpt: "An analysis of how monster condition immunities depend on monster type and challenge rating."
 date: 2022-12-23
-last_modified_at: 2022-12-29
+last_modified_at: 2023-06-27
 #tags:
 #  - analysis
 #  - monsters
@@ -13,7 +13,7 @@ last_modified_at: 2022-12-29
 # Introduction
 Recently, I published a post on [valuing conditions]({{ site.url }}{{ site.baseurl }}{% link _theory/valuing-conditions.md %}) which showed how each of the conditions in 5th edition D&D can be calculated from their mechanical impact. Since those calculations didn't factor in the probability of each condition actually effecting a target, they can be thought of as representing the upper limit in how valuable each condition can be. In practice, these probabilities depend on two things in the majority of cases: how strong the monster's saving throw bonuses are, and whether or not the monster is immune to the condition being applied.
 
-Since I've already covered how [monster saving throws]({{ site.url }}{{ site.baseurl }}{% link _monsters/monster-saving-throws.md %}) scale with monster CR, in this post I'd like to analyze how likely published monsters are to be immune to each condition in 5th edition D&D.
+Since I've already covered how [monster saving throws]({{ site.url }}{{ site.baseurl }}{% link _monsters/monster-saving-throws.md %}) scale with monster CR, in this post I'd like to analyze how likely published monsters are to be immune to each condition in 5th edition D&D. You can find a summary of the dataset used for this analysis [here]({{ site.url }}{{ site.baseurl }}{% link _monsters/monster-dataset.md %}).
 
 # Conditions Immunities
 To begin, lets look at how likely published monsters are to be immune to each condition on average. As shown in Fig. <a href="#fig:condition-immunity-probability" class="fig-ref">1</a> (below), the most common conditions monsters are immune to are **charmed**, **frightened**, and **poisoned**. Each having an average likelihood between $$25 - 30\%$$.

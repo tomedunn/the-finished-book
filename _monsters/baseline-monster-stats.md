@@ -25,7 +25,7 @@ I've covered how published [monsters CR values hold up]({{ site.url }}{{ site.ba
 
 I'll be covering monster [offensive stats](#offensive-stats) first (average damage per round, attack bonus, and save difficulty class), followed by [defensive stats](#defensive-stats) (average hit points, armor class, and saving throw bonuses). For offensive stats, things are pretty straight forward, but defensive stats, as I'll show, require a bit more consideration.
 
-The monster stats covered here are pulled from official source books and adventure books published by Wizards of the Coast. I've presented each stat in terms of it's adjusted and unadjusted value. Unadjusted monster stats represent how each stat appears in monster stat blocks, while adjusted stats include additional contributions from monster traits and abilities as described in chapter 9 of the DMG. In most cases, the adjusted monster stat is used to determine that stat's baseline values.
+The monster stats covered here are pulled from official source books and adventure books published by Wizards of the Coast. You can find a summary of the dataset used for this analysis [here]({{ site.url }}{{ site.baseurl }}{% link _monsters/monster-dataset.md %}). I've presented each stat in terms of it's adjusted and unadjusted value. Unadjusted monster stats represent how each stat appears in monster stat blocks, while adjusted stats include additional contributions from monster traits and abilities as described in chapter 9 of the DMG. In most cases, the adjusted monster stat is used to determine that stat's baseline values.
 
 For those wishing to jump straight to the final baseline value table, you can find that [here](#tab:monster-baseline-stats).
 

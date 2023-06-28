@@ -2,7 +2,7 @@
 title: "Calculating Monster CR"
 excerpt: "Compares listed monster CRs with those calculated according to the rules in chapter 9 of the DMG."
 date: 2021-10-30
-last_modified_at: 2023-03-07
+last_modified_at: 2023-06-27
 #tags:
 #  - analysis
 #  - CR
@@ -19,7 +19,8 @@ Having CR ultimately determined through playtesting makes sense given the comple
 it also raises the question: how accurate are the CR calculations presented in the DMG?
 
 In this post, I aim to answer this question by taking a detailed look at how CRs for monsters in official 5th 
-edition products compare to those calculated using the method outlined in the DMG.
+edition products compare to those calculated using the method outlined in the DMG. You can find a summary of the 
+monster dataset used for this analysis [here]({{ site.url }}{{ site.baseurl }}{% link _monsters/monster-dataset.md %}).
 
 # Calculating CR
 

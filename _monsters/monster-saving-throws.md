@@ -2,7 +2,7 @@
 title: "Monster Saving Throws"
 excerpt: "An analysis of how monster saving throw modifiers scale with CR."
 date: 2021-10-23
-last_modified_at: 2023-03-07
+last_modified_at: 2023-06-27
 #tags:
 #  - analysis
 #  - monsters
@@ -13,7 +13,7 @@ last_modified_at: 2023-03-07
 
 Monster saving throw bonuses are an important part of D&D 5th edition, especially when it comes to evaluating the strengths and weaknesses of various class features and spells. Despite their importance, though, they're also an aspect of analyzing the game that people frequently get wrong.
 
-In this post, I go through how the different saving throw bonuses for monsters compare to one another, followed by a detailed breakdown of how monster ability score modifiers and saving throw proficiencies combine to produce these results.
+In this post, I go through how the different saving throw bonuses for published monsters compare to one another, followed by a detailed breakdown of how monster ability score modifiers and saving throw proficiencies combine to produce these results. You can find a summary of the dataset used for this analysis [here]({{ site.url }}{{ site.baseurl }}{% link _monsters/monster-dataset.md %}).
 
 # Saving Throw Bonuses
 

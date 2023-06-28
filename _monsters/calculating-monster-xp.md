@@ -2,7 +2,7 @@
 title: "Calculating Monster XP"
 excerpt: "Compares listed monster XP values with those calculated from their offensive and defensive abilities."
 date: 2021-11-24
-last_modified_at: 2023-3-4
+last_modified_at: 2023-06-27
 #tags:
 #  - analysis
 #  - CR
@@ -18,7 +18,7 @@ When it comes to monsters, challenge rating (CR) is the metric most often used t
 
 If XP values are not arbitrary and are, in fact, proportional to a monster's total combat strength then that means we should be able to calculate a monster's XP value from their offensive and defensive stat, similarly to how the DMG uses those stats to calculate a monster's CR. Being able to calculate the XP for each monster individually would also provide us with a continuum of XP values to pull from when designing encounters, rather than the fixed XP values assigned to each CR.
 
-In this post, I review one such method for calculating monster XP (the only method I've come across, to be fair). I show how it compares to listed XP values for published monsters, and how it can be used to improve our understanding of modifying monsters and balancing encounters.
+In this post, I review one such method for calculating monster XP (the only method I've come across, to be fair). I show how it compares to listed XP values for published monsters, and how it can be used to improve our understanding of modifying monsters and balancing encounters. You can find a summary of the dataset used for this analysis [here]({{ site.url }}{{ site.baseurl }}{% link _monsters/monster-dataset.md %}).
 
 # Calculating XP
 
