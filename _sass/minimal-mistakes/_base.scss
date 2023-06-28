@@ -203,6 +203,17 @@ li ol {
   margin-top: 0.5em;
 }
 
+
+ol {
+  padding-inline-start: 2.0em;
+  /*
+  > li::marker {
+    font-weight: bold;
+  }
+  */
+}
+
+
 /*
    Media and embeds
    ========================================================================== */
