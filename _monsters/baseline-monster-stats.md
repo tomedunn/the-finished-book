@@ -2,7 +2,7 @@
 title: "Baseline Monster Stats"
 excerpt: "What are the baseline monster stats Wizards of the Coast uses for making monsters?"
 date: 2023-06-27
-last_modified_at: 2023-06-27
+last_modified_at: 2023-07-03
 tags:
   - analysis
   - monsters
@@ -38,6 +38,16 @@ Jumping straight in, Fig. [1](#fig:dpr-vs-cr){: .fig-ref} (below) shows that the
     <figcaption>Figure 1: Shows average (mean) damage per round for published monsters, as well as target values taken from chapter 9 of the DMG.</figcaption>
 </figure>
 
+The general trend appears to be that DPR increases by 6 for each CR when CR is less than 20, and then increases by 12 for each CR after that,
+\begin{eqnarray}
+    \DPR \approx
+    \begin{cases} 
+        \ \ \ \ 6 + \ \ 6 \cdot \CR & \CR \lt 20\,; \\\\ 
+        132 + 12 \cdot \left( \CR - 20 \right) & \CR \geq 20\,.
+    \end{cases}
+    \label{eq:simplified-dpr}
+\end{eqnarray}
+
 From this alone, one might naively conclude that high CR published monsters are weaker offensively than they should be, but that depends on how other offensive stats, such as attack bonus (AB) and save difficulty class (save DC), compare to expectations.
 
 The average AB for published monsters, as shown in Fig. [2](#fig:ab-vs-cr){: .fig-ref} (below), start off 1-2 higher than the DMG targets at low CRs, and then scales slightly faster, ending around 4 higher than target. This means, while published monsters are dealing less damage when they do hit, they are hitting more often than one might expect from the DMG target values.
@@ -72,6 +82,12 @@ Given how well the save DC targets matched the average save DC values for publis
     <figcaption>Figure 5: Shows average (mean) AB for published monsters and for player characters, as well as target values taken from chapter 9 of the DMG.</figcaption>
 </figure>
 
+The generals for monster AB and save DC are that each increases by one every two levels, and that at CR 1 $$\AB = 4$$ and $$\DC = 12$$,
+\begin{align}
+    \AB &\approx \ \ 3.5 + \CR / 2 \,;  \label{eq:simplified-ab} \\\\ 
+    \DC &\approx 11.5 + \CR / 2\,. \label{eq:simplified-dc}
+\end{align}
+
 Finally, we can compare the overall offensive power of published monsters and their DMG target values by calculating their effective DPR, as covered [here]({{ site.url }}{{ site.baseurl }}{% link _theory/effective-hp-and-damage.md %}#linear-approximation),
 \begin{align}
     \eDPR  &\approx \sqrt{0.65} \cdot \DPR \cdot \left(\frac{\AB + 10}{13}\right)\,.
@@ -98,6 +114,16 @@ Starting off with hit points, as shown in Fig. [7](#fig:hp-vs-cr){: .fig-ref} (b
 
 There are several factors that contribute to this difference. Most notably, the Regeneration trait, the Legendary Resistance trait, and damage resistances/immunities that the monster might have. Whatever the sources, we're ultimately interested in the adjusted hit point trendline, which starts off at about half the DMG target and gradually grows closer until the two are equal. By around CR 15, the difference between the two is nearly negligible.
 
+The overall trend appears to be that monster hit points start off near $$32$$, increase by $$16$$ per CR for CRs less than 20, and increase by 48 for each CR after that,
+\begin{equation}
+    \HP \approx 
+    \begin{cases} 
+        \ \ 16 + 16 \cdot \CR & \CR \lt 20\,; \\\\ 
+        368 + 48 \cdot \left( \CR - 20 \right) & \CR \geq 20\,.
+    \end{cases}
+    \label{eq:simplified-hp}
+\end{equation}
+
 Moving on to armor class (AC), monster adjusted AC is significantly higher than unadjusted AC, as shown in Fig. [8](#fig:ac-vs-cr){: .fig-ref} (below).
 
 <figure id="fig:ac-vs-cr">
@@ -113,6 +139,11 @@ Just like with hit points, there is a clear difference between the adjusted and 
 -->
 
 Subtracting those saving throw adjustments off leave us with adjusted AC values very close to the unadjusted AC data shown in Fig. [8](#fig:ac-vs-cr){: .fig-ref}. For this reason, I've decided to use unadjusted AC to establish a baseline for monster AC. So long as monster saving throw bonuses are handled appropriately, this choice shouldn't negatively impact the results.
+
+The general trend then for monster AC starts off at $$\AC = 13$$ for CR 1 and increase by one every three CR,
+\begin{align}
+    \AC &\approx 13 + \CR / 3 \,.  \label{eq:simplified-ac}
+\end{align}
 
 <!--
 Normally, this would indicate the DMG targets are simply too low, as was the case for AB values covered previously. However, for monster AC, the overwhelming majority of the adjustments made to monster AC when calculating their CR comes from things that effect their saving throws. The two most common of these adjustments are for monsters with multiple saving throw proficiencies, and for monsters with the Magic Resistance trait.
@@ -137,6 +168,11 @@ Both the adjusted and unadjusted SB values are noticeably higher than the conver
 </figure>
 
 The closeness of these results is reassuring. It tells us our method for separating AC and SB from one another is both accurate and consistent with how the DMG calculates adjusted AC.
+
+Therefore, the general trend for monster SB values starts off around $$\SB=0.5$$ for CR 1 and increases by one every two levels,
+\begin{align}
+    \SB &\approx \CR / 2 \,.  \label{eq:simplified-sb}
+\end{align}
 
 Just like with offensive stats, we can compare the overall defensive toughness of published monsters with the DMG targets by calculating their effective hit points, as described [here]({{ site.url }}{{ site.baseurl }}{% link _theory/effective-hp-and-damage.md %}#linear-approximation),
 \begin{align}
@@ -185,7 +221,28 @@ Part of this comes from the increase frequency of the Magic Resistance trait in 
 -->
 
 # Conclusion
-To summarize, the [Monster Baseline Stats](#tab:monster-baseline-stats) table (below) takes the adjusted hit points, unadjusted AC, adjusted SB, adjusted DPR, adjusted AB, and adjusted DC values from published monsters show in the previous two sections, and uses them establish baseline values for each of their respective stats. It also uses those values to calculate new monster XP values using the XP formula discussed in my post on [Calculating Monster XP]({{ site.url }}{{ site.baseurl }}{% link _monsters/calculating-monster-xp.md %}#calculating-xp).
+To summarize, published monsters do, in fact, deviate from the baseline stats given in chapter 9 of the DMG. To a simple approximation, monster damage per round and hit points scale with CR in the following ways,
+\begin{align}
+    \DPR &\approx
+    \begin{cases} 
+        \ \ \ \ 6 + \ \  6 \cdot \CR & \CR \lt 20\,; \\\\ 
+        132 + 12 \cdot \left( \CR - 20 \right) & \CR \geq 20\,,
+    \end{cases} \\\\ 
+    \HP &\approx
+    \begin{cases} 
+        \ \ 16 + 16 \cdot \CR & \CR \lt 20\,; \\\\ 
+        368 + 48 \cdot \left( \CR - 20 \right) & \CR \geq 20\,,
+    \end{cases}
+\end{align}
+and for attack bonus, save DC, armor class, and saving throw bonus values,
+\begin{align}
+    \AB &\approx \ \ 3.5 + \CR/2 \,, \\\\ 
+    \DC &\approx    11.5 + \CR/2 \,, \\\\ 
+    \AC &\approx    13.0 + \CR/3 \,, \\\\ 
+    \SB &\approx \ \ 0.0 + \CR/2 \,. 
+\end{align}
+
+Alternatively, if you want more precise fits to the data, the [Monster Baseline Stats](#tab:monster-baseline-stats) table (below) gives values based on fitting the adjusted hit points, unadjusted AC, adjusted SB, adjusted DPR, adjusted AB, and adjusted DC values from published monsters show in the previous two sections. It also uses those values to calculate new monster XP values using the XP formula discussed in my post on [Calculating Monster XP]({{ site.url }}{{ site.baseurl }}{% link _monsters/calculating-monster-xp.md %}#calculating-xp).
 
 <div class="dataframe center" style="width:100%;">
     <h3 id="tab:monster-baseline-stats">Monster Baseline Stats</h3>
