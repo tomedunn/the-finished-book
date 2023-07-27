@@ -2,7 +2,7 @@
 title: "Valuing Conditions"
 excerpt: "How strong are conditions in 5th edition D&D?"
 date: 2022-12-14
-last_modified_at: 2022-12-14
+last_modified_at: 2023-07-27
 tags:
   - conditions
   - mechanics
@@ -61,7 +61,7 @@ This post is broken up into two sections. The first breaks down each condition i
 
 Reading through 5th edition D&D's list of conditions (see [Appendix A](https://www.dndbeyond.com/sources/basic-rules/appendix-a-conditions) of the _Basic Rules_) reveals a number common components that are shared between them. I've summarized these components in Table <a href="#tab:condition-components" class="fig-ref">1</a> (below), but as a simple example, "attack rolls against the creature have advantage" is a component common to several conditions, such as the [blinded](https://www.dndbeyond.com/sources/basic-rules/appendix-a-conditions#Blinded) and [restrained](https://www.dndbeyond.com/sources/basic-rules/appendix-a-conditions#Restrained) conditions.
 
-<div class="dataframe center">
+<div class="dataframe center" style="width:800px;">
 <h3 id="tab:condition-components">Table 1</h3>
 <table border="0">
     <thead>
@@ -240,7 +240,28 @@ For regular attacks, an attack bonus increase of $$\Delta \AB$$ increases the av
 where $$\d_\crit = \D_\crit / \D_\hit$$.
 
 <figure id="fig:delta-ab-advantage">
-    <img src="{{ site.url }}{{ site.baseurl }}/theory/valuing-conditions/fig-delta-ab-advantage.svg">
+    <style>
+        /*rect.bg {
+            width: 400px!important;
+        }
+        rect.legendtoggle {
+            width: 400px!important;
+        }
+        g.groups {
+            width: 400px!important;
+        }
+        g.traces {
+            width: 400px!important;
+        }*/
+        /*g.traces:first-child {
+            transform: translate(-10px,18px)!important;
+        }
+        g.traces:last-child {
+            transform: translate(-10px,42px)!important;
+        }*/
+    </style>
+    {% include_relative valuing-conditions/fig-delta-ab-advantage-small.html %}
+    {% include_relative valuing-conditions/fig-delta-ab-advantage-large.html %}
     <figcaption>Figure 1: Effective attack bonus increase from advantage as a function of the attacks normal chance to hit or crit for an attack that deals no extra damage on a critical hit.</figcaption>
 </figure>
 
@@ -349,7 +370,8 @@ When a saving throw is made normally for effects that deal no damage on a succes
 Figure <a href="#fig:delta-dc-disadvantage" class="fig-ref">2</a> (below) plots Eqn. \eqref{eq:save-delta-dc-dis} for the case where $$\d_\save = 0$$ as well as for $$\d_\save = 0.5$$. For both, the maximum save DC bonus comes when $$\p_\fail = 0.5$$. The effective increase in save DC is larger for saving throws where $$\d_\save = 0$$ due to the starting damage being lower relative to the maximum damage.
 
 <figure id="fig:delta-dc-disadvantage">
-    <img src="{{ site.url }}{{ site.baseurl }}/theory/valuing-conditions/fig-delta-dc-disadvantage.svg">
+    {% include_relative valuing-conditions/fig-delta-dc-disadvantage-small.html %}
+    {% include_relative valuing-conditions/fig-delta-dc-disadvantage-large.html %}
     <figcaption>Figure 2: Effective save DC increase from disadvantage on saving throws as a function of the saves normal chance to fail.</figcaption>
 </figure>
 
@@ -414,54 +436,55 @@ As an interesting side note, the [Monster Features](https://www.dndbeyond.com/so
 
 Table <a href="#tab:condition-component-values" class="fig-ref">2</a> (below) provides a summary of the effects these components have on an affected target. I've presented each in terms of their offensive effect, but they can easily be swapped to defensive stats using $$\Delta \AB = - \Delta \AC$$, as well as $$\Delta \DC = - \Delta \SB$$.
 
-<div class="dataframe center">
-<h3 id="tab:condition-component-values">Table 2</h3>
-<table border="0">
-    <thead>
-        <tr>
-            <td style="text-align:left"><strong>Component</strong></td>
-            <td style="width:33%"><strong>Effect on Target</strong></td>
-            <td style="width:33%"><strong>Change in Damage</strong></td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td style="text-align:left">Advantage on attack rolls</td>
-            <td>+5 AB</td>
-            <td>+37.2% dealt</td>
-        </tr>
-        <tr>
-            <td style="text-align:left">Disadvantage on attack rolls</td>
-            <td>-5 AB</td>
-            <td>-37.2% dealt</td>
-        </tr>
-        <tr>
-            <td style="text-align:left">Automatic crit on hit</td>
-            <td>+6 AB</td>
-            <td>+44.4% dealt</td>
-        </tr>
-        <tr>
-            <td style="text-align:left">Disadvantage on saving throws</td>
-            <td>-(2.3&#8211;4.5) SB</td>
-            <td>+(13.8&#8211;35.0)% taken</td>
-        </tr>
-        <tr>
-            <td style="text-align:left">Automatically fail saving throws</td>
-            <td>-(3.5&#8211;7.0) SB</td>
-            <td>+(21.2&#8211;53.8)% taken</td>
-        </tr>
-        <tr>
-            <td style="text-align:left">Inability to take actions</td>
-            <td>0 DPR</td>
-            <td>-100% dealt</td>
-        </tr>
-        <tr>
-            <td style="text-align:left">Inability to move</td>
-            <td>-</td>
-            <td>-</td>
-        </tr>
-    </tbody>
-</table>
+
+<div class="dataframe center" style="width: 800px">
+    <h3 id="tab:condition-component-values">Table 2</h3>
+    <table border="0">
+        <thead>
+            <tr>
+                <td style="text-align:left"><strong>Component</strong></td>
+                <td style="width:33%"><strong>Effect on Target</strong></td>
+                <td style="width:33%"><strong>Change in Damage</strong></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align:left">Advantage on attack rolls</td>
+                <td>+5 AB</td>
+                <td>+37.2% dealt</td>
+            </tr>
+            <tr>
+                <td style="text-align:left">Disadvantage on attack rolls</td>
+                <td>-5 AB</td>
+                <td>-37.2% dealt</td>
+            </tr>
+            <tr>
+                <td style="text-align:left">Automatic crit on hit</td>
+                <td>+6 AB</td>
+                <td>+44.4% dealt</td>
+            </tr>
+            <tr>
+                <td style="text-align:left">Disadvantage on saving throws</td>
+                <td>-(2.3&#8211;4.5) SB</td>
+                <td>+(13.8&#8211;35.0)% taken</td>
+            </tr>
+            <tr>
+                <td style="text-align:left">Automatically fail saving throws</td>
+                <td>-(3.5&#8211;7.0) SB</td>
+                <td>+(21.2&#8211;53.8)% taken</td>
+            </tr>
+            <tr>
+                <td style="text-align:left">Inability to take actions</td>
+                <td>0 DPR</td>
+                <td>-100% dealt</td>
+            </tr>
+            <tr>
+                <td style="text-align:left">Inability to move</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 
 As a reminder, the range in the saving throw bonuses for having disadvantage on saving throws, and automatically failing saving throws, represents the difference between effects that deal half damage on successful saves and ones that deal no damage on successful saves.
@@ -470,7 +493,7 @@ As a reminder, the range in the saving throw bonuses for having disadvantage on 
 
 With values established for each of component, the value of each condition can be calculated by inserting the results of Table <a href="#tab:condition-component-values" class="fig-ref">2</a> into Table <a href="#tab:condition-components" class="fig-ref">1</a>. The results of this are summarized in Table <a href="#tab:condition-values" class="fig-ref">3</a> (below). As an example of how to read the table, the [stunned](https://www.dndbeyond.com/sources/basic-rules/appendix-a-conditions#Stunned) condition reduces the target's DPR to zero, grants an effective bonus of $$+5$$ to hit on attack rolls against the target, and an effective bonus of $$+3.5$$ to $$+7.0$$  to the save DC of any effects used against the target that require a Strength or Dexterity saving throw.
 
-<div class="dataframe center" style="width:90%">
+<div class="dataframe center" style="width: 800px">
 <h3 id="tab:condition-values">Table 3</h3>
 <table border="0">
     <thead>
@@ -594,7 +617,7 @@ For the [petrified](https://www.dndbeyond.com/sources/basic-rules/appendix-a-con
 
 The results in Table <a href="#tab:condition-values" class="fig-ref">3</a> are perhaps the most natural way of understanding the mechanical impact of each condition, but we're ultimately interested in how those translate into damage and healing. Table <a href="#tab:condition-values-edpr" class="fig-ref">4</a> (below) presents the data from Table <a href="#tab:condition-values" class="fig-ref">3</a> in terms of the percent change in damage the condition causes for both the target and anyone attempting to damage it.
 
-<div class="dataframe center" style="width:90%">
+<div class="dataframe center" style="width:800px">
 <h3 id="tab:condition-values-edpr">Table 4</h3>
 <table border="0">
     <thead>
@@ -716,10 +739,11 @@ The results in Table <a href="#tab:condition-values" class="fig-ref">3</a> are p
 
 When presented in this way, there are two big takeaways. First, the value of each condition depends on the damage the creatures involved are capable of. Since the average damage output of PCs (monsters) depends on their level (CR), the average strength of each condition must also depend on them. And second, since PCs and monsters deal different amounts of damage, even when their levels and CRs are matched, the value of each condition when used by monsters against PCs will be different than its value when used by PCs against monsters.
 
-Both of these points are illustrated in Fig. <a href="#fig:dpr-stunned-illustrative" class="fig-ref">3</a> (below), which shows the average damage per round for PCs (monsters) across levels (CRs) 1 - 20, along with the estimated value of the stunned condition. The value of the stunned condition is determined by adding together the extra effective healing from the target, and extra damage against the target, for an encounter with a single monsters and four PCs. For illustrative purposes, I assumed an average damage increase of $$29\% = (37\% + 21\%)/2$$ against the stunned target, which comes from averaging the damage increase for attacks against the target and saves against the target that do half damage on a successful save.
+Both of these points are illustrated in Fig. <a href="#fig:dpr-stunned-illustrative" class="fig-ref">3</a> (below), which shows the average damage per round for PCs (monsters) across levels (CRs) 1 - 20, as determined from the [Monster Statistics by Challenge Rating](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#MonsterStatisticsbyChallengeRating) table in chapter 9 of the _Dungeon Master's Guide_, along with the estimated value of the stunned condition. The value of the stunned condition is determined by adding together the extra effective healing from the target, and extra damage against the target, for an encounter with a single monsters and four PCs. For simplicity, I assumed an average damage increase of $$29\% = (37\% + 21\%)/2$$ against the stunned target, which comes from averaging the damage increase for attacks against the target and saves against the target that do half damage on a successful save.
 
 <figure id="fig:dpr-stunned-illustrative">
-    <img src="{{ site.url }}{{ site.baseurl }}/theory/valuing-conditions/fig-dpr-stunned-illustrative.svg">
+    {% include_relative valuing-conditions/fig-dpr-stunned-illustrative-small.html %}
+    {% include_relative valuing-conditions/fig-dpr-stunned-illustrative-large.html %}
     <figcaption>Figure 3: Average DPR for monsters (PCs) as a function of CR (level), as well as average value in DPR of the stunned condition when used by monsters against a PC, and by a group of four PCs against a monster.</figcaption>
 </figure>
 
