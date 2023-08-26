@@ -8,32 +8,43 @@ main:
     url: /theory/
 
 monsters:
-  - title: "Baseline Monster Stats"
-    url: /monsters/baseline-monster-stats/
-  - title: "Categorizing Monsters"
-    url: /monsters/categorizing-monsters/
-  - title: "Calculating Monster CR"
-    url: /monsters/calculating-monster-cr/
-  - title: "Calculating Monster XP"
-    url: /monsters/calculating-monster-xp/
-  - title: "Early Legendary Monsters"
-    url: /monsters/early-legendary-monsters/
-  - title: "Legendary Resistances"
-    url: /monsters/legendary-resistance/
-  - title: "Monster Condition Immunities"
-    url: /monsters/monster-condition-immunities/
-  - title: "Monster Damage Modifiers"
-    url: /monsters/monster-damage-modifiers/
-  - title: "Monster Dataset"
-    url: /monsters/monster-dataset/
-  - title: "Monsters of the Multiverse"
-    url: /monsters/monsters-of-the-multiverse/
-  - title: "Monster Saving Throws"
-    url: /monsters/monster-saving-throws/
+  - title: "General"
+    children:
+    - title: "Categorizing Monsters"
+      url: /monsters/categorizing-monsters/
+    - title: "Monster Dataset"
+      url: /monsters/monster-dataset/
+    - title: "Legendary Resistances"
+      url: /monsters/legendary-resistance/
+
+  - title: "Stats"
+    children:
+    - title: "Baseline Monster Stats"
+      url: /monsters/baseline-monster-stats/
+    - title: "Monster Condition Immunities"
+      url: /monsters/monster-condition-immunities/
+    - title: "Monster Damage Modifiers"
+      url: /monsters/monster-damage-modifiers/
+    - title: "Monster Saving Throws"
+      url: /monsters/monster-saving-throws/
+
+  - title: "CR and XP"
+    children:
+    - title: "Calculating Monster CR"
+      url: /monsters/calculating-monster-cr/
+    - title: "Calculating Monster XP"
+      url: /monsters/calculating-monster-xp/
+    - title: "Early Legendary Monsters"
+      url: /monsters/early-legendary-monsters/
+    - title: "Monsters of the Multiverse"
+      url: /monsters/monsters-of-the-multiverse/
+  
 
 classes:
   - title: "General"
     children:
+      - title: "Baseline Player Character Stats"
+        url: /monsters/baseline-player-character-stats/
       - title: "Player Character XP"
         url: /classes/xp-and-player-characters/
       - title: "Daily XP and Encounter Difficulty"
