@@ -2,7 +2,7 @@
 title: "Baseline Player Character Stats"
 excerpt: "An analysis of how player character stats scale as they level up."
 date: 2023-08-25
-last_modified_at: 2023-08-25
+last_modified_at: 2023-08-27
 tags:
   - analysis
   - classes
@@ -16,30 +16,6 @@ In [Baseline Monster Stats]({{ site.url }}{{ site.baseurl }}{% link _monsters/ba
 
 In addition to shining a light on how 5e is designed and balanced, these results, combined with the monster trends established previously, will be useful in understanding how combat changes as the player characters level up. It will also allow for better [valuing of conditions]({{ site.url }}{{ site.baseurl }}{% link _theory/valuing-conditions.md %}), which can be useful in determining if game mechanics like feats and spells are balanced relative to the rest of the game.
 
-<!--
-# Review
-
-To summarize the findings from [Baseline Monster Stats]({{ site.url }}{{ site.baseurl }}{% link _monsters/baseline-monster-stats.md %}), the baseline values for monster damage per round and hit points scale with CR in the following ways,
-\begin{align}
-    \DPR &\approx
-    \begin{cases} 
-        \ \ \ \ 6 + \ \  6 \cdot \CR & \CR \lt 20\,; \\\\ 
-        132 + 12 \cdot \left( \CR - 20 \right) & \CR \geq 20\,,
-    \end{cases} \\\\ 
-    \HP &\approx
-    \begin{cases} 
-        \ \ 16 + 16 \cdot \CR & \CR \lt 20\,; \\\\ 
-        368 + 48 \cdot \left( \CR - 20 \right) & \CR \geq 20\,,
-    \end{cases}
-\end{align}
-and for attack bonus, save DC, armor class, and saving throw bonus values,
-\begin{align}
-    \AB &\approx \ \ 3.5 + \CR/2 \,, \\\\ 
-    \DC &\approx    11.5 + \CR/2 \,, \\\\ 
-    \AC &\approx    13.0 + \CR/3 \,, \\\\ 
-    \SB &\approx \ \ 0.0 + \CR/2 \,. 
-\end{align}
--->
 
 # Baseline Classes
 
@@ -56,6 +32,7 @@ For a summary of each class's starting stats see the [Initial Ability Scores](#t
 
 **Note.** These starting ability scores differ from those used in my posts on [player character XP]({{ site.url }}{{ site.baseurl }}{% link _classes/xp-and-player-characters.md %}). I plan on unifying the two in the future, but for now this means there are slight inconsistencies in the results between the two.
 {: .notice--warning}
+
 
 # Offensive Stats
 
@@ -84,7 +61,7 @@ where $$\LV$$ is the player character's level.
 
 When compared against the same trends for [monster offensive stats]({{ site.url }}{{ site.baseurl }}{% link _monsters/baseline-monster-stats.md %}#conclusion), AB and DC values for player character start off slightly higher than for monsters but increase noticeably slower. It's interesting to note that this difference in scaling vanishes when factoring in magic items for player characters, which can add up to $$+3$$ to AB and DC by level 20.
 
-Comparing Eqns. \eqref{eq:ab-approx} and \eqref{eq:dc-approx} against [monster defensive stats]({{ site.url }}{{ site.baseurl }}{% link _monsters/baseline-monster-stats.md %}#conclusion), as shown in Fig. [3](#fig:hit-fail-probabilities){: .fig-ref} (below), the average probability of a player character's attack hitting a monster who's CR equals their level holds fixed around $$65\%$$, while the odds of such a monster failing a saving throw starts off at $$60\%$$ at level 1 before steadily dropping down to $$40\%$$ at level 20.
+Comparing Eqns. \eqref{eq:ab-approx} and \eqref{eq:dc-approx} against [monster defensive stats]({{ site.url }}{{ site.baseurl }}{% link _monsters/baseline-monster-stats.md %}#conclusion), as shown in Fig. [3](#fig:hit-fail-probabilities){: .fig-ref} (below), the average probability of a player character's attack hitting a monster who's CR equals their level starts off close to $$60\%$$ and gradually increases to $$65\%$$, while the odds of such a monster failing a saving throw starts off at $$60\%$$ as well before steadily dropping down to around $$48\%$$ at level 20.
 
 <figure id="fig:hit-fail-probabilities">
     {% include_relative baseline-player-character-stats/fig-hit-fail-probabilities-small.html %}
@@ -94,7 +71,7 @@ Comparing Eqns. \eqref{eq:ab-approx} and \eqref{eq:dc-approx} against [monster d
 
 This means that, in the absence of magic items, player characters that rely on attacks maintain their chance to hit level appropriate monsters as they level up, while characters who rely on saving throws affect their targets less and less often. This may explain why abilities and spells that rely on saving throws often deal half damage when a target succeeds on the saving throw, rather than no damage.
 
-If we factor in bonuses to AB and DC from magic items as the player characters level up, the probability of hitting a monster with an attack increases up to around $$80\%$$ at level 20, while the chance of a monster failing a saving throw stays fairly flat, decreasing only slightly down to $$55\%$$. Given the powerful impact that non-damaging saving throw effects can have (often known as "save or suck" abilities), it makes sense that monsters were designed to be a bit more resilient against such effects compared to attacks when the player characters are enhanced by magic items.
+If we factor in bonuses to AB and DC from magic items as the player characters level up, the probability of hitting a monster with an attack increases up to around $$80\%$$ at level 20, while the chance of a monster failing a saving throw stays fairly flat, increasing only slightly to around $$63\%$$. Given the powerful impact that non-damaging saving throw effects can have (often known as "save or suck" abilities), it makes sense that monsters were designed to be a bit more resilient against such effects compared to attacks when the player characters are enhanced by magic items.
 
 The last offensive stat to consider is single target damage per round (DPR). These values, shown in Fig. [4](#fig:dpr-vs-level){: .fig-ref} (below), were taken from the simulations I ran previously for my post on [player character XP]({{ site.url }}{{ site.baseurl }}{% link _classes/xp-and-player-characters.md %}), which looked at each base class's average performance across a full adventuring day made up of Medium encounters. 
 
@@ -144,10 +121,6 @@ The average trends for AC and SB can be approximated using the following formula
     \SB &\approx \ \ 1.5 + \LV/5 \,. \label{eq:sb-approx}
 \end{align}
 
-<!--
-Comparing these to Eqns. \eqref{eq:ab-approx} and \eqref{eq:dc-approx} highlights that AC and SB increase by roughly have as much as AB and DC from levels 1-20. 
--->
-
 When compared against monster AB and DC values, as shown in Fig. [7](#fig:hp-vs-level){: .fig-ref} (below), the probability of a player character being hit by an attack, or failing a saving throw, from a level appropriate monster show very different trends than those shown in Fig. [3](#fig:hit-fail-probabilities){: .fig-ref} for attacks and saves against monsters from player characters. The overall average for both is close to the assumed baseline value of $$65\%$$, but rather than staying fixed or decreasing, both increase steadily as the player characters level up.
 
 <figure id="fig:hp-vs-level">
@@ -173,7 +146,9 @@ Combined, these outliers are large enough to skew the mean a fair bit, but if we
 \end{align}
 For context, this trend is close to the amount of hit points we would expect for a character with a d8 hit die and a $$+2$$ Constitution modifier.
 
+
 # Conclusion
+
 To summarize these findings, the average DPR and hit points for a typical player character can be approximated using the following formulas,
 \begin{align}
     \DPR &\approx 7 + 2 \cdot \LV \,, \\\\ 
