@@ -87,38 +87,41 @@ def save_fig_html(fig, format, name, **kwargs):
     """
     file_name = f'./{name}.html'
 
-    match format:
-        case 'large':
-            if len([d for d in fig.data if type(d) == go.Trace]) > 0:
-                fig.update_traces(
-                    line_width=kwargs.get('line_width', 2), 
-                    marker_size=kwargs.get('marker_size', 8)
+    if kwargs.get('update_figure', True):
+        match format:
+            case 'large':
+                if len([d for d in fig.data if type(d) in [go.Trace, go.Scatter]]) > 0:
+                    fig.update_traces(
+                        line_width=kwargs.get('line_width', 2), 
+                        marker_size=kwargs.get('marker_size', 8),
+                        selector=kwargs.get('selector', None),
+                    )
+                fig.update_shapes(
+                    line_width=kwargs.get('line_width', 2)
                 )
-            fig.update_shapes(
-                line_width=kwargs.get('line_width', 2)
-            )
-            fig.update_layout(
-                font_size=kwargs.get('font_size', 14)
-            )
-            fig.update_annotations(
-                font_size=kwargs.get('font_size', 14)
-            )
-        case 'small':
-            if len([d for d in fig.data if type(d) == go.Trace]) > 0:
-                fig.update_traces(
-                    line_width=kwargs.get('line_width', 1), 
-                    marker_size=kwargs.get('marker_size', 6)
+                fig.update_layout(
+                    font_size=kwargs.get('font_size', 14)
                 )
-            fig.update_shapes(
-                line_width=kwargs.get('line_width', 1)
-            )
-            fig.update_layout(
-                font_size=kwargs.get('font_size', 10), 
-                legend_font_size=kwargs.get('legend_font_size', 10)
-            )
-            fig.update_annotations(
-                font_size=kwargs.get('font_size', 10)
-            )
+                fig.update_annotations(
+                    font_size=kwargs.get('font_size', 14)
+                )
+            case 'small':
+                if len([d for d in fig.data if type(d) in [go.Trace, go.Scatter]]) > 0:
+                    fig.update_traces(
+                        line_width=kwargs.get('line_width', 1), 
+                        marker_size=kwargs.get('marker_size', 6),
+                        selector=kwargs.get('selector', None),
+                    )
+                fig.update_shapes(
+                    line_width=kwargs.get('line_width', 1)
+                )
+                fig.update_layout(
+                    font_size=kwargs.get('font_size', 10), 
+                    legend_font_size=kwargs.get('legend_font_size', 10)
+                )
+                fig.update_annotations(
+                    font_size=kwargs.get('font_size', 10)
+                )
 
     fig_html = fig.to_html(
         config=kwargs.get('config', FIG_CONFIG),

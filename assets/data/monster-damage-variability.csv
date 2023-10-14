@@ -1,0 +1,2102 @@
+,monster,id,CR,feature,mean,variance,standard deviation,sigma/mean
+0,Assassin,16790-assassin,8.0,Shortsword,31.0,23.333334,4.830459,0.15582125
+1,Assassin,16790-assassin,8.0,Light Crossbow,32.0,25.666666,5.066228,0.15831962
+3,Bandit,16798-bandit,0.125,Scimitar,4.5,2.9166667,1.7078252,0.3795167
+4,Bandit,16798-bandit,0.125,Light Crossbow,5.5,5.25,2.291288,0.41659778
+5,Bandit Captain,16799-bandit-captain,2.0,Scimitar,6.5,2.9166667,1.7078252,0.26274234
+6,Bandit Captain,16799-bandit-captain,2.0,Dagger,5.5,1.25,1.118034,0.20327891
+8,Berserker,16805-berserker,2.0,Greataxe,9.5,11.916667,3.4520526,0.36337397
+9,Commoner,16829-commoner,0.0,Club,2.5,1.25,1.118034,0.4472136
+10,Cultist,16835-cultist,0.125,Scimitar,4.5,2.9166667,1.7078252,0.3795167
+11,Gladiator,16903-gladiator,5.0,Spear,13.0,10.5,3.2403703,0.24925926
+12,Gladiator,16903-gladiator,5.0,Shield Bash,9.0,2.5,1.5811388,0.1756821
+13,Guard,16915-guard,0.125,Spear,4.5,2.9166667,1.7078252,0.3795167
+14,Knight,16938-knight,3.0,Greatsword,10.0,5.8333335,2.4152296,0.24152295
+15,Knight,16938-knight,3.0,Heavy Crossbow,5.5,8.25,2.8722813,0.52223295
+16,Noble,16966-noble,0.125,Rapier,5.5,5.25,2.291288,0.41659778
+17,Scout,17007-scout,0.5,Shortsword,5.5,2.9166667,1.7078252,0.31051365
+18,Scout,17007-scout,0.5,Longbow,6.5,5.25,2.291288,0.35250583
+19,Spy,17021-spy,1.0,Shortsword,5.5,2.9166667,1.7078252,0.31051365
+20,Spy,17021-spy,1.0,Hand Crossbow,5.5,2.9166667,1.7078252,0.31051365
+21,Thug,17035-thug,0.5,Mace,5.5,2.9166667,1.7078252,0.31051365
+22,Thug,17035-thug,0.5,Heavy Crossbow,5.5,8.25,2.8722813,0.52223295
+23,Tribal Warrior,17038-tribal-warrior,0.125,Spear,5.5,5.25,2.291288,0.41659778
+24,Veteran,17045-veteran,3.0,Longsword,8.5,8.25,2.8722813,0.33791545
+25,Veteran,17045-veteran,3.0,Shortsword,6.5,2.9166667,1.7078252,0.26274234
+26,Veteran,17045-veteran,3.0,Heavy Crossbow,6.5,8.25,2.8722813,0.44188944
+28,Bat,16802-bat,0.0,Bite,1.0,0.0,0.0,0.0
+29,Black Bear,16806-black-bear,0.5,Bite,5.5,2.9166667,1.7078252,0.31051365
+30,Black Bear,16806-black-bear,0.5,Claws,7.0,2.5,1.5811388,0.22587697
+32,Boar,16812-boar,0.25,Tusk,4.5,2.9166667,1.7078252,0.3795167
+33,Brown Bear,16816-brown-bear,1.0,Bite,8.5,5.25,2.291288,0.2695633
+34,Brown Bear,16816-brown-bear,1.0,Claws,11.0,5.8333335,2.4152296,0.21956632
+36,Cat,16820-cat,0.0,Claws,1.0,0.0,0.0,0.0
+37,Constrictor Snake,16830-constrictor-snake,0.25,Bite,5.5,2.9166667,1.7078252,0.31051365
+38,Constrictor Snake,16830-constrictor-snake,0.25,Constrict,6.5,5.25,2.291288,0.35250583
+39,Crocodile,16834-crocodile,0.5,Bite,7.5,8.25,2.8722813,0.38297084
+40,Dire Wolf,16841-dire-wolf,1.0,Bite,10.0,5.8333335,2.4152296,0.24152295
+41,Giant Eagle,16881-giant-eagle,1.0,Beak,6.5,2.9166667,1.7078252,0.26274234
+42,Giant Eagle,16881-giant-eagle,1.0,Talons,10.0,5.8333335,2.4152296,0.24152295
+44,Giant Spider,16895-giant-spider,1.0,Bite,16.5,15.75,3.968627,0.24052285
+45,Hawk,16920-hawk,0.0,Talons,1.0,0.0,0.0,0.0
+46,Imp,16933-imp,1.0,Sting,16.0,10.0,3.1622777,0.19764236
+47,Lion,16944-lion,1.0,Bite,7.5,5.25,2.291288,0.30550504
+48,Lion,16944-lion,1.0,Claw,6.5,2.9166667,1.7078252,0.26274234
+49,Mastiff,16953-mastiff,0.125,Bite,4.5,2.9166667,1.7078252,0.3795167
+50,Mule,16960-mule,0.125,Hooves,4.5,1.25,1.118034,0.248452
+51,Owl,16974-owl,0.0,Talons,1.0,0.0,0.0,0.0
+52,Panther,16976-panther,0.25,Bite,5.5,2.9166667,1.7078252,0.31051365
+53,Panther,16976-panther,0.25,Claw,4.5,1.25,1.118034,0.248452
+54,Poisonous Snake,16982-poisonous-snake,0.125,Bite,6.0,2.5,1.5811388,0.26352313
+55,Pseudodragon,16986-pseudodragon,0.25,Bite,4.5,1.25,1.118034,0.248452
+56,Pseudodragon,16986-pseudodragon,0.25,Sting,4.5,1.25,1.118034,0.248452
+57,Quasit,16988-quasit,1.0,Claws,10.5,3.75,1.9364917,0.18442778
+58,Rat,16991-rat,0.0,Bite,1.0,0.0,0.0,0.0
+59,Raven,16992-raven,0.0,Beak,1.0,0.0,0.0,0.0
+60,Reef Shark,16994-reef-shark,0.5,Bite,6.5,5.25,2.291288,0.35250583
+61,Riding Horse,16997-riding-horse,0.25,Hooves,8.0,2.5,1.5811388,0.19764236
+62,Skeleton,17015-skeleton,0.25,Shortsword,5.5,2.9166667,1.7078252,0.31051365
+63,Skeleton,17015-skeleton,0.25,Shortbow,5.5,2.9166667,1.7078252,0.31051365
+64,Sprite,17020-sprite,0.25,Longsword,1.0,0.0,0.0,0.0
+65,Sprite,17020-sprite,0.25,Shortbow,1.0,0.0,0.0,0.0
+66,Tiger,17036-tiger,1.0,Bite,8.5,8.25,2.8722813,0.33791545
+67,Tiger,17036-tiger,1.0,Claw,7.5,5.25,2.291288,0.30550504
+68,Warhorse,17049-warhorse,0.5,Hooves,11.0,5.8333335,2.4152296,0.21956632
+69,Wolf,17062-wolf,0.25,Bite,7.0,2.5,1.5811388,0.22587697
+70,Zombie,17077-zombie,0.25,Slam,4.5,2.9166667,1.7078252,0.3795167
+71,Aarakocra,17100-aarakocra,0.25,Talon,4.5,1.25,1.118034,0.248452
+72,Aarakocra,17100-aarakocra,0.25,Javelin,5.5,2.9166667,1.7078252,0.31051365
+73,Animated Armor,16786-animated-armor,1.0,Slam,5.5,2.9166667,1.7078252,0.31051365
+74,Flying Sword,16865-flying-sword,0.25,Longsword,5.5,5.25,2.291288,0.41659778
+75,Rug of Smothering,17000-rug-of-smothering,2.0,Smother,10.0,5.8333335,2.4152296,0.24152295
+76,Ankheg,16787-ankheg,2.0,Bite,13.5,8.75,2.95804,0.21911407
+77,Ankheg,16787-ankheg,2.0,Acid Spray,21.0,17.5,4.1833,0.19920477
+78,Azer,16794-azer,2.0,Warhammer,12.0,11.166667,3.3416562,0.27847135
+79,Banshee,17089-banshee,4.0,Corrupting Touch,12.5,8.75,2.95804,0.2366432
+80,Basilisk,16801-basilisk,3.0,Bite,17.0,11.666667,3.4156504,0.2009206
+81,Behir,16804-behir,11.0,Bite,22.5,24.75,4.974937,0.22110832
+82,Behir,16804-behir,11.0,Constrict,34.0,33.0,5.7445626,0.16895773
+83,Behir,16804-behir,11.0,Swallow,21.0,17.5,4.1833,0.19920477
+85,Spectator,17094-spectator,3.0,Bite,2.5,2.9166667,1.7078252,0.68313
+86,Needle Blight,17215-needle-blight,0.25,Claws,6.0,2.5,1.5811388,0.26352313
+87,Needle Blight,17215-needle-blight,0.25,Needles,8.0,5.8333335,2.4152296,0.3019037
+88,Twig Blight,17095-twig-blight,0.125,Claws,3.5,1.25,1.118034,0.31943828
+89,Vine Blight,17216-vine-blight,0.5,Constrict,9.0,5.8333335,2.4152296,0.26835883
+90,Bugbear,16817-bugbear,1.0,Morningstar,11.0,10.5,3.2403703,0.29457912
+91,Bugbear,16817-bugbear,1.0,Javelin,9.0,5.8333335,2.4152296,0.26835883
+92,Bugbear Chief,17119-bugbear-chief,3.0,Morningstar,12.0,10.5,3.2403703,0.27003086
+93,Bugbear Chief,17119-bugbear-chief,3.0,Javelin,10.0,5.8333335,2.4152296,0.24152295
+94,Bulette,16818-bulette,5.0,Bite,30.0,47.666668,6.904105,0.23013684
+95,Bullywug,17120-bullywug,0.25,Bite,3.5,1.25,1.118034,0.31943828
+96,Bullywug,17120-bullywug,0.25,Spear,5.5,5.25,2.291288,0.41659778
+98,Carrion Crawler,17138-carrion-crawler,2.0,Tentacles,4.5,1.25,1.118034,0.248452
+99,Carrion Crawler,17138-carrion-crawler,2.0,Bite,7.0,2.5,1.5811388,0.22587697
+101,Centaur,16821-centaur,2.0,Pike,9.5,8.25,2.8722813,0.3023454
+102,Centaur,16821-centaur,2.0,Hooves,11.0,5.8333335,2.4152296,0.21956632
+103,Centaur,16821-centaur,2.0,Longbow,6.5,5.25,2.291288,0.35250583
+105,Chimera,16823-chimera,6.0,Bite,11.0,5.8333335,2.4152296,0.21956632
+106,Chimera,16823-chimera,6.0,Horns,10.5,11.916667,3.4520526,0.3287669
+107,Chimera,16823-chimera,6.0,Claws,11.0,5.8333335,2.4152296,0.21956632
+108,Chimera,16823-chimera,6.0,Fire Breath,63.0,73.5,8.573215,0.13608277
+109,Chuul,16824-chuul,4.0,Pincer,11.0,5.8333335,2.4152296,0.21956632
+111,Cloaker,16826-cloaker,8.0,Bite,10.0,5.8333335,2.4152296,0.24152295
+112,Cloaker,16826-cloaker,8.0,Tail,7.5,5.25,2.291288,0.30550504
+114,Cockatrice,16828-cockatrice,0.5,Bite,3.5,1.25,1.118034,0.31943828
+115,Crawling Claw,17139-crawling-claw,0.0,Claw,3.5,1.25,1.118034,0.31943828
+116,Cyclops,17090-cyclops,6.0,Greatclub,19.5,15.75,3.968627,0.20351933
+117,Cyclops,17090-cyclops,6.0,Rock,28.0,33.0,5.7445626,0.20516296
+119,Darkmantle,16837-darkmantle,0.5,Crush,6.5,2.9166667,1.7078252,0.26274234
+120,Balor,16797-balor,19.0,Longsword,35.0,31.5,5.612486,0.16035675
+121,Chasme,17140-chasme,6.0,Proboscis,40.5,32.083332,5.664215,0.13985716
+122,Dretch,16846-dretch,0.25,Bite,3.5,2.9166667,1.7078252,0.48795003
+123,Dretch,16846-dretch,0.25,Claws,5.0,2.5,1.5811388,0.31622776
+125,Goristro,17156-goristro,17.0,Fist,20.5,15.75,3.968627,0.19359156
+126,Goristro,17156-goristro,17.0,Hoof,23.5,24.75,4.974937,0.21169946
+127,Goristro,17156-goristro,17.0,Gore,45.5,57.75,7.599342,0.1670185
+129,Hezrou,16922-hezrou,8.0,Bite,15.0,16.5,4.0620193,0.27080128
+130,Hezrou,16922-hezrou,8.0,Claw,11.0,5.8333335,2.4152296,0.21956632
+132,Manes,17213-manes,0.125,Claws,5.0,2.5,1.5811388,0.31622776
+133,Marilith,16952-marilith,16.0,Longsword,13.0,10.5,3.2403703,0.24925926
+134,Marilith,16952-marilith,16.0,Tail,15.0,16.5,4.0620193,0.27080128
+136,Nalfeshnee,16963-nalfeshnee,13.0,Bite,32.5,41.25,6.4226165,0.19761896
+137,Nalfeshnee,16963-nalfeshnee,13.0,Claw,15.5,8.75,2.95804,0.19084129
+138,Vrock,17047-vrock,6.0,Beak,10.0,5.8333335,2.4152296,0.24152295
+139,Vrock,17047-vrock,6.0,Talons,14.0,16.5,4.0620193,0.29014423
+140,Vrock,17047-vrock,6.0,Spores,11.0,16.5,4.0620193,0.36927447
+142,Barbed Devil,16800-barbed-devil,5.0,Claw,6.5,2.9166667,1.7078252,0.26274234
+143,Barbed Devil,16800-barbed-devil,5.0,Tail,10.0,5.8333335,2.4152296,0.24152295
+144,Barbed Devil,16800-barbed-devil,5.0,Hurl Flame,10.5,8.75,2.95804,0.28171808
+146,Bearded Devil,16803-bearded-devil,3.0,Beard,6.5,5.25,2.291288,0.35250583
+147,Bearded Devil,16803-bearded-devil,3.0,Glaive,8.5,8.25,2.8722813,0.33791545
+149,Bone Devil,16813-bone-devil,9.0,Claw,8.5,5.25,2.291288,0.2695633
+150,Bone Devil,16813-bone-devil,9.0,Sting,30.5,25.083334,5.0083265,0.16420743
+152,Chain Devil,16822-chain-devil,8.0,Chain,11.0,5.8333335,2.4152296,0.21956632
+154,Erinyes,16858-erinyes,12.0,Longsword,23.0,24.0,4.8989797,0.2129991
+155,Erinyes,16858-erinyes,12.0,Longbow,21.0,21.0,4.582576,0.2182179
+156,Horned Devil,16927-horned-devil,11.0,Fork,15.0,10.5,3.2403703,0.2160247
+157,Horned Devil,16927-horned-devil,11.0,Tail,10.5,5.25,2.291288,0.2182179
+158,Horned Devil,16927-horned-devil,11.0,Hurl Flame,14.0,11.666667,3.4156504,0.24397501
+160,Ice Devil,16931-ice-devil,14.0,Bite,22.5,14.583333,3.818813,0.16972503
+161,Ice Devil,16931-ice-devil,14.0,Claws,20.5,11.25,3.354102,0.16361474
+162,Ice Devil,16931-ice-devil,14.0,Tail,22.5,14.583333,3.818813,0.16972503
+164,Lemure,16942-lemure,0.0,Fist,2.5,1.25,1.118034,0.4472136
+165,Spined Devil,17214-spined-devil,2.0,Bite,5.0,2.5,1.5811388,0.31622776
+166,Spined Devil,17214-spined-devil,2.0,Fork,3.5,2.9166667,1.7078252,0.48795003
+167,Spined Devil,17214-spined-devil,2.0,Tail Spine,8.0,4.1666665,2.0412414,0.25515518
+169,Allosaurus,17087-allosaurus,2.0,Bite,15.0,16.5,4.0620193,0.27080128
+170,Allosaurus,17087-allosaurus,2.0,Claw,8.5,5.25,2.291288,0.2695633
+171,Ankylosaurus,17088-ankylosaurus,3.0,Tail,18.0,11.666667,3.4156504,0.18975835
+172,Plesiosaurus,16981-plesiosaurus,2.0,Bite,14.5,8.75,2.95804,0.20400275
+173,Pteranodon,17093-pteranodon,0.25,Bite,6.0,2.5,1.5811388,0.26352313
+174,Triceratops,17039-triceratops,5.0,Gore,24.0,21.0,4.582576,0.19094065
+175,Triceratops,17039-triceratops,5.0,Stomp,22.5,24.75,4.974937,0.22110832
+176,Tyrannosaurus Rex,17041-tyrannosaurus-rex,8.0,Bite,33.0,47.666668,6.904105,0.2092153
+177,Tyrannosaurus Rex,17041-tyrannosaurus-rex,8.0,Tail,20.5,15.75,3.968627,0.19359156
+178,Displacer Beast,17130-displacer-beast,3.0,Tentacle,11.0,5.8333335,2.4152296,0.21956632
+180,Doppelganger,16843-doppelganger,3.0,Slam,7.5,2.9166667,1.7078252,0.22771002
+181,Young Red Shadow Dragon,17132-young-red-shadow-dragon,13.0,Bite,20.5,19.416666,4.4064345,0.21494803
+182,Young Red Shadow Dragon,17132-young-red-shadow-dragon,13.0,Claw,13.0,5.8333335,2.4152296,0.18578689
+183,Young Red Shadow Dragon,17132-young-red-shadow-dragon,13.0,Shadow Breath,112.0,93.333336,9.660918,0.086258195
+185,Young Black Dragon,17067-young-black-dragon,7.0,Bite,19.5,21.75,4.6636896,0.23916356
+186,Young Black Dragon,17067-young-black-dragon,7.0,Claw,11.0,5.8333335,2.4152296,0.21956632
+187,Young Black Dragon,17067-young-black-dragon,7.0,Acid Breath,99.0,115.5,10.747092,0.108556494
+189,Black Dragon Wyrmling,16807-black-dragon-wyrmling,2.0,Bite,10.0,9.5,3.082207,0.3082207
+190,Black Dragon Wyrmling,16807-black-dragon-wyrmling,2.0,Acid Breath,45.0,52.5,7.2456884,0.1610153
+191,Young Blue Dragon,17068-young-blue-dragon,9.0,Bite,21.5,24.75,4.974937,0.23139243
+192,Young Blue Dragon,17068-young-blue-dragon,9.0,Claw,12.0,5.8333335,2.4152296,0.20126912
+193,Young Blue Dragon,17068-young-blue-dragon,9.0,Lightning Breath,110.0,165.0,12.845233,0.11677484
+195,Blue Dragon Wyrmling,16811-blue-dragon-wyrmling,3.0,Bite,12.0,11.166667,3.3416562,0.27847135
+196,Blue Dragon Wyrmling,16811-blue-dragon-wyrmling,3.0,Lightning Breath,44.0,66.0,8.124039,0.18463723
+197,Young Green Dragon,17073-young-green-dragon,8.0,Bite,22.0,22.333334,4.725816,0.2148098
+198,Young Green Dragon,17073-young-green-dragon,8.0,Claw,11.0,5.8333335,2.4152296,0.21956632
+199,Young Green Dragon,17073-young-green-dragon,8.0,Poison Breath,84.0,70.0,8.3666,0.09960239
+201,Green Dragon Wyrmling,16910-green-dragon-wyrmling,2.0,Bite,11.0,11.166667,3.3416562,0.30378693
+202,Green Dragon Wyrmling,16910-green-dragon-wyrmling,2.0,Poison Breath,42.0,35.0,5.91608,0.14085904
+203,Young Red Dragon,17074-young-red-dragon,10.0,Bite,20.5,19.416666,4.4064345,0.21494803
+204,Young Red Dragon,17074-young-red-dragon,10.0,Claw,13.0,5.8333335,2.4152296,0.18578689
+205,Young Red Dragon,17074-young-red-dragon,10.0,Fire Breath,112.0,93.333336,9.660918,0.086258195
+207,Red Dragon Wyrmling,16993-red-dragon-wyrmling,4.0,Bite,13.0,11.166667,3.3416562,0.25705048
+208,Red Dragon Wyrmling,16993-red-dragon-wyrmling,4.0,Fire Breath,49.0,40.833332,6.3900967,0.13041013
+209,Young White Dragon,17076-young-white-dragon,6.0,Bite,19.5,21.75,4.6636896,0.23916356
+210,Young White Dragon,17076-young-white-dragon,6.0,Claw,11.0,5.8333335,2.4152296,0.21956632
+211,Young White Dragon,17076-young-white-dragon,6.0,Cold Breath,90.0,105.0,10.246951,0.11385501
+213,White Dragon Wyrmling,17058-white-dragon-wyrmling,2.0,Bite,10.0,9.5,3.082207,0.3082207
+214,White Dragon Wyrmling,17058-white-dragon-wyrmling,2.0,Cold Breath,45.0,52.5,7.2456884,0.1610153
+215,Young Brass Dragon,17069-young-brass-dragon,6.0,Bite,15.0,16.5,4.0620193,0.27080128
+216,Young Brass Dragon,17069-young-brass-dragon,6.0,Claw,11.0,5.8333335,2.4152296,0.21956632
+218,Brass Dragon Wyrmling,16814-brass-dragon-wyrmling,1.0,Bite,7.5,8.25,2.8722813,0.38297084
+219,Young Bronze Dragon,17070-young-bronze-dragon,8.0,Bite,16.0,16.5,4.0620193,0.2538762
+220,Young Bronze Dragon,17070-young-bronze-dragon,8.0,Claw,12.0,5.8333335,2.4152296,0.20126912
+222,Bronze Dragon Wyrmling,16815-bronze-dragon-wyrmling,2.0,Bite,8.5,8.25,2.8722813,0.33791545
+223,Young Copper Dragon,17071-young-copper-dragon,7.0,Bite,15.0,16.5,4.0620193,0.27080128
+224,Young Copper Dragon,17071-young-copper-dragon,7.0,Claw,11.0,5.8333335,2.4152296,0.21956632
+226,Copper Dragon Wyrmling,16831-copper-dragon-wyrmling,1.0,Bite,7.5,8.25,2.8722813,0.38297084
+227,Young Gold Dragon,17072-young-gold-dragon,10.0,Bite,17.0,16.5,4.0620193,0.23894231
+228,Young Gold Dragon,17072-young-gold-dragon,10.0,Claw,13.0,5.8333335,2.4152296,0.18578689
+230,Gold Dragon Wyrmling,17098-gold-dragon-wyrmling,3.0,Bite,9.5,8.25,2.8722813,0.3023454
+231,Young Silver Dragon,17075-young-silver-dragon,9.0,Bite,17.0,16.5,4.0620193,0.23894231
+232,Young Silver Dragon,17075-young-silver-dragon,9.0,Claw,13.0,5.8333335,2.4152296,0.18578689
+234,Silver Dragon Wyrmling,17014-silver-dragon-wyrmling,2.0,Bite,9.5,8.25,2.8722813,0.3023454
+235,Dragon Turtle,16845-dragon-turtle,17.0,Bite,26.5,35.75,5.9791303,0.22562756
+236,Dragon Turtle,16845-dragon-turtle,17.0,Claw,16.0,10.5,3.2403703,0.20252314
+237,Dragon Turtle,16845-dragon-turtle,17.0,Tail,26.5,35.75,5.9791303,0.22562756
+238,Dragon Turtle,16845-dragon-turtle,17.0,Steam Breath,105.0,87.5,9.354143,0.089087084
+240,Duergar,16850-duergar,1.0,War Pick,11.0,10.5,3.2403703,0.29457912
+241,Duergar,16850-duergar,1.0,Javelin,9.0,5.8333335,2.4152296,0.26835883
+242,Air Elemental,16774-air-elemental,5.0,Slam,14.0,10.5,3.2403703,0.23145503
+244,Earth Elemental,16853-earth-elemental,5.0,Slam,14.0,10.5,3.2403703,0.23145503
+246,Fire Elemental,16861-fire-elemental,5.0,Touch,15.5,14.083333,3.7527769,0.24211463
+248,Water Elemental,17051-water-elemental,5.0,Slam,13.0,10.5,3.2403703,0.24925926
+250,Ettercap,16859-ettercap,2.0,Bite,11.0,10.5,3.2403703,0.29457912
+251,Ettercap,16859-ettercap,2.0,Claws,7.0,2.5,1.5811388,0.22587697
+253,Ettin,16860-ettin,4.0,Battleaxe,14.0,10.5,3.2403703,0.23145503
+254,Ettin,16860-ettin,4.0,Morningstar,14.0,10.5,3.2403703,0.23145503
+256,Flumph,17145-flumph,0.125,Tendrils,7.0,2.5,1.5811388,0.22587697
+257,Fomorian,17146-fomorian,8.0,Greatclub,19.5,15.75,3.968627,0.20351933
+258,Gas Spore,17147-gas-spore,0.5,Touch,1.0,0.0,0.0,0.0
+259,Violet Fungus,17046-violet-fungus,0.25,Rotting Touch,4.5,5.25,2.291288,0.50917506
+261,Galeb Duhr,17148-galeb-duhr,6.0,Slam,12.0,5.8333335,2.4152296,0.20126912
+262,Gargoyle,16868-gargoyle,2.0,Bite,5.5,2.9166667,1.7078252,0.31051365
+263,Gargoyle,16868-gargoyle,2.0,Claws,5.5,2.9166667,1.7078252,0.31051365
+265,Ghost,16871-ghost,4.0,Withering Touch,17.0,11.666667,3.4156504,0.2009206
+266,Ghoul,16872-ghoul,1.0,Bite,9.0,5.8333335,2.4152296,0.26835883
+267,Ghoul,16872-ghoul,1.0,Claws,7.0,2.5,1.5811388,0.22587697
+268,Ghast,16870-ghast,2.0,Bite,12.0,10.5,3.2403703,0.27003086
+269,Ghast,16870-ghast,2.0,Claws,10.0,5.8333335,2.4152296,0.24152295
+270,Fire Giant,16862-fire-giant,9.0,Greatsword,28.0,17.5,4.1833,0.14940357
+271,Fire Giant,16862-fire-giant,9.0,Rock,29.0,33.0,5.7445626,0.19808836
+273,Frost Giant,16867-frost-giant,8.0,Greataxe,25.5,35.75,5.9791303,0.2344757
+274,Frost Giant,16867-frost-giant,8.0,Rock,28.0,33.0,5.7445626,0.20516296
+276,Hill Giant,16923-hill-giant,5.0,Greatclub,18.5,15.75,3.968627,0.21452038
+277,Hill Giant,16923-hill-giant,5.0,Rock,21.5,24.75,4.974937,0.23139243
+279,Stone Giant,17024-stone-giant,7.0,Greatclub,19.5,15.75,3.968627,0.20351933
+280,Stone Giant,17024-stone-giant,7.0,Rock,28.0,33.0,5.7445626,0.20516296
+282,Gibbering Mouther,16901-gibbering-mouther,2.0,Bites,17.5,14.583333,3.818813,0.2182179
+283,Gnoll,16904-gnoll,0.5,Bite,4.5,1.25,1.118034,0.248452
+284,Gnoll,16904-gnoll,0.5,Spear,6.5,5.25,2.291288,0.35250583
+285,Gnoll,16904-gnoll,0.5,Longbow,5.5,5.25,2.291288,0.41659778
+286,Gnoll Pack Lord,17153-gnoll-pack-lord,2.0,Bite,5.5,1.25,1.118034,0.20327891
+287,Gnoll Pack Lord,17153-gnoll-pack-lord,2.0,Glaive,8.5,8.25,2.8722813,0.33791545
+288,Gnoll Pack Lord,17153-gnoll-pack-lord,2.0,Longbow,6.5,5.25,2.291288,0.35250583
+289,Gnoll Fang of Yeenoghu,17154-gnoll-fang-of-yeenoghu,4.0,Bite,13.5,8.75,2.95804,0.21911407
+290,Gnoll Fang of Yeenoghu,17154-gnoll-fang-of-yeenoghu,4.0,Claw,7.5,5.25,2.291288,0.30550504
+292,Goblin,16907-goblin,0.25,Scimitar,5.5,2.9166667,1.7078252,0.31051365
+293,Goblin,16907-goblin,0.25,Shortbow,5.5,2.9166667,1.7078252,0.31051365
+294,Goblin Boss,17155-goblin-boss,1.0,Scimitar,5.5,2.9166667,1.7078252,0.31051365
+295,Goblin Boss,17155-goblin-boss,1.0,Javelin,3.5,2.9166667,1.7078252,0.48795003
+296,Clay Golem,16825-clay-golem,9.0,Slam,16.0,16.5,4.0620193,0.2538762
+298,Flesh Golem,16863-flesh-golem,5.0,Slam,13.0,10.5,3.2403703,0.24925926
+300,Iron Golem,16935-iron-golem,16.0,Slam,20.5,15.75,3.968627,0.19359156
+301,Iron Golem,16935-iron-golem,16.0,Sword,23.5,24.75,4.974937,0.21169946
+302,Iron Golem,16935-iron-golem,16.0,Poison Breath,90.0,105.0,10.246951,0.11385501
+303,Stone Golem,17025-stone-golem,10.0,Slam,19.5,15.75,3.968627,0.20351933
+305,Gorgon,16908-gorgon,5.0,Gore,18.0,23.833334,4.8819394,0.27121887
+306,Gorgon,16908-gorgon,5.0,Hooves,16.0,16.5,4.0620193,0.2538762
+307,Grell,17157-grell,3.0,Tentacles,7.5,8.25,2.8722813,0.38297084
+308,Grell,17157-grell,3.0,Beak,7.0,2.5,1.5811388,0.22587697
+310,Grick,16912-grick,2.0,Tentacles,9.0,5.8333335,2.4152296,0.26835883
+311,Grick,16912-grick,2.0,Beak,5.5,2.9166667,1.7078252,0.31051365
+313,Grick Alpha,17158-grick-alpha,7.0,Tail,11.0,5.8333335,2.4152296,0.21956632
+314,Grick Alpha,17158-grick-alpha,7.0,Tentacles,22.0,21.0,4.582576,0.20829889
+315,Grick Alpha,17158-grick-alpha,7.0,Beak,13.0,10.5,3.2403703,0.24925926
+317,Griffon,16913-griffon,2.0,Beak,8.5,5.25,2.291288,0.2695633
+318,Griffon,16913-griffon,2.0,Claws,11.0,5.8333335,2.4152296,0.21956632
+320,Grimlock,16914-grimlock,0.25,Spiked Bone Club,8.0,2.5,1.5811388,0.19764236
+321,Sea Hag,17008-sea-hag,2.0,Claws,10.0,5.8333335,2.4152296,0.24152295
+322,Half-Red Dragon Veteran,16918-half-red-dragon-veteran,5.0,Longsword,8.5,8.25,2.8722813,0.33791545
+323,Half-Red Dragon Veteran,16918-half-red-dragon-veteran,5.0,Shortsword,6.5,2.9166667,1.7078252,0.26274234
+324,Half-Red Dragon Veteran,16918-half-red-dragon-veteran,5.0,Heavy Crossbow,6.5,8.25,2.8722813,0.44188944
+325,Half-Red Dragon Veteran,16918-half-red-dragon-veteran,5.0,Fire Breath,49.0,40.833332,6.3900967,0.13041013
+327,Harpy,16919-harpy,1.0,Claws,6.0,2.5,1.5811388,0.26352313
+328,Harpy,16919-harpy,1.0,Club,3.5,1.25,1.118034,0.31943828
+330,Hell Hound,16921-hell-hound,3.0,Bite,14.5,11.083333,3.329164,0.22959752
+331,Hell Hound,16921-hell-hound,3.0,Fire Breath,42.0,35.0,5.91608,0.14085904
+332,Helmed Horror,17159-helmed-horror,4.0,Longsword,9.5,8.25,2.8722813,0.3023454
+334,Hippogriff,16924-hippogriff,1.0,Beak,8.5,8.25,2.8722813,0.33791545
+335,Hippogriff,16924-hippogriff,1.0,Claws,10.0,5.8333335,2.4152296,0.24152295
+337,Hobgoblin,16925-hobgoblin,0.5,Longsword,6.5,8.25,2.8722813,0.44188944
+338,Hobgoblin,16925-hobgoblin,0.5,Longbow,5.5,5.25,2.291288,0.41659778
+339,Hobgoblin Captain,17160-hobgoblin-captain,3.0,Greatsword,9.0,5.8333335,2.4152296,0.26835883
+340,Hobgoblin Captain,17160-hobgoblin-captain,3.0,Javelin,5.5,2.9166667,1.7078252,0.31051365
+342,Hobgoblin Warlord,17161-hobgoblin-warlord,6.0,Longsword,8.5,8.25,2.8722813,0.33791545
+343,Hobgoblin Warlord,17161-hobgoblin-warlord,6.0,Shield Bash,5.5,1.25,1.118034,0.20327891
+344,Hobgoblin Warlord,17161-hobgoblin-warlord,6.0,Javelin,6.5,2.9166667,1.7078252,0.26274234
+346,Homunculus,16926-homunculus,0.0,Bite,1.0,0.0,0.0,0.0
+347,Hook Horror,17162-hook-horror,3.0,Hook,11.0,5.8333335,2.4152296,0.21956632
+349,Hydra,16929-hydra,8.0,Bite,10.5,8.25,2.8722813,0.2735506
+351,Intellect Devourer,17163-intellect-devourer,2.0,Claws,7.0,2.5,1.5811388,0.22587697
+352,Invisible Stalker,16934-invisible-stalker,6.0,Slam,10.0,5.8333335,2.4152296,0.24152295
+354,Jackalwere,17164-jackalwere,0.5,Bite,4.5,1.25,1.118034,0.248452
+355,Jackalwere,17164-jackalwere,0.5,Scimitar,5.5,2.9166667,1.7078252,0.31051365
+356,Kenku,17165-kenku,0.25,Shortsword,6.5,2.9166667,1.7078252,0.26274234
+357,Kenku,17165-kenku,0.25,Shortbow,6.5,2.9166667,1.7078252,0.26274234
+358,Kobold,16939-kobold,0.125,Dagger,4.5,1.25,1.118034,0.248452
+359,Kobold,16939-kobold,0.125,Sling,4.5,1.25,1.118034,0.248452
+360,Winged Kobold,17210-winged-kobold,0.25,Dagger,5.5,1.25,1.118034,0.20327891
+361,Winged Kobold,17210-winged-kobold,0.25,Dropped Rock,6.5,2.9166667,1.7078252,0.26274234
+362,Kuo-toa,17166-kuo-toa,0.25,Bite,3.5,1.25,1.118034,0.31943828
+363,Kuo-toa,17166-kuo-toa,0.25,Spear,5.5,5.25,2.291288,0.41659778
+364,Lizardfolk,16946-lizardfolk,0.5,Bite,5.5,2.9166667,1.7078252,0.31051365
+365,Lizardfolk,16946-lizardfolk,0.5,Heavy Club,5.5,2.9166667,1.7078252,0.31051365
+366,Lizardfolk,16946-lizardfolk,0.5,Javelin,5.5,2.9166667,1.7078252,0.31051365
+367,Lizardfolk,16946-lizardfolk,0.5,Spiked Shield,5.5,2.9166667,1.7078252,0.31051365
+368,Lizard King/Queen,17172-lizard-king-queen,4.0,Bite,6.5,2.9166667,1.7078252,0.26274234
+369,Lizard King/Queen,17172-lizard-king-queen,4.0,Claws,5.5,1.25,1.118034,0.20327891
+370,Lizard King/Queen,17172-lizard-king-queen,4.0,Trident,7.5,5.25,2.291288,0.30550504
+372,Werebear,17053-werebear,5.0,Bite,15.0,16.5,4.0620193,0.27080128
+373,Werebear,17053-werebear,5.0,Claw,13.0,10.5,3.2403703,0.24925926
+374,Werebear,17053-werebear,5.0,Greataxe,10.5,11.916667,3.4520526,0.3287669
+375,Wereboar,17054-wereboar,4.0,Maul,10.0,5.8333335,2.4152296,0.24152295
+376,Wereboar,17054-wereboar,4.0,Tusks,10.0,5.8333335,2.4152296,0.24152295
+377,Wererat,17055-wererat,2.0,Bite,4.5,1.25,1.118034,0.248452
+378,Wererat,17055-wererat,2.0,Shortsword,5.5,2.9166667,1.7078252,0.31051365
+379,Wererat,17055-wererat,2.0,Hand Crossbow,5.5,2.9166667,1.7078252,0.31051365
+380,Weretiger,17056-weretiger,4.0,Bite,8.5,8.25,2.8722813,0.33791545
+381,Weretiger,17056-weretiger,4.0,Claw,7.5,5.25,2.291288,0.30550504
+382,Weretiger,17056-weretiger,4.0,Scimitar,6.5,2.9166667,1.7078252,0.26274234
+383,Weretiger,17056-weretiger,4.0,Longbow,6.5,5.25,2.291288,0.35250583
+384,Werewolf,17057-werewolf,3.0,Bite,6.5,5.25,2.291288,0.35250583
+385,Werewolf,17057-werewolf,3.0,Claws,7.0,2.5,1.5811388,0.22587697
+386,Werewolf,17057-werewolf,3.0,Spear,6.5,5.25,2.291288,0.35250583
+388,Magmin,16949-magmin,0.5,Touch,10.5,8.75,2.95804,0.28171808
+389,Manticore,16951-manticore,3.0,Bite,7.5,5.25,2.291288,0.30550504
+390,Manticore,16951-manticore,3.0,Claw,6.5,2.9166667,1.7078252,0.26274234
+391,Manticore,16951-manticore,3.0,Tail Spike,7.5,5.25,2.291288,0.30550504
+393,Medusa,16954-medusa,6.0,Snake Hair,18.5,12.916667,3.5939765,0.194269
+394,Medusa,16954-medusa,6.0,Shortsword,5.5,2.9166667,1.7078252,0.31051365
+395,Medusa,16954-medusa,6.0,Longbow,13.5,11.083333,3.329164,0.24660474
+396,Mud Mephit,17173-mud-mephit,0.25,Fists,4.5,2.9166667,1.7078252,0.3795167
+397,Merfolk,16955-merfolk,0.125,Spear,4.5,5.25,2.291288,0.50917506
+398,Merrow,16956-merrow,2.0,Bite,8.5,5.25,2.291288,0.2695633
+399,Merrow,16956-merrow,2.0,Claws,9.0,2.5,1.5811388,0.1756821
+400,Merrow,16956-merrow,2.0,Harpoon,11.0,5.8333335,2.4152296,0.21956632
+402,Mimic,16957-mimic,2.0,Pseudopod,7.5,5.25,2.291288,0.30550504
+403,Mimic,16957-mimic,2.0,Bite,12.0,10.5,3.2403703,0.27003086
+404,Minotaur,16958-minotaur,3.0,Greataxe,17.0,23.833334,4.8819394,0.2871729
+405,Minotaur,16958-minotaur,3.0,Gore,13.0,10.5,3.2403703,0.24925926
+406,Monodrone,17176-monodrone,0.125,Dagger,3.5,1.25,1.118034,0.31943828
+407,Monodrone,17176-monodrone,0.125,Javelin,3.5,2.9166667,1.7078252,0.48795003
+408,Duodrone,17180-duodrone,0.25,Fist,2.5,1.25,1.118034,0.4472136
+409,Duodrone,17180-duodrone,0.25,Javelin,4.5,2.9166667,1.7078252,0.3795167
+411,Tridrone,17177-tridrone,0.5,Fist,3.5,1.25,1.118034,0.31943828
+412,Tridrone,17177-tridrone,0.5,Javelin,4.5,2.9166667,1.7078252,0.3795167
+414,Quadrone,17178-quadrone,1.0,Fist,3.5,1.25,1.118034,0.31943828
+415,Quadrone,17178-quadrone,1.0,Shortbow,5.5,2.9166667,1.7078252,0.31051365
+417,Pentadrone,17179-pentadrone,2.0,Arm,5.5,2.9166667,1.7078252,0.31051365
+419,Mummy,16961-mummy,3.0,Rotting Fist,20.5,14.583333,3.818813,0.18628356
+420,Myconid Sprout,17181-myconid-sprout,0.0,Fist,4.0,2.5,1.5811388,0.3952847
+421,Myconid Adult,17183-myconid-adult,0.5,Fist,10.0,5.0,2.236068,0.2236068
+422,Myconid Sovereign,17184-myconid-sovereign,2.0,Fist,16.0,7.5,2.738613,0.1711633
+423,Quaggoth Spore Servant,17182-quaggoth-spore-servant,1.0,Claw,6.5,2.9166667,1.7078252,0.26274234
+425,Nightmare,16964-nightmare,3.0,Hooves,20.0,16.333334,4.041452,0.20207259
+426,Nothic,17092-nothic,2.0,Claw,6.5,2.9166667,1.7078252,0.26274234
+428,Ogre,16969-ogre,2.0,Greatclub,13.0,10.5,3.2403703,0.24925926
+429,Ogre,16969-ogre,2.0,Javelin,11.0,5.8333335,2.4152296,0.21956632
+430,Half-Ogre,17185-half-ogre,1.0,Battleaxe,14.0,16.5,4.0620193,0.29014423
+431,Half-Ogre,17185-half-ogre,1.0,Javelin,10.0,5.8333335,2.4152296,0.24152295
+432,Black Pudding,16808-black-pudding,4.0,Pseudopod,24.5,23.916666,4.8904667,0.19961089
+433,Gelatinous Cube,16869-gelatinous-cube,2.0,Pseudopod,10.5,8.75,2.95804,0.28171808
+434,Gray Ooze,16909-gray-ooze,0.5,Pseudopod,11.5,8.75,2.95804,0.25722086
+435,Ochre Jelly,16967-ochre-jelly,2.0,Pseudopod,12.5,8.75,2.95804,0.2366432
+436,Orc,16972-orc,0.5,Greataxe,9.5,11.916667,3.4520526,0.36337397
+437,Orc,16972-orc,0.5,Javelin,6.5,2.9166667,1.7078252,0.26274234
+438,Orog,17189-orog,2.0,Greataxe,10.5,11.916667,3.4520526,0.3287669
+439,Orog,17189-orog,2.0,Javelin,7.5,2.9166667,1.7078252,0.22771002
+441,Otyugh,16973-otyugh,5.0,Bite,12.0,10.5,3.2403703,0.27003086
+442,Otyugh,16973-otyugh,5.0,Tentacle,12.0,10.5,3.2403703,0.27003086
+443,Otyugh,16973-otyugh,5.0,Tentacle Slam,10.0,5.8333335,2.4152296,0.24152295
+445,Owlbear,16975-owlbear,3.0,Beak,10.5,8.25,2.8722813,0.2735506
+446,Owlbear,16975-owlbear,3.0,Claws,14.0,10.5,3.2403703,0.23145503
+448,Pegasus,16977-pegasus,2.0,Hooves,11.0,5.8333335,2.4152296,0.21956632
+449,Peryton,17190-peryton,2.0,Gore,7.5,5.25,2.291288,0.30550504
+450,Peryton,17190-peryton,2.0,Talons,8.0,2.5,1.5811388,0.19764236
+452,Purple Worm,16987-purple-worm,15.0,Bite,43.5,33.25,5.766281,0.1325582
+453,Purple Worm,16987-purple-worm,15.0,Tail Stinger,61.5,43.75,6.6143785,0.10755087
+455,Quaggoth,17193-quaggoth,2.0,Claw,6.5,2.9166667,1.7078252,0.26274234
+457,Remorhaz,16995-remorhaz,11.0,Bite,50.5,58.25,7.632169,0.15113206
+458,Remorhaz,16995-remorhaz,11.0,Swallow,21.0,17.5,4.1833,0.19920477
+459,Young Remorhaz,17195-young-remorhaz,5.0,Bite,27.5,30.583334,5.53022,0.2010989
+460,Revenant,17196-revenant,5.0,Fist,25.0,17.5,4.1833,0.16733201
+462,Roc,16998-roc,11.0,Beak,27.0,21.0,4.582576,0.16972503
+463,Roc,16998-roc,11.0,Talons,23.0,11.666667,3.4156504,0.14850654
+465,Roper,16999-roper,5.0,Bite,22.0,21.0,4.582576,0.20829889
+466,Rust Monster,17001-rust-monster,0.5,Bite,5.5,5.25,2.291288,0.41659778
+467,Sahuagin,17003-sahuagin,0.5,Bite,3.5,1.25,1.118034,0.31943828
+468,Sahuagin,17003-sahuagin,0.5,Claws,3.5,1.25,1.118034,0.31943828
+469,Sahuagin,17003-sahuagin,0.5,Spear,5.5,5.25,2.291288,0.41659778
+471,Sahuagin Baron,17198-sahuagin-baron,5.0,Bite,9.0,2.5,1.5811388,0.1756821
+472,Sahuagin Baron,17198-sahuagin-baron,5.0,Claws,11.0,5.8333335,2.4152296,0.21956632
+473,Sahuagin Baron,17198-sahuagin-baron,5.0,Trident,13.0,10.5,3.2403703,0.24925926
+475,Fire Snake,17199-fire-snake,1.0,Bite,7.0,4.1666665,2.0412414,0.29160592
+476,Fire Snake,17199-fire-snake,1.0,Tail,7.0,4.1666665,2.0412414,0.29160592
+478,Salamander,17004-salamander,5.0,Spear,16.5,13.416667,3.6628768,0.22199254
+479,Salamander,17004-salamander,5.0,Tail,18.0,11.666667,3.4156504,0.18975835
+481,Satyr,17005-satyr,0.5,Ram,6.0,2.5,1.5811388,0.26352313
+482,Satyr,17005-satyr,0.5,Shortsword,6.5,2.9166667,1.7078252,0.26274234
+483,Satyr,17005-satyr,0.5,Shortbow,6.5,2.9166667,1.7078252,0.26274234
+484,Scarecrow,17200-scarecrow,1.0,Claw,6.0,2.5,1.5811388,0.26352313
+486,Shadow,17010-shadow,0.5,Strength Drain,9.0,5.8333335,2.4152296,0.26835883
+487,Shambling Mound,17011-shambling-mound,5.0,Slam,13.0,10.5,3.2403703,0.24925926
+488,Shield Guardian,17012-shield-guardian,7.0,Fist,11.0,5.8333335,2.4152296,0.21956632
+490,Minotaur Skeleton,16959-minotaur-skeleton,2.0,Greataxe,17.0,23.833334,4.8819394,0.2871729
+491,Minotaur Skeleton,16959-minotaur-skeleton,2.0,Gore,13.0,10.5,3.2403703,0.24925926
+492,Warhorse Skeleton,17050-warhorse-skeleton,0.5,Hooves,11.0,5.8333335,2.4152296,0.21956632
+493,Slaad Tadpole,17117-slaad-tadpole,0.125,Bite,4.5,1.25,1.118034,0.248452
+494,Red Slaad,17116-red-slaad,5.0,Bite,8.0,2.5,1.5811388,0.19764236
+495,Blue Slaad,17112-blue-slaad,7.0,Bite,12.0,5.8333335,2.4152296,0.20126912
+496,Blue Slaad,17112-blue-slaad,7.0,Claw,12.0,5.8333335,2.4152296,0.20126912
+498,Specter,17017-specter,1.0,Life Drain,10.5,8.75,2.95804,0.28171808
+499,Stirge,17023-stirge,0.125,Blood Drain,5.5,1.25,1.118034,0.20327891
+500,Succubus,17027-succubus,4.0,Claw,6.5,2.9166667,1.7078252,0.26274234
+501,Succubus,17027-succubus,4.0,Draining Kiss,32.5,41.25,6.4226165,0.19761896
+502,Thri-kreen,17203-thri-kreen,1.0,Bite,4.5,2.9166667,1.7078252,0.3795167
+503,Thri-kreen,17203-thri-kreen,1.0,Claws,6.0,2.5,1.5811388,0.26352313
+505,Treant,17037-treant,9.0,Slam,16.5,8.75,2.95804,0.17927514
+506,Treant,17037-treant,9.0,Rock,28.0,33.0,5.7445626,0.20516296
+508,Troglodyte,17204-troglodyte,0.25,Bite,4.5,1.25,1.118034,0.248452
+509,Troglodyte,17204-troglodyte,0.25,Claw,4.5,1.25,1.118034,0.248452
+511,Troll,17040-troll,5.0,Bite,7.5,2.9166667,1.7078252,0.22771002
+512,Troll,17040-troll,5.0,Claw,11.0,5.8333335,2.4152296,0.21956632
+514,Umber Hulk,17205-umber-hulk,5.0,Claw,9.5,5.25,2.291288,0.2411882
+515,Umber Hulk,17205-umber-hulk,5.0,Mandibles,14.0,10.5,3.2403703,0.23145503
+517,Vampire Spawn,17044-vampire-spawn,5.0,Claws,8.0,2.5,1.5811388,0.19764236
+518,Vampire Spawn,17044-vampire-spawn,5.0,Bite,13.5,8.75,2.95804,0.21911407
+519,Water Weird,17208-water-weird,3.0,Constrict,13.5,8.75,2.95804,0.21911407
+520,Wight,17059-wight,3.0,Life Drain,5.5,2.9166667,1.7078252,0.31051365
+521,Wight,17059-wight,3.0,Longsword,7.5,8.25,2.8722813,0.38297084
+522,Wight,17059-wight,3.0,Longbow,6.5,5.25,2.291288,0.35250583
+524,Will-o’-Wisp,17060-will-o-wisp,2.0,Shock,9.0,10.5,3.2403703,0.36004114
+525,Wraith,17064-wraith,5.0,Life Drain,21.0,21.0,4.582576,0.2182179
+526,Wyvern,17065-wyvern,6.0,Bite,11.0,5.8333335,2.4152296,0.21956632
+527,Wyvern,17065-wyvern,6.0,Claws,13.0,10.5,3.2403703,0.24925926
+528,Wyvern,17065-wyvern,6.0,Stinger,11.0,5.8333335,2.4152296,0.21956632
+530,Xorn,17066-xorn,5.0,Claw,6.5,2.9166667,1.7078252,0.26274234
+531,Xorn,17066-xorn,5.0,Bite,13.5,8.75,2.95804,0.21911407
+533,Yeti,17096-yeti,3.0,Claw,11.0,5.8333335,2.4152296,0.21956632
+534,Abominable Yeti,17105-abominable-yeti,9.0,Claw,21.0,11.666667,3.4156504,0.16265002
+535,Abominable Yeti,17105-abominable-yeti,9.0,Cold Breath,90.0,105.0,10.246951,0.11385501
+536,Ogre Zombie,16970-ogre-zombie,2.0,Morningstar,13.0,10.5,3.2403703,0.24925926
+537,Beholder Zombie,17111-beholder-zombie,5.0,Bite,14.0,11.666667,3.4156504,0.24397501
+538,Ape,16788-ape,0.5,Fist,6.5,2.9166667,1.7078252,0.26274234
+539,Ape,16788-ape,0.5,Rock,6.5,2.9166667,1.7078252,0.26274234
+541,Awakened Shrub,16791-awakened-shrub,0.0,Rake,1.5,1.25,1.118034,0.74535596
+542,Awakened Tree,16792-awakened-tree,2.0,Slam,14.5,8.75,2.95804,0.20400275
+543,Axe Beak,16793-axe-beak,0.25,Beak,6.5,5.25,2.291288,0.35250583
+544,Baboon,16795-baboon,0.0,Bite,1.5,1.25,1.118034,0.74535596
+545,Badger,16796-badger,0.0,Bite,1.0,0.0,0.0,0.0
+546,Blink Dog,16809-blink-dog,0.25,Bite,4.5,2.9166667,1.7078252,0.3795167
+547,Blood Hawk,16810-blood-hawk,0.125,Beak,4.5,1.25,1.118034,0.248452
+548,Camel,16819-camel,0.125,Bite,2.5,1.25,1.118034,0.4472136
+549,Crab,16833-crab,0.0,Claw,1.0,0.0,0.0,0.0
+550,Death Dog,16838-death-dog,1.0,Bite,5.5,2.9166667,1.7078252,0.31051365
+552,Deer,16839-deer,0.0,Bite,2.5,1.25,1.118034,0.4472136
+553,Draft Horse,16844-draft-horse,0.25,Hooves,9.0,2.5,1.5811388,0.1756821
+554,Eagle,16852-eagle,0.0,Talons,4.5,1.25,1.118034,0.248452
+555,Elephant,16855-elephant,4.0,Gore,19.5,15.75,3.968627,0.20351933
+556,Elephant,16855-elephant,4.0,Stomp,22.5,24.75,4.974937,0.22110832
+557,Elk,16857-elk,0.25,Ram,6.5,2.9166667,1.7078252,0.26274234
+558,Elk,16857-elk,0.25,Hooves,8.0,2.5,1.5811388,0.19764236
+559,Flying Snake,16864-flying-snake,0.125,Bite,8.5,3.75,1.9364917,0.22782256
+560,Giant Ape,16873-giant-ape,7.0,Fist,22.5,24.75,4.974937,0.22110832
+561,Giant Ape,16873-giant-ape,7.0,Rock,30.5,20.416666,4.518481,0.1481469
+563,Giant Badger,16874-giant-badger,0.25,Bite,4.5,2.9166667,1.7078252,0.3795167
+564,Giant Badger,16874-giant-badger,0.25,Claws,6.0,2.5,1.5811388,0.26352313
+566,Giant Bat,16875-giant-bat,0.25,Bite,5.5,2.9166667,1.7078252,0.31051365
+567,Giant Boar,16876-giant-boar,2.0,Tusk,10.0,5.8333335,2.4152296,0.24152295
+568,Giant Centipede,16877-giant-centipede,0.25,Bite,15.0,10.0,3.1622777,0.21081851
+569,Giant Constrictor Snake,16878-giant-constrictor-snake,2.0,Bite,11.0,5.8333335,2.4152296,0.21956632
+570,Giant Constrictor Snake,16878-giant-constrictor-snake,2.0,Constrict,13.0,10.5,3.2403703,0.24925926
+571,Giant Crab,16879-giant-crab,0.125,Claw,4.5,2.9166667,1.7078252,0.3795167
+572,Giant Crocodile,16880-giant-crocodile,5.0,Bite,21.5,24.75,4.974937,0.23139243
+573,Giant Crocodile,16880-giant-crocodile,5.0,Tail,14.0,10.5,3.2403703,0.23145503
+575,Giant Elk,16882-giant-elk,2.0,Ram,11.0,5.8333335,2.4152296,0.21956632
+576,Giant Elk,16882-giant-elk,2.0,Hooves,22.0,21.0,4.582576,0.20829889
+577,Giant Fire Beetle,16883-giant-fire-beetle,0.0,Bite,2.5,2.9166667,1.7078252,0.68313
+578,Giant Frog,16884-giant-frog,0.25,Bite,4.5,2.9166667,1.7078252,0.3795167
+579,Giant Frog,16884-giant-frog,0.25,Swallow,5.0,2.5,1.5811388,0.31622776
+580,Giant Goat,16885-giant-goat,0.5,Ram,8.0,2.5,1.5811388,0.19764236
+581,Giant Hyena,16886-giant-hyena,1.0,Bite,10.0,5.8333335,2.4152296,0.24152295
+582,Giant Lizard,16887-giant-lizard,0.25,Bite,6.5,5.25,2.291288,0.35250583
+583,Giant Octopus,16888-giant-octopus,1.0,Tentacles,10.0,5.8333335,2.4152296,0.24152295
+584,Giant Owl,16889-giant-owl,0.25,Talons,8.0,5.8333335,2.4152296,0.3019037
+585,Giant Poisonous Snake,16890-giant-poisonous-snake,0.25,Bite,17.0,10.0,3.1622777,0.18601634
+586,Giant Rat,16891-giant-rat,0.125,Bite,4.5,1.25,1.118034,0.248452
+587,Giant Scorpion,16892-giant-scorpion,3.0,Claw,6.5,5.25,2.291288,0.35250583
+588,Giant Scorpion,16892-giant-scorpion,3.0,Sting,29.5,41.25,6.4226165,0.2177158
+590,Giant Sea Horse,16893-giant-sea-horse,0.5,Ram,4.5,2.9166667,1.7078252,0.3795167
+591,Giant Shark,16894-giant-shark,5.0,Bite,22.5,24.75,4.974937,0.22110832
+592,Giant Toad,16896-giant-toad,1.0,Bite,13.0,16.5,4.0620193,0.31246302
+593,Giant Toad,16896-giant-toad,1.0,Swallow,10.5,8.75,2.95804,0.28171808
+594,Giant Vulture,16897-giant-vulture,1.0,Beak,7.0,2.5,1.5811388,0.22587697
+595,Giant Vulture,16897-giant-vulture,1.0,Talons,9.0,5.8333335,2.4152296,0.26835883
+597,Giant Wasp,16898-giant-wasp,0.5,Sting,16.0,11.666667,3.4156504,0.21347815
+598,Giant Weasel,16899-giant-weasel,0.125,Bite,5.5,1.25,1.118034,0.20327891
+599,Giant Wolf Spider,16900-giant-wolf-spider,0.25,Bite,11.5,8.75,2.95804,0.25722086
+600,Goat,16906-goat,0.0,Ram,3.5,1.25,1.118034,0.31943828
+601,Hunter Shark,16928-hunter-shark,2.0,Bite,13.0,10.5,3.2403703,0.24925926
+602,Hyena,16930-hyena,0.0,Bite,3.5,2.9166667,1.7078252,0.48795003
+603,Jackal,16936-jackal,0.0,Bite,1.5,1.25,1.118034,0.74535596
+604,Killer Whale,16937-killer-whale,3.0,Bite,21.5,14.583333,3.818813,0.17761922
+605,Lizard,16945-lizard,0.0,Bite,1.0,0.0,0.0,0.0
+606,Mammoth,16950-mammoth,6.0,Gore,25.0,21.0,4.582576,0.18330303
+607,Mammoth,16950-mammoth,6.0,Stomp,29.0,33.0,5.7445626,0.19808836
+608,Octopus,16968-octopus,0.0,Tentacles,1.0,0.0,0.0,0.0
+609,Phase Spider,16978-phase-spider,3.0,Bite,25.5,29.25,5.408327,0.21209125
+610,Polar Bear,16983-polar-bear,2.0,Bite,9.5,5.25,2.291288,0.2411882
+611,Polar Bear,16983-polar-bear,2.0,Claws,12.0,5.8333335,2.4152296,0.20126912
+613,Pony,16984-pony,0.125,Hooves,7.0,2.5,1.5811388,0.22587697
+614,Quipper,16989-quipper,0.0,Bite,1.0,0.0,0.0,0.0
+615,Rhinoceros,16996-rhinoceros,2.0,Gore,14.0,10.5,3.2403703,0.23145503
+616,Saber-Toothed Tiger,17002-saber-toothed-tiger,2.0,Bite,10.5,8.25,2.8722813,0.2735506
+617,Saber-Toothed Tiger,17002-saber-toothed-tiger,2.0,Claw,12.0,5.8333335,2.4152296,0.20126912
+618,Scorpion,17006-scorpion,0.0,Sting,5.5,5.25,2.291288,0.41659778
+619,Spider,17018-spider,0.0,Bite,3.5,1.25,1.118034,0.31943828
+620,Swarm of Bats,17028-swarm-of-bats,0.25,Bites,5.0,2.5,1.5811388,0.31622776
+621,Swarm of Insects,17029-swarm-of-insects,0.5,Bites,10.0,5.0,2.236068,0.2236068
+622,Swarm of Poisonous Snakes,17030-swarm-of-poisonous-snakes,2.0,Bites,7.0,5.8333335,2.4152296,0.34503278
+623,Swarm of Quippers,17031-swarm-of-quippers,1.0,Bites,14.0,11.666667,3.4156504,0.24397501
+624,Swarm of Rats,17032-swarm-of-rats,0.25,Bites,7.0,5.8333335,2.4152296,0.34503278
+625,Swarm of Ravens,17033-swarm-of-ravens,0.25,Beaks,7.0,5.8333335,2.4152296,0.34503278
+626,Vulture,17048-vulture,0.0,Beak,2.5,1.25,1.118034,0.4472136
+627,Weasel,17052-weasel,0.0,Bite,1.0,0.0,0.0,0.0
+628,Winter Wolf,17061-winter-wolf,3.0,Bite,11.0,5.8333335,2.4152296,0.21956632
+629,Winter Wolf,17061-winter-wolf,3.0,Cold Breath,36.0,42.0,6.4807405,0.18002057
+630,Worg,17063-worg,0.5,Bite,10.0,5.8333335,2.4152296,0.24152295
+631,Banderhobb,17217-banderhobb,5.0,Bite,22.5,14.583333,3.818813,0.16972503
+632,Banderhobb,17217-banderhobb,5.0,Tongue,10.5,8.75,2.95804,0.28171808
+633,Banderhobb,17217-banderhobb,5.0,Swallow,10.5,8.75,2.95804,0.28171808
+634,Death Kiss,17219-death-kiss,10.0,Tentacle,14.5,8.75,2.95804,0.20400275
+635,Gauth,17220-gauth,6.0,Bite,9.0,10.5,3.2403703,0.36004114
+636,Gazer,17221-gazer,0.5,Bite,1.0,0.0,0.0,0.0
+637,Bodak,17223-bodak,6.0,Fist,13.5,11.75,3.4278274,0.25391313
+638,Boggle,2556122-boggle,0.125,Pummel,2.5,2.9166667,1.7078252,0.68313
+639,Catoblepas,17225-catoblepas,5.0,Tail,21.5,14.583333,3.818813,0.17761922
+640,Cave Fisher,17226-cave-fisher,3.0,Claw,10.0,5.8333335,2.4152296,0.24152295
+642,Chitine,17227-chitine,0.5,Dagger,4.5,1.25,1.118034,0.248452
+644,Cranium Rat,17229-cranium-rat,0.0,Bite,1.0,0.0,0.0,0.0
+645,Darkling,2557737-darkling,0.5,Dagger,12.5,7.0833335,2.6614532,0.21291625
+646,Darkling Elder,2557774-darkling-elder,2.0,Shortsword,17.0,11.666667,3.4156504,0.2009206
+647,Deep Scion,17233-deep-scion,3.0,Battleaxe,9.5,8.25,2.8722813,0.3023454
+648,Deep Scion,17233-deep-scion,3.0,Bite,6.5,1.25,1.118034,0.17200524
+649,Deep Scion,17233-deep-scion,3.0,Claw,7.5,2.9166667,1.7078252,0.22771002
+651,Maw Demon,17235-maw-demon,1.0,Bite,11.0,10.5,3.2403703,0.29457912
+652,Shoosuva,17236-shoosuva,8.0,Bite,26.0,33.0,5.7445626,0.22094472
+653,Shoosuva,17236-shoosuva,8.0,Tail Stinger,13.0,10.5,3.2403703,0.24925926
+655,Devourer,17237-devourer,13.0,Claw,33.0,23.333334,4.830459,0.14637755
+656,Devourer,17237-devourer,13.0,Soul Rend,88.0,132.0,11.489125,0.13055824
+657,Brontosaurus,17239-brontosaurus,5.0,Stomp,27.5,26.25,5.1234756,0.18630819
+658,Brontosaurus,17239-brontosaurus,5.0,Tail,32.0,31.5,5.612486,0.17539018
+659,Deinonychus,17240-deinonychus,1.0,Bite,6.5,5.25,2.291288,0.35250583
+660,Deinonychus,17240-deinonychus,1.0,Claw,6.5,5.25,2.291288,0.35250583
+662,Dimetrodon,17238-dimetrodon,0.25,Bite,9.0,5.8333335,2.4152296,0.26835883
+663,Hadrosaurus,17241-hadrosaurus,0.25,Tail,7.5,8.25,2.8722813,0.38297084
+664,Quetzalcoatlus,17242-quetzalcoatlus,2.0,Bite,12.5,8.75,2.95804,0.2366432
+665,Stegosaurus,17244-stegosaurus,4.0,Tail,26.0,17.5,4.1833,0.16089615
+666,Velociraptor,17243-velociraptor,0.25,Bite,5.5,2.9166667,1.7078252,0.31051365
+667,Velociraptor,17243-velociraptor,0.25,Claws,4.5,1.25,1.118034,0.248452
+669,Firenewt Warrior,17246-firenewt-warrior,0.5,Scimitar,4.5,2.9166667,1.7078252,0.3795167
+671,Giant Strider,17247-giant-strider,1.0,Bite,8.5,5.25,2.291288,0.2695633
+672,Flail Snail,17249-flail-snail,3.0,Flail Tentacle,6.5,2.9166667,1.7078252,0.26274234
+674,Froghemoth,17250-froghemoth,10.0,Tentacle,19.5,15.75,3.968627,0.20351933
+675,Froghemoth,17250-froghemoth,10.0,Bite,33.0,33.5,5.7879186,0.17539147
+676,Fire Giant Dreadnought,17252-fire-giant-dreadnought,14.0,Fireshield,36.0,23.333334,4.830459,0.13417941
+677,Fire Giant Dreadnought,17252-fire-giant-dreadnought,14.0,Rock,30.0,33.0,5.7445626,0.19148542
+678,Fire Giant Dreadnought,17252-fire-giant-dreadnought,14.0,Shield Charge,29.0,17.5,4.1833,0.14425173
+680,Mouth of Grolantor,17254-mouth-of-grolantor,6.0,Bite,15.5,8.75,2.95804,0.19084129
+681,Mouth of Grolantor,17254-mouth-of-grolantor,6.0,Fist,18.5,15.75,3.968627,0.21452038
+682,Stone Giant Dreamwalker,17255-stone-giant-dreamwalker,10.0,Greatclub,19.5,15.75,3.968627,0.20351933
+683,Stone Giant Dreamwalker,17255-stone-giant-dreamwalker,10.0,Rock,28.0,33.0,5.7445626,0.20516296
+685,Girallon,17257-girallon,4.0,Bite,7.5,2.9166667,1.7078252,0.22771002
+686,Girallon,17257-girallon,4.0,Claw,7.5,2.9166667,1.7078252,0.22771002
+688,Flind,17258-flind,9.0,Flail of Madness,10.5,8.25,2.8722813,0.2735506
+689,Flind,17258-flind,9.0,Flail of Pain,32.5,41.25,6.4226165,0.19761896
+690,Flind,17258-flind,9.0,Flail of Paralysis,10.5,8.25,2.8722813,0.2735506
+691,Flind,17258-flind,9.0,Longbow,4.5,5.25,2.291288,0.50917506
+693,Gnoll Flesh Gnawer,17259-gnoll-flesh-gnawer,1.0,Bite,4.5,1.25,1.118034,0.248452
+694,Gnoll Flesh Gnawer,17259-gnoll-flesh-gnawer,1.0,Shortsword,5.5,2.9166667,1.7078252,0.31051365
+696,Gnoll Hunter,17260-gnoll-hunter,0.5,Bite,4.5,1.25,1.118034,0.248452
+697,Gnoll Hunter,17260-gnoll-hunter,0.5,Spear,6.5,5.25,2.291288,0.35250583
+698,Gnoll Witherling,17261-gnoll-witherling,0.25,Bite,4.5,1.25,1.118034,0.248452
+699,Gnoll Witherling,17261-gnoll-witherling,0.25,Club,4.5,1.25,1.118034,0.248452
+701,Grung,17262-grung,0.25,Dagger,9.5,3.75,1.9364917,0.20384122
+702,Grung Elite Warrior,17263-grung-elite-warrior,2.0,Dagger,10.5,3.75,1.9364917,0.18442778
+703,Grung Elite Warrior,17263-grung-elite-warrior,2.0,Shortbow,11.5,5.4166665,2.3273733,0.20238028
+704,Guard Drake,17265-guard-drake,2.0,Bite,7.5,5.25,2.291288,0.30550504
+705,Guard Drake,17265-guard-drake,2.0,Tail,6.5,2.9166667,1.7078252,0.26274234
+707,Kobold Dragonshield,17276-kobold-dragonshield,1.0,Spear,5.5,5.25,2.291288,0.41659778
+708,Kobold Inventor,17277-kobold-inventor,0.25,Dagger,4.5,1.25,1.118034,0.248452
+709,Kobold Inventor,17277-kobold-inventor,0.25,Sling,4.5,1.25,1.118034,0.248452
+710,Leucrotta,17280-leucrotta,3.0,Bite,8.5,5.25,2.291288,0.2695633
+711,Leucrotta,17280-leucrotta,3.0,Hooves,11.0,5.8333335,2.4152296,0.21956632
+713,Meenlock,17281-meenlock,2.0,Claws,7.0,2.5,1.5811388,0.22587697
+714,Mindwitness,17286-mindwitness,5.0,Bite,16.0,11.666667,3.4156504,0.21347815
+715,Mindwitness,17286-mindwitness,5.0,Tentacles,20.0,21.0,4.582576,0.22912878
+717,Neogi Hatchling,17288-neogi-hatchling,0.125,Bite,10.5,7.0833335,2.6614532,0.25347173
+718,Neogi,17289-neogi,3.0,Bite,20.5,14.583333,3.818813,0.18628356
+719,Neogi,17289-neogi,3.0,Claws,8.0,2.5,1.5811388,0.19764236
+721,Orc Blade of Ilneval,17293-orc-blade-of-ilneval,4.0,Longsword,14.0,16.5,4.0620193,0.29014423
+722,Orc Blade of Ilneval,17293-orc-blade-of-ilneval,4.0,Javelin,6.5,2.9166667,1.7078252,0.26274234
+723,Orc Nurtured One of Yurtrus,17296-orc-nurtured-one-of-yurtrus,0.5,Claws,7.0,2.5,1.5811388,0.22587697
+724,Orc Red Fang of Shargaas,17297-orc-red-fang-of-shargaas,3.0,Scimitar,13.5,8.75,2.95804,0.21911407
+725,Orc Red Fang of Shargaas,17297-orc-red-fang-of-shargaas,3.0,Dart,10.5,3.75,1.9364917,0.18442778
+727,Tanarukk,17298-tanarukk,5.0,Bite,8.5,5.25,2.291288,0.2695633
+728,Tanarukk,17298-tanarukk,5.0,Greatsword,11.0,5.8333335,2.4152296,0.21956632
+730,Quickling,2556176-quickling,1.0,Dagger,8.5,1.25,1.118034,0.13153341
+732,Redcap,2556141-redcap,3.0,Wicked Sickle,7.0,2.5,1.5811388,0.22587697
+733,Redcap,2556141-redcap,3.0,Ironbound Pursuit,20.5,24.75,4.974937,0.24267986
+735,Sea Spawn,17301-sea-spawn,1.0,Unarmed Strike,4.5,1.25,1.118034,0.248452
+736,Shadow Mastiff,17302-shadow-mastiff,2.0,Bite,10.0,5.8333335,2.4152296,0.24152295
+737,Slithering Tracker,17303-slithering-tracker,3.0,Slam,8.5,8.25,2.8722813,0.33791545
+738,Spawn of Kyuss,17304-spawn-of-kyuss,5.0,Claw,13.5,8.75,2.95804,0.21911407
+739,Tlincalli,17305-tlincalli,5.0,Longsword,8.5,8.25,2.8722813,0.33791545
+740,Tlincalli,17305-tlincalli,5.0,Spiked Chain,6.5,2.9166667,1.7078252,0.26274234
+741,Tlincalli,17305-tlincalli,5.0,Sting,20.5,14.583333,3.818813,0.18628356
+743,Vargouille,17307-vargouille,1.0,Bite,16.0,11.666667,3.4156504,0.21347815
+744,Vegepygmy,17308-vegepygmy,0.25,Claws,5.5,2.9166667,1.7078252,0.31051365
+745,Vegepygmy,17308-vegepygmy,0.25,Sling,4.5,1.25,1.118034,0.248452
+746,Thorny,17310-thorny,1.0,Bite,8.0,5.8333335,2.4152296,0.3019037
+747,Vegepygmy Chief,17309-vegepygmy-chief,2.0,Claws,5.5,2.9166667,1.7078252,0.31051365
+748,Vegepygmy Chief,17309-vegepygmy-chief,2.0,Spear,6.5,5.25,2.291288,0.35250583
+749,Vegepygmy Chief,17309-vegepygmy-chief,2.0,Spores,18.0,21.0,4.582576,0.25458753
+751,Wood Woad,17311-wood-woad,5.0,Club,14.0,5.0,2.236068,0.15971914
+753,Xvart,17312-xvart,0.125,Shortsword,5.5,2.9166667,1.7078252,0.31051365
+754,Xvart,17312-xvart,0.125,Sling,4.5,1.25,1.118034,0.248452
+755,Yeth Hound,17314-yeth-hound,4.0,Bite,25.0,17.5,4.1833,0.16733201
+756,Yuan-ti Broodguard,17316-yuan-ti-broodguard,2.0,Bite,6.5,5.25,2.291288,0.35250583
+757,Yuan-ti Broodguard,17316-yuan-ti-broodguard,2.0,Claws,5.5,2.9166667,1.7078252,0.31051365
+759,Aurochs,17320-aurochs,2.0,Gore,14.0,10.5,3.2403703,0.23145503
+760,Cow,17321-cow,0.25,Gore,7.5,2.9166667,1.7078252,0.22771002
+761,Dolphin,17322-dolphin,0.125,Slam,5.5,2.9166667,1.7078252,0.31051365
+762,Swarm of Rot Grubs,17323-swarm-of-rot-grubs,0.5,Bites,6.0,0.0,0.0,0.0
+763,Archer,17327-archer,3.0,Shortsword,7.5,2.9166667,1.7078252,0.22771002
+764,Archer,17327-archer,3.0,Longbow,8.5,5.25,2.291288,0.2695633
+766,Champion,17330-champion,9.0,Greatsword,19.0,11.666667,3.4156504,0.17977107
+767,Champion,17330-champion,9.0,Shortbow,12.5,8.75,2.95804,0.2366432
+769,Martial Arts Adept,17337-martial-arts-adept,3.0,Unarmed Strike,7.5,5.25,2.291288,0.30550504
+770,Martial Arts Adept,17337-martial-arts-adept,3.0,Dart,5.5,1.25,1.118034,0.20327891
+772,Master Thief,17338-master-thief,5.0,Shortsword,7.5,2.9166667,1.7078252,0.22771002
+773,Master Thief,17338-master-thief,5.0,Light Crossbow,8.5,5.25,2.291288,0.2695633
+775,Swashbuckler,17340-swashbuckler,3.0,Dagger,6.5,1.25,1.118034,0.17200524
+776,Swashbuckler,17340-swashbuckler,3.0,Rapier,8.5,5.25,2.291288,0.2695633
+778,Tortle,36902-tortle,0.25,Claws,4.5,1.25,1.118034,0.248452
+779,Tortle,36902-tortle,0.25,Quarterstaff,6.5,5.25,2.291288,0.35250583
+780,Tortle,36902-tortle,0.25,Light Crossbow,4.5,5.25,2.291288,0.50917506
+781,Allip,93770-allip,5.0,Maddening Touch,17.0,11.666667,3.4156504,0.2009206
+782,Boneclaw,93813-boneclaw,12.0,Piercing Claw,20.5,24.75,4.974937,0.24267986
+784,Cadaver Collector,93826-cadaver-collector,14.0,Slam,35.0,40.5,6.363961,0.18182746
+786,Choker,22369-choker,1.0,Tentacle,9.0,4.1666665,2.0412414,0.2268046
+788,Bronze Scout,93832-bronze-scout,1.0,Bite,9.0,4.1666665,2.0412414,0.2268046
+789,Iron Cobra,93842-iron-cobra,4.0,Bite,20.0,18.666666,4.3204937,0.2160247
+790,Oaken Bolter,93849-oaken-bolter,5.0,Lancing Bolt,15.0,16.5,4.0620193,0.27080128
+791,Oaken Bolter,93849-oaken-bolter,5.0,Harpoon,9.5,8.25,2.8722813,0.3023454
+793,Stone Defender,93871-stone-defender,4.0,Slam,11.0,5.8333335,2.4152296,0.21956632
+794,Corpse Flower,94136-corpse-flower,8.0,Tentacle,23.0,17.5,4.1833,0.18188262
+796,Alkilith,94158-alkilith,11.0,Tentacle,18.0,11.666667,3.4156504,0.18975835
+798,Armanite,94186-armanite,7.0,Hooves,12.0,5.8333335,2.4152296,0.20126912
+799,Armanite,94186-armanite,7.0,Claws,10.0,2.5,1.5811388,0.15811388
+800,Armanite,94186-armanite,7.0,Serrated Tail,16.0,16.5,4.0620193,0.2538762
+802,Bulezau,94204-bulezau,3.0,Barbed Tail,8.5,11.916667,3.4520526,0.40612382
+803,Maurezhi,94234-maurezhi,7.0,Bite,14.0,16.5,4.0620193,0.29014423
+804,Maurezhi,94234-maurezhi,7.0,Claws,12.0,10.5,3.2403703,0.27003086
+806,Nabassu,94266-nabassu,15.0,Claws,17.0,16.5,4.0620193,0.23894231
+807,Nabassu,94266-nabassu,15.0,Bite,32.0,47.666668,6.904105,0.21575329
+809,Rutterkin,94272-rutterkin,2.0,Bite,12.5,8.75,2.95804,0.2366432
+810,Wastrilith,94518-wastrilith,13.0,Bite,30.0,47.666668,6.904105,0.23013684
+811,Wastrilith,94518-wastrilith,13.0,Claws,18.0,11.666667,3.4156504,0.18975835
+813,Derro,17378-derro,0.25,Hooked Spear,3.5,2.9166667,1.7078252,0.48795003
+814,Derro,17378-derro,0.25,Light Crossbow,6.5,5.25,2.291288,0.35250583
+815,Black Abishai,94536-black-abishai,7.0,Scimitar,6.5,2.9166667,1.7078252,0.26274234
+816,Black Abishai,94536-black-abishai,7.0,Bite,17.5,18.75,4.3301272,0.24743582
+818,Red Abishai,94605-red-abishai,19.0,Morningstar,10.5,5.25,2.291288,0.2182179
+819,Red Abishai,94605-red-abishai,19.0,Claw,17.0,16.5,4.0620193,0.23894231
+820,Red Abishai,94605-red-abishai,19.0,Bite,61.0,82.5,9.082951,0.14890084
+821,White Abishai,94636-white-abishai,6.0,Longsword,8.5,8.25,2.8722813,0.33791545
+822,White Abishai,94636-white-abishai,6.0,Claw,8.5,8.25,2.8722813,0.33791545
+823,White Abishai,94636-white-abishai,6.0,Bite,9.0,4.1666665,2.0412414,0.2268046
+825,Merregon,95021-merregon,4.0,Halberd,9.5,8.25,2.8722813,0.3023454
+826,Merregon,95021-merregon,4.0,Heavy Crossbow,7.5,8.25,2.8722813,0.38297084
+828,Narzugon,95077-narzugon,13.0,Hellfire Lance,28.0,36.666668,6.0553007,0.21626075
+829,Nupperibo,95089-nupperibo,0.5,Bite,6.5,2.9166667,1.7078252,0.26274234
+830,Orthon,95094-orthon,10.0,Infernal Dagger,33.0,35.5,5.9581876,0.18055114
+831,Orthon,95094-orthon,10.0,Infernal Crossbow,31.5,31.083334,5.575243,0.17699184
+832,Duergar Hammerer,96474-duergar-hammerer,2.0,Claw,6.5,2.9166667,1.7078252,0.26274234
+833,Duergar Hammerer,96474-duergar-hammerer,2.0,Hammer,10.0,5.8333335,2.4152296,0.24152295
+835,Duergar Kavalrachni,17384-duergar-kavalrachni,2.0,War Pick,11.5,7.75,2.7838821,0.24207671
+836,Duergar Kavalrachni,17384-duergar-kavalrachni,2.0,Heavy Crossbow,5.5,8.25,2.8722813,0.52223295
+838,Duergar Mind Master,96485-duergar-mind-master,2.0,Mind-Poison Dagger,30.0,21.666666,4.6547465,0.15515822
+839,Duergar Screamer,96504-duergar-screamer,3.0,Drill,10.5,11.916667,3.4520526,0.3287669
+840,Duergar Screamer,96504-duergar-screamer,3.0,Sonic Scream,14.0,11.666667,3.4156504,0.24397501
+842,Duergar Stone Guard,17387-duergar-stone-guard,2.0,King's Knife,11.0,5.8333335,2.4152296,0.21956632
+843,Duergar Stone Guard,17387-duergar-stone-guard,2.0,Javelin,11.0,5.8333335,2.4152296,0.21956632
+844,Duergar Warlord,96520-duergar-warlord,6.0,Psychic-Attuned Hammer,20.5,24.75,4.974937,0.24267986
+845,Duergar Warlord,96520-duergar-warlord,6.0,Javelin,11.0,5.8333335,2.4152296,0.21956632
+846,Duergar Xarrorn,17388-duergar-xarrorn,2.0,Fire Lance,19.5,26.75,5.17204,0.26523283
+847,Sacred Statue,96536-sacred-statue,,Slam,43.0,71.5,8.455768,0.19664575
+848,Sacred Statue,96536-sacred-statue,,Rock,37.0,49.5,7.0356236,0.19015199
+850,Summer Eladrin,96584-summer-eladrin,10.0,Longsword,19.5,21.75,4.6636896,0.23916356
+851,Summer Eladrin,96584-summer-eladrin,10.0,Longbow,18.5,15.75,3.968627,0.21452038
+852,Air Elemental Myrmidon,17457-air-elemental-myrmidon,7.0,Flail,8.5,5.25,2.291288,0.2695633
+853,Air Elemental Myrmidon,17457-air-elemental-myrmidon,7.0,Lightning Strike,18.0,21.0,4.582576,0.25458753
+855,Earth Elemental Myrmidon,17458-earth-elemental-myrmidon,7.0,Maul,11.0,5.8333335,2.4152296,0.21956632
+856,Earth Elemental Myrmidon,17458-earth-elemental-myrmidon,7.0,Thunderous Strike,16.5,24.75,4.974937,0.30151135
+858,Fire Elemental Myrmidon,17459-fire-elemental-myrmidon,7.0,Scimitar,7.5,2.9166667,1.7078252,0.22771002
+859,Fire Elemental Myrmidon,17459-fire-elemental-myrmidon,7.0,Fiery Strikes,5.5,8.25,2.8722813,0.52223295
+861,Water Elemental Myrmidon,17460-water-elemental-myrmidon,7.0,Trident,8.5,5.25,2.291288,0.2695633
+862,Water Elemental Myrmidon,17460-water-elemental-myrmidon,7.0,Freezing Strikes,5.5,8.25,2.8722813,0.52223295
+864,Giff,97378-giff,3.0,Longsword,9.5,8.25,2.8722813,0.3023454
+865,Giff,97378-giff,3.0,Musket,8.5,11.916667,3.4520526,0.40612382
+866,Giff,97378-giff,3.0,Pistol,7.5,8.25,2.8722813,0.38297084
+868,Howler,97467-howler,8.0,Rending Bite,32.0,38.833332,6.23164,0.19473875
+870,Young Kruthik,97338-young-kruthik,0.125,Stab,5.5,1.25,1.118034,0.20327891
+871,Adult Kruthik,97345-adult-kruthik,2.0,Stab,6.5,2.9166667,1.7078252,0.26274234
+872,Adult Kruthik,97345-adult-kruthik,2.0,Spike,5.5,1.25,1.118034,0.20327891
+874,Kruthik Hive Lord,97356-kruthik-hive-lord,5.0,Stab,9.5,8.25,2.8722813,0.3023454
+875,Kruthik Hive Lord,97356-kruthik-hive-lord,5.0,Spike,7.5,2.9166667,1.7078252,0.22771002
+876,Kruthik Hive Lord,97356-kruthik-hive-lord,5.0,Acid Spray,44.0,66.0,8.124039,0.18463723
+878,Meazel,97003-meazel,1.0,Garrote,16.5,8.75,2.95804,0.17927514
+879,Meazel,97003-meazel,1.0,Shortsword,10.0,5.8333335,2.4152296,0.24152295
+880,Nightwalker,96519-nightwalker,20.0,Enervating Focus,28.5,26.25,5.1234756,0.17977107
+881,Oblex Spawn,96514-oblex-spawn,0.25,Pseudopod,8.0,2.5,1.5811388,0.19764236
+882,Ogre Battering Ram,96493-ogre-battering-ram,4.0,Block the Path,16.5,24.75,4.974937,0.30151135
+883,Ogre Howdah,96483-ogre-howdah,2.0,Mace,11.0,5.8333335,2.4152296,0.21956632
+884,Frost Salamander,95451-frost-salamander,9.0,Claws,8.5,2.9166667,1.7078252,0.2009206
+885,Frost Salamander,95451-frost-salamander,9.0,Bite,15.0,13.5,3.6742346,0.24494897
+886,Frost Salamander,95451-frost-salamander,9.0,Freezing Breath,88.0,132.0,11.489125,0.13055824
+888,Shadow Dancer,95441-shadow-dancer,7.0,Spiked Chain,10.0,5.8333335,2.4152296,0.24152295
+890,Skulk,95328-skulk,0.5,Claws,6.5,1.25,1.118034,0.17200524
+891,The Angry,95059-the-angry,13.0,Hook,16.0,23.833334,4.8819394,0.3051212
+893,The Hungry,95289-the-hungry,11.0,Bite,22.0,21.0,4.582576,0.20829889
+894,The Hungry,95289-the-hungry,11.0,Claws,18.0,11.666667,3.4156504,0.18975835
+896,The Lonely,95291-the-lonely,9.0,Harpoon Arm,21.0,21.0,4.582576,0.2182179
+897,The Lonely,95291-the-lonely,9.0,Sorrowful Embrace,18.0,21.0,4.582576,0.25458753
+899,The Wretched,95303-the-wretched,0.25,Bite,13.0,16.5,4.0620193,0.31246302
+900,Star Spawn Grue,94989-star-spawn-grue,0.25,Confounding Bite,6.0,2.5,1.5811388,0.26352313
+901,Star Spawn Hulk,94993-star-spawn-hulk,10.0,Slam,14.0,10.5,3.2403703,0.23145503
+902,Star Spawn Mangler,95006-star-spawn-mangler,5.0,Claw,8.5,5.25,2.291288,0.2695633
+904,Star Spawn Seer,95011-star-spawn-seer,13.0,Comet Staff,28.5,26.25,5.1234756,0.17977107
+905,Star Spawn Seer,95011-star-spawn-seer,13.0,Psychic Orb,27.5,41.25,6.4226165,0.23354968
+907,Female Steeder,17401-female-steeder,1.0,Bite,16.5,15.75,3.968627,0.24052285
+908,Male Steeder,17402-male-steeder,0.25,Bite,11.0,10.5,3.2403703,0.29457912
+909,Stone Cursed,94620-stone-cursed,1.0,Petrifying Claws,14.0,16.5,4.0620193,0.29014423
+910,Sword Wraith Commander,94600-sword-wraith-commander,8.0,Longsword,9.5,8.25,2.8722813,0.3023454
+911,Sword Wraith Commander,94600-sword-wraith-commander,8.0,Longbow,6.5,5.25,2.291288,0.35250583
+912,Sword Wraith Warrior,94613-sword-wraith-warrior,3.0,Longsword,9.5,8.25,2.8722813,0.3023454
+913,Sword Wraith Warrior,94613-sword-wraith-warrior,3.0,Longbow,5.5,5.25,2.291288,0.41659778
+914,Dire Troll,94218-dire-troll,13.0,Bite,16.0,13.5,3.6742346,0.22963966
+915,Dire Troll,94218-dire-troll,13.0,Claws,16.5,8.75,2.95804,0.17927514
+917,Rot Troll,94210-rot-troll,9.0,Bite,24.0,27.666666,5.259911,0.21916297
+918,Rot Troll,94210-rot-troll,9.0,Claws,16.5,14.083333,3.7527769,0.22744101
+920,Spirit Troll,94196-spirit-troll,11.0,Bite,19.5,24.75,4.974937,0.255125
+921,Spirit Troll,94196-spirit-troll,11.0,Claws,14.0,16.5,4.0620193,0.29014423
+923,Venom Troll,94193-venom-troll,7.0,Bite,12.0,8.166667,2.857738,0.23814483
+924,Venom Troll,94193-venom-troll,7.0,Claws,15.5,11.083333,3.329164,0.21478477
+926,Canoloth,93850-canoloth,8.0,Bite,25.0,17.5,4.1833,0.16733201
+927,Canoloth,93850-canoloth,8.0,Claws,15.0,16.5,4.0620193,0.27080128
+928,Canoloth,93850-canoloth,8.0,Tongue,17.0,23.833334,4.8819394,0.2871729
+930,Clawfoot Raptor,132801-clawfoot-raptor,0.5,Claws,10.0,5.8333335,2.4152296,0.24152295
+931,Clawfoot Raptor,132801-clawfoot-raptor,0.5,Bite,8.0,2.5,1.5811388,0.19764236
+932,Goblin Gang Member,177241-goblin-gang-member,0.25,Dagger,5.5,1.25,1.118034,0.20327891
+933,Goblin Gang Member,177241-goblin-gang-member,0.25,Light Crossbow,7.5,5.25,2.291288,0.30550504
+934,Krenko,177244-krenko,1.0,Scimitar,8.0,4.1666665,2.0412414,0.25515518
+935,Krenko,177244-krenko,1.0,Light Crossbow,6.5,5.25,2.291288,0.35250583
+937,Loading Rig,177246-loading-rig,1.0,Slam,7.5,2.9166667,1.7078252,0.22771002
+938,Battleforce Angel,174974-battleforce-angel,5.0,Longsword,26.5,29.25,5.408327,0.20408781
+939,Felidar,175342-felidar,5.0,Bite,17.5,15.75,3.968627,0.22677869
+940,Felidar,175342-felidar,5.0,Claws,14.5,8.75,2.95804,0.20400275
+942,Bloodfray Giant,175355-bloodfray-giant,6.0,Chain,16.5,8.75,2.95804,0.17927514
+943,Bloodfray Giant,175355-bloodfray-giant,6.0,Rock,16.5,8.75,2.95804,0.17927514
+944,Guardian Giant,175359-guardian-giant,8.0,Spear,20.5,15.75,3.968627,0.19359156
+946,Orzhov Giant,175944-orzhov-giant,6.0,Greataxe,25.5,35.75,5.9791303,0.2344757
+947,Orzhov Giant,175944-orzhov-giant,6.0,Rock,28.0,33.0,5.7445626,0.20516296
+949,Sunder Shaman,175950-sunder-shaman,10.0,Slam,24.0,21.0,4.582576,0.19094065
+950,Sunder Shaman,175950-sunder-shaman,10.0,Rock,28.0,33.0,5.7445626,0.20516296
+951,Flying Horror,175371-flying-horror,3.0,Claws,22.5,14.583333,3.818813,0.16972503
+952,Shadow Horror,175346-shadow-horror,9.0,Bite,21.0,21.0,4.582576,0.2182179
+953,Shadow Horror,175346-shadow-horror,9.0,Claw,13.5,8.75,2.95804,0.21911407
+955,Skittering Horror,175398-skittering-horror,15.0,Bite,28.0,33.0,5.7445626,0.20516296
+956,Skittering Horror,175398-skittering-horror,15.0,Claws,24.0,21.0,4.582576,0.19094065
+958,Indentured Spirit,175561-indentured-spirit,1.0,Withering Touch,10.5,8.75,2.95804,0.28171808
+959,Blistercoil Weird,175603-blistercoil-weird,4.0,Slam,28.5,22.75,4.769696,0.16735776
+960,Fluxcharger,175709-fluxcharger,7.0,Slam,23.5,19.25,4.387482,0.18670137
+961,Galvanice Weird,175704-galvanice-weird,1.0,Slam,10.5,5.4166665,2.3273733,0.22165461
+962,Category 1 Krasis,175630-category-1-krasis,1.0,Bite,8.5,8.25,2.8722813,0.33791545
+963,Category 1 Krasis,175630-category-1-krasis,1.0,Claws,7.5,5.25,2.291288,0.30550504
+965,Category 2 Krasis,175636-category-2-krasis,6.0,Bite,17.0,23.833334,4.8819394,0.2871729
+966,Category 2 Krasis,175636-category-2-krasis,6.0,Claws,17.0,23.833334,4.8819394,0.2871729
+968,Category 3 Krasis,175643-category-3-krasis,16.0,Bite,27.0,17.5,4.1833,0.15493704
+969,Category 3 Krasis,175643-category-3-krasis,16.0,Claws,22.5,24.75,4.974937,0.22110832
+970,Category 3 Krasis,175643-category-3-krasis,16.0,Tail,33.0,31.5,5.612486,0.17007534
+972,Kraul Warrior,175523-kraul-warrior,0.5,Spear,6.5,5.25,2.291288,0.35250583
+973,Nightveil Specter,175405-nightveil-specter,10.0,Scythe,24.5,21.583334,4.645787,0.18962394
+974,Nightveil Specter,175405-nightveil-specter,10.0,Mind Twist,45.0,52.5,7.2456884,0.1610153
+976,Gloamwing,175397-gloamwing,8.0,Bite,18.5,15.75,3.968627,0.21452038
+977,Gloamwing,175397-gloamwing,8.0,Claws,15.5,8.75,2.95804,0.19084129
+979,Nivix Cyclops,175392-nivix-cyclops,8.0,Slam,23.5,24.75,4.974937,0.21169946
+981,Hybrid Brute,175386-hybrid-brute,2.0,Claw,7.5,2.9166667,1.7078252,0.22771002
+983,Hybrid Poisoner,175384-hybrid-poisoner,1.0,Toxic Touch,10.5,8.75,2.95804,0.28171808
+984,Hybrid Shocker,175380-hybrid-shocker,1.0,Shocking Touch,9.0,10.5,3.2403703,0.36004114
+985,Hybrid Spy,175374-hybrid-spy,0.5,Shortsword,6.5,2.9166667,1.7078252,0.26274234
+987,Skyjek Roc,175365-skyjek-roc,2.0,Beak,9.5,5.25,2.291288,0.2411882
+988,Skyjek Roc,175365-skyjek-roc,2.0,Talons,10.0,2.5,1.5811388,0.15811388
+990,Skyswimmer,175360-skyswimmer,13.0,Bite,43.5,42.25,6.5,0.14942528
+991,Skyswimmer,175360-skyswimmer,13.0,Slam,19.0,23.833334,4.8819394,0.25694418
+993,Wurm,175314-wurm,14.0,Bite,42.0,29.166666,5.400617,0.12858613
+994,Soldier,175769-soldier,0.5,Longsword,7.5,8.25,2.8722813,0.38297084
+995,Anarch,175893-anarch,0.25,Spiked Club,7.5,8.25,2.8722813,0.38297084
+996,Rubblebelt Stalker,175906-rubblebelt-stalker,0.5,Shortsword,5.5,2.9166667,1.7078252,0.31051365
+998,Scorchbringer Guard,176757-scorchbringer-guard,0.5,Light Hammer,4.5,1.25,1.118034,0.248452
+999,Scorchbringer Guard,176757-scorchbringer-guard,0.5,Scorchbringer,14.0,11.666667,3.4156504,0.24397501
+1000,Viari,359321-viari,5.0,+1 Shortsword,9.5,2.9166667,1.7078252,0.17977107
+1001,Viari,359321-viari,5.0,Rapier,9.5,5.25,2.291288,0.2411882
+1002,Viari,359321-viari,5.0,Dagger,7.5,1.25,1.118034,0.1490712
+1004,Oak Truestrike,359869-oak-truestrike,2.0,Hooked Dagger,5.5,1.25,1.118034,0.20327891
+1005,Oak Truestrike,359869-oak-truestrike,2.0,Hand Crossbow,6.5,2.9166667,1.7078252,0.26274234
+1007,Portentia Dran,359976-portentia-dran,3.0,Shortsword,7.5,2.9166667,1.7078252,0.22771002
+1008,Chaos Quadrapod,359993-chaos-quadrapod,4.0,Tentacle,11.0,5.8333335,2.4152296,0.21956632
+1010,Keg Robot,360024-keg-robot,2.0,Fist,7.5,5.25,2.291288,0.30550504
+1011,Keg Robot,360024-keg-robot,2.0,Acid Squirt,7.5,5.25,2.291288,0.30550504
+1012,Splugoth the Returned,360031-splugoth-the-returned,2.0,Dagger,4.5,1.25,1.118034,0.248452
+1014,Clawfoot,561380-clawfoot,1.0,Bite,7.5,5.25,2.291288,0.30550504
+1015,Clawfoot,561380-clawfoot,1.0,Claws,7.5,5.25,2.291288,0.30550504
+1017,Fastieth,487586-fastieth,0.25,Bite,8.5,5.25,2.291288,0.2695633
+1018,Dolgaunt,487575-dolgaunt,3.0,Tentacle,7.5,2.9166667,1.7078252,0.22771002
+1019,Dolgaunt,487575-dolgaunt,3.0,Unarmed Strike,6.5,1.25,1.118034,0.17200524
+1021,Dolgrim,487585-dolgrim,0.5,Morningstar,6.5,5.25,2.291288,0.35250583
+1022,Dolgrim,487585-dolgrim,0.5,Spear,6.5,5.25,2.291288,0.35250583
+1023,Dolgrim,487585-dolgrim,0.5,Hand Crossbow,5.5,2.9166667,1.7078252,0.31051365
+1024,Expeditious Messenger,487593-expeditious-messenger,0.125,Bite,5.5,1.25,1.118034,0.20327891
+1025,Iron Defender,561453-iron-defender,1.0,Bite,6.5,2.9166667,1.7078252,0.26274234
+1026,Karrnathi Undead Soldier,487601-karrnathi-undead-soldier,3.0,Longsword,8.5,8.25,2.8722813,0.33791545
+1027,Karrnathi Undead Soldier,487601-karrnathi-undead-soldier,3.0,Longbow,6.5,5.25,2.291288,0.35250583
+1028,Undying Soldier,487658-undying-soldier,2.0,Spear,16.5,15.75,3.968627,0.24052285
+1030,Warforged Colossus,486330-warforged-colossus,25.0,Eldritch Turret,18.0,21.0,4.582576,0.25458753
+1031,Warforged Colossus,486330-warforged-colossus,25.0,Incinerating Beam,121.0,181.5,13.472194,0.11134044
+1032,Warforged Titan,486238-warforged-titan,8.0,Axehand,30.5,32.25,5.6789083,0.18619372
+1033,Warforged Titan,486238-warforged-titan,8.0,Hammerfist,19.5,15.75,3.968627,0.20351933
+1035,Changeling,487539-changeling,0.5,Dagger,4.5,1.25,1.118034,0.248452
+1037,Kalashtar,487557-kalashtar,0.25,Dagger,4.5,1.25,1.118034,0.248452
+1038,Shifter,489478-shifter,0.5,Shortsword,6.5,2.9166667,1.7078252,0.26274234
+1039,Shifter,489478-shifter,0.5,Bite,5.5,1.25,1.118034,0.20327891
+1040,Warforged Soldier,546111-warforged-soldier,1.0,Armblade,6.5,2.9166667,1.7078252,0.26274234
+1041,Warforged Soldier,546111-warforged-soldier,1.0,Javelin,6.5,2.9166667,1.7078252,0.26274234
+1043,Assassin Bug,588524-assassin-bug,3.0,Bite,7.5,8.25,2.8722813,0.38297084
+1044,Assassin Bug,588524-assassin-bug,3.0,Ovipositor,6.0,0.0,0.0,0.0
+1046,Blindheim,588546-blindheim,2.0,Bite,5.5,2.9166667,1.7078252,0.31051365
+1047,Blindheim,588546-blindheim,2.0,Radiant Blast,14.0,11.666667,3.4156504,0.24397501
+1048,crab folk,588563-crab-folk,3.0,Claw,7.5,2.9166667,1.7078252,0.22771002
+1050,dire corby,588585-dire-corby,0.5,Claw,6.5,5.25,2.291288,0.35250583
+1052,fog giant,588647-fog-giant,11.0,Greatsword,29.0,17.5,4.1833,0.14425173
+1053,fog giant,588647-fog-giant,11.0,Rock,30.0,33.0,5.7445626,0.19148542
+1054,jermlaine,588939-jermlaine,0.125,Dart,3.5,1.25,1.118034,0.31943828
+1055,khargra,588950-khargra,0.125,Bite,3.5,1.25,1.118034,0.31943828
+1056,killmoulis,588967-killmoulis,0.0,Slam,1.0,0.0,0.0,0.0
+1057,mite,588989-mite,0.25,Dagger,4.5,1.25,1.118034,0.248452
+1058,needle spawn,589001-needle-spawn,0.5,Claw,6.5,2.9166667,1.7078252,0.26274234
+1059,needle spawn,589001-needle-spawn,0.5,Needle,5.5,1.25,1.118034,0.20327891
+1060,needle lord,589010-needle-lord,3.0,Raking Vine,22.0,5.8333335,2.4152296,0.10978316
+1061,needle lord,589010-needle-lord,3.0,Needle,2.5,1.25,1.118034,0.4472136
+1063,norker,589016-norker,0.5,Bite,4.5,2.9166667,1.7078252,0.3795167
+1064,norker,589016-norker,0.5,Mace,4.5,2.9166667,1.7078252,0.3795167
+1066,norker war leader,589025-norker-war-leader,3.0,Bite,6.5,2.9166667,1.7078252,0.26274234
+1067,norker war leader,589025-norker-war-leader,3.0,Greataxe,9.5,11.916667,3.4520526,0.36337397
+1068,screaming devilkin,589036-screaming-devilkin,1.0,Barbed Tail,5.5,1.25,1.118034,0.20327891
+1069,xill,589081-xill,3.0,Claw,6.5,1.25,1.118034,0.17200524
+1071,Sken Zabriss,744336-sken-zabriss,1.0,Longsword,8.5,8.25,2.8722813,0.33791545
+1072,Kobold Underling,744321-kobold-underling,0.125,Shortsword,6.5,2.9166667,1.7078252,0.26274234
+1073,Kobold Underling,744321-kobold-underling,0.125,Hand Crossbow,6.5,2.9166667,1.7078252,0.26274234
+1074,Yinra Emberwind,744343-yinra-emberwind,0.5,Shortsword,6.5,2.9166667,1.7078252,0.26274234
+1075,Yinra Emberwind,744343-yinra-emberwind,0.5,Longbow,7.5,5.25,2.291288,0.30550504
+1076,Vox Seeker,745162-vox-seeker,0.125,Pincer,5.5,1.25,1.118034,0.20327891
+1077,Guardian Wolf,745189-guardian-wolf,4.0,Bite,11.5,8.25,2.8722813,0.2497636
+1078,Guardian Wolf,745189-guardian-wolf,4.0,Claws,15.0,10.5,3.2403703,0.2160247
+1080,Aeorian Absorber,744297-aeorian-absorber,10.0,Bite,16.0,16.5,4.0620193,0.2538762
+1081,Aeorian Absorber,744297-aeorian-absorber,10.0,Claws,12.0,5.8333335,2.4152296,0.20126912
+1082,Aeorian Absorber,744297-aeorian-absorber,10.0,Mind Bolt,22.0,33.0,5.7445626,0.26111647
+1084,Aeorian Reverser,744299-aeorian-reverser,8.0,Bite,18.0,23.833334,4.8819394,0.27121887
+1085,Aeorian Reverser,744299-aeorian-reverser,8.0,Claws,15.5,8.75,2.95804,0.19084129
+1087,Core Spawn Crawler,744305-core-spawn-crawler,1.0,Bite,4.5,1.25,1.118034,0.248452
+1088,Core Spawn Crawler,744305-core-spawn-crawler,1.0,Claws,4.5,1.25,1.118034,0.248452
+1089,Core Spawn Crawler,744305-core-spawn-crawler,1.0,Tail,5.5,2.9166667,1.7078252,0.31051365
+1091,Core Spawn Emissary,744306-core-spawn-emissary,6.0,Talons,14.0,16.5,4.0620193,0.29014423
+1093,Core Spawn Seer,744307-core-spawn-seer,13.0,Fission Staff,27.5,23.916666,4.8904667,0.17783517
+1094,Core Spawn Seer,744307-core-spawn-seer,13.0,Psychedelic Orb,27.5,41.25,6.4226165,0.23354968
+1096,Core Spawn Worm,744308-core-spawn-worm,15.0,Barbed Tentacles,25.5,14.583333,3.818813,0.14975737
+1097,Core Spawn Worm,744308-core-spawn-worm,15.0,Bite,51.5,43.75,6.6143785,0.12843452
+1099,Frost Giant Zombie,744311-frost-giant-zombie,9.0,Greataxe,25.5,35.75,5.9791303,0.2344757
+1100,Frost Giant Zombie,744311-frost-giant-zombie,9.0,Hurl Rock,28.0,33.0,5.7445626,0.20516296
+1101,Frost Worm,744312-frost-worm,17.0,Bite,54.0,42.0,6.4807405,0.120013714
+1102,Gearkeeper Construct,744313-gearkeeper-construct,10.0,Arm Blade,18.5,15.75,3.968627,0.21452038
+1103,Gearkeeper Construct,744313-gearkeeper-construct,10.0,Spear Launcher,12.0,5.8333335,2.4152296,0.20126912
+1104,Gearkeeper Construct,744313-gearkeeper-construct,10.0,Shrapnel Blast,42.0,35.0,5.91608,0.14085904
+1106,Gloomstalker,744314-gloomstalker,6.0,Bite,22.0,16.333334,4.041452,0.18370236
+1107,Gloomstalker,744314-gloomstalker,6.0,Claw,20.0,11.666667,3.4156504,0.1707825
+1108,Gloomstalker,744314-gloomstalker,6.0,Snatch,20.0,11.666667,3.4156504,0.1707825
+1110,Horizonback Tortoise,744315-horizonback-tortoise,8.0,Bite,28.5,35.75,5.9791303,0.20979404
+1111,Husk Zombie,744318-husk-zombie,1.0,Claw,6.5,2.9166667,1.7078252,0.26274234
+1112,Moorbounder,744323-moorbounder,1.0,Claw,14.0,5.0,2.236068,0.15971914
+1113,Bristled Moorbounder,744304-bristled-moorbounder,3.0,Blades,11.0,5.8333335,2.4152296,0.21956632
+1114,Bristled Moorbounder,744304-bristled-moorbounder,3.0,Claw,14.0,5.0,2.236068,0.15971914
+1116,Nergaliid,744325-nergaliid,3.0,Bite,13.0,10.5,3.2403703,0.24925926
+1117,Nergaliid,744325-nergaliid,3.0,Tongue Lash,10.5,11.916667,3.4520526,0.3287669
+1118,Shadowghast,744334-shadowghast,5.0,Bite,16.5,18.75,4.3301272,0.26243195
+1119,Shadowghast,744334-shadowghast,5.0,Claws,12.0,5.8333335,2.4152296,0.20126912
+1121,Swavain Basilisk,744339-swavain-basilisk,7.0,Bite,24.0,17.5,4.1833,0.17430417
+1122,Swavain Basilisk,744339-swavain-basilisk,7.0,Tail,14.0,16.5,4.0620193,0.29014423
+1124,Udaak,744341-udaak,16.0,Bite,21.0,23.833334,4.8819394,0.23247331
+1125,Udaak,744341-udaak,16.0,Slam,21.5,15.75,3.968627,0.1845873
+1126,Udaak,744341-udaak,16.0,Swallow,21.0,17.5,4.1833,0.19920477
+1128,Amphisbaena,309672-amphisbaena-monstrosity,0.5,Bite,11.0,4.1666665,2.0412414,0.18556741
+1130,Anvilwrought Raptor,909470-anvilwrought-raptor,0.5,Beak,5.5,1.25,1.118034,0.20327891
+1132,Bronze Sable,909477-bronze-sable,1.0,Bite,7.5,5.25,2.291288,0.30550504
+1134,Burnished Hart,909478-burnished-hart,2.0,Antlers,7.5,5.25,2.291288,0.30550504
+1135,Burnished Hart,909478-burnished-hart,2.0,Hooves,8.0,2.5,1.5811388,0.19764236
+1137,Gold-Forged Sentinel,909485-gold-forged-sentinel,5.0,Ram,13.0,10.5,3.2403703,0.24925926
+1138,Gold-Forged Sentinel,909485-gold-forged-sentinel,5.0,Fire Breath,54.0,63.0,7.937254,0.14698619
+1140,Winged Bull,909516-winged-bull,4.0,Gore,18.0,23.833334,4.8819394,0.27121887
+1141,Winged Lion,909517-winged-lion,4.0,Bite,16.0,16.5,4.0620193,0.2538762
+1142,Winged Lion,909517-winged-lion,4.0,Claw,14.0,10.5,3.2403703,0.23145503
+1143,Two-Headed Cerberus,909513-two-headed-cerberus,2.0,Bite,8.0,4.1666665,2.0412414,0.25515518
+1144,Two-Headed Cerberus,909513-two-headed-cerberus,2.0,Breath Weapon,21.0,17.5,4.1833,0.19920477
+1146,Underworld Cerberus,909515-underworld-cerberus,6.0,Bite,14.5,8.75,2.95804,0.20400275
+1147,Underworld Cerberus,909515-underworld-cerberus,6.0,Breath Weapon,42.0,35.0,5.91608,0.14085904
+1149,Theran Chimera,909509-theran-chimera,7.0,Claws,13.0,10.5,3.2403703,0.24925926
+1150,Theran Chimera,909509-theran-chimera,7.0,Head,10.5,11.916667,3.4520526,0.3287669
+1151,Theran Chimera,909509-theran-chimera,7.0,Tail,11.0,5.8333335,2.4152296,0.21956632
+1152,Theran Chimera,909509-theran-chimera,7.0,Breath Weapon,65.0,119.166664,10.916348,0.16794382
+1153,Colossus of Akros,909479-colossus-of-akros,23.0,Spear,27.0,21.0,4.582576,0.16972503
+1154,Colossus of Akros,909479-colossus-of-akros,23.0,Sword,36.0,31.5,5.612486,0.15590239
+1155,Eater of Hope,909481-eater-of-hope,6.0,Claws,15.5,11.083333,3.329164,0.21478477
+1157,Flitterstep Eidolon,909483-flitterstep-eidolon,3.0,Flickering Dagger,10.0,4.1666665,2.0412414,0.20412415
+1158,Ghostblade Eidolon,909484-ghostblade-eidolon,5.0,Ghostblade,18.5,21.75,4.6636896,0.25209132
+1160,Doomwake Giant,909480-doomwake-giant,11.0,Slam,31.0,24.5,4.9497476,0.15966928
+1162,Hundred-Handed One,909487-hundred-handed-one,15.0,Longsword,21.5,15.75,3.968627,0.1845873
+1163,Hundred-Handed One,909487-hundred-handed-one,15.0,Rock,30.0,33.0,5.7445626,0.19148542
+1165,Aphemia,909471-aphemia,5.0,Bite,21.5,18.25,4.2720017,0.19869776
+1166,Aphemia,909471-aphemia,5.0,Claws,10.0,5.8333335,2.4152296,0.24152295
+1167,Blood-Toll Harpy,909475-blood-toll-harpy,0.125,Bite,3.5,1.25,1.118034,0.31943828
+1168,Blood-Toll Harpy,909475-blood-toll-harpy,0.125,Claws,3.5,1.25,1.118034,0.31943828
+1170,Hippocamp,909486-hippocamp,0.5,Hooves,9.0,5.8333335,2.4152296,0.26835883
+1171,Hippocamp,909486-hippocamp,0.5,Ram,5.5,2.9166667,1.7078252,0.31051365
+1172,Akroan Hoplite,909468-akroan-hoplite,3.0,Spear,7.5,5.25,2.291288,0.30550504
+1173,Akroan Hoplite,909468-akroan-hoplite,3.0,Shield Bash,5.5,1.25,1.118034,0.20327891
+1174,Setessan Hoplite,909508-setessan-hoplite,4.0,Scimitar,17.0,11.666667,3.4156504,0.2009206
+1175,Setessan Hoplite,909508-setessan-hoplite,4.0,Longbow,18.0,14.0,3.7416575,0.20786986
+1177,Ironscale Hydra,909489-ironscale-hydra,12.0,Bite,17.0,16.5,4.0620193,0.23894231
+1179,Nyx-Fleece Ram,909496-nyx-fleece-ram,1.0,Ram,11.5,5.4166665,2.3273733,0.20238028
+1180,Phylaskia,909500-phylaskia,9.0,Longsword,27.0,33.0,5.7445626,0.21276158
+1181,Phylaskia,909500-phylaskia,9.0,Strength Drain,12.0,5.8333335,2.4152296,0.20126912
+1183,Returned Drifter,909502-returned-drifter,0.25,Scimitar,9.0,5.8333335,2.4152296,0.26835883
+1184,Returned Drifter,909502-returned-drifter,0.25,Sling,4.5,1.25,1.118034,0.248452
+1185,Returned Palamnite,909504-returned-palamnite,4.0,Shortsword,17.0,11.666667,3.4156504,0.2009206
+1187,Returned Sentry,909505-returned-sentry,1.0,Spear,14.5,11.083333,3.329164,0.22959752
+1188,Returned Sentry,909505-returned-sentry,1.0,Sling,4.5,1.25,1.118034,0.248452
+1189,Satyr Reveler,909506-satyr-reveler,1.0,Ram,6.0,2.5,1.5811388,0.26352313
+1190,Satyr Reveler,909506-satyr-reveler,1.0,Shortbow,6.5,2.9166667,1.7078252,0.26274234
+1192,Satyr Thornbearer,909507-satyr-thornbearer,2.0,Ram,6.0,2.5,1.5811388,0.26352313
+1193,Satyr Thornbearer,909507-satyr-thornbearer,2.0,Shortbow,7.5,2.9166667,1.7078252,0.22771002
+1194,Satyr Thornbearer,909507-satyr-thornbearer,2.0,Hail of Arrows,35.0,29.166666,5.400617,0.15430336
+1196,Typhon,909514-typhon,15.0,Flurry of Bites,35.0,23.333334,4.830459,0.13801311
+1197,Typhon,909514-typhon,15.0,Constrict,35.0,17.5,4.1833,0.11952286
+1198,Typhon,909514-typhon,15.0,Maw,46.0,71.5,8.455768,0.18382102
+1200,Woe Strider,909518-woe-strider,7.0,Claw,11.0,5.8333335,2.4152296,0.21956632
+1201,Woe Strider,909518-woe-strider,7.0,Bite,29.5,35.25,5.937171,0.20126003
+1202,Mighty Servant of Leuk-o,1241995-mighty-servant-of-leuk-o,,Destructive Fist,36.0,47.666668,6.904105,0.1917807
+1203,Juvenile Mimic,1233283-juvenile-mimic,0.0,Bite,3.5,1.25,1.118034,0.31943828
+1204,Bodytaker Plant,1680916-bodytaker-plant,7.0,Vine Lash,11.0,5.8333335,2.4152296,0.21956632
+1205,Bodytaker Plant,1680916-bodytaker-plant,7.0,Entrapping Pod,22.0,21.0,4.582576,0.20829889
+1207,Podling,1680935-podling,0.5,Slam,5.5,2.9166667,1.7078252,0.31051365
+1208,Boneless,1680917-boneless,1.0,Slam,5.5,1.25,1.118034,0.20327891
+1209,Carrion Stalker,1680918-carrion-stalker,3.0,Tentacle,5.5,1.25,1.118034,0.20327891
+1210,Carrion Stalker,1680918-carrion-stalker,3.0,Larval Burst,14.0,11.666667,3.4156504,0.24397501
+1211,Carrionette,1680919-carrionette,1.0,Silver Needle,4.5,2.9166667,1.7078252,0.3795167
+1212,Death’s Head,1680920-deaths-head,0.5,Gnashing Bite,11.5,8.75,2.95804,0.25722086
+1213,Death’s Head,1680920-deaths-head,0.5,Mind-Bending Bite,10.0,11.166667,3.3416562,0.33416563
+1214,Death’s Head,1680920-deaths-head,0.5,Petrifying Bite,3.5,1.25,1.118034,0.31943828
+1215,Gallows Speaker,1680923-gallows-speaker,6.0,Foretelling Touch,15.0,16.5,4.0620193,0.27080128
+1216,Gremishka,1680925-gremishka,0.125,Bite,8.0,4.1666665,2.0412414,0.25515518
+1217,Swarm of Gremishkas,1680946-swarm-of-gremishkas,2.0,Bites,19.5,14.583333,3.818813,0.19583657
+1218,Jiangshi,1680930-jiangshi,9.0,Slam,13.0,10.5,3.2403703,0.24925926
+1219,Necrichor,1680933-necrichor,7.0,Pseudopod,5.5,2.9166667,1.7078252,0.31051365
+1220,Necrichor,1680933-necrichor,7.0,Necrotic Bolt,12.0,10.5,3.2403703,0.27003086
+1221,Nosferatu,1680934-nosferatu,8.0,Claw,9.5,5.25,2.291288,0.2411882
+1222,Nosferatu,1680934-nosferatu,8.0,Bite,27.5,27.583334,5.2519836,0.19098122
+1223,Priest of Osybus,1680942-priest-of-osybus,6.0,Soul Blade,7.0,2.5,1.5811388,0.22587697
+1224,Priest of Osybus,1680942-priest-of-osybus,6.0,Necrotic Bolt,17.5,15.75,3.968627,0.22677869
+1225,Strigoi,1680945-strigoi,4.0,Claw,14.0,17.166666,4.1432676,0.2959477
+1226,Strigoi,1680945-strigoi,4.0,Proboscis,19.0,17.0,4.1231055,0.21700557
+1228,Swarm of Maggots,1680947-swarm-of-maggots,2.0,Infestation,10.0,5.0,2.236068,0.2236068
+1229,Swarm of Scarabs,1680948-swarm-of-scarabs,3.0,Ravenous Bites,17.5,14.583333,3.818813,0.2182179
+1230,Unspeakable Horror,1680954-unspeakable-horror,8.0,Limbs,21.5,24.75,4.974937,0.23139243
+1231,Unspeakable Horror,1680954-unspeakable-horror,8.0,Hex Blast,91.0,166.83333,12.916398,0.14193843
+1233,Vampiric Mind Flayer,1680955-vampiric-mind-flayer,5.0,Claw,19.0,14.0,3.7416575,0.19692934
+1234,Vampiric Mind Flayer,1680955-vampiric-mind-flayer,5.0,Tentacles,7.5,2.9166667,1.7078252,0.22771002
+1235,Vampiric Mind Flayer,1680955-vampiric-mind-flayer,5.0,Drink Sapience,14.0,11.666667,3.4156504,0.24397501
+1237,Wereraven,17377-wereraven,2.0,Beak,4.5,1.25,1.118034,0.248452
+1238,Wereraven,17377-wereraven,2.0,Shortsword,5.5,2.9166667,1.7078252,0.31051365
+1239,Wereraven,17377-wereraven,2.0,Hand Crossbow,5.5,2.9166667,1.7078252,0.31051365
+1240,Swarm of Zombie Limbs,1680949-swarm-of-zombie-limbs,1.0,Undead Mass,5.5,2.9166667,1.7078252,0.31051365
+1241,Swarm of Zombie Limbs,1680949-swarm-of-zombie-limbs,1.0,Grasping Limbs,14.0,11.666667,3.4156504,0.24397501
+1243,Zombie Clot,1680956-zombie-clot,6.0,Slam,18.5,15.75,3.968627,0.21452038
+1245,Zombie Plague Spreader,1680957-zombie-plague-spreader,4.0,Slam,15.5,13.416667,3.6628768,0.23631464
+1246,Zombie Plague Spreader,1680957-zombie-plague-spreader,4.0,Virulent Miasma,28.0,23.333334,4.830459,0.17251639
+1248,Giant Canary,2059742-giant-canary,0.5,Peck,7.5,8.25,2.8722813,0.38297084
+1249,Animated Breath,2059704-animated-breath,6.0,Slam,24.0,27.0,5.196152,0.21650635
+1251,Young Deep Dragon,2059762-young-deep-dragon,5.0,Bite,13.0,11.166667,3.3416562,0.25705048
+1252,Young Deep Dragon,2059762-young-deep-dragon,5.0,Claw,7.5,2.9166667,1.7078252,0.22771002
+1254,Deep Dragon Wyrmling,2059714-deep-dragon-wyrmling,1.0,Bite,7.5,8.25,2.8722813,0.38297084
+1255,Dracohydra,2059715-dracohydra,11.0,Bite,10.5,8.25,2.8722813,0.2735506
+1257,Draconian Dreadnought,2059716-draconian-dreadnought,4.0,Serrated Sword,13.0,10.5,3.2403703,0.24925926
+1258,Draconian Dreadnought,2059716-draconian-dreadnought,4.0,Tail,8.5,5.25,2.291288,0.2695633
+1260,Draconian Foot Soldier,2059717-draconian-foot-soldier,0.5,Shortsword,4.5,2.9166667,1.7078252,0.3795167
+1262,Draconian Infiltrator,2059718-draconian-infiltrator,3.0,Dagger,12.5,7.0833335,2.6614532,0.21291625
+1263,Dragonblood Ooze,2059726-dragonblood-ooze,5.0,Pseudopod,30.5,25.75,5.0744457,0.16637526
+1265,Dragonbone Golem,2059727-dragonbone-golem,11.0,Pinion,12.0,5.8333335,2.4152296,0.20126912
+1266,Dragonbone Golem,2059727-dragonbone-golem,11.0,Rend,17.5,14.083333,3.7527769,0.21444438
+1267,Dragonbone Golem,2059727-dragonbone-golem,11.0,Petrifying Breath,70.0,58.333332,7.637626,0.10910895
+1269,Dragonborn of Bahamut,2059728-dragonborn-of-bahamut,8.0,Longsword,23.0,24.0,4.8989797,0.2129991
+1270,Dragonborn of Bahamut,2059728-dragonborn-of-bahamut,8.0,Radiant Breath,88.0,132.0,11.489125,0.13055824
+1272,Dragonborn of Tiamat,2059730-dragonborn-of-tiamat,7.0,Greataxe,25.0,27.666666,5.259911,0.21039645
+1274,Dragonflesh Grafter,2059732-dragonflesh-grafter,3.0,Claw,13.0,13.5,3.6742346,0.28263342
+1275,Dragonflesh Grafter,2059732-dragonflesh-grafter,3.0,Greatclub,12.0,10.5,3.2403703,0.27003086
+1276,Dragonflesh Grafter,2059732-dragonflesh-grafter,3.0,Acid Retch,28.0,23.333334,4.830459,0.17251639
+1278,Dragonflesh Abomination,2059731-dragonflesh-abomination,6.0,Claw,14.0,13.5,3.6742346,0.26244533
+1279,Dragonflesh Abomination,2059731-dragonflesh-abomination,6.0,Tail,10.5,11.916667,3.4520526,0.3287669
+1280,Dragonflesh Abomination,2059731-dragonflesh-abomination,6.0,Acidic Spit,10.5,8.75,2.95804,0.28171808
+1281,Dragonflesh Abomination,2059731-dragonflesh-abomination,6.0,Acid Belch,56.0,46.666668,6.8313007,0.12198751
+1283,Dragon Chosen,2059723-dragon-chosen,3.0,Handaxe,7.5,2.9166667,1.7078252,0.22771002
+1284,Dragon Chosen,2059723-dragon-chosen,3.0,Shortsword,7.5,2.9166667,1.7078252,0.22771002
+1286,Dragonnel,2059733-dragonnel,2.0,Rend,10.0,5.8333335,2.4152296,0.24152295
+1288,Young Dragon Turtle,2059763-young-dragon-turtle,10.0,Bite,18.0,23.833334,4.8819394,0.27121887
+1289,Young Dragon Turtle,2059763-young-dragon-turtle,10.0,Claw,9.5,5.25,2.291288,0.2411882
+1290,Young Dragon Turtle,2059763-young-dragon-turtle,10.0,Steam Breath,84.0,70.0,8.3666,0.09960239
+1292,Dragon Turtle Wyrmling,2059725-dragon-turtle-wyrmling,4.0,Bite,9.5,11.916667,3.4520526,0.36337397
+1293,Dragon Turtle Wyrmling,2059725-dragon-turtle-wyrmling,4.0,Steam Breath,35.0,29.166666,5.400617,0.15430336
+1294,Egg Hunter Hatchling,2059735-egg-hunter-hatchling,2.0,Egg Tooth,17.0,11.666667,3.4156504,0.2009206
+1296,Egg Hunter Adult,2059734-egg-hunter-adult,5.0,Barbed Proboscis,17.5,13.416667,3.6628768,0.20930725
+1298,Eyedrake,2059739-eyedrake,8.0,Bite,13.5,8.75,2.95804,0.21911407
+1299,Eyedrake,2059739-eyedrake,8.0,Antimagic Breath,78.0,143.0,11.958261,0.15331103
+1300,Gem Stalker,2059740-gem-stalker,5.0,Claw,10.0,5.8333335,2.4152296,0.24152295
+1302,Ghost Dragon,2059741-ghost-dragon,17.0,Claw,14.0,10.5,3.2403703,0.23145503
+1303,Hoard Mimic,2059745-hoard-mimic,8.0,Bite,23.0,22.333334,4.725816,0.20547025
+1304,Hoard Mimic,2059745-hoard-mimic,8.0,Pseudopod,12.0,5.8333335,2.4152296,0.20126912
+1306,Hoard Scarab,2059746-hoard-scarab,0.125,Bite,5.5,1.25,1.118034,0.20327891
+1307,Swarm of Hoard Scarabs,2059756-swarm-of-hoard-scarabs,2.0,Swarm of Bites,13.5,8.75,2.95804,0.21911407
+1308,Liondrake,2059748-liondrake,7.0,Bite,15.0,16.5,4.0620193,0.27080128
+1309,Liondrake,2059748-liondrake,7.0,Claw,11.0,5.8333335,2.4152296,0.21956632
+1311,Metallic Peacekeeper,2059749-metallic-peacekeeper,4.0,Slam,16.5,15.75,3.968627,0.24052285
+1313,Metallic Warbler,2059750-metallic-warbler,0.25,Claw,4.5,1.25,1.118034,0.248452
+1314,Moonstone Dragon Wyrmling,2059751-moonstone-dragon-wyrmling,2.0,Bite,15.5,13.416667,3.6628768,0.23631464
+1315,Young Sea Serpent,2059767-young-sea-serpent,8.0,Bite,20.5,24.75,4.974937,0.24267986
+1316,Young Sea Serpent,2059767-young-sea-serpent,8.0,Constrict,22.0,21.0,4.582576,0.20829889
+1317,Young Sea Serpent,2059767-young-sea-serpent,8.0,Tail,9.5,8.25,2.8722813,0.3023454
+1318,Young Sea Serpent,2059767-young-sea-serpent,8.0,Rime Breath,77.0,115.5,10.747092,0.13957264
+1320,Scufflecup Teacup,2160328-scufflecup-teacup,0.0,Slam,4.0,0.6666667,0.8164966,0.20412415
+1321,Art Elemental Mascot,2160297-art-elemental-mascot,0.25,Joyful Flare,6.0,2.5,1.5811388,0.26352313
+1322,Art Elemental Mascot,2160297-art-elemental-mascot,0.25,Melancholic Bolt,6.0,2.5,1.5811388,0.26352313
+1323,Brackish Trudge,2160299-brackish-trudge,3.0,Tusk,19.5,19.416666,4.4064345,0.22597101
+1324,Daemogoth,2160302-daemogoth,10.0,Agonizing Burst,11.0,16.5,4.0620193,0.36927447
+1326,Fractal Mascot,2160304-fractal-mascot,0.25,Quantum Strike,6.0,2.5,1.5811388,0.26352313
+1327,Groff,2160306-groff,4.0,Bite,9.5,5.25,2.291288,0.2411882
+1328,Groff,2160306-groff,4.0,Swamp Claw,19.0,11.666667,3.4156504,0.17977107
+1330,Inkling Mascot,2160307-inkling-mascot,0.25,Blot,5.5,1.25,1.118034,0.20327891
+1331,Mage Hunter,2160312-mage-hunter,5.0,Claw,15.0,16.5,4.0620193,0.27080128
+1332,Mage Hunter,2160312-mage-hunter,5.0,Tail,22.0,21.0,4.582576,0.20829889
+1334,Oriq Blood Mage,2160315-oriq-blood-mage,9.0,Blood Lash,21.5,24.75,4.974937,0.23139243
+1336,Pest Mascot,2160317-pest-mascot,0.25,Bite,4.5,1.25,1.118034,0.248452
+1337,Relic Sloth,2160326-relic-sloth,2.0,Claws,14.0,10.5,3.2403703,0.23145503
+1338,Ruin Grinder,2160327-ruin-grinder,5.0,Excavator,13.0,5.8333335,2.4152296,0.18578689
+1340,Spirit Statue Mascot,2160334-spirit-statue-mascot,0.25,Slam,5.5,2.9166667,1.7078252,0.31051365
+1341,Strixhaven Campus Guide,2160335-strixhaven-campus-guide,1.0,Slam,6.5,5.25,2.291288,0.35250583
+1343,Black Abishai,2560739-black-abishai,7.0,Bite,17.5,18.75,4.3301272,0.24743582
+1344,Black Abishai,2560739-black-abishai,7.0,Scimitar,6.5,2.9166667,1.7078252,0.26274234
+1346,Red Abishai,2560902-red-abishai,19.0,Bite,61.0,82.5,9.082951,0.14890084
+1347,Red Abishai,2560902-red-abishai,19.0,Claw,28.0,33.0,5.7445626,0.20516296
+1348,White Abishai,2560959-white-abishai,6.0,Bite,9.0,4.1666665,2.0412414,0.2268046
+1349,White Abishai,2560959-white-abishai,6.0,Claw,8.5,8.25,2.8722813,0.33791545
+1350,White Abishai,2560959-white-abishai,6.0,Longsword,8.5,8.25,2.8722813,0.33791545
+1352,Alkilith,2560717-alkilith,11.0,Tentacle,18.0,11.666667,3.4156504,0.18975835
+1354,Allip,2560718-allip,5.0,Maddening Touch,17.0,11.666667,3.4156504,0.2009206
+1355,Archer,2560725-archer,3.0,Shortsword,7.5,2.9166667,1.7078252,0.22771002
+1356,Archer,2560725-archer,3.0,Longbow,8.5,5.25,2.291288,0.2695633
+1358,Armanite,2560726-armanite,7.0,Claw,19.0,13.0,3.6055512,0.18976586
+1359,Armanite,2560726-armanite,7.0,Hooves,12.0,5.8333335,2.4152296,0.20126912
+1360,Armanite,2560726-armanite,7.0,Serrated Tail,16.0,16.5,4.0620193,0.2538762
+1361,Armanite,2560726-armanite,7.0,Lightning Lance,72.0,84.0,9.165152,0.12729377
+1363,Banderhobb,2560733-banderhobb,5.0,Bite,15.5,8.75,2.95804,0.19084129
+1364,Banderhobb,2560733-banderhobb,5.0,Tongue,10.5,8.75,2.95804,0.28171808
+1365,Banderhobb,2560733-banderhobb,5.0,Swallow,26.0,17.5,4.1833,0.16089615
+1367,Bodak,2560744-bodak,6.0,Fist,13.5,11.75,3.4278274,0.25391313
+1368,Boggle,17224-boggle,0.125,Pummel,2.5,2.9166667,1.7078252,0.68313
+1369,Boneclaw,2560745-boneclaw,12.0,Piercing Claw,31.5,41.25,6.4226165,0.20389257
+1371,Bulezau,2560747-bulezau,3.0,Barbed Tail,13.0,17.166666,4.1432676,0.3187129
+1372,Cadaver Collector,2560748-cadaver-collector,14.0,Slam,35.0,40.5,6.363961,0.18182746
+1374,Canoloth,2560749-canoloth,8.0,Bite,25.5,23.916666,4.8904667,0.19178301
+1375,Canoloth,2560749-canoloth,8.0,Claw,16.5,13.416667,3.6628768,0.22199254
+1376,Canoloth,2560749-canoloth,8.0,Tongue,17.5,17.75,4.2130747,0.24074714
+1378,Catoblepas,2560750-catoblepas,5.0,Tail,21.5,14.583333,3.818813,0.17761922
+1379,Aurochs,2560728-aurochs,2.0,Gore,14.0,10.5,3.2403703,0.23145503
+1380,Deep Rothé,2560768-deep-rothe,0.25,Gore,7.5,2.9166667,1.7078252,0.22771002
+1381,Ox,2560899-ox,0.25,Gore,7.5,2.9166667,1.7078252,0.22771002
+1382,Stench Kow,2560929-stench-kow,0.5,Gore,7.5,2.9166667,1.7078252,0.22771002
+1383,Cave Fisher,2560751-cave-fisher,3.0,Claw,10.0,5.8333335,2.4152296,0.24152295
+1385,Champion,2560752-champion,9.0,Greatsword,19.0,11.666667,3.4156504,0.17977107
+1386,Champion,2560752-champion,9.0,Shortbow,12.5,8.75,2.95804,0.2366432
+1388,Chitine,2560753-chitine,0.5,Dagger,4.5,1.25,1.118034,0.248452
+1390,Choker,2560754-choker,1.0,Tentacle,5.5,1.25,1.118034,0.20327891
+1392,Clockwork Bronze Scout,2560756-clockwork-bronze-scout,1.0,Bite,9.0,4.1666665,2.0412414,0.2268046
+1393,Clockwork Iron Cobra,2560757-clockwork-iron-cobra,4.0,Bite,6.5,2.9166667,1.7078252,0.26274234
+1394,Clockwork Oaken Bolter,2560758-clockwork-oaken-bolter,5.0,Lancing Bolt,15.0,16.5,4.0620193,0.27080128
+1395,Clockwork Oaken Bolter,2560758-clockwork-oaken-bolter,5.0,Harpoon,9.5,8.25,2.8722813,0.3023454
+1397,Clockwork Stone Defender,2560759-clockwork-stone-defender,4.0,Slam,11.0,5.8333335,2.4152296,0.21956632
+1398,Corpse Flower,2560762-corpse-flower,8.0,Tentacle,19.5,14.583333,3.818813,0.19583657
+1400,Cranium Rat,2560763-cranium-rat,0.0,Bite,1.0,0.0,0.0,0.0
+1401,Darkling,17231-darkling,0.5,Dagger,12.5,7.0833335,2.6614532,0.21291625
+1402,Darkling Elder,17232-darkling-elder,2.0,Scimitar,13.5,8.75,2.95804,0.21911407
+1404,Death Kiss,2560764-death-kiss,10.0,Tentacle,11.0,5.8333335,2.4152296,0.21956632
+1406,Deep Scion,2560769-deep-scion,3.0,Battleaxe,9.5,8.25,2.8722813,0.3023454
+1407,Deep Scion,2560769-deep-scion,3.0,Bite,6.5,1.25,1.118034,0.17200524
+1408,Deep Scion,2560769-deep-scion,3.0,Claw,7.5,2.9166667,1.7078252,0.22771002
+1410,Derro,2560773-derro,0.25,Hooked Spear,3.5,2.9166667,1.7078252,0.48795003
+1411,Derro,2560773-derro,0.25,Light Crossbow,6.5,5.25,2.291288,0.35250583
+1412,Devourer,2560774-devourer,13.0,Claw,33.0,23.333334,4.830459,0.14637755
+1413,Devourer,2560774-devourer,13.0,Soul Rend,88.0,132.0,11.489125,0.13055824
+1414,Brontosaurus,2560746-brontosaurus,5.0,Stomp,27.5,26.25,5.1234756,0.18630819
+1415,Brontosaurus,2560746-brontosaurus,5.0,Tail,32.0,31.5,5.612486,0.17539018
+1416,Deinonychus,2560770-deinonychus,1.0,Bite,6.5,5.25,2.291288,0.35250583
+1417,Deinonychus,2560770-deinonychus,1.0,Claw,6.5,5.25,2.291288,0.35250583
+1419,Dimetrodon,2560776-dimetrodon,0.25,Bite,9.0,5.8333335,2.4152296,0.26835883
+1420,Hadrosaurus,2560844-hadrosaurus,0.25,Tail,7.5,8.25,2.8722813,0.38297084
+1421,Quetzalcoatlus,2560901-quetzalcoatlus,2.0,Bite,12.5,8.75,2.95804,0.2366432
+1422,Stegosaurus,2560928-stegosaurus,4.0,Tail,26.0,17.5,4.1833,0.16089615
+1423,Velociraptor,2560950-velociraptor,0.25,Bite,5.5,2.9166667,1.7078252,0.31051365
+1424,Velociraptor,2560950-velociraptor,0.25,Claw,4.5,1.25,1.118034,0.248452
+1426,Dolphin,2560780-dolphin,0.125,Slam,5.5,2.9166667,1.7078252,0.31051365
+1427,Dolphin Delighter,2560779-dolphin-delighter,3.0,Dazzling Slam,12.5,8.75,2.95804,0.2366432
+1429,Duergar Kavalrachni,2560793-duergar-kavalrachni,2.0,War Pick,11.5,7.75,2.7838821,0.24207671
+1430,Duergar Kavalrachni,2560793-duergar-kavalrachni,2.0,Heavy Crossbow,5.5,8.25,2.8722813,0.52223295
+1432,Duergar Mind Master,2560794-duergar-mind-master,2.0,Mind-Poison Dagger,26.5,18.75,4.3301272,0.16340102
+1434,Duergar Soulblade,2560796-duergar-soulblade,1.0,Soulblade,17.0,11.666667,3.4156504,0.2009206
+1435,Duergar Stone Guard,2560797-duergar-stone-guard,2.0,Shortsword,11.0,5.8333335,2.4152296,0.21956632
+1436,Duergar Stone Guard,2560797-duergar-stone-guard,2.0,Javelin,11.0,5.8333335,2.4152296,0.21956632
+1438,Duergar Warlord,2560798-duergar-warlord,6.0,Psychic-Attuned Hammer,20.5,24.75,4.974937,0.24267986
+1439,Duergar Warlord,2560798-duergar-warlord,6.0,Javelin,11.0,5.8333335,2.4152296,0.21956632
+1440,Duergar Xarrorn,2560799-duergar-xarrorn,2.0,Fire Lance,19.5,26.75,5.17204,0.26523283
+1441,Duergar Hammerer,2560792-duergar-hammerer,2.0,Claw,6.5,2.9166667,1.7078252,0.26274234
+1442,Duergar Hammerer,2560792-duergar-hammerer,2.0,Hammer,10.0,5.8333335,2.4152296,0.24152295
+1444,Duergar Screamer,2560795-duergar-screamer,3.0,Drill,10.5,11.916667,3.4520526,0.3287669
+1445,Duergar Screamer,2560795-duergar-screamer,3.0,Sonic Scream,14.0,11.666667,3.4156504,0.24397501
+1447,Sacred Statue,2560907-sacred-statue,,Slam,43.0,71.5,8.455768,0.19664575
+1448,Sacred Statue,2560907-sacred-statue,,Rock,37.0,49.5,7.0356236,0.19015199
+1450,Summer Eladrin,2560933-summer-eladrin,10.0,Longsword,24.0,27.0,5.196152,0.21650635
+1451,Summer Eladrin,2560933-summer-eladrin,10.0,Longbow,23.0,21.0,4.582576,0.19924243
+1453,Air Elemental Myrmidon,2560715-air-elemental-myrmidon,7.0,Flail,8.5,5.25,2.291288,0.2695633
+1454,Air Elemental Myrmidon,2560715-air-elemental-myrmidon,7.0,Lightning Strike,18.0,21.0,4.582576,0.25458753
+1456,Earth Elemental Myrmidon,2560801-earth-elemental-myrmidon,7.0,Maul,11.0,5.8333335,2.4152296,0.21956632
+1457,Earth Elemental Myrmidon,2560801-earth-elemental-myrmidon,7.0,Thunderous Strike,22.0,33.0,5.7445626,0.26111647
+1459,Fire Elemental Myrmidon,2560809-fire-elemental-myrmidon,7.0,Scimitar,7.5,2.9166667,1.7078252,0.22771002
+1460,Fire Elemental Myrmidon,2560809-fire-elemental-myrmidon,7.0,Fiery Strikes,7.0,5.8333335,2.4152296,0.34503278
+1462,Water Elemental Myrmidon,2560958-water-elemental-myrmidon,7.0,Trident,8.5,5.25,2.291288,0.2695633
+1463,Water Elemental Myrmidon,2560958-water-elemental-myrmidon,7.0,Freezing Strikes,5.5,8.25,2.8722813,0.52223295
+1465,Fire Giant Dreadnought,2560810-fire-giant-dreadnought,14.0,Fireshield,36.0,23.333334,4.830459,0.13417941
+1466,Fire Giant Dreadnought,2560810-fire-giant-dreadnought,14.0,Rock,30.0,33.0,5.7445626,0.19148542
+1468,Firenewt Warrior,2560812-firenewt-warrior,0.5,Scimitar,4.5,2.9166667,1.7078252,0.3795167
+1470,Flail Snail,2560813-flail-snail,3.0,Flail Tentacle,5.5,1.25,1.118034,0.20327891
+1472,Flind,2560814-flind,9.0,Flail of Chaos,10.5,8.25,2.8722813,0.2735506
+1473,Flind,2560814-flind,9.0,Flail of Pain,27.0,33.0,5.7445626,0.21276158
+1474,Flind,2560814-flind,9.0,Flail of Paralysis,10.5,8.25,2.8722813,0.2735506
+1475,Flind,2560814-flind,9.0,Longbow,6.5,5.25,2.291288,0.35250583
+1477,Froghemoth,2560816-froghemoth,10.0,Bite,33.0,33.5,5.7879186,0.17539147
+1478,Froghemoth,2560816-froghemoth,10.0,Tentacle,19.5,15.75,3.968627,0.20351933
+1479,Frost Salamander,2560818-frost-salamander,9.0,Bite,15.0,13.5,3.6742346,0.24494897
+1480,Frost Salamander,2560818-frost-salamander,9.0,Claw,8.5,2.9166667,1.7078252,0.2009206
+1481,Frost Salamander,2560818-frost-salamander,9.0,Freezing Breath,88.0,132.0,11.489125,0.13055824
+1483,Gauth,2560819-gauth,6.0,Bite,9.0,10.5,3.2403703,0.36004114
+1484,Gazer,2560821-gazer,0.5,Bite,1.0,0.0,0.0,0.0
+1485,Giant Strider,2560824-giant-strider,1.0,Bite,8.5,5.25,2.291288,0.2695633
+1486,Giff,2560826-giff,3.0,Longsword,9.5,8.25,2.8722813,0.3023454
+1487,Giff,2560826-giff,3.0,Musket,8.5,11.916667,3.4520526,0.40612382
+1488,Giff,2560826-giff,3.0,Pistol,7.5,8.25,2.8722813,0.38297084
+1490,Girallon,2560827-girallon,4.0,Bite,7.5,2.9166667,1.7078252,0.22771002
+1491,Girallon,2560827-girallon,4.0,Claw,7.5,2.9166667,1.7078252,0.22771002
+1493,Gnoll Flesh Gnawer,2560833-gnoll-flesh-gnawer,1.0,Bite,4.5,1.25,1.118034,0.248452
+1494,Gnoll Flesh Gnawer,2560833-gnoll-flesh-gnawer,1.0,Shortsword,5.5,2.9166667,1.7078252,0.31051365
+1496,Gnoll Hunter,2560834-gnoll-hunter,0.5,Bite,4.5,1.25,1.118034,0.248452
+1497,Gnoll Hunter,2560834-gnoll-hunter,0.5,Spear,6.5,5.25,2.291288,0.35250583
+1498,Gnoll Witherling,2560835-gnoll-witherling,0.25,Bite,4.5,1.25,1.118034,0.248452
+1499,Gnoll Witherling,2560835-gnoll-witherling,0.25,Spiked Club,4.5,1.25,1.118034,0.248452
+1501,Gray Render,2560836-gray-render,12.0,Bite,17.0,23.833334,4.8819394,0.2871729
+1502,Gray Render,2560836-gray-render,12.0,Claw,23.5,19.25,4.387482,0.18670137
+1504,Grung,2560842-grung,0.25,Dagger,9.5,3.75,1.9364917,0.20384122
+1505,Grung Elite Warrior,2560840-grung-elite-warrior,2.0,Dagger,10.5,3.75,1.9364917,0.18442778
+1506,Grung Elite Warrior,2560840-grung-elite-warrior,2.0,Shortbow,11.5,5.4166665,2.3273733,0.20238028
+1507,Guard Drake,2560843-guard-drake,2.0,Bite,7.5,5.25,2.291288,0.30550504
+1508,Guard Drake,2560843-guard-drake,2.0,Tail,6.5,2.9166667,1.7078252,0.26274234
+1510,Hellfire Engine,2560845-hellfire-engine,16.0,Hellfire Weapons,72.5,93.75,9.682458,0.13355115
+1511,Howler,2560848-howler,8.0,Rending Bite,32.0,38.833332,6.23164,0.19473875
+1512,Howler,2560848-howler,8.0,Mind-Breaking Howl,33.0,49.5,7.0356236,0.21320072
+1514,Kobold Dragonshield,2560855-kobold-dragonshield,1.0,Spear,5.5,5.25,2.291288,0.41659778
+1516,Kobold Inventor,2560856-kobold-inventor,0.25,Dagger,4.5,1.25,1.118034,0.248452
+1517,Kobold Inventor,2560856-kobold-inventor,0.25,Sling,4.5,1.25,1.118034,0.248452
+1518,Young Kruthik,2560969-young-kruthik,0.125,Stab,5.5,1.25,1.118034,0.20327891
+1519,Adult Kruthik,2560713-adult-kruthik,2.0,Stab,6.5,2.9166667,1.7078252,0.26274234
+1520,Adult Kruthik,2560713-adult-kruthik,2.0,Spike,5.5,1.25,1.118034,0.20327891
+1522,Kruthik Hive Lord,2560859-kruthik-hive-lord,5.0,Stab,9.5,8.25,2.8722813,0.3023454
+1523,Kruthik Hive Lord,2560859-kruthik-hive-lord,5.0,Spike,7.5,2.9166667,1.7078252,0.22771002
+1524,Kruthik Hive Lord,2560859-kruthik-hive-lord,5.0,Acid Spray,44.0,66.0,8.124039,0.18463723
+1526,Leucrotta,2560860-leucrotta,3.0,Bite,8.5,5.25,2.291288,0.2695633
+1527,Leucrotta,2560860-leucrotta,3.0,Hooves,11.0,5.8333335,2.4152296,0.21956632
+1529,Martial Arts Adept,2560865-martial-arts-adept,3.0,Unarmed Strike,7.5,5.25,2.291288,0.30550504
+1530,Martial Arts Adept,2560865-martial-arts-adept,3.0,Dart,5.5,1.25,1.118034,0.20327891
+1532,Marut,2560866-marut,25.0,Blazing Edict,90.0,0.0,0.0,0.0
+1533,Master Thief,2560867-master-thief,5.0,Shortsword,11.0,5.8333335,2.4152296,0.21956632
+1534,Master Thief,2560867-master-thief,5.0,Shortbow,11.0,5.8333335,2.4152296,0.21956632
+1536,Maurezhi,2560868-maurezhi,7.0,Bite,14.0,16.5,4.0620193,0.29014423
+1537,Maurezhi,2560868-maurezhi,7.0,Claw,12.0,10.5,3.2403703,0.27003086
+1539,Maw Demon,2560869-maw-demon,1.0,Bite,11.0,10.5,3.2403703,0.29457912
+1540,Maw Demon,2560869-maw-demon,1.0,Disgorge,22.0,33.0,5.7445626,0.26111647
+1541,Meazel,2560870-meazel,1.0,Garrote,16.5,8.75,2.95804,0.17927514
+1542,Meazel,2560870-meazel,1.0,Shortsword,10.0,5.8333335,2.4152296,0.24152295
+1543,Meenlock,2560871-meenlock,2.0,Claw,7.0,2.5,1.5811388,0.22587697
+1544,Merregon,2560872-merregon,4.0,Halberd,9.5,8.25,2.8722813,0.3023454
+1545,Merregon,2560872-merregon,4.0,Heavy Crossbow,7.5,8.25,2.8722813,0.38297084
+1547,Mindwitness,2560874-mindwitness,5.0,Bite,16.0,11.666667,3.4156504,0.21347815
+1548,Mindwitness,2560874-mindwitness,5.0,Tentacles,20.0,21.0,4.582576,0.22912878
+1549,Mouth of Grolantor,2560879-mouth-of-grolantor,6.0,Bite,15.5,8.75,2.95804,0.19084129
+1550,Mouth of Grolantor,2560879-mouth-of-grolantor,6.0,Fist,18.5,15.75,3.968627,0.21452038
+1551,Nabassu,2560880-nabassu,15.0,Bite,38.5,59.583332,7.719024,0.20049413
+1552,Nabassu,2560880-nabassu,15.0,Claw,28.0,33.0,5.7445626,0.20516296
+1553,Narzugon,2560882-narzugon,13.0,Hellfire Lance,28.0,36.666668,6.0553007,0.21626075
+1554,Neogi Hatchling,2560884-neogi-hatchling,0.125,Bite,7.0,4.1666665,2.0412414,0.29160592
+1555,Neogi,2560886-neogi,3.0,Bite,20.5,14.583333,3.818813,0.18628356
+1556,Neogi,2560886-neogi,3.0,Claw,8.0,2.5,1.5811388,0.19764236
+1558,Nightwalker,2560888-nightwalker,20.0,Enervating Focus,28.5,26.25,5.1234756,0.17977107
+1560,Nupperibo,2560890-nupperibo,0.5,Bite,6.5,2.9166667,1.7078252,0.26274234
+1561,Oblex Spawn,2560891-oblex-spawn,0.25,Pseudopod,8.0,2.5,1.5811388,0.19764236
+1562,Ogre Bolt Launcher,2560893-ogre-bolt-launcher,2.0,Fist,9.0,2.5,1.5811388,0.1756821
+1563,Ogre Bolt Launcher,2560893-ogre-bolt-launcher,2.0,Bolt Launcher,17.5,24.75,4.974937,0.28428212
+1564,Ogre Chain Brute,2560894-ogre-chain-brute,3.0,Fist,9.0,2.5,1.5811388,0.1756821
+1565,Ogre Chain Brute,2560894-ogre-chain-brute,3.0,Chain Smash,13.0,10.5,3.2403703,0.24925926
+1566,Ogre Howdah,2560895-ogre-howdah,2.0,Fist,11.0,5.8333335,2.4152296,0.21956632
+1567,Orthon,2560898-orthon,10.0,Infernal Dagger,33.0,35.5,5.9581876,0.18055114
+1568,Quickling,17299-quickling,1.0,Dagger,8.5,1.25,1.118034,0.13153341
+1570,Redcap,17300-redcap,3.0,Wicked Sickle,9.0,2.5,1.5811388,0.1756821
+1571,Redcap,17300-redcap,3.0,Ironbound Pursuit,20.5,24.75,4.974937,0.24267986
+1573,Rutterkin,2560906-rutterkin,2.0,Bite,12.5,8.75,2.95804,0.2366432
+1574,Sea Spawn,2560908-sea-spawn,1.0,Unarmed Strike,4.5,1.25,1.118034,0.248452
+1575,Sea Spawn,2560908-sea-spawn,1.0,Piscine Anatomy,4.5,1.25,1.118034,0.248452
+1577,Shadar-kai Shadow Dancer,2560910-shadar-kai-shadow-dancer,7.0,Spiked Chain,10.0,5.8333335,2.4152296,0.24152295
+1578,Shadow Mastiff,2560913-shadow-mastiff,2.0,Bite,10.0,5.8333335,2.4152296,0.24152295
+1579,Shadow Mastiff Alpha,2560912-shadow-mastiff-alpha,3.0,Bite,10.0,5.8333335,2.4152296,0.24152295
+1580,Shoosuva,2560914-shoosuva,8.0,Bite,26.0,33.0,5.7445626,0.22094472
+1581,Shoosuva,2560914-shoosuva,8.0,Tail Stinger,13.0,10.5,3.2403703,0.24925926
+1583,Skulk,2560916-skulk,0.5,Claw,10.0,4.1666665,2.0412414,0.20412415
+1584,Slithering Tracker,2560918-slithering-tracker,3.0,Slam,8.5,8.25,2.8722813,0.33791545
+1585,Angry Sorrowsworn,2560721-angry-sorrowsworn,13.0,Hook,16.0,23.833334,4.8819394,0.3051212
+1587,Hungry Sorrowsworn,2560849-hungry-sorrowsworn,11.0,Bite,22.0,21.0,4.582576,0.20829889
+1588,Hungry Sorrowsworn,2560849-hungry-sorrowsworn,11.0,Claw,18.0,11.666667,3.4156504,0.18975835
+1590,Lonely Sorrowsworn,2560862-lonely-sorrowsworn,9.0,Harpoon Arm,21.0,21.0,4.582576,0.2182179
+1591,Lonely Sorrowsworn,2560862-lonely-sorrowsworn,9.0,Sorrowful Embrace,18.0,21.0,4.582576,0.25458753
+1593,Lost Sorrowsworn,2560863-lost-sorrowsworn,7.0,Arm Spike,14.0,16.5,4.0620193,0.29014423
+1594,Lost Sorrowsworn,2560863-lost-sorrowsworn,7.0,Embrace,52.0,64.5,8.031189,0.15444595
+1596,Wretched Sorrowsworn,2560963-wretched-sorrowsworn,0.25,Bite,13.0,16.5,4.0620193,0.31246302
+1597,Spawn of Kyuss,2560919-spawn-of-kyuss,5.0,Claw,13.5,8.75,2.95804,0.21911407
+1598,Star Spawn Grue,2560922-star-spawn-grue,0.25,Confounding Bite,6.0,2.5,1.5811388,0.26352313
+1599,Star Spawn Hulk,2560923-star-spawn-hulk,10.0,Slam,14.0,10.5,3.2403703,0.23145503
+1600,Star Spawn Mangler,2560925-star-spawn-mangler,5.0,Claw,8.5,5.25,2.291288,0.2695633
+1602,Star Spawn Seer,2560926-star-spawn-seer,13.0,Comet Staff,28.5,26.25,5.1234756,0.17977107
+1603,Star Spawn Seer,2560926-star-spawn-seer,13.0,Psychic Orb,27.5,41.25,6.4226165,0.23354968
+1605,Female Steeder,2560808-female-steeder,1.0,Bite,16.5,15.75,3.968627,0.24052285
+1606,Male Steeder,2560864-male-steeder,0.25,Bite,11.0,10.5,3.2403703,0.29457912
+1607,Stone Cursed,2560930-stone-cursed,1.0,Petrifying Claws,12.0,10.5,3.2403703,0.27003086
+1608,Stone Giant Dreamwalker,2560931-stone-giant-dreamwalker,10.0,Greatclub,24.0,21.0,4.582576,0.19094065
+1609,Stone Giant Dreamwalker,2560931-stone-giant-dreamwalker,10.0,Rock,22.5,24.75,4.974937,0.22110832
+1611,Swarm of Rot Grubs,2560935-swarm-of-rot-grubs,0.5,Bites,10.5,8.75,2.95804,0.28171808
+1612,Swashbuckler,2560936-swashbuckler,3.0,Dagger,6.5,1.25,1.118034,0.17200524
+1613,Swashbuckler,2560936-swashbuckler,3.0,Rapier,8.5,5.25,2.291288,0.2695633
+1615,Sword Wraith Commander,2407570-sword-wraith-commander,8.0,Longsword,9.5,8.25,2.8722813,0.3023454
+1616,Sword Wraith Commander,2407570-sword-wraith-commander,8.0,Longbow,6.5,5.25,2.291288,0.35250583
+1618,Sword Wraith Warrior,2407571-sword-wraith-warrior,3.0,Battleaxe,9.5,8.25,2.8722813,0.3023454
+1619,Sword Wraith Warrior,2407571-sword-wraith-warrior,3.0,Longbow,5.5,5.25,2.291288,0.41659778
+1620,Tanarukk,2560937-tanarukk,5.0,Bite,8.5,5.25,2.291288,0.2695633
+1621,Tanarukk,2560937-tanarukk,5.0,Greatsword,11.0,5.8333335,2.4152296,0.21956632
+1623,Tlincalli,2560940-tlincalli,5.0,Longsword,8.5,8.25,2.8722813,0.33791545
+1624,Tlincalli,2560940-tlincalli,5.0,Spiked Chain,6.5,2.9166667,1.7078252,0.26274234
+1625,Tlincalli,2560940-tlincalli,5.0,Sting,20.5,14.583333,3.818813,0.18628356
+1627,Tortle,2560942-tortle,0.25,Claw,4.5,1.25,1.118034,0.248452
+1628,Tortle,2560942-tortle,0.25,Spear,6.5,5.25,2.291288,0.35250583
+1629,Tortle,2560942-tortle,0.25,Light Crossbow,4.5,5.25,2.291288,0.50917506
+1630,Dire Troll,2560777-dire-troll,13.0,Bite,16.0,13.5,3.6742346,0.22963966
+1631,Dire Troll,2560777-dire-troll,13.0,Claw,16.5,8.75,2.95804,0.17927514
+1633,Rot Troll,2560905-rot-troll,9.0,Bite,26.0,33.0,5.7445626,0.22094472
+1634,Rot Troll,2560905-rot-troll,9.0,Claw,18.0,11.666667,3.4156504,0.18975835
+1636,Spirit Troll,2560920-spirit-troll,11.0,Bite,19.5,24.75,4.974937,0.255125
+1637,Spirit Troll,2560920-spirit-troll,11.0,Claw,19.5,24.75,4.974937,0.255125
+1639,Venom Troll,2560951-venom-troll,7.0,Bite,12.0,8.166667,2.857738,0.23814483
+1640,Venom Troll,2560951-venom-troll,7.0,Claw,15.5,11.083333,3.329164,0.21478477
+1642,Vargouille,2560947-vargouille,1.0,Bite,16.0,11.666667,3.4156504,0.21347815
+1643,Vegepygmy,2560949-vegepygmy,0.25,Claw,5.5,2.9166667,1.7078252,0.31051365
+1644,Vegepygmy,2560949-vegepygmy,0.25,Sling,4.5,1.25,1.118034,0.248452
+1645,Vegepygmy Chief,2560948-vegepygmy-chief,2.0,Claw,5.5,2.9166667,1.7078252,0.31051365
+1646,Vegepygmy Chief,2560948-vegepygmy-chief,2.0,Spear,6.5,5.25,2.291288,0.35250583
+1647,Vegepygmy Chief,2560948-vegepygmy-chief,2.0,Spores,18.0,21.0,4.582576,0.25458753
+1649,Thorny Vegepygmy,2560938-thorny-vegepygmy,1.0,Bite,10.0,10.5,3.2403703,0.32403705
+1650,Wastrilith,2560957-wastrilith,13.0,Bite,30.0,47.666668,6.904105,0.23013684
+1651,Wastrilith,2560957-wastrilith,13.0,Claw,18.0,11.666667,3.4156504,0.18975835
+1652,Wood Woad,2560962-wood-woad,5.0,Club,14.0,5.0,2.236068,0.15971914
+1654,Xvart,2560965-xvart,0.125,Shortsword,5.5,2.9166667,1.7078252,0.31051365
+1655,Xvart,2560965-xvart,0.125,Sling,4.5,1.25,1.118034,0.248452
+1656,Yeth Hound,2560968-yeth-hound,4.0,Bite,25.0,17.5,4.1833,0.16733201
+1657,Yuan-ti Broodguard,2560971-yuan-ti-broodguard,2.0,Bite,6.5,5.25,2.291288,0.35250583
+1658,Yuan-ti Broodguard,2560971-yuan-ti-broodguard,2.0,Claw,5.5,2.9166667,1.7078252,0.31051365
+1660,Aartuk Weedling,2821143-aartuk-weedling,2.0,Branch,9.0,5.8333335,2.4152296,0.26835883
+1661,Aartuk Weedling,2821143-aartuk-weedling,2.0,Radiant Pellet,8.5,3.75,1.9364917,0.22782256
+1663,Astral Elf Honor Guard,2821152-astral-elf-honor-guard,5.0,Longsword,23.5,25.25,5.0249376,0.21382715
+1664,Astral Elf Honor Guard,2821152-astral-elf-honor-guard,5.0,Radiant Ray,22.0,33.0,5.7445626,0.26111647
+1666,Astral Elf Warrior,2821154-astral-elf-warrior,3.0,Longsword,17.0,17.0,4.1231055,0.24253562
+1667,Astral Elf Warrior,2821154-astral-elf-warrior,3.0,Longbow,17.0,14.0,3.7416575,0.2200975
+1669,Autognome,2821155-autognome,2.0,Shock,7.0,5.8333335,2.4152296,0.34503278
+1671,B’rohg,2821157-brohg,6.0,Fist,12.0,5.8333335,2.4152296,0.20126912
+1672,B’rohg,2821157-brohg,6.0,Rock,23.0,21.0,4.582576,0.19924243
+1674,Esthetic,2821162-esthetic,12.0,Tentacle,35.5,29.75,5.454356,0.15364383
+1676,Eye Monger,2821163-eye-monger,10.0,Bite,12.0,5.8333335,2.4152296,0.20126912
+1677,Feyr,2821164-feyr,5.0,Tentacle,17.0,11.666667,3.4156504,0.2009206
+1678,Gaj,2821166-gaj,4.0,Mandibles,20.0,11.666667,3.4156504,0.1707825
+1679,Giff Shipmate,2771399-giff-shipmate,3.0,Longsword,9.5,8.25,2.8722813,0.3023454
+1680,Giff Shipmate,2771399-giff-shipmate,3.0,Musket,8.5,11.916667,3.4520526,0.40612382
+1682,Giff Shock Trooper,2821168-giff-shock-trooper,6.0,Greatsword,15.5,8.75,2.95804,0.19084129
+1683,Giff Shock Trooper,2821168-giff-shock-trooper,6.0,Musket,15.0,23.833334,4.8819394,0.32546264
+1685,Hadozee Explorer,2821174-hadozee-explorer,2.0,Shortsword,6.5,2.9166667,1.7078252,0.26274234
+1686,Hadozee Explorer,2821174-hadozee-explorer,2.0,Musket,16.0,23.833334,4.8819394,0.3051212
+1688,Hadozee Shipmate,2821175-hadozee-shipmate,0.125,Dagger,4.5,1.25,1.118034,0.248452
+1689,Hadozee Warrior,2821176-hadozee-warrior,0.5,Shortsword,6.5,2.9166667,1.7078252,0.26274234
+1690,Hadozee Warrior,2821176-hadozee-warrior,0.5,Light Crossbow,12.0,10.5,3.2403703,0.27003086
+1692,Jammer Leech,2821177-jammer-leech,1.0,Spiked Tentacle,2.5,1.25,1.118034,0.4472136
+1693,Kindori,2821178-kindori,7.0,Tail,23.5,24.75,4.974937,0.21169946
+1694,Young Lunar Dragon,2821212-young-lunar-dragon,7.0,Bite,11.0,5.8333335,2.4152296,0.21956632
+1695,Young Lunar Dragon,2821212-young-lunar-dragon,7.0,Claw,7.5,2.9166667,1.7078252,0.22771002
+1697,Lunar Dragon Wyrmling,2821179-lunar-dragon-wyrmling,2.0,Bite,9.0,5.8333335,2.4152296,0.26835883
+1698,Megapede,2821180-megapede,11.0,Bite,45.0,51.0,7.1414285,0.15869841
+1699,Murder Comet,2821182-murder-comet,5.0,Slam,13.5,11.083333,3.329164,0.24660474
+1700,Murder Comet,2821182-murder-comet,5.0,Spit Fire,13.0,16.5,4.0620193,0.31246302
+1702,Neogi Hatchling Swarm,2821184-neogi-hatchling-swarm,3.0,Swarm of Bites,22.0,17.5,4.1833,0.19015001
+1703,Neogi Pirate,2821185-neogi-pirate,3.0,Bite,20.5,14.583333,3.818813,0.18628356
+1704,Neogi Pirate,2821185-neogi-pirate,3.0,Claw,6.5,2.9166667,1.7078252,0.26274234
+1706,Plasmoid Boss,2821188-plasmoid-boss,4.0,Pseudopod,11.0,5.8333335,2.4152296,0.21956632
+1708,Plasmoid Explorer,2821189-plasmoid-explorer,0.25,Pseudopod,3.5,1.25,1.118034,0.31943828
+1709,Plasmoid Explorer,2821189-plasmoid-explorer,0.25,Javelin,4.5,2.9166667,1.7078252,0.3795167
+1711,Plasmoid Warrior,2821190-plasmoid-warrior,3.0,Pseudopod,6.5,2.9166667,1.7078252,0.26274234
+1712,Plasmoid Warrior,2821190-plasmoid-warrior,3.0,Spear,7.5,5.25,2.291288,0.30550504
+1713,Plasmoid Warrior,2821190-plasmoid-warrior,3.0,Pistol,7.5,8.25,2.8722813,0.38297084
+1715,Brown Scavver,2821158-brown-scavver,4.0,Swallowing Bite,24.5,21.583334,4.645787,0.18962394
+1716,Gray Scavver,2821173-gray-scavver,0.25,Bite,7.5,5.25,2.291288,0.30550504
+1717,Night Scavver,2821187-night-scavver,5.0,Bite,27.0,33.0,5.7445626,0.21276158
+1718,Void Scavver,2821211-void-scavver,11.0,Swallowing Bite,56.0,88.0,9.380832,0.16751485
+1719,Young Solar Dragon,2821213-young-solar-dragon,9.0,Bite,19.0,11.666667,3.4156504,0.17977107
+1720,Young Solar Dragon,2821213-young-solar-dragon,9.0,Tail,8.5,2.9166667,1.7078252,0.2009206
+1722,Solar Dragon Wyrmling,2821195-solar-dragon-wyrmling,3.0,Bite,10.0,5.8333335,2.4152296,0.24152295
+1723,Solar Dragon Wyrmling,2821195-solar-dragon-wyrmling,3.0,Tail,5.5,1.25,1.118034,0.20327891
+1725,Space Eel,2821197-space-eel,0.5,Bite,9.0,5.8333335,2.4152296,0.26835883
+1726,Space Eel,2821197-space-eel,0.5,Tail Spine,3.5,1.25,1.118034,0.31943828
+1727,Space Guppy,2821198-space-guppy,0.0,Tail Slap,1.0,0.0,0.0,0.0
+1728,Giant Space Hamster,2821167-giant-space-hamster,0.25,Bite,7.0,2.5,1.5811388,0.22587697
+1729,Space Hamster,2821199-space-hamster,0.25,Bite,1.0,0.0,0.0,0.0
+1730,Space Mollymawk,2821200-space-mollymawk,0.0,Bite,4.5,1.25,1.118034,0.248452
+1731,Space Swine,2821201-space-swine,0.25,Bite,4.5,2.9166667,1.7078252,0.3795167
+1732,Ssurran Poisoner,2821203-ssurran-poisoner,0.5,Claw,4.5,2.9166667,1.7078252,0.3795167
+1733,Ssurran Poisoner,2821203-ssurran-poisoner,0.5,Javelin,9.0,8.166667,2.857738,0.31752646
+1735,Starlight Apparition,2821204-starlight-apparition,5.0,Radiant Eruption,20.5,14.583333,3.818813,0.18628356
+1736,Thri-kreen Gladiator,2821205-thri-kreen-gladiator,7.0,Gythka,13.0,10.5,3.2403703,0.24925926
+1737,Thri-kreen Gladiator,2821205-thri-kreen-gladiator,7.0,Chatkcha,7.5,2.9166667,1.7078252,0.22771002
+1739,Thri-kreen Hunter,2821206-thri-kreen-hunter,2.0,Gythka,6.5,5.25,2.291288,0.35250583
+1740,Thri-kreen Hunter,2821206-thri-kreen-hunter,2.0,Chatkcha,6.5,2.9166667,1.7078252,0.26274234
+1742,Vampirate,2821210-vampirate,2.0,Energy Drain,11.0,16.5,4.0620193,0.36927447
+1743,Vampirate,2821210-vampirate,2.0,Light Crossbow,11.0,10.5,3.2403703,0.29457912
+1744,Vampirate Captain,2821208-vampirate-captain,6.0,Energy Drain,22.0,33.0,5.7445626,0.26111647
+1745,Vampirate Captain,2821208-vampirate-captain,6.0,Heavy Crossbow,19.5,24.75,4.974937,0.255125
+1746,Zodar,2821214-zodar,16.0,Crushing Fist,21.0,16.5,4.0620193,0.19342948
+1747,Astral Blight,2821149-astral-blight,1.0,Heat-Draining Vine,10.0,5.8333335,2.4152296,0.24152295
+1749,Mormesk the Wraith,22024-mormesk-the-wraith,3.0,Life Drain,16.5,15.75,3.968627,0.24052285
+1750,Redbrand Ruffian,22030-redbrand-ruffian,0.5,Shortsword,5.5,2.9166667,1.7078252,0.31051365
+1751,Sildar Hallwinter,22033-sildar-hallwinter,1.0,Longsword,5.5,5.25,2.291288,0.41659778
+1752,Sildar Hallwinter,22033-sildar-hallwinter,1.0,Heavy Crossbow,5.5,8.25,2.8722813,0.52223295
+1753,Ambush Drake,17466-ambush-drake,0.5,Bite,4.5,2.9166667,1.7078252,0.3795167
+1754,Captain Othelstan,17469-captain-othelstan,5.0,Flail,8.5,5.25,2.291288,0.2695633
+1755,Captain Othelstan,17469-captain-othelstan,5.0,Spear,7.5,2.9166667,1.7078252,0.22771002
+1757,Dragonclaw,17470-dragonclaw,1.0,Scimitar,6.5,2.9166667,1.7078252,0.26274234
+1759,Dragonfang,19241-dragonfang,5.0,Shortsword,13.5,8.75,2.95804,0.21911407
+1760,Dragonfang,19241-dragonfang,5.0,Orb of Dragon’s Breath,22.5,26.25,5.1234756,0.22771002
+1762,Dragonsoul,21895-dragonsoul,7.0,Shortsword,17.0,11.666667,3.4156504,0.2009206
+1763,Dragonsoul,21895-dragonsoul,7.0,Orb of Dragon’s Breath,27.0,31.5,5.612486,0.20786986
+1765,Dragonwing,21899-dragonwing,2.0,Scimitar,10.0,5.8333335,2.4152296,0.24152295
+1767,Ice Toad,21903-ice-toad,1.0,Bite,10.0,10.5,3.2403703,0.32403705
+1768,Langdedrosa Cyanwrath,17474-langdedrosa-cyanwrath,4.0,Greatsword,11.0,5.8333335,2.4152296,0.21956632
+1769,Langdedrosa Cyanwrath,17474-langdedrosa-cyanwrath,4.0,Spear,7.5,2.9166667,1.7078252,0.22771002
+1770,Langdedrosa Cyanwrath,17474-langdedrosa-cyanwrath,4.0,Lightning Breath,44.0,66.0,8.124039,0.18463723
+1772,Naergoth Bladelord,21906-naergoth-bladelord,11.0,Life Drain,20.5,14.583333,3.818813,0.18628356
+1773,Naergoth Bladelord,21906-naergoth-bladelord,11.0,Longsword,21.0,17.0,4.1231055,0.19633837
+1774,Naergoth Bladelord,21906-naergoth-bladelord,11.0,Longbow,16.0,14.0,3.7416575,0.2338536
+1776,Neronvain,21907-neronvain,6.0,Shortsword,20.0,18.666666,4.3204937,0.2160247
+1777,Neronvain,21907-neronvain,6.0,Eldritch Arrow,20.0,27.0,5.196152,0.25980762
+1779,Howling Hatred Initiate,17421-howling-hatred-initiate,0.125,Dagger,4.5,1.25,1.118034,0.248452
+1780,Burrowshark,17430-burrowshark,4.0,Spear,8.5,5.25,2.291288,0.2695633
+1781,Hellenrae,17433-hellenrae,5.0,Unarmed Strike,9.5,8.25,2.8722813,0.3023454
+1782,Marlos Urnrayle,17435-marlos-urnrayle,8.0,Snake Hair,21.5,16.916666,4.1129875,0.19130175
+1783,Marlos Urnrayle,17435-marlos-urnrayle,8.0,Ironfang,14.0,10.5,3.2403703,0.23145503
+1784,Eternal Flame Guardian,17436-eternal-flame-guardian,2.0,Longsword,6.5,5.25,2.291288,0.35250583
+1785,Eternal Flame Guardian,17436-eternal-flame-guardian,2.0,Heavy Crossbow,6.5,8.25,2.8722813,0.44188944
+1786,Razerblast,17439-razerblast,5.0,Spear,11.0,8.166667,2.857738,0.25979435
+1787,Dark Tide Knight,17446-dark-tide-knight,3.0,Shortsword,6.5,2.9166667,1.7078252,0.26274234
+1788,Dark Tide Knight,17446-dark-tide-knight,3.0,Lance,9.5,11.916667,3.4520526,0.36337397
+1790,Drannin Splithelm,17452-drannin-splithelm,7.0,Greataxe,17.0,23.833334,4.8819394,0.2871729
+1792,Ghald,17453-ghald,7.0,Bite,9.0,2.5,1.5811388,0.1756821
+1793,Ghald,17453-ghald,7.0,Shortsword,11.0,5.8333335,2.4152296,0.21956632
+1794,Ghald,17453-ghald,7.0,Garrote,9.0,2.5,1.5811388,0.1756821
+1795,Ixitxachitl,17380-ixitxachitl,0.25,Bite,4.5,2.9166667,1.7078252,0.3795167
+1796,Vampiric Ixitxachitl,17381-vampiric-ixitxachitl,2.0,Vampiric Bite,6.5,5.25,2.291288,0.35250583
+1797,Chuul Spore Servant,17393-chuul-spore-servant,4.0,Pincer,11.0,5.8333335,2.4152296,0.21956632
+1799,Drow Spore Servant,17394-drow-spore-servant,0.125,Shortsword,5.5,2.9166667,1.7078252,0.31051365
+1800,Duergar Spore Servant,17395-duergar-spore-servant,0.5,War Pick,6.5,5.25,2.291288,0.35250583
+1801,Hook Horror Spore Servant,17396-hook-horror-spore-servant,3.0,Hook,11.0,5.8333335,2.4152296,0.21956632
+1803,Troglodyte Champion of Laogzed,17397-troglodyte-champion-of-laogzed,3.0,Bite,6.5,1.25,1.118034,0.17200524
+1804,Troglodyte Champion of Laogzed,17397-troglodyte-champion-of-laogzed,3.0,Claw,6.5,1.25,1.118034,0.17200524
+1805,Troglodyte Champion of Laogzed,17397-troglodyte-champion-of-laogzed,3.0,Greatclub,8.5,5.25,2.291288,0.2695633
+1807,Chamberlain of Zuggtmoy,17400-chamberlain-of-zuggtmoy,2.0,Slam,10.0,5.8333335,2.4152296,0.24152295
+1809,Baba Lysaga’s Creeping Hut,17357-baba-lysagas-creeping-hut,11.0,Root,30.0,33.0,5.7445626,0.19148542
+1810,Baba Lysaga’s Creeping Hut,17357-baba-lysagas-creeping-hut,11.0,Rock,21.5,15.75,3.968627,0.1845873
+1812,Broom of Animated Attack,17358-broom-of-animated-attack,0.25,Broomstick,5.5,1.25,1.118034,0.20327891
+1813,Strahd’s Animated Armor,17360-strahds-animated-armor,6.0,Greatsword,13.5,8.75,2.95804,0.21911407
+1814,Strahd’s Animated Armor,17360-strahds-animated-armor,6.0,Shocking Bolt,10.5,8.75,2.95804,0.28171808
+1816,Tree Blight,17363-tree-blight,7.0,Branch,16.5,8.75,2.95804,0.17927514
+1817,Tree Blight,17363-tree-blight,7.0,Grasping Root,9.5,2.9166667,1.7078252,0.17977107
+1819,Izek Strazni,17365-izek-strazni,5.0,Battleaxe,13.0,10.5,3.2403703,0.24925926
+1820,Izek Strazni,17365-izek-strazni,5.0,Hurl Flame,10.5,8.75,2.95804,0.28171808
+1822,Mongrelfolk,17367-mongrelfolk,0.25,Bite,3.5,1.25,1.118034,0.31943828
+1823,Mongrelfolk,17367-mongrelfolk,0.25,Claw,3.5,1.25,1.118034,0.31943828
+1824,Mongrelfolk,17367-mongrelfolk,0.25,Dagger,3.5,1.25,1.118034,0.31943828
+1826,Phantom Warrior,17368-phantom-warrior,3.0,Spectral Longsword,7.5,5.25,2.291288,0.30550504
+1828,Pidlwick II,17369-pidlwick-ii,0.25,Club,2.5,1.25,1.118034,0.4472136
+1829,Pidlwick II,17369-pidlwick-ii,0.25,Dart,4.5,1.25,1.118034,0.248452
+1830,Strahd Zombie,17375-strahd-zombie,1.0,Bite,3.5,1.25,1.118034,0.31943828
+1831,Strahd Zombie,17375-strahd-zombie,1.0,Claw,4.5,2.9166667,1.7078252,0.3795167
+1833,Crag Cat,17348-crag-cat,1.0,Bite,8.5,8.25,2.8722813,0.33791545
+1834,Crag Cat,17348-crag-cat,1.0,Claw,7.5,5.25,2.291288,0.30550504
+1835,Hulking Crab,17349-hulking-crab,5.0,Claw,20.5,24.75,4.974937,0.24267986
+1837,Purple Wormling,17352-purple-wormling,2.0,Bite,11.0,8.166667,2.857738,0.25979435
+1838,Purple Wormling,17352-purple-wormling,2.0,Tail Stinger,16.0,10.0,3.1622777,0.19764236
+1840,Tressym,17353-tressym,0.0,Claws,1.0,0.0,0.0,0.0
+1841,Yakfolk Warrior,17355-yakfolk-warrior,3.0,Greatsword,18.0,11.666667,3.4156504,0.18975835
+1842,Yakfolk Warrior,17355-yakfolk-warrior,3.0,Longbow,9.0,10.5,3.2403703,0.36004114
+1844,Animated Table,22360-animated-table,2.0,Ram,13.0,10.5,3.2403703,0.24925926
+1845,Centaur Mummy,22368-centaur-mummy,6.0,Pike,10.5,8.25,2.8722813,0.2735506
+1846,Centaur Mummy,22368-centaur-mummy,6.0,Hooves,22.5,14.583333,3.818813,0.16972503
+1847,Dread Warrior,22372-dread-warrior,1.0,Battleaxe,7.5,8.25,2.8722813,0.38297084
+1848,Dread Warrior,22372-dread-warrior,1.0,Javelin,5.5,2.9166667,1.7078252,0.31051365
+1849,Duergar Spy,22537-duergar-spy,2.0,Shortsword,10.0,5.8333335,2.4152296,0.24152295
+1850,Duergar Spy,22537-duergar-spy,2.0,Hand Crossbow,6.5,2.9166667,1.7078252,0.26274234
+1852,Giant Crayfish,22553-giant-crayfish,2.0,Claw,7.5,8.25,2.8722813,0.38297084
+1854,Giant Ice Toad,22560-giant-ice-toad,3.0,Bite,10.0,5.8333335,2.4152296,0.24152295
+1855,Giant Ice Toad,22560-giant-ice-toad,3.0,Swallow,31.5,31.083334,5.575243,0.17699184
+1856,Giant Lightning Eel,22564-giant-lightning-eel,3.0,Bite,14.5,11.083333,3.329164,0.22959752
+1858,Giant Skeleton,22565-giant-skeleton,7.0,Scimitar,15.5,8.75,2.95804,0.19084129
+1860,Giant Subterranean Lizard,22568-giant-subterranean-lizard,4.0,Bite,16.0,16.5,4.0620193,0.2538762
+1861,Giant Subterranean Lizard,22568-giant-subterranean-lizard,4.0,Tail,12.0,5.8333335,2.4152296,0.20126912
+1862,Giant Subterranean Lizard,22568-giant-subterranean-lizard,4.0,Swallow,26.5,25.25,5.0249376,0.1896203
+1864,Greater Zombie,22571-greater-zombie,5.0,Empowered Slam,14.5,8.75,2.95804,0.20400275
+1865,Kalka-Kylla,22582-kalka-kylla,3.0,Claw,10.0,5.8333335,2.4152296,0.24152295
+1867,Kelpie,22586-kelpie,4.0,Slam,11.0,10.5,3.2403703,0.29457912
+1869,Malformed Kraken,22610-malformed-kraken,10.0,Bite,16.0,10.5,3.2403703,0.20252314
+1870,Malformed Kraken,22610-malformed-kraken,10.0,Tentacle,14.0,5.8333335,2.4152296,0.17251639
+1871,Nereid,22618-nereid,2.0,Blinding Acid,16.0,23.833334,4.8819394,0.3051212
+1872,Sea Lion,22655-sea-lion,5.0,Bite,12.0,10.5,3.2403703,0.27003086
+1873,Sea Lion,22655-sea-lion,5.0,Claws,12.0,10.5,3.2403703,0.27003086
+1875,Sir Braford,23115-sir-braford,0.5,Longsword,9.5,8.25,2.8722813,0.3023454
+1876,Tecuziztecatl,23125-tecuziztecatl,4.0,Pseudopod,12.0,10.5,3.2403703,0.27003086
+1877,Tecuziztecatl,23125-tecuziztecatl,4.0,Spit Acid,36.0,42.0,6.4807405,0.18002057
+1879,Thayan Warrior,23131-thayan-warrior,2.0,Longsword,8.5,8.25,2.8722813,0.33791545
+1880,Thayan Warrior,23131-thayan-warrior,2.0,Javelin,6.5,2.9166667,1.7078252,0.26274234
+1881,Thorn Slinger,23132-thorn-slinger,0.5,Thorns,8.0,5.8333335,2.4152296,0.3019037
+1882,White Maw,23138-white-maw,10.0,Pseudopod,31.0,31.5,5.612486,0.18104793
+1883,Albino Dwarf Warrior,32985-albino-dwarf-warrior,0.25,Handaxe,4.5,2.9166667,1.7078252,0.3795167
+1884,Aldani (Lobsterfolk),32991-aldani-lobsterfolk,1.0,Claw,5.5,5.25,2.291288,0.41659778
+1886,Almiraj,32994-almiraj,0.0,Horn,5.5,1.25,1.118034,0.20327891
+1887,Artus Cimber,33005-artus-cimber,7.0,Bookmark,7.5,1.25,1.118034,0.1490712
+1888,Artus Cimber,33005-artus-cimber,7.0,Longbow,6.5,5.25,2.291288,0.35250583
+1890,Assassin Vine,33010-assassin-vine,3.0,Constrict,32.0,23.333334,4.830459,0.15095185
+1891,Dragonbait,33022-dragonbait,5.0,Holy Avenger,21.5,24.75,4.974937,0.23139243
+1893,Flying Monkey,33025-flying-monkey,0.0,Bite,1.5,1.25,1.118034,0.74535596
+1894,Giant Four-Armed Gargoyle,33028-giant-four-armed-gargoyle,10.0,Bite,11.0,5.8333335,2.4152296,0.21956632
+1895,Giant Four-Armed Gargoyle,33028-giant-four-armed-gargoyle,10.0,Claw,9.0,2.5,1.5811388,0.1756821
+1897,Giant Snapping Turtle,33030-giant-snapping-turtle,3.0,Bite,18.0,11.666667,3.4156504,0.18975835
+1898,Jaculi,33039-jaculi,0.5,Bite,9.0,5.8333335,2.4152296,0.26835883
+1899,Kamadan,33044-kamadan,4.0,Bite,6.5,2.9166667,1.7078252,0.26274234
+1900,Kamadan,33044-kamadan,4.0,Claw,6.5,2.9166667,1.7078252,0.26274234
+1901,Kamadan,33044-kamadan,4.0,Snakes,27.5,20.416666,4.518481,0.16430838
+1903,Liara Portyr,33046-liara-portyr,4.0,Battleaxe,8.5,8.25,2.8722813,0.33791545
+1904,Liara Portyr,33046-liara-portyr,4.0,Heavy Crossbow,6.5,8.25,2.8722813,0.44188944
+1905,Mantrap,33048-mantrap,1.0,Engulf,14.0,11.666667,3.4156504,0.24397501
+1906,Pterafolk,33242-pterafolk,1.0,Bite,7.0,2.5,1.5811388,0.22587697
+1907,Pterafolk,33242-pterafolk,1.0,Claw,5.5,2.9166667,1.7078252,0.31051365
+1908,Pterafolk,33242-pterafolk,1.0,Javelin,9.0,5.8333335,2.4152296,0.26835883
+1910,Stone Juggernaut,33254-stone-juggernaut,12.0,Slam,25.5,35.75,5.9791303,0.2344757
+1911,Su-monster,33257-su-monster,1.0,Bite,4.5,1.25,1.118034,0.248452
+1912,Su-monster,33257-su-monster,1.0,Claws,12.0,5.0,2.236068,0.18633899
+1914,Tri-flower Frond,33267-tri-flower-frond,0.5,Red Blossom,7.5,3.75,1.9364917,0.2581989
+1915,Yellow Musk Creeper,33275-yellow-musk-creeper,2.0,Touch,13.5,15.75,3.968627,0.29397237
+1916,Yellow Musk Zombie,33277-yellow-musk-zombie,0.25,Slam,5.5,5.25,2.291288,0.41659778
+1917,Ankylosaurus Zombie,33282-ankylosaurus-zombie,3.0,Tail,18.0,11.666667,3.4156504,0.18975835
+1918,Girallon Zombie,33284-girallon-zombie,3.0,Bite,7.5,2.9166667,1.7078252,0.22771002
+1919,Girallon Zombie,33284-girallon-zombie,3.0,Claw,6.5,1.25,1.118034,0.17200524
+1921,Tyrannosaurus Zombie,33286-tyrannosaurus-zombie,8.0,Bite,33.0,47.666668,6.904105,0.2092153
+1922,Tyrannosaurus Zombie,33286-tyrannosaurus-zombie,8.0,Tail,20.5,15.75,3.968627,0.19359156
+1923,Zorbo,33290-zorbo,0.5,Destructive Claws,8.0,5.8333335,2.4152296,0.3019037
+1924,Ahmaergo,149778-ahmaergo,9.0,Greataxe,18.5,17.75,4.2130747,0.22773378
+1925,Ahmaergo,149778-ahmaergo,9.0,Heavy Crossbow,7.5,8.25,2.8722813,0.38297084
+1927,Black Viper,149834-black-viper,5.0,Rapier,7.5,2.9166667,1.7078252,0.22771002
+1928,Black Viper,149834-black-viper,5.0,Hand Crossbow,7.5,2.9166667,1.7078252,0.22771002
+1930,Griffon Cavalry Rider,149838-griffon-cavalry-rider,2.0,Lance,11.5,11.916667,3.4520526,0.30017847
+1931,Griffon Cavalry Rider,149838-griffon-cavalry-rider,2.0,Dagger,4.5,1.25,1.118034,0.248452
+1932,Griffon Cavalry Rider,149838-griffon-cavalry-rider,2.0,Light Crossbow,6.5,5.25,2.291288,0.35250583
+1933,Tashlyn Yafeera,149868-tashlyn-yafeera,9.0,Greatsword,18.0,11.666667,3.4156504,0.18975835
+1934,Tashlyn Yafeera,149868-tashlyn-yafeera,9.0,Shortbow,12.5,8.75,2.95804,0.2366432
+1936,Durnan,149798-durnan,9.0,Grimvault,41.0,5.8333335,2.4152296,0.058908034
+1937,Durnan,149798-durnan,9.0,Double Crossbow,13.0,16.5,4.0620193,0.31246302
+1939,Hrabbaz,149774-hrabbaz,5.0,Morningstar,13.0,8.166667,2.857738,0.219826
+1941,Jalester Silvermane,149770-jalester-silvermane,4.0,Longsword,7.5,8.25,2.8722813,0.38297084
+1942,Jalester Silvermane,149770-jalester-silvermane,4.0,Dagger,4.5,1.25,1.118034,0.248452
+1943,Meloon Wardragon,148973-meloon-wardragon,9.0,Azuredge,11.5,11.916667,3.4520526,0.30017847
+1945,Mirt,148977-mirt,9.0,+1 Longsword,16.0,16.5,4.0620193,0.2538762
+1946,Mirt,148977-mirt,9.0,+1 Dagger,10.0,2.5,1.5811388,0.15811388
+1948,Nimblewright,148992-nimblewright,4.0,Rapier,8.5,5.25,2.291288,0.2695633
+1949,Nimblewright,148992-nimblewright,4.0,Dagger,6.5,1.25,1.118034,0.17200524
+1951,Walking Statue of Waterdeep,149497-walking-statue-of-waterdeep,,Slam,29.5,35.75,5.9791303,0.20268239
+1952,Walking Statue of Waterdeep,149497-walking-statue-of-waterdeep,,Hurled Stone,43.0,49.5,7.0356236,0.16361916
+1953,Lava Child,183824-lava-child,3.0,Bite,11.0,5.8333335,2.4152296,0.21956632
+1954,Lava Child,183824-lava-child,3.0,Claws,7.5,2.9166667,1.7078252,0.22771002
+1956,Living Unseen Servant,183829-living-unseen-servant,0.0,Slam,1.0,0.0,0.0,0.0
+1957,Scaladar,183857-scaladar,8.0,Claw,10.5,11.916667,3.4520526,0.3287669
+1958,Scaladar,183857-scaladar,8.0,Sting,20.5,24.75,4.974937,0.24267986
+1960,Shadow Assassin,183860-shadow-assassin,9.0,Shadow Blade,18.0,11.666667,3.4156504,0.18975835
+1962,Werebat,183864-werebat,2.0,Bite,6.5,2.9166667,1.7078252,0.26274234
+1963,Werebat,183864-werebat,2.0,Scimitar,6.5,2.9166667,1.7078252,0.26274234
+1964,Werebat,183864-werebat,2.0,Shortbow,6.5,2.9166667,1.7078252,0.26274234
+1966,Clockwork Kraken,194145-clockwork-kraken,10.0,Tentacle Slam,12.0,5.8333335,2.4152296,0.20126912
+1967,Ooze-Folk,194175-ooze-folk,0.5,Glass Longsword,6.5,5.25,2.291288,0.35250583
+1968,Ooze-Folk,194175-ooze-folk,0.5,Pseudopod,5.5,2.9166667,1.7078252,0.31051365
+1970,Bullywug Croaker,309700-bullywug-croaker,2.0,Spear,6.5,5.25,2.291288,0.35250583
+1971,Bullywug Croaker,309700-bullywug-croaker,2.0,Bite,5.5,2.9166667,1.7078252,0.31051365
+1972,Bullywug Royal,309715-bullywug-royal,3.0,Spear,7.5,5.25,2.291288,0.30550504
+1974,Drowned Ascetic,309739-drowned-ascetic,3.0,Unarmed Strike,7.5,5.25,2.291288,0.30550504
+1976,Drowned Assassin,309751-drowned-assassin,4.0,Hand Crossbow,10.0,5.8333335,2.4152296,0.24152295
+1977,Drowned Assassin,309751-drowned-assassin,4.0,Dagger,14.5,11.75,3.4278274,0.23640189
+1978,Drowned Blade,309767-drowned-blade,2.0,Rusted Longsword,7.5,5.25,2.291288,0.30550504
+1980,Drowned Master,309776-drowned-master,9.0,Greatsword,24.0,17.5,4.1833,0.17430417
+1981,Drowned Master,309776-drowned-master,9.0,Life-Draining Tentacle,10.0,5.8333335,2.4152296,0.24152295
+1982,Drowned Master,309776-drowned-master,9.0,Necrotic Ink,54.0,63.0,7.937254,0.14698619
+1984,Giant Coral Snake,310351-giant-coral-snake,4.0,Bite,8.0,2.5,1.5811388,0.19764236
+1985,Giant Sea Eel,310356-giant-sea-eel,0.5,Bite,13.0,16.5,4.0620193,0.31246302
+1986,Harpy Matriarch,310360-harpy-matriarch,5.0,Claws,13.5,8.75,2.95804,0.21911407
+1988,Koalinth,310386-koalinth,0.5,Trident,5.5,5.25,2.291288,0.41659778
+1989,Koalinth Sergeant,310397-koalinth-sergeant,2.0,Trident,6.5,5.25,2.291288,0.35250583
+1990,Koalinth Sergeant,310397-koalinth-sergeant,2.0,Hooked Net,4.5,1.25,1.118034,0.248452
+1992,Living Iron Statue,316787-living-iron-statue,5.0,Blade,10.0,5.8333335,2.4152296,0.24152295
+1993,Living Iron Statue,316787-living-iron-statue,5.0,Hammer,10.0,5.8333335,2.4152296,0.24152295
+1995,Lizardfolk Commoner,313025-lizardfolk-commoner,0.25,Bite,5.5,2.9166667,1.7078252,0.31051365
+1996,Lizardfolk Render,313028-lizardfolk-render,3.0,Claws,12.0,10.5,3.2403703,0.27003086
+1997,Lizardfolk Render,313028-lizardfolk-render,3.0,Bite,8.5,8.25,2.8722813,0.33791545
+1999,Lizardfolk Scaleshield,313030-lizardfolk-scaleshield,1.0,Morningstar,6.5,5.25,2.291288,0.35250583
+2000,Lizardfolk Scaleshield,313030-lizardfolk-scaleshield,1.0,Bite,5.5,2.9166667,1.7078252,0.31051365
+2001,Lizardfolk Scaleshield,313030-lizardfolk-scaleshield,1.0,Spiked Shield,5.5,2.9166667,1.7078252,0.31051365
+2002,Locathah,313041-locathah,0.5,Spear,5.5,5.25,2.291288,0.41659778
+2004,Locathah Hunter,313042-locathah-hunter,2.0,Envenomed Crossbow,11.0,10.5,3.2403703,0.29457912
+2005,Locathah Hunter,313042-locathah-hunter,2.0,Club,4.5,2.9166667,1.7078252,0.3795167
+2007,Merfolk Salvager,316545-merfolk-salvager,1.0,Coral Rapier,6.5,5.25,2.291288,0.35250583
+2008,Merfolk Salvager,316545-merfolk-salvager,1.0,Inject Toxin,6.5,5.25,2.291288,0.35250583
+2010,Minotaur Living Crystal Statue,316553-minotaur-living-crystal-statue,6.0,Greataxe,17.0,23.833334,4.8819394,0.2871729
+2011,Minotaur Living Crystal Statue,316553-minotaur-living-crystal-statue,6.0,Gore,8.5,5.25,2.291288,0.2695633
+2013,Oceanus,316574-oceanus,0.5,Trident,6.5,5.25,2.291288,0.35250583
+2014,Oceanus,316574-oceanus,0.5,Light Crossbow,5.5,5.25,2.291288,0.41659778
+2015,Pirate Bosun,316598-pirate-bosun,0.5,Light Hammer,5.5,1.25,1.118034,0.20327891
+2016,Pirate Bosun,316598-pirate-bosun,0.5,Hook,7.5,5.25,2.291288,0.30550504
+2017,Pirate Captain,316600-pirate-captain,2.0,Hand Crossbow,5.5,2.9166667,1.7078252,0.31051365
+2018,Pirate Captain,316600-pirate-captain,2.0,Longsword,10.5,8.25,2.8722813,0.2735506
+2020,Pirate First Mate,316611-pirate-first-mate,1.0,Longsword,7.5,8.25,2.8722813,0.38297084
+2022,Sahuagin Blademaster,316104-sahuagin-blademaster,6.0,Wavecutter Blade,12.0,10.5,3.2403703,0.27003086
+2023,Sahuagin Blademaster,316104-sahuagin-blademaster,6.0,Bite,8.5,8.25,2.8722813,0.33791545
+2024,Sahuagin Blademaster,316104-sahuagin-blademaster,6.0,Claws,7.5,5.25,2.291288,0.30550504
+2026,Sahuagin Champion,316122-sahuagin-champion,3.0,Spear,7.5,5.25,2.291288,0.30550504
+2027,Sahuagin Champion,316122-sahuagin-champion,3.0,Bite,5.5,1.25,1.118034,0.20327891
+2028,Sahuagin Champion,316122-sahuagin-champion,3.0,Claws,6.5,2.9166667,1.7078252,0.26274234
+2030,Sahuagin Coral Smasher,316508-sahuagin-coral-smasher,1.0,Warhammer,7.5,5.25,2.291288,0.30550504
+2031,Sahuagin Coral Smasher,316508-sahuagin-coral-smasher,1.0,Bite,5.5,1.25,1.118034,0.20327891
+2032,Sahuagin Coral Smasher,316508-sahuagin-coral-smasher,1.0,Claws,5.5,1.25,1.118034,0.20327891
+2034,Sahuagin Deep Diver,316511-sahuagin-deep-diver,4.0,Glaive,13.0,16.5,4.0620193,0.31246302
+2035,Sahuagin Deep Diver,316511-sahuagin-deep-diver,4.0,Bite,7.5,8.25,2.8722813,0.38297084
+2036,Sahuagin Deep Diver,316511-sahuagin-deep-diver,4.0,Claws,6.5,5.25,2.291288,0.35250583
+2038,Sahuagin Hatchling Swarm,316858-sahuagin-hatchling-swarm,3.0,Bites,14.0,11.666667,3.4156504,0.24397501
+2039,Shell Shark,316819-shell-shark,2.0,Bite,13.0,16.5,4.0620193,0.31246302
+2041,Skeletal Alchemist,316828-skeletal-alchemist,0.5,Claws,4.5,2.9166667,1.7078252,0.3795167
+2042,Skeletal Alchemist,316828-skeletal-alchemist,0.5,Lob Acid,5.5,5.25,2.291288,0.41659778
+2044,Skeletal Juggernaut,316830-skeletal-juggernaut,5.0,Claws,12.0,10.5,3.2403703,0.27003086
+2045,Skeletal Swarm,316845-skeletal-swarm,2.0,Slash,11.0,10.5,3.2403703,0.29457912
+2046,Skum,316647-skum,5.0,Trident,7.5,2.9166667,1.7078252,0.22771002
+2047,Skum,316647-skum,5.0,Mind-Breaking Touch,18.0,21.0,4.582576,0.25458753
+2049,Don-Jon Raskin,338592-don-jon-raskin,0.5,Dagger,2.5,1.25,1.118034,0.4472136
+2050,Don-Jon Raskin,338592-don-jon-raskin,0.5,Sling,2.5,1.25,1.118034,0.4472136
+2051,Falcon the Hunter,338605-falcon-the-hunter,4.0,Longsword,7.5,8.25,2.8722813,0.38297084
+2052,Falcon the Hunter,338605-falcon-the-hunter,4.0,Longbow,11.0,10.5,3.2403703,0.29457912
+2053,Gorthok the Thunder Boar,338612-gorthok-the-thunder-boar,6.0,Lightning Tusks,19.0,11.666667,3.4156504,0.17977107
+2054,Gorthok the Thunder Boar,338612-gorthok-the-thunder-boar,6.0,Thunder Hooves,19.0,11.666667,3.4156504,0.17977107
+2056,Huge Giant Crab,294086-huge-giant-crab,8.0,Claw,27.0,33.0,5.7445626,0.21276158
+2057,Statue of Talos,447040-statue-of-talos,10.0,Headbutt,11.0,5.8333335,2.4152296,0.21956632
+2058,Statue of Talos,447040-statue-of-talos,10.0,Lightning Bolt Blades,9.0,2.5,1.5811388,0.1756821
+2060,Tooth-N-Claw,447047-tooth-n-claw,3.0,Bite,14.5,11.083333,3.329164,0.22959752
+2061,Tooth-N-Claw,447047-tooth-n-claw,3.0,Freezing Breath,42.0,35.0,5.91608,0.14085904
+2062,Half-Blue Dragon Gladiator,27708-half-blue-dragon-gladiator,5.0,Spear,13.0,10.5,3.2403703,0.24925926
+2063,Half-Blue Dragon Gladiator,27708-half-blue-dragon-gladiator,5.0,Shield Bash,9.0,2.5,1.5811388,0.1756821
+2064,Half-Blue Dragon Gladiator,27708-half-blue-dragon-gladiator,5.0,Lightning Breath,44.0,66.0,8.124039,0.18463723
+2065,Mortlock Vanthampur,417738-mortlock-vanthampur,3.0,Greatclub,14.0,5.0,2.236068,0.15971914
+2066,Mortlock Vanthampur,417738-mortlock-vanthampur,3.0,Heavy Crossbow,7.5,8.25,2.8722813,0.38297084
+2068,Amrik Vanthampur,417759-amrik-vanthampur,3.0,Dagger,6.5,1.25,1.118034,0.17200524
+2070,Duke Thalamra Vanthampur,417078-duke-thalamra-vanthampur,4.0,Eldritch Blast,9.5,8.25,2.8722813,0.3023454
+2071,Duke Thalamra Vanthampur,417078-duke-thalamra-vanthampur,4.0,Unarmed Strike,4.0,0.0,0.0,0.0
+2073,Thavius Kreeg,429696-thavius-kreeg,0.5,Mace,4.5,2.9166667,1.7078252,0.3795167
+2074,Gideon Lightward,421337-gideon-lightward,6.0,Fist,11.0,5.8333335,2.4152296,0.21956632
+2076,Ulder Ravengard,416956-ulder-ravengard,5.0,+1 Longsword,9.5,8.25,2.8722813,0.3023454
+2077,Abyssal Chicken,416909-abyssal-chicken,0.25,Bite,4.5,1.25,1.118034,0.248452
+2078,Abyssal Chicken,416909-abyssal-chicken,0.25,Claws,5.5,2.9166667,1.7078252,0.31051365
+2080,Torogar Steelfist,417139-torogar-steelfist,11.0,Scimitar,20.5,8.75,2.95804,0.14429463
+2081,Torogar Steelfist,417139-torogar-steelfist,11.0,Horns,19.0,10.5,3.2403703,0.1705458
+2083,Bone Whelk,428989-bone-whelk,0.25,Bite,4.5,5.25,2.291288,0.50917506
+2084,Nine-Fingers Keene,429713-nine-fingers-keene,5.0,Dagger,12.5,1.25,1.118034,0.08944272
+2086,Rilsa Rael,421349-rilsa-rael,3.0,Shortsword,7.5,2.9166667,1.7078252,0.22771002
+2087,Rilsa Rael,421349-rilsa-rael,3.0,Dagger,6.5,1.25,1.118034,0.17200524
+2088,Crokek’toeck,417877-crokektoeck,14.0,Bite,44.0,29.166666,5.400617,0.122741304
+2089,Fist of Bane,416945-fist-of-bane,0.5,Mace,6.5,2.9166667,1.7078252,0.26274234
+2090,Fist of Bane,416945-fist-of-bane,0.5,Longbow,4.5,5.25,2.291288,0.50917506
+2091,Iron Consul,417125-iron-consul,2.0,Spear,7.5,5.25,2.291288,0.30550504
+2092,Night Blade,429728-night-blade,0.25,Dagger,4.5,1.25,1.118034,0.248452
+2093,Death’s Head of Bhaal,416937-deaths-head-of-bhaal,5.0,Dagger,7.5,1.25,1.118034,0.1490712
+2094,Necromite of Myrkul,416948-necromite-of-myrkul,0.5,Skull Flail,4.5,5.25,2.291288,0.50917506
+2095,Necromite of Myrkul,416948-necromite-of-myrkul,0.5,Claws of the Grave,8.0,2.5,1.5811388,0.19764236
+2096,Fiendish Flesh Golem,417091-fiendish-flesh-golem,8.0,Slam,16.0,16.5,4.0620193,0.2538762
+2098,Hellwasp,417402-hellwasp,5.0,Sting,15.5,11.083333,3.329164,0.21478477
+2099,Hellwasp,417402-hellwasp,5.0,Sword Talons,11.0,5.8333335,2.4152296,0.21956632
+2101,Young Kraken,488633-young-kraken,14.0,Bite,41.5,33.25,5.766281,0.13894653
+2102,Young Kraken,488633-young-kraken,14.0,Tentacle,17.5,8.75,2.95804,0.16903085
+2103,"""The Demogorgon""",582125-the-demogorgon,8.0,Battleaxe,14.0,10.5,3.2403703,0.23145503
+2104,"""The Demogorgon""",582125-the-demogorgon,8.0,Morningstar,14.0,10.5,3.2403703,0.23145503
+2105,"""The Demogorgon""",582125-the-demogorgon,8.0,Fire Breath,90.0,105.0,10.246951,0.11385501
+2106,"""The Demogorgon""",582125-the-demogorgon,8.0,Cold Breath,90.0,105.0,10.246951,0.11385501
+2108,Lynx Creatlach,581171-lynx-creatlach,5.0,Shortsword,7.5,2.9166667,1.7078252,0.22771002
+2110,Sir Ursas,581191-sir-ursas,5.0,Claw,11.0,5.8333335,2.4152296,0.21956632
+2111,Sir Ursas,581191-sir-ursas,5.0,Spear,13.0,10.5,3.2403703,0.24925926
+2112,Sir Ursas,581191-sir-ursas,5.0,Shield Bash,9.0,2.5,1.5811388,0.1756821
+2113,Incubus,257235-incubus,4.0,Claw,6.5,2.9166667,1.7078252,0.26274234
+2114,Incubus,257235-incubus,4.0,Draining Kiss,32.5,41.25,6.4226165,0.19761896
+2115,Thessalheart Construct,582801-thessalheart-construct,0.0,Claws,1.0,0.0,0.0,0.0
+2116,Two-Headed Crocodile,582928-two-headed-crocodile,1.0,Bite,7.5,8.25,2.8722813,0.38297084
+2118,Two-Headed Owlbear,582938-two-headed-owlbear,3.0,Beak,10.5,8.25,2.8722813,0.2735506
+2119,Two-Headed Owlbear,582938-two-headed-owlbear,3.0,Claws,14.0,10.5,3.2403703,0.23145503
+2121,Awakened White Moose,1123066-awakened-white-moose,3.0,Antlers,13.0,10.5,3.2403703,0.24925926
+2122,Awakened White Moose,1123066-awakened-white-moose,3.0,Hooves,9.0,2.5,1.5811388,0.1756821
+2124,Kingsport,1123105-kingsport,0.0,Beak,3.5,1.25,1.118034,0.31943828
+2125,Chardalyn Berserker,1123070-chardalyn-berserker,4.0,Chardalyn Flail,7.5,5.25,2.291288,0.30550504
+2126,Chardalyn Berserker,1123070-chardalyn-berserker,4.0,Chardalyn Javelin,6.5,2.9166667,1.7078252,0.26274234
+2127,Chardalyn Dragon,1123071-chardalyn-dragon,11.0,Claw,14.0,5.8333335,2.4152296,0.17251639
+2128,Chardalyn Dragon,1123071-chardalyn-dragon,11.0,Tail,18.0,16.5,4.0620193,0.22566773
+2129,Chardalyn Dragon,1123071-chardalyn-dragon,11.0,Wings,12.0,2.5,1.5811388,0.13176157
+2130,Chardalyn Dragon,1123071-chardalyn-dragon,11.0,Radiant Breath,63.0,73.5,8.573215,0.13608277
+2131,Coldlight Walker,1123078-coldlight-walker,5.0,Slam,25.0,22.166666,4.708149,0.18832596
+2132,Coldlight Walker,1123078-coldlight-walker,5.0,Cold Ray,25.0,33.0,5.7445626,0.2297825
+2133,Fox,1123082-fox,0.0,Bite,1.0,0.0,0.0,0.0
+2134,Frost Giant Skeleton,1123084-frost-giant-skeleton,6.0,Greataxe,25.5,35.75,5.9791303,0.2344757
+2136,Gnoll Vampire,1123087-gnoll-vampire,8.0,Bite,21.0,16.333334,4.041452,0.19245009
+2137,Gnoll Vampire,1123087-gnoll-vampire,8.0,Claws,10.0,2.5,1.5811388,0.15811388
+2139,Goliath Warrior,1123090-goliath-warrior,3.0,Greataxe,10.5,11.916667,3.4520526,0.3287669
+2140,Goliath Warrior,1123090-goliath-warrior,3.0,Javelin,7.5,2.9166667,1.7078252,0.22771002
+2142,Goliath Werebear,1123091-goliath-werebear,8.0,Bite,16.0,16.5,4.0620193,0.2538762
+2143,Goliath Werebear,1123091-goliath-werebear,8.0,Claw,14.0,10.5,3.2403703,0.23145503
+2144,Goliath Werebear,1123091-goliath-werebear,8.0,Greataxe,11.5,11.916667,3.4520526,0.30017847
+2145,Ice Troll,1123099-ice-troll,8.0,Bite,16.5,13.416667,3.6628768,0.22199254
+2146,Ice Troll,1123099-ice-troll,8.0,Claw,20.0,16.333334,4.041452,0.20207259
+2148,Knucklehead Trout,1123107-knucklehead-trout,0.0,Bite,4.5,1.25,1.118034,0.248452
+2149,Knucklehead Trout,1123107-knucklehead-trout,0.0,Tail,4.5,1.25,1.118034,0.248452
+2150,Icewind Kobold,1123101-icewind-kobold,0.125,Dagger,4.5,1.25,1.118034,0.248452
+2151,Icewind Kobold,1123101-icewind-kobold,0.125,Javelin,1.5,2.9166667,1.7078252,1.13855
+2152,Icewind Kobold Zombie,1123100-icewind-kobold-zombie,0.125,Javelin,2.5,2.9166667,1.7078252,0.68313
+2153,Kobold Vampire Spawn,1123108-kobold-vampire-spawn,3.0,Bite,11.5,3.75,1.9364917,0.16839059
+2154,Living Bigby’s Hand,1123109-living-bigbys-hand,4.0,Force Fist,26.0,21.0,4.582576,0.17625292
+2155,Demos Magen,1123079-demos-magen,2.0,Greatsword,9.0,5.8333335,2.4152296,0.26835883
+2156,Demos Magen,1123079-demos-magen,2.0,Light Crossbow,6.5,5.25,2.291288,0.35250583
+2157,Galvan Magen,1123085-galvan-magen,3.0,Shocking Touch,7.5,2.9166667,1.7078252,0.22771002
+2158,Galvan Magen,1123085-galvan-magen,3.0,Static Discharge,44.0,66.0,8.124039,0.18463723
+2160,Spitting Mimic,1123127-spitting-mimic,5.0,Pseudopods,10.5,8.25,2.8722813,0.2735506
+2161,Spitting Mimic,1123127-spitting-mimic,5.0,Bite,17.5,14.083333,3.7527769,0.21444438
+2163,Mountain Goat,1123114-mountain-goat,0.125,Ram,5.5,2.9166667,1.7078252,0.31051365
+2164,Gunvald Halraggson,1123093-gunvald-halraggson,5.0,Battleaxe,17.0,20.166666,4.4907312,0.26416066
+2165,Gunvald Halraggson,1123093-gunvald-halraggson,5.0,Javelin,15.0,14.833333,3.8514066,0.25676045
+2166,Jarund Elkhardt,1123103-jarund-elkhardt,5.0,Warhammer,15.0,16.5,4.0620193,0.27080128
+2167,Jarund Elkhardt,1123103-jarund-elkhardt,5.0,Javelin,11.0,5.8333335,2.4152296,0.21956632
+2168,Bjornhild Solvigsdottir,1123068-bjornhild-solvigsdottir,5.0,Greataxe,21.5,28.416666,5.3307285,0.24794087
+2169,Bjornhild Solvigsdottir,1123068-bjornhild-solvigsdottir,5.0,Spear,19.5,21.75,4.6636896,0.23916356
+2170,Isarr Kronenstrom,1123102-isarr-kronenstrom,8.0,Heavy Crossbow,8.5,8.25,2.8722813,0.33791545
+2171,Seal,1123121-seal,0.0,Bite,1.0,0.0,0.0,0.0
+2172,Snow Golem,1123123-snow-golem,3.0,Slam,12.5,8.75,2.95804,0.2366432
+2173,Snow Golem,1123123-snow-golem,3.0,Snowball,9.0,5.8333335,2.4152296,0.26835883
+2174,Sperm Whale,1123126-sperm-whale,8.0,Bite,21.5,15.75,3.968627,0.1845873
+2175,Sperm Whale,1123126-sperm-whale,8.0,Tail,37.0,17.5,4.1833,0.113062166
+2177,Tomb Tapper,1123129-tomb-tapper,10.0,Bite,22.5,24.75,4.974937,0.22110832
+2178,Tomb Tapper,1123129-tomb-tapper,10.0,Claw,16.5,8.75,2.95804,0.17927514
+2179,Tomb Tapper,1123129-tomb-tapper,10.0,Sledgehammer,27.0,17.5,4.1833,0.15493704
+2180,Verbeeg Marauder,1123133-verbeeg-marauder,4.0,Spear,17.5,15.75,3.968627,0.22677869
+2181,Walrus,1123134-walrus,0.25,Tusks,7.0,2.5,1.5811388,0.22587697
+2182,Giant Walrus,1123086-giant-walrus,4.0,Body Flop,15.0,10.5,3.2403703,0.2160247
+2183,Giant Walrus,1123086-giant-walrus,4.0,Tusks,16.5,8.75,2.95804,0.17927514
+2185,Yeti Tyke,1123136-yeti-tyke,0.125,Claw,5.0,2.5,1.5811388,0.31622776
+2186,Swarm of Animated Books,1528985-swarm-of-animated-books,0.25,Book Club,6.0,2.5,1.5811388,0.26352313
+2187,Animated Broom,1528953-animated-broom,0.25,Broomstick,5.5,1.25,1.118034,0.20327891
+2188,Animated Chained Library,1528954-animated-chained-library,1.0,Chained Book,6.5,5.25,2.291288,0.35250583
+2189,Grippli Warrior,1528965-grippli-warrior,0.25,Trident,9.0,6.5,2.5495098,0.28327885
+2190,Grippli Warrior,1528965-grippli-warrior,0.25,Shortbow,8.0,4.1666665,2.0412414,0.25515518
+2192,Skitterwidget,1528982-skitterwidget,5.0,Bite,10.0,5.8333335,2.4152296,0.24152295
+2193,Skitterwidget,1528982-skitterwidget,5.0,Tail,17.0,11.666667,3.4156504,0.2009206
+2195,Kiddywidget,1528969-kiddywidget,0.5,Bite,4.5,1.25,1.118034,0.248452
+2196,Kiddywidget,1528969-kiddywidget,0.5,Tail,7.0,2.5,1.5811388,0.22587697
+2198,Constructed Commoner,1528959-constructed-commoner,0.0,Club,2.5,1.25,1.118034,0.4472136
+2199,Storm Giant Skeleton,1528984-storm-giant-skeleton,16.0,Greatsword,48.0,38.5,6.204837,0.12926744
+2200,Storm Giant Skeleton,1528984-storm-giant-skeleton,16.0,Rock,35.0,47.666668,6.904105,0.19726014
+2202,Clapperclaw the Scarecrow,1979775-clapperclaw-the-scarecrow,0.5,Claws,7.0,2.5,1.5811388,0.22587697
+2203,Warduke,1979813-warduke,5.0,Flame Tongue,15.5,14.083333,3.7527769,0.24211463
+2204,Warduke,1979813-warduke,5.0,Dagger,5.5,1.25,1.118034,0.20327891
+2206,Zarak,1979817-zarak,2.0,Dagger,10.5,3.75,1.9364917,0.18442778
+2207,Zarak,1979817-zarak,2.0,Garrote,16.0,5.0,2.236068,0.13975425
+2209,Elkhorn,1979777-elkhorn,2.0,Dagger,9.0,9.5,3.082207,0.34246746
+2210,Elkhorn,1979777-elkhorn,2.0,+1 Longsword,11.0,16.5,4.0620193,0.36927447
+2212,Molliver,1979798-molliver,3.0,Dagger,5.5,1.25,1.118034,0.20327891
+2213,Molliver,1979798-molliver,3.0,Shortsword,6.5,2.9166667,1.7078252,0.26274234
+2215,Bullywug Knight,1979773-bullywug-knight,3.0,Glaive,8.5,8.25,2.8722813,0.33791545
+2217,Giant Dragonfly,1979781-giant-dragonfly,0.5,Bite,6.5,1.25,1.118034,0.17200524
+2218,Giant Snail,1979782-giant-snail,0.25,Slam,5.5,2.9166667,1.7078252,0.31051365
+2219,Harengon Brigand,1979787-harengon-brigand,0.125,Club,4.5,1.25,1.118034,0.248452
+2220,Harengon Brigand,1979787-harengon-brigand,0.125,Sling,5.5,1.25,1.118034,0.20327891
+2221,Harengon Sniper,1979788-harengon-sniper,0.25,Club,2.5,1.25,1.118034,0.4472136
+2222,Harengon Sniper,1979788-harengon-sniper,0.25,Light Crossbow,7.5,5.25,2.291288,0.30550504
+2223,Living Doll,1979794-living-doll,2.0,Grabby Hands,11.0,16.5,4.0620193,0.36927447
+2224,Selenelion Twin,1979803-selenelion-twin,2.0,Dagger,6.5,1.25,1.118034,0.17200524
+2225,Selenelion Twin,1979803-selenelion-twin,2.0,Moon Ray,12.0,10.5,3.2403703,0.27003086
+2226,Selenelion Twin,1979803-selenelion-twin,2.0,Sun Ray,12.0,10.5,3.2403703,0.27003086
+2227,Ruidium Elephant,2407560-ruidium-elephant,8.0,Gore,32.0,26.833334,5.18009,0.16187781
+2228,Ruidium Elephant,2407560-ruidium-elephant,8.0,Stomp,36.0,38.833332,6.23164,0.1731011
+2229,Aboleth Spawn,2407521-aboleth-spawn,5.0,Spear,8.5,5.25,2.291288,0.2695633
+2230,Aboleth Spawn,2407521-aboleth-spawn,5.0,Tentacle,9.0,10.5,3.2403703,0.36004114
+2231,Aboleth Spawn,2407521-aboleth-spawn,5.0,Psychic Lash,18.0,21.0,4.582576,0.25458753
+2233,Irvan Wastewalker (Tier 1),2407544-irvan-wastewalker-tier-1,3.0,Dagger,11.5,7.0833335,2.6614532,0.23143071
+2235,Irvan Wastewalker (Tier 2),2407545-irvan-wastewalker-tier-2,5.0,Dagger,19.5,12.916667,3.5939765,0.18430649
+2237,Maggie Keeneyes (Tier 2),2407550-maggie-keeneyes-tier-2,5.0,Giant Maul,13.0,10.5,3.2403703,0.24925926
+2238,Maggie Keeneyes (Tier 2),2407550-maggie-keeneyes-tier-2,5.0,Hammer Toss,9.0,2.5,1.5811388,0.1756821
+2240,Irvan Wastewalker (Tier 3),2407546-irvan-wastewalker-tier-3,8.0,Dagger,25.0,15.833333,3.9791121,0.15916449
+2241,Irvan Wastewalker (Tier 3),2407546-irvan-wastewalker-tier-3,8.0,Ruidium Shortsword,15.5,8.75,2.95804,0.19084129
+2243,Maggie Keeneyes (Tier 3),2407551-maggie-keeneyes-tier-3,8.0,Heavy Greataxe,18.0,23.833334,4.8819394,0.27121887
+2244,Maggie Keeneyes (Tier 3),2407551-maggie-keeneyes-tier-3,8.0,Hammer Toss,15.0,5.0,2.236068,0.1490712
+2246,Corrupted Giant Shark,2407532-corrupted-giant-shark,9.0,Bite,22.5,24.75,4.974937,0.22110832
+2247,Death Embrace,2407534-death-embrace,11.0,Tentacle,24.0,22.333334,4.725816,0.19690898
+2249,Light Devourer,2407548-light-devourer,6.0,Bite,21.5,14.583333,3.818813,0.17761922
+2251,Monastic Operative,2407554-monastic-operative,5.0,Unarmed Strike,9.5,8.25,2.8722813,0.3023454
+2252,Monastic Operative,2407554-monastic-operative,5.0,Cobalt Dart,10.0,4.1666665,2.0412414,0.20412415
+2254,Scholarly Excavator,2407562-scholarly-excavator,3.0,Thunderous Warhammer,7.5,8.25,2.8722813,0.38297084
+2256,Scuttling Serpentmaw,2407564-scuttling-serpentmaw,4.0,Bite,17.0,11.666667,3.4156504,0.2009206
+2257,Scuttling Serpentmaw,2407564-scuttling-serpentmaw,4.0,Claw,7.5,5.25,2.291288,0.30550504
+2259,Slithering Bloodfin,2407567-slithering-bloodfin,9.0,Bite,14.0,10.5,3.2403703,0.23145503
+2260,Slithering Bloodfin,2407567-slithering-bloodfin,9.0,Tail,19.0,11.666667,3.4156504,0.17977107
+2262,Swarm of Sorrowfish,2407569-swarm-of-sorrowfish,6.0,Swarm of Bites,21.0,17.5,4.1833,0.19920477
+2263,Wynling,2739107-wynling,0.5,Slam,7.5,1.25,1.118034,0.1490712
+2264,Soul Shaker,2739103-soul-shaker,4.0,Crushing Grasp,14.0,10.5,3.2403703,0.23145503
+2265,Tlacatecolo,2739104-tlacatecolo,5.0,Talon,21.0,21.0,4.582576,0.2182179
+2266,Tlacatecolo,2739104-tlacatecolo,5.0,Plague Winds,52.0,95.333336,9.763879,0.18776691
+2268,Aurumvorax,2739093-aurumvorax,2.0,Bite,6.5,5.25,2.291288,0.35250583
+2269,Aurumvorax,2739093-aurumvorax,2.0,Claw,5.5,2.9166667,1.7078252,0.31051365
+2271,Tlexolotl,2739105-tlexolotl,10.0,Bite,30.5,29.25,5.408327,0.1773222
+2272,Tlexolotl,2739105-tlexolotl,10.0,Tail,25.5,16.916666,4.1129875,0.16129363
+2274,Haint,2739097-haint,7.0,Sorrowful Touch,21.0,21.0,4.582576,0.2182179
+2276,Whistler,2739106-whistler,9.0,Psychic Swipe,15.0,16.5,4.0620193,0.27080128
+2277,Whistler,2739106-whistler,9.0,Otherworldly Melody,33.0,49.5,7.0356236,0.21320072
+2279,Clockwork Horror,2506149-clockwork-horror,2.0,Bite,6.5,5.25,2.291288,0.35250583
+2280,Clockwork Horror,2506149-clockwork-horror,2.0,Rotating Saw,4.5,1.25,1.118034,0.248452
+2281,Clockwork Horror,2506149-clockwork-horror,2.0,Lightning Jolt,7.5,8.25,2.8722813,0.38297084
+2283,Star Lancer,2506150-star-lancer,2.0,Horn,7.5,2.9166667,1.7078252,0.22771002
+2284,Runara (Adult Bronze Dragon),2953451-runara,,Bite,18.0,16.5,4.0620193,0.22566773
+2285,Runara (Adult Bronze Dragon),2953451-runara,,Claw,14.0,5.8333335,2.4152296,0.17251639
+2287,Fume Drake,2953449-fume-drake,,Bite,4.5,1.25,1.118034,0.248452
+2288,Fume Drake,2953449-fume-drake,,Scalding Breath,9.0,10.5,3.2403703,0.36004114
+2289,Kobold Tinkerer,2953450-kobold-tinkerer,,Dagger,4.5,1.25,1.118034,0.248452
+2290,Kobold Tinkerer,2953450-kobold-tinkerer,,Alchemical Flame,21.0,17.5,4.1833,0.19920477
+2291,Sinensa,2953452-sinensa,,Fist,13.5,6.25,2.5,0.18518518
+2292,Spore Servant Octopus,2953453-spore-servant-octopus,,Tentacles,7.5,5.25,2.291288,0.30550504
+2293,Tarak,2953454-tarak,,Dagger,5.5,1.25,1.118034,0.20327891
+2295,Varnoth,2953455-varnoth,,Shortsword,6.5,2.9166667,1.7078252,0.26274234
+2297,Anhkolox,3081098-anhkolox,9.0,Claw,17.0,16.5,4.0620193,0.23894231
+2298,Caradoc,3081102-caradoc,8.0,Withering Touch,15.0,16.5,4.0620193,0.27080128
+2300,Lesser Death Dragon,3081116-lesser-death-dragon,10.0,Bite,18.5,15.75,3.968627,0.21452038
+2301,Lesser Death Dragon,3081116-lesser-death-dragon,10.0,Claw,8.5,2.9166667,1.7078252,0.2009206
+2302,Lesser Death Dragon,3081116-lesser-death-dragon,10.0,Cataclysmic Breath,72.0,84.0,9.165152,0.12729377
+2304,Aurak Draconian,3081099-aurak-draconian,6.0,Rend,8.5,11.916667,3.4520526,0.40612382
+2305,Aurak Draconian,3081099-aurak-draconian,6.0,Energy Ray,8.5,8.25,2.8722813,0.33791545
+2307,Baaz Draconian,3081100-baaz-draconian,0.5,Shortsword,4.5,2.9166667,1.7078252,0.3795167
+2309,Kapak Draconian,3081113-kapak-draconian,3.0,Dagger,12.5,7.0833335,2.6614532,0.21291625
+2310,Sivak Draconian,3081121-sivak-draconian,4.0,Serrated Sword,13.0,10.5,3.2403703,0.24925926
+2311,Sivak Draconian,3081121-sivak-draconian,4.0,Tail,8.5,5.25,2.291288,0.2695633
+2313,Dragon Army Officer,3081105-dragon-army-officer,3.0,Vicious Lance,11.0,9.5,3.082207,0.28020063
+2314,Dragon Army Officer,3081105-dragon-army-officer,3.0,Heavy Crossbow,13.0,16.5,4.0620193,0.31246302
+2315,Dragon Army Soldier,3081106-dragon-army-soldier,1.0,Longsword,10.0,9.5,3.082207,0.3082207
+2316,Dragon Army Soldier,3081106-dragon-army-soldier,1.0,Javelin,8.0,4.1666665,2.0412414,0.25515518
+2318,Dragon Army Dragonnel,3081104-dragon-army-dragonnel,3.0,Rend,13.5,8.75,2.95804,0.21911407
+2320,Wasteland Dragonnel,3081124-wasteland-dragonnel,3.0,Rend,10.0,5.8333335,2.4152296,0.24152295
+2321,Wasteland Dragonnel,3081124-wasteland-dragonnel,3.0,Acid Spit,20.5,14.583333,3.818813,0.18628356
+2323,Istarian Drone,3081110-istarian-drone,6.0,Claw,14.0,10.5,3.2403703,0.23145503
+2325,Kalaman Soldier,3081111-kalaman-soldier,0.5,Longsword,7.5,8.25,2.8722813,0.38297084
+2327,Kender Skirmisher,3081114-kender-skirmisher,0.25,Hoopak,6.5,2.9166667,1.7078252,0.26274234
+2328,Red Ruin,3081119-red-ruin,10.0,Ember Lance,17.5,17.75,4.2130747,0.24074714
+2330,Skeletal Knight,3081122-skeletal-knight,7.0,Enervating Blade,15.5,8.75,2.95804,0.19084129
+2331,Skeletal Knight,3081122-skeletal-knight,7.0,Throwing Axe,14.0,10.5,3.2403703,0.23145503
+2333,Prisoner 13,3259781-prisoner-13,5.0,Tattooed Strike,12.0,10.5,3.2403703,0.27003086
+2335,Clockwork Defender,3276644-clockwork-defender,1.0,Electrified Bite,14.5,11.083333,3.329164,0.22959752
+2336,Asteroid Spider,2506147-asteroid-spider,15.0,Bite,32.0,24.5,4.9497476,0.15467961
+2337,Fractine,2506153-fractine,9.0,Extradimensional Touch,28.0,23.333334,4.830459,0.17251639
+2338,Gadabout,2506154-gadabout,0.125,Branch,3.5,1.25,1.118034,0.31943828
+2340,Goon Balloon,2506155-goon-balloon,0.125,Claw,3.5,2.9166667,1.7078252,0.48795003
+2342,Puppeteer Parasite,2506151-puppeteer-parasite,3.0,Cling,12.5,8.75,2.95804,0.2366432
+2343,Puppeteer Parasite,2506151-puppeteer-parasite,3.0,Consume Life,12.5,8.75,2.95804,0.2366432
+2344,Yggdrasti,2506148-yggdrasti,7.0,Root,12.0,5.8333335,2.4152296,0.20126912
+2345,Irda Seeker,3086144-irda-seeker,1.0,Crystal Blade,12.5,8.75,2.95804,0.2366432
+2346,Nevermind Gnome Inventor,3086274-nevermind-gnome-inventor,2.0,Thunderscream Gadget,21.0,17.5,4.1833,0.19920477
+2347,Nevermind Gnome Mastermind,3086290-nevermind-gnome-mastermind,5.0,Clockwork Claw,21.5,14.583333,3.818813,0.17761922
+2349,Thanoi Hunter,3086310-thanoi-hunter,1.0,Bone Harpoon,8.5,5.25,2.291288,0.2695633
+2350,Thanoi Hunter,3086310-thanoi-hunter,1.0,Tusk,6.5,1.25,1.118034,0.17200524
+2352,Traag Draconian,3086326-traag-draconian,5.0,Claw,14.0,10.5,3.2403703,0.23145503
+2354,Fire Giant Forgecaller,3731011-fire-giant-forgecaller,18.0,Forge Hammer,24.5,14.583333,3.818813,0.15586992
+2355,Fire Giant Forgecaller,3731011-fire-giant-forgecaller,18.0,Heated Rock,43.0,60.5,7.7781744,0.18088779
+2356,Fire Giant Forgecaller,3731011-fire-giant-forgecaller,18.0,Magma Wave,72.0,84.0,9.165152,0.12729377
+2358,Fire Giant of Evil Fire,3731012-fire-giant-of-evil-fire,10.0,Searing Scepter,26.5,19.25,4.387482,0.16556537
+2359,Fire Giant of Evil Fire,3731012-fire-giant-of-evil-fire,10.0,Bolt of Imix,20.5,24.75,4.974937,0.24267986
+2361,Bag Jelly,3730989-bag-jelly,1.0,Pseudopod,8.0,5.8333335,2.4152296,0.3019037
+2363,Barrowghast,3730990-barrowghast,7.0,Slam,18.0,23.833334,4.8819394,0.27121887
+2364,Barrowghast,3730990-barrowghast,7.0,Life Drain,9.5,5.25,2.291288,0.2411882
+2366,Cairnwight,3730991-cairnwight,9.0,Slam,22.5,24.75,4.974937,0.22110832
+2367,Cairnwight,3730991-cairnwight,9.0,Rock,19.5,15.75,3.968627,0.20351933
+2368,Cinder Hulk,3730993-cinder-hulk,7.0,Slam,26.5,25.25,5.0249376,0.1896203
+2370,Dust Hulk,3731004-dust-hulk,5.0,Slam,13.0,10.5,3.2403703,0.24925926
+2372,Echo of Demogorgon,3731005-echo-of-demogorgon,6.0,Tentacle,22.0,16.333334,4.041452,0.18370236
+2374,Ettin Ceremorph,3731006-ettin-ceremorph,8.0,Slam,22.0,21.0,4.582576,0.20829889
+2375,Ettin Ceremorph,3731006-ettin-ceremorph,8.0,Tentacles,15.0,16.5,4.0620193,0.27080128
+2376,Ettin Ceremorph,3731006-ettin-ceremorph,8.0,Extract Brain,55.0,82.5,9.082951,0.16514456
+2377,Ettin Ceremorph,3731006-ettin-ceremorph,8.0,Mind Bolt,17.0,23.833334,4.8819394,0.2871729
+2379,Firegaunt,3731014-firegaunt,11.0,Heated Maul,44.5,42.25,6.5,0.14606741
+2380,Firegaunt,3731014-firegaunt,11.0,Crimson Rays,68.5,81.75,9.041571,0.13199373
+2382,Fire Hellion,3731013-fire-hellion,11.0,Morningstar,31.5,32.25,5.6789083,0.1802828
+2384,Flesh Colossus,3731015-flesh-colossus,20.0,Fist,17.5,8.75,2.95804,0.16903085
+2386,Frost Giant Ice Shaper,3731019-frost-giant-ice-shaper,17.0,Greataxe,31.5,35.25,5.937171,0.18848161
+2387,Frost Giant Ice Shaper,3731019-frost-giant-ice-shaper,17.0,Freezing Ray,17.5,15.75,3.968627,0.22677869
+2389,Frost Giant of Evil Water,3731020-frost-giant-of-evil-water,11.0,Battleaxe,29.5,30.583334,5.53022,0.18746509
+2390,Frost Giant of Evil Water,3731020-frost-giant-of-evil-water,11.0,Harpoon,14.0,16.5,4.0620193,0.29014423
+2392,Frostmourn,3731021-frostmourn,10.0,Freezing Touch,36.0,42.0,6.4807405,0.18002057
+2393,Frostmourn,3731021-frostmourn,10.0,Icy Axe,26.5,21.583334,4.645787,0.1753127
+2395,Fury of Kostchtchie,3731022-fury-of-kostchtchie,14.0,Fist,27.5,19.25,4.387482,0.15954481
+2396,Fury of Kostchtchie,3731022-fury-of-kostchtchie,14.0,Rock,30.0,33.0,5.7445626,0.19148542
+2398,Gargantua,3731023-gargantua,21.0,Slam,27.5,35.75,5.9791303,0.21742292
+2399,Gargantua,3731023-gargantua,21.0,Rock,24.5,24.75,4.974937,0.20305866
+2401,Giant Goose,3731025-giant-goose,3.0,Beak,9.0,5.8333335,2.4152296,0.26835883
+2402,Giant Goose,3731025-giant-goose,3.0,Wing,7.5,8.25,2.8722813,0.38297084
+2403,Giant Lynx,3731026-giant-lynx,0.5,Claws,8.5,5.25,2.291288,0.2695633
+2404,Giant Ox,3731027-giant-ox,3.0,Gore,13.0,5.8333335,2.4152296,0.18578689
+2405,Giant Ram,3731028-giant-ram,1.0,Ram,12.5,5.4166665,2.3273733,0.18618986
+2406,Giant Ram,3731028-giant-ram,1.0,Force Bolt,7.0,5.8333335,2.4152296,0.34503278
+2407,Giant Tick,3731029-giant-tick,2.0,Proboscis,10.0,5.8333335,2.4152296,0.24152295
+2408,Giant Tick,3731029-giant-tick,2.0,Blood Drain,17.0,11.666667,3.4156504,0.2009206
+2409,Gigant,3731030-gigant,20.0,Mandibles,42.0,23.333334,4.830459,0.115010925
+2410,Gigant,3731030-gigant,20.0,Scale Dust,90.0,105.0,10.246951,0.11385501
+2411,Goliath Giant-Kin,3731031-goliath-giant-kin,3.0,Spear,8.5,5.25,2.291288,0.2695633
+2413,Grinning Cat,3731032-grinning-cat,1.0,Bite,7.5,8.25,2.8722813,0.38297084
+2414,Grinning Cat,3731032-grinning-cat,1.0,Claws,9.0,5.8333335,2.4152296,0.26835883
+2415,Lightning Hulk,3731034-lightning-hulk,9.0,Arc Lightning,18.0,21.0,4.582576,0.25458753
+2416,Maw of Yeenoghu,3731035-maw-of-yeenoghu,10.0,Bite,19.0,23.833334,4.8819394,0.25694418
+2417,Maw of Yeenoghu,3731035-maw-of-yeenoghu,10.0,Fang Fling,11.5,8.25,2.8722813,0.2497636
+2418,Maw of Yeenoghu,3731035-maw-of-yeenoghu,10.0,Gorging Charge,25.5,35.75,5.9791303,0.2344757
+2420,Mist Hulk,3731036-mist-hulk,6.0,Slam,16.0,16.5,4.0620193,0.2538762
+2421,Mud Hulk,3731037-mud-hulk,3.0,Enveloping Slam,9.5,11.916667,3.4520526,0.36337397
+2422,Rime Hulk,3731039-rime-hulk,5.0,Slam,18.5,18.75,4.3301272,0.23406091
+2424,Runic Colossus,3731040-runic-colossus,21.0,Slam,26.5,35.75,5.9791303,0.22562756
+2425,Runic Colossus,3731040-runic-colossus,21.0,Stomp,29.0,33.0,5.7445626,0.19808836
+2426,Runic Colossus,3731040-runic-colossus,21.0,Arcane Beam,117.0,214.5,14.645819,0.12517793
+2428,Spectral Cloud,3731047-spectral-cloud,13.0,Spectral Touch,31.0,24.5,4.9497476,0.15966928
+2430,Spotted Lion,3731048-spotted-lion,3.0,Rend,15.0,10.5,3.2403703,0.2160247
+2431,Stone Giant of Evil Earth,3731050-stone-giant-of-evil-earth,9.0,Thundering Stone Club,16.5,8.75,2.95804,0.17927514
+2432,Stone Giant of Evil Earth,3731050-stone-giant-of-evil-earth,9.0,Boulder,19.5,15.75,3.968627,0.20351933
+2434,Stone Giant Rockspeaker,3731051-stone-giant-rockspeaker,16.0,Prism Staff,30.0,24.5,4.9497476,0.16499159
+2436,Storm Crab,3731052-storm-crab,11.0,Claw,19.5,15.75,3.968627,0.20351933
+2437,Tempest Spirit,3731055-tempest-spirit,15.0,Lightning Fist,25.0,21.0,4.582576,0.18330303
+2438,Tempest Spirit,3731055-tempest-spirit,15.0,Hailstone,24.5,14.583333,3.818813,0.15586992
+2439,Tempest Spirit,3731055-tempest-spirit,15.0,Death Bolt,87.0,112.5,10.606602,0.12191496
+2441,Titanothere,3731056-titanothere,5.0,Stomp,20.5,15.75,3.968627,0.19359156
+2442,Death Giant Reaper,3731002-death-giant-reaper,12.0,Scythe,32.5,32.25,5.6789083,0.17473564
+2443,Death Giant Reaper,3731002-death-giant-reaper,12.0,Soul Bolt,26.0,33.0,5.7445626,0.22094472
+2445,Aerosaur,3730987-aerosaur,10.0,Bite,27.5,35.75,5.9791303,0.21742292
+2446,Aerosaur,3730987-aerosaur,10.0,Talons,24.5,24.75,4.974937,0.20305866
+2447,Altisaur,3730988-altisaur,13.0,Stomp,33.5,20.416666,4.518481,0.13488002
+2448,Ceratops,3730992-ceratops,9.0,Gore,29.0,33.0,5.7445626,0.19808836
+2449,Ceratops,3730992-ceratops,9.0,Stomp,29.0,33.0,5.7445626,0.19808836
+2451,Regisaur,3731038-regisaur,14.0,Bite,47.0,71.5,8.455768,0.17990994
+2452,Regisaur,3731038-regisaur,14.0,Tail,26.0,21.0,4.582576,0.17625292
+2453,Fensir Devourer,3731007-fensir-devourer,8.0,Rend,21.5,24.75,4.974937,0.23139243
+2454,Fensir Devourer,3731007-fensir-devourer,8.0,Boulder,18.0,23.833334,4.8819394,0.27121887
+2456,Fomorian Deep Crawler,3731016-fomorian-deep-crawler,10.0,Slam,22.5,24.75,4.974937,0.22110832
+2457,Troll Amalgam,3731057-troll-amalgam,17.0,Rend,25.0,21.0,4.582576,0.18330303
+2459,Troll Mutate,3731058-troll-mutate,7.0,Rend,24.0,27.0,5.196152,0.21650635
+2460,Cradle of the Hill Scion,3730999-cradle-of-the-hill-scion,22.0,Slam,33.0,47.666668,6.904105,0.2092153
+2461,Cradle of the Hill Scion,3730999-cradle-of-the-hill-scion,22.0,Spit Rock,25.0,21.0,4.582576,0.18330303
+2462,Scion of Grolantor,3731041-scion-of-grolantor,22.0,Great Tree Club,30.0,33.0,5.7445626,0.19148542
+2463,Scion of Grolantor,3731041-scion-of-grolantor,22.0,Slam,26.0,21.0,4.582576,0.17625292
+2464,Scion of Grolantor,3731041-scion-of-grolantor,22.0,Boulder,27.5,35.75,5.9791303,0.21742292
+2466,Cradle of the Cloud Scion,3730996-cradle-of-the-cloud-scion,26.0,Slam,50.5,68.75,8.291562,0.16418934
+2467,Cradle of the Cloud Scion,3730996-cradle-of-the-cloud-scion,26.0,Wind Javelin,37.5,29.75,5.454356,0.14544949
+2469,Scion of Memnor,3731042-scion-of-memnor,26.0,Cloud Morningstar,54.0,66.0,8.124039,0.15044515
+2470,Scion of Memnor,3731042-scion-of-memnor,26.0,Wind Javelin,42.5,59.583332,7.719024,0.1816241
+2471,Scion of Memnor,3731042-scion-of-memnor,26.0,Slam,28.0,21.0,4.582576,0.16366342
+2472,Cradle of the Stone Scion,3731000-cradle-of-the-stone-scion,23.0,Slam,30.0,33.0,5.7445626,0.19148542
+2473,Cradle of the Stone Scion,3731000-cradle-of-the-stone-scion,23.0,Spit Rock,24.5,24.75,4.974937,0.20305866
+2474,Scion of Skoraeus,3731043-scion-of-skoraeus,23.0,Crystal Club,53.0,68.666664,8.286535,0.15634972
+2475,Scion of Skoraeus,3731043-scion-of-skoraeus,23.0,Slam,31.0,33.0,5.7445626,0.18530847
+2476,Scion of Skoraeus,3731043-scion-of-skoraeus,23.0,Runic Boulder,27.0,21.0,4.582576,0.16972503
+2477,Cradle of the Storm Scion,3731001-cradle-of-the-storm-scion,27.0,Slam,55.5,83.416664,9.133272,0.16456346
+2478,Cradle of the Storm Scion,3731001-cradle-of-the-storm-scion,27.0,Spit Hailstone,46.0,44.666668,6.6833124,0.1452894
+2480,Scion of Stronmaus,3731044-scion-of-stronmaus,27.0,Lightning Sword,58.0,80.666664,8.9814625,0.1548528
+2481,Scion of Stronmaus,3731044-scion-of-stronmaus,27.0,Hailstone,50.0,54.0,7.3484693,0.14696938
+2482,Scion of Stronmaus,3731044-scion-of-stronmaus,27.0,Slam,36.0,47.666668,6.904105,0.1917807
+2483,Cradle of the Fire Scion,3730997-cradle-of-the-fire-scion,25.0,Slam,45.0,44.666668,6.6833124,0.14851806
+2484,Cradle of the Fire Scion,3730997-cradle-of-the-fire-scion,25.0,Hurl Lava,27.0,21.0,4.582576,0.16972503
+2485,Cradle of the Fire Scion,3730997-cradle-of-the-fire-scion,25.0,Erupting Breath,110.0,165.0,12.845233,0.11677484
+2487,Scion of Surtur,3731045-scion-of-surtur,25.0,Lava Blade,50.0,54.0,7.3484693,0.14696938
+2488,Scion of Surtur,3731045-scion-of-surtur,25.0,Lava Ball,40.0,44.5,6.670832,0.1667708
+2489,Scion of Surtur,3731045-scion-of-surtur,25.0,Slam,28.0,21.0,4.582576,0.16366342
+2490,Scion of Surtur,3731045-scion-of-surtur,25.0,Lava Wave,121.0,181.5,13.472194,0.11134044
+2491,Cradle of the Frost Scion,3730998-cradle-of-the-frost-scion,24.0,Slam,41.0,49.5,7.0356236,0.17160058
+2492,Cradle of the Frost Scion,3730998-cradle-of-the-frost-scion,24.0,Hurl Icicle,35.0,31.5,5.612486,0.16035675
+2494,Scion of Thrym,3731046-scion-of-thrym,24.0,Ice Axe,54.0,68.666664,8.286535,0.15345436
+2495,Scion of Thrym,3731046-scion-of-thrym,24.0,Slam,32.0,33.0,5.7445626,0.17951758
+2496,Scion of Thrym,3731046-scion-of-thrym,24.0,Glacier Throw,50.0,59.333332,7.702813,0.15405627
+2498,Augrek Brighthelm,27564-augrek-brighthelm,,Warhammer,7.5,8.25,2.8722813,0.38297084
+2499,Augrek Brighthelm,27564-augrek-brighthelm,,Heavy Crossbow,5.5,8.25,2.8722813,0.52223295
+2500,Sirac of Suzail,27570-sirac-of-suzail,,Shortsword,6.5,2.9166667,1.7078252,0.26274234
+2501,Sirac of Suzail,27570-sirac-of-suzail,,Dart,5.5,1.25,1.118034,0.20327891
+2502,Duvessa Shane,27573-duvessa-shane,,Dagger,2.5,1.25,1.118034,0.4472136
+2503,Markham Southwell,27574-markham-southwell,,Longsword,7.5,8.25,2.8722813,0.38297084
+2504,Markham Southwell,27574-markham-southwell,,Heavy Crossbow,6.5,8.25,2.8722813,0.44188944
+2506,Beldora,27575-beldora,,Shortsword,5.5,2.9166667,1.7078252,0.31051365
+2507,Beldora,27575-beldora,,Hand Crossbow,5.5,2.9166667,1.7078252,0.31051365
+2508,Sir Baric Nylef,27577-sir-baric-nylef,,Maul,11.0,5.8333335,2.4152296,0.21956632
+2509,Sir Baric Nylef,27577-sir-baric-nylef,,Heavy Crossbow,5.5,8.25,2.8722813,0.52223295
+2510,Shalvus Martholio,27581-shalvus-martholio,,Quarterstaff,4.5,5.25,2.291288,0.50917506
+2511,Shalvus Martholio,27581-shalvus-martholio,,Hand Crossbow,5.5,2.9166667,1.7078252,0.31051365
+2512,Lifferlas,27583-lifferlas,,Slam,14.5,8.75,2.95804,0.20400275
+2514,Zi Liang,27585-zi-liang,,Quarterstaff,5.5,5.25,2.291288,0.41659778
+2515,Zi Liang,27585-zi-liang,,Sling,4.5,1.25,1.118034,0.248452
+2517,Miros Xelbrin,27588-miros-xelbrin,,Bearhug,11.0,2.5,1.5811388,0.1437399
+2518,Miros Xelbrin,27588-miros-xelbrin,,Club,5.5,1.25,1.118034,0.20327891
+2519,Miros Xelbrin,27588-miros-xelbrin,,Heavy Crossbow,5.5,8.25,2.8722813,0.52223295
+2520,Oren Yogilvy,27595-oren-yogilvy,,Dagger,3.5,1.25,1.118034,0.31943828
+2521,Darathra Shendrel,27597-darathra-shendrel,,Greatsword,10.0,5.8333335,2.4152296,0.24152295
+2522,Darathra Shendrel,27597-darathra-shendrel,,Heavy Crossbow,5.5,8.25,2.8722813,0.52223295
+2524,Darz Helgar,27602-darz-helgar,,Shortsword,5.5,2.9166667,1.7078252,0.31051365
+2525,Darz Helgar,27602-darz-helgar,,Sling,4.5,1.25,1.118034,0.248452
+2526,Narth Tezrin,27610-narth-tezrin,,Shortsword,5.5,2.9166667,1.7078252,0.31051365
+2527,Narth Tezrin,27610-narth-tezrin,,Hand Crossbow,5.5,2.9166667,1.7078252,0.31051365
+2528,Urgala Meltimer,27612-urgala-meltimer,,Morningstar,7.5,5.25,2.291288,0.30550504
+2529,Urgala Meltimer,27612-urgala-meltimer,,Shortbow,4.5,2.9166667,1.7078252,0.3795167
+2531,Ghelryn Foehammer,27618-ghelryn-foehammer,,Battleaxe,9.5,8.25,2.8722813,0.3023454
+2533,Tabaxi Hunter,33259-tabaxi-hunter,1.0,Claws,2.5,1.25,1.118034,0.4472136
+2534,Tabaxi Hunter,33259-tabaxi-hunter,1.0,Shortsword,6.5,2.9166667,1.7078252,0.26274234
+2535,Tabaxi Hunter,33259-tabaxi-hunter,1.0,Shortbow,6.5,2.9166667,1.7078252,0.26274234
+2537,Tabaxi Minstrel,33262-tabaxi-minstrel,0.25,Claws,2.5,1.25,1.118034,0.4472136
+2538,Tabaxi Minstrel,33262-tabaxi-minstrel,0.25,Dart,4.5,1.25,1.118034,0.248452
+2540,Corrupted Avatar of Lurue,1528960-corrupted-avatar-of-lurue,8.0,Hooves,32.0,23.333334,4.830459,0.15095185
+2541,Corrupted Avatar of Lurue,1528960-corrupted-avatar-of-lurue,8.0,Horn,32.0,23.333334,4.830459,0.15095185
+2543,Campestri,1979774-campestri,0.0,Head Butt,1.0,0.0,0.0,0.0
+2544,Swarm of Campestris,1979810-swarm-of-campestris,1.0,Head Butts,10.0,5.0,2.236068,0.2236068
+2545,Forge Fitzwilliam,3342710-forge-fitzwilliam,8.0,Dagger,29.0,21.666666,4.6547465,0.16050851
+2546,Forge Fitzwilliam,3342710-forge-fitzwilliam,8.0,Heavy Crossbow,32.0,28.666666,5.354126,0.16731644
+2548,Holga Kilgore,3342711-holga-kilgore,5.0,Darksteel Greataxe,10.5,11.916667,3.4520526,0.3287669
+2549,Holga Kilgore,3342711-holga-kilgore,5.0,Improvised Weapon,7.5,2.9166667,1.7078252,0.22771002
+2551,Coral,3509307-coral,9.0,Hoof,12.0,5.8333335,2.4152296,0.20126912
+2552,Rain,3509309-rain,5.0,Hoof,5.0,2.5,1.5811388,0.31622776
+2554,Scrapper,3509310-scrapper,8.0,Spike Punch,19.5,18.75,4.3301272,0.22205779
+2555,Seth the Shapeshifting Dragon,3509311-seth-the-shapeshifting-dragon,10.0,Bite,19.5,13.416667,3.6628768,0.18783984
+2556,Seth the Shapeshifting Dragon,3509311-seth-the-shapeshifting-dragon,10.0,Claw,14.0,5.8333335,2.4152296,0.17251639
+2558,Beanstalk Wurm,3852129-beanstalk-wurm,18.0,Bite,30.5,26.25,5.1234756,0.1679828
+2560,Deathless Rider,3852130-deathless-rider,5.0,Axe,13.0,10.5,3.2403703,0.24925926
+2562,Gingerbrute,3852135-gingerbrute,0.5,Fork,6.5,1.25,1.118034,0.17200524
+2563,Gingerbrute,3852135-gingerbrute,0.5,Gumdrop Slingshot,6.5,1.25,1.118034,0.17200524
+2565,Goose Mother,3852171-goose-mother,7.0,Beak,6.5,2.9166667,1.7078252,0.26274234
+2566,Goose Mother,3852171-goose-mother,7.0,Wing,9.5,11.916667,3.4520526,0.36337397
+2567,Knight of Eldraine,3852141-knight-of-eldraine,3.0,Lance,18.5,22.416666,4.7346244,0.25592563
+2568,Knight of Eldraine,3852141-knight-of-eldraine,3.0,Longsword,17.5,18.75,4.3301272,0.24743582
+2569,Knight of Eldraine,3852141-knight-of-eldraine,3.0,Heavy Crossbow,15.5,18.75,4.3301272,0.27936304
+2570,Nightmare Haunt,3852142-nightmare-haunt,5.0,Claw,15.5,13.416667,3.6628768,0.23631464
+2572,Redtooth Werefox,3852144-redtooth-werefox,3.0,Bite,8.5,8.25,2.8722813,0.33791545
+2573,Redtooth Werefox,3852144-redtooth-werefox,3.0,Lance,9.5,11.916667,3.4520526,0.36337397
+2574,Redtooth Werefox,3852144-redtooth-werefox,3.0,Entangling Arrow,10.0,5.8333335,2.4152296,0.24152295
+2576,Sewer King,3852145-sewer-king,2.0,Rancid Bite,15.5,11.083333,3.329164,0.21478477
+2577,Snapping Hydra,3852146-snapping-hydra,11.0,Bite,14.0,10.5,3.2403703,0.23145503
+2579,Specter of Night,3852147-specter-of-night,12.0,Hooves,44.5,32.083332,5.664215,0.12728573
+2580,Specter of Night,3852147-specter-of-night,12.0,Reaping Scythe,40.5,35.25,5.937171,0.14659682
+2581,Sweettooth Horror,3852148-sweettooth-horror,4.0,Bite,21.5,14.583333,3.818813,0.17761922
+2582,Sweettooth Horror,3852148-sweettooth-horror,4.0,Candy Cane,8.5,5.25,2.291288,0.2695633
+2584,Tempest Hart,3852149-tempest-hart,11.0,Lightning Antlers,16.0,16.5,4.0620193,0.2538762
+2585,Tempest Hart,3852149-tempest-hart,11.0,Thunder Hooves,14.0,10.5,3.2403703,0.23145503
+2587,Witchstalker,3852152-witchstalker,6.0,Bite,14.5,8.75,2.95804,0.20400275
+2589,Sildar Hallwinter,3805769-sildar-hallwinter,1.0,Longsword,6.5,8.25,2.8722813,0.44188944
+2590,Sildar Hallwinter,3805769-sildar-hallwinter,1.0,Heavy Crossbow,5.5,8.25,2.8722813,0.52223295
+2592,Ruxithid the Chosen,3805768-ruxithid-the-chosen,5.0,Psi-Charged Scimitar,18.0,11.666667,3.4156504,0.18975835
+2594,Dwarf Skeleton,3805739-dwarf-skeleton,0.5,Battleaxe,8.5,8.25,2.8722813,0.33791545
+2595,Feral Ashenwight,3805742-feral-ashenwight,5.0,Necrotic Shard,7.5,2.9166667,1.7078252,0.22771002
+2597,Encephalon Cluster,3805740-encephalon-cluster,10.0,Slam,27.5,25.25,5.0249376,0.18272501
+2599,Encephalon Gemmule,3805741-encephalon-gemmule,3.0,Psychic Slam,16.5,24.75,4.974937,0.30151135
+2600,Cloaker Mutate,3805738-cloaker-mutate,10.0,Corpse Swipe,20.5,24.75,4.974937,0.24267986
+2601,Cloaker Mutate,3805738-cloaker-mutate,10.0,Tail,13.0,10.5,3.2403703,0.24925926
+2603,Humanoid Mutate,3805749-humanoid-mutate,4.0,Unarmed Strike,18.0,11.666667,3.4156504,0.18975835
+2604,Humanoid Mutate,3805749-humanoid-mutate,4.0,Nightmare Blast,7.0,5.8333335,2.4152296,0.34503278
+2606,Otyugh Mutate,3805762-otyugh-mutate,6.0,Bite,13.0,10.5,3.2403703,0.24925926
+2607,Otyugh Mutate,3805762-otyugh-mutate,6.0,Tentacle,13.0,10.5,3.2403703,0.24925926
+2608,Otyugh Mutate,3805762-otyugh-mutate,6.0,Chitin Slam,16.5,24.75,4.974937,0.30151135
+2610,Goblin Psi Brawler,3805746-goblin-psi-brawler,2.0,Unarmed Strike,9.0,4.1666665,2.0412414,0.2268046
+2612,Blaze,3409348-blaze,5.0,Fiery Doom,12.0,11.166667,3.3416562,0.27847135
+2614,Ender Dragon,3409350-ender-dragon,19.0,Bite,25.5,14.583333,3.818813,0.14975737
+2615,Enderman,3409351-enderman,6.0,Slam,17.5,15.75,3.968627,0.22677869
+2617,Wolf of the Overworld,3409352-wolf-of-the-overworld,0.25,Bite,7.0,2.5,1.5811388,0.22587697
+2618,Adranach,3768325-adranach,12.0,Claws,32.0,47.666668,6.904105,0.21575329
+2620,Cinderslag Elemental,3768333-cinderslag-elemental,8.0,Slam,23.5,25.25,5.0249376,0.21382715
+2621,Cinderslag Elemental,3768333-cinderslag-elemental,8.0,Molten Gaze,21.0,17.5,4.1833,0.19920477
+2623,Clasp Cutthroat,3768334-clasp-cutthroat,3.0,Shortsword,7.5,2.9166667,1.7078252,0.22771002
+2624,Clasp Cutthroat,3768334-clasp-cutthroat,3.0,Dagger,6.5,1.25,1.118034,0.17200524
+2626,Clasp Enforcer,3768335-clasp-enforcer,5.0,Warhammer,8.5,8.25,2.8722813,0.33791545
+2628,Demonfeed Spider,3768339-demonfeed-spider,8.0,Bite,8.5,8.25,2.8722813,0.33791545
+2629,Demonfeed Spider,3768339-demonfeed-spider,8.0,Stinger,9.5,11.916667,3.4520526,0.36337397
+2630,Demonfeed Spiderling,3768340-demonfeed-spiderling,1.0,Bite,16.0,14.0,3.7416575,0.2338536
+2631,Ember Roc,3768342-ember-roc,14.0,Beak,33.0,26.833334,5.18009,0.15697242
+2632,Ember Roc,3768342-ember-roc,14.0,Talons,29.0,17.5,4.1833,0.14425173
+2633,Cobalt Golem,3768336-cobalt-golem,18.0,Slam,25.5,24.75,4.974937,0.19509557
+2634,Cobalt Golem,3768336-cobalt-golem,18.0,Sword,28.5,35.75,5.9791303,0.20979404
+2635,Mage Hunter Golem,3768350-mage-hunter-golem,15.0,Slam,20.5,15.75,3.968627,0.19359156
+2636,Mage Hunter Golem,3768350-mage-hunter-golem,15.0,Claw,11.5,5.25,2.291288,0.19924243
+2637,Mage Hunter Golem,3768350-mage-hunter-golem,15.0,Antimagic Jolt,21.0,17.5,4.1833,0.19920477
+2638,Platinum Golem,3768356-platinum-golem,16.0,Slam,19.5,15.75,3.968627,0.20351933
+2639,Platinum Golem,3768356-platinum-golem,16.0,Mace,22.5,24.75,4.974937,0.22110832
+2640,Magma Landshark,3768351-magma-landshark,14.0,Bite,101.0,118.166664,10.870449,0.10762821
+2641,Young Magma Landshark,3768370-young-magma-landshark,9.0,Bite,45.0,59.333332,7.702813,0.17117363
+2642,Plainscow,3768355-plainscow,2.0,Hooves,11.0,5.8333335,2.4152296,0.21956632
+2643,Ravager Stabby-Stabber,3768358-ravager-stabby-stabber,3.0,Shortsword,6.5,2.9166667,1.7078252,0.26274234
+2644,Ravager Stabby-Stabber,3768358-ravager-stabby-stabber,3.0,Dagger,5.5,1.25,1.118034,0.20327891
+2645,Centaur Skeleton,3768331-centaur-skeleton,2.0,Pike,8.5,8.25,2.8722813,0.33791545
+2646,Centaur Skeleton,3768331-centaur-skeleton,2.0,Hooves,10.0,5.8333335,2.4152296,0.24152295
+2647,Centaur Skeleton,3768331-centaur-skeleton,2.0,Longbow,6.5,5.25,2.291288,0.35250583
+2649,Flaming Skeleton,3768343-flaming-skeleton,0.5,Shortsword,9.0,5.8333335,2.4152296,0.26835883
+2650,Vos’skyriss Serpentfolk Ghost,3768367-vosskyriss-serpentfolk-ghost,4.0,Spear,13.5,8.75,2.95804,0.21911407
+2652,Wraithroot Tree,3768369-wraithroot-tree,14.0,Slam,16.5,8.75,2.95804,0.17927514
+2653,Wraithroot Tree,3768369-wraithroot-tree,14.0,Rock,28.0,33.0,5.7445626,0.20516296
+2655,Grog Strongjaw,3768346-grog-strongjaw,18.0,Bloodaxe,24.0,14.833333,3.8514066,0.16047528
+2656,Grog Strongjaw,3768346-grog-strongjaw,18.0,Dwarven Thrower,24.0,10.5,3.2403703,0.13501543
+2657,Grog Strongjaw,3768346-grog-strongjaw,18.0,Titanstone Knuckles,14.5,1.25,1.118034,0.07710579
+2658,Percival de Rolo,3768353-percival-de-rolo,18.0,Animus,15.0,11.166667,3.3416562,0.22277708
+2659,Percival de Rolo,3768353-percival-de-rolo,18.0,Bad News,19.0,23.833334,4.8819394,0.25694418
+2660,Trinket,3768365-trinket,5.0,Bite,14.5,5.25,2.291288,0.15801986
+2661,Trinket,3768365-trinket,5.0,Claws,17.0,5.8333335,2.4152296,0.14207232
+2663,Doty X,3768341-doty-x,6.0,Empowered Fist,8.5,5.25,2.291288,0.2695633
+2664,Athar Null,3883517-athar-null,5.0,Force Dagger,19.0,17.0,4.1231055,0.21700557
+2666,Doomguard Doom Lord,3883529-doomguard-doom-lord,12.0,Entropic Greatsword,22.5,14.583333,3.818813,0.16972503
+2667,Doomguard Doom Lord,3883529-doomguard-doom-lord,12.0,Entropic Javelin,22.5,14.583333,3.818813,0.16972503
+2669,Doomguard Rot Blade,3883530-doomguard-rot-blade,6.0,Entropic Blade,29.5,37.916668,6.157651,0.20873393
+2670,Doomguard Rot Blade,3883530-doomguard-rot-blade,6.0,Entropic Javelin,20.5,26.75,5.17204,0.25229463
+2672,Hands of Havoc Fire Starter,3883541-hands-of-havoc-fire-starter,4.0,Havoc Hammer,20.0,18.666666,4.3204937,0.2160247
+2673,Hands of Havoc Fire Starter,3883541-hands-of-havoc-fire-starter,4.0,Havoc Flask,16.5,26.75,5.17204,0.31345698
+2675,Harmonium Captain,3883542-harmonium-captain,8.0,Harmonium Blade,20.0,17.0,4.1231055,0.20615529
+2676,Harmonium Peacekeeper,3883543-harmonium-peacekeeper,3.0,Electrified Mancatcher,21.5,21.75,4.6636896,0.21691579
+2677,Mercykiller Bloodhound,3883551-mercykiller-bloodhound,7.0,Clawed Gauntlet,18.0,14.0,3.7416575,0.20786986
+2679,Transcendent Order Instinct,3883568-transcendent-order-instinct,3.0,Unarmed Strike,7.5,5.25,2.291288,0.30550504
+2681,Morte,3883553-morte,0.25,Bite,5.5,1.25,1.118034,0.20327891
+2682,Fiendish Auger,3805743-fiendish-auger,5.0,Flaming Drill,24.0,22.333334,4.725816,0.19690898
+2683,Intellect Snare,3805753-intellect-snare,8.0,Tentacle,10.5,5.25,2.291288,0.2182179
+2685,Oculorb,3805760-oculorb,9.0,Dreadful Contact,25.0,17.5,4.1833,0.16733201
+2686,Oculorb,3805760-oculorb,9.0,Eye Beam,14.5,8.75,2.95804,0.20400275
+2688,Cranium Rat Squeaker,3883524-cranium-rat-squeaker,0.0,Bite,1.0,0.0,0.0,0.0
+2689,Dabus,3883526-dabus,2.0,Flying Brick,7.5,5.25,2.291288,0.30550504
+2691,Darkweaver,3883527-darkweaver,10.0,Bite,31.0,23.333334,4.830459,0.15582125
+2692,Darkweaver,3883527-darkweaver,10.0,Shadow Web,16.5,24.75,4.974937,0.30151135
+2693,Equinal Guardinal,3883532-equinal-guardinal,6.0,Fist,16.5,8.75,2.95804,0.17927514
+2694,Equinal Guardinal,3883532-equinal-guardinal,6.0,Rock,22.5,24.75,4.974937,0.22110832
+2696,Kolyarut,3883548-kolyarut,20.0,Unerring Blade,24.0,0.0,0.0,0.0
+2698,Maelephant,3883550-maelephant,10.0,Barbed Trunk,26.0,34.333332,5.859465,0.22536404
+2699,Maelephant,3883550-maelephant,10.0,Glaive,15.0,16.5,4.0620193,0.27080128
+2701,Razorvine Blight,3883559-razorvine-blight,1.0,Claw,5.5,2.9166667,1.7078252,0.31051365
+2702,Ancient Time Dragon,3883516-ancient-time-dragon,26.0,Rend,33.0,24.5,4.9497476,0.14999235
+2704,Adult Time Dragon,3883515-adult-time-dragon,18.0,Rend,21.0,11.666667,3.4156504,0.16265002
+2706,Young Time Dragon,3883571-young-time-dragon,11.0,Rend,19.0,11.666667,3.4156504,0.17977107
+2708,Time Dragon Wyrmling,3883566-time-dragon-wyrmling,5.0,Rend,11.0,5.8333335,2.4152296,0.21956632
+2710,Vargouille Reflection,3883569-vargouille-reflection,1.0,Bite,16.0,11.666667,3.4156504,0.21347815
