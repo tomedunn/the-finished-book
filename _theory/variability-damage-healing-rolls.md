@@ -1,8 +1,8 @@
 ---
 title: "Variability: Damage and Healing Rolls"
-excerpt: "How do we account for variability of dice rolls in D&D"
+excerpt: "How do we account for variability of dice rolls for damage and healing in D&D?"
 date: 2023-10-14
-last_modified_at: 2023-10-14
+last_modified_at: 2023-10-15
 tags:
   - theory
   - monsters
@@ -125,7 +125,7 @@ Finally, a roll's coefficient of variation can be calculate in the usual way by 
 
 For rolls with only a single type of die and modifier, which covers the vast majority of damage and healing rolls in D&D, Eqns. \eqref{eq:damage-roll-mean} and \eqref{eq:damage-roll-variance} simplify to 
 \begin{align}
-    \mu_{\roll} &= N_{\die_n} \cdot \mu_{\die_n} + N_{\die_0} \,; \label{eq:sd-roll-mean} \\\\ 
+    \mu_{\roll} &= N_{\die_n} \cdot \mu_{\die_n} + N_{\die_1} \,; \label{eq:sd-roll-mean} \\\\ 
     \sigma_{\roll} &= \sqrt{N_{\die_n}} \cdot \sigma_{\die_n} \,, \label{eq:sd-roll-sigma}
 \end{align}
 where $$\mu_{\die_n}$$ and $$\sigma_{\die_n}$$ can be calculated using Eqns. \eqref{eq:die-mean} and \eqref{eq:die-sigma} respectively, or taken directly from the [Dice Stats](#tab:die-stats){: .fig-ref} table in the previous section.
@@ -138,14 +138,14 @@ To get a better sense of how these scale with the size and number of dice, Fig. 
     <figcaption>Figure 2: Shows mean and standard deviation values for common dice rolls without modifiers, along with reference lines of constant \(\CV\) (dashed lines). Hovering over a point, or selecting it on mobile, shows the dice equation along with its \(\CV\). Each roll's \(\CV\) can be reduced by adding a modifier, increasing its mean and shifting its point to the right.</figcaption>
 </figure>
 
-One of the most interesting trends shown in Fig. [2](#fig:cv-die-sigma-vs-mean){: .fig-ref} is that **as the number of dice increases the variability of the roll decreases**. We can confirm this trend by using Eqns. \eqref{eq:sd-roll-mean} and \eqref{eq:sd-roll-sigma}, with $$N_{\die_0} = 0$$, to calculate $$\CV = \sigma/\mu$$ for the roll,
+One of the most interesting trends shown in Fig. [2](#fig:cv-die-sigma-vs-mean){: .fig-ref} is that **as the number of dice increases the variability of the roll decreases**. We can confirm this trend by using Eqns. \eqref{eq:sd-roll-mean} and \eqref{eq:sd-roll-sigma}, with $$N_{\die_1} = 0$$, to calculate $$\CV = \sigma/\mu$$ for the roll,
 \begin{align}
     \CV_{\roll} &= \frac{ \sqrt{N_{\die_n}} \cdot \sigma_{\die_n} }{ N_{\die_n} \cdot \mu_{\die_n} } \nonumber \\\\ 
                 &= \frac{ \CV_{\die_n} }{ \sqrt{N_{\die_n}} }\,.
 \end{align}
 This shows that as the number of dice, $$N_{\die_n}$$, increases, the the variability decreases as $$1/\sqrt{N_{\die_n}}$$.
 
-Figure [2](#fig:cv-die-sigma-vs-mean){: .fig-ref} can also be used to determine which dice and modifier can be used to achieve a given $$\mu$$ and $$\CV$$, by drawing a vertical line at the target $$\mu$$ and a horizontal line that intersects it near the desired $$\CV$$. Any roll close to that horizontal line can be used, with $$N_{\die_0}$$ equal to the points horizontal distance from the vertical line.
+Figure [2](#fig:cv-die-sigma-vs-mean){: .fig-ref} can also be used to determine which dice and modifier can be used to achieve a given $$\mu$$ and $$\CV$$, by drawing a vertical line at the target $$\mu$$ and a horizontal line that intersects it near the desired $$\CV$$. Any roll close to that horizontal line can be used, with $$N_{\die_1}$$ equal to the points horizontal distance from the vertical line.
 
 For example, when building a roll with $$\mu \simeq 15$$ and a $$\CV \simeq 0.20$$, this method gives two options, 1d10 + 10 and 3d6 + 5. A comparison of these two rolls is shown in Fig. [3](#fig:damage-roll-example){: .fig-ref} (below).
 <figure id="fig:damage-roll-example-2">
