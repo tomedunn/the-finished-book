@@ -83,3 +83,5 @@ theory:
     children:
       - title: "Variability: Damage and Healing Rolls"
         url: /theory/variability-damage-healing-rolls/
+      - title: "Variability: Attacks"
+        url: /theory/variability-attacks/
