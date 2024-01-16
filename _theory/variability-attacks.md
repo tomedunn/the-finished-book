@@ -111,7 +111,7 @@ To get a sense of how much variability comes attack rolls for a typical attack, 
 
 For a typical chance to hit of $$65\%$$, the attack shown in Fig. [3](#fig:fixed-attack-cv-vs-hit){: .fig-ref} has a $$\CV_{\attack} \simeq 0.8$$ which is substantially higher than the coefficient of variation for a typical damage roll, which tends to fall within the range of $$0.1-0.3$$ for [published monsters]({{ site.url }}{{ site.baseurl }}{% link _theory/variability-damage-healing-rolls.md %}#fig:monster-damage-cv-vs-cr).
 
-It's only for very high chances to hit that $$\CV_{\attack}$$ comes anywhere close to this range. And for low chances to hit, $$\CV_{\attack}$$ increases almost as $$1/\rho_{\hit}$$, due to $$\mu_{\attack}$$ trending towards zero as $$\rho_{\hit}$$ does, while $$\sigma_{\attack}$$ stays relatively high as shown previously in Fig. [2](#fig:fixed-attack-cv-vs-hit){: .fig-ref}.
+It's only for very high chances to hit that $$\CV_{\attack}$$ comes anywhere close to this range. And for low chances to hit, $$\CV_{\attack}$$ increases almost as $$1/\rho_{\hit}$$, due to $$\mu_{\attack}$$ trending towards zero as $$\rho_{\hit}$$ does, while $$\sigma_{\attack}$$ stays relatively high as shown previously in Fig. [2](#fig:attack-normalized-damage-fixed-vs-hit){: .fig-ref}.
 
 Clearly, the amount of variability that comes from just the attack roll portion of an attack is substantial. How it interacts with the variability that comes from damage rolls is explored in detail in the next section.
 
