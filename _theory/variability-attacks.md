@@ -221,14 +221,6 @@ Equation \eqref{eq:ma-attack-cov} can also be rearranged in the following way,
 \end{align}
 which tells us the number of attacks needed for a given attack to hit a certain $$\CV_{\total}$$ target. This can be useful for assessing how often an ability needs to be used to hit a desired level of variability.
 
-<!--
-<figure id="fig:attacks-needed">
-    {% include_relative variability-attacks/fig-attacks-needed-small.html %}
-    {% include_relative variability-attacks/fig-attacks-needed-large.html %}
-    <figcaption>Figure 7: Shows the number of attacks needed to hit a specific \(\CV\) target as a function of \(\rho_{\hit}\) for an attack with \(\rho_{\crit} = 0.05\), \(m_{\crit} = 2\), \(s_{\crit}^2 = 2\), and \(\CV_{\hit} = 0.3\).</figcaption>
-</figure>
--->
-
 ## Fixed damage
 
 Another useful way we can look at how the number of attacks impacts $$\CV_{\total}$$ is to allow $$N_{\attack}$$ to vary while the total average damage $$\mu_{\total}$$ remains fixed. For example, when designing a monster we may need to keep the total damage per round within a certain range to hit a specific CR target.
@@ -304,9 +296,6 @@ An example of how the $$\CV$$ decreases as the number of attacks increases is sh
     {% include_relative variability-attacks/fig-cd-cv-example-large.html %}
     <figcaption>Figure 8: Shows the coefficient of variation for a damage pool of 8d6 divided up evenly across multiple attacks (blue), each of which has \(\rho_{\hit} = 0.60\) and \(\rho_{\crit} = 0.05\), along with a reference line for minimum \(\CV\) calculated using Eqn. \eqref{eq:cd-attack-variance-min} (dashed).</figcaption>
 </figure>
-
-
-
 
 
 # Conclusion
