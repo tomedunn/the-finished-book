@@ -2,7 +2,7 @@
 title: "Variability: Attacks"
 excerpt: "How do we account for variability of attack rolls in D&D?"
 date: 2024-01-16
-last_modified_at: 2024-01-16
+last_modified_at: 2024-01-17
 tags:
   - theory
   - monsters
@@ -215,12 +215,19 @@ and the resulting coefficient of variation, $$\CV \equiv \sigma / \mu$$, for the
 \end{align}
 As $$N_{\attack}$$ increases, $$\CV_{\total}$$ decreases as $$1/\sqrt{N_{\attack}}$$. Thus, that after four attacks $$\CV_{\total}$$ is half its original value, and after sixteen attacks its a quarter of it. This illustrates how **a character's damage will will tend towards the average over time**.
 
-Solving Eqn. \eqref{eq:ma-attack-cov} for $$N_{\attack}$$,
+Equation \eqref{eq:ma-attack-cov} can also be rearranged in the following way,
 \begin{align}
     N_{\attack} = \frac{ \CV_{\attack}^{\,2} }{ \CV_{\total}^{\,2} }\,,
 \end{align}
-tells us the number of attacks needed for a given attack hit a certain $$\CV_{\total}$$ target, which can be useful for assessing how often an ability needs to be used to hit a desired level of variability.
+which tells us the number of attacks needed for a given attack to hit a certain $$\CV_{\total}$$ target. This can be useful for assessing how often an ability needs to be used to hit a desired level of variability.
 
+<!--
+<figure id="fig:attacks-needed">
+    {% include_relative variability-attacks/fig-attacks-needed-small.html %}
+    {% include_relative variability-attacks/fig-attacks-needed-large.html %}
+    <figcaption>Figure 7: Shows the number of attacks needed to hit a specific \(\CV\) target as a function of \(\rho_{\hit}\) for an attack with \(\rho_{\crit} = 0.05\), \(m_{\crit} = 2\), \(s_{\crit}^2 = 2\), and \(\CV_{\hit} = 0.3\).</figcaption>
+</figure>
+-->
 
 ## Fixed damage
 
@@ -272,6 +279,14 @@ Since $$m_{\crit} > 1$$, we know that $$\rho_{\hit} + \rho_{\crit} \, m_{\crit}^
 
 This principle can be applied recursively as well, so long as the damage pools of a resulting attack after splitting can be further split in two. Therefore, a more general statement would be that **the variance from a pool of damage divided up across multiple identical attacks gets smaller and smaller as the number of attacks increases**.
 
+An example of how the variance is reduced as the number of attacks increase is shown in Fig. [7](#fig:cd-distribution-example){: .fig-ref} (below) for a damage pool consisting of 8d6. As the number of attacks increases the width of the damaging portion of the distribution widens. However, the probability of dealing zero damage drops significantly, leading to an overall reduction in the total variance.
+
+<figure id="fig:cd-distribution-example">
+    {% include_relative variability-attacks/fig-cd-distribution-example-small.html %}
+    {% include_relative variability-attacks/fig-cd-distribution-example-large.html %}
+    <figcaption>Figure 7: Shows the damage distribution for a damage pool of 8d6 divided up evenly across different numbers of attacks, each of which has \(\rho_{\hit} = 0.60\) and \(\rho_{\crit} = 0.05\). Distributions are offset for clarity.</figcaption>
+</figure>
+
 For a damage pool consisting of $$N$$ dice, $$\mathrm{D} = \left\{\die_{1}, \die_{2}, \dots, \die_{N}\right\}$$, the lowest variance will come when the damage pool can no longer be split up, i.e., one die per attack. The minimum total variance can therefore be calculated using Eqn. \eqref{eq:attack-variance-typical},
 \begin{align}
     \sigma_{\mathrm{min}}^2 = &\, \left( \left( \rho_{\hit} + \rho_{\crit} \, m_{\crit}^2 \right) - \left( \rho_{\hit}  + \rho_{\crit} \, m_{\crit} \right)^2 \right) \sum_{\die \in \mathrm{D}} \mu_{\die}^2 \nonumber \\\\ 
@@ -280,15 +295,19 @@ For a damage pool consisting of $$N$$ dice, $$\mathrm{D} = \left\{\die_{1}, \die
 \end{align}
 where $$\sigma_{\mathrm{D}}^2$$ is the total variance from the entire damage pool.
 
-Note that the contribution of the damage pool to the total variance, $$\left( \rho_{\hit} + \rho_{\crit} \, s_{\crit}^2 \right) \sigma_{\mathrm{D}}^2$$, is the same as it would be with just a single attack. The term that gets smaller as the number of attacks increases is therefore that of the attack roll. This makes intuitive sense, since the number of attack rolls is increasing while the total dice rolled when determining the damage remains unchanged.
+Note that the contribution of the damage pool to the total variance, $$\left( \rho_{\hit} + \rho_{\crit} \, s_{\crit}^2 \right) \sigma_{\mathrm{D}}^2$$, is the same as it would be with just a single attack. The term that gets smaller as the number of attacks increases is therefore that of the attack roll. This makes intuitive sense, and matches what was shown in Fig. [7](#fig:cd-distribution-example){: .fig-ref} earlier, since the number of attack rolls is increasing while the total dice rolled when determining the damage remains unchanged.
 
-An example of how the $$\CV$$ decreases as the number of attacks increases is shown in Fig. [7](#fig:cd-cv-example){: .fig-ref} (below) for a damage pool consisting of 8d6.
+An example of how the $$\CV$$ decreases as the number of attacks increases is shown in Fig. [8](#fig:cd-cv-example){: .fig-ref} (below) for the same damage pool used previously in Fig. [7](#fig:cd-distribution-example){: .fig-ref}.
 
 <figure id="fig:cd-cv-example">
     {% include_relative variability-attacks/fig-cd-cv-example-small.html %}
     {% include_relative variability-attacks/fig-cd-cv-example-large.html %}
-    <figcaption>Figure 7: Shows the coefficient of variation for a damage pool of 8d6 divided up evenly across multiple attacks (blue), each of which has \(\rho_{\hit} = 0.60\) and \(\rho_{\crit} = 0.05\), along with a reference line for minimum \(\CV\) calculated using Eqn. \eqref{eq:cd-attack-variance-min} (dashed).</figcaption>
+    <figcaption>Figure 8: Shows the coefficient of variation for a damage pool of 8d6 divided up evenly across multiple attacks (blue), each of which has \(\rho_{\hit} = 0.60\) and \(\rho_{\crit} = 0.05\), along with a reference line for minimum \(\CV\) calculated using Eqn. \eqref{eq:cd-attack-variance-min} (dashed).</figcaption>
 </figure>
+
+
+
+
 
 # Conclusion
 
