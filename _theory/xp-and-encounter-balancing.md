@@ -161,7 +161,7 @@ Thinking about encounter difficulty in terms of damage is convenient in that it 
 \begin{align}
     0 \lt \eDtot_{\NPCs} \lt \eHPtot_{\PCs}\,, \label{eq:effective-damage-inequality}
 \end{align}
-in order to keep the encounter challenging without being overwhelming. For a detailed discussion of what I mean by "effective hit points" and "effective damage", see [Effective HP and Damage]({{ site.url }}{{ site.baseurl }}/theory/effective-hp-and-damage/), but you can think of them as simply hit points and damage for the time being.
+in order to keep the encounter challenging without being overwhelming. For a detailed discussion of what I mean by "effective hit points" and "effective damage", see [Effective HP and Damage]({{ site.data.page-links.effective-hp-and-damage.path }}), but you can think of them as simply hit points and damage for the time being.
 
 If we divide each term in Eqn. \eqref{eq:effective-damage-inequality} by $$\eHPtot_{\PCs}$$, this simplifies to 
 \begin{align}
@@ -232,7 +232,7 @@ This is a great first step towards understanding how the game's encounter balanc
 
 While the results of the previous section make sense conceptually, they're of little value if they can't accurately reproduce XP values for PCs and NPCs given in the core rules. In this section, let's take a moment to verify that we're heading down the right path by confirming that Eqn. \eqref{eq:xp-npc} matches the monster XP values listed for each CR. 
 
-Taking advantage of the equations for $$\eHP$$ and $$\eDPR$$ from my previous post, [Effective HP and Damage]({{ site.url }}{{ site.baseurl }}/theory/effective-hp-and-damage/), Eqns. \eqref{eq:xp-pc} and \eqref{eq:xp-npc} can be written more explicitly in terms of a creature's armor class $$(\AC\,)$$, attack bonus $$(\AB\,)$$, and average damage per round assuming all attacks hit $$(\DPRhit)$$ as
+Taking advantage of the equations for $$\eHP$$ and $$\eDPR$$ from my previous post, [Effective HP and Damage]({{ site.data.page-links.effective-hp-and-damage.path }}), Eqns. \eqref{eq:xp-pc} and \eqref{eq:xp-npc} can be written more explicitly in terms of a creature's armor class $$(\AC\,)$$, attack bonus $$(\AB\,)$$, and average damage per round assuming all attacks hit $$(\DPRhit)$$ as
 \begin{gather}
     \XP_{\PC}  = \HP \cdot \DPRhit \cdot 1.077^{\AC + \AB - 15} \,,             \label{eq:xp-pc-explicit} \\\\ 
     \XP_{\NPC}  = \frac{1}{4}\HP \cdot \DPRhit \cdot 1.077^{\AC + \AB - 15}\,.   \label{eq:xp-npc-explicit}
@@ -259,7 +259,7 @@ To verify that these methods for calculating XP are accurate, Fig. <a href="#fig
 
 Clearly, the linear approximation given by Eqn. \eqref{eq:experience-NPC-linear} matches the target XP values the best out of the two. From an theoretical perspective, I would consider Eqn. \eqref{eq:experience-NPC-linear} to be less correct than Eqn. \eqref{eq:xp-npc-explicit}, since the approximation needed to reach it doesn't hold up for higher CR monsters. However, since the same approximation would be applied to both PCs and NPCs alike, I think it's unlikely cause to any significant problems unless there is a large gap between $$\AC + \AB\,$$ for the PCs and NPCs in the encounter.
 
-This method also works well for calculating XP values for published monsters and for player characters. For a comparison between calculated XP and target XP values of published monsters, see [Calculating Monster XP]({{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-xp/). And, for a comparison of calculated XP values and player character XP thresholds, see [Player Character XP]({{ site.url }}{{ site.baseurl }}/classes/xp-and-player-characters/).
+This method also works well for calculating XP values for published monsters and for player characters. For a comparison between calculated XP and target XP values of published monsters, see [Calculating Monster XP]({{ site.data.page-links.calculating-monster-xp.path }}). And, for a comparison of calculated XP values and player character XP thresholds, see [Player Character XP]({{ site.data.page-links.xp-and-player-characters.path }}).
 
 
 # Encounter multiplier
@@ -319,4 +319,4 @@ At this point, Eqn. \eqref{eq:encounter-multiplier-weighted} probably looks like
 
 To summarize, both XP and the encounter multiplier arise as natural consequences of balancing encounters around the amount of damage the PCs are likely to take relative to their maximum health. XP can be calculated directly from the product of a creature's effective hit points and effective damage per round, as shown in Eqns. \eqref{eq:experience-PC-linear} and \eqref{eq:experience-NPC-linear}, and can be thought of as representing the amount of damage a creature is expected to do in the time it takes them to be defeated. And, the encounter multiplier estimates the additional XP for encounters with multiple creatures, and represents the extra damage some creatures are able to do while their enemies are busy dealing with their allies.
 
-While this covers the key concepts I wanted to touch on for where XP comes from and what the encounter multiplier represents, there is still a lot more to cover on these topics, especially the encounter multiplier, which you can read more about in [Calculating the Encounter Multiplier: part 1]({{ site.url }}{{ site.baseurl }}/theory/encounter-multiplier-p1/).
+While this covers the key concepts I wanted to touch on for where XP comes from and what the encounter multiplier represents, there is still a lot more to cover on these topics, especially the encounter multiplier, which you can read more about in [Calculating the Encounter Multiplier: part 1]({{ site.data.page-links.encounter-multiplier-p1.path }}).

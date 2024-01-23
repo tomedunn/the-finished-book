@@ -1,2 +1,85 @@
+baseline-player-character-stats:
+  path: /theory/baseline-player-character-stats/
+
+daily-xp-and-encounter-difficulty:
+  path: /theory/daily-xp-and-encounter-difficulty/
+
+magic-items-and-encounter-balancing:
+  path: /theory/magic-items-and-encounter-balancing/
+
+short-adventuring-days:
+  path: /theory/short-adventuring-days/
+
+stunning-strike:
+  path: /theory/stunning-strike/
+
+xp-and-player-characters:
+  path: /theory/xp-and-player-characters/
+
+
+
+baseline-monster-stats:
+  path: /theory/baseline-monster-stats/
+
+calculating-monster-cr:
+  path: /theory/calculating-monster-cr/
+
+calculating-monster-xp:
+  path: /theory/calculating-monster-xp/
+
+categorizing-monsters:
+  path: /theory/categorizing-monsters/
+
+early-legendary-monsters:
+  path: /theory/early-legendary-monsters/
+
+legendary-resistance:
+  path: /theory/legendary-resistance/
+
+monster-condition-immunities:
+  path: /theory/monster-condition-immunities/
+
+monster-damage-modifiers:
+  path: /theory/monster-damage-modifiers/
+
+monster-dataset:
+  path: /theory/monster-dataset/
+
+monster-saving-throws:
+  path: /theory/monster-saving-throws/
+
+monsters-of-the-multiverse:
+  path: /theory/monsters-of-the-multiverse/
+
+
+
+
+effective-hp-and-damage:
+  path: /theory/effective-hp-and-damage/
+
+encounter-multiplier-p1:
+  path: /theory/encounter-multiplier-p1/
+
+encounter-multiplier-p2:
+  path: /theory/encounter-multiplier-p2/
+
+rounds-per-day:
+  path: /theory/rounds-per-day/
+
+valuing-conditions:
+  path: /theory/valuing-conditions/
+
+variability-attacks:
+  path: /theory/variability-attacks/
+
+variability-damage-healing-rolls:
+  path: /theory/variability-damage-healing-rolls/
+
+xgte-encounter-building:
+  path: /theory/xgte-encounter-building/
+
 xp-and-encounter-balancing:
   path: /theory/xp-and-encounter-balancing/
+
+xp-dnd-vs-pathfinder:
+  path: /theory/xp-dnd-vs-pathfinder/
