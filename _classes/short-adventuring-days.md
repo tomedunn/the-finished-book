@@ -14,7 +14,7 @@ tags:
 {% include LaTex.html %}
 
 # Introduction
-In my previous post, "[Daily XP and Encounter Difficulty]({{ site.url }}{{ site.baseurl }}{% link _classes/daily-xp-and-encounter-difficulty.md %})", I showed how player character XP thresholds change with the average encounter difficulty for full adventuring days. Since the number of encounters per day depends strongly on the encounter difficulty, you could say I also effectively showed how these XP thresholds change with the number of encounters per long rest.
+In my previous post, "[Daily XP and Encounter Difficulty]({{ site.data.page-links.daily-xp-and-encounter-difficulty.path }})", I showed how player character XP thresholds change with the average encounter difficulty for full adventuring days. Since the number of encounters per day depends strongly on the encounter difficulty, you could say I also effectively showed how these XP thresholds change with the number of encounters per long rest.
 
 This covered a fairly wide range of encounters per adventuring day, anything between 3-13 encounters, but left out two of the most common adventuring day options used by many DMs. In this post, I aim to fill in this gap by looking at adventuring days with only one or two encounters.
 
@@ -27,7 +27,7 @@ As a reminder, XP values can be calculated for player characters by taking the p
     \XP_{\PC} = \eHP \cdot \eDPR\,.
 \end{equation}
 
-For a detailed summary of how these XP values are calculated, see [Player Character XP]({{ site.url }}{{ site.baseurl }}{% link _classes/xp-and-player-characters.md %}).
+For a detailed summary of how these XP values are calculated, see [Player Character XP]({{ site.data.page-links.xp-and-player-characters.path }}).
 
 # Single encounter adventuring day
 

@@ -16,21 +16,21 @@ tags:
 
 # Introduction
 
-In my previous post, [XP and Encounter Balancing]({{ site.url }}{{ site.baseurl }}{% link _theory/xp-and-encounter-balancing.md %}), I showed how PC XP thresholds and NPC XP values could be derived from fundamental equations for combat. And, while I did go into detail [here]({{ site.url }}{{ site.baseurl }}{% link _monsters/calculating-monster-xp.md %}) showing how monster XP values compared with those listed for published monsters, I never really addressed XP thresholds for PCs in a similar way.
+In my previous post, [XP and Encounter Balancing]({{ site.data.page-links.xp-and-encounter-balancing.path }}), I showed how PC XP thresholds and NPC XP values could be derived from fundamental equations for combat. And, while I did go into detail [here]({{ site.data.page-links.calculating-monster-xp.path }}) showing how monster XP values compared with those listed for published monsters, I never really addressed XP thresholds for PCs in a similar way.
 
 In this post, I'd like to rectify this, by calculating XP values for each of the PC classes and showing how they relate to the different encounter difficulty XP thresholds, as well as the adventuring day XP budgets from [chapter 13](https://www.dndbeyond.com/sources/basic-rules/building-combat-encounters) of the _Basic Rules_.
 
 
 # Calculating player character XP
 
-As I covered in [XP and Encounter Balancing]({{ site.url }}{{ site.baseurl }}{% link _theory/xp-and-encounter-balancing.md %}), XP values can be calculated for player characters, similarly to how they're calculated for non-player characters, by taking the product of a PC's effective hit points $$(\eHP\,)$$ and average effective damage per round $$(\eDPR\,)$$, 
+As I covered in [XP and Encounter Balancing]({{ site.data.page-links.xp-and-encounter-balancing.path }}), XP values can be calculated for player characters, similarly to how they're calculated for non-player characters, by taking the product of a PC's effective hit points $$(\eHP\,)$$ and average effective damage per round $$(\eDPR\,)$$, 
 
 \begin{equation}
     \XP_{\PC} = \eHP \cdot \eDPR\,.
     \label{eq:XP-simple}
 \end{equation}
 
-The specifics of how $$\eHP$$ and $$\eDPR$$ are calculated are covered in [Effective HP and Damage]({{ site.url }}{{ site.baseurl }}{% link _theory/effective-hp-and-damage.md %}), but for a simple approximation Eqn. \eqref{eq:XP-simple} can be written as,
+The specifics of how $$\eHP$$ and $$\eDPR$$ are calculated are covered in [Effective HP and Damage]({{ site.data.page-links.effective-hp-and-damage.path }}), but for a simple approximation Eqn. \eqref{eq:XP-simple} can be written as,
 
 \begin{equation}
     %\XP_{\PC} = \HP \cdot \DPRhit \left(1 + 0.077\left(\AC + \AB - 15\right)\right)\,, 
@@ -40,7 +40,7 @@ The specifics of how $$\eHP$$ and $$\eDPR$$ are calculated are covered in [Effec
 
 where $$\HP$$ is the PC's average hit points, $$\AC\,$$ is their effective armor class, $$\DPRhit$$ is their average damage per round assuming all attacks hit, and $$\AB\,$$ is their effective attack bonus.
 
-Since, as I show [here]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier-p1.md %}), the encounter multiplier already factors in the PC's ability to deal damage to multiple targets at once via area of effect abilities, $$\DPRhit$$ should only reflect a PC's single target damaging abilities in order to avoid double counting.
+Since, as I show [here]({{ site.data.page-links.encounter-multiplier-p1.path }}), the encounter multiplier already factors in the PC's ability to deal damage to multiple targets at once via area of effect abilities, $$\DPRhit$$ should only reflect a PC's single target damaging abilities in order to avoid double counting.
  
 For NPCs, XP was calculated for a single three round encounter with the NPC fully rested at the start of it. This fit well with how NPCs typically experience combat, but the same can't be said for PCs. PCs often face several encounters before resting, and the number of rounds can vary significantly, depending on a variaty of factors.
 
@@ -62,7 +62,7 @@ In mathematical terms, these can be expressed using the following equations,
 
 Here, $$\AC_{\,\mathrm{base}}$$ is the PC's base armor class and $$\Delta \AC\,$$ is the bonus applied to the PC's armor class during a round of combat, $$\AB_{\,\mathrm{base}}$$ is their base attack bonus and $$\Delta \AB\,$$ is the bonus applied to their attack bonus during a round of combat, $$\HP_{\mathrm{max}}$$ is their hit points at full health and $$\Delta \HP$$ is the healing or temporary hit points they receive during a round of combat, and $$N_\mathrm{rounds}$$ is the number of rounds in the encounter.
 
-The number of rounds in an encounter can vary quite a bit for PCs, but we can simplify this a bit by focusing on the typical number of rounds for each encounter difficulty. This approach is also convenient when calculating PC XP values for full adventuring days, since the number of encounters also depends on the average encounter difficulty. I cover how to calculate the number of rounds per encounter, as well as the number of rounds per full adventuring day, for each encounter difficulty [here]({{ site.url }}{{ site.baseurl }}{% link _theory/rounds-per-day.md %}).
+The number of rounds in an encounter can vary quite a bit for PCs, but we can simplify this a bit by focusing on the typical number of rounds for each encounter difficulty. This approach is also convenient when calculating PC XP values for full adventuring days, since the number of encounters also depends on the average encounter difficulty. I cover how to calculate the number of rounds per encounter, as well as the number of rounds per full adventuring day, for each encounter difficulty [here]({{ site.data.page-links.rounds-per-day.path }}).
 
 
 ## Adventuring day XP
@@ -132,7 +132,7 @@ The corresponding daily XP values are shown in Fig. <a href="#fig:daily-xp-vs-le
     <figcaption>Figure 3: Average PC daily XP (red, circles) calculated using Eqn. \eqref{eq:XP-full} for a full adventuring days filled with Medium encounters and two short rests.</figcaption>
 </figure>
 
-These results, along with my previous results from [Calculating Monster XP]({{ site.url }}{{ site.baseurl }}{% link _monsters/calculating-monster-xp.md %}) for NPCs, provide strong evidence that this approach accurately replicates how the encounter balancing rules are designed to work in 5th edition D&D.
+These results, along with my previous results from [Calculating Monster XP]({{ site.data.page-links.calculating-monster-xp.path }}) for NPCs, provide strong evidence that this approach accurately replicates how the encounter balancing rules are designed to work in 5th edition D&D.
 
 ## Calculated XP by class
 
@@ -178,4 +178,4 @@ Combining the results shown in Fig. <a href="#fig:pcs-encounter-ehp-vs-level-med
 
 The average daily XP values for PCs calculated here show good agreement with the adventuring day XP budgets given in [chapter 13](https://www.dndbeyond.com/sources/basic-rules/building-combat-encounters) of the _Basic Rules_. And the calculated encounter XP values fit in well with the different encounter difficulty XP thresholds from it as well. Combined with my previous results calculating monster XP values, I think it's safe to say this approach closely matches how the encounter balancing rules in 5th edition D&D are designed to work.
 
-For further readings on this topic, see my posts on how [encounter difficulties]({{ site.url }}{{ site.baseurl }}{% link _classes/daily-xp-and-encounter-difficulty.md %}), [short adventuring days]({{ site.url }}{{ site.baseurl }}{% link _classes/short-adventuring-days.md %}), and [magic items]({{ site.url }}{{ site.baseurl }}{% link _classes/magic-items-and-encounter-balancing.md %}) impact PC XP values.
+For further readings on this topic, see my posts on how [encounter difficulties]({{ site.data.page-links.daily-xp-and-encounter-difficulty.path }}), [short adventuring days]({{ site.data.page-links.short-adventuring-days.path }}), and [magic items]({{ site.data.page-links.magic-items-and-encounter-balancing.path }}) impact PC XP values.

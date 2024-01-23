@@ -14,11 +14,11 @@ tags:
 
 # Introduction
 
-In my previous post, [Player Character XP]({{ site.url }}{{ site.baseurl }}{% link _classes/xp-and-player-characters.md %}), I showed how encounter XP values and daily XP budgets can be calculated for player characters. The results I showed focused on full adventuring days composed of Medium encounters with two short rests, but this isn't the only way to build a full adventuring day. In this post, I'll take a quick look at how the average encounter difficulty affects player character daily XP budgets.
+In my previous post, [Player Character XP]({{ site.data.page-links.xp-and-player-characters.path }}), I showed how encounter XP values and daily XP budgets can be calculated for player characters. The results I showed focused on full adventuring days composed of Medium encounters with two short rests, but this isn't the only way to build a full adventuring day. In this post, I'll take a quick look at how the average encounter difficulty affects player character daily XP budgets.
 
 # Calculating Daily XP
 
-Calculating the daily XP values for each class follows the same process I outlined [here]({{ site.url }}{{ site.baseurl }}{% link _classes/xp-and-player-characters.md %}), but with the number of rounds and encounters adjusted to fit each encounter difficulty. The number of rounds per encounter and encounters per day for a given encounter difficulty vary a bit from level to level, but those variations are small compared to the average for each difficulty. These average values are summarized in the <a href="#tab:rounds-summary" class="fig-ref">Encounters and Rounds</a> table (below).
+Calculating the daily XP values for each class follows the same process I outlined [here]({{ site.data.page-links.xp-and-player-characters.path }}), but with the number of rounds and encounters adjusted to fit each encounter difficulty. The number of rounds per encounter and encounters per day for a given encounter difficulty vary a bit from level to level, but those variations are small compared to the average for each difficulty. These average values are summarized in the <a href="#tab:rounds-summary" class="fig-ref">Encounters and Rounds</a> table (below).
 
 <div class="dataframe center" style="width:660px;">
 <h3 id="tab:rounds-summary">Encounters and Rounds</h3>

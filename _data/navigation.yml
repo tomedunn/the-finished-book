@@ -44,7 +44,7 @@ classes:
   - title: "General"
     children:
       - title: "Baseline Player Character Stats"
-        url: /monsters/baseline-player-character-stats/
+        url: /classes/baseline-player-character-stats/
       - title: "Player Character XP"
         url: /classes/xp-and-player-characters/
       - title: "Daily XP and Encounter Difficulty"

@@ -15,12 +15,12 @@ tags:
 {% include LaTex.html %}
 
 # Introduction
-So far, I've written about how player character (PC) XP thresholds and adventuring day XP budget are impacted for full adventuring days by the [average encounter difficulty]({{ site.url }}{{ site.baseurl }}{% link _classes/daily-xp-and-encounter-difficulty.md %}), as well as by [short adventuring days]({{ site.url }}{{ site.baseurl }}{% link _classes/short-adventuring-days.md %}) with only one or two encounters. In this post, I'd like to add to this by looking at how magic items affect these elements of encounter balancing.
+So far, I've written about how player character (PC) XP thresholds and adventuring day XP budget are impacted for full adventuring days by the [average encounter difficulty]({{ site.data.page-links.daily-xp-and-encounter-difficulty.path }}), as well as by [short adventuring days]({{ site.data.page-links.short-adventuring-days.path }}) with only one or two encounters. In this post, I'd like to add to this by looking at how magic items affect these elements of encounter balancing.
 
 Because magic items come in such a wide range of flavors and powers, covering this topic completely would be a monumental task. So instead, in this post I'll be focusing on a few basic types of magic items: ones that give a bonus to attack rolls, armor class, damage, save difficulty class, and saving throw bonuses. These results will help form a coherent basis that can be applied to a wide range of magic items beyond the simple examples shown here.
 
 # Magic item bonuses
-For this analysis, I'll once again be calculating XP values for PCs using the method outlined in [Player Character XP]({{ site.url }}{{ site.baseurl }}{% link _classes/xp-and-player-characters.md %}). If you're curious about the details, I strongly suggest reading that post, but for the purposes of this analysis, the key concept is that a PC's XP thresholds and adventuring day XP can both be calculated using the following formula,
+For this analysis, I'll once again be calculating XP values for PCs using the method outlined in [Player Character XP]({{ site.data.page-links.xp-and-player-characters.path }}). If you're curious about the details, I strongly suggest reading that post, but for the purposes of this analysis, the key concept is that a PC's XP thresholds and adventuring day XP can both be calculated using the following formula,
 \begin{align}
     \XP  &= \HP \cdot \DPRhit \cdot \left( 1 + 0.077\left(\AC + \AB - 15\right) \right) \nonumber \\\\ 
          &= \HP \cdot \DPRhit \cdot \left(\frac{\AC + \AB - 2}{13}\right) \,, 
@@ -28,7 +28,7 @@ For this analysis, I'll once again be calculating XP values for PCs using the me
 \end{align}
 where $$\HP$$ is the PC's maximum hit points, $$\AC\,$$ is their effective armor class (includes adjustments from class features that make the PC harder to damage), $$\DPRhit$$ is their average damage per round assuming all attacks hit, and $$\AB\,$$ is their effective attack bonus (includes adjustments from class features that make it easier for the PC to deal damaage).
 
-Equation \eqref{eq:XP-full-attacks} can also be expressed in terms of a PC's effective saving throw bonuses $$(\SB\,)$$ and effective save difficulty class $$(\DC\,)$$. However, since a PC's $$\DC\,$$ is generally equal to $$\AB + 8$$, and $$\SB\,$$ can generally be treated as $$\AC - 14$$ (see [effective HP and Damage]({{ site.url }}{{ site.baseurl }}{% link _theory/effective-hp-and-damage.md %}#saving-throw-bonus-scaling)), their effects will produce identical outcomes to $$\AC\,$$ and $$\AB\,$$.
+Equation \eqref{eq:XP-full-attacks} can also be expressed in terms of a PC's effective saving throw bonuses $$(\SB\,)$$ and effective save difficulty class $$(\DC\,)$$. However, since a PC's $$\DC\,$$ is generally equal to $$\AB + 8$$, and $$\SB\,$$ can generally be treated as $$\AC - 14$$ (see [effective HP and Damage]({{ site.data.page-links.effective-hp-and-damage.path }}#saving-throw-bonus-scaling)), their effects will produce identical outcomes to $$\AC\,$$ and $$\AB\,$$.
 
 These inputs are averaged across multiple encounters to get the PC's encounter XP, which is then multiplied by the ratios given in the [XP Thresholds](#tab:xp-threshold-ratios){: .fig-ref} table (below) to get their XP thresholds for each encounter difficulty.
 
@@ -75,7 +75,7 @@ where $$h_{\AC}$$ represents the typical fraction of a PC's $$\HP\,$$ loss expec
 
 For both of these types of magic item bonuses, the increase to a PC's encounter XP depends on their baseline value of $$(\AC + \AB - 2)^{-1}$$ at each level. This acts as an upper bounds to the increase in encounter XP for a typical PC due to a magic item that grants a $$+1$$ bonus to either $$\AB\,$$ or $$\AC\,$$.
 
-To get a sense of how large the XP increase can be from these bonuses, Fig. [1](#fig:encounter-xp-generic-bonus){: .fig-ref} (below) plots this value for each class, as well as the average across all classes, from levels 1-20 using data from my previous post [Player Character XP]({{ site.url }}{{ site.baseurl }}{% link _classes/xp-and-player-characters.md %}) for a full adventuring day made up of Medium difficulty encounters. 
+To get a sense of how large the XP increase can be from these bonuses, Fig. [1](#fig:encounter-xp-generic-bonus){: .fig-ref} (below) plots this value for each class, as well as the average across all classes, from levels 1-20 using data from my previous post [Player Character XP]({{ site.data.page-links.xp-and-player-characters.path }}) for a full adventuring day made up of Medium difficulty encounters. 
 
 <figure id="fig:encounter-xp-generic-bonus">
     {% include_relative magic-items-and-encounter-balancing/fig-encounter-xp-generic-bonus-small.html %}
@@ -198,6 +198,6 @@ While there are many more magic items than the ones covered here, these results 
 
 As a final comment on these findings, the fact that the XP increase from a $$+1$$ to hit, armor class, save DC, or saving throw bonus gets smaller as a PC's level increases is not a true reflection of how these changes impact combat at later levels. Because the game's combat math is centered around the PCs having a baseline chance to hit or be hit of $$65\%$$ at all levels, a $$+1$$ to any of these should always increase a PC's XP values by the same percentage, regardless of their level.
 
-The fact that these XP increases get smaller at higher levels is the result of the specific XP formula used in this post. As I show [here]({{ site.url }}{{ site.baseurl }}{% link _theory/xp-and-encounter-balancing.md %}), while this formulation matches XP values used by the D&D core rules quite well, it's based on a linear approximation to the more general XP formula derived from the game's combat mechanics. The result of this approximation is that XP values for monsters and PCs underestimate the impact of a creature having $$\AB\,$$, $$\AC\,$$, $$\DC\,$$, or $$\SB\,$$ values that are higher/lower than baseline relative to differences $$\HP\,$$ and $$\DPR\,$$.
+The fact that these XP increases get smaller at higher levels is the result of the specific XP formula used in this post. As I show [here]({{ site.data.page-links.xp-and-encounter-balancing.path }}), while this formulation matches XP values used by the D&D core rules quite well, it's based on a linear approximation to the more general XP formula derived from the game's combat mechanics. The result of this approximation is that XP values for monsters and PCs underestimate the impact of a creature having $$\AB\,$$, $$\AC\,$$, $$\DC\,$$, or $$\SB\,$$ values that are higher/lower than baseline relative to differences $$\HP\,$$ and $$\DPR\,$$.
 
 That's all I'll say on the topic for now, but I will be covering this in more detail in a future post.

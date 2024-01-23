@@ -27,7 +27,7 @@ tags:
 
 Over the years, I've seen countless debates online around how strong the monk Stunning Strike feature is. In the early days of 5th edition the consensus seemed to be that Stunning Strike was extremely strong. However, in the last few years that consensus has changed within some portions of the online D&D community to Stunning Strike being considered weak instead. 
 
-The reason often cited for why Stunning Strike is weak is that it relies on Constitution saving throws which monsters are generally strong against, especially at higher CRs. As I showed previously in my post on [Monster Saving Throws]({{ site.url }}{{ site.baseurl }}{% link _monsters/monster-saving-throws.md %}), there is some truth to this. However, the topic definitely warrants a more in-depth look.
+The reason often cited for why Stunning Strike is weak is that it relies on Constitution saving throws which monsters are generally strong against, especially at higher CRs. As I showed previously in my post on [Monster Saving Throws]({{ site.data.page-links.monster-saving-throws.path }}), there is some truth to this. However, the topic definitely warrants a more in-depth look.
 
 In this post, I'll be taking a deep dive into how Stunning Strike holds up against published monsters from official source books.
 
@@ -57,7 +57,7 @@ The monk that we will be calculating this for is assumed to have 16 Dexterity an
 
 The monsters our monk will be facing come from a range of CRs around the monk's level. The CR range our monk will face at level 5 is CRs 1-9, at level 10 they'll face CRs 5-15, at level 15 they'll face CRs 9-21, and at level 20 they'll face CRs 13-27. These ranges were picked to reflect that PCs typically face a wide range of monster CRs. The number of monsters tends to decrease as CR increases, which roughly fits with how CR impacts the number of monsters in a typical encounter.
 
-As a final note, I have divided monsters up into three broad categories. A full description can be found [here]({{ site.url }}{{ site.baseurl }}{% link _monsters/categorizing-monsters.md %}), but simply put, **Generic** monsters are non-specific templates for certain types of monsters, **Legendary** monsters similar but with legendary traits, and **Unique** monsters each represent a specific, named NPC and have a unique stat block which may or may not have legendary traits.
+As a final note, I have divided monsters up into three broad categories. A full description can be found [here]({{ site.data.page-links.categorizing-monsters.path }}), but simply put, **Generic** monsters are non-specific templates for certain types of monsters, **Legendary** monsters similar but with legendary traits, and **Unique** monsters each represent a specific, named NPC and have a unique stat block which may or may not have legendary traits.
 
 In most campaigns, the vast majority of monsters come from the Generic category with occasional Legendary and Unique monsters thrown in as bosses or plot important NPC.
 

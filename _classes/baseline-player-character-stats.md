@@ -12,14 +12,14 @@ tags:
 
 # Introduction
 
-In [Baseline Monster Stats]({{ site.url }}{{ site.baseurl }}{% link _monsters/baseline-monster-stats.md %}), I used published monsters to determine how a typical monster scales with their challenge rating (CR) in 5th edition D&D (5e). In this post, I extend the same treatment to player characters. 
+In [Baseline Monster Stats]({{ site.data.page-links.baseline-monster-stats.path }}), I used published monsters to determine how a typical monster scales with their challenge rating (CR) in 5th edition D&D (5e). In this post, I extend the same treatment to player characters. 
 
-In addition to shining a light on how 5e is designed and balanced, these results, combined with the monster trends established previously, will be useful in understanding how combat changes as the player characters level up. It will also allow for better [valuing of conditions]({{ site.url }}{{ site.baseurl }}{% link _theory/valuing-conditions.md %}), which can be useful in determining if game mechanics like feats and spells are balanced relative to the rest of the game.
+In addition to shining a light on how 5e is designed and balanced, these results, combined with the monster trends established previously, will be useful in understanding how combat changes as the player characters level up. It will also allow for better [valuing of conditions]({{ site.data.page-links.valuing-conditions.path }}), which can be useful in determining if game mechanics like feats and spells are balanced relative to the rest of the game.
 
 
 # Baseline Classes
 
-Trying to encapsulate all of the build options (i.e., ability scores, feats, subclasses, multiclassing, magic items, etc) available to player characters in 5e would be an extraordinary undertaking due to the shear number of possible combinations. So, in order to simplify things, in this post I'll be limiting my analysis to just the base mechanics for each class (i.e., no subclasses) without feats or magic items. This is similar to the approach taken in my analysis of [player character XP]({{ site.url }}{{ site.baseurl }}{% link _classes/xp-and-player-characters.md %}).
+Trying to encapsulate all of the build options (i.e., ability scores, feats, subclasses, multiclassing, magic items, etc) available to player characters in 5e would be an extraordinary undertaking due to the shear number of possible combinations. So, in order to simplify things, in this post I'll be limiting my analysis to just the base mechanics for each class (i.e., no subclasses) without feats or magic items. This is similar to the approach taken in my analysis of [player character XP]({{ site.data.page-links.xp-and-player-characters.path }}).
 
 The player characters used in this analysis were built using a standard point buy for ability scores, with racial bonuses of either a $$+2$$ to one ability score and $$+1$$ to another, or $$+1$$ to three different ability scores. Ability Score Improvements were used to increase each class's primary attacking stat first, followed by their secondary stat in the case of classes like the monk, and finally towards boosting defensive stats like Dexterity or Constitution. 
 
@@ -30,7 +30,7 @@ For a summary of each class's starting stats see the [Initial Ability Scores](#t
     {% include_relative baseline-player-character-stats/tab-pc-baseline-ability-scores.html %}
 </div>
 
-**Note.** These starting ability scores differ from those used in my posts on [player character XP]({{ site.url }}{{ site.baseurl }}{% link _classes/xp-and-player-characters.md %}). I plan on unifying the two in the future, but for now this means there are slight inconsistencies in the results between the two.
+**Note.** These starting ability scores differ from those used in my posts on [player character XP]({{ site.data.page-links.xp-and-player-characters.path }}). I plan on unifying the two in the future, but for now this means there are slight inconsistencies in the results between the two.
 {: .notice--warning}
 
 
@@ -59,9 +59,9 @@ The average trends for AB and DC shown in Figs. [1](#fig:ab-vs-level){: .fig-ref
 \end{align}
 where $$\LV$$ is the player character's level.
 
-When compared against the same trends for [monster offensive stats]({{ site.url }}{{ site.baseurl }}{% link _monsters/baseline-monster-stats.md %}#conclusion), AB and DC values for player character start off slightly higher than for monsters but increase noticeably slower. It's interesting to note that this difference in scaling vanishes when factoring in magic items for player characters, which can add up to $$+3$$ to AB and DC by level 20.
+When compared against the same trends for [monster offensive stats]({{ site.data.page-links.baseline-monster-stats.path }}#conclusion), AB and DC values for player character start off slightly higher than for monsters but increase noticeably slower. It's interesting to note that this difference in scaling vanishes when factoring in magic items for player characters, which can add up to $$+3$$ to AB and DC by level 20.
 
-Comparing Eqns. \eqref{eq:ab-approx} and \eqref{eq:dc-approx} against [monster defensive stats]({{ site.url }}{{ site.baseurl }}{% link _monsters/baseline-monster-stats.md %}#conclusion), as shown in Fig. [3](#fig:hit-fail-probabilities){: .fig-ref} (below), the average probability of a player character's attack hitting a monster who's CR equals their level starts off close to $$60\%$$ and gradually increases to $$65\%$$, while the odds of such a monster failing a saving throw starts off at $$60\%$$ as well before steadily dropping down to around $$48\%$$ at level 20.
+Comparing Eqns. \eqref{eq:ab-approx} and \eqref{eq:dc-approx} against [monster defensive stats]({{site.data.page-links.baseline-monster-stats.path }}#conclusion), as shown in Fig. [3](#fig:hit-fail-probabilities){: .fig-ref} (below), the average probability of a player character's attack hitting a monster who's CR equals their level starts off close to $$60\%$$ and gradually increases to $$65\%$$, while the odds of such a monster failing a saving throw starts off at $$60\%$$ as well before steadily dropping down to around $$48\%$$ at level 20.
 
 <figure id="fig:hit-fail-probabilities">
     {% include_relative baseline-player-character-stats/fig-hit-fail-probabilities-small.html %}
@@ -73,7 +73,7 @@ This means that, in the absence of magic items, player characters that rely on a
 
 If we factor in bonuses to AB and DC from magic items as the player characters level up, the probability of hitting a monster with an attack increases up to around $$80\%$$ at level 20, while the chance of a monster failing a saving throw stays fairly flat, increasing only slightly to around $$63\%$$. Given the powerful impact that non-damaging saving throw effects can have (often known as "save or suck" abilities), it makes sense that monsters were designed to be a bit more resilient against such effects compared to attacks when the player characters are enhanced by magic items.
 
-The last offensive stat to consider is single target damage per round (DPR). These values, shown in Fig. [4](#fig:dpr-vs-level){: .fig-ref} (below), were taken from the simulations I ran previously for my post on [player character XP]({{ site.url }}{{ site.baseurl }}{% link _classes/xp-and-player-characters.md %}), which looked at each base class's average performance across a full adventuring day made up of Medium encounters. 
+The last offensive stat to consider is single target damage per round (DPR). These values, shown in Fig. [4](#fig:dpr-vs-level){: .fig-ref} (below), were taken from the simulations I ran previously for my post on [player character XP]({{ site.data.page-links.xp-and-player-characters.path }}), which looked at each base class's average performance across a full adventuring day made up of Medium encounters. 
 
 <figure id="fig:dpr-vs-level">
     {% include_relative baseline-player-character-stats/fig-dpr-vs-level-small.html %}
@@ -172,4 +172,4 @@ Before closing, there's one additional quantity I'd like to touch on, and that's
 
 This shows that on average, it takes a party of four player characters about $$2.5$$ rounds to defeat the monster, which is consistent with the general expectation that a Medium encounter should take between 2-3 rounds of combat to complete.
 
-And it shows that, on average, it takes the monster close to seven rounds to defeat a party of four player characters. If we assume the monster's DPR is constant across those rounds, then this means the monster can be expected to do $$35.7\%$$ of the party's maximum hit points in damage in the time it takes the party to defeat them. This is slightly more than the value predicted [here]({{ site.url }}{{ site.baseurl }}{% link _classes/xp-and-player-characters.md %}#fig:encounter-xp-thresholds-vs-level) from comparing player character XP thresholds from the encounter building rules against half of the adventuring day daily XP budget.
+And it shows that, on average, it takes the monster close to seven rounds to defeat a party of four player characters. If we assume the monster's DPR is constant across those rounds, then this means the monster can be expected to do $$35.7\%$$ of the party's maximum hit points in damage in the time it takes the party to defeat them. This is slightly more than the value predicted [here]({{ site.data.page-links.xp-and-player-characters.path }}#fig:encounter-xp-thresholds-vs-level) from comparing player character XP thresholds from the encounter building rules against half of the adventuring day daily XP budget.
