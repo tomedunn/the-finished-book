@@ -1,6 +1,7 @@
 ---
 title: "The Value of Legendary Resistances"
 excerpt: "How valuable are legendary resistances and when should DMs use them?"
+permalink: /:collection/:name/
 date: 2022-09-24
 last_modified_at: 2023-03-04
 tags:
@@ -33,8 +34,8 @@ These hit point values can be converted to effective hit points using the follow
 where $$\HP$$ represents the hit point value of a legendary resistance, and $$\AC$$ is the typical monster armor class values taken from the [Monster Statistics by Challenge Rating](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#MonsterStatisticsbyChallengeRating) table from the same chapter (for a full derivation of Eqn. \eqref{eq:effective-hit-points-attack-approx}, see [Effective HP and Damage]({{ site.data.page-links.effective-hp-and-damage.path }})). The results of this calculation are shown in Fig. <a href="#fig:pcs-encounter-edpr-legendary-resistance-vs-level-medium-adventuring-days" class="fig-ref">1</a> (below).
 
 <figure id="fig:pcs-encounter-edpr-legendary-resistance-vs-level-medium-adventuring-days">
-    {% include_relative legendary-resistance/fig-pcs-encounter-edpr-legendary-resistance-vs-level-medium-adventuring-days-small.html %}
-    {% include_relative legendary-resistance/fig-pcs-encounter-edpr-legendary-resistance-vs-level-medium-adventuring-days-large.html %}
+    {% include_relative fig-pcs-encounter-edpr-legendary-resistance-vs-level-medium-adventuring-days-small.html %}
+    {% include_relative fig-pcs-encounter-edpr-legendary-resistance-vs-level-medium-adventuring-days-large.html %}
     <figcaption>Figure 1: Effective hit points value of a legendary resistance (solid) and average effective damage per round for PCs (dashed) as a function of monster CR and PC level.</figcaption>
 </figure>
 

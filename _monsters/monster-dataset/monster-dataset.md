@@ -1,6 +1,7 @@
 ---
 title: "Monster Dataset"
 excerpt: "A list of the book that make up the monster datasets used for these analysis."
+permalink: /:collection/:name/
 date: 2023-06-27
 last_modified_at: 2023-06-27
 tags:
@@ -23,7 +24,7 @@ Adding monsters to the dataset is mostly automated, making it a relatively easy 
             text-align: right;
         }
     </style>
-    {% include_relative monster-dataset/source-books-summary.html %}
+    {% include_relative source-books-summary.html %}
 </div>
 
 <!--

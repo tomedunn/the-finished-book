@@ -1,6 +1,7 @@
 ---
 title: "Monster Damage Modifiers"
 excerpt: "An analysis of how damage resistances, immunities, and vulnerabilities depend on monster type and challenge rating."
+permalink: /:collection/:name/
 date: 2023-01-15
 last_modified_at: 2023-06-27
 tags:
@@ -29,8 +30,8 @@ Before digging into how monster types and CR impact a monsters' damage immunitie
 To get a sense of how common each type of damage modification is, Fig. <a href="#fig:nonphysical-modifier-types-by-damage" class="fig-ref">1</a> (below) shows the percent of monsters that are immune, resistant, or vulnerable to each non-physical damage type (everything other than bludgeoning, piercing, and slashing damage).
 
 <figure id="fig:nonphysical-modifier-types-by-damage">
-    {% include_relative monster-damage-modifiers/fig-nonphysical-modifier-types-by-damage-small.html %}
-    {% include_relative monster-damage-modifiers/fig-nonphysical-modifier-types-by-damage-large.html %}
+    {% include_relative fig-nonphysical-modifier-types-by-damage-small.html %}
+    {% include_relative fig-nonphysical-modifier-types-by-damage-large.html %}
     <figcaption>Figure 1: Percent of monsters with either resistance, immunity, or vulnerability to each non-physical damage type.</figcaption>
 </figure>
 
@@ -57,8 +58,8 @@ For some of these sub-categories, there can even be multiple wordings that produ
 Rather than breaking out all of these sub-categories and phrasings, for now I'd just like to focus on a few of the broader categories: immune, resistant, and vulnerable, as well as immune to non-magical damage, and resistant to non-magical damage. The later two are defined by whether or not a magical weapon can be used to overcome them.
 
 <figure id="fig:physical-modifier-types-by-damage">
-    {% include_relative monster-damage-modifiers/fig-physical-modifier-types-by-damage-small.html %}
-    {% include_relative monster-damage-modifiers/fig-physical-modifier-types-by-damage-large.html %}
+    {% include_relative fig-physical-modifier-types-by-damage-small.html %}
+    {% include_relative fig-physical-modifier-types-by-damage-large.html %}
     <figcaption>Figure 2: Percent of monsters with either resistance, immunity, or vulnerability to each physical damage type.</figcaption>
 </figure>
 
@@ -75,8 +76,8 @@ However, for magical damage, these averages drop tremendously to $$0.6\%$$ for *
 With the high level overview out of the way, lets look at how each damage type holds up vs monster CR. Figure <a href="#fig:average-modifier-vs-cr" class="fig-ref">3</a> (below) shows how the average damage changes with CR after applying any damage modifiers a monster might have. The "physical" damage type represents the average across bludgeoning, piercing, and slashing damage.
 
 <figure id="fig:average-modifier-vs-cr">
-    {% include_relative monster-damage-modifiers/fig-average-modifier-vs-cr-small.html %}
-    {% include_relative monster-damage-modifiers/fig-average-modifier-vs-cr-large.html %}
+    {% include_relative fig-average-modifier-vs-cr-small.html %}
+    {% include_relative fig-average-modifier-vs-cr-large.html %}
     <figcaption>Figure 3: Average damage taken after applying damage resistances, immunities, and vulnerabilities for published monsters. Presented as a percent of possible damage done. Physical represents the average of bludgeoning, piercing, and slashing damage.</figcaption>
 </figure>
 
@@ -93,8 +94,8 @@ Overall, damage reduction is small below CR 5 for all but poison damage. From CR
 Breaking down the data by monster type, as shown in Fig. <a href="#fig:damage-reduction-heat-map" class="fig-ref">4</a> (below), also reveals some interesting trends. 
 
 <figure id="fig:damage-reduction-heat-map">
-    {% include_relative monster-damage-modifiers/fig-damage-reduction-heat-map-small.html %}
-    {% include_relative monster-damage-modifiers/fig-damage-reduction-heat-map-large.html %}
+    {% include_relative fig-damage-reduction-heat-map-small.html %}
+    {% include_relative fig-damage-reduction-heat-map-large.html %}
     <figcaption>Figure 4: Average damage reduction for each damage type and monster type.</figcaption>
 </figure>
 

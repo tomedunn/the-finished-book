@@ -1,6 +1,7 @@
 ---
 title: "Monsters of the Multiverse"
 excerpt: "How have the monsters in Mordenkainen Presents: Monsters of the Multiverse changed?"
+permalink: /:collection/:name/
 date: 2023-06-21
 last_modified_at: 2023-06-21
 tags:
@@ -37,8 +38,8 @@ Looking at monsters in this way has several advantages. Not only does it allow f
 Before jumping into monster XP calculations, lets look at how the inputs to those calculations changed for the republished monsters. As shown in Fig. [1](#fig:stat-changes){: .fig-ref} (below), the most common type of change was to monster damage per round (DPR), with 55% of monsters (138 our of 252) having a different DPR in their republished form compared to its original. 
 
 <figure alt="How monsters changed in MotM" id="fig:stat-changes">
-    {% include_relative monsters-of-the-multiverse/fig-stat-changes-small.html %}
-    {% include_relative monsters-of-the-multiverse/fig-stat-changes-large.html %}
+    {% include_relative fig-stat-changes-small.html %}
+    {% include_relative fig-stat-changes-large.html %}
     <figcaption>Figure 1: Shows the percent of monsters republished in <em>Mordenkainen Presents: Monsters of the Multiverse</em> that changed in each of the listed categories relative to how they appeared in earlier publications.</figcaption>
 </figure>
 
@@ -49,16 +50,16 @@ For HP, DPR, and AB the majority of the changes were to the raw, or unadjusted s
 In total, 63% (159 out of 252) of all monster republished in MotM saw some kind of change impacting their overall combat strength, i.e., their calculated XP and possibly their CR. And, when broken down by CR, as shown in Fig. [2](#fig:change-distribution){: .fig-ref} (below), we see that a significantly higher portion of these changes were directed at high CR monsters than at low CR monsters.
 
 <figure alt="How monsters changed in MotM" id="fig:change-distribution">
-    {% include_relative monsters-of-the-multiverse/fig-change-distribution-small.html %}
-    {% include_relative monsters-of-the-multiverse/fig-change-distribution-large.html %}
+    {% include_relative fig-change-distribution-small.html %}
+    {% include_relative fig-change-distribution-large.html %}
     <figcaption>Figure 2: Shows the number of monsters republished in <em>Mordenkainen Presents: Monsters of the Multiverse</em> that changed for each CR.</figcaption>
 </figure>
 
 The overall impact that these changes had on the calculated XP values for monsters republished in MotM can be seen in Fig. [3](#fig:xp-ratio-vs-cr){: .fig-ref}, which shows the average ratio between monster XP values calculated using Eqn. \eqref{eq:XP-simple} and the XP value associated with their CR $$(\XP_{\CR})$$, as well as an $$80\%$$ confidence interval (i.e., $$80\%$$ of the monster fall within that range at each CR).
 
 <figure alt="Monster XP vs CR" id="fig:xp-ratio-vs-cr">
-    {% include_relative monsters-of-the-multiverse/fig-xp-ratio-vs-cr-small.html %}
-    {% include_relative monsters-of-the-multiverse/fig-xp-ratio-vs-cr-large.html %}
+    {% include_relative fig-xp-ratio-vs-cr-small.html %}
+    {% include_relative fig-xp-ratio-vs-cr-large.html %}
     <figcaption>Figure 3: Shows average and \(80\%\) confidence interval for calculated monster XP values relative to listed XP values for monsters originally published in <em>Volo's Guide to Monsters</em> and <em>Mordenkainen's Tome of Foes</em>, and then republished in <em>Mordenkainen Presents: Monsters of the Multiverse</em>.</figcaption>
 </figure>
 
@@ -67,8 +68,8 @@ The average XP for monsters republished in MotM shifts slightly closer to target
 This "tightening" of the distribution can also be seen in Fig. [4](#fig:xp-delta-vs-xp-ratio){: .fig-ref}, which plots the ratio between each republished monster's calculated XP value $$(\XP^{\,\prime}\,)$$ and original calculated XP value $$(\XP\,)$$ against the ratio of their original calculated XP value and the XP value listed for their CR. For example, the **[spring eladrin](https://www.dndbeyond.com/monsters/96548-spring-eladrin)** had an XP ratio of $$0.49 = \XP / \XP_{\CR}$$ when it was initially published in MToF, while its [republished](https://www.dndbeyond.com/monsters/2560921-spring-eladrin) XP increased by a factor of $$2.16 = \XP^{\,\prime} / \XP$$ for a final XP ratio of $$1.05 = \XP^{\,\prime} / \XP_{\CR}$$.
 
 <figure alt="Monster XP vs CR" id="fig:xp-delta-vs-xp-ratio">
-    {% include_relative monsters-of-the-multiverse/fig-xp-delta-vs-xp-ratio-small.html %}
-    {% include_relative monsters-of-the-multiverse/fig-xp-delta-vs-xp-ratio-large.html %}
+    {% include_relative fig-xp-delta-vs-xp-ratio-small.html %}
+    {% include_relative fig-xp-delta-vs-xp-ratio-large.html %}
     <figcaption>Figure 4: Shows the ratio between calculated XP values for republished monsters and that of their original publication, as a function of their original calculated XP ralative to the target XP listed by their CR. The dashed line shows the correction needed to hit the XP target for the republished monsters.</figcaption>
 </figure>
 
@@ -97,8 +98,8 @@ To help automate this process, I've be developing a monster feature parser that'
 That said, it's now at the point where it's starting to give useful and reliable data for the things it does cover. So, as a preview, here's some preliminary data on how the types of damage dealt by monster attacks changed for the monsters republished in MotM.
 
 <figure alt="Monster damage by type" id="fig:damage-by-type">
-    {% include_relative monsters-of-the-multiverse/fig-damage-by-type-small.html %}
-    {% include_relative monsters-of-the-multiverse/fig-damage-by-type-large.html %}
+    {% include_relative fig-damage-by-type-small.html %}
+    {% include_relative fig-damage-by-type-large.html %}
     <figcaption>Figure 5: Shows the amount of damage dealt of each type dealt by monsters from <em>Volo's Guide to Monsters</em> and <em>Mordenkainen's Tome of Foes</em>, as well as from <em>Mordenkainen Presents: Monsters of the Multiverse</em>. Data includes damage from monster actions, but not legendary actions, mythic actions, or spells.</figcaption>
 </figure>
 

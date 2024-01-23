@@ -1,6 +1,7 @@
 ---
 title: "Calculating Monster XP"
 excerpt: "Compares listed monster XP values with those calculated from their offensive and defensive abilities."
+permalink: /:collection/:name/
 date: 2021-11-24
 last_modified_at: 2023-06-27
 tags:
@@ -79,7 +80,7 @@ Combining these two equations together, a monster's XP can be calculated as foll
 With the basic equations defined, lets look at an example monster to better understand how they work. For this example, I'll be using the **air elemental** published in the _Basic Rules_, the stat block of which is shown below.
 
 <center>
-{% include_relative calculating-monster-xp/air-elemental.html %}
+{% include_relative air-elemental.html %}
 </center>
 
 For defensive stats, the air elemental has 90 (12d10 + 24) HP and an AC of 15. Because the air elemental has resistances to multiple damage types - including bludgeoning, piercing, and slashing from nonmagical attacks - the DMG recommends multiplying its HP by 1.5 for an adjusted total of 135 HP. <!--Using these values, the DMG estimates a **defensive CR of 5** and Eqn. \eqref{eq:eHP} gives it **190.0 _eHP_**.-->
@@ -102,24 +103,24 @@ Not only does this method for calculating a monster's XP give us additional insi
 To check the accuracy of this approach, I applied Eqn. \eqref{eq:XP-full} to monsters with CRs of 1 or more, taken from official 5th edition source books. I used the same adjusted HP, AC, DPR, and AB values I used previously in [Calculating Monster CR]({{ site.data.page-links.calculating-monster-cr.path }}). A comparison of the calculated XP values and listed XP values is shown in Fig. <a href="#fig:calc-xp-vs-xp-log-log" class="fig-ref">1</a> below.
 
 <figure id="fig:calc-xp-vs-xp-log-log">
-    {% include_relative calculating-monster-xp/fig-calc-xp-vs-xp-log-log-small.html %}
-    {% include_relative calculating-monster-xp/fig-calc-xp-vs-xp-log-log-large.html %}
+    {% include_relative fig-calc-xp-vs-xp-log-log-small.html %}
+    {% include_relative fig-calc-xp-vs-xp-log-log-large.html %}
     <figcaption>Figure 1: Calculated XP mean (line) and 60% confidence interval (shaded region) vs listed XP.</figcaption>
 </figure>
 
 The general trend shows a strong correlation between the two, however, there are some small differences. Namely, that this method tends to underestimate monster XP at low CRs and slightly overestimates it at high CRs.
 
 <figure id="fig:xp-cr-vs-cr">
-    {% include_relative calculating-monster-xp/fig-xp-cr-vs-cr-small.html %}
-    {% include_relative calculating-monster-xp/fig-xp-cr-vs-cr-large.html %}
+    {% include_relative fig-xp-cr-vs-cr-small.html %}
+    {% include_relative fig-xp-cr-vs-cr-large.html %}
     <figcaption>Figure 2: Calculated CR mean and 60% confidence interval vs listed CR.</figcaption>
 </figure>
 
 Next, I converted the calculated XP values to their equivalent CR for each monster. As Fig. <a href="#fig:xp-cr-vs-cr" class="fig-ref">2</a> illustrates, the CRs calculated using this method are generally in good agreement with the CRs listed in the monsters' stat blocks, with the vast majority of monsters having a calculated CR within +/- 1 of their listed value. 
 
 <figure id="fig:ecr-dmg-cr-delta-vs-cr">
-    {% include_relative calculating-monster-xp/fig-ecr-dmg-cr-delta-vs-cr-small.html %}
-    {% include_relative calculating-monster-xp/fig-ecr-dmg-cr-delta-vs-cr-large.html %}
+    {% include_relative fig-ecr-dmg-cr-delta-vs-cr-small.html %}
+    {% include_relative fig-ecr-dmg-cr-delta-vs-cr-large.html %}
     <figcaption>Figure 3: Shows the difference between the calculated CR and the listed CR as a function of CR for both calculated XP and CR calculated using the method given in the DMG.</figcaption>
 </figure>
 
