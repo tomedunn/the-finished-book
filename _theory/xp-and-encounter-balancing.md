@@ -313,7 +313,7 @@ where
 \end{equation}
 is the total weighted XP of the NPCs or PCs in the encounter.
 
-At this point, Eqn. \eqref{eq:encounter-multiplier-weighted} probably looks like an incomprehensible mess, and it definitely is, but things can be simplified considerably by making some key assumptions about how the PCs and NPCs choose to engage each other. This is a complex topic that requires much more time and consideration that I can easily fit into this post. For a full detailed discussion of the encounter multiplier, see [Calculating the Encounter Multiplier: part 1]({{ site.data.page-links.encounter-multiplier-p1 }}).
+At this point, Eqn. \eqref{eq:encounter-multiplier-weighted} probably looks like an incomprehensible mess, and it definitely is, but things can be simplified considerably by making some key assumptions about how the PCs and NPCs choose to engage each other. This is a complex topic that requires much more time and consideration that I can easily fit into this post. For a full detailed discussion of the encounter multiplier, see [Calculating the Encounter Multiplier: part 1]({{ site.data.page-links.encounter-multiplier-p1.path }}).
 
 # Conclusion
 
