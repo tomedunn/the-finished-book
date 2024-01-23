@@ -272,13 +272,13 @@ compress_html:
 collections:
   classes:
     output: true
-    permalink: /:collection/:title/
+    permalink: /:collection/:path/
   monsters:
     output: true
-    permalink: /:collection/:title/
+    permalink: /:collection/:path/
   theory:
     output: true
-    permalink: /:collection/:title/
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
