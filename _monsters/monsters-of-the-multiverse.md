@@ -17,18 +17,18 @@ In May of 2022, Wizards of the Coast released _Mordenkainen Presents: Monsters o
 
 These changes took several forms, including subtle formatting improvements. However, in this post I'll be focusing on the changes that impacted monster CRs, such as changes to their damage per round, hit points, attack bonuses, and armor class to name a few. 
 
-Just as in my previous post looking at the CR accuracy of [early legendary monsters]({{ site.url }}{{ site.baseurl }}{% link _monsters/early-legendary-monsters.md %}), for this analysis I'll be using calculated XP values instead of CR when evaluating these changes. 
+Just as in my previous post looking at the CR accuracy of [early legendary monsters]({{ site.data.page-links.early-legendary-monsters.path }}), for this analysis I'll be using calculated XP values instead of CR when evaluating these changes. 
 
 
 # Calculating XP
-As I've covered previously (see [Calculating Monster XP]({{ site.url }}{{ site.baseurl }}{% link _monsters/calculating-monster-xp.md %}#calculating-xp)), a monster's XP value can be calculated directly from their offensive and defensive stats in the following way,
+As I've covered previously (see [Calculating Monster XP]({{ site.data.page-links.calculating-monster-xp.path }}#calculating-xp)), a monster's XP value can be calculated directly from their offensive and defensive stats in the following way,
 \begin{equation}
     \label{eq:XP-simple}
     \XP = \frac{1}{4} \eHP \cdot \eDPR\,,
 \end{equation}
 where $$\eHP\,$$ is the monster's effective hit points and $$\eDPR\,$$ is their effective damage per round. 
 
-If you're interested in the details of how these are calculated, or where this all comes from, you can read more about it [here]({{ site.url }}{{ site.baseurl }}{% link _theory/xp-and-encounter-balancing.md %}), but for our purposes you can simply think of $$\eHP\,$$ as how much defensive toughness a monster has, and $$\eDPR\,$$ as how much offensive power it has.
+If you're interested in the details of how these are calculated, or where this all comes from, you can read more about it [here]({{ site.data.page-links.xp-and-encounter-balancing.path }}), but for our purposes you can simply think of $$\eHP\,$$ as how much defensive toughness a monster has, and $$\eDPR\,$$ as how much offensive power it has.
 
 Looking at monsters in this way has several advantages. Not only does it allow for a more nuanced measure of how strong a monster is in combat, it also gives a much more direct measure of how changes to a monster's defensive and offensive stats impact their overall combat strength, and insights into how to rebalance monsters that aren't hitting their listed CR.
 
@@ -78,7 +78,7 @@ For monsters CR 6 and above, the change in XP for republished monsters closely f
     \frac{\XP^{\,\prime}}{\XP} = \frac{\XP_{\CR}}{\XP}\,.
 \end{equation}
 
-For monsters CR 5 and below, while some follow this trend, the majority fall a ways below it. Given my previous findings, that low CR monsters tend to be [weaker than expected]({{ site.url }}{{ site.baseurl }}{% link _monsters/calculating-monster-xp.md %}), it is likely that this trend reflects a similar correction but to a lower XP target than what's associated with their CR.
+For monsters CR 5 and below, while some follow this trend, the majority fall a ways below it. Given my previous findings, that low CR monsters tend to be [weaker than expected]({{ site.data.page-links.calculating-monster-xp.path }}), it is likely that this trend reflects a similar correction but to a lower XP target than what's associated with their CR.
 
 
 # Conclusion

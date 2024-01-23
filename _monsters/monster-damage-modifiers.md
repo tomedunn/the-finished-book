@@ -19,7 +19,7 @@ In 5th edition D&D, damage is broken up into several [damage types](https://www.
 
 If a monster is immune to a specific damage type, then any damage it takes of that type is reduced to zero. If they are resistant to a damage type, then any damage they take of that type is halved. And, if they are vulnerable to a damage type, damage they take of that type is doubled. Because each modifies the damage a monster ultimately takes, you can think of them collectively as damage modifiers.
 
-In this post, I look at how common each of these damage modifiers are, as well as how they impact the amount of damage monsters can be expected to take from each damage type, depending on the monster's challenge rating (CR) and monster type. You can find a summary of the dataset used for this analysis [here]({{ site.url }}{{ site.baseurl }}{% link _monsters/monster-dataset.md %}).
+In this post, I look at how common each of these damage modifiers are, as well as how they impact the amount of damage monsters can be expected to take from each damage type, depending on the monster's challenge rating (CR) and monster type. You can find a summary of the dataset used for this analysis [here]({{ site.data.page-links.monster-dataset.path }}).
 
 # Overview
 

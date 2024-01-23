@@ -19,11 +19,11 @@ When it comes to monsters, challenge rating (CR) is the metric most often used t
 
 If XP values are not arbitrary and are, in fact, proportional to a monster's total combat strength then that means we should be able to calculate a monster's XP value from their offensive and defensive stat, similarly to how the DMG uses those stats to calculate a monster's CR. Being able to calculate the XP for each monster individually would also provide us with a continuum of XP values to pull from when designing encounters, rather than the fixed XP values assigned to each CR.
 
-In this post, I review one such method for calculating monster XP (the only method I've come across, to be fair). I show how it compares to listed XP values for published monsters, and how it can be used to improve our understanding of modifying monsters and balancing encounters. You can find a summary of the dataset used for this analysis [here]({{ site.url }}{{ site.baseurl }}{% link _monsters/monster-dataset.md %}).
+In this post, I review one such method for calculating monster XP (the only method I've come across, to be fair). I show how it compares to listed XP values for published monsters, and how it can be used to improve our understanding of modifying monsters and balancing encounters. You can find a summary of the dataset used for this analysis [here]({{ site.data.page-links.monster-dataset.path }}).
 
 # Calculating XP
 
-The math behind this one is a bit complicated. For those interested in a full derivation, check out my post [XP and Encounter Balancing]({{ site.url }}{{ site.baseurl }}{% link _theory/xp-and-encounter-balancing.md %}). For the purposes of this analysis, though, I'll be skipping the derivation and focusing on the conclusions for calculating monster XP instead.
+The math behind this one is a bit complicated. For those interested in a full derivation, check out my post [XP and Encounter Balancing]({{ site.data.page-links.xp-and-encounter-balancing.path }}). For the purposes of this analysis, though, I'll be skipping the derivation and focusing on the conclusions for calculating monster XP instead.
 
 With that out of the way, XP in 5th edition is proportional to the product of a monster's effective hit points $$(\eHP\,)$$ and effective damage per round $$(\eDPR\,)$$, 
 \begin{equation}
@@ -99,7 +99,7 @@ Not only does this method for calculating a monster's XP give us additional insi
 
 ## Full Comparison
 
-To check the accuracy of this approach, I applied Eqn. \eqref{eq:XP-full} to monsters with CRs of 1 or more, taken from official 5th edition source books. I used the same adjusted HP, AC, DPR, and AB values I used previously in [Calculating Monster CR]({{ site.url }}{{ site.baseurl }}{% link _monsters/calculating-monster-cr.md %}). A comparison of the calculated XP values and listed XP values is shown in Fig. <a href="#fig:calc-xp-vs-xp-log-log" class="fig-ref">1</a> below.
+To check the accuracy of this approach, I applied Eqn. \eqref{eq:XP-full} to monsters with CRs of 1 or more, taken from official 5th edition source books. I used the same adjusted HP, AC, DPR, and AB values I used previously in [Calculating Monster CR]({{ site.data.page-links.calculating-monster-cr.path }}). A comparison of the calculated XP values and listed XP values is shown in Fig. <a href="#fig:calc-xp-vs-xp-log-log" class="fig-ref">1</a> below.
 
 <figure id="fig:calc-xp-vs-xp-log-log">
     {% include_relative calculating-monster-xp/fig-calc-xp-vs-xp-log-log-small.html %}
@@ -133,8 +133,8 @@ The DMG accounts for AC and AB is by adjusting the monster's defensive or offens
 In comparison, the method used for calculating XP assumes each +2 to AC (AB) is worth roughly 10% more HP (DPR). If the HP (DPR) of the new CR is less than 10% more than the previous CR's then the DMG's method will end up underestimating a monster's strength relative to what we get when calculating XP.
 
 <figure class="half" id="fig:hp-dpr-ratio-and-dmg-cr-delta-vs-cr">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-xp/hp-dpr-ratio-vs-cr.svg">
-    <img src="{{ site.url }}{{ site.baseurl }}/monsters/calculating-monster-xp/dmg-cr-delta-vs-cr.svg">
+    <img src="{{ site.data.page-links.calculating-monster-xp.path }}hp-dpr-ratio-vs-cr.svg">
+    <img src="{{ site.data.page-links.calculating-monster-xp.path }}dmg-cr-delta-vs-cr.svg">
     <figcaption>Figure 4: Shows (left) the ratio between the target HP and DPR at the given CR and the CR below it, and (right) the difference between CR values calculated from XP and those calculated using the DMG.</figcaption>
 </figure>
 

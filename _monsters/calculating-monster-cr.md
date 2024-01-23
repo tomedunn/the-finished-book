@@ -20,7 +20,7 @@ it also raises the question: how accurate are the CR calculations presented in t
 
 In this post, I aim to answer this question by taking a detailed look at how CRs for monsters in official 5th 
 edition products compare to those calculated using the method outlined in the DMG. You can find a summary of the 
-monster dataset used for this analysis [here]({{ site.url }}{{ site.baseurl }}{% link _monsters/monster-dataset.md %}).
+monster dataset used for this analysis [here]({{ site.data.page-links.monster-dataset.path }}).
 
 # Calculating CR
 
