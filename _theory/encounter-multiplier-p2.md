@@ -26,13 +26,13 @@ tags:
 
 # Introduction
 
-In [Calculating the Encounter Multiplier: part 1]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier-p1.md %}), I showed how the encounter multiplier depends on the number of enemy NPCs, as well as on the tactics used by the PCs. This gave way to a wide range of possible values the encounter multiplier could take, but it was only half of the picture.
+In [Calculating the Encounter Multiplier: part 1]({{ site.data.page-links.encounter-multiplier-p1.path }}), I showed how the encounter multiplier depends on the number of enemy NPCs, as well as on the tactics used by the PCs. This gave way to a wide range of possible values the encounter multiplier could take, but it was only half of the picture.
 
 In this post, I will be covering the other half of the encounter multiplier by looking at how the number of PCs affects it, as well as how the DM's strategy does while controlling the enemy NPCs.
 
 # Calculating the encounter multiplier
 
-From [XP and Encounter Balancing]({{ site.url }}{{ site.baseurl }}{% link _theory/xp-and-encounter-balancing.md %}), the general equation for calculating the encounter multiplier is
+From [XP and Encounter Balancing]({{ site.data.page-links.xp-and-encounter-balancing.path }}), the general equation for calculating the encounter multiplier is
 \begin{equation}
     \EM = \left( \frac{ \XPwt_{\NPCs} }{ \XPtot_{\NPCs} } \right) 
     \cdot \left( \frac{ 4\,\XPtot_{\PCs} }{ \XPwt_{\PCs} } \right) \,,
@@ -93,7 +93,7 @@ where $$\LV$$ is the PCs' level. When put into Eqn. \eqref{eq:encounter-multipli
     \label{eq:encounter-multiplier-short-identical}
 \end{align}
 
-It's worth pointing out here, that PCs of the same level generally aren't worth the same amount of XP (see [Player Character XP]({{ site.url }}{{ site.baseurl }}{% link _classes/xp-and-player-characters.md %})). However, for parties with a mix of martial and spellcasting PCs, they can still be treated as such when the risk of any PCs dying or being knocked unconscious is low.
+It's worth pointing out here, that PCs of the same level generally aren't worth the same amount of XP (see [Player Character XP]({{ site.data.page-links.xp-and-player-characters.path }})). However, for parties with a mix of martial and spellcasting PCs, they can still be treated as such when the risk of any PCs dying or being knocked unconscious is low.
 
 To verify that Eqn. \eqref{eq:encounter-multiplier-short-identical} is accurate, Fig. <a href="#fig:encounter-multiplier-vs-pcs" class="fig-ref">1</a> (below) plots the encounter multiplier against the number of PCs using the sensitivities from the [Encounter Multipliers](https://www.dndbeyond.com/sources/basic-rules/building-combat-encounters#EvaluatingEncounterDifficulty) table in chapter 13 of the _Basic Rules_, and using Eqn. \eqref{eq:encounter-multiplier-short-identical}, which is scaled up for the encounters shown with 7 and 15 NPCs, to account for the impact that multiple enemy NPCs have on the encounter multiplier.
 
@@ -111,13 +111,13 @@ In other words, given the sheer simplicity of how the DMG chooses to adjust the 
 
 For encounters with only one PC and one NPC there is no need to consider single or multi-target strategies, or make approximations. The total encounter XP is always equal to the individual XP for each side, i.e., $$\XPwt_{\PCs} = \XP_{\PC_1}$$ and $$\XPwt_{\NPCs} = \XP_{\NPC_1}$$. The encounter multiplier given by Eqn. \eqref{eq:encounter-multiplier-short} for these encounters is simply $$\EM = 4$$, which is nearly three times larger than the value of $$1.5$$ given by the DMG.
 
-Of course, one could argue that the factor of 4 in Eqn. \eqref{eq:encounter-multiplier-short-identical} might simply be incorrect, but given how well that same factor worked for [Calculating Monster XP]({{ site.url }}{{ site.baseurl }}{% link _monsters/calculating-monster-xp.md %}) this is unlikely to be the case. 
+Of course, one could argue that the factor of 4 in Eqn. \eqref{eq:encounter-multiplier-short-identical} might simply be incorrect, but given how well that same factor worked for [Calculating Monster XP]({{ site.data.page-links.calculating-monster-xp.path }}) this is unlikely to be the case. 
 
 # Single target strategies and difficult encounters
 
 The assumption that none of the PCs are defeated during an encounter works well for Easy and Medium difficulty encounters, but breaks down somewhat for Hard encounters, and more significantly for Deadly encounters, where the chance of the PCs being defeated is substantially higher. To account for this, lets looks at how Eqn. \eqref{eq:encounter-multiplier-short-simple} changes when the NPCs use a single target strategy and focus on defeating one only PC at a time.
 
-Taking the results from the "Single target strategies" section for PCs in [part 1]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier-p1.md %}) and applying it to NPCs gives us insight into the worse case scenario for the PCs, where the PCs are defeated one at a time until the NPCs defeat them.
+Taking the results from the "Single target strategies" section for PCs in [part 1]({{ site.data.page-links.encounter-multiplier-p1.path }}) and applying it to NPCs gives us insight into the worse case scenario for the PCs, where the PCs are defeated one at a time until the NPCs defeat them.
 
 The total encounter XP for the PCs under this scenario can be calculated by arranging the PCs in the order they are expected to be defeated in and applying the following weights,
 \begin{equation}

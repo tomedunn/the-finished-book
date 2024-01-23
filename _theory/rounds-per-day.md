@@ -37,11 +37,11 @@ To a simple approximation, the number of rounds a combat encounter takes can be 
     \rounds &= \frac{\eHP_{\NPC}}{\eDPR_{\PC}}\,. \label{eq:rounds-to-win-full-PCs}
 \end{align}
 
-For the purpose of this post, you can think of effective hit points and effective damage per round as just hit points and damage per round, but with armor class and attack bonuses factored in. That said, if you would like a more detailed understanding of what they are, see my earlier post [Effective HP and Damage]({{ site.url }}{{ site.baseurl }}{% link _theory/effective-hp-and-damage.md %}).
+For the purpose of this post, you can think of effective hit points and effective damage per round as just hit points and damage per round, but with armor class and attack bonuses factored in. That said, if you would like a more detailed understanding of what they are, see my earlier post [Effective HP and Damage]({{ site.data.page-links.effective-hp-and-damage.path }}).
 
 Equation \eqref{eq:rounds-to-win-full-PCs} makes intuitive sense, however, it's not especially helpful at the moment because our encounter difficulty thresholds are given in values of XP, rather than effective hit points. Thankfully, there is a simple conversion we can take advantage of.
 
-In my previous post, [XP and Encounter Balancing]({{ site.url }}{{ site.baseurl }}{% link _theory/xp-and-encounter-balancing.md %}), I showed that a monster's XP value can be calculated from the product of their effective hit points and effective damage per round,
+In my previous post, [XP and Encounter Balancing]({{ site.data.page-links.xp-and-encounter-balancing.path }}), I showed that a monster's XP value can be calculated from the product of their effective hit points and effective damage per round,
 
 \begin{align}
     \XP_{\NPC} &= \frac{1}{4}\eHP_{\NPC} \cdot \eDPR_{\NPC}\,. \label{eq:xp-npcs}

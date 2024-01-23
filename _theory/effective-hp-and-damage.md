@@ -140,7 +140,7 @@ where $$\eHP$$ is the defending creature's effective hit points and $$\eD$$ is t
 Here, I've chosen $$\AB_0 = 4$$ and $$\AC_0 = 12$$, which satisfy our requirement that $$\AC_0 = 8 + \AB_0$$.
 
 It's worth pointing out that while Eqns. \eqref{eq:effective-hit-points-attack} and \eqref{eq:effective-damage-attack} do satisfied equation \eqref{eq:uses-to-win-attack}, they're not the only possible solutions. I chose $$\AC_0 = 12$$ because it's one less than the target $$\AC$$ of $$13$$ for a CR 1 monster from the [Monster Statistics by Challenge Rating](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop\#MonsterStatisticsbyChallengeRating) table in chapter 9 of the DMG (p. 275), and $$\AB_0 = 4$$ to satisfy the requirement that
-$$\AC_0 = 8 + \AB_0$$. These, along with the factors of $$\sqrt{0.65}$$ in front of each equation, are particularly useful for calculating calculating creature XP values, as I discuss [here]({{ site.url }}{{ site.baseurl }}{% link _theory/xp-and-encounter-balancing.md %}).
+$$\AC_0 = 8 + \AB_0$$. These, along with the factors of $$\sqrt{0.65}$$ in front of each equation, are particularly useful for calculating calculating creature XP values, as I discuss [here]({{ site.data.page-links.xp-and-encounter-balancing.path }}).
 
 ## Simple saving throws
 
@@ -221,7 +221,7 @@ One important thing that these equations show is how saving throw bonuses should
 
 Figure <a href="#fig:monster-save-modifier-trends" class="fig-ref">1</a> (above) shows this relationship for published monsters (I've excluded saving throw proficiency bonuses here because the DMG has separate rules for how much they should be valued in terms of an adjusted $$\AC\,$$). The saving throw modifiers for monsters clearly show a similar trend to $$\AC - 14$$ for all abilities but Dexterity, which is reassuring, and the average across all saving throws matches the trend for $$\AC - 14$$ almost exactly!
 
-It's been well established that certain saving throws for monsters are weaker than others (see my earlier post [Monster Saving Throws]({{ site.url }}{{ site.baseurl }}{% link _monsters/monster-saving-throws.md %})). However, what hasn't been clear until now is whether the strong saving throws are overpowered or the weak saving throws are underpowered. 
+It's been well established that certain saving throws for monsters are weaker than others (see my earlier post [Monster Saving Throws]({{ site.data.page-links.monster-saving-throws.path }})). However, what hasn't been clear until now is whether the strong saving throws are overpowered or the weak saving throws are underpowered. 
 
 What Fig. <a href="#fig:monster-save-modifier-trends" class="fig-ref">1</a> shows is that, for monsters, Strength and Constitution modifiers are generally stronger than baseline, Wisdom and Charisma are on target, and Intelligence is slightly below baseline. Finally, monster Dexterity modifiers are on target at very low CRs and increasingly underpowered at CR increases.
 
@@ -265,7 +265,7 @@ and for saving throws,
 
 It should be noted, however, that while this works well for low CR creatures, at higher CRs this approach will introduce minor errors due to the exclusion of higher order terms in the approximation.
 
-Another small adjustment that some may find useful is to multiply all four of the above equations by $$\sqrt{0.65}$$. This removes the prefactor from Eqns. \eqref{eq:effective-hit-points-attack-approx} and \eqref{eq:effective-hit-points-save-approx}, and also removes the square root from Eqns. \eqref{eq:effective-damage-attack-approx} and \eqref{eq:effective-damage-save-approx}. As I mentioned before, the choice to split the factor of $$0.65$$ between the two terms was a stylistic one that proves useful when discussing how XP is calculated, which you can read about [here]({{ site.url }}{{ site.baseurl }}{% link _theory/xp-and-encounter-balancing.md %}).
+Another small adjustment that some may find useful is to multiply all four of the above equations by $$\sqrt{0.65}$$. This removes the prefactor from Eqns. \eqref{eq:effective-hit-points-attack-approx} and \eqref{eq:effective-hit-points-save-approx}, and also removes the square root from Eqns. \eqref{eq:effective-damage-attack-approx} and \eqref{eq:effective-damage-save-approx}. As I mentioned before, the choice to split the factor of $$0.65$$ between the two terms was a stylistic one that proves useful when discussing how XP is calculated, which you can read about [here]({{ site.data.page-links.xp-and-encounter-balancing.path }}).
 
 # Conclusion
 

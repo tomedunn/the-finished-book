@@ -67,7 +67,7 @@ Naively, we might try to convert a PC into an equivalent group of monsters by di
 \end{equation}
 but this won't give the correct result, and won't match the conversions given in _XGtE_. This is because of how monster XP values and the encounter multiplier were defined for the encounter building rules in the _Basic Rules_.
 
-In order for the encounter multiplier $$(\EM\,)$$ to have a value of 1 for encounters with a single monster against a party of four PCs, monster XP values had to be reduced by a factor of 4. This is why the equation for monster XP derived in [XP and Encounter Balancing]({{ site.url }}{{ site.baseurl }}{% link _theory/xp-and-encounter-balancing.md %}),
+In order for the encounter multiplier $$(\EM\,)$$ to have a value of 1 for encounters with a single monster against a party of four PCs, monster XP values had to be reduced by a factor of 4. This is why the equation for monster XP derived in [XP and Encounter Balancing]({{ site.data.page-links.xp-and-encounter-balancing.path }}),
 \begin{equation}
     \label{eq:XP-simple}
     \XP_{\NPC} = \frac{1}{4} \eHP \cdot \eDPR\,,

@@ -104,7 +104,7 @@ where $$\LV$$ is the monster's level and $$\XP_0$$ is the XP of a level 0 monste
 
 If we assume that Eqn. \eqref{eq:xp-exp} accurately represents how monsters scale in PF 2e then our extra scaling requirement is satisfied, but that's a rather big assumption. To check its validity, we need an independent way of calculating monster XP.
 
-Thankfully, we already have a way of calculating monster XP straight from a monster's stat block. In my previous post on [XP and encounter balancing]({{ site.url }}{{ site.baseurl }}{% link _theory/xp-and-encounter-balancing.md %}) in D&D 5e, I derived a [formula]({{ site.url }}{{ site.baseurl }}{% link _theory/xp-and-encounter-balancing.md %}#mjx-eqn-eq:experience-NPC-explicit) for calculating monster XP from the game's basic mechanics for dealing damage in combat,
+Thankfully, we already have a way of calculating monster XP straight from a monster's stat block. In my previous post on [XP and encounter balancing]({{ site.data.page-links.xp-and-encounter-balancing.path }}) in D&D 5e, I derived a [formula]({{ site.data.page-links.xp-and-encounter-balancing.path }}#mjx-eqn-eq:xp-npc-explicit) for calculating monster XP from the game's basic mechanics for dealing damage in combat,
 
 \begin{align}
     \XP  &\propto \HP \cdot \DPRhit \cdot 1.077^{\AC + \AB} \,. \label{eq:xp-dnd}
@@ -211,7 +211,7 @@ The correction needed to account for PF 2e's critical hit rules clearly opposes 
 
 This behavior isn't cause for concern. In fact, it's expected. Since the number of monsters per encounter at each relative monster level decreases along with the encounter difficulty, so too will the encounter multiplier while the critical hit multiplier remains the same. The effect this ultimately has on the PF 2e encounter building rules is that the difference between each encounter difficulty is actually larger that it appears based on the listed XP thresholds.
 
-The <a href="#tab:pf-adj-xp" class="fig-ref">Pathfinder Adjusted XP</a> table (below) shows how these adjusted XP thresholds compare with the XP of an Extreme encounter. What I find especially interesting, is that these new adjusted XP thresholds have ratios that are quite close to the ratios I calculated [previously]({{ site.url }}{{ site.baseurl }}{% link _classes/xp-and-player-characters.md %}#fig:encounter-xp-thresholds-vs-level) for D&D 5e's Easy, Medium, and Deadly encounter difficulties.
+The <a href="#tab:pf-adj-xp" class="fig-ref">Pathfinder Adjusted XP</a> table (below) shows how these adjusted XP thresholds compare with the XP of an Extreme encounter. What I find especially interesting, is that these new adjusted XP thresholds have ratios that are quite close to the ratios I calculated [previously]({{ site.data.page-links.xp-and-player-characters.path }}#fig:encounter-xp-thresholds-vs-level) for D&D 5e's Easy, Medium, and Deadly encounter difficulties.
 
 <div class="dataframe center" style="width:660px;">
 <h3 id="tab:pf-adj-xp">Pathfinder Adjusted XP</h3>
@@ -262,7 +262,7 @@ For area of effect damage, a quick comparison of damage dealing spells in PF 2e 
 
 These are both quite similar to what's found in D&D 5e which, in the "Creating a Spell" section from chapter 9 of the _Dungeon Master's Guide_, suggests a multi-target spell that does half damage on a successful save should deal roughly $$55\%$$ of the damage per target of a single target attack spell. 
 
-It's possible area of effect damage is simply more common in PF 2e classes. However, as I show [here]({{ site.url }}{{ site.baseurl }}{% link _theory/encounter-multiplier-p1.md %}), the encounter multiplier used in D&D 5e already assumes a rather high percent of the party's damage come from area of effect abilities when fighting large groups of monsters.
+It's possible area of effect damage is simply more common in PF 2e classes. However, as I show [here]({{ site.data.page-links.encounter-multiplier-p1.path }}), the encounter multiplier used in D&D 5e already assumes a rather high percent of the party's damage come from area of effect abilities when fighting large groups of monsters.
 -->
 
 
@@ -334,7 +334,7 @@ This difference means that monsters under the "standard" system increase in comb
 </table>
 </div>
 
-Now, the way attack rolls, saving throws, and damage work in PF 2e is generally very similar to the way they work in D&D 5e. If PF 2e's relative XP values are also derived from those basic mechanics, then the [XP formula]({{ site.url }}{{ site.baseurl }}{% link _theory/xp-and-encounter-balancing.md %}#mjx-eqn-eq:experience-NPC-explicit) I previously derived for D&D 5e should also work as a means of translating between PF 2e's "standard" and PWL XP values. 
+Now, the way attack rolls, saving throws, and damage work in PF 2e is generally very similar to the way they work in D&D 5e. If PF 2e's relative XP values are also derived from those basic mechanics, then the [XP formula]({{ site.data.page-links.xp-and-encounter-balancing.path }}#mjx-eqn-eq:experience-NPC-explicit) I previously derived for D&D 5e should also work as a means of translating between PF 2e's "standard" and PWL XP values. 
 
 Recall, for D&D 5e, I showed a monster's XP can be calculated using the following formula,
 
