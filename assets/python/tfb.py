@@ -49,6 +49,7 @@ FIG_CONFIG = {
     'showAxisDragHandles': False,
     'displaylogo': False,
     'displayModeBar': 'hover',
+    'doubleClick': 'reset',
     'modeBarButtonsToRemove': [
         'select2d',
         'lasso2d',
