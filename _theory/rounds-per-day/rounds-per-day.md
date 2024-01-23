@@ -1,6 +1,7 @@
 ---
 title: "Rounds of Combat Per Day"
 excerpt: "How many rounds should combat take? And how does encounter difficulty affect the number of rounds in a full adventuring day?"
+permalink: /:collection/:name/
 date: 2022-07-12
 last_modified_at: 2023-05-05
 tags:
@@ -50,8 +51,8 @@ In my previous post, [XP and Encounter Balancing]({{ site.data.page-links.xp-and
 Since $$\eHP_{\NPC}$$ and $$\eDPR_{\NPC}$$ tend to scale proportionally to one another, $$\eDPR_{\NPC}$$ can be removed from Eqn. \eqref{eq:xp-npcs} by replacing it with $$\eDPR_{\NPC} \simeq 0.2 \eHP_{\NPC}$$. Figure <a href="#fig:monster-edpr-ehp-ratio" class="fig-ref">1</a> (below) shows the justification for this approximation. However, it's worth noting that the factor of $$0.2$$ will drop out of the calculation later on, and isn't especially important to the derivation that follows.
 
 <figure id="fig:monster-edpr-ehp-ratio">
-    {% include_relative rounds-per-day/fig-monster-edpr-ehp-ratio-by-cr-small.html %}
-    {% include_relative rounds-per-day/fig-monster-edpr-ehp-ratio-by-cr-large.html %}
+    {% include_relative fig-monster-edpr-ehp-ratio-by-cr-small.html %}
+    {% include_relative fig-monster-edpr-ehp-ratio-by-cr-large.html %}
     <figcaption>Figure 1: Shows the average ratio of monster effective damage per round and effective hit points as a function of monster CR.</figcaption>
 </figure>
 
@@ -92,8 +93,8 @@ Since a monster's CR represents the level a party of four PCs should be in order
 The form of Eqn. \eqref{eq:rounds-to-win-xp-only-final} now allows us to calculate the expected duration for any encounter with only a single monster in it using that monster's XP value, $$\XP_{\NPC}$$, along with the Medium difficult XP threshold for the PCs' level, $$\XPM$$. Figure <a href="#fig:rounds-per-encounter" class="fig-ref">2</a> (below) plots the average number of rounds given by Eqn. \eqref{eq:rounds-to-win-xp-only-final} for each encounter difficulty. The average number of rounds per encounter for each difficulty and across all levels is listed in the <a href="#tab:rounds-summary" class="fig-ref">Summary</a> table in the conclusion to this post (below).
 
 <figure id="fig:rounds-per-encounter">
-    {% include_relative rounds-per-day/fig-rounds-per-encounter-by-level-small.html %}
-    {% include_relative rounds-per-day/fig-rounds-per-encounter-by-level-large.html %}
+    {% include_relative fig-rounds-per-encounter-by-level-small.html %}
+    {% include_relative fig-rounds-per-encounter-by-level-large.html %}
     <figcaption>Figure 2: Number rounds of combat predicted by Eqn. \eqref{eq:rounds-to-win-xp-only-final} for each encounter difficulty.</figcaption>
 </figure>
 
@@ -103,10 +104,10 @@ For a full adventuring day, the total number of rounds of combat can be calculat
 The results of this are shown in Fig. <a href="#fig:full-adventuring-day-by-level" class="fig-ref">3</a> (below). The average number of rounds per adventuring day for each difficulty is listed in the <a href="#tab:rounds-summary" class="fig-ref">Summary</a> table in the conclusion to this post (below).
 
 <figure class="half" id="fig:full-adventuring-day-by-level">
-    {% include_relative rounds-per-day/fig-encounters-per-full-adventuring-day-by-level-small.html %}
-    {% include_relative rounds-per-day/fig-encounters-per-full-adventuring-day-by-level-large.html %}
-    {% include_relative rounds-per-day/fig-rounds-per-full-adventuring-day-by-level-small.html %}
-    {% include_relative rounds-per-day/fig-rounds-per-full-adventuring-day-by-level-large.html %}
+    {% include_relative fig-encounters-per-full-adventuring-day-by-level-small.html %}
+    {% include_relative fig-encounters-per-full-adventuring-day-by-level-large.html %}
+    {% include_relative fig-rounds-per-full-adventuring-day-by-level-small.html %}
+    {% include_relative fig-rounds-per-full-adventuring-day-by-level-large.html %}
     <figcaption>Figure 3: Number of encounters and the number of rounds per full adventuring days for each encounter difficulty.</figcaption>
 </figure>
 
@@ -114,7 +115,7 @@ The results of this are shown in Fig. <a href="#fig:full-adventuring-day-by-leve
 The <a href="#tab:rounds-summary" class="fig-ref">Summary</a> table (below) averages the findings from the previous two sections across levels 1 through 20. As expected, the number of rounds per encounter increases for deadlier encounters. This trend towards longer encounters means that, while the number of encounters drops by 56% when increasing the average encounter difficulty from Medium to Deadly, the number of rounds only drops by 33%.
 
 #### Summary
-{% include_relative rounds-per-day/table-rounds-summary.html %}
+{% include_relative table-rounds-summary.html %}
 
 Before closing, it's worth mentioning again that the results shown here are only truly accurate for encounters with only a single monster. For encounters with more monster, additional approximations will need to be taken in order to account for things like abilities that damage multiple targets simultaneously. So, while these results are limit at the moment, they do server as a good first step towards a better understanding of how encounter design impact the number of rounds a combat encounter is likely to take.
 

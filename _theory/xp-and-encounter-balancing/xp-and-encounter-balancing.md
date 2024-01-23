@@ -1,6 +1,7 @@
 ---
 title: "XP and Encounter Balancing"
 excerpt: "A detailed explanation of where XP comes from and how encounter balancing works."
+permalink: /:collection/:name/
 date: 2022-1-27
 last_modified_at: 2022-4-18
 tags:
@@ -133,8 +134,8 @@ where $$N_{\NPC}$$ is the number of enemy NPCs in the encounter.
 Calculating $$\XPtot_{\thresh}$$ and evaluating Eqn. \eqref{eq:encounter-balance-inequality-dmg} for each $$\diff$$ to determine an encounter's difficulty is rather cumbersome. Thankfully, this process can be simplified to only a single calculation by noting that the XP thresholds at each level come in fixed ratios as shown in Fig. <a href="#fig:pc-xp-thresholds-vs-level" class="fig-ref">1</a> (below).
 
 <figure id="fig:pc-xp-thresholds-vs-level">
-    {% include_relative xp-and-encounter-balancing/fig-pc-xp-thresholds-vs-level-small.html %}
-    {% include_relative xp-and-encounter-balancing/fig-pc-xp-thresholds-vs-level-large.html %}
+    {% include_relative fig-pc-xp-thresholds-vs-level-small.html %}
+    {% include_relative fig-pc-xp-thresholds-vs-level-large.html %}
     <figcaption>Figure 1: Plots PC XP thresholds divided by the Easy difficulty XP threshold, taken from the <a href="https://www.dndbeyond.com/sources/basic-rules/building-combat-encounters#XPThresholdsbyCharacterLevel">XP Threshold by Character Level</a> table in chapter 13 of the <i>Basic Rules</i>. The average ratio for each threshold is 1.0 for Easy, 2.0 for Medium, 3.0 for Hard, and 4.5 for Deadly encounters.</figcaption>
 </figure>
 
@@ -252,8 +253,8 @@ This approximation loses accuracy as $$\AC + \AB$$ get significantly larger than
 To verify that these methods for calculating XP are accurate, Fig. <a href="#fig:effective-xp-ratio-vs-cr" class="fig-ref">2</a> (below) plots XP values calculated using Eqns. \eqref{eq:xp-npc-explicit} and \eqref{eq:experience-NPC-linear} for monsters with typical stats taken from [Monster Statistics by Challenge Rating](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#MonsterStatisticsbyChallengeRating) table in chapter 9 of the DMG.
 
 <figure id="fig:effective-xp-ratio-vs-cr">
-    {% include_relative xp-and-encounter-balancing/fig-effective-xp-ratio-vs-cr-small.html %}
-    {% include_relative xp-and-encounter-balancing/fig-effective-xp-ratio-vs-cr-large.html %}
+    {% include_relative fig-effective-xp-ratio-vs-cr-small.html %}
+    {% include_relative fig-effective-xp-ratio-vs-cr-large.html %}
     <figcaption>Figure 2: Plots XP values for typical monsters at each CR calculated using Eqn. \eqref{eq:xp-npc-explicit} (blue) and Eqn. \eqref{eq:experience-NPC-linear} (orange). Typical values for monster statistics were taken from the <a href="https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#MonsterStatisticsbyChallengeRating">Monster Statistics by Challenge Rating</a> table in chapter 9 of the DMG.</figcaption>
 </figure>
 
@@ -276,8 +277,8 @@ The diagonal terms in Eqn. \eqref{eq:effective-difficulty-xp}, when $$i = j$$, a
 To understand this better, consider the diagram in Fig. <a href="#fig:xp-encounter-diagram" class="fig-ref">3</a> (below), which gives a graphical representation of the right-hand side of Eqn. \eqref{eq:effective-difficulty-xp} for an encounter with three enemy NPCs.
 
 <figure id="fig:xp-encounter-diagram">
-    {% include_relative xp-and-encounter-balancing/fig-xp-encounter-diagram-small.html %}
-    {% include_relative xp-and-encounter-balancing/fig-xp-encounter-diagram-large.html %}
+    {% include_relative fig-xp-encounter-diagram-small.html %}
+    {% include_relative fig-xp-encounter-diagram-large.html %}
     <figcaption>Figure 3: Graphical representation of the RHS of Eqn. \eqref{eq:effective-difficulty-xp} for and encounter with three NPCs.</figcaption>
 </figure>
 

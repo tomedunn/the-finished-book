@@ -1,6 +1,7 @@
 ---
 title: "Calculating the Encounter Multiplier: part 1"
 excerpt: "A deep dive into the encounter multiplier and how it depends on the number of NPCs and PC strategies."
+permalink: /:collection/:name/
 date: 2022-2-21
 last_modified_at: 2022-9-8
 tags:

@@ -1,6 +1,7 @@
 ---
 title: "Calculating the Encounter Multiplier: part 2"
 excerpt: "A deep dive into the encounter multiplier and how it depends on the number of PCs and NPC strategies."
+permalink: /:collection/:name/
 date: 2022-03-14
 last_modified_at: 2023-07-05
 tags:
@@ -98,8 +99,8 @@ It's worth pointing out here, that PCs of the same level generally aren't worth 
 To verify that Eqn. \eqref{eq:encounter-multiplier-short-identical} is accurate, Fig. <a href="#fig:encounter-multiplier-vs-pcs" class="fig-ref">1</a> (below) plots the encounter multiplier against the number of PCs using the sensitivities from the [Encounter Multipliers](https://www.dndbeyond.com/sources/basic-rules/building-combat-encounters#EvaluatingEncounterDifficulty) table in chapter 13 of the _Basic Rules_, and using Eqn. \eqref{eq:encounter-multiplier-short-identical}, which is scaled up for the encounters shown with 7 and 15 NPCs, to account for the impact that multiple enemy NPCs have on the encounter multiplier.
 
 <figure id="fig:encounter-multiplier-vs-pcs">
-    {% include_relative encounter-multiplier-p2/fig-em-vs-pcs-small.html %}
-    {% include_relative encounter-multiplier-p2/fig-em-vs-pcs-large.html %}
+    {% include_relative fig-em-vs-pcs-small.html %}
+    {% include_relative fig-em-vs-pcs-large.html %}
     <figcaption>Figure 1: Encounter multiplier vs the number of PCs calculated using the <a href="https://www.dndbeyond.com/sources/basic-rules/building-combat-encounters#EvaluatingEncounterDifficulty">Encounter Multipliers</a> table in chapter 13 of the <i>Basic Rules</i> (solid lines) and with scaling using Eqn. \eqref{eq:encounter-multiplier-short-identical} (dashed lines).</figcaption>
 </figure>
 
@@ -132,8 +133,8 @@ The total encounter XP for the PCs under this scenario can be calculated by arra
 Figure <a href="#fig:xp-encounter-diagram-three-pcs-single-target" class="fig-ref">2</a> (below) provides a visual representation of Eqn. \eqref{eq:encounter-xp-pcs} using these weights for a party of three PCs.
 
 <figure id="fig:xp-encounter-diagram-three-pcs-single-target">
-    {% include_relative encounter-multiplier-p2/fig-xp-encounter-diagram-three-pcs-single-target-small.html %}
-    {% include_relative encounter-multiplier-p2/fig-xp-encounter-diagram-three-pcs-single-target-large.html %}
+    {% include_relative fig-xp-encounter-diagram-three-pcs-single-target-small.html %}
+    {% include_relative fig-xp-encounter-diagram-three-pcs-single-target-large.html %}
     <figcaption>Figure 2: PC encounter XP diagram for party with three identical PCs defeated in order. Blue regions represent the XP that contributes to the total encounter XP.</figcaption>
 </figure>
 
@@ -166,8 +167,8 @@ Taking the ratio of Eqn. \eqref{eq:encounter-multiplier-approx-single-target} an
 which tells us how much the encounter multiplier might increase by having the NPCs use a focused single target strategy. The results of Eqn. \eqref{eq:encounter-multiplier-approx-single-ratio} are plotted in Fig. <a href="#fig:single-target-em-ratio-vs-pcs" class="fig-ref">3</a> (below).
 
 <figure id="fig:single-target-em-ratio-vs-pcs">
-    {% include_relative encounter-multiplier-p2/fig-single-target-em-ratio-vs-pcs-small.html %}
-    {% include_relative encounter-multiplier-p2/fig-single-target-em-ratio-vs-pcs-large.html %}
+    {% include_relative fig-single-target-em-ratio-vs-pcs-small.html %}
+    {% include_relative fig-single-target-em-ratio-vs-pcs-large.html %}
     <figcaption>Figure 3: Plots the ratio between the encounter multipliers given by Eqn. \eqref{eq:encounter-multiplier-approx-single-target} and Eqn. \eqref{eq:encounter-multiplier-short-identical}.</figcaption>
 </figure>
 
@@ -189,8 +190,8 @@ For an encounter where the NPCs are able to use a focused single target strategy
 A visual representation of Eqn. \eqref{eq:encounter-xp-pcs} using this weighting is shown in Fig. <a href="#fig:xp-encounter-diagram-pcs-single-target-partial" class="fig-ref">4</a> (below) for a party of four PCs with $$n = 2$$.
 
 <figure id="fig:xp-encounter-diagram-pcs-single-target-partial">
-    {% include_relative encounter-multiplier-p2/fig-xp-encounter-diagram-pcs-single-target-partial-small.html %}
-    {% include_relative encounter-multiplier-p2/fig-xp-encounter-diagram-pcs-single-target-partial-large.html %}
+    {% include_relative fig-xp-encounter-diagram-pcs-single-target-partial-small.html %}
+    {% include_relative fig-xp-encounter-diagram-pcs-single-target-partial-large.html %}
     <figcaption>Figure 4: PC encounter XP diagram for party with four identical PCs where only two of the PCs are defeated during the encounter, PC 1 and PC 2. Blue regions represent the XP that contributes to the total encounter XP.</figcaption>
 </figure>
 
@@ -211,8 +212,8 @@ Note that in the limiting case where $$n = 0$$, Eqn. \eqref{eq:encounter-multipl
 To illustrate how the encounter difficulty changes as the number of PC deaths increases, Fig. <a href="#fig:single-target-em-ratio-vs-pcs-deaths" class="fig-ref">5</a> (below) plots the ratio between the encounter multipliers given by Eqn. \eqref{eq:encounter-multiplier-single-target-identical-general} and Eqn. \eqref{eq:encounter-multiplier-short-identical} for different party sizes.
 
 <figure id="fig:single-target-em-ratio-vs-pcs-deaths">
-    {% include_relative encounter-multiplier-p2/fig-single-target-em-ratio-vs-pcs-deaths-small.html %}
-    {% include_relative encounter-multiplier-p2/fig-single-target-em-ratio-vs-pcs-deaths-large.html %}
+    {% include_relative fig-single-target-em-ratio-vs-pcs-deaths-small.html %}
+    {% include_relative fig-single-target-em-ratio-vs-pcs-deaths-large.html %}
     <figcaption>Figure 5: Plots the ratio between the encounter multipliers given by Eqn. \eqref{eq:encounter-multiplier-single-target-identical-general} and Eqn. \eqref{eq:encounter-multiplier-short-identical} for different party sizes and number of PC deaths.</figcaption>
 </figure>
 

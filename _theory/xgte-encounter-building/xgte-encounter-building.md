@@ -1,6 +1,7 @@
 ---
 title: "Encounter Building in Xanathar's Guide to Everything"
 excerpt: "A comparison of the encounter building rules in XGtE and the DMG."
+permalink: /:collection/:name/
 date: 2023-4-18
 last_modified_at: 2023-4-19
 tags:
@@ -31,24 +32,24 @@ Building encounters with a single monster against a group of four or more PCs is
 We can shed some light on this by using the _Basic Rules_ encounter building rules to calculate the difficulty of the solo monster encounters provided in _XGtE_. The results of these calculations is shown in Fig. <a href="#fig:solo-monster-xp-ratios" class="fig-ref">1</a> (below), which puts the calculated XP values for these encounters right around the Hard XP threshold.
 
 <figure id="fig:solo-monster-xp-ratios">
-    {% include_relative xgte-encounter-building/fig-solo-monster-xp-ratios-small.html %}
-    {% include_relative xgte-encounter-building/fig-solo-monster-xp-ratios-large.html %}
+    {% include_relative fig-solo-monster-xp-ratios-small.html %}
+    {% include_relative fig-solo-monster-xp-ratios-large.html %}
     <figcaption>Figure 1: Plots XP values, relative to half the PC's daily XP budget, for encounters given by the <a href="https://www.dndbeyond.com/sources/xgte/dungeon-masters-tools#SoloMonsterChallengeRating">Solo Monster Challenge Rating</a> table in <em>XGtE</em>.</figcaption>
 </figure>
 
 For a more challenging encounter, the rules suggest increasing the monster's CR by 1-2. Figure <a href="#fig:solo-monster-xp-ratios-harder" class="fig-ref">2</a> (below) shows the calculated XP value for the case where each monster's CR is 2 higher. For level 3 parties and above, this puts the encounter difficulties close to the Deadly XP threshold, while for levels 1-2 parties, this puts the difficulty well above a Deadly encounter.
 
 <figure id="fig:solo-monster-xp-ratios-harder">
-    {% include_relative xgte-encounter-building/fig-solo-monster-xp-ratios-harder-small.html %}
-    {% include_relative xgte-encounter-building/fig-solo-monster-xp-ratios-harder-large.html %}
+    {% include_relative fig-solo-monster-xp-ratios-harder-small.html %}
+    {% include_relative fig-solo-monster-xp-ratios-harder-large.html %}
     <figcaption>Figure 2: Plots XP values, relative to half the PC's daily XP budget, for encounters given by the <a href="https://www.dndbeyond.com/sources/xgte/dungeon-masters-tools#SoloMonsterChallengeRating">Solo Monster Challenge Rating</a> table in <em>XGtE</em> where the CR for each monster is 2 higher than its listed value.</figcaption>
 </figure>
 
 For easier encounters, the rules suggest decreasing the monster's CR by 3 or more. Figure <a href="#fig:solo-monster-xp-ratios-easier" class="fig-ref">3</a> (below) shows the calculated XP value for the case where each monster's CR is 3 lower than the listed value. For levels 6-20, the calculated XP closely follows the Medium difficulty XP threshold. While for parties level 1-5 this will give encounters close to the Easy XP threshold or below.
 
 <figure id="fig:solo-monster-xp-ratios-easier">
-    {% include_relative xgte-encounter-building/fig-solo-monster-xp-ratios-easier-small.html %}
-    {% include_relative xgte-encounter-building/fig-solo-monster-xp-ratios-easier-large.html %}
+    {% include_relative fig-solo-monster-xp-ratios-easier-small.html %}
+    {% include_relative fig-solo-monster-xp-ratios-easier-large.html %}
     <figcaption>Figure 3: Plots XP values, relative to half the PC's daily XP budget, for encounters given by the <a href="https://www.dndbeyond.com/sources/xgte/dungeon-masters-tools#SoloMonsterChallengeRating">Solo Monster Challenge Rating</a> table in <em>XGtE</em> where the CR for each monster is 3 lower than its listed value.</figcaption>
 </figure>
 
@@ -90,16 +91,16 @@ While the rules don't explicitly say what difficulty they are built around (i.e.
 To test this, Fig. <a href="#fig:multi-monster-ratios" class="fig-ref">4</a> (below) compares the monster conversion ratios calculated from Eqn. \eqref{eq:n-npcs}, where $$\XP_{\thresh} = \XP_{\mathrm{Hard}}$$, with the values given in _XGtE_. The results follow the expected trend, and rounding to the nearest whole number ratio reproduces the tables in _XGtE_ almost exactly. This confirms that that multiple monster encounter building rules in _XGtE_ are also built around creating Hard encounters.
 
 <figure id="fig:multi-monster-ratios">
-    {% include_relative xgte-encounter-building/fig-multi-monster-ratios-small.html %}
-    {% include_relative xgte-encounter-building/fig-multi-monster-ratios-large.html %}
+    {% include_relative fig-multi-monster-ratios-small.html %}
+    {% include_relative fig-multi-monster-ratios-large.html %}
     <figcaption>Figure 4: Plots monster conversion ratios given by Eqn. \eqref{eq:n-npcs} with \(\XP_{\thresh} = \XP_{\mathrm{Hard}}\) against values given in the <a href="https://www.dndbeyond.com/sources/xgte/dungeon-masters-tools#MultipleMonsters1st5thLevel">Multiple Monsters</a> tables in <em>XGtE</em>. A ratio of 1:5 indicates 1 PC is balanced by 5 monsters, and a ratio of 2:1 indicates 2 PCs are balanced by 1 monster.</figcaption>
 </figure>
 
 The multiple monster encounter building rules also include guidelines for building encounters that are easier or harder than this default Hard difficulty. For easier encounters, they recommend treating the party as $$1/3$$ smaller, and for harder encounters treating the party as $$50\%$$ larger. This are fitting adjustments because, as Fig. <a href="#fig:xp-threshold-ratios" class="fig-ref">5</a> shows (below) the Medium XP threshold is generally $$1/3$$ smaller than the Hard XP threshold, and the Deadly XP threshold is generally $$50\%$$ higher than the Hard XP threshold. Meaning, these adjustments are designed to create Medium and Deadly encounters respectively.
 
 <figure id="fig:xp-threshold-ratios">
-    {% include_relative xgte-encounter-building/fig-xp-threshold-ratios-small.html %}
-    {% include_relative xgte-encounter-building/fig-xp-threshold-ratios-large.html %}
+    {% include_relative fig-xp-threshold-ratios-small.html %}
+    {% include_relative fig-xp-threshold-ratios-large.html %}
     <figcaption>Figure 5: Plots PC XP thresholds, relative to the Hard XP threshold, as a function of PC level.</figcaption>
 </figure>
 
@@ -112,8 +113,8 @@ From a theoretical perspective, they could have factored it into the conversion 
 To understand how the multiple monster rules in _XGtE_ get away with not including an $$\EM\,$$, lets look at how our re-centered $$\EM\,$$ compares to the one from the _Basic Rules_. As shown in Fig. <a href="fig:encounter-multiplier" class="fig-ref">6</a> (below), rescaling the $$\EM\,$$ to be centered around one monster per PC also flattens it's overall value across a wide range of encounter sizes.
 
 <figure id="fig:encounter-multiplier">
-    {% include_relative xgte-encounter-building/fig-encounter-multiplier-small.html %}
-    {% include_relative xgte-encounter-building/fig-encounter-multiplier-large.html %}
+    {% include_relative fig-encounter-multiplier-small.html %}
+    {% include_relative fig-encounter-multiplier-large.html %}
     <figcaption>Figure 6: Plots the encounter multiplier as a function of the number of monsters in an encounter for systems centered around "monsters per group" and "monsters per PC".</figcaption>
 </figure>
 

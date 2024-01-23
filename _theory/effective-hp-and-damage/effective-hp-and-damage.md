@@ -1,6 +1,7 @@
 ---
 title: "Effective HP and Damage"
 excerpt: "How to represent creature defensive and offensive strengths in effective terms that don't require calculating chances to hit or save against an enemy creature."
+permalink: /:collection/:name/
 date: 2022-1-17
 last_modified_at: 2023-3-4
 tags:
@@ -104,8 +105,8 @@ The form of Eqn. \eqref{eq:attack-damage-average-full} may seem odd at first gla
 As shown in Fig. <a href="#fig:attack-hit-probability-vs-level" class="fig-ref">1</a> (below), the average chance to hit with an attack against a level appropriate enemy is close to $$65\%$$ for both monsters and PCs. With this in mind, the term $$0.077\,(9 + \AB - \AC\,)$$ in Eqn. \eqref{eq:attack-damage-average-full} measures how much the attack's average damage deviates from that baseline.
 
 <figure id="fig:attack-hit-probability-vs-level">
-    {% include_relative effective-hp-and-damage/fig-attack-hit-probability-vs-level-small.html %}
-    {% include_relative effective-hp-and-damage/fig-attack-hit-probability-vs-level-large.html %}
+    {% include_relative fig-attack-hit-probability-vs-level-small.html %}
+    {% include_relative fig-attack-hit-probability-vs-level-large.html %}
     <figcaption>Figure 1: Shows the average chance to hit with an attack against a level appropriate target for monsters (blue) and PCs (orange). Monster \(\AB\) and \(AC\) values taken from chapter 9 of the DMG (p. 275). PCs were assumed to start with an attack modifier of +3 at 1st level that increases to +4 at 4th level and to +5 at 8th level, and \(\AC\) is averaged across all classes with minor armor improvements from purchasing better mundane gear, with no bonuses to their \(\AB\) or \(\AC\) from magic items.</figcaption>
 </figure>
 
@@ -169,8 +170,8 @@ where $$0.077 \equiv 1/13$$.
 Just as in the previous section for attacks, the form of Eqn. \eqref{eq:save-damage-average-none-full} was chosen to take advantage of the fact that the average chance for a level appropriate target to fail a saving throw is close to $$65\%$$, as shown in Fig. <a href="#fig:save-hit-probability-vs-level" class="fig-ref">2</a> (below).
 
 <figure id="fig:save-hit-probability-vs-level">
-    {% include_relative effective-hp-and-damage/fig-save-hit-probability-vs-level-small.html %}
-    {% include_relative effective-hp-and-damage/fig-save-hit-probability-vs-level-large.html %}
+    {% include_relative fig-save-hit-probability-vs-level-small.html %}
+    {% include_relative fig-save-hit-probability-vs-level-large.html %}
     <figcaption>Figure 2: Shows the average chance to hit with a saving throw against a level appropriate target for monsters (blue) and PCs (orange). Monster \(\DC\) values taken from chapter 9 of the DMG (p. 275) and \(\SB\) were averaged from published monsters. PCs were assumed to start with a save modifier of +3 at 1st level that increases to +4 at 4th level and to +5 at 8th level, and \(\SB\) is averaged across all classes and monsters, with no bonuses to their \(\DC\) or \(\SB\) from magic items.</figcaption>
 </figure>
 
@@ -214,8 +215,8 @@ Now that we've derived equations for effective hit points and effective damage, 
 One important thing that these equations show is how saving throw bonuses should scale in comparison to $$\AC$$. The [Monster Statistics by Challenge Rating](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop\#MonsterStatisticsbyChallengeRating) table in chapter 9 of the DMG (p. 275) lists suggested values for monster's $$\HP$$, $$\AC$$, and $$\DC$$ but it doesn't list one for $$\SB$$. However, if we compared Eqns. \eqref{eq:effective-hit-points-attack} and \eqref{eq:effective-hit-points-save} then it becomes clear that $$\SB$$ should scale as $$\AC - 14$$.
 
 <figure id="fig:monster-save-modifier-trends">
-    {% include_relative effective-hp-and-damage/fig-monster-save-modifier-vs-cr-small.html %}
-    {% include_relative effective-hp-and-damage/fig-monster-save-modifier-vs-cr-large.html %}
+    {% include_relative fig-monster-save-modifier-vs-cr-small.html %}
+    {% include_relative fig-monster-save-modifier-vs-cr-large.html %}
     <figcaption>Figure 1: Shows average saving throw modifiers (proficiency bonus not included) and armor class for monsters from official source books. Monster \(\AC\) values taken from the "Monster Statistics by Challenge Rating" table in chapter 9 of the DMG (p. 275). </figcaption>
 </figure>
 
