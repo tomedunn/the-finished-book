@@ -1,6 +1,7 @@
 ---
 title: "Baseline Player Character Stats"
 excerpt: "An analysis of how player character stats scale as they level up."
+permalink: /:collection/:name/
 date: 2023-08-25
 last_modified_at: 2023-08-27
 tags:
@@ -27,7 +28,7 @@ For a summary of each class's starting stats see the [Initial Ability Scores](#t
 
 <div class="dataframe center" style="width:100%;">
     <h3 id="tab:pc-baseline-ability-scores">Initial Ability Scores</h3>
-    {% include_relative baseline-player-character-stats/tab-pc-baseline-ability-scores.html %}
+    {% include_relative tab-pc-baseline-ability-scores.html %}
 </div>
 
 **Note.** These starting ability scores differ from those used in my posts on [player character XP]({{ site.data.page-links.xp-and-player-characters.path }}). I plan on unifying the two in the future, but for now this means there are slight inconsistencies in the results between the two.
@@ -39,16 +40,16 @@ For a summary of each class's starting stats see the [Initial Ability Scores](#t
 For player character attack bonus (AB), Fig. [1](#fig:ab-vs-level){: .fig-ref} (below) shows how each class changes as they level up. The bulk of the improvements come from increases to each class's proficiency bonus, which increases from $$+2$$ to $$+6$$, with additional contributions from improvements to their attack's ability score via Ability Score Improvement features, which increase from $$+3$$ to $$+5$$. Combined, most classes increased their AB by $$+6$$ by the time they reached level 20.
 
 <figure id="fig:ab-vs-level">
-    {% include_relative baseline-player-character-stats/fig-ab-vs-level-small.html %}
-    {% include_relative baseline-player-character-stats/fig-ab-vs-level-large.html %}
+    {% include_relative fig-ab-vs-level-small.html %}
+    {% include_relative fig-ab-vs-level-large.html %}
     <figcaption>Figure 1: Shows attack bonus for player characters at each level.</figcaption>
 </figure>
 
 The trends for AB are mirrored for most classes in saving throw difficulty class (DC) values, as shown in Fig. [2](#fig:dc-vs-level){: .fig-ref} (below). The classes that deviate from this the most are the monk, paladin, and ranger since their saving throw DCs rely on different ability scores than those used for their attack bonuses. Still, unless a player chooses to neglect improving these secondary stats, each will cover the same overall range as those other classes.
 
 <figure id="fig:dc-vs-level">
-    {% include_relative baseline-player-character-stats/fig-dc-vs-level-small.html %}
-    {% include_relative baseline-player-character-stats/fig-dc-vs-level-large.html %}
+    {% include_relative fig-dc-vs-level-small.html %}
+    {% include_relative fig-dc-vs-level-large.html %}
     <figcaption>Figure 2: Shows save difficulty class for player characters at each level. Barbarians, fighters, and rogues were excluded because they lack a default save DC stat in their base class.</figcaption>
 </figure>
 
@@ -64,8 +65,8 @@ When compared against the same trends for [monster offensive stats]({{ site.data
 Comparing Eqns. \eqref{eq:ab-approx} and \eqref{eq:dc-approx} against [monster defensive stats]({{site.data.page-links.baseline-monster-stats.path }}#conclusion), as shown in Fig. [3](#fig:hit-fail-probabilities){: .fig-ref} (below), the average probability of a player character's attack hitting a monster who's CR equals their level starts off close to $$60\%$$ and gradually increases to $$65\%$$, while the odds of such a monster failing a saving throw starts off at $$60\%$$ as well before steadily dropping down to around $$48\%$$ at level 20.
 
 <figure id="fig:hit-fail-probabilities">
-    {% include_relative baseline-player-character-stats/fig-hit-fail-probabilities-small.html %}
-    {% include_relative baseline-player-character-stats/fig-hit-fail-probabilities-large.html %}
+    {% include_relative fig-hit-fail-probabilities-small.html %}
+    {% include_relative fig-hit-fail-probabilities-large.html %}
     <figcaption>Figure 3: Shows the average probability that a player character's attack will hit a level appropriate monster, or that such a monster will fail a saving throw against the player character's save DC.</figcaption>
 </figure>
 
@@ -76,8 +77,8 @@ If we factor in bonuses to AB and DC from magic items as the player characters l
 The last offensive stat to consider is single target damage per round (DPR). These values, shown in Fig. [4](#fig:dpr-vs-level){: .fig-ref} (below), were taken from the simulations I ran previously for my post on [player character XP]({{ site.data.page-links.xp-and-player-characters.path }}), which looked at each base class's average performance across a full adventuring day made up of Medium encounters. 
 
 <figure id="fig:dpr-vs-level">
-    {% include_relative baseline-player-character-stats/fig-dpr-vs-level-small.html %}
-    {% include_relative baseline-player-character-stats/fig-dpr-vs-level-large.html %}
+    {% include_relative fig-dpr-vs-level-small.html %}
+    {% include_relative fig-dpr-vs-level-large.html %}
     <figcaption>Figure 4: Shows the average single target DPR for player characters at each level, assuming all attacks hit and all saving throws fail.</figcaption>
 </figure>
 
@@ -100,16 +101,16 @@ For player character armor class (AC), each class was given the armor in their s
 For the sorcerer and wizard, _mage armor_ was added at level 5, and a $$+2$$ to AC was added at level 11 to approximate the impact of the _shield_ spell. The resulting AC values for each class are shown in Fig. [5](#fig:ac-vs-level){: .fig-ref} (below).
 
 <figure id="fig:ac-vs-level">
-    {% include_relative baseline-player-character-stats/fig-ac-vs-level-small.html %}
-    {% include_relative baseline-player-character-stats/fig-ac-vs-level-large.html %}
+    {% include_relative fig-ac-vs-level-small.html %}
+    {% include_relative fig-ac-vs-level-large.html %}
     <figcaption>Figure 5: Shows armor class for player characters at each level.</figcaption>
 </figure>
 
 For saving throw bonuses (SB), the Evasion feature was estimated as a $$+6$$ to Dexterity saving throw for monks and rogues to reflect the damage reduction it provides, the Danger Sense feature for the barbarian was estimated as a $$+4$$ to Dexterity saving throws due to it granting advantage, and each use of Indomitable for the fighter was estimated as a $$+1/3$$ to all saving throws. The average SB across all ability scores for each class are shown in Fig. [6](#fig:sb-vs-level){: .fig-ref} (below).
 
 <figure id="fig:sb-vs-level">
-    {% include_relative baseline-player-character-stats/fig-sb-vs-level-small.html %}
-    {% include_relative baseline-player-character-stats/fig-sb-vs-level-large.html %}
+    {% include_relative fig-sb-vs-level-small.html %}
+    {% include_relative fig-sb-vs-level-large.html %}
     <figcaption>Figure 6: Shows the average saving throw bonus for player characters at each level.</figcaption>
 </figure>
 
@@ -124,8 +125,8 @@ The average trends for AC and SB can be approximated using the following formula
 When compared against monster AB and DC values, as shown in Fig. [7](#fig:hp-vs-level){: .fig-ref} (below), the probability of a player character being hit by an attack, or failing a saving throw, from a level appropriate monster show very different trends than those shown in Fig. [3](#fig:hit-fail-probabilities){: .fig-ref} for attacks and saves against monsters from player characters. The overall average for both is close to the assumed baseline value of $$65\%$$, but rather than staying fixed or decreasing, both increase steadily as the player characters level up.
 
 <figure id="fig:hp-vs-level">
-    {% include_relative baseline-player-character-stats/fig-defense-probabilities-vs-level-small.html %}
-    {% include_relative baseline-player-character-stats/fig-defense-probabilities-vs-level-large.html %}
+    {% include_relative fig-defense-probabilities-vs-level-small.html %}
+    {% include_relative fig-defense-probabilities-vs-level-large.html %}
     <figcaption>Figure 7: Shows average probability of a player character failing a saving throw or being hit by an attack from a level appropriate monster at each level.</figcaption>
 </figure>
 
@@ -133,8 +134,8 @@ If we factor in bonuses to AC from magic items as the player characters level up
 
 Lastly, for player character hit points, the barbarian's Rage feature was approximated as a $$50\%$$ increase in adjusted hit points when used, the monk's Empty Body feature was approximated as a $$100\%$$ increase in adjusted hit points for levels 18 and above, and the rogue's Uncanny Dodge feature was approximated as a $$20\%$$ increase in adjusted hit points for levels 5 and above. The resulting adjusted hit point values are shown in Fig. [8](#fig:adj-hp-vs-level){: .fig-ref} (below).
 <figure id="fig:adj-hp-vs-level">
-    {% include_relative baseline-player-character-stats/fig-adj-hp-vs-level-small.html %}
-    {% include_relative baseline-player-character-stats/fig-adj-hp-vs-level-large.html %}
+    {% include_relative fig-adj-hp-vs-level-small.html %}
+    {% include_relative fig-adj-hp-vs-level-large.html %}
     <figcaption>Figure 8: Shows average adjusted hit points for player characters at each level.</figcaption>
 </figure>
 
@@ -165,8 +166,8 @@ and for attack bonus, save DC, armor class, and average saving throw bonus using
 Before closing, there's one additional quantity I'd like to touch on, and that's how many rounds it should take for a party of four to defeat a single monster who's CR equals the party's level. This quantity, along with the number of rounds it should take the monster to defeat the party of four, is shown in Fig. [9](#fig:rounds-to-win){: .fig-ref} (below).
 
 <figure id="fig:rounds-to-win">
-    {% include_relative baseline-player-character-stats/fig-rounds-to-win-small.html %}
-    {% include_relative baseline-player-character-stats/fig-rounds-to-win-large.html %}
+    {% include_relative fig-rounds-to-win-small.html %}
+    {% include_relative fig-rounds-to-win-large.html %}
     <figcaption>Figure 9: Shows the typical number of rounds it takes a party of four to defeat a level appropriate monster or vice-versa.</figcaption>
 </figure>
 

@@ -1,6 +1,7 @@
 ---
 title: "Daily XP and Encounter Difficulty"
 excerpt: "Shows how much player character daily XP budgets change with average encounter difficulty."
+permalink: /:collection/:name/
 date: 2022-10-3
 last_modified_at: 2023-03-04
 tags:
@@ -22,14 +23,14 @@ Calculating the daily XP values for each class follows the same process I outlin
 
 <div class="dataframe center" style="width:660px;">
 <h3 id="tab:rounds-summary">Encounters and Rounds</h3>
-{% include_relative daily-xp-and-encounter-difficulty/table-rounds-summary.html %}
+{% include_relative table-rounds-summary.html %}
 </div>
 
 The results of these calculations, averaged across all classes, is shown in Fig. <a href="#fig:daily-xp-budgets-vs-level" class="fig-ref">1</a> (below). Unsurprisingly, as the average encounter difficulty goes up, so does the daily XP the PCs can handle. This is because the number of rounds per day decreases as the difficulty goes up, which allows many of the classes to deal higher average damage per round.
 
 <figure id="fig:daily-xp-budgets-vs-level">
-    {% include_relative daily-xp-and-encounter-difficulty/fig-full-daily-xp-vs-level-adventuring-days-large.html %}
-    {% include_relative daily-xp-and-encounter-difficulty/fig-full-daily-xp-vs-level-adventuring-days-small.html %}
+    {% include_relative fig-full-daily-xp-vs-level-adventuring-days-large.html %}
+    {% include_relative fig-full-daily-xp-vs-level-adventuring-days-small.html %}
     <figcaption>Figure 1: PC daily XP values for full adventuring days consisting of either Easy, Medium, Hard, or Deadly encounters.</figcaption>
 </figure>
 
@@ -37,8 +38,8 @@ What is perhaps a bit surprisingly, though, is that the difference between each 
 
 
 <figure id="fig:daily-xp-ratio-vs-level">
-    {% include_relative daily-xp-and-encounter-difficulty/fig-daily-xp-ratio-vs-level-large.html %}
-    {% include_relative daily-xp-and-encounter-difficulty/fig-daily-xp-ratio-vs-level-small.html %}
+    {% include_relative fig-daily-xp-ratio-vs-level-large.html %}
+    {% include_relative fig-daily-xp-ratio-vs-level-small.html %}
     <figcaption>Figure 2: PC daily XP values for full adventuring days consisting of either Easy, Medium, Hard, or Deadly encounters. Values are normalized to the Medium encounters values.</figcaption>
 </figure>
 
@@ -47,8 +48,8 @@ Figure <a href="#fig:daily-xp-ratio-vs-level" class="fig-ref">2</a> (above) repl
 To give a sense of where these changes in XP come from, Fig. <a href="#fig:edpr-vs-level" class="fig-ref">3</a> (below) shows how the average effective damage per round for each average encounter difficulty. The relative differences in effective damage per round match those for XP almost exactly. This makes sense, since the amount of damage each class can take is largely independent of the number of encounters they face. 
 
 <figure id="fig:edpr-vs-level">
-    {% include_relative daily-xp-and-encounter-difficulty/fig-full-daily-edpr-vs-level-adventuring-days-large.html %}
-    {% include_relative daily-xp-and-encounter-difficulty/fig-full-daily-edpr-vs-level-adventuring-days-small.html %}
+    {% include_relative fig-full-daily-edpr-vs-level-adventuring-days-large.html %}
+    {% include_relative fig-full-daily-edpr-vs-level-adventuring-days-small.html %}
     <figcaption>Figure 3: PC average effective damage per round for full adventuring days consisting of either Easy, Medium, Hard, or Deadly encounters.</figcaption>
 </figure>
 
@@ -57,8 +58,8 @@ To give a sense of where these changes in XP come from, Fig. <a href="#fig:edpr-
 We can take this a step further and look at how these hold up for each class as well. Figure <a href="#fig:class-daily-xp-ratio-vs-level" class="fig-ref">4</a> (below) shows how the daily XP for full adventuring days with Deadly encounters compares against one with Medium encounters for each class.
 
 <figure id="fig:class-daily-xp-ratio-vs-level">
-    {% include_relative daily-xp-and-encounter-difficulty/fig-class-daily-xp-ratio-vs-level-large.html %}
-    {% include_relative daily-xp-and-encounter-difficulty/fig-class-daily-xp-ratio-vs-level-small.html %}
+    {% include_relative fig-class-daily-xp-ratio-vs-level-large.html %}
+    {% include_relative fig-class-daily-xp-ratio-vs-level-small.html %}
     <figcaption>Figure 4: Daily XP values for each class for full adventuring days consisting of Deadly encounters. Values are normalized to the Medium encounters values. <i>Note: You can toggle individual lines on and off by clicking on them in the legend.</i></figcaption>
 </figure>
 

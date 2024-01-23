@@ -2,7 +2,8 @@
 title: "Player Character XP"
 excerpt: "Calculates encounter and adventuring day XPs for each class and compares them with XP thresholds and budgets in the DMG."
 #excerpt: "Have you ever wondered where the adventuring day XP budget values come from? In this post I discuss how XP values can be calculated for each of the classes in the PH, and show how those values stack up against the encounter difficulty XP thresholds and adventuring day XP budgets given in the DMG."
-date: 2022-9-3
+permalink: /:collection/:name/
+date: 2022-09-03
 last_modified_at: 2023-05-06
 tags:
   - analysis
@@ -81,8 +82,8 @@ For most PCs, their maximum hit points and the hit points restored by their hit 
 Right away, this has some interesting implications for what the various encounter difficulty thresholds are and how they are calculated. In [XP and Encounter Balancing](https://tomedunn.github.io/the-finished-book/theory/xp-and-encounter-balancing/#fig:pc-xp-thresholds-vs-level) I plotted these XP thresholds as ratios of the Easy encounter difficulty threshold, but as Fig. <a href="#fig:encounter-xp-thresholds-vs-level" class="fig-ref">1</a> shows (below), they also show up as set percentages of a PC's encounter XP budget (i.e., half their adventuring day budget).
 
 <figure id="fig:encounter-xp-thresholds-vs-level">
-    {% include_relative xp-and-player-characters/fig-encounter-xp-thresholds-vs-level-large.html %}
-    {% include_relative xp-and-player-characters/fig-encounter-xp-thresholds-vs-level-small.html %}
+    {% include_relative fig-encounter-xp-thresholds-vs-level-large.html %}
+    {% include_relative fig-encounter-xp-thresholds-vs-level-small.html %}
     <figcaption>Figure 1: PC encounter XP thresholds normalized to half their adventuring day XP budget (solid lines) and average normalized values (dashed lines).</figcaption>
 </figure>
 
@@ -117,8 +118,8 @@ The last simplification I'd like to mention here is that, whenever possible, I c
 The average calculated encounter XP across all classes for a full adventuring day consisting of Medium encounters in shown in Fig. <a href="#fig:encounter-xp-thresholds-vs-level" class="fig-ref">2</a> (below). As expected, the average encounter XP is close to half of the adventuring day XP budget from the DMG, and is generally a decent margin above the Deadly encounter XP threshold.
 
 <figure id="fig:encounter-xp-vs-level-medium-adventuring-days">
-    {% include_relative xp-and-player-characters/fig-half-daily-xp-vs-level-medium-adventuring-days-large.html %}
-    {% include_relative xp-and-player-characters/fig-half-daily-xp-vs-level-medium-adventuring-days-small.html %}
+    {% include_relative fig-half-daily-xp-vs-level-medium-adventuring-days-large.html %}
+    {% include_relative fig-half-daily-xp-vs-level-medium-adventuring-days-small.html %}
     <figcaption>Figure 2: Average PC encounter XP (red, circles) calculated using Eqn. \eqref{eq:XP-full} for a full adventuring days filled with Medium encounters and two short rests.</figcaption>
 </figure>
 
@@ -127,8 +128,8 @@ For levels 1 - 10, the calculated XP values are slightly lower than expected, wh
 The corresponding daily XP values are shown in Fig. <a href="#fig:daily-xp-vs-level-medium-adventuring-days" class="fig-ref">3</a> (below). As predicted, these values closely follow the adventuring day XP budgets from the DMG, and are nearly twice the average calculated encounter XP values.
 
 <figure id="fig:daily-xp-vs-level-medium-adventuring-days">
-    {% include_relative xp-and-player-characters/fig-full-daily-xp-vs-level-medium-adventuring-days-large.html %}
-    {% include_relative xp-and-player-characters/fig-full-daily-xp-vs-level-medium-adventuring-days-small.html %}
+    {% include_relative fig-full-daily-xp-vs-level-medium-adventuring-days-large.html %}
+    {% include_relative fig-full-daily-xp-vs-level-medium-adventuring-days-small.html %}
     <figcaption>Figure 3: Average PC daily XP (red, circles) calculated using Eqn. \eqref{eq:XP-full} for a full adventuring days filled with Medium encounters and two short rests.</figcaption>
 </figure>
 
@@ -139,8 +140,8 @@ These results, along with my previous results from [Calculating Monster XP]({{ s
 Breaking up the average encounter XP from the previous section by class, as shown in Fig. <a href="#fig:encounter-xp-thresholds-vs-level" class="fig-ref">4</a> (below), shows some unexpected and interesting results. While the average was indeed close to the expected value of half the adventuring day budget, only a few of the classes come close on their own.
 
 <figure id="fig:pcs-encounter-xp-vs-level-Medium-adventuring-days">
-    {% include_relative xp-and-player-characters/fig-pcs-encounter-xp-vs-level-medium-adventuring-days-large.html %}
-    {% include_relative xp-and-player-characters/fig-pcs-encounter-xp-vs-level-medium-adventuring-days-small.html %}
+    {% include_relative fig-pcs-encounter-xp-vs-level-medium-adventuring-days-large.html %}
+    {% include_relative fig-pcs-encounter-xp-vs-level-medium-adventuring-days-small.html %}
     <figcaption>Figure 4: Average encounter XP for each class for a full adventuring day consisting of Medium encounters and two short rests.</figcaption>
 </figure>
 
@@ -153,8 +154,8 @@ According to Eqn. \eqref{eq:XP-simple}, a PC's XP value comes from the product o
 This difference is made clear in Fig. <a href="#fig:pcs-encounter-ehp-vs-level-medium-adventuring-days" class="fig-ref">5</a> (below), which plots each class's average effective hit points used to calculate their encounter XP. Expect for a few exceptions, the ranking here matches those observed for XP in Fig. <a href="#fig:encounter-xp-thresholds-vs-level" class="fig-ref">4</a>.
 
 <figure id="fig:pcs-encounter-ehp-vs-level-medium-adventuring-days">
-    {% include_relative xp-and-player-characters/fig-pcs-encounter-ehp-vs-level-medium-adventuring-days-large.html %}
-    {% include_relative xp-and-player-characters/fig-pcs-encounter-ehp-vs-level-medium-adventuring-days-small.html %}
+    {% include_relative fig-pcs-encounter-ehp-vs-level-medium-adventuring-days-large.html %}
+    {% include_relative fig-pcs-encounter-ehp-vs-level-medium-adventuring-days-small.html %}
     <figcaption>Figure 5: Average encounter effective hit points for each class for a full adventuring day consisting of Medium encounters and two short rests.</figcaption>
 </figure>
 
@@ -165,8 +166,8 @@ For the barbarian, this growth comes from gaining additional uses of their Rage 
 For the monk, there is a small boost from Diamond Soul at level 14, which grants them proficiency in all saving throws (approximately a +4 to their effective AC), as well as a massive boost from Empty Body at level 18, which grants them resistance to nearly all damage but at the cost of dealing less damage.
 
 <figure id="fig:pcs-encounter-edpr-vs-level-medium-adventuring-days">
-    {% include_relative xp-and-player-characters/fig-pcs-encounter-edpr-vs-level-medium-adventuring-days-large.html %}
-    {% include_relative xp-and-player-characters/fig-pcs-encounter-edpr-vs-level-medium-adventuring-days-small.html %}
+    {% include_relative fig-pcs-encounter-edpr-vs-level-medium-adventuring-days-large.html %}
+    {% include_relative fig-pcs-encounter-edpr-vs-level-medium-adventuring-days-small.html %}
     <figcaption>Figure 6: Average encounter effective damage per round for each class for a full adventuring day consisting of Medium encounters and two short rests.</figcaption>
 </figure>
 

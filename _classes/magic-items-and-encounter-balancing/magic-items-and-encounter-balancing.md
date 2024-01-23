@@ -1,6 +1,7 @@
 ---
 title: "Magic Items and Encounter Balancing"
 excerpt: "How much do magic items change encounter balancing?"
+permalink: /:collection/:name/
 date: 2023-04-30
 last_modified_at: 2023-04-30
 tags:
@@ -34,7 +35,7 @@ These inputs are averaged across multiple encounters to get the PC's encounter X
 
 <div class="dataframe center" style="width:500px;">
     <h3 id="tab:xp-threshold-ratios">XP Thresholds</h3>
-    {% include_relative magic-items-and-encounter-balancing/tab-xp-threshold-ratios.html %}
+    {% include_relative tab-xp-threshold-ratios.html %}
 </div>
 
 Calculating a PC's adventuring day XP budget follows the same process as their encounter XP but $$\HP\,$$ also includes any out of combat healing available to the PC. Since most PCs can recover close to their maximum hit points by expending hit dice during short rest, their adventuring day XP budget is roughly twice their encounter XP.
@@ -78,8 +79,8 @@ For both of these types of magic item bonuses, the increase to a PC's encounter 
 To get a sense of how large the XP increase can be from these bonuses, Fig. [1](#fig:encounter-xp-generic-bonus){: .fig-ref} (below) plots this value for each class, as well as the average across all classes, from levels 1-20 using data from my previous post [Player Character XP]({{ site.data.page-links.xp-and-player-characters.path }}) for a full adventuring day made up of Medium difficulty encounters. 
 
 <figure id="fig:encounter-xp-generic-bonus">
-    {% include_relative magic-items-and-encounter-balancing/fig-encounter-xp-generic-bonus-small.html %}
-    {% include_relative magic-items-and-encounter-balancing/fig-encounter-xp-generic-bonus-large.html %}
+    {% include_relative fig-encounter-xp-generic-bonus-small.html %}
+    {% include_relative fig-encounter-xp-generic-bonus-large.html %}
     <figcaption>Figure 1: Shows the typical values of \((\AC + \AB - 2)^{-1}\) as a percent increase in encounter XP for PCs across a full adventuring day of Medium difficulty encounters.</figcaption>
 </figure>
 
@@ -142,8 +143,8 @@ This increase in $$\DPRhit$$ will, in turn, increase their encounter XP and dail
 PCs that get most of their damage directly from their weapons, like fighters, will benefit more than those that get most of their damage from spells or class features, like rogues or paladins. This relationship is illustrated in Fig. [2](#fig:encounter-xp-damage-bonus){: .fig-ref} (below) for the martial classes, calculated for a full adventuring day made up of Medium difficulty encounters.
 
 <figure id="fig:encounter-xp-damage-bonus">
-    {% include_relative magic-items-and-encounter-balancing/fig-encounter-xp-damage-bonus-small.html %}
-    {% include_relative magic-items-and-encounter-balancing/fig-encounter-xp-damage-bonus-large.html %}
+    {% include_relative fig-encounter-xp-damage-bonus-small.html %}
+    {% include_relative fig-encounter-xp-damage-bonus-large.html %}
     <figcaption>Figure 2: Shows the increase in encounter XP for PCs with a +1 magic weapon relative to their baseline XP with no magic items for a full adventuring day made up of Medium difficulty encounters.</figcaption>
 </figure>
 
@@ -163,7 +164,7 @@ With this in mind, the [Magic Item XP Bonus](#tab:magic-item-bonus){: .fig-ref} 
 
 <div class="dataframe center" style="width:660px;">
     <h3 id="tab:magic-item-bonus">Magic Item XP Bonus</h3>
-    {% include_relative magic-items-and-encounter-balancing/tab-bonus-summary.html %}
+    {% include_relative tab-bonus-summary.html %}
 </div>
 
 Using the encounter XP ratios for each of the encounter difficulties listed in the [XP Thresholds](#tab:xp-threshold-ratios){: .fig-ref} table earlier in this post, the Medium XP threshold is $$100\%$$ higher than the Easy XP threshold, the Hard XP threshold is $$50\%$$ higher than the Medium XP threshold, and the Deadly XP threshold is $$55\%$$ higher than the Hard XP threshold. 
@@ -171,8 +172,8 @@ Using the encounter XP ratios for each of the encounter difficulties listed in t
 In order for magic items to cause the encounter building rules in the DMG to underestimate encounter difficulties by a full category, they would have to increase the party's encounter XP by at least $$50\%$$. Given the XP bonuses listed in the [Magic Item XP Bonus](#tab:magic-item-bonus){: .fig-ref} table, this would be difficult to accomplish using only these standard magic items.
 
 <figure id="fig:encounter-xp-high-magic">
-    {% include_relative magic-items-and-encounter-balancing/fig-encounter-xp-high-magic-small.html %}
-    {% include_relative magic-items-and-encounter-balancing/fig-encounter-xp-high-magic-large.html %}
+    {% include_relative fig-encounter-xp-high-magic-small.html %}
+    {% include_relative fig-encounter-xp-high-magic-large.html %}
     <figcaption>Figure 3: Shows the percent increase in encounter XP for a PC following a high magic item progression over baseline, as described in the <a href="#tab:high-magic-progression" class="fig-ref">High Magic Progression</a> table for full adventuring days made up of Medium difficulty encounters.</figcaption>
 </figure>
 
@@ -181,7 +182,7 @@ This is illustrated in Fig. [3](#fig:encounter-xp-high-magic){: .fig-ref} (above
 
 <div class="dataframe center" style="width:750px;">
     <h3 id="tab:high-magic-progression">High Magic Progression</h3>
-    {% include_relative magic-items-and-encounter-balancing/tab-high-magic-progression.html %}
+    {% include_relative tab-high-magic-progression.html %}
 </div>
 
 While the fighter comes close to the $$50\%$$ encounter XP increase needed to misjudge encounter difficulties by a full category, the average is still quite a ways below it at around $$32\%$$. Of course, that doesn't mean these XP increases aren't worth accounting for.

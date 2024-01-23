@@ -1,6 +1,7 @@
 ---
 title: "Balancing Short Adventuring Days"
 excerpt: "How do XP thresholds change for adventuring days with only one or two encounters?"
+permalink: /:collection/:name/
 date: 2023-2-13
 last_modified_at: 2023-03-04
 tags:
@@ -40,8 +41,8 @@ For days like this, the PCs are free to use their strongest abilities all at onc
 To estimate how much more encounter XP each class can handle for such days, I calculated XP values for each class across five rounds of combat (i.e., the length of a typical Deadly encounter). The results of these calculations are shown in Fig. <a href="#fig:single-encounter-xp-vs-level" class="fig-ref">1</a> (below) relative to their average encounter XP for a full adventuring day with only Medium difficulty encounters.
 
 <figure id="fig:single-encounter-xp-vs-level">
-    {% include_relative short-adventuring-days/fig-single-encounter-xp-vs-level-deadly-small.html %}
-    {% include_relative short-adventuring-days/fig-single-encounter-xp-vs-level-deadly-large.html %}
+    {% include_relative fig-single-encounter-xp-vs-level-deadly-small.html %}
+    {% include_relative fig-single-encounter-xp-vs-level-deadly-large.html %}
     <figcaption>Figure 1: Ratio between an average PC's encounter XP for a single Deadly encounter adventuring day and their average encounter XP for a full adventuring day with only Medium encounters.</figcaption>
 </figure>
 
@@ -54,8 +55,8 @@ Barbarians and warlocks break these two general trends, but for entirely differe
 For most classes, this improvement in encounter XP comes from improvements in average effective damage per round. However, as shown in Fig. <a href="#fig:single-encounter-ehp-vs-level" class="fig-ref">2</a> (below), a few saw improvements in effective hit points as well.
 
 <figure id="fig:single-encounter-ehp-vs-level">
-    {% include_relative short-adventuring-days/fig-single-encounter-ehp-vs-level-deadly-small.html %}
-    {% include_relative short-adventuring-days/fig-single-encounter-ehp-vs-level-deadly-large.html %}
+    {% include_relative fig-single-encounter-ehp-vs-level-deadly-small.html %}
+    {% include_relative fig-single-encounter-ehp-vs-level-deadly-large.html %}
     <figcaption>Figure 2: Ratio between an average PC's encounter effective hit points for a single Deadly encounter adventuring day and their average  for a full adventuring day with only Medium encounters.</figcaption>
 </figure>
 
@@ -72,8 +73,8 @@ For adventuring days with two encounters, I'd like to focus on two examples. The
 For the adventuring day with two Deadly encounters and one short rest, Fig. <a href="#fig:two-deadly-encounter-xp-vs-level" class="fig-ref">3</a> (below) shows the average encounter XP for each class relative to a full adventuring day with only Medium encounters.
 
 <figure id="fig:two-deadly-encounter-xp-vs-level">
-    {% include_relative short-adventuring-days/fig-two-encounters-xp-vs-level-deadly-small.html %}
-    {% include_relative short-adventuring-days/fig-two-encounters-xp-vs-level-deadly-large.html %}
+    {% include_relative fig-two-encounters-xp-vs-level-deadly-small.html %}
+    {% include_relative fig-two-encounters-xp-vs-level-deadly-large.html %}
     <figcaption>Figure 3: Ratio between an average PC's encounter XP for adventuring days with two Deadly encounters and one short rests and their average encounter XP for a full adventuring day with only Medium encounters.</figcaption>
 </figure>
 
@@ -84,8 +85,8 @@ On average the **encounter XP for two Deadly encounters and one short rest incre
 For the adventuring day with two Hard encounters and no short rest, Fig. <a href="#fig:two-hard-encounter-xp-vs-level" class="fig-ref">4</a> (below) shows the average encounter XP for each class relative to a full adventuring day with only Medium encounters.
 
 <figure id="fig:two-hard-encounter-xp-vs-level">
-    {% include_relative short-adventuring-days/fig-two-encounters-xp-vs-level-hard-small.html %}
-    {% include_relative short-adventuring-days/fig-two-encounters-xp-vs-level-hard-large.html %}
+    {% include_relative fig-two-encounters-xp-vs-level-hard-small.html %}
+    {% include_relative fig-two-encounters-xp-vs-level-hard-large.html %}
     <figcaption>Figure 4: Ratio between an average PC's encounter XP for adventuring days with two Hard encounters and no short rests and their average encounter XP for a full adventuring day with only Medium encounters.</figcaption>
 </figure>
 
