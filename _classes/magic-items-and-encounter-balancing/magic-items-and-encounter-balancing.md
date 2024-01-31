@@ -3,7 +3,7 @@ title: "Magic Items and Encounter Balancing"
 excerpt: "How much do magic items change encounter balancing?"
 permalink: /:collection/:name/
 date: 2023-04-30
-last_modified_at: 2023-04-30
+last_modified_at: 2024-01-30
 tags:
   - analysis
   - adventuring day
@@ -27,7 +27,7 @@ For this analysis, I'll once again be calculating XP values for PCs using the me
          &= \HP \cdot \DPRhit \cdot \left(\frac{\AC + \AB - 2}{13}\right) \,, 
     \label{eq:XP-full-attacks}
 \end{align}
-where $$\HP$$ is the PC's maximum hit points, $$\AC\,$$ is their effective armor class (includes adjustments from class features that make the PC harder to damage), $$\DPRhit$$ is their average damage per round assuming all attacks hit, and $$\AB\,$$ is their effective attack bonus (includes adjustments from class features that make it easier for the PC to deal damaage).
+where $$\HP$$ is the PC's maximum hit points, $$\AC\,$$ is their effective armor class (includes adjustments from class features that make the PC harder to damage), $$\DPRhit$$ is their average damage per round assuming all attacks hit, and $$\AB\,$$ is their effective attack bonus (includes adjustments from class features that make it easier for the PC to deal damage).
 
 Equation \eqref{eq:XP-full-attacks} can also be expressed in terms of a PC's effective saving throw bonuses $$(\SB\,)$$ and effective save difficulty class $$(\DC\,)$$. However, since a PC's $$\DC\,$$ is generally equal to $$\AB + 8$$, and $$\SB\,$$ can generally be treated as $$\AC - 14$$ (see [effective HP and Damage]({{ site.data.page-links.effective-hp-and-damage.path }}#saving-throw-bonus-scaling)), their effects will produce identical outcomes to $$\AC\,$$ and $$\AB\,$$.
 
@@ -201,4 +201,4 @@ As a final comment on these findings, the fact that the XP increase from a $$+1$
 
 The fact that these XP increases get smaller at higher levels is the result of the specific XP formula used in this post. As I show [here]({{ site.data.page-links.xp-and-encounter-balancing.path }}), while this formulation matches XP values used by the D&D core rules quite well, it's based on a linear approximation to the more general XP formula derived from the game's combat mechanics. The result of this approximation is that XP values for monsters and PCs underestimate the impact of a creature having $$\AB\,$$, $$\AC\,$$, $$\DC\,$$, or $$\SB\,$$ values that are higher/lower than baseline relative to differences $$\HP\,$$ and $$\DPR\,$$.
 
-That's all I'll say on the topic for now, but I will be covering this in more detail in a future post.
+This topic is explored in more detail in [Magic Items and Encounter Balancing: part 2]({{ site.data.page-links.magic-items-and-encounter-balancing-p2.path }}).
