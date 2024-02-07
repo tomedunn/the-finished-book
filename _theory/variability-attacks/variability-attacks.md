@@ -3,7 +3,7 @@ title: "Variability: Attacks"
 excerpt: "How do we account for variability of attack rolls in D&D?"
 permalink: /:collection/:name/
 date: 2024-01-16
-last_modified_at: 2024-01-17
+last_modified_at: 2024-02-07
 tags:
   - theory
   - monsters
@@ -302,6 +302,6 @@ An example of how the $$\CV$$ decreases as the number of attacks increases is sh
 
 # Conclusion
 
-The variability that comes from attack rolls is dominated by the attack roll. This can be improved by increasing the attack's chance to hit, but even at extremely high chances to hit the variability of the attack roll dominates over that of the damage rolls. Therefore, the only practical way of reducing the overall variability from attacks is to increase the number of attacks, either over time or by splitting a given damage target across multiple attacks.
+The variability that comes from attacks is dominated by the attack roll. This can be improved by increasing the attack's chance to hit, but even at extremely high chances to hit the variability of the attack roll dominates over that of the damage rolls. Therefore, the only practical way of reducing the overall variability from attacks is to increase the number of attacks, either over time or by splitting a given damage target across multiple attacks.
 
 Since the number of attacks made, both by player characters and monsters, tends to increase as their levels and challenge ratings increase, this means that the damage from attacks in lower tiers of play is inherently more variable than it is in higher tiers of play. This is yet another factor that contributes to combat feeling deadlier and more volatile in lower tiers of play than in higher ones.
