@@ -3,14 +3,13 @@ title: "Variability: Attacks"
 excerpt: "How do we account for variability of attack rolls in D&D?"
 permalink: /:collection/:name/
 date: 2024-01-16
-last_modified_at: 2024-02-07
+last_modified_at: 2024-02-17
 tags:
   - theory
   - monsters
   - classes
   - variability
   - attacks
-
 ---
 
 <!--
@@ -38,7 +37,7 @@ todo:
 
 # Introduction
 
-Attacks and saving throws form the backbone of D&D's combat system. They are the primary way through which damage is dealt and conditions are applied. And, since both rely on dice rolls to determine their outcomes, they are also two of the most significant sources of variability, i.e., randomness, in the game as well. In this post, I look at one of these elements, attacks, and show how we can characterize the variability that comes from them.
+Attacks and saves form the backbone of D&D's combat system. They are the primary way through which damage is dealt and conditions are applied. And, since both rely on dice rolls to determine their outcomes, they are also two of the most significant sources of variability, i.e., randomness, in the game as well. In this post, I look at one of these elements, attacks, and show how we can characterize the variability that comes from them. For a similar treatment of saves, see [Variability: Saves]({{ site.data.page-links.variability-saves.path }}).
 
 # Attack rolls
 

@@ -78,6 +78,9 @@ variability-attacks:
 variability-damage-healing-rolls:
   path: /the-finished-book/theory/variability-damage-healing-rolls/
 
+variability-saves:
+  path: /the-finished-book/theory/variability-saves/
+
 xgte-encounter-building:
   path: /the-finished-book/theory/xgte-encounter-building/
 
