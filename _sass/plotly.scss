@@ -17,6 +17,7 @@ figure {
 
     .plotly-div-small {
         display: none;
+        aspect-ratio: 600/500;
     }
 
     @media only screen and (max-width: 600px) {
