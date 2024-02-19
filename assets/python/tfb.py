@@ -29,7 +29,7 @@ FIG_TEMPLATE = dict(
             zeroline=False,
         ),
         yaxis=dict(
-            automargin=False,
+            automargin=True,
             showline=True,
             linecolor='#444',
             linewidth=2,
