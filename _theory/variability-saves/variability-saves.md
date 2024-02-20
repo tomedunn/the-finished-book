@@ -172,9 +172,6 @@ Figure [4](#fig:save-cv){: .fig-ref} (below) shows the results of Eqn. \eqref{eq
 
 As expected from the results shown previously in Fig. [3](#fig:save-normalized-damage){: .fig-ref}, when $$m_{\save} = 0.5$$ the variability of the damage rolls contributes significantly to the overall variability across the full range of $$\rho_{\fail}$$. This means saves that deal half damage on a successful saving throw are more sensitive to the variability of their damage rolls. However, even for large levels of damage roll variability, the overall $$\CV$$ for saves with $$m_{\save} = 0.5$$ remain significantly smaller than it is for saves with $$m_{\save} = 0$$ that deal a fixed amount of damage.
 
-<!--
-Lastly, since $$\CV_{\fail}$$ tends to decrease as monster CR increases, this means the overall damage dealt by a monster from a single save is more likely to be close to the average as monster CR increases when $$m_{\save} = 0.5$$.
--->
 
 # Multiple targets
 
