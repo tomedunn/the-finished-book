@@ -3,7 +3,7 @@ title: "Effective HP and Damage"
 excerpt: "How to represent creature defensive and offensive strengths in effective terms that don't require calculating chances to hit or save against an enemy creature."
 permalink: /:collection/:name/
 date: 2022-01-17
-last_modified_at: 2024-04-30
+last_modified_at: 2024-05-01
 tags:
   - theory
   - xp
@@ -65,51 +65,28 @@ A common problem that pops up when trying to evaluate a creature’s defensive o
 
 For instance, if I want to calculate the average damage of an attack that has a +5 to hit and deals 10 damage, I also need to know the armor class of the creature being attacked. Once I have that armor class, the rest of the calculation is easy, but it would be great if there was a way calculating an effective damage for the attack using just the qualities of the attack.
 
-In this post, I show how such effective hit points and effective damage can be calculated for two simple cases: attacks that deal damage with no additional effects, and saves that deal damage with no additional effects. Clearly, there are more complicated abilities in the game than these, but solving these simple cases will help lay the ground-work for handing those more complicated abilities later on.
+In this post, I show how such effective hit points and effective damage can be calculated for any combination of attacks and saves that deal damage with no additional effects. Clearly, there are more complicated abilities in the game than these, but solving these simple cases will help lay the ground-work for handing those more complicated abilities later on.
 
 # Derivation
 
-In order for any effective hit points or effective damage formula to be practically useful they can't just be theoretical constructs, they also need to work for calculating real, measurable quantities. To ensure this, I'll be using the equation for one such measurable quantity as the basis of their derivation. Specifically, I'll be using the equation for calculating the average number of rounds it takes for an attacker to defeat a given enemy creature, 
+In order for any effective hit points or effective damage formula to be practically useful they can't just be theoretical constructs, they also need to be grounded in reality. They need to work for calculating real, measurable quantities. To ensure this, I'll be using the equation for one such measurable quantity as the basis of this derivation. Specifically, I'll be using the equation for calculating the average number of rounds $$(N_{\rounds})$$ it takes for an attacker to defeat a given enemy creature, 
 \begin{align}
     N_{\rounds} &= \frac{\HP}{\DPR_{\ave}}\,.
     \label{eq:rounds-to-win}
 \end{align}
 where $$\HP$$ is the defending creature's hit points, and $$\DPR_{\ave}$$ is the attacker's average damage per round.
 
-For attacks, $$\DPR_{\ave}$$ depends on both the targets armor class $$(\AC\,)$$ and the attacker's attack bonus $$(\AB\,)$$, and for saving throw effects it depends on the target's saving throw bonus $$(\SB\,)$$ and the attacker's save difficulty class $$(\DC\,)$$. In either case, the goal is to move all defensive terms to the numerator (top) and all offensive terms to the denominator (bottom). This means we want to rearrange things in the following way,
+For attacks, $$\DPR_{\ave}$$ depends on both the defender's armor class $$(\AC\,)$$ and the attacker's attack bonus $$(\AB\,)$$, and for saves it depends on the defender's saving throw bonus $$(\SB\,)$$ and the attacker's save difficulty class $$(\DC\,)$$. In either case, the goal is to move all defensive terms to the numerator (top), where they can be grouped with the defender's $$\HP$$, and all offensive terms to the denominator (bottom). This means we want to rearrange things in the following way,
 \begin{align}
     \frac{\HP}{\DPR_{\ave}(\AB, \AC, \DC, \SB\,)} \Rightarrow \frac{\eHP(\AC, \SB\,)}{\eDPR(\AB, \DC\,)}\,,
     \label{eq:separation-requirement}
 \end{align}
 where $$\eHP$$ is the target's effective hit points, and $$\eDPR$$ is the attackers effective damage per round.
 
-I've broken up this derivation into three parts. The first two look at how the average damage is calculated for [simple attacks](#simple-attacks) and [simple saves](#simple-saves), and how these equations can be "re-centered" about the game's baseline chance to deal damage. The third then takes these re-centered average damage equations and uses them, along with Eqn. \eqref{eq:rounds-to-win}, to derive formulas for a creature's [effective hit points and damage per round](#effective-hit-points-and-damage-per-round).
+I've broken up this derivation into three parts. The first two look at how the average damage is calculated for [simple attacks](#simple-attacks) and [simple saves](#simple-saves), and how these equations can be "re-centered" about the game's baseline chance to deal damage. The third then takes these re-centered average damage equations, generalizes them, and uses them, along with Eqn. \eqref{eq:rounds-to-win}, to derive formulas for a creature's [effective hit points and damage per round](#effective-hit-points-and-damage-per-round).
 
-<!--
-# Method
-
-In order for any effective hit points or effective damage formula to be practically useful they can't just be theoretical constructs, they also need to work for calculating real, measurable quantities. To ensure this, I'll be using the equation for one such measurable quantity as the basis of their derivation. Specifically, I'll be using the equation for calculating the average number of times a damaging ability needs to be used to defeat a given enemy creature, 
-\begin{align}
-    N &= \frac{\HP}{\Dave}\,.
-    \label{eq:uses-to-win}
-\end{align}
-where $$\HP$$ is the defending creature's hit points, and $$\Dave$$ is the ability's average damage per use.
-
-For attacks, $$\Dave$$ depends on both the targets armor class $$(\AC\,)$$ and the attacker's attack bonus $$(\AB\,)$$, and for saving throw effects it depends on the target's saving throw bonus $$(\SB\,)$$ and the attacker's save difficulty class $$(\DC\,)$$. In either case, the goal is to move all defensive terms to the numerator (top) and all offensive terms to the denominator (bottom). For attacks, this means we want to rearrange things in the following way,
-\begin{align}
-    N_\mathrm{attacks} = \frac{\HP}{\Dave(\AB, \AC\,)} \Rightarrow \frac{\eHP(\AC\,)}{\eD(\AB\,)}\,,
-\end{align}
-and for saving throw effects,
-\begin{align}
-    N_\mathrm{saves} = \frac{\HP}{\Dave(\DC, \SB\,)} \Rightarrow \frac{\eHP(\SB\,)}{\eD(\DC\,)}\,.
-\end{align}
--->
 
 ## Simple attacks
-
-<!--
-To start, we first need to establish how $$\Dave$$ is calculated for attacks. 
--->
 
 The average damage of an attack can be calculated as follows, 
 \begin{align}
@@ -139,20 +116,6 @@ If we plug Eqns. \eqref{eq:attack-hit-probability} and \eqref{eq:attack-crit-pro
 
 To progress further, we'll need to rearrange Eqn. \eqref{eq:attack-damage-average-full} to take advantage of the fact that, as shown in Fig. <a href="#fig:attack-hit-probability-vs-level" class="fig-ref">1</a> (below), the average chance to deal damage with an attack against a level appropriate enemy is close to $$65\%$$ for both monsters and PCs.
 
-<!--
-\begin{align}
-    \Dave &= \D_{\hit} \, 0.05 \left(22 + \AB - \AC\,\right) \nonumber \\\\ 
-          &= \D_{\hit} \, 0.05 \left(13 + \left(9 + \AB - \AC\,\right)\right)  \nonumber \\\\ 
-          &= \D_{\hit} \, 0.65 \, \left(1 + 0.077 \left(9 + \AB - \AC\,\right)\right)\,,
-    \label{eq:attack-damage-average-full}
-\end{align}
-where $$0.077 \equiv 1/13$$. 
-
-The form of Eqn. \eqref{eq:attack-damage-average-full} may seem odd at first glance, but it can be explained rather simply. 
-
-As shown in Fig. <a href="#fig:attack-hit-probability-vs-level" class="fig-ref">1</a> (below), the average chance to hit with an attack against a level appropriate enemy is close to $$65\%$$ for both monsters and PCs. With this in mind, the term $$0.077\,(9 + \AB - \AC\,)$$ in Eqn. \eqref{eq:attack-damage-average-full} measures how much the attack's average damage deviates from that baseline.
--->
-
 <figure id="fig:attack-hit-probability-vs-level">
     {% include_relative fig-attack-hit-probability-vs-level-small.html %}
     {% include_relative fig-attack-hit-probability-vs-level-large.html %}
@@ -164,47 +127,10 @@ We can do so by rewriting Eqn. \eqref{eq:attack-damage-average-full} in the foll
     \Dave = \D_{\hit} \, 0.65 \left[1 + \left(\frac{ 8 + \AB - \AC\, }{ 13 }\right)\right]\,.
     \label{eq:attack-damage-average-centered}
 \end{align}
-This centers the equation around the observed $$65\%$$ average and uses the term $$(8 + \AB - \AC\,)/13$$ to measure how much this particular attack deviates away from that average. What makes this form useful is that these deviations are typically small relative to the average.
+This centers the equation around the observed $$65\%$$ average and uses the term $$(8 + \AB - \AC\,)/13$$ to measure how much this particular attack deviates away from that average. What makes this form useful is that these deviations are typically small relative to the average. A quality we'll need to take advantage of later on.
 
 We'll come back to Eqn. \eqref{eq:attack-damage-average-centered} shortly, but before we progress any further, lets take a look at how the average damage for a save is calculated.
 
-<!--
-In this form, the term $$0.077\,(9 + \AB - \AC\,)$$ in Eqn. \eqref{eq:attack-damage-average-full} measures how much the attack's average damage deviates from that $$65\%$$ baseline chance for the attack to deal damage.
--->
-
-<!--
-The value of putting Eqn. \eqref{eq:attack-damage-average-full} in this form is that it allows us to take advantage of the following approximation, $$\left(1 + x\right)^n \approx 1 + n \cdot x$$ when $$x \ll 1$$, which turns Eqn. \eqref{eq:attack-damage-average-full} into
-\begin{align}
-    \Dave \approx 0.65 \, \D_{\hit} \, 1.077^{\,9 + \AB - \AC}\,,
-    \label{eq:attack-damage-average-exp}
-\end{align}
-where $$1.077 \equiv 14/13$$.
-
-Putting Eqn. \eqref{eq:attack-damage-average-exp} back into our test equation, Eqn. \eqref{eq:uses-to-win}, gives
-\begin{align}
-    N_\mathrm{attacks} &= \frac{\HP}{\Dave(\AB, \AC\,)} \nonumber \\\\\\
-      &\approx \frac{\HP}{0.65 \, \D_{\hit} \, 1.077^{\,9 + \AB - \AC}}\,,
-    \label{eq:uses-to-win-attack}
-\end{align}
-and, since $$x^{a + b} = x^a\,x^b$$, we can finally move $$\AC$$ into the numerator,
-\begin{align}
-    N_\mathrm{attacks} &\approx \frac{\HP \, 1.077^{\AC - \AC_0}}{0.65 \, \D_{\hit} \, 1.077^{\AB + 1 - \AB_0}}\,.
-\end{align}
-Here, $$\AC_0$$ and $$\AB_0$$ are baseline values for a creature's armor class and attack bonus respectively, and the extra $$+1$$ in the exponent of the denominator (bottom) is there to separate out the extra damage dealt by critical hit. We have a lot of flexibility in what values we choose for these baselines, so long as they satisfy $$\AC_0 = 8 + \AB_0$$.
-
-At this point our task is essentially done. We've successfully moved all the stats of the defending creature to the numerator, $$\HP$$ and $$\AC$$, and all the stats of the attacking creature in the denominator, $$\Dave$$ and $$\AB$$. The average number of attacks it takes the attacker to win can now be written in the form
-\begin{align}
-    N_\mathrm{attacks} \approx \frac{ \eHP \left(\HP,\AC\,\right)}{\eD \left(\D_{\hit}, \AB\,\right)}\,,
-\end{align}
-where $$\eHP$$ is the defending creature's effective hit points and $$\eD$$ is the attacking creature's effective damage, which are given by
-\begin{align}
-    \eHP_\mathrm{a} &= \frac{1}{\sqrt{0.65}} \, \HP \, 1.077^{\AC - 12}\,, \label{eq:effective-hit-points-attack} \\\\ 
-    \eD_\mathrm{a}  &= \sqrt{0.65} \, \D_{\hit} \, 1.077^{\AB - 3}\,. \label{eq:effective-damage-attack}
-\end{align}
-Here, I've chosen $$\AB_0 = 4$$ and $$\AC_0 = 12$$, which satisfy our requirement that $$\AC_0 = 8 + \AB_0$$.
-
-It's worth pointing out that while Eqns. \eqref{eq:effective-hit-points-attack} and \eqref{eq:effective-damage-attack} do satisfied equation \eqref{eq:uses-to-win-attack}, they're not the only possible solutions. I chose $$\AC_0 = 12$$ because it's one less than the target $$\AC$$ of $$13$$ for a CR 1 monster from the [Monster Statistics by Challenge Rating](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop\#MonsterStatisticsbyChallengeRating) table in chapter 9 of the DMG (p. 275), and $$\AB_0 = 4$$ to satisfy the requirement that $$\AC_0 = 8 + \AB_0$$. These, along with the factors of $$\sqrt{0.65}$$ in front of each equation, are particularly useful for calculating calculating creature XP values, as I discuss [here]({{ site.data.page-links.xp-and-encounter-balancing.path }}).
--->
 
 ## Simple saves
 
@@ -228,19 +154,6 @@ Assuming the save deals no damage on a successful saving throw, $$\D_{\save} = 0
 
 Just as in the previous section for attacks, in order to progress further we'll need to rearrange Eqn. \eqref{eq:save-damage-average-none-full} to take advantage of the fact that, as shown in Fig. <a href="#fig:save-hit-probability-vs-level" class="fig-ref">2</a> (below), the average chance of a level appropriate target failing a saving throw is close to $$65\%$$ for both monsters and PCs.
 
-<!--
-Assuming the effect deals no damage on a successful save, $$\D_{\save} = 0$$, then \eqref{eq:save-damage-average-abstract} simplifies to
-\begin{align}
-    \Dave &= \D_{\fail} \, 0.05 \left(\DC - \SB - 1\,\right) \nonumber \\\\ 
-          &= \D_{\fail} \, 0.05 \left(13 + \left(\DC - \SB - 14\,\right)\right) \nonumber \\\\ 
-          &= \D_{\fail} \, 0.65 \left(1 + 0.077 \left(\DC - \SB - 14\,\right)\right)\,,
-    \label{eq:save-damage-average-none-full}
-\end{align}
-where $$0.077 \equiv 1/13$$.
-
-Just as in the previous section for attacks, the form of Eqn. \eqref{eq:save-damage-average-none-full} was chosen to take advantage of the fact that the average chance for a level appropriate target to fail a saving throw is close to $$65\%$$, as shown in Fig. <a href="#fig:save-hit-probability-vs-level" class="fig-ref">2</a> (below).
--->
-
 <figure id="fig:save-hit-probability-vs-level">
     {% include_relative fig-save-hit-probability-vs-level-small.html %}
     {% include_relative fig-save-hit-probability-vs-level-large.html %}
@@ -252,56 +165,21 @@ This can be done in a similar fashion to what we did for attacks by rewriting Eq
     \Dave &= \D_{\fail} \, 0.65 \left[1 + \left(\frac{ \DC - \SB - 14 }{ 13 }\right)\right] ,
     \label{eq:save-damage-average-none-centered}
 \end{align}
-where now the term $$\left(\DC - \SB - 14\right)/13$$ represents a small deviation away from that average.
+where now the term $$\left(\DC - \SB - 14\right)/13$$ represents a small deviation away from that average. We'll take advantage of this property in the section that follows.
 
 With both of our average damage equations written in this way, we're ready to move on to the general case and deriving our equations for $$\eHP$$ and $$\eDPR$$.
 
-<!--
-And, since $$0.077 \ll 1$$ we can once again use the approximation $$\left(1 + x\right)^n \approx 1 + n \cdot x$$ when $$x \ll 1$$, to arrive at the equation's final form,
-\begin{align}
-    \Dave &\approx 0.65 \, \D_{\fail} \, 1.077^{\DC - \SB - 14}\,,
-    \label{eq:save-damage-average-none-exp}
-\end{align}
-where $$1.077 \equiv 14/13$$.
-
-Calculating the number of times a creature needs to use their saving throw effect in order to defeat another creature gives
-\begin{align}
-    N \approx \frac{\HP \, 1.077^{\SB - \SB_0}}{ 0.65 \, \D_{\fail} \, 1.077^{\DC - \DC_0}}\,,
-    \label{eq:saves-to-win-none}
-\end{align}
-where $$\SB_0$$ and $$\DC_0$$ are baseline values for a creature's saving throw bonus and ability difficulty class respectively, that must satisfy the relationship $$\DC_0 = \SB_0 + 14$$.
-
-This can also be expressed in terms of $$\eHP$$ and $$\eD$$ using the following definitions,
-\begin{align}
-    \eHP_\mathrm{s} &= \frac{1}{\sqrt{0.65}} \, \HP  \, {1.077}^{\SB + 2}\,, \label{eq:effective-hit-points-save} \\\\ 
-    \eD_\mathrm{s}  &= \sqrt{0.65} \, \D_{\fail} \, {1.077}^{\DC - 12}\,. \label{eq:effective-damage-save}
-\end{align}
-
-Just like in the previous section with attacks, I chose $$\DC_0 = 12$$ because it's one less than the target $$\DC$$ for a CR 1 monster listed in the [Monster Statistics by Challenge Rating](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop\#MonsterStatisticsbyChallengeRating) table in chapter 9 of the DMG (p. 275), and $$\SB_0 = -2$$ because it satisfies the requirement that $$\DC_0 = \SB_0 + 14$$. 
-
-It's worth noting that the DMG doesn't actually list recommended values for $$\SB$$, which is an unfortunate oversight, but the suggested minimum value presented here of $$\SB_0 = -2$$ is significant, as I'll discuss later on in this post.
--->
 
 ## Effective hit points and damage per round
 
 With the results of the previous two sections under our belts, lets move on to the task at hand of calculating $$\DPR_{\ave}$$ for our attacker.
 
-<!--
-\begin{align}
-    \DPR_{\ave} =& 
-        \sum_{i=1}^{N_{\attack}} \D_{\ave} \left( \D_{i}, \AB_{i}, \AC_{i} \right)  \nonumber \\\\ 
-        &+ \sum_{i=1}^{N_{\save}} \D_{\ave} \left( \D_{i}, \DC_{i}, \SB_{i} \right) 
-\end{align}
-
-With simple cases out of the way, lets now look at a more realistic, and slightly more complex scenario where a mix of attacks and saves are used to deal damage to a target, such as when calculating a monster's average damage per round when determining their challenge rating.
--->
-
-To make this task a bit simpler, note that our average damage equations, Eqns. \eqref{eq:attack-damage-average-centered} and \eqref{eq:save-damage-average-none-centered}, have the same general form and can be written in the following way,
+To make this task a bit simpler, note that our average damage equations, Eqns. \eqref{eq:attack-damage-average-centered} and \eqref{eq:save-damage-average-none-centered}, have the same general form, and both can be written in the following way,
 \begin{align}
     \D_{\ave}  &= 0.65 \, \D \left[1 + \left( \frac{ \ABp - \ACp }{ 13 } \right)\right] .
     \label{eq:mixed-damage-average-basic}
 \end{align}
-Here, $$\D$$ represents the average damage dealt on a hit for an attack or on a failed saving throw for a save. The variable $$\ABp$$ is the normalized offensive stat used to determine whether damage is dealt or not,
+Here, $$\D$$ represents the average damage dealt on a hit for an attack or on a failed saving throw for a save. The variable $$\ABp$$ is the normalized offensive stat used to determine whether damage is dealt or not (either attack bonus or save difficulty class),
 \begin{equation}
     \ABp = 
     \begin{cases} 
@@ -309,7 +187,7 @@ Here, $$\D$$ represents the average damage dealt on a hit for an attack or on a 
         \DC - \DC_{0} & \mathrm{for\ saves}\,, 
     \end{cases}
 \end{equation}
-where $$\AB_{0} = 4$$ and $$\DC_{0} = 12$$ represent common baseline values for attack bonus and save difficulty class. And the variable $$\ACp$$ is the corresponding normalized defensive stat that the damage targets,
+where $$\AB_{0} = 4$$ and $$\DC_{0} = 12$$ represent common baseline values for attack bonus and save difficulty class. And the variable $$\ACp$$ is the corresponding normalized defensive stat that the damage targets (either armor class or saving throw bonus),
 \begin{equation}
     \ACp = 
     \begin{cases} 
@@ -320,20 +198,18 @@ where $$\AB_{0} = 4$$ and $$\DC_{0} = 12$$ represent common baseline values for 
 \end{equation}
 where $$\AC_{0} = 12$$ and $$\SB_{0} = -2$$ represent common baseline values for armor class and saving throw bonus.
 
-**Note.** The values use here for $$\AB_{0}$$, $$\AC_{0}$$, $$\DC_{0}$$, and $$\SB_{0}$$ are not the only options I could have chosen. Equations \eqref{eq:attack-damage-average-centered} and \eqref{eq:save-damage-average-none-centered} only require $$\AB_{0} + 8 = \AC_{0}$$ and $$\SB_{0} + 14 = \DC_{0}$$. To get these specific values, I also used the fact that $$\AB + 8 = \DC$$ for spellcasters, and that $$\AB \approx 4$$ on average for [CR 1 monsters]({{ site.data.page-links.baseline-monster-stats.path }}/#fig:ab-vs-cr). 
+**Note.** The values use here for $$\AB_{0}$$, $$\AC_{0}$$, $$\DC_{0}$$, and $$\SB_{0}$$ are not the only options we could have chosen. Equations \eqref{eq:attack-damage-average-centered} and \eqref{eq:save-damage-average-none-centered} only require $$\AB_{0} + 8 = \AC_{0}$$ and $$\SB_{0} + 14 = \DC_{0}$$. To get these specific values, I also used the fact that $$\AB + 8 = \DC$$ for spellcasters, and that $$\AB \approx 4$$ on average for [CR 1 monsters]({{ site.data.page-links.baseline-monster-stats.path }}/#fig:ab-vs-cr). 
 {: .notice--warning}
 
-<!--
-**Note.** The values use here for $$\AB_{0}$$, $$\AC_{0}$$, $$\DC_{0}$$, and $$\SB_{0}$$ are not the only options I could have chosen. Equations \eqref{eq:attack-damage-average-centered} and \eqref{eq:save-damage-average-none-centered} only require $$\AB_{0} + 8 = \AC_{0}$$ and $$\SB_{0} + 14 = \DC_{0}$$. To get these specific values, I also used the fact that $$\AB + 8 = \DC$$ for spellcasters, and that $$\AB \approx 4$$ on average for [CR 1 monsters]({{ site.data.page-links.baseline-monster-stats.path }}/#fig:ab-vs-cr). This effectively puts each normalized offensive and defensive stat on the same scale. Meaning $$\ABp = 5$$ is equally good for the attacker as $$\ACp = 5$$ is for the defender relative to the baseline chance to deal damage of $$65\%$$.
-{: .notice--warning}
--->
 
-With this generalized average damage equation in hand, determining $$\DPR_{\ave}$$ for any attacker is simply a matter of calculating the average damage per round for each of their attacks or saves individually using Eqn. \eqref{eq:mixed-damage-average-basic}, and then adding them all together,
+Defining $$\ABp$$ and $$\ACp$$ in this way puts our offensive and defensive stats on equal scales. Meaning, $$\ABp = 5$$ is equally good at dealing damage as $$\ACp = 5$$ is as avoiding it relative to our $$65\%$$ baseline for both attacks and saves.
+
+With this generalized average damage equation in hand, determining $$\DPR_{\ave}$$ for any attacker is simply a matter of calculating the average damage per round for each of their attacks and saves individually using Eqn. \eqref{eq:mixed-damage-average-basic} and then adding them all together,
 \begin{align}
     \DPR_{\ave}  &= \sum_{i = 1}^{N} 0.65 \, \DPR_{i} \left[1 + \left( \frac{ \ABp_{i} - \ACp_{i} }{ 13 }\right)\right] .
     \label{eq:mixed-damage-average-1}
 \end{align}
-Here, $$N$$ is the number of abilities used by the creature to deal damage during combat. For each ability, $$\DPR$$ is the average damage per round dealt when the ability deals damage, $$\ABp$$ is the offensive stat used to determine if the ability deals damage, and $$\ACp$$ is the corresponding defensive stat being targeted.
+Here, $$N$$ is the number of attacks and saves used by the creature to deal damage during combat. For each ability, $$\DPR$$ is the average damage per round dealt when the ability deals damage, $$\ABp$$ is the offensive stat used to determine if the ability deals damage, and $$\ACp$$ is the corresponding defensive stat being targeted.
 
 If we take the total damage per round, assuming all abilities successfully deal damage, $$\DPR_{\total} = \sum \DPR_{i}$$, and factor it out of the summation, Eqn. \eqref{eq:mixed-damage-average-1} becomes,
 \begin{align}
@@ -342,7 +218,7 @@ If we take the total damage per round, assuming all abilities successfully deal 
         &= 0.65 \, \DPR_{\total} \left[1 +  \sum_{i = 1}^{N} dpr_{i} \left( \frac{ \ABp_{i} - \ACp_{i} }{ 13 } \right) \right] \,,
     \label{eq:mixed-damage-average-2}
 \end{align}
-where $$\dpr = \DPR/\DPR_{\total}\,$$ is the fraction of $$\DPR_{\total}$$ dealt by an ability, and that $$\sum \dpr_{i} = 1$$.
+where $$\dpr = \DPR/\DPR_{\total}\,$$ is the fraction of $$\DPR_{\total}$$ dealt by an attack or save, and that $$\sum \dpr_{i} = 1$$.
 
 The summation in Eqn. \eqref{eq:mixed-damage-average-2} can also be expressed in a slightly more condensed way through the following vector equation,
 \begin{align}
@@ -356,7 +232,7 @@ which takes the [dot product](https://en.wikipedia.org/wiki/Dot_product) (scalar
     \ABpvec &= \left[ \ABp_{1},\, \ABp_{2},\, \cdots,\, \ABp_{N}  \right] \,; \\\\ 
     \ACpvec &= \left[ \ACp_{1},\, \ACp_{2},\, \cdots,\, \ACp_{N}  \right] \,.
 \end{align}
-Each of these vectors has $$N$$ elements, one for each of of the attacker's damage dealing abilities.
+Each of these vectors has $$N$$ elements, one for each of of the attacker's attacks and saves.
 
 Substituting Eqn. \eqref{eq:sum-as-dot-products} into Eqn. \eqref{eq:mixed-damage-average-2} gives, 
 \begin{align}
@@ -365,7 +241,7 @@ Substituting Eqn. \eqref{eq:sum-as-dot-products} into Eqn. \eqref{eq:mixed-damag
     \label{eq:mixed-damage-average-3}
 \end{align}
 
-From here, we can take advantage of the fact that $$1/13 \approx 0.077 \ll 1$$ to apply the following approximation to Eqn. \eqref{eq:mixed-damage-average-3}, $$\left(1 + x\right)^n \approx 1 + n \cdot x$$ when $$x \ll 1$$, which results in
+From here, we can take advantage of the fact that $$1/13$$ is small, $$1/13 \approx 0.077 \ll 1$$, to apply the following approximation to Eqn. \eqref{eq:mixed-damage-average-3}, $$\left(1 + x\right)^n \approx 1 + n \cdot x$$ when $$x \ll 1$$, which results in
 \begin{equation}
     \DPR_{\ave} \approx 0.65 \, \DPR_{\total} \, 1.077^{\,\dprvec \cdot \left( \ABpvec - \ACpvec \right)} ,
     %\DPR_{\ave} \approx 0.65 \, \DPR_{\total} \left(\frac{14}{13}\right)^{\,\dprvec \cdot \left( \ABpvec - \ACpvec \right)} ,
@@ -398,56 +274,17 @@ And $$\eAB$$ is the creature's effective attack bonus,
     \eAB &= \dprvec \cdot \ABpvec + \AB_{0} ,
     \label{eq:effective-attack-bonus}
 \end{align}
-which is just the weighted average of the attacker's offensive stats, expressed in terms of an equivalent attack bonus value.
+which is just the weighted average of the attacker's normalized offensive stats, expressed in terms of an equivalent attack bonus value.
 
 **Note.** The choice to split the factor of $$0.65$$ between $$\eHP$$ and $$\eDPR$$ was a stylistic one that proves useful when discussing how [XP is calculated]({{ site.data.page-links.xp-and-encounter-balancing.path }}).
 {: .notice--warning}
 
 Before concluding this derivation, it's worth noting that, while we were able to successfully split $$\AB$$ and $$\DC$$ from $$\AC$$ and $$\SB$$, our formula for $$\eAC$$, Eqn. \eqref{eq:effective-armor-class}, still contains $$\dprvec$$ which comes from the attacker. To get around this, instead of using a specific attacker's $$\dprvec$$ when calculating $$\eAC$$, we can define a "universal" attack vector $$\dprvec_{\mathrm{u}}$$ that represents the average of what the defender might see across a broad range of attackers, and use that for calculating $$\eAC$$.
 
-At this time, it's unclear what the exact form of $$\dprvec_{\mathrm{u}}$$ should to be. The "[Creating a Monster](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop/#CreatingaMonster)" section from chapter 9 of the DMG covers how to adjust a creature's $$\AC$$ to account for their saving throw proficiencies and any traits saving throw related traits they might have. This _could_ work as a stand in for an $$\eAC$$ calculated using $$\dprvec_{\mathrm{u}}$$, but since the DMG's method for adjusting $$\AC$$ is almost certainly an approximation this isn't an ideal solution.
+At this time, it's unclear what the exact form of $$\dprvec_{\mathrm{u}}$$ should be. The "[Creating a Monster](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop/#CreatingaMonster)" section from chapter 9 of the DMG covers how to adjust a creature's $$\AC$$ to account for their saving throw proficiencies and any saving throw related traits they might have. This _could_ work as a stand in for an $$\eAC$$ calculated using $$\dprvec_{\mathrm{u}}$$, but since the DMG's method for adjusting $$\AC$$ is almost certainly an approximation this isn't an ideal solution.
 
+For further discussion around the impact $$\dprvec_{\mathrm{u}}$$ has on monster effective hit points, see "[Encounter specific effective hit points](#encounter-specific-effective-hit-points)" in the section that follows.
 
-
-<!--
-Need a better way of making this transition...
-Should this be in the discussion section?
-
-Lets integrate these directly into the eHP and eDPR equations and define them right afterwards. Will still need a bit explaining the problem with eAC as it's currently defined.
--->
-
-<!--
-The exponent in Eqn. \eqref{eq:effective-damage-mix}, $$\dprvec \cdot \ABpvec,$$ is just the weighted average of the normalized attack bonuses for each ability in our $$\DPR_{\ave}$$ calculation. As such, it can be though of as an effective attack bonus $$(\eAB\,)$$, where
-\begin{align}
-    \eAB &= \dprvec \cdot \ABpvec + \AB_{0} .
-    \label{eq:effective-attack-bonus}
-\end{align}
-
-Similarly, the exponent in Eqn. \eqref{eq:effective-hit-points-mix}, $$\dprvec \cdot \ACpvec,$$ is just the weighted average of our defender's normalized defensive stats, allowing us to define an effective armor class as
-\begin{align}
-    \eAC &= \dprvec_{\mathrm{u}} \cdot \ACpvec + \AC_{0}\,.
-    \label{eq:effective-armor-class}
-\end{align}
--->
-
-<!--
-Looking at Eqn. \eqref{eq:effective-hit-points-mix}, one might be tempted to define an effective armor class $$(\eAC\,)$$ in a similar way, but there is a subtle problem with this approach. The $$\eHP$$ described by Eqn. \eqref{eq:effective-hit-points-mix} is calculated from $$\dprvec$$, which comes from the attacker, and is therefore not solely dependent on the defending monster stats.
-
-To get around this, we can define a universal attack vector, $$\dprvec_{\mathrm{u}}$$ and use it when determining a creature's effective armor class,
-\begin{align}
-    \eAC &= \dprvec_{\mathrm{u}} \cdot \ACpvec + \AC_{0}\,.
-    \label{eq:effective-armor-class}
-\end{align}
-I won't get into the exact form of $$\dprvec_{\mathrm{u}}$$ at this time (though, I hope to at some point in the near future), but, for now, think of it as the average attack vector the defender is likely see across a wide range of attackers. In the mean time, we can simply use the effective armor class defined in chapter 9 of the DMG as a proxy for calculating $$\eAC$$ using Eqn. \eqref{eq:effective-armor-class}.
-
-
-As a final step, we can take advantage of the fact that the number of defensive stats is fixed at seven for each creature (i.e., their armor class and six saving throw bonuses), and rewrite $$\dprvec_{\mathrm{u}}$$ and $$\ACpvec$$ in terms of these seven stats rather than for an arbitrary number of damage sources, 
-\begin{align}
-    \dprvec &= \left[ \dpr_{\arm}, \dpr_{\str}, \cdots, \dpr_{\cha}  \right] \,; \\\\ 
-    \ACpvec &= \left[ \ACp_{\arm}, \ACp_{\str}, \cdots, \ACp_{\cha} \right] \,.
-\end{align}
-Now each $$\dpr$$ represents the relative damage targeting each defensive stat, instead of the relative damage of each ability, and $$\ACp$$ is defined by Eqn. \eqref{eq:generic-armor-class-relative}.
--->
 
 # Discussion
 
@@ -461,29 +298,9 @@ For some, the form of Eqns. \eqref{eq:effective-hit-points-mix} and \eqref{eq:ef
     \eDPR &\approx \sqrt{0.65} \, \DPR_{\total} \left[ 1 + \left( \frac{ \eAB - \AB_{0} }{ 13 } \right) \right] . \label{eq:effective-damage-mix-approx}
 \end{align}
 
-It should be noted, however, that while this works well for low CR creatures, at higher CRs this approach will introduce minor errors due to the exclusion of higher order terms in the approximation.
+It should be noted, however, that while this works well for low CR creatures, at higher CRs this approach will introduce errors, due to the exclusion of higher order terms in the approximation, that lead to $$\eAB$$ and $$\eAC$$ being undervalued for higher CR monsters.
 
 Another small adjustment that some may find useful is to multiply both of the above equations by $$\sqrt{0.65}$$. This removes the prefactor from Eqn. \eqref{eq:effective-hit-points-mix-approx} and also removes the square root from Eqn. \eqref{eq:effective-damage-mix-approx}. As I mentioned before, the choice to split the factor of $$0.65$$ between the two terms was a stylistic one that proves useful when discussing how [XP is calculated]({{ site.data.page-links.xp-and-encounter-balancing.path }}).
-
-<!--
-eq:effective-hit-points-attack-approx: legendary resistances
--->
-<!--
-resulting in the following for attacks,
-\begin{align}
-    \eHP_\mathrm{a} &\approx \frac{1}{\sqrt{0.65}} \cdot \HP \left( 1 + 0.077 \left(\AC - 12\right)\right)\,, \label{eq:effective-hit-points-attack-approx} \\\\ 
-    \eD_\mathrm{a}  &\approx \sqrt{0.65} \cdot \D_{\hit} \left( 1 + 0.077 \left(\AB - 3\right)\right)\,, \label{eq:effective-damage-attack-approx}
-\end{align}
-and for saving throws,
-\begin{align}
-    \eHP_\mathrm{s} &\approx \frac{1}{\sqrt{0.65}} \cdot \HP  \left(1 + 0.077 \left(\SB + 2\right)\right)\,, \label{eq:effective-hit-points-save-approx} \\\\ 
-    \eD_\mathrm{s}  &\approx \sqrt{0.65} \cdot \D_{\fail} \left(1 + 0.077\left(\DC - 12\right)\right)\,. \label{eq:effective-hit-points-save-approx}
-\end{align}
-
-It should be noted, however, that while this works well for low CR creatures, at higher CRs this approach will introduce minor errors due to the exclusion of higher order terms in the approximation.
-
-Another small adjustment that some may find useful is to multiply all four of the above equations by $$\sqrt{0.65}$$. This removes the prefactor from Eqns. \eqref{eq:effective-hit-points-attack-approx} and \eqref{eq:effective-hit-points-save-approx}, and also removes the square root from Eqns. \eqref{eq:effective-damage-attack-approx} and \eqref{eq:effective-damage-save-approx}. As I mentioned before, the choice to split the factor of $$0.65$$ between the two terms was a stylistic one that proves useful when discussing how XP is calculated, which you can read about [here]({{ site.data.page-links.xp-and-encounter-balancing.path }}).
--->
 
 ## Saving throw bonus scaling
 
@@ -499,45 +316,14 @@ However, if we compared equal values of $$\ACp$$ for attacks and saves, it becom
 
 For all abilities but Dexterity, monster saving throw modifiers follow similar trends to $$\AC - 14$$, and the average across all saving throws matches the trend for $$\AC - 14$$ almost exactly!
 
-<!--
-Figure <a href="#fig:monster-save-modifier-trends" class="fig-ref">3</a> (above) shows this relationship for published monsters (I've excluded saving throw proficiency bonuses here because the DMG has separate rules for how much they should be valued in terms of an adjusted $$\AC\,$$). The saving throw modifiers for monsters clearly show a similar trend to $$\AC - 14$$ for all abilities but Dexterity, which is reassuring, and the average across all saving throws matches the trend for $$\AC - 14$$ almost exactly!
--->
-
 It's been well established that certain saving throws for monsters are weaker than others (see my post on [Monster Saving Throws]({{ site.data.page-links.monster-saving-throws.path }})). However, what hasn't been clear until now is whether the strong saving throws are overpowered or the weak saving throws are underpowered.
 
 What Fig. <a href="#fig:monster-save-modifier-trends" class="fig-ref">1</a> shows is that, for monsters, Strength and Constitution modifiers are generally stronger than baseline, Wisdom and Charisma are on target, Intelligence is slightly below baseline, and Dexterity starts out stronger than baseline at low CRs but becomes relatively weaker and weaker as CR increases.
 
 
-<!--
-## Putting it all together
-
-As it stands now, we have two ways of calculating effective hit points and two ways of calculating effective damage. 
-
-For damage, this doesn't pose any potential conflict. We can simply pick whichever equation best fits how are creature is dealing damage. If we wanted to calculate the effective damage per round $$(\eDPR)$$ for a creature that deals damage using one attack and one saving throw effect, we can simply add the effective damage of the two together. Put more generally,
-\begin{align}
-    \eDPR = \sum \eD_\mathrm{a} \left(\D_{\hit}, \AB\,\right)  + \sum \eD_\mathrm{s} \left(\D_{\fail}, \DC\,\right)\,,
-    %\eDPR = \sqrt{0.65} \cdot \left( \sum \D_{\hit} \cdot 1.077^{\AB - 3}  + \sum \cdot \D_{\fail} \cdot {1.077}^{\DC - 12}\right)\,,
-    \label{eq:effective-dpr-general}
-\end{align}
-where the first summation includes all of the attacks the creature is likely to use during the round, and the second summation includes all of the saving throw effects.
-
-For hit points, however, this raises a difficult question. Which formulation, Eqn. \eqref{eq:effective-hit-points-attack} or \eqref{eq:effective-hit-points-save}, should we use to reflect a creature true defensive strength? The simple answer, of course, is to just average between the two, as was done previously to account for each ability score having its own saving throw bonus,
-\begin{align}
-    \eHP = \frac{1}{\sqrt{0.65}} \cdot \HP  \cdot {1.077}^{\frac{1}{2}\left(\AC - 12\right) + \frac{1}{2} \left(\SBave + 2\right)}\,.
-    \label{eq:effective-hit-points-general}
-\end{align}
-This assumes that a creature is just as likely to be subjected to a damaging attack as they are a damaging saving throw effect, and that the saving throw effects target each of the creature's ability scores equally. Again, this may not be the best assumption, but how all this is weighted can easily be adjusted to account for differences discovered later on.
-
-The exponent in Eqn. \eqref{eq:effective-hit-points-general} can also be used to define an effective armor class,
-\begin{align}
-    %\eAC = \frac{1}{2}\left(\AC + \SBave + 14\right)\,.
-    \eAC = \frac{\AC + \SBave + 14}{2}\,.
-\end{align}
--->
-
 ## Encounter specific effective hit points
 
-The introduction of $$\dprvec_{\mathrm{u}}$$ in Eqn. \eqref{eq:effective-armor-class} effectively removes any information about the attacker from our $$eHP$$ calculation, but it also means $$\eHP$$ won't always reflect a creature's true toughness in combat, because that depends on their opponents' specific attack vector.
+The introduction of $$\dprvec_{\mathrm{u}}$$ in Eqn. \eqref{eq:effective-armor-class} effectively removes any information about the attacker from our $$eHP$$ calculation. As a result, it also means $$\eHP$$ won't always reflect a creature's true toughness in combat, because that depends on their opponents' specific attack vector.
 
 We can determine error this approach introduces for a specific monster by taking the ratio between their encounter specific effective hit points and their universal effective hit points,
 \begin{align}
@@ -571,7 +357,7 @@ As an example, let's look at how this plays out for a specific monster, the **[h
 {% include_relative hezrou.html %}
 </center>
 
-Following the rules in chapter 9 of the DMG, the hezrou has an effective AC of 21, which translates into $$\eAC^{\,\prime} = 9$$. Adding a $$+4$$ bonus to each of the hezrou's saving throws to account for the Magic Resistance trait and a $$+2$$ bonus to the hezrou's AC to account for its Stench trait, gives the hezrou the following relative toughness vector,
+Following the rules in chapter 9 of the DMG, the hezrou has an adjusted AC of 21, which translates into $$\eAC^{\,\prime} = 9$$. Adding a $$+4$$ bonus to each of the hezrou's saving throws to account for the Magic Resistance trait and a $$+2$$ bonus to the hezrou's AC to account for its Stench trait, gives the hezrou the following relative toughness vector,
 \begin{equation}
     \Delta \mathbf{eHP} = 
     \begin{bmatrix}
@@ -603,16 +389,7 @@ For a party consisting of two martial characters and two spellcasters with an es
 -->
 
 # Conclusion
-In this post I've shown how effective hit points and effective damage per round can be derived for creatures using the math underpinning how attacks and saves work in D&D 5th edition. These allow a creature's defensive and offensive strength to be calculated in absolute terms, without the need of a second creature for comparison. 
 
-This process has also given rise to general equations for a creature's effective attack bonus and effective armor class. And it's given us greater insight into how strong monster saving throw bonuses are relative to their armor class, as well as how those saving throw bonuses should scale with monster challenge rating.
+The effective hit points and effective damage per round derived in this post are useful tools for comparing creatures' offensive and defensive strengths in more absolute terms, without the need of a second creature for comparison. The general equations for effective attack bonus and effective armor class are also useful towards that end, and also give us greater insight into the relative strength of each defensive stat.
 
-For further reading on how these tools can be used to further understand combat in D&D 5th edition, see [XP and Encounter Balancing]({{ site.data.page-links.xp-and-encounter-balancing.path }}).
-
-<!--
-In this post I've shown how effective hit points and effective damage can be derived for creatures using the math underpinning how attacks and saving throws work in D&D 5th edition. These allow a creature's defensive and offensive strength to be calculated in absolute terms, without the need of a second creature for comparison. For damage, this allows both attacks and saving throw effects to be added together and weighted equally. And for hit points, this allows an overall defensive strength to be calculated that combines armor class as well as saving throw bonuses. 
-
-In the process, I've also shown how monster ability score modifiers can be expected to scale with CR in a way similar to how the DMG recommends scaling armor class. 
-
-For anyone who stuck through all that to the end, congratulations! Compared to many of my previous posts, this one doesn't contain that much in terms of useful insights into the game. But it does lay the ground work needed for much more to come.
--->
+Most importantly, these results lay the groundwork needed for future work analyzing D&D 5th edition, and potentially other TTRPGs. For further reading on how these tools can be used to further understand combat in D&D 5th edition, see [XP and Encounter Balancing]({{ site.data.page-links.xp-and-encounter-balancing.path }}) and [The Value of Legendary Resistances]({{ site.data.page-links.legendary-resistance.path }})
