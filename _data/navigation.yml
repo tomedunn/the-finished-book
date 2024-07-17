@@ -87,3 +87,5 @@ theory:
         url: /theory/variability-attacks/
       - title: "Variability: Saves"
         url: /theory/variability-saves/
+      - title: "Variability: Combat"
+        url: /theory/variability-combat/
