@@ -89,3 +89,5 @@ theory:
         url: /theory/variability-saves/
       - title: "Variability: Combat"
         url: /theory/variability-combat/
+      - title: "Variability: Encounter Difficulty"
+        url: /theory/variability-encounter-difficulty/

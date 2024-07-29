@@ -81,6 +81,9 @@ variability-combat:
 variability-damage-healing-rolls:
   path: /the-finished-book/theory/variability-damage-healing-rolls/
 
+variability-encounter-difficulty:
+  path: /the-finished-book/theory/variability-encounter-difficulty/
+
 variability-saves:
   path: /the-finished-book/theory/variability-saves/
 

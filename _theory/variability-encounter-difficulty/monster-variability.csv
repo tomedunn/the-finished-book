@@ -1,0 +1,608 @@
+,id,name,challenge,CR,damage.mean,damage.sigma
+0,16763-acolyte,Acolyte,1/4,0.25,3.0,2.4494898
+1,16789-archmage,Archmage,12,12.0,6.75,4.1306777
+2,16790-assassin,Assassin,8,8.0,146.025,57.81918
+3,16798-bandit,Bandit,1/8,0.125,7.425,5.4358187
+4,16799-bandit-captain,Bandit Captain,2,2.0,30.525,9.84324
+5,16805-berserker,Berserker,2,2.0,15.675,9.30984
+6,16829-commoner,Commoner,0,0.0,3.0,2.4494898
+7,16835-cultist,Cultist,1/8,0.125,6.075,4.355815
+8,16836-cult-fanatic,Cult Fanatic,2,2.0,6.75,4.1306777
+9,16848-druid,Druid,2,2.0,7.8,6.059703
+10,16903-gladiator,Gladiator,5,5.0,16.2,7.9259067
+11,16915-guard,Guard,1/8,0.125,6.075,4.355815
+12,16938-knight,Knight,3,3.0,16.5,9.15833
+13,16947-mage,Mage,6,6.0,6.75,4.1306777
+14,16966-noble,Noble,1/8,0.125,7.425,5.4358187
+15,17007-scout,Scout,1/2,0.5,9.75,6.2898726
+16,17021-spy,Spy,1,1.0,8.25,5.202163
+17,17035-thug,Thug,1/2,0.5,6.6,5.628499
+18,17038-tribal-warrior,Tribal Warrior,1/8,0.125,7.425,5.4358187
+19,17045-veteran,Veteran,3,3.0,38.775,13.065197
+20,16802-bat,Bat,0,0.0,0.9,0.7937254
+21,16806-black-bear,Black Bear,1/2,0.5,18.75,8.219641
+22,16812-boar,Boar,1/4,0.25,6.075,4.355815
+23,16816-brown-bear,Brown Bear,1,1.0,35.1,12.613089
+24,16820-cat,Cat,0,0.0,0.9,0.7937254
+25,16830-constrictor-snake,Constrictor Snake,1/4,0.25,9.75,6.2898726
+26,16834-crocodile,Crocodile,1/2,0.5,11.25,7.3866434
+27,16841-dire-wolf,Dire Wolf,1,1.0,16.5,9.15833
+28,16881-giant-eagle,Giant Eagle,1,1.0,27.225,10.957104
+29,16895-giant-spider,Giant Spider,1,1.0,32.67,18.811052
+30,16920-hawk,Hawk,0,0.0,1.65,0.8616844
+31,16933-imp,Imp,1,1.0,32.835,18.715927
+32,16944-lion,Lion,1,1.0,12.375,7.1012764
+33,16953-mastiff,Mastiff,1/8,0.125,6.075,4.355815
+34,16960-mule,Mule,1/8,0.125,5.4,4.0099874
+35,16974-owl,Owl,0,0.0,1.35,0.8616844
+36,16976-panther,Panther,1/4,0.25,8.25,5.202163
+37,16982-poisonous-snake,Poisonous Snake,1/8,0.125,12.25125,7.4040713
+38,16986-pseudodragon,Pseudodragon,1/4,0.25,6.75,4.1306777
+39,16988-quasit,Quasit,1,1.0,13.5,9.1231165
+40,16991-rat,Rat,0,0.0,0.9,0.7937254
+41,16992-raven,Raven,0,0.0,1.5,0.8660254
+42,16994-reef-shark,Reef Shark,1/2,0.5,9.75,6.2898726
+43,16997-riding-horse,Riding Horse,1/4,0.25,13.2,7.1864457
+44,17015-skeleton,Skeleton,1/4,0.25,8.25,5.202163
+45,17020-sprite,Sprite,1/4,0.25,1.8,0.84852815
+46,17036-tiger,Tiger,1,1.0,14.025,8.201105
+47,17049-warhorse,Warhorse,1/2,0.5,19.8,9.880283
+48,17062-wolf,Wolf,1/4,0.25,10.5,6.363961
+49,17077-zombie,Zombie,1/4,0.25,6.075,4.355815
+50,17100-aarakocra,Aarakocra,1/4,0.25,8.25,5.202163
+51,16840-deva,Deva,10,10.0,49.725,22.145725
+52,16980-planetar,Planetar,16,16.0,104.4,31.611391
+53,16786-animated-armor,Animated Armor,1,1.0,8.25,5.202163
+54,16865-flying-sword,Flying Sword,1/4,0.25,7.425,5.4358187
+55,17000-rug-of-smothering,Rug of Smothering,2,2.0,16.5,9.15833
+56,16794-azer,Azer,2,2.0,19.8,11.195758
+57,17089-banshee,Banshee,4,4.0,18.75,11.41545
+58,16801-basilisk,Basilisk,3,3.0,28.05,15.291583
+59,17094-spectator,Spectator,3,3.0,2.625,2.707051
+60,17215-needle-blight,Needle Blight,1/4,0.25,10.8,7.442782
+61,17095-twig-blight,Twig Blight,1/8,0.125,4.725,3.283767
+62,17216-vine-blight,Vine Blight,1/2,0.5,13.5,8.336666
+63,16817-bugbear,Bugbear,1,1.0,16.5,10.319883
+64,17119-bugbear-chief,Bugbear Chief,3,3.0,19.8,11.146524
+65,16818-bulette,Bulette,5,5.0,54.0,27.088743
+66,17120-bullywug,Bullywug,1/4,0.25,12.15,6.350689
+67,17137-cambion,Cambion,5,5.0,37.8,13.793477
+68,17138-carrion-crawler,Carrion Crawler,2,2.0,19.95,7.47546
+69,16821-centaur,Centaur,2,2.0,36.9,13.321036
+70,16824-chuul,Chuul,4,4.0,39.6,13.972831
+71,16826-cloaker,Cloaker,8,8.0,28.875,11.5889225
+72,16828-cockatrice,Cockatrice,1/2,0.5,4.725,3.283767
+73,16832-couatl,Couatl,4,4.0,17.85,7.1862717
+74,17139-crawling-claw,Crawling Claw,0,0.0,4.725,3.283767
+75,17090-cyclops,Cyclops,6,6.0,58.8,23.732256
+76,17128-death-knight,Death Knight,17,17.0,179.55,41.46598
+77,16797-balor,Balor,19,19.0,89.25,23.428349
+78,17110-barlgura,Barlgura,5,5.0,19.8,9.880283
+79,17140-chasme,Chasme,6,6.0,60.75,35.753498
+80,17156-goristro,Goristro,17,17.0,109.2,33.649963
+81,16922-hezrou,Hezrou,8,8.0,66.6,19.67079
+82,17213-manes,Manes,1/8,0.125,6.0,4.582576
+83,16952-marilith,Marilith,16,16.0,181.35,31.632935
+84,16963-nalfeshnee,Nalfeshnee,13,13.0,133.35,33.038273
+85,17047-vrock,Vrock,6,6.0,39.6,16.019676
+86,16800-barbed-devil,Barbed Devil,5,5.0,15.75,9.788386
+87,16803-bearded-devil,Bearded Devil,3,3.0,24.75,10.358149
+88,16813-bone-devil,Bone Devil,9,9.0,92.625,28.335567
+89,16822-chain-devil,Chain Devil,8,8.0,42.9,13.708209
+90,16931-ice-devil,Ice Devil,14,14.0,137.55,31.424631
+91,16942-lemure,Lemure,0,0.0,3.375,2.5155764
+92,16979-pit-fiend,Pit Fiend,20,20.0,253.725,34.64283
+93,17214-spined-devil,Spined Devil,2,2.0,24.0,10.416333
+94,17087-allosaurus,Allosaurus,2,2.0,27.0,13.845577
+95,17088-ankylosaurus,Ankylosaurus,3,3.0,35.1,15.616658
+96,16981-plesiosaurus,Plesiosaurus,2,2.0,26.1,12.927876
+97,17093-pteranodon,Pteranodon,1/4,0.25,8.1,5.4868026
+98,17039-triceratops,Triceratops,5,5.0,50.4,20.173746
+99,17130-displacer-beast,Displacer Beast,3,3.0,39.6,13.972831
+100,16843-doppelganger,Doppelganger,3,3.0,13.5,6.7638745
+101,17069-young-brass-dragon,Young Brass Dragon,6,6.0,66.6,19.67079
+102,16814-brass-dragon-wyrmling,Brass Dragon Wyrmling,1,1.0,11.25,7.3866434
+103,17070-young-bronze-dragon,Young Bronze Dragon,8,8.0,78.0,20.644733
+104,16815-bronze-dragon-wyrmling,Bronze Dragon Wyrmling,2,2.0,14.025,8.201105
+105,17071-young-copper-dragon,Young Copper Dragon,7,7.0,66.6,19.67079
+106,16831-copper-dragon-wyrmling,Copper Dragon Wyrmling,1,1.0,11.25,7.3866434
+107,17072-young-gold-dragon,Young Gold Dragon,10,10.0,96.75,20.39761
+108,17098-gold-dragon-wyrmling,Gold Dragon Wyrmling,3,3.0,17.1,8.934764
+109,17075-young-silver-dragon,Young Silver Dragon,9,9.0,96.75,20.39761
+110,17014-silver-dragon-wyrmling,Silver Dragon Wyrmling,2,2.0,17.1,8.934764
+111,16849-dryad,Dryad,1,1.0,10.2,7.636753
+112,16850-duergar,Duergar,1,1.0,16.5,10.319883
+113,16774-air-elemental,Air Elemental,5,5.0,54.6,17.563883
+114,16853-earth-elemental,Earth Elemental,5,5.0,54.6,17.563883
+115,16861-fire-elemental,Fire Elemental,5,5.0,51.15,20.080992
+116,17051-water-elemental,Water Elemental,5,5.0,46.8,16.767826
+117,17133-drow,Drow,1/4,0.25,8.25,5.202163
+118,17134-drow-elite-warrior,Drow Elite Warrior,5,5.0,13.5,6.7638745
+119,17135-drow-mage,Drow Mage,7,7.0,7.35,6.482091
+120,16859-ettercap,Ettercap,2,2.0,27.0,12.124355
+121,16860-ettin,Ettin,4,4.0,54.6,17.563883
+122,17091-flameskull,Flameskull,4,4.0,34.65,13.877905
+123,17145-flumph,Flumph,1/8,0.125,10.5,6.363961
+124,17146-fomorian,Fomorian,8,8.0,81.9,23.35091
+125,17147-gas-spore,Gas Spore,1/2,0.5,0.9,0.7937254
+126,17046-violet-fungus,Violet Fungus,1/4,0.25,5.4,4.5694637
+127,17148-galeb-duhr,Galeb Duhr,6,6.0,23.4,10.471628
+128,16868-gargoyle,Gargoyle,2,2.0,16.5,7.3569694
+129,17142-dao,Dao,11,11.0,84.0,23.515951
+130,16842-djinni,Djinni,11,11.0,90.675,23.304493
+131,16854-efreeti,Efreeti,11,11.0,28.875,15.857273
+132,17143-marid,Marid,11,11.0,63.0,18.099724
+133,16871-ghost,Ghost,4,4.0,28.05,15.291583
+134,16872-ghoul,Ghoul,1,1.0,10.5,6.363961
+135,16870-ghast,Ghast,2,2.0,16.5,9.15833
+136,16827-cloud-giant,Cloud Giant,9,9.0,76.5,20.697826
+137,16862-fire-giant,Fire Giant,9,9.0,134.4,28.92473
+138,16867-frost-giant,Frost Giant,8,8.0,58.8,23.732256
+139,16923-hill-giant,Hill Giant,5,5.0,41.925,19.072182
+140,17024-stone-giant,Stone Giant,7,7.0,58.8,23.732256
+141,17026-storm-giant,Storm Giant,13,13.0,162.0,24.093567
+142,16901-gibbering-mouther,Gibbering Mouther,2,2.0,21.0,15.427249
+143,17149-githyanki-warrior,Githyanki Warrior,3,3.0,48.0,20.46949
+144,17150-githyanki-knight,Githyanki Knight,8,8.0,98.7,27.515177
+145,17151-githzerai-monk,Githzerai Monk,2,2.0,46.5,20.189726
+146,17152-githzerai-zerth,Githzerai Zerth,6,6.0,88.2,30.692995
+147,16904-gnoll,Gnoll,1/2,0.5,7.425,5.4358187
+148,17153-gnoll-pack-lord,Gnoll Pack Lord,2,2.0,28.05,11.598114
+149,17154-gnoll-fang-of-yeenoghu,Gnoll Fang of Yeenoghu,4,4.0,45.87,16.730251
+150,17211-deep-gnome-svirfneblin,Deep Gnome (Svirfneblin),1/2,0.5,6.75,4.1306777
+151,16907-goblin,Goblin,1/4,0.25,8.25,5.202163
+152,16825-clay-golem,Clay Golem,9,9.0,62.4,20.34183
+153,16863-flesh-golem,Flesh Golem,5,5.0,46.8,16.767826
+154,17025-stone-golem,Stone Golem,10,10.0,87.75,22.330612
+155,16908-gorgon,Gorgon,5,5.0,35.1,16.358637
+156,17157-grell,Grell,3,3.0,21.75,9.75
+157,16912-grick,Grick,2,2.0,21.75,9.826622
+158,17158-grick-alpha,Grick Alpha,7,7.0,82.8,24.989597
+159,16913-griffon,Griffon,2,2.0,35.1,12.613089
+160,16914-grimlock,Grimlock,1/4,0.25,13.2,7.1864457
+161,16911-green-hag,Green Hag,3,3.0,23.4,11.856644
+162,16965-night-hag,Night Hag,5,5.0,23.4,11.856644
+163,17008-sea-hag,Sea Hag,2,2.0,16.5,9.15833
+164,16919-harpy,Harpy,1,1.0,12.825,6.3943825
+165,17159-helmed-horror,Helmed Horror,4,4.0,34.2,12.635664
+166,16924-hippogriff,Hippogriff,1,1.0,30.525,12.293621
+167,16925-hobgoblin,Hobgoblin,1/2,0.5,8.775,6.5198255
+168,17160-hobgoblin-captain,Hobgoblin Captain,3,3.0,27.0,11.789826
+169,17161-hobgoblin-warlord,Hobgoblin Warlord,6,6.0,11.55,4.656447
+170,16926-homunculus,Homunculus,0,0.0,1.5,0.8660254
+171,17162-hook-horror,Hook Horror,3,3.0,39.6,13.972831
+172,16929-hydra,Hydra,8,8.0,20.475,9.556836
+173,17163-intellect-devourer,Intellect Devourer,2,2.0,10.5,6.363961
+174,16934-invisible-stalker,Invisible Stalker,6,6.0,33.0,12.951834
+175,17164-jackalwere,Jackalwere,1/2,0.5,8.25,5.202163
+176,17165-kenku,Kenku,1/4,0.25,10.725,6.015241
+177,16939-kobold,Kobold,1/8,0.125,6.75,4.1306777
+178,17166-kuo-toa,Kuo-toa,1/4,0.25,7.425,5.4358187
+179,17167-kuo-toa-archpriest,Kuo-toa Archpriest,6,6.0,33.825,18.33298
+180,17169-kuo-toa-whip,Kuo-toa Whip,1,1.0,15.0,6.642665
+181,16941-lamia,Lamia,4,4.0,32.175,14.045573
+182,16946-lizardfolk,Lizardfolk,1/2,0.5,8.25,5.202163
+183,17171-lizardfolk-shaman,Lizardfolk Shaman,2,2.0,18.0,8.463156
+184,17172-lizard-king-queen,Lizard King/Queen,4,4.0,24.75,10.042721
+185,17053-werebear,Werebear,5,5.0,27.0,13.845577
+186,17057-werewolf,Werewolf,3,3.0,20.25,8.947765
+187,16949-magmin,Magmin,1/2,0.5,15.75,9.788386
+188,16951-manticore,Manticore,3,3.0,37.125,12.299771
+189,16954-medusa,Medusa,6,6.0,27.75,16.61513
+190,16851-dust-mephit,Dust Mephit,1/2,0.5,6.75,4.1306777
+191,17173-mud-mephit,Mud Mephit,1/4,0.25,6.075,4.355815
+192,17174-smoke-mephit,Smoke Mephit,1/4,0.25,6.75,4.1306777
+193,17022-steam-mephit,Steam Mephit,1/4,0.25,6.0,4.582576
+194,16955-merfolk,Merfolk,1/8,0.125,5.4,4.5694637
+195,16956-merrow,Merrow,2,2.0,35.1,12.613089
+196,16957-mimic,Mimic,2,2.0,19.8,11.146524
+197,17104-mind-flayer,Mind Flayer,7,7.0,99.0,48.233807
+198,16958-minotaur,Minotaur,3,3.0,30.6,15.842348
+199,17176-monodrone,Monodrone,1/8,0.125,4.2,3.5099857
+200,17180-duodrone,Duodrone,1/4,0.25,12.15,6.160053
+201,17177-tridrone,Tridrone,1/2,0.5,18.225,7.544493
+202,17178-quadrone,Quadrone,1,1.0,33.0,10.404326
+203,17179-pentadrone,Pentadrone,2,2.0,41.25,11.63239
+204,16961-mummy,Mummy,3,3.0,33.825,18.33298
+205,17182-quaggoth-spore-servant,Quaggoth Spore Servant,1,1.0,21.45,8.506836
+206,17118-bone-naga,Bone Naga,4,4.0,33.825,18.33298
+207,16916-guardian-naga,Guardian Naga,10,10.0,147.7125,68.369675
+208,17019-spirit-naga,Spirit Naga,8,8.0,95.22,48.945473
+209,16964-nightmare,Nightmare,3,3.0,36.0,17.815723
+210,17092-nothic,Nothic,2,2.0,19.5,8.492644
+211,16969-ogre,Ogre,2,2.0,23.4,11.856644
+212,17185-half-ogre,Half-Ogre,1,1.0,23.1,13.14363
+213,16971-oni,Oni,7,7.0,54.0,19.580603
+214,16808-black-pudding,Black Pudding,4,4.0,40.425,22.02608
+215,16869-gelatinous-cube,Gelatinous Cube,2,2.0,15.75,9.788386
+216,16909-gray-ooze,Gray Ooze,1/2,0.5,15.525,10.488476
+217,16967-ochre-jelly,Ochre Jelly,2,2.0,18.75,11.41545
+218,16972-orc,Orc,1/2,0.5,15.675,9.30984
+219,17189-orog,Orog,2,2.0,37.8,14.200705
+220,16973-otyugh,Otyugh,5,5.0,59.4,19.306347
+221,16975-owlbear,Owlbear,3,3.0,47.775,15.670933
+222,16977-pegasus,Pegasus,2,2.0,19.8,9.880283
+223,17190-peryton,Peryton,2,2.0,25.575,10.103125
+224,16987-purple-worm,Purple Worm,15,15.0,385.155,66.51922
+225,17193-quaggoth,Quaggoth,2,2.0,21.45,8.506836
+226,16990-rakshasa,Rakshasa,13,13.0,29.7,11.812493
+227,17195-young-remorhaz,Young Remorhaz,5,5.0,45.375,24.738192
+228,17196-revenant,Revenant,5,5.0,90.0,31.032242
+229,16998-roc,Roc,11,11.0,127.5,23.758894
+230,16999-roper,Roper,5,5.0,39.6,19.654007
+231,17001-rust-monster,Rust Monster,1/2,0.5,7.425,5.4358187
+232,17003-sahuagin,Sahuagin,1/2,0.5,12.15,6.350689
+233,17197-sahuagin-priestess,Sahuagin Priestess,2,2.0,9.45,4.6439476
+234,17198-sahuagin-baron,Sahuagin Baron,5,5.0,63.0,18.546698
+235,17199-fire-snake,Fire Snake,1,1.0,18.9,9.16597
+236,17004-salamander,Salamander,5,5.0,62.1,21.781874
+237,17005-satyr,Satyr,1/2,0.5,8.1,5.4868026
+238,17200-scarecrow,Scarecrow,1,1.0,16.2,7.7595105
+239,17010-shadow,Shadow,1/2,0.5,13.5,8.336666
+240,17012-shield-guardian,Shield Guardian,7,7.0,39.6,13.972831
+241,16959-minotaur-skeleton,Minotaur Skeleton,2,2.0,30.6,15.842348
+242,17050-warhorse-skeleton,Warhorse Skeleton,1/2,0.5,19.8,9.880283
+243,17117-slaad-tadpole,Slaad Tadpole,1/8,0.125,6.75,4.1306777
+244,17112-blue-slaad,Blue Slaad,7,7.0,70.2,18.137392
+245,17115-green-slaad,Green Slaad,8,8.0,14.175,9.678488
+246,17114-gray-slaad,Gray Slaad,9,9.0,47.7,14.165804
+247,17113-death-slaad,Death Slaad,10,10.0,114.45,26.432035
+248,17017-specter,Specter,1,1.0,15.75,9.788386
+249,17023-stirge,Stirge,1/8,0.125,9.075,4.952083
+250,17203-thri-kreen,Thri-kreen,1,1.0,14.175,7.005578
+251,17037-treant,Treant,9,9.0,63.0,22.69912
+252,17204-troglodyte,Troglodyte,1/4,0.25,20.25,7.154544
+253,17040-troll,Troll,5,5.0,53.1,15.523852
+254,17205-umber-hulk,Umber Hulk,5,5.0,64.35,17.260105
+255,17208-water-weird,Water Weird,3,3.0,22.275,12.23757
+256,17059-wight,Wight,3,3.0,22.5,10.446291
+257,17064-wraith,Wraith,5,5.0,34.65,19.028728
+258,17066-xorn,Xorn,5,5.0,54.45,16.071947
+259,17096-yeti,Yeti,3,3.0,39.6,13.972831
+260,17121-yuan-ti-abomination,Yuan-ti Abomination,7,7.0,37.125,20.190422
+261,17123-yuan-ti-pureblood,Yuan-ti Pureblood,1,1.0,15.525,10.488476
+262,17109-arcanaloth,Arcanaloth,12,12.0,13.2,7.1864457
+263,17124-mezzoloth,Mezzoloth,5,5.0,31.5,11.148542
+264,17125-nycaloth,Nycaloth,9,9.0,37.8,15.86348
+265,17126-ultroloth,Ultroloth,13,13.0,15.3,8.177408
+266,16970-ogre-zombie,Ogre Zombie,2,2.0,23.4,11.856644
+267,17111-beholder-zombie,Beholder Zombie,5,5.0,16.8,12.454718
+268,16788-ape,Ape,1/2,0.5,21.45,8.506836
+269,16791-awakened-shrub,Awakened Shrub,0,0.0,1.575,1.6876389
+270,16792-awakened-tree,Awakened Tree,2,2.0,26.1,12.927876
+271,16793-axe-beak,Axe Beak,1/4,0.25,9.75,6.2898726
+272,16795-baboon,Baboon,0,0.0,1.575,1.6876389
+273,16796-badger,Badger,0,0.0,1.2,0.84852815
+274,16809-blink-dog,Blink Dog,1/4,0.25,6.075,4.355815
+275,16810-blood-hawk,Blood Hawk,1/8,0.125,6.75,4.1306777
+276,16819-camel,Camel,1/8,0.125,4.125,2.5890393
+277,16833-crab,Crab,0,0.0,0.9,0.7937254
+278,16838-death-dog,Death Dog,1,1.0,16.5,7.3569694
+279,16839-deer,Deer,0,0.0,3.0,2.4494898
+280,16844-draft-horse,Draft Horse,1/4,0.25,16.2,7.9259067
+281,16852-eagle,Eagle,0,0.0,6.75,4.1306777
+282,16855-elephant,Elephant,4,4.0,47.25,19.259089
+283,16857-elk,Elk,1/4,0.25,13.2,7.1864457
+284,16864-flying-snake,Flying Snake,1/8,0.125,15.3,7.6661596
+285,16873-giant-ape,Giant Ape,7,7.0,64.05,25.078527
+286,16874-giant-badger,Giant Badger,1/4,0.25,14.175,7.005578
+287,16875-giant-bat,Giant Bat,1/4,0.25,8.25,5.202163
+288,16876-giant-boar,Giant Boar,2,2.0,16.5,9.15833
+289,16877-giant-centipede,Giant Centipede,1/4,0.25,19.35,14.858079
+290,16878-giant-constrictor-snake,Giant Constrictor Snake,2,2.0,23.4,11.856644
+291,16879-giant-crab,Giant Crab,1/8,0.125,6.075,4.355815
+292,16880-giant-crocodile,Giant Crocodile,5,5.0,69.225,22.759462
+293,16882-giant-elk,Giant Elk,2,2.0,39.6,19.654007
+294,16883-giant-fire-beetle,Giant Fire Beetle,0,0.0,2.625,2.707051
+295,16885-giant-goat,Giant Goat,1/2,0.5,13.2,7.1864457
+296,16886-giant-hyena,Giant Hyena,1,1.0,16.5,9.15833
+297,16887-giant-lizard,Giant Lizard,1/4,0.25,9.75,6.2898726
+298,16889-giant-owl,Giant Owl,1/4,0.25,10.8,7.442782
+299,16890-giant-poisonous-snake,Giant Poisonous Snake,1/4,0.25,37.62,19.387243
+300,16891-giant-rat,Giant Rat,1/8,0.125,6.75,4.1306777
+301,16892-giant-scorpion,Giant Scorpion,3,3.0,78.1875,37.998764
+302,16893-giant-sea-horse,Giant Sea Horse,1/2,0.5,6.075,4.355815
+303,16894-giant-shark,Giant Shark,5,5.0,47.25,19.259089
+304,16897-giant-vulture,Giant Vulture,1,1.0,24.0,10.488089
+305,16898-giant-wasp,Giant Wasp,1/2,0.5,29.85,18.72545
+306,16899-giant-weasel,Giant Weasel,1/8,0.125,9.075,4.952083
+307,16900-giant-wolf-spider,Giant Wolf Spider,1/4,0.25,18.9,13.233367
+308,16906-goat,Goat,0,0.0,4.725,3.283767
+309,16928-hunter-shark,Hunter Shark,2,2.0,23.4,11.856644
+310,16930-hyena,Hyena,0,0.0,4.2,3.5099857
+311,16936-jackal,Jackal,0,0.0,1.575,1.6876389
+312,16937-killer-whale,Killer Whale,3,3.0,38.7,18.949142
+313,16945-lizard,Lizard,0,0.0,0.9,0.7937254
+314,16950-mammoth,Mammoth,6,6.0,65.25,23.39471
+315,16978-phase-spider,Phase Spider,3,3.0,48.6,30.446674
+316,16983-polar-bear,Polar Bear,2,2.0,41.925,13.471753
+317,16984-pony,Pony,1/8,0.125,10.5,6.363961
+318,16989-quipper,Quipper,0,0.0,1.65,0.8616844
+319,16996-rhinoceros,Rhinoceros,2,2.0,27.3,12.419541
+320,17002-saber-toothed-tiger,Saber-Toothed Tiger,2,2.0,21.6,10.685504
+321,17006-scorpion,Scorpion,0,0.0,7.8,6.748333
+322,17018-spider,Spider,0,0.0,3.75,3.1760826
+323,17028-swarm-of-bats,Swarm of Bats,1/4,0.25,7.5,4.7434163
+324,17029-swarm-of-insects,Swarm of Insects,1/2,0.5,13.5,9.0
+325,17030-swarm-of-poisonous-snakes,Swarm of Poisonous Snakes,2,2.0,12.6,6.766092
+326,17031-swarm-of-quippers,Swarm of Quippers,1,1.0,23.1,12.836666
+327,17032-swarm-of-rats,Swarm of Rats,1/4,0.25,8.4,6.5023074
+328,17033-swarm-of-ravens,Swarm of Ravens,1/4,0.25,10.5,6.745369
+329,17048-vulture,Vulture,0,0.0,3.0,2.4494898
+330,17052-weasel,Weasel,0,0.0,1.65,0.8616844
+331,17063-worg,Worg,1/2,0.5,16.5,9.15833
+332,2059742-giant-canary,Giant Canary,1/2,0.5,11.25,7.3866434
+333,2059760-young-amethyst-dragon,Young Amethyst Dragon,9,9.0,82.95,21.123388
+334,2059688-amethyst-dragon-wyrmling,Amethyst Dragon Wyrmling,4,4.0,25.2,12.86157
+335,2059704-animated-breath,Animated Breath,6,6.0,86.4,30.440762
+336,2059762-young-deep-dragon,Young Deep Dragon,5,5.0,50.4,15.273506
+337,2059714-deep-dragon-wyrmling,Deep Dragon Wyrmling,1,1.0,11.25,7.3866434
+338,2059715-dracohydra,Dracohydra,11,11.0,20.475,9.556836
+339,2059716-draconian-dreadnought,Draconian Dreadnought,4,4.0,62.1,18.510267
+340,2059717-draconian-foot-soldier,Draconian Foot Soldier,1/2,0.5,12.15,6.160053
+341,2059719-draconian-mage,Draconian Mage,2,2.0,31.5,13.842868
+342,2059720-draconian-mastermind,Draconian Mastermind,6,6.0,42.075,14.204731
+343,2059726-dragonblood-ooze,Dragonblood Ooze,5,5.0,109.8,37.84521
+344,2059727-dragonbone-golem,Dragonbone Golem,11,11.0,96.1,32.321163
+345,2059730-dragonborn-of-tiamat,Dragonborn of Tiamat,7,7.0,97.5,31.000402
+346,2059722-dragon-blessed,Dragon Blessed,5,5.0,74.25,28.955246
+347,2059723-dragon-chosen,Dragon Chosen,3,3.0,40.5,11.715375
+348,2059733-dragonnel,Dragonnel,2,2.0,33.0,12.951834
+349,2059735-egg-hunter-hatchling,Egg Hunter Hatchling,2,2.0,56.1,21.625563
+350,2059734-egg-hunter-adult,Egg Hunter Adult,5,5.0,68.25,21.687698
+351,2059764-young-emerald-dragon,Young Emerald Dragon,8,8.0,71.175,20.183641
+352,2059737-emerald-dragon-wyrmling,Emerald Dragon Wyrmling,2,2.0,16.5,10.36822
+353,2059740-gem-stalker,Gem Stalker,5,5.0,66.0,18.31666
+354,2059741-ghost-dragon,Ghost Dragon,17,17.0,58.8,17.06048
+355,2059745-hoard-mimic,Hoard Mimic,8,8.0,91.65,24.97804
+356,2059746-hoard-scarab,Hoard Scarab,1/8,0.125,9.075,4.952083
+357,2059756-swarm-of-hoard-scarabs,Swarm of Hoard Scarabs,2,2.0,22.275,12.23757
+358,2059748-liondrake,Liondrake,7,7.0,66.6,19.67079
+359,2059749-metallic-peacekeeper,Metallic Peacekeeper,4,4.0,54.45,21.36039
+360,2059750-metallic-warbler,Metallic Warbler,1/4,0.25,6.75,4.1306777
+361,2059765-young-moonstone-dragon,Young Moonstone Dragon,8,8.0,76.5,23.28884
+362,2059751-moonstone-dragon-wyrmling,Moonstone Dragon Wyrmling,2,2.0,25.575,14.160619
+363,2059766-young-sapphire-dragon,Young Sapphire Dragon,9,9.0,78.75,20.340046
+364,2059753-sapphire-dragon-wyrmling,Sapphire Dragon Wyrmling,3,3.0,19.8,11.195758
+365,2059768-young-topaz-dragon,Young Topaz Dragon,7,7.0,50.325,18.215223
+366,2059757-topaz-dragon-wyrmling,Topaz Dragon Wyrmling,2,2.0,15.0,9.447222
+367,2560739-black-abishai,Black Abishai,7,7.0,50.325,18.185003
+368,2560742-blue-abishai,Blue Abishai,17,17.0,243.0,49.704124
+369,2560838-green-abishai,Green Abishai,15,15.0,108.54,44.540516
+370,2560902-red-abishai,Red Abishai,19,19.0,200.25,52.85771
+371,2560959-white-abishai,White Abishai,6,6.0,42.9,14.196259
+372,2560716-alhoon,Alhoon,10,10.0,109.2,34.075798
+373,2560717-alkilith,Alkilith,11,11.0,97.2,27.619558
+374,2560718-allip,Allip,5,5.0,28.05,15.291583
+375,2560720-amnizu,Amnizu,18,18.0,109.2,31.269154
+376,2560722-annis-hag,Annis Hag,6,6.0,142.35,61.150776
+377,2560725-archer,Archer,3,3.0,30.6,11.0878315
+378,2560736-barghest,Barghest,4,4.0,38.7,14.214429
+379,2560737-berbalang,Berbalang,2,2.0,34.65,14.120995
+380,2560738-bheur-hag,Bheur Hag,7,7.0,75.6,35.345295
+381,2560741-blackguard,Blackguard,8,8.0,99.9,28.99155
+382,2560744-bodak,Bodak,6,6.0,20.25,12.422258
+383,17224-boggle,Boggle,1/8,0.125,2.625,2.707051
+384,2560745-boneclaw,Boneclaw,12,12.0,113.4,39.71574
+385,2560747-bulezau,Bulezau,3,3.0,19.5,12.349089
+386,2560748-cadaver-collector,Cadaver Collector,14,14.0,147.0,41.395653
+387,2560749-canoloth,Canoloth,8,8.0,75.6,27.044409
+388,2560750-catoblepas,Catoblepas,5,5.0,38.7,18.949142
+389,2560728-aurochs,Aurochs,2,2.0,27.3,12.419541
+390,2560768-deep-rothe,Deep Rothé,1/4,0.25,13.5,6.7638745
+391,2560899-ox,Ox,1/4,0.25,13.5,6.7638745
+392,2560929-stench-kow,Stench Kow,1/2,0.5,13.5,6.7638745
+393,2560751-cave-fisher,Cave Fisher,3,3.0,33.0,12.951834
+394,2560752-champion,Champion,9,9.0,119.7,27.491634
+395,2560753-chitine,Chitine,1/2,0.5,20.25,7.154544
+396,2560754-choker,Choker,1,1.0,18.15,7.0033026
+397,2560755-choldrith,Choldrith,3,3.0,26.4,14.372891
+398,2560756-clockwork-bronze-scout,Clockwork Bronze Scout,1,1.0,14.85,8.186421
+399,2560757-clockwork-iron-cobra,Clockwork Iron Cobra,4,4.0,10.725,6.015241
+400,2560758-clockwork-oaken-bolter,Clockwork Oaken Bolter,5,5.0,54.0,19.580603
+401,2560759-clockwork-stone-defender,Clockwork Stone Defender,4,4.0,19.8,9.880283
+402,2560760-cloud-giant-smiling-one,Cloud Giant Smiling One,11,11.0,41.25,22.77087
+403,2560762-corpse-flower,Corpse Flower,8,8.0,87.75,30.35107
+404,17231-darkling,Darkling,1/2,0.5,20.625,11.300581
+405,17232-darkling-elder,Darkling Elder,2,2.0,44.55,17.306538
+406,2560767-deathlock,Deathlock,4,4.0,46.2,18.5879
+407,2560765-deathlock-mastermind,Deathlock Mastermind,8,8.0,44.55,17.961521
+408,2560766-deathlock-wight,Deathlock Wight,3,3.0,39.6,15.763566
+409,2560769-deep-scion,Deep Scion,3,3.0,17.1,8.934764
+410,2560773-derro,Derro,1/4,0.25,9.75,6.2898726
+411,2560775-dhergoloth,Dhergoloth,7,7.0,39.6,15.763566
+412,2560746-brontosaurus,Brontosaurus,5,5.0,53.625,23.818651
+413,2560770-deinonychus,Deinonychus,1,1.0,29.25,10.89438
+414,2560776-dimetrodon,Dimetrodon,1/4,0.25,13.5,8.336666
+415,2560844-hadrosaurus,Hadrosaurus,1/4,0.25,11.25,7.3866434
+416,2560901-quetzalcoatlus,Quetzalcoatlus,2,2.0,18.75,11.41545
+417,2560928-stegosaurus,Stegosaurus,4,4.0,50.7,22.259716
+418,2560950-velociraptor,Velociraptor,1/4,0.25,15.0,6.642665
+419,2560780-dolphin,Dolphin,1/8,0.125,8.25,5.202163
+420,2560781-draegloth,Draegloth,7,7.0,93.6,24.913551
+421,2560784-drow-house-captain,Drow House Captain,9,9.0,98.475,27.0541
+422,2560786-drow-inquisitor,Drow Inquisitor,14,14.0,166.95,38.44382
+423,2560791-duergar-despot,Duergar Despot,12,12.0,44.85,20.049751
+424,2560793-duergar-kavalrachni,Duergar Kavalrachni,2,2.0,34.5,14.887074
+425,2560796-duergar-soulblade,Duergar Soulblade,1,1.0,28.05,15.291583
+426,2560797-duergar-stone-guard,Duergar Stone Guard,2,2.0,39.6,13.972831
+427,2560799-duergar-xarrorn,Duergar Xarrorn,2,2.0,32.175,18.068567
+428,2560792-duergar-hammerer,Duergar Hammerer,2,2.0,27.225,10.957104
+429,2560795-duergar-screamer,Duergar Screamer,3,3.0,35.7,13.819913
+430,2560800-dybbuk,Dybbuk,4,4.0,23.4,11.856644
+431,2560933-summer-eladrin,Summer Eladrin,10,10.0,46.8,21.113266
+432,2560810-fire-giant-dreadnought,Fire Giant Dreadnought,14,14.0,183.6,33.323265
+433,2560811-firenewt-warlock-of-imix,Firenewt Warlock of Imix,1,1.0,24.75,9.01041
+434,2560812-firenewt-warrior,Firenewt Warrior,1/2,0.5,12.15,6.160053
+435,2560813-flail-snail,Flail Snail,3,3.0,45.375,11.073194
+436,2560814-flind,Flind,9,9.0,100.8,26.49783
+437,2560816-froghemoth,Froghemoth,10,10.0,162.0,34.44697
+438,2560819-gauth,Gauth,6,6.0,10.8,8.421401
+439,2560821-gazer,Gazer,1/2,0.5,1.65,0.8616844
+440,2560824-giant-strider,Giant Strider,1,1.0,15.3,7.8402805
+441,2560826-giff,Giff,3,3.0,34.2,12.635664
+442,2560827-girallon,Girallon,4,4.0,67.5,15.124483
+443,2560829-githyanki-kithrak,Githyanki Kith’rak,12,12.0,153.9,43.18229
+444,2560832-githzerai-enlightened,Githzerai Enlightened,10,10.0,163.15,49.64468
+445,2560833-gnoll-flesh-gnawer,Gnoll Flesh Gnawer,1,1.0,23.25,8.437268
+446,2560834-gnoll-hunter,Gnoll Hunter,1/2,0.5,19.5,8.895224
+447,2560835-gnoll-witherling,Gnoll Witherling,1/4,0.25,13.5,5.8416605
+448,2560836-gray-render,Gray Render,12,12.0,115.2,33.399403
+449,2560842-grung,Grung,1/4,0.25,14.25,8.562272
+450,2560840-grung-elite-warrior,Grung Elite Warrior,2,2.0,18.975,10.350513
+451,2560841-grung-wildling,Grung Wildling,1,1.0,18.975,10.350513
+452,2560843-guard-drake,Guard Drake,2,2.0,23.1,9.306517
+453,2560846-hobgoblin-devastator,Hobgoblin Devastator,4,4.0,69.3,26.910686
+454,2560848-howler,Howler,8,8.0,105.6,40.605297
+455,2560855-kobold-dragonshield,Kobold Dragonshield,1,1.0,14.85,7.6874084
+456,2560856-kobold-inventor,Kobold Inventor,1/4,0.25,6.75,4.1306777
+457,17279-korred,Korred,7,7.0,81.9,23.35091
+458,2560858-kraken-priest,Kraken Priest,5,5.0,82.5,35.47006
+459,2560969-young-kruthik,Young Kruthik,1/8,0.125,9.075,4.952083
+460,2560713-adult-kruthik,Adult Kruthik,2,2.0,21.45,8.506836
+461,2560860-leucrotta,Leucrotta,3,3.0,35.1,12.613089
+462,2560865-martial-arts-adept,Martial Arts Adept,3,3.0,45.375,11.073194
+463,2560866-marut,Marut,25,25.0,58.5,30.35416
+464,2560867-master-thief,Master Thief,5,5.0,59.4,17.113153
+465,2560868-maurezhi,Maurezhi,7,7.0,42.9,17.233688
+466,2560869-maw-demon,Maw Demon,1,1.0,16.5,10.319883
+467,2560870-meazel,Meazel,1,1.0,27.225,14.7167635
+468,2560871-meenlock,Meenlock,2,2.0,10.5,6.363961
+469,2560872-merregon,Merregon,4,4.0,51.3,15.475465
+470,2560873-merrenoloth,Merrenoloth,3,3.0,13.2,7.1864457
+471,2560874-mindwitness,Mindwitness,5,5.0,54.0,23.259407
+472,2560878-morkoth,Morkoth,11,11.0,105.0,37.17694
+473,2560879-mouth-of-grolantor,Mouth of Grolantor,6,6.0,36.075,16.257248
+474,2560880-nabassu,Nabassu,15,15.0,149.625,38.510754
+475,2560882-narzugon,Narzugon,13,13.0,176.4,41.385506
+476,2560884-neogi-hatchling,Neogi Hatchling,1/8,0.125,9.45,6.4813194
+477,2560886-neogi,Neogi,3,3.0,60.225,20.961586
+478,2560885-neogi-master,Neogi Master,4,4.0,33.825,18.33298
+479,2560888-nightwalker,Nightwalker,20,20.0,128.25,32.1233
+480,2560889-nilbog,Nilbog,1,1.0,8.25,5.202163
+481,2560890-nupperibo,Nupperibo,1/2,0.5,10.725,6.015241
+482,2560891-oblex-spawn,Oblex Spawn,1/4,0.25,13.2,7.1864457
+483,2560714-adult-oblex,Adult Oblex,5,5.0,64.8,22.551275
+484,2560804-elder-oblex,Elder Oblex,10,10.0,111.6,38.3124
+485,2560893-ogre-bolt-launcher,Ogre Bolt Launcher,2,2.0,23.625,16.1494
+486,2560894-ogre-chain-brute,Ogre Chain Brute,3,3.0,18.6,9.420191
+487,2560895-ogre-howdah,Ogre Howdah,2,2.0,19.8,9.880283
+488,2560898-orthon,Orthon,10,10.0,103.5,39.137066
+489,17299-quickling,Quickling,1,1.0,53.55,12.017799
+490,17300-redcap,Redcap,3,3.0,67.65,27.398312
+491,2560904-retriever,Retriever,14,14.0,67.5,17.33133
+492,2560906-rutterkin,Rutterkin,2,2.0,18.75,11.41545
+493,2560911-shadar-kai-soul-monger,Shadar-kai Soul Monger,11,11.0,107.25,41.267498
+494,2560913-shadow-mastiff,Shadow Mastiff,2,2.0,16.5,9.15833
+495,2560912-shadow-mastiff-alpha,Shadow Mastiff Alpha,3,3.0,16.5,9.15833
+496,2560914-shoosuva,Shoosuva,8,8.0,70.2,26.204962
+497,2560916-skulk,Skulk,1/2,0.5,18.0,8.916277
+498,2560918-slithering-tracker,Slithering Tracker,3,3.0,14.025,8.201105
+499,2560721-angry-sorrowsworn,Angry Sorrowsworn,13,13.0,57.6,21.317598
+500,2560849-hungry-sorrowsworn,Hungry Sorrowsworn,11,11.0,72.0,25.309286
+501,2560963-wretched-sorrowsworn,Wretched Sorrowsworn,1/4,0.25,17.55,12.155554
+502,2560919-spawn-of-kyuss,Spawn of Kyuss,5,5.0,44.55,17.306538
+503,2560922-star-spawn-grue,Star Spawn Grue,1/4,0.25,8.1,5.4868026
+504,2560925-star-spawn-mangler,Star Spawn Mangler,5,5.0,30.6,11.0878315
+505,2560926-star-spawn-seer,Star Spawn Seer,13,13.0,128.25,32.1233
+506,2560808-female-steeder,Female Steeder,1,1.0,27.225,15.104076
+507,2560864-male-steeder,Male Steeder,1/4,0.25,16.5,10.319883
+508,2560927-steel-predator,Steel Predator,16,16.0,120.0,22.164837
+509,2560930-stone-cursed,Stone Cursed,1,1.0,19.8,11.146524
+510,2560931-stone-giant-dreamwalker,Stone Giant Dreamwalker,10,10.0,50.625,18.451372
+511,2560935-swarm-of-rot-grubs,Swarm of Rot Grubs,1/2,0.5,6.3,6.0099916
+512,2560936-swashbuckler,Swashbuckler,3,3.0,42.3,12.474374
+513,2407571-sword-wraith-warrior,Sword Wraith Warrior,3,3.0,17.1,8.934764
+514,2560937-tanarukk,Tanarukk,5,5.0,35.1,12.613089
+515,2560940-tlincalli,Tlincalli,5,5.0,47.85,20.08373
+516,2560942-tortle,Tortle,1/4,0.25,5.4,4.5694637
+517,2560941-tortle-druid,Tortle Druid,2,2.0,13.5,8.336666
+518,2560777-dire-troll,Dire Troll,13,13.0,184.5,29.422567
+519,2560905-rot-troll,Rot Troll,9,9.0,120.9,31.835201
+520,2560920-spirit-troll,Spirit Troll,11,11.0,96.525,31.137106
+521,2560951-venom-troll,Venom Troll,7,7.0,77.4,22.45529
+522,2560945-ulitharid,Ulitharid,9,9.0,115.5,45.596054
+523,2560947-vargouille,Vargouille,1,1.0,24.0,14.474114
+524,2560949-vegepygmy,Vegepygmy,1/4,0.25,8.25,5.202163
+525,2560948-vegepygmy-chief,Vegepygmy Chief,2,2.0,19.5,8.895224
+526,2560938-thorny-vegepygmy,Thorny Vegepygmy,1,1.0,13.5,9.403457
+527,2560952-war-priest,War Priest,9,9.0,73.8,25.644882
+528,2560953-warlock-of-the-archfey,Warlock of the Archfey,4,4.0,47.85,18.676088
+529,2560954-warlock-of-the-fiend,Warlock of the Fiend,7,7.0,101.475,31.75365
+530,2560955-warlock-of-the-great-old-one,Warlock of the Great Old One,6,6.0,52.8,20.326338
+531,2560957-wastrilith,Wastrilith,13,13.0,128.7,34.568195
+532,2560723-apprentice-wizard,Apprentice Wizard,1/4,0.25,11.25,7.3866434
+533,2560712-abjurer-wizard,Abjurer Wizard,9,9.0,119.925,31.705667
+534,2560761-conjurer-wizard,Conjurer Wizard,6,6.0,96.525,31.137106
+535,2560778-diviner-wizard,Diviner Wizard,8,8.0,110.7,32.270576
+536,2560806-enchanter-wizard,Enchanter Wizard,5,5.0,96.525,31.137106
+537,2560807-evoker-wizard,Evoker Wizard,9,9.0,135.0,39.092197
+538,2560852-illusionist-wizard,Illusionist Wizard,3,3.0,46.2,18.5879
+539,2560883-necromancer-wizard,Necromancer Wizard,9,9.0,135.0,39.092197
+540,2560943-transmuter-wizard,Transmuter Wizard,5,5.0,96.525,31.137106
+541,2560962-wood-woad,Wood Woad,5,5.0,50.4,17.327435
+542,2560965-xvart,Xvart,1/8,0.125,8.25,5.202163
+543,2560964-xvart-warlock-of-raxivort,Xvart Warlock of Raxivort,1,1.0,20.25,10.286217
+544,2560966-yagnoloth,Yagnoloth,11,11.0,90.9,32.304024
+545,2560968-yeth-hound,Yeth Hound,4,4.0,45.0,21.943108
+546,2560970-yuan-ti-anathema,Yuan-ti Anathema,12,12.0,140.7,36.84725
+547,2560971-yuan-ti-broodguard,Yuan-ti Broodguard,2,2.0,26.25,9.679231
+548,2560972-yuan-ti-mind-whisperer,Yuan-ti Mind Whisperer,4,4.0,54.45,21.36039
+549,2560973-yuan-ti-nightmare-speaker,Yuan-ti Nightmare Speaker,4,4.0,54.45,21.36039
+550,2560974-yuan-ti-pit-master,Yuan-ti Pit Master,5,5.0,27.225,15.104076
+551,3731010-firbolg-wanderer,Firbolg Wanderer,5,5.0,16.5,9.15833
+552,3730989-bag-jelly,Bag Jelly,1,1.0,21.6,10.525682
+553,3730990-barrowghast,Barrowghast,7,7.0,18.525,8.475443
+554,3730991-cairnwight,Cairnwight,9,9.0,43.875,15.790128
+555,3730993-cinder-hulk,Cinder Hulk,7,7.0,103.35,32.51225
+556,3730994-cloud-giant-destiny-gambler,Cloud Giant Destiny Gambler,19,19.0,267.75,40.767174
+557,3730995-cloud-giant-of-evil-air,Cloud Giant of Evil Air,12,12.0,142.8,25.23014
+558,3731005-echo-of-demogorgon,Echo of Demogorgon,6,6.0,92.4,26.04688
+559,3731013-fire-hellion,Fire Hellion,11,11.0,141.75,35.51628
+560,3731019-frost-giant-ice-shaper,Frost Giant Ice Shaper,17,17.0,34.125,15.483156
+561,3731020-frost-giant-of-evil-water,Frost Giant of Evil Water,11,11.0,147.0,37.386093
+562,3731022-fury-of-kostchtchie,Fury of Kostchtchie,14,14.0,153.0,29.271147
+563,3731023-gargantua,Gargantua,21,21.0,148.5,24.523968
+564,3731025-giant-goose,Giant Goose,3,3.0,36.0,13.365067
+565,3731026-giant-lynx,Giant Lynx,1/2,0.5,15.3,7.8402805
+566,3731027-giant-ox,Giant Ox,3,3.0,27.3,10.895871
+567,3731028-giant-ram,Giant Ram,1,1.0,22.5,11.056672
+568,3731032-grinning-cat,Grinning Cat,1,1.0,13.5,8.336666
+569,3731033-hill-giant-avalancher,Hill Giant Avalancher,12,12.0,53.625,23.818651
+570,3731034-lightning-hulk,Lightning Hulk,9,9.0,37.8,15.754999
+571,3731035-maw-of-yeenoghu,Maw of Yeenoghu,10,10.0,85.5,22.65778
+572,3731036-mist-hulk,Mist Hulk,6,6.0,62.4,20.34183
+573,3731037-mud-hulk,Mud Hulk,3,3.0,15.675,9.30984
+574,3731039-rime-hulk,Rime Hulk,5,5.0,66.6,23.671501
+575,3731047-spectral-cloud,Spectral Cloud,13,13.0,148.8,32.25151
+576,3731048-spotted-lion,Spotted Lion,3,3.0,31.5,12.798437
+577,3731049-stalker-of-baphomet,Stalker of Baphomet,12,12.0,52.875,19.1397
+578,3731050-stone-giant-of-evil-earth,Stone Giant of Evil Earth,9,9.0,87.75,22.330612
+579,3731051-stone-giant-rockspeaker,Stone Giant Rockspeaker,16,16.0,202.5,41.038094
+580,3731052-storm-crab,Storm Crab,11,11.0,81.9,23.35091
+581,3731053-storm-giant-tempest-caller,Storm Giant Tempest Caller,20,20.0,315.9,39.497597
+582,3731054-storm-herald,Storm Herald,17,17.0,233.325,36.847195
+583,3731056-titanothere,Titanothere,5,5.0,46.125,16.487211
+584,3731002-death-giant-reaper,Death Giant Reaper,12,12.0,156.0,34.187717
+585,3731003-death-giant-shrouded-one,Death Giant Shrouded One,15,15.0,86.625,31.043568
+586,3730987-aerosaur,Aerosaur,10,10.0,132.6,25.94487
+587,3730992-ceratops,Ceratops,9,9.0,139.2,31.07668
+588,3731038-regisaur,Regisaur,14,14.0,119.85,32.051014
+589,3731007-fensir-devourer,Fensir Devourer,8,8.0,35.1,16.358637
+590,3731008-fensir-skirmisher,Fensir Skirmisher,6,6.0,22.5,14.300349
+591,3731009-firbolg-primeval-warden,Firbolg Primeval Warden,4,4.0,51.15,20.026138
+592,3731016-fomorian-deep-crawler,Fomorian Deep Crawler,10,10.0,101.25,26.094181
+593,3731017-fomorian-noble,Fomorian Noble,15,15.0,185.625,38.034317
+594,3731018-fomorian-warlock-of-the-dark,Fomorian Warlock of the Dark,12,12.0,55.65,22.084892
+595,3731057-troll-amalgam,Troll Amalgam,17,17.0,207.6,33.57499
+596,3731058-troll-mutate,Troll Mutate,7,7.0,86.4,30.440762
+597,3730999-cradle-of-the-hill-scion,Cradle of the Hill Scion,22,22.0,63.75,17.10592
+598,3730996-cradle-of-the-cloud-scion,Cradle of the Cloud Scion,26,26.0,204.075,25.992271
+599,3731042-scion-of-memnor,Scion of Memnor,26,26.0,153.9,24.568882
+600,3731000-cradle-of-the-stone-scion,Cradle of the Stone Scion,23,23.0,66.15,15.129193
+601,3731043-scion-of-skoraeus,Scion of Skoraeus,23,23.0,507.3,44.4573
+602,3731001-cradle-of-the-storm-scion,Cradle of the Storm Scion,27,27.0,131.1,20.70821
+603,3731044-scion-of-stronmaus,Scion of Stronmaus,27,27.0,142.5,22.5865
+604,3730997-cradle-of-the-fire-scion,Cradle of the Fire Scion,25,25.0,384.75,35.321205
+605,3730998-cradle-of-the-frost-scion,Cradle of the Frost Scion,24,24.0,94.5,20.391174
+606,3731046-scion-of-thrym,Scion of Thrym,24,24.0,142.5,22.920515
