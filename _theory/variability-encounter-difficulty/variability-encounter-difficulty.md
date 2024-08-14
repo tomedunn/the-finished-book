@@ -3,7 +3,7 @@ title: "Variability: Encounter Difficulty"
 excerpt: "What's the probability of winning for each encounter difficulty?"
 permalink: /:collection/:name/
 date: 2024-07-29
-last_modified_at: 2024-07-29
+last_modified_at: 2024-08-14
 tags:
   - theory
   - variability
@@ -150,7 +150,7 @@ This same approach can be applied to understand the impact of the PCs' damage va
 
 This may seem counter intuitive, but, just like in the previous example, the results can be understood by considering how higher $$\CV_{i}$$ values affect the PCs' damage distributions. As $$\CV_{i}$$ increases, the width of the the PCs' damage distributions gets wider. This increases the probability of the PCs getting unlucky and dealing damage far below their average. As a result, there is a higher chance that the PCs will take more rounds than the average to win, leaving more room of the NPC to get lucky and defeat them first.
 
-What both of these examples illustrate is that **increasing the overall damage variability makes unlikely outcomes more likely to occur**. If we were to look at example encounters where the enemy NPC was favored to win instead of the PCs then the sensitivities to $$\CV$$ would be reversed and higher levels of variability would increase the odds of the PCs winning instead of the NPC.
+What both of these examples illustrate is that **increasing the overall damage variability makes unlikely outcomes more likely to occur**. Since the PCs were favored in these example, the unlikely outcome is the enemy NPC winning. If we were to look at example encounters where the enemy NPC was favored to win instead, the sensitivities to $$\CV$$ would be reversed and higher levels of variability would increase the odds of the PCs winning instead of the NPC.
 
 # Tiers of play
 
@@ -172,7 +172,7 @@ If we take typical $$\CV$$ values from Fig. [4](#fig:monster-dpr-cv){: .fig-ref}
     <figcaption>Figure 5: Shows the probability of the PCs losing in an encounter with four identical PCs and one NPC. For the PCs \(N_{i} = 12\), and the NPC goes third in the initiative order. The tiers of play correspond to different damage sigma over mean values used for each combatant: \(\CV = 0.8\) for tier 1, \(\CV = 0.6\) for tier 2, \(\CV = 0.4\) for tier 3, and \(\CV = 0.2\) for tier 4. The encounter difficulty thresholds shown here are \(\diff_{i} = 0.15\) for Easy, \(\diff_{i} = 0.30\) for Medium, \(\diff_{i} = 0.45\) for Hard, and \(\diff_{i} = 0.70\) for Deadly.</figcaption>
 </figure>
 
-The difference in deadliness is quite significant in two ways. For low tiers of play, especially tier 1, the odds of the PCs losing to a Deadly is quite significant, and even Hard difficulty encounters have a non-trivial chance of the PCs losing. For higher tiers of play, especially tier 4, the PCs don't have a significant chance of losing until the difficulty is well into the Deadly category, after which it increases rapidly to $$50\%$$.
+The difference in deadliness is quite significant in two ways. For low tiers of play, especially tier 1, the odds of the PCs losing to a Deadly encounter is quite significant, and even Hard difficulty encounters have a non-trivial chance of the PCs losing. For higher tiers of play, especially tier 4, the PCs don't have a significant chance of losing until the difficulty is well into the Deadly category, after which it increases rapidly to $$50\%$$.
 
 Before concluding, it's important to stress here that this difference in how deadly encounters are between low level and high level play is not because of some miscalibration of our difficulty metric $$\diff_{i}$$. Regardless of the value of $$\CV$$ used, the average damage taken by the PCs is the same for each value of $$\diff_{i}$$. The trends shown here are purely the result of variability, i.e., the randomness that comes from rolling dice to determine outcomes in combat.
 
