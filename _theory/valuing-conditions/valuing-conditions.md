@@ -3,7 +3,7 @@ title: "Valuing Conditions"
 excerpt: "How strong are conditions in 5th edition D&D?"
 permalink: /:collection/:name/
 date: 2022-12-14
-last_modified_at: 2023-07-27
+last_modified_at: 2024-09-27
 tags:
   - conditions
   - mechanics
@@ -640,7 +640,7 @@ The results in Table <a href="#tab:condition-values" class="fig-ref">3</a> are p
             <td style="text-align:left">Blinded</td>
             <td>-37%</td>
             <td>-</td>
-            <td>-37%</td>
+            <td>+37%</td>
             <td>-</td>
         </tr>
         <tr>
