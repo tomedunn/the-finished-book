@@ -148,8 +148,8 @@ The probability of $$\initRoll_{A} < \initRoll_{B}$$ can be obtained from Eqn. \
     P(\initRoll_{A} < \initRoll_{B}) 
         &=& \frac{1}{20} \sum_{\initRoll_{A}} P(\initRoll_{A} < \initRoll_{B} | \initRoll_{A}) \nonumber \\\\ 
         &=& \begin{cases} 
-            1 - \frac{ \left( 20 - \Delta \initBonus \right) \left( 21 - \Delta \initBonus \right) }{ 800 } &, &\Delta \initBonus <  0 \,; \\\\ 
-            \frac{ \left( 19 + \Delta \initBonus \right) \left( 20 + \Delta \initBonus \right) }{ 800 } &, &\Delta \initBonus \ge 0 \,.
+            1 - \frac{ \left( 20 + \Delta \initBonus \right) \left( 21 + \Delta \initBonus \right) }{ 800 } &, &\Delta \initBonus <  0 \,; \\\\ 
+            \frac{ \left( 19 - \Delta \initBonus \right) \left( 20 - \Delta \initBonus \right) }{ 800 } &, &\Delta \initBonus \ge 0 \,.
         \end{cases}
     \label{eq:prob-ia-lt-ib}
 \end{eqnarray}
