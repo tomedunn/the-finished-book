@@ -65,10 +65,10 @@ Occasionally, two or more characters will end up with the same initiative roll. 
 That all said, there are several ways we can look at the probabilities surrounding rolling initiative and initiative orders. The sections that follow look at initiative probabilities through three different angles. 
 
 * **Relative Position.** This looks at the odds of a character going before or after one specific character in the initiative order.
+* **Explicit Order.** This looks the probability that the characters will end up in a specific order.
 * **General Position.** This looks at the probability of a character having a specific position within the initiative order, without worrying about the specific positions of the other characters. 
-* **Specific Order.** This looks the probability of the initiative order following a specific order.
 
-## Relative Position
+## Relative position
 
 As our first step into calculating initiative probabilities, let's look at a simple scenario with two characters, $$A$$ and $$B$$, who each have their own initiative modifiers of $$\initBonus_{A}$$ and $$\initBonus_{B}$$ respectively. When $$A$$ and $$B$$ roll initiative, there are three possible outcomes: $$A$$ could roll higher than $$B$$, $$B$$ could roll higher than $$A$$, or $$A$$ and $$B$$ could roll the same values.
 
