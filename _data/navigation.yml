@@ -63,6 +63,8 @@ theory:
     children:
       - title: "Effective HP and Damage"
         url: /theory/effective-hp-and-damage/
+      - title: "Initiative Probabilities"
+        url: /theory/initiative-probabilities/
       - title: "Rounds of Combat Per Day"
         url: /theory/rounds-per-day/
       - title: "Valuing Conditions"
