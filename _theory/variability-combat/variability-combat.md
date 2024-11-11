@@ -3,7 +3,7 @@ title: "Variability: Combat"
 excerpt: "How much does chance affect combat?"
 permalink: /:collection/:name/
 date: 2024-07-16
-last_modified_at: 2024-07-16
+last_modified_at: 2024-11-11
 tags:
   - theory
   - variability
@@ -24,6 +24,10 @@ tags:
 \newcommand{\final}{\mathrm{final}}
 \newcommand{\CV}{\mathit{CV}}
 \newcommand{\diff}{\mathit{diff}}
+\newcommand{\dave}{\mathit{d}_{\ave}}
+\newcommand{\dvar}{\mathit{d}_{\mathrm{v}}}
+\newcommand{\tave}{\mathit{t}_{\ave}}
+\newcommand{\tvar}{\mathit{t}_{\mathrm{v}}}
 \)
 </div>
 
@@ -117,15 +121,20 @@ Lastly, while the average damage approach might suggest the first combatant alwa
 
 # Other calculations
 
-## Average encounter length
+## Final encounter length
 
-We can calculate the average number of turns it takes for the encounter to end using Eqn. \eqref{eq:win-prob-delta},
+We can calculate the average number of turns it takes for the encounter to end, $$\tave,$$ using Eqn. \eqref{eq:win-prob-delta},
 \begin{align}
-    \left< t \right> &= \sum_{t = 1}^{\infty} t \, \pdf \left( \win, t \right) \,,
+    \tave &= \sum_{t = 1}^{\infty} t \, \pdf \left( \win, t \right) \,,
 \end{align}
 where $$\pdf \left( \win, t \right)$$ is the total probability of either combatant winning during turn $$t$$. 
 
-In the example encounter shown in Fig. [3](#fig:example-win-distribution){: .fig-ref}, the average length of the encounter is $$\left< t \right> = 2.8$$ rounds, slightly shorted than the $$3.1$$ arounds we'd expect using just the average damage done by each combatant. The difference between these two results comes from the fact that the later ignores the chance of the second combatant getting lucky and winning the encounter before the first combatant has a chance to defeat them.
+The variance in the number of turns it takes for the encounter to end, $$\tvar,$$ can be calculated similarly,
+\begin{align}
+    \tvar &= \sum_{t = 1}^{\infty} \left( t - \tave \right)^2 \, \pdf \left( \win, t \right) \,.
+\end{align}
+
+In the example encounter shown in Fig. [3](#fig:example-win-distribution){: .fig-ref}, the average length of the encounter is $$\tave = 2.8$$ rounds and the standard deviation is $$0.84$$ rounds ($$\tvar = 0.71$$). The average here is slightly shorter than the $$3.1$$ rounds we'd expect using just the average damage done by each combatant. This difference comes from the fact that using the average damage ignores the chance of the second combatant getting lucky and winning the encounter before the first combatant has a chance to defeat them.
 
 
 ## Final damage distribution
@@ -144,6 +153,12 @@ For any other damage value between $$0$$ and $$\HP - 1$$, the combatant must hav
     \end{cases}
     \label{eq:final-damage-distribution}
 \end{equation}
+
+The average damage taken, $$\dave,$$ and the damage variance, $$\dvar,$$ can be calculated using the final damage distribution given by Eqn. \eqref{eq:final-damage-distribution} in the typical ways,
+\begin{align}
+    \dave &= \sum_{d = 0}^{\infty} d \, \pdf_{i} (d) \,, \\\\ 
+    \dvar &= \sum_{d = 0}^{\infty} \left(d - \dave \right)^2 \, \pdf_{i} (d) \,.
+\end{align}
 
 An example final damage distribution given by Eqn. \eqref{eq:final-damage-distribution} is shown in Fig. [4](#fig:final-damage-distribution){: .fig-ref} (below) for the second combatant from the encounter shown previously in Fig. [3](#fig:example-win-distribution){: .fig-ref}.
 
@@ -231,4 +246,4 @@ The Gaussian approximation differs from the exact solution slightly, underestima
 
 Variability is an important aspect D&D's combat system that is often critically overlooked. The math presented in this post helps to form a robust framework for analyzing that variability, but more work is needed.
 
-While I had hoped to include more in this post, I think this is a good place to stop. I have plans to explore this topic further in at least two posts: the first looks at how the Gaussian approximation can be applied to encounter difficulty to calculate the probabilities of winning and losing, and the second looks at how initiative influences combat variability.
+While I had hoped to include more in this post, I think this is a good place to stop. I have plans to explore this topic further in at least two posts: the first looks at how the Gaussian approximation can be applied to [encounter difficulty]({{ site.data.page-links.variability-encounter-difficulty.path }}) to calculate the probabilities of winning and losing, and the second looks at how initiative influences combat variability.

@@ -1,6 +1,7 @@
 from icepool import map, d, Die
 import numpy as np
 from scipy.special import erf
+import plotly.graph_objects as go
 
 def gaussian(mu, sigma, d):
     return (1/(sigma*np.sqrt(2*np.pi)))*np.exp(-0.5*((d - mu)/(sigma))**2)
@@ -243,6 +244,41 @@ class Encounter:
                 }]
         self.turns = turns
 
+    def combatant_turns_mean(self, **kwargs):
+        """Returns the average number of turns taken by each combatant in the encounter.
+        """
+        turns_count = {c.name: 0 for c in self.combatants}
+        turns_mean = {c.name: 0 for c in self.combatants}
+        win_probs = self.encounter_win_pdf(**kwargs)
+        for t, p in zip(self.turns, win_probs):
+            if not t['name']: continue
+            turns_count[t['name']] += 1
+            for k, v in turns_count.items():
+                turns_mean[k] += p*v
+
+        return turns_mean
+    
+    def combatant_turns_sigma(self, **kwargs):
+        """Returns the standard deviation of the number of turns taken by each combatant in the encounter.
+        """
+        turns_variance = self.combatant_turns_variance(**kwargs)
+        return {k: np.sqrt(v) for k, v in turns_variance.items()}
+    
+    def combatant_turns_variance(self, **kwargs):
+        """Returns the variance of the number of turns taken by each combatant in the encounter.
+        """
+        turns_mean = self.combatant_turns_mean(**kwargs)
+        turns_count = {c.name: 0 for c in self.combatants}
+        turns_variance = {c.name: 0 for c in self.combatants}
+        win_probs = self.encounter_win_pdf(**kwargs)
+        for t, p in zip(self.turns, win_probs):
+            if not t['name']: continue
+            turns_count[t['name']] += 1
+            for k, v in turns_count.items():
+                turns_variance[k] += p*(v - turns_mean[k])**2
+
+        return turns_variance
+
     def encounter_win_cdf(self, **kwargs):
         """Returns the cumulative probability the encounter ends during each turn
         or before.
@@ -256,11 +292,29 @@ class Encounter:
         units = kwargs.get('units', 'round').lower()
         if units in ['round','rounds']:
             return turns/len(self.combatants)
-        elif units == ['turn','turns']:
+        elif units in ['turn','turns']:
             return turns
         else:
             raise('Unrecognized unit!')
+    
+    def encounter_length_sigma(self, **kwargs):
+        """Returns the standard deviation in the length of the encounter in turns or rounds."""
+        return np.sqrt(self.encounter_length_variance(**kwargs))
 
+    def encounter_length_variance(self, **kwargs):
+        """Returns the variance in the length of the encounter in turns or rounds."""
+        turns_mean = self.encounter_length(units='turns')
+
+        win_pdf = self.encounter_win_pdf(**kwargs)
+        turns = sum([((t - turns_mean)**2) *win_pdf[t] for t in range(len(win_pdf))])
+        units = kwargs.get('units', 'round').lower()
+        if units in ['round','rounds']:
+            return turns/(len(self.combatants)**2)
+        elif units in ['turn','turns']:
+            return turns
+        else:
+            raise('Unrecognized unit!')
+        
     def encounter_win_pdf(self, **kwargs):
         """Returns the probability the encounter ends during each turn
         """
@@ -268,6 +322,18 @@ class Encounter:
         for group_name in self.groups:
             pdf = pdf + np.array(self.group_win_pdf(group_name, **kwargs))
         return list(pdf)
+
+    def get_combatant(self, name):
+        for c in self.combatants:
+            if c.name == name:
+                return c
+        return None
+    
+    def get_turn(self, name, round):
+        for t in self.turns:
+            if name == t['name'] and round == t['round']:
+                return t['turn']
+        return None
 
     def group_damage_cdf(self, group_name, **kwargs):
         """Returns the probability of the given group having dealt enough 
@@ -319,25 +385,6 @@ class Encounter:
         cdf = self.group_damage_cdf(group_name, **kwargs)
         return [0.0] + [cdf[i] - cdf[i-1] for i in range(1, len(cdf))]
     
-    def group_win_cdf(self, group_name, **kwargs):
-        """Returns the cumulative probability of the given group winning the
-        encounter during each turn or before."""
-        pdf = self.group_win_pdf(group_name, **kwargs)
-        return list(np.cumsum(pdf))
-    
-    def group_win_pdf(self, group_name, **kwargs):
-        """Returns the probability of the given group winning the
-        encounter during each turn."""
-        g_pdf = self.group_damage_pdf(group_name, **kwargs)
-        opponent = self.groups[group_name]['opponent']
-        o_cdf = self.group_damage_cdf(opponent, **kwargs)
-        return [p*(1 - c) for p, c in zip(g_pdf, o_cdf)]
-    
-    def group_win_pct(self, group_name, **kwargs):
-        """Returns the probability of the given group winning the encounter.
-        """
-        return max(self.group_win_cdf(group_name, **kwargs))
-    
     def group_damage(self, group_name, turn, **kwargs):
         """Returns the damage distribution for the given group at the end of the given turn.
         """
@@ -368,24 +415,6 @@ class Encounter:
 
         return damage
     
-    def group_overdamage(self, group_name, turn, **kwargs):
-        """Returns the overdamage distribution for the given group at the end of rounds of combat.
-        """
-        
-        damage = self.group_damage(group_name, turn-1)
-
-        opponent = self.groups[group_name]['opponent']
-        opponent_hit_points = self.groups[opponent]['hit points']
-        damage, _ = split_overdamage(damage, opponent_hit_points)
-
-        t =  self.turns[turn]
-        if t['name'] and t['group'] == group_name:
-            damage += self.get_combatant(t['name']).dpr(t['round'])
-
-        damage, over_damage = split_overdamage(damage, opponent_hit_points)
-        
-        return damage, over_damage
-    
     def group_damage_distribution(self, group_name, **kwargs):
         """returns the final damage distribution for the given group.
 
@@ -397,13 +426,11 @@ class Encounter:
         win_probs = np.array(self.encounter_win_pdf())
 
         damage_dict = {}
-        min_prob = 1.0
         for t, p in zip(self.turns, win_probs):
             if p == 0:
                 continue
             
             damage, over_damage = self.group_overdamage(group_name, t['turn'])
-            min_prob = min(min_prob, p*np.min(damage.probabilities()), p*np.min(over_damage.probabilities()))
             if t['group'] == group_name:
                 for k, v in zip(over_damage.keys(), over_damage.probabilities()):
                     damage_dict[k] = damage_dict.get(k, 0) + p*v
@@ -413,7 +440,7 @@ class Encounter:
 
         # convert to die
         for k, v in damage_dict.items():
-            damage_dict[k] = int(v/min_prob)
+            damage_dict[k] = int(v*1.0e8)
         damage = Die(damage_dict)
 
         if kwargs.get('clip', False):
@@ -443,23 +470,24 @@ class Encounter:
         d_ave = []
         damage_mean = 0
         damage_var = 0
+        win_probs = np.array(self.encounter_win_pdf(**kwargs))
         for i in range(len(self.turns)):
             t = self.turns[i]
             if t['group'] == group_name:
                 c = self.get_combatant(t['name'])
                 damage_mean += c.dpr(t['round']).mean()
                 damage_var += c.dpr(t['round']).variance()
-            
-            if clip:
-                d_ave_turn = opponent_hit_points*cdf[i] + damage_mean*(1 - cdf[i])
-                if damage_mean > 0:
-                    d_ave_turn += -damage_var*gaussian(damage_mean, np.sqrt(damage_var), opponent_hit_points)
+                if clip:
+                    d_ave_turn = opponent_hit_points
+                else:
+                    d_ave_turn = damage_mean
             else:
-                d_ave_turn = damage_mean
+                d_ave_turn = 0
+                if (damage_mean > 0) and (cdf[i] < 1):
+                    d_ave_turn += damage_mean - damage_var*gaussian(damage_mean, np.sqrt(damage_var), opponent_hit_points - 0.5)/(1 - cdf[i])
             
             d_ave += [d_ave_turn]
 
-        win_probs = np.array(self.encounter_win_pdf(**kwargs))
         return sum([p*d for p, d in zip(win_probs, d_ave)])
     
     def group_damage_sigma(self, group_name, **kwargs):
@@ -481,42 +509,151 @@ class Encounter:
         """
         clip = kwargs.get('clip', False)
 
+        group_damage_mean = self.group_damage_mean_approx(group_name, **kwargs)
         cdf = self.group_damage_cdf_approx(group_name)
         opponent = self.groups[group_name]['opponent']
         opponent_hit_points = self.groups[opponent]['hit points']
+        win_probs = np.array(self.encounter_win_pdf(**kwargs))
 
         d_var = []
         damage_mean = 0
         damage_var = 0
         for i in range(len(self.turns)):
             t = self.turns[i]
+
             if t['group'] == group_name:
                 c = self.get_combatant(t['name'])
                 damage_mean += c.dpr(t['round']).mean()
                 damage_var += c.dpr(t['round']).variance()
-            
-            if clip:
-                # should have some kind of other calculation here?
-                d_ave_turn = damage_var
-            else:
-                d_ave_turn = damage_var
-            
-            d_var += [d_ave_turn]
 
-        win_probs = np.array(self.encounter_win_pdf(**kwargs))
+                if clip:
+                    d_ave_turn = opponent_hit_points
+                    d_var_turn = 0
+                else:
+                    d_ave_turn = damage_mean
+                    d_var_turn = damage_var
+            else:
+                d_var_turn = 0
+                d_ave_turn = 0
+                if (damage_mean > 0) and (cdf[i] < 1):
+
+                    g = gaussian(damage_mean, np.sqrt(damage_var), opponent_hit_points - 0.5)/(1 - cdf[i])
+                    d_ave_turn = damage_mean - damage_var*g
+                    d2_ave_turn = damage_mean**2 + damage_var*(1 - (opponent_hit_points - 0.5 + damage_mean)*g)
+                    d_var_turn = d2_ave_turn - d_ave_turn**2
+                    
+                    d_var_turn = damage_var + damage_var*(damage_mean - (opponent_hit_points - 0.5))*g - (damage_var*g)**2
+
+            
+            if d_var_turn < 0:
+                # not sure why this happens, but this seems to work OK as a fix ...
+                """print(f'{i}:')
+                print(f' - {d_var_turn}')
+                print(f'   {damage_mean}')
+                print(f'   {damage_var}')
+                print(f'   {g}')
+                print(f'   {(damage_mean - (opponent_hit_points - 0.5))}')
+                print(f'   {damage_var*g}')"""
+
+                d_var_turn = 0
+            
+            d_var += [d_var_turn + (group_damage_mean - d_ave_turn)**2]
+            #d_var += [(group_damage_mean - d_ave_turn)**2]
+
         return sum([p*d for p, d in zip(win_probs, d_var)])
 
-    def get_combatant(self, name):
-        for c in self.combatants:
-            if c.name == name:
-                return c
-        return None
+    def group_overdamage(self, group_name, turn, **kwargs):
+        """Returns the overdamage distribution for the given group at the end of rounds of combat.
+        """
+        
+        damage = self.group_damage(group_name, turn-1)
+
+        opponent = self.groups[group_name]['opponent']
+        opponent_hit_points = self.groups[opponent]['hit points']
+        damage, _ = split_overdamage(damage, opponent_hit_points)
+
+        t =  self.turns[turn]
+        if t['name'] and t['group'] == group_name:
+            damage += self.get_combatant(t['name']).dpr(t['round'])
+
+        damage, over_damage = split_overdamage(damage, opponent_hit_points)
+        
+        return damage, over_damage
     
-    def get_turn(self, name, round):
-        for t in self.turns:
-            if name == t['name'] and round == t['round']:
-                return t['turn']
-        return None
+    def group_win_cdf(self, group_name, **kwargs):
+        """Returns the cumulative probability of the given group winning the
+        encounter during each turn or before."""
+        pdf = self.group_win_pdf(group_name, **kwargs)
+        return list(np.cumsum(pdf))
+    
+    def group_win_pdf(self, group_name, **kwargs):
+        """Returns the probability of the given group winning the
+        encounter during each turn."""
+        g_pdf = self.group_damage_pdf(group_name, **kwargs)
+        opponent = self.groups[group_name]['opponent']
+        o_cdf = self.group_damage_cdf(opponent, **kwargs)
+        return [p*(1 - c) for p, c in zip(g_pdf, o_cdf)]
+    
+    def group_win_pct(self, group_name, **kwargs):
+        """Returns the probability of the given group winning the encounter.
+        """
+        return max(self.group_win_cdf(group_name, **kwargs))
+    
+    def plot_probability_diagram(self, fig):
+        groups = [g for g in self.groups]
+        turns = self.turns
+        cdf_0 = self.group_damage_cdf(groups[0])
+        pdf_0 = self.group_damage_pdf(groups[0])
+        cdf_1 = self.group_damage_cdf(groups[1])
+        pdf_1 = self.group_damage_pdf(groups[1])
+        for t, p0, c0, p1, c1 in zip(turns, pdf_0, cdf_0, pdf_1, cdf_1):
+            if p0 + p1 == 0: continue
+            if c0+c1 >= 2: continue
+            group = t['group']
+            round = t['round']
+            turn = t['turn'] - (round - 1)*len(self.combatants)
+            if group == groups[0]:
+                fig.add_shape(
+                    type="rect",
+                    x0=c0-p0, x1=c0,
+                    y0=c1, y1=1,
+                    line=dict(color='rgba(250,250,250,1)', width=1),
+                    fillcolor='red',
+                    opacity=0.3,
+                )
+                fig.add_trace(go.Scatter(
+                    x=[(c0-p0 + c0)/2],
+                    y=[(c1 + 1)/2],
+                    text=[f"{round:.0f}.{turn:.0f}"],
+                    mode='text',
+                    showlegend=False,
+                    hovertemplate=
+                        f'{group}<br>'+
+                        f'Round {round:.0f}<br>'+
+                        f'Turn {turn:.0f}<br>'+
+                        f'Win PDF {p0*(1 - c1):.3%}<extra></extra>'
+                ))
+            elif group == groups[1]:
+                fig.add_shape(
+                    type="rect",
+                    x0=c0, x1=1,
+                    y0=c1-p1, y1=c1,
+                    line=dict(color='rgba(250,250,250,1)', width=1),
+                    fillcolor='blue',
+                    opacity=0.3,
+                )
+                fig.add_trace(go.Scatter(
+                    x=[(c0 + 1)/2],
+                    y=[(c1-p1 + c1)/2],
+                    text=[f"{round:.0f}.{turn:.0f}"],
+                    mode='text',
+                    showlegend=False,
+                    hovertemplate=
+                        f'{group}<br>'+
+                        f'Round {round:.0f}<br>'+
+                        f'Turn {turn:.0f}<br>'+
+                        f'Win PDF {p1*(1 - c0):.3%}<extra></extra>'
+                ))
 
 def baseline_pc(level):
     return {
