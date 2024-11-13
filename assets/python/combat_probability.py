@@ -285,17 +285,24 @@ class Encounter:
         """
         return list(np.cumsum(self.encounter_win_pdf(**kwargs)))
     
-    def encounter_length(self, **kwargs):
-        """Returns the average length of the encounter in turns or rounds."""
-        win_pdf = self.encounter_win_pdf(**kwargs)
-        turns = sum([t*win_pdf[t] for t in range(len(win_pdf))])
+    def encounter_length_distribution(self, **kwargs):
+        """Returns the probability for each length of encounter in turns or rounds."""
         units = kwargs.get('units', 'round').lower()
         if units in ['round','rounds']:
-            return turns/len(self.combatants)
+            n = len(self.combatants)
         elif units in ['turn','turns']:
-            return turns
+            n = 1
         else:
             raise('Unrecognized unit!')
+        
+        win_pdf = self.encounter_win_pdf(**kwargs)
+
+        return Die({(t/n): int(np.floor(win_pdf[t]*1e8)) for t in range(len(win_pdf))})
+    
+    def encounter_length_mean(self, **kwargs):
+        """Returns the average length of the encounter in turns or rounds."""
+        turns = self.encounter_length_distribution(**kwargs)
+        return turns.mean()
     
     def encounter_length_sigma(self, **kwargs):
         """Returns the standard deviation in the length of the encounter in turns or rounds."""
@@ -303,17 +310,8 @@ class Encounter:
 
     def encounter_length_variance(self, **kwargs):
         """Returns the variance in the length of the encounter in turns or rounds."""
-        turns_mean = self.encounter_length(units='turns')
-
-        win_pdf = self.encounter_win_pdf(**kwargs)
-        turns = sum([((t - turns_mean)**2) *win_pdf[t] for t in range(len(win_pdf))])
-        units = kwargs.get('units', 'round').lower()
-        if units in ['round','rounds']:
-            return turns/(len(self.combatants)**2)
-        elif units in ['turn','turns']:
-            return turns
-        else:
-            raise('Unrecognized unit!')
+        turns = self.encounter_length_distribution(**kwargs)
+        return turns.variance()
         
     def encounter_win_pdf(self, **kwargs):
         """Returns the probability the encounter ends during each turn

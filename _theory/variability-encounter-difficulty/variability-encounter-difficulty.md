@@ -3,7 +3,7 @@ title: "Variability: Encounter Difficulty"
 excerpt: "What's the probability of winning for each encounter difficulty?"
 permalink: /:collection/:name/
 date: 2024-07-29
-last_modified_at: 2024-08-14
+last_modified_at: 2024-11-13
 tags:
   - theory
   - variability
@@ -123,7 +123,7 @@ Figure [1](#fig:win-vs-diff-deadly){: .fig-ref} (below) shows the probability of
     <figcaption>Figure 1: Shows the probability of each side winning in an encounter with four identical PCs and one NPC who goes third in initiative. For the PCs \(N_{i} = 12\) and \(\CV_{i} = 0.5\), and for the NPC \(\CV_{j} = 0.5\). The encounter difficulty thresholds shown here are \(\diff_{i} = 0.15\) for Easy, \(\diff_{i} = 0.30\) for Medium, \(\diff_{i} = 0.45\) for Hard, and \(\diff_{i} = 0.70\) for Deadly.</figcaption>
 </figure>
 
-The probability of the PCs winning behaves largely as expected, starting out near zero and increasing with the encounter difficulty past the start of the Hard difficulty range. By the end of the Hard difficulty range, the probability of the PCs winning drops to around $$89\%$$, and it continues to drop in a fairly linear fashion throughout the Deadly difficulty range until reaching $$50\%$$ at $$\diff_{i} = 1$$.
+The probability of the PCs winning behaves largely as expected, starting out near one and decreasing with the encounter difficulty past the start of the Hard difficulty range. By the end of the Hard difficulty range, the probability of the PCs winning has dropped to around $$89\%$$, and it continues to drop in a fairly linear fashion throughout the Deadly difficulty range until reaching $$50\%$$ at $$\diff_{i} = 1$$.
 
 That the PCs have only a $$50\%$$ chance of winning when $$\diff_{i} = 1$$ makes intuitive sense, since the PCs and NPCs are expected to win in the same number of rounds before factoring in variability. This result is helped by the fact that the enemy NPC always goes third in the initiative order. If they had gone earlier in the initiative order then their chances of winning would be higher, and they had gone later the chances would be lower.
 
@@ -176,8 +176,34 @@ The difference in deadliness is quite significant in two ways. For low tiers of 
 
 Before concluding, it's important to stress here that this difference in how deadly encounters are between low level and high level play is not because of some miscalibration of our difficulty metric $$\diff_{i}$$. Regardless of the value of $$\CV$$ used, the average damage taken by the PCs is the same for each value of $$\diff_{i}$$. The trends shown here are purely the result of variability, i.e., the randomness that comes from rolling dice to determine outcomes in combat.
 
+# Percieved difficulty
+
+Previously, we defined the encounter difficulty, $$\diff,$$ based on the damage we expect the PCs to take, on average, but the actual damage will differ from this within some range about that average. As a result, how difficult the encounter feels in play will also vary about the intended difficulty.
+
+We can see an example of this in Fig. [6](#fig:damage-vs-diff){: .fig-ref} (below) which shows the average damage taken by each side in the encounter shown previously in Fig. [1](#fig:win-vs-diff-deadly){: .fig-ref}, along with the a $$60\%$$ confidence interval about that average.
+
+<figure id="fig:damage-vs-diff">
+    {% include_relative fig-damage-vs-diff-small.html %}
+    {% include_relative fig-damage-vs-diff-large.html %}
+    <figcaption>Figure 6: Shows the average damage taken for each side in an encounter with four identical PCs and one NPC who goes third in initiative. For the PCs \(N_{i} = 12\) and \(\CV_{i} = 0.5\), and for the NPC \(\CV_{j} = 0.5\). The encounter difficulty thresholds shown here are \(\diff_{i} = 0.15\) for Easy, \(\diff_{i} = 0.30\) for Medium, \(\diff_{i} = 0.45\) for Hard, and \(\diff_{i} = 0.70\) for Deadly.</figcaption>
+</figure>
+
+For Hard encounters and below the average damage taken by the PCs matches the expected value, but for higher difficulties the damage is lower. This trend comes from the damage taken being capped at the maximum hit points for each side. This causes the low damage portions of the distribution to pull the average down. If we were to plot the median damage instead of the mean for the average, it would continue to follow the expected trend all the way up to $$\diff=1.$$
+
+We can convert the final damage distribution for an encounter into a difficulty distribution using the $$\diff$$ ranges for each difficulty: $$0.0-0.15$$ for Trivial, $$0.15-0.3$$ for Easy, $$0.3-0.45$$ for Medium, $$0.45-0.7$$ for Hard, $$0.7-1.0$$ for Deadly, and $$\ge 1$$ for a TPK. Figure [7](diff-probabilities){: .fig-ref} (below) shows this for the encounter described previously in Fig. [6](#fig:damage-vs-diff){: .fig-ref} with target $$\diff$$ values at the center of each difficulty range.
+
+<figure id="fig:diff-probabilities">
+    {% include_relative fig-diff-probabilities-small.html %}
+    {% include_relative fig-diff-probabilities-large.html %}
+    <figcaption>Figure 7: Shows the probability an encounter's damage falls into each difficulty ranges based on the targeted encounter difficulties at the center of each difficulty range; \(\diff_{i} = 0.225\) for Easy, \(\diff_{i} = 0.375\) for Medium, \(\diff_{i} = 0.575\) for Hard, and \(\diff_{i} = 0.85\) for Deadly. The encounter has four identical PCs and one NPC who goes third in initiative. For the PCs \(N_{i} = 12\) and \(\CV_{i} = 0.5\), and for the NPC \(\CV_{j} = 0.5\).</figcaption>
+</figure>
+
+While the most probable perceived difficulty is the target for each difficulty category, only the Easy encounter is on target more than $$50\%$$ of the time. For the rest the perceived difficulty is more likely to be either one category higher or lower than on target.
+
+The $$\CV$$ values used here reflect those near the end of tier 2 and the beginning of tier 3. Therefore, these distributions will be broader at low levels, where $$\CV$$ is higher, and narrower at higher levels, where $$\CV$$ is lower.
+
 # Conclusion
 
-Variability, especially from damage, plays a major role in determining how deadly encounters are for the PCs in D&D. Higher levels of damage variability increase the likelihood of the PCs being defeated for Deadly, and even Hard encounters. And, since damage variability tends to be higher at lower levels for both PCs and monsters, this makes low level combat considerably more deadly than high level combat. A result that is frequently observed by people who play D&D 5th edition.
+Variability, especially from damage, plays a major role in determining how deadly encounters are for the PCs in D&D. Higher levels of damage variability increase the likelihood of the PCs being defeated for Deadly, and even Hard encounters. And, since damage variability tends to be higher at lower levels for both PCs and monsters, this makes low level combat considerably more deadly than high level combat and perceived accuracy of the encounter building rules to be lower. Results that are frequently observed by people who play D&D 5th edition.
 
 While approach used here should be sufficient to illustrate the general trends for how variability impacts the odds of the PCs winning or losing combat encounters of different difficulties, it isn't sufficiently robust to cover all combat scenarios. I have one more post planned for this series that looks at the impact of initiative, but it would also be good to revisit this topic for encounters with multiple monsters, encounters where individual combatants can be defeated before the end of the encounter, and encounters where healing can be used to improve survivability and bring back fallen allies.
