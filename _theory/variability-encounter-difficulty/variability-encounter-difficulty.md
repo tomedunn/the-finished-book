@@ -4,6 +4,8 @@ excerpt: "What's the probability of winning for each encounter difficulty?"
 permalink: /:collection/:name/
 date: 2024-07-29
 last_modified_at: 2024-11-13
+header:
+  og_image: variability-encounter-difficulty.png
 tags:
   - theory
   - variability

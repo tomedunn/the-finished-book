@@ -20,7 +20,7 @@ title                    : "The Finished Book"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Tom Dunn"
-description              : "Analysis of Dungeons & Dragon's 5th edition"
+description              : "Analysis of Dungeons & Dragons 5th edition"
 url                      : https://tomedunn.github.io
 baseurl                  : /the-finished-book # the subpath of your site, e.g. "/blog"
 repository               : tomedunn/the-finished-book
@@ -258,9 +258,8 @@ tag_archive:
 
 # Scripts
 head_scripts:
-  - https://cdn.plot.ly/plotly-2.24.1.min.js
+  - https://cdn.plot.ly/plotly-2.29.1.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
-#  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML #?config=TeX-MML-AM_CHTML
 
 # HTML Compression
 # - https://jch.penibelst.de/
