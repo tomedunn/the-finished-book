@@ -176,7 +176,7 @@ The difference in deadliness is quite significant in two ways. For low tiers of 
 
 Before concluding, it's important to stress here that this difference in how deadly encounters are between low level and high level play is not because of some miscalibration of our difficulty metric $$\diff_{i}$$. Regardless of the value of $$\CV$$ used, the average damage taken by the PCs is the same for each value of $$\diff_{i}$$. The trends shown here are purely the result of variability, i.e., the randomness that comes from rolling dice to determine outcomes in combat.
 
-# Percieved difficulty
+# Perceived difficulty
 
 Previously, we defined the encounter difficulty, $$\diff,$$ based on the damage we expect the PCs to take, on average, but the actual damage will differ from this within some range about that average. As a result, how difficult the encounter feels in play will also vary about the intended difficulty.
 
