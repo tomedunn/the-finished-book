@@ -3,7 +3,7 @@ title: "The Finished Book"
 layout: splash
 permalink: /
 date: 2021-10-29
-last_modified_at: 2023-03-27
+last_modified_at: 2024-11-16
 show_date: false
 feature_row:
   - image_path: /assets/images/classes-image1.jpg
@@ -23,9 +23,9 @@ feature_row:
     excerpt: "Posts about the mechanics and theories behind the game."
 ---
 
-Welcome! These posts are a collection of my thoughts and analysis on D&D 5th edition. As One D&D is fleshed out more I will likely make posts about that as well, but for the most part I will be posting about 5th edition D&D.
+Welcome to The Finished Book! This site contains posts analyzing the mechanics of D&D 5th edition. My interest is in understanding the math behind how the game functions, and in communicating that understanding in a way others, hopefully, find useful. 
 
-I like to think of this as more of a living text book than a blog. When I find something worth sharing, I'll make a post about it. And if I find something new related to something I've already written about, or discover I've made and error somewhere, I'll update those post with new information.
+The majority of these posts were written with the 2014 5th edition rules in mind, but many remain applicable to the 2024 rules as well. And, for those that aren't, I will undoubtedly be updating them to be compatible in the future as time permits. 
 
 {% include feature_row  %}
 
