@@ -16,11 +16,11 @@
         };
     };
 
-    function replaceFigRefs(){
+    function replaceFigRefs(tag){
         // converts \figref{fig-id} in page to links
         const regexp = /\\figref\{([^\}]*)\}/;
 
-        let elms = document.getElementsByTagName("p");
+        let elms = document.getElementsByTagName(tag);
         for (let i = 0; i < elms.length; i++) {
             let html = elms[i].innerHTML;
             while (html.includes('\\figref')) {
@@ -46,8 +46,9 @@
         };
     };
 
-    replaceFigRefs();
     assignFigNumbers();
+    replaceFigRefs("p");
+    replaceFigRefs("figcaption");
     updateFigRefs();
 
 </script>
