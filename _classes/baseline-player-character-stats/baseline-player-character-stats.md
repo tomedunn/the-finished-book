@@ -37,23 +37,23 @@ For a summary of each class's starting stats see the [Initial Ability Scores](#t
 
 # Offensive Stats
 
-For player character attack bonus (AB), Fig. [1](#fig:ab-vs-level){: .fig-ref} (below) shows how each class changes as they level up. The bulk of the improvements come from increases to each class's proficiency bonus, which increases from $$+2$$ to $$+6$$, with additional contributions from improvements to their attack's ability score via Ability Score Improvement features, which increase from $$+3$$ to $$+5$$. Combined, most classes increased their AB by $$+6$$ by the time they reached level 20.
+For player character attack bonus (AB), Fig. \figref{fig:ab-vs-level} (below) shows how each class changes as they level up. The bulk of the improvements come from increases to each class's proficiency bonus, which increases from $$+2$$ to $$+6$$, with additional contributions from improvements to their attack's ability score via Ability Score Improvement features, which increase from $$+3$$ to $$+5$$. Combined, most classes increased their AB by $$+6$$ by the time they reached level 20.
 
 <figure id="fig:ab-vs-level">
     {% include_relative fig-ab-vs-level-small.html %}
     {% include_relative fig-ab-vs-level-large.html %}
-    <figcaption>Figure 1: Shows attack bonus for player characters at each level.</figcaption>
+    <figcaption>Shows attack bonus for player characters at each level.</figcaption>
 </figure>
 
-The trends for AB are mirrored for most classes in saving throw difficulty class (DC) values, as shown in Fig. [2](#fig:dc-vs-level){: .fig-ref} (below). The classes that deviate from this the most are the monk, paladin, and ranger since their saving throw DCs rely on different ability scores than those used for their attack bonuses. Still, unless a player chooses to neglect improving these secondary stats, each will cover the same overall range as those other classes.
+The trends for AB are mirrored for most classes in saving throw difficulty class (DC) values, as shown in Fig. \figref{fig:dc-vs-level} (below). The classes that deviate from this the most are the monk, paladin, and ranger since their saving throw DCs rely on different ability scores than those used for their attack bonuses. Still, unless a player chooses to neglect improving these secondary stats, each will cover the same overall range as those other classes.
 
 <figure id="fig:dc-vs-level">
     {% include_relative fig-dc-vs-level-small.html %}
     {% include_relative fig-dc-vs-level-large.html %}
-    <figcaption>Figure 2: Shows save difficulty class for player characters at each level. Barbarians, fighters, and rogues were excluded because they lack a default save DC stat in their base class.</figcaption>
+    <figcaption>Shows save difficulty class for player characters at each level. Barbarians, fighters, and rogues were excluded because they lack a default save DC stat in their base class.</figcaption>
 </figure>
 
-The average trends for AB and DC shown in Figs. [1](#fig:ab-vs-level){: .fig-ref} and [2](#fig:dc-vs-level){: .fig-ref} can be approximated using the following formula,
+The average trends for AB and DC shown in Figs. \figref{fig:ab-vs-level} and \figref{fig:dc-vs-level} can be approximated using the following formula,
 \begin{align}
     \AB &\approx \ \ 4.6 + \LV/3 \,, \label{eq:ab-approx} \\\\ 
     \DC &\approx    12.6 + \LV/3 \,, \label{eq:dc-approx}
@@ -62,24 +62,24 @@ where $$\LV$$ is the player character's level.
 
 When compared against the same trends for [monster offensive stats]({{ site.data.page-links.baseline-monster-stats.path }}#conclusion), AB and DC values for player character start off slightly higher than for monsters but increase noticeably slower. It's interesting to note that this difference in scaling vanishes when factoring in magic items for player characters, which can add up to $$+3$$ to AB and DC by level 20.
 
-Comparing Eqns. \eqref{eq:ab-approx} and \eqref{eq:dc-approx} against [monster defensive stats]({{site.data.page-links.baseline-monster-stats.path }}#conclusion), as shown in Fig. [3](#fig:hit-fail-probabilities){: .fig-ref} (below), the average probability of a player character's attack hitting a monster who's CR equals their level starts off close to $$60\%$$ and gradually increases to $$65\%$$, while the odds of such a monster failing a saving throw starts off at $$60\%$$ as well before steadily dropping down to around $$48\%$$ at level 20.
+Comparing Eqns. \eqref{eq:ab-approx} and \eqref{eq:dc-approx} against [monster defensive stats]({{site.data.page-links.baseline-monster-stats.path }}#conclusion), as shown in Fig. \figref{fig:hit-fail-probabilities} (below), the average probability of a player character's attack hitting a monster who's CR equals their level starts off close to $$60\%$$ and gradually increases to $$65\%$$, while the odds of such a monster failing a saving throw starts off at $$60\%$$ as well before steadily dropping down to around $$48\%$$ at level 20.
 
 <figure id="fig:hit-fail-probabilities">
     {% include_relative fig-hit-fail-probabilities-small.html %}
     {% include_relative fig-hit-fail-probabilities-large.html %}
-    <figcaption>Figure 3: Shows the average probability that a player character's attack will hit a level appropriate monster, or that such a monster will fail a saving throw against the player character's save DC.</figcaption>
+    <figcaption>Shows the average probability that a player character's attack will hit a level appropriate monster, or that such a monster will fail a saving throw against the player character's save DC.</figcaption>
 </figure>
 
 This means that, in the absence of magic items, player characters that rely on attacks maintain their chance to hit level appropriate monsters as they level up, while characters who rely on saving throws affect their targets less and less often. This may explain why abilities and spells that rely on saving throws often deal half damage when a target succeeds on the saving throw, rather than no damage.
 
 If we factor in bonuses to AB and DC from magic items as the player characters level up, the probability of hitting a monster with an attack increases up to around $$80\%$$ at level 20, while the chance of a monster failing a saving throw stays fairly flat, increasing only slightly to around $$63\%$$. Given the powerful impact that non-damaging saving throw effects can have (often known as "save or suck" abilities), it makes sense that monsters were designed to be a bit more resilient against such effects compared to attacks when the player characters are enhanced by magic items.
 
-The last offensive stat to consider is single target damage per round (DPR). These values, shown in Fig. [4](#fig:dpr-vs-level){: .fig-ref} (below), were taken from the simulations I ran previously for my post on [player character XP]({{ site.data.page-links.xp-and-player-characters.path }}), which looked at each base class's average performance across a full adventuring day made up of Medium encounters. 
+The last offensive stat to consider is single target damage per round (DPR). These values, shown in Fig. \figref{fig:dpr-vs-level} (below), were taken from the simulations I ran previously for my post on [player character XP]({{ site.data.page-links.xp-and-player-characters.path }}), which looked at each base class's average performance across a full adventuring day made up of Medium encounters. 
 
 <figure id="fig:dpr-vs-level">
     {% include_relative fig-dpr-vs-level-small.html %}
     {% include_relative fig-dpr-vs-level-large.html %}
-    <figcaption>Figure 4: Shows the average single target DPR for player characters at each level, assuming all attacks hit and all saving throws fail.</figcaption>
+    <figcaption>Shows the average single target DPR for player characters at each level, assuming all attacks hit and all saving throws fail.</figcaption>
 </figure>
 
 
@@ -87,7 +87,7 @@ The same caveats that applied to that post apply here as well. Namely, that only
 
 The overall spread in DPR values stays relatively tight until higher levels where the paladin and warlock jump a ways in front of the rest. Furthermore, the dip seen in the monk's DPR at level 18 comes from them using their first action to activate Empty Body for the added durability. 
 
-The average trend for single target DPR shown in Fig. [4](#fig:dpr-vs-level){: .fig-ref} can be approximated using the following formula,
+The average trend for single target DPR shown in Fig. \figref{fig:dpr-vs-level} can be approximated using the following formula,
 \begin{align}
     \DPR &\approx    7 + 2 \cdot \LV \,.
 \end{align}
@@ -98,20 +98,20 @@ For context, this average scales slightly faster than the extra damage from a ro
 
 For player character armor class (AC), each class was given the armor in their starting equipment at level 1 (no heavy armor for the cleric, and no shields for the fighter or paladin), and replaced with higher AC options as they became available at higher levels. For classes who would benefit from them, _studded leather armor_ was made available at level 5, _half plate_ at level 7, and _plate_ at level 10. 
 
-For the sorcerer and wizard, _mage armor_ was added at level 5, and a $$+2$$ to AC was added at level 11 to approximate the impact of the _shield_ spell. The resulting AC values for each class are shown in Fig. [5](#fig:ac-vs-level){: .fig-ref} (below).
+For the sorcerer and wizard, _mage armor_ was added at level 5, and a $$+2$$ to AC was added at level 11 to approximate the impact of the _shield_ spell. The resulting AC values for each class are shown in Fig. \figref{fig:ac-vs-level} (below).
 
 <figure id="fig:ac-vs-level">
     {% include_relative fig-ac-vs-level-small.html %}
     {% include_relative fig-ac-vs-level-large.html %}
-    <figcaption>Figure 5: Shows armor class for player characters at each level.</figcaption>
+    <figcaption>Shows armor class for player characters at each level.</figcaption>
 </figure>
 
-For saving throw bonuses (SB), the Evasion feature was estimated as a $$+6$$ to Dexterity saving throw for monks and rogues to reflect the damage reduction it provides, the Danger Sense feature for the barbarian was estimated as a $$+4$$ to Dexterity saving throws due to it granting advantage, and each use of Indomitable for the fighter was estimated as a $$+1/3$$ to all saving throws. The average SB across all ability scores for each class are shown in Fig. [6](#fig:sb-vs-level){: .fig-ref} (below).
+For saving throw bonuses (SB), the Evasion feature was estimated as a $$+6$$ to Dexterity saving throw for monks and rogues to reflect the damage reduction it provides, the Danger Sense feature for the barbarian was estimated as a $$+4$$ to Dexterity saving throws due to it granting advantage, and each use of Indomitable for the fighter was estimated as a $$+1/3$$ to all saving throws. The average SB across all ability scores for each class are shown in Fig. \figref{fig:sb-vs-level} (below).
 
 <figure id="fig:sb-vs-level">
     {% include_relative fig-sb-vs-level-small.html %}
     {% include_relative fig-sb-vs-level-large.html %}
-    <figcaption>Figure 6: Shows the average saving throw bonus for player characters at each level.</figcaption>
+    <figcaption>Shows the average saving throw bonus for player characters at each level.</figcaption>
 </figure>
 
 In comparison to offensive stats shown in the previous section, AC and SB show a much higher level of variation than AB and DC. The spread for AC is particularly wide, with classes spread fairly evenly across the distribution. And, while the spread of SB values is tight for the majority of classes, the monk and the paladin show up as clear outliers due to contributions from Diamond Soul (level 14) and Aura of Protection (level 6) respectively.
@@ -122,21 +122,21 @@ The average trends for AC and SB can be approximated using the following formula
     \SB &\approx \ \ 1.5 + \LV/5 \,. \label{eq:sb-approx}
 \end{align}
 
-When compared against monster AB and DC values, as shown in Fig. [7](#fig:hp-vs-level){: .fig-ref} (below), the probability of a player character being hit by an attack, or failing a saving throw, from a level appropriate monster show very different trends than those shown in Fig. [3](#fig:hit-fail-probabilities){: .fig-ref} for attacks and saves against monsters from player characters. The overall average for both is close to the assumed baseline value of $$65\%$$, but rather than staying fixed or decreasing, both increase steadily as the player characters level up.
+When compared against monster AB and DC values, as shown in Fig. \figref{fig:hp-vs-level} (below), the probability of a player character being hit by an attack, or failing a saving throw, from a level appropriate monster show very different trends than those shown in Fig. \figref{fig:hit-fail-probabilities} for attacks and saves against monsters from player characters. The overall average for both is close to the assumed baseline value of $$65\%$$, but rather than staying fixed or decreasing, both increase steadily as the player characters level up.
 
 <figure id="fig:hp-vs-level">
     {% include_relative fig-defense-probabilities-vs-level-small.html %}
     {% include_relative fig-defense-probabilities-vs-level-large.html %}
-    <figcaption>Figure 7: Shows average probability of a player character failing a saving throw or being hit by an attack from a level appropriate monster at each level.</figcaption>
+    <figcaption>Shows average probability of a player character failing a saving throw or being hit by an attack from a level appropriate monster at each level.</figcaption>
 </figure>
 
 If we factor in bonuses to AC from magic items as the player characters level up, the probability of being hit by an attack will come down close to the $$65\%$$ baseline at level 20. Bonuses to player character SB values will have a similar effect for failing saving throws, but such items are generally less common.
 
-Lastly, for player character hit points, the barbarian's Rage feature was approximated as a $$50\%$$ increase in adjusted hit points when used, the monk's Empty Body feature was approximated as a $$100\%$$ increase in adjusted hit points for levels 18 and above, and the rogue's Uncanny Dodge feature was approximated as a $$20\%$$ increase in adjusted hit points for levels 5 and above. The resulting adjusted hit point values are shown in Fig. [8](#fig:adj-hp-vs-level){: .fig-ref} (below).
+Lastly, for player character hit points, the barbarian's Rage feature was approximated as a $$50\%$$ increase in adjusted hit points when used, the monk's Empty Body feature was approximated as a $$100\%$$ increase in adjusted hit points for levels 18 and above, and the rogue's Uncanny Dodge feature was approximated as a $$20\%$$ increase in adjusted hit points for levels 5 and above. The resulting adjusted hit point values are shown in Fig. \figref{fig:adj-hp-vs-level} (below).
 <figure id="fig:adj-hp-vs-level">
     {% include_relative fig-adj-hp-vs-level-small.html %}
     {% include_relative fig-adj-hp-vs-level-large.html %}
-    <figcaption>Figure 8: Shows average adjusted hit points for player characters at each level.</figcaption>
+    <figcaption>Shows average adjusted hit points for player characters at each level.</figcaption>
 </figure>
 
 The majority of classes scale according to their hit dice as expected, while the barbarian and monk stand out as clear outliers due to the large hit point multipliers provided by Rage and Empty Body respectively. The fighter stands out to a lesser extent due to the healing from their Second Wind feature. 
@@ -163,12 +163,12 @@ and for attack bonus, save DC, armor class, and average saving throw bonus using
     \SB &\approx \ \ 1.5 + \LV/5 \,. 
 \end{align}
 
-Before closing, there's one additional quantity I'd like to touch on, and that's how many rounds it should take for a party of four to defeat a single monster who's CR equals the party's level. This quantity, along with the number of rounds it should take the monster to defeat the party of four, is shown in Fig. [9](#fig:rounds-to-win){: .fig-ref} (below).
+Before closing, there's one additional quantity I'd like to touch on, and that's how many rounds it should take for a party of four to defeat a single monster who's CR equals the party's level. This quantity, along with the number of rounds it should take the monster to defeat the party of four, is shown in Fig. \figref{fig:rounds-to-win} (below).
 
 <figure id="fig:rounds-to-win">
     {% include_relative fig-rounds-to-win-small.html %}
     {% include_relative fig-rounds-to-win-large.html %}
-    <figcaption>Figure 9: Shows the typical number of rounds it takes a party of four to defeat a level appropriate monster or vice-versa.</figcaption>
+    <figcaption>Shows the typical number of rounds it takes a party of four to defeat a level appropriate monster or vice-versa.</figcaption>
 </figure>
 
 This shows that on average, it takes a party of four player characters about $$2.5$$ rounds to defeat the monster, which is consistent with the general expectation that a Medium encounter should take between 2-3 rounds of combat to complete.

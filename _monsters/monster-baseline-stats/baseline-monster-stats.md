@@ -31,12 +31,12 @@ The monster stats covered here are pulled from official source books and adventu
 For those wishing to jump straight to the final baseline value table, you can find that [here](#tab:monster-baseline-stats).
 
 # Offensive Stats
-Jumping straight in, Fig. [1](#fig:dpr-vs-cr){: .fig-ref} (below) shows that the average damage per round (DPR) for published monsters stays close to the target values in the DMG up to CR 20 where the two diverge. For CR 20 and above, the average DPR for published monsters scales slower than expected.
+Jumping straight in, Fig. \figref{fig:dpr-vs-cr} (below) shows that the average damage per round (DPR) for published monsters stays close to the target values in the DMG up to CR 20 where the two diverge. For CR 20 and above, the average DPR for published monsters scales slower than expected.
 
 <figure id="fig:dpr-vs-cr">
     {% include_relative fig-dpr-vs-cr-small.html %}
     {% include_relative fig-dpr-vs-cr-large.html %}
-    <figcaption>Figure 1: Shows average (mean) damage per round for published monsters, as well as target values taken from chapter 9 of the DMG.</figcaption>
+    <figcaption>Shows average (mean) damage per round for published monsters, as well as target values taken from chapter 9 of the DMG.</figcaption>
 </figure>
 
 The general trend appears to be that DPR increases by 6 for each CR when CR is less than 20, and then increases by 12 for each CR after that,
@@ -51,36 +51,36 @@ The general trend appears to be that DPR increases by 6 for each CR when CR is l
 
 From this alone, one might naively conclude that high CR published monsters are weaker offensively than they should be, but that depends on how other offensive stats, such as attack bonus (AB) and save difficulty class (save DC), compare to expectations.
 
-The average AB for published monsters, as shown in Fig. [2](#fig:ab-vs-cr){: .fig-ref} (below), start off 1-2 higher than the DMG targets at low CRs, and then scales slightly faster, ending around 4 higher than target. This means, while published monsters are dealing less damage when they do hit, they are hitting more often than one might expect from the DMG target values.
+The average AB for published monsters, as shown in Fig. \figref{fig:ab-vs-cr} (below), start off 1-2 higher than the DMG targets at low CRs, and then scales slightly faster, ending around 4 higher than target. This means, while published monsters are dealing less damage when they do hit, they are hitting more often than one might expect from the DMG target values.
 
 <figure id="fig:ab-vs-cr">
     {% include_relative fig-ab-vs-cr-small.html %}
     {% include_relative fig-ab-vs-cr-large.html %}
-    <figcaption>Figure 2: Shows average (mean) AB for published monsters, as well as target values taken from chapter 9 of the DMG.</figcaption>
+    <figcaption>Shows average (mean) AB for published monsters, as well as target values taken from chapter 9 of the DMG.</figcaption>
 </figure>
 
-In comparison, while monster save DC values scale slightly faster than the target values given in chapter 9 of the DMG, as shown in Fig. [3](#fig:dc-vs-cr){: .fig-ref} (below), they stay close to those targets across a wide range of CR. Given how few monsters have been published above CR 20, the two trends are close enough that I might consider the two equivalent were it not for the low DPR values shown previously in Fig. [1](#fig:dpr-vs-cr){: .fig-ref}.
+In comparison, while monster save DC values scale slightly faster than the target values given in chapter 9 of the DMG, as shown in Fig. \figref{fig:dc-vs-cr} (below), they stay close to those targets across a wide range of CR. Given how few monsters have been published above CR 20, the two trends are close enough that I might consider the two equivalent were it not for the low DPR values shown previously in Fig. \figref{fig:dpr-vs-cr}.
 
 <figure id="fig:dc-vs-cr">
     {% include_relative fig-dc-vs-cr-small.html %}
     {% include_relative fig-dc-vs-cr-large.html %}
-    <figcaption>Figure 3: Shows average (mean) save DC for published monsters, as well as target values taken from chapter 9 of the DMG.</figcaption>
+    <figcaption>Shows average (mean) save DC for published monsters, as well as target values taken from chapter 9 of the DMG.</figcaption>
 </figure>
 
-The reason why save DC values appear to match, while AB values don't, is made clear by comparing AB and save DC values within each group. Generally, we expect $$\DC = 8 + \AB$$, since that's how the two are related for spellcasters, as well as most player characters. And for published monsters, as shown in Fig. [4](#fig:dc-vs-ab){: .fig-ref} (below), that appears to be the case. However, for the DMG target values, this relationship doesn't hold, suggesting either the AB or save DC targets are off from what they ought to be.
+The reason why save DC values appear to match, while AB values don't, is made clear by comparing AB and save DC values within each group. Generally, we expect $$\DC = 8 + \AB$$, since that's how the two are related for spellcasters, as well as most player characters. And for published monsters, as shown in Fig. \figref{fig:dc-vs-ab} (below), that appears to be the case. However, for the DMG target values, this relationship doesn't hold, suggesting either the AB or save DC targets are off from what they ought to be.
 
 <figure id="fig:dc-vs-ab">
     {% include_relative fig-dc-vs-ab-small.html %}
     {% include_relative fig-dc-vs-ab-large.html %}
-    <figcaption>Figure 4: Shows average (mean) save DC vs average (mean) AB for published monsters, as well as target values taken from chapter 9 of the DMG.</figcaption>
+    <figcaption>Shows average (mean) save DC vs average (mean) AB for published monsters, as well as target values taken from chapter 9 of the DMG.</figcaption>
 </figure>
 
-Given how well the save DC targets matched the average save DC values for published monsters, I think the most likely answer is that the DMG target AB values are lower than they ought to be, and should be approximately two higher in order to match the save DC targets. This will also bring them into rough alignment with how player character attack bonuses scale from levels 1 - 20 without factoring in class features and magic items, as shown in Fig. [5](#fig:ab-vs-level){: .fig-ref} (below).
+Given how well the save DC targets matched the average save DC values for published monsters, I think the most likely answer is that the DMG target AB values are lower than they ought to be, and should be approximately two higher in order to match the save DC targets. This will also bring them into rough alignment with how player character attack bonuses scale from levels 1 - 20 without factoring in class features and magic items, as shown in Fig. \figref{fig:ab-vs-level} (below).
 
 <figure id="fig:ab-vs-level">
     {% include_relative fig-ab-vs-level-small.html %}
     {% include_relative fig-ab-vs-level-large.html %}
-    <figcaption>Figure 5: Shows average (mean) AB for published monsters and for player characters, as well as target values taken from chapter 9 of the DMG.</figcaption>
+    <figcaption>Shows average (mean) AB for published monsters and for player characters, as well as target values taken from chapter 9 of the DMG.</figcaption>
 </figure>
 
 The generals for monster AB and save DC are that each increases by one every two levels, and that at CR 1 $$\AB = 4$$ and $$\DC = 12$$,
@@ -94,23 +94,23 @@ Finally, we can compare the overall offensive power of published monsters and th
     \eDPR  &\approx \sqrt{0.65} \cdot \DPR \cdot \left(\frac{\AB + 10}{13}\right)\,.
     \label{eq:effective-dpr-approx}
 \end{align}
-The results of this are shown in Fig. [6](#fig:eff-dpr-vs-cr){: .fig-ref} (below). While there are some subtle differences, the average $$\eDPR$$ for published monsters follows the DMG targets quite closely, indicating the overall offensive strength of published monsters is similar to those created using chapter 9 of the DMG.
+The results of this are shown in Fig. \figref{fig:eff-dpr-vs-cr} (below). While there are some subtle differences, the average $$\eDPR$$ for published monsters follows the DMG targets quite closely, indicating the overall offensive strength of published monsters is similar to those created using chapter 9 of the DMG.
 
 <figure id="fig:eff-dpr-vs-cr">
     {% include_relative fig-eff-dpr-vs-cr-small.html %}
     {% include_relative fig-eff-dpr-vs-cr-large.html %}
-    <figcaption>Figure 6: Shows average (mean) effective DPR for published monsters, as well as target values taken from chapter 9 of the DMG.</figcaption>
+    <figcaption>Shows average (mean) effective DPR for published monsters, as well as target values taken from chapter 9 of the DMG.</figcaption>
 </figure>
 
 
 # Defensive Stats
 
-Starting off with hit points, as shown in Fig. [7](#fig:hp-vs-cr){: .fig-ref} (below), monster adjusted hit points are significantly higher than unadjusted hit points. This is quite a departure from what we saw previously with offensive stats in the previous section, which showed little difference between adjusted and unadjusted values.
+Starting off with hit points, as shown in Fig. \figref{fig:hp-vs-cr} (below), monster adjusted hit points are significantly higher than unadjusted hit points. This is quite a departure from what we saw previously with offensive stats in the previous section, which showed little difference between adjusted and unadjusted values.
 
 <figure id="fig:hp-vs-cr">
     {% include_relative fig-hp-vs-cr-small.html %}
     {% include_relative fig-hp-vs-cr-large.html %}
-    <figcaption>Figure 7: Shows average (mean) hit points and adjusted hit points for published monsters, as well as target values taken from chapter 9 of the DMG.</figcaption>
+    <figcaption>Shows average (mean) hit points and adjusted hit points for published monsters, as well as target values taken from chapter 9 of the DMG.</figcaption>
 </figure>
 
 There are several factors that contribute to this difference. Most notably, the Regeneration trait, the Legendary Resistance trait, and damage resistances/immunities that the monster might have. Whatever the sources, we're ultimately interested in the adjusted hit point trendline, which starts off at about half the DMG target and gradually grows closer until the two are equal. By around CR 15, the difference between the two is nearly negligible.
@@ -125,12 +125,12 @@ The overall trend appears to be that monster hit points start off near $$32$$, i
     \label{eq:simplified-hp}
 \end{equation}
 
-Moving on to armor class (AC), monster adjusted AC is significantly higher than unadjusted AC, as shown in Fig. [8](#fig:ac-vs-cr){: .fig-ref} (below).
+Moving on to armor class (AC), monster adjusted AC is significantly higher than unadjusted AC, as shown in Fig. \figref{fig:ac-vs-cr} (below).
 
 <figure id="fig:ac-vs-cr">
     {% include_relative fig-ac-vs-cr-small.html %}
     {% include_relative fig-ac-vs-cr-large.html %}
-    <figcaption>Figure 8: Shows average (mean) AC for published monsters, as well as target values taken from chapter 9 of the DMG.</figcaption>
+    <figcaption>Shows average (mean) AC for published monsters, as well as target values taken from chapter 9 of the DMG.</figcaption>
 </figure>
 
 The main factors that contribute to this difference include the Magic Resistance trait, which counts as a $$+2$$ AC adjustment, and monsters having multiple saving throw proficiencies, which counts as a $$+2$$ AC adjustment for having 3-4 saving throw proficiencies, and a $$+4$$ AC adjustment for 5-6 proficiencies. This is notable because these adjustments have nothing to do with a monster's defense against attack rolls.
@@ -139,7 +139,7 @@ The main factors that contribute to this difference include the Magic Resistance
 Just like with hit points, there is a clear difference between the adjusted and unadjusted AB values. However, unlike hit points, the unadjusted values for monster AC come closest to the DMG targets. While monster unadjusted AC stays close to target at lower CRs, monster adjusted AC values are consistently 1-3 AC higher, even before the AC targets hit their maximum value at CR 17.
 -->
 
-Subtracting those saving throw adjustments off leave us with adjusted AC values very close to the unadjusted AC data shown in Fig. [8](#fig:ac-vs-cr){: .fig-ref}. For this reason, I've decided to use unadjusted AC to establish a baseline for monster AC. So long as monster saving throw bonuses are handled appropriately, this choice shouldn't negatively impact the results.
+Subtracting those saving throw adjustments off leave us with adjusted AC values very close to the unadjusted AC data shown in Fig. \figref{fig:ac-vs-cr}. For this reason, I've decided to use unadjusted AC to establish a baseline for monster AC. So long as monster saving throw bonuses are handled appropriately, this choice shouldn't negatively impact the results.
 
 The general trend then for monster AC starts off at $$\AC = 13$$ for CR 1 and increase by one every three CR,
 \begin{align}
@@ -152,15 +152,15 @@ Normally, this would indicate the DMG targets are simply too low, as was the cas
 
 Finally, let's look at monster saving throw bonuses (SB). This one is a bit trickier than the rest we've covered so far because the DMG doesn't give any target values we can compare against. However, we can get around this by converting the target AC values in the DMG into their equivalent SB values using the following conversion, $$\SB = \AC - 14$$, taken from my post [Effective Hit Points and Damage]({{ site.data.page-links.effective-hp-and-damage.path }}#saving-throw-bonus-scaling). 
 
-This, along with average SB values for published monsters, is shown in Fig. [9](#fig:sb-vs-cr){: .fig-ref} (below). These averages represent the average across all six saving throws, in addition to within each CR. Since monster saving throw bonuses already include adjustments based on proficiency, the only major factor we need to account for is for the Magic Resistance trait, which I've counted as a +4 SB adjustment. This is twice what the DMG gives when applied to AC but will drop to an overall adjustment of +2 when averaging between a monster's AC and SB values.
+This, along with average SB values for published monsters, is shown in Fig. \figref{fig:sb-vs-cr} (below). These averages represent the average across all six saving throws, in addition to within each CR. Since monster saving throw bonuses already include adjustments based on proficiency, the only major factor we need to account for is for the Magic Resistance trait, which I've counted as a +4 SB adjustment. This is twice what the DMG gives when applied to AC but will drop to an overall adjustment of +2 when averaging between a monster's AC and SB values.
 
 <figure id="fig:sb-vs-cr">
     {% include_relative fig-sb-vs-cr-small.html %}
     {% include_relative fig-sb-vs-cr-large.html %}
-    <figcaption>Figure 9: Shows average (mean) AC for published monsters, as well as target values taken from chapter 9 of the DMG.</figcaption>
+    <figcaption>Shows average (mean) AC for published monsters, as well as target values taken from chapter 9 of the DMG.</figcaption>
 </figure>
 
-Both the adjusted and unadjusted SB values are noticeably higher than the converted AC targets. This isn't surprising, since the adjusted AC values shown if Fig. [8](#fig:ac-vs-cr){: .fig-ref} were higher as well, due to adjustments that impact monster saving throws. In fact, if we convert the adjusted SB values shown in Fig. [9](#fig:sb-vs-cr){: .fig-ref} into their equivalent AC values, $$\AC = \SB + 14$$, and average between them and the unadjusted AC values shown in Fig. [8](#fig:ac-vs-cr){: .fig-ref}, we find the two are incredibly close to one another, as shown in Fig. [10](#fig:adj-ac-vs-cr){: .fig-ref} (below).
+Both the adjusted and unadjusted SB values are noticeably higher than the converted AC targets. This isn't surprising, since the adjusted AC values shown if Fig. \figref{fig:ac-vs-cr} were higher as well, due to adjustments that impact monster saving throws. In fact, if we convert the adjusted SB values shown in Fig. \figref{fig:sb-vs-cr} into their equivalent AC values, $$\AC = \SB + 14$$, and average between them and the unadjusted AC values shown in Fig. \figref{fig:ac-vs-cr}, we find the two are incredibly close to one another, as shown in Fig. \figref{fig:adj-ac-vs-cr} (below).
 
 <figure id="fig:adj-ac-vs-cr">
     {% include_relative fig-adj-ac-vs-cr-small.html %}
@@ -180,7 +180,7 @@ Just like with offensive stats, we can compare the overall defensive toughness o
     \eHP  &\approx \frac{1}{\sqrt{0.65}} \cdot \HP \cdot \left(\frac{\AC + 1}{13}\right)\,.
     \label{eq:effective-hp-approx}
 \end{align}
-The results of this, as shown in Fig. [10](#fig:eff-hp-vs-cr){: .fig-ref} (below), indicate that while low CR monsters are weaker than expected, monsters CR 20 and above are considerably tougher.
+The results of this, as shown in Fig. \figref{fig:eff-hp-vs-cr} (below), indicate that while low CR monsters are weaker than expected, monsters CR 20 and above are considerably tougher.
 
 <figure id="fig:eff-hp-vs-cr">
     {% include_relative fig-eff-hp-vs-cr-small.html %}
@@ -189,7 +189,7 @@ The results of this, as shown in Fig. [10](#fig:eff-hp-vs-cr){: .fig-ref} (below
 </figure>
 
 
-Before concluding, there's one more point worth discussing here, and that's how monster defenses against saving throws are consistently and significantly stronger than their defenses against attacks. This fact is made clear in Fig. [12](#fig:hit-prob-vs-level){: .fig-ref} (below), which shows the average chance that a CR appropriate monster will be hit by an attack or fail a saving throw from a PC. The PC used here is assumed to starts off with a +3 attack/save modifier at 1st level, which increases to +4 at 4th level and finally to +5 at 8th level. 
+Before concluding, there's one more point worth discussing here, and that's how monster defenses against saving throws are consistently and significantly stronger than their defenses against attacks. This fact is made clear in Fig. \figref{fig:hit-prob-vs-level} (below), which shows the average chance that a CR appropriate monster will be hit by an attack or fail a saving throw from a PC. The PC used here is assumed to starts off with a +3 attack/save modifier at 1st level, which increases to +4 at 4th level and finally to +5 at 8th level. 
 
 <figure id="fig:hit-prob-vs-level">
     {% include_relative fig-hit-prob-vs-level-small.html %}
@@ -202,10 +202,10 @@ While the probability of a monster being hit by an attack stays close to the exp
 To put this into context, a spellcaster PC would need a magic item that grants them a +1-2 bonus to their spell save DC to overcome this offset at low levels. And near level 20, even a +3 bonus to their save DC wouldn't be enough to overcome this difference. At least, not on average.
 
 <!--
-Monster adjusted SB values, on the other hand, are strictly higher than the DMG targets. They also increase at a faster rate than both the DMG targets and monster AC values. The result of this, as shown in Fig. [7](#fig:hit-prob-vs-level){: .fig-ref} (below), is that published monsters, on average, have consistently stronger defenses against spells than they do attacks.
+Monster adjusted SB values, on the other hand, are strictly higher than the DMG targets. They also increase at a faster rate than both the DMG targets and monster AC values. The result of this, as shown in Fig. \figref{fig:hit-prob-vs-level} (below), is that published monsters, on average, have consistently stronger defenses against spells than they do attacks.
 -->
 
-These probabilities are broken down further in Fig. [13](#fig:save-fail-prob-vs-level){: .fig-ref} (below), which shows the probabilities for each ability score.
+These probabilities are broken down further in Fig. \figref{fig:save-fail-prob-vs-level} (below), which shows the probabilities for each ability score.
 
 <figure id="fig:save-fail-prob-vs-level">
     {% include_relative fig-save-fail-prob-vs-level-small.html %}

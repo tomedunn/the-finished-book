@@ -48,12 +48,12 @@ In my previous post, [XP and Encounter Balancing]({{ site.data.page-links.xp-and
     \XP_{\NPC} &= \frac{1}{4}\eHP_{\NPC} \cdot \eDPR_{\NPC}\,. \label{eq:xp-npcs}
 \end{align}
 
-Since $$\eHP_{\NPC}$$ and $$\eDPR_{\NPC}$$ tend to scale proportionally to one another, $$\eDPR_{\NPC}$$ can be removed from Eqn. \eqref{eq:xp-npcs} by replacing it with $$\eDPR_{\NPC} \simeq 0.2 \eHP_{\NPC}$$. Figure <a href="#fig:monster-edpr-ehp-ratio" class="fig-ref">1</a> (below) shows the justification for this approximation. However, it's worth noting that the factor of $$0.2$$ will drop out of the calculation later on, and isn't especially important to the derivation that follows.
+Since $$\eHP_{\NPC}$$ and $$\eDPR_{\NPC}$$ tend to scale proportionally to one another, $$\eDPR_{\NPC}$$ can be removed from Eqn. \eqref{eq:xp-npcs} by replacing it with $$\eDPR_{\NPC} \simeq 0.2 \eHP_{\NPC}$$. Figure \figref{fig:monster-edpr-ehp-ratio} (below) shows the justification for this approximation. However, it's worth noting that the factor of $$0.2$$ will drop out of the calculation later on, and isn't especially important to the derivation that follows.
 
 <figure id="fig:monster-edpr-ehp-ratio">
     {% include_relative fig-monster-edpr-ehp-ratio-by-cr-small.html %}
     {% include_relative fig-monster-edpr-ehp-ratio-by-cr-large.html %}
-    <figcaption>Figure 1: Shows the average ratio of monster effective damage per round and effective hit points as a function of monster CR.</figcaption>
+    <figcaption>Shows the average ratio of monster effective damage per round and effective hit points as a function of monster CR.</figcaption>
 </figure>
 
 Inserting this approximation into Eqn. \eqref{eq:xp-npcs} and solving for effective hit points yields
@@ -90,25 +90,25 @@ Since a monster's CR represents the level a party of four PCs should be in order
     \rounds &\simeq 3 \left( \frac{\XP_{\NPC}}{\XPM} \right)^{1/2} \,. \label{eq:rounds-to-win-xp-only-final}
 \end{align}
 
-The form of Eqn. \eqref{eq:rounds-to-win-xp-only-final} now allows us to calculate the expected duration for any encounter with only a single monster in it using that monster's XP value, $$\XP_{\NPC}$$, along with the Medium difficult XP threshold for the PCs' level, $$\XPM$$. Figure <a href="#fig:rounds-per-encounter" class="fig-ref">2</a> (below) plots the average number of rounds given by Eqn. \eqref{eq:rounds-to-win-xp-only-final} for each encounter difficulty. The average number of rounds per encounter for each difficulty and across all levels is listed in the <a href="#tab:rounds-summary" class="fig-ref">Summary</a> table in the conclusion to this post (below).
+The form of Eqn. \eqref{eq:rounds-to-win-xp-only-final} now allows us to calculate the expected duration for any encounter with only a single monster in it using that monster's XP value, $$\XP_{\NPC}$$, along with the Medium difficult XP threshold for the PCs' level, $$\XPM$$. Figure \figref{fig:rounds-per-encounter} (below) plots the average number of rounds given by Eqn. \eqref{eq:rounds-to-win-xp-only-final} for each encounter difficulty. The average number of rounds per encounter for each difficulty and across all levels is listed in the <a href="#tab:rounds-summary" class="fig-ref">Summary</a> table in the conclusion to this post (below).
 
 <figure id="fig:rounds-per-encounter">
     {% include_relative fig-rounds-per-encounter-by-level-small.html %}
     {% include_relative fig-rounds-per-encounter-by-level-large.html %}
-    <figcaption>Figure 2: Number rounds of combat predicted by Eqn. \eqref{eq:rounds-to-win-xp-only-final} for each encounter difficulty.</figcaption>
+    <figcaption>Number rounds of combat predicted by Eqn. \eqref{eq:rounds-to-win-xp-only-final} for each encounter difficulty.</figcaption>
 </figure>
 
 # Rounds per full adventuring day
 For a full adventuring day, the total number of rounds of combat can be calculated by multiplying the rounds per encounter, given by Eqn. \eqref{eq:rounds-to-win-xp-only-final}, by the average number of encounters for each encounter difficulty. The average number of encounters per day can be easily calculated by dividing the PCs' adventuring day XP budget, as given in the [Adventuring Day XP](https://www.dndbeyond.com/sources/basic-rules/building-combat-encounters#AdventuringDayXP) table, by the XP thresholds for each difficulty, as listed in the [XP Threshold by Character Level](https://www.dndbeyond.com/sources/basic-rules/building-combat-encounters#XPThresholdsbyCharacterLevel) table.
 
-The results of this are shown in Fig. <a href="#fig:full-adventuring-day-by-level" class="fig-ref">3</a> (below). The average number of rounds per adventuring day for each difficulty is listed in the <a href="#tab:rounds-summary" class="fig-ref">Summary</a> table in the conclusion to this post (below).
+The results of this are shown in Fig. \figref{fig:full-adventuring-day-by-level} (below). The average number of rounds per adventuring day for each difficulty is listed in the <a href="#tab:rounds-summary" class="fig-ref">Summary</a> table in the conclusion to this post (below).
 
 <figure class="half" id="fig:full-adventuring-day-by-level">
     {% include_relative fig-encounters-per-full-adventuring-day-by-level-small.html %}
     {% include_relative fig-encounters-per-full-adventuring-day-by-level-large.html %}
     {% include_relative fig-rounds-per-full-adventuring-day-by-level-small.html %}
     {% include_relative fig-rounds-per-full-adventuring-day-by-level-large.html %}
-    <figcaption>Figure 3: Number of encounters and the number of rounds per full adventuring days for each encounter difficulty.</figcaption>
+    <figcaption>Number of encounters and the number of rounds per full adventuring days for each encounter difficulty.</figcaption>
 </figure>
 
 # Conclusion

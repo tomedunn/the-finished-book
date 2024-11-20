@@ -26,12 +26,12 @@ Calculating the daily XP values for each class follows the same process I outlin
 {% include_relative table-rounds-summary.html %}
 </div>
 
-The results of these calculations, averaged across all classes, is shown in Fig. <a href="#fig:daily-xp-budgets-vs-level" class="fig-ref">1</a> (below). Unsurprisingly, as the average encounter difficulty goes up, so does the daily XP the PCs can handle. This is because the number of rounds per day decreases as the difficulty goes up, which allows many of the classes to deal higher average damage per round.
+The results of these calculations, averaged across all classes, is shown in Fig. \figref{fig:daily-xp-budgets-vs-level} (below). Unsurprisingly, as the average encounter difficulty goes up, so does the daily XP the PCs can handle. This is because the number of rounds per day decreases as the difficulty goes up, which allows many of the classes to deal higher average damage per round.
 
 <figure id="fig:daily-xp-budgets-vs-level">
     {% include_relative fig-full-daily-xp-vs-level-adventuring-days-large.html %}
     {% include_relative fig-full-daily-xp-vs-level-adventuring-days-small.html %}
-    <figcaption>Figure 1: PC daily XP values for full adventuring days consisting of either Easy, Medium, Hard, or Deadly encounters.</figcaption>
+    <figcaption>PC daily XP values for full adventuring days consisting of either Easy, Medium, Hard, or Deadly encounters.</figcaption>
 </figure>
 
 What is perhaps a bit surprisingly, though, is that the difference between each difficulty is relatively small. The largest XP range between adventuring days with Medium and Deadly encounters comes at level 19 and is 17% of the daily budget, or one extra Easy encounter.
@@ -40,27 +40,27 @@ What is perhaps a bit surprisingly, though, is that the difference between each 
 <figure id="fig:daily-xp-ratio-vs-level">
     {% include_relative fig-daily-xp-ratio-vs-level-large.html %}
     {% include_relative fig-daily-xp-ratio-vs-level-small.html %}
-    <figcaption>Figure 2: PC daily XP values for full adventuring days consisting of either Easy, Medium, Hard, or Deadly encounters. Values are normalized to the Medium encounters values.</figcaption>
+    <figcaption>PC daily XP values for full adventuring days consisting of either Easy, Medium, Hard, or Deadly encounters. Values are normalized to the Medium encounters values.</figcaption>
 </figure>
 
-Figure <a href="#fig:daily-xp-ratio-vs-level" class="fig-ref">2</a> (above) replots this data relative to the average daily XP values for Medium encounters. Easy encounters come out 10% lower than Medium on average, Hard encounters are 6% higher, and Deadly are 12% higher. This means that only minor corrections to the adventuring day XP budgets are needed in order to compensate for different average encounter difficulties.
+Figure \figref{fig:daily-xp-ratio-vs-level} (above) replots this data relative to the average daily XP values for Medium encounters. Easy encounters come out 10% lower than Medium on average, Hard encounters are 6% higher, and Deadly are 12% higher. This means that only minor corrections to the adventuring day XP budgets are needed in order to compensate for different average encounter difficulties.
 
-To give a sense of where these changes in XP come from, Fig. <a href="#fig:edpr-vs-level" class="fig-ref">3</a> (below) shows how the average effective damage per round for each average encounter difficulty. The relative differences in effective damage per round match those for XP almost exactly. This makes sense, since the amount of damage each class can take is largely independent of the number of encounters they face. 
+To give a sense of where these changes in XP come from, Fig. \figref{fig:edpr-vs-level} (below) shows how the average effective damage per round for each average encounter difficulty. The relative differences in effective damage per round match those for XP almost exactly. This makes sense, since the amount of damage each class can take is largely independent of the number of encounters they face. 
 
 <figure id="fig:edpr-vs-level">
     {% include_relative fig-full-daily-edpr-vs-level-adventuring-days-large.html %}
     {% include_relative fig-full-daily-edpr-vs-level-adventuring-days-small.html %}
-    <figcaption>Figure 3: PC average effective damage per round for full adventuring days consisting of either Easy, Medium, Hard, or Deadly encounters.</figcaption>
+    <figcaption>PC average effective damage per round for full adventuring days consisting of either Easy, Medium, Hard, or Deadly encounters.</figcaption>
 </figure>
 
 
 ## Class Breakdown
-We can take this a step further and look at how these hold up for each class as well. Figure <a href="#fig:class-daily-xp-ratio-vs-level" class="fig-ref">4</a> (below) shows how the daily XP for full adventuring days with Deadly encounters compares against one with Medium encounters for each class.
+We can take this a step further and look at how these hold up for each class as well. Figure \figref{fig:class-daily-xp-ratio-vs-level} (below) shows how the daily XP for full adventuring days with Deadly encounters compares against one with Medium encounters for each class.
 
 <figure id="fig:class-daily-xp-ratio-vs-level">
     {% include_relative fig-class-daily-xp-ratio-vs-level-large.html %}
     {% include_relative fig-class-daily-xp-ratio-vs-level-small.html %}
-    <figcaption>Figure 4: Daily XP values for each class for full adventuring days consisting of Deadly encounters. Values are normalized to the Medium encounters values. <i>Note: You can toggle individual lines on and off by clicking on them in the legend.</i></figcaption>
+    <figcaption>Daily XP values for each class for full adventuring days consisting of Deadly encounters. Values are normalized to the Medium encounters values. <i>Note: You can toggle individual lines on and off by clicking on them in the legend.</i></figcaption>
 </figure>
 
 For most of spellcasting classes (bard, druid, sorcerer, and wizard), the gap between Deadly and Medium adventuring days steadily increases up until level 10 where it plateaus at around 20%. Clerics also increase up to near 20%, but their growth plateaus from levels 7-12 at around 12%. Warlocks, unsurprisingly, show a different trend from the other spellcasters, quickly reaching a plateau of around 12% and staying there all the way up to level 20.

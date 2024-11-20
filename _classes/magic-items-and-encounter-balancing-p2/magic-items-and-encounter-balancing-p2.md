@@ -62,12 +62,12 @@ For the case where only a fraction of the PC's total damage $$(d_{\AB})$$ benefi
 \end{align}
 In the limit where $$d_{\AB}= 0$$ the PC would gain no benefit, and when $$d_{\AB} = 1$$ they would gain the full benefit, just as they do in Eqn. \eqref{eq:xp-bonus-ab-full}.
 
-This effect is illustrated in Fig. [1](#fig:encounter-xp-ab-bonus){: .fig-ref} (below), which shows the XP benefits of a weapon that grants $$+1$$ to hit for both a fighter wielding a greatsword and a monk wielding a quarterstaff. Since all of the fighter's damage comes from weapon attacks, their encounter XP increases by the full $$7.7\%$$. And, since roughly half of the monk's damage comes from weapon attacks, their encounter XP increases by only half as much.
+This effect is illustrated in Fig. \figref{fig:encounter-xp-ab-bonus} (below), which shows the XP benefits of a weapon that grants $$+1$$ to hit for both a fighter wielding a greatsword and a monk wielding a quarterstaff. Since all of the fighter's damage comes from weapon attacks, their encounter XP increases by the full $$7.7\%$$. And, since roughly half of the monk's damage comes from weapon attacks, their encounter XP increases by only half as much.
 
 <figure id="fig:encounter-xp-ab-bonus">
     {% include_relative fig-encounter-xp-ab-bonus-small.html %}
     {% include_relative fig-encounter-xp-ab-bonus-large.html %}
-    <figcaption>Figure 1: Shows the increase in encounter XP from a magic weapon that grants +1 to hit for a fighter wielding a greatsword and a monk wielding a quarterstaff for a full adventuring day made up of Medium difficulty encounters.</figcaption>
+    <figcaption>Shows the increase in encounter XP from a magic weapon that grants +1 to hit for a fighter wielding a greatsword and a monk wielding a quarterstaff for a full adventuring day made up of Medium difficulty encounters.</figcaption>
 </figure>
 
 In general, most PCs who rely on attacks for dealing damage gain the full benefit of a +1 to hit. So to good approximation a magic item that grants a +1 to hit can be treated as increasing a PC's XP thresholds and adventuring day XP by $$7.7\%$$.
@@ -124,12 +124,12 @@ This increase in $$\DPRhit$$ will, in turn, increase their encounter XP and dail
     \label{eq:xp-bonus-damage}
 \end{align}
 
-PCs that get most of their damage directly from their weapons, like fighters, will benefit more than those that get most of their damage from spells or class features, like rogues or paladins. This relationship is illustrated in Fig. [2](#fig:encounter-xp-damage-bonus){: .fig-ref} (below) for the martial classes, calculated for a full adventuring day made up of Medium difficulty encounters.
+PCs that get most of their damage directly from their weapons, like fighters, will benefit more than those that get most of their damage from spells or class features, like rogues or paladins. This relationship is illustrated in Fig. \figref{fig:encounter-xp-damage-bonus} (below) for the martial classes, calculated for a full adventuring day made up of Medium difficulty encounters.
 
 <figure id="fig:encounter-xp-damage-bonus">
     {% include_relative fig-encounter-xp-damage-bonus-small.html %}
     {% include_relative fig-encounter-xp-damage-bonus-large.html %}
-    <figcaption>Figure 2: Shows the increase in encounter XP for PCs with a +1 magic weapon relative to their baseline XP with no magic items for a full adventuring day made up of Medium difficulty encounters.</figcaption>
+    <figcaption>Shows the increase in encounter XP for PCs with a +1 magic weapon relative to their baseline XP with no magic items for a full adventuring day made up of Medium difficulty encounters.</figcaption>
 </figure>
 
 While the average benefit tends to decrease as a PC levels up, due to more of their damage coming from sources other than their weapon's damage, a magic item that has $$+1$$ damage increases a PC's XP thresholds and adventuring day XP by $$6.8\%$$ on average.
@@ -159,11 +159,11 @@ In order for magic items to cause the encounter building rules in the DMG to und
 <figure id="fig:encounter-xp-high-magic">
     {% include_relative fig-encounter-xp-high-magic-small.html %}
     {% include_relative fig-encounter-xp-high-magic-large.html %}
-    <figcaption>Figure 3: Shows the percent increase in encounter XP for a PC following a high magic item progression over baseline, as described in the <a href="#tab:high-magic-progression" class="fig-ref">High Magic Progression</a> table for full adventuring days made up of Medium difficulty encounters.</figcaption>
+    <figcaption>Shows the percent increase in encounter XP for a PC following a high magic item progression over baseline, as described in the <a href="#tab:high-magic-progression" class="fig-ref">High Magic Progression</a> table for full adventuring days made up of Medium difficulty encounters.</figcaption>
 </figure>
 
 
-This result is illustrated in Fig. [3](#fig:encounter-xp-high-magic){: .fig-ref} (above), which shows the encounter XP increase for a PC who gain magic items with the bonuses described in the [High Magic Progression](#tab:high-magic-progression){: .fig-ref} table (below) as they level up.
+This result is illustrated in Fig. \figref{fig:encounter-xp-high-magic} (above), which shows the encounter XP increase for a PC who gain magic items with the bonuses described in the [High Magic Progression](#tab:high-magic-progression){: .fig-ref} table (below) as they level up.
 
 <div class="dataframe center" style="width:750px;">
     <h3 id="tab:high-magic-progression">High Magic Progression</h3>

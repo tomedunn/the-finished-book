@@ -27,15 +27,15 @@ In this post, I look at how common each of these damage modifiers are, as well a
 Before digging into how monster types and CR impact a monsters' damage immunities, resistances, and vulnerabilities, lets take a step back and look at things from a broad perspective.
 
 ## Non-physical Damage Types
-To get a sense of how common each type of damage modification is, Fig. <a href="#fig:nonphysical-modifier-types-by-damage" class="fig-ref">1</a> (below) shows the percent of monsters that are immune, resistant, or vulnerable to each non-physical damage type (everything other than bludgeoning, piercing, and slashing damage).
+To get a sense of how common each type of damage modification is, Fig. \figref{fig:nonphysical-modifier-types-by-damage} (below) shows the percent of monsters that are immune, resistant, or vulnerable to each non-physical damage type (everything other than bludgeoning, piercing, and slashing damage).
 
 <figure id="fig:nonphysical-modifier-types-by-damage">
     {% include_relative fig-nonphysical-modifier-types-by-damage-small.html %}
     {% include_relative fig-nonphysical-modifier-types-by-damage-large.html %}
-    <figcaption>Figure 1: Percent of monsters with either resistance, immunity, or vulnerability to each non-physical damage type.</figcaption>
+    <figcaption>Percent of monsters with either resistance, immunity, or vulnerability to each non-physical damage type.</figcaption>
 </figure>
 
-Before talking about individual damage types, one thing Fig. <a href="#fig:nonphysical-modifier-types-by-damage" class="fig-ref">1</a> makes clear is that damage vulnerabilities are exceptionally rare. In fact, only $$4\%$$ of monsters have any kind of damage vulnerability, and only one monster is vulnerable to more than one damage type, the slithering tracker from _Mordenkainen Presents: Monsters of the Multiverse_, which is vulnerable to both cold and fire damage.
+Before talking about individual damage types, one thing Fig. \figref{fig:nonphysical-modifier-types-by-damage} makes clear is that damage vulnerabilities are exceptionally rare. In fact, only $$4\%$$ of monsters have any kind of damage vulnerability, and only one monster is vulnerable to more than one damage type, the slithering tracker from _Mordenkainen Presents: Monsters of the Multiverse_, which is vulnerable to both cold and fire damage.
 
 This means the vast majority of damage modifiers present on monsters are either immunities or resistances.
 
@@ -60,10 +60,10 @@ Rather than breaking out all of these sub-categories and phrasings, for now I'd 
 <figure id="fig:physical-modifier-types-by-damage">
     {% include_relative fig-physical-modifier-types-by-damage-small.html %}
     {% include_relative fig-physical-modifier-types-by-damage-large.html %}
-    <figcaption>Figure 2: Percent of monsters with either resistance, immunity, or vulnerability to each physical damage type.</figcaption>
+    <figcaption>Percent of monsters with either resistance, immunity, or vulnerability to each physical damage type.</figcaption>
 </figure>
 
-The probability of a monster falling into each of these categories is shown in Fig. <a href="#fig:physical-modifier-types-by-damage" class="fig-ref">2</a> (above) for each physical damage type. 
+The probability of a monster falling into each of these categories is shown in Fig. \figref{fig:physical-modifier-types-by-damage} (above) for each physical damage type. 
 
 While the overall levels of immunity and resistance is on the higher side compared to the non-physical damage types, the vast majority of each can be overcome using a magic weapon, or some other kind of magical attack.
 
@@ -73,12 +73,12 @@ However, for magical damage, these averages drop tremendously to $$0.6\%$$ for *
 
 # Damage vs Monster CR
 
-With the high level overview out of the way, lets look at how each damage type holds up vs monster CR. Figure <a href="#fig:average-modifier-vs-cr" class="fig-ref">3</a> (below) shows how the average damage changes with CR after applying any damage modifiers a monster might have. The "physical" damage type represents the average across bludgeoning, piercing, and slashing damage.
+With the high level overview out of the way, lets look at how each damage type holds up vs monster CR. Figure \figref{fig:average-modifier-vs-cr} (below) shows how the average damage changes with CR after applying any damage modifiers a monster might have. The "physical" damage type represents the average across bludgeoning, piercing, and slashing damage.
 
 <figure id="fig:average-modifier-vs-cr">
     {% include_relative fig-average-modifier-vs-cr-small.html %}
     {% include_relative fig-average-modifier-vs-cr-large.html %}
-    <figcaption>Figure 3: Average damage taken after applying damage resistances, immunities, and vulnerabilities for published monsters. Presented as a percent of possible damage done. Physical represents the average of bludgeoning, piercing, and slashing damage.</figcaption>
+    <figcaption>Average damage taken after applying damage resistances, immunities, and vulnerabilities for published monsters. Presented as a percent of possible damage done. Physical represents the average of bludgeoning, piercing, and slashing damage.</figcaption>
 </figure>
 
 Most damage types show some dependence on CR, but how much varies considerably between them. At the low end are **force**, **radiant**, and **thunder** damage, which are also the damage types with the lowest overall average damage reduction. And at the high end are **cold**, **fire**, **poison**, and **physical** damage, which are also the damage types with the highest overall average damage reduction.
@@ -91,12 +91,12 @@ Overall, damage reduction is small below CR 5 for all but poison damage. From CR
 
 # Damage vs Monster Type
 
-Breaking down the data by monster type, as shown in Fig. <a href="#fig:damage-reduction-heat-map" class="fig-ref">4</a> (below), also reveals some interesting trends. 
+Breaking down the data by monster type, as shown in Fig. \figref{fig:damage-reduction-heat-map} (below), also reveals some interesting trends. 
 
 <figure id="fig:damage-reduction-heat-map">
     {% include_relative fig-damage-reduction-heat-map-small.html %}
     {% include_relative fig-damage-reduction-heat-map-large.html %}
-    <figcaption>Figure 4: Average damage reduction for each damage type and monster type.</figcaption>
+    <figcaption>Average damage reduction for each damage type and monster type.</figcaption>
 </figure>
 
 **Force** and **thunder** damage show essentially no dependence on creature type, while **poison** damage reduction is extremely concentrated across constructs, elementals, fiends, and undead.

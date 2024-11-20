@@ -81,12 +81,12 @@ and
 
 Note that while $$\mu_{\action}$$ gets larger as $$m_{\save}$$ increases, $$\sigma_{\action}$$ gets smaller and eventually goes to zero when $$m_{\save} = 1$$, i.e., when the damage on a successful saving throw equals the damage on a failed one. This makes the damage dealt on a successful saving throw a powerful knob in controlling the overall variability of the damage from a save.
 
-Figure [1](#fig:fixed-save-normalized-damage){: .fig-ref} (below) plots $$\mu_{\action}$$ and $$\sigma_{\action}$$ for saves with $$m_{\save} = 0.5$$ and for $$m_{\save} = 0$$. For both of these saves, the standard deviation follows a parabolic trajectory, with a maximum at $$\rho_{\fail} = 0.5$$, and the average damage increases linearly with $$\rho_{\fail}$$. In comparison, when $$m_{\save} = 0.5$$, the save's $$\sigma_{\action}$$ is half as large as it is when $$m_{\save} = 0$$, and while $$\mu_{\action}$$ also increases linearly with $$\rho_{\fail}$$, it does so at half the rate and never drops below $$\mu_{\fail} / 2$$.
+Figure \figref{fig:fixed-save-normalized-damage} (below) plots $$\mu_{\action}$$ and $$\sigma_{\action}$$ for saves with $$m_{\save} = 0.5$$ and for $$m_{\save} = 0$$. For both of these saves, the standard deviation follows a parabolic trajectory, with a maximum at $$\rho_{\fail} = 0.5$$, and the average damage increases linearly with $$\rho_{\fail}$$. In comparison, when $$m_{\save} = 0.5$$, the save's $$\sigma_{\action}$$ is half as large as it is when $$m_{\save} = 0$$, and while $$\mu_{\action}$$ also increases linearly with $$\rho_{\fail}$$, it does so at half the rate and never drops below $$\mu_{\fail} / 2$$.
 
 <figure id="fig:fixed-save-normalized-damage">
     {% include_relative fig-fixed-save-normalized-damage-small.html %}
     {% include_relative fig-fixed-save-normalized-damage-large.html %}
-    <figcaption>Figure 1: Shows average damage and the standard deviation of the damage for a save that deals no damage on a successful saving throw (blue) and one that deals half damage on a successful saving throw (orange). Damage values are all normalized to the damage dealt on a failed saving throw.</figcaption>
+    <figcaption>Shows average damage and the standard deviation of the damage for a save that deals no damage on a successful saving throw (blue) and one that deals half damage on a successful saving throw (orange). Damage values are all normalized to the damage dealt on a failed saving throw.</figcaption>
 </figure>
 
 It's also worth noting that for a typical chance of a target failing their saving throw of $$\rho_{\fail} = 0.65$$, the average damage for $$m_{\save} = 0.5$$ is  $$\mu_{\action} = 0.82 \, \mu_{\fail}$$, which is roughly $$25\%$$ higher than it is for $$m_{\save} = 0$$, which has an average damage of $$\mu_{\action} = 0.65 \, \mu_{\fail}$$. This explains why the rules for [creating a spell](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#SpellDamage) from chapter 9 of the _Dungeon Master's Guide_ recommend increasing the damage for spells with $$m_{\save} = 0$$ by $$25\%$$ over the values listed in that section.
@@ -98,15 +98,15 @@ The scale of the variance can be put into a more useful context by dividing it b
     \label{eq:typical-save-cov-fixed}
 \end{align}
 
-Figure [2](#fig:fixed-save-cv){: .fig-ref} (below) shows the results of Eqn. \eqref{eq:typical-save-cov-fixed} for saving throws where $$m_{\save} = 0$$ and for saving throws where $$m_{\save} = 0.5$$.
+Figure \figref{fig:fixed-save-cv} (below) shows the results of Eqn. \eqref{eq:typical-save-cov-fixed} for saving throws where $$m_{\save} = 0$$ and for saving throws where $$m_{\save} = 0.5$$.
 
 <figure id="fig:fixed-save-cv">
     {% include_relative fig-fixed-save-cv-small.html %}
     {% include_relative fig-fixed-save-cv-large.html %}
-    <figcaption>Figure 2: Shows the coefficient of variation, \(\CV \equiv \sigma / \mu\), for a save that deals no damage on a successful saving throw (blue) and for one that deals half damage on a successful saving throw (orange).</figcaption>
+    <figcaption>Shows the coefficient of variation, \(\CV \equiv \sigma / \mu\), for a save that deals no damage on a successful saving throw (blue) and for one that deals half damage on a successful saving throw (orange).</figcaption>
 </figure>
 
-For saves with $$m_{\save} = 0$$, the results shown in Fig. [2](#fig:fixed-save-cv){: .fig-ref} closely match those shown previously for [attack rolls]({{ site.data.page-links.variability-attacks.path }}/#fig:fixed-attack-cv-vs-hit), getting asymptotically large as $$\rho_{\fail}$$ goes to zero. This makes sense, since a save with $$m_{\save} = 0$$ is equivalent to an attack that does the same damage on a critical hit as it does on a hit.
+For saves with $$m_{\save} = 0$$, the results shown in Fig. \figref{fig:fixed-save-cv} closely match those shown previously for [attack rolls]({{ site.data.page-links.variability-attacks.path }}/#fig:fixed-attack-cv-vs-hit), getting asymptotically large as $$\rho_{\fail}$$ goes to zero. This makes sense, since a save with $$m_{\save} = 0$$ is equivalent to an attack that does the same damage on a critical hit as it does on a hit.
 
 However, for saves with $$m_{\save} = 0.5$$ the results are entirely different. On top of $$\CV_{\action}$$ being substantially smaller at typical values of $$\rho_{\fail}$$ (nearly $$60\%$$ smaller when $$\rho_{\fail} = 0.65$$), it also never exceeds $$\CV_{\action} = 0.35$$, even as $$\rho_{\fail}$$ tends towards zero. This is because the average damage $$\mu_{\action}$$ never approaches zero, like it does when $$m_{\save} = 0.$$ 
 
@@ -140,12 +140,12 @@ A successful save typically does some fraction of the damage dealt by a failed s
 **Note.** The above formulation ignores the fact that fractional damage in D&D is always rounded down. This changes the results slightly, but also makes a general formulation much more complicated without any practical benefits towards the purpose of this analysis. For those who wish to test their skills, including this rounding for saves that deal half damage on a successful save results in $$\mu_{\save} = \frac{1}{2} \left(\mu_{\fail} - 1/2 \right)$$ and $$\sigma_{\save}^2 = \frac{1}{4} \left( \sigma_{\fail}^2 + 1/4 \right)$$.
 {: .notice--warning}
 
-The two most common types of saves in D&D are ones where no damage is dealt on a successful saving throw, $$m_{\save} = 0$$, and where a successful saving throw deals half the damage dealt on a failed saving throw, $$m_{\save} = 0.5$$. For the later case, Fig. [3](#fig:save-normalized-damage){: .fig-ref} (below) shows how the terms in Eqn. \eqref{eq:typical-save-variance} compare to one another and to the average given by Eqn. \eqref{eq:typical-save-mean} for a save with $$\CV_{\fail} = 0.3$$.
+The two most common types of saves in D&D are ones where no damage is dealt on a successful saving throw, $$m_{\save} = 0$$, and where a successful saving throw deals half the damage dealt on a failed saving throw, $$m_{\save} = 0.5$$. For the later case, Fig. \figref{fig:save-normalized-damage} (below) shows how the terms in Eqn. \eqref{eq:typical-save-variance} compare to one another and to the average given by Eqn. \eqref{eq:typical-save-mean} for a save with $$\CV_{\fail} = 0.3$$.
 
 <figure id="fig:save-normalized-damage">
     {% include_relative fig-save-normalized-damage-small.html %}
     {% include_relative fig-save-normalized-damage-large.html %}
-    <figcaption>Figure 3: Shows the average damage given by Eqn. \eqref{eq:typical-save-mean} (blue) for a save with \(m_{\save} = 0.5\) and \(\CV_{\fail} = 0.3\), as well as the standard deviation of the damage \(\sigma_{\action}\) given by Eqn. \eqref{eq:typical-save-variance} (red), and its contributions from the saving throw (orange) and damage rolls (green). All damage values shown are normalized to the average damage of a failed save, \(\mu_{\fail}\).</figcaption>
+    <figcaption>Shows the average damage given by Eqn. \eqref{eq:typical-save-mean} (blue) for a save with \(m_{\save} = 0.5\) and \(\CV_{\fail} = 0.3\), as well as the standard deviation of the damage \(\sigma_{\action}\) given by Eqn. \eqref{eq:typical-save-variance} (red), and its contributions from the saving throw (orange) and damage rolls (green). All damage values shown are normalized to the average damage of a failed save, \(\mu_{\fail}\).</figcaption>
 </figure>
 
 At very low and very high values of $$\rho_{\fail}$$, the variability of the damage rolls dominate the total variability, but for more typical values of $$\rho_{\save}$$, e.g., $$\rho_{\save} = 0.65$$, the damage rolls and the saving throw contribute similar amounts to the total variability. This is in stark contrast to what was observed for attacks previously, which showed the variability of the attack roll playing a dominant role over the damage rolls for all but the most extreme cases.
@@ -162,15 +162,15 @@ The coefficient of variation, $$\CV \equiv \sigma / \mu$$, can be calculated by 
 \end{align}
 where $$\CV_{\fail} = \sigma_{\fail}/\mu_{\fail}$$ is the coefficient of variation of the damage rolled on a failed saving throw.
 
-Figure [4](#fig:save-cv){: .fig-ref} (below) shows the results of Eqn. \eqref{eq:typical-save-cov} as a function of $$\rho_{\fail}$$ for a range of $$\CV_{\fail}$$ values that cover the typical range seen for damage rolls from [published monsters]({{ site.data.page-links.variability-damage-healing-rolls.path }}#fig:monster-damage-cv-vs-cr).
+Figure \figref{fig:save-cv} (below) shows the results of Eqn. \eqref{eq:typical-save-cov} as a function of $$\rho_{\fail}$$ for a range of $$\CV_{\fail}$$ values that cover the typical range seen for damage rolls from [published monsters]({{ site.data.page-links.variability-damage-healing-rolls.path }}#fig:monster-damage-cv-vs-cr).
 
 <figure id="fig:save-cv">
     {% include_relative fig-save-cv-small.html %}
     {% include_relative fig-save-cv-large.html %}
-    <figcaption>Figure 4: Shows the coefficient of variation described by Eqn. \eqref{eq:typical-save-cov} for a saving throw with \(m_{\save} = 0.5\).</figcaption>
+    <figcaption>Shows the coefficient of variation described by Eqn. \eqref{eq:typical-save-cov} for a saving throw with \(m_{\save} = 0.5\).</figcaption>
 </figure>
 
-As expected from the results shown previously in Fig. [3](#fig:save-normalized-damage){: .fig-ref}, when $$m_{\save} = 0.5$$ the variability of the damage rolls contributes significantly to the overall variability across the full range of $$\rho_{\fail}$$. This means saves that deal half damage on a successful saving throw are more sensitive to the variability of their damage rolls. However, even for large levels of damage roll variability, the overall $$\CV$$ for saves with $$m_{\save} = 0.5$$ remain significantly smaller than it is for saves with $$m_{\save} = 0$$ that deal a fixed amount of damage.
+As expected from the results shown previously in Fig. \figref{fig:save-normalized-damage}, when $$m_{\save} = 0.5$$ the variability of the damage rolls contributes significantly to the overall variability across the full range of $$\rho_{\fail}$$. This means saves that deal half damage on a successful saving throw are more sensitive to the variability of their damage rolls. However, even for large levels of damage roll variability, the overall $$\CV$$ for saves with $$m_{\save} = 0.5$$ remain significantly smaller than it is for saves with $$m_{\save} = 0$$ that deal a fixed amount of damage.
 
 
 # Multiple targets
@@ -179,12 +179,12 @@ While attacks are limited to only a single target, saves can sometimes have mult
 
 The fact that a single damage roll is used for all targets limits the number of possible results the total damage can take. As a result, the variability for these saves is higher than it would be if a separate damage roll was used for each target instead.
 
-An example of this is shown in Fig. [5](#fig:multi-target-example){: .fig-ref} (below) for the _[shatter](https://www.dndbeyond.com/spells/shatter)_ spell when cast against two targets. When the same damage roll is used for both targets the probability distribution of the total damage is wider and it takes on a jagged appearance. While the average damage is unchanged, this results in a larger standard deviation for the total damage.
+An example of this is shown in Fig. \figref{fig:multi-target-example} (below) for the _[shatter](https://www.dndbeyond.com/spells/shatter)_ spell when cast against two targets. When the same damage roll is used for both targets the probability distribution of the total damage is wider and it takes on a jagged appearance. While the average damage is unchanged, this results in a larger standard deviation for the total damage.
 
 <figure id="fig:multi-target-example">
     {% include_relative fig-multi-target-example-small.html %}
     {% include_relative fig-multi-target-example-large.html %}
-    <figcaption>Figure 5: Shows the distribution of damage for a 2nd level <em>shatter</em> spell cast against two target when only a single damage roll is used (blue), as well as when a separate damage roll is used for each target (orange). Both targets have a \(65\%\) chance of failing their saving throw.</figcaption>
+    <figcaption>Shows the distribution of damage for a 2nd level <em>shatter</em> spell cast against two target when only a single damage roll is used (blue), as well as when a separate damage roll is used for each target (orange). Both targets have a \(65\%\) chance of failing their saving throw.</figcaption>
 </figure>
 
 We can make sense of these results by considering how the damage dealt to each target is connected. When only one damage roll is made, if the first target fails their saving throw and takes 12 damage then the second target can either take 12 damage on failed saving throw or 6 damage on successful one. In comparison, when each target gets their own damage roll, if the first target fails their saving throw and takes 12 damage, the second target can still take anywhere between 3 and 24 damage on a failed saving throw or between 1 and 12 on a successful one.
@@ -285,12 +285,12 @@ Combining these two results to calculate the coefficient of variation, $$\CV \eq
 \end{align}
 where $$\CV_{\action}$$ is the coefficient of variation for the save against a single target given by Eqn. \eqref{eq:typical-save-cov}, and $$\CV_{\fail}$$ is the coefficient of variation of the damage dealt on a failed saving throw.
 
-Figure [6](#fig:multi-target-save-cv){: .fig-ref} (below) shows how $$\CV_{\total}$$ for the _[fireball](https://www.dndbeyond.com/spells/fireball)_ spell ($$\mu_{\fail} = 28$$, $$\sigma_{\fail} = 4.8$$, and $$m_{\save} = 0.5$$) depends on the number of targets, as well as for a hypothetical variant of the spell where a separate damage roll is made for each target. While the total $$\CV$$ improves as the number of targets increase for both versions of the spell, the official version of the spell does so at a much slower rate than the variant.
+Figure \figref{fig:multi-target-save-cv} (below) shows how $$\CV_{\total}$$ for the _[fireball](https://www.dndbeyond.com/spells/fireball)_ spell ($$\mu_{\fail} = 28$$, $$\sigma_{\fail} = 4.8$$, and $$m_{\save} = 0.5$$) depends on the number of targets, as well as for a hypothetical variant of the spell where a separate damage roll is made for each target. While the total $$\CV$$ improves as the number of targets increase for both versions of the spell, the official version of the spell does so at a much slower rate than the variant.
 
 <figure id="fig:multi-target-save-cv">
     {% include_relative fig-multi-target-save-cv-small.html %}
     {% include_relative fig-multi-target-save-cv-large.html %}
-    <figcaption>Figure 6: Shows how the coefficient of variation for total damage from the <em>fireball</em> spell with \(\rho_{\fail} = 0.65\) depends on the number of targets when a single damage roll is used for all targets (blue) and when separate rolls are made for each target (orange). The dashed reference line at \(\CV_{\fail} \simeq 0.17\) marks coefficient of variation for the damage dealt by the spell on a failed saving throw of 8d6.</figcaption>
+    <figcaption>Shows how the coefficient of variation for total damage from the <em>fireball</em> spell with \(\rho_{\fail} = 0.65\) depends on the number of targets when a single damage roll is used for all targets (blue) and when separate rolls are made for each target (orange). The dashed reference line at \(\CV_{\fail} \simeq 0.17\) marks coefficient of variation for the damage dealt by the spell on a failed saving throw of 8d6.</figcaption>
 </figure>
 
 The official version of the spell also appears to slow down asymptotically as it approaches $$\CV_{\fail} \simeq 0.17$$ for the spell. Taking the limit of Eqn. \eqref{eq:multiple-identical-targets-cov} as $$N \rightarrow \infty$$, the contribution to $$\CV_{\total}$$ from the saving throw vanishes and $$\CV_{\total} = \CV_{\fail}$$ which confirms this is indeed the case. This makes sense when we consider that in this limit, while infinite saving throws are made, only a single damage roll is used across all targets.

@@ -45,12 +45,12 @@ Attacks in D&D are made up of two random processes -- an attack roll and a damag
 
 Attack rolls differ from damage rolls in that they result in a discrete set of outcomes -- a miss, a hit, or a critical hit -- rather than a continuous range of values. As long as each of these outcomes results in a different value, and the results are random, each with some probability of occurring, there will naturally be some average result and some variation around that average.
 
-To illustrate this, Fig. [1](#fig:simple-hits){: .fig-ref} (below) shows the probability of hitting $$n$$-times with an attack bonus of $$+4$$ against an armor class of $$12$$, with critical hits being counted as hits for the sake of simplicity.
+To illustrate this, Fig. \figref{fig:simple-hits} (below) shows the probability of hitting $$n$$-times with an attack bonus of $$+4$$ against an armor class of $$12$$, with critical hits being counted as hits for the sake of simplicity.
 
 <figure id="fig:simple-hits">
     {% include_relative fig-simple-hits-small.html %}
     {% include_relative fig-simple-hits-large.html %}
-    <figcaption>Figure 1: Shows the probability of hitting \(n\)-times with an attack bonus of \(+4\) against an armor class of \(12\) after making one attack (blue) and after making five attacks (orange). For simplicity, critical hits are treated as hits.</figcaption>
+    <figcaption>Shows the probability of hitting \(n\)-times with an attack bonus of \(+4\) against an armor class of \(12\) after making one attack (blue) and after making five attacks (orange). For simplicity, critical hits are treated as hits.</figcaption>
 </figure>
 
 For the scenario where only one attack is made, the probability distribution is a simple binary: either the attack hits or it misses. However, for the scenario where five attacks are made, the probability is much closer to a [Gaussian distribution](https://en.wikipedia.org/wiki/Normal_distribution) (also known as a normal distribution). In fact, it exactly follows the [binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution).
@@ -87,12 +87,12 @@ and the variance given by Eqn. \eqref{eq:attack-variance-fixed-2} becomes
     \label{eq:attack-variance-typical-fixed}
 \end{align}
 
-Figure [2](#fig:attack-normalized-damage-fixed-vs-hit){: .fig-ref} (below) plots $$\mu_{\attack}$$ and $$\sigma_{\attack}$$ as functions of $$\rho_{\hit}$$ for Eqns. \eqref{eq:attack-mean-typical} and \eqref{eq:attack-variance-typical-fixed} with $$\rho_{\crit} = 0.05$$ and $$m_{\crit} = 2$$. While the average damage decreases linearly as $$\rho_{\hit}$$ goes down, the standard deviation of the damage follows more of a parabolic trend, with a maximum value near the middle at $$\rho_{\hit} + \rho_{\crit} = 0.45$$, and never dropping below $$\sigma_{\attack} = 0.3$$.
+Figure \figref{fig:attack-normalized-damage-fixed-vs-hit} (below) plots $$\mu_{\attack}$$ and $$\sigma_{\attack}$$ as functions of $$\rho_{\hit}$$ for Eqns. \eqref{eq:attack-mean-typical} and \eqref{eq:attack-variance-typical-fixed} with $$\rho_{\crit} = 0.05$$ and $$m_{\crit} = 2$$. While the average damage decreases linearly as $$\rho_{\hit}$$ goes down, the standard deviation of the damage follows more of a parabolic trend, with a maximum value near the middle at $$\rho_{\hit} + \rho_{\crit} = 0.45$$, and never dropping below $$\sigma_{\attack} = 0.3$$.
 
 <figure id="fig:attack-normalized-damage-fixed-vs-hit">
     {% include_relative fig-attack-normalized-damage-fixed-vs-hit-small.html %}
     {% include_relative fig-attack-normalized-damage-fixed-vs-hit-large.html %}
-    <figcaption>Figure 2: Shows the average damage, \(\mu_{\attack}\) (blue), and the standard deviation of the damage, \(\sigma_{\attack}\) (orange), for an attack with \(\rho_{\crit} = 0.05\) and \(m_{\crit} = 2\), calculated from Eqns. \eqref{eq:attack-mean-typical} and \eqref{eq:attack-variance-typical-fixed} and normalized to the average damage of a hit, \(\mu_{\hit}\) .</figcaption>
+    <figcaption>Shows the average damage, \(\mu_{\attack}\) (blue), and the standard deviation of the damage, \(\sigma_{\attack}\) (orange), for an attack with \(\rho_{\crit} = 0.05\) and \(m_{\crit} = 2\), calculated from Eqns. \eqref{eq:attack-mean-typical} and \eqref{eq:attack-variance-typical-fixed} and normalized to the average damage of a hit, \(\mu_{\hit}\) .</figcaption>
 </figure>
 
 Another useful way of comparing the variance to the average is by calculating the attack roll's [coefficient of variation](https://en.wikipedia.org/wiki/Coefficient_of_variation), $$\CV \equiv \sigma / \mu$$ (commonly referred to as sigma over mean), 
@@ -102,28 +102,28 @@ Another useful way of comparing the variance to the average is by calculating th
 \end{align}
 This normalizes the variability of the attack roll to the average, which can be useful in characterizing how likely the outcome of an attack is to be close to its statistical average damage.
 
-To get a sense of how much variability comes attack rolls for a typical attack, Fig. [3](#fig:fixed-attack-cv-vs-hit){: .fig-ref} (below) plots $$\CV_{\attack}$$ for an attack described by Eqn. \eqref{eq:attack-cov-typical-fixed} with $$\rho_{\crit} = 0.05$$ and $$m_{\crit} = 2$$.
+To get a sense of how much variability comes attack rolls for a typical attack, Fig. \figref{fig:fixed-attack-cv-vs-hit} (below) plots $$\CV_{\attack}$$ for an attack described by Eqn. \eqref{eq:attack-cov-typical-fixed} with $$\rho_{\crit} = 0.05$$ and $$m_{\crit} = 2$$.
 
 <figure id="fig:fixed-attack-cv-vs-hit">
     {% include_relative fig-fixed-attack-cv-vs-hit-small.html %}
     {% include_relative fig-fixed-attack-cv-vs-hit-large.html %}
-    <figcaption>Figure 3: Shows the coefficient of variation for an attack described by Eqn. \eqref{eq:attack-cov-typical-fixed} for an attack with \(\rho_{\crit} = 0.05\) and \(m_{\crit} = 2\).</figcaption>
+    <figcaption>Shows the coefficient of variation for an attack described by Eqn. \eqref{eq:attack-cov-typical-fixed} for an attack with \(\rho_{\crit} = 0.05\) and \(m_{\crit} = 2\).</figcaption>
 </figure>
 
-For a typical chance to hit of $$65\%$$, the attack shown in Fig. [3](#fig:fixed-attack-cv-vs-hit){: .fig-ref} has a $$\CV_{\attack} \simeq 0.8$$ which is substantially higher than the coefficient of variation for a typical damage roll, which tends to fall within the range of $$0.1-0.3$$ for [published monsters]({{ site.url }}{{ site.baseurl }}/theory/variability-damage-healing-rolls/#fig:monster-damage-cv-vs-cr).
+For a typical chance to hit of $$65\%$$, the attack shown in Fig. \figref{fig:fixed-attack-cv-vs-hit} has a $$\CV_{\attack} \simeq 0.8$$ which is substantially higher than the coefficient of variation for a typical damage roll, which tends to fall within the range of $$0.1-0.3$$ for [published monsters]({{ site.url }}{{ site.baseurl }}/theory/variability-damage-healing-rolls/#fig:monster-damage-cv-vs-cr).
 
-It's only for very high chances to hit that $$\CV_{\attack}$$ comes anywhere close to this range. And for low chances to hit, $$\CV_{\attack}$$ increases almost as $$1/\rho_{\hit}$$, due to $$\mu_{\attack}$$ trending towards zero as $$\rho_{\hit}$$ does, while $$\sigma_{\attack}$$ stays relatively high as shown previously in Fig. [2](#fig:attack-normalized-damage-fixed-vs-hit){: .fig-ref}.
+It's only for very high chances to hit that $$\CV_{\attack}$$ comes anywhere close to this range. And for low chances to hit, $$\CV_{\attack}$$ increases almost as $$1/\rho_{\hit}$$, due to $$\mu_{\attack}$$ trending towards zero as $$\rho_{\hit}$$ does, while $$\sigma_{\attack}$$ stays relatively high as shown previously in Fig. \figref{fig:attack-normalized-damage-fixed-vs-hit}.
 
 Clearly, the amount of variability that comes from just the attack roll portion of an attack is substantial. How it interacts with the variability that comes from damage rolls is explored in detail in the next section.
 
 # Attacks
 
-When the outcomes of an attack roll have their own variability, like when a hit results in a damage roll, that variability compounds with the inherent variability of the initial roll as described in the previous section. This interaction is illustrated in Fig. [4](#fig:simple-damage){: .fig-ref} (below), which shows the probability distribution of the damage resulting from a single attack with an attack bonus of $$+4$$ against a target with an armor class of $$12$$ and deals 1d4+2 damage on a hit, as well as the distribution for five such attacks.
+When the outcomes of an attack roll have their own variability, like when a hit results in a damage roll, that variability compounds with the inherent variability of the initial roll as described in the previous section. This interaction is illustrated in Fig. \figref{fig:simple-damage} (below), which shows the probability distribution of the damage resulting from a single attack with an attack bonus of $$+4$$ against a target with an armor class of $$12$$ and deals 1d4+2 damage on a hit, as well as the distribution for five such attacks.
 
 <figure id="fig:simple-damage">
     {% include_relative fig-simple-damage-small.html %}
     {% include_relative fig-simple-damage-large.html %}
-    <figcaption>Figure 4: Shows the probability of dealing \(x\)-damage with an attack that has an attack bonus of \(+4\) and deals 1d4+2 damage on a hit, against a target with an armor class of \(12\) after making one attack (blue) and five attacks (orange).</figcaption>
+    <figcaption>Shows the probability of dealing \(x\)-damage with an attack that has an attack bonus of \(+4\) and deals 1d4+2 damage on a hit, against a target with an armor class of \(12\) after making one attack (blue) and five attacks (orange).</figcaption>
 </figure>
 
 For the single attack there is a spread in the damage that comes from combining the damage distributions of a hit and a critical hit, as well as an extra peak at zero damage for a miss. The coefficient of variation for this single attack is $$\CV_{\attack} = 0.83$$, which is only slightly higher than $$\CV \simeq 0.75$$ given by Eqn. \eqref{eq:attack-cov-typical-fixed}, despite having $$\CV_{\hit} = 0.25$$ for the damage roll on a hit and $$\CV_{\crit} = 0.23$$ for the damage roll on a critical hit (see [Variability: Damage and Healing Rolls]({{ site.url }}{{ site.baseurl }}/theory/variability-damage-healing-rolls/#rolls-with-multiple-dice) for how to calculate these).
@@ -155,14 +155,14 @@ If we once again consider that for a typical attack $$\mu_{\miss} = 0$$ and $$\s
 \end{align}
 where $$\mu_{\attack}^2$$ is the average damage of the attack given by Eqn. \eqref{eq:attack-mean-typical} in the previous section.
 
-As an example, for the attack shown previously in Fig. [4](#fig:simple-damage){: .fig-ref} the damage roll for a hit is 1d4 + 2 ($$\mu_{\hit} = 4.5$$ and $$\sigma_{\hit} = 1.12$$) and the damage roll for a critical hit is 2d4 + 2 ($$\mu_{\hit} = 7.0$$ and $$\sigma_{\hit} = 1.12\,\sqrt{2}$$), which translates to $$m_{\crit} = 1.56$$ and $$s_{\crit} = \sqrt{2}$$.
+As an example, for the attack shown previously in Fig. \figref{fig:simple-damage} the damage roll for a hit is 1d4 + 2 ($$\mu_{\hit} = 4.5$$ and $$\sigma_{\hit} = 1.12$$) and the damage roll for a critical hit is 2d4 + 2 ($$\mu_{\hit} = 7.0$$ and $$\sigma_{\hit} = 1.12\,\sqrt{2}$$), which translates to $$m_{\crit} = 1.56$$ and $$s_{\crit} = \sqrt{2}$$.
 
-Figure [5](#fig:attack-normalized-damage-vs-hit){: .fig-ref} (below) plots $$\mu_{\attack}$$ from Eqn. \eqref{eq:attack-mean-typical} and $$\sigma_{\attack}$$ from Eqn. \eqref{eq:attack-variance-typical}, along with its contributions from the attack roll and damage rolls, for and attack with $$\rho_{\crit} = 0.05$$, $$m_{\crit} = 2$$, $$s_{\crit}^2 = 2$$, and $$\sigma_{\hit}/\mu_{\hit} = 0.3$$.
+Figure \figref{fig:attack-normalized-damage-vs-hit} (below) plots $$\mu_{\attack}$$ from Eqn. \eqref{eq:attack-mean-typical} and $$\sigma_{\attack}$$ from Eqn. \eqref{eq:attack-variance-typical}, along with its contributions from the attack roll and damage rolls, for and attack with $$\rho_{\crit} = 0.05$$, $$m_{\crit} = 2$$, $$s_{\crit}^2 = 2$$, and $$\sigma_{\hit}/\mu_{\hit} = 0.3$$.
 
 <figure id="fig:attack-normalized-damage-vs-hit">
     {% include_relative fig-attack-normalized-damage-vs-hit-small.html %}
     {% include_relative fig-attack-normalized-damage-vs-hit-large.html %}
-    <figcaption>Figure 5: Shows the average damage \(\mu_{\attack}\) given by Eqn. \eqref{eq:attack-mean-typical} (blue), as well as the standard deviation of the damage \(\sigma_{\attack}\) given by Eqn. \eqref{eq:attack-variance-typical} (red), and its contributions from the attack roll (orange) and the damage rolls of each outcome (green). All damage values shown are normalized to the average damage of a hit, \(\mu_{\hit}\), and the attack shown has \(\rho_{\crit} = 0.05\), \(m_{\crit} = 2\), \(s_{\crit}^2 = 2\), and \(\sigma_{\hit}/\mu_{\hit} = 0.3\).</figcaption>
+    <figcaption>Shows the average damage \(\mu_{\attack}\) given by Eqn. \eqref{eq:attack-mean-typical} (blue), as well as the standard deviation of the damage \(\sigma_{\attack}\) given by Eqn. \eqref{eq:attack-variance-typical} (red), and its contributions from the attack roll (orange) and the damage rolls of each outcome (green). All damage values shown are normalized to the average damage of a hit, \(\mu_{\hit}\), and the attack shown has \(\rho_{\crit} = 0.05\), \(m_{\crit} = 2\), \(s_{\crit}^2 = 2\), and \(\sigma_{\hit}/\mu_{\hit} = 0.3\).</figcaption>
 </figure>
 
 At low chances to hit the variability of the damage rolls contribute almost nothing to $$\sigma_{\attack}$$. This increase as $$\rho_{\hit}$$ does, but even at $$\rho_{\hit} = 0.9$$ the variability coming from the attack roll and the average damage is still the more dominant term.
@@ -175,12 +175,12 @@ Taking the ratio of Eqns. \eqref{eq:attack-variance-typical} and \eqref{eq:attac
 where $$\CV_{\hit} = \sigma_{\hit}/\mu_{\hit}$$ is the coefficient of variation for the damage rolled on a hit.
 
 For [published monsters]({{ site.url }}{{ site.baseurl }}/theory/variability-damage-healing-rolls/#fig:monster-damage-cv-vs-cr), 
-$$\CV_{\hit}$$ typically falls in the range $$0.1-0.3$$. Using this, along with $$\rho_{\crit} = 0.05$$, $$m_{\crit} = 2$$, and $$s_{\crit}^2 = 2$$, Fig. [6](#fig:attack-cv-vs-hit){: .fig-ref} (below) shows how the $$\CV_{\attack}$$ described by Eqn. \eqref{eq:attack-cov-typical} depends on the probability of an attack hitting its target, $$\rho_{\hit}$$.
+$$\CV_{\hit}$$ typically falls in the range $$0.1-0.3$$. Using this, along with $$\rho_{\crit} = 0.05$$, $$m_{\crit} = 2$$, and $$s_{\crit}^2 = 2$$, Fig. \figref{fig:attack-cv-vs-hit} (below) shows how the $$\CV_{\attack}$$ described by Eqn. \eqref{eq:attack-cov-typical} depends on the probability of an attack hitting its target, $$\rho_{\hit}$$.
 
 <figure id="fig:attack-cv-vs-hit">
     {% include_relative fig-attack-cv-vs-hit-small.html %}
     {% include_relative fig-attack-cv-vs-hit-large.html %}
-    <figcaption>Figure 6: Shows the coefficient of variation described by Eqn. \eqref{eq:attack-cov-typical} for an attack with \(\rho_{\crit} = 0.05\), \(m_{\crit} = 2\), and \(s_{\crit}^2 = 2\).</figcaption>
+    <figcaption>Shows the coefficient of variation described by Eqn. \eqref{eq:attack-cov-typical} for an attack with \(\rho_{\crit} = 0.05\), \(m_{\crit} = 2\), and \(s_{\crit}^2 = 2\).</figcaption>
 </figure>
 
 Clearly, damage roll variability has only a minor influence on the overall variability of an attack. This may seem somewhat counter intuitive but it's worth keeping in mind that much of the variability that comes from the attack roll stems from the average damage of a miss being zero and the probability of a critical hit being low.
@@ -272,12 +272,12 @@ Since $$m_{\crit} > 1$$, we know that $$\rho_{\hit} + \rho_{\crit} \, m_{\crit}^
 
 This principle can be applied recursively as well, so long as the damage pools of a resulting attack after splitting can be further split in two. Therefore, a more general statement would be that **the variance from a pool of damage divided up across multiple identical attacks gets smaller and smaller as the number of attacks increases**.
 
-An example of how the variance is reduced as the number of attacks increase is shown in Fig. [7](#fig:cd-distribution-example){: .fig-ref} (below) for a damage pool consisting of 8d6. As the number of attacks increases the width of the damaging portion of the distribution widens. However, the probability of dealing zero damage drops significantly, leading to an overall reduction in the total variance.
+An example of how the variance is reduced as the number of attacks increase is shown in Fig. \figref{fig:cd-distribution-example} (below) for a damage pool consisting of 8d6. As the number of attacks increases the width of the damaging portion of the distribution widens. However, the probability of dealing zero damage drops significantly, leading to an overall reduction in the total variance.
 
 <figure id="fig:cd-distribution-example">
     {% include_relative fig-cd-distribution-example-small.html %}
     {% include_relative fig-cd-distribution-example-large.html %}
-    <figcaption>Figure 7: Shows the damage distribution for a damage pool of 8d6 divided up evenly across different numbers of attacks, each of which has \(\rho_{\hit} = 0.60\) and \(\rho_{\crit} = 0.05\). Distributions are offset for clarity.</figcaption>
+    <figcaption>Shows the damage distribution for a damage pool of 8d6 divided up evenly across different numbers of attacks, each of which has \(\rho_{\hit} = 0.60\) and \(\rho_{\crit} = 0.05\). Distributions are offset for clarity.</figcaption>
 </figure>
 
 For a damage pool consisting of $$N$$ dice, $$\mathrm{D} = \left\{\die_{1}, \die_{2}, \dots, \die_{N}\right\}$$, the lowest variance will come when the damage pool can no longer be split up, i.e., one die per attack. The minimum total variance can therefore be calculated using Eqn. \eqref{eq:attack-variance-typical},
@@ -288,14 +288,14 @@ For a damage pool consisting of $$N$$ dice, $$\mathrm{D} = \left\{\die_{1}, \die
 \end{align}
 where $$\sigma_{\mathrm{D}}^2$$ is the total variance from the entire damage pool.
 
-Note that the contribution of the damage pool to the total variance, $$\left( \rho_{\hit} + \rho_{\crit} \, s_{\crit}^2 \right) \sigma_{\mathrm{D}}^2$$, is the same as it would be with just a single attack. The term that gets smaller as the number of attacks increases is therefore that of the attack roll. This makes intuitive sense, and matches what was shown in Fig. [7](#fig:cd-distribution-example){: .fig-ref} earlier, since the number of attack rolls is increasing while the total dice rolled when determining the damage remains unchanged.
+Note that the contribution of the damage pool to the total variance, $$\left( \rho_{\hit} + \rho_{\crit} \, s_{\crit}^2 \right) \sigma_{\mathrm{D}}^2$$, is the same as it would be with just a single attack. The term that gets smaller as the number of attacks increases is therefore that of the attack roll. This makes intuitive sense, and matches what was shown in Fig. \figref{fig:cd-distribution-example} earlier, since the number of attack rolls is increasing while the total dice rolled when determining the damage remains unchanged.
 
-An example of how the $$\CV$$ decreases as the number of attacks increases is shown in Fig. [8](#fig:cd-cv-example){: .fig-ref} (below) for the same damage pool used previously in Fig. [7](#fig:cd-distribution-example){: .fig-ref}.
+An example of how the $$\CV$$ decreases as the number of attacks increases is shown in Fig. \figref{fig:cd-cv-example} (below) for the same damage pool used previously in Fig. \figref{fig:cd-distribution-example}.
 
 <figure id="fig:cd-cv-example">
     {% include_relative fig-cd-cv-example-small.html %}
     {% include_relative fig-cd-cv-example-large.html %}
-    <figcaption>Figure 8: Shows the coefficient of variation for a damage pool of 8d6 divided up evenly across multiple attacks (blue), each of which has \(\rho_{\hit} = 0.60\) and \(\rho_{\crit} = 0.05\), along with a reference line for minimum \(\CV\) calculated using Eqn. \eqref{eq:cd-attack-variance-min} (dashed).</figcaption>
+    <figcaption>Shows the coefficient of variation for a damage pool of 8d6 divided up evenly across multiple attacks (blue), each of which has \(\rho_{\hit} = 0.60\) and \(\rho_{\crit} = 0.05\), along with a reference line for minimum \(\CV\) calculated using Eqn. \eqref{eq:cd-attack-variance-min} (dashed).</figcaption>
 </figure>
 
 

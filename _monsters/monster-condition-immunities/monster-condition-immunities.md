@@ -18,12 +18,12 @@ Recently, I published a post on [valuing conditions]({{ site.data.page-links.val
 Since I've already covered how [monster saving throws]({{ site.data.page-links.monster-saving-throws.path }}) scale with monster CR, in this post I'd like to analyze how likely published monsters are to be immune to each condition in 5th edition D&D. You can find a summary of the dataset used for this analysis [here]({{ site.data.page-links.monster-dataset.path }}).
 
 # Conditions Immunities
-To begin, lets look at how likely published monsters are to be immune to each condition on average. As shown in Fig. <a href="#fig:condition-immunity-probability" class="fig-ref">1</a> (below), the most common conditions monsters are immune to are **charmed**, **frightened**, and **poisoned**. Each having an average likelihood between $$25 - 30\%$$.
+To begin, lets look at how likely published monsters are to be immune to each condition on average. As shown in Fig. \figref{fig:condition-immunity-probability} (below), the most common conditions monsters are immune to are **charmed**, **frightened**, and **poisoned**. Each having an average likelihood between $$25 - 30\%$$.
 
 <figure id="fig:condition-immunity-probability">
     {% include_relative fig-condition-immunity-probability-small.html %}
     {% include_relative fig-condition-immunity-probability-large.html %}
-    <figcaption>Figure 1: Probability of a published monster being immune to a condition as a percent of total published monsters.</figcaption>
+    <figcaption>Probability of a published monster being immune to a condition as a percent of total published monsters.</figcaption>
 </figure>
 
 While immunity to the poisoned condition is the most common of these three, it's perhaps the least important for player characters, since few classes are capable of regularly applying it. Meanwhile, the charmed and frightened conditions can be essential tools for several classes, especially spellcasters with access to spells like _[fear](https://www.dndbeyond.com/spells/fear)_ and _[hypnotic pattern](https://www.dndbeyond.com/spells/hypnotic-pattern)_.
@@ -34,12 +34,12 @@ Only the **incapacitated** and **invisible** conditions sit firmly at $$0\%$$, w
 
 # Condition Immunities by Type
 
-The likelihood of a monster being immune to a specific condition can also depend strongly on the monster's type. This is illustrated in Fig. <a href="#fig:condition-immunity-probability-heat-map" class="fig-ref">2</a> (below), which shows how likely a monster is to be immune to a condition depending on its type.
+The likelihood of a monster being immune to a specific condition can also depend strongly on the monster's type. This is illustrated in Fig. \figref{fig:condition-immunity-probability-heat-map} (below), which shows how likely a monster is to be immune to a condition depending on its type.
 
 <figure id="fig:condition-immunity-probability-heat-map">
     {% include_relative fig-condition-immunity-probability-heat-map-small.html %}
     {% include_relative fig-condition-immunity-probability-heat-map-large.html %}
-    <figcaption>Figure 2: Probability of a published monster being immune to a condition as a percent of the total monsters for its type.</figcaption>
+    <figcaption>Probability of a published monster being immune to a condition as a percent of the total monsters for its type.</figcaption>
 </figure>
 
 **Oozes** are the most consistent out of all of the monster types, with every ooze being immune to the blinded, deafened, exhaustion, and prone conditions, and all but one being immune to the charmed condition. This level of consistency is likely due, at least in part, to there only being 13 oozes of CR 1/8 or higher published in official source books.
@@ -52,12 +52,12 @@ The rest of the monster types have far fewer condition immunities than those men
 
 # Condition Immunities by Challenge Rating
 
-The likelihood of a monster being immune to a condition can also depend on their CR. As Fig. <a href="#fig:condition-immunity-prob-vs-cr" class="fig-ref">3</a> (below) shows, some condition immunities depend strongly on CR, while others are completely independent of it.
+The likelihood of a monster being immune to a condition can also depend on their CR. As Fig. \figref{fig:condition-immunity-prob-vs-cr} (below) shows, some condition immunities depend strongly on CR, while others are completely independent of it.
 
 <figure id="fig:condition-immunity-prob-vs-cr">
     {% include_relative fig-condition-immunity-prob-vs-cr-small.html %}
     {% include_relative fig-condition-immunity-prob-vs-cr-large.html %}
-    <figcaption>Figure 3: Probability of a published monster being immune to a condition as a percent of the total monsters for their challenge rating (points), along with trend lines for each condition (lines). <i>Note: You can toggle individual conditions on and off by clicking on them in the legend.</i></figcaption>
+    <figcaption>Probability of a published monster being immune to a condition as a percent of the total monsters for their challenge rating (points), along with trend lines for each condition (lines). <i>Note: You can toggle individual conditions on and off by clicking on them in the legend.</i></figcaption>
 </figure>
 
 The condition immunities with the strongest dependence on CR are also the most common: **charmed**, **frightened**, and **poisoned**. All three show very similar overall trend lines, with immunity to the poisoned condition having a slightly lower slope and slightly higher value at low CRs. At very high CRs, while the probabilities can vary quite a lot between CRs, the average for each reaches $$80\%$$ and higher. Even for CRs as low as 13, the average value for each is above $$40\%$$.

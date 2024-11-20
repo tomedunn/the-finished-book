@@ -56,12 +56,12 @@ At the most basic level, all random processes are described by their probability
     \,.
     \label{eq:die-probability-distribution}
 \end{align}
-For each size of die, this produces a flat probability distribution, as shown in Fig. [1](#fig:die-pd){: .fig-ref} (below).
+For each size of die, this produces a flat probability distribution, as shown in Fig. \figref{fig:die-pd} (below).
 
 <figure id="fig:die-pd">
     {% include_relative fig-die-pd-small.html %}
     {% include_relative fig-die-pd-large.html %}
-    <figcaption>Figure 1: Shows the probability distribution for common dice sizes use in damage and healing rolls in D&D.</figcaption>
+    <figcaption>Shows the probability distribution for common dice sizes use in damage and healing rolls in D&D.</figcaption>
 </figure>
 
 Other useful tools for describing a random process, like a die roll, is through its [mean](https://en.wikipedia.org/wiki/Mean) $$(\mu)$$ and [standard deviation](https://en.wikipedia.org/wiki/Standard_deviation) $$(\sigma)$$, which can both be calculated from the process's probability distribution.
@@ -131,49 +131,49 @@ For rolls with only a single type of die and modifier, which covers the vast maj
 \end{align}
 where $$\mu_{\die_n}$$ and $$\sigma_{\die_n}$$ can be calculated using Eqns. \eqref{eq:die-mean} and \eqref{eq:die-sigma} respectively, or taken directly from the [Dice Stats](#tab:die-stats){: .fig-ref} table in the previous section.
 
-To get a better sense of how these scale with the size and number of dice, Fig. [2](#fig:cv-die-sigma-vs-mean){: .fig-ref} (below) plots $$\mu_{\roll}$$ and $$\sigma_{\roll}$$ values for common dice sizes ($$n = 4$$, $$6$$, $$8$$, $$10$$, and $$12$$), for the case where $$N_{\die_0} = 0$$, along with lines of constant $$\CV$$ for reference.
+To get a better sense of how these scale with the size and number of dice, Fig. \figref{fig:cv-die-sigma-vs-mean} (below) plots $$\mu_{\roll}$$ and $$\sigma_{\roll}$$ values for common dice sizes ($$n = 4$$, $$6$$, $$8$$, $$10$$, and $$12$$), for the case where $$N_{\die_0} = 0$$, along with lines of constant $$\CV$$ for reference.
 
 <figure id="fig:cv-die-sigma-vs-mean">
     {% include_relative fig-cv-die-sigma-vs-mean-small.html %}
     {% include_relative fig-cv-die-sigma-vs-mean-large.html %}
-    <figcaption>Figure 2: Shows mean and standard deviation values for common dice rolls without modifiers, along with reference lines of constant \(\CV\) (dashed lines). Hovering over a point, or selecting it on mobile, shows the dice equation along with its \(\CV\). Each roll's \(\CV\) can be reduced by adding a modifier, increasing its mean and shifting its point to the right.</figcaption>
+    <figcaption>Shows mean and standard deviation values for common dice rolls without modifiers, along with reference lines of constant \(\CV\) (dashed lines). Hovering over a point, or selecting it on mobile, shows the dice equation along with its \(\CV\). Each roll's \(\CV\) can be reduced by adding a modifier, increasing its mean and shifting its point to the right.</figcaption>
 </figure>
 
-One of the most interesting trends shown in Fig. [2](#fig:cv-die-sigma-vs-mean){: .fig-ref} is that **as the number of dice increases the variability of the roll decreases**. We can confirm this trend by using Eqns. \eqref{eq:sd-roll-mean} and \eqref{eq:sd-roll-sigma}, with $$N_{\die_1} = 0$$, to calculate $$\CV = \sigma/\mu$$ for the roll,
+One of the most interesting trends shown in Fig. \figref{fig:cv-die-sigma-vs-mean} is that **as the number of dice increases the variability of the roll decreases**. We can confirm this trend by using Eqns. \eqref{eq:sd-roll-mean} and \eqref{eq:sd-roll-sigma}, with $$N_{\die_1} = 0$$, to calculate $$\CV = \sigma/\mu$$ for the roll,
 \begin{align}
     \CV_{\roll} &= \frac{ \sqrt{N_{\die_n}} \cdot \sigma_{\die_n} }{ N_{\die_n} \cdot \mu_{\die_n} } \nonumber \\\\ 
                 &= \frac{ \CV_{\die_n} }{ \sqrt{N_{\die_n}} }\,.
 \end{align}
 This shows that as the number of dice, $$N_{\die_n}$$, increases, the the variability decreases as $$1/\sqrt{N_{\die_n}}$$.
 
-Figure [2](#fig:cv-die-sigma-vs-mean){: .fig-ref} can also be used to determine which dice and modifier can be used to achieve a given $$\mu$$ and $$\CV$$, by drawing a vertical line at the target $$\mu$$ and a horizontal line that intersects it near the desired $$\CV$$. Any roll close to that horizontal line can be used, with $$N_{\die_1}$$ equal to the points horizontal distance from the vertical line.
+Figure \figref{fig:cv-die-sigma-vs-mean} can also be used to determine which dice and modifier can be used to achieve a given $$\mu$$ and $$\CV$$, by drawing a vertical line at the target $$\mu$$ and a horizontal line that intersects it near the desired $$\CV$$. Any roll close to that horizontal line can be used, with $$N_{\die_1}$$ equal to the points horizontal distance from the vertical line.
 
-For example, when building a roll with $$\mu \simeq 15$$ and a $$\CV \simeq 0.20$$, this method gives two options, 1d10 + 10 and 3d6 + 5. A comparison of these two rolls is shown in Fig. [3](#fig:damage-roll-example){: .fig-ref} (below).
-<figure id="fig:damage-roll-example-2">
+For example, when building a roll with $$\mu \simeq 15$$ and a $$\CV \simeq 0.20$$, this method gives two options, 1d10 + 10 and 3d6 + 5. A comparison of these two rolls is shown in Fig. \figref{fig:damage-roll-example} (below).
+<figure id="fig:damage-roll-example">
     {% include_relative fig-damage-roll-example-small.html %}
     {% include_relative fig-damage-roll-example-large.html %}
-    <figcaption>Figure 3: Shows the probability distribution for the rolls 1d10 + 10 (blue) and 3d6 + 5 (orange).</figcaption>
+    <figcaption>Shows the probability distribution for the rolls 1d10 + 10 (blue) and 3d6 + 5 (orange).</figcaption>
 </figure>
 
 
 # Case Study: monster damage variability
 
-To get a sense of what values are typically used by the game, lets look at how damage roll variability looks for published monsters in D&D. Figure [4](#fig:monster-damage-cv-vs-cr){: .fig-ref} plots the average $$\CV$$ values for monster actions that deal damage as a function of monster CR (this does not include damage from spells at this time). As monster CRs increase, the average $$\CV$$ for their damaging actions decreases steadily from around 0.30 to 0.15. 
+To get a sense of what values are typically used by the game, lets look at how damage roll variability looks for published monsters in D&D. Figure \figref{fig:monster-damage-cv-vs-cr} plots the average $$\CV$$ values for monster actions that deal damage as a function of monster CR (this does not include damage from spells at this time). As monster CRs increase, the average $$\CV$$ for their damaging actions decreases steadily from around 0.30 to 0.15. 
 
 <figure id="fig:monster-damage-cv-vs-cr">
     {% include_relative fig-monster-damage-cv-vs-cr-small.html %}
     {% include_relative fig-monster-damage-cv-vs-cr-large.html %}
-    <figcaption>Figure 4: Shows the average \(\CV\) value for published monsters as a function of their challenge rating.</figcaption>
+    <figcaption>Shows the average \(\CV\) value for published monsters as a function of their challenge rating.</figcaption>
 </figure>
 
 This trend helps to explain why low level play often feels quite deadly in D&D compared to higher level play. The higher variability of monster damage at low levels means the players are more likely to experience the "extreme" ends of the spectrum. If they're lucky, that means combat will feel significantly easier than expected, and significantly deadlier if they're unlucky.
 
-The cause of this drop in $$\CV$$ is made clean in Fig. [5](#fig:monster-damage-sigma-vs-mean){: .fig-ref} (below), which plots this data on top of the common dice rolls from Fig. [2](#fig:cv-die-sigma-vs-mean){: .fig-ref} in the previous section. This shows that the average die size and the number of dice used both increase along with monster CR. Since most damage rolls from monsters generally include some kind of modifier, the average damage die likely starts off at a d6, increases to a d8 around CR 10, and ends close to a d10 for CRs 20 and above.
+The cause of this drop in $$\CV$$ is made clean in Fig. \figref{fig:monster-damage-sigma-vs-mean} (below), which plots this data on top of the common dice rolls from Fig. \figref{fig:cv-die-sigma-vs-mean} in the previous section. This shows that the average die size and the number of dice used both increase along with monster CR. Since most damage rolls from monsters generally include some kind of modifier, the average damage die likely starts off at a d6, increases to a d8 around CR 10, and ends close to a d10 for CRs 20 and above.
 
 <figure id="fig:monster-damage-sigma-vs-mean">
     {% include_relative fig-monster-damage-sigma-vs-mean-small.html %}
     {% include_relative fig-monster-damage-sigma-vs-mean-large.html %}
-    <figcaption>Figure 5: Shows the average damage mean and standard deviation values for published monsters, in comparison to the common dice rolls shown in Fig. <a href="#fig:cv-die-sigma-vs-mean" class="fig-ref">2</a> and reference lines of constant \(\CV\) (dashed lines).</figcaption>
+    <figcaption>Shows the average damage mean and standard deviation values for published monsters, in comparison to the common dice rolls shown in Fig. <a href="#fig:cv-die-sigma-vs-mean" class="fig-ref">2</a> and reference lines of constant \(\CV\) (dashed lines).</figcaption>
 </figure>
 
 It's also interesting to note that while the average number of dice used must increase with monster CR, the average number of dice never goes above five. This is likely done to make calculating the damage easier, especially at higher levels.

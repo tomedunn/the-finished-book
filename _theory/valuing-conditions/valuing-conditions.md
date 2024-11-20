@@ -263,10 +263,10 @@ where $$\d_\crit = \D_\crit / \D_\hit$$.
     </style>
     {% include_relative fig-delta-ab-advantage-small.html %}
     {% include_relative fig-delta-ab-advantage-large.html %}
-    <figcaption>Figure 1: Effective attack bonus increase from advantage as a function of the attacks normal chance to hit or crit for an attack that deals no extra damage on a critical hit.</figcaption>
+    <figcaption>Effective attack bonus increase from advantage as a function of the attacks normal chance to hit or crit for an attack that deals no extra damage on a critical hit.</figcaption>
 </figure>
 
-Figure <a href="#fig:delta-ab-advantage" class="fig-ref">1</a> (above) plots Eqn. \eqref{eq:attack-delta-ab-adv} for the case where $$\d_\crit = 1.5$$, which produces a maximum attack bonus increase of $$\Delta \AB_\adv = +5.5$$ for $$\p_\hit + \p_\crit = 0.5$$.
+Figure \figref{fig:delta-ab-advantage} (above) plots Eqn. \eqref{eq:attack-delta-ab-adv} for the case where $$\d_\crit = 1.5$$, which produces a maximum attack bonus increase of $$\Delta \AB_\adv = +5.5$$ for $$\p_\hit + \p_\crit = 0.5$$.
 
 For a baseline chance to hit or crit of $$\p_\hit + \p_\crit = 0.65$$, and $$\d_\crit = 1.5$$, the effective attack bonus increase from advantage is $$\Delta \AB_\adv = +5.0$$. This is slightly higher than the value of $$+4$$ used in the [Monster Features](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#MonsterFeatures) table from chapter 9 of the DMG (see the entries for Blood Frenzy, Nimble Escape, and Shadow Stealth). The lower value in the DMG could be because WotC assumes a lower value of $$\d_\crit$$, or it could be lower to account for the monsters not always benefiting from these features.
 
@@ -368,12 +368,12 @@ When a saving throw is made normally for effects that deal no damage on a succes
     \label{eq:save-delta-dc-dis}
 \end{align}
 
-Figure <a href="#fig:delta-dc-disadvantage" class="fig-ref">2</a> (below) plots Eqn. \eqref{eq:save-delta-dc-dis} for the case where $$\d_\save = 0$$ as well as for $$\d_\save = 0.5$$. For both, the maximum save DC bonus comes when $$\p_\fail = 0.5$$. The effective increase in save DC is larger for saving throws where $$\d_\save = 0$$ due to the starting damage being lower relative to the maximum damage.
+Figure \figref{fig:delta-dc-disadvantage} (below) plots Eqn. \eqref{eq:save-delta-dc-dis} for the case where $$\d_\save = 0$$ as well as for $$\d_\save = 0.5$$. For both, the maximum save DC bonus comes when $$\p_\fail = 0.5$$. The effective increase in save DC is larger for saving throws where $$\d_\save = 0$$ due to the starting damage being lower relative to the maximum damage.
 
 <figure id="fig:delta-dc-disadvantage">
     {% include_relative fig-delta-dc-disadvantage-small.html %}
     {% include_relative fig-delta-dc-disadvantage-large.html %}
-    <figcaption>Figure 2: Effective save DC increase from disadvantage on saving throws as a function of the saves normal chance to fail.</figcaption>
+    <figcaption>Effective save DC increase from disadvantage on saving throws as a function of the saves normal chance to fail.</figcaption>
 </figure>
 
 For the baseline probability of failing saving throws of $$\p_\fail = 0.65$$, having disadvantage gives an effective DC increase of $$\Delta \DC = +4.5$$ when $$\d_\save = 0$$, and $$\Delta \DC = +2.3$$ when $$\d_\save = 0.5$$. 
@@ -740,12 +740,12 @@ The results in Table <a href="#tab:condition-values" class="fig-ref">3</a> are p
 
 When presented in this way, there are two big takeaways. First, the value of each condition depends on the damage the creatures involved are capable of. Since the average damage output of PCs (monsters) depends on their level (CR), the average strength of each condition must also depend on them. And second, since PCs and monsters deal different amounts of damage, even when their levels and CRs are matched, the value of each condition when used by monsters against PCs will be different than its value when used by PCs against monsters.
 
-Both of these points are illustrated in Fig. <a href="#fig:dpr-stunned-illustrative" class="fig-ref">3</a> (below), which shows the average damage per round for PCs (monsters) across levels (CRs) 1 - 20, as determined from the [Monster Statistics by Challenge Rating](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#MonsterStatisticsbyChallengeRating) table in chapter 9 of the _Dungeon Master's Guide_, along with the estimated value of the stunned condition. The value of the stunned condition is determined by adding together the extra effective healing from the target, and extra damage against the target, for an encounter with a single monsters and four PCs. For simplicity, I assumed an average damage increase of $$29\% = (37\% + 21\%)/2$$ against the stunned target, which comes from averaging the damage increase for attacks against the target and saves against the target that do half damage on a successful save.
+Both of these points are illustrated in Fig. \figref{fig:dpr-stunned-illustrative} (below), which shows the average damage per round for PCs (monsters) across levels (CRs) 1 - 20, as determined from the [Monster Statistics by Challenge Rating](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#MonsterStatisticsbyChallengeRating) table in chapter 9 of the _Dungeon Master's Guide_, along with the estimated value of the stunned condition. The value of the stunned condition is determined by adding together the extra effective healing from the target, and extra damage against the target, for an encounter with a single monsters and four PCs. For simplicity, I assumed an average damage increase of $$29\% = (37\% + 21\%)/2$$ against the stunned target, which comes from averaging the damage increase for attacks against the target and saves against the target that do half damage on a successful save.
 
 <figure id="fig:dpr-stunned-illustrative">
     {% include_relative fig-dpr-stunned-illustrative-small.html %}
     {% include_relative fig-dpr-stunned-illustrative-large.html %}
-    <figcaption>Figure 3: Average DPR for monsters (PCs) as a function of CR (level), as well as average value in DPR of the stunned condition when used by monsters against a PC, and by a group of four PCs against a monster.</figcaption>
+    <figcaption>Average DPR for monsters (PCs) as a function of CR (level), as well as average value in DPR of the stunned condition when used by monsters against a PC, and by a group of four PCs against a monster.</figcaption>
 </figure>
 
 In this example, it's clear that the strength of the stunned condition is significantly stronger when used by PCs against a single monster that it is when used by a monster against a single PC (at least when their levels and CR are matched). It's also worth noting that, for a PC, the stunned condition is worth significantly more than the average damage per round of a typical PC. This is a bit of an overestimation, though, since the average DPR factors in the PCs chance to hit their target, while the stunned condition doesn't factor in the chance of the target getting stunned. However, even after applying a baseline chance to land a saving throw of $$65\%$$, the value of the stunned condition in this example will still be significantly higher.

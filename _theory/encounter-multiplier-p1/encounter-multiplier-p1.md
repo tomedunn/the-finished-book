@@ -70,12 +70,12 @@ and represents the average damage NPC $$\mathit{j}$$ can be expected to do in th
 
 The other term in Eqn. \eqref{eq:encounter-xp-npcs}, $$\W_{\,\NPC_{ij}}$$, is the weight of each XP term in the summation, which depend on how the PCs choose to engage the NPCs in the encounter. This is ultimately where the difficulty lies in calculating the encounter multiplier, determining what $$\W_{\,\NPC_{ij}}$$ should be for each pair of NPCs in an encounter, depending on the strategy the PCs choose to take.
 
-To help in understanding how these weights are calculated, I've included visual representations of Eqn. \eqref{eq:encounter-xp-npcs}, like the one shown in Fig. <a href="#fig:xp-encounter-diagram-example" class="fig-ref">1</a> below, for the various strategies discussed in this post. The area of each square in these diagrams is proportional to one of the XP terms found in Eqn. \eqref{eq:encounter-xp-npcs}, as described by Eqn. \eqref{eq:xp-npc}.
+To help in understanding how these weights are calculated, I've included visual representations of Eqn. \eqref{eq:encounter-xp-npcs}, like the one shown in Fig. \figref{fig:xp-encounter-diagram-example} below, for the various strategies discussed in this post. The area of each square in these diagrams is proportional to one of the XP terms found in Eqn. \eqref{eq:encounter-xp-npcs}, as described by Eqn. \eqref{eq:xp-npc}.
 
 <figure id="fig:xp-encounter-diagram-example">
     {% include_relative fig-xp-encounter-diagram-two-npcs-small.html %}
     {% include_relative fig-xp-encounter-diagram-two-npcs-large.html %}
-    <figcaption>Figure 1: Visual representation of Eqn. \eqref{eq:encounter-xp-npcs} for an encounter with two NPCs.</figcaption>
+    <figcaption>Visual representation of Eqn. \eqref{eq:encounter-xp-npcs} for an encounter with two NPCs.</figcaption>
 </figure>
 
 
@@ -90,7 +90,7 @@ As a simple example of this kind of strategy, consider an encounter with only tw
     \label{eq:encounter-xp-two-npcs-general}
 \end{align}
 
-This is visualized in the encounter diagram shown in Fig. <a href="#fig:xp-encounter-diagram-example" class="fig-ref">1</a> from the previous section.
+This is visualized in the encounter diagram shown in Fig. \figref{fig:xp-encounter-diagram-example} from the previous section.
 
 The first and last terms are just the individual XPs for each NPC, $$\W_{1,1} = \W_{2,2} = 1$$, which leave only weights for middle two group XP terms, $$\W_{2,1}$$ and $$\W_{1,2}$$, that need to be determined.
 
@@ -108,14 +108,14 @@ For our example encounter with only two NPCs, if the PCs choose to focus on defe
     \label{eq:encounter-xp-two-npcs-focused}
 \end{equation}
 
-These two scenarios are visualized in Fig. <a href="#fig:xp-encounter-diagram-single" class="fig-ref">2</a> below, where the area of the blue regions represent the XP that contributes to the total encounter XP from \eqref{eq:encounter-xp-two-npcs-focused}.
+These two scenarios are visualized in Fig. \figref{fig:xp-encounter-diagram-single} below, where the area of the blue regions represent the XP that contributes to the total encounter XP from \eqref{eq:encounter-xp-two-npcs-focused}.
 
 <figure class="half" id="fig:xp-encounter-diagram-single">
     {% include_relative fig-xp-encounter-diagram-two-npcs-forward-small.html %}
     {% include_relative fig-xp-encounter-diagram-two-npcs-forward-large.html %}
     {% include_relative fig-xp-encounter-diagram-two-npcs-reverse-small.html %}
     {% include_relative fig-xp-encounter-diagram-two-npcs-reverse-large.html %}
-    <figcaption>Figure 2: Graphical representation of the total encounter XP contributions for the two strategies described by Eqn. \eqref{eq:encounter-xp-two-npcs-focused}. The blue regions represent the XP that contributes to the total encounter XP for each strategy.</figcaption>
+    <figcaption>Graphical representation of the total encounter XP contributions for the two strategies described by Eqn. \eqref{eq:encounter-xp-two-npcs-focused}. The blue regions represent the XP that contributes to the total encounter XP for each strategy.</figcaption>
 </figure>
 
 Applying this strategy more generally, in encounters where the PCs choose to focus on defeating one NPC at a time, each NPC will only add extra XP to the encounter for the NPC that were defeated before it. In terms of Eqn. \eqref{eq:encounter-xp-npcs}, the total encounter XP can be calculated by arranging the NPCs in the order they are expected to be defeated in and applying the following weights to each term,
@@ -149,12 +149,12 @@ For a group of $$N$$ identical NPCs, putting Eqn. \eqref{eq:adjusted-experience-
     \label{eq:encounter-multiplier-approx-single-target}
 \end{align}
 
-This is plotted in Fig. <a href="#fig:encounter-multiplier-approx-single" class="fig-ref">3</a> below for a range of NPC group sizes.
+This is plotted in Fig. \figref{fig:encounter-multiplier-approx-single} below for a range of NPC group sizes.
 
 <figure id="fig:encounter-multiplier-approx-single">
     {% include_relative fig-encounter-approximate-general-single-target-small.html %}
     {% include_relative fig-encounter-approximate-general-single-target-large.html %}
-    <figcaption>Figure 3: Encounter multiplier for single target strategies calculated using Eqn. \eqref{eq:encounter-multiplier-approx-single-target} for identical NPCs.</figcaption>
+    <figcaption>Encounter multiplier for single target strategies calculated using Eqn. \eqref{eq:encounter-multiplier-approx-single-target} for identical NPCs.</figcaption>
 </figure>
 
 For groups of three NPCs or fewer, this single target encounter multiplier matches what's given by the DMG exactly. However, for more than three NPCs the single target strategy clearly predicts a harder encounter than the DMG does. In order to bring the encounter multiplier down, strategies that target multiple NPCs at once are needed.
@@ -230,7 +230,7 @@ If NPCs 1 and NPC 2 survive equally long in both encounter then this makes sense
 <figure id="fig:xp-encounter-diagram-multiple">
     {% include_relative fig-xp-encounter-diagram-two-npcs-multi-uniform-small.html %}
     {% include_relative fig-xp-encounter-diagram-two-npcs-multi-uniform-large.html %}
-    <figcaption>Figure 4: Graphical representation of the total encounter XP contributions for two NPCs damaged simultaneously using multi-target abilities. Red regions represent the XP contributing to the total encounter XP using this strategy.</figcaption>
+    <figcaption>Graphical representation of the total encounter XP contributions for two NPCs damaged simultaneously using multi-target abilities. Red regions represent the XP contributing to the total encounter XP using this strategy.</figcaption>
 </figure>
 
 If we assume that the PCs' multi-target abilities deal only a fraction of the damage of their single target abilities to each target, then we can define an efficiency value for PCs' multi-target damage in the following way, 
@@ -298,12 +298,12 @@ The encounter multiplier for this kind of multi-target strategy, therefore, is s
     \label{eq:encounter-multiplier-general-multi-target}
 \end{equation}
 
-Figure <a href="#fig:xp-encounter-multiplier-aoe" class="fig-ref">5</a> (below), plots this encounter multiplier as a function of the multi-target damage efficiency.
+Figure \figref{fig:xp-encounter-multiplier-aoe} (below), plots this encounter multiplier as a function of the multi-target damage efficiency.
 
 <figure id="fig:xp-encounter-multiplier-aoe">
     {% include_relative fig-encounter-multiplier-general-multi-target-small.html %}
     {% include_relative fig-encounter-multiplier-general-multi-target-large.html %}
-    <figcaption>Figure 5: Encounter multiplier for multi-target strategies that damage all enemies equally and simultaneously as a function of multi-target damage efficiency.</figcaption>
+    <figcaption>Encounter multiplier for multi-target strategies that damage all enemies equally and simultaneously as a function of multi-target damage efficiency.</figcaption>
 </figure>
 
 Using the [Spell Damage](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#SpellDamage) table in chapter 9 of the DMG as a reference gives $$\effMT \approx 0.70$$ for spells, which translates to $$\EM \approx 1.43$$. Against monsters who are resistant to spell damage, or the specific damage type dealt by the PCs' spells, this changes to $$\effMT \approx 0.35$$ and $$\EM \approx 2.86$$, assuming the single target alternatives aren't effected by those same resistances. 
@@ -343,12 +343,12 @@ Ignoring the order the NPCs are dealt with using single target abilities, the ma
     \label{eq:encounter-xp-mixed-group}
 \end{align}
 
-To help visualize all of this, Fig. <a href="#fig:xp-encounter-diagram-mixed" class="fig-ref">6</a> below show an encounter diagram for our example encounter with two NPCs with a mixed strategy applied to them where NPC 1 is defeated first.
+To help visualize all of this, Fig. \figref{fig:xp-encounter-diagram-mixed} below show an encounter diagram for our example encounter with two NPCs with a mixed strategy applied to them where NPC 1 is defeated first.
 
 <figure id="fig:xp-encounter-diagram-mixed">
     {% include_relative fig-xp-encounter-diagram-two-npcs-mixed-forward-small.html %}
     {% include_relative fig-xp-encounter-diagram-two-npcs-mixed-forward-large.html %}
-    <figcaption>Figure 6: Graphical representation of the total encounter XP contributions for two NPCs using a mixed strategy. Red regions represent the XP added to the encounter using multi-target abilities at the start of the encounter, and blue regions represent the XP added to the encounter using single target abilities.</figcaption>
+    <figcaption>Graphical representation of the total encounter XP contributions for two NPCs using a mixed strategy. Red regions represent the XP added to the encounter using multi-target abilities at the start of the encounter, and blue regions represent the XP added to the encounter using single target abilities.</figcaption>
 </figure>
 
 Before I bring this all together, there is one additional subtlety that needs to be addressed. If $$\eHP_{i} \le \eDPTMT$$ for one of the NPCs in the encounter, then the multi-target damage was enough to defeat them and they aren't able to contribute any extra group XP to the encounter due to being in a group, nor are the other NPCs able to benefit from being in a group with them as well.
@@ -388,14 +388,18 @@ For a group of $$N$$ identical NPCs, putting Eqn. \eqref{eq:encounter-weights-mi
 <figure id="fig:encounter-multiplier-approx-mixed">
     {% include_relative fig-encounter-multiplier-approx-mixed-target-small.html %}
     {% include_relative fig-encounter-multiplier-approx-mixed-target-large.html %}
-    <figcaption>Figure 7: Encounter multiplier for several mixed target strategies calculated using Eqn. \eqref{eq:encounter-multiplier-approx-single-target} for identical NPCs with multi-target damage efficiency of 70%.</figcaption>
+    <figcaption>Encounter multiplier for several mixed target strategies calculated using Eqn. \eqref{eq:encounter-multiplier-approx-single-target} for identical NPCs with multi-target damage efficiency of 70%.</figcaption>
 </figure>
 
-This encounter multiplier is plotted in Fig. <a href="#fig:encounter-multiplier-approx-mixed" class="fig-ref">7</a> (above) for $$\effMT = 0.7$$ and for several values of $$\dMTi$$. For $$N > 3$$ and $$\effMT = 0.7$$, the encounter multiplier given by the DMG falls between a multi-target damage efficiency of $$50\%$$ and $$75\%$$. This means the encounter multiplier given by the DMG assumes the PCs are able to rather effectively deal multi-target damage in combat with large numbers of enemies.
+This encounter multiplier is plotted in Fig. \figref{fig:encounter-multiplier-approx-mixed} (above) for $$\effMT = 0.7$$ and for several values of $$\dMTi$$. For $$N > 3$$ and $$\effMT = 0.7$$, the encounter multiplier given by the DMG falls between a multi-target damage efficiency of $$50\%$$ and $$75\%$$. This means the encounter multiplier given by the DMG assumes the PCs are able to rather effectively deal multi-target damage in combat with large numbers of enemies.
 
 From my post on calculating [Player Character XP]({{ site.data.page-links.xp-and-player-characters.path }}), the effective damage per round "budgets" for each class are roughly equal to one another. This means that for a standard party of four PCs, if two are capable of dealing AoE damage, then both would need target around four monsters with each of their AoEs in order to achieve $$\dMTi = 0.75$$. When facing six or more monsters, this is definitely an achievable target.
 
 For groups that have weak or no AoE damage capabilities, encounter difficulties calculated using the encounter multiplier in the DMG can underestimate the encounter's difficulty by as much as $$50\%$$! Thankfully, classes that tend to have weak AoE damage capabilities also tend to have higher individual XP values due to having higher effective hit points which will, at least, partially offset this difference.
+
+# Additional mixed strategies
+
+A variation on the strategy discussed in the previous section is for some of the party members to focus on damaging 
 
 # Conclusion
 

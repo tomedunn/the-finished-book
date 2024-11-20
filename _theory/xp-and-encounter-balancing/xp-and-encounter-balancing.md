@@ -131,12 +131,12 @@ where $$N_{\NPC}$$ is the number of enemy NPCs in the encounter.
     \label{eq:encounter-balance-inequality-dmg}
 \end{align}
 
-Calculating $$\XPtot_{\thresh}$$ and evaluating Eqn. \eqref{eq:encounter-balance-inequality-dmg} for each $$\diff$$ to determine an encounter's difficulty is rather cumbersome. Thankfully, this process can be simplified to only a single calculation by noting that the XP thresholds at each level come in fixed ratios as shown in Fig. <a href="#fig:pc-xp-thresholds-vs-level" class="fig-ref">1</a> (below).
+Calculating $$\XPtot_{\thresh}$$ and evaluating Eqn. \eqref{eq:encounter-balance-inequality-dmg} for each $$\diff$$ to determine an encounter's difficulty is rather cumbersome. Thankfully, this process can be simplified to only a single calculation by noting that the XP thresholds at each level come in fixed ratios as shown in Fig. \figref{fig:pc-xp-thresholds-vs-level} (below).
 
 <figure id="fig:pc-xp-thresholds-vs-level">
     {% include_relative fig-pc-xp-thresholds-vs-level-small.html %}
     {% include_relative fig-pc-xp-thresholds-vs-level-large.html %}
-    <figcaption>Figure 1: Plots PC XP thresholds divided by the Easy difficulty XP threshold, taken from the <a href="https://www.dndbeyond.com/sources/basic-rules/building-combat-encounters#XPThresholdsbyCharacterLevel">XP Threshold by Character Level</a> table in chapter 13 of the <i>Basic Rules</i>. The average ratio for each threshold is 1.0 for Easy, 2.0 for Medium, 3.0 for Hard, and 4.5 for Deadly encounters.</figcaption>
+    <figcaption>Plots PC XP thresholds divided by the Easy difficulty XP threshold, taken from the <a href="https://www.dndbeyond.com/sources/basic-rules/building-combat-encounters#XPThresholdsbyCharacterLevel">XP Threshold by Character Level</a> table in chapter 13 of the <i>Basic Rules</i>. The average ratio for each threshold is 1.0 for Easy, 2.0 for Medium, 3.0 for Hard, and 4.5 for Deadly encounters.</figcaption>
 </figure>
 
 By defining a reference XP value for the PCs at each level $$(\XP_{\PC})$$ that's also always a fixed ratio of the these threshold XP values, the fourth step can be replace with solving a single equation,
@@ -250,12 +250,12 @@ This can be simplified further by taking a linear approximation of the exponenti
 
 This approximation loses accuracy as $$\AC + \AB$$ get significantly larger than $$15$$, however, it will prove useful when comparing with the values in the DMG.
 
-To verify that these methods for calculating XP are accurate, Fig. <a href="#fig:effective-xp-ratio-vs-cr" class="fig-ref">2</a> (below) plots XP values calculated using Eqns. \eqref{eq:xp-npc-explicit} and \eqref{eq:experience-NPC-linear} for monsters with typical stats taken from [Monster Statistics by Challenge Rating](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#MonsterStatisticsbyChallengeRating) table in chapter 9 of the DMG.
+To verify that these methods for calculating XP are accurate, Fig. \figref{fig:effective-xp-ratio-vs-cr} (below) plots XP values calculated using Eqns. \eqref{eq:xp-npc-explicit} and \eqref{eq:experience-NPC-linear} for monsters with typical stats taken from [Monster Statistics by Challenge Rating](https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#MonsterStatisticsbyChallengeRating) table in chapter 9 of the DMG.
 
 <figure id="fig:effective-xp-ratio-vs-cr">
     {% include_relative fig-effective-xp-ratio-vs-cr-small.html %}
     {% include_relative fig-effective-xp-ratio-vs-cr-large.html %}
-    <figcaption>Figure 2: Plots XP values for typical monsters at each CR calculated using Eqn. \eqref{eq:xp-npc-explicit} (blue) and Eqn. \eqref{eq:experience-NPC-linear} (orange). Typical values for monster statistics were taken from the <a href="https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#MonsterStatisticsbyChallengeRating">Monster Statistics by Challenge Rating</a> table in chapter 9 of the DMG.</figcaption>
+    <figcaption>Plots XP values for typical monsters at each CR calculated using Eqn. \eqref{eq:xp-npc-explicit} (blue) and Eqn. \eqref{eq:experience-NPC-linear} (orange). Typical values for monster statistics were taken from the <a href="https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#MonsterStatisticsbyChallengeRating">Monster Statistics by Challenge Rating</a> table in chapter 9 of the DMG.</figcaption>
 </figure>
 
 Clearly, the linear approximation given by Eqn. \eqref{eq:experience-NPC-linear} matches the target XP values the best out of the two. From an theoretical perspective, I would consider Eqn. \eqref{eq:experience-NPC-linear} to be less correct than Eqn. \eqref{eq:xp-npc-explicit}, since the approximation needed to reach it doesn't hold up for higher CR monsters. However, since the same approximation would be applied to both PCs and NPCs alike, I think it's unlikely cause to any significant problems unless there is a large gap between $$\AC + \AB\,$$ for the PCs and NPCs in the encounter.
@@ -274,21 +274,21 @@ where $$\XP_{\PC_{ij}}$$ $$(\XP_{\NPC_{ij}})$$ represents the cross term between
 
 The diagonal terms in Eqn. \eqref{eq:effective-difficulty-xp}, when $$i = j$$, are clearly the individual XP values for each PC (NPC) in the encounter, but what about the off-diagonal terms, when $$i \neq j\,$$? 
 
-To understand this better, consider the diagram in Fig. <a href="#fig:xp-encounter-diagram" class="fig-ref">3</a> (below), which gives a graphical representation of the right-hand side of Eqn. \eqref{eq:effective-difficulty-xp} for an encounter with three enemy NPCs.
+To understand this better, consider the diagram in Fig. \figref{fig:xp-encounter-diagram} (below), which gives a graphical representation of the right-hand side of Eqn. \eqref{eq:effective-difficulty-xp} for an encounter with three enemy NPCs.
 
 <figure id="fig:xp-encounter-diagram">
     {% include_relative fig-xp-encounter-diagram-small.html %}
     {% include_relative fig-xp-encounter-diagram-large.html %}
-    <figcaption>Figure 3: Graphical representation of the RHS of Eqn. \eqref{eq:effective-difficulty-xp} for and encounter with three NPCs.</figcaption>
+    <figcaption>Graphical representation of the RHS of Eqn. \eqref{eq:effective-difficulty-xp} for and encounter with three NPCs.</figcaption>
 </figure>
 
 The area of each square, $$\XP_{ij} \propto \eHP_{i} \cdot \eDPR_{j}$$, represents how much XP it contributes to the difficulty of the encounter. The white regions represent the XP of each NPC individually, and the remaining XP, colored blue and red, represents the XP added to the encounter due to the NPCs being in a group.
 
 Focusing on just the first column, the meaning of this additional XP becomes clear. Moving from bottom to top, the first square, $$\XP_{1,1} \propto \eHP_{1} \cdot \eDPR_{1}$$, is the individual XP for NPC 1 and represents the damage they can be expected to do in the time it takes the PCs to defeat them. The second square, $$\XP_{2,1} \propto \eHP_{2} \cdot \eDPR_{1}$$, represents the extra damage NPC 1 can be expected to do in the time it takes the PCs to defeat NPC 2. Finally, the third square, $$\XP_{3,1} \propto \eHP_{3} \cdot \eDPR_{1}$$, represents the extra damage NPC 1 can be expected to do in the time it takes the PCs to defeat NPC 3.
 
-Of course, if NPC 1 is defeated first then $$\XP_{2,1}$$ and $$\XP_{3,1}$$ shouldn't add to the encounter's difficulty. With this in mind, the blue region in Fig. <a href="#fig:xp-encounter-diagram" class="fig-ref">3</a> represents the additional XP added to the encounter when defeating the NPCs one at a time in the following order, NPC 3 $$\rightarrow$$ NPC 2 $$\rightarrow$$ NPC 1, while the red region represents the additional XP for defeating the NPCs in the opposite order.
+Of course, if NPC 1 is defeated first then $$\XP_{2,1}$$ and $$\XP_{3,1}$$ shouldn't add to the encounter's difficulty. With this in mind, the blue region in Fig. \figref{fig:xp-encounter-diagram} represents the additional XP added to the encounter when defeating the NPCs one at a time in the following order, NPC 3 $$\rightarrow$$ NPC 2 $$\rightarrow$$ NPC 1, while the red region represents the additional XP for defeating the NPCs in the opposite order.
 
-Looking at Fig. <a href="#fig:xp-encounter-diagram" class="fig-ref">3</a>, it's clear that areas of the red and blue regions are not equal in this example. This means the difficulty of the encounter depends on the order the NPCs are defeated in!
+Looking at Fig. \figref{fig:xp-encounter-diagram}, it's clear that areas of the red and blue regions are not equal in this example. This means the difficulty of the encounter depends on the order the NPCs are defeated in!
 
 Applied more generally, this means the XP added to an encounter's difficulty by the encounter multiplier accounts for the extra damage dealt by some of the NPCs while the PCs are focusing their attention on others. This explains why the DMG applies the encounter multiplier to groups of NPCs fought at the same time but not to encounters where multiple NPCs fought one after the other.
 

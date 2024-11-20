@@ -109,12 +109,12 @@ And the probability that $$\initRoll_{A} = \initRoll_{B}$$, given a specific val
     \label{eq:prob-ia-eq-ib-assuming-ia}
 \end{eqnarray}
 
-To give a sense of how these probabilities depend on $$\initRoll_{A}$$ and $$\initBonus_{B}$$, Fig. [1](#fig:relative-probs-given-ia){: .fig-ref} (below) plots the values given by Eqns. \eqref{eq:prob-ia-gt-ib-assuming-ia} - \eqref{eq:prob-ia-eq-ib-assuming-ia} over the range $$1 \le \initRoll_{A} - \initBonus_{B} \le 20$$.
+To give a sense of how these probabilities depend on $$\initRoll_{A}$$ and $$\initBonus_{B}$$, Fig. \figref{fig:relative-probs-given-ia} (below) plots the values given by Eqns. \eqref{eq:prob-ia-gt-ib-assuming-ia} - \eqref{eq:prob-ia-eq-ib-assuming-ia} over the range $$1 \le \initRoll_{A} - \initBonus_{B} \le 20$$.
 
 <figure id="fig:relative-probs-given-ia">
     {% include_relative fig-relative-probs-given-ia-small.html %}
     {% include_relative fig-relative-probs-given-ia-large.html %}
-    <figcaption>Figure 1: Shows the probability of character \(A\) rolling a higher, lower, or tying character \(B,\) who has an initiative bonus of \(\initBonus_{B}\), as a function of character \(A\mathrm{'s}\) initiative roll \(\initRoll_{A}.\)</figcaption>
+    <figcaption>Shows the probability of character \(A\) rolling a higher, lower, or tying character \(B,\) who has an initiative bonus of \(\initBonus_{B}\), as a function of character \(A\mathrm{'s}\) initiative roll \(\initRoll_{A}.\)</figcaption>
 </figure>
 
 
@@ -172,12 +172,12 @@ Whether $$\Delta \initBonus$$ is positive or negative, the number of non-zero te
     \label{eq:prob-ia-eq-ib}
 \end{eqnarray}
 
-The dependence of Eqns. \eqref{eq:prob-ia-gt-ib} - \eqref{eq:prob-ia-eq-ib} on $$\Delta \initBonus$$ is shown in Fig. [2](#fig:relative-probs){: .fig-ref} (below).
+The dependence of Eqns. \eqref{eq:prob-ia-gt-ib} - \eqref{eq:prob-ia-eq-ib} on $$\Delta \initBonus$$ is shown in Fig. \figref{fig:relative-probs} (below).
 
 <figure id="fig:relative-probs">
     {% include_relative fig-relative-probs-small.html %}
     {% include_relative fig-relative-probs-large.html %}
-    <figcaption>Figure 2: Shows the probability of character \(A\) rolling a higher, lower, or tying character \(B.\) Characters \(A\) and \(B\) have initiative bonuses of \(\initBonus_{A}\) and \(\initBonus_{B}\) respectively.</figcaption>
+    <figcaption>Shows the probability of character \(A\) rolling a higher, lower, or tying character \(B.\) Characters \(A\) and \(B\) have initiative bonuses of \(\initBonus_{A}\) and \(\initBonus_{B}\) respectively.</figcaption>
 </figure>
 
 As a final step, we can calculate the probabilities of either $$A$$ or $$B$$ going first from Eqns. \eqref{eq:prob-ia-gt-ib} - \eqref{eq:prob-ia-eq-ib} by noting that $$A$$ always goes first when their initiative roll is higher than $$B\mathrm{'s}$$ and that $$A$$ has a $$50\%$$ chance of going first when it equals $$B\mathrm{'s},$$
@@ -193,11 +193,11 @@ Conversely, $$B$$ always goes first when their initiative roll is higher than $$
     \label{eq:prob-b-before-a}
 \end{eqnarray}
 
-The dependence of these probabilities on $$\Delta \initBonus$$ is shown in Fig. [3](#fig:relative-order-probs){: .fig-ref} (below). Note that for $$\Delta \initBonus$$ near zero the probabilities change in roughly a linear fashion, but as $$\Delta \initBonus$$ grows more positive or more negative both probabilities get less and less sensitive to changes in $$\Delta \initBonus$$.
+The dependence of these probabilities on $$\Delta \initBonus$$ is shown in Fig. \figref{fig:relative-order-probs} (below). Note that for $$\Delta \initBonus$$ near zero the probabilities change in roughly a linear fashion, but as $$\Delta \initBonus$$ grows more positive or more negative both probabilities get less and less sensitive to changes in $$\Delta \initBonus$$.
 <figure id="fig:relative-order-probs">
     {% include_relative fig-relative-order-probs-small.html %}
     {% include_relative fig-relative-order-probs-large.html %}
-    <figcaption>Figure 3: Shows the probability of characters \(A\) and \(B\) going first in the initiative order relative to one another. Characters \(A\) and \(B\) have initiative bonuses of \(\initBonus_{A}\) and \(\initBonus_{B}\) respectively.</figcaption>
+    <figcaption>Shows the probability of characters \(A\) and \(B\) going first in the initiative order relative to one another. Characters \(A\) and \(B\) have initiative bonuses of \(\initBonus_{A}\) and \(\initBonus_{B}\) respectively.</figcaption>
 </figure>
 
 ## Explicit order
@@ -239,12 +239,12 @@ where $$n_{\initRoll}$$ is the number of creatures with $$\initRoll$$ for their 
 **Note.** Eqn. \eqref{eq:weighting-function} takes advantage of the fact that $$0! = 1$$, which is why $$w = 1$$ when there are no ties and the initiative rolls are in a descending order.
 {: .notice--warning}
 
-Figure [4](#fig:explicit-order-probs){: .fig-ref} (below) shows the probability of every possible initiative order for an example encounter with three combatants, calculated using Eqns. \eqref{eq:initiative-order-probability-full} and \eqref{eq:weighting-function}.
+Figure \figref{fig:explicit-order-probs} (below) shows the probability of every possible initiative order for an example encounter with three combatants, calculated using Eqns. \eqref{eq:initiative-order-probability-full} and \eqref{eq:weighting-function}.
 
 <figure id="fig:explicit-order-probs">
     {% include_relative fig-explicit-order-probs-small.html %}
     {% include_relative fig-explicit-order-probs-large.html %}
-    <figcaption>Figure 4: Shows the probability of each initiative order for an encounter with three combatants, \(A,\) \(B,\) and \(C,\) with initiative bonuses \(\initBonus_{A}=2,\) \(\initBonus_{B}=5,\) and \(\initBonus_{C}=0.\)</figcaption>
+    <figcaption>Shows the probability of each initiative order for an encounter with three combatants, \(A,\) \(B,\) and \(C,\) with initiative bonuses \(\initBonus_{A}=2,\) \(\initBonus_{B}=5,\) and \(\initBonus_{C}=0.\)</figcaption>
 </figure>
 
 It's worth noting that while Eqn. \eqref{eq:initiative-order-probability-full} will give the probability of seeing a specific initiative order, it also scales extremely poorly with the number of characters in the encounter. Since each character can have 20 different initiative values, the total number of initiative rolls that need to be checked for any given order is equal to $$20^N$$. Meaning, for an encounter with a party of four PCs against one monster, $$3,200,000$$ combinations are need to calculate the probability of just one initiative order. And with $$120 = 5!$$ possible initiative orders, 384 million combinations are needed to calculate probabilities for them all.
@@ -300,20 +300,20 @@ Putting this all together, the weighting function used by Eqn. \eqref{eq:initiat
     \label{eq:general-weighting-function}
 \end{eqnarray}
 
-As an example of Eqns. \eqref{eq:initiative-position-probability} and \eqref{eq:general-weighting-function} in action, Fig. [5](#fig:general-position-example-use){: .fig-ref} (below) shows the probability of a character being in each initiative position in an encounter with four monsters, each with an initiative bonus of zero. This can be useful when trying to assess the value of increasing a character's initiative bonus, a topic I plan to cover in a future post.
+As an example of Eqns. \eqref{eq:initiative-position-probability} and \eqref{eq:general-weighting-function} in action, Fig. \figref{fig:general-position-example-use} (below) shows the probability of a character being in each initiative position in an encounter with four monsters, each with an initiative bonus of zero. This can be useful when trying to assess the value of increasing a character's initiative bonus, a topic I plan to cover in a future post.
 
 <figure id="fig:general-position-example-use">
     {% include_relative fig-general-position-example-use-small.html %}
     {% include_relative fig-general-position-example-use-large.html %}
-    <figcaption>Figure 5: Shows the average initiative order position and standard deviation for a character, as a function of their initiative bonus, in an encounter with three other characters, each with an initiative bonus \(\initBonus=0.\)</figcaption>
+    <figcaption>Shows the average initiative order position and standard deviation for a character, as a function of their initiative bonus, in an encounter with three other characters, each with an initiative bonus \(\initBonus=0.\)</figcaption>
 </figure>
 
-As a final comment on this method, since there are only three states that each character can take, the number of combinations needed for Eqn. \eqref{eq:initiative-position-probability} grows with the number of characters as $$20 \cdot 3^{N-1}$$. This scales considerably better than Eqn. \eqref{eq:initiative-order-probability-reduced} from the previous section, which grows as $$20^N$$ with the number of characters. A comparison of this is shown in Fig. [6](#fig:calculation-scaling){: .fig-ref} (below).
+As a final comment on this method, since there are only three states that each character can take, the number of combinations needed for Eqn. \eqref{eq:initiative-position-probability} grows with the number of characters as $$20 \cdot 3^{N-1}$$. This scales considerably better than Eqn. \eqref{eq:initiative-order-probability-reduced} from the previous section, which grows as $$20^N$$ with the number of characters. A comparison of this is shown in Fig. \figref{fig:calculation-scaling} (below).
 
 <figure id="fig:calculation-scaling">
     {% include_relative fig-calculation-scaling-small.html %}
     {% include_relative fig-calculation-scaling-large.html %}
-    <figcaption>Figure 6: Shows how the number of calculations scales with the number of characters in an encounter.</figcaption>
+    <figcaption>Shows how the number of calculations scales with the number of characters in an encounter.</figcaption>
 </figure>
 
 

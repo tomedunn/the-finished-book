@@ -123,51 +123,51 @@ For this analysis, I've used a party of four identical PCs in an encounter with 
 
 Because the previous section assumed only two combatants, we need to modify Eqn. \eqref{eq:xj-simple-single} slightly to make it work for a party of four PCs. This is done generally by multiplying $$N_{i}$$ by $$R_{j} / R_{i}$$, where $$R_{i}$$ and $$R_{j}$$ are the number of turns taken each round by the PCs and NPCs respectively. Therefore, for an encounter with four PCs and one NPC, $$R_{i} = 4$$ and $$R_{j} = 1$$, the needed substitution into Eqn. \eqref{eq:xj-simple-single} is $$N_{i} \rightarrow N_{i} / 4$$.
 
-Figure [1](#fig:win-vs-diff-deadly){: .fig-ref} (below) shows the probability of the PCs winning as a function of the encounter difficulty for the PCs, $$\diff_{i}$$, with $$N_{i} = 12$$, and $$\CV_{i} = 0.5$$ and $$\CV_{j} = 0.5$$ (these values fall roughly in the middle of the observed values for PCs and NPCs).
+Figure \figref{fig:win-vs-diff-deadly} (below) shows the probability of the PCs winning as a function of the encounter difficulty for the PCs, $$\diff_{i}$$, with $$N_{i} = 12$$, and $$\CV_{i} = 0.5$$ and $$\CV_{j} = 0.5$$ (these values fall roughly in the middle of the observed values for PCs and NPCs).
 
 <figure id="fig:win-vs-diff-deadly">
     {% include_relative fig-win-vs-diff-deadly-small.html %}
     {% include_relative fig-win-vs-diff-deadly-large.html %}
-    <figcaption>Figure 1: Shows the probability of each side winning in an encounter with four identical PCs and one NPC who goes third in initiative. For the PCs \(N_{i} = 12\) and \(\CV_{i} = 0.5\), and for the NPC \(\CV_{j} = 0.5\). The encounter difficulty thresholds shown here are \(\diff_{i} = 0.15\) for Easy, \(\diff_{i} = 0.30\) for Medium, \(\diff_{i} = 0.45\) for Hard, and \(\diff_{i} = 0.70\) for Deadly.</figcaption>
+    <figcaption>Shows the probability of each side winning in an encounter with four identical PCs and one NPC who goes third in initiative. For the PCs \(N_{i} = 12\) and \(\CV_{i} = 0.5\), and for the NPC \(\CV_{j} = 0.5\). The encounter difficulty thresholds shown here are \(\diff_{i} = 0.15\) for Easy, \(\diff_{i} = 0.30\) for Medium, \(\diff_{i} = 0.45\) for Hard, and \(\diff_{i} = 0.70\) for Deadly.</figcaption>
 </figure>
 
 The probability of the PCs winning behaves largely as expected, starting out near one and decreasing with the encounter difficulty past the start of the Hard difficulty range. By the end of the Hard difficulty range, the probability of the PCs winning has dropped to around $$89\%$$, and it continues to drop in a fairly linear fashion throughout the Deadly difficulty range until reaching $$50\%$$ at $$\diff_{i} = 1$$.
 
 That the PCs have only a $$50\%$$ chance of winning when $$\diff_{i} = 1$$ makes intuitive sense, since the PCs and NPCs are expected to win in the same number of rounds before factoring in variability. This result is helped by the fact that the enemy NPC always goes third in the initiative order. If they had gone earlier in the initiative order then their chances of winning would be higher, and they had gone later the chances would be lower.
 
-**Note.** The difficulty ranges shown in Fig. [1](#fig:win-vs-diff-deadly){: .fig-ref} assume the PCs overall power level, both their damage output and survivability, matches the baseline values assumed by the D&D encounter building rules. For a variety of reasons, this may not be the case. Groups that are stronger or weaker than those baselines can be accounted for by moving their difficulty thresholds up or down accordingly.
+**Note.** The difficulty ranges shown in Fig. \figref{fig:win-vs-diff-deadly} assume the PCs overall power level, both their damage output and survivability, matches the baseline values assumed by the D&D encounter building rules. For a variety of reasons, this may not be the case. Groups that are stronger or weaker than those baselines can be accounted for by moving their difficulty thresholds up or down accordingly.
 {: .notice--warning}
 
 These results are, of course, just an example for one specific set of parameters: $$N_{i} = 12$$, $$\CV_{i} = 0.5$$, and $$\CV_{j} = 0.5.$$ Changing any of these will alter the results to some extent. To better understand how each affects the chances of winning and losing, lets look at how these results change as we adjust the damage variability of the PCs and NPCs and the length of the encounter.
 
-To understand the impact of the NPC's damage variability, Fig. [2](#fig:win-vs-npc-cv-deadly){: .fig-ref} (below) shows how the probability of the PCs and NPC winning change across a range of $$\CV_{j}$$ values for a Deadly encounter with $$\diff_{i} = 0.7$$. As the NPC's damage variability increases, their odds of winning increase in a nearly linear fashion.
+To understand the impact of the NPC's damage variability, Fig. \figref{fig:win-vs-npc-cv-deadly} (below) shows how the probability of the PCs and NPC winning change across a range of $$\CV_{j}$$ values for a Deadly encounter with $$\diff_{i} = 0.7$$. As the NPC's damage variability increases, their odds of winning increase in a nearly linear fashion.
 
 <figure id="fig:win-vs-npc-cv-deadly">
     {% include_relative fig-win-vs-npc-cv-deadly-small.html %}
     {% include_relative fig-win-vs-npc-cv-deadly-large.html %}
-    <figcaption>Figure 2: Shows the probability of each side winning in a Deadly encounter, \(\diff_{i} = 0.7\), with four identical PCs against one NPC, as a function of NPC damage variability \(\CV_{j}\). For the PCs, \(N_{i} = 12\) and \(\CV_{i} = 0.5\), and the NPC goes third in the initiative order.</figcaption>
+    <figcaption>Shows the probability of each side winning in a Deadly encounter, \(\diff_{i} = 0.7\), with four identical PCs against one NPC, as a function of NPC damage variability \(\CV_{j}\). For the PCs, \(N_{i} = 12\) and \(\CV_{i} = 0.5\), and the NPC goes third in the initiative order.</figcaption>
 </figure>
 
 This result can be understood by considering how higher $$\CV_{j}$$ values impact the NPC's damage distributions during each round of combat. As $$\CV_{j}$$ increases, the width of the NPC's damage distribution gets wider. Since their average damage is dictated by the encounter's difficulty, which is held fixed at $$\diff_{i} = 0.7$$, higher $$\CV_{j}$$ increases the probability of the NPC doing larger amounts of damage. As a result, the chance of the NPC getting lucky and defeating the PCs quickly increases, reducing the PCs' overall chance of winning the encounter.
 
-This same approach can be applied to understand the impact of the PCs' damage variability, the results of which are shown in Fig. [3](#fig:win-vs-pc-cv-deadly){: .fig-ref} (below). While the overall change isn't as large as it was in the previous example, increasing the PCs' damage variability also increases the NPC's odds of winning. 
+This same approach can be applied to understand the impact of the PCs' damage variability, the results of which are shown in Fig. \figref{fig:win-vs-pc-cv-deadly} (below). While the overall change isn't as large as it was in the previous example, increasing the PCs' damage variability also increases the NPC's odds of winning. 
 
 <figure id="fig:win-vs-pc-cv-deadly">
     {% include_relative fig-win-vs-pc-cv-deadly-small.html %}
     {% include_relative fig-win-vs-pc-cv-deadly-large.html %}
-    <figcaption>Figure 3: Shows the probability of each side winning in a Deadly encounter, \(\diff_{i} = 0.7\), with four identical PCs against one NPC, as a function of the PCs damage variability \(\CV_{i}\). For the PCs, \(N_{i} = 12\) and \(\CV_{i} = 0.5\), and the NPC goes third in the initiative order.</figcaption>
+    <figcaption>Shows the probability of each side winning in a Deadly encounter, \(\diff_{i} = 0.7\), with four identical PCs against one NPC, as a function of the PCs damage variability \(\CV_{i}\). For the PCs, \(N_{i} = 12\) and \(\CV_{i} = 0.5\), and the NPC goes third in the initiative order.</figcaption>
 </figure>
 
 This may seem counter intuitive, but, just like in the previous example, the results can be understood by considering how higher $$\CV_{i}$$ values affect the PCs' damage distributions. As $$\CV_{i}$$ increases, the width of the the PCs' damage distributions gets wider. This increases the probability of the PCs getting unlucky and dealing damage far below their average. As a result, there is a higher chance that the PCs will take more rounds than the average to win, leaving more room of the NPC to get lucky and defeat them first.
 
 What both of these examples illustrate is that **increasing the overall damage variability makes unlikely outcomes more likely to occur**. Since the PCs were favored in these example, the unlikely outcome is the enemy NPC winning. If we were to look at example encounters where the enemy NPC was favored to win instead, the sensitivities to $$\CV$$ would be reversed and higher levels of variability would increase the odds of the PCs winning instead of the NPC.
 
-Finally, the impact the expected encounter length has on the probability of the PCs and NPC winning is illustrated in Fig. [4](#fig:win-vs-length-deadly){: .fig-ref} (below). As the expected length of the encounter increases, the probability of the enemy NPCs winning the encounter goes down. 
+Finally, the impact the expected encounter length has on the probability of the PCs and NPC winning is illustrated in Fig. \figref{fig:win-vs-length-deadly} (below). As the expected length of the encounter increases, the probability of the enemy NPCs winning the encounter goes down. 
 
 <figure id="fig:win-vs-length-deadly">
     {% include_relative fig-win-vs-length-deadly-small.html %}
     {% include_relative fig-win-vs-length-deadly-large.html %}
-    <figcaption>Figure 4: Shows the probability of each side winning in a Deadly encounter, \(\diff_{i} = 0.7\), with four identical PCs against one NPC, as a function of the expected encounter length in rounds. For the PCs \(\CV_{i} = 0.5\), and the NPC goes third in the initiative order and has \(\CV_{j} = 0.5\).</figcaption>
+    <figcaption>Shows the probability of each side winning in a Deadly encounter, \(\diff_{i} = 0.7\), with four identical PCs against one NPC, as a function of the expected encounter length in rounds. For the PCs \(\CV_{i} = 0.5\), and the NPC goes third in the initiative order and has \(\CV_{j} = 0.5\).</figcaption>
 </figure>
 
 The reason for this trend can be understood by substituting $$n_{i}^{\prime} = n_{i} / N_{i}$$ into Eqn. \eqref{eq:xi-simple-single} and simplifying,
@@ -200,20 +200,20 @@ where $$n_{i}^{\prime} = n_{i}/N_{i}$$.
 
 The results of the previous section make it clear that higher values of $$\CV$$, for both PCs and for NPCs, lead to combat being more deadly for the PCs at typical difficulty levels. This has profound implications for how deadly the game is in different tiers of play.
 
-As shown in Fig. [5](#fig:monster-dpr-cv){: .fig-ref} (below) for non-legendary monsters from several published D&D source books, damage per round (DPR) $$\CV$$ values for monsters drop significantly, on average, as their challenge rating (CR) increases. This is because higher CR monsters tend to attack and force saves more often, and their attacks and saves are [more accurate]({{ site.data.page-links.baseline-player-character-stats.path }}#fig:hp-vs-level) than they are at lower CRs.
+As shown in Fig. \figref{fig:monster-dpr-cv} (below) for non-legendary monsters from several published D&D source books, damage per round (DPR) $$\CV$$ values for monsters drop significantly, on average, as their challenge rating (CR) increases. This is because higher CR monsters tend to attack and force saves more often, and their attacks and saves are [more accurate]({{ site.data.page-links.baseline-player-character-stats.path }}#fig:hp-vs-level) than they are at lower CRs.
 
 <figure id="fig:monster-dpr-cv">
     {% include_relative fig-monster-dpr-cv-small.html %}
     {% include_relative fig-monster-dpr-cv-large.html %}
-    <figcaption>Figure 5: Shows monster damage per round \(\CV\) (sigma over mean) for 409 monsters from the 2014 <em>Monster Manual</em>, <em>Fizban's Treasury of Dragons</em>, <em>Mordenkainen Presents: Monsters of the Multiverse</em>, and <em>Bigby Presents: Glory of the Giants</em>. Legendary monsters and monsters that relied on spellcasting were not included.</figcaption>
+    <figcaption>Shows monster damage per round \(\CV\) (sigma over mean) for 409 monsters from the 2014 <em>Monster Manual</em>, <em>Fizban's Treasury of Dragons</em>, <em>Mordenkainen Presents: Monsters of the Multiverse</em>, and <em>Bigby Presents: Glory of the Giants</em>. Legendary monsters and monsters that relied on spellcasting were not included.</figcaption>
 </figure>
 
-If we take typical $$\CV$$ values from Fig. [5](#fig:monster-dpr-cv){: .fig-ref} for each tier of play ($$\CV = 0.8$$ for tier 1, $$\CV = 0.6$$ for tier 2, $$\CV = 0.4$$ for tier 3, and $$\CV = 0.2$$ for tier 4) and apply them to both the PCs and NPCs, then we can get a sense for how much the deadliness of combat changes as the PCs level up. The results of this are shown in Fig. [6](#fig:win-vs-diff-tiers){: .fig-ref} (below) for encounters of the same form shown previously in Fig. [1](#fig:win-vs-diff-deadly){: .fig-ref}.
+If we take typical $$\CV$$ values from Fig. \figref{fig:monster-dpr-cv} for each tier of play ($$\CV = 0.8$$ for tier 1, $$\CV = 0.6$$ for tier 2, $$\CV = 0.4$$ for tier 3, and $$\CV = 0.2$$ for tier 4) and apply them to both the PCs and NPCs, then we can get a sense for how much the deadliness of combat changes as the PCs level up. The results of this are shown in Fig. \figref{fig:win-vs-diff-tiers} (below) for encounters of the same form shown previously in Fig. \figref{fig:win-vs-diff-deadly}.
 
 <figure id="fig:win-vs-diff-tiers">
     {% include_relative fig-win-vs-diff-tiers-small.html %}
     {% include_relative fig-win-vs-diff-tiers-large.html %}
-    <figcaption>Figure 6: Shows the probability of the PCs losing in an encounter with four identical PCs and one NPC. For the PCs \(N_{i} = 12\), and the NPC goes third in the initiative order. The tiers of play correspond to different damage sigma over mean values used for each combatant: \(\CV = 0.8\) for tier 1, \(\CV = 0.6\) for tier 2, \(\CV = 0.4\) for tier 3, and \(\CV = 0.2\) for tier 4. The encounter difficulty thresholds shown here are \(\diff_{i} = 0.15\) for Easy, \(\diff_{i} = 0.30\) for Medium, \(\diff_{i} = 0.45\) for Hard, and \(\diff_{i} = 0.70\) for Deadly.</figcaption>
+    <figcaption>Shows the probability of the PCs losing in an encounter with four identical PCs and one NPC. For the PCs \(N_{i} = 12\), and the NPC goes third in the initiative order. The tiers of play correspond to different damage sigma over mean values used for each combatant: \(\CV = 0.8\) for tier 1, \(\CV = 0.6\) for tier 2, \(\CV = 0.4\) for tier 3, and \(\CV = 0.2\) for tier 4. The encounter difficulty thresholds shown here are \(\diff_{i} = 0.15\) for Easy, \(\diff_{i} = 0.30\) for Medium, \(\diff_{i} = 0.45\) for Hard, and \(\diff_{i} = 0.70\) for Deadly.</figcaption>
 </figure>
 
 The difference in deadliness is quite significant in two ways. For low tiers of play, especially tier 1, the odds of the PCs losing to a Deadly encounter is quite significant, and even Hard difficulty encounters have a non-trivial chance of the PCs losing. For higher tiers of play, especially tier 4, the PCs don't have a significant chance of losing until the difficulty is well into the Deadly category, after which it increases rapidly to $$50\%$$.
@@ -224,22 +224,22 @@ Before concluding, it's important to stress here that this difference in how dea
 
 Previously, we defined the encounter difficulty, $$\diff,$$ based on the damage we expect the PCs to take, on average, but the actual damage will differ from this within some range about that average. As a result, how difficult the encounter feels in play will also vary about the intended difficulty.
 
-We can see an example of this in Fig. [7](#fig:damage-vs-diff){: .fig-ref} (below) which shows the average damage taken by each side in the encounter shown previously in Fig. [1](#fig:win-vs-diff-deadly){: .fig-ref}, along with the a $$60\%$$ confidence interval about that average.
+We can see an example of this in Fig. \figref{fig:damage-vs-diff} (below) which shows the average damage taken by each side in the encounter shown previously in Fig. \figref{fig:win-vs-diff-deadly}, along with the a $$60\%$$ confidence interval about that average.
 
 <figure id="fig:damage-vs-diff">
     {% include_relative fig-damage-vs-diff-small.html %}
     {% include_relative fig-damage-vs-diff-large.html %}
-    <figcaption>Figure 7: Shows the average damage taken for each side in an encounter with four identical PCs and one NPC who goes third in initiative. For the PCs \(N_{i} = 12\) and \(\CV_{i} = 0.5\), and for the NPC \(\CV_{j} = 0.5\). The encounter difficulty thresholds shown here are \(\diff_{i} = 0.15\) for Easy, \(\diff_{i} = 0.30\) for Medium, \(\diff_{i} = 0.45\) for Hard, and \(\diff_{i} = 0.70\) for Deadly.</figcaption>
+    <figcaption>Shows the average damage taken for each side in an encounter with four identical PCs and one NPC who goes third in initiative. For the PCs \(N_{i} = 12\) and \(\CV_{i} = 0.5\), and for the NPC \(\CV_{j} = 0.5\). The encounter difficulty thresholds shown here are \(\diff_{i} = 0.15\) for Easy, \(\diff_{i} = 0.30\) for Medium, \(\diff_{i} = 0.45\) for Hard, and \(\diff_{i} = 0.70\) for Deadly.</figcaption>
 </figure>
 
 For Hard encounters and below the average damage taken by the PCs matches the expected value, but for higher difficulties the damage is lower. This trend comes from the damage taken being capped at the maximum hit points for each side. This causes the low damage portions of the distribution to pull the average down. If we were to plot the median damage instead of the mean for the average, it would continue to follow the expected trend all the way up to $$\diff=1.$$
 
-We can convert the final damage distribution for an encounter into a difficulty distribution using the $$\diff$$ ranges for each difficulty: $$0.0-0.15$$ for Trivial, $$0.15-0.3$$ for Easy, $$0.3-0.45$$ for Medium, $$0.45-0.7$$ for Hard, $$0.7-1.0$$ for Deadly, and $$\ge 1$$ for a TPK. Figure [8](#fig:diff-probabilities){: .fig-ref} (below) shows this for the encounter described previously in Fig. [7](#fig:damage-vs-diff){: .fig-ref} with target $$\diff$$ values at the center of each difficulty range.
+We can convert the final damage distribution for an encounter into a difficulty distribution using the $$\diff$$ ranges for each difficulty: $$0.0-0.15$$ for Trivial, $$0.15-0.3$$ for Easy, $$0.3-0.45$$ for Medium, $$0.45-0.7$$ for Hard, $$0.7-1.0$$ for Deadly, and $$\ge 1$$ for a TPK. Figure \figref{fig:diff-probabilities} (below) shows this for the encounter described previously in Fig. \figref{fig:damage-vs-diff} with target $$\diff$$ values at the center of each difficulty range.
 
 <figure id="fig:diff-probabilities">
     {% include_relative fig-diff-probabilities-small.html %}
     {% include_relative fig-diff-probabilities-large.html %}
-    <figcaption>Figure 8: Shows the probability an encounter's damage falls into each difficulty ranges based on the targeted encounter difficulties at the center of each difficulty range; \(\diff_{i} = 0.225\) for Easy, \(\diff_{i} = 0.375\) for Medium, \(\diff_{i} = 0.575\) for Hard, and \(\diff_{i} = 0.85\) for Deadly. The encounter has four identical PCs and one NPC who goes third in initiative. For the PCs \(N_{i} = 12\) and \(\CV_{i} = 0.5\), and for the NPC \(\CV_{j} = 0.5\).</figcaption>
+    <figcaption>Shows the probability an encounter's damage falls into each difficulty ranges based on the targeted encounter difficulties at the center of each difficulty range; \(\diff_{i} = 0.225\) for Easy, \(\diff_{i} = 0.375\) for Medium, \(\diff_{i} = 0.575\) for Hard, and \(\diff_{i} = 0.85\) for Deadly. The encounter has four identical PCs and one NPC who goes third in initiative. For the PCs \(N_{i} = 12\) and \(\CV_{i} = 0.5\), and for the NPC \(\CV_{j} = 0.5\).</figcaption>
 </figure>
 
 While the most probable perceived difficulty is the target for each difficulty category, only the Easy encounter is on target more than $$50\%$$ of the time. For the rest the perceived difficulty is more likely to be either one category higher or lower than on target.

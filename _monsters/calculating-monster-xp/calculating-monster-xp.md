@@ -100,12 +100,12 @@ Not only does this method for calculating a monster's XP give us additional insi
 
 ## Full Comparison
 
-To check the accuracy of this approach, I applied Eqn. \eqref{eq:XP-full} to monsters with CRs of 1 or more, taken from official 5th edition source books. I used the same adjusted HP, AC, DPR, and AB values I used previously in [Calculating Monster CR]({{ site.data.page-links.calculating-monster-cr.path }}). A comparison of the calculated XP values and listed XP values is shown in Fig. <a href="#fig:calc-xp-vs-xp-log-log" class="fig-ref">1</a> below.
+To check the accuracy of this approach, I applied Eqn. \eqref{eq:XP-full} to monsters with CRs of 1 or more, taken from official 5th edition source books. I used the same adjusted HP, AC, DPR, and AB values I used previously in [Calculating Monster CR]({{ site.data.page-links.calculating-monster-cr.path }}). A comparison of the calculated XP values and listed XP values is shown in Fig. \figref{fig:calc-xp-vs-xp-log-log} below.
 
 <figure id="fig:calc-xp-vs-xp-log-log">
     {% include_relative fig-calc-xp-vs-xp-log-log-small.html %}
     {% include_relative fig-calc-xp-vs-xp-log-log-large.html %}
-    <figcaption>Figure 1: Calculated XP mean (line) and 60% confidence interval (shaded region) vs listed XP.</figcaption>
+    <figcaption>Calculated XP mean (line) and 60% confidence interval (shaded region) vs listed XP.</figcaption>
 </figure>
 
 The general trend shows a strong correlation between the two, however, there are some small differences. Namely, that this method tends to underestimate monster XP at low CRs and slightly overestimates it at high CRs.
@@ -113,18 +113,18 @@ The general trend shows a strong correlation between the two, however, there are
 <figure id="fig:xp-cr-vs-cr">
     {% include_relative fig-xp-cr-vs-cr-small.html %}
     {% include_relative fig-xp-cr-vs-cr-large.html %}
-    <figcaption>Figure 2: Calculated CR mean and 60% confidence interval vs listed CR.</figcaption>
+    <figcaption>Calculated CR mean and 60% confidence interval vs listed CR.</figcaption>
 </figure>
 
-Next, I converted the calculated XP values to their equivalent CR for each monster. As Fig. <a href="#fig:xp-cr-vs-cr" class="fig-ref">2</a> illustrates, the CRs calculated using this method are generally in good agreement with the CRs listed in the monsters' stat blocks, with the vast majority of monsters having a calculated CR within +/- 1 of their listed value. 
+Next, I converted the calculated XP values to their equivalent CR for each monster. As Fig. \figref{fig:xp-cr-vs-cr} (above) illustrates, the CRs calculated using this method are generally in good agreement with the CRs listed in the monsters' stat blocks, with the vast majority of monsters having a calculated CR within +/- 1 of their listed value. 
 
 <figure id="fig:ecr-dmg-cr-delta-vs-cr">
     {% include_relative fig-ecr-dmg-cr-delta-vs-cr-small.html %}
     {% include_relative fig-ecr-dmg-cr-delta-vs-cr-large.html %}
-    <figcaption>Figure 3: Shows the difference between the calculated CR and the listed CR as a function of CR for both calculated XP and CR calculated using the method given in the DMG.</figcaption>
+    <figcaption>Shows the difference between the calculated CR and the listed CR as a function of CR for both calculated XP and CR calculated using the method given in the DMG.</figcaption>
 </figure>
 
-When compared with the method for calculating CR in the DMG, as shown in Fig. <a href="#fig:ecr-dmg-cr-delta-vs-cr" class="fig-ref">3</a>, the results are also quite close. Both tend to underestimate monster CRs at the lower end of the CR spectrum, and both tend to overestimate it as well at the higher end. 
+When compared with the method for calculating CR in the DMG, as shown in Fig. \figref{fig:ecr-dmg-cr-delta-vs-cr} (above), the results are also quite close. Both tend to underestimate monster CRs at the lower end of the CR spectrum, and both tend to overestimate it as well at the higher end. 
 
 <!---
 Where the two differ the most is between CR 12 and 23. The reason for this difference comes from how each method handles monsters with better/worse than average AC or AB. 
@@ -136,10 +136,10 @@ In comparison, the method used for calculating XP assumes each +2 to AC (AB) is 
 <figure class="half" id="fig:hp-dpr-ratio-and-dmg-cr-delta-vs-cr">
     <img src="{{ site.data.page-links.calculating-monster-xp.path }}hp-dpr-ratio-vs-cr.svg">
     <img src="{{ site.data.page-links.calculating-monster-xp.path }}dmg-cr-delta-vs-cr.svg">
-    <figcaption>Figure 4: Shows (left) the ratio between the target HP and DPR at the given CR and the CR below it, and (right) the difference between CR values calculated from XP and those calculated using the DMG.</figcaption>
+    <figcaption>Shows (left) the ratio between the target HP and DPR at the given CR and the CR below it, and (right) the difference between CR values calculated from XP and those calculated using the DMG.</figcaption>
 </figure>
 
-As Fig. <a href="#fig:hp-dpr-ratio-and-dmg-cr-delta-vs-cr" class="fig-ref">4</a> shows, when the HP and DPR of the next CR are less than 10% higher than the previous one, the DMG reports a CR below that of the XP calculation. 
+As Fig. \figref{fig:hp-dpr-ratio-and-dmg-cr-delta-vs-cr} shows, when the HP and DPR of the next CR are less than 10% higher than the previous one, the DMG reports a CR below that of the XP calculation. 
 
 Assuming a base chance to hit with an attack of 70% for both PCs and NPCs when facing tier appropriate enemies, each +2 to AC is worth roughly 14% more HP and each +2 to AB is worth roughly 14% more DPR. This means that while the XP calculation slightly underestimates the impact of AC and AB on CR across the full CR range, the method presented in the DMG varies from significantly overestimating it for CRs less than 5, to significantly underestimates it for CRs between 15 - 19, as well as CRs 25 and above.
 --->

@@ -1,3 +1,55 @@
 <!-- start custom footer snippets -->
 <a rel="me" href="https://dice.camp/@thefinishedbook" style="display: none;">Mastodon</a>
+
+<script>
+
+    function assignFigNumbers() {
+        // assigns a reference number to each figure.
+        const figures = document.getElementsByTagName("figure");
+        for (let i = 0; i < figures.length; i++) {
+            let figNum = i+1;
+            figures[i].setAttribute("fignum", figNum);
+            let captions = figures[i].getElementsByTagName("figcaption");
+            for (let c = 0; c < captions.length; c++) {
+                captions[c].innerHTML = "Figure "+figNum+": "+captions[c].innerHTML;
+            }
+        };
+    };
+
+    function replaceFigRefs(){
+        // converts \figref{fig-id} in page to links
+        const regexp = /\\figref\{([^\}]*)\}/;
+
+        let elms = document.getElementsByTagName("p");
+        for (let i = 0; i < elms.length; i++) {
+            let html = elms[i].innerHTML;
+            while (html.includes('\\figref')) {
+                let match = html.match(regexp);
+                if (match) {
+                    html = html.replace('\\figref{'+match[1]+'}', '<a class="fig-ref" href="#'+match[1]+'"></a>');
+                } else {
+                    break;
+                };
+            };
+            elms[i].innerHTML = html;
+        };
+    };
+
+    function updateFigRefs() {
+        // assigns the correct figure number to each figure reference link
+        let links = document.querySelectorAll("a.fig-ref");
+        for (let l = 0; l < links.length; l++) {
+            let id = links[l].href.match(/#(.+)$/)[1];
+            let fig = document.getElementById(id);
+            //console.log(id, fig)
+            links[l].innerHTML = fig.getAttribute("fignum");
+        };
+    };
+
+    replaceFigRefs();
+    assignFigNumbers();
+    updateFigRefs();
+
+</script>
+
 <!-- end custom footer snippets -->

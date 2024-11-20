@@ -72,10 +72,10 @@ higher CRs than they do at lower CRs.
     {% include_relative fig-hp-vs-cr-large.html %}
     {% include_relative fig-ac-vs-cr-small.html %}
     {% include_relative fig-ac-vs-cr-large.html %}
-    <figcaption>Figure 1: Hit points and armor class vs CR (adjusted and unadjusted).</figcaption>
+    <figcaption>Hit points and armor class vs CR (adjusted and unadjusted).</figcaption>
 </figure>
 
-Figure <a href="#fig:hp-and-ac-vs-cr" class="fig-ref">1</a> shows how published creatures compare, on average, against the HP and AC targets listed in the DMG.
+Figure \figref{fig:hp-and-ac-vs-cr} (above) shows how published creatures compare, on average, against the HP and AC targets listed in the DMG.
 
 For HP, while average effective HP closely matches the DMG target, the average HP consistently falls short. For AC, 
 though, the average AC generally match the DMG target, while the average effective AC comes out consistently higher than 
@@ -83,12 +83,12 @@ expected with the biggest difference coming from monsters CR 17 and above.
 
 The differences in effective AC might seem like a large discrepancy, but AC only acts as a minor adjustment to a monster's 
 overall D-CR so the overall impact is relatively small. This impact is reflected in the calculated D-CR, which is shown in 
-the Fig. <a href="#fig:d-cr-vs-cr" class="fig-ref">2</a> below.
+the Fig. \figref{fig:d-cr-vs-cr} below.
 
 <figure id="fig:d-cr-vs-cr">
     {% include_relative fig-d-cr-vs-cr-small.html %}
     {% include_relative fig-d-cr-vs-cr-large.html %}
-    <figcaption>Figure 2: Calculated defensive CR mean and 60% confidence interval vs CR.</figcaption>
+    <figcaption>Calculated defensive CR mean and 60% confidence interval vs CR.</figcaption>
 </figure>
 
 Overall, D-CR appears to be on target, with the average D-CR for published monsters coming within +/- 1 of target. It's 
@@ -109,10 +109,10 @@ adjustments to AB are abilities that give advantage on attack rolls.
     {% include_relative fig-dpr-vs-cr-large.html %}
     {% include_relative fig-ab-vs-cr-small.html %}
     {% include_relative fig-ab-vs-cr-large.html %}
-    <figcaption>Figure 3: Damage per round and attack bonus vs CR (adjusted and unadjusted).</figcaption>
+    <figcaption>Damage per round and attack bonus vs CR (adjusted and unadjusted).</figcaption>
 </figure>
 
-Figure <a href="#fig:dpr-and-ab-vs-cr" class="fig-ref">3</a> shows how published creatures compare, on average, against the DPR and AB targets listed in the DMG. 
+Figure \figref{fig:dpr-and-ab-vs-cr} (above) shows how published creatures compare, on average, against the DPR and AB targets listed in the DMG. 
 
 Effective DPR closely matches the expected DPR values from the DMG for all but the highest CRs which tend to be a bit lower 
 than expected. The DPR values shown here only include effective DPR. As mentioned earlier, there are adjustments made to DPR 
@@ -122,13 +122,13 @@ DPR values.
 Effective AB shows a similar story to effective AC. It is generally higher than the expected value and that difference is 
 largest at higher CRs. However, unlike AC, there is little to no difference between effective AB and unadjusted values.
 
-The combined impact of effective DPR and AB is shown in Fig. <a href="#fig:o-cr-vs-cr" class="fig-ref">4</a> below which shows how the average O-CR compares with the
+The combined impact of effective DPR and AB is shown in Fig. \figref{fig:o-cr-vs-cr} below which shows how the average O-CR compares with the
 expected values in the DMG.
 
 <figure id="fig:o-cr-vs-cr">
     {% include_relative fig-o-cr-vs-cr-small.html %}
     {% include_relative fig-o-cr-vs-cr-large.html %}
-    <figcaption>Figure 4: Calculated offensive CR mean and  60% confidence interval vs CR.</figcaption>
+    <figcaption>Calculated offensive CR mean and  60% confidence interval vs CR.</figcaption>
 </figure>
 
 On average, the calculated O-CR closely matches the expected target and is rarely more than +/- 1 away across the full 
@@ -139,12 +139,12 @@ frequency of legendary monsters which tend to deal a bit more damage than non-le
 ## CR
 
 With D-CR and O-CR both calculated, the CR for each monster is calculated by taking the average of the two. The results of 
-this are shown in Fig. <a href="#fig:dmg-cr-vs-cr" class="fig-ref">5</a> below.
+this are shown in Fig. \figref{fig:dmg-cr-vs-cr} below.
 
 <figure id="fig:dmg-cr-vs-cr">
     {% include_relative fig-dmg-cr-vs-cr-small.html %}
     {% include_relative fig-dmg-cr-vs-cr-large.html %}
-    <figcaption>Figure 5: Calculated CR mean and 60% confidence interval vs CR.</figcaption>
+    <figcaption>Calculated CR mean and 60% confidence interval vs CR.</figcaption>
 </figure>
 
 As with D-CR and O-CR, the calculated CR for published monsters closely matches the listed values on average. It's 

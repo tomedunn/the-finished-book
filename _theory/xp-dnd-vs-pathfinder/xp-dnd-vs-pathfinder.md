@@ -115,29 +115,29 @@ Here, $$\HP$$ is the creature's average hit points, $$\DPRhit$$ is their average
 
 Since the mechanics behind dealing damage in PF 2e are essentially the same as they are in D&D 5e (i.e., via attack rolls and saving throws), Eqn. \eqref{eq:xp-dnd} should be capable of calculating XP values for monsters in PF 2e, so long at the baseline chance to hit in PF 2e is close to $$65\%$$.
 
-Using values for $$\HP$$, $$\AC$$, $$\DPRhit$$, and $$\AB$$ taken from "[Building Creatures](https://2e.aonprd.com/Rules.aspx?ID=995)" in chapter 2 of the PF 2e's _Gamemastery Guide_, Fig. <a href="#fig:pf-xp-vs-level" class="fig-ref">1</a> (below) shows XP values given by Eqn. \eqref{eq:xp-dnd} for each level. For simplicity, I fixed the XP of a level 1 monster at 1 XP but, since we're only interested in the scaling behavior, any value would have worked just as well.
+Using values for $$\HP$$, $$\AC$$, $$\DPRhit$$, and $$\AB$$ taken from "[Building Creatures](https://2e.aonprd.com/Rules.aspx?ID=995)" in chapter 2 of the PF 2e's _Gamemastery Guide_, Fig. \figref{fig:pf-xp-vs-level} (below) shows XP values given by Eqn. \eqref{eq:xp-dnd} for each level. For simplicity, I fixed the XP of a level 1 monster at 1 XP but, since we're only interested in the scaling behavior, any value would have worked just as well.
 
 <figure id="fig:pf-xp-vs-level">
     {% include_relative fig-pf-xp-vs-level-small.html %}
     {% include_relative fig-pf-xp-vs-level-large.html %}
-    <figcaption>Figure 1: Shows monster XP values for Pathfinder 2e calculated using Eqn. \eqref{eq:xp-dnd} along with "Moderate" monster stats taken from "<a href="https://2e.aonprd.com/Rules.aspx?ID=995">Building Creatures</a>" in chapter 2 of the PF 2e's <i>Gamemastery Guide</i>.</figcaption>
+    <figcaption>Shows monster XP values for Pathfinder 2e calculated using Eqn. \eqref{eq:xp-dnd} along with "Moderate" monster stats taken from "<a href="https://2e.aonprd.com/Rules.aspx?ID=995">Building Creatures</a>" in chapter 2 of the PF 2e's <i>Gamemastery Guide</i>.</figcaption>
 </figure>
 
 Overall, the results are consistent with our earlier expectation that monster XP should double every two levels, especially for monsters level 10 and above. However, for lower levels monster XP grows substantially faster.
 
-To better visualize how much faster, Fig. <a href="#fig:pf-xp-scaling" class="fig-ref">2</a> (below) plots the ratio of these XP values with those of monsters two levels lower.
+To better visualize how much faster, Fig. \figref{fig:pf-xp-scaling} (below) plots the ratio of these XP values with those of monsters two levels lower.
 
 <figure id="fig:pf-xp-scaling">
     {% include_relative fig-pf-xp-scaling-small.html %}
     {% include_relative fig-pf-xp-scaling-large.html %}
-    <figcaption>Figure 2: Shows the ratio between monster XP values calculated using Eqn. \eqref{eq:xp-dnd} and those of a monster two levels lower.</figcaption>
+    <figcaption>Shows the ratio between monster XP values calculated using Eqn. \eqref{eq:xp-dnd} and those of a monster two levels lower.</figcaption>
 </figure>
 
 For monsters between levels 5 - 10, the XP scaling is a little bit higher than expected, but things really take off for monsters level 4 and below, which increase in power up to three times faster than expected!
 
 Whether or not this poses a problem for building encounters at low levels depends on how PCs scale in comparison. If PCs scale similarly at these low levels, encounters with higher level monsters are likely to play out significantly more difficult than predicted using PF 2e's encounter building rules. However, if this scaling is unique to monsters and PCs continue to double in XP every two levels, then low level monsters are simply weaker than expected.
 
-Low levels aside, the overall trends shown in Figs. <a href="#fig:pf-xp-vs-level" class="fig-ref">1</a> and <a href="#fig:pf-xp-scaling" class="fig-ref">2</a> confirm that Eqn. \eqref{eq:xp-exp} is an accurate representation of how monsters scale in PF 2e. It also means **monsters in PF 2e meet the scaling requirement needed to make its encounter building system work**.
+Low levels aside, the overall trends shown in Figs. \figref{fig:pf-xp-vs-level} and \figref{fig:pf-xp-scaling} confirm that Eqn. \eqref{eq:xp-exp} is an accurate representation of how monsters scale in PF 2e. It also means **monsters in PF 2e meet the scaling requirement needed to make its encounter building system work**.
 
 
 # Accounting for groups
@@ -157,12 +157,12 @@ The encounter building rules in PF 2e make no such adjustments, simply using the
 
 In D&D 5e, the encounter building rules are centered around encounters with a party of four PCs against a single monster. This choice work fine when paired with an encounter multiplier, but without one it would significantly underestimate the difficulty of any encounter with more than two monsters.
 
-If the D&D 5e encounter building rules were centered around encounters with four monsters instead of one - this can be done by dividing the encounter multiplier by two and multiplying monster XP by two - the need for an encounter multiplier would be dramatically reduced, because the error for not using one would be relatively small for a much wider range of encounters. The encounter multiplier for such a system is shown in Fig. <a href="#fig:encounter-multiplier" class="fig-ref">3</a> (below) along with the encounter multiplier used by the D&D 5e rules for a party of four.
+If the D&D 5e encounter building rules were centered around encounters with four monsters instead of one - this can be done by dividing the encounter multiplier by two and multiplying monster XP by two - the need for an encounter multiplier would be dramatically reduced, because the error for not using one would be relatively small for a much wider range of encounters. The encounter multiplier for such a system is shown in Fig. \figref{fig:encounter-multiplier} (below) along with the encounter multiplier used by the D&D 5e rules for a party of four.
 
 <figure id="fig:encounter-multiplier">
     {% include_relative fig-encounter-multiplier-small.html %}
     {% include_relative fig-encounter-multiplier-large.html %}
-    <figcaption>Figure 3: Shows the encounter multiplier from D&D 5e for party of four PCs (orange) as well as the same multiplier rescaled for a system that assumes four monsters per encounter as the default (blue).</figcaption>
+    <figcaption>Shows the encounter multiplier from D&D 5e for party of four PCs (orange) as well as the same multiplier rescaled for a system that assumes four monsters per encounter as the default (blue).</figcaption>
 </figure>
 
 Under this alternative system, an encounter needs 15 or more monsters to warrant the same encounter multiplier that D&D 5e uses for an encounter with only three monsters. Put another way, if you were to remove the encounter multiplier from both systems, the system centered around four monsters would underestimate the difficulty of an encounter with 15 monsters by the same amount as the system centered around one monster would for three monsters.
@@ -178,36 +178,36 @@ If this is the case, which I suspect it is, it would reduce the need for an enco
 
 For systems that use relative XP, such as PF 2e, it's possible to bake the XP scaling of the encounter multiplier into monster XP values directly. In doing so, weaker monsters have their XP values increased above what they would be normally, to account for needing more of them to fill an encounter, and stronger monsters have their XP values decreased, to account for needing fewer. The end result of this adjustment is that monster XP will increase slower than expected based on how their other combat stats change with their level.
 
-However, as shown in Figs. <a href="#fig:pf-xp-vs-level" class="fig-ref">1</a> and <a href="#fig:pf-xp-scaling" class="fig-ref">2</a>, the relative XP values used in PF 2e's encounter building rules match the XP scaling calculated from monster combat stats using Eqn. \eqref{eq:xp-dnd}. Surely, this proves the relative XP values used by the PF 2e rules aren't being used to offset the need for an encounter multiplier, right? 
+However, as shown in Figs. \figref{fig:pf-xp-vs-level} and \figref{fig:pf-xp-scaling}, the relative XP values used in PF 2e's encounter building rules match the XP scaling calculated from monster combat stats using Eqn. \eqref{eq:xp-dnd}. Surely, this proves the relative XP values used by the PF 2e rules aren't being used to offset the need for an encounter multiplier, right? 
 
 In short, no. There's one key mechanic, unique to PF 2e, that's missing from Eqn. \eqref{eq:xp-dnd} that can have exactly the kind of impact we're looking for. And, only shows up when looking at monsters in relative terms. That mechanic is how PF 2e handles critical hits.
 
 In PF 2e, critical hits don't occur when you roll a natural 20 (there's a different effect for that). Instead, they occur when you roll 10 or more above the target's AC on an attack roll. Meaning, if a target has 10 AC, you would need to roll a 20 or higher on an attack roll for the result to be a critical hit.
 
-For a base chance to hit of $$65\%$$ against creatures of the same level, the chance of scoring a critical hit in PF 2e is $$15\%$$. And, since PF 2e adds a creature's level when determining their attack bonus and armor class, a monster's chance to crit increase by $$5\%$$ for each level relative to the PCs', and their chance to be crit decreases by $$5\%$$ for each level as well. These probabilities are illustrated in Fig. <a href="#fig:pf-crit-probability" class="fig-ref">4</a> (below).
+For a base chance to hit of $$65\%$$ against creatures of the same level, the chance of scoring a critical hit in PF 2e is $$15\%$$. And, since PF 2e adds a creature's level when determining their attack bonus and armor class, a monster's chance to crit increase by $$5\%$$ for each level relative to the PCs', and their chance to be crit decreases by $$5\%$$ for each level as well. These probabilities are illustrated in Fig. \figref{fig:pf-crit-probability} (below).
 
 <figure id="fig:pf-crit-probability">
     {% include_relative fig-pf-crit-probability-small.html %}
     {% include_relative fig-pf-crit-probability-large.html %}
-    <figcaption>Figure 4: Shows the average chance of an attack resulting in a critical hit for monsters (orange) and player characters (blue) as a function of a monster relative level.</figcaption>
+    <figcaption>Shows the average chance of an attack resulting in a critical hit for monsters (orange) and player characters (blue) as a function of a monster relative level.</figcaption>
 </figure>
 
 Since critical hits deal double damage in PF 2e, a $$5\%$$ higher chance to crit is equivalent to $$+1\,\AB$$ without the extra crit chance in terms of how much it increases an attack's average damage. Therefore, a PF 2e monster one level higher than the PCs effectively has $$+1\,\AB$$ and $$+1\,\AC$$ on top of what's listed in their stat block for the purpose of calculating their relative XP using Eqn. \eqref{eq:xp-exp}.
 
-The the size of this correction is shown in Fig. <a href="#fig:pf-xp-multiplier-components" class="fig-ref">5</a> (below), along with the encounter multiplier from the previous section centered around encounters with four monsters (i.e., one per PC). The number of monsters used to determine the encounter multiplier was based on the number of monsters needed to fill each XP threshold at the monsters' relative level. For example, it would take 8 monsters with a relative level of $$-4$$ (10 XP each) to fill a Moderate encounter worth 80 XP, which would normally have an encounter multiplier of $$1.25$$.
+The the size of this correction is shown in Fig. \figref{fig:pf-xp-multiplier-components} (below), along with the encounter multiplier from the previous section centered around encounters with four monsters (i.e., one per PC). The number of monsters used to determine the encounter multiplier was based on the number of monsters needed to fill each XP threshold at the monsters' relative level. For example, it would take 8 monsters with a relative level of $$-4$$ (10 XP each) to fill a Moderate encounter worth 80 XP, which would normally have an encounter multiplier of $$1.25$$.
 
 <figure id="fig:pf-xp-multiplier-components">
     {% include_relative fig-pf-xp-multiplier-components-small.html %}
     {% include_relative fig-pf-xp-multiplier-components-large.html %}
-    <figcaption>Figure 5: Shows the encounter multiplier for encounters made up of only monsters of the given level for each encounter difficulty, as well as the XP multiplier needed to account for PF 2e's critical hit rules.</figcaption>
+    <figcaption>Shows the encounter multiplier for encounters made up of only monsters of the given level for each encounter difficulty, as well as the XP multiplier needed to account for PF 2e's critical hit rules.</figcaption>
 </figure>
 
-The correction needed to account for PF 2e's critical hit rules clearly opposes the impact of the encounter multiplier. However, as Fig.  <a href="#fig:pf-xp-adjusted" class="fig-ref">6</a> (below) shows, while the product of these two effects is essentially flat with respect to the monsters' relative level, the average value decreases as the encounter difficulty goes down.
+The correction needed to account for PF 2e's critical hit rules clearly opposes the impact of the encounter multiplier. However, as Fig.  \figref{fig:pf-xp-adjusted} (below) shows, while the product of these two effects is essentially flat with respect to the monsters' relative level, the average value decreases as the encounter difficulty goes down.
 
 <figure id="fig:pf-xp-adjusted">
     {% include_relative fig-pf-xp-adjusted-small.html %}
     {% include_relative fig-pf-xp-adjusted-large.html %}
-    <figcaption>Figure 6: Shows the total XP multiplier for each encounter difficulty using the encounter multiplier and critical hit XP multiplier values shown in Fig. <a href="#fig:pf-xp-multiplier-components" class="fig-ref">5</a>.</figcaption>
+    <figcaption>Shows the total XP multiplier for each encounter difficulty using the encounter multiplier and critical hit XP multiplier values shown in Fig. \figref{fig:pf-xp-multiplier-components}.</figcaption>
 </figure>
 
 This behavior isn't cause for concern. In fact, it's expected. Since the number of monsters per encounter at each relative monster level decreases along with the encounter difficulty, so too will the encounter multiplier while the critical hit multiplier remains the same. The effect this ultimately has on the PF 2e encounter building rules is that the difference between each encounter difficulty is actually larger that it appears based on the listed XP thresholds.
@@ -355,12 +355,12 @@ Translating between PF 2e's "standard" and PWL versions, $$\AB \rightarrow \AB -
 
 where $$\XP_{\mathrm{S}}$$ is the creature's absolute XP value under the "standard" system.
 
-Because Eqn. \eqref{eq:xp-pf-pwl} scales exponentially with the creature's level, it can easily be applied to Pathfinder's relative level system by replacing a creature's level with their relative level, giving us an easy way of translating between the two XP values. A comparison between PF 2e's PWL XP values and those predicted by Eqn. \eqref{eq:xp-pf-pwl} is shown in Fig. <a href="#fig:pf-xp-theory" class="fig-ref">1</a> (below). 
+Because Eqn. \eqref{eq:xp-pf-pwl} scales exponentially with the creature's level, it can easily be applied to Pathfinder's relative level system by replacing a creature's level with their relative level, giving us an easy way of translating between the two XP values. A comparison between PF 2e's PWL XP values and those predicted by Eqn. \eqref{eq:xp-pf-pwl} is shown in Fig. \figref{fig:pf-xp-theory} (below). 
 
 <figure id="fig:pf-xp-theory">
     {% include_relative fig-pf-xp-theory-small.html %}
     {% include_relative fig-pf-xp-theory-large.html %}
-    <figcaption>Figure 1: Pathfinder 2nd edition monster XP vs relative level for "Proficiency Without Level" system, along with a theoretical XP values calculated from "standard" proficiency scaling rules.</figcaption>
+    <figcaption>Pathfinder 2nd edition monster XP vs relative level for "Proficiency Without Level" system, along with a theoretical XP values calculated from "standard" proficiency scaling rules.</figcaption>
 </figure>
 
 Overall, Eqn. \eqref{eq:xp-pf-pwl} shows excellent agreement with the values provided in the PF 2e rules for PWL. This strongly suggests the encounter building systems for D&D 5e and PF 2e are based on the same fundamental math.
@@ -397,12 +397,12 @@ The XP values for D&D 5e don't follow such an exact scaling, but an approximate 
     \XP_{\mathrm{5e}}  &= 2^{A\,\LV + B} \,. \label{eq:xp-dnd-fit}
 \end{align}
 
-Doing so yields values of $$A = 0.288$$ and $$B = 9.089$$. A comparison of this fit and XP values taken from the [Experience Points by Challenge Rating](https://www.dndbeyond.com/sources/basic-rules/monsters#ExperiencePointsbyChallengeRating) table in chapter 12 of the _Basic Rules_ is show in Fig. <a href="#fig:dnd-xp-fit" class="fig-ref">2</a> (below).
+Doing so yields values of $$A = 0.288$$ and $$B = 9.089$$. A comparison of this fit and XP values taken from the [Experience Points by Challenge Rating](https://www.dndbeyond.com/sources/basic-rules/monsters#ExperiencePointsbyChallengeRating) table in chapter 12 of the _Basic Rules_ is show in Fig. \figref{fig:dnd-xp-fit} (below).
 
 <figure id="fig:dnd-xp-fit">
     {% include_relative fig-dnd-xp-fit-small.html %}
     {% include_relative fig-dnd-xp-fit-large.html %}
-    <figcaption>Figure 2: Monster XP vs CR for D&D 5e, along with an exponential fit.</figcaption>
+    <figcaption>Monster XP vs CR for D&D 5e, along with an exponential fit.</figcaption>
 </figure>
 
 Careful readers will have already noticed that the level dependent term in this fit, $$A = 0.288$$, is nearly identical to the calculated value of $$0.286$$ for Pathfinder's PWL system! Given the mechanical similarities between these two systems, this result isn't too surprising, but it does give further confidence in the overall approach taken here.

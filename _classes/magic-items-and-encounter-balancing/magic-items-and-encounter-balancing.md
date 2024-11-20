@@ -76,12 +76,12 @@ where $$h_{\AC}$$ represents the typical fraction of a PC's $$\HP\,$$ loss expec
 
 For both of these types of magic item bonuses, the increase to a PC's encounter XP depends on their baseline value of $$(\AC + \AB - 2)^{-1}$$ at each level. This acts as an upper bounds to the increase in encounter XP for a typical PC due to a magic item that grants a $$+1$$ bonus to either $$\AB\,$$ or $$\AC\,$$.
 
-To get a sense of how large the XP increase can be from these bonuses, Fig. [1](#fig:encounter-xp-generic-bonus){: .fig-ref} (below) plots this value for each class, as well as the average across all classes, from levels 1-20 using data from my previous post [Player Character XP]({{ site.data.page-links.xp-and-player-characters.path }}) for a full adventuring day made up of Medium difficulty encounters. 
+To get a sense of how large the XP increase can be from these bonuses, Fig. \figref{fig:encounter-xp-generic-bonus} (below) plots this value for each class, as well as the average across all classes, from levels 1-20 using data from my previous post [Player Character XP]({{ site.data.page-links.xp-and-player-characters.path }}) for a full adventuring day made up of Medium difficulty encounters. 
 
 <figure id="fig:encounter-xp-generic-bonus">
     {% include_relative fig-encounter-xp-generic-bonus-small.html %}
     {% include_relative fig-encounter-xp-generic-bonus-large.html %}
-    <figcaption>Figure 1: Shows the typical values of \((\AC + \AB - 2)^{-1}\) as a percent increase in encounter XP for PCs across a full adventuring day of Medium difficulty encounters.</figcaption>
+    <figcaption>Shows the typical values of \((\AC + \AB - 2)^{-1}\) as a percent increase in encounter XP for PCs across a full adventuring day of Medium difficulty encounters.</figcaption>
 </figure>
 
 While the increase in encounter XP drops slightly as the PCs level up, the average remains close to $$4\%$$. Since Eqns. \eqref{eq:xp-bonus-ab} and \eqref{eq:xp-bonus-ac} are both linear in terms of the size of the magic item bonus, as well as on $$d_{\AB}$$ and $$h_{\AC}$$, we can approximate the increase in encounter XP from both as
@@ -115,7 +115,7 @@ Similarly, magic items that grant a $$+\SB\,$$ bonus to a PC's saving throws res
 \end{align}
 where $$h_{\SB}$$ represents the typical fraction of a PC's $$\HP\,$$ loss that comes from saving throws.
 
-And since the form of Eqns. \eqref{eq:xp-bonus-dc} and \eqref{eq:xp-bonus-sb} matches that of Eqns. \eqref{eq:xp-bonus-ab} and \eqref{eq:xp-bonus-ac}, they can also be combined and approximated using the results for $$(\AC + \AB - 2)^{-1}$$ shown in Fig. [1](#fig:encounter-xp-generic-bonus){: .fig-ref},
+And since the form of Eqns. \eqref{eq:xp-bonus-dc} and \eqref{eq:xp-bonus-sb} matches that of Eqns. \eqref{eq:xp-bonus-ab} and \eqref{eq:xp-bonus-ac}, they can also be combined and approximated using the results for $$(\AC + \AB - 2)^{-1}$$ shown in Fig. \figref{fig:encounter-xp-generic-bonus},
 \begin{align}
     \Delta\XP \simeq \left(
         d_{\DC} \cdot \Delta\DC\, + h_{\SB} \cdot \Delta\SB\, 
@@ -140,12 +140,12 @@ This increase in $$\DPRhit$$ will, in turn, increase their encounter XP and dail
     \label{eq:xp-bonus-damage}
 \end{align}
 
-PCs that get most of their damage directly from their weapons, like fighters, will benefit more than those that get most of their damage from spells or class features, like rogues or paladins. This relationship is illustrated in Fig. [2](#fig:encounter-xp-damage-bonus){: .fig-ref} (below) for the martial classes, calculated for a full adventuring day made up of Medium difficulty encounters.
+PCs that get most of their damage directly from their weapons, like fighters, will benefit more than those that get most of their damage from spells or class features, like rogues or paladins. This relationship is illustrated in Fig. \figref{fig:encounter-xp-damage-bonus} (below) for the martial classes, calculated for a full adventuring day made up of Medium difficulty encounters.
 
 <figure id="fig:encounter-xp-damage-bonus">
     {% include_relative fig-encounter-xp-damage-bonus-small.html %}
     {% include_relative fig-encounter-xp-damage-bonus-large.html %}
-    <figcaption>Figure 2: Shows the increase in encounter XP for PCs with a +1 magic weapon relative to their baseline XP with no magic items for a full adventuring day made up of Medium difficulty encounters.</figcaption>
+    <figcaption>Shows the increase in encounter XP for PCs with a +1 magic weapon relative to their baseline XP with no magic items for a full adventuring day made up of Medium difficulty encounters.</figcaption>
 </figure>
 
 While the average benefit tends to decrease as a PC levels up, due to more of their damage coming from sources other than their weapon's damage, a magic item that has $$+1$$ damage increases a PC's XP thresholds and adventuring day XP by $$6.8\%$$ on average.
@@ -174,11 +174,11 @@ In order for magic items to cause the encounter building rules in the DMG to und
 <figure id="fig:encounter-xp-high-magic">
     {% include_relative fig-encounter-xp-high-magic-small.html %}
     {% include_relative fig-encounter-xp-high-magic-large.html %}
-    <figcaption>Figure 3: Shows the percent increase in encounter XP for a PC following a high magic item progression over baseline, as described in the <a href="#tab:high-magic-progression" class="fig-ref">High Magic Progression</a> table for full adventuring days made up of Medium difficulty encounters.</figcaption>
+    <figcaption>Shows the percent increase in encounter XP for a PC following a high magic item progression over baseline, as described in the <a href="#tab:high-magic-progression" class="fig-ref">High Magic Progression</a> table for full adventuring days made up of Medium difficulty encounters.</figcaption>
 </figure>
 
 
-This is illustrated in Fig. [3](#fig:encounter-xp-high-magic){: .fig-ref} (above), which shows the encounter XP increase for PCs who gain magic items with the bonuses described in the [High Magic Progression](#tab:high-magic-progression){: .fig-ref} table (below) as they level up.
+This is illustrated in Fig. \figref{fig:encounter-xp-high-magic} (above), which shows the encounter XP increase for PCs who gain magic items with the bonuses described in the [High Magic Progression](#tab:high-magic-progression){: .fig-ref} table (below) as they level up.
 
 <div class="dataframe center" style="width:750px;">
     <h3 id="tab:high-magic-progression">High Magic Progression</h3>
