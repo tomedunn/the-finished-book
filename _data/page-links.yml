@@ -69,6 +69,9 @@ encounter-multiplier-p2:
 initiative-probabilities:
   path: /the-finished-book/theory/initiative-probabilities/
 
+random-encounter-tables:
+  path: /the-finished-book/theory/random-encounter-tables/
+
 rounds-per-day:
   path: /the-finished-book/theory/rounds-per-day/
 
