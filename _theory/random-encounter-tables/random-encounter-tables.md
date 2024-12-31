@@ -27,10 +27,7 @@ tags:
 \newcommand{\cvEncounters}{\CV_{\mathrm{e}}}
 \newcommand{\sEncounters}{\sigma_{\mathrm{e}}}
 \newcommand{\pNoEncounter}{p_{\mathrm{n}}}
-
-%\newcommand{\nMin}{n_{\mathrm{min}}}
 \newcommand{\nMin}{n_{0}}
-%\newcommand{\nMax}{n_{\mathrm{max}}}
 \newcommand{\nMax}{n_{1}}
 \)
 </div>
@@ -63,23 +60,11 @@ The average number of encounters, $$\aEncounters,$$ we expect to see after $$\nR
 \end{align}
 From this we can see that the average number of rolls it takes to get an encounter, $$\nRolls / \aEncounters = 1/\pEncounter,$$ increases substantially when the probability of an encounter from a single roll is small. 
 
-<!--
-For example, if each roll has only a $$10\%$$ chance of resulting in an encounter, $$\pEncounter = 0.1,$$ it will take $$1 / 0.1 = 10$$ rolls on average for each encounter.
--->
-
 In practice, the actual number of encounters a DM gets after $$\nRolls$$ rolls will likely differ from $$\aEncounters$$ by some amount. The typical size of this difference is characterized by the standard deviation of the number of encounters, $$\sEncounters,$$ which for $$\nRolls$$ rolls is
 \begin{align}
     \sEncounters = \sqrt{ \nRolls \pEncounter \left( 1 - \pEncounter \right) } .
     \label{eq:encounter-sigma}
 \end{align}
-
-<!--
-Unless the number of rolls is infinitely large, it's not especially likely that rolling for encounters $$\nRolls$$ times will result in exactly $$\aEncounters$$ encounters. How close we should expect to get can be characterized by the standard deviation of the number of encounters, $$\sEncounters,$$ which for $$\nRolls$$ rolls is
-\begin{align}
-    \sEncounters = \sqrt{ \nRolls \pEncounter \left( 1 - \pEncounter \right) } .
-    \label{eq:encounter-sigma}
-\end{align}
--->
 
 This can be put into relative terms by calculating the [coefficient of variation](https://en.wikipedia.org/wiki/Coefficient_of_variation) for the number of encounters,
 \begin{align}
@@ -96,20 +81,12 @@ Note that $$\cvEncounters$$ gets smaller as the number of rolls increases, and g
     <figcaption>Shows how the coefficient of variation for the number of encounters, \(\cvEncounters,\) depends on the probability of a single roll resulting in an encounter, \(\pEncounter,\) when \(\nRolls = 1.\)</figcaption>
 </figure>
 
-<!--
-Going back to our earlier example, if each roll has a $$10\%$$ chance of resulting in an encounter and we roll $$10$$ times, while the average number of encounters will be $$\aEncounters = 1$$ the standard deviation will be $$\sEncounters \approx 0.95,$$ which gives a coefficient of variation of $$\cvEncounters \approx 0.95$$ as well. In practice, if we were to run such a table in an actual game, this means we should expect the actual number of encounters to differ quite significantly from the average.
--->
-
 ## Example
 
 To put this into perspective, lets look at an example random encounter table taken from the "[Horns of the Beast](https://www.dndbeyond.com/sources/dnd/dmg-2024/creating-adventures#HornsoftheBeast)" example adventure in chapter 4 of the 2024 _Dungeon Master's Guide_.
 
-<!--
-Consider the following example random encounter table taken from the "[Horns of the Beast](https://www.dndbeyond.com/sources/dnd/dmg-2024/creating-adventures#HornsoftheBeast)" example adventure in chapter 4 of the 2024 _Dungeon Master's Guide_.
--->
-
 <div class="dataframe center">
-    <h3 id="tab:example-dmg">Example table</h3>
+    <h3 id="tab:example-dmg">Encounter table</h3>
     {% include_relative tab-example-dmg.html %}
 </div>
 
@@ -127,7 +104,7 @@ Figure \figref{fig:example-encounter-distribution} (above) shows the full probab
 
 The distribution also shows there's a decently high chance of either no encounters occurring or more than double the average occurring, each with probabilities around $$5.8\%.$$ That means a bit more than one in ten groups who run this adventure are going to have a significantly different experience than one might expect using just the average for this part of the adventure.
 
-This behavior isn't inherently good or bad, but it is something worth considering when using this kind of random encounter table in an adventure. In the next section, I discuss an alternative way of running this kind of encounter table, that follows the same statistics, and can reduce the number of rolls a DM needs to make.
+This behavior isn't inherently good or bad, but it is something worth considering when using this kind of random encounter table in an adventure. In the next section, I discuss an alternative way of running this kind of encounter table that follows the same statistics and can reduce the number of rolls a DM needs to make.
 
 # Alternative approach
 
@@ -139,10 +116,6 @@ In this section I'll show how we can reduce the number of rolls needed to just t
 {: .notice--warning}
 
 The basic approach here is this, rather than rolling at set intervals to see if a random encounter occurs, we roll once to determine how long it takes to get our next random encounter (i.e., how many rolls it would have taken), and then once to determine which random encounter the PCs face. This guarantees we only ever have to roll twice per random encounter.
-
-<!--
-The basic approach here is this, rather than rolling each time a random encounter could occur, we roll once to determine how many rolls it would have taken to get our next random encounter, and then once to determine which random encounter the PCs face.
--->
 
 To do this, we need a way of translating the probability of a random encounter occurring from a single roll into a new table that tells us how many rolls would be needed before the next random encounter. For that we need to calculate the probability, $$\pdf,$$ that the next random encounter occurs after exactly $$n$$ rolls on our original random encounter table. 
 
@@ -194,10 +167,10 @@ where $$\lceil x \rceil$$ is the [ceiling function](https://en.wikipedia.org/wik
 
 ## Example revisited
 
-Applying this method to our previous [example table](#tab:example-dmg), the number of days between encounters can be mapped to a d20 as shown in the [d20 alternative table](#tab:d20-alternative) (below). When determining when the next random encounter will occur, the DM rolls a d20 and then consults the table to determine the day of the encounter. If that day happens after the PCs have left the area the table applies to then no encounter occurs.
+Applying this method to our previous [example](#example), the number of days between encounters can be mapped to a d20 as shown in the [encounter timing table](#tab:encounter-timing-table) (below). When determining when the next random encounter will occur, the DM rolls a d20 and then consults the table to determine the day of the encounter. If that day happens after the PCs have left the area the table applies to then no encounter occurs.
 
 <div class="dataframe center">
-    <h3 id="tab:d20-alternative">d20 alternative</h3>
+    <h3 id="tab:encounter-timing-table">Encounter timing table</h3>
     {% include_relative tab-alt-d20.html %}
 </div>
 
@@ -206,7 +179,7 @@ For example, if the DM rolled a 5 then the encounter would occur on the first da
 After rolling to determine when the next encounter occurs, the DM would then roll a d6 to determine which of the six random encounters the PCs would face, using the [alternative encounter table](#tab:alternative-encounters) (below).
 
 <div class="dataframe center">
-    <h3 id="tab:alternative-encounters">Alternative encounters</h3>
+    <h3 id="tab:alternative-encounters">Alternative encounter table</h3>
     {% include_relative tab-alt-encounters.html %}
 </div>
 
@@ -218,7 +191,7 @@ We can check how accurately this reproduces the results of the original table by
     <figcaption>Shows the probability of a party experiencing \(n\) encounters using the original table or our approximate d20 table.</figcaption>
 </figure>
 
-While not perfect, the alternative table closely matches the probability distribution of the original. If we were to use a larger die, like a d100, instead of a d20 then the difference would be even smaller. 
+While not perfect, the probability distribution created by the [encounter timing table](#tab:encounter-timing-table) closely matches of the original's. If we were to use a larger die, like a d100, instead of a d20 then the difference would be even smaller. 
 
 # Tightening the distribution
 
@@ -228,7 +201,7 @@ The probability of the PCs experiencing zero encounters in Fig. \figref{fig:exam
 
 Similarly, the only way the alternative table can produce five or more encounters during the adventure is if at least one of the d20 rolls is between $$1-6$$, causing the next encounter to occur on the next day. In both cases, removing these rows from the alternative table eliminates the possibility of the PCs facing no encounters or five or more encounters. This results in a tighter distribution for the number of encounters the PCs might face during this portion of the adventure, while still allowing for some randomness on the number of days between encounters.
 
-These adjustments certainly could be done by hand, i.e., by actually eliminating rows from the previously generated alternative table. However, that would change the size of the die needed by the table, which could make using it a bit more difficult. So instead, the same effect can be accomplished by limiting the maximum and minimum number of days between encounters when constructing the table, and then renormalizing the results so the total probability of an encounter occurring within that range is still equal to one.
+These adjustments certainly could be done by hand, i.e., by actually eliminating rows from the previously generated alternative table. However, that would change the size of the die needed by the table, which could make using it a bit more difficult. For a more systematic approach, this can be accomplished by limiting the maximum and minimum number of days between encounters when constructing the table, and then renormalizing the results so the total probability of an encounter occurring within that range is still equal to one.
 
 Taking this approach, the cumulative distribution function of an encounter occurring described by Eqn. \eqref{eq:rolls-needed-cdf} becomes
 \begin{align}
@@ -251,10 +224,10 @@ where, again, $$d$$ is a face value on the $$D\mathrm{-sided}$$ die used by the 
 
 # Example truncated
 
-Applying this method to the [example table](#tab:example-dmg) and limiting the days between encounters to between $$2-8$$, the number of days between encounters can be mapped to a d20 as shown in the [d20 truncated table](#tab:d20-truncated) (below).
+Applying this method to our original [example](#example) and limiting the days between encounters to between $$2-8$$, the number of days between encounters can be mapped to a d20 as shown in the [modified timing table](#tab:modified-timing-table) (below).
 
 <div class="dataframe center">
-    <h3 id="tab:d20-truncated">d20 truncated</h3>
+    <h3 id="tab:modified-timing-table">Modified timing table</h3>
     {% include_relative tab-truncated-d20.html %}
 </div>
 
@@ -269,8 +242,8 @@ The effect this has on the probability distribution for the number of encounters
 
 # Conclusion
 
-Generating random encounters by rolling for the time between encounters, rather than whether or not an encounter occurs at fixed intervals, can reduce the number of rolls a DM has to make. These tables can also be easily modified to better control the overall range of possible encounters the PCs experience during an adventure. These are both benefits worth considering when using random encounters.
+Generating random encounters by rolling for the time between encounters, rather than whether or not an encounter occurs at fixed intervals, can reduce the number of rolls a DM has to make. These timing tables can also be easily modified to better control the overall range of possible encounters the PCs experience during an adventure. These are both benefits worth considering when using random encounters.
 
-This approach isn't without its drawbacks, though. The mathematical process for generating these tables is a bit involved, which can be a big hurdle for DMs and adventure designers. A simpler approach, in practice, would be to skip all the math and just create a table for the time between encounter by hand. DMs will also need to learn to use these alternative encounter tables and become comfortable doing so.
+This approach isn't without its drawbacks, though. The mathematical process for generating these timing tables is a bit involved, which can be a big hurdle for DMs and adventure designers. A simpler approach, in practice, would be to skip all the math and just create a table for the time between encounter by hand. DMs will also need to learn to use these alternative encounter tables and become comfortable doing so.
 
-Finally, I think it's worth pointing out that the method shown here can also be applied to other mechanics within the game. For example, when running combat with large numbers of monsters a table could be used to determine the number of monsters that need to attack before the hit occurs. This would allow for some randomness in the process without forcing the DM to roll for each individual monster.
+Finally, I think it's worth pointing out that the method shown here can also be applied to other mechanics within the game. For example, when running combat with large numbers of monsters a similar table could be used to determine the number of monsters that need to attack before a hit occurs. This would allow for some randomness in the process without forcing the DM to roll for each individual monster.
