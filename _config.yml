@@ -116,32 +116,32 @@ author:
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
     - label: "Bluesky"
-      icon: "fab fa-fw fa-square-bluesky"
+      icon: "fa-brands fa-fw fa-bluesky"
       url: https://bsky.app/profile/tomedunn.bsky.social
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fa-brands fa-fw fa-github"
       url: "https://github.com/tomedunn"
     - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon"
+      icon: "fa-brands fa-fw fa-mastodon"
       url: "https://dice.camp/@thefinishedbook"
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fa-brands fa-fw fa-twitter-square"
       url: "https://twitter.com/tomedunn"
 
 # Site Footer
 footer:
   links:
     - label: "Bluesky"
-      icon: "fab fa-fw fa-square-bluesky"
+      icon: "fa-brands fa-fw fa-bluesky"
       url: https://bsky.app/profile/tomedunn.bsky.social
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fa-brands fa-fw fa-github"
       url: https://github.com/tomedunn/the-finished-book
     - label: "Mastodon"
-      icon: "fab fa-fw fa-mastodon"
+      icon: "fa-brands fa-fw fa-mastodon"
       url: https://dice.camp/@thefinishedbook
     - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      icon: "fa-brands fa-fw fa-twitter-square"
       url: https://twitter.com/tomedunn
 
 
