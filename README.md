@@ -13,6 +13,7 @@ The mathematical equations shown throughout the site are produced using the [Mat
 The following Python libraries are used for analysis throughout the site:
 
  * [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
+ * [icepool](https://pypi.org/project/icepool/)
  * [matplotlib](https://matplotlib.org/)
  * [NumPy](https://numpy.org/)
  * [pandas](https://pandas.pydata.org/)
@@ -23,5 +24,5 @@ The following Python libraries are used for analysis throughout the site:
 The underlying source code used to format and display content on The Finished Book, as well as the Python code used for analysis, is licensed under the [MIT license](LICENSE.md).
 
 The Finished Book is built upon [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes),
-Copyright (c) 2013-2023 Michael Rose and contributors.
+Copyright (c) 2013-2025 Michael Rose and contributors.
 Minimal Mistakes is distributed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
