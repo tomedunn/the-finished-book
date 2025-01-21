@@ -3,7 +3,7 @@ title: "Monster Dataset"
 excerpt: "A list of the book that make up the monster datasets used for these analysis."
 permalink: /:collection/:name/
 date: 2023-06-27
-last_modified_at: 2023-06-27
+last_modified_at: 2025-01-20
 tags:
   - analysis
   - monsters

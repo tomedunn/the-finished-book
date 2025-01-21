@@ -1,39 +1,42 @@
 Book,Acronym,Date,Type,Status,Added,Processed,Remaining,Published
-Baulder's Gate: Descent Into Avernus,BGDiA,2019-09-17,Adventure,Done,36,36,0,2019-09-17
-Bigby Presents: Glory of the Giants,BPGotG,2023-08-15,Source,,0,0,0,2023-08-15
-Candlekeep Mysteries,CM,2021-03-16,Adventure,Done,23,23,0,2021-03-16
-Critical Role: Call of the Netherdeep,CRCotN,2022-03-15,Adventure,Done,40,40,0,2022-03-15
+Hoard of the Dragon Queen,HotDQ,2014-08-19,Adventure,Done,15,15,0,2014-08-19
+Monster Manual,MM,2014-09-07,Source,Done,428,428,0,2014-09-07
+Rize of Tiamat,RoT,2014-11-04,Adventure,Done,8,8,0,2014-11-04
+Princes of the Apocalypse,PotA,2015-04-07,Adventure,Done,53,53,0,2015-04-07
+Out of the Abyss,OotA,2015-09-15,Adventure,CR < 1 needed,34,34,0,2015-09-15
 Curse of Strahd,CoS,2016-03-16,Adventure,Done,24,24,0,2016-03-16
-Dragonlance: Shadow of the Dragon Queen,DSotDQ,2022-12-06,Adventure,,25,0,25,2022-12-06
+Storm King's Thunder,SKT,2016-09-06,Adventure,Done,32,32,0,2016-09-06
+Volo's Guide to Monsters,VGtM,2016-11-15,Source,Done,143,143,0,2016-11-15
+Tales from the Yawning Portal,TftYP,2017-04-04,Adventure,"reduced-threat monsters, clean up",40,40,0,2017-04-04
+Tomb of Annihilation,ToA,2017-09-19,Adventure,Done,35,35,0,2017-09-19
+Xanathar's Guide to Everything,XGtE,2017-11-12,Source,Done,1,1,0,2017-11-12
+Mordenkainen's Tome of Foes,MToF,2018-05-29,Source,Done,147,147,0,2018-05-29
+Wayfinder's Guide to Eberron,WGtE,2018-07-23,Source,Done,0,0,0,2018-07-23
+Waterdeep: Dragon Heist,WDH,2018-09-18,Adventure,Done,29,29,0,2018-09-18
+Guildmaster's Guide to Ravnica,GGtR,2018-11-20,Source,Done,71,71,0,2018-11-20
+Waterdeep: Dungeon of the Mad Mage,WDotMM,2018-11-20,Adventure,Done,23,23,0,2018-11-20
+Ghosts of Saltmarsh,GoS,2019-05-21,Adventure,Done,48,48,0,2019-05-21
+Baulder's Gate: Descent Into Avernus,BGDiA,2019-09-17,Adventure,Done,34,34,0,2019-09-17
 Eberron: Rising from the Last War,ERftLW,2019-11-19,Source,Done,38,38,0,2019-11-19
 Explorer's Guide to Wildmount,EGtW,2020-03-07,Source,Done,34,34,0,2020-03-07
-Fizban's Treasury of Dragons,FToD,2021-10-26,Source,Needs mythic creatures and lair actions,104,104,0,2021-10-26
-Ghosts of Saltmarsh,GoS,2019-05-21,Adventure,Done,48,48,0,2019-05-21
-Guildmaster's Guide to Ravnica,GGtR,2018-11-20,Source,Done,71,71,0,2018-11-20
-Hoard of the Dragon Queen,HotDQ,2014-08-19,Adventure,Done,15,15,0,2014-08-19
-Icewind Dale: Rime of the Frostmaiden,IDRotF,2020-09-15,Adventure,Done,58,58,0,2020-09-15
-Journey Through the Radiant Citadel,JttRC,2022-07-19,Adventure,,13,0,13,2022-07-19
-Keys from the Golden Vault,KftGV,2023-02-21,Adventure,,8,0,8,2023-02-21
-Monster Manual,MM,2014-09-07,Source,Done,427,427,0,2014-09-07
-Mordenkainen Presents: Monsters of the Multiverse,MPMotM,2022-05-16,Source,Done,281,281,0,2022-05-16
-Mordenkainen's Tome of Foes,MToF,2018-05-29,Source,Done,147,147,0,2018-05-29
 Mythic Odysseys of Theros,MOoT,2020-07-21,Source,Done,51,51,0,2020-07-21
-Out of the Abyss,OotA,2015-09-15,Adventure,CR < 1 needed,34,34,0,2015-09-15
-Planescape: Adventures in the Multiverse,PAitM,2023-10-17,Adventure,,0,0,0,2023-10-17
-Phandelver and Below: The Shattered Obelisk,PaBTSO,2023-09-19,Adventure,,0,0,0,2023-09-19
-Princes of the Apocalypse,PotA,2015-04-07,Adventure,Done,53,53,0,2015-04-07
-Rize of Tiamat,RoT,2014-11-04,Adventure,Done,8,8,0,2014-11-04
-Spelljammer: Adventures in Space • Boo’s Astral Menagerie,SAiS:BAM,2022-08-16,Source,,72,0,72,2022-08-16
-Spelljammer: Adventures in Space • Light of Xaryxis,SAiS:LoX,2022-08-16,Source,,1,0,1,2022-08-16
-Storm King's Thunder,SKT,2016-09-06,Adventure,Done,32,32,0,2016-09-06
-Strixhaven: a Curriculum of Chaos,SACoC,2021-12-07,Adventure,Done,44,44,0,2021-12-07
-Tales from the Yawning Portal,TftYP,2017-04-04,Adventure,"reduced-threat monsters, clean up",40,40,0,2017-04-04
+Icewind Dale: Rime of the Frostmaiden,IDRotF,2020-09-15,Adventure,Done,58,58,0,2020-09-15
 Tasha's Cauldron of Everything,TCoE,2020-11-17,Source,Done,2,2,0,2020-11-17
-The Wild Beyond the Witchlight,TWBtW,2021-09-21,Adventure,Done,39,39,0,2021-09-21
-Tomb of Annihilation,ToA,2017-09-19,Adventure,Done,35,35,0,2017-09-19
+Candlekeep Mysteries,CM,2021-03-16,Adventure,Done,23,23,0,2021-03-16
 Van Richten's Guide to Ravenloft,VRGtR,2021-05-18,Source,Done,38,38,0,2021-05-18
-Volo's Guide to Monsters,VGtM,2016-11-15,Source,Done,143,143,0,2016-11-15
-Waterdeep: Dragon Heist,WDH,2018-09-18,Adventure,Done,29,29,0,2018-09-18
-Waterdeep: Dungeon of the Mad Mage,WDotMM,2018-11-20,Adventure,Done,23,23,0,2018-11-20
-Wayfinder's Guide to Eberron,WGtE,2018-07-23,Source,Done,0,0,0,2018-07-23
-Xanathar's Guide to Everything,XGtE,2017-11-12,Source,Done,1,1,0,2017-11-12
+The Wild Beyond the Witchlight,TWBtW,2021-09-21,Adventure,Done,39,39,0,2021-09-21
+Fizban's Treasury of Dragons,FToD,2021-10-26,Source,Needs mythic creatures and lair actions,104,104,0,2021-10-26
+Strixhaven: a Curriculum of Chaos,SACoC,2021-12-07,Adventure,Done,44,44,0,2021-12-07
+Critical Role: Call of the Netherdeep,CRCotN,2022-03-15,Adventure,Done,38,38,0,2022-03-15
+Mordenkainen Presents: Monsters of the Multiverse,MPMotM,2022-05-16,Source,Done,281,281,0,2022-05-16
+Journey Through the Radiant Citadel,JttRC,2022-07-19,Adventure,Done,13,13,0,2022-07-19
+Spelljammer: Adventures in Space • Boo’s Astral Menagerie,SAiS:BAM,2022-08-16,Source,,72,0,72,2022-08-16
+Spelljammer: Adventures in Space • Light of Xaryxis,SAiS:LoX,2022-08-16,Source,Done,1,1,0,2022-08-16
+Dragonlance: Shadow of the Dragon Queen,DSotDQ,2022-12-06,Adventure,Done,23,23,0,2022-12-06
+Keys from the Golden Vault,KftGV,2023-02-21,Adventure,Done,8,8,0,2023-02-21
+Bigby Presents: Glory of the Giants,BPGotG,2023-08-15,Source,,71,0,71,2023-08-15
+Phandelver and Below: The Shattered Obelisk,PaBTSO,2023-09-19,Adventure,Done,17,17,0,2023-09-19
+Planescape: Adventures in the Multiverse • Morte’s Planar Parade,PAitM:MPP,2023-10-17,Source,,59,0,59,2023-10-17
+The Book of Many Things,TBoMT,2023-11-14,Source,,41,0,41,2023-11-14
+Vecna: Eve of Ruin,VEoR,2024-05-21,Adventure,Done,26,26,0,2024-05-21
+Quests from the Infinite Staircase,QftIS,2024-07-16,Adventure,Done,32,32,0,2024-07-16
