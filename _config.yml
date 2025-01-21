@@ -124,9 +124,6 @@ author:
     - label: "Mastodon"
       icon: "fa-brands fa-fw fa-mastodon"
       url: "https://dice.camp/@thefinishedbook"
-    - label: "Twitter"
-      icon: "fa-brands fa-fw fa-twitter-square"
-      url: "https://twitter.com/tomedunn"
 
 # Site Footer
 footer:
@@ -140,9 +137,6 @@ footer:
     - label: "Mastodon"
       icon: "fa-brands fa-fw fa-mastodon"
       url: https://dice.camp/@thefinishedbook
-    - label: "Twitter"
-      icon: "fa-brands fa-fw fa-twitter-square"
-      url: https://twitter.com/tomedunn
 
 
 # Reading Files
