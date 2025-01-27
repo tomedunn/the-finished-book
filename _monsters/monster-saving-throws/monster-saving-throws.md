@@ -3,7 +3,7 @@ title: "Monster Saving Throws"
 excerpt: "An analysis of how monster saving throw modifiers scale with CR."
 permalink: /:collection/:name/
 date: 2021-10-23
-last_modified_at: 2024-01-25
+last_modified_at: 2025-01-26
 tags:
   - analysis
   - mechanics
