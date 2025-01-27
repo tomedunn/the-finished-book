@@ -2,7 +2,7 @@
 title: "Calculating Monster CR"
 excerpt: "Compares listed monster CRs with those calculated according to the rules in chapter 9 of the DMG."
 date: 2021-10-30
-last_modified_at: 2023-06-27
+last_modified_at: 2025-01-26
 permalink: /:collection/:name/
 tags:
   - analysis
