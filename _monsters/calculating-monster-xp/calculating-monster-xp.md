@@ -3,7 +3,7 @@ title: "Calculating Monster XP"
 excerpt: "Compares listed monster XP values with those calculated from their offensive and defensive abilities."
 permalink: /:collection/:name/
 date: 2021-11-24
-last_modified_at: 2023-06-27
+last_modified_at: 2025-01-26
 tags:
   - analysis
   - challenge rating
