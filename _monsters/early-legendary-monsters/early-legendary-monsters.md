@@ -1,9 +1,9 @@
 ---
 title: "Early Legendary Monsters"
-excerpt: "Legendary monsters were overpowered, but not anymore."
+excerpt: "Legendary monsters in the first several books were overpowered but their balance has improved since then."
 permalink: /:collection/:name/
 date: 2021-12-27
-last_modified_at: 2023-03-09
+last_modified_at: 2025-01-26
 tags:
   - analysis
   - challenge rating
