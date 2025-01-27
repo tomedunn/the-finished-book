@@ -3,7 +3,7 @@ title: "Monster Condition Immunities"
 excerpt: "An analysis of how monster condition immunities depend on monster type and challenge rating."
 permalink: /:collection/:name/
 date: 2022-12-23
-last_modified_at: 2023-06-27
+last_modified_at: 2025-01-26
 tags:
   - analysis
   - conditions
