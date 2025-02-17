@@ -16,7 +16,7 @@ monsters:
       url: /monsters/monster-dataset/
     - title: "Legendary Resistances"
       url: /monsters/legendary-resistance/
-
+    
   - title: "Stats"
     children:
     - title: "Baseline Monster Stats"
@@ -25,6 +25,8 @@ monsters:
       url: /monsters/monster-condition-immunities/
     - title: "Monster Damage Modifiers"
       url: /monsters/monster-damage-modifiers/
+    - title: "Monster Manual (2024)"
+      url: /monsters/monster-manual-2024/
     - title: "Monster Saving Throws"
       url: /monsters/monster-saving-throws/
 

@@ -48,6 +48,9 @@ monster-damage-modifiers:
 monster-dataset:
   path: /the-finished-book/monsters/monster-dataset/
 
+monster-manual-2024:
+  path: /the-finished-book/monsters/monster-manual-2024/
+
 monster-saving-throws:
   path: /the-finished-book/monsters/monster-saving-throws/
 
