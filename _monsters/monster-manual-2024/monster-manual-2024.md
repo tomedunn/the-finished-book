@@ -199,7 +199,7 @@ which, for the purposes of this post, we can approximated as,
 \end{equation}
 where $$\HP$$ is the monster's average hit points, $$\AC$$ is their effective armor class, $$\DPR$$ is their average damage per round across the first three rounds of combat assuming all abilities deal their normal damage, and $$\AB$$ is their effective attack bonus. The values used in this calculation correspond to the adjusted stats shown in the previous sections, with the exception of $$\AC$$ which comes from a combination of AC and SB.
 
-The results of this calculation can be seen in Fig. \figref{fig:xp-ratio-vs-cr} (below), where the values for each CR have been normalized to the D&D 2014 baseline XP value (effectively, the XP value listed in the monster's stat block for their CR). The average XP for non-legendary (normal) MM 2024 monsters stays close to the D&D 2014 historic baseline, while legendary MM 2024 monsters are roughly $$60\%$$ higher!
+The results of this calculation can be seen in Fig. \figref{fig:xp-ratio-vs-cr} (below), where the values for each CR have been normalized to the D&D 2014 baseline XP value (effectively, the XP value listed in the monster's stat block for their CR). The average XP for non-legendary (normal) MM 2024 monsters stays close to the D&D 2014 historic baseline, averaging around $$10\%$$ higher for monsters CR 5 and above, while legendary MM 2024 monsters are consistently well above the baseline, averaging around $$60\%$$ higher!
 
 <figure id="fig:xp-ratio-vs-cr">
     {% include_relative fig-xp-ratio-vs-cr-small.html %}
@@ -207,7 +207,17 @@ The results of this calculation can be seen in Fig. \figref{fig:xp-ratio-vs-cr} 
     <figcaption>Shows average (mean) normalized XP values for MM 2014 monsters (blue), MM 2024 normal monsters (orange triangles), and MM 2024 legendary monsters (orange circles).</figcaption>
 </figure>
 
-This increase in XP for legendary monsters is very likely an intentional change to offset an edge case in the updated encounter building rules. Let me explain.
+The full distribution of normalized XP values shown in Fig. \figref{fig:xp-ratio-distribution} (below) makes it quite clear that the offset seen for MM 2024 legendary monsters is not due to statistical outliers. In fact, the distribution for legendary MM 2024 monsters is quite narrow, especially when compared to the distribution for legendary MM 2014 monsters.
+
+<figure id="fig:xp-ratio-distribution">
+    {% include_relative fig-xp-ratio-distribution-small.html %}
+    {% include_relative fig-xp-ratio-distribution-large.html %}
+    <figcaption>Shows average (mean) normalized XP values for MM 2014 monsters (blue), MM 2024 normal monsters (orange triangles), and MM 2024 legendary monsters (orange circles).</figcaption>
+</figure>
+
+For reference, the average normalized XP for legendary MM 2014 monsters is also higher than expected (around $$25\%$$ higher). However, its distribution is also much wider and a significant portion of those monsters have XP near their expected values. As time would show, the reason for the MM 2014 average being higher than expected was because one group of monsters in that book, legendary dragons, were outliers compared to the rest of D&D 2014. For more details, see my post on [Early Legendary Monsters]({{ site.data.page-links.early-legendary-monsters.path }}#source-books).
+
+Time will ultimately tell if this trend holds true for D&D 2024 legendary monsters, but setting aside the statistics, there's a good reason for why this increase in XP for legendary monsters may be intentional, and that's to cover an edge case in the updated encounter building rules. Let me explain.
 
 In the introduction I noted the updated encounter building rules no longer use an XP multiplier to account for how encounter difficulty increases when multiple monsters are grouped together. This simplifies the math and makes the rules more accessible, which is good, but those improvements aren't without their tradeoffs.
 
@@ -215,11 +225,9 @@ I cover the encounter XP multiplier in detail [here]({{ site.data.page-links.enc
 
 The encounter building rules in the 2014 DMG were centered around a party of four PCs facing a single monster. If the new rules were based on the same assumption then they would underestimate the difficulty by increasing amounts as the number of monsters increase. However, if the new rules were updated to be centered around one monster per PC then the size of this error would be reduced for a wide range of likely encounter sizes, with single monster encounters being the most common exception.
 
-The alternate encounter building rules in _Xanathar's Guide to Everything_ function without an encounter XP multiplier and they do so by using this exact method of re-centering the math around one monster per PC as I showed in my analysis of those rules [here]({{ site.data.page-links.xgte-encounter-building.path }}). To get around the issue this change creates for single monster encounters they included an entirely separate set of rules for handling them.
+The alternate encounter building rules in _Xanathar's Guide to Everything_ function without an encounter XP multiplier and they do so by using this exact method of re-centering the math around one monster per PC as I showed in my analysis of those rules [here]({{ site.data.page-links.xgte-encounter-building.path }}). To get around the issue this change creates for single monster encounters, those rules also included an entirely separate method for just that kind of encounter.
 
-Legendary monsters aren't the only type of monster that can be used when building single monster encounters. However, when trying to create a challenging single monster encounter legendary monsters are the most natural choice. Making legendary monsters punch well above their CR shrinks the size of this error significantly for those encounters.
-
-In all likelihood, this is the reason MM 2024 legendary monsters have XP values $$60\%$$ higher than expected for their listed CR.
+Legendary monsters aren't the only type of monster that can be used when building single monster encounters. However, when trying to create a challenging single monster encounter, legendary monsters are the most natural choice. Making legendary monsters punch well above their CR shrinks the size of this error significantly for those encounters.
 
 **Note.** Because legendary monsters now hit well above their CR, they shouldn't be paired with other legendary monsters of similar CR when building encounters.
 {: .notice--warning}

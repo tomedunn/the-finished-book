@@ -6,6 +6,8 @@ Functions:
 """
 from bs4 import BeautifulSoup
 import plotly.graph_objects as go
+import numpy as np
+from scipy import optimize
 
 # plotly figure template
 FIG_TEMPLATE = dict(
@@ -135,3 +137,63 @@ def save_fig_html(fig, format, name, **kwargs):
         fig_soup.div['style'] = kwargs.get('style')
     with open(file_name, 'wb') as fout:
         fout.write(fig_soup.prettify('utf-8'))
+
+
+def plot_data_and_fit(fig, x, y, **kwargs):
+    print_coefficients = kwargs.pop('print_coefficients', False)
+    
+    # plot data
+    fig.add_trace(go.Scatter(
+        x=x, y=y,
+        mode='markers', 
+        **kwargs,
+    ))
+
+    # calculate fit coefficients
+    coefs = np.polyfit(x, y, 1)
+    poly = np.poly1d(coefs)
+    if print_coefficients: 
+        print(f'CR >= 1: {coefs[1]:.2f} + {coefs[0]:.2f}*CR')
+    
+    # plot fit
+    kwargs['hoverinfo'] = 'skip'
+    kwargs['showlegend'] = False
+    if kwargs.get('line', None):
+        kwargs['line']['dash'] = 'solid'
+    fig.add_trace(go.Scatter(
+        x=x, y=poly(x),
+        mode='lines', 
+        **kwargs,
+    ))
+    
+    return fig
+
+
+def piecewise_linear(x, x0, y0, k1, k2):
+    #return np.piecewise(x, [x < x0], [lambda x:k1*x + y0-k1*x0, lambda x:k2*x + y0-k2*x0])
+    return np.piecewise(x, [x < 20], [lambda x:k1*x + y0-k1*20, lambda x:k2*x + y0-k2*20])
+
+def plot_data_and_fit_piecewise(fig, x, y, **kwargs):
+    row = kwargs.pop('row') if 'row' in kwargs else 1
+    col = kwargs.pop('col') if 'col' in kwargs else 1
+    
+    # plot data
+    fig.add_trace(go.Scatter(
+        x=x, y=y,
+        mode='markers', 
+        **kwargs,
+    ), row=row, col=col)
+
+    # plot fit
+    kwargs['hoverinfo'] = 'skip'
+    kwargs['showlegend'] = False
+    kwargs['line_dash'] = 'solid'
+    p, e = optimize.curve_fit(piecewise_linear, x, y)
+    xr = np.linspace(1,30,30)
+    fig.add_trace(go.Scatter(
+        x=xr, 
+        y=piecewise_linear(xr, *p),
+        mode='lines', 
+        **kwargs,
+    ), row=row, col=col)
+    return fig, piecewise_linear(xr, *p)
