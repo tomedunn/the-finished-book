@@ -4,6 +4,8 @@ excerpt: "A comprehensive breakdown of the 2024 Monster Manual."
 permalink: /:collection/:name/
 date: 2025-02-17
 last_modified_at: 2025-02-17
+header:
+  og_image: /assets/images/monster-manual-2024.png
 tags:
   - D&D 2024
   - monsters
