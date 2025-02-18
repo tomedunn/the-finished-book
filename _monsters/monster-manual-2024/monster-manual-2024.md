@@ -212,7 +212,7 @@ The full distribution of normalized XP values shown in Fig. \figref{fig:xp-ratio
 <figure id="fig:xp-ratio-distribution">
     {% include_relative fig-xp-ratio-distribution-small.html %}
     {% include_relative fig-xp-ratio-distribution-large.html %}
-    <figcaption>Shows average (mean) normalized XP values for MM 2014 monsters (blue), MM 2024 normal monsters (orange triangles), and MM 2024 legendary monsters (orange circles).</figcaption>
+    <figcaption>Shows normalized XP values for individual monsters, broken up by book and legendary status.</figcaption>
 </figure>
 
 For reference, the average normalized XP for legendary MM 2014 monsters is also higher than expected (around $$25\%$$ higher). However, its distribution is also much wider and a significant portion of those monsters have XP near their expected values. As time would show, the reason for the MM 2014 average being higher than expected was because one group of monsters in that book, legendary dragons, were outliers compared to the rest of D&D 2014. For more details, see my post on [Early Legendary Monsters]({{ site.data.page-links.early-legendary-monsters.path }}#source-books).
