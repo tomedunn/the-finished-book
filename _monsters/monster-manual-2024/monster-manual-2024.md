@@ -296,3 +296,5 @@ And for attack bonus, save difficulty class, armor class, and saving throw bonus
 \end{align}
 
 Keep in mind, these values represent adjusted stats. If a monster has traits or abilities that let them act as though they have a higher value in any of these then the corresponding value in their stat block should be lowered to balance that out.
+
+Finally, for the monster's initiative bonus, give it expertise if it's a legendary monster or if it fits the monster's theme. Otherwise, give it proficiency if its CR 12 or higher, or if it fits the monster's theme.
