@@ -3,7 +3,7 @@ title: "Monster Manual (2024)"
 excerpt: "A comprehensive breakdown of the 2024 Monster Manual."
 permalink: /:collection/:name/
 date: 2025-02-17
-last_modified_at: 2025-02-17
+last_modified_at: 2025-02-24
 header:
   og_image: /assets/images/monster-manual-2024.png
 tags:
@@ -243,7 +243,17 @@ As a final topic before concluding, I'd like to focus on monster initiative bonu
     <figcaption>Shows average (mean) initiative bonus for MM 2014 monsters (blue) and MM 2024 monsters (orange).</figcaption>
 </figure>
 
-Initiative bonuses for PCs do increase on average as they level up, but not to nearly the same extent as shown here. This means the average position monsters have in the initiative order will improve for monsters as their CR increases, resulting in those monsters dealing more damage to the PCs as a result. 
+These higher initiative bonuses are the result of some monsters being "proficient" in initiative, i.e., adding their proficiency bonus on top of their Dexterity modifier when determining their initiative bonus, or having "expertise" in initiative, i.e., adding twice their proficiency bonus instead. The average level of proficiency monsters have in initiative is shown in Fig. \figref{fig:initiative-proficiency-vs-cr} (below), calculated by subtracting each monster's Dexterity modifier from their initiative bonus and then dividing by their proficiency bonus.
+
+<figure id="fig:initiative-proficiency-vs-cr">
+    {% include_relative fig-initiative-proficiency-vs-cr-small.html %}
+    {% include_relative fig-initiative-proficiency-vs-cr-large.html %}
+    <figcaption>Shows average (mean) proficiency level in initiative for MM 2014 monsters (blue) and MM 2024 monsters (orange). This is determined by subtracting each monster's Dexterity modifier from their initiative bonus and then dividing by their proficiency bonus. For an individual monster, a value of 0 indicates no proficiency, 1 indicates they are proficient, and 2 indicates they have expertise.</figcaption>
+</figure>
+
+For non-legendary (normal) monsters the probability of being proficient in initiative starts off around $$15\%$$ for CR 1 monsters and steadily increases until CR 12 and above where all monsters are either proficient or have expertise. In comparison, all legendary MM 2024 monsters have expertise in initiative checks, regardless of their CR.
+
+Initiative bonuses for PCs do increase on average as they level up, but not to nearly the same extent as shown in Fig. \figref{fig:initiative-vs-cr}. This means the average position monsters have in the initiative order will improve as their CR increases, resulting in those monsters dealing more damage to the PCs as a result. 
 
 I've been working on a post on this topic for some time now, which I hope to have done soon, but as a simple estimate a monster with an initiative bonus $$+6$$ higher than the PCs will deal around $$10\%$$ more damage on average than they would if their initiative bonuses were the same, and a monster with $$+15$$ will deal roughly $$20\%$$ more.
 
