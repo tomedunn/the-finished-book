@@ -206,7 +206,7 @@ The results of this calculation can be seen in Fig. \figref{fig:xp-ratio-vs-cr} 
 <figure id="fig:xp-ratio-vs-cr">
     {% include_relative fig-xp-ratio-vs-cr-small.html %}
     {% include_relative fig-xp-ratio-vs-cr-large.html %}
-    <figcaption>Shows average (mean) normalized XP values for MM 2014 monsters (blue), MM 2024 normal monsters (orange triangles), and MM 2024 legendary monsters (orange circles).</figcaption>
+    <figcaption>Shows average (mean) normalized XP values for MM 2014 monsters (blue), MM 2024 normal monsters (orange circles), and MM 2024 legendary monsters (orange squares).</figcaption>
 </figure>
 
 The full distribution of normalized XP values shown in Fig. \figref{fig:xp-ratio-distribution} (below) makes it quite clear that the offset seen for MM 2024 legendary monsters is not due to statistical outliers. In fact, the distribution for legendary MM 2024 monsters is quite narrow, especially when compared to the distribution for legendary MM 2014 monsters.
@@ -248,7 +248,7 @@ These higher initiative bonuses are the result of some monsters being "proficien
 <figure id="fig:initiative-proficiency-vs-cr">
     {% include_relative fig-initiative-proficiency-vs-cr-small.html %}
     {% include_relative fig-initiative-proficiency-vs-cr-large.html %}
-    <figcaption>Shows average (mean) proficiency level in initiative for MM 2014 monsters (blue) and MM 2024 monsters (orange). This is determined by subtracting each monster's Dexterity modifier from their initiative bonus and then dividing by their proficiency bonus. For an individual monster, a value of 0 indicates no proficiency, 1 indicates they are proficient, and 2 indicates they have expertise.</figcaption>
+    <figcaption>Shows average (mean) proficiency level in initiative for MM 2014 monsters (blue), MM 2024 normal monsters (orange circles), and MM 2024 legendary monsters (orange squares). This is determined by subtracting each monster's Dexterity modifier from their initiative bonus and then dividing by their proficiency bonus. For an individual monster, a value of 0 indicates no proficiency, 1 indicates they are proficient, and 2 indicates they have expertise.</figcaption>
 </figure>
 
 For non-legendary (normal) monsters the probability of being proficient in initiative starts off around $$15\%$$ for CR 1 monsters and steadily increases until CR 12 and above where all monsters are either proficient or have expertise. In comparison, all legendary MM 2024 monsters have expertise in initiative checks, regardless of their CR.
