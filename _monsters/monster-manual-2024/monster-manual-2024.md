@@ -3,7 +3,7 @@ title: "Monster Manual (2024)"
 excerpt: "A comprehensive breakdown of the 2024 Monster Manual."
 permalink: /:collection/:name/
 date: 2025-02-17
-last_modified_at: 2025-02-24
+last_modified_at: 2025-04-03
 header:
   og_image: /assets/images/monster-manual-2024.png
 tags:
@@ -154,6 +154,31 @@ Just like with DPR in the previous section, this trend can also be broken up bet
     <figcaption>Shows average (mean) normalized hit points for MM 2014 monsters (blue), as well as normal MM 2024 monsters (orange circles) and legendary MM 2024 monsters (orange squares).</figcaption>
 </figure>
 
+For legendary monsters, it's also worth noting that a significant portion of their total adjusted hit points comes from legendary resistances. According to the 2014 DMG, each legendary resistance use a monster has is worth a certain amount of hit points depending on the monster's CR: 1-4, 10 HP; 5–10, 20 HP; 11 or higher, 30 HP. In my analysis of [legendary resistances]({{ site.data.page-links.legendary-resistance.path }}), these values work out to roughly one turn's worth of damage from typical PC. 
+
+Given that the most common source of saving throws monster's would face in the early days of the 2014 rules were spells, this valuation made sense. However, with there being so many other sources of saving throws in the 2024 rules, these values may be overestimating the true worth of legendary resistances under the updated rules.
+
+If we remove the contribution to hit points from legendary resistances from MM 2024 monsters, as shown in Fig. \figref{fig:mod-hp-ratio-vs-cr} (below), we see they line up fairly well with the trends for MM 2014 monsters and non-legendary MM 2024 monsters, with an average around $$8\%$$ lower than the 2014 baseline values.
+
+<figure id="fig:mod-hp-ratio-vs-cr">
+    {% include_relative fig-mod-hp-ratio-vs-cr-small.html %}
+    {% include_relative fig-mod-hp-ratio-vs-cr-large.html %}
+    <figcaption>Shows average (mean) normalized hit points for MM 2014 monsters (blue), as well as normal MM 2024 monsters (orange circles) and legendary MM 2024 monsters (orange squares) after removing the adjusted hit points value of their legendary resistances.</figcaption>
+</figure>
+
+Given this relatively small difference, I think it's likely that the 2024 rules are using the same baseline hit point values for legendary monsters, and are either assigning a lower value to legendary resistances (perhaps half their 2014 values), or they're not counting them towards a monster's adjusted hit points, and these legendary monsters just happen to be more offensively oriented than average. If it's the later then the baseline damage increase for legendary monsters discussed in the previous section would drop from around $$40\%$$ to around $$25\%.$$
+
+Therefore, for both legendary and non-legendary monsters, the trend for hit points, $$\HP,$$ can be approximated using the 2014 baseline formula
+\begin{align}
+    \HP &\approx
+    \begin{cases} 
+        \ \ 16 + 16 \cdot \CR & \CR \lt 20\,, \\\\ 
+        368 + 48 \cdot \left( \CR - 20 \right) & \CR \geq 20\,,
+    \end{cases} \nonumber 
+\end{align}
+with the caveat that legendary monsters should have legendary resistances added on top of this depending on their CR: 1-19, 3 legendary resistances; 20-29, 4 legendary resistances; 30, 6 legendary resistances; +1 legendary resistance for creatures in their lair.
+
+<!--
 For non-legendary monsters, the trend for HP can be approximated as
 \begin{align}
     \HP_{\mathrm{N}} &\approx
@@ -172,6 +197,9 @@ and for legendary monsters as
 \end{align}
 
 Despite this relatively small change, a lot changed behind the scenes for MM 2024 monsters around their HP values. Most significant were the changes to damage resistances and immunities. Specifically, for the physical damage types: bludgeoning, piercing, and slashing damage.
+-->
+
+While the overall trend for hit points doesn't appear to have changed, there were significant changes behind the scenes for MM 2024 monsters. Most significant were the changes to damage resistances and immunities. Specifically, for the physical damage types: bludgeoning, piercing, and slashing damage.
 
 Roughly $$25\%$$ of MM 2014 monsters had some form of resistance or immunity to physical damage types, but with the caveat that the damage come from non-magical sources. For MM 2024 monsters this has been entirely redone. The caveat for magical physical damage has been eliminated and monsters that had these traits have been updated.
 
@@ -259,6 +287,7 @@ I've been working on a post on this topic for some time now, which I hope to hav
 
 # Conclusion
 
+<!--
 To summarize, in most ways MM 2024 monsters appear to be built to the same targets as MM 2014 monsters were with a few exceptions. Their average saving throw bonus now scales slightly slower, and legendary monsters are now built to have around $$40\%$$ higher DPR and $$15\%$$ higher HP than their normal counterparts.
 
 For anyone wishing to build new monsters that match this new trend for D&D 2024, here's a summary of the equations listed throughout this post for approximating each of these stats. For damage per round and hit points of non-legendary monsters,
@@ -287,6 +316,39 @@ and for legendary monsters,
         437 + 57 \cdot \left( \CR - 20 \right) & \CR \geq 20\,. 
     \end{cases} \nonumber 
 \end{align}
+-->
+
+To summarize, in most ways MM 2024 monsters appear to be built to the same targets as MM 2014 monsters were with a few exceptions. Their average saving throw bonus now scales slightly slower, and legendary monsters are now built to have around $$40\%$$ higher DPR than their non-legendary counterparts, and with their hit point averaging slightly below the 2014 targets but with legendary resistances no longer being counted towards that value.
+
+For anyone wishing to build new monsters that match this new trend for D&D 2024, here's a summary of the equations listed throughout this post for approximating each of these stats. For the damage per round of non-legendary monsters,
+\begin{align}
+    \DPR_{\mathrm{N}} &\approx
+    \begin{cases} 
+        \ \ \ \ 6 + \ \  6 \cdot \CR & \CR \lt 20\,, \\\\ 
+        132 + 12 \cdot \left( \CR - 20 \right) & \CR \geq 20\,, 
+    \end{cases} \nonumber 
+\end{align}
+and for legendary monsters,
+\begin{align}
+    \DPR_{\mathrm{L}} &\approx
+    \begin{cases} 
+        \ 7.5 + 7.5 \cdot \CR & \CR \lt 20\,, \\\\ 
+        165 + \ 15 \cdot \left( \CR - 20 \right) & \CR \geq 20\,.
+    \end{cases} \nonumber 
+\end{align}
+For hit points,
+\begin{align}
+    \HP &\approx
+    \begin{cases} 
+        \ \ 16 + 16 \cdot \CR & \CR \lt 20\,, \\\\ 
+        368 + 48 \cdot \left( \CR - 20 \right) & \CR \geq 20\,, 
+    \end{cases} \nonumber 
+\end{align}
+with legendary monsters getting legendary resistances on top of this based on their CR: 1-19, 3 legendary resistances; 20-29, 4 legendary resistances; 30, 6 legendary resistances; +1 legendary resistance for creatures in their lair.
+
+**Note.** The DPR equation for legendary monsters shown here differs from the one shown earlier in this analysis. This allows the hit point equation to work for both legendary and non-legendary monsters. The end result is that legendary monsters produced using these equations will be slightly more defensively oriented than those in the MM 2024.
+{: .notice--warning}
+
 And for attack bonus, save difficulty class, armor class, and saving throw bonus values,
 \begin{align}
     \AB &\approx \ \ 3.5 + \CR/2 \,, \nonumber \\\\ 
@@ -298,3 +360,10 @@ And for attack bonus, save difficulty class, armor class, and saving throw bonus
 Keep in mind, these values represent adjusted stats. If a monster has traits or abilities that let them act as though they have a higher value in any of these then the corresponding value in their stat block should be lowered to balance that out.
 
 Finally, for the monster's initiative bonus, give it expertise if it's a legendary monster or if it fits the monster's theme. Otherwise, give it proficiency if its CR 12 or higher, or if it fits the monster's theme.
+
+For a more precise approach, you can take values from the [Monster Baseline Stats](#tab:monster-baseline-stats) table (below).
+
+<div class="dataframe center" style="width:100%;">
+    <h3 id="tab:monster-baseline-stats">Monster Baseline Stats</h3>
+    {% include_relative tab-monster-baseline-stats.html %}
+</div>
