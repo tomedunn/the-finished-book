@@ -94,10 +94,11 @@ def save_fig_html(fig, format, name, **kwargs):
         match format:
             case 'large':
                 if len([d for d in fig.data if type(d) in [go.Trace, go.Scatter]]) > 0:
+                    #selector=dict(type="bar")
                     fig.update_traces(
                         line_width=kwargs.get('line_width', 2), 
                         marker_size=kwargs.get('marker_size', 8),
-                        selector=kwargs.get('selector', None),
+                        selector=kwargs.get('selector', {'type': 'scatter'}),
                     )
                 fig.update_shapes(
                     line_width=kwargs.get('line_width', 2)
@@ -113,7 +114,7 @@ def save_fig_html(fig, format, name, **kwargs):
                     fig.update_traces(
                         line_width=kwargs.get('line_width', 1), 
                         marker_size=kwargs.get('marker_size', 6),
-                        selector=kwargs.get('selector', None),
+                        selector=kwargs.get('selector', {'type': 'scatter'}),
                     )
                 fig.update_shapes(
                     line_width=kwargs.get('line_width', 1)
@@ -168,6 +169,11 @@ def plot_data_and_fit(fig, x, y, **kwargs):
     
     return fig
 
+def jitter(vals, sigma):
+    if type(vals) is list:
+        return np.array(vals) + np.random.normal(0, sigma, len(vals))
+    else:
+        return vals + np.random.normal(0, sigma, len(vals))
 
 def piecewise_linear(x, x0, y0, k1, k2):
     #return np.piecewise(x, [x < x0], [lambda x:k1*x + y0-k1*x0, lambda x:k2*x + y0-k2*x0])

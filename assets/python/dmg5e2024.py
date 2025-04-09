@@ -36,23 +36,16 @@ def encounter_xp_multiplier(pc_count, npc_count):
     pc_count -- number of PCs in the encounter
     npc_count -- number of NPCs in the encounter
     """
-    n_array = np.asarray([1,2,3,7,11,15])
-    m_array = np.asarray([0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 4.0, 5.0])
-    i = 1 + n_array[n_array <= max(npc_count,1)].argmax()
-    if pc_count >= 6:
-        i -= 1
-    elif pc_count <= 2:
-        i += 1
-    return m_array[i]
+    return 1.0
 
-def encounter_difficulty(pc_levels, mon_crs):
+def encounter_difficulty( pc_levels, mon_crs ):
     enc_adj_xp = encounter_adjusted_xp(pc_levels, mon_crs)
     xp_thresholds = party_xp_thresholds(pc_levels)
 
-    diff = 'Trivial'
     for k, v in xp_thresholds.items():
-        if enc_adj_xp >= v: diff = k
-    return diff
+        if enc_adj_xp <= v: 
+            return k
+    return 'Very High'
 
 # monster functions
 MONSTER_DEFAULTS = {
@@ -127,12 +120,11 @@ def monster_challenge_rating(hp, ac, dpr, ab):
 
 # player character functions
 PC_XP_THRESHOLDS = {
-    'level':  [  1,  2,   3,   4,   5,   6,   7,   8,   9,  10,   11,   12,   13,   14,   15,   16,   17,   18,   19,   20],
-    'Easy':   [ 25, 50,  75, 125, 250, 300, 350, 450, 550, 600,  800, 1000, 1100, 1250, 1400, 1600, 2000, 2100, 2400, 2800],
-    'Medium': [ 50,100, 150, 250, 500, 600, 750, 900,1100,1200, 1600, 2000, 2200, 2500, 2800, 3200, 3900, 4200, 4900, 5700],
-    'Hard':   [ 75,150, 225, 375, 750, 900,1100,1400,1600,1900, 2400, 3000, 3400, 3800, 4300, 4800, 5900, 6300, 7300, 8500],
-    'Deadly': [100,200, 400, 500,1100,1400,1700,2100,2400,2800, 3600, 4500, 5100, 5700, 6400, 7200, 8800, 9500,10900,12700],
-    'Daily':  [300,600,1200,1700,3500,4000,5000,6000,7500,9000,10500,11500,13500,15000,18000,20000,25000,27000,30000,40000],
+    'level':    [  1,  2,   3,   4,   5,   6,   7,   8,   9,  10,   11,   12,   13,   14,   15,   16,   17,   18,   19,   20],
+    'Low':      [ 50,100, 150, 250, 500, 600, 750,1000,1300,1600, 1900, 2200, 2600, 2900, 3300, 3800, 4500, 5000, 5500, 6400],
+    'Moderate': [ 75,150, 225, 375, 750,1000,1300,1700,2000,2300, 2900, 3700, 4200, 4900, 5400, 6100, 7200, 8700,10700,13200],
+    'High':     [100,200, 400, 500,1100,1400,1700,2100,2600,3100, 4100, 4700, 5400, 6200, 7800, 9800,11700,14200,17200,22000],
+    'Daily':    [300,600,1200,1700,3500,4000,5000,6000,7500,9000,10500,11500,13500,15000,18000,20000,25000,27000,30000,40000],
 }
 
 def pc_xp_thresholds( level ):
@@ -141,20 +133,18 @@ def pc_xp_thresholds( level ):
     """
     id = _find_nearest_loc(PC_XP_THRESHOLDS['level'], level)
     return {
-        'Easy':   PC_XP_THRESHOLDS['Easy'][id],
-        'Medium': PC_XP_THRESHOLDS['Medium'][id],
-        'Hard':   PC_XP_THRESHOLDS['Hard'][id],
-        'Deadly': PC_XP_THRESHOLDS['Deadly'][id],
-        'Daily':  PC_XP_THRESHOLDS['Daily'][id],
+        'Low':      PC_XP_THRESHOLDS['Low'][id],
+        'Moderate': PC_XP_THRESHOLDS['Moderate'][id],
+        'High':     PC_XP_THRESHOLDS['High'][id],
+        'Daily':    PC_XP_THRESHOLDS['Daily'][id],
     }
 
 def party_xp_thresholds( *args ):
     xp_thresholds = {
-        'Easy':   0,
-        'Medium': 0,
-        'Hard':   0,
-        'Deadly': 0,
-        'Daily':  0,
+        'Low':      0,
+        'Moderate': 0,
+        'High':     0,
+        'Daily':    0,
     }
     if len(args) == 1:
         levels = args[0]
@@ -170,9 +160,8 @@ def party_xp_thresholds( *args ):
 def party_xp_ranges( *args ):
     xp_thresholds = party_xp_thresholds(*args)
     xp_ranges = {
-        'Easy':   [xp_thresholds['Easy'], xp_thresholds['Medium']],
-        'Medium': [xp_thresholds['Medium'], xp_thresholds['Hard']],
-        'Hard':   [xp_thresholds['Hard'], xp_thresholds['Deadly']],
-        'Deadly': [xp_thresholds['Deadly'], xp_thresholds['Daily']/2],
+        'Low':      [xp_thresholds['Low'], xp_thresholds['Moderate']],
+        'Moderate': [xp_thresholds['Moderate'], xp_thresholds['High']],
+        'High':     [xp_thresholds['High'], xp_thresholds['Daily']/2],
     }
     return xp_ranges
