@@ -85,6 +85,8 @@ theory:
         url: /theory/xp-dnd-vs-pathfinder/
       - title: "Encounter Building in Xanathar's Guide to Everything"
         url: /theory/xgte-encounter-building/
+      - title: "Calibrating Encounter Math"
+        url: /theory/calibrating-encounter-math/
   - title: "Variability"
     children:
       - title: "Variability: Damage and Healing Rolls"
