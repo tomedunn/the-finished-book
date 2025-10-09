@@ -1,0 +1,3861 @@
+[
+    {
+        "type": "non-combat",
+        "modified": 1741669504.1798801,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/introduction-a-collection-of-heists.html",
+        "book_path": "Keys from the Golden Vault; Introduction \u2013 A Collection of Heists; The Golden Vault; Meera Raheer",
+        "monsters": [
+            [
+                1,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "Meera Raheer (lawful good, human commoner) is a Golden Vault handler you can assign to oversee your players\u2019 heist crew."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.324439,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-murkmire-malevolence.html",
+        "book_path": "Keys from the Golden Vault; The Murkmire Malevolence; A Cry for Help; The Clock Is Ticking",
+        "monsters": [
+            [
+                1,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "Dr. Dannell (neutral good, human commoner) has an Intelligence score of 18. She anxiously addresses the characters:"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.324439,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-murkmire-malevolence.html",
+        "book_path": "Keys from the Golden Vault; The Murkmire Malevolence; The Opening Gala; Scouting the Museum; Encountering Museum Guards",
+        "monsters": [
+            [
+                1,
+                "16915-guard",
+                25
+            ],
+            [
+                1,
+                "16915-guard",
+                25
+            ]
+        ],
+        "text": "If one or more characters are spotted in a restricted area or cause a public incident, a guard approaches them. Roll on the Museum Guards table to determine which guard arrives. Characters in formal dress are escorted to the Gemstone Wing, while characters who are improperly dressed for the occasion are told to leave the museum at once. If the characters protest, the guard becomes hostile and shouts for backup. At the end of each of the guard\u2019s turns, an additional 1d4 guards arrive until all the museum guards are accounted for."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.324439,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-murkmire-malevolence.html",
+        "book_path": "Keys from the Golden Vault; The Murkmire Malevolence; The Opening Gala; Scouting the Museum; Investigating Security Measures",
+        "monsters": [
+            [
+                1,
+                "16915-guard",
+                25
+            ]
+        ],
+        "text": "If the characters get into a noisy fight with one or more guards, an additional 1d4 guards arrive each round until all the remaining museum guards are accounted for."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.324439,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-murkmire-malevolence.html",
+        "book_path": "Keys from the Golden Vault; The Murkmire Malevolence; The Opening Gala; Attending the Gala",
+        "monsters": [
+            [
+                1,
+                "16915-guard",
+                25
+            ]
+        ],
+        "text": "If the characters approach the private gala in the Gemstone Wing (area V13), they encounter Maryam Bikram (lawful neutral, human guard). The captain of the museum\u2019s security force, Maryam is a serious woman and a veteran of the city\u2019s watch. She admits any character who is dressed for the occasion and has a ticket. Others are turned away."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.324439,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-murkmire-malevolence.html",
+        "book_path": "Keys from the Golden Vault; The Murkmire Malevolence; The Opening Gala; Attending the Gala; Curator Alda Arkin",
+        "monsters": [
+            [
+                1,
+                "16966-noble",
+                25
+            ]
+        ],
+        "text": "Mingling with the gala\u2019s attendees is Alda Arkin (neutral evil, elf noble), the museum\u2019s curator. During the gala, the curator is unarmed and unarmored. A retired university professor, Alda is responsible for the museum\u2019s close ties to Varkenbluff University\u2019s anthropology and archaeology departments."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.324439,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-murkmire-malevolence.html",
+        "book_path": "Keys from the Golden Vault; The Murkmire Malevolence; Varkenbluff Museum of Natural History; Museum Locations; V1: Grand Entrance",
+        "monsters": [
+            [
+                2,
+                "16915-guard",
+                25
+            ],
+            [
+                2,
+                "16786-animated-armor",
+                200
+            ]
+        ],
+        "text": "Two guards patrol this area. The two statues flanking the information desk animate if a character comes within 5 feet of either of them. The statues use the animated armor stat block and fight until destroyed."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.324439,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-murkmire-malevolence.html",
+        "book_path": "Keys from the Golden Vault; The Murkmire Malevolence; Varkenbluff Museum of Natural History; Museum Locations; V3: Ancient Plants Exhibit",
+        "monsters": [
+            [
+                1,
+                "16915-guard",
+                25
+            ]
+        ],
+        "text": "One guard patrols this area. Hallways to the north and south connect to area V4."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.324439,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-murkmire-malevolence.html",
+        "book_path": "Keys from the Golden Vault; The Murkmire Malevolence; Varkenbluff Museum of Natural History; Museum Locations; V4: Ancient Cultures Exhibit",
+        "monsters": [
+            [
+                1,
+                "16915-guard",
+                25
+            ]
+        ],
+        "text": "One guard patrols this area. Hallways to the north and south connect to area V3."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.324439,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-murkmire-malevolence.html",
+        "book_path": "Keys from the Golden Vault; The Murkmire Malevolence; Varkenbluff Museum of Natural History; Museum Locations; V5: Curator\u2019s Office",
+        "monsters": [
+            [
+                1,
+                "17200-scarecrow",
+                200
+            ]
+        ],
+        "text": "Deadly Doll. After hours, the curator enables her office\u2019s defense mechanism: a five-foot-tall doll with the name \u201cMarigold\u201d sewn onto its vintage dress. When a creature other than Alda enters the room, the doll animates and attacks. Marigold uses the scarecrow stat block and fights until destroyed."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.324439,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-murkmire-malevolence.html",
+        "book_path": "Keys from the Golden Vault; The Murkmire Malevolence; Varkenbluff Museum of Natural History; Museum Locations; V8: Creatures of the Past Exhibit",
+        "monsters": [
+            [
+                1,
+                "16915-guard",
+                25
+            ]
+        ],
+        "text": "One guard patrols this area."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.324439,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-murkmire-malevolence.html",
+        "book_path": "Keys from the Golden Vault; The Murkmire Malevolence; Varkenbluff Museum of Natural History; Museum Locations; V9: Underground Wonders Exhibit",
+        "monsters": [
+            [
+                2,
+                "16915-guard",
+                25
+            ]
+        ],
+        "text": "Two guards patrol this exhibit and area V10, moving from one room to the other every 5 minutes."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.324439,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-murkmire-malevolence.html",
+        "book_path": "Keys from the Golden Vault; The Murkmire Malevolence; Varkenbluff Museum of Natural History; Museum Locations; V10: Archaeology Display",
+        "monsters": [
+            [
+                2,
+                "16915-guard",
+                25
+            ]
+        ],
+        "text": "Two guards patrol both this exhibit and area V9, moving from one room to the other every 5 minutes."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.324439,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-murkmire-malevolence.html",
+        "book_path": "Keys from the Golden Vault; The Murkmire Malevolence; Varkenbluff Museum of Natural History; Museum Locations; V11: Unearthed Caf\u00e9",
+        "monsters": [
+            [
+                1,
+                "16915-guard",
+                25
+            ]
+        ],
+        "text": "One guard patrols this area."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.324439,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-murkmire-malevolence.html",
+        "book_path": "Keys from the Golden Vault; The Murkmire Malevolence; Varkenbluff Museum of Natural History; Museum Locations; V12: Prehistoric Predators Exhibit",
+        "monsters": [
+            [
+                2,
+                "16915-guard",
+                25
+            ],
+            [
+                1,
+                "16786-animated-armor",
+                200
+            ]
+        ],
+        "text": "Two guards patrol this area.\nThe statue west of the stairs depicts a winged satyr. If a character comes within 5 feet of the statue, it springs to life. The statue uses the animated armor stat block and fights until destroyed."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.324439,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-murkmire-malevolence.html",
+        "book_path": "Keys from the Golden Vault; The Murkmire Malevolence; Varkenbluff Museum of Natural History; Museum Locations; V12: Prehistoric Predators Exhibit",
+        "monsters": [
+            [
+                1,
+                "17087-allosaurus",
+                450
+            ]
+        ],
+        "text": "As an action, a character can use tinker\u2019s tools or thieves\u2019 tools to try to overload the magic that powers the controls, doing so with a successful DC 10 Intelligence (Arcana) check. This causes the animatronic creature to break free from its display base and rampage for 10 minutes before becoming inert again. The creature stomps through the area, then heads down the grand staircase, causing mayhem in area V1. While it rampages, the creature uses the allosaurus stat block, with these changes:"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.324439,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-murkmire-malevolence.html",
+        "book_path": "Keys from the Golden Vault; The Murkmire Malevolence; Varkenbluff Museum of Natural History; Museum Locations; V13: Gemstone Wing",
+        "monsters": [
+            [
+                2,
+                "16915-guard",
+                25
+            ]
+        ],
+        "text": "Two guards patrol this area."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.324439,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-murkmire-malevolence.html",
+        "book_path": "Keys from the Golden Vault; The Murkmire Malevolence; Varkenbluff Museum of Natural History; Museum Locations; V16: Basement",
+        "monsters": [
+            [
+                1,
+                "16957-mimic",
+                450
+            ]
+        ],
+        "text": "Objects formerly on display or not yet prepped for display are stored here. The area is infrequently visited, and a mimic recently took up residence in the centermost pile of boxes. The mimic waits to attack until a character moves within 5 feet; it then fights until destroyed."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.324439,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-murkmire-malevolence.html",
+        "book_path": "Keys from the Golden Vault; The Murkmire Malevolence; Conclusion; Further Adventures; Mission Is Successful",
+        "monsters": [
+            [
+                1,
+                "16787-ankheg",
+                450
+            ]
+        ],
+        "text": "Another Stone. After the Murkmire Stone is neutralized, Dr. Dannell hears from a colleague that another expedition in the Murkmire has unearthed a similar object. This time, however, the egg is closer to hatching, and strange happenings are befalling the excavation crew. With Dr. Dannell still discredited, it\u2019s up to the characters to venture into the dangerous Murkmire, locate the crew, and contain the egg. But when the characters arrive at the dig site, the egg has hatched\u2014and now the characters must defeat the hatchling before it causes more harm. The hatchling uses the ankheg stat block, except its bite deals poison damage instead of acid damage."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.324439,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-murkmire-malevolence.html",
+        "book_path": "Keys from the Golden Vault; The Murkmire Malevolence; Conclusion; Further Adventures; Mission Is Successful",
+        "monsters": [
+            [
+                1,
+                "16787-ankheg",
+                450
+            ]
+        ],
+        "text": "Investigate the Hatchling. A strange creature has appeared in the crocodile enclosure at the Varkenbluff Zoo. The creature hatched from an egg similar to the Murkmire Stone and is now nearly 8 feet long. The zoo\u2019s baby crocodiles have disappeared, and animals near the crocodile enclosure have become violent. Headaches plague zookeepers who have tried to capture the creature. While Dr. Dannell tries to convince the zookeepers of the creature\u2019s nature, it\u2019s up to the characters to stop the hatchling. It\u2019s growing bigger by the hour as more animals disappear or act erratically. The hatchling uses the ankheg stat block, except its bite deals poison damage instead of acid damage."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.324439,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-murkmire-malevolence.html",
+        "book_path": "Keys from the Golden Vault; The Murkmire Malevolence; Conclusion; Further Adventures; Mission Is Unsuccessful",
+        "monsters": [
+            [
+                1,
+                "16787-ankheg",
+                450
+            ]
+        ],
+        "text": "Museum Feeding Frenzy. The Murkmire Stone hatches into an eight-foot-long, nascent eldritch horror, and the stone\u2019s effects cease. At first, the museum\u2019s staff assumes someone stole the stone and closes the building. But the hatchling terrorizes and eats the guards one by one. Curator Alda Arkin admits Dr. Dannell\u2019s theory might be correct and hires the characters to stop the eldritch creature. The wily monster is now the size of a pony and uses the ankheg stat block, except its bite deals poison damage instead of acid damage. It has set traps using the slime it secretes while metabolizing its food, and the entire museum is its nightmarish habitat. The characters must stop this creature before it outgrows the museum."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.324439,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-murkmire-malevolence.html",
+        "book_path": "Keys from the Golden Vault; The Murkmire Malevolence; Conclusion; Further Adventures; Mission Is Unsuccessful",
+        "monsters": [
+            [
+                1,
+                "16804-behir",
+                7200
+            ]
+        ],
+        "text": "If the eldritch horror isn\u2019t defeated within a few days, it rampages through the museum\u2019s front doors, bolting toward Varkenbluff University. Now grown to enormous proportions, the juvenile eldritch horror uses the behir stat block but speaks no languages and has an Intelligence score of 18. It also has the following additional action option:"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.4444263,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-stygian-gambit.html",
+        "book_path": "Keys from the Golden Vault; The Stygian Gambit; Starting the Adventure; At the Brine Widow",
+        "monsters": [
+            [
+                1,
+                "17021-spy",
+                200
+            ]
+        ],
+        "text": "Verity Kye (neutral good, tiefling spy) sits patiently at a table in the back room and makes small talk with the characters if they arrive in ones and twos. Once all the characters have arrived, Verity asks the last to enter to close the door."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.4444263,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-stygian-gambit.html",
+        "book_path": "Keys from the Golden Vault; The Stygian Gambit; The Afterlife Casino; Arriving at the Casino",
+        "monsters": [
+            [
+                1,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "As the characters step from the carriage, they are greeted by a red-robed tiefling commoner who welcomes them to the Afterlife Casino. This tiefling directs them down a brightly lit row of docks, where boats wait to take the characters downriver. The casino\u2019s entrance is visible a short distance away, where the river enters a wide-mouthed cave."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.4444263,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-stygian-gambit.html",
+        "book_path": "Keys from the Golden Vault; The Stygian Gambit; The Afterlife Casino; Arriving at the Casino; Boat Ride",
+        "monsters": [
+            [
+                1,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "A tiefling ferrier (commoner) in a heavy, hooded robe waits silently to convey characters to the casino."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.4444263,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-stygian-gambit.html",
+        "book_path": "Keys from the Golden Vault; The Stygian Gambit; The Afterlife Casino; Casino Features; Cashier Stations",
+        "monsters": [
+            [
+                4,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "The casino has four cashier\u2019s stations (in areas A2 and area A4), where tiefling cashiers (commoners) in smiling devil masks make change or trade out cash for chips. The casino\u2019s chips are thin, painted wooden disks. Stamped on both sides of every chip is the casino\u2019s emblem: a golden pitchfork."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.4444263,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-stygian-gambit.html",
+        "book_path": "Keys from the Golden Vault; The Stygian Gambit; The Afterlife Casino; Casino Features; Security Guards",
+        "monsters": [
+            [
+                5,
+                "17035-thug",
+                100
+            ]
+        ],
+        "text": "Five tiefling security guards (use the thug stat block) patrol the casino floor, and a sixth stands next to the display case containing the erinyes statuette (in area A9). If the characters cause a ruckus, the nearest guard moves toward them and tries to quell the disturbance without resorting to violence. If attacked, the guard reacts in kind and shouts for reinforcements. All other guards arrive in 3 rounds."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.4444263,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-stygian-gambit.html",
+        "book_path": "Keys from the Golden Vault; The Stygian Gambit; The Afterlife Casino; Afterlife Casino Locations; A1: Docking Area",
+        "monsters": [
+            [
+                2,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "The casino\u2019s boats load and unload passengers at a pair of wooden docks. Two tiefling attendants (commoners) help patrons into and out of the boats."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.4444263,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-stygian-gambit.html",
+        "book_path": "Keys from the Golden Vault; The Stygian Gambit; The Afterlife Casino; Afterlife Casino Locations; A5: Bar Malbolge",
+        "monsters": [
+            [
+                1,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "Bar Malbolge features two bars and plenty of plush, comfortable chairs and cushions. The tiefling bartenders (commoners) serve spirits and a bitter ale called Brimstone Gulp. This ale is served in copper flagons embossed with prancing imps. Patrons can also buy cigars here for 1 cp each."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.4444263,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-stygian-gambit.html",
+        "book_path": "Keys from the Golden Vault; The Stygian Gambit; The Afterlife Casino; Afterlife Casino Locations; A6: Phlegethosian Spa & Stygian Baths",
+        "monsters": [
+            [
+                1,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "The tiefling attendant (commoner) is happy to schedule massages or time in the sauna or baths. Patrons are allowed to explore the areas beyond the curtain:"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.4444263,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-stygian-gambit.html",
+        "book_path": "Keys from the Golden Vault; The Stygian Gambit; The Afterlife Casino; Afterlife Casino Locations; A9: Cania; Tournament Seating",
+        "monsters": [
+            [
+                8,
+                "16966-noble",
+                25
+            ]
+        ],
+        "text": "Eight card sharks have come to participate in the Grand Minauros Invitational tournament. Use the noble stat block to represent them, but assume they are unarmed and unarmored. Their names and descriptions are as follows:"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.4444263,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-stygian-gambit.html",
+        "book_path": "Keys from the Golden Vault; The Stygian Gambit; The Afterlife Casino; Afterlife Casino Locations; A9: Cania; Tournament Seating",
+        "monsters": [
+            [
+                1,
+                "17035-thug",
+                100
+            ]
+        ],
+        "text": "Security Guard and Display Case. A tiefling security guard (use the thug stat block) stands next to the display case and allows guests to examine the statuette without touching the case."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.4444263,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-stygian-gambit.html",
+        "book_path": "Keys from the Golden Vault; The Stygian Gambit; The Afterlife Casino; Afterlife Casino Locations; A12: Staging Area and Animal Cages",
+        "monsters": [
+            [
+                3,
+                "16795-baboon",
+                10
+            ],
+            [
+                1,
+                "16944-lion",
+                200
+            ],
+            [
+                3,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "When Cirque Maladomini isn\u2019t performing in area A8, the northwest cage holds three trained baboons that shriek whenever someone new enters the room, and the northeast cage contains a quiet trained lion named Emrys. Three tiefling acrobats (commoners with Acrobatics +4 and Performance +4) are also rehearsing together in the middle of the room. One tiefling performs a one-handed handstand, while another twirls a flaming hoop, and the third plucks a banjo. During performances, the tieflings and the animals are all absent."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.4444263,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-stygian-gambit.html",
+        "book_path": "Keys from the Golden Vault; The Stygian Gambit; The Afterlife Casino; Afterlife Casino Locations; A13: Employee Lounge",
+        "monsters": [
+            [
+                3,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "At any time during casino hours, three tiefling employees (commoners) are here on a break."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.4444263,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-stygian-gambit.html",
+        "book_path": "Keys from the Golden Vault; The Stygian Gambit; The Afterlife Casino; Afterlife Casino Locations; A14: Quentin\u2019s Office",
+        "monsters": [
+            [
+                1,
+                "16966-noble",
+                25
+            ],
+            [
+                2,
+                "17214-spined-devil",
+                450
+            ]
+        ],
+        "text": "Quentin (lawful evil, gnome noble) shrewdly shuns combat, but he draws his rapier and defends himself if threatened and cornered. As an action, he can utter a prayer to Mammon, which causes two spined devils to magically emerge from the bas-relief on the north wall. Each devil appears in an unoccupied space next to the north wall, acts as Quentin\u2019s ally, and sticks around for 1 minute before returning to the Minauros, the third layer of the Nine Hells. If the devils are defeated, Quentin shouts for help, attracting the three security guards from area A16 if they haven\u2019t already been dealt with."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.4444263,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-stygian-gambit.html",
+        "book_path": "Keys from the Golden Vault; The Stygian Gambit; The Afterlife Casino; Afterlife Casino Locations; A16: Security Office",
+        "monsters": [
+            [
+                3,
+                "17035-thug",
+                100
+            ]
+        ],
+        "text": "Five desks face the west wall, which is covered with mirrors. Each mirror on the wall corresponds to a security mirror elsewhere in the casino, and whatever is happening within line of sight of the mirrors is displayed here. Three tiefling security guards (thugs) monitor the mirrors."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.4444263,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/the-stygian-gambit.html",
+        "book_path": "Keys from the Golden Vault; The Stygian Gambit; The Afterlife Casino; Afterlife Casino Locations; A19: Vault",
+        "monsters": [
+            [
+                1,
+                "16959-minotaur-skeleton",
+                450
+            ]
+        ],
+        "text": "Virgil the minotaur skeleton stands guard in the center of the room. Virgil attacks any intruders who aren\u2019t escorted by Quentin. A character who has Quentin\u2019s magic rod (see area A14) can use it to telepathically command Virgil."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.650398,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/reach-for-the-stars.html",
+        "book_path": "Keys from the Golden Vault; Reach for the Stars; Delphi Mansion; Delphi Mansion Locations; D3: Dining Room",
+        "monsters": [
+            [
+                1,
+                "16957-mimic",
+                450
+            ]
+        ],
+        "text": "A mimic disguised as a stuffed deer head has attached itself to a blank wooden plaque mounted on a secret door in the south wall. Markos trained the mimic to guard the secret door, which leads to a hidden room (described below). The mimic attacks if a character comes within 5 feet of it."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.650398,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/reach-for-the-stars.html",
+        "book_path": "Keys from the Golden Vault; Reach for the Stars; Delphi Mansion; Delphi Mansion Locations; D3: Dining Room",
+        "monsters": [
+            [
+                6,
+                "17117-slaad-tadpole",
+                25
+            ],
+            [
+                2,
+                "17139-crawling-claw",
+                10
+            ]
+        ],
+        "text": "Hidden Room. The wooden plaque behind the mimic is a lever of sorts. A character who inspects the wall and succeeds on a DC 11 Wisdom (Perception) check spots scratches around the plaque that suggest the plaque can be rotated in either direction. Doing so causes the secret door to swing inward, revealing a dusty room with several shelves. Lining the shelves are jars, most of which contain harmless liquids. Among these are six specimen jars, each containing one slaad tadpole.\nHiding in the dark corners of the hidden room are two crawling claws. If one or more characters enter the hidden room, the claws start pushing the jars with slaad tadpoles off the shelves and onto the ground, releasing the tadpoles. On its turn, a crawling claw can move to a specimen jar and take an action to release the slaad tadpole trapped within."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.650398,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/reach-for-the-stars.html",
+        "book_path": "Keys from the Golden Vault; Reach for the Stars; Delphi Mansion; Delphi Mansion Locations; D6: Parlor",
+        "monsters": [
+            [
+                2,
+                "16786-animated-armor",
+                200
+            ]
+        ],
+        "text": "The two suits of animated armor on the west side of the room attack if a character comes within 5 feet of either of them. They fight until destroyed."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.650398,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/reach-for-the-stars.html",
+        "book_path": "Keys from the Golden Vault; Reach for the Stars; Delphi Mansion; Delphi Mansion Locations; D7b: Room with a Secret",
+        "monsters": [
+            [
+                1,
+                "17000-rug-of-smothering",
+                450
+            ],
+            [
+                1,
+                "16865-flying-sword",
+                50
+            ]
+        ],
+        "text": "The rug is a rug of smothering, and the sword is a flying sword. They both attack if a character comes within 5 feet of either."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.650398,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/reach-for-the-stars.html",
+        "book_path": "Keys from the Golden Vault; Reach for the Stars; Delphi Mansion; Delphi Mansion Locations; D8c: Stargazer\u2019s Roost",
+        "monsters": [
+            [
+                1,
+                "17092-nothic",
+                450
+            ]
+        ],
+        "text": "The cloaked figure is Zala Morphus, a human mage who has been transformed into a nothic. Zala helped Markos contact Krokulmar and blames this Far Realm entity for her transformation. Now she anxiously turns to the stars, hoping to find a way to return to her human form. Zala has no interest in Markos\u2019s current activities and little knowledge about them."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.650398,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/reach-for-the-stars.html",
+        "book_path": "Keys from the Golden Vault; Reach for the Stars; Delphi Mansion; Delphi Mansion Locations; D9: Guest Bedrooms",
+        "monsters": [
+            [
+                1,
+                "16901-gibbering-mouther",
+                450
+            ]
+        ],
+        "text": "The easternmost bedroom contains a gibbering mouther. It attacks any character who opens the door and fights to the death."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.650398,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/reach-for-the-stars.html",
+        "book_path": "Keys from the Golden Vault; Reach for the Stars; Delphi Mansion; Delphi Mansion Locations; D13: Alchemy Lab",
+        "monsters": [
+            [
+                1,
+                "16836-cult-fanatic",
+                450
+            ],
+            [
+                1,
+                "16835-cultist",
+                25
+            ]
+        ],
+        "text": "One of the cloaked figures is Markos\u2019s head researcher, Xander (lawful evil, human cult fanatic). The other figure is an apprentice named Kura (lawful evil, human cultist). Both have embraced the Far Realm entity and the power it offers. Xander and Kura are indifferent toward intruders and don\u2019t attack unless the intruders aim to harm them or hinder their research."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.650398,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/reach-for-the-stars.html",
+        "book_path": "Keys from the Golden Vault; Reach for the Stars; Delphi Mansion; Delphi Mansion Locations; D16: Student Quarters",
+        "monsters": [
+            [
+                2,
+                "17186-psychic-gray-ooze",
+                100
+            ]
+        ],
+        "text": "These rooms were set aside for Markos\u2019s pupils, who shared his drive for knowledge but didn\u2019t share in their master\u2019s reward for contacting Krokulmar. The pupils fled the mansion after Markos made his pact. Each room now contains two psychic gray oozes (see the \u201cVariant: Psychic Gray Ooze\u201d sidebar in the Monster Manual) that mill about. They attack intruders on sight."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.650398,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/reach-for-the-stars.html",
+        "book_path": "Keys from the Golden Vault; Reach for the Stars; Delphi Mansion; Delphi Mansion Locations; D18: Third-Floor Hall",
+        "monsters": [
+            [
+                8,
+                "17023-stirge",
+                25
+            ]
+        ],
+        "text": "This hallway has become a lair for stirges\u2014two per character. The stirges entered the mansion through the hole in the roof above area D8c. They attack anyone who tries to cross the hall."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.650398,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/reach-for-the-stars.html",
+        "book_path": "Keys from the Golden Vault; Reach for the Stars; Delphi Mansion; Delphi Mansion Locations; D19: Eldritch Observation Room",
+        "monsters": [
+            [
+                1,
+                "17162-hook-horror",
+                700
+            ]
+        ],
+        "text": "Esquire. The hook-handed figure is Markos\u2019s former butler, Esquire (use the hook horror stat block). Esquire isn\u2019t bound inside the circle and attacks intruders on sight. He doesn\u2019t know the cause of his transformation. If the characters explain that an evil entity is responsible for Esquire\u2019s transformation or that Markos might be in danger from this entity, Esquire lets them live if they vow to save Markos."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.650398,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/reach-for-the-stars.html",
+        "book_path": "Keys from the Golden Vault; Reach for the Stars; Delphi Mansion; Delphi Mansion Locations; D21: Star-Map Room",
+        "monsters": [
+            [
+                1,
+                "16871-ghost",
+                1100
+            ]
+        ],
+        "text": "The walls and floor of this room are covered with star maps. The ghost of an elf researcher named Farenhel wanders the room, looking through the maps and searching for an answer the ghost will never find. The ghost is harmless and attacks only in self-defense or if a character tries to steal a star map. The ghost stops attacking as soon as the stolen map is returned."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.650398,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/reach-for-the-stars.html",
+        "book_path": "Keys from the Golden Vault; Reach for the Stars; Delphi Mansion; Delphi Mansion Locations; D22: Storage Rooms",
+        "monsters": [
+            [
+                2,
+                "16872-ghoul",
+                200
+            ]
+        ],
+        "text": "Each of these unfurnished rooms contains two ghouls that were attracted to the mansion by Far Realm energies. The ghouls are hostile."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.650398,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/reach-for-the-stars.html",
+        "book_path": "Keys from the Golden Vault; Reach for the Stars; Delphi Mansion; Delphi Mansion Locations; D24: Temple",
+        "monsters": [
+            [
+                4,
+                "16835-cultist",
+                25
+            ]
+        ],
+        "text": "Cloaked Figures. The cloaked figures are four neutral, human cultists who are taking notes on the eldritch surges that occur in this area. These cultists defend themselves if attacked but otherwise pose no threat. They know Markos is performing a ritual in area D27 but won\u2019t share this information until the statue is destroyed."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.650398,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/reach-for-the-stars.html",
+        "book_path": "Keys from the Golden Vault; Reach for the Stars; Delphi Mansion; Delphi Mansion Locations; D27: Ritual Room",
+        "monsters": [
+            [
+                1,
+                "3276651-markos-delphi",
+                700
+            ],
+            [
+                1,
+                "3276648-fragment-of-krokulmar",
+                10
+            ],
+            [
+                1,
+                "16938-knight",
+                700
+            ]
+        ],
+        "text": "Markos Delphi is performing a ritual that will allow a fragment of Krokulmar (see their stat blocks at the end of the adventure) to attach to the headless body of one of Elra\u2019s adventuring companions, thus enabling a piece of Krokulmar to exist outside the Far Realm. The headless body is stunned and remains so until the ritual is complete. It is possible to attack the fragment without harming the headless body.\nThe fragment of Krokulmar and the body to which it is attached are considered two creatures occupying the same space. Neither can be separated from the other until one or both of them drop to 0 hit points, at which point the fragment of Krokulmar returns to the Far Realm. While under the fragment\u2019s control, the body uses the knight stat block, has blindsight within a range of 30 feet, is blind beyond this radius, and acts immediately after the fragment in the initiative order. The fragment determines what the body does on the body\u2019s turn."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.7768452,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/prisoner-13.html",
+        "book_path": "Keys from the Golden Vault; Prisoner 13; Varrin\u2019s Proposition",
+        "monsters": [
+            [
+                1,
+                "16966-noble",
+                25
+            ]
+        ],
+        "text": "Varrin Axebreaker (lawful good, dwarf noble) contacts the characters to enlist their aid in retrieving the key. Varrin\u2019s braided hair and beard are black with streaks of gray. He wears a loose, comfortable robe over a steel breastplate. Whether Varrin approaches the characters or invites them to a meeting, read the following text:"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.7768452,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/prisoner-13.html",
+        "book_path": "Keys from the Golden Vault; Prisoner 13; Trek to the Prison",
+        "monsters": [
+            [
+                1,
+                "17021-spy",
+                200
+            ]
+        ],
+        "text": "Varrin has sent word to his agents, and Bethra (chaotic good, dwarf spy) meets the characters when they arrive in Luskan. She provides the uniforms for their chosen cover and directs them to report to a ship called the Jolly Pelican the following dawn. The ship regularly delivers a fresh rotation of prison staff to Revel\u2019s End and returns the relieved shift to the Sword Coast. The journey to Revel\u2019s End by sea is 350 miles, which a sailing ship can cover in three days under normal conditions."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.7768452,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/prisoner-13.html",
+        "book_path": "Keys from the Golden Vault; Prisoner 13; Revel\u2019s End; Prison Features",
+        "monsters": [
+            [
+                75,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "Prison Guards. The prison has a garrison of 75 guards (use the veteran stat block) who work eight-hour shifts. Two-thirds of the garrison is off duty and resting in area R19 at any given time. While on duty, each guard wears a tunic that bears the Lords\u2019 Alliance emblem: a gold crown on a red field."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.7768452,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/prisoner-13.html",
+        "book_path": "Keys from the Golden Vault; Prisoner 13; Revel\u2019s End; Revel\u2019s End Locations; R3: Guard Rooms",
+        "monsters": [
+            [
+                3,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "Three guards (veterans) are stationed in each of these two rooms. The guards pass the time by playing cards, sharpening their weapons, and complaining about the weather."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.7768452,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/prisoner-13.html",
+        "book_path": "Keys from the Golden Vault; Prisoner 13; Revel\u2019s End; Revel\u2019s End Locations; R8: Kitchen and Side Rooms",
+        "monsters": [
+            [
+                6,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "Six cooks (neutral, human commoners) take shifts here, working in pairs to produce meals for the prisoners and staff. The kitchen contains everything one would expect to see, as well as an iron stove and a pump that draws water from a magically heated cistern on the roof."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.7768452,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/prisoner-13.html",
+        "book_path": "Keys from the Golden Vault; Prisoner 13; Revel\u2019s End; Revel\u2019s End Locations; R9: Guard Towers",
+        "monsters": [
+            [
+                3,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "Each of these four triangular towers is two stories tall. A tower\u2019s interior chamber is empty except for a wooden ladder that climbs to an iron hatch held shut by an arcane lock spell (see the \u201cPrison Features\u201d section for more details). This hatch leads to the tower\u2019s flat rooftop, which is lined with battlements. Three Lords\u2019 Alliance guards (veterans) in cold-weather clothing are stationed on the roof of each tower."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.7768452,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/prisoner-13.html",
+        "book_path": "Keys from the Golden Vault; Prisoner 13; Revel\u2019s End; Revel\u2019s End Locations; R10: Armory",
+        "monsters": [
+            [
+                1,
+                "17094-spectator",
+                700
+            ]
+        ],
+        "text": "The armory is guarded by a spectator that treats the weapons as treasure. It knows every member of the prison staff on sight. It won\u2019t leave the room and attacks anyone it doesn\u2019t recognize."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.7768452,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/prisoner-13.html",
+        "book_path": "Keys from the Golden Vault; Prisoner 13; Revel\u2019s End; Revel\u2019s End Locations; R18: Surveillance Hub",
+        "monsters": [
+            [
+                7,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "The stairs lead to areas R19 through area R23. Seven guards (veterans) are stationed in this surveillance hub. One sits at a console south of the staircase. The other guards watch the prisoners through 4-foot-tall, 1-foot-wide arrow slits in the walls. Hanging on the walls between the arrow slits are fifty sets of iron manacles guards use to bind prisoners\u2019 wrists and ankles."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.7768452,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/prisoner-13.html",
+        "book_path": "Keys from the Golden Vault; Prisoner 13; Revel\u2019s End; Revel\u2019s End Locations; R19: Barracks",
+        "monsters": [
+            [
+                50,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "When the prison isn\u2019t on high alert, fifty guards (veterans without armor or weapons) sleep in the bunks. The guards keep their armor and weapons within easy reach. They keep other belongings in unlocked footlockers tucked under their bunk beds."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.7768452,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/prisoner-13.html",
+        "book_path": "Keys from the Golden Vault; Prisoner 13; Revel\u2019s End; Revel\u2019s End Locations; R21: Warden\u2019s Quarters",
+        "monsters": [
+            [
+                1,
+                "16947-mage",
+                2300
+            ]
+        ],
+        "text": "Prison Warden. The calm and unflappable warden of Revel\u2019s End is Marta Marthannis, a lawful good, human mage who speaks Common, Draconic, Dwarvish, and Orc. She wears a red robe with gold trim and keeps a ring with seven tiny keys hanging from it in one pocket. One key unlocks the warden\u2019s chest (see \u201cTreasure\u201d below); the others unlock the desk drawer and the cabinets in the warden\u2019s office (area R22)."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Meeting the Mayor",
+        "monsters": [
+            [
+                1,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "Mayor Braith Broadfoot (neutral good, deep gnome commoner) speaks Common in addition to Gnomish, Terran, and Undercommon. She and her fellow gnome exiles are gathered in a cavern not too far from the front gates of the Little Lockford. If the characters say they\u2019ve come to help, the mayor eagerly gives them an overview of the situation:"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Planning the Heist; Shown the Door",
+        "monsters": [
+            [
+                1,
+                "17211-deep-gnome-svirfneblin",
+                100
+            ]
+        ],
+        "text": "When the characters are ready to enter Little Lockford, they\u2019re led to the town\u2019s fortified entrance by Sergeant Yombad Cragknuckle (neutral good deep gnome), the highest ranked of the surviving militia members. Stern and scowling, he walks with a slight limp and has a heavily bandaged arm, both the result of injuries he sustained during the evacuation."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Overview; Security Forces",
+        "monsters": [
+            [
+                1,
+                "3276644-clockwork-defender",
+                200
+            ]
+        ],
+        "text": "Clockwork Defenders. Little Lockford has twenty clockwork defenders (see their description and stat block at the end of the adventure), not including ones that were destroyed during the town\u2019s evacuation or the damaged one in area L6."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Overview; Security Forces",
+        "monsters": [
+            [
+                8,
+                "3276645-clockwork-observer",
+                0
+            ],
+            [
+                1,
+                "3276644-clockwork-defender",
+                200
+            ]
+        ],
+        "text": "Clockwork Observers. Little Lockford has eight clockwork observers (see their description and stat block at the end of the adventure). The observers are tasked with monitoring the streets to ensure nothing has penetrated the city\u2019s defenses. If an observer detects intruders, it contacts Tockworth telepathically, letting her know where the intruders are. Tockworth then orders the observer to use its next action to emit a piercing shriek, which is loud enough to summon 1d4 clockwork defenders (see their description and stat block at the end of the adventure). These reinforcements arrive 2 rounds later. If the number of clockwork defenders summoned is greater than the number left in Little Lockford, adjust the number of reinforcements accordingly."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Overview; Security Forces",
+        "monsters": [
+            [
+                2,
+                "16786-animated-armor",
+                200
+            ],
+            [
+                1,
+                "17012-shield-guardian",
+                2900
+            ]
+        ],
+        "text": "Other Constructs under Tockworth\u2019s control include two suits of animated armor (see area L9a) and a shield guardian that lost its master and its control amulet. The shield guardian stands guard outside Tockworth\u2019s workshop (area L9)."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Overview; Wandering Monsters",
+        "monsters": [
+            [
+                2,
+                "16837-darkmantle",
+                100
+            ],
+            [
+                1,
+                "16912-grick",
+                450
+            ]
+        ],
+        "text": "2 darkmantles following 1 grick"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Overview; Wandering Monsters",
+        "monsters": [
+            [
+                2,
+                "16912-grick",
+                450
+            ]
+        ],
+        "text": "2 gricks"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Overview; Wandering Monsters",
+        "monsters": [
+            [
+                1,
+                "17011-shambling-mound",
+                1800
+            ]
+        ],
+        "text": "1 shambling mound made of fungi"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Overview; Wandering Monsters",
+        "monsters": [
+            [
+                3,
+                "3276644-clockwork-defender",
+                200
+            ]
+        ],
+        "text": "3 clockwork defenders"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Overview; Wandering Monsters",
+        "monsters": [
+            [
+                2,
+                "3276644-clockwork-defender",
+                200
+            ]
+        ],
+        "text": "2 clockwork defenders"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Overview; Wandering Monsters",
+        "monsters": [
+            [
+                1,
+                "3276645-clockwork-observer",
+                0
+            ]
+        ],
+        "text": "1 clockwork observer"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Locations; Halfway Isle (Area L3); L3. Abbey of the Deep Brother",
+        "monsters": [
+            [
+                1,
+                "17155-goblin-boss",
+                200
+            ],
+            [
+                1,
+                "16817-bugbear",
+                200
+            ]
+        ],
+        "text": "The largest room in the abbey, directly across from the entrance, serves as a place of worship. Low benches face the middle of the domed chamber, where every word spoken\u2014even a whisper\u2014can be heard throughout the space. Skulking in the dark corners of this room are two prisoners who escaped the custody of their guards as they were being led from the jail (area L5) during the evacuation of Little Lockford. The two prisoners\u2014a goblin boss named Slonk and a bugbear named Yuzzik\u2014have manacles on their wrists and carry no weapons. Slonk was the leader of a gang of goblin brigands that preyed on travelers in the tunnels near Little Lockford. Yuzzik is Slonk\u2019s sole surviving bodyguard. Both are unscrupulous and will do almost anything to survive, short of betraying each other."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Locations; Halfway Isle (Area L3); L3. Abbey of the Deep Brother",
+        "monsters": [
+            [
+                1,
+                "17211-deep-gnome-svirfneblin",
+                100
+            ]
+        ],
+        "text": "Kavoda is a chaotic good deep gnome who speaks Common, Gnomish, Terran, and Undercommon. His Innate Spellcasting trait includes the ability to cast meld into stone three times per day. He wears a gray robe instead of armor (AC 12) and carries a spell scroll of magic weapon and a potion of giant strength (hill)."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Locations; Turbine Heights (Areas L4\u2013L6); L6: Power Station",
+        "monsters": [
+            [
+                1,
+                "3276644-clockwork-defender",
+                200
+            ]
+        ],
+        "text": "Damaged Turbine. A power station worker was cornered by a clockwork defender at the north end of the balcony and shoved the automaton off the balcony into the northwest turbine. One of the clockwork defender\u2019s hind legs became stuck in the turbine, causing the turbine to malfunction. Characters within 10 feet of the northwest turbine can see the damaged clockwork defender, which has 24 hit points remaining. This defender is restrained and unable to free itself, but it can attack creatures that come within reach of it."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Locations; Smoldertown (Areas L7\u2013L9); L8: Motherlode Tavern",
+        "monsters": [
+            [
+                1,
+                "3276653-tixie-tockworth",
+                2900
+            ]
+        ],
+        "text": "Tixie Tockworth. Unless she was defeated elsewhere, Tixie Tockworth (see her description and stat block at the end of the adventure) sits on the barstool farthest from the entrance, cradling an empty flagon while mumbling to herself."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Locations; Smoldertown (Areas L7\u2013L9); L9: Tockworth\u2019s Workshop",
+        "monsters": [
+            [
+                1,
+                "17012-shield-guardian",
+                2900
+            ]
+        ],
+        "text": "Shield Guardian. The construct blocking passage into Tockworth\u2019s workshop is a shield guardian that lacks the Spell Storing trait. Its creator and control amulet were destroyed long ago. Tockworth found a way to reanimate the shield guardian without having to create a new amulet, rendering the shield guardian autonomous. The shield guardian has been loyal to Tockworth ever since. It defends itself if attacked and attacks anyone who tries to slip past it. It is too big to fit through the workshop\u2019s front door."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Locations; Smoldertown (Areas L7\u2013L9); L9a: Workshop, Lower Floor",
+        "monsters": [
+            [
+                2,
+                "16786-animated-armor",
+                200
+            ]
+        ],
+        "text": "This workshop is where Tockworth creates her clockwork automatons. Two suits of animated armor named Rack and Pinion serve as her assistants and perform most of the hands-on work. These Constructs attack intruders on sight."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Locations; Smoldertown (Areas L7\u2013L9); L9b: Workshop, Upper Floor",
+        "monsters": [
+            [
+                1,
+                "3276653-tixie-tockworth",
+                2900
+            ]
+        ],
+        "text": "Tixie Tockworth. If the safe door is opened by any means other than speaking the proper command word, a mental alarm spell alerts Tixie Tockworth (see her description and stat block at the end of the adventure). Unless she was defeated in area L8, Tockworth uses a dimension door spell to appear in the middle of the room and attacks any burglars she sees."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Locations; Cavemouth (Areas L10\u2013L11)",
+        "monsters": [
+            [
+                1,
+                "16826-cloaker",
+                3900
+            ]
+        ],
+        "text": "Mines. The mine entrances, once protected by Tockworth\u2019s automatons, are now unguarded. The mines are beyond the scope of the adventure. If the characters insist on exploring them, they eventually attract the attention of a wandering cloaker that tries to frighten them away with haunting moans."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Locations; Cavemouth (Areas L10\u2013L11); L10: Miners\u2019 Guildhall",
+        "monsters": [
+            [
+                1,
+                "17202-poltergeist",
+                450
+            ]
+        ],
+        "text": "Guildmaster Deepdelve. A thorough search of the building reveals the corpse of a robed deep gnome named Schnella Deepdelve, the master of the town\u2019s miners\u2019 guild. Schnella refused to leave and died fending off Tockworth\u2019s clockwork defenders. Her restless soul lurks in this building, manifesting as a troublesome specter known as a poltergeist (see the \u201cVariant: Poltergeist\u201d sidebar in the \u201cSpecter\u201d entry of the Monster Manual)."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Locations; Cavemouth (Areas L10\u2013L11); L11: Warehouse 6",
+        "monsters": [
+            [
+                2,
+                "16957-mimic",
+                450
+            ],
+            [
+                1,
+                "17186-psychic-gray-ooze",
+                100
+            ]
+        ],
+        "text": "The dead gnomes are two mimics that attack anyone who touches or otherwise disturbs them. The mimics are working with a psychic gray ooze (see the \u201cVariant: Psychic Gray Ooze\u201d sidebar in the \u201cOozes\u201d entry of the Monster Manual)\u2014the \u201cpuddle of oil\u201d mentioned above. The gray ooze and the mimics recently crept into the warehouse and are waiting for food to come to them."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Locations; Cavemouth (Areas L10\u2013L11); L11: Warehouse 6",
+        "monsters": [
+            [
+                1,
+                "16947-mage",
+                2300
+            ]
+        ],
+        "text": "Ignus Flint. An inventor named Ignus Flint (lawful neutral, deep gnome mage who speaks Common, Gnomish, Terran, and Undercommon) built the contraption and recently locked himself inside it with enough food and water to keep himself alive for 1 week. A metal hatch at the back of the vehicle is the only entrance, and Ignus used a spell scroll of arcane lock to seal it. A character can use an action to try to pull open the magically sealed hatch, doing so with a successful DC 25 Strength (Athletics) check. If the characters knock on the contraption, they hear Ignus\u2019s muffled voice shout, \u201cGo away!\u201d in Gnomish. Ignus attacks anyone who breaks into his contraption but surrenders if reduced to 10 hit points or fewer."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Locations; The Overlook (Area L12); L12: Security Center",
+        "monsters": [
+            [
+                6,
+                "16887-giant-lizard",
+                50
+            ],
+            [
+                1,
+                "16945-lizard",
+                10
+            ]
+        ],
+        "text": "The cavern is home to six giant lizards and hundreds of ordinary lizards, all of which are docile but skittish. The giant ones are trained to serve the svirfneblin as pack animals. A character who approaches a giant lizard can use an action to try to keep it from running away, doing so with a successful DC 13 Wisdom (Animal Handling) check. A giant lizard that doesn\u2019t run away can be used by that character as a mount."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669504.9412122,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/tockworths-clockworks.html",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Little Lockford Locations; The Overlook (Area L12); L12: Security Center",
+        "monsters": [
+            [
+                1,
+                "3276653-tixie-tockworth",
+                2900
+            ]
+        ],
+        "text": "Tixie Tockworth. If she fled to this chamber using dimension door, Tixie Tockworth (see her description and stat block at the end of the adventure) is next to the console. She has attached an experimental jet pack to her body, giving her a flying speed of 30 feet and the ability to hover. She accuses the characters of being pawns and mocks their heroics. She occasionally speaks to an imaginary friend named Poots, saying things like, \u201cWe\u2019ll show them, Poots!\u201d and \u201cNo one can stop us!\u201d"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Barn Visit",
+        "monsters": [
+            [
+                1,
+                "16947-mage",
+                2300
+            ]
+        ],
+        "text": "Adrisa Carimorte (neutral, human mage) is an influential member of the Cognoscenti Esoterica. If the characters turn down the offer, Adrisa has the coach driver return them whence they came. If the characters express interest in the job, Adrisa escorts them into the barn, which the Cognoscenti Esoterica sometimes uses as a warehouse and secret meeting place. The barn has magical wards that thwart all attempts to magically scry on its interior, as well as other wards Adrisa temporarily deactivated."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Barn Visit",
+        "monsters": [
+            [
+                1,
+                "16798-bandit",
+                25
+            ]
+        ],
+        "text": "The man tied to the chair is Grinky Brithwort (neutral evil, human bandit). He was captured during the theft of Constantori\u2019s Portrait and has useful information about the Agile Hand and its headquarters\u2014information the characters can use to help plan their heist."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Planning the Heist; Elix the Saint",
+        "monsters": [
+            [
+                1,
+                "16799-bandit-captain",
+                450
+            ],
+            [
+                45,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "Characters can obtain one of the guildhouse\u2019s master keys from Elix the Saint (lawful evil, human bandit captain), a high-ranking member of the Agile Hand and one of Guildmaster Dusk\u2019s more capable lieutenants. After questioning Grinky, the characters should know that Elix the Saint frequents a tavern called the Tipsy Tankard, which is about a 45-minute walk from the guildhouse. He travels there alone because he likes to flirt with a bartender named Karyssa (neutral, human commoner)."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Agile Hand Guildhouse; Guildhouse Locations; G1: Front Porch",
+        "monsters": [
+            [
+                1,
+                "16798-bandit",
+                25
+            ]
+        ],
+        "text": "Any character who approaches the porch in plain view is spotted by the bandit on the south balcony (area G22), who calls out, \u201cHey, you, get lost! Can\u2019t you read the signs?\u201d If this warning is ignored, the lookout shouts the same thing again, putting the guildhouse on high alert, then shoots a crossbow bolt into the ground near the character\u2019s feet as a final warning."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Agile Hand Guildhouse; Guildhouse Locations; G2a: Livery Stables",
+        "monsters": [
+            [
+                10,
+                "16997-riding-horse",
+                50
+            ]
+        ],
+        "text": "The stalls contain ten riding horses."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Agile Hand Guildhouse; Guildhouse Locations; G2b: Hayloft",
+        "monsters": [
+            [
+                1,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "Stable Hand. A young stable hand named Needly Pitts (neutral, human commoner) lazes in the loft, supposedly guarding against horse thieves. He has nodded off but wakes if characters disturb the horses, make too much noise in the barn, or start a fire. In the event of trouble, Needly bangs a metal pail and yells for the stablemaster (see area G16), who takes 1 minute to arrive."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Agile Hand Guildhouse; Guildhouse Locations; G3: Staircase",
+        "monsters": [
+            [
+                1,
+                "16843-doppelganger",
+                700
+            ]
+        ],
+        "text": "Jaymont the Sinner. The figure on the steps is Jaymont the Sinner, a doppelganger disguised as a drunken guest. Only Guildmaster Dusk knows Jaymont\u2019s true nature. The doppelganger pretends to be asleep, but a character can discern that it\u2019s awake with a successful DC 15 Wisdom (Insight) check. Jaymont doesn\u2019t start fights it knows it can\u2019t win and allows intruders to pass by. When the intruders are gone, Jaymont taps three times on the staircase wall to alert Gwish in area G21, then slinks away to alert Guildmaster Dusk in area G26."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Agile Hand Guildhouse; Guildhouse Locations; G5: Livery Office",
+        "monsters": [
+            [
+                1,
+                "17018-spider",
+                10
+            ]
+        ],
+        "text": "Coin Box. Tucked behind the counter is a wooden coin box with a copper clasp. A character who inspects the coin box before opening it notices a row of tiny pinholes in the lid. The coin box contains 15 cp and 11 sp, as well as a spider."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Agile Hand Guildhouse; Guildhouse Locations; G12: Parlor",
+        "monsters": [
+            [
+                3,
+                "17035-thug",
+                100
+            ],
+            [
+                1,
+                "16903-gladiator",
+                1800
+            ]
+        ],
+        "text": "The four guild members have been drinking and playing card games. The motley crew consists of three thugs and one gladiator. The thugs are poisoned and unconscious, while the gladiator is merely poisoned and spoiling for a fight. The unconscious condition ends on a thug who is wounded, knocked out of their chair, or splashed with a pint or more of liquid."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Agile Hand Guildhouse; Guildhouse Locations; G13: Tower Rotunda",
+        "monsters": [
+            [
+                1,
+                "17035-thug",
+                100
+            ]
+        ],
+        "text": "A thug sits near the bottom of the stairs, engrossed in a saucy novella. If this guard detects intruders, he tries to run up the stairs to wake Guildmaster Dusk in area G26."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Agile Hand Guildhouse; Guildhouse Locations; G16: Stablemaster\u2019s Quarters",
+        "monsters": [
+            [
+                1,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "This room belongs to the stablemaster, Laris Drot (neutral, human commoner), who is a stout woman in her fifties. Laris carries two keys on her person: one unlocks the door to this room, and the other unlocks the doors to area G7."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Agile Hand Guildhouse; Guildhouse Locations; G19. North Balcony",
+        "monsters": [
+            [
+                1,
+                "16798-bandit",
+                25
+            ]
+        ],
+        "text": "A bandit stationed atop this balcony watches for trouble coming from the north and west. If she sees anything suspicious or threatening, she shouts loud enough to put the rest of the guildhouse on high alert. This bandit carries a key that unlocks the door to area G14."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Agile Hand Guildhouse; Guildhouse Locations; G20: Private Room",
+        "monsters": [
+            [
+                1,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "A traveling merchant named Thyval Horne (neutral, human commoner) rents this room. On the nightstand rests a key that unlocks the door to this room. Beneath the bed is a copper chamber pot."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Agile Hand Guildhouse; Guildhouse Locations; G21: Gwish\u2019s Room",
+        "monsters": [
+            [
+                1,
+                "16971-oni",
+                2900
+            ]
+        ],
+        "text": "The man is an oni named Gwish. Guildmaster Dusk is the only other guild member who knows Gwish\u2019s true nature."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Agile Hand Guildhouse; Guildhouse Locations; G21: Gwish\u2019s Room",
+        "monsters": [
+            [
+                3,
+                "16992-raven",
+                10
+            ]
+        ],
+        "text": "Gwish is reclusive and rarely interacts with the other guild members. The oni has three ravens that act as messengers, and it uses a ring of animal influence to speak with them. These ravens deliver secret messages to the guildmaster\u2019s spies abroad and receive similar messages from those spies."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Agile Hand Guildhouse; Guildhouse Locations; G22: South Balcony",
+        "monsters": [
+            [
+                1,
+                "16798-bandit",
+                25
+            ]
+        ],
+        "text": "A bandit stationed atop this balcony watches for trouble coming from the south and east. If she sees anything suspicious or threatening, she shouts loud enough to put the rest of the guildhouse on high alert. This bandit carries keys that unlock the doors to areas G23, area G24, and area G25."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Agile Hand Guildhouse; Guildhouse Locations; G23: Stolen Goods",
+        "monsters": [
+            [
+                1,
+                "16799-bandit-captain",
+                450
+            ]
+        ],
+        "text": "Elix the Saint (lawful evil, human bandit captain; see the \u201cElix the Saint\u201d section earlier in the adventure) works here during the day. Armed with a crowbar, he examines containers stolen by the Agile Hand. He then records their contents (and the estimated value of those contents) in a leather-bound ledger."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Agile Hand Guildhouse; Guildhouse Locations; G24: Elix\u2019s Office",
+        "monsters": [
+            [
+                1,
+                "16798-bandit",
+                25
+            ]
+        ],
+        "text": "A bandit stands guard outside the door to Guildmaster Dusk\u2019s quarters (area G26). The bandit\u2019s job is to shout at the first sign of trouble, thus alerting the guildmaster."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Agile Hand Guildhouse; Guildhouse Locations; G25: Shared Bedroom",
+        "monsters": [
+            [
+                2,
+                "17035-thug",
+                100
+            ]
+        ],
+        "text": "Sleeping Guards. Two thugs sleep in the beds. They wake if disturbed and spend their first action scrambling for their weapons."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Agile Hand Guildhouse; Guildhouse Locations; G26: Dusk’s Quarters",
+        "monsters": [
+            [
+                1,
+                "16790-assassin",
+                3900
+            ],
+            [
+                1,
+                "16966-noble",
+                25
+            ]
+        ],
+        "text": "Unless she has been lured elsewhere, Guildmaster Dusk (lawful evil, half-elf assassin) is asleep in bed with her lover, a politically influential noble named Dartinal Livereth (lawful evil, human noble). Neither is wearing armor, but they keep their weapons within reach."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Agile Hand Guildhouse; Guildhouse Locations; G29: Murky Pool",
+        "monsters": [
+            [
+                1,
+                "17031-swarm-of-quippers",
+                200
+            ]
+        ],
+        "text": "Secret Exit. If the pool\u2019s silver key is inserted into the pool\u2019s keyhole, a section of the pool\u2019s east wall retracts, revealing a 4-foot-high, 4-foot-wide, flooded tunnel containing a swarm of quippers. The swarm attacks the nearest prey. A character who swims to the far end of the tunnel and feels around for an exit finds an unlocked trapdoor in the ceiling that pops open to reveal a dry, T-shaped chamber (area G30) and a passageway leading south (area G31)."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Agile Hand Guildhouse; Guildhouse Locations; G31: Follow the Arrows",
+        "monsters": [
+            [
+                2,
+                "17015-skeleton",
+                50
+            ]
+        ],
+        "text": "Only two skeletons are animated, and they guard the hallway\u2019s midpoint. When a character enters the square marked T on map 6.2, one animated skeleton uses its reaction (if available) to make a Shortbow attack, targeting that character. The character can make a DC 15 Dexterity (Acrobatics) check to tumble out of the way; if the check is successful, the skeleton has disadvantage on its attack roll."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Agile Hand Guildhouse; Guildhouse Locations; G34: Cell Block",
+        "monsters": [
+            [
+                1,
+                "17021-spy",
+                200
+            ]
+        ],
+        "text": "Imprisoned in the northernmost cell is a thief named Dury Sneeth (neutral evil, human spy), who was caught taking a bribe from a member of the Velvet Glove, a rival thieves\u2019 guild. After he was rightly accused of spying for the Velvet Glove, Dury was locked up and interrogated. He found a dagger hidden behind one of the bricks in the wall of his cell, and he keeps it hidden on his person. He has no other weapons."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.0772033,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/masterpiece-imbroglio.html",
+        "book_path": "Keys from the Golden Vault; Masterpiece Imbroglio; Agile Hand Guildhouse; Guildhouse Locations; G36: Storage Room",
+        "monsters": [
+            [
+                1,
+                "16957-mimic",
+                450
+            ]
+        ],
+        "text": "The crate is a mimic that loves the taste of salted butter. To keep the mimic on friendly terms, Guildmaster Dusk brings it a fresh block of salted butter every few days. The mimic attacks any character who tries to steal the block of butter but otherwise prefers to be left alone. The mimic can carry on conversations in Common."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.2153428,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/axe-from-the-grave.html",
+        "book_path": "Keys from the Golden Vault; Axe from the Grave; Toadhop; The Old Dartwild Cabin",
+        "monsters": [
+            [
+                3,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "Ebbin Fulchre and his three companions are unarmed commoners who refuse to enter the cabin, even on a dare. Morbid curiosity brought them here, but they\u2019re nothing more than harmless spectators."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.2153428,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/axe-from-the-grave.html",
+        "book_path": "Keys from the Golden Vault; Axe from the Grave; Toadhop; The Old Dartwild Cabin",
+        "monsters": [
+            [
+                1,
+                "17077-zombie",
+                50
+            ]
+        ],
+        "text": "Frody Dartwild is neutral good, speaks Common, and has an Intelligence score of 10; he otherwise uses the zombie stat block."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.2153428,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/axe-from-the-grave.html",
+        "book_path": "Keys from the Golden Vault; Axe from the Grave; Toadhop; The Old Dartwild Cabin; Bard\u2019s Quest",
+        "monsters": [
+            [
+                1,
+                "16871-ghost",
+                1100
+            ]
+        ],
+        "text": "Frody agrees to return peacefully to his grave if the characters find and retrieve his stolen mandolin. If the characters slay Frody instead, he reappears 24 hours later as a neutral good ghost and haunts Toadhop until his spirit finds rest\u2014which happens only when Golden Axe is returned to Frody\u2019s grave."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.2153428,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/axe-from-the-grave.html",
+        "book_path": "Keys from the Golden Vault; Axe from the Grave; Mackerel and Trout",
+        "monsters": [
+            [
+                2,
+                "16829-commoner",
+                10
+            ],
+            [
+                1,
+                "16960-mule",
+                25
+            ]
+        ],
+        "text": "Mackerel and Trout are unarmed commoners. The characters can approach the halflings openly or attempt to sneak up on them. The mule, which the halflings have named Lucky Me, doesn\u2019t startle easily."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.2153428,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/axe-from-the-grave.html",
+        "book_path": "Keys from the Golden Vault; Axe from the Grave; Planning the Heist; About Sythian Skalderang",
+        "monsters": [
+            [
+                1,
+                "16866-frog",
+                0
+            ]
+        ],
+        "text": "Mackerel and Trout know that frogs commonly huddle near the river. A character who spends at least 15 minutes walking along the shoreline can make a DC 13 Wisdom (Survival) check, locating 1d4 frogs on a success. Catching a frog requires a successful DC 10 Dexterity (Acrobatics) check."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.2153428,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/axe-from-the-grave.html",
+        "book_path": "Keys from the Golden Vault; Axe from the Grave; Planning the Heist; About Joster Mareet",
+        "monsters": [
+            [
+                1,
+                "257235-incubus",
+                1100
+            ]
+        ],
+        "text": "Sythian Skalderang has an incubus acquaintance who goes by the name Joster Mareet. This servant of the demon lord Graz\u2019zt usually takes the form of a tall, beautiful, male tiefling. The incubus has telepathy out to a range of 60 feet, enabling the fiend to have telepathic conversations with Sythian even when they\u2019re not in the same room."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.2153428,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/axe-from-the-grave.html",
+        "book_path": "Keys from the Golden Vault; Axe from the Grave; Skalderang Conservatory; Inhabitants",
+        "monsters": [
+            [
+                1,
+                "3276652-sythian-skalderang",
+                2900
+            ],
+            [
+                1,
+                "257235-incubus",
+                1100
+            ]
+        ],
+        "text": "Sythian Skalderang is described at the end of the adventure. His muse, the incubus Joster Mareet, clings to him like a shadow and uses telepathy to communicate secretly with him. The conservatory\u2019s other regular inhabitants are described below."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.2153428,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/axe-from-the-grave.html",
+        "book_path": "Keys from the Golden Vault; Axe from the Grave; Skalderang Conservatory; Inhabitants; Demons",
+        "monsters": [
+            [
+                1,
+                "17140-chasme",
+                2300
+            ],
+            [
+                6,
+                "16988-quasit",
+                200
+            ]
+        ],
+        "text": "Joster Mareet petitioned and received aid from Graz\u2019zt in the form of one chasme and six quasits:"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.2153428,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/axe-from-the-grave.html",
+        "book_path": "Keys from the Golden Vault; Axe from the Grave; Skalderang Conservatory; Students",
+        "monsters": [
+            [
+                1,
+                "16966-noble",
+                25
+            ]
+        ],
+        "text": "Should their statistics become necessary, the students are unarmed and unarmored nobles with an extra skill: Performance +7. The students are friendly but scream loudly and try to hide if confronted by unidentified intruders. They refuse to cooperate with anyone opposed to Sythian until his true colors are revealed to them."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.2153428,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/axe-from-the-grave.html",
+        "book_path": "Keys from the Golden Vault; Axe from the Grave; Skalderang Conservatory; Servants",
+        "monsters": [
+            [
+                2,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "Sythian employs two full-time servants, both commoners:"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.2153428,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/axe-from-the-grave.html",
+        "book_path": "Keys from the Golden Vault; Axe from the Grave; Skalderang Conservatory; Conservatory Locations; C1: Dining Hall",
+        "monsters": [
+            [
+                1,
+                "16829-commoner",
+                10
+            ],
+            [
+                1,
+                "3276652-sythian-skalderang",
+                2900
+            ],
+            [
+                1,
+                "257235-incubus",
+                1100
+            ]
+        ],
+        "text": "During the day, characters are most likely to encounter Vordell, the housekeeper (commoner), here, setting the table or returning clean dishes and cutlery to the sideboard. Depending on the time of day, the characters might find Sythian Skalderang (see the end of the adventure), Joster the incubus in tiefling form, and students here as well (see the Conservatory Schedule table)."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.2153428,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/axe-from-the-grave.html",
+        "book_path": "Keys from the Golden Vault; Axe from the Grave; Skalderang Conservatory; Conservatory Locations; C2: Kitchen and Pantry",
+        "monsters": [
+            [
+                1,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "Merle, the dwarf cook (commoner), works here from 6 a.m. to midnight. When confronted with danger, he grabs a rolling pin (treat it as a club) and defends himself."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.2153428,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/axe-from-the-grave.html",
+        "book_path": "Keys from the Golden Vault; Axe from the Grave; Skalderang Conservatory; Conservatory Locations; C4: Gallery",
+        "monsters": [
+            [
+                3,
+                "16988-quasit",
+                200
+            ]
+        ],
+        "text": "Between 1 p.m. and 5 p.m., Sythian\u2019s students relax here. Three quasits lurk by the stuffed wolf and use their Invisibility action to remain unseen. They attack characters who try to break into area C5."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.2153428,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/axe-from-the-grave.html",
+        "book_path": "Keys from the Golden Vault; Axe from the Grave; Skalderang Conservatory; Conservatory Locations; C5: Shrine (Locked)",
+        "monsters": [
+            [
+                4,
+                "17131-shadow-demon",
+                1100
+            ]
+        ],
+        "text": "A character who examines the brazier and succeeds on a DC 17 Intelligence (Religion) check realizes that it\u2019s used by worshipers of Graz\u2019zt to commune with the demon lord, who requires a blood sacrifice. As an action, a character can spill some of their own blood into the bowl and utter a prayer to Graz\u2019zt; doing so has a 10 percent chance of annoying the demon lord, who causes four shadow demons to appear in the room and attack. These demons return to the Abyss after 10 minutes and disappear instantly when slain. (Graz\u2019zt speaks only to those he considers worthy of his attention; the characters don\u2019t qualify in this regard.)"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.2153428,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/axe-from-the-grave.html",
+        "book_path": "Keys from the Golden Vault; Axe from the Grave; Skalderang Conservatory; Conservatory Locations; C11: Music Hall",
+        "monsters": [
+            [
+                1,
+                "3276652-sythian-skalderang",
+                2900
+            ]
+        ],
+        "text": "Sythian Skalderang (see the end of the adventure) is here with his students from 9 a.m. to noon. The students often return to this room between the hours of 6 p.m. and 9 p.m. to play music without supervision."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.2153428,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/axe-from-the-grave.html",
+        "book_path": "Keys from the Golden Vault; Axe from the Grave; Skalderang Conservatory; Conservatory Locations; C11: Music Hall",
+        "monsters": [
+            [
+                3,
+                "16988-quasit",
+                200
+            ]
+        ],
+        "text": "Three quasits lurk under chairs, using their Invisibility action to hide. They attack any intruder who picks up or plays one of the instruments."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.2153428,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/axe-from-the-grave.html",
+        "book_path": "Keys from the Golden Vault; Axe from the Grave; Skalderang Conservatory; Conservatory Locations; C14: Sythian\u2019s Study",
+        "monsters": [
+            [
+                1,
+                "3276652-sythian-skalderang",
+                2900
+            ],
+            [
+                1,
+                "257235-incubus",
+                1100
+            ]
+        ],
+        "text": "Between the hours of 1 p.m. and 5 p.m., Sythian Skalderang (see the end of the adventure) is here, reading and writing letters, as well as reviewing applications from the families of young hopefuls who seek to benefit from his tutelage. While Sythian is here, Joster the incubus reverts to his true form and looms over Sythian\u2019s shoulder."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.2153428,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/axe-from-the-grave.html",
+        "book_path": "Keys from the Golden Vault; Axe from the Grave; Skalderang Conservatory; Conservatory Locations; C15: Sythian\u2019s Quarters (Locked)",
+        "monsters": [
+            [
+                1,
+                "3276652-sythian-skalderang",
+                2900
+            ]
+        ],
+        "text": "Sythian Skalderang (see the end of the adventure) is here from midnight until 8 a.m."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.2153428,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/axe-from-the-grave.html",
+        "book_path": "Keys from the Golden Vault; Axe from the Grave; Skalderang Conservatory; Conservatory Locations; C18: Rooftop",
+        "monsters": [
+            [
+                1,
+                "17140-chasme",
+                2300
+            ]
+        ],
+        "text": "Unless it has been fought and killed elsewhere, a chasme guards this area. At your discretion, the demon might be perched above a doorway, waiting to ambush intruders emerging from one of the towers."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.4145133,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/vidorants-vault.html",
+        "book_path": "Keys from the Golden Vault; Vidorant\u2019s Vault; Preparation; Gathering Intelligence",
+        "monsters": [
+            [
+                6,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "By combing through local pubs or asking around with their own informants, the characters can locate up to six guards (veterans) formerly employed by Vidorant. Use the Former Guards table to help you roleplay each guard."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.4145133,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/vidorants-vault.html",
+        "book_path": "Keys from the Golden Vault; Vidorant\u2019s Vault; The Vault; Vault Guards",
+        "monsters": [
+            [
+                12,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "Vidorant employs a dozen guards (use the veteran stat block) to protect her treasures\u2014three guards outside and nine inside the vault. Guards remain alert for noises elsewhere in the vault, and if the characters do something particularly loud, a guard might investigate at your discretion."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.4145133,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/vidorants-vault.html",
+        "book_path": "Keys from the Golden Vault; Vidorant\u2019s Vault; The Vault; Vault Guards; Caught in the Act",
+        "monsters": [
+            [
+                6,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "If the characters are spotted by a guard and don\u2019t talk their way out of it, the guard yells loudly for backup and attempts to run away, taking the Dash action. The guard returns 3 rounds later with an additional 1d4 + 1 guards (unless there aren\u2019t that many guards left). The guards (use the veteran stat block) fight until reduced to 10 hit points, then flee."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.4145133,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/vidorants-vault.html",
+        "book_path": "Keys from the Golden Vault; Vidorant\u2019s Vault; The Vault; Vault Locations; T7: Armory",
+        "monsters": [
+            [
+                2,
+                "17159-helmed-horror",
+                1100
+            ]
+        ],
+        "text": "The two easternmost suits of armor are helmed horrors. They attack creatures (other than Vidorant) that aren\u2019t wearing guard uniforms. They obey Vidorant\u2019s spoken commands. If she\u2019s not present, they obey anyone wearing a guard uniform, even if commanded to attack another guard. They don\u2019t leave this room, and they ignore orders that would cause them to do so."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.4145133,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/vidorants-vault.html",
+        "book_path": "Keys from the Golden Vault; Vidorant\u2019s Vault; The Vault; Vault Locations; T8: Zoo",
+        "monsters": [
+            [
+                2,
+                "16887-giant-lizard",
+                50
+            ],
+            [
+                6,
+                "16864-flying-snake",
+                25
+            ],
+            [
+                1,
+                "17130-displacer-beast",
+                700
+            ]
+        ],
+        "text": "Cages. Each cage has a door held shut by a rudimentary latch. One contains exotic birds. Another holds two giant lizards and six flying snakes. A third contains harmless mammals, including jerboas, chinchillas, and a capybara. The last two cages each hold one displacer beast. The giant lizards, flying snakes, and displacer beasts are aggressive but accustomed to being placated with food by Vidorant and the guards."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.4145133,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/vidorants-vault.html",
+        "book_path": "Keys from the Golden Vault; Vidorant\u2019s Vault; The Vault; Vault Locations; T9: Library",
+        "monsters": [
+            [
+                1,
+                "16934-invisible-stalker",
+                2300
+            ]
+        ],
+        "text": "If a creature steps on the rug without saying the password, \u201cquixotic,\u201d the rune summons an invisible stalker. The invisible stalker doesn\u2019t reveal its presence or attack immediately, waiting to do so until the characters either remove a book from the room or try to cross the spiked pit in area T10."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.4145133,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/vidorants-vault.html",
+        "book_path": "Keys from the Golden Vault; Vidorant\u2019s Vault; Vidorant Arrives",
+        "monsters": [
+            [
+                1,
+                "16790-assassin",
+                3900
+            ]
+        ],
+        "text": "If Vidorant (chaotic neutral, elf assassin) is alerted to the theft by an alarm in her inner vault (area T15), she uses a custom-made ring that functions as a helm of teleportation (to which only she can attune) to teleport to the balcony 5 rounds after the alarm is triggered. She heads toward the characters while calling loudly for the guards. The balcony guards follow her, and all other guards in the vault go on high alert (see \u201cCaught in the Act\u201d)."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Adventure Hooks",
+        "monsters": [
+            [
+                1,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "Jamishka Zaril. Oztocan is an important outpost for a flourishing trade organization called the Couatl Company. Its owner, Jamishka (lawful good, elf veteran), recently acquired the shard and has since learned that it must be returned to the tomb from which it was taken to stop the earthquakes that threaten Oztocan. Jamishka hires the characters to bring the shard to Leandro Sedhar, a playwright in Oztocan who can help them, and promises them a suit of elven chain (or some other rare magic item of your choice) as payment for stopping the earthquakes."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Adventure Hooks",
+        "monsters": [
+            [
+                1,
+                "16947-mage",
+                2300
+            ]
+        ],
+        "text": "Yana Resendes. A kindly scholar named Yana (neutral good, hobgoblin mage) recently acquired the shard at a market. Her investigations revealed the shard comes from Oztocan, which is beset by earthquakes. In Yana\u2019s opinion, returning the cursed shard to the place from which it was taken is the best way to stop the earthquakes. If the characters vow to complete this quest, Yana gives them a necklace of prayer beads (or some other rare magic item of your choice) as a token of her thanks and instructs them to bring the shard to Leandro Sedhar, a playwright in Oztocan who can help them."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Town of Oztocan; Arrival in Oztocan",
+        "monsters": [
+            [
+                3,
+                "16915-guard",
+                25
+            ]
+        ],
+        "text": "The three guards eye the characters warily, but they don\u2019t stop or interfere with the party in any way. If the characters ask about Leandro Sedhar, a guard directs them to a local inn called the Giant\u2019s Skull, where Leandro is known to spend much of his time."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Town of Oztocan; Leandro Sedhar",
+        "monsters": [
+            [
+                1,
+                "16966-noble",
+                25
+            ]
+        ],
+        "text": "Leandro (chaotic good noble) is a tabaxi\u2014a Humanoid with feline features, including claws and a tail. He\u2019s short and stout, with lush, sand-colored fur and thin whiskers. Tiny square glasses frame his amber eyes. He was born in a distant land but has been traveling abroad for nearly twenty years. He arrived in Oztocan a few months ago and is working on a play inspired by the town\u2019s local legends. As a playwright, he often draws inspiration from history."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Town of Oztocan; Casa Solana",
+        "monsters": [
+            [
+                6,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "If the characters want to question Tavio Solana, Leandro informs them the mayor lives in a large two-story house with his sister. Well-tended gardens surround the house, which has six guards (veterans). Two guards stand outside the front entrance, two stand outside the back entrance, and two are inside the house within earshot of the mayor."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Town of Oztocan; Casa Solana; Tavio Solana",
+        "monsters": [
+            [
+                1,
+                "16966-noble",
+                25
+            ]
+        ],
+        "text": "Tavio Solana (neutral, human noble) is the amiable and easily manipulated mayor of Oztocan. In his forties, Tavio has brown skin and sports short black hair, a scruffy beard, and simple clothes. Although he is smart, he has an aversion to conflict and is filled with self-doubt."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Town of Oztocan; Reaching the Tomb; Ruined Citadel",
+        "monsters": [
+            [
+                10,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "The ten veterans guarding the tunnel entrance are loyal to Aminta and attack anyone who tries to enter the tunnel without an escort. If the characters come here in the guise of workers, five of the guards lead them to area X1 at the start of the next shift change, which occurs whenever you deem appropriate."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Xeluan\u2019s Tomb; Tomb Locations; X1: Main Entrance",
+        "monsters": [
+            [
+                5,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "If the characters arrive here under the pretext of pretending to be workers, their armed escort (five veterans) leads them through the iron doors into area X2."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Xeluan\u2019s Tomb; Tomb Locations; X2: Vestibule",
+        "monsters": [
+            [
+                4,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "This antechamber once welcomed pilgrims wishing to pay their respects to Xeluan, but the Onyx Scar has converted it into a guard post. The guards stationed here are four veterans."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Xeluan\u2019s Tomb; Tomb Locations; X3: Arrow Slit Hallway",
+        "monsters": [
+            [
+                4,
+                "17035-thug",
+                100
+            ]
+        ],
+        "text": "Arrow Slits. Four Onyx Scar thugs stand behind the western arrow slits, ready to shoot their crossbows at intruders who traverse the hallway without an Onyx Scar escort. The arrow slits give the thugs three-quarters cover."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Xeluan\u2019s Tomb; Tomb Locations; X4: Great Chamber",
+        "monsters": [
+            [
+                3,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "Workers. Roll 1d6 + 3 to determine how many workers (commoners) are here when the characters arrive. One of the workers acts as an overseer. If the characters are pretending to be workers, the overseer gives them tasks as the other workers retire to area X12 for some much-needed rest."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Xeluan\u2019s Tomb; Tomb Locations; X6: Forgotten Garden",
+        "monsters": [
+            [
+                2,
+                "17184-myconid-sovereign",
+                450
+            ],
+            [
+                4,
+                "17183-myconid-adult",
+                100
+            ],
+            [
+                1,
+                "17011-shambling-mound",
+                1800
+            ]
+        ],
+        "text": "The room is lightly obscured by clouds of spores. The Order of Xeluan used to harvest mushrooms from the garden, which is now the home of two myconid sovereigns, four myconid adults, and a shambling mound. These creatures lurk amid the garden\u2019s vegetation. Characters who have a passive Wisdom (Perception) score of 16 or higher see the creatures."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Xeluan\u2019s Tomb; Tomb Locations; X8: Living Quarters",
+        "monsters": [
+            [
+                5,
+                "17035-thug",
+                100
+            ]
+        ],
+        "text": "X8a. North Quarters. Five Onyx Scar thugs sleep in these rooms, one per room. Each room contains a cot with an oil lamp hanging above it."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Xeluan\u2019s Tomb; Tomb Locations; X10: Edino\u2019s Study",
+        "monsters": [
+            [
+                1,
+                "16825-clay-golem",
+                5000
+            ]
+        ],
+        "text": "The hulking figure is a clay golem that doesn\u2019t wait for characters to enter the room before attacking them. It fights until destroyed."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Xeluan\u2019s Tomb; Tomb Locations; X10: Edino\u2019s Study",
+        "monsters": [
+            [
+                1,
+                "16947-mage",
+                2300
+            ]
+        ],
+        "text": "A lawful evil, elf mage named Edino lurks in the room. Edino is the Onyx Scar\u2019s resident spellcaster and has cast greater invisibility on himself. If the characters defeat the golem, Edino hides until he can sneak to area X19 and alert Aminta."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Xeluan\u2019s Tomb; Tomb Locations; X11: Mess Hall",
+        "monsters": [
+            [
+                4,
+                "17035-thug",
+                100
+            ],
+            [
+                2,
+                "17045-veteran",
+                700
+            ],
+            [
+                1,
+                "17021-spy",
+                200
+            ]
+        ],
+        "text": "This area is used as a mess hall for workers and low-ranking Onyx Scar members. Four thugs sit at one table, while two veterans eat snacks at the bar. As soon as they detect intruders, the thugs and veterans draw their weapons and attack.\nBrego, the dwarf bartender (lawful evil spy), is a longtime friend of Aminta\u2019s and a member of the Onyx Scar. He stands on a small crate to reach the bar\u2019s countertop. If a fight erupts, Brego ducks behind the bar and hurls flaming bottles of alcohol at intruders (treat each bottle as a flask of alchemist\u2019s fire) unless he is stopped. The bar gives Brego three-quarters cover."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Xeluan\u2019s Tomb; Tomb Locations; X12: Worker Rest Area",
+        "monsters": [
+            [
+                4,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "Four workers (commoners) rest in the room, along with any workers who left area X4. These workers aren\u2019t interested in helping the characters or in making an enemy of the Onyx Scar. If the characters attempt to persuade, deceive, or otherwise recruit the workers to aid them, they can make a relevant DC 15 ability check. On a successful check, the workers won\u2019t endanger themselves, but they might share helpful intelligence or agree to stay out of the party\u2019s way."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Xeluan\u2019s Tomb; Tomb Locations; X15: Upper West Antechamber",
+        "monsters": [
+            [
+                2,
+                "16843-doppelganger",
+                700
+            ]
+        ],
+        "text": "The women playing cards are two doppelgangers that look exactly like Aminta. If they see three or more intruders, the doppelgangers retreat to area X19; otherwise, they stand and fight."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Xeluan\u2019s Tomb; Tomb Locations; X19: War Room",
+        "monsters": [
+            [
+                1,
+                "16790-assassin",
+                3900
+            ],
+            [
+                2,
+                "17045-veteran",
+                700
+            ],
+            [
+                1,
+                "16947-mage",
+                2300
+            ],
+            [
+                2,
+                "16843-doppelganger",
+                700
+            ]
+        ],
+        "text": "This room was once a library chronicling the history of Xeluan and his heroic companions. The Onyx Scar now uses it for leadership meetings. Aminta Solana (neutral evil, human assassin) claims the seat at the head of the table.\nAminta is meeting with two of her distribution generals (veterans). Edino (the elf mage from area X10) and the two doppelgangers from area X15 might be here as well."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Xeluan\u2019s Tomb; Tomb Locations; X20: Food Storage",
+        "monsters": [
+            [
+                1,
+                "16934-invisible-stalker",
+                2300
+            ]
+        ],
+        "text": "An invisible stalker floats near the ceiling and is the source of the breeze. If one or more characters disturb the supplies, the stalker attacks them. The stalker doesn\u2019t attack if the supplies are left alone."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Xeluan\u2019s Tomb; Tomb Locations; X22: Crypt of the Watched",
+        "monsters": [
+            [
+                4,
+                "17064-wraith",
+                1800
+            ]
+        ],
+        "text": "Angry Wraiths. If the characters ignore the warning and enter the crypt, four wraiths emerge from the caskets that line the central wall. The wraiths don\u2019t respond to verbal entreaties and can\u2019t leave the crypt, but they attack anyone who sets foot inside."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.5408545,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/shard-of-the-accursed.html",
+        "book_path": "Keys from the Golden Vault; Shard of the Accursed; Xeluan\u2019s Tomb; Tomb Locations; X22: Crypt of the Watched",
+        "monsters": [
+            [
+                1,
+                "16871-ghost",
+                1100
+            ]
+        ],
+        "text": "Rilago\u2019s Ghost. The voice belongs to the ghost of Rilago. If the characters heed its warning and don\u2019t advance into the crypt, Rilago materializes in front of them and strikes up a conversation:"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.6533027,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/heart-of-ashes.html",
+        "book_path": "Keys from the Golden Vault; Heart of Ashes; Heart of the Matter",
+        "monsters": [
+            [
+                1,
+                "16938-knight",
+                700
+            ]
+        ],
+        "text": "Naevys (lawful good, elf knight equipped with a flame tongue longsword) approaches the characters with important business from Ghalasine. Her bronze-and-red armor gleams in tones that reflect her braided red-brown hair, and her skin is freckled. She is friendly toward the characters and asks to speak with them privately:"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.6533027,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/heart-of-ashes.html",
+        "book_path": "Keys from the Golden Vault; Heart of Ashes; Heart of the Matter",
+        "monsters": [
+            [
+                1,
+                "16921-hell-hound",
+                700
+            ]
+        ],
+        "text": "Ashen Defenders. Castle Cinis is guarded by ashen creatures that used to be the king\u2019s guards. The king\u2019s dogs, Cinnabar and Sol, have become hell hounds that wander the castle\u2019s interior."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.6533027,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/heart-of-ashes.html",
+        "book_path": "Keys from the Golden Vault; Heart of Ashes; Castle Cinis",
+        "monsters": [
+            [
+                10,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "The characters can count a total of ten guards, all of whom are ashen veterans (see the \u201cAshen Creatures\u201d sidebar). Two guards flank the door to area S1, and the remaining eight guards patrol the grounds in two groups of four."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.6533027,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/heart-of-ashes.html",
+        "book_path": "Keys from the Golden Vault; Heart of Ashes; Castle Cinis; Castle Cinis Locations; S1: Entry Hall",
+        "monsters": [
+            [
+                3,
+                "17159-helmed-horror",
+                1100
+            ]
+        ],
+        "text": "Characters can cross this hall safely if they are wearing the uniforms of castle guards. Otherwise, any attempt by them to cross the hall causes magical flames to fill three of the suits of armor, which spring to life as three helmed horrors. These helmed horrors also animate if anyone touches one of the suits of armor. The helmed horrors\u2019 Spell Immunity trait grants them immunity to burning hands, fireball, and scorching ray spells."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.6533027,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/heart-of-ashes.html",
+        "book_path": "Keys from the Golden Vault; Heart of Ashes; Castle Cinis; Castle Cinis Locations; S2: Hallway",
+        "monsters": [
+            [
+                3,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "Guards. Three ashen veterans (see the \u201cAshen Creatures\u201d sidebar) guard this hall and are hostile toward interlopers. They are positioned as follows:"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.6533027,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/heart-of-ashes.html",
+        "book_path": "Keys from the Golden Vault; Heart of Ashes; Castle Cinis; Castle Cinis Locations; S4: Kitchen",
+        "monsters": [
+            [
+                2,
+                "16921-hell-hound",
+                700
+            ]
+        ],
+        "text": "The hounds were once Jhaeros\u2019s beloved dogs, Cinnabar and Sol, now transformed into hell hounds. The hounds\u2019 names are written on their collars in Common. They obey only King Jhaeros, and they transform back into friendly mastiffs if the effects of Charmayne\u2019s ritual are undone."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.6533027,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/heart-of-ashes.html",
+        "book_path": "Keys from the Golden Vault; Heart of Ashes; Castle Cinis; Castle Cinis Locations; S8: Upper Hallway",
+        "monsters": [
+            [
+                4,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "Guards. Four ashen veterans (see the \u201cAshen Creatures\u201d sidebar) guard the hall and are hostile toward interlopers. They are positioned as follows:"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.6533027,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/heart-of-ashes.html",
+        "book_path": "Keys from the Golden Vault; Heart of Ashes; Castle Cinis; Castle Cinis Locations; S9: Parlor",
+        "monsters": [
+            [
+                1,
+                "17174-smoke-mephit",
+                50
+            ]
+        ],
+        "text": "Charmayne trapped a drow diplomat named Jalynvyr Nir\u2019Thinn in the fireplace, from which he can\u2019t escape until Charmayne\u2019s ritual is undone. While trapped in the fireplace, Jalynvyr manifests as a smoke mephit that speaks Common and Elvish instead of Auran and Ignan. The mephit is restrained, and this condition can\u2019t be ended on it so long as Jalynvyr remains trapped. If the mephit is reduced to 0 hit points, Jalynvyr dies as the mephit\u2019s smoky form disperses."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.6533027,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/heart-of-ashes.html",
+        "book_path": "Keys from the Golden Vault; Heart of Ashes; Castle Cinis; Castle Cinis Locations; S9: Parlor",
+        "monsters": [
+            [
+                1,
+                "16947-mage",
+                2300
+            ]
+        ],
+        "text": "If King Jhaeros\u2019s heart is taken from the city of Ghalasine or if Charmayne is killed, Jalynvyr reverts to his true form (that of a lawful neutral, drow mage) and is no longer restrained by the fireplace. The next time he encounters the characters, he gives them one or more potions or spell scrolls as gifts for saving his life."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.6533027,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/heart-of-ashes.html",
+        "book_path": "Keys from the Golden Vault; Heart of Ashes; Castle Cinis; Castle Cinis Locations; S12: Charmayne\u2019s Bedroom",
+        "monsters": [
+            [
+                2,
+                "16774-air-elemental",
+                1800
+            ]
+        ],
+        "text": "Two elementals made of swirling ash and smoke (use the air elemental stat block) materialize and attack characters who enter this room. The elementals use their Whirlwind action to hurl characters through the castle\u2019s weakened walls (see \u201cGeneral Features\u201d earlier in the adventure). It\u2019s a 20-foot drop to the ground from there."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.6533027,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/heart-of-ashes.html",
+        "book_path": "Keys from the Golden Vault; Heart of Ashes; Castle Cinis; Castle Cinis Locations; S14: Mage Tower",
+        "monsters": [
+            [
+                1,
+                "3276643-charmayne-daymore",
+                5900
+            ]
+        ],
+        "text": "Charmayne Daymore (see her stat block at the end of the adventure) is beyond redemption and doesn\u2019t shy away from a fight. When she drops to 0 hit points, she dies as her body crumbles to ash. She leaves behind her scarlet gown and a potion of clairvoyance."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.6533027,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/heart-of-ashes.html",
+        "book_path": "Keys from the Golden Vault; Heart of Ashes; Castle Cinis; Castle Cinis Locations; S15: King\u2019s Armory",
+        "monsters": [
+            [
+                2,
+                "16786-animated-armor",
+                200
+            ],
+            [
+                4,
+                "16865-flying-sword",
+                50
+            ]
+        ],
+        "text": "As soon as one or more characters set foot in the armory, two suits of armor come to life as ashen suits of animated armor, and four swords transform into ashen flying swords (see the \u201cAshen Creatures\u201d sidebar). These creatures fight until destroyed."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.6533027,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/heart-of-ashes.html",
+        "book_path": "Keys from the Golden Vault; Heart of Ashes; Castle Cinis; Castle Cinis Locations; S17: Heart of Jhaeros",
+        "monsters": [
+            [
+                1,
+                "16825-clay-golem",
+                5000
+            ]
+        ],
+        "text": "King Jhaeros is hostile and uses the clay golem stat block, with these changes:"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.6533027,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/heart-of-ashes.html",
+        "book_path": "Keys from the Golden Vault; Heart of Ashes; Castle Cinis; Fleeing with the Heart",
+        "monsters": [
+            [
+                2,
+                "16938-knight",
+                700
+            ],
+            [
+                2,
+                "17049-warhorse",
+                100
+            ],
+            [
+                2,
+                "17011-shambling-mound",
+                1800
+            ]
+        ],
+        "text": "Two ashen knights mounted on ashen warhorses (see the \u201cAshen Creatures\u201d sidebar) catch up to the characters as they make their way through the dead city of Ghalasine toward their rendezvous with Naevys. While the characters battle the knights, two ashen shambling mounds take shape and join the fray against the heroes."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.6533027,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/heart-of-ashes.html",
+        "book_path": "Keys from the Golden Vault; Heart of Ashes; Conclusion",
+        "monsters": [
+            [
+                1,
+                "16789-archmage",
+                8400
+            ],
+            [
+                1,
+                "16966-noble",
+                25
+            ]
+        ],
+        "text": "The Void Collapses. The void above Castle Cinis collapses, freeing all the souls trapped within it. Everyone whose soul was trapped inside the void is restored to life with all their hit points, materializing in unoccupied spaces within the city. Characters whose souls are released from the void are deposited in area S9, as is King Jhaeros (lawful good, human archmage) and Councilor Regine LaVerne (lawful neutral, tiefling noble)."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.6533027,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/heart-of-ashes.html",
+        "book_path": "Keys from the Golden Vault; Heart of Ashes; Conclusion",
+        "monsters": [
+            [
+                1,
+                "16953-mastiff",
+                25
+            ]
+        ],
+        "text": "The Hounds Are Restored. The hell hounds Cinnabar and Sol transform back into friendly mastiffs."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; Glitch the Quadrone",
+        "monsters": [
+            [
+                1,
+                "17178-quadrone",
+                200
+            ]
+        ],
+        "text": "Not long after agreeing to undertake the adventure, the characters encounter a friendly quadrone named Glitch. (When and where this happens is up to you.) The quadrone used to oversee hospitality on the Concordant Express. For this reason, it was imbued with the ability to speak Celestial, Common, and Infernal in addition to Modron."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; The Concordant Express; Catching the Train; Boarding the Train",
+        "monsters": [
+            [
+                1,
+                "17180-duodrone",
+                50
+            ]
+        ],
+        "text": "The Caboose (area E1) doubles as a train station. Inside it is a booth containing a duodrone attendant with a built-in ticket puncher. All passengers must get their tickets punched by this duodrone before they\u2019re permitted to explore the rest of the train."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; The Concordant Express; Catching the Train; Boarding the Train",
+        "monsters": [
+            [
+                4,
+                "17177-tridrone",
+                100
+            ]
+        ],
+        "text": "If one or more characters refuse to get their tickets punched, the duodrone whistles (no action required), causing four tridrones to emerge from hidden compartments in the walls and act as described in area E1. If the characters then comply to avoid an altercation, the tridrones return to their compartments."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; Train Cars; E1: Caboose; Modrons in the Caboose",
+        "monsters": [
+            [
+                1,
+                "17180-duodrone",
+                50
+            ]
+        ],
+        "text": "The duodrone attendant who punched the characters\u2019 tickets has another function aboard the train: making minor repairs while the train is in motion. As the train gets underway, the duodrone dons gear from a nearby locker (see \u201cLocker\u201d below). It then departs to perform its duties, whistling as it marches to the next car."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; Train Cars; E1: Caboose; Modrons in the Caboose",
+        "monsters": [
+            [
+                4,
+                "17177-tridrone",
+                100
+            ]
+        ],
+        "text": "Hidden in the walls of the Caboose are four tridrones that emerge from their compartments to attack passengers who refuse to get their tickets punched or who perform an unlawful act, such as threatening the duodrone or plundering the locker."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; Train Cars; E2: Abacus Car",
+        "monsters": [
+            [
+                1,
+                "17180-duodrone",
+                50
+            ]
+        ],
+        "text": "The self-proclaimed Math Wizard is a friendly duodrone. The Math Wizard speaks both Common and Modron."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; Train Cars; E2: Abacus Car",
+        "monsters": [
+            [
+                10,
+                "17176-monodrone",
+                25
+            ]
+        ],
+        "text": "The ten monodrones speak Modron only and are indifferent toward passengers. Each one holds a stack of ten placards numbered 0 through 9. When a creature inside the Abacus Car asks a mathematical question to which the answer is a number, the Math Wizard taps the podium with its wand and says, \u201cCalculate!\u201d In response, the monodrones select from their placards, shuffle around, and hold up their numerals to display the answer. The Math Wizard cheers \u201cHuzzah!\u201d after every successful calculation."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; Train Cars; E3: Aquarium Car; Angelic Statue",
+        "monsters": [
+            [
+                1,
+                "16840-deva",
+                5900
+            ]
+        ],
+        "text": "The alabaster statue is a petrified deva with a decanter of endless water. If any harm befalls the fish in the aquarium, the deva immediately reverts to flesh and chastises whoever is responsible. If the aquarium\u2019s plug was removed, the deva replaces it. If any water was drained from the car, the deva uses the decanter to replenish it. If any fish died, the deva uses raise dead spells to revive one fish per day for ten days. Once all is set right, the deva flies from the train and casts plane shift to return to Mount Celestia, taking the decanter with it."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; Train Cars; E4: Cargo Car",
+        "monsters": [
+            [
+                6,
+                "16933-imp",
+                200
+            ]
+        ],
+        "text": "A creature that interacts with the war machine spooks six invisible imps lurking in its bent chassis. The imps fly out and attack the source of their fright while yelling, \u201cI can\u2019t go back to jail!\u201d in Infernal. If the infernal war machine\u2019s acid sprayer hasn\u2019t already been used, one of the imps uses it."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; Train Cars; E6: Passenger Car; Illithid Detective",
+        "monsters": [
+            [
+                1,
+                "17104-mind-flayer",
+                2900
+            ]
+        ],
+        "text": "The detective is a lawful neutral mind flayer named Ignatius Inkblot. Seeing the characters, Ignatius lights a pipe with a match it holds with one of its face tentacles. The pipe exudes a green vapor that smells of absinthe. Since the characters weren\u2019t on the car when the murder occurred, Ignatius doesn\u2019t regard them as suspects and is friendly toward them. Ignatius can speak Common but loathes doing so; the mind flayer prefers to converse telepathically. Its tone is strident, and it uses stereotypical detective phrases such as \u201cThe game is afoot!\u201d and \u201cThe devil is in the details!\u201d"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; Train Cars; E6: Passenger Car; Murder Suspects",
+        "monsters": [
+            [
+                1,
+                "17137-cambion",
+                1800
+            ],
+            [
+                1,
+                "17176-monodrone",
+                25
+            ]
+        ],
+        "text": "Abernathy Vernus (lawful evil cambion) is a friendly, ingratiating fellow who claims to have won a free tour aboard the Concordant Express. He insists that others call him Vern. No other passengers occupy his cabin (the one marked \u201ca\u201d on map 11.2), which Vern shares with a monodrone valet that answers to the name Higglesworth."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; Train Cars; E6: Passenger Car; Murder Suspects",
+        "monsters": [
+            [
+                1,
+                "16947-mage",
+                2300
+            ],
+            [
+                1,
+                "17176-monodrone",
+                25
+            ]
+        ],
+        "text": "Ethlynn Stalaczic (neutral, drow mage) is a friendly, somewhat gullible dragonologist on a planar quest to find a \u201ctime dragon\u201d (which may or may not be a real thing). Until a few moments ago, Ethlynn and Quintus were cabin mates. Ethlynn currently shares her cabin (the one marked \u201cb\u201d on map 11.2) with a monodrone valet called Bot."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; Train Cars; E6: Passenger Car; Murder Suspects",
+        "monsters": [
+            [
+                1,
+                "16794-azer",
+                450
+            ]
+        ],
+        "text": "Meldar (lawful neutral azer) is indifferent toward others, speaks nothing but Ignan, and provides curt answers to questions put to them. The azer is returning to the City of Brass after attending a smiths\u2019 convention in Bytopia. Meldar shares a cabin (the one marked \u201cc\u201d on map 11.2) with Ignatius Inkblot and a monodrone valet known as Orb."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; Train Cars; E6: Passenger Car; Murder Victim",
+        "monsters": [
+            [
+                1,
+                "16966-noble",
+                25
+            ]
+        ],
+        "text": "Raising the Dead. A character who has the raise dead spell prepared can use it to restore Quintus to life. (The devas in areas E3 and area E8 can also provide this service, if asked nicely.) Quintus is chaotic neutral and uses the noble stat block, although he is unarmored and carries no weapons. Alive, the aasimar is less cooperative than when he was dead, for reasons explained in the \u201cMotive\u201d section below. He offers no possible reasons for why someone would want to kill him."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; Train Cars; E7: Temple Car",
+        "monsters": [
+            [
+                1,
+                "17114-gray-slaad",
+                5000
+            ]
+        ],
+        "text": "The priest is, in fact, a gray slaad using its Change Shape ability to fool the characters. The slaad was sent here to kill them, plain and simple. It killed the real priest, stole his robes, and threw his body and holy symbol off the train."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; Train Cars; E8: Jail Car",
+        "monsters": [
+            [
+                4,
+                "17179-pentadrone",
+                450
+            ]
+        ],
+        "text": "This soundproof car is two stories tall (30 feet high) and encased in thick iron. Four pentadrones guard the rooftop. These guards are positioned near the corners of the roof, allowing them to spot trouble coming from the sides of the car."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; Train Cars; E8: Jail Car; Omid the Deva",
+        "monsters": [
+            [
+                1,
+                "16840-deva",
+                5900
+            ]
+        ],
+        "text": "The angel guarding the Jail Car is Omid, a deva with fiery instead of feathery wings. Omid has orders to deliver the Stranger safely to Mechanus, where judgment awaits."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; Train Cars; E8: Jail Car; Cells",
+        "monsters": [
+            [
+                1,
+                "17125-nycaloth",
+                5000
+            ]
+        ],
+        "text": "Cell 1. This cell contains a hostile nycaloth known as Dardo (not its true name). If someone opens the door to its cell, Dardo tries to exit the cell on its next turn, attacking anyone who stands in its way. The nycaloth then tries to leave the train. The Stranger (see below) happens to know Dardo\u2019s true name: a simple math equation. The characters can use this knowledge to keep the nycaloth from attacking them, or to force it to work for them."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; Train Cars; E8: Jail Car; Cells",
+        "monsters": [
+            [
+                1,
+                "16858-erinyes",
+                8400
+            ]
+        ],
+        "text": "Cell 4. This cell contains a friendly erinyes who recently helped an efreeti named Vrakir get his hands on the Book of Vile Darkness. Speaking with this prisoner might kick off \u201cFire and Darkness,\u201d another adventure in this book. The Stranger (see below) doesn\u2019t know this erinyes\u2019s true name."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; Train Cars; E8: Jail Car; Cells",
+        "monsters": [
+            [
+                1,
+                "17176-monodrone",
+                25
+            ]
+        ],
+        "text": "Cell 7. A monodrone janitor accidentally locked itself in this cell."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; Train Cars; E8: Jail Car; The Stranger",
+        "monsters": [
+            [
+                1,
+                "16789-archmage",
+                8400
+            ]
+        ],
+        "text": "This individual looks like a human with a flat-brimmed leather hat and a tattered traveler\u2019s cloak. The Stranger\u2019s face is permanently obscured behind a shifting blur like that of a deep desert haze. The Stranger is chaotic neutral and uses the archmage stat block, though they abhor combat. The Stranger wears an invisible ring of mind shielding that thwarts magical attempts to read their thoughts. The Stranger also wears dimensional shackles but is eager to be rid of them. One touch from Omid\u2019s mace-key causes the shackles to fall off, freeing the Stranger."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.7993674,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/affair-on-the-concordant-express.html",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; Train Cars; E9: Engine Car",
+        "monsters": [
+            [
+                2,
+                "17176-monodrone",
+                25
+            ],
+            [
+                1,
+                "17012-shield-guardian",
+                2900
+            ]
+        ],
+        "text": "Inside the car, two monodrones stoke the fire in the furnace by shoveling loot into it from a nearby cart (see \u201cTreasure\u201d below). A shield guardian stands next to the cart, guarding the treasure from thieves. Thanks to its Spell Storing trait, the guardian can cast sleep (4th-level version) once."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.9550717,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/party-at-paliset-hall.html",
+        "book_path": "Keys from the Golden Vault; Party at Paliset Hall; Meeting Fifel",
+        "monsters": [
+            [
+                1,
+                "17005-satyr",
+                100
+            ]
+        ],
+        "text": "The adventure begins in earnest when the characters meet Fifel, a satyr who works for Eliphas Adulare. Where Fifel appears is up to you. You can use the following boxed text to describe what he looks like:"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.9550717,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/party-at-paliset-hall.html",
+        "book_path": "Keys from the Golden Vault; Party at Paliset Hall; Loch Wynnis; Locations in Loch Wynnis; Auberge Aurore",
+        "monsters": [
+            [
+                1,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "The Auberge Aurore is owned and operated by Rei Paceran (neutral, elf veteran), who is also the village\u2019s sheriff. Stern and unflappable, Rei has no patience for any misconduct under her watch. Rei is wary of the Feywild and has no interest in going there."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.9550717,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/party-at-paliset-hall.html",
+        "book_path": "Keys from the Golden Vault; Party at Paliset Hall; Loch Wynnis; Locations in Loch Wynnis; Khorr\u2019s Kloths",
+        "monsters": [
+            [
+                1,
+                "16817-bugbear",
+                200
+            ]
+        ],
+        "text": "This small but vibrant fashion boutique is run by Khorr, a chaotic good bugbear. Born from Khorr\u2019s frustration at being unable to find clothes that fit his frame, Khorr\u2019s shop has since gained a reputation as a source of untraditional and striking outfits for Humanoids of all shapes and statures."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.9550717,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/party-at-paliset-hall.html",
+        "book_path": "Keys from the Golden Vault; Party at Paliset Hall; Sundown Crossing",
+        "monsters": [
+            [
+                2,
+                "17061-winter-wolf",
+                700
+            ]
+        ],
+        "text": "The two winter wolves inspect every guest\u2019s invitation but are fooled by well-crafted forgeries. Each wolf can cast see invisibility on itself once per day, enabling it to see the invisible watermarks on the guests\u2019 invitations as well as to detect invisible party-crashers."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.9550717,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/party-at-paliset-hall.html",
+        "book_path": "Keys from the Golden Vault; Party at Paliset Hall; Paliset Hall; Zorhanna Adulare; Zorhanna\u2019s Simulacrum",
+        "monsters": [
+            [
+                1,
+                "16789-archmage"
+            ]
+        ],
+        "text": "The simulacrum uses the archmage stat block, with these changes:"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.9550717,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/party-at-paliset-hall.html",
+        "book_path": "Keys from the Golden Vault; Party at Paliset Hall; Paliset Hall; Paliset Hall Locations; P1: Fountain and Patio",
+        "monsters": [
+            [
+                4,
+                "17061-winter-wolf",
+                700
+            ],
+            [
+                2,
+                "17061-winter-wolf",
+                700
+            ]
+        ],
+        "text": "The four winter wolves are soon joined by the two winter wolves from Loch Wynnis. Each wolf can cast see invisibility on itself once per day, enabling it to see the invisible watermarks on the guests\u2019 invitations as well as detect invisible party-crashers. The wolves are forbidden from entering Paliset Hall without a command from Zorhanna or Eliphas. If someone tries to slip past the wolves, they alert the ice mephits in area P2, which attack the offender."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.9550717,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/party-at-paliset-hall.html",
+        "book_path": "Keys from the Golden Vault; Party at Paliset Hall; Paliset Hall; Paliset Hall Locations; P2: Foyer",
+        "monsters": [
+            [
+                6,
+                "16966-noble",
+                25
+            ]
+        ],
+        "text": "Guests. At any given time during the gala, 1d6 nobles loiter in the foyer. You can add a named guest to the foyer by rolling once on the Gala Guests table."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.9550717,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/party-at-paliset-hall.html",
+        "book_path": "Keys from the Golden Vault; Party at Paliset Hall; Paliset Hall; Paliset Hall Locations; P2: Foyer",
+        "monsters": [
+            [
+                6,
+                "16932-ice-mephit",
+                100
+            ]
+        ],
+        "text": "Ice Mephits. Six ice mephits are disguised as ice decorations along the perimeter of the room. The mephits attack anyone who starts a fight in this area. Only Zorhanna, her simulacrum, and Eliphas can command the mephits to stop attacking and return to their posts."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.9550717,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/party-at-paliset-hall.html",
+        "book_path": "Keys from the Golden Vault; Party at Paliset Hall; Paliset Hall; Paliset Hall Locations; P3: Coat Check",
+        "monsters": [
+            [
+                1,
+                "17005-satyr",
+                100
+            ]
+        ],
+        "text": "Guests can entrust their coats to the manor\u2019s head of staff, a gray-haired, upbeat satyr named Oren. He carefully hangs the coats on hooks that line the west and east walls of this area between the foyer and the ballroom."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.9550717,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/party-at-paliset-hall.html",
+        "book_path": "Keys from the Golden Vault; Party at Paliset Hall; Paliset Hall; Paliset Hall Locations; P4: Ballroom",
+        "monsters": [
+            [
+                14,
+                "16966-noble",
+                25
+            ]
+        ],
+        "text": "Guests. At any given time during the gala, 2d6 \u00d7 2 nobles dance here. You can add a named guest to the ballroom by rolling once on the Gala Guests table."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.9550717,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/party-at-paliset-hall.html",
+        "book_path": "Keys from the Golden Vault; Party at Paliset Hall; Paliset Hall; Paliset Hall Locations; P4: Ballroom",
+        "monsters": [
+            [
+                6,
+                "16932-ice-mephit",
+                100
+            ]
+        ],
+        "text": "Ice Mephits. Six ice mephits are disguised as ice decorations along the perimeter of the room. The mephits attack anyone who starts a fight in this area. Only Zorhanna, her simulacrum, and Eliphas can command the mephits to stop attacking and return to their posts."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.9550717,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/party-at-paliset-hall.html",
+        "book_path": "Keys from the Golden Vault; Party at Paliset Hall; Paliset Hall; Paliset Hall Locations; P5: Parlor",
+        "monsters": [
+            [
+                5,
+                "16966-noble",
+                25
+            ]
+        ],
+        "text": "Guests. At any given time during the gala, 1d8 nobles lounge in this room. You can add a named guest to the parlor by rolling once on the Gala Guests table."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.9550717,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/party-at-paliset-hall.html",
+        "book_path": "Keys from the Golden Vault; Party at Paliset Hall; Paliset Hall; Paliset Hall Locations; P7: Banquet Hall",
+        "monsters": [
+            [
+                2,
+                "17020-sprite",
+                50
+            ]
+        ],
+        "text": "The two sprites are named Sysie and Val. Any character who converses with them and succeeds on a DC 10 Wisdom (Insight) check notices they are both uneasy. They sense something is amiss with Zorhanna, but neither sprite dares speak out for fear of inviting the Adulares\u2019 wrath or a stern lecture from Oren, the satyr head of staff. A character can convince either sprite to share their concerns by succeeding on a DC 13 Charisma (Persuasion) check, but this check is made with disadvantage if Zorhanna is within the sprite\u2019s line of sight."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.9550717,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/party-at-paliset-hall.html",
+        "book_path": "Keys from the Golden Vault; Party at Paliset Hall; Paliset Hall; Paliset Hall Locations; P7: Banquet Hall",
+        "monsters": [
+            [
+                6,
+                "16966-noble",
+                25
+            ]
+        ],
+        "text": "Guests. At any given time during the gala, 1d6 + 2 nobles enjoy food and refreshments here. You can add a named guest by rolling once on the Gala Guests table."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.9550717,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/party-at-paliset-hall.html",
+        "book_path": "Keys from the Golden Vault; Party at Paliset Hall; Paliset Hall; Paliset Hall Locations; P8: Kitchen",
+        "monsters": [
+            [
+                2,
+                "17005-satyr",
+                100
+            ],
+            [
+                3,
+                "17192-pixie",
+                50
+            ],
+            [
+                1,
+                "16849-dryad",
+                200
+            ]
+        ],
+        "text": "Two satyrs and three pixies busy themselves with cooking tasks. The dour dryad head chef, Anisetta, lords over the kitchen and barks out orders. Anisetta also carries a key for the storage closets in the cellar (area P18) but doesn\u2019t recall anything important being stored in them."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.9550717,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/party-at-paliset-hall.html",
+        "book_path": "Keys from the Golden Vault; Party at Paliset Hall; Paliset Hall; Paliset Hall Locations; P9: Balcony",
+        "monsters": [
+            [
+                6,
+                "16966-noble",
+                25
+            ]
+        ],
+        "text": "Guests. At any given time during the gala, 1d6 nobles mingle here. You can add a named guest to the ballroom by rolling once on the Gala Guests table."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.9550717,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/party-at-paliset-hall.html",
+        "book_path": "Keys from the Golden Vault; Party at Paliset Hall; Paliset Hall; Paliset Hall Locations; P11: Main Bathroom",
+        "monsters": [
+            [
+                1,
+                "17025-stone-golem",
+                5900
+            ]
+        ],
+        "text": "The statue is a stone golem that guards the way to area P12. Zorhanna, her simulacrum, or someone disguised as Zorhanna can command the golem to move aside. Otherwise, the golem attacks if it takes damage or if someone tries to sneak past it into area P12. In combat, the golem uses Slow on its first turn. On subsequent turns, it makes Slam attacks with its hooves and antlers. If it is reduced to 0 hit points, the golem turns to dust, then re-forms and returns to its post 1d4 hours later. After it is destroyed three times, it doesn\u2019t re-form."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669505.9550717,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/party-at-paliset-hall.html",
+        "book_path": "Keys from the Golden Vault; Party at Paliset Hall; Paliset Hall; Paliset Hall Locations; P14: Guest Bedroom",
+        "monsters": [
+            [
+                1,
+                "17053-werebear",
+                1800
+            ]
+        ],
+        "text": "Eliphas is a neutral good, human werebear who can adopt the form of a polar bear. He has an Intelligence score of 18 and the following additional action option:"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.9550717,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/party-at-paliset-hall.html",
+        "book_path": "Keys from the Golden Vault; Party at Paliset Hall; Paliset Hall; Paliset Hall Locations; P20: Inside the Solitaire Rift",
+        "monsters": [
+            [
+                1,
+                "16789-archmage",
+                8400
+            ]
+        ],
+        "text": "Zorhanna Adulare stands in the middle of the largest floating rock (marked C on map 12.2). She is a chaotic good, elf archmage who speaks Auran, Common, Draconic, Elvish, and Sylvan. She has expended all her 6th-level and higher spell slots trying to escape from the shard solitaire\u2019s extradimensional space, to no avail."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.9550717,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/party-at-paliset-hall.html",
+        "book_path": "Keys from the Golden Vault; Party at Paliset Hall; Paliset Hall; Paliset Hall Locations; P20: Inside the Solitaire Rift",
+        "monsters": [
+            [
+                3,
+                "16934-invisible-stalker",
+                2300
+            ]
+        ],
+        "text": "If the characters crave more combat or if you think they\u2019ve had too easy a time so far, the entity manifests three invisible stalkers that are hostile toward the characters. When a stalker drops to 0 hit points, it lets out a terrible howl as it disperses. Creating these stalkers takes energy the entity needs to free itself from the extradimensional rift, so it won\u2019t create more than three of them."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669505.9550717,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/party-at-paliset-hall.html",
+        "book_path": "Keys from the Golden Vault; Party at Paliset Hall; The Crestfall Coven",
+        "monsters": [
+            [
+                1,
+                "17007-scout",
+                100
+            ],
+            [
+                3,
+                "301755-night-hag-coven-variant",
+                2900
+            ]
+        ],
+        "text": "With the help of a tiefling scout named Mettle (see the Gala Guests table earlier in the adventure), the hags have been able to spy on the gala. Disguised as three elf nobles from the Feywild, the three night hags (whose names are Myrrel Malum, Esadora Crane, and Netheria Nightblossom) arrive at Paliset Hall in one of the Adulares\u2019s unicorn-drawn coaches. After exiting the coach, the hags present stolen invitations to the winter wolves standing guard outside, then waltz into Paliset Hall, cackling with delight at how well their plan is unfolding."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Planning the Heist; Brimstone Hold\u2019s Inhabitants",
+        "monsters": [
+            [
+                1,
+                "16858-erinyes",
+                8400
+            ],
+            [
+                1,
+                "17004-salamander",
+                1800
+            ],
+            [
+                1,
+                "17074-young-red-dragon",
+                5900
+            ],
+            [
+                1,
+                "17099-beholder",
+                10000
+            ]
+        ],
+        "text": "Various Defenders. The hold is defended by erinyes devils (whose truesight allows them to see through most forms of magical concealment), duergar, and salamanders, as well as a young red dragon named Kalimrax and a beholder known as the Eye of the Efreet."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Denizens",
+        "monsters": [
+            [
+                1,
+                "16854-efreeti",
+                7200
+            ],
+            [
+                2,
+                "17004-salamander",
+                1800
+            ]
+        ],
+        "text": "Any fights or suspicious activities in the hold are reported to the efreeti Jarazoun, who places the defenders on high alert. Even if Vrakir is at the hold, the defenders bring their reports to Jarazoun first, allowing him to deal with any trouble himself rather than risk Vrakir\u2019s ire. While on high alert, the hold\u2019s inhabitants can\u2019t be surprised, and Jarazoun responds personally to any further reports of trouble, arriving after 1 minute with two salamanders from area B20. After 24 hours with no incidents, the hold goes off high alert."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B2: Gatehouse",
+        "monsters": [
+            [
+                2,
+                "16858-erinyes",
+                8400
+            ]
+        ],
+        "text": "Two erinyes are stationed on the rooftops of the towers closest to the bridge. If the characters approach the gatehouse and give a sound reason for being here, the erinyes open the way (see \u201cDoors\u201d and \u201cPortcullises\u201d below), escort the characters to area B10, and announce their presence to the salamanders in area B22 before returning to their posts."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B2: Gatehouse",
+        "monsters": [
+            [
+                1,
+                "16858-erinyes",
+                8400
+            ]
+        ],
+        "text": "When the hold is on high alert, a third erinyes from area B15 takes up position in the gatehouse\u2019s rear tower."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B3: Prison Tower",
+        "monsters": [
+            [
+                1,
+                "16858-erinyes",
+                8400
+            ]
+        ],
+        "text": "The erinyes stationed here carries a rope of entanglement, which it uses to ensnare any prisoner who tries to escape."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B4: Prison Yard",
+        "monsters": [
+            [
+                10,
+                "16850-duergar",
+                200
+            ]
+        ],
+        "text": "Eighty prisoners (commoners) labor here under the watchful eyes of ten duergar."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B4: Prison Yard",
+        "monsters": [
+            [
+                80,
+                "16829-commoner",
+                10
+            ],
+            [
+                1,
+                "16903-gladiator",
+                1800
+            ]
+        ],
+        "text": "Eighty prisoners (commoners) labor here under the watchful eyes of ten duergar.\nMost of the prisoners are too fearful to speak with visitors, but one prisoner named Venture (chaotic good, tiefling gladiator) tries to get the characters\u2019 attention, seeing the party\u2019s arrival as a golden opportunity to escape. If the characters smuggle her some weapons, rope, and a grappling hook, Venture agrees to start a prison riot (see \u201cPrison Riot\u201d below)."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B6: Upper Yard",
+        "monsters": [
+            [
+                1,
+                "17074-young-red-dragon",
+                5900
+            ]
+        ],
+        "text": "The upper yard is patrolled by a young red dragon named Kalimrax. The dragon guards the fortress against aerial assault, but attacks from the air are few and far between. Kalimrax spends most of her time prowling about the harbor, idly threatening to devour any dockhands working there."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B6: Upper Yard",
+        "monsters": [
+            [
+                1,
+                "17137-cambion",
+                1800
+            ]
+        ],
+        "text": "If the characters arrive at the hold while the traders are present, one of the larger buildings is inhabited by Klax (chaotic neutral cambion) and eight traders (commoners). The traders are indifferent to the characters, although Klax is protective of her business arrangement with Jarazoun and turns in the party to the hold\u2019s defenders if the characters seem likely to threaten that arrangement."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B8: Cliff Towers",
+        "monsters": [
+            [
+                2,
+                "16858-erinyes",
+                8400
+            ]
+        ],
+        "text": "One erinyes is on guard in each of these towers, occasionally leaving the tower to walk the battlements of the adjoining curtain walls. Each erinyes is hostile to anyone attempting to climb the outer walls but is otherwise indifferent to the goings-on in the yards below."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B9: Harbor Towers",
+        "monsters": [
+            [
+                2,
+                "16858-erinyes",
+                8400
+            ]
+        ],
+        "text": "Two erinyes guard access to the harbor, one in each tower. These guards are hostile to anyone attempting to enter or leave the hold via the river without Jarazoun\u2019s approval. The erinyes admit Klax and her traders after a cursory inspection of their cargo, although the erinyes become suspicious if the traders aren\u2019t following their usual schedule."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B11: Guard Room",
+        "monsters": [
+            [
+                2,
+                "16850-duergar",
+                200
+            ]
+        ],
+        "text": "Two duergar are always on guard here. They react with suspicion toward the characters, as visitors don\u2019t usually come through this area, and become hostile if the characters attempt to force their way to or from area B4."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B13: Prison Cells",
+        "monsters": [
+            [
+                20,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "At night, twenty prisoners (commoners) sleep in these cells. During the day, the cells are empty."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B14: Large Prison Cell",
+        "monsters": [
+            [
+                1,
+                "16969-ogre",
+                450
+            ]
+        ],
+        "text": "A chaotic neutral ogre named Yug occupies this cell. For the past three days, Yug has been confined here for breaking a duergar\u2019s arm in anger over the theft of Gruk-Gruk, a crude rag doll."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B15: Erinyes Barracks",
+        "monsters": [
+            [
+                3,
+                "16858-erinyes",
+                8400
+            ]
+        ],
+        "text": "Three erinyes lounge in their hammocks here, resting between shifts patrolling the walls. The erinyes are immediately suspicious of the characters, as visitors don\u2019t usually come here. Unless the characters provide a compelling reason for their intrusion and succeed on a DC 20 Charisma (Deception or Persuasion) check, the erinyes try to capture the characters for questioning."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B17: Kitchen",
+        "monsters": [
+            [
+                2,
+                "16850-duergar",
+                200
+            ]
+        ],
+        "text": "Two duergar are busily preparing the hold\u2019s next meal: tuber stew. They are arguing about how spicy the stew ought to be. If the duergar notice the party, they assume the characters are members of Klax\u2019s crew and start instructing them where to put the new supplies. Only if the characters ignore the cooks\u2019 instructions do the duergar become suspicious, attacking while shouting to the duergar in area B18 if the characters can\u2019t justify their presence."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B18: Duergar Barracks",
+        "monsters": [
+            [
+                6,
+                "16850-duergar",
+                200
+            ]
+        ],
+        "text": "Six duergar are sleeping here on the stone slabs that serve as their beds. They wear their armor and keep their weapons within arm\u2019s reach. The sound of normal movement doesn\u2019t wake them, but they are roused by the sounds of battle or other loud noises in areas B15\u2013area B19."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B20: Salamander Barracks",
+        "monsters": [
+            [
+                2,
+                "17004-salamander",
+                1800
+            ]
+        ],
+        "text": "Two salamanders rest in these barracks, their bodies coiled to nestle into the depressions in the solidified lava. If the characters aren\u2019t escorted by other members of the hold, the salamanders assume the characters are a threat and attack immediately."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B22: Antechamber",
+        "monsters": [
+            [
+                2,
+                "17004-salamander",
+                1800
+            ],
+            [
+                1,
+                "17099-beholder",
+                10000
+            ]
+        ],
+        "text": "Two salamanders stand guard here along with a beholder known as the Eye of the Efreet. These creatures are hostile unless the characters arrive with an escort, in which case the characters are directed to area B23 to make an appointment to see Jarazoun. Once the characters proceed to area B25, the salamanders accompany them and remain there for the duration of their visit."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B23: Administrative Office",
+        "monsters": [
+            [
+                1,
+                "17109-arcanaloth",
+                8400
+            ]
+        ],
+        "text": "Nebukath the arcanaloth sees to the hold\u2019s administrative tasks. Nebukath is initially indifferent toward the characters and presumes they have come seeking an audience with Jarazoun. The arcanaloth languidly informs the characters that the efreeti is too busy to meet with them."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B25: Audience Chamber",
+        "monsters": [
+            [
+                1,
+                "16854-efreeti",
+                7200
+            ]
+        ],
+        "text": "If he hasn\u2019t been encountered and defeated elsewhere, the efreeti Jarazoun sits on the throne, acting as master of Brimstone Hold in Vrakir\u2019s absence. Jarazoun has little patience for the business of running a stronghold and leaves most of the decision-making to Nebukath. The stronghold\u2019s denizens see Jarazoun for the petty tyrant he is, but they obey him out of fear of his patron, Vrakir."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B27: Vestibule",
+        "monsters": [
+            [
+                2,
+                "17025-stone-golem",
+                5900
+            ]
+        ],
+        "text": "Statues. The statues are two stone golems that are normally quiescent and don\u2019t react to the characters\u2019 presence. However, the golems are magically attuned to the door to area B29 and become hostile if a creature attempts to open the door by any means other than using Vrakir\u2019s key. A character who succeeds on their ability check to pick the lock by 10 or more avoids triggering the golems. Entering area B29 by using magic (such as the passwall spell) to bypass the door entirely doesn\u2019t trigger the golems."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B29: Vrakir\u2019s Chamber",
+        "monsters": [
+            [
+                1,
+                "16957-mimic",
+                450
+            ]
+        ],
+        "text": "The tome resembles the Book of Vile Darkness but is actually a trained mimic. Any character who examines the tome and succeeds on a DC 20 Intelligence (Arcana) check recognizes it as a fraud. The mimic attacks any creature that touches or attacks it."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.1509733,
+        "book": "Keys from the Golden Vault",
+        "path": "./library/stripped/sources/kftgv/fire-and-darkness.html",
+        "book_path": "Keys from the Golden Vault; Fire and Darkness; Brimstone Hold; Brimstone Hold Locations; B30: Vrakir\u2019s Demiplane",
+        "monsters": [
+            [
+                2,
+                "17125-nycaloth",
+                5000
+            ]
+        ],
+        "text": "If the characters had a relatively easy time getting here, add two invisible nycaloths as guards. The nycaloths are mercenaries hired by Vrakir to protect the Book of Vile Darkness, and their invisibility spells end when they attack."
+    }
+]

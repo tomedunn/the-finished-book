@@ -1,0 +1,3016 @@
+[
+    {
+        "type": "combat",
+        "modified": 1741669509.0107412,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/danger-to-the-multiverse.html",
+        "book_path": "Vecna: Eve of Ruin; Danger to the Multiverse; Kas\u2019s Plan; Confronting Vecna; Rod of Seven Parts",
+        "monsters": [
+            [
+                1,
+                "4468332-miska-the-wolf-spider",
+                62000
+            ]
+        ],
+        "text": "Eons ago, a war between the primordials and the gods scarred the planes of existence. A demon lord named Miska the Wolf-Spider eventually pushed the primordials\u2019 enemies to the brink of annihilation."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; In the Graveyard; Neverdeath Catacomb Locations; C2: Lower Mausoleum",
+        "monsters": [
+            [
+                5,
+                "17059-wight",
+                700
+            ]
+        ],
+        "text": "The cult pressed five wights into service as guards. The wights know the cultists by appearance and don\u2019t attack them, but they attack anyone else."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; In the Graveyard; Neverdeath Catacomb Locations; C5: Sarcelle\u2019s Cell",
+        "monsters": [
+            [
+                1,
+                "16947-mage",
+                2300
+            ]
+        ],
+        "text": "Sarcelle is a human wild-magic sorcerer whose spellcasting power was stripped during a recent excursion to a distant plane. Until her magic naturally returns, Sarcelle has the game statistics of a neutral mage without Spellcasting. She responds to some questions with cryptic-sounding predictions, but she tries to keep this irritating habit in check."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; In the Graveyard; Neverdeath Catacomb Locations; C7: Fountain Room",
+        "monsters": [
+            [
+                1,
+                "17051-water-elemental",
+                1800
+            ],
+            [
+                2,
+                "17208-water-weird",
+                700
+            ]
+        ],
+        "text": "A water elemental and two water weirds live in the 25-foot-deep fountain. These creatures are indifferent toward intruders and attack only in self-defense. Once bound to serve the Waterclock Guild, they\u2019re now free but enjoy the perpetual \u201crain\u201d here. The cult bullies these Elementals, so they remain sulking under the water\u2019s surface. Determined not to stand for further intrusion, the Elementals rise to attack anyone other than cultists. The water weirds consider the water elemental their leader. If reduced to fewer than 50 hit points, the water elemental retreats to the basin\u2019s bottom with any surviving water weirds."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; In the Graveyard; Neverdeath Catacomb Locations; C10: Improvised Workshop",
+        "monsters": [
+            [
+                1,
+                "17143-marid",
+                7200
+            ]
+        ],
+        "text": "The creature is a marid named Shanzezim. The marid was bound by the Waterclock Guild and can\u2019t leave the crypts belonging to that organization, even though Shanzezim believes the Waterclock Guild has been defunct for years. Not quite ready to test the binding to make an escape, the marid spends time here trying to reassemble one of the Waterclock Guild\u2019s most intricate clocks."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; In the Graveyard; Neverdeath Catacomb Locations; C11: Umberto\u2019s Cell",
+        "monsters": [
+            [
+                1,
+                "16947-mage",
+                2300
+            ]
+        ],
+        "text": "Umberto Noblin is a gnome historian who is eager to escape Neverdeath Graveyard. Umberto has the game statistics of a lawful neutral mage without Spellcasting."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; In the Graveyard; Neverdeath Catacomb Locations; C14: Common Room",
+        "monsters": [
+            [
+                1,
+                "16947-mage",
+                2300
+            ],
+            [
+                4,
+                "16836-cult-fanatic",
+                450
+            ]
+        ],
+        "text": "A neutral evil mage and four neutral evil cult fanatics occupy this room. The mage, a sneering, human bully named Oxtu, insists the cult fanatics call him by his formal title of \u201cTeeth of Vecna.\u201d In turn, he refers to them as \u201cMemories of Vecna,\u201d their rank. Oxtu likes to describe violent methods of coercing secrets from people, and the cult fanatics hang on his words. Oxtu carries keys that unlock all the prisoner cells (areas C5, area C11, area C18, and area C20)."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; In the Graveyard; Neverdeath Catacomb Locations; C16: Subleader Quarters",
+        "monsters": [
+            [
+                2,
+                "16947-mage",
+                2300
+            ]
+        ],
+        "text": "Two neutral evil mages, an elf man named Hannel and a human woman named Algra, rest here. They are surly, taciturn zealots who venerated Vecna in secret for decades before joining the cult. They love exercising their authority over junior cultists. Each wears a necklace of human teeth in honor of their titles within the cult hierarchy as \u201cTeeth of Vecna.\u201d They each carry a key to the prisoner cells (areas C5, area C11, area C18, and area C20)."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; In the Graveyard; Neverdeath Catacomb Locations; C17: Library",
+        "monsters": [
+            [
+                4,
+                "16836-cult-fanatic",
+                450
+            ],
+            [
+                2,
+                "16872-ghoul",
+                200
+            ]
+        ],
+        "text": "Four chaotic evil cult fanatics are supervising two ghouls trying to reorganize the jumble of books the cultists brought to this tomb. The library belongs to Ayren Griffynstone, a human Neverwinter historian. The room hasn\u2019t fared well in the graveyard\u2019s upheavals, and the uneven floor makes this room difficult terrain."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; In the Graveyard; Neverdeath Catacomb Locations; C19: Demon Lair",
+        "monsters": [
+            [
+                2,
+                "17110-barlgura",
+                1800
+            ]
+        ],
+        "text": "The two barlguras here work as the cult\u2019s kidnappers. With little to do until the next kidnapping spree other than guard the imprisoned aristocrat in area C20, the demons spend their time scratching out the names on the memorial plates with their claws."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; In the Graveyard; Neverdeath Catacomb Locations; C20: Indrina\u2019s Cell",
+        "monsters": [
+            [
+                1,
+                "16966-noble",
+                25
+            ]
+        ],
+        "text": "The prisoner is a human actor named Indrina Lamsensettle. Indrina\u2019s normally haughty demeanor has diminished in her imprisonment, though she\u2019s determined to make the cult pay once she escapes. Indrina dreams of returning to her estate, cleaning up, and dousing herself in perfumes. She doesn\u2019t know anything about Vecna or what the cult has in store for her; she believes that Lord Neverember is behind her imprisonment. Indrina has the game statistics of a lawful neutral noble but is unarmed and unarmored."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; In the Graveyard; Neverdeath Catacomb Locations; C21: Haunted Room",
+        "monsters": [
+            [
+                2,
+                "17064-wraith",
+                1800
+            ]
+        ],
+        "text": "The cultists disturbed two wraiths bound to the urns while ransacking the room. The cultists quickly retreated and haven\u2019t been back. The wraiths emerge from the dust and ash when anyone opens the door, shrieking, \u201cVecnans, die!\u201d They vent their rage on nearby creatures, preferring to attack cultists. The wraiths fight until destroyed."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; In the Graveyard; Neverdeath Catacomb Locations; C23: Corridor",
+        "monsters": [
+            [
+                1,
+                "17077-zombie",
+                50
+            ]
+        ],
+        "text": "The Vecnan cult leader, Jerot Galgin, used a dreadful ritual to drain the cultist of her knowledge and vitality. This cultist, as well as other people whose secrets the cult have sacrificed to Vecna, has the game statistics of a zombie. The cultist is a Humanoid rather than Undead and isn\u2019t immune to poison damage or the poisoned condition. She is dressed like the other cult members and doesn\u2019t attack anyone dressed like cultists."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; In the Graveyard; Neverdeath Catacomb Locations; C25: Leader\u2019s Room",
+        "monsters": [
+            [
+                1,
+                "2560883-necromancer-wizard",
+                5000
+            ],
+            [
+                1,
+                "17092-nothic",
+                450
+            ]
+        ],
+        "text": "The cult\u2019s leader is a neutral evil, human necromancer wizard (see appendix A) named Jerot Galgin. A loyal nothic assistant named Maszundrin never leaves Jerot\u2019s side. A devotee of Vecna, Maszundrin learned Common while lurking in the catacombs for decades and considers the cultists vital servants of the lich-god."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; In the Graveyard; Neverdeath Catacomb Locations; C26: Sacrifice Gallery",
+        "monsters": [
+            [
+                1,
+                "16947-mage",
+                2300
+            ],
+            [
+                5,
+                "17092-nothic",
+                450
+            ]
+        ],
+        "text": "The room is filled with cultists engaged in an extensive, hours-long ritual to sacrifice the elf Eldon Keyward\u2019s secrets to Vecna. The ritual leader is a tall, proud, neutral evil mage named Kendri Nex. The five nothics around her attack intruders on sight. Kendri uses her magic defensively, retreating to the room\u2019s floor if pressed. Kendri carries keys that unlock all the prisoner cells (areas C5, area C11, area C18, and area C20), but if the characters haven\u2019t already rescued the other prisoners, they might not have the chance to do so, as the encounter likely ends with them being shunted through a planar rift."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; In the Graveyard; Neverdeath Catacomb Locations; C26: Sacrifice Gallery",
+        "monsters": [
+            [
+                6,
+                "16836-cult-fanatic",
+                450
+            ]
+        ],
+        "text": "The six neutral evil cult fanatics on the raised east gallery don\u2019t fight, since they fear interrupting the complicated ritual. They maintain their chanting and wild gesticulations."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; In the Graveyard; Neverdeath Catacomb Locations; C26: Sacrifice Gallery",
+        "monsters": [
+            [
+                1,
+                "16985-priest",
+                450
+            ]
+        ],
+        "text": "The Cage. Eldon is a lawful good elf priest who follows Deneir, a god of writing and knowledge. He can\u2019t cast spells while he\u2019s in the cage. Eldon\u2019s cage hangs from a sturdy chain that ends 20 feet above the ground. The door on the cage\u2019s side is latched but not locked. Any character who can reach the cage can open its door as an action."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; Escaping Evernight; Evernight Awakening",
+        "monsters": [
+            [
+                12,
+                "16872-ghoul",
+                200
+            ]
+        ],
+        "text": "Twelve ghouls prowl the area around the party\u2019s grave pit. Characters in the grave pit hear the hungry shouts and slavering of approaching ghouls, and you can further ramp up the tension by concealing the total number of ghouls until a character emerges from the pit to look around. The coffin-filled bottom of the grave pit is difficult terrain. The muddy, sloping sides require a successful DC 10 Strength (Athletics) check to ascend, but moving down them doesn\u2019t require a check."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; Escaping Evernight; The Corpse Market; Meeting Sangora",
+        "monsters": [
+            [
+                1,
+                "17043-vampire",
+                10000
+            ]
+        ],
+        "text": "Sangora is a centuries-old vampire with sunken eyes and a shock of long, white hair. She is inquisitive and happy to gossip."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; Dolindar Tomb; Dolindar Tomb Locations; B1: Portico",
+        "monsters": [
+            [
+                4,
+                "17044-vampire-spawn",
+                1800
+            ]
+        ],
+        "text": "Four vampire spawn catch up to the party when the characters reach the door to the tomb. After the characters left her, Sangora detailed her conversation to her vampire spawn assistants. The spawn decided to make a meal of the characters, assuming that Sangora would never discover their perfidy."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; Dolindar Tomb; Dolindar Tomb Locations; B2: Hall",
+        "monsters": [
+            [
+                1,
+                "16871-ghost",
+                1100
+            ]
+        ],
+        "text": "Newmy is a lawful neutral ghost who was once a moon elf. She can cast Prestidigitation at will. Newmy isn\u2019t quite five feet tall, and she has frizzy blue hair and pale skin shot through with blue veins. She\u2019s not interested in fighting, since fights make messes."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; Dolindar Tomb; Dolindar Tomb Locations; B3: Lost Dolindars",
+        "monsters": [
+            [
+                2,
+                "2560863-lost-sorrowsworn",
+                2900
+            ]
+        ],
+        "text": "The Dolindar siblings buried here were warped into two lost sorrowsworn (see appendix A). A visible sorrowsworn shrieks in rage and attacks anyone she can see. A second sorrowsworn is resting inside one of the broken coffins, initially out of sight but quick to join his sibling in a fight. The sorrowsworn fight until destroyed."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.2497633,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/return-from-neverdeath-graveyard.html",
+        "book_path": "Vecna: Eve of Ruin; Return from Neverdeath Graveyard; Dolindar Tomb; Dolindar Tomb Locations; B6: Matriarch\u2019s Chamber",
+        "monsters": [
+            [
+                1,
+                "2560862-lonely-sorrowsworn",
+                5000
+            ]
+        ],
+        "text": "Isolation warped the matriarch of the Dolindar family, Kevetta, into a lonely sorrowsworn (see appendix A). She remains near her coffin and uses her harpoon arms to attack anyone who enters the room. She fights until destroyed but doesn\u2019t pursue foes who flee."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.3927581,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-wizards-three.html",
+        "book_path": "Vecna: Eve of Ruin; The Wizards Three; The Sigil Sanctum; Sanctum Locations; S5\u2013S8: Bedrooms",
+        "monsters": [
+            [
+                1,
+                "16790-assassin",
+                3900
+            ]
+        ],
+        "text": "Area S5 is the bedroom of Alustriel and her wife, Malaina van Talstiv. A retired adventurer, Malaina is a neutral good human who uses the assassin stat block. Malaina is meeting with associates to thwart a scheme against Waterdeep when the characters arrive. When the characters return, Malaina speaks with them (see the \u201cNext Steps\u201d section at the end of this chapter)."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.3927581,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-wizards-three.html",
+        "book_path": "Vecna: Eve of Ruin; The Wizards Three; The Wizards Three; Alustriel Silverhand",
+        "monsters": [
+            [
+                1,
+                "4468312-alustriel-silverhand",
+                33000
+            ]
+        ],
+        "text": "More than seven centuries old, Lady Alustriel Silverhand is beloved throughout Faer\u00fbn for her kindliness and for using her incredible spellcasting power to protect the innocent. Alustriel is an immortal daughter of Mystra, a god of magic, and is a chaotic good, human wizard. Alustriel served as High Mage of Silverymoon, battled demons on the Outer Planes, and prevented the lich Larloch from ascending to godhood. She has seen the rise and fall of evil powers, though Vecna\u2019s plot troubles her greatly. More about Alustriel, including her stat block, appears in appendix B."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.3927581,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-wizards-three.html",
+        "book_path": "Vecna: Eve of Ruin; The Wizards Three; Kas the Destroyer",
+        "monsters": [
+            [
+                1,
+                "4468330-kas-the-betrayer",
+                50000
+            ]
+        ],
+        "text": "The vampire warlord Kas maintains his masquerade as Mordenkainen, likely fooling the characters until the events of chapter 9. The blood feud between Kas and Vecna stretches back centuries to a time when Kas served as Vecna\u2019s first lieutenant. More about Kas, including his stat block, appears in appendix B."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.3927581,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-wizards-three.html",
+        "book_path": "Vecna: Eve of Ruin; The Wizards Three; Kas the Destroyer; Manipulation in Motion; If They Find Out?",
+        "monsters": [
+            [
+                9,
+                "4468330-kas-the-betrayer",
+                50000
+            ]
+        ],
+        "text": "Kas Defeats the Characters. If the characters confront Kas before chapter 9, allow the battle to play out using the stat block for Kas in appendix B. If Kas defeats the characters, he kills them and absconds to Pandemonium. Alustriel has the clerics of Silverymoon bring the characters back to life, apologetic for not discovering Kas\u2019s ruse and angry she was duped. Alustriel suspects Kas knows where Vecna weaves his ritual and encourages the characters to follow the vampire to Pandemonium when they can."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.3927581,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-wizards-three.html",
+        "book_path": "Vecna: Eve of Ruin; The Wizards Three; Web\u2019s Edge; Web\u2019s Edge Locations; W2: Lolth Shrine",
+        "monsters": [
+            [
+                1,
+                "16790-assassin",
+                3900
+            ],
+            [
+                1,
+                "16947-mage",
+                2300
+            ]
+        ],
+        "text": "Two agents of Lolth have come to pray at this shrine. They are Makubli Khee, a chaotic evil, hobgoblin assassin, and Torkner Ironteeth, a chaotic evil, duergar mage. Because they\u2019re engrossed in their prayers, Makubli and Torkner don\u2019t notice the characters unless a member of the party deliberately hails them or the characters have a light source."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.3927581,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-wizards-three.html",
+        "book_path": "Vecna: Eve of Ruin; The Wizards Three; Web\u2019s Edge; Web\u2019s Edge Locations; W3: Summoning Chamber",
+        "monsters": [
+            [
+                1,
+                "16947-mage",
+                2300
+            ],
+            [
+                1,
+                "16902-glabrezu",
+                5000
+            ]
+        ],
+        "text": "Cultists and agents gather here to commune with Lolth\u2019s Abyssal servants and occasionally summon Fiends to assist with missions. The figure at the table is Grottenelle Stonecutter, a chaotic evil, svirfneblin mage who serves as the facility\u2019s high summoner.\nSummoning in Progress. Grottenelle is in the middle of a summoning ritual. Have Grottenelle and the characters roll initiative. If the characters attack or otherwise interrupt Grottenelle before the start of her first turn, the summoning fails. Otherwise, a glabrezu appears in the center of the pentagram at the start of Grottenelle\u2019s turn. Grottenelle attacks intruders and commands the glabrezu to do the same if the summoning is successful."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.3927581,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-wizards-three.html",
+        "book_path": "Vecna: Eve of Ruin; The Wizards Three; Web\u2019s Edge; Web\u2019s Edge Locations; W5: Guardian Chamber",
+        "monsters": [
+            [
+                1,
+                "16963-nalfeshnee",
+                10000
+            ]
+        ],
+        "text": "The creature is a nalfeshnee named Maaltok, the guardian and keeper of the prison cells (areas W6a\u2013W6d). Sometime in the last few decades, Maaltok switched allegiance from Graz\u2019zt to Lolth. Since he is a recent recruit, Maaltok\u2019s yochlol handlers assigned him guard duty, which he performs grudgingly."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.3927581,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-wizards-three.html",
+        "book_path": "Vecna: Eve of Ruin; The Wizards Three; Web\u2019s Edge; Web\u2019s Edge Locations; W6: Holding Cells; W6a: Holding Cell A",
+        "monsters": [
+            [
+                1,
+                "17090-cyclops",
+                2300
+            ]
+        ],
+        "text": "This jail cell contains a bench and a bucket. The inhabitant is Gertrude, a chaotic neutral cyclops who was the lone survivor of an attack on a supply caravan near the ruins of the city of Ched Nasad. Makubli (see area W2) captured Gertrude weeks ago and brought her here as a prisoner, hoping she would reveal information about Blingdenstone\u2019s interest in Ched Nasad. Gertrude is a caravan guard and has no information the cultists can use; as soon as they realize this, they\u2019ll kill Gertrude, and she knows it. Her prized +2 Greatclub is stashed in the chest in area W6."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.3927581,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-wizards-three.html",
+        "book_path": "Vecna: Eve of Ruin; The Wizards Three; Web\u2019s Edge; Web\u2019s Edge Locations; W6: Holding Cells; W6d: Holding Cell D",
+        "monsters": [
+            [
+                1,
+                "16914-grimlock",
+                50
+            ]
+        ],
+        "text": "This prisoner is Sril Brayspoke, a chaotic evil grimlock. Until a week ago, Sril was a cultist in residence at Web\u2019s Edge devoted to serving the Spider Queen. However, the bumbling Sril accidentally insulted the yochlol in area W12. The powerful Fiend had Sril thrown into jail, and the cultists are considering feeding him to Ker-arach to appease Lolth."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.3927581,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-wizards-three.html",
+        "book_path": "Vecna: Eve of Ruin; The Wizards Three; Web\u2019s Edge; Web\u2019s Edge Locations; W7: Meeting Room",
+        "monsters": [
+            [
+                1,
+                "16790-assassin",
+                3900
+            ],
+            [
+                2,
+                "16947-mage",
+                2300
+            ],
+            [
+                2,
+                "16914-grimlock",
+                50
+            ],
+            [
+                1,
+                "16858-erinyes",
+                8400
+            ]
+        ],
+        "text": "The devotees include a chaotic evil, elf assassin named Jolera Hartoph; two mages named Bromtok and Shiroktu, who are chaotic evil orcs; two grimlocks named Roltharni and Sharlotte, who are chaotic evil; and an erinyes named Fernitha."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.3927581,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-wizards-three.html",
+        "book_path": "Vecna: Eve of Ruin; The Wizards Three; Web\u2019s Edge; Web\u2019s Edge Locations; W9: Fodder Chamber",
+        "monsters": [
+            [
+                4,
+                "16887-giant-lizard",
+                50
+            ]
+        ],
+        "text": "The cultists keep a supply of prey creatures here to feed Ker-arach. Right now, the chamber is occupied by four giant lizards. The cultists release a lizard into the Sacred Web Hall (area W12) whenever Ker-arach is grumpy, providing her with recreation and a meal."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.3927581,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-wizards-three.html",
+        "book_path": "Vecna: Eve of Ruin; The Wizards Three; Web\u2019s Edge; Web\u2019s Edge Locations; W12: Sacred Web Hall",
+        "monsters": [
+            [
+                1,
+                "4468338-spiderdragon",
+                7200
+            ],
+            [
+                1,
+                "17127-yochlol",
+                5900
+            ]
+        ],
+        "text": "This cavern\u2019s ceilings are 50 feet tall. The cavern is the lair of Ker-arach, the spiderdragon (see appendix A). Ker-arach crawled into this cavern through a temporary rift to the Abyss that opened during a ritual conducted here about half a year ago. Ker-arach brought with her a piece of the Rod of Seven Parts, which she uses to answer questions posed directly to the Spider Queen. Ker-arach is essentially a tourist attraction for the few Lolth devotees who know she exists. The cultists consider her a sign of Lolth\u2019s favor, even though she eats hundreds of pounds of meat every few days and doesn\u2019t otherwise contribute to the complex.\nStanding near Ker-arach is a yochlol named Ylellith, which the cultists recently summoned to help with a mission. When the creatures see the characters and realize the characters are enemies, they attack and fight to the death."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.5265646,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-lambent-zeniths-last-voyage.html",
+        "book_path": "Vecna: Eve of Ruin; The Lambent Zenith\u2019s Last Voyage; Into the Astral Sea; Stalkers in the Stars",
+        "monsters": [
+            [
+                2,
+                "4468339-star-angler",
+                3900
+            ]
+        ],
+        "text": "Characters can make a DC 18 Wisdom (Perception) check. On a successful check, a character notices a large, anglerfish-shaped outline following each bobbing light\u2014two hungry star anglers (see appendix A) are stalking the party. The star anglers attack immediately."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.5265646,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-lambent-zeniths-last-voyage.html",
+        "book_path": "Vecna: Eve of Ruin; The Lambent Zenith\u2019s Last Voyage; Wreck of the Lambent Zenith; Traversing Wreck Segments",
+        "monsters": [
+            [
+                2,
+                "2821187-night-scavver",
+                1800
+            ]
+        ],
+        "text": "Two night scavvers (see appendix A)"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.5265646,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-lambent-zeniths-last-voyage.html",
+        "book_path": "Vecna: Eve of Ruin; The Lambent Zenith\u2019s Last Voyage; Wreck of the Lambent Zenith; Traversing Wreck Segments",
+        "monsters": [
+            [
+                1,
+                "4468339-star-angler",
+                3900
+            ]
+        ],
+        "text": "One star angler (see appendix A)"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.5265646,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-lambent-zeniths-last-voyage.html",
+        "book_path": "Vecna: Eve of Ruin; The Lambent Zenith\u2019s Last Voyage; Wreck of the Lambent Zenith; Traversing Wreck Segments",
+        "monsters": [
+            [
+                1,
+                "16826-cloaker",
+                3900
+            ]
+        ],
+        "text": "One cloaker"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.5265646,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-lambent-zeniths-last-voyage.html",
+        "book_path": "Vecna: Eve of Ruin; The Lambent Zenith\u2019s Last Voyage; Wreck of the Lambent Zenith; Traversing Wreck Segments; Stern Segment",
+        "monsters": [
+            [
+                1,
+                "17113-death-slaad",
+                5900
+            ]
+        ],
+        "text": "A death slaad recently infiltrated the camp, sowing chaos and magically manipulating Figaro\u2019s mind. This drove Figaro into a paranoid state, causing him to lock himself in his quarters, where one of the safe room\u2019s ward runes is located."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.5265646,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-lambent-zeniths-last-voyage.html",
+        "book_path": "Vecna: Eve of Ruin; The Lambent Zenith\u2019s Last Voyage; Wreck of the Lambent Zenith; Lambent Zenith Locations; Z1a\u2013Z1b: Sterncastle Deck and Below",
+        "monsters": [
+            [
+                2,
+                "17150-githyanki-knight",
+                3900
+            ]
+        ],
+        "text": "Two lawful neutral githyanki knights named Lysan and Zastra, who served as bosuns on the Lambent Zenith, keep watch here. Characters who want to avoid the githyanki must succeed on a DC 15 Dexterity (Stealth) check. The knights notice characters who fail the check, beckoning them to approach and state their business."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.5265646,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-lambent-zeniths-last-voyage.html",
+        "book_path": "Vecna: Eve of Ruin; The Lambent Zenith\u2019s Last Voyage; Wreck of the Lambent Zenith; Lambent Zenith Locations; Z1a\u2013Z1b: Sterncastle Deck and Below",
+        "monsters": [
+            [
+                1,
+                "17113-death-slaad",
+                5900
+            ]
+        ],
+        "text": "Talking with Ilren. Ilren appears as a boisterous giff\u2014a bulky individual with a head similar to that of a hippopotamus\u2014wearing a sleek red coat. But Ilren is a disguised death slaad who can cast the spell Modify Memory (spell save DC 15) once per day. Ilren is the reason the camp suffers Aberration attacks; the death slaad sneakily directs monsters toward the wreck\u2019s survivors and revels in the victims\u2019 suffering. Ilren also magically modified Figaro\u2019s memories and usurped power in the camp."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.5265646,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-lambent-zeniths-last-voyage.html",
+        "book_path": "Vecna: Eve of Ruin; The Lambent Zenith\u2019s Last Voyage; Wreck of the Lambent Zenith; Lambent Zenith Locations; Z2: Upper Crew Quarters",
+        "monsters": [
+            [
+                5,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "Five lawful good sailors from the Upper Planes (use the veteran stat block, but the sailors are Celestials instead of Humanoids) are lounging here. The sailors are indifferent to the characters but jump into combat to protect themselves and their fellows."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.5265646,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-lambent-zeniths-last-voyage.html",
+        "book_path": "Vecna: Eve of Ruin; The Lambent Zenith\u2019s Last Voyage; Wreck of the Lambent Zenith; Lambent Zenith Locations; Z3: Galley and Pantry",
+        "monsters": [
+            [
+                1,
+                "16790-assassin",
+                3900
+            ]
+        ],
+        "text": "Kycera Duskstride is the Lambent Zenith\u2019s second mate and is a chaotic good, orc assassin. A former pirate, Kycera saw the error of her ways and joined the Lambent Zenith\u2019s crew to find redemption. Now she spends her time in the wreck\u2019s galley. Though the survivors don\u2019t require food in the timeless void of the Astral Sea, Kycera finds that cooking and eating bring the restless survivors comfort."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.5265646,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-lambent-zeniths-last-voyage.html",
+        "book_path": "Vecna: Eve of Ruin; The Lambent Zenith\u2019s Last Voyage; Wreck of the Lambent Zenith; Lambent Zenith Locations; Z4: Mess Hall",
+        "monsters": [
+            [
+                1,
+                "16848-druid",
+                450
+            ]
+        ],
+        "text": "The elf is Daveras, a neutral druid. Daveras joined the camp after his lifeboat crashed into Havock. The remains of his lifeboat rest on the starboard segment."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.5265646,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-lambent-zeniths-last-voyage.html",
+        "book_path": "Vecna: Eve of Ruin; The Lambent Zenith\u2019s Last Voyage; Wreck of the Lambent Zenith; Lambent Zenith Locations; Z4: Mess Hall",
+        "monsters": [
+            [
+                1,
+                "16809-blink-dog",
+                50
+            ]
+        ],
+        "text": "Personal History. Daveras wasn\u2019t part of the Lambent Zenith\u2019s crew. When his spelljamming ship, the Verdant Branch, was attacked by space pirates, he escaped on a lifeboat with his best friend, a blink dog named Ikasa, as well as a treant named Redbud, who had grown into the lifeboat\u2019s hull. The lifeboat crashed into a different segment of the wreck, and Daveras outran the raiders to get to the camp on the stern segment. He believes no one else survived."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.5265646,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-lambent-zeniths-last-voyage.html",
+        "book_path": "Vecna: Eve of Ruin; The Lambent Zenith\u2019s Last Voyage; Wreck of the Lambent Zenith; Lambent Zenith Locations; Z8: Stateroom",
+        "monsters": [
+            [
+                1,
+                "16947-mage",
+                2300
+            ]
+        ],
+        "text": "The tiefling is Figaro, a lawful good mage. If Figaro allowed the characters into his room willingly or if enough individuals vouch for them, Figaro shakily introduces himself and is willing to talk to the characters. Otherwise, he screams and attacks. Figaro surrenders after he is reduced to half of his hit point maximum, but he still refuses to talk with the characters."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.5265646,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-lambent-zeniths-last-voyage.html",
+        "book_path": "Vecna: Eve of Ruin; The Lambent Zenith\u2019s Last Voyage; Wreck of the Lambent Zenith; Lambent Zenith Locations; Z9: Brig",
+        "monsters": [
+            [
+                1,
+                "16832-couatl",
+                1100
+            ]
+        ],
+        "text": "The shouting is coming from a couatl named Cirit, currently in the form of a halfling priest. Cirit was one of the Lambent Zenith\u2019s crew members and was present when Ilren infiltrated the survivors\u2019 camp."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.5265646,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-lambent-zeniths-last-voyage.html",
+        "book_path": "Vecna: Eve of Ruin; The Lambent Zenith\u2019s Last Voyage; Wreck of the Lambent Zenith; Lambent Zenith Locations; Z10: Starboard Top Deck",
+        "monsters": [
+            [
+                1,
+                "17037-treant",
+                5000
+            ]
+        ],
+        "text": "The tree atop the crashed lifeboat is a treant named Redbud (use the treant stat block, but Redbud\u2019s movement speed is 0 feet) that joined the crew and grew into the lifeboat to strengthen its hull. The treant nearly died when the boat crashed, but Redbud survived by sending roots into the Lambent Zenith\u2019s wreck to feed off Havock. Redbud\u2019s main purpose now is protecting the blink dog Ikasa (found in area Z11), who remains trapped aboard the lifeboat."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.5265646,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-lambent-zeniths-last-voyage.html",
+        "book_path": "Vecna: Eve of Ruin; The Lambent Zenith\u2019s Last Voyage; Wreck of the Lambent Zenith; Lambent Zenith Locations; Z11: Grell Nest",
+        "monsters": [
+            [
+                6,
+                "17157-grell",
+                700
+            ]
+        ],
+        "text": "Six grells have made their home here, feeding off hapless raiders looking to pillage this wreck segment. The grells are hostile toward all other creatures."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.5265646,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-lambent-zeniths-last-voyage.html",
+        "book_path": "Vecna: Eve of Ruin; The Lambent Zenith\u2019s Last Voyage; Wreck of the Lambent Zenith; Lambent Zenith Locations; Z12: Lifeboat Wreck",
+        "monsters": [
+            [
+                1,
+                "16809-blink-dog",
+                50
+            ]
+        ],
+        "text": "Ikasa the blink dog is outfitted with a magical collar that allows him to speak Common. Afraid to use his teleportation ability due to the wreck\u2019s warped magic, Ikasa remained in the lifeboat, protected by Redbud."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.5265646,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-lambent-zeniths-last-voyage.html",
+        "book_path": "Vecna: Eve of Ruin; The Lambent Zenith\u2019s Last Voyage; Wreck of the Lambent Zenith; Lambent Zenith Locations; Z15: Captain\u2019s Quarters",
+        "monsters": [
+            [
+                1,
+                "16840-deva",
+                5900
+            ]
+        ],
+        "text": "The one-winged woman is the captain of the Lambent Zenith, Inda Malayuri. Inda uses the deva stat block, except she has a flying speed of 0 feet."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.5265646,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-lambent-zeniths-last-voyage.html",
+        "book_path": "Vecna: Eve of Ruin; The Lambent Zenith\u2019s Last Voyage; Heart of Havock; Areas of the Heart; A2: Ventricle Chamber",
+        "monsters": [
+            [
+                1,
+                "4468328-hertilod",
+                18000
+            ]
+        ],
+        "text": "The creature sleeping on the ceiling is the hertilod (see appendix A) that swallowed the next rod piece. A character can move through the area without waking the hertilod by succeeding on a DC 18 Dexterity (Stealth) check. Otherwise, the hertilod wakes when it detects a creature within 30 feet of itself and attacks."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.689413,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-ruined-colossus.html",
+        "book_path": "Vecna: Eve of Ruin; The Ruined Colossus; Mount Ironrot; Mount Ironrot Locations; Ialos",
+        "monsters": [
+            [
+                5,
+                "4468343-warforged-warrior",
+                200
+            ]
+        ],
+        "text": "From this base, pilgrims venture out to find relics or lost warforged. At such times, 2d4 pilgrims (use the warforged warrior stat block in appendix A) remain in Ialos to guard the mill or patrol its surroundings. When no expedition is underway, thirteen pilgrims (including their leader, Mercy, who also uses the warforged warrior stat block) occupy Ialos. The pilgrims defend their home against attackers, but they flee when they\u2019re outmatched."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.689413,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-ruined-colossus.html",
+        "book_path": "Vecna: Eve of Ruin; The Ruined Colossus; Mount Ironrot; Mount Ironrot Encounters; Warforged Pilgrims",
+        "monsters": [
+            [
+                5,
+                "4468343-warforged-warrior",
+                200
+            ]
+        ],
+        "text": "The characters spot a band of five bipeds walking single file across a distant ridge. These are warforged pilgrims. Each uses the warforged warrior stat block (see appendix A)."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.689413,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-ruined-colossus.html",
+        "book_path": "Vecna: Eve of Ruin; The Ruined Colossus; Mount Ironrot; Mount Ironrot Encounters; Cyran Veterans",
+        "monsters": [
+            [
+                3,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "The characters encounter three lawful neutral veterans wandering through the mist. Once it\u2019s clear the characters aren\u2019t monsters or violent marauders, the wanderers introduce themselves as the Turquoise Spear, a small platoon of Cyran ex-soldiers that scours the Mournland for relics."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.689413,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-ruined-colossus.html",
+        "book_path": "Vecna: Eve of Ruin; The Ruined Colossus; Mount Ironrot; Mount Ironrot Encounters; Blade Scouting Party",
+        "monsters": [
+            [
+                2,
+                "4468315-blade-scout",
+                2900
+            ],
+            [
+                1,
+                "4468314-blade-lieutenant",
+                5000
+            ]
+        ],
+        "text": "As they pass between scorched thickets, the characters are ambushed by violent followers of a bloodthirsty warmonger called the Lord of Blades. These scouts have orders to search the region for a suitable colossus to turn into a new outpost, but they\u2019ll happily make time to slay a few people in their way. The scouting party includes two blade scouts and one blade lieutenant (see appendix A for both stat blocks)."
+    },
+    {
+        "type": "alternate combat",
+        "modified": 1741669509.689413,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-ruined-colossus.html",
+        "book_path": "Vecna: Eve of Ruin; The Ruined Colossus; Landro; Entering Landro",
+        "monsters": [
+            [
+                1,
+                "16998-roc",
+                7200
+            ]
+        ],
+        "text": "The easiest way to enter the colossus is through the mountain caves that lead to area L5. The characters can also search higher up the mountain along outdoor paths for the entrances to caverns that lead to areas L11 and L16. Searching for area L11 takes 2d4 hours, and during the characters\u2019 search, a hungry roc ambushes them. Searching for area L16 takes 3d4 hours, and during the characters\u2019 search, they stumble on a nest with two rocs and one roc egg the height of a human. The angry roc parents attack the characters, though the rocs don\u2019t pursue if the characters flee."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.689413,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-ruined-colossus.html",
+        "book_path": "Vecna: Eve of Ruin; The Ruined Colossus; Landro; Entering Landro",
+        "monsters": [
+            [
+                2,
+                "16998-roc",
+                7200
+            ]
+        ],
+        "text": "The easiest way to enter the colossus is through the mountain caves that lead to area L5. The characters can also search higher up the mountain along outdoor paths for the entrances to caverns that lead to areas L11 and L16. Searching for area L11 takes 2d4 hours, and during the characters\u2019 search, a hungry roc ambushes them. Searching for area L16 takes 3d4 hours, and during the characters\u2019 search, they stumble on a nest with two rocs and one roc egg the height of a human. The angry roc parents attack the characters, though the rocs don\u2019t pursue if the characters flee."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.689413,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-ruined-colossus.html",
+        "book_path": "Vecna: Eve of Ruin; The Ruined Colossus; Landro; Landro Locations; L2: Cave Graveyard",
+        "monsters": [
+            [
+                2,
+                "16865-flying-sword",
+                50
+            ],
+            [
+                2,
+                "16786-animated-armor",
+                200
+            ]
+        ],
+        "text": "If a creature picks up the armor or weapons, two flying swords and two suits of animated armor rise from the scattered gear to reclaim the stolen treasure. They attack the thief and the thief\u2019s allies, but they don\u2019t pursue foes outside this area."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.689413,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-ruined-colossus.html",
+        "book_path": "Vecna: Eve of Ruin; The Ruined Colossus; Landro; Landro Locations; L3: Cave Shack",
+        "monsters": [
+            [
+                3,
+                "17146-fomorian",
+                3900
+            ]
+        ],
+        "text": "This area is separated from the rest of the caves by rickety metal sheets scavenged from the debris of Landro\u2019s right foot (area L5). The area serves as a shelter for three Brelish soldiers who were transformed by the strange magic of the Day of Mourning. Use the fomorian stat block for each soldier, except they are Large instead of Huge.\nThe cowardly soldiers make occasional forays into the caves to smash rats or other easy prey. They attack only if they can surprise the characters, perhaps at the narrow tunnel to the north (area L4), or if the characters are already in a fight with Glaive\u2019s squad. The soldiers know nothing of Landro other than to avoid drinking the graymatter fluid."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.689413,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-ruined-colossus.html",
+        "book_path": "Vecna: Eve of Ruin; The Ruined Colossus; Landro; Landro Locations; L4: Bottleneck",
+        "monsters": [
+            [
+                1,
+                "4468343-warforged-warrior",
+                200
+            ]
+        ],
+        "text": "Regardless of whether the characters fight the strike squad, if they search this area, they find a comatose warforged warrior (see appendix A) in the northeast corner of this area. A character who tries to rouse the warrior and succeeds at a DC 18 Charisma (Persuasion) check wakes the warrior, who identifies themself as Filch. Filch wandered in here shortly after the Day of Mourning looking for their best friend, the warforged Mercy (see the \u201cWarforged Pilgrims\u201d section earlier in this chapter). The stress of the situation caused Filch\u2019s comatose state. Mercy and Filch would be happy to be reunited."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.689413,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-ruined-colossus.html",
+        "book_path": "Vecna: Eve of Ruin; The Ruined Colossus; Landro; Landro Locations; L5: Right Foot",
+        "monsters": [
+            [
+                2,
+                "17013-shrieker",
+                10
+            ]
+        ],
+        "text": "Within the mushroom patch are two shriekers. The shriekers\u2019 high-pitched screams might attract the Brelish soldiers from area L3 or alert one of Glaive\u2019s scouts to the characters\u2019 location."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.689413,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-ruined-colossus.html",
+        "book_path": "Vecna: Eve of Ruin; The Ruined Colossus; Landro; Landro Locations; L10: Artificer Quarters",
+        "monsters": [
+            [
+                1,
+                "16871-ghost",
+                1100
+            ]
+        ],
+        "text": "Sleeping Ghost. The figure dozing in one of the beds is the spirit of Alamar-Vatashi, a soldier who overslept on the Day of Mourning. In life, Alamar-Vatashi was a kalashtar, a Humanoid bound to a dream-spirit called a quori. The Day of Mourning caused her to remain asleep in this chamber. She is a neutral good ghost who can speak Common; she can also communicate telepathically within a range of 30 feet."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.689413,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-ruined-colossus.html",
+        "book_path": "Vecna: Eve of Ruin; The Ruined Colossus; Landro; Landro Locations; L12: Lost Soldier",
+        "monsters": [
+            [
+                1,
+                "16871-ghost",
+                1100
+            ]
+        ],
+        "text": "The lawful good ghost, who says its name is Chandry, pleads with the characters to help it reunite with its comrades inside Landro."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.689413,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-ruined-colossus.html",
+        "book_path": "Vecna: Eve of Ruin; The Ruined Colossus; Landro; Landro Locations; L14: Blazebear Den",
+        "monsters": [
+            [
+                1,
+                "4468316-blazebear",
+                8400
+            ]
+        ],
+        "text": "The monster dwelling here is a blazebear (see appendix A). It attacks any creature it sees and fights until destroyed."
+    },
+    {
+        "type": "alternate combat",
+        "modified": 1741669509.689413,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-ruined-colossus.html",
+        "book_path": "Vecna: Eve of Ruin; The Ruined Colossus; Landro; Landro Locations; L15: Overhang",
+        "monsters": [
+            [
+                1,
+                "4468315-blade-scout",
+                2900
+            ]
+        ],
+        "text": "Assuming they haven\u2019t both been defeated, one of Glaive\u2019s blade scouts (see appendix A) hides on the overhang here while the other scout hides down the eastern tunnel, near area L16. When the characters are within range, the scouts fire their crossbows at a random character."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.689413,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-ruined-colossus.html",
+        "book_path": "Vecna: Eve of Ruin; The Ruined Colossus; Landro; Landro Locations; L19: Muster Point",
+        "monsters": [
+            [
+                3,
+                "17059-wight",
+                700
+            ],
+            [
+                3,
+                "17060-will-o-wisp",
+                450
+            ]
+        ],
+        "text": "Three Cyran soldiers in full regalia stand diligently at the arrow slits in this 30-foot-tall gathering hall. When they become aware of the characters, the soldiers turn to the party, revealing ghostly, screaming skulls instead of faces. The soldiers are three hostile wights. Three will-o\u2019-wisps, previously invisible, appear at the start of combat and fight alongside the wights."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.689413,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-ruined-colossus.html",
+        "book_path": "Vecna: Eve of Ruin; The Ruined Colossus; Landro; Landro Locations; L20: War Room",
+        "monsters": [
+            [
+                1,
+                "17025-stone-golem",
+                5900
+            ]
+        ],
+        "text": "The table is a magically animated servant (use the stone golem stat block). It is designed to defend Landro from enemy boarders. As soon as a creature disturbs the table\u2019s contents, the table reveals its true nature and attacks."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.689413,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-ruined-colossus.html",
+        "book_path": "Vecna: Eve of Ruin; The Ruined Colossus; Landro; Landro Locations; L25: Vault",
+        "monsters": [
+            [
+                1,
+                "16957-mimic",
+                450
+            ]
+        ],
+        "text": "The chest is a mimic in disguise. As soon as a creature touches it, the mimic attacks. Once it has grappled a creature, the mimic attempts to drag its victim outside so it can drop the victim off the edge of the walkway (area L22). Creatures that fall take 45 (13d6) bludgeoning damage."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.689413,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-ruined-colossus.html",
+        "book_path": "Vecna: Eve of Ruin; The Ruined Colossus; Landro; Landro Locations; L27: Weapons System",
+        "monsters": [
+            [
+                1,
+                "4468325-glaive",
+                7200
+            ],
+            [
+                2,
+                "4468315-blade-scout",
+                2900
+            ]
+        ],
+        "text": "In this 15-foot-tall room, which is effectively Landro\u2019s mouth, Glaive (see her stat block earlier in this chapter) makes her final stand against the characters if she has survived this long. Her blade scouts (see appendix A), Rack and Crunch, fight alongside her if they\u2019re still alive."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.689413,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-ruined-colossus.html",
+        "book_path": "Vecna: Eve of Ruin; The Ruined Colossus; Landro; Landro Locations; L28: Graymatter Engine",
+        "monsters": [
+            [
+                4,
+                "17012-shield-guardian",
+                2900
+            ]
+        ],
+        "text": "Hidden Sentinels. This chamber contains false walls made of thin metal plates. A character investigating the walls can tell that they are hollow by succeeding on a DC 17 Wisdom (Perception) check. Behind these walls stand four defense sentinels bound to the graymatter engine (each uses the shield guardian stat block but is Medium instead of Large)."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.689413,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-ruined-colossus.html",
+        "book_path": "Vecna: Eve of Ruin; The Ruined Colossus; Landro; Graymatter Guardian",
+        "monsters": [
+            [
+                1,
+                "17051-water-elemental",
+                1800
+            ]
+        ],
+        "text": "The animated fluid takes the shape of a tall, lithe humanoid and introduces itself as Landro. This neutral-aligned being uses the water elemental stat block, except it has telepathy out to 30 feet."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.908942,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/death-house.html",
+        "book_path": "Vecna: Eve of Ruin; Death House; Arriving in Barovia; Unwelcome Party",
+        "monsters": [
+            [
+                20,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "The mob consists of twenty hostile commoners who surround the characters. As Sarusanda later explains to the characters, the priests of Osybus foresaw the characters\u2019 arrival and sowed foul rumors about them to turn the villagers against them. The characters must diffuse the situation with the villagers before they can proceed."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669509.908942,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/death-house.html",
+        "book_path": "Vecna: Eve of Ruin; Death House; Arriving in Barovia; The Ulmist Inquisition",
+        "monsters": [
+            [
+                1,
+                "1680928-inquisitor-of-the-tome",
+                3900
+            ]
+        ],
+        "text": "After the characters are free of the mob, a cloaked adventurer named Sarusanda Allester approaches them. Sarusanda is a lawful neutral, human inquisitor of the tome (see appendix A) who speaks Celestial, Common, Draconic, and Elvish, and can cast Speak with Dead at will. She introduces herself and asks to speak with the characters in private. The characters can slip into an alley for this discussion, or they can duck into the Blood of the Vine, the village tavern, for a quiet conversation."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.908942,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/death-house.html",
+        "book_path": "Vecna: Eve of Ruin; Death House; Death House; Death House Encounters",
+        "monsters": [
+            [
+                3,
+                "1680942-priest-of-osybus",
+                2300
+            ]
+        ],
+        "text": "Three priests of Osybus (see appendix A) lurk nearby, poised to strike"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.908942,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/death-house.html",
+        "book_path": "Vecna: Eve of Ruin; Death House; Death House; Death House Encounters",
+        "monsters": [
+            [
+                1,
+                "4468344-whirling-chandelier",
+                2900
+            ],
+            [
+                2,
+                "16934-invisible-stalker",
+                2300
+            ]
+        ],
+        "text": "One whirling chandelier (see appendix A) falls on a random character before two invisible stalkers join the surprise attack"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.908942,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/death-house.html",
+        "book_path": "Vecna: Eve of Ruin; Death House; Death House; Death House Encounters",
+        "monsters": [
+            [
+                4,
+                "17044-vampire-spawn",
+                1800
+            ]
+        ],
+        "text": "Four vampire spawn attack the party"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.908942,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/death-house.html",
+        "book_path": "Vecna: Eve of Ruin; Death House; Death House; Death House Encounters",
+        "monsters": [
+            [
+                4,
+                "17159-helmed-horror",
+                1100
+            ]
+        ],
+        "text": "Four helmed horrors, disguised as inanimate suits of armor, attack the characters"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.908942,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/death-house.html",
+        "book_path": "Vecna: Eve of Ruin; Death House; Death House; Meetings with Sarusanda; Wounded Pride",
+        "monsters": [
+            [
+                2,
+                "1680942-priest-of-osybus",
+                1150
+            ]
+        ],
+        "text": "The robed bodies belong to two priests of Osybus (see appendix A), each of whom is stable at 0 hit points. When the characters enter the room, each priest\u2019s Tattoo of Osybus trait causes the priest to rise on its next turn, at which point it attacks the characters."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.908942,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/death-house.html",
+        "book_path": "Vecna: Eve of Ruin; Death House; Death House; Meetings with Sarusanda; S\u00e9ance",
+        "monsters": [
+            [
+                3,
+                "17060-will-o-wisp",
+                450
+            ],
+            [
+                1,
+                "17091-flameskull",
+                1100
+            ]
+        ],
+        "text": "Once Sarusanda is done speaking with the skull, it cackles in grim amusement, then floats into the air. Three will-o\u2019-wisps emerge from corners of the room and join the skull (use the flameskull stat block) in attacking the party and Sarusanda."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.908942,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/death-house.html",
+        "book_path": "Vecna: Eve of Ruin; Death House; Death House; Meetings with Sarusanda; Crisis of Faith",
+        "monsters": [
+            [
+                3,
+                "1680942-priest-of-osybus",
+                2300
+            ]
+        ],
+        "text": "Three priests of Osybus (see appendix A) attack Sarusanda and the party, entering the room from multiple directions if possible."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.908942,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/death-house.html",
+        "book_path": "Vecna: Eve of Ruin; Death House; Death House; Death House Locations; D35: Reliquary",
+        "monsters": [
+            [
+                2,
+                "17011-shambling-mound",
+                1800
+            ]
+        ],
+        "text": "Lurking in the shadows are two shambling mounds that move to attack as soon as anyone enters this room. The cult keeps \u201crelics\u201d in this chamber. These worthless items\u2014human remains, mundane material components for spellcasting, and so forth\u2014are stored in thirteen niches along the walls."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.908942,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/death-house.html",
+        "book_path": "Vecna: Eve of Ruin; Death House; Death House; Death House Locations; D38: Ritual Chamber",
+        "monsters": [
+            [
+                2,
+                "16836-cult-fanatic",
+                450
+            ],
+            [
+                5,
+                "16836-cult-fanatic",
+                450
+            ],
+            [
+                7,
+                "16835-cultist",
+                25
+            ]
+        ],
+        "text": "Cult\u2019s Ritual. The figures along the ledge include Gustav and Elisabeth (cult fanatics), five senior cult members (cult fanatics), and seven cultists. The cult members fight only to defend themselves."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.908942,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/death-house.html",
+        "book_path": "Vecna: Eve of Ruin; Death House; Death House; Death House Locations; D38: Ritual Chamber",
+        "monsters": [
+            [
+                1,
+                "4468337-relentless-impaler",
+                11500
+            ]
+        ],
+        "text": "A relentless impaler (see appendix A) has risen from the pool of Brigetta\u2019s blood on the altar. When the impaler detects the characters, it attacks. The impaler hunts them throughout the house until it is destroyed or the characters defeat it. For its Bloodheart Stake trait, the impaler is bound to the stake in Brigetta\u2019s corpse."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.908942,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/death-house.html",
+        "book_path": "Vecna: Eve of Ruin; Death House; Strahd\u2019s Presence; Death House Hauntings; Ghostly Recital",
+        "monsters": [
+            [
+                8,
+                "17017-specter",
+                200
+            ]
+        ],
+        "text": "If a character makes any noise or otherwise disrupts the performance, the musician\u2014yet another illusion of Strahd\u2014ceases playing, scowls at the character, and disappears. Eight specters fly out of the harpsichord and attack the characters in anger."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669509.908942,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/death-house.html",
+        "book_path": "Vecna: Eve of Ruin; Death House; Leaving the House; Facing Strahd",
+        "monsters": [
+            [
+                1,
+                "4468340-strahd-master-of-death-house",
+                13000
+            ],
+            [
+                2,
+                "17044-vampire-spawn",
+                1800
+            ]
+        ],
+        "text": "After he arrives at Death House, Strahd, Master of Death House (see appendix B) waits for the characters in the house\u2019s main hall (area D2a). He is accompanied by two vampire spawn."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; The Peylon Tree; Peylon Tree Locations; P3: Ledge",
+        "monsters": [
+            [
+                1,
+                "17037-treant",
+                5000
+            ],
+            [
+                2,
+                "16895-giant-spider",
+                200
+            ]
+        ],
+        "text": "Rosintar, a neutral evil treant who hates intruders, hides on this ledge above area P2. Two giant spiders lurk in the ledge\u2019s corner and follow Rosintar\u2019s commands."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; The Peylon Tree; Peylon Tree Locations; P4: Grotto",
+        "monsters": [
+            [
+                1,
+                "17057-werewolf",
+                700
+            ]
+        ],
+        "text": "The rummaging figure is a kender named Riffel who also happens to be a werewolf (use the werewolf stat block, except Riffel\u2019s size is Small and his alignment is neutral good). When Riffel realizes he has company, he jumps to his feet and draws his spear, but he doesn\u2019t fight unless attacked. He is initially wary of the characters but is willing to hear them out. If a character mentions the rod piece, or if a character tries to befriend Riffel and succeeds on a DC 13 Charisma (Persuasion) check, Riffel relaxes and puts away his weapon."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; The Peylon Tree; The Deadbark Dryad",
+        "monsters": [
+            [
+                1,
+                "4468321-deadbark-dryad",
+                10000
+            ]
+        ],
+        "text": "As Riffel and the characters talk, the peylon tree\u2019s guardian emerges from the grotto\u2019s wall and stands before her uninvited guests. This is Gazaia, a deadbark dryad (see appendix A). Annoyed at the disturbance, Gazaia tells the party and Riffel to state their business or leave her sanctum at once."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Bittergrass Fen; Approaching the Fen",
+        "monsters": [
+            [
+                1,
+                "4468318-borthak",
+                13000
+            ]
+        ],
+        "text": "The Blue Fire Wardens are trapped inside their own temple. If the characters don\u2019t intervene, the borthak (see appendix A) will soon break through the temple door."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; The Blue Fire Wardens",
+        "monsters": [
+            [
+                1,
+                "17057-werewolf",
+                700
+            ]
+        ],
+        "text": "Once the wardens are safe, a human werewolf named Argentia Skywright (use the werewolf stat block, except her alignment is neutral good) thanks the characters on behalf of her group. She expands on what Riffel told the party earlier about the Three Moons Vault, conveying the following points:"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Three Moons Vault; Vault Locations; V1: Entrance",
+        "monsters": [
+            [
+                2,
+                "4468333-moonlight-guardian",
+                2300
+            ]
+        ],
+        "text": "Two moonlight guardians (see appendix A) guard this secret entrance. They attack any intruders on sight and fight until destroyed."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Three Moons Vault; Vault Locations; V4: Halls",
+        "monsters": [
+            [
+                4,
+                "17064-wraith",
+                1800
+            ]
+        ],
+        "text": "The creatures are four wraiths. When Akaazi (see area V34) isn\u2019t present, these wraiths lead the small army of Undead soldiers stationed in the underground garrison (area V8). A wraith named Guerthel is Akaazi\u2019s favorite; he carries an iron key that unlocks the doors to areas V7 and area V10."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Three Moons Vault; Vault Locations; V5: Scrying Chamber",
+        "monsters": [
+            [
+                1,
+                "17128-death-knight",
+                18000
+            ]
+        ],
+        "text": "Unknown to Teremini, Lord Soth can send a weaker facsimile of himself through this scrying sphere. If the characters respond to Lord Soth\u2019s manifested face with anything other than deference, a death knight made from the sphere\u2019s silvery metal emerges from the sphere. The death knight inflicts punishment in Soth\u2019s stead, following his directives but requiring no action on Soth\u2019s part. If the death knight is destroyed, the sphere is also destroyed and disappears."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Three Moons Vault; Vault Locations; V7: Valendar\u2019s Cell",
+        "monsters": [
+            [
+                1,
+                "17057-werewolf",
+                700
+            ]
+        ],
+        "text": "The red moonlight from the magical mirror forced Valendar (use the werewolf stat block, except his alignment is chaotic good) to transform into his hybrid form. Valendar\u2019s imprisonment, anger, and fear make it difficult for him to think clearly. He attacks the characters, thinking they are his tormentors."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Three Moons Vault; Vault Locations; V8: Garrison",
+        "monsters": [
+            [
+                16,
+                "17015-skeleton",
+                50
+            ],
+            [
+                9,
+                "17077-zombie",
+                50
+            ],
+            [
+                2,
+                "16970-ogre-zombie",
+                450
+            ]
+        ],
+        "text": "The vault\u2019s Undead soldiers occupy this grim chamber, ready for deployment at a moment\u2019s notice. Unless the soldiers have been called elsewhere to defend the vault or perform drudge work, the garrison contains sixteen skeletons, nine zombies, and two ogre zombies."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Three Moons Vault; Vault Locations; V10: Trapped Black Rose Bearer",
+        "monsters": [
+            [
+                1,
+                "4468313-black-rose-bearer",
+                2300
+            ]
+        ],
+        "text": "The black rose bearer (see appendix A) trapped here is raging at everything in sight. Akaazi (see area V34) locked the bearer in here to prevent it from wreaking havoc throughout the dungeon. The black rose bearer attacks anyone who enters and fights until destroyed."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Three Moons Vault; Vault Locations; V11: Vault Access",
+        "monsters": [
+            [
+                2,
+                "16959-minotaur-skeleton",
+                450
+            ]
+        ],
+        "text": "The two minotaur skeletons attack intruders on sight and fight until destroyed."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Three Moons Vault; Vault Locations; V12: Treasure Vaults",
+        "monsters": [
+            [
+                1,
+                "17111-beholder-zombie",
+                1800
+            ]
+        ],
+        "text": "V12b: Guardian Chamber. A beholder zombie waits inside this vault. Akaazi keeps this zombie apart from the other Undead and reserves it for special tasks. It has orders to attack non-Undead creatures other than Akaazi and Teremini."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Three Moons Vault; Vault Locations; V15: Lunar Shrine",
+        "monsters": [
+            [
+                1,
+                "16916-guardian-naga",
+                5900
+            ]
+        ],
+        "text": "Shrine\u2019s Guardian. Wrapped around the statue is a guardian naga named Casivus. Casivus has guarded this shrine since long before Lord Soth\u2019s forces arrived, and it chafes at the evil doings of Teremini and her minions."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Three Moons Vault; Vault Locations; V18: Veteran Camp",
+        "monsters": [
+            [
+                7,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "The slope immediately leading into this area is guarded by six veterans (lawful evil humans). A seventh veteran is resting in the tent to the north and rushes to help their allies when a fight breaks out. The veterans defend the keep with their lives, knowing that to do otherwise would invite Teremini\u2019s wrath."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Three Moons Vault; Vault Locations; V19: White Tower Lookout",
+        "monsters": [
+            [
+                1,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "The guard is a lawful evil, human veteran. The veteran carries a hollow goat\u2019s horn in addition to her usual gear. If she expects attackers, she pulls up the ladder that connects to area V17 and blows her horn to raise the alarm."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Three Moons Vault; Vault Locations; V22: Lookout Turret",
+        "monsters": [
+            [
+                2,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "Two veterans (lawful evil humans) keep watch atop the turret. If they see or hear the characters approach, they sound their horns, and allies from area V18 arrive in 5 minutes."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Three Moons Vault; Vault Locations; V24: Rookery",
+        "monsters": [
+            [
+                2,
+                "4468317-bone-roc",
+                3900
+            ]
+        ],
+        "text": "These two bone rocs (see appendix A) are trained to ferry passengers to and from a similar rookery near the bottom of the mountain."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Three Moons Vault; Vault Locations; V31: Teremini\u2019s Quarters",
+        "monsters": [
+            [
+                1,
+                "16957-mimic",
+                450
+            ]
+        ],
+        "text": "Mimic. The footlocker is a mimic. Teremini trained the mimic to attack anyone who snoops around her room."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Three Moons Vault; Vault Locations; V33: Muster Yard",
+        "monsters": [
+            [
+                2,
+                "16853-earth-elemental",
+                1800
+            ]
+        ],
+        "text": "Two earth elementals, summoned and bound by Teremini, dwell beneath the mud. If they detect intruders with their tremorsense, the elementals rise from the mud and attack."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Three Moons Vault; Vault Locations; V34. Circle of Undeath",
+        "monsters": [
+            [
+                1,
+                "2560883-necromancer-wizard",
+                5000
+            ],
+            [
+                1,
+                "4468313-black-rose-bearer",
+                2300
+            ]
+        ],
+        "text": "A neutral evil human necromancer wizard (see appendix A) named Akaazi uses this chamber to conduct necromantic rituals and create Undead soldiers for Lord Soth\u2019s army. Akaazi is accompanied by a black rose bearer (see appendix A)."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Three Moons Vault; Vault Locations; V37: Aviary",
+        "monsters": [
+            [
+                20,
+                "16992-raven",
+                10
+            ]
+        ],
+        "text": "Twenty ravens used to deliver messages occupy the flimsy wooden cages."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Three Moons Vault; Upper-Level Locations; U2: Red Lunarium",
+        "monsters": [
+            [
+                1,
+                "4468322-deathwolf",
+                13000
+            ]
+        ],
+        "text": "The skeletal wolf is a deathwolf (see appendix A) created from the body of a slain Blue Fire Warden. Akaazi ordered the deathwolf to attack any intruders during Teremini\u2019s ritual. If it sees the characters, the deathwolf attacks viciously and stops at nothing to destroy its opponents."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Three Moons Vault; Upper-Level Locations; U3: Black Lunarium",
+        "monsters": [
+            [
+                2,
+                "4468313-black-rose-bearer",
+                2300
+            ]
+        ],
+        "text": "Two black rose bearers (see appendix A) have been ordered to defend this lunarium against intruders."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Three Moons Vault; Upper-Level Locations; U5: Moondisk",
+        "monsters": [
+            [
+                1,
+                "16789-archmage",
+                8400
+            ]
+        ],
+        "text": "Teremini (lawful evil, elf archmage) performs her ritual here. The fifth piece of the Rod of Seven Parts floats between Teremini\u2019s outstretched hands."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.0680892,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/night-of-blue-fire.html",
+        "book_path": "Vecna: Eve of Ruin; Night of Blue Fire; Three Moons Vault; Disrupting the Ritual; Orinix Arrives",
+        "monsters": [
+            [
+                1,
+                "2821144-adult-lunar-dragon",
+                10000
+            ]
+        ],
+        "text": "A portal to Lunitari opens where the moondisk once hovered. Orinix, an adult lunar dragon (see appendix A) flies from this portal and looms over the courtyard. Displeased at Teremini\u2019s failure, the dragon attacks everyone in sight, focusing foremost on Teremini."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.2114048,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/tomb-of-wayward-souls.html",
+        "book_path": "Vecna: Eve of Ruin; Tomb of Wayward Souls; Down to Oerth; Kraken Attack!",
+        "bystanders": [
+            [
+                15,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "monsters": [
+            [
+                1,
+                "16940-kraken",
+                25000
+            ]
+        ],
+        "text": "The tentacles belong to a kraken that took damage in an altercation with a hunting boat earlier and has been reduced to 250 hit points. It was lurking off the lagoon\u2019s coast when a group of archaeologists stopped here to fish. Hungry and irate, the kraken ambushed the people, who are desperately trying to escape. The kraken is positioned along the easternmost portion of the 100-foot-deep water shown on map 7.1. The archaeologists are scattered throughout the 2-foot-deep water and along the beach.\nThere are fifteen human and elf archaeologists on the beach. With the exception of Laysa Matulin, Talo Yieria, Vogren Starcloak, and Marian Xavere (who are described in the following sections), the archaeologists use the commoner stat block."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.2114048,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/tomb-of-wayward-souls.html",
+        "book_path": "Vecna: Eve of Ruin; Tomb of Wayward Souls; Down to Oerth; Kraken Attack!; Meeting Laysa Matulin",
+        "monsters": [
+            [
+                1,
+                "16790-assassin",
+                3900
+            ]
+        ],
+        "text": "Laysa is a chaotic good, human, pirate-turned-archaeologist (use the assassin stat block). Descended from the island\u2019s original inhabitants, Laysa seeks to reclaim the treasures stolen from her ancestors. She recruited a crew to help her explore the complex where she believes the treasures are held."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.2114048,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/tomb-of-wayward-souls.html",
+        "book_path": "Vecna: Eve of Ruin; Tomb of Wayward Souls; Down to Oerth; Archaeologist Camp; Talo Yieria and Vogren Starcloak, Priests and Healers",
+        "monsters": [
+            [
+                2,
+                "16985-priest",
+                450
+            ]
+        ],
+        "text": "The elf man is Talo Yieria, and the orc man is Vogren Starcloak. Both are neutral good priests of Celestian, the enigmatic deity of stars and wanderers on Oerth. Though apprehensive about exploring the complex, the couple are dear friends to Laysa and support her efforts."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.2114048,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/tomb-of-wayward-souls.html",
+        "book_path": "Vecna: Eve of Ruin; Tomb of Wayward Souls; Down to Oerth; Archaeologist Camp; Marian Xavere, Resident Mage",
+        "monsters": [
+            [
+                1,
+                "16947-mage",
+                2300
+            ]
+        ],
+        "text": "The human woman poring over a spellbook is the camp\u2019s resident arcana expert, Marian Xavere (neutral mage). Hailing from the mainland, Marian joined Laysa\u2019s crew because of her intense fascination with magical traps and artifacts."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.2114048,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/tomb-of-wayward-souls.html",
+        "book_path": "Vecna: Eve of Ruin; Tomb of Wayward Souls; Into the Tomb; Tomb Locations; T9: Forest of Spirits Mirage",
+        "monsters": [
+            [
+                1,
+                "17037-treant",
+                5000
+            ]
+        ],
+        "text": "The banyan tree is a neutral treant named Abalahin. Abalahin is real, while the rest of the forest is a mirage. The mirage is tactile, so creatures can interact with it."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.2114048,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/tomb-of-wayward-souls.html",
+        "book_path": "Vecna: Eve of Ruin; Tomb of Wayward Souls; Into the Tomb; Tomb Locations; T9: Forest of Spirits Mirage",
+        "monsters": [
+            [
+                1,
+                "17060-will-o-wisp",
+                450
+            ]
+        ],
+        "text": "Bobbing Spirit Lights. There are 1d8 bobbing spirit lights (each uses the will-o\u2019-wisp stat block and speaks Common and Sylvan) that fill the illusory glade at any given time. The spirit lights are part of the mirage, are indifferent to the characters\u2019 presence, and disappear if attacked. Any character with a passive Wisdom (Perception) score of 17 or higher discerns the spirit lights whispering and overhears one of the following remarks:"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.2114048,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/tomb-of-wayward-souls.html",
+        "book_path": "Vecna: Eve of Ruin; Tomb of Wayward Souls; Into the Tomb; Tomb Locations; T11: Strange Altar",
+        "monsters": [
+            [
+                6,
+                "17030-swarm-of-poisonous-snakes",
+                450
+            ]
+        ],
+        "text": "Gold Chest. Six swarms of poisonous snakes teleport into the room. The snakes are hostile."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.2114048,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/tomb-of-wayward-souls.html",
+        "book_path": "Vecna: Eve of Ruin; Tomb of Wayward Souls; Into the Tomb; Tomb Locations; T11: Strange Altar",
+        "monsters": [
+            [
+                1,
+                "17128-death-knight",
+                18000
+            ]
+        ],
+        "text": "Lead Chest. A death knight teleports into the room, appearing in a random unoccupied space within 15 feet of the altar. The knight is hostile."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.2114048,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/tomb-of-wayward-souls.html",
+        "book_path": "Vecna: Eve of Ruin; Tomb of Wayward Souls; Into the Tomb; Tomb Locations; T14: Juggernaut Arena",
+        "monsters": [
+            [
+                2,
+                "4468326-granite-juggernaut",
+                8400
+            ]
+        ],
+        "text": "The room\u2019s ceiling is 10 feet high\u2014barely large enough to accommodate the two granite juggernauts (see appendix A) that trundle between the room\u2019s pillars. The juggernauts attack any intruders they notice, but they won\u2019t strike pillars."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.2114048,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/tomb-of-wayward-souls.html",
+        "book_path": "Vecna: Eve of Ruin; Tomb of Wayward Souls; Into the Tomb; Tomb Locations; T17: Jade Serpent Guardians\u2019 Chamber",
+        "monsters": [
+            [
+                1,
+                "16952-marilith",
+                15000
+            ],
+            [
+                2,
+                "17019-spirit-naga",
+                3900
+            ]
+        ],
+        "text": "The central statue uses the marilith stat block but is a Construct. This central statue controls the two cobra statues; each cobra statue uses the spirit naga stat block but is a Construct. The statues speak Common. The statues are hostile toward any creature that enters the chamber."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.2114048,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/tomb-of-wayward-souls.html",
+        "book_path": "Vecna: Eve of Ruin; Tomb of Wayward Souls; Into the Tomb; Tomb Locations; T19: Library",
+        "monsters": [
+            [
+                5,
+                "17025-stone-golem",
+                5900
+            ]
+        ],
+        "text": "Guardians. Whenever an item is removed from this room\u2019s shelves, one of the five skeletal statues here springs to life. The statue uses the stone golem stat block but is Medium and hostile, attacking whichever creature took the item. The statue remains active until the triggering item is returned or until the statue is destroyed. Multiple statues can be active at once."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.2114048,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/tomb-of-wayward-souls.html",
+        "book_path": "Vecna: Eve of Ruin; Tomb of Wayward Souls; Into the Tomb; Tomb Locations; T24: Underwater Trench Mirage",
+        "monsters": [
+            [
+                1,
+                "16894-giant-shark",
+                1800
+            ]
+        ],
+        "text": "A hostile giant shark swims beneath the characters. The shark is part of the mirage, though it can harm characters who don\u2019t pierce the illusion. The shark can\u2019t harm anyone outside the room."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.2114048,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/tomb-of-wayward-souls.html",
+        "book_path": "Vecna: Eve of Ruin; Tomb of Wayward Souls; Into the Tomb; Tomb Locations; T26: Crypt",
+        "monsters": [
+            [
+                1,
+                "4468324-false-lich",
+                33000
+            ]
+        ],
+        "text": "The figure sitting on the throne is Rerak, a false lich (see appendix A). Although alert, Rerak remains motionless until he takes damage or a creature moves within 15 feet of him, at which point he becomes hostile and attacks."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; Descending into Avernus; Hell of a Ride",
+        "monsters": [
+            [
+                3,
+                "16858-erinyes",
+                8400
+            ]
+        ],
+        "text": "The infernal war machine Venatrix has room for four Medium or smaller creatures to ride inside the vehicle, including its driver, and for four Medium or smaller creatures to ride in its upper, open-air area. Three erinyes crew the Venatrix: Nykaia, who leaps out to greet the characters, and Kypris and Mykale, who are inside."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; Descending into Avernus; Goristro Raid",
+        "monsters": [
+            [
+                1,
+                "17156-goristro",
+                18000
+            ],
+            [
+                2,
+                "17047-vrock",
+                2300
+            ]
+        ],
+        "text": "The hulking goristro is flanked by two vrocks. Inside the goristro\u2019s palanquin are two hezrous and five quasits, as well as the \u201ctreasure\u201d that the erinyes are after: a unicorn named Sterling in an iron cage.\nNykaia explains that Kypris will drive the war machine close to the goristro. The three erinyes will then fly to the palanquin to defeat the demons within while the characters slay the goristro.\nThe goristro defends itself. If the vrocks see that the goristro is losing, they join the fight. The three erinyes easily dispatch the demons in the palanquin."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; The Red Belvedere; Casino Lobby",
+        "monsters": [
+            [
+                1,
+                "4468345-windfall",
+                50000
+            ]
+        ],
+        "text": "The winged tiefling is Windfall, a champion of Tiamat and the proprietor of the Red Belvedere (see the accompanying stat block). A performer at heart, Windfall is ostentatious and charismatic, making small talk with regular patrons and jovially welcoming new faces to the casino."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; The Red Belvedere; Casino Security",
+        "monsters": [
+            [
+                3,
+                "16979-pit-fiend",
+                25000
+            ]
+        ],
+        "text": "Each room of the casino is supervised by a trio of pit fiends. They are silent observers and intervene only if a patron starts a fight or is caught cheating (see the \u201cCheating in the Red Belvedere\u201d sidebar)."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; The Red Belvedere; Casino Pit Masters; Kaylan Renaudon",
+        "monsters": [
+            [
+                1,
+                "17043-vampire",
+                10000
+            ]
+        ],
+        "text": "Kaylan is a devious vampire who arrived in Avernus after dodging a group of vampire hunters on the Material Plane. When Windfall refurbished the Red Belvedere, the tiefling employed Kaylan to design the ever-shifting halls of the casino\u2019s Stygian Maze. Kaylan now presides over the maze, gleefully watching patrons wander the confounding passages in search of riches."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; The Red Belvedere; Casino Pit Masters; Khai Kiroth",
+        "monsters": [
+            [
+                1,
+                "2560902-red-abishai",
+                22000
+            ]
+        ],
+        "text": "Khai is a boisterous red abishai (see appendix A) and the master of the casino\u2019s fighting pit. He relishes bloodshed, and his laughter booms over the gore-stained arena. Khai fancies himself the strongest of the pit masters, and he chafes under Windfall\u2019s leadership. Khai dedicates every death in the coliseum to Tiamat."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; The Red Belvedere; Casino Pit Masters; Nyssa Otellion",
+        "monsters": [
+            [
+                1,
+                "2560742-blue-abishai",
+                18000
+            ]
+        ],
+        "text": "A stoic and haughty blue abishai (see appendix A), Nyssa serves as the master of the casino\u2019s games of strategy and intellect. Nyssa prides herself on being an unbeatable foe in battles of wit. However, Nyssa doesn\u2019t hesitate to resort to underhanded methods to achieve victory, citing her opponent\u2019s inability to notice her cheating as a failure of intellect."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; The Red Belvedere; Casino Pit Masters; Rezran \u201cSnake Eyes\u201d Agrodro",
+        "monsters": [
+            [
+                1,
+                "2560838-green-abishai",
+                13000
+            ]
+        ],
+        "text": "Rezran, a greedy green abishai (see appendix A), is the master of the casino\u2019s games of chance. His nickname \u201cSnake Eyes\u201d comes from his penchant for rolling ones in Triple Hydra (see the \u201cViridian Den\u201d section for an explanation of the game\u2019s rules). Rezran is an opportunist to his core, always chasing after riches. He is a devoted follower of Tiamat and covets the Dragon Queen\u2019s amassed wealth."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; The Red Belvedere; Casino Pit Masters; Uvashar",
+        "monsters": [
+            [
+                1,
+                "16990-rakshasa",
+                10000
+            ]
+        ],
+        "text": "Uvashar is a suave, white-furred rakshasa and the master of the casino\u2019s nightmare racing circuit. Uvashar can often be found indulging in fine food and music in a private viewing box."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; Casino Rooms; Alabaster Racetrack; Stables",
+        "monsters": [
+            [
+                1,
+                "16979-pit-fiend",
+                25000
+            ],
+            [
+                1,
+                "16800-barbed-devil",
+                1800
+            ]
+        ],
+        "text": "One pit fiend serves as security for the area. The six nightmares (named Chicanery, Far Gambit, Blinx, Cursed Cavalry, Sunshroud, and Retribution) stamp impatiently in their stalls, and a barbed devil jockey attends to each one."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; Casino Rooms; Scarlet Coliseum; Entering the Coliseum",
+        "monsters": [
+            [
+                3,
+                "17110-barlgura",
+                1800
+            ]
+        ],
+        "text": "Tier 1. Barlguras are released into the arena\u2014one for each member of the opposing team."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; Casino Rooms; Scarlet Coliseum; Entering the Coliseum",
+        "monsters": [
+            [
+                1,
+                "16987-purple-worm",
+                13000
+            ]
+        ],
+        "text": "Tier 2. A purple worm erupts through the floor of the arena."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; Casino Rooms; Scarlet Coliseum; Entering the Coliseum",
+        "monsters": [
+            [
+                2,
+                "16935-iron-golem",
+                15000
+            ]
+        ],
+        "text": "Tier 3. Two iron statues built to resemble pit fiends lumber into the arena. They use the iron golem stat block but have iron wings that give them a flying speed of 30 feet."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; Casino Rooms; Scarlet Coliseum; Pit Master\u2019s Challenge",
+        "monsters": [
+            [
+                1,
+                "2560902-red-abishai",
+                22000
+            ],
+            [
+                2,
+                "16927-horned-devil",
+                7200
+            ]
+        ],
+        "text": "Final Showdown. An excited crowd has gathered in the coliseum. Khai has two horned devils on his team. Khai fights ruthlessly but offers cheerful commentary during the combat, lauding the characters for their skill and mocking their failings."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; Casino Rooms; Stygian Maze; Navigating the Maze; Challenge Chambers",
+        "monsters": [
+            [
+                5,
+                "16957-mimic",
+                450
+            ]
+        ],
+        "text": "Five mimics, all disguised as treasure chests, occupy this room. Disturbing one mimic causes them all to attack."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; Casino Rooms; Stygian Maze; Navigating the Maze; Challenge Chambers",
+        "monsters": [
+            [
+                3,
+                "17051-water-elemental",
+                1800
+            ]
+        ],
+        "text": "This room is filled with 1-foot-deep water. A thin wooden plank spans the water, connecting the room’s entrance and exit. A creature crossing the plank must succeed on a DC 17 Dexterity (Acrobatics) check or fall into the water. The first time a creature touches the water, three water elementals appear and attack."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; Casino Rooms; Stygian Maze; Navigating the Maze; Challenge Chambers",
+        "monsters": [
+            [
+                1,
+                "16804-behir",
+                7200
+            ]
+        ],
+        "text": "A hostile but sleeping behir lies curled around a chest. A creature that approaches the behir must succeed on a DC 16 Dexterity (Stealth) check to avoid being noticed. The chest is unlocked and contains 50 talons and one Soul Coin."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; Casino Rooms; Stygian Maze; Navigating the Maze; Challenge Chambers",
+        "monsters": [
+            [
+                3,
+                "16934-invisible-stalker",
+                2300
+            ]
+        ],
+        "text": "A large vase filled with 100 talons sits in the center of the room. The vase is guarded by three invisible stalkers, which attack any creature that touches the vessel."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; Casino Rooms; Stygian Maze; Navigating the Maze; Challenge Chambers",
+        "monsters": [
+            [
+                1,
+                "16935-iron-golem",
+                15000
+            ]
+        ],
+        "text": "A hostile iron golem patrols this room and immediately attacks intruders. If the golem is destroyed, a character who searches the golem’s remains finds three Soul Coins."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; Dragon\u2019s Pride; Features of Dragon\u2019s Pride; Security",
+        "monsters": [
+            [
+                1,
+                "16979-pit-fiend",
+                25000
+            ]
+        ],
+        "text": "A pit fiend stands guard in each room. The pit fiends are silent observers who intervene if a fight breaks out."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; Dragon\u2019s Pride; Dragon\u2019s Pride Locations; N1: Wyrmsong Cantina",
+        "monsters": [
+            [
+                1,
+                "16931-ice-devil",
+                11500
+            ],
+            [
+                1,
+                "16927-horned-devil",
+                7200
+            ]
+        ],
+        "text": "The bartender is an ice devil named Oganath, who uses its frigid claws to instantly chill the drinks it serves. At any given time, 2d4 horned devils relax in the lounge."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; Dragon\u2019s Pride; Dragon\u2019s Pride Locations; N2: Enchanting Arcana",
+        "monsters": [
+            [
+                1,
+                "16990-rakshasa",
+                10000
+            ]
+        ],
+        "text": "The store is run by a vainglorious rakshasa lapidary named Krysocol, who has several pieces for sale:"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; Dragon\u2019s Pride; Dragon\u2019s Pride Locations; N3: Virtuous Vices",
+        "monsters": [
+            [
+                2,
+                "16858-erinyes",
+                8400
+            ]
+        ],
+        "text": "The spa is run by two erinyes named Vitia and Vertu. They offer two services:"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; Dragon\u2019s Pride; Dragon\u2019s Pride Locations; N4: Windfall\u2019s Office",
+        "monsters": [
+            [
+                2,
+                "16979-pit-fiend",
+                25000
+            ]
+        ],
+        "text": "The door to the office is locked and guarded by two pit fiends. Each pit fiend standing guard also carries a key to the office door for emergency purposes. Opening the door without the proper key requires thieves\u2019 tools and a successful DC 20 Dexterity (Sleight of Hand) check, or a Knock spell or similar magic."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; Dragon\u2019s Pride; Dragon\u2019s Pride Locations; N5: Ruby Sanctum",
+        "monsters": [
+            [
+                1,
+                "4468345-windfall",
+                50000
+            ]
+        ],
+        "text": "The ceilings in this chamber are 45 feet high. Windfall (see her stat block earlier in this chapter) is hostile to trespassers in the sanctum."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; Dragon\u2019s Pride; Dragon\u2019s Pride Locations; N5: Ruby Sanctum",
+        "monsters": [
+            [
+                1,
+                "4468345-windfall",
+                50000
+            ]
+        ],
+        "text": "Otherwise, Tiamat releases Windfall from her magical restraints, instructs the tiefling to eradicate the party, and leaves to commune with her other champions. Only after Windfall is defeated can the characters acquire the final piece of the rod. For more about the Rod of Seven Parts, see this book\u2019s introduction."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.3772094,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-dragon-queens-pride.html",
+        "book_path": "Vecna: Eve of Ruin; The Dragon Queen\u2019s Pride; Dragon\u2019s Pride; Dragon\u2019s Pride Locations; N5: Ruby Sanctum",
+        "monsters": [
+            [
+                1,
+                "16782-ancient-red-dragon",
+                62000
+            ]
+        ],
+        "text": "To Tiamat\u2019s Lair. The narrow tunnel to the south eventually leads to Tiamat\u2019s lair. This entrance is currently guarded by Drekarvynix, an ancient red dragon, who demands the characters leave unless they can prove their legitimate business in Tiamat\u2019s lair. Unless the characters provide a compelling reason to enter, Drekarvynix attacks them. The red dragon doesn\u2019t pursue the characters back through the tunnel to Dragon\u2019s Pride."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.4475367,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-betrayer-revealed.html",
+        "book_path": "Vecna: Eve of Ruin; The Betrayer Revealed; Returning from Avernus",
+        "monsters": [
+            [
+                1,
+                "4468330-kas-the-betrayer",
+                50000
+            ]
+        ],
+        "text": "When the characters return from Avernus with the final piece of the Rod of Seven Parts, Kas\u2014disguised as Mordenkainen\u2014greets them inside the sanctum. He appears giddy yet terrified, unable to hide his honest emotions."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.4475367,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-betrayer-revealed.html",
+        "book_path": "Vecna: Eve of Ruin; The Betrayer Revealed; Returning from Avernus; If the Characters Decline; Missing Malaina",
+        "monsters": [
+            [
+                1,
+                "16947-mage",
+                2300
+            ]
+        ],
+        "text": "In reality, Malaina was suspicious of Mordenkainen, but she didn\u2019t want to make accusations without proof. Malaina was seeking a scholar named Velgar Vera (neutral good, orc mage). Velgar is a friend to Mordenkainen and has visited Mordenkainen\u2019s home in Avernus. Velgar wasn\u2019t in his shop earlier today, so Malaina lingered in the Market Ward, waiting for the orc to return."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.4475367,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-betrayer-revealed.html",
+        "book_path": "Vecna: Eve of Ruin; The Betrayer Revealed; Returning from Avernus; If the Characters Decline; Fighting Kas",
+        "monsters": [
+            [
+                1,
+                "4468330-kas-the-betrayer",
+                50000
+            ]
+        ],
+        "text": "It\u2019s unlikely, but one or more characters might be present when Kas reveals his true identity. In this case, use the stat block presented in the \u201cKas the Betrayer\u201d section in appendix B. Kas focuses on stealing the rod and using the portal to travel to Pandesmos. If the characters defeat Kas, he reveals the location of Vecna\u2019s ritual: the Cave of Shattered Reflection in Pandesmos on the plane of Pandemonium. Kas also reveals he planned to use the rod to free Miska the Wolf-Spider and ally with the demon lord to overtake Vecna."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.4475367,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-betrayer-revealed.html",
+        "book_path": "Vecna: Eve of Ruin; The Betrayer Revealed; Pandesmos Outlook; General Features; Demons",
+        "monsters": [
+            [
+                2,
+                "4468323-degloth",
+                7200
+            ],
+            [
+                2,
+                "4468342-vlazok",
+                7200
+            ]
+        ],
+        "text": "The chaos and violence brewing in the area attracts demons. Within 10 feet of the bottom of the cliff\u2019s lowest shelf are two degloths and two vlazoks (see appendix A for stat blocks for both). The exact placement of the demons is at your discretion. If they notice the characters, the demons attack. A demon that sees a fight break out rushes to join in the combat, hoping to make an easy kill."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.6587234,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-war-of-pandesmos.html",
+        "book_path": "Vecna: Eve of Ruin; The War of Pandesmos; Carapace Ridge",
+        "monsters": [
+            [
+                4,
+                "4468335-quavilithku-spyder-fiend",
+                18000
+            ],
+            [
+                3,
+                "4468329-kakkuu-spyder-fiend",
+                1800
+            ]
+        ],
+        "text": "Four spyder-fiend combatants of the battle linger near the characters: a quavilithku spyder-fiend and three kakkuu spyder-fiends (stat blocks for both appear in appendix A). They\u2019re busily hollowing out the corpse of a massive citadel spider (see appendix A) as a bunker for use if the battle shifts back this way. If they spot the characters, the spyder-fiends scuttle out of the citadel spider and skitter around its corpse to attack. The spyder-fiends retreat to the carapace if they start to lose the fight."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.6587234,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-war-of-pandesmos.html",
+        "book_path": "Vecna: Eve of Ruin; The War of Pandesmos; Carapace Ridge; Vaeve\u2019s Offer",
+        "monsters": [
+            [
+                1,
+                "17135-drow-mage",
+                2900
+            ]
+        ],
+        "text": "A neutral drow mage named Vaeve is lurking around the battlefield, initially out of sight. Vaeve spots the fighting and realizes that the characters are her best hope for allies. She reveals herself as the battle winds down, perhaps joining the fight against the kakkuus once the characters defeat the dangerous quavilithku."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.6587234,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-war-of-pandesmos.html",
+        "book_path": "Vecna: Eve of Ruin; The War of Pandesmos; Carapace Ridge; Avoiding the War; Flight",
+        "monsters": [
+            [
+                3,
+                "4468327-hazvongel",
+                11500
+            ]
+        ],
+        "text": "Camlash\u2019s citadel spiders (see appendix A) function as artillery, but the skies are predominantly under Miska\u2019s control thanks to powerful flying demons pledged to his service. If the characters fly around or above the battle, three hazvongels (see appendix A) soar down from the wispy cloud cover to attack. The hazvongels fight to the death. If the characters don\u2019t fly directly toward the cliffside redoubt after this fight, another trio of hazvongels attacks from a different direction. After this second attack, the demons steer clear of the flying characters."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.6587234,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-war-of-pandesmos.html",
+        "book_path": "Vecna: Eve of Ruin; The War of Pandesmos; Carapace Ridge; Avoiding the War; Flight",
+        "monsters": [
+            [
+                3,
+                "4468327-hazvongel",
+                11500
+            ]
+        ],
+        "text": "Camlash\u2019s citadel spiders (see appendix A) function as artillery, but the skies are predominantly under Miska\u2019s control thanks to powerful flying demons pledged to his service. If the characters fly around or above the battle, three hazvongels (see appendix A) soar down from the wispy cloud cover to attack. The hazvongels fight to the death. If the characters don\u2019t fly directly toward the cliffside redoubt after this fight, another trio of hazvongels attacks from a different direction. After this second attack, the demons steer clear of the flying characters."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.6587234,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-war-of-pandesmos.html",
+        "book_path": "Vecna: Eve of Ruin; The War of Pandesmos; Carapace Ridge; The Ruinous Sea; Swimming the Ruinous Sea",
+        "monsters": [
+            [
+                1,
+                "16940-kraken",
+                50000
+            ]
+        ],
+        "text": "In addition to that danger, the Ruinous Sea is also inhabited by evil chaos krakens (a chaos kraken uses the kraken stat block but is immune to the Ruinous Sea\u2019s damage). A chaos kraken named Vashishax lurks in the Ruinous Sea near the beach. Vashishax considers this war among outsiders to be irrelevant, though the kraken is spying on the battle out of curiosity. Vashishax considers any intrusion into the Ruinous Sea to be a personal insult and fights any creature that spends more than a minute within it. Vashishax isn\u2019t willing to die here; if reduced to fewer than 100 hit points, the kraken flees to its lair many miles deeper in the Ruinous Sea."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.6587234,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-war-of-pandesmos.html",
+        "book_path": "Vecna: Eve of Ruin; The War of Pandesmos; Hurricane Tower; Reaching the Tower",
+        "monsters": [
+            [
+                2,
+                "16847-drider",
+                2300
+            ],
+            [
+                3,
+                "16895-giant-spider",
+                200
+            ],
+            [
+                2,
+                "16790-assassin",
+                3900
+            ]
+        ],
+        "text": "If the characters are careless or fail to fool Lolth\u2019s forces, they might face a squad of 1d4 driders, 1d6 giant spiders, and 1d4 assassins. Characters who defeat the squad can try again to infiltrate the tower."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.6587234,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-war-of-pandesmos.html",
+        "book_path": "Vecna: Eve of Ruin; The War of Pandesmos; Hurricane Tower; Tower Locations; X1: Vestibule",
+        "monsters": [
+            [
+                1,
+                "16790-assassin",
+                3900
+            ],
+            [
+                1,
+                "16947-mage",
+                2300
+            ],
+            [
+                3,
+                "16847-drider",
+                2300
+            ]
+        ],
+        "text": "A drow assassin named Althein and a wood elf mage named Vendrasha, both faithful of Lolth, pray to the Spider Queen at the altar. Of the apparent four driders, three driders are what they appear to be; the fourth is a phisarazu spyder-fiend (see appendix A) named Rachazz, who is masquerading as a drider using its Change Shape ability."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.6587234,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-war-of-pandesmos.html",
+        "book_path": "Vecna: Eve of Ruin; The War of Pandesmos; Hurricane Tower; Tower Locations; X2: Tower Base",
+        "monsters": [
+            [
+                1,
+                "4468319-camlash",
+                41000
+            ]
+        ],
+        "text": "Camlash doesn’t consider intruders much of a threat and gloats about how foolish the characters are to meddle in Lolth’s affairs. After taunting the characters, Camlash fights to the death."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.6587234,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-war-of-pandesmos.html",
+        "book_path": "Vecna: Eve of Ruin; The War of Pandesmos; Hurricane Tower; Tower Locations; X2: Tower Base",
+        "monsters": [
+            [
+                4,
+                "16847-drider",
+                2300
+            ]
+        ],
+        "text": "Causing a Rout. Lolth\u2019s forces receive regular instructions from Camlash. If the characters eliminate the general but otherwise keep their presence in Hurricane Tower secret, a squad of four driders checks on Camlash in 10 minutes, and a squad of six driders arrives a few minutes later."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.6587234,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-war-of-pandesmos.html",
+        "book_path": "Vecna: Eve of Ruin; The War of Pandesmos; Hurricane Tower; Tower Locations; X2: Tower Base",
+        "monsters": [
+            [
+                6,
+                "16847-drider",
+                2300
+            ]
+        ],
+        "text": "Causing a Rout. Lolth\u2019s forces receive regular instructions from Camlash. If the characters eliminate the general but otherwise keep their presence in Hurricane Tower secret, a squad of four driders checks on Camlash in 10 minutes, and a squad of six driders arrives a few minutes later."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.6587234,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-war-of-pandesmos.html",
+        "book_path": "Vecna: Eve of Ruin; The War of Pandesmos; Ruinous Citadel; Ruinous Citadel Locations; Y1: Drill Field",
+        "monsters": [
+            [
+                9,
+                "4468329-kakkuu-spyder-fiend",
+                1800
+            ]
+        ],
+        "text": "Nine kakkuu spyder-fiends (see appendix A) drill on this beach while awaiting orders from the battle leaders in the citadel. They find marching in formation dull and are eager to rejoin the battle raging on the clifftop above. The kakkuus rush toward any opportunity for combat, so characters can draw them away with any ruse that promises bloodshed. A badly injured kakkuu flees the area, hoping to hide out elsewhere amid the chaos of war."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.6587234,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-war-of-pandesmos.html",
+        "book_path": "Vecna: Eve of Ruin; The War of Pandesmos; Ruinous Citadel; Ruinous Citadel Locations; Y2: Guard Hall",
+        "monsters": [
+            [
+                2,
+                "4468334-phisarazu-spyder-fiend",
+                10000
+            ]
+        ],
+        "text": "Two phisarazu spyder-fiends (see appendix A) flank the open door that leads to area Y3. The phisarazus don\u2019t leave this chamber, but they attack intruders on sight and fight to the death."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.6587234,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-war-of-pandesmos.html",
+        "book_path": "Vecna: Eve of Ruin; The War of Pandesmos; Ruinous Citadel; Ruinous Citadel Locations; Y4: Vault",
+        "monsters": [
+            [
+                1,
+                "17135-drow-mage",
+                2900
+            ]
+        ],
+        "text": "The spyder-fiends dump their spoils of war here. The room\u2019s only occupant is a neutral drow mage named Naxa, who is wearing a Cloak of Arachnida she found here. The cloak allows Naxa to climb on walls and ceilings, and she is currently on the vault\u2019s ceiling."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.6587234,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-war-of-pandesmos.html",
+        "book_path": "Vecna: Eve of Ruin; The War of Pandesmos; Ruinous Citadel; Ruinous Citadel Locations; Y5: Planning Chamber",
+        "monsters": [
+            [
+                1,
+                "4468336-raklupis-spyder-fiend",
+                22000
+            ],
+            [
+                2,
+                "4468329-kakkuu-spyder-fiend",
+                1800
+            ]
+        ],
+        "text": "A raklupis spyder-fiend named Jallizanx is here with two kakkuu spyder-fiends (for both stat blocks, see appendix A). The kakkuus are relaying orders to troops fighting elsewhere, and Jallizanx is deciding how to give directions the dim-witted kakkuus can be reasonably expected to convey. When they see the characters, the kakkuus rush into melee while Jallizanx hangs back to cast spells and hurl venom globes. If the kakkuus are defeated and Jallizanx is plainly losing the fight, Jallizanx teleports away and doesn\u2019t return. If the characters capture Jallizanx, the spyder-fiend tells the characters about the scrolls described in the \u201cTreasure\u201d section and offers this loot in exchange for its life."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.6587234,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-war-of-pandesmos.html",
+        "book_path": "Vecna: Eve of Ruin; The War of Pandesmos; Ruinous Citadel; Ruinous Citadel Locations; Y7: Miska\u2019s Prison-Hall",
+        "monsters": [
+            [
+                1,
+                "4468336-raklupis-spyder-fiend",
+                22000
+            ],
+            [
+                1,
+                "4468334-phisarazu-spyder-fiend",
+                10000
+            ]
+        ],
+        "text": "A raklupis spyder-fiend named Uvonxu is here along with a phisarazu spyder-fiend bodyguard (for both stat blocks, see appendix A). Uvonxu coordinates with Miska on strategy, while the phisarazu takes notes to relay to the troops. Both immediately attack intruders. The phisarazu tries to stun enemies and then attacks in melee while Uvonxu hangs back to cast spells. These spyder-fiends fight to the death to defend Miska."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.6587234,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-war-of-pandesmos.html",
+        "book_path": "Vecna: Eve of Ruin; The War of Pandesmos; Cliffside Redoubt; Cliffside Redoubt Locations; F1: Upper Bunker",
+        "monsters": [
+            [
+                1,
+                "4468320-citadel-spider",
+                20000
+            ],
+            [
+                4,
+                "16847-drider",
+                2300
+            ]
+        ],
+        "text": "Lolth\u2019s forces batter at this bunker to reach Kas, who is lower in the redoubt. A citadel spider (see appendix A) attacks the structure while four driders direct its efforts. They expect retaliation from Miska\u2019s forces and are quick to attack unfamiliar creatures. If Lolth\u2019s forces were routed due to Camlash\u2019s defeat, the four driders are gone but the citadel spider remains to stubbornly bash at the bunker. It attacks anyone who comes near."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.6587234,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-war-of-pandesmos.html",
+        "book_path": "Vecna: Eve of Ruin; The War of Pandesmos; Cliffside Redoubt; Cliffside Redoubt Locations; F2: Lower Entrance",
+        "monsters": [
+            [
+                1,
+                "4468336-raklupis-spyder-fiend",
+                22000
+            ],
+            [
+                3,
+                "4468334-phisarazu-spyder-fiend",
+                10000
+            ]
+        ],
+        "text": "A raklupis spyder-fiend named Kalzak and three phisarazu spyder-fiends (for both stat blocks, see appendix A) keep guard here. Kalzak uses Disguise Self to maintain the form of a white-haired and bearded human ascetic leaning against a pillar. The phisarazus are disguised as crabs scuttling around the rubble, keeping watch while looking innocuous among the harmless crabs native to the beach."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.6587234,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-war-of-pandesmos.html",
+        "book_path": "Vecna: Eve of Ruin; The War of Pandesmos; Cliffside Redoubt; Cliffside Redoubt Locations; F3: Central Chamber",
+        "monsters": [
+            [
+                1,
+                "4468330-kas-the-betrayer",
+                50000
+            ]
+        ],
+        "text": "Unless the characters encountered him elsewhere, Kas the Betrayer (see appendix B) broods here on his throne. He feasted on the corpses and drained their bodies of blood. See the \u201cFighting Kas\u201d section below for information about running this confrontation."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.6587234,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/the-war-of-pandesmos.html",
+        "book_path": "Vecna: Eve of Ruin; The War of Pandesmos; Fighting Kas",
+        "monsters": [
+            [
+                1,
+                "4468330-kas-the-betrayer",
+                50000
+            ]
+        ],
+        "text": "The characters encounter Kas the Betrayer in one of three places: in area X2 of Hurricane Tower after toppling the structure, in area Y7 of the Ruinous Citadel after sealing Miska away, or in area F3 of the cliffside redoubt."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.7617135,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/eve-of-ruin.html",
+        "book_path": "Vecna: Eve of Ruin; Eve of Ruin; Torment of Kas; Castle Locations; K1: Ruined Bailey",
+        "monsters": [
+            [
+                2,
+                "2560748-cadaver-collector",
+                11500
+            ]
+        ],
+        "text": "The hulking figures the characters saw from afar are two cadaver collectors (see appendix A). The monstrous war machines sift through the rubble of this ruined courtyard for remains. They attack creatures on sight, eager to add more corpses to their collections."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.7617135,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/eve-of-ruin.html",
+        "book_path": "Vecna: Eve of Ruin; Eve of Ruin; Torment of Kas; Castle Locations; K3: Receiving Room",
+        "monsters": [
+            [
+                1,
+                "17128-death-knight",
+                18000
+            ]
+        ],
+        "text": "The armored figure is a death knight who stands guard in this ruined hall. It is indifferent toward creatures that enter this chamber and hostile toward creatures that try to leave area K4 or area K5. As soon as it sees a creature leave area K4 or K5, the death knight moves to intercept and slay the escapees."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669510.7617135,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/eve-of-ruin.html",
+        "book_path": "Vecna: Eve of Ruin; Eve of Ruin; Torment of Kas; Castle Locations; K5: Kas\u2019s Chamber",
+        "monsters": [
+            [
+                1,
+                "4468330-kas-the-betrayer",
+                50000
+            ]
+        ],
+        "text": "This is Vecna\u2019s imagined version of Kas the Betrayer (see appendix B). Unlike the real Kas, whom the characters encountered in the previous chapter, this imagined Kas is despondent and has no interest in fighting. Kas doesn\u2019t recognize the characters and is open to speaking with them, though he is bored by any topic of conversation that doesn\u2019t involve his own predicament. As long as he is shackled, Kas\u2019s speed is 5 feet, and he is unable to leave the room. The ball he\u2019s shackled to can\u2019t be moved, even by magical means."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.7617135,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/eve-of-ruin.html",
+        "book_path": "Vecna: Eve of Ruin; Eve of Ruin; Neverwinter\u2019s New King",
+        "monsters": [
+            [
+                12,
+                "17059-wight",
+                700
+            ]
+        ],
+        "text": "If the characters make their presence known, Lord Neverember orders the twelve wights below the balcony to apprehend the characters and place them in the gallows. Lord Neverember doesn\u2019t join the fight unless the wights are destroyed or the characters attack him."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.7617135,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/eve-of-ruin.html",
+        "book_path": "Vecna: Eve of Ruin; Eve of Ruin; Neverwinter\u2019s New King",
+        "monsters": [
+            [
+                1,
+                "17128-death-knight",
+                18000
+            ]
+        ],
+        "text": "Lord Neverember (use the death knight stat block) is unwilling to part with his crown; he fights the characters to withhold the symbol of his rulership."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.7617135,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/eve-of-ruin.html",
+        "book_path": "Vecna: Eve of Ruin; Eve of Ruin; Dead Gods",
+        "bystanders": [
+            [
+                1,
+                "2560727-astral-dreadnought",
+                33000
+            ]
+        ],
+        "monsters": [
+            [
+                6,
+                "2821163-eye-monger",
+                5900
+            ]
+        ],
+        "text": "The behemoth is a dying astral dreadnought that\u2019s being preyed on by six eye mongers (see appendix A for both stat blocks). The dreadnought has only 150 hit points remaining, it has no remaining uses of its Legendary Resistance trait, and its flying speed is reduced to 20 feet until its hit points are fully restored. The eye mongers focus their attacks on the astral dreadnought unless the characters stop them."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.7617135,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/eve-of-ruin.html",
+        "book_path": "Vecna: Eve of Ruin; Eve of Ruin; Dead Gods; Arekanz\u2019s Donjon Locations; G2: Sword Bridge",
+        "monsters": [
+            [
+                3,
+                "2821163-eye-monger",
+                5900
+            ]
+        ],
+        "text": "Three eye mongers (see appendix A) swallowed by Arekanz lurk below the sword. They attack any characters who cross the sword bridge."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.7617135,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/eve-of-ruin.html",
+        "book_path": "Vecna: Eve of Ruin; Eve of Ruin; Dead Gods; Arekanz\u2019s Donjon Locations; G3: Horror\u2019s Fissure",
+        "monsters": [
+            [
+                1,
+                "2821160-cosmic-horror",
+                20000
+            ]
+        ],
+        "text": "The fissure is 30 feet deep. As the characters approach, it shudders as a cosmic horror (see appendix A) slithers out of it from the east to feast on the characters\u2019 minds and bodies."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.7617135,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/eve-of-ruin.html",
+        "book_path": "Vecna: Eve of Ruin; Eve of Ruin; Cave of Shattered Reflection; Cave Locations; R1: Shattered Grotto",
+        "monsters": [
+            [
+                2,
+                "17128-death-knight",
+                18000
+            ]
+        ],
+        "text": "The bottom of the pit is a flat, cylindrical chamber of smooth crystal. When the characters reach the bottom of the pit, two Undead monsters emerge from the pit\u2019s walls and attack the party. The monsters use the death knight stat block and represent potent secrets Vecna has hoarded."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.7617135,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/eve-of-ruin.html",
+        "book_path": "Vecna: Eve of Ruin; Eve of Ruin; Cave of Shattered Reflection; Cave Locations; R3: Ritual Chamber",
+        "monsters": [
+            [
+                4,
+                "4468331-mirror-shade",
+                5900
+            ]
+        ],
+        "text": "Four mirror shades (see appendix A) lurk within the crystal walls. (If the characters already destroyed the one in area R2, there are three mirror shades in this chamber instead of four.) The mirror shades are servants of Vecna tasked with slaying intruders. The mirror shades use their Mirror Movement trait to move through the crystal walls."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669510.7617135,
+        "book": "Vecna: Eve of Ruin",
+        "path": "./library/stripped/sources/veor/eve-of-ruin.html",
+        "book_path": "Vecna: Eve of Ruin; Eve of Ruin; Cave of Shattered Reflection; Cave Locations; R3: Ritual Chamber",
+        "monsters": [
+            [
+                1,
+                "2590978-vecna-the-archlich",
+                90000
+            ]
+        ],
+        "text": "Vecna the Archlich (see appendix B) is weaving his Ritual of Remaking. He is too focused to pay the characters any mind unless they confront him directly. Vecna is funneling energy into the ritual in addition to the power of the secrets his cult gathered, so the lich is considerably less powerful than he normally is. Unlike the characters, Vecna can move through this area as if its doors were normal."
+    }
+]

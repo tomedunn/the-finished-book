@@ -1,0 +1,2227 @@
+[
+    {
+        "type": "non-combat",
+        "modified": 1754588705.928724,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-1-death-at-sunset.html",
+        "book_path": "Dragon Delves; Chapter 1: Death at Sunset; Adventure Background; The Council",
+        "monsters": [
+            [
+                1,
+                "5174957-scout",
+                100
+            ]
+        ],
+        "text": "Armin Whisperwind. Armin (Medium Scout) left Redwood Watch to investigate reports of the grove\u2019s corruption a month ago. He never returned. The villagers worry something terrible befell him, saying the skilled elf tracker would never have abandoned Redwood Watch permanently. (The wyrmling is now forcing Armin to defend area R4.)"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588705.928724,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-1-death-at-sunset.html",
+        "book_path": "Dragon Delves; Chapter 1: Death at Sunset; Adventure Background; The Council",
+        "monsters": [
+            [
+                1,
+                "5195169-priest-acolyte",
+                50
+            ]
+        ],
+        "text": "Gwenhumara Goldmoss. Gwenhumara (Medium Priest Acolyte) is an elf healer who tended to the wounded after the battle against Death-at-Sunset. Recently, she\u2019s had nightmares of the dragon\u2019s return; she worries that the dragon\u2019s spirit lingers among the redwoods\u2019 roots. Gwenhumara happily heals characters who are injured, though she is too afraid to leave the village herself."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588705.928724,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-1-death-at-sunset.html",
+        "book_path": "Dragon Delves; Chapter 1: Death at Sunset; Adventure Background; The Council",
+        "monsters": [
+            [
+                1,
+                "5195145-noble",
+                25
+            ]
+        ],
+        "text": "Selenar Woodwise. Selenar (Medium Noble) was among the elf warriors in Death-at-Sunset\u2019s lair when the ancient green dragon died, and he is erroneously convinced the forest\u2019s corruption isn\u2019t related to dragons. Selenar holds a deep reverence for nature and is anxious for the characters to identify the threat against the forest."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588705.928724,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-1-death-at-sunset.html",
+        "book_path": "Dragon Delves; Chapter 1: Death at Sunset; Exploring Redwood Watch; Village Green; Fergus\u2019s Grill",
+        "monsters": [
+            [
+                1,
+                "5194951-commoner",
+                10
+            ]
+        ],
+        "text": "The elf cook Fergus Deerborn (Medium Commoner), an elegant man in constant motion, runs a small eatery out of the village green. Fergus creates simple yet tasty dishes from donated mushrooms, berries, lichens, herbs, rabbit, venison, and other forest bounties. Fergus\u2019s food is available to visitors for a small donation, as is the fine elven wine produced by the council-owned winery."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588705.928724,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-1-death-at-sunset.html",
+        "book_path": "Dragon Delves; Chapter 1: Death at Sunset; Exploring Redwood Watch; Village Green; Traveling Merchant",
+        "monsters": [
+            [
+                1,
+                "5194951-commoner",
+                10
+            ]
+        ],
+        "text": "A traveling merchant named Sunny Lightpurse (Small Commoner) recently set up shop in Redwood Watch. Sunny is a golden-haired halfling with a perpetual smile that\u2019s true to her name. Each day in the village green, Sunny unpacks her wares from a heavily laden wagon. When not doing business, Sunny cheerily praises her two horses, Buttercup and Daisy, and chats with passersby."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588705.928724,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-1-death-at-sunset.html",
+        "book_path": "Dragon Delves; Chapter 1: Death at Sunset; Redwood Grove; Redwood Grove Locations; R3: Dryad\u2019s Tree",
+        "monsters": [
+            [
+                1,
+                "5194977-dryad",
+                200
+            ]
+        ],
+        "text": "This is Kaynen, a Dryad who made this tree his home just before Sunset-Is-Nigh hatched. Kaynen is initially Hostile toward the characters, assuming they are bandits and commanding the characters not to touch his tree. If the characters respect Kaynen\u2019s request, his attitude becomes Indifferent."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588705.928724,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-1-death-at-sunset.html",
+        "book_path": "Dragon Delves; Chapter 1: Death at Sunset; Redwood Grove; Redwood Grove Locations; R3: Dryad\u2019s Tree",
+        "monsters": [
+            [
+                1,
+                "4775847-venomous-snake",
+                25
+            ]
+        ],
+        "text": "Slithering Spy. After the characters talk with Kaynen for a few minutes, a Venomous Snake slithers toward the tree, partially hidden by its roots. A character with a Passive Perception of 13+ notices the snake, which is a spy for Marilissa, the yuan-ti in area L3. If the characters fight the snake, the snake attacks once before it tries to flee back through the lair\u2019s entrance (area R4)."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588705.928724,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-1-death-at-sunset.html",
+        "book_path": "Dragon Delves; Chapter 1: Death at Sunset; Redwood Grove; Redwood Grove Locations; R4: Lair Entrance",
+        "monsters": [
+            [
+                1,
+                "5174957-scout",
+                100
+            ],
+            [
+                1,
+                "4775828-mastiff",
+                25
+            ]
+        ],
+        "text": "This is the entrance to Death-at-Sunset\u2019s lair (see \u201cDeath-at-Sunset\u2019s Lair\u201d). The missing elf council member, Armin Whisperwind (Medium Scout), and his Mastiff, Fletcher, hide here behind roots near the opening\u2019s northeast corner and watch the characters."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588705.928724,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-1-death-at-sunset.html",
+        "book_path": "Dragon Delves; Chapter 1: Death at Sunset; Redwood Grove; Redwood Grove Locations; R5: Muddy Bog",
+        "monsters": [
+            [
+                3,
+                "5195133-mud-mephit",
+                50
+            ]
+        ],
+        "text": "Three Mud Mephits hide in the mud, drawn here by the dragon\u2019s latent evil magic. The mephits stay hidden until at least one character enters the mud, then they ambush the characters. If two mephits are destroyed, the third tries to escape."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588705.928724,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-1-death-at-sunset.html",
+        "book_path": "Dragon Delves; Chapter 1: Death at Sunset; Redwood Grove; Redwood Grove Locations; R6: Centipede Nest",
+        "monsters": [
+            [
+                1,
+                "5195224-swarm-of-insects",
+                100
+            ],
+            [
+                1,
+                "5195014-giant-centipede",
+                50
+            ]
+        ],
+        "text": "The forest\u2019s corruption has attracted a nest of deadly centipedes that hide in the tree\u2019s bark. When a character moves next to the tree, a Swarm of Insects (centipedes) and a Giant Centipede skitter from behind the bark and roots to fight the characters."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588705.928724,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-1-death-at-sunset.html",
+        "book_path": "Dragon Delves; Chapter 1: Death at Sunset; Redwood Grove; Redwood Grove Locations; R7: Gruesome Camp",
+        "monsters": [
+            [
+                3,
+                "4775851-zombie",
+                50
+            ]
+        ],
+        "text": "The three corpses here are actually Zombies animated by the corrupted forest\u2019s foul energies. The zombies attack when a character moves within 5 feet of one of the zombies or when a character tries to take a tree bark sample from the redwood."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588705.928724,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-1-death-at-sunset.html",
+        "book_path": "Dragon Delves; Chapter 1: Death at Sunset; Death-at-Sunset\u2019s Lair; Lair Locations; L1: Guarded Tunnel",
+        "monsters": [
+            [
+                4,
+                "5195065-guard",
+                25
+            ]
+        ],
+        "text": "Hiding in an alcove along the northwest wall are four elves (Medium Guards) from Redwood Watch: Darrin, Jherris, Lyrienne, and Rayna. The elves are Hostile toward the characters. As soon as the characters venture more than 10 feet into this area, the elves begin combat, screaming at the characters to leave and never return."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588705.928724,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-1-death-at-sunset.html",
+        "book_path": "Dragon Delves; Chapter 1: Death at Sunset; Death-at-Sunset\u2019s Lair; Lair Locations; L2: Snake Pit",
+        "monsters": [
+            [
+                2,
+                "5195030-giant-venomous-snake",
+                50
+            ],
+            [
+                1,
+                "4775809-constrictor-snake",
+                50
+            ],
+            [
+                6,
+                "4775847-venomous-snake",
+                25
+            ]
+        ],
+        "text": "This pit is home to the snake pets of Marilissa, the yuan-ti in area L3. The pit contains two Giant Venomous Snakes, one Constrictor Snake, and six Venomous Snakes. The snakes don\u2019t leave the pit on their own and fight any character who enters it."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588705.928724,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-1-death-at-sunset.html",
+        "book_path": "Dragon Delves; Chapter 1: Death at Sunset; Death-at-Sunset\u2019s Lair; Lair Locations; L3: Marilissa\u2019s Quarters",
+        "monsters": [
+            [
+                1,
+                "5195290-yuan-ti-malison-type-1",
+                700
+            ],
+            [
+                1,
+                "4775847-venomous-snake",
+                25
+            ]
+        ],
+        "text": "This is Marilissa, a Yuan-ti Malison (Type 1), and a Venomous Snake pet she named Robby."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588705.928724,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-1-death-at-sunset.html",
+        "book_path": "Dragon Delves; Chapter 1: Death at Sunset; Death-at-Sunset\u2019s Lair; Lair Locations; L4: Root Cellar",
+        "monsters": [
+            [
+                1,
+                "5195252-vine-blight",
+                100
+            ],
+            [
+                1,
+                "5195242-twig-blight",
+                25
+            ]
+        ],
+        "text": "A Vine Blight and a Twig Blight remain motionless here until a character ventures more than 10 feet into this area. The blights then advance toward the characters and fight to the death."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588705.928724,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-1-death-at-sunset.html",
+        "book_path": "Dragon Delves; Chapter 1: Death at Sunset; Death-at-Sunset\u2019s Lair; Lair Locations; L5: Centipede Infestation",
+        "monsters": [
+            [
+                2,
+                "5195224-swarm-of-insects",
+                100
+            ],
+            [
+                2,
+                "5195014-giant-centipede",
+                50
+            ]
+        ],
+        "text": "Two Swarms of Insects (centipedes) and two Giant Centipedes crawl across these walls. The insects fight any creature that moves within 5 feet of the north or south wall in this area."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588705.928724,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-1-death-at-sunset.html",
+        "book_path": "Dragon Delves; Chapter 1: Death at Sunset; Death-at-Sunset\u2019s Lair; Lair Locations; L6: Corpse Chamber",
+        "monsters": [
+            [
+                1,
+                "5195056-green-dragon-wyrmling",
+                450
+            ]
+        ],
+        "text": "Sunset-Is-Nigh, the Green Dragon Wyrmling who hatched from Death-at-Sunset\u2019s egg, lives in this chamber. The wyrmling skitters through his mother\u2019s skeleton, trying to lure the characters into the poisonous miasma that hangs in the air. As soon as a character enters the miasma, the wyrmling starts combat. If Marilissa, the yuan-ti in area L3, notices battle here, she comes to help Sunset-Is-Nigh, arriving at the end of the third round of combat."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.0568297,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-2-bakers-doesnt.html",
+        "book_path": "Dragon Delves; Chapter 2: Baker\u2019s Doesn\u2019t; Confectionery Conflagration; Rescuing Edith",
+        "monsters": [
+            [
+                1,
+                "5194951-commoner",
+                10
+            ]
+        ],
+        "text": "Edith (Small, Neutral Evil Commoner) is in her golden years. She wears spectacles and frumpy clothing and sports braided pigtails that suggest her youthful personality. Edith is Friendly toward her rescuers."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.0568297,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-2-bakers-doesnt.html",
+        "book_path": "Dragon Delves; Chapter 2: Baker\u2019s Doesn\u2019t; Fill\u2019s Bakery; Arrival at the Bakery",
+        "monsters": [
+            [
+                1,
+                "5194915-bandit",
+                25
+            ]
+        ],
+        "text": "Fill Flourforge (Medium Bandit) wears a flour-stained apron. He is Friendly and welcomes all customers warmly."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.0568297,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-2-bakers-doesnt.html",
+        "book_path": "Dragon Delves; Chapter 2: Baker\u2019s Doesn\u2019t; The Candy Cottage; Cottage Locations; C1: Porch",
+        "monsters": [
+            [
+                1,
+                "5194896-animated-rug-of-smothering",
+                450
+            ]
+        ],
+        "text": "The doormat is an Animated Rug of Smothering made of soft candy. It attacks visitors who don\u2019t wipe their feet before entering the cottage. Otherwise, the rug remains motionless."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.0568297,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-2-bakers-doesnt.html",
+        "book_path": "Dragon Delves; Chapter 2: Baker\u2019s Doesn\u2019t; The Candy Cottage; Cottage Locations; C5: Taffy Factory",
+        "monsters": [
+            [
+                3,
+                "4831002-bugbear-warrior",
+                200
+            ]
+        ],
+        "text": "Three Bugbear Warriors make taffy in this room. The bugbears work for Uncle Nibblecheek and are Hostile toward intruders. In combat, they attempt to shove characters into the taffy puller (described below)."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.0568297,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-2-bakers-doesnt.html",
+        "book_path": "Dragon Delves; Chapter 2: Baker\u2019s Doesn\u2019t; The Candy Cottage; Cottage Locations; C7: Candied Apple Orchard",
+        "monsters": [
+            [
+                3,
+                "5194977-dryad",
+                200
+            ]
+        ],
+        "text": "Three candy Dryads (see \u201cCandy Creatures\u201d) hide within the trees, watching for interlopers. A character who surveys the trees and succeeds on a DC 16 Wisdom (Perception) check notices a dryad."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.0568297,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-2-bakers-doesnt.html",
+        "book_path": "Dragon Delves; Chapter 2: Baker\u2019s Doesn\u2019t; The Candy Cottage; Cottage Locations; C8: Chocatrice Barn",
+        "monsters": [
+            [
+                4,
+                "5194949-cockatrice",
+                100
+            ]
+        ],
+        "text": "Four chocatrices dwell in this barn and attack intruders on sight. Each one uses the Cockatrice stat block, but a creature who gains the Petrified condition from its Petrifying Bite turns to chocolate instead of stone."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.0568297,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-2-bakers-doesnt.html",
+        "book_path": "Dragon Delves; Chapter 2: Baker\u2019s Doesn\u2019t; The Candy Cottage; Cottage Locations; C9: Bubba Wugga",
+        "monsters": [
+            [
+                1,
+                "4904825-ogre",
+                450
+            ]
+        ],
+        "text": "The doll, Bubba Wugga, is positioned in front of the double door and refuses to let visitors enter the kitchen (area C10), per Uncle Nibblecheek\u2019s instructions. Bubba Wugga is a Construct that knows Common and Elvish; it otherwise uses the Ogre stat block. It wields a lollipop-shaped Greatclub and succeeds automatically on saving throws against spells that compel it to disobey Uncle Nibblecheek\u2019s orders."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.0568297,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-2-bakers-doesnt.html",
+        "book_path": "Dragon Delves; Chapter 2: Baker\u2019s Doesn\u2019t; The Candy Cottage; Cottage Locations; C10: Candy Kitchen",
+        "monsters": [
+            [
+                1,
+                "5195057-green-hag",
+                700
+            ],
+            [
+                1,
+                "5195051-gold-dragon-wyrmling",
+                700
+            ]
+        ],
+        "text": "Uncle Nibblecheek, an irritable Green Hag, works in this busy kitchen. The hag is initially Indifferent toward the characters but can\u2019t abide guests in his kitchen; the longer they linger here, the more irritable he becomes until his attitude shifts to Hostile."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.0568297,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-2-bakers-doesnt.html",
+        "book_path": "Dragon Delves; Chapter 2: Baker\u2019s Doesn\u2019t; The Candy Cottage; Cottage Locations; C14: Gummy Mummy\u2019s Tomb",
+        "monsters": [
+            [
+                1,
+                "5195135-mummy",
+                700
+            ],
+            [
+                2,
+                "5195087-ice-mephit",
+                100
+            ]
+        ],
+        "text": "This tomb honors a selfish prince cursed by Uncle Nibblecheek. Now a gummy Mummy, the prince lies within the sarcophagus, guarded by two coconut Ice Mephits. A character can lift or push aside the sarcophagus lid with a successful DC 15 Strength (Athletics) check."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.0568297,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-2-bakers-doesnt.html",
+        "book_path": "Dragon Delves; Chapter 2: Baker\u2019s Doesn\u2019t; The Candy Cottage; Cottage Locations; C15: Striped Dungeon",
+        "monsters": [
+            [
+                4,
+                "5195235-tough",
+                100
+            ]
+        ],
+        "text": "The four gingerbread people Chaotic Evil Toughs armed with rolling pins that function as Maces) attack intruders on sight. The gingerbread people know Common and Elvish."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.0568297,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-2-bakers-doesnt.html",
+        "book_path": "Dragon Delves; Chapter 2: Baker\u2019s Doesn\u2019t; Conclusion; Uncle Nibblecheek\u2019s Revenge",
+        "monsters": [
+            [
+                8,
+                "5195050-goblin-warrior",
+                50
+            ]
+        ],
+        "text": "If Uncle Nibblecheek survives the adventure and the characters dealt significant damage to his cottage or minions, the hag retaliates by hiring a gang of eight Goblin Warriors to kill the characters. These goblins stalk the characters for several days before carrying out their mission. The goblins are cowards, however, and cease fighting if the battle turns against them."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.1811192,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-3-the-will-of-orcus.html",
+        "book_path": "Dragon Delves; Chapter 3: The Will of Orcus; Beginning the Adventure",
+        "monsters": [
+            [
+                1,
+                "5194951-commoner",
+                10
+            ]
+        ],
+        "text": "Oriann Solaris is a Friendly innkeeper (Medium, Lawful Good Commoner) who gives the characters free lodging for the night and urges them to visit the temple at daybreak."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.1811192,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-3-the-will-of-orcus.html",
+        "book_path": "Dragon Delves; Chapter 3: The Will of Orcus; The Temple of Orcus; Xia\u2019s Cult",
+        "monsters": [
+            [
+                1,
+                "5195007-ghast",
+                450
+            ]
+        ],
+        "text": "Xia, the cult\u2019s leader, is a ghast\u2014an Undead servant of Orcus. A few ghouls serve as her personal assistants, and zombies under Xia\u2019s control perform menial labor for the cult. The rest of the cult consists of three people who range from fanatical to deluded in serving the Demon Prince of Undeath."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.1811192,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-3-the-will-of-orcus.html",
+        "book_path": "Dragon Delves; Chapter 3: The Will of Orcus; Temple Locations; T1: Temple Entry",
+        "monsters": [
+            [
+                2,
+                "5195009-ghoul",
+                200
+            ],
+            [
+                1,
+                "4904746-cultist-fanatic",
+                450
+            ],
+            [
+                3,
+                "4775851-zombie",
+                50
+            ]
+        ],
+        "text": "Two Ghouls keep watch on the stairs while Akira Norixius (Medium, Chaotic Evil Cultist Fanatic)\u2014a fanatical dragonborn devotee of Orcus\u2014supervises the inept labor of three Zombies. Xia ordered the group to topple the statues in this room and sweep up the rubble for removal. Akira and the ghouls are Hostile and fight anyone not wearing the crimson robes of Xia\u2019s Cult. The zombies attack at Akira\u2019s command."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.1811192,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-3-the-will-of-orcus.html",
+        "book_path": "Dragon Delves; Chapter 3: The Will of Orcus; Temple Locations; T4: Hall of Swiveling Statues",
+        "monsters": [
+            [
+                1,
+                "5194996-flaming-skeleton",
+                700
+            ],
+            [
+                4,
+                "4775841-skeleton",
+                50
+            ]
+        ],
+        "text": "Skeletal Remains. This room holds five piles of skeletal remains (see \u201cTemple Features\u201d). The first time someone opens one of the secret doors to the vaults (area T14) in this room, one set of remains animates, ignites in unholy fire, and becomes a Flaming Skeleton, while the other four piles animate and each form a Skeleton. The skeletons are Hostile toward all creatures except Undead."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.1811192,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-3-the-will-of-orcus.html",
+        "book_path": "Dragon Delves; Chapter 3: The Will of Orcus; Temple Locations; T6: Occult Library",
+        "monsters": [
+            [
+                1,
+                "4904746-cultist-fanatic",
+                450
+            ],
+            [
+                2,
+                "5174956-ogre-zombie",
+                450
+            ]
+        ],
+        "text": "Following the statue of Orcus\u2019s instructions, Xia commanded the cultist\u2014a dwarf named Eleith Brittlebones (Medium, Chaotic Evil Cultist Fanatic)\u2014to destroy everything in this library. Eleith commands two Ogre Zombies to do the heavy labor. The cultist and zombies are Hostile and fight anyone not wearing the crimson robes of Xia\u2019s cult."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.1811192,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-3-the-will-of-orcus.html",
+        "book_path": "Dragon Delves; Chapter 3: The Will of Orcus; Temple Locations; T6: Occult Library",
+        "monsters": [
+            [
+                1,
+                "5195008-ghost",
+                1100
+            ]
+        ],
+        "text": "Ghostly Librarian. The spectral figure in the alcove is the Ghost of Melindra Vox, the librarian of the earlier Orcus cult. She is Chaotic Evil and initially Indifferent toward visitors. She is furious that the zombies are ruining her collection of books and scrolls but can\u2019t stop them herself, as she has vowed never to harm cult allies. When she notices the characters, Melindra assumes they are intruders who aren\u2019t subject to such vows, and she beseeches them to destroy the Ogre Zombies. If the characters oblige, Melindra becomes Friendly toward them. If they refuse to help, she remains Indifferent."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.1811192,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-3-the-will-of-orcus.html",
+        "book_path": "Dragon Delves; Chapter 3: The Will of Orcus; Temple Locations; T7: Dining Hall",
+        "monsters": [
+            [
+                1,
+                "4904746-cultist-fanatic",
+                450
+            ]
+        ],
+        "text": "Cultist. The young man sitting at the table (facing the secret door in the south wall) is Yondis Morgrin (Medium, Chaotic Neutral Cultist Fanatic), a member of Xia\u2019s Cult who is questioning his participation in it. He was initially attracted to the promise of being transformed into an Undead creature even more powerful than Xia, and he likes to pretend he is Undead already. He wears pasty makeup, shambles like a zombie, and eats undercooked and spoiling meat, but the disguise fools no one."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.1811192,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-3-the-will-of-orcus.html",
+        "book_path": "Dragon Delves; Chapter 3: The Will of Orcus; Temple Locations; T11. Ritual Chamber",
+        "monsters": [
+            [
+                1,
+                "5174960-wraith",
+                1800
+            ]
+        ],
+        "text": "Cell C contains the bones of a treacherous tiefling cultist who tried and failed to overthrow the temple\u2019s high priest. Disturbing this skeleton causes the traitor\u2019s spirit to manifest as a Wraith and fight the characters."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.1811192,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-3-the-will-of-orcus.html",
+        "book_path": "Dragon Delves; Chapter 3: The Will of Orcus; Temple Locations; T12: Ghastly Work",
+        "monsters": [
+            [
+                1,
+                "5195006-ghast-gravecaller",
+                2300
+            ],
+            [
+                4,
+                "5195009-ghoul",
+                200
+            ],
+            [
+                4,
+                "4775851-zombie",
+                50
+            ]
+        ],
+        "text": "The woman is Xia, a Ghast Gravecaller. Accompanying her are four Ghouls. Xia has tasked four Zombies in crimson Robes to paint fluffy white clouds and silver dragons on the wall, in accordance with instructions given to her by the statue of Orcus in the next room (area T13). One zombie steadies each Ladder while another zombie perches precariously near the top, paintbrush and paint pot in hand. Xia bitterly admonishes the zombies for their shabby work."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.1811192,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-3-the-will-of-orcus.html",
+        "book_path": "Dragon Delves; Chapter 3: The Will of Orcus; Temple Locations; T13: Great Statue of Orcus",
+        "monsters": [
+            [
+                1,
+                "5195206-silver-dragon-wyrmling",
+                450
+            ]
+        ],
+        "text": "Nezzarum, a Silver Dragon Wyrmling who knows Common, lurks inside the statue of Orcus. The dragon can gaze out into the hall through the statue\u2019s hollow eyes, nostrils, and mouth. When not manipulating Xia into doing his bidding, Nezzarum passes the time by playing games of dragonchess against himself. The dragonchess set in his possession is stolen (see \u201cStolen Goods\u201d below)."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.1811192,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-3-the-will-of-orcus.html",
+        "book_path": "Dragon Delves; Chapter 3: The Will of Orcus; Temple Locations; T14: Secret Vaults",
+        "monsters": [
+            [
+                1,
+                "5174959-swarm-of-crawling-claws",
+                700
+            ]
+        ],
+        "text": "A Hostile Swarm of Crawling Claws nests in the statue\u2019s nooks and crannies, emerging to attack when the statue is disturbed."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.1811192,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-3-the-will-of-orcus.html",
+        "book_path": "Dragon Delves; Chapter 3: The Will of Orcus; Temple Locations; T14: Secret Vaults",
+        "monsters": [
+            [
+                1,
+                "5194995-flameskull",
+                1100
+            ]
+        ],
+        "text": "Disturbing the statue causes its head to split open, releasing a Hostile Flameskull."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.1811192,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-3-the-will-of-orcus.html",
+        "book_path": "Dragon Delves; Chapter 3: The Will of Orcus; Temple Locations; T14: Secret Vaults",
+        "monsters": [
+            [
+                1,
+                "5195135-mummy",
+                700
+            ]
+        ],
+        "text": "The statue acts as a sarcophagus. Disturbing the statue causes it to break apart, freeing the Hostile Mummy inside."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.1811192,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-3-the-will-of-orcus.html",
+        "book_path": "Dragon Delves; Chapter 3: The Will of Orcus; Temple Locations; T14: Secret Vaults",
+        "monsters": [
+            [
+                4,
+                "5195210-specter",
+                200
+            ]
+        ],
+        "text": "Disturbing the statue causes four Specters to emerge from cavities behind the walls. They pass through the walls and engage the characters in combat."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.1811192,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-3-the-will-of-orcus.html",
+        "book_path": "Dragon Delves; Chapter 3: The Will of Orcus; Temple Locations; T14: Secret Vaults",
+        "monsters": [
+            [
+                1,
+                "5194925-black-pudding",
+                1100
+            ]
+        ],
+        "text": "Disturbing the statue causes it to disgorge a Hostile Black Pudding."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.298514,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-4-for-whom-the-void-calls.html",
+        "book_path": "Dragon Delves; Chapter 4: For Whom the Void Calls; Starglass Waypoint; Lower Level Locations; S3: Fountain Court",
+        "monsters": [
+            [
+                1,
+                "5195261-water-elemental",
+                1800
+            ]
+        ],
+        "text": "Crystal Fountain. Closer examination of the fountain reveals stagnant, murky water. If the water is disturbed, a Hostile Water Elemental lurking in the fountain ambushes the characters."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.298514,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-4-for-whom-the-void-calls.html",
+        "book_path": "Dragon Delves; Chapter 4: For Whom the Void Calls; Starglass Waypoint; Lower Level Locations; S4: Forge",
+        "monsters": [
+            [
+                1,
+                "5195128-modron-duodrone",
+                50
+            ]
+        ],
+        "text": "The rattling comes from a nervous Modron Duodrone cowering inside the stove. Characters who open the stove\u2019s iron doors spot the Indifferent modron, which knows Modron and Common Sign Language."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.298514,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-4-for-whom-the-void-calls.html",
+        "book_path": "Dragon Delves; Chapter 4: For Whom the Void Calls; Starglass Waypoint; Lower Level Locations; S5: Library",
+        "monsters": [
+            [
+                1,
+                "5195209-spectator",
+                700
+            ]
+        ],
+        "text": "The floating creature is an alert Spectator, which was mistakenly summoned to guard the bookcases, not the books. When the githyanki abandoned Starglass Waypoint, they removed all the books so they wouldn\u2019t be stolen or damaged. The spectator is Indifferent initially but becomes Hostile toward and fights creatures (other than githyanki or modrons) that disturb the bookcases."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.298514,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-4-for-whom-the-void-calls.html",
+        "book_path": "Dragon Delves; Chapter 4: For Whom the Void Calls; Starglass Waypoint; Lower Level Locations; S6: Secured Supplies",
+        "monsters": [
+            [
+                4,
+                "5195131-modron-quadrone",
+                200
+            ],
+            [
+                1,
+                "5195123-mimic",
+                450
+            ]
+        ],
+        "text": "Crates. The locations of the crates are shown on Map: Starglass Waypoint Lower Level. Four crates (marked 1 through 4) are real. The crates marked with a Q are actually four Modron Quadrones with their legs retracted and weapons hidden from view. (They aren\u2019t present if they were previously drawn to area S18.) Any character who has a Passive Perception of 14+ recognizes a disguised quadrone once the character gets within 5 feet of it. The crate marked with an M is actually a Mimic hoping for a good meal, since it doesn\u2019t eat modrons."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.298514,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-4-for-whom-the-void-calls.html",
+        "book_path": "Dragon Delves; Chapter 4: For Whom the Void Calls; Starglass Waypoint; Lower Level Locations; S10: Dragon in the Rubble",
+        "monsters": [
+            [
+                1,
+                "5195279-young-brass-dragon",
+                2300
+            ],
+            [
+                1,
+                "5194980-earth-elemental",
+                1800
+            ]
+        ],
+        "text": "When the characters first arrive, the Young Brass Dragon has buried himself in the rubble along with an Earth Elemental he summoned from the Stone of Controlling Earth Elementals in his hoard. The elemental obeys the dragon\u2019s commands. Both have Total Cover. While buried, Ylagan uses Blindsight and the elemental uses Tremorsense to perceive what\u2019s happening outside the wall."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.298514,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-4-for-whom-the-void-calls.html",
+        "book_path": "Dragon Delves; Chapter 4: For Whom the Void Calls; Starglass Waypoint; Upper Level Locations; S14: Abandoned Garden",
+        "monsters": [
+            [
+                2,
+                "5195203-shambling-mound",
+                1800
+            ]
+        ],
+        "text": "The vines become two Shambling Mounds that fight intruders. The creatures pursue fleeing prey but collapse into inanimate vegetation after 1 hour if not destroyed before then."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.298514,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-4-for-whom-the-void-calls.html",
+        "book_path": "Dragon Delves; Chapter 4: For Whom the Void Calls; Starglass Waypoint; Upper Level Locations; S18: Security Station",
+        "monsters": [
+            [
+                1,
+                "5195128-modron-duodrone",
+                50
+            ],
+            [
+                1,
+                "5195036-githyanki-knight",
+                3900
+            ]
+        ],
+        "text": "The creature next to the console, a Modron Duodrone, is Indifferent toward intruders. The duodrone knows Modron and Common Sign Language. If assailed, the duodrone emits an audible cry for help, prompting the four Modron Quadrones in the supply room below (area S6) to move up to defend it. For more information about the console, see \u201cUsing the Console\u201d below."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.298514,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-4-for-whom-the-void-calls.html",
+        "book_path": "Dragon Delves; Chapter 4: For Whom the Void Calls; Starglass Waypoint; Upper Level Locations; S22: Luxury Suite Retreat",
+        "monsters": [
+            [
+                3,
+                "5195132-modron-tridrone",
+                100
+            ]
+        ],
+        "text": "This two-room suite looks identical to area S21 and has identical treasure. In addition, the west room contains three Modron Tridrones, which retreated here to escape the dragon\u2019s wrath. The tridrones are Indifferent toward the characters, and each one has its own Glyph Card (see \u201cStarglass Waypoint Features\u201d)."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.298514,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-4-for-whom-the-void-calls.html",
+        "book_path": "Dragon Delves; Chapter 4: For Whom the Void Calls; Starglass Waypoint; Upper Level Locations; S23: Trashed Luxury Suite",
+        "monsters": [
+            [
+                1,
+                "5195089-invisible-stalker",
+                2300
+            ]
+        ],
+        "text": "A Hostile Invisible Stalker dwells in the western room. If the characters enter the suite, the invisible stalker flies toward them, the opening of the sliding glassteel door betraying its presence. The githyanki used bound air elementals to help clean the luxury suites. After the githyanki abandoned Starglass Waypoint, these elementals coalesced into the invisible stalker and became uncontrollable. The stalker fights until destroyed."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.298514,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-4-for-whom-the-void-calls.html",
+        "book_path": "Dragon Delves; Chapter 4: For Whom the Void Calls; Starglass Waypoint; Upper Level Locations; S24: Robbed Suite and Sinkhole",
+        "monsters": [
+            [
+                1,
+                "5195271-winged-kobold",
+                50
+            ]
+        ],
+        "text": "At the bottom of the sinkhole, a Winged Kobold named Bobsin has built a makeshift abode out of cloth and broken pieces of wood and ceramic furniture. Bobsin crept into the outpost a week ago, avoided the modrons, and stole a Glyph Card. Using the card, he entered this suite and started looting it. He keeps his treasure inside the makeshift abode and defends it with his life. He is otherwise Friendly toward other creatures."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.4935946,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-5-the-dragon-of-najkir.html",
+        "book_path": "Dragon Delves; Chapter 5: The Dragon of Najkir; Beginning the Adventure",
+        "monsters": [
+            [
+                1,
+                "5195145-noble",
+                25
+            ]
+        ],
+        "text": "The adventure begins on a large island named Rakfir in a seaside tavern called the Smiling Fish. The characters are meeting with their longtime friend Mirel Astafar, a well-dressed, wealthy human merchant (Medium, Neutral Good Noble)."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.4935946,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-5-the-dragon-of-najkir.html",
+        "book_path": "Dragon Delves; Chapter 5: The Dragon of Najkir; Beginning the Adventure",
+        "monsters": [
+            [
+                1,
+                "5195145-noble",
+                25
+            ],
+            [
+                1,
+                "5194951-commoner",
+                10
+            ]
+        ],
+        "text": "The Wavemount is a Sailing Ship with a tiefling captain named Kranine Orso (Medium, Chaotic Good Noble) and a crew of nineteen Chaotic Good sailors of various species (Commoners). Captain Orso and her crew are all Friendly toward the characters."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.4935946,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-5-the-dragon-of-najkir.html",
+        "book_path": "Dragon Delves; Chapter 5: The Dragon of Najkir; Skalanthas Strikes!",
+        "monsters": [
+            [
+                1,
+                "5195280-young-bronze-dragon",
+                3900
+            ]
+        ],
+        "text": "The Young Bronze Dragon is Skalanthas. He was scouring old shipwrecks when he saw the Wavemount from beneath the sea. Skalanthas no longer permits strange ships to venture this close to his island, and he is Hostile, uncommunicative, and unwilling to accept bribes."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.4935946,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-5-the-dragon-of-najkir.html",
+        "book_path": "Dragon Delves; Chapter 5: The Dragon of Najkir; Najkir Monastery; The Monks",
+        "monsters": [
+            [
+                13,
+                "5194951-commoner",
+                10
+            ]
+        ],
+        "text": "Thirteen monks of various species dwell in the Najkir Monastery, including Hierarch Anish, who is an aasimar. All monks are Lawful Neutral Commoners and Friendly toward visitors. They wear wool robes and wooden clogs."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.4935946,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-5-the-dragon-of-najkir.html",
+        "book_path": "Dragon Delves; Chapter 5: The Dragon of Najkir; Najkir Monastery; Upper Level Locations; M10: Kitchen",
+        "monsters": [
+            [
+                2,
+                "5194951-commoner",
+                10
+            ]
+        ],
+        "text": "The two human monks (Medium Commoners) pay little heed to visitors as they prepare batches of fish stew."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.4935946,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-5-the-dragon-of-najkir.html",
+        "book_path": "Dragon Delves; Chapter 5: The Dragon of Najkir; Najkir Monastery; Upper Level Locations; M11: Guest Quarters",
+        "monsters": [
+            [
+                1,
+                "5174957-scout",
+                100
+            ]
+        ],
+        "text": "Ashlyn Maranta. Ashlyn is an elf (Medium, Chaotic Good Scout) with pale blue skin who can breathe both air and water. She was close to the Naiad\u2019s late captain, a human named Jeressa Lameer. When the Naiad sank, Ashlyn helped Devi and Treef swim to Najkir. She is brave but saddened by the loss of her captain and other shipmates."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.4935946,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-5-the-dragon-of-najkir.html",
+        "book_path": "Dragon Delves; Chapter 5: The Dragon of Najkir; Najkir Monastery; Upper Level Locations; M11: Guest Quarters",
+        "monsters": [
+            [
+                1,
+                "5195170-priest",
+                450
+            ]
+        ],
+        "text": "Devi Talzar. Devi is a middle-aged human (Medium, Neutral Good Priest) with a kind face who serves a god of the stars and wanderers. Devi carries a Sending Stone, which she uses to communicate with her good friend Mirel Astafar. Devi is cautious, patient, and brave but doesn\u2019t take unnecessary risks."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.4935946,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-5-the-dragon-of-najkir.html",
+        "book_path": "Dragon Delves; Chapter 5: The Dragon of Najkir; Najkir Monastery; Upper Level Locations; M11: Guest Quarters",
+        "monsters": [
+            [
+                1,
+                "5195145-noble",
+                25
+            ]
+        ],
+        "text": "Treef Lameer. Treef is a fifteen-year-old human (Medium, Chaotic Neutral Noble) born into a privileged and politically powerful family. He is also the nephew of the Naiad\u2019s late captain, Jeressa Lameer. He recognized Ronnom Daamos at once. Although he hopes for rescue, Treef thinks Ronnom ordered the dragon to sink the Naiad and wants revenge. He won\u2019t leave the monastery until Ronnom is, as he says, \u201cproperly dealt with.\u201d"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.4935946,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-5-the-dragon-of-najkir.html",
+        "book_path": "Dragon Delves; Chapter 5: The Dragon of Najkir; Najkir Monastery; Upper Level Locations; M15: Hierarch\u2019s Office",
+        "monsters": [
+            [
+                1,
+                "5194951-commoner",
+                10
+            ]
+        ],
+        "text": "When he\u2019s not elsewhere, Hierarch Anish (Medium, Lawful Neutral Commoner) oversees the affairs of the monastery from this office."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.4935946,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-5-the-dragon-of-najkir.html",
+        "book_path": "Dragon Delves; Chapter 5: The Dragon of Najkir; Najkir Monastery; Upper Level Locations; M17: Meeting and Meditation Hall",
+        "monsters": [
+            [
+                12,
+                "5194951-commoner",
+                10
+            ]
+        ],
+        "text": "The aasimar is Hierarch Anish (see M15). He and eleven monks (a mix of Small and Medium Commoners) are gathered here to discuss what to do about Ronnom Daamos and his bodyguards. Anish\u2019s cane is a Staff of the Python."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.4935946,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-5-the-dragon-of-najkir.html",
+        "book_path": "Dragon Delves; Chapter 5: The Dragon of Najkir; Najkir Monastery; Lower Level Locations; M25: Bodyguards\u2019 Quarters",
+        "monsters": [
+            [
+                2,
+                "5174955-doppelganger",
+                700
+            ]
+        ],
+        "text": "Eko and Mok are shape-shifted Doppelgangers and Ronnom\u2019s loyal servants. They obey Ronnom\u2019s orders without question, fighting the characters if he commands them to. If the characters say they\u2019re looking for Ronnom, Eko and Mok offer to lead them to him (see area M26)."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.4935946,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-5-the-dragon-of-najkir.html",
+        "book_path": "Dragon Delves; Chapter 5: The Dragon of Najkir; Najkir Monastery; Lower Level Locations; M26: Ronnom\u2019s Quarters",
+        "monsters": [
+            [
+                1,
+                "5194904-assassin",
+                3900
+            ],
+            [
+                1,
+                "5195150-oni",
+                2900
+            ]
+        ],
+        "text": "Ronnom Daamos. Aware of the trouble he\u2019s caused, Ronnom (Medium, Neutral Evil Assassin) is hiding in the Dim Light of the hallway to the east. Until the human man moves or speaks, noticing him requires taking a Search action and making a successful DC 20 Wisdom (Perception) check. If Eko and Mok lead the characters here (see area M25), or if the characters arrive here from the east (area M36), Ronnom emerges from the shadows to parley with them. Otherwise, he tries to remain hidden."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.4935946,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-5-the-dragon-of-najkir.html",
+        "book_path": "Dragon Delves; Chapter 5: The Dragon of Najkir; Najkir Monastery; Lower Level Locations; M38: Skalanthas\u2019s Lair",
+        "monsters": [
+            [
+                1,
+                "5195280-young-bronze-dragon",
+                3900
+            ]
+        ],
+        "text": "Skalanthas the Young Bronze Dragon occupies the section of the cave that\u2019s above water, using the natural pillar of rock for cover. He is initially Hostile toward interlopers."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.6976697,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-6-the-forbidden-vale.html",
+        "book_path": "Dragon Delves; Chapter 6: The Forbidden Vale; Arborean Springs; Interacting with Townsfolk; Nature Lovers",
+        "monsters": [
+            [
+                1,
+                "5194903-archpriest",
+                8400
+            ]
+        ],
+        "text": "Catacus. The Burning Circle\u2019s leader is a world-weary wood elf named Catacus (Medium Archpriest), who has survived two previous rampages. In the first one, four hundred years ago, Catacus volunteered to join the adventurers who tried to put the dragon back to sleep. He saw the dragon\u2014\u201can enormous, ancient wyrm\u201d\u2014and sustained severe injuries before the other adventurers managed to deliver the sleeping concoction. He uses an exquisitely carved wooden wheelchair whenever he needs to travel more than a few hundred feet."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.6976697,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-6-the-forbidden-vale.html",
+        "book_path": "Dragon Delves; Chapter 6: The Forbidden Vale; Arborean Springs; Interacting with Townsfolk; Merchants",
+        "monsters": [
+            [
+                1,
+                "5195144-noble-prodigy",
+                5900
+            ]
+        ],
+        "text": "Ginder Nanik. A charming human, Ginder Nanik (Medium Noble Prodigy), is the merchants\u2019 de facto leader and spokesperson. Though he couches everything in terms of \u201cwhat the good folk of Arborean Springs want,\u201d Ginder puts commercial interests first, and the other merchants follow his lead. Ginder believes the dragon should be slain and the lands of the Forbidden Vale\u2014including the ancient gardens in the valley\u2019s heart\u2014should be claimed and made profitable."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.6976697,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-6-the-forbidden-vale.html",
+        "book_path": "Dragon Delves; Chapter 6: The Forbidden Vale; Arborean Springs; Interacting with Townsfolk; Traditionalists",
+        "monsters": [
+            [
+                2,
+                "4904883-tough-boss",
+                1100
+            ]
+        ],
+        "text": "Javek and Vara Horn. Two married human shepherds, Javek Horn and Vara Horn (Small Tough Bosses), command the respect of most who follow the traditional ways of Arborean Springs. As two of the oldest human residents of the region, the women preserve and pass on ancient lore and freely share their hard-won wisdom with others. It is largely their influence that keeps the merchants from entering the Forbidden Vale."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.6976697,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-6-the-forbidden-vale.html",
+        "book_path": "Dragon Delves; Chapter 6: The Forbidden Vale; To the Forbidden Vale; V1: Arborean Road",
+        "monsters": [
+            [
+                4,
+                "5194996-flaming-skeleton",
+                700
+            ],
+            [
+                2,
+                "5194995-flameskull",
+                1100
+            ]
+        ],
+        "text": "As the characters come closer, they notice skeletal humanoid corpses lying on the ground near the burned wagon. If they come within 10 feet of the bodies, the corpses reveal themselves to be monsters: four Flaming Skeletons and two Flameskulls that fight the characters."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.6976697,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-6-the-forbidden-vale.html",
+        "book_path": "Dragon Delves; Chapter 6: The Forbidden Vale; To the Forbidden Vale; V3: Headless Statue; Attack from Above",
+        "monsters": [
+            [
+                1,
+                "5195184-roc",
+                7200
+            ]
+        ],
+        "text": "The mountains are the hunting grounds for a Roc that is none too pleased that the forests are going up in flames\u2014even though it happily hunts prey fleeing the fires. Its primary motivation is finding food; it is unlikely to fight to the death. Its nest lies near the top of Paradise Peak to the east. It initiates combat as soon as it spots one of the characters."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.6976697,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-6-the-forbidden-vale.html",
+        "book_path": "Dragon Delves; Chapter 6: The Forbidden Vale; To the Forbidden Vale; V4: Ysgardian Wildfire; Going Around",
+        "monsters": [
+            [
+                3,
+                "4904758-fire-elemental",
+                1800
+            ],
+            [
+                5,
+                "5195207-smoke-mephit",
+                50
+            ]
+        ],
+        "text": "Skirting the wildfire by land involves moving into mountainous terrain and adding several extra miles to the characters\u2019 trip. About one hour into the journey, the characters encounter a group of fiery monsters\u2014three Fire Elementals and five Smoke Mephits\u2014that emerge from the flames to fight them."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.6976697,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-6-the-forbidden-vale.html",
+        "book_path": "Dragon Delves; Chapter 6: The Forbidden Vale; To the Forbidden Vale; V6: Elysian Springs",
+        "monsters": [
+            [
+                11,
+                "5195065-guard",
+                25
+            ]
+        ],
+        "text": "These staff members consist of eleven human Guards who are Indifferent to the characters. They have no interest in fighting the characters or the dragon. The staff members hesitate to allow the characters inside the resort, but a character can try to persuade the staff to allow them to rest here. As an Influence action, the character makes a DC 14 Charisma (Persuasion) check. On a success, the staff allow the characters to rest here as long as they need. On a failure, they allow the characters to complete only a Short Rest here."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.6976697,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-6-the-forbidden-vale.html",
+        "book_path": "Dragon Delves; Chapter 6: The Forbidden Vale; Gardens of Xabazhut; Tier 1 Locations; G4: Well of Repose",
+        "monsters": [
+            [
+                1,
+                "5194921-behir",
+                7200
+            ]
+        ],
+        "text": "A Hostile Behir hides about 20 feet down the well. Angered at the proximity of Xabazhut to its territory, the creature is scouting the gardens to determine if it can kill the dragon. It remains in the well and waits for the characters to leave, but if the characters search the well or attempt to rest here, it fights them. The behir is narrow enough to fit through doorways and 5-foot-wide tunnels, but they are Difficult Terrain for the creature."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.6976697,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-6-the-forbidden-vale.html",
+        "book_path": "Dragon Delves; Chapter 6: The Forbidden Vale; Gardens of Xabazhut; Tier 1 Locations; G6: Garden of the Guardian",
+        "monsters": [
+            [
+                1,
+                "5195215-spirit-naga",
+                3900
+            ]
+        ],
+        "text": "A Spirit Naga called Hate\u2019s Embrace dwells in this grand hall, placed here by Ozzadraz long ago to guard the githyanki exiles\u2019 most sacred objects. The naga resents and fears Xabazhut and Ozzadraz, but with the dragon in its lair (or out spreading wildfires around the countryside) and the githyanki leader in suspended animation, the naga enjoys unimpeded access to the first tier of the gardens."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.6976697,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-6-the-forbidden-vale.html",
+        "book_path": "Dragon Delves; Chapter 6: The Forbidden Vale; Gardens of Xabazhut; Tier 1 Locations; G7: Servants\u2019 Quarters",
+        "monsters": [
+            [
+                4,
+                "5195292-yuan-ti-malison-type-3",
+                700
+            ]
+        ],
+        "text": "Four Yuan-ti Malisons (Type 3) lair in these chambers, which once belonged to humans conscripted to help the githyanki build and maintain the gardens. The yuan-ti were humans themselves only a few years ago, when Ginder Nanik in Arborean Springs hired them to scout the gardens for resources the merchant might exploit. But the naga in area G6 captured them and transformed them into their current forms through sinister rites and excruciating torture."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.6976697,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-6-the-forbidden-vale.html",
+        "book_path": "Dragon Delves; Chapter 6: The Forbidden Vale; Gardens of Xabazhut; Tier 1 Locations; G8: Garden of the Hated Foe",
+        "monsters": [
+            [
+                1,
+                "5195125-mind-flayer",
+                2900
+            ],
+            [
+                1,
+                "5194957-cyclops-sentry",
+                2300
+            ]
+        ],
+        "text": "A character who dons a circlet activates a phantasm\u2014a training exercise for the githyanki exiles. The character observes a Mind Flayer and a Cyclops Sentry in the center of the room, with the illithid hovering in the air above and behind the cyclops."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.6976697,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-6-the-forbidden-vale.html",
+        "book_path": "Dragon Delves; Chapter 6: The Forbidden Vale; Gardens of Xabazhut; Tier 1 Locations; G12: Garden of the Conqueror",
+        "monsters": [
+            [
+                1,
+                "5195036-githyanki-knight",
+                3900
+            ]
+        ],
+        "text": "This is the lair of the Githyanki Knight Ozzadraz the Conqueror, ruler of the exiled githyanki who built the gardens. He lies in the sarcophagus under the effect of the Sequester spell, which makes him Invisible and keeps him in suspended animation. The spell ends if Ozzadraz takes any damage or if Xabazhut takes damage while within the ziggurat. Ozzadraz responds by confronting the characters and demanding their obeisance, fighting them if they refuse."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.6976697,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-6-the-forbidden-vale.html",
+        "book_path": "Dragon Delves; Chapter 6: The Forbidden Vale; Gardens of Xabazhut; Xabazhut\u2019s Lair; G14: Garden of the Dragon",
+        "monsters": [
+            [
+                1,
+                "5195284-young-red-dragon",
+                5900
+            ]
+        ],
+        "text": "This area is Xabazhut\u2019s lair and holds his hoard, plundered from the towns of the Paradise Mountains region. Xabazhut is a Young Red Dragon who wants to burn the area and grow his hoard, as his predecessor did. He emerges from his lair from time to time to start new wildfires, but he spends most of every day here in his lair."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.6976697,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-6-the-forbidden-vale.html",
+        "book_path": "Dragon Delves; Chapter 6: The Forbidden Vale; Gardens of Xabazhut; Tier 2 Locations; G15: Bog of the Green Hags",
+        "monsters": [
+            [
+                3,
+                "5195057-green-hag",
+                700
+            ]
+        ],
+        "text": "Natural deterioration has transformed this former Feywild garden into a bog, and three Green Hags (see above) now lair here. When alerted to the approach of intruders, the hags use magic to disguise themselves as dryads and pretend to be bound to the trees in this chamber."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.6976697,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-6-the-forbidden-vale.html",
+        "book_path": "Dragon Delves; Chapter 6: The Forbidden Vale; Gardens of Xabazhut; Tier 2 Locations; G16: Overgrown Garden",
+        "monsters": [
+            [
+                1,
+                "5194943-chimera",
+                2300
+            ]
+        ],
+        "text": "A Chimera dwells in this room, often lounging in the water or sunning itself in the southwest corner. The hags flatter it, feed it well, and present it with gifts to ensure its cooperation. It comes to the hags\u2019 aid if they are threatened within earshot of it."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.6976697,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-6-the-forbidden-vale.html",
+        "book_path": "Dragon Delves; Chapter 6: The Forbidden Vale; Gardens of Xabazhut; Tier 2 Locations; G18: Astral Reliefs",
+        "monsters": [
+            [
+                3,
+                "5195115-manticore",
+                700
+            ]
+        ],
+        "text": "This chamber is the lair of three Hostile Manticores that grudgingly serve the hags in the bog (true). During the day, one manticore lurks in the lair while the other two travel around this tier of the gardens. All three monsters are here at night. Describe how many are present after describing the room as follows:"
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.6976697,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-6-the-forbidden-vale.html",
+        "book_path": "Dragon Delves; Chapter 6: The Forbidden Vale; Gardens of Xabazhut; Tier 2 Locations; G21: Menagerie",
+        "monsters": [
+            [
+                1,
+                "5195084-hydra",
+                3900
+            ],
+            [
+                1,
+                "5195074-hill-giant",
+                1800
+            ]
+        ],
+        "text": "If one of the Green Hags from G15 confronts adventurers here, the hag activates the mirror and frees the Hydra to create as much chaos as possible. Given the chance, the hag next frees the Hill Giant, promising that if the giant helps kill the adventurers, the hags will let the giant go free."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.6976697,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-6-the-forbidden-vale.html",
+        "book_path": "Dragon Delves; Chapter 6: The Forbidden Vale; Gardens of Xabazhut; Tier 3 Locations; G24: High Terrace",
+        "monsters": [
+            [
+                1,
+                "5195236-treant",
+                5000
+            ]
+        ],
+        "text": "The Neutral Treant is a reincarnation of Zumzn, the githyanki gardener who cultivated this place. The creature uses Zumzn\u2019s name but remembers nothing of its previous existence except that Zumzn tended these gardens. Zumzn\u2019s only goal is to protect the gardens. As long as it regards the adventurers as intruders and thus a potential threat, it is Hostile to them. But if convinced they don\u2019t pose a threat to the gardens, it becomes Indifferent."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.6976697,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-6-the-forbidden-vale.html",
+        "book_path": "Dragon Delves; Chapter 6: The Forbidden Vale; Gardens of Xabazhut; Tier 3 Locations; G25: Everflowing Springs",
+        "monsters": [
+            [
+                1,
+                "5195116-marid",
+                7200
+            ]
+        ],
+        "text": "This is the lair of Duban the Magnificent, a haughty Marid bound to serve Ozzadraz. When the characters arrive in his lair, Duban is Indifferent and has cast Invisibility to observe them unseen and gauge their intent."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.806097,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-7-before-the-storm.html",
+        "book_path": "Dragon Delves; Chapter 7: Before the Storm; Beginning the Adventure",
+        "monsters": [
+            [
+                1,
+                "5194951-commoner",
+                10
+            ]
+        ],
+        "text": "The older human is Vatri Whistlebaum (Medium, Neutral Good Commoner), the owner of the burning Morkoth Tavern. The characters might respond by entering the tavern to free the trapped villagers or by working to extinguish the fire."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.806097,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-7-before-the-storm.html",
+        "book_path": "Dragon Delves; Chapter 7: Before the Storm; Beginning the Adventure; Rescue the Villagers; Trapped under the Beam",
+        "monsters": [
+            [
+                1,
+                "5194951-commoner",
+                10
+            ]
+        ],
+        "text": "The elf musician Brezo Breezewave (Medium, Lawful Neutral Commoner), known for his bagpiping and colorful pantaloons, is trapped under a fallen rafter. A character can take the Utilize action to make a DC 12 Strength (Athletics) check, lifting the beam and freeing Brezo on a success."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.806097,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-7-before-the-storm.html",
+        "book_path": "Dragon Delves; Chapter 7: Before the Storm; Beginning the Adventure; Rescue the Villagers; Unconscious on the Bar",
+        "monsters": [
+            [
+                1,
+                "5194951-commoner",
+                10
+            ]
+        ],
+        "text": "The tavern\u2019s human bartender, Nelida Adler (Medium, Neutral Good Commoner), lies limp across the bar. A Corsair smashed an empty bottle over Nelida\u2019s head. She is uninjured but has the Unconscious condition. A character can carry Nelida out of the building; once outside, she awakens. Or a character can take the Help action to shake Nelida awake, and she stumbles out of the burning tavern as quickly as she can."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.806097,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-7-before-the-storm.html",
+        "book_path": "Dragon Delves; Chapter 7: Before the Storm; Beginning the Adventure; Rescue the Villagers; Stuck in the Kitchen",
+        "monsters": [
+            [
+                1,
+                "4904816-knight",
+                700
+            ]
+        ],
+        "text": "Rubert Forrester is a burly human retired soldier (Medium, Chaotic Good Knight). A Corsair shoved Rubert in the kitchen and slammed the door hard enough to warp its frame. A character can take the Utilize action to break the warped door open with a successful DC 15 Strength (Athletics) check."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.806097,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-7-before-the-storm.html",
+        "book_path": "Dragon Delves; Chapter 7: Before the Storm; Beginning the Adventure; Amid the Ashes; Rubert",
+        "monsters": [
+            [
+                1,
+                "5194959-darkmantle",
+                100
+            ]
+        ],
+        "text": "A retired soldier from Adarath, Rubert is well aware of Sablewing and the threat he poses. The dragon is cunning and brutal. Sablewing is known to keep a trio of Darkmantles close by, allowing the dragon to strike foes through shrouds of Darkness."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.806097,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-7-before-the-storm.html",
+        "book_path": "Dragon Delves; Chapter 7: Before the Storm; Meeting the Mayor",
+        "monsters": [
+            [
+                1,
+                "5195145-noble",
+                25
+            ]
+        ],
+        "text": "If the characters helped deal with the fire at the Morkoth Tavern, Mayor Gale Whittenby (Medium, Lawful Good Noble) is Friendly to the characters and expresses gratitude for what they\u2019ve done. If not, the mayor is Hostile. She tells them the Cobblehook Corsairs raided the village with the help of a black dragon, wonders aloud what kind of heroes ignore imperiled innocents, and suggests that the characters redeem themselves by ridding the village of the dragon threat."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.806097,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-7-before-the-storm.html",
+        "book_path": "Dragon Delves; Chapter 7: Before the Storm; Cobblehook Cove; Cobblehook Cove Locations; B2: Seaside Cave",
+        "monsters": [
+            [
+                6,
+                "4904830-pirate",
+                200
+            ],
+            [
+                1,
+                "5195016-giant-crocodile",
+                1800
+            ],
+            [
+                2,
+                "4904838-pirate-captain",
+                2300
+            ]
+        ],
+        "text": "Eight Corsairs of various species and sizes are here. Near the acid pool (see below), six Corsairs (Pirates) joke about the raid on Respite. Near them is their pet Giant Crocodile, which fights when the Corsairs do. Two brawnier-looking Corsairs (Pirate Captains) are on the pier next to the docked ship; they have just ferried the loot from Respite into area B6."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.806097,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-7-before-the-storm.html",
+        "book_path": "Dragon Delves; Chapter 7: Before the Storm; Cobblehook Cove; Cobblehook Cove Locations; B4: Kitchen",
+        "monsters": [
+            [
+                2,
+                "5195060-grick-ancient",
+                2900
+            ]
+        ],
+        "text": "The two Grick Ancients are trained to ensure Pierre doesn\u2019t flee. They start combat as soon as they notice the characters."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.806097,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-7-before-the-storm.html",
+        "book_path": "Dragon Delves; Chapter 7: Before the Storm; Cobblehook Cove; Cobblehook Cove Locations; B6: Loot Vault",
+        "monsters": [
+            [
+                4,
+                "4904830-pirate",
+                200
+            ],
+            [
+                2,
+                "4831023-mage",
+                2300
+            ],
+            [
+                1,
+                "5194904-assassin",
+                3900
+            ]
+        ],
+        "text": "Seven members of the Corsairs of varied species and sizes sit on barrels in this area\u2019s center. They include four Pirates, two Mages, and one Assassin. Characters who hear the carousing realize the pirates are singing about the death and mayhem the Corsairs caused in Respite this morning."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.806097,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-7-before-the-storm.html",
+        "book_path": "Dragon Delves; Chapter 7: Before the Storm; Cobblehook Cove; Cobblehook Cove Locations; B7: Brandle\u2019s Rest",
+        "monsters": [
+            [
+                3,
+                "5194959-darkmantle",
+                100
+            ]
+        ],
+        "text": "Speaking with Brandle. If a character casts Speak with Dead, the gruff-voiced skull of Captain Brandle answers questions as best it can. Brandle knows that Sablewing keeps three loyal Darkmantles near his hoard in area B13. He describes how the dragon uses the darkmantles\u2019 Darkness Auras to obscure foes\u2019 sight."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.806097,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-7-before-the-storm.html",
+        "book_path": "Dragon Delves; Chapter 7: Before the Storm; Cobblehook Cove; Cobblehook Cove Locations; B10: Stalagmite Field",
+        "monsters": [
+            [
+                1,
+                "5195185-roper",
+                1800
+            ],
+            [
+                6,
+                "5195159-piercer",
+                100
+            ],
+            [
+                1,
+                "5194946-cloaker",
+                3900
+            ]
+        ],
+        "text": "The center stalagmite is actually a Roper, six of the stalactites are Piercers, and a Cloaker lurks out of sight behind a stalactite. The pools are 2-foot-deep acid pools (see \u201cCobblehook Cove Features\u201d). The roper begins combat as soon as a character enters the area, the piercers fall on prey as the opportunity arises, and the cloaker pursues creatures that evade the roper."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.806097,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-7-before-the-storm.html",
+        "book_path": "Dragon Delves; Chapter 7: Before the Storm; Cobblehook Cove; Cobblehook Cove Locations; B12: Detritus Dens",
+        "monsters": [
+            [
+                2,
+                "5195253-violet-fungus-necrohulk",
+                2900
+            ]
+        ],
+        "text": "The twitching vegetation piles are two Violet Fungus Necrohulks: one in the eastern chamber and one in the western chamber. The fungi ambush anyone who passes through their chambers or this area\u2019s central corridor."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.806097,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-7-before-the-storm.html",
+        "book_path": "Dragon Delves; Chapter 7: Before the Storm; Cobblehook Cove; Cobblehook Cove Locations; B13: Captain Sablewing\u2019s Lair",
+        "monsters": [
+            [
+                1,
+                "5194869-adult-black-dragon",
+                11500
+            ],
+            [
+                3,
+                "5194959-darkmantle",
+                100
+            ]
+        ],
+        "text": "Captain Sablewing is an Adult Black Dragon. Three Darkmantles hang like stalactites from the cavern\u2019s ceiling; when combat begins, theyjoin the fight, trying to envelop the characters in magical Darkness. All four creatures here fight to the death."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588706.9270103,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-8-shivering-death.html",
+        "book_path": "Dragon Delves; Chapter 8: Shivering Death; Beginning the Adventure",
+        "monsters": [
+            [
+                1,
+                "5195170-priest",
+                450
+            ]
+        ],
+        "text": "The adventure begins at Grahlista\u2019s dwelling. Grahlista is a human sage (Medium, Neutral Good Priest) and is cordial but Indifferent toward the adventurers she has invited into her home."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.9270103,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-8-shivering-death.html",
+        "book_path": "Dragon Delves; Chapter 8: Shivering Death; Shivering Death\u2019s Lair; Lair Locations; D1: Lair Entrance",
+        "monsters": [
+            [
+                4,
+                "5195273-wyvern",
+                2300
+            ]
+        ],
+        "text": "Wyvern Roost. Four Wyverns dwell on an icy ledge 80 feet above the lair entrance. The ledge blends in from below but is easily noticed from above. These draconic creatures have adapted well to the frigid environment, with white scales and Resistance to Cold damage."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.9270103,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-8-shivering-death.html",
+        "book_path": "Dragon Delves; Chapter 8: Shivering Death; Shivering Death\u2019s Lair; Lair Locations; D3: Animal Pen",
+        "monsters": [
+            [
+                1,
+                "5195001-frost-giant",
+                3900
+            ],
+            [
+                1,
+                "5195112-mammoth",
+                2300
+            ]
+        ],
+        "text": "Not visible until the characters approach the beast, a Neutral Frost Giant named Heldalf sits on a stool behind the Mammoth, combing out the pack animal\u2019s tangled fur. Heldalf is Indifferent to the characters and loyal to Ralvald; he feels committed to staying here until Ralvald decides on a course of action. If the characters are aggressive or indicate support of Aerstigga, Heldalf directs his animal companion into battle and fights at its side. Heldalf and his mammoth flee if either of them is reduced to 30 Hit Points or fewer."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.9270103,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-8-shivering-death.html",
+        "book_path": "Dragon Delves; Chapter 8: Shivering Death; Shivering Death\u2019s Lair; Lair Locations; D4: Giant Camp",
+        "monsters": [
+            [
+                2,
+                "5195001-frost-giant",
+                3900
+            ]
+        ],
+        "text": "Two Neutral Frost Giants, Ardrandal and Forstrorri, recount stories of long-dead heroes while they maintain the camp here. Both are loyal to Ralvald but grow impatient with his lack of action. They are Indifferent to the characters but leap into battle if threatened."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.9270103,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-8-shivering-death.html",
+        "book_path": "Dragon Delves; Chapter 8: Shivering Death; Shivering Death\u2019s Lair; Lair Locations; D5: Ralvald\u2019s Retreat",
+        "monsters": [
+            [
+                1,
+                "5195001-frost-giant",
+                3900
+            ]
+        ],
+        "text": "The dejected giant is Ralvald, a Lawful Neutral Frost Giant who knows Common as well as Giant. The giant has become so wrapped up in his own troubles that he doesn\u2019t notice the characters until they make themselves known to him. Ralvald is Indifferent to the characters and would rather talk than fight."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.9270103,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-8-shivering-death.html",
+        "book_path": "Dragon Delves; Chapter 8: Shivering Death; Shivering Death\u2019s Lair; Lair Locations; D10: Frozen River",
+        "monsters": [
+            [
+                2,
+                "5195001-frost-giant",
+                3900
+            ]
+        ],
+        "text": "The two Frost Giants, Grimvel and Luskegga, are busily destroying the frozen body of an owlbear, which Challidax placed here as a trophy long ago. No one else knows about their casual destruction of the dragon\u2019s statue. Both giants are Neutral Evil, loyal to Aerstigga, and openly Hostile; they fight to the death in combat, as they won\u2019t entertain the thought that smaller creatures might beat them."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.9270103,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-8-shivering-death.html",
+        "book_path": "Dragon Delves; Chapter 8: Shivering Death; Shivering Death\u2019s Lair; Lair Locations; D11: Wolf Ledge",
+        "monsters": [
+            [
+                4,
+                "5195272-winter-wolf",
+                700
+            ],
+            [
+                1,
+                "5195241-troll",
+                1800
+            ]
+        ],
+        "text": "Four Winter Wolves skulk here along with their handler, a Troll named Shabblejaw wearing heavy furs. The wolves keep watch from the ledge, but Shabblejaw remains out of sight near an open secret door leading to the crystal room (area D12)."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.9270103,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-8-shivering-death.html",
+        "book_path": "Dragon Delves; Chapter 8: Shivering Death; Shivering Death\u2019s Lair; Lair Locations; D14: Giant Quarters",
+        "monsters": [
+            [
+                1,
+                "5195001-frost-giant",
+                3900
+            ],
+            [
+                1,
+                "5195183-rhinoceros",
+                450
+            ]
+        ],
+        "text": "Although there\u2019s enough room for several frost giants to rest here, only one is present. Luskar (Neutral Frost Giant) sprouted greenery when Aerstigga used her Wand of Wonder nearby. The wand also conjured the Rhinoceros; Luskar has named the beast Grom and is training it to fight alongside him."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.9270103,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-8-shivering-death.html",
+        "book_path": "Dragon Delves; Chapter 8: Shivering Death; Shivering Death\u2019s Lair; Lair Locations; D15: Frozen Corpses",
+        "monsters": [
+            [
+                5,
+                "5195008-ghost",
+                1100
+            ]
+        ],
+        "text": "Challidax ambushed five would-be dragon slayers here, freezing them to death before they could do more than raise their weapons. Their restless spirits linger here as five Ghosts. The spirits are Chaotic Neutral. They emerge from their frozen corpses if the pillars entombing them are touched or damaged."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.9270103,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-8-shivering-death.html",
+        "book_path": "Dragon Delves; Chapter 8: Shivering Death; Shivering Death\u2019s Lair; Lair Locations; D16: Trophy Cave",
+        "monsters": [
+            [
+                1,
+                "5194877-adult-white-dragon",
+                10000
+            ],
+            [
+                1,
+                "5195001-frost-giant",
+                3900
+            ]
+        ],
+        "text": "Challidax, an Adult White Dragon, is bargaining with the Frost Giant Aerstigga. The pair are having a contentious discussion about how Aerstigga and the giants who serve her could prove useful to the white dragon. Should they notice intruders, though, both are Hostile, and Challidax commands Aerstigga to prove her worth. The giant rushes to engage interlopers and won\u2019t surrender or flee while Challidax is present."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588706.9270103,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-8-shivering-death.html",
+        "book_path": "Dragon Delves; Chapter 8: Shivering Death; Shivering Death\u2019s Lair; Lair Locations; D16: Trophy Cave",
+        "monsters": [
+            [
+                1,
+                "5195204-shield-guardian",
+                2900
+            ]
+        ],
+        "text": "South Alcove. This alcove contains the corpse of a halfling frozen to a Large, knight-like statue. If freed, the statue animates, revealing itself to be a Shield Guardian with a Fireball spell (level 4 version) stored. Unless it receives other commands from someone bearing the magic amulet it\u2019s bonded to (see area D7), the guardian fights the closest creature as it continues trying to protect its former controller, the halfling Deena Finkleton."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588707.1027029,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-9-a-copper-for-a-song.html",
+        "book_path": "Dragon Delves; Chapter 9: A Copper for a Song; Listening Post",
+        "monsters": [
+            [
+                1,
+                "5195169-priest-acolyte",
+                50
+            ]
+        ],
+        "text": "Proclaimer Tungsten Ward (Medium, Lawful Good Priest Acolyte) gives each character a nonmagical scroll with lyrics written on it in Common."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588707.1027029,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-9-a-copper-for-a-song.html",
+        "book_path": "Dragon Delves; Chapter 9: A Copper for a Song; Listening Post; Listening Post Conversations; Aunt Dellie",
+        "monsters": [
+            [
+                1,
+                "5194951-commoner",
+                10
+            ]
+        ],
+        "text": "Aunt Dellie (Medium, Chaotic Good Commoner) is a human skimmer boat pilot with a skeptical mind, a soft heart, a loud laugh, and a talent for learning a bit about everyone\u2019s business. She wears a simple yellow dress and keeps her hair short."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588707.1027029,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-9-a-copper-for-a-song.html",
+        "book_path": "Dragon Delves; Chapter 9: A Copper for a Song; Listening Post; Listening Post Conversations; Hurch Henley",
+        "monsters": [
+            [
+                1,
+                "5195156-performer",
+                100
+            ]
+        ],
+        "text": "Hurch Henley (Small Performer) is a human street magician whose attempts at card tricks and legerdemain are less interesting than his stories from when he worked on his father\u2019s farm. He wears a floppy straw hat and a loose vest."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588707.1027029,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-9-a-copper-for-a-song.html",
+        "book_path": "Dragon Delves; Chapter 9: A Copper for a Song; Listening Post; Listening Post Conversations; Kelra Ironweaver",
+        "monsters": [
+            [
+                1,
+                "5194951-commoner",
+                10
+            ]
+        ],
+        "text": "Kelra Ironweaver (Medium, Chaotic Neutral Commoner) is a local dwarf blacksmith who has outlived five husbands and knows a lot about history because she was there when it happened. Her hair cascades in thick ringlets over her broad shoulders."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588707.1027029,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-9-a-copper-for-a-song.html",
+        "book_path": "Dragon Delves; Chapter 9: A Copper for a Song; Listening Post; Listening Post Conversations; Taelyn",
+        "monsters": [
+            [
+                1,
+                "5195260-warrior-veteran",
+                700
+            ]
+        ],
+        "text": "Taelyn (Medium, Neutral Good Warrior Veteran) is an elf soldier with a Tiny blue finch perched on the right shoulder of her green cloak. She barters for supplies at the Listening Post\u2019s trading hub."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588707.1027029,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-9-a-copper-for-a-song.html",
+        "book_path": "Dragon Delves; Chapter 9: A Copper for a Song; Listening Post; Listening Post Conversations; Zakia",
+        "monsters": [
+            [
+                1,
+                "5194976-druid",
+                450
+            ]
+        ],
+        "text": "Zakia (Medium, Chaotic Good Druid) is a local human herbalist who uses one of the storytelling booths to spook young children with tales about dragons and child-eating monsters. Her blue dress is stained with dirt from her gardens, and a bag she wears slung over her shoulder is overflowing with aromatic plants."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588707.1027029,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-9-a-copper-for-a-song.html",
+        "book_path": "Dragon Delves; Chapter 9: A Copper for a Song; The Rattle; Danger in the Hills; Hill Giant Camp",
+        "monsters": [
+            [
+                6,
+                "5195074-hill-giant",
+                1800
+            ],
+            [
+                2,
+                "5195011-giant-axe-beak",
+                1800
+            ]
+        ],
+        "text": "Hill Giants. The six Hill Giants are Hostile and unaware that they\u2019re camping above the subterranean lair of a copper dragon. Their two Giant Axe Beaks serve as beasts of burden and hunting companions, and they fight at the giants\u2019 command."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588707.1027029,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-9-a-copper-for-a-song.html",
+        "book_path": "Dragon Delves; Chapter 9: A Copper for a Song; Nakari\u2019s Lair; Lair Locations; N5: Eastern Boulder Cave",
+        "monsters": [
+            [
+                3,
+                "5195002-galeb-duhr",
+                2300
+            ]
+        ],
+        "text": "Three gregarious Galeb Duhr dwell in this cave. They are pleased to have company, and ask in Primordial if the characters want to join them in a game of rock tossing. If the characters don\u2019t understand their words, the galeb duhr try to get the idea across through pantomime. The goal of the game is to hurl enormous, 200-pound rocks to land as close as possible to a target on the ground. If the characters refuse to play, the galeb duhr are disappointed and return to their rest."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588707.1027029,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-9-a-copper-for-a-song.html",
+        "book_path": "Dragon Delves; Chapter 9: A Copper for a Song; Nakari\u2019s Lair; Lair Locations; N6: Kobold Cave",
+        "monsters": [
+            [
+                7,
+                "5195271-winged-kobold",
+                50
+            ]
+        ],
+        "text": "The seven Winged Kobolds want to impress Nakari with their artistic skills and thus win her favor. The kobolds\u2019 names are Drix, Grox, Kex, Mox, Nix, Prax, and Zox."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588707.1027029,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-9-a-copper-for-a-song.html",
+        "book_path": "Dragon Delves; Chapter 9: A Copper for a Song; Nakari\u2019s Lair; Lair Locations; N8: Southern Boulder Cave",
+        "monsters": [
+            [
+                3,
+                "5195002-galeb-duhr",
+                2300
+            ]
+        ],
+        "text": "This cave appears to hold nine boulders, but three are Galeb Duhr that are singing while rolled up. Their song is quiet but deep and resonant, causing vibrations in the floor. If the galeb duhr notice the characters, they lift their heads and begin singing more loudly, shaking the ground and making bits of gravel fall from the ceiling as they try to entertain their unexpected audience. When the characters leave, the galeb duhr return to their quieter song."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588707.1027029,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-9-a-copper-for-a-song.html",
+        "book_path": "Dragon Delves; Chapter 9: A Copper for a Song; Nakari\u2019s Lair; Lair Locations; N10: Reception Cave",
+        "monsters": [
+            [
+                1,
+                "5194971-djinni",
+                7200
+            ]
+        ],
+        "text": "A peevish Djinni named Lashlo rests in the alcove. A guest that Nakari has left waiting far too long, Lashlo hoped to trade stories and songs with Nakari, but her patience is nearly at an end. She is Hostile to the characters, whom she considers rivals for Nakari\u2019s attention, and she fights them if they aren\u2019t effusively polite. If any character succumbs to the laughing gas for 2 consecutive rounds, Lashlo assumes they\u2019re laughing at her and fights them. The genie is unaffected by the laughing gas."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588707.1027029,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-9-a-copper-for-a-song.html",
+        "book_path": "Dragon Delves; Chapter 9: A Copper for a Song; Nakari\u2019s Lair; Lair Locations; N11: Northern Boulder Cave",
+        "monsters": [
+            [
+                3,
+                "5195002-galeb-duhr",
+                2300
+            ]
+        ],
+        "text": "Three Galeb Duhr dwell in this cave. They are desperate to avoid the unwelcome attention of Lashlo, the djinni in area N10, and try to remain as silent as possible."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588707.1027029,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-9-a-copper-for-a-song.html",
+        "book_path": "Dragon Delves; Chapter 9: A Copper for a Song; Nakari\u2019s Lair; Lair Locations; N12: Maestro\u2019s Cave",
+        "monsters": [
+            [
+                1,
+                "5195155-performer-maestro",
+                2300
+            ]
+        ],
+        "text": "Sequestered Maestro. Lying atop the stone slab is the human Yemi Moonsybil (Medium, Chaotic Good Performer Maestro). Yemi has the Invisible condition and is in a state of suspended animation, both courtesy of a Sequester spell. Nakari keeps dust and other detritus from accumulating on the slab and Yemi\u2019s resting form."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588707.1027029,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-9-a-copper-for-a-song.html",
+        "book_path": "Dragon Delves; Chapter 9: A Copper for a Song; Nakari\u2019s Lair; Lair Locations; N13: Worm Cave",
+        "monsters": [
+            [
+                1,
+                "5195174-purple-worm",
+                13000
+            ]
+        ],
+        "text": "A Purple Worm has been drawn to Nakari\u2019s lair by the dragon\u2019s frequent excavation work. The worm bursts up through the floor of the cave when the characters arrive and attacks them. It retreats when it becomes Bloodied."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588707.1027029,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-9-a-copper-for-a-song.html",
+        "book_path": "Dragon Delves; Chapter 9: A Copper for a Song; Nakari\u2019s Lair; Lair Locations; N14: Western Boulder Cave",
+        "monsters": [
+            [
+                3,
+                "5195002-galeb-duhr",
+                2300
+            ]
+        ],
+        "text": "This cave appears to hold nine boulders, but three are belligerent Galeb Duhr relaxing while rolled up. If they notice the characters, they arise and begin combat."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588707.1027029,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-9-a-copper-for-a-song.html",
+        "book_path": "Dragon Delves; Chapter 9: A Copper for a Song; Nakari\u2019s Lair; Lair Locations; N17: Nakari\u2019s Den",
+        "monsters": [
+            [
+                1,
+                "5194872-adult-copper-dragon",
+                11500
+            ],
+            [
+                2,
+                "5195056-green-dragon-wyrmling",
+                450
+            ]
+        ],
+        "text": "The Adult Copper Dragon is Nakari. The two Green Dragon Wyrmlings are Retta and Rynn. A little over a month ago, Nakari found the wyrmlings in the Rattle and thought it best to adopt them before they harmed themselves or someone else. The orphans are Neutral; they have bonded with their adoptive mother and don\u2019t know what happened to their biological parents."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588707.2111974,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-10-dragons-of-the-sandstone-city.html",
+        "book_path": "Dragon Delves; Chapter 10: Dragons of the Sandstone City; Beginning the Adventure",
+        "monsters": [
+            [
+                3,
+                "5194915-bandit",
+                25
+            ]
+        ],
+        "text": "Three human Bandits have robbed the woman in yellow. They\u2019re nimble but cowardly street thieves, and they don\u2019t want a fight. Fortunately for them, their victim seems too surprised to do anything but shout. The thief with the basket runs toward the characters, not perceiving them as a threat."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588707.2111974,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-10-dragons-of-the-sandstone-city.html",
+        "book_path": "Dragon Delves; Chapter 10: Dragons of the Sandstone City; Beginning the Adventure; Meeting Eldemere",
+        "monsters": [
+            [
+                1,
+                "4831023-mage",
+                2300
+            ]
+        ],
+        "text": "Eldemere is a Chaotic Good Mage. She is a scholar who seeks someone capable of helping her thwart the blue dragon Anthradusk\u2019s schemes using the egg in the basket, which she refers to as the Brazen Egg."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1754588707.2111974,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-10-dragons-of-the-sandstone-city.html",
+        "book_path": "Dragon Delves; Chapter 10: Dragons of the Sandstone City; Temple of Sands",
+        "monsters": [
+            [
+                1,
+                "5195211-sphinx-of-lore",
+                7200
+            ]
+        ],
+        "text": "Oliekintara (Sphinx of Lore) has watched over the Temple of Sands for centuries. Few except the bravest or most desperate seek the sphinx\u2019s advice, which she never gives freely. In conversation, Oliekintara is aloof and soft-spoken."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588707.2111974,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-10-dragons-of-the-sandstone-city.html",
+        "book_path": "Dragon Delves; Chapter 10: Dragons of the Sandstone City; Haskasori; Haskasori Locations; H3: Promenade",
+        "monsters": [
+            [
+                5,
+                "5194919-basilisk",
+                700
+            ]
+        ],
+        "text": "Five Basilisks lounge in the tunnels between this promenade and the sinkhole to the east (area H5). If they notice anything in the promenade or the entry (area H1), the monsters scuttle out to ambush the characters. A creature that is given the Petrified condition by one of these basilisks turns into lightning crystal (see \u201cHaskasori Features\u201d) instead of stone but can be restored as normal."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588707.2111974,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-10-dragons-of-the-sandstone-city.html",
+        "book_path": "Dragon Delves; Chapter 10: Dragons of the Sandstone City; Haskasori; Haskasori Locations; H6: Pillars of Haskasori",
+        "monsters": [
+            [
+                4,
+                "5195003-gargoyle",
+                450
+            ]
+        ],
+        "text": "The crystal formations are lightning crystals (see \u201cHaskasori Features\u201d). The four statues are Gargoyles, which serve the genie in the tower (area H9). They fight to the death if provoked to combat; if left undisturbed, they instead slip away to warn their boss of the intruders."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588707.2111974,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-10-dragons-of-the-sandstone-city.html",
+        "book_path": "Dragon Delves; Chapter 10: Dragons of the Sandstone City; Haskasori; Haskasori Locations; H8: Vault",
+        "monsters": [
+            [
+                1,
+                "5195134-mummy-lord",
+                13000
+            ]
+        ],
+        "text": "The dust forms into Yaarnak, a Small Mummy Lord. Yaarnak wants his staff recovered from the dragon\u2019s den (area H10) and returned to his tomb (area H13). If the characters do so, Yaarnak is appeased and vanishes; award the characters Experience Points for having defeated the mummy. If they try to leave Haskasori without returning the staff, the mummy pursues them and fights until destroyed."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588707.2111974,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-10-dragons-of-the-sandstone-city.html",
+        "book_path": "Dragon Delves; Chapter 10: Dragons of the Sandstone City; Haskasori; Haskasori Locations; H9: Genie\u2019s Tower",
+        "monsters": [
+            [
+                1,
+                "5194958-dao",
+                7200
+            ]
+        ],
+        "text": "Rummox. Anthradusk\u2019s genie companion, Rummox (Neutral Evil Dao), dwells in this opulent tower. She ostensibly keeps a lookout for intruders, but in reality she spends most of her time studying ancient texts and plotting her betrayal of Anthradusk. She is Indifferent toward the characters."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588707.2111974,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-10-dragons-of-the-sandstone-city.html",
+        "book_path": "Dragon Delves; Chapter 10: Dragons of the Sandstone City; Haskasori; Haskasori Locations; H11: Catacombs",
+        "monsters": [
+            [
+                8,
+                "5195135-mummy",
+                700
+            ]
+        ],
+        "text": "Eight Mummies are scattered throughout these catacombs. These guardians are Hostile toward all non-Undead. Once they were loyal guards of King Yaarnak. When Anthradusk took the scepter from the king\u2019s tomb, the guards roused from their slumber to search for the villain who defiled their master\u2019s grave. When the characters enter combat with one mummy, roll 1d6 to determine how many more mummies arrive on the scene at the start of the second round of combat. The rest arrive at the start of round 3."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588707.2111974,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-10-dragons-of-the-sandstone-city.html",
+        "book_path": "Dragon Delves; Chapter 10: Dragons of the Sandstone City; Haskasori; Haskasori Locations; H13: King\u2019s Tomb",
+        "monsters": [
+            [
+                6,
+                "5194995-flameskull",
+                1100
+            ]
+        ],
+        "text": "Six Flameskulls lurk behind the stone statues in the far corners of this tomb. They are Friendly toward a creature holding Yaarnak\u2019s scepter (and that creature\u2019s allies); they fight all other creatures."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588707.2111974,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-10-dragons-of-the-sandstone-city.html",
+        "book_path": "Dragon Delves; Chapter 10: Dragons of the Sandstone City; Anthradusk\u2019s Return",
+        "monsters": [
+            [
+                1,
+                "5194881-ancient-blue-dragon",
+                50000
+            ]
+        ],
+        "text": "Anthradusk grows enraged at the sight of intruders and fights to the death. Unless weakened (see \u201cUsing the Brazen Egg\u201d below), he uses the Ancient Blue Dragon stat block. The dragon is too preoccupied with his ritual to pursue characters who flee."
+    },
+    {
+        "type": "combat",
+        "modified": 1754588707.2111974,
+        "book": "Dragon Delves",
+        "path": "./library/stripped/sources/drde/chapter-10-dragons-of-the-sandstone-city.html",
+        "book_path": "Dragon Delves; Chapter 10: Dragons of the Sandstone City; Anthradusk\u2019s Return; Using the Brazen Egg",
+        "monsters": [
+            [
+                1,
+                "5194870-adult-blue-dragon",
+                15000
+            ]
+        ],
+        "text": "Weakened Dragon. Anthradusk\u2019s Hit Points are reduced by 200. For the next 24 hours, replace Anthradusk\u2019s game statistics other than his Hit Points, Initiative bonus, and Initiative score with those of an Adult Blue Dragon."
+    }
+]

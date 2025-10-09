@@ -1,0 +1,2725 @@
+[
+    {
+        "type": "non-combat",
+        "modified": 1753295767.7193284,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/a-fateful-competition.html",
+        "book_path": "Critical Role: Call of the Netherdeep; A Fateful Competition; Adventure Start; Locations in Jigow; J1: Best Pies in the Jumble",
+        "monsters": [
+            [
+                1,
+                "16972-orc",
+                100
+            ]
+        ],
+        "text": "Agathe Silverspoon is a chaotic good orc who moves from counter to counter, deftly slicing a variety of cooked and spiced meats, then folding them into piecrusts that she places into the oven behind her."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.7193284,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/a-fateful-competition.html",
+        "book_path": "Critical Role: Call of the Netherdeep; A Fateful Competition; Adventure Start; Locations in Jigow; J1: Best Pies in the Jumble",
+        "monsters": [
+            [
+                3,
+                "17133-drow",
+                50
+            ],
+            [
+                1,
+                "17035-thug",
+                100
+            ],
+            [
+                1,
+                "2407544-irvan-wastewalker-tier-1",
+                700
+            ]
+        ],
+        "text": "Agathe gestures toward the raised platform next to her cooking station, where three people are already seated: a cocky male drow flexing his muscles, pointing at people in the gathering crowd and winking; a female halfling (use the thug stat block), sitting very still with a smirk on her face; and a young male human, scanning the crowd as if looking for someone. This individual is Irvan Wastewalker (tier 1), whose stat block appears in appendix A. These contestants have the following modifiers to their Constitution checks and saving throws, which come into play during the pie-eating contest:"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.7193284,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/a-fateful-competition.html",
+        "book_path": "Critical Role: Call of the Netherdeep; A Fateful Competition; Adventure Start; Locations in Jigow; J2: One-Shot Solution",
+        "monsters": [
+            [
+                1,
+                "17100-aarakocra",
+                50
+            ]
+        ],
+        "text": "The way to win is to study the maze from the outside, and then follow the only correct path to the exit in one shot. If a creature reaches a dead end, the judge\u2014a lawful neutral aarakocra named Sharpwatch\u2014swoops down and plucks them from the maze."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.7193284,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/a-fateful-competition.html",
+        "book_path": "Critical Role: Call of the Netherdeep; A Fateful Competition; Adventure Start; Locations in Jigow; J2: One-Shot Solution",
+        "monsters": [
+            [
+                1,
+                "2407549-maggie-keeneyes-tier-1",
+                700
+            ],
+            [
+                1,
+                "2407535-dermot-wurder-tier-1",
+                700
+            ]
+        ],
+        "text": "Maggie Keeneyes (tier 1), whose stat block appears in appendix A, has figured out the solution to the maze, but the ogre\u2019s size keeps her from entering the maze. She wants her friend, a goblin named Dermot Wurder (tier 1), whose stat block also appears in appendix A, to go in her place. Dermot, however, is convinced that even with her instructions, he will come to a dead end."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.7193284,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/a-fateful-competition.html",
+        "book_path": "Critical Role: Call of the Netherdeep; A Fateful Competition; Adventure Start; Locations in Jigow; J3: The Ifolon Plunge",
+        "monsters": [
+            [
+                1,
+                "16907-goblin",
+                50
+            ]
+        ],
+        "text": "The game is refereed by an impassive, lawful neutral goblin named Omo."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.7193284,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/a-fateful-competition.html",
+        "book_path": "Critical Role: Call of the Netherdeep; A Fateful Competition; Adventure Start; Locations in Jigow; J3: The Ifolon Plunge",
+        "monsters": [
+            [
+                1,
+                "2407529-ayo-jabe-tier-1",
+                700
+            ],
+            [
+                1,
+                "2407540-galsariad-ardyth-tier-1",
+                700
+            ]
+        ],
+        "text": "The blue-skinned individual is a water genasi named Ayo Jabe (tier 1), whose stat block appears in appendix A. After breaking up the argument on the docks, she returns to her companion, an elegant drow in wizard\u2019s robes. This is Galsariad Ardyth (tier 1), whose stat block also appears in appendix A."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.7193284,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/a-fateful-competition.html",
+        "book_path": "Critical Role: Call of the Netherdeep; A Fateful Competition; Adventure Start; Locations in Jigow; J3: The Ifolon Plunge",
+        "monsters": [
+            [
+                1,
+                "17007-scout",
+                100
+            ],
+            [
+                1,
+                "17035-thug",
+                100
+            ],
+            [
+                1,
+                "16907-goblin",
+                50
+            ]
+        ],
+        "text": "Other than Ayo, the contestants are a lanky male orc scout, a broad-shouldered female human thug, and a surly male goblin. These nonplayer characters have the following modifiers to their Strength (Athletics) checks, which come into play during the swimming contest:"
+    },
+    {
+        "type": "combat",
+        "modified": 1753295767.7193284,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/a-fateful-competition.html",
+        "book_path": "Critical Role: Call of the Netherdeep; A Fateful Competition; Adventure Start; Locations in Jigow; J3: The Ifolon Plunge",
+        "monsters": [
+            [
+                2,
+                "16994-reef-shark",
+                100
+            ]
+        ],
+        "text": "Danger from Below. After the spear is pulled from the rotten post, two Ifolon striped sharks (use the reef shark stat block) emerge from the depths of the river. Characters who have a passive Wisdom (Perception) score of 13 or higher notice the water churning more severely as the sharks, riled up by the antics of the swimmers, rise to feed."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.7193284,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/a-fateful-competition.html",
+        "book_path": "Critical Role: Call of the Netherdeep; A Fateful Competition; Adventure Start; Locations in Jigow; J4: Call to Arms",
+        "monsters": [
+            [
+                1,
+                "16903-gladiator",
+                1800
+            ],
+            [
+                2,
+                "17045-veteran",
+                700
+            ],
+            [
+                1,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "The victor in this contest, and the defending champion of the event, is Maryl Bronzefang, a lawful neutral, orc gladiator. A native of Jigow serving in Bazzoxan\u2019s Aurora Watch, she was given leave to return home for the festival. She is flanked by two compatriots, both female drow veterans clad in chitinous splint armor. A quiet male goblin commoner\u2014Vars, the owner of the butcher shop\u2014sits off to the side, managing the wagers made by onlookers."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.7193284,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/a-fateful-competition.html",
+        "book_path": "Critical Role: Call of the Netherdeep; A Fateful Competition; Adventure Start; Locations in Jigow; J5: Wetwalks Paddywhack",
+        "monsters": [
+            [
+                2,
+                "16907-goblin",
+                50
+            ]
+        ],
+        "text": "This event is managed by two neutral good goblins named Beetle and Zag. Their farm is jointly run by the Gakthash and Uvuroh goblin clans, and every year, the goblin couple uses the festival competitions as a labor-saving way to harvest their crops."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.7193284,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/a-fateful-competition.html",
+        "book_path": "Critical Role: Call of the Netherdeep; A Fateful Competition; Adventure Start; Locations in Jigow; J5: Wetwalks Paddywhack",
+        "monsters": [
+            [
+                2,
+                "16972-orc",
+                100
+            ],
+            [
+                1,
+                "16829-commoner",
+                10
+            ],
+            [
+                1,
+                "17133-drow",
+                50
+            ]
+        ],
+        "text": "Each team is responsible for a 20-foot-long, 5-foot-wide strip of a paddy. On Beetle\u2019s signal, the teams race to successfully harvest their strip. Aside from the characters, two other teams are competing in this race: an imposing female orc and her rambunctious son (who uses the commoner stat block); and a pair of drow siblings, who wear broad-brimmed straw hats and constantly bicker with each other. These teams have the following modifiers to their Strength (Athletics) and Dexterity (Sleight of Hand) checks, which come into play during the contest:"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.7193284,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/a-fateful-competition.html",
+        "book_path": "Critical Role: Call of the Netherdeep; A Fateful Competition; Adventure Start; Locations in Jigow; J6: Herding the Horizonbacks",
+        "monsters": [
+            [
+                1,
+                "17007-scout",
+                100
+            ]
+        ],
+        "text": "The paddock is maintained by a horizonback tortoise trainer named Adan, a lawful good, orc scout. Adan supervises the transfer of the young tortoises from the paddock to the open fields on the west side of the Jumble, where the tortoises will begin training to become mounts and mobile buildings for the tribes of Jigow."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.7193284,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/a-fateful-competition.html",
+        "book_path": "Critical Role: Call of the Netherdeep; A Fateful Competition; Adventure Start; Locations in Jigow; J6: Herding the Horizonbacks",
+        "monsters": [
+            [
+                1,
+                "17088-ankylosaurus",
+                700
+            ]
+        ],
+        "text": "A young horizonback tortoise uses the ankylosaurus stat block, with these changes:"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.7193284,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/a-fateful-competition.html",
+        "book_path": "Critical Role: Call of the Netherdeep; A Fateful Competition; Adventure Start; Locations in Jigow; J7: Riddles and Rhymes",
+        "monsters": [
+            [
+                1,
+                "16985-priest",
+                450
+            ]
+        ],
+        "text": "Elder Colbu Kaz, a chaotic neutral, goblin priest, created these three puzzles. Each attempt to answer one riddle costs 2 sp. Answering at least two of the riddles correctly is enough to win the contest (see \u201cTreasure\u201d below). Various other challengers are trying to solve the riddles, including Galsariad Ardyth. This clever drow solves two of the riddles after a total of four guesses. If the characters solve each riddle on the first try, he is impressed (see \u201cMeeting Galsariad\u201d below)."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.7193284,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/a-fateful-competition.html",
+        "book_path": "Critical Role: Call of the Netherdeep; A Fateful Competition; Adventure Start; Locations in Jigow; J8: Temple of the Luxon",
+        "monsters": [
+            [
+                1,
+                "16985-priest",
+                450
+            ]
+        ],
+        "text": "The temple is maintained by Belana Zolaed, a neutral good drow priest who also conducts worship ceremonies."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.7193284,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/a-fateful-competition.html",
+        "book_path": "Critical Role: Call of the Netherdeep; A Fateful Competition; Adventure Start; Locations in Jigow; J9: Helter-Skelter",
+        "monsters": [
+            [
+                1,
+                "17134-drow-elite-warrior",
+                1800
+            ]
+        ],
+        "text": "The complex consists of two main structures: a low wooden barracks that houses the guards of the Aurora Watch stationed in Jigow, and a two-story stone dodecahedral building that is the residence of Durth Mirimm, a lawful neutral drow elite warrior who is the Taskhand of the Aurora Watch. Durth governs the settlement alongside the two clan elders, Colbu Kaz and Ushru."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.7193284,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/a-fateful-competition.html",
+        "book_path": "Critical Role: Call of the Netherdeep; A Fateful Competition; Adventure Start; Final Contest",
+        "monsters": [
+            [
+                1,
+                "16985-priest",
+                450
+            ]
+        ],
+        "text": "Once the characters have participated in as many competitions as they want to, or at a time you feel is appropriate, the sun begins to set, and the sound of rhythmic drumming echoes throughout the Jumble, summoning the participants to the paddock (area J6), which has been cleared of horizonback tortoises. Elder Ushru, a neutral good orc priest, stands in the middle of the road atop a platform of wooden crates. When all the festival officials and a large throng of revelers are assembled, the drums die down, and the elder speaks:"
+    },
+    {
+        "type": "combat",
+        "modified": 1753295767.7193284,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/a-fateful-competition.html",
+        "book_path": "Critical Role: Call of the Netherdeep; A Fateful Competition; The Emerald Grotto; Emerald Grotto Locations; E6: Quipper Den",
+        "monsters": [
+            [
+                1,
+                "17031-swarm-of-quippers",
+                200
+            ]
+        ],
+        "text": "A swarm of quippers swims in the middle of this cave. The swarm attacks characters who move within 10 feet of it or deal damage to it. The swarm pursues the characters into area E10 or back into E5 if it isn\u2019t killed."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295767.7193284,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/a-fateful-competition.html",
+        "book_path": "Critical Role: Call of the Netherdeep; A Fateful Competition; The Emerald Grotto; Emerald Grotto Locations; E7: Octopus\u2019s Garden",
+        "monsters": [
+            [
+                1,
+                "16888-giant-octopus",
+                200
+            ]
+        ],
+        "text": "A giant octopus dwells at the bottom of the pit and attacks anyone who enters it. A character who enters the pit and succeeds on a DC 17 Wisdom (Perception) check notices the octopus at the bottom and is not surprised when it attacks. If reduced to 13 hit points or fewer, it uses Ink Cloud and moves 10 feet away, hoping the characters leave it alone."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295767.7193284,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/a-fateful-competition.html",
+        "book_path": "Critical Role: Call of the Netherdeep; A Fateful Competition; The Emerald Grotto; Emerald Grotto Locations; E10: Moonshark Lair",
+        "monsters": [
+            [
+                1,
+                "16894-giant-shark",
+                1800
+            ]
+        ],
+        "text": "The amulet is the Emerald Eye\u2014the goal of this race. The silver spear lodged in the shark\u2019s hide has been enchanted by the divine power of Sehanine the Moon Weaver. The shark uses the giant shark stat block. A character within 5 feet of the shark can use an action to try to dislodge the spear, doing so with a successful DC 13 Strength (Athletics) check. While the spear is lodged in the shark, apply these changes to the shark\u2019s stat block:"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.828549,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-leave-taking.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Leave-Taking; After the Festival; Heroic Quest; Friendly Rivalry",
+        "monsters": [
+            [
+                1,
+                "2407529-ayo-jabe-tier-1",
+                700
+            ]
+        ],
+        "text": "Ayo Jabe doesn\u2019t mince words; she wants to know what they found in the grotto. If she gets the sense that the characters have stumbled onto something big, her eyes grow wide. She decides that she and her group want a piece of the action and proposes that they travel with the characters, saying that there\u2019s safety in numbers. A character who makes a successful DC 13 Wisdom (Insight) check realizes that she isn\u2019t hiding anything and wants nothing more than to be a part of a grand adventure."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.828549,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-leave-taking.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Leave-Taking; Road to Bazzoxan; Random Encounters; Aurora Watch Patrol",
+        "monsters": [
+            [
+                6,
+                "17045-veteran",
+                700
+            ],
+            [
+                1,
+                "17007-scout",
+                100
+            ]
+        ],
+        "text": "Patrol at Rest. The characters come across six lawful neutral Aurora Watch veterans (a mix of lawful good drow, humans, and orcs) who are resting at a campsite just off the road. Clearly in good spirits, they invite the characters to join them. Traveling with this patrol is a lawful good, drow scout who also serves as a cook. If the characters take a long rest with the patrol, the food they were given the night before grants them 1d10 temporary hit points when they awaken the next day."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295767.828549,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-leave-taking.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Leave-Taking; Road to Bazzoxan; Random Encounters; Aurora Watch Patrol",
+        "allies": [
+            [
+                6,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "monsters": [
+            [
+                1,
+                "16922-hezrou",
+                3900
+            ]
+        ],
+        "text": "Patrol in Battle. The characters see six lawful neutral Aurora Watch veterans (a mix of lawful good drow, humans, and orcs) fighting a hezrou. If the characters help the Aurora Watch slay the demon, the soldiers thank them, give them a total of 50 gp as a reward, and promise to commend them to Taskhand Verin Thelyss when the patrol returns to Bazzoxan. If the characters do nothing to help, the soldiers slay the demon, but only after one soldier is killed and two others are reduced to 0 hit points (one stable, the other dying)."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295767.828549,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-leave-taking.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Leave-Taking; Road to Bazzoxan; Random Encounters; Aurora Watch Patrol",
+        "monsters": [
+            [
+                2,
+                "17131-shadow-demon",
+                1100
+            ],
+            [
+                2,
+                "16988-quasit",
+                200
+            ]
+        ],
+        "text": "Lost Patrol. On the road in front of the characters are the bodies of six Aurora Watch soldiers near the corpse of a hezrou that is slowly dissolving into black ichor. Two shadow demons and two quasits lurk beneath the soldiers\u2019 corpses, waiting for more prey to arrive. They fight to the death."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295767.828549,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-leave-taking.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Leave-Taking; Road to Bazzoxan; Random Encounters; Crashed Wagon",
+        "monsters": [
+            [
+                3,
+                "17060-will-o-wisp",
+                450
+            ]
+        ],
+        "text": "Characters who investigate the interior of the wagon disturb three invisible will-o\u2019-wisps, which illuminate and attack. If any of the wisps are killed, the others decide the characters are too much of a threat and flee on their next turn. If all three wisps are defeated, the spirits of the slain travelers grant one character of your choice a charm of heroism (see the rules for supernatural gifts in the Dungeon Master\u2019s Guide)."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295767.828549,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-leave-taking.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Leave-Taking; Road to Bazzoxan; Random Encounters; Demonic Carrion",
+        "monsters": [
+            [
+                1,
+                "17047-vrock",
+                2300
+            ],
+            [
+                3,
+                "16988-quasit",
+                200
+            ]
+        ],
+        "text": "The carrion bird is a vrock that has been feeding on the mortal flesh strewn about the battlefield. It swoops down to attack characters who disturb any of the corpses. In addition, three quasits hide in the udaak\u2019s fur and attack non-demons that come within 10 feet of the udaak\u2019s melting corpse."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295767.828549,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-leave-taking.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Leave-Taking; Road to Bazzoxan; Random Encounters; Feast for the Eyes",
+        "monsters": [
+            [
+                1,
+                "744314-gloomstalker",
+                2300
+            ],
+            [
+                4,
+                "17015-skeleton",
+                50
+            ]
+            
+        ],
+        "text": "The characters see a gloomstalker (see appendix A) antagonizing 1d3 mammoths that are moving slowly across the wastes, minding their own business. The creatures are 3d6 \u00d7 100 feet away from the characters when the encounter begins.\nEach time the gloomstalker uses Shriek during the battle against the characters, 1d6 skeletons of dead human soldiers burst up out of the ground within 30 feet of the characters and attack them, acting on their own initiative count. Skeletons that aren\u2019t reduced to 0 hit points collapse into inanimate piles of bones after 10 minutes or when the gloomstalker is slain."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295767.828549,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-leave-taking.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Leave-Taking; Road to Bazzoxan; Random Encounters; Moorbounder Mayhem",
+        "monsters": [
+            [
+                2,
+                "744304-bristled-moorbounder",
+                700
+            ]
+        ],
+        "text": "The characters hear a wild yell. In the distance, they see a lawful neutral, tiefling scout named Justice on the back of a moorbounder (see appendix A) and hanging on for dear life as the creature snarls and bucks about. Two bristled moorbounders (see appendix A) are circling the imperiled tiefling. Justice can hang on for another minute at most, and the moment he touches the ground, the bristled moorbounders intend to tear him limb from limb."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295767.828549,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-leave-taking.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Leave-Taking; Road to Bazzoxan; Random Encounters; Roadside Raiders",
+        "monsters": [
+            [
+                1,
+                "16799-bandit-captain",
+                450
+            ],
+            [
+                1,
+                "17049-warhorse",
+                100
+            ],
+            [
+                10,
+                "16798-bandit",
+                25
+            ],
+            [
+                10,
+                "16997-riding-horse",
+                50
+            ]
+        ],
+        "text": "On a rare sunny day in the wastes, characters who have a passive Wisdom (Perception) score of 15 or higher see a cloud of dust being kicked up about half a mile down the road\u2014and it continues to head toward them. A few minutes later, the characters are surrounded by human bandits mounted on bedraggled horses. These bandits call themselves the Road Raiders. Their leader, a grizzled man named Postraeck, is a neutral evil bandit captain who rides an imposing black warhorse. Postraeck is better known as Six-Knives because of the six daggers he carries on his person at all times, each of which has a name (Boneshaver, Gleam, Grudge, Jabby, Pierce, and Tickles). His fellow riders are ten bandits (lawful evil humans) mounted on riding horses."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.828549,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-leave-taking.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Leave-Taking; Reunion with the Rivals",
+        "monsters": [
+            [
+                1,
+                "2407540-galsariad-ardyth-tier-1",
+                700
+            ]
+        ],
+        "text": "This encounter takes place only if the characters are trailing behind the rivals and traveling at a fast pace to catch up with them. The time of day when this encounter occurs is up to you. In the morning or around midday, the rivals are traveling. In the evening, the rivals are making camp. In the middle of the night, Galsariad Ardyth (tier 1) is on watch; see appendix A for his stat block."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.828549,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-leave-taking.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Leave-Taking; Emerald Loop Caravan Stop; Caravan Stop Locations; L2: Big Yuyo",
+        "monsters": [
+            [
+                1,
+                "744315-horizonback-tortoise",
+                3900
+            ]
+        ],
+        "text": "Big Yuyo is an adult horizonback tortoise (see appendix A)\u2014known as a \u201ckinespaji\u201d in Goblin\u2014that is the home of the Kruzkrenner goblin family. The tortoise is named after a Xhorhasian vegetable called a yuyo\u2014an ochre cucumber that grows in Rosohna\u2019s underground gardens."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.828549,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-leave-taking.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Leave-Taking; Emerald Loop Caravan Stop; Caravan Stop Locations; L2: Big Yuyo",
+        "monsters": [
+            [
+                1,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "Papa Drazagorr (lawful neutral, goblin veteran) served in the Aurora Watch when he was younger and still has an appreciation for military discipline. These days, he doesn\u2019t wear armor or carry weapons, except for a dagger."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.828549,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-leave-taking.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Leave-Taking; Emerald Loop Caravan Stop; Caravan Stop Locations; L2: Big Yuyo",
+        "monsters": [
+            [
+                1,
+                "16915-guard",
+                25
+            ]
+        ],
+        "text": "Pops Kelbadurn (neutral good, goblin guard) served in the Asarius Town Guard and still has his old chain mail, spear, and shield stored in the command post (area L2f). He\u2019s easygoing and artistic."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.828549,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-leave-taking.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Leave-Taking; Emerald Loop Caravan Stop; Caravan Stop Locations; L2: Big Yuyo",
+        "monsters": [
+            [
+                1,
+                "16848-druid",
+                450
+            ]
+        ],
+        "text": "Auntie Jaller (chaotic neutral, hobgoblin druid) is old and elegant-looking, thanks to her long silver hair and deep green robes. She calls herself an \u201cold witch\u201d and spends much of her time brewing potions and inventing new tea blends."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.828549,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-leave-taking.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Leave-Taking; Emerald Loop Caravan Stop; Caravan Stop Locations; L5: Bonfire",
+        "monsters": [
+            [
+                1,
+                "17007-scout",
+                100
+            ]
+        ],
+        "text": "This bonfire is the center of activity at the caravan stop. Gaeya Iliera, a neutral good, drow scout in a rugged outfit, is cooking some of the best mastodon kor\u2019rundl to be found outside of Asarius. This savory dish is a hearty rice bowl topped with spicy grilled mastodon and smoky-flavored kor\u2019run, a vegetable like a deep red squash grown in Rosohna\u2019s sunless gardens. A character who partakes of this food awakens the next morning with 1d10 temporary hit points that last for the next 24 hours."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295767.828549,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-leave-taking.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Leave-Taking; Emerald Loop Caravan Stop; Caravan Stop Locations; L5: Bonfire",
+        "monsters": [
+            [
+                2,
+                "17119-bugbear-chief",
+                700
+            ],
+            [
+                6,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "Shopping. The caravanners parked around the bonfire\u2014including Justice\u2019s employers, if he is present\u2014have merchandise for sale. Two neutral bugbear chiefs guard the wagons, and six lawful neutral Aurora Watch veterans (a mix of drow, humans, and orcs) resting at the camp are prepared to apprehend any thieves and drag them to Bazzoxan in chains."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; No Time for Pleasantries",
+        "monsters": [
+            [
+                2,
+                "16915-guard",
+                25
+            ]
+        ],
+        "text": "This chapter begins as two Aurora Watch guards guide the characters from the gate of Bazzoxan toward the Gatehold Barracks. Read or paraphrase the following as the characters enter the town:"
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; No Time for Pleasantries",
+        "allies": [
+            [
+                1,
+                "2407572-verin-thelyss",
+                1800
+            ],
+            [
+                2,
+                "16915-guard",
+                25
+            ]
+        ],
+        "monsters": [
+            [
+                5,
+                "16901-gibbering-mouther",
+                450
+            ]
+        ],
+        "text": "Five gibbering mouthers have sneaked into Bazzoxan and are intent on consuming anyone in their path. Opposing them are members of the Aurora Watch led by Taskhand Verin Thelyss (see the accompanying stat block).\nIf the characters choose to help the Aurora Watch, everyone rolls initiative. Verin and two orc guards of the Aurora Watch stay with the party, while the rest of the soldiers leave to secure other parts of the city."
+    },
+    {
+        "type": "alternate-combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; No Time for Pleasantries; Flight!",
+        "monsters": [
+            [
+                2,
+                "16901-gibbering-mouther",
+                450
+            ]
+        ],
+        "text": "If the characters flee, they must find a safe building in which to hide. It quickly becomes clear that most such places have already been barricaded shut by the residents holed up inside them. A character who wants to get into one of these safe houses must succeed on a DC 20 Charisma (Persuasion) check to convince its occupants to open the door. Alternatively, a character can make a DC 20 Wisdom (Perception) check to scan the area, finding an available safe house on a success. A character can make either check once per minute. Every time a character gets a failure on one of these checks, a gibbering mouther emerges from hiding and attacks that character."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Locations in Bazzoxan; B2: Crematorium",
+        "monsters": [
+            [
+                2,
+                "17007-scout",
+                100
+            ],
+            [
+                1,
+                "17035-thug",
+                100
+            ]
+        ],
+        "text": "The two men are Reynard Allerton, a chaotic good scout, and his bigger, older brother, Sebastian Allerton, a neutral good thug. Their crematorium has two furnaces, each of which can hold up to four Medium bodies or one Large body at a time. The brothers are responsible for the proper disposal of corpses. Reynard seems to be the more gregarious of the siblings, although if the characters can coax Sebastian out of his silence with a joke or a kind remark, the older brother is also revealed to be a good-natured chatterbox."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Locations in Bazzoxan; B2: Crematorium",
+        "monsters": [
+            [
+                1,
+                "2407561-scholarly-agent",
+                200
+            ]
+        ],
+        "text": "The tiefling is Prolix Yusaf, a lawful neutral scholarly agent (see appendix A) from the Allegiance of Allsight. His badge displays the symbol of his faction: a scroll bearing a single, watchful eye."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Locations in Bazzoxan; B3: Infirmary",
+        "monsters": [
+            [
+                1,
+                "16985-priest",
+                450
+            ]
+        ],
+        "text": "Inside, the characters find a lawful neutral, drow priest chatting with a young female drow, whose Aurora Watch armor and satchel are stacked nearby. Other wounded patients\u2014most of them asleep\u2014fill the infirmary beds."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Locations in Bazzoxan; B3: Infirmary",
+        "monsters": [
+            [
+                1,
+                "17007-scout",
+                100
+            ]
+        ],
+        "text": "The drow is Naevyn Tasithar, a neutral good scout. She weakly salutes the characters, then asks them to hand her her satchel. She pulls out a small tiger\u2019s eye carving of a rabbit with her name carved into the bottom. Naevyn explains that she was planning to visit the Wall of the Unforgotten (area B6) and place this trinket there. If asked why, she looks away and refuses to answer, but asks the characters to place it by the wall. Characters who speak to Kalym, a priest stationed at the wall, can learn Naevyn\u2019s reason."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Locations in Bazzoxan; B4: Gatehold Barracks",
+        "monsters": [
+            [
+                1,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "Shooting Match. If a character carries a ranged weapon, a grizzled orc veteran challenges that character to a friendly shooting match. The match consists of 3 rounds, during each of which a participant makes one attack with the ranged weapon of their choice at a target 40 feet away. The target has a bullseye surrounded by three concentric rings, each one corresponding to a point value. A hit inside the outer ring (AC 14) is worth 1 point, a hit inside the middle ring (AC 16) is worth 3 points, and a hit inside the inner ring (AC 18) is worth 5 points. A critical hit scores a bullseye, which is worth 10 points. Whoever has the most points at the end of the 3 rounds is the victor (ties are possible)."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Locations in Bazzoxan; B4: Gatehold Barracks",
+        "monsters": [
+            [
+                1,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "Sparring Match. A character can challenge an Aurora Watch soldier, or vice versa, to a sparring match with training weapons. This match can be run as a combat encounter, using the veteran stat block for the character\u2019s opponent. A creature reduced to 0 hit points by a training weapon falls unconscious and is stable. The match ends when one participant falls unconscious or concedes defeat."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Locations in Bazzoxan; B5: Dilapidated Temple",
+        "monsters": [
+            [
+                1,
+                "16985-priest",
+                450
+            ]
+        ],
+        "text": "Foghome the Gardener. A neutral good, firbolg priest named Foghome moves through the temple at all hours of the day. For more information on firbolgs, see the accompanying \u201cFirbolgs of Exandria\u201d sidebar."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Locations in Bazzoxan; B6: Wall of the Unforgotten",
+        "monsters": [
+            [
+                1,
+                "16985-priest",
+                450
+            ]
+        ],
+        "text": "The praying figure is a lawful neutral, drow priest of the Luxon named Kalym Telaarin. Kalym is 300 years old and has many scars on his otherwise handsome face. His left leg from the knee down is an intricate prosthetic carved from chitinous black rock and ringed with bands of pale purple light. As the characters approach, Kalym rises to his feet and says sternly, \u201cBe respectful. They\u2019ve earned their rest, and they deserve to have that rest honored.\u201d"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Locations in Bazzoxan; B7: The Ready Room",
+        "monsters": [
+            [
+                1,
+                "17133-drow",
+                50
+            ]
+        ],
+        "text": "The Ready Room is run by Delez and Prima Demona, a brother-and-sister team who are both lawful neutral drow. Delez runs the bar and the kitchen and handles most interactions with customers, while Prima manages the finances and inventory."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Locations in Bazzoxan; B7: The Ready Room",
+        "monsters": [
+            [
+                1,
+                "2407554-monastic-operative",
+                1800
+            ]
+        ],
+        "text": "Question and Answers. Question, a chaotic neutral, tiefling monastic operative (see appendix A), can be found lounging around the Ready Room at all hours. Unlike most others in Bazzoxan, Question almost always has a smile on her face."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Locations in Bazzoxan; B7: The Ready Room",
+        "monsters": [
+            [
+                1,
+                "2407557-occult-initiate",
+                450
+            ]
+        ],
+        "text": "Aloysia Telfan. During their conversation with Question, characters who have a passive Wisdom (Perception) score of 12 or higher notice a gaunt figure in scarlet robes nearby, eavesdropping. This figure, Aloysia Telfan, is a lawful evil, elf occult initiate (see appendix A) who thirsts for knowledge and power. She approaches the characters, if they don\u2019t accost her first, and greets them politely."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise",
+        "monsters": [
+            [
+                7,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "The Aurora Watch has 2d6 veterans (drow, humans, and orcs) stationed outside the Betrayers\u2019 Rise at any time. These guards ensure that the doors remain closed to prevent demons and other evil creatures from escaping. At least one character must succeed on a DC 15 Charisma (Deception, Intimidation, or Persuasion) check before the guards will allow one or more characters to get within 30 feet of the outer doors."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Gloomstalker Escape",
+        "allies": [
+            [
+                3,
+                "16938-knight",
+                700
+            ]
+        ],
+        "monsters": [
+            [
+                2,
+                "744314-gloomstalker",
+                2300
+            ]
+        ],
+        "text": "The escaped creatures are two gloomstalkers (see appendix A). The soldiers stationed outside can assist the characters in battling the gloomstalkers, or you can have them rush inside to help three gravely injured Aurora Watch soldiers (lawful good, orc knights) in area R1."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Locations in the Betrayers\u2019 Rise (R1-R8); R2: Hall of Holes",
+        "monsters": [
+            [
+                3,
+                "16901-gibbering-mouther",
+                450
+            ]
+        ],
+        "text": "No check is needed to identify the source of the snoring sound: it comes from the walls. Close examination reveals that the walls have scores of 1-inch-diameter holes drilled into them. As the characters move along the corridor, eyeballs, teeth, and liquid flesh begin to ooze from the holes, pooling on the floor. After 1 round, this grotesque slurry forms into three gibbering mouthers that attack the characters. One mouther appears at each end of the hall, and the third appears in the middle of the hallway to the west."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Locations in the Betrayers\u2019 Rise (R1-R8); R6: Cloister of Penitence",
+        "monsters": [
+            [
+                3,
+                "17091-flameskull",
+                1100
+            ]
+        ],
+        "text": "Opening the door to this room releases three hostile flameskulls\u2014the remains of torturers who served the Betrayer Gods long ago."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Locations in the Betrayers\u2019 Rise (R1-R8); R8: Spiders\u2019 Chancel",
+        "monsters": [
+            [
+                2,
+                "16847-drider",
+                2300
+            ],
+            [
+                2,
+                "16895-giant-spider",
+                200
+            ]
+        ],
+        "text": "The two driders are former drow warriors of the Aurora Watch mutated by the demonic magic of Lolth the Spider Queen. The two giant spiders in this area have also been tainted, changing their type to Fiend."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Locations in the Betrayers\u2019 Rise (R9-R16); R9: Basilica of Revelry",
+        "monsters": [
+            [
+                4,
+                "17027-succubus",
+                1100
+            ]
+        ],
+        "text": "The four braziers ignite, their bowls filling with pale flames that coalesce into dancing, humanoid forms. The glow from the flames glints off the north wall, where a towering mosaic of stained glass depicts a maelstrom of color, within which are nine symbols. The image shifts even as you stare at it.\nEach dancing flame uses the succubus/incubus stat block, with these changes:"
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Locations in the Betrayers\u2019 Rise (R9-R16); R14: Blood Font of the Ruiner",
+        "monsters": [
+            [
+                2,
+                "17187-orc-war-chief",
+                1100
+            ]
+        ],
+        "text": "The creatures are two orc war chiefs that were once valiant soldiers of the Aurora Watch. Both have been corrupted by demonic magic and have the following changes to their statistics:"
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Locations in the Betrayers\u2019 Rise (R9-R16); R15: Misty Chasm",
+        "monsters": [
+            [
+                2,
+                "17047-vrock",
+                2300
+            ]
+        ],
+        "text": "When a creature passes through the gaping mouth of the stone-carved face, a planar rift opens in the floor on the east side of the chasm (see \u201cAbyssal Rift\u201d below), and a hostile vrock flies out of it. The vrock begins searching the chasm for food, attacking the characters on sight."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Confrontation for the Jewel",
+        "monsters": [
+            [
+                1,
+                "2407557-occult-initiate",
+                450
+            ]
+        ],
+        "text": "The following boxed text assumes that Aloysia Telfan is still alive; if that\u2019s not the case, replace Aloysia with another occult initiate (see appendix A) from the Consortium of the Vermilion Dream:"
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.0174556,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/bazzoxan.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Confrontation for the Jewel",
+        "monsters": [
+            [
+                1,
+                "2407530-ayo-jabe-tier-2",
+                1800
+            ],
+            [
+                1,
+                "2407536-dermot-wurder-tier-2",
+                1800
+            ],
+            [
+                1,
+                "2407541-galsariad-ardyth-tier-2",
+                1800
+            ],
+            [
+                1,
+                "2407545-irvan-wastewalker-tier-2",
+                1800
+            ],
+            [
+                1,
+                "2407550-maggie-keeneyes-tier-2",
+                1800
+            ]
+        ],
+        "text": "Indifferent Rivals. The rivals try to knock the characters unconscious, take the jewel, and give it to Aloysia."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Arrival in Ank\u2019Harel; Following Aloysia; Meeting the Consortium",
+        "monsters": [
+            [
+                1,
+                "2407558-occult-silvertongue",
+                3900
+            ]
+        ],
+        "text": "Aloysia leads the characters inside the storeroom, then asks them to wait while she goes to get someone. After a few minutes, she returns with one of the Consortium\u2019s leaders: Vrill the Moth, a lawful evil, elf occult silvertongue (see appendix A)."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Arrival in Ank\u2019Harel; Arriving with Prolix; Meeting the Allegiance",
+        "monsters": [
+            [
+                2,
+                "2407563-scholarly-mastermind",
+                1800
+            ]
+        ],
+        "text": "The more charitable of the Allegiance of Allsight\u2019s two leaders is Alakritos, a neutral good, goblin scholarly mastermind (see appendix A). The headmaster is pleased to see that Prolix has returned from Bazzoxan safely and offers tea as he listens to Prolix and the characters talk."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; Ank\u2019Harel at a Glance",
+        "monsters": [
+            [
+                1,
+                "16777-ancient-brass-dragon",
+                25000
+            ]
+        ],
+        "text": "Leader. J\u2019mon Sa Ord, a lawful neutral ancient brass dragon, helped found the city over 400 years ago and has ruled it ever since. Depending on which supposition one subscribes to, J\u2019mon is either an archfey of the Feywild, a demigod in disguise, or multiple individuals pretending to be a single entity. J\u2019mon is rarely seen in public, and it is extremely difficult to gain an audience with them. Because of the dragon\u2019s reclusive nature, an elderly female human named Gemeshega is Ank\u2019Harel\u2019s Grandmaven, or acting chancellor."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; Major Factions; Allegiance of Allsight",
+        "monsters": [
+            [
+                2,
+                "2407563-scholarly-mastermind",
+                1800
+            ]
+        ],
+        "text": "Leader. The Allegiance is led by two headmasters: the dour James Cryon, a lawful neutral elf, who is also the head of the Crystal Chateau\u2019s program for the arcane arts; and the kindly Gryz Alakritos, a neutral good goblin, whose infectious enthusiasm makes him the more popular of the pair. Both use the scholarly mastermind stat block (see appendix A)."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; Major Factions; Consortium of the Vermilion Dream",
+        "monsters": [
+            [
+                5,
+                "2407558-occult-silvertongue",
+                3900
+            ]
+        ],
+        "text": "Leader. The Consortium is led by a council of five masters who all use the occult silvertongue stat block (see appendix A). They are Aradrine the Owl, a lawful neutral goliath (see the \u201cGoliaths of Exandria\u201d sidebar later in the chapter); Dendarron the Sun Bear, a chaotic neutral halfling; Larthul the Wolf, a chaotic evil human; Khelkur the Gull, a neutral evil dwarf; and Vrill the Moth, a lawful evil elf."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; Major Factions; Library of the Cobalt Soul",
+        "monsters": [
+            [
+                1,
+                "2407552-monastic-high-curator",
+                5900
+            ]
+        ],
+        "text": "Leader. At 29 years old, Jamil A\u2019alithiya, a chaotic good human, is the youngest monastic high curator (see appendix A) in the history of the Cobalt Soul. He is often underestimated by his contemporaries and uses that fact to his advantage."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; Minor Factions; Hands of Ord",
+        "monsters": [
+            [
+                1,
+                "16958-minotaur",
+                700
+            ]
+        ],
+        "text": "Leader. Ironhand Sem, a lawful good minotaur, commands the Hands of Ord and oversees all military operations in Ank\u2019Harel."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; Minor Factions; Scarbearers",
+        "monsters": [
+            [
+                1,
+                "16903-gladiator",
+                1800
+            ]
+        ],
+        "text": "Leader. Once a mercenary in his own right, Quartermaster Croog Lynn, a chaotic neutral, goliath gladiator, has now taken to running the guild in his later years (see the accompanying \u201cGoliaths of Exandria\u201d sidebar)."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; Minor Factions; Sentinels of Memory",
+        "monsters": [
+            [
+                1,
+                "16985-priest",
+                450
+            ]
+        ],
+        "text": "Leader. Watcher Trast, a neutral, elf priest and a former cleric of Ioun, founded the Sentinels of Memory and maintains command over the faction to this day."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; Minor Factions; The Veil",
+        "monsters": [
+            [
+                1,
+                "16790-assassin",
+                3900
+            ]
+        ],
+        "text": "Leader. Twenty-year-old Ilena Hapayhari, a chaotic evil, human assassin and ruthless pirate from the western coast of Marquet, recently disposed of the Veil\u2019s old leadership. She now rules the Veil from the shadows, though only high-ranking members are privy to this knowledge."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; Alluvium District; Sa\u2019irah Mines",
+        "monsters": [
+            [
+                1,
+                "17035-thug",
+                100
+            ]
+        ],
+        "text": "The quarry is run by a gruff, middle-aged miner named Zala Keencutter, a neutral, tiefling thug. Though he puts up an abrasive facade, Zala has a shy and empathetic soul, and he wants dearly to work up the courage to read his prose writings at the Opalite Forum some evening."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; The Circlet Walk; Lyrean Linen",
+        "monsters": [
+            [
+                2,
+                "16798-bandit",
+                25
+            ]
+        ],
+        "text": "The shop is run by Bas and Kovra Lyrean, twin sisters who are neutral evil, half-elf bandits. Originally alchemists by trade, they use their knowledge to brew magic potions deemed by the Hands of Ord to be too dangerous for public consumption."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; The Circlet Walk; Step Aside",
+        "monsters": [
+            [
+                1,
+                "17045-veteran",
+                700
+            ],
+            [
+                1,
+                "16848-druid",
+                450
+            ]
+        ],
+        "text": "The place is run by two former mercenaries: Irawan, a lawful good, elf veteran, and his husband Calinao, a neutral good, elf druid. Unbeknownst to many, Irawan and Calinao were among the original Scarbearers who came to Ank\u2019Harel during the city\u2019s nascent years and defiantly showed to J\u2019mon Sa Ord the scars they earned during their defense of the realm. The couple has long since retired from mercenary life, but they serve the people of the city in other ways. If the phrase \u201cPardon my steps as I pass through\u201d is whispered to either Irawan or Calinao, they\u2019ll lead the individual to a safe house beneath the tavern, where the beneficiary is welcome to stay until other arrangements can be made."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; Guided District; Temple of the Mentor",
+        "monsters": [
+            [
+                1,
+                "2407554-monastic-operative",
+                1800
+            ]
+        ],
+        "text": "At the high curator\u2019s behest, a sardonic monk named Iwo Zalarre, a chaotic good, half-orc monastic operative (see appendix A), oversees all visitors to the public archives and registers all requests for access to the private archive. Though just as dedicated to Ioun\u2019s service as any other member of the Cobalt Soul, Iwo is eager to get out of the temple and take part in a challenging mission."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; Guided District; Tower of Memory",
+        "monsters": [
+            [
+                1,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "Watcher Byron, a lawful evil, gnome veteran, oversees most of the sentinels\u2019 operations for Watcher Trast and rarely leaves the Tower of Memory. Gentle of voice but volatile of temper, Byron has grown increasingly impatient with his faction\u2019s political strategy and has begun to plot more aggressive ways of hampering the Allegiance of Allsight\u2019s excavation of Cael Morrow. Though he would never admit it, Byron secretly longs to see the wonders of Cael Morrow for himself."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; The Ridge; Sunfire Forge",
+        "monsters": [
+            [
+                1,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "The Sunfire Forge is under the control of Rohaya Tak, a neutral good, half-elf commoner, who inherited the business from her mother two decades ago. An innovative metalworker, Rohaya combines her smithcraft with shrewd business intuition. In addition to crafting blades and tools, Rohaya uses the forge to produce cannons for use on sailing ships and skyships, modeled after the bronze cannons of her family\u2019s homeland in southern Marquet."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; River District; Life Dome",
+        "monsters": [
+            [
+                1,
+                "2407562-scholarly-excavator",
+                700
+            ]
+        ],
+        "text": "The Allegiance of Allsight scholar Carliale Kroogan, a neutral good, gnome scholarly excavator (see appendix A), is currently the chief supervisor for the Life Dome. Lonely and a bit of a chatterbox, Carliale is always ready to chat about arcane theory with any individual who comes his way."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; River District; Old Man Kruuk\u2019s",
+        "monsters": [
+            [
+                1,
+                "16799-bandit-captain",
+                450
+            ]
+        ],
+        "text": "Old Man Kruuk, a neutral, half-orc bandit captain, is a mediocre baker; his pitas are tough and chewy, and the caramel of his baklava is bitter and burned. Kruuk\u2019s talent lies in his true vocation as a fence for stolen goods. After an individual gains his trust, he drops his bumbling baker facade and reveals himself to be an excellent businessperson, able to sweet-talk even the most uncompromising thieves into a favorable deal."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; Sigil District; Crystal Chateau",
+        "monsters": [
+            [
+                1,
+                "2407561-scholarly-agent",
+                200
+            ]
+        ],
+        "text": "Jor Raashid, a lawful neutral, halfling scholarly agent (see appendix A), is the gatekeeper for the Crystal Chateau. Suspicious and condescending, Jor sternly prohibits nonmembers from entering the Chateau."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; Sigil District; Maw of Cael Morrow",
+        "monsters": [
+            [
+                5,
+                "17045-veteran",
+                700
+            ],
+            [
+                1,
+                "2407562-scholarly-excavator",
+                700
+            ]
+        ],
+        "text": "Protection. A contingent of five lawful neutral Scarbearer veterans patrols the rim of the maw, on the lookout for unauthorized visitors. They are led by a loyal, lawful good, orc scholarly excavator (see appendix A) named Hakzorne. He permits only people who display Allegiance badges to enter the maw; Hakzorne gives only one warning before ordering the mercenaries to attack."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; Sigil District; Omnival Library",
+        "monsters": [
+            [
+                1,
+                "16947-mage",
+                2300
+            ]
+        ],
+        "text": "The Omnival Library is managed by Bookkeeper Khime, a neutral good, orc mage. He\u2019s convinced that shadowy forces are constantly trying to undermine Ank\u2019Harel, and this penchant for conspiracy theories makes him incredibly observant. He\u2019s an excellent source of information about happenings in the city, despite his wild conclusions."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; Suncut Bazaar",
+        "monsters": [
+            [
+                1,
+                "16915-guard",
+                25
+            ],
+            [
+                1,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "T2: Battlements. The walls of the Suncut Bazaar are made of sandstone and patrolled day and night by Hands of Ord guards and veterans."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; Suncut Bazaar; Bone Garden",
+        "monsters": [
+            [
+                1,
+                "16763-acolyte",
+                50
+            ]
+        ],
+        "text": "The Bone Garden is run by Rerosha, a chaotic good, human acolyte who\u2019s a nonverbal young woman with a brazen attitude toward life. She uses facial expressions, gestures, and a sassy gray parrot named Akil to communicate."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; Suncut Bazaar; First Eclipse",
+        "monsters": [
+            [
+                1,
+                "2407556-occult-extollant",
+                2300
+            ]
+        ],
+        "text": "First Eclipse is owned and operated by Satzrak Runestrider, a neutral evil, blue dragonborn occult extollant (see appendix A). He is a loyal member of the faction, and he longs to keep the Consortium headquartered at his place permanently; the group has already used the tavern for three months longer than originally planned, so his hopes are up."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; Suncut Bazaar; Luck\u2019s Run",
+        "monsters": [
+            [
+                1,
+                "16966-noble",
+                25
+            ]
+        ],
+        "text": "The casino is owned and run by Adima Shemsilver, a chaotic neutral, halfling noble who walks with the confidence of someone twice his height. Adima secretly uses half of the casino\u2019s earnings to fund the Veil, as his family has done for generations."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.2315648,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-jewel-of-hope.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Jewel of Hope; Ank\u2019Harel Gazetteer; Suncut Bazaar; Mystic Pursuits",
+        "monsters": [
+            [
+                1,
+                "16947-mage",
+                2300
+            ],
+            [
+                750,
+                "16934-invisible-stalker",
+                2300
+            ]
+        ],
+        "text": "The \u201csoothsayer\u201d is a charlatan named Amkezne, a chaotic neutral, tiefling mage. She is a Crystal Chateau dropout who makes a living defrauding wide-eyed tourists with her mystical displays and fake enchanted trinkets. Customers who see through her act but treat her with respect can purchase any spell component worth 1,000 gp or less from Amkezne. She also has a collection of fine jewelry for sale, including five gold bracelets (25 gp each), three gem-studded gold rings (250 gp each), and two jewel-encrusted necklaces and tiaras (750 gp each). An invisible stalker watches over this collection and attacks anyone who tries to steal from it."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; What Lies Beneath; Allegiance Mission 1: Deliver the Figurine; Volatile Figurine",
+        "monsters": [
+            [
+                1,
+                "2407560-ruidium-elephant",
+                3900
+            ]
+        ],
+        "text": "When a character tries to retrieve the figurine, it reacts as if it had been activated, transforming into a crystalline version of the creature it was meant to become (use the ruidium elephant stat block earlier in the chapter). This creature can\u2019t be controlled."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; What Lies Beneath; Allegiance Mission 2: Search the Life Dome; Sudden Surge",
+        "monsters": [
+            [
+                2,
+                "16934-invisible-stalker",
+                2300
+            ]
+        ],
+        "text": "When they see that the characters survived the surge, two invisible stalkers move in for the kill. The invisible stalkers were summoned by Professor Lymmle Wist and infiltrated the Life Dome a short time ago without Carliale\u2019s knowledge, slipping through the entrance as the gnome arrived for work. The invisible stalkers focus their attacks on the characters, ignoring Carliale."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; What Lies Beneath; Allegiance Mission 3: The Proxies of Prolix; Hunt for the Truth",
+        "monsters": [
+            [
+                2,
+                "16763-acolyte",
+                50
+            ]
+        ],
+        "text": "Anbara and Idris (lawful neutral, human acolytes), the two agents from the expedition that recovered the ring, vaguely recall being attacked during their work, but they can\u2019t provide any details. A character who succeeds on a DC 15 Intelligence (Arcana) or Wisdom (Insight) check discerns that this claim of ignorance is not a lie\u2014Anbara and Idris have had their memories of the incident tampered with. Restoring their memories with a remove curse spell or similar magic causes them to recall that Professor Wist led the group through a wrong turn, to an area where they were accosted by an armed ruffian. They were knocked out in the ensuing scuffle, but they can\u2019t identify who cast the spell or wielded the weapon that incapacitated them."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; What Lies Beneath; Allegiance Mission 3: The Proxies of Prolix; Hunt for the Truth",
+        "monsters": [
+            [
+                1,
+                "16947-mage",
+                2300
+            ]
+        ],
+        "text": "If Lymmle Wist (a neutral evil, human mage) is questioned, she deftly addresses the characters\u2019 inquiries, and her responses conform to the expedition records. A character who succeeds on a DC 16 Wisdom (Insight) check notices a guarded expression in her eyes and a terse undertone in her voice, indicating her discomfort. Characters who have a passive Wisdom (Perception) score of 15 or higher notice thin, elevated red veins encircling the base of her right ring finger\u2014the result of her exposure to the ring of red fury before she planted it on Prolix."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; What Lies Beneath; Allegiance Mission 4: The Double Agent; Finding the Double Agent",
+        "monsters": [
+            [
+                1,
+                "2407563-scholarly-mastermind",
+                1800
+            ]
+        ],
+        "text": "The number of workers in the Cael Morrow archaeological expedition has dwindled recently. Currently, only Professor Insight Acuere, a kenku named Scribble, and a goliath named Xot are there. None of them is the double agent."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; Vermilion Gambits; Consortium Mission 1: A Ghost in Our Midst",
+        "monsters": [
+            [
+                1,
+                "2407556-occult-extollant",
+                2300
+            ]
+        ],
+        "text": "If the characters enter First Eclipse (see the \u201cSuncut Bazaar\u201d section earlier in the chapter), they are greeted by the bartender, Satzrak Runestrider, a neutral evil, blue dragonborn occult extollant (see appendix A). If they ask him about the Consortium, he gives each of them a drink on the house and tells them to keep quiet. When they finish their drinks, Satzrak hisses, \u201cGo home and wait for a letter.\u201d"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; Vermilion Gambits; Consortium Mission 1: A Ghost in Our Midst; Search for the Ghost",
+        "monsters": [
+            [
+                1,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "Shira is a chaotic good, human commoner, with the following additional action option:"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; Vermilion Gambits; Consortium Mission 2: When Luck Runs Out; Getting the Mission",
+        "monsters": [
+            [
+                1,
+                "2407557-occult-initiate",
+                450
+            ]
+        ],
+        "text": "Inside the Consortium\u2019s hidden storeroom in the back of the tavern, the characters find Aloysia Telfan. If Aloysia died earlier in the adventure, replace her with another occult initiate (see appendix A), and modify the following text accordingly:"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; Vermilion Gambits; Consortium Mission 2: When Luck Runs Out; At the Casino",
+        "monsters": [
+            [
+                1,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "When the characters get to Luck\u2019s Run, Security Captain Nedosi Anay, a neutral, half-orc veteran, brusquely briefs them. She relays the following information:"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; Vermilion Gambits; Consortium Mission 2: When Luck Runs Out; At the Casino",
+        "monsters": [
+            [
+                4,
+                "16915-guard",
+                25
+            ],
+            [
+                10,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "Casino Floor. At night the casino is crowded, as people filter in after work has finished for the day to try their hand at one of the casino\u2019s games. Each floor of the casino is patrolled by four guards; in addition, the ground floor is staffed by ten commoners. A pair of finely upholstered spiral staircases in the back of the building connects the three floors. Each staircase is magical and functions like an escalator\u2014one has stairs that carry patrons upward, while the other has stairs that move downward."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; Vermilion Gambits; Consortium Mission 2: When Luck Runs Out; Casino Heist",
+        "monsters": [
+            [
+                1,
+                "16805-berserker",
+                450
+            ],
+            [
+                1,
+                "17021-spy",
+                200
+            ],
+            [
+                1,
+                "16790-assassin",
+                3900
+            ]
+        ],
+        "text": "As the sun sinks below the horizon, the thieves put their plan in motion. Three individuals are involved in the operation:\nEna (neutral, human berserker) masquerades as a casino patron.\nDuskwood (chaotic neutral, half-elf spy), like Ena, masquerades as a casino patron and wears a hat of disguise.\nKoris (lawful neutral, tiefling assassin), the crew\u2019s leader, works at one of the casino\u2019s card tables—a job she has held for about a month. She carries a potion of gaseous form, a tiny packet containing dust of disappearance, and a bag of holding.\nIf any of the thieves are confronted before they can pull off the heist, they try to flee the casino and foil any pursuers by running through the streets. Resolve such a chase using the chase rules and the Urban Chase Complications table in the Dungeon Master\u2019s Guide."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; Vermilion Gambits; Consortium Mission 3: Elephant in the Room; Getting the Mission",
+        "monsters": [
+            [
+                1,
+                "2407558-occult-silvertongue",
+                3900
+            ]
+        ],
+        "text": "The characters are summoned to First Eclipse, where Satzrak quietly informs them that one of the masters of the Consortium wants to speak with them, though he doesn\u2019t know why. Following Satzrak\u2019s directions, the characters enter the tavern\u2019s secret storeroom to find Master Aradrine the Owl, a lawful neutral, goliath occult silvertongue (see appendix A), waiting for them. For more information on goliaths, see the \u201cGoliaths of Exandria\u201d sidebar earlier in the chapter."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; Vermilion Gambits; Consortium Mission 3: Elephant in the Room; Assassins Above",
+        "monsters": [
+            [
+                2,
+                "16790-assassin",
+                3900
+            ]
+        ],
+        "text": "As the characters travel to the storehouse where the elephant figurine is being kept, they are watched from the rooftops by two lawful evil, human assassins who have been hired by the Sentinels of Memory to grab the figurine from the storehouse and return it to the faction\u2019s headquarters. After watching the characters interact with Jor Raashid, the assassins follow them to the storehouse. When the characters arrive, the assassins attack. Characters who have a passive Wisdom (Perception) score of 19 or higher spot the assassins before they attack and are not surprised during the first round of combat."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; Vermilion Gambits; Consortium Mission 3: Elephant in the Room; Assassins Above",
+        "monsters": [
+            [
+                5,
+                "16938-knight",
+                700
+            ]
+        ],
+        "text": "Long Hands of the Law. On initiative count 20 of the third round of combat, five Hands of Ord knights arrive to apprehend everyone involved in the brawl. The assassins try to flee rather than face arrest and incarceration. Two of the knights pursue the assassins while the remaining knights try to take the characters into custody. If the characters don\u2019t resist, they are held overnight in a Sigil District jail, then released the next morning and fined 50 gp each for disturbing the peace. This delay enables the Allegiance of Allsight to keep the figurine of wondrous power safe, and the mission ends in failure (see \u201cMission Failed\u201d below)."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; Vermilion Gambits; Consortium Mission 3: Elephant in the Room; Emerald Ibis Relic Hall",
+        "monsters": [
+            [
+                1,
+                "2407561-scholarly-agent",
+                200
+            ]
+        ],
+        "text": "Daytime Entry. The hall is managed by Relickeeper Kareema, a neutral good, orc scholarly agent (see appendix A) with messy dark curls and round glasses. If the characters convince her that they are members of the Allegiance of Allsight with a successful DC 18 Charisma (Deception) check, she reveals that the figurine was placed in the downstairs vault (see \u201cBasement Vault\u201d below). On a failed check, Kareema becomes suspicious of the characters\u2019 intentions; she gives them the information, but then scuttles away to alert her superiors."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; Vermilion Gambits; Consortium Mission 3: Elephant in the Room; Emerald Ibis Relic Hall",
+        "monsters": [
+            [
+                6,
+                "16897-giant-vulture",
+                200
+            ]
+        ],
+        "text": "Each animated glass statue uses the giant vulture stat block, with these changes:"
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; Vermilion Gambits; Consortium Mission 3: Elephant in the Room; Hasty Getaway",
+        "monsters": [
+            [
+                1,
+                "2407563-scholarly-mastermind",
+                1800
+            ],
+            [
+                2,
+                "2407562-scholarly-excavator",
+                700
+            ]
+        ],
+        "text": "If the characters aroused Kareema\u2019s suspicions or activated the trap in the basement vault, they are intercepted as they exit the hall by Headmaster James Cryon, a lawful neutral, elf scholarly mastermind, and two lawful neutral scholarly excavators serving as bodyguards (see appendix A for their stat blocks). Headmaster Cryon is willing to talk as long as the characters seem willing to relinquish the figurine, but if any character tries to escape with it, Headmaster Cryon and his bodyguards attack."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; Vermilion Gambits; Consortium Mission 3: Elephant in the Room; Mission Failed",
+        "monsters": [
+            [
+                6,
+                "2407557-occult-initiate",
+                450
+            ]
+        ],
+        "text": "If the characters return to Aradrine without the figurine, the goliath beholds them coolly and snarls, \u201cI have precious little sympathy for failures. Get out of my sight.\u201d Characters who beg for Aradrine\u2019s forgiveness only anger her further. If they refuse to leave, she calls in six occult initiates (see appendix A) to remove them."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; Knowledge Is Power; Cobalt Soul Mission 1: The Cultist of Zehir; Getting the Mission",
+        "monsters": [
+            [
+                1,
+                "2407554-monastic-operative",
+                1800
+            ]
+        ],
+        "text": "If the characters arrived in Ank\u2019Harel with Question, the tiefling scholar they met in Bazzoxan in chapter 3, she greets them at their lodgings the morning after their arrival. Question knocks on the characters\u2019 door and cheerfully states that her superior, Iwo Zalarre (a chaotic good, half-orc monastic operative; see appendix A), wants to speak with them. If the characters accept the meeting, Question takes them to the Temple of the Mentor, the headquarters of the Cobalt Soul in Ank\u2019Harel (see “Temple of the Mentor” earlier in the chapter)."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; Knowledge Is Power; Cobalt Soul Mission 1: The Cultist of Zehir; Getting the Mission",
+        "monsters": [
+            [
+                1,
+                "16836-cult-fanatic",
+                450
+            ]
+        ],
+        "text": "The person of interest is a chaotic evil half-elf named Laurin Ophidas. He uses the cult fanatic stat block, with these changes:"
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; Knowledge Is Power; Cobalt Soul Mission 1: The Cultist of Zehir; Showdown",
+        "monsters": [
+            [
+                5,
+                "16938-knight",
+                700
+            ]
+        ],
+        "text": "If the characters accost Ophidas in public, he hollers for the Hands of Ord. Five Hands of Ord knights arrive 3 rounds later. If the characters are still nearby when the Hands arrive, the guards try to arrest them and hold them overnight. If they don\u2019t resist, the characters are detained in a Sigil District jail, then released the next morning and assessed a fine of 50 gp each for disturbing the peace. While the characters are cooling their heels in jail, Ophidas (who is questioned by the Hands of Ord but not arrested) collects his belongings and disappears. The characters have no chance of finding him again."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; Knowledge Is Power; Cobalt Soul Mission 2: Half-Baked Scheme; Bakery by the Canal",
+        "monsters": [
+            [
+                1,
+                "16799-bandit-captain",
+                450
+            ]
+        ],
+        "text": "Q1a: Bakery Shop. The front door is unlocked, and a small silver bell on the door jingles as it\u2019s opened. Unsold items are still sitting in their display cases. Old Man Kruuk, a neutral, half-orc bandit captain, sits behind the counter, counting the day\u2019s proceeds."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; Knowledge Is Power; Cobalt Soul Mission 2: Half-Baked Scheme; A Deal Goes Down",
+        "monsters": [
+            [
+                1,
+                "2407556-occult-extollant",
+                2300
+            ]
+        ],
+        "text": "Kruuk plans to meet one hour after sunset with Ashann, a chaotic neutral, gnome occult extollant (see appendix A) working for the Consortium of the Vermilion Dream. Ashann carries a pouch containing five peridots (500 gp each)."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; Knowledge Is Power; Cobalt Soul Mission 3: Elephant Uproar; Getting the Mission",
+        "monsters": [
+            [
+                1,
+                "2407552-monastic-high-curator",
+                5900
+            ]
+        ],
+        "text": "Jamil A\u2019alithiya, a neutral good, human monastic high curator (see appendix A), offers a reward of 1,000 gp for completing the mission."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; Knowledge Is Power; Cobalt Soul Mission 3: Elephant Uproar; A Bazaar Encounter",
+        "monsters": [
+            [
+                2,
+                "2407560-ruidium-elephant",
+                3900
+            ]
+        ],
+        "text": "This combat encounter takes place on the Streets of the Suncut Bazaar map. The crystalline creatures are two ruidium elephants (see their stat block earlier in the chapter). These elephants are running amok and must be destroyed before they cause any further damage."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.5326626,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/faction-story-tracks.html",
+        "book_path": "Critical Role: Call of the Netherdeep; Faction Story Tracks; Knowledge Is Power; Cobalt Soul Mission 3: Elephant Uproar; First Eclipse",
+        "monsters": [
+            [
+                1,
+                "2407558-occult-silvertongue",
+                3900
+            ],
+            [
+                1,
+                "2407556-occult-extollant",
+                2300
+            ]
+        ],
+        "text": "The elephants were released by Khelkur the Gull, a neutral evil, dwarf occult silvertongue who\u2019s one of the masters of the Consortium of the Vermilion Dream. He and the bartender, Satzrak Runestrider, a neutral evil, blue dragonborn occult extollant (see appendix A for both stat blocks), are in First Eclipse\u2019s taproom, celebrating the success of their experiment. The tavern is otherwise empty."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Uncharted Waters; Cael Morrow Encounters",
+        "monsters": [
+            [
+                1,
+                "2407569-swarm-of-sorrowfish",
+                2300
+            ]
+        ],
+        "text": "A swarm of sorrowfish (see appendix A) flocks around the detritus of a shark’s corpse, ravenous for more prey."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Uncharted Waters; Cael Morrow Encounters",
+        "monsters": [
+            [
+                3,
+                "2407564-scuttling-serpentmaw",
+                1100
+            ]
+        ],
+        "text": "Three scuttling serpentmaws (see appendix A) search for food."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Uncharted Waters; Cael Morrow Encounters",
+        "monsters": [
+            [
+                1,
+                "16888-giant-octopus",
+                200
+            ]
+        ],
+        "text": "A giant octopus wrestles with a locked chest. The chest contains 1,000 ep in coins minted long ago in Cael Morrow."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Uncharted Waters; Cael Morrow Encounters",
+        "monsters": [
+            [
+                1,
+                "2407534-death-embrace",
+                7200
+            ]
+        ],
+        "text": "Tentacles burst from the darkness as a death embrace (see appendix A) notices the characters."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Uncharted Waters; Cael Morrow Encounters",
+        "monsters": [
+            [
+                2,
+                "2407567-slithering-bloodfin",
+                5000
+            ]
+        ],
+        "text": "Two slithering bloodfins (see appendix A) streak through the water, eager for a meal."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Uncharted Waters; Cael Morrow Encounters",
+        "monsters": [
+            [
+                2,
+                "2407521-aboleth-spawn",
+                1800
+            ]
+        ],
+        "text": "Two aboleth spawn (see their stat block later in the chapter) spot the characters and flee to alert the Alyxian Aboleth, which appears 1 minute later."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Cael Morrow Locations (M1-M8); M1: Stone Column",
+        "monsters": [
+            [
+                1,
+                "2407561-scholarly-agent",
+                200
+            ]
+        ],
+        "text": "The person near the door is a sullen, lawful neutral orc named Gortag Inkdrinker (use the scholarly agent stat block in appendix A). The characters can surprise him if they act quickly. If the characters are members of the Allegiance of Allsight or the Library of the Cobalt Soul, Gortag treats them as allies and invites them to meet with his superior, Professor Insight Acuere, in the Allegiance base camp (area M3). If the characters accept the invitation, he escorts them there."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Cael Morrow Locations (M1-M8); M2: Warded Entrance Hall",
+        "monsters": [
+            [
+                2,
+                "2407561-scholarly-agent",
+                200
+            ]
+        ],
+        "text": "Two scholarly agents (see appendix A) stand outside the door to area M3. One is a lawful neutral human named Kal, and the other is a lawful good halfling named Nadiya."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Cael Morrow Locations (M1-M8); M3: Allegiance Base Camp",
+        "monsters": [
+            [
+                1,
+                "2407563-scholarly-mastermind",
+                1800
+            ],
+            [
+                1,
+                "2407561-scholarly-agent",
+                200
+            ],
+            [
+                1,
+                "2407562-scholarly-excavator",
+                700
+            ]
+        ],
+        "text": "If Insight, Scribble, and Xot become hostile toward intruders, they fight to kill. On the first turn of combat, Insight uses a sending stone to contact Headmaster Cryon in the Crystal Chateau and request aid. Twenty minutes later, ten scholarly agents and five scholarly excavators (see appendix A for both stat blocks) arrive by way of area M1 to secure the base camp."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Cael Morrow Locations (M1-M8); M3: Allegiance Base Camp",
+        "monsters": [
+            [
+                10,
+                "2407561-scholarly-agent",
+                200
+            ],
+            [
+                5,
+                "2407562-scholarly-excavator",
+                700
+            ]
+        ],
+        "text": "If Insight, Scribble, and Xot become hostile toward intruders, they fight to kill. On the first turn of combat, Insight uses a sending stone to contact Headmaster Cryon in the Crystal Chateau and request aid. Twenty minutes later, ten scholarly agents and five scholarly excavators (see appendix A for both stat blocks) arrive by way of area M1 to secure the base camp."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Cael Morrow Locations (M1-M8); M5a: Crumbling Guard Tower",
+        "monsters": [
+            [
+                1,
+                "2407532-corrupted-giant-shark",
+                5000
+            ]
+        ],
+        "text": "If the characters leave the keystone undisturbed, they can pass through the tower safely and continue onward. If any of them return to the tower a second time, the keystone makes a loud popping noise in their presence and cracks in half, bringing down the magical barriers. The shark, which is a corrupted giant shark (see appendix A), attacks characters who now find themselves underwater."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Cael Morrow Locations (M1-M8); M6: Sunken Tavern",
+        "monsters": [
+            [
+                1,
+                "17007-scout",
+                100
+            ]
+        ],
+        "text": "Continual flame spells illuminate the interior of this underwater tavern, which is strewn with detritus. A neutral good sea elf named Olara floats behind a granite countertop. If approached, the barkeep cheerfully introduces herself and welcomes the characters to what she calls the Last Willow Tavern. Olara uses the scout stat block, with these changes:"
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Cael Morrow Locations (M1-M8); M7a: Royal Reading Room",
+        "monsters": [
+            [
+                1,
+                "2407556-occult-extollant",
+                2300
+            ],
+            [
+                1,
+                "17012-shield-guardian",
+                2900
+            ]
+        ],
+        "text": "A neutral evil, high elf occult extollant (see appendix A) named Galeokaerda has set up camp in this room along with Crescent, her shield guardian. Galeokaerda wears the shield guardian\u2019s amulet around her neck but hides it under her shirt."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Cael Morrow Locations (M1-M8); M7b: Royal Study Chamber",
+        "monsters": [
+            [
+                1,
+                "2407569-swarm-of-sorrowfish",
+                2300
+            ]
+        ],
+        "text": "This damaged, water-filled chamber contains a hungry swarm of sorrowfish (see appendix A)."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Cael Morrow Locations (M1-M8); M8: Submerged Library",
+        "monsters": [
+            [
+                3,
+                "16871-ghost",
+                1100
+            ]
+        ],
+        "text": "Haunted Tablets. Each of the three unbroken tablets is inhabited by a lawful neutral ghost, desperate for a peaceful end to its suffering. When a Humanoid first touches a tablet, the ghost inside tries to possess the creature using its Possession action. If the creature resists that attempt, the ghost appears in an unoccupied space within 5 feet of the tablet. After one ghost has emerged from its tablet, whether by possessing a creature or otherwise, the other two ghosts appear alongside it."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Cael Morrow Locations (M9-M17); M10: Crumbling Building",
+        "monsters": [
+            [
+                4,
+                "2407564-scuttling-serpentmaw",
+                1100
+            ]
+        ],
+        "text": "Four scuttling serpentmaws (see appendix A) lurk amid the rubble and scuttle across the floor to attack characters who investigate the room. Characters who have a passive Wisdom (Perception) score of 18 or higher notice the serpentmaws and aren\u2019t surprised when they attack."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Cael Morrow Locations (M9-M17); M11: Kelp Forest",
+        "monsters": [
+            [
+                2,
+                "2407521-aboleth-spawn",
+                1800
+            ]
+        ],
+        "text": "Two aboleth spawn (see the accompanying stat block) guard the kelp forest. These tentacled creatures are bound to the Alyxian Aboleth and do its bidding. Their task is to guard the aboleth\u2019s treasure (see \u201cTreasure\u201d below)."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Cael Morrow Locations (M9-M17); M11: Kelp Forest",
+        "monsters": [
+            [
+                1,
+                "2407522-alyxian-aboleth",
+                8400
+            ]
+        ],
+        "text": "The kelp forest is the lair of the Alyxian Aboleth (see appendix A). If the aboleth retreated here to take a short rest, it tries to hide from interlopers until its rest is finished before attacking them. If the aboleth is not present but returns to find any of its treasure missing (see below), it scours Cael Morrow in search of the thieves, determined to destroy them."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Cael Morrow Locations (M9-M17); M13: Villa",
+        "monsters": [
+            [
+                1,
+                "2407534-death-embrace",
+                7200
+            ],
+            [
+                1,
+                "2407569-swarm-of-sorrowfish",
+                2300
+            ]
+        ],
+        "text": "A death embrace (see appendix A) has made its lair in the ruins of this once magnificent location and attacks anyone who comes within reach of its tentacles. A swarm of sorrowfish (see appendix A) lurks among the tendrils of the death embrace, gaining half cover. When the death embrace grapples a creature, the swarm loses its cover and the sorrowfish emerge to feed on the grappled creature."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Cael Morrow Locations (M9-M17); M14: Watchtower",
+        "monsters": [
+            [
+                8,
+                "2407571-sword-wraith-warrior",
+                700
+            ],
+            [
+                1,
+                "2407570-sword-wraith-commander",
+                3900
+            ]
+        ],
+        "text": "The tower is haunted by eight sword wraith warriors under the command of Beltreath, a lawful neutral sword wraith commander. See appendix A for these creatures\u2019 stat blocks."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Cael Morrow Locations (M9-M17); M14: Watchtower",
+        "monsters": [
+            
+        ],
+        "text": "The sword wraiths are former defenders of Cael Morrow who fell during the battle against Gruumsh. They are protecting the ghost of Hadarai, a neutral good, orc priest of Corellon. Hadarai is soft-spoken and kindhearted. He swore a vow of pacifism centuries ago that he has never broken; even after being stripped of his mortal form, he won\u2019t fight or use Possession."
+    },
+    {
+        "type": "duplicate-combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Cael Morrow Locations (M9-M17); M15: Collapsed Guard Tower",
+        "monsters": [
+            [
+                3,
+                "2407567-slithering-bloodfin",
+                5000
+            ],
+            [
+                1,
+                "2407522-alyxian-aboleth",
+                8400
+            ]
+        ],
+        "text": "The burst of light from this trap attracts the slithering bloodfins in area M16 and possibly the Alyxian Aboleth (see appendix A for their stat blocks). If the aboleth is in the nearby kelp forest (area M11) when the trap is sprung, it sees the light and immediately moves to investigate it."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Cael Morrow Locations (M9-M17); M16: Collapsed Ruins",
+        "monsters": [
+            [
+                3,
+                "2407567-slithering-bloodfin",
+                5000
+            ]
+        ],
+        "text": "Unless the characters killed them in area M15, three slithering bloodfins (see appendix A) prowl this area in search of prey. The characters spot them\u2014three streaks of crimson darting through the ruins. Unless the characters move away from the ruins immediately, the bloodfins swim toward the intruders and attack."
+    },
+    {
+        "type": "duplicate-combat",
+        "modified": 1753295768.722286,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-drowned-city.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Cael Morrow Locations (M9-M17); M17: Rift to the Netherdeep",
+        "monsters": [
+            [
+                1,
+                "2407522-alyxian-aboleth",
+                8400
+            ]
+        ],
+        "text": "If the characters have yet to defeat the Alyxian Aboleth (see appendix A), it senses their intrusion into this area and arrives 1 minute later, attacking the characters in a rage."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Grottoes of Regret; Grottoes of Regret Locations; N1: Antechamber",
+        "monsters": [
+            [
+                2,
+                "2407548-light-devourer",
+                2300
+            ],
+            [
+                1,
+                "2407567-slithering-bloodfin",
+                5000
+            ]
+        ],
+        "text": "Swimming in the dark water 20 feet above the characters (30 feet above the floor) are two devourers and a slithering bloodfin (see appendix A for their stat blocks) that act as sentries. Characters who find themselves outmatched by the monsters or unable to cope with the water pressure can retreat through the open rift and return to Cael Morrow."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Grottoes of Regret; Grottoes of Regret Locations; N2: Child\u2019s Lament",
+        "monsters": [
+            [
+                6,
+                "16805-berserker",
+                450
+            ]
+        ],
+        "text": "Outdoor Scene. Any character who looks out a window or exits the cottage sees two humans being attacked by a band of six people armed with farm implements. The two folks being accosted are representations of Alyxian\u2019s parents. His father has a kindly face and a bushy brown beard. His mother has a worry-lined, scarred face. Both have olive skin and wear simple, dirt-stained garments made of a single piece of cloth. Their attackers are shadowy, faceless facsimiles of people draped in worn-out clothes. Red eyes burn from beneath their wide-brimmed hats. These shadowy assailants use the berserker stat block, but their weapon attacks deal psychic damage. Their vague forms are due to the fact that Alyxian\u2019s memory of them has faded."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Grottoes of Regret; Grottoes of Regret Locations; N3: Unforgotten Fallacy",
+        "monsters": [
+            [
+                2,
+                "16975-owlbear",
+                700
+            ],
+            [
+                2,
+                "2407569-swarm-of-sorrowfish",
+                2300
+            ]
+        ],
+        "text": "Hunting for Meat. One or more characters can hunt the owlbears and the deer to bring back meat to the hunters\u2019 camp. At least one character must succeed on a DC 16 Wisdom (Survival) check to track the owlbears through the forest. As they explore the forest, the characters see beds of long, flowing kelp emerging from among the trees\u2014a hint that the Netherdeep isn\u2019t far away. If one or more characters succeed on the check, they encounter the two owlbears. When an owlbear dies, its body splits open and a swarm of sorrowfish (see appendix A) bursts out and attacks. These sorrowfish swim through the air as if it were water. Once the swarms are defeated, the characters can take the owlbear meat\u2014enough to sustain the village\u2014back to the hunters\u2019 camp. If no characters succeed on the check, they don\u2019t encounter the owlbears and find only the carcasses of sickly deer that couldn\u2019t keep up with the rest of the herd. If these carcasses are returned to the camp, they provide some edible meat\u2014enough to placate the Apotheon\u2019s regret."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Grottoes of Regret; Grottoes of Regret Locations; N3: Unforgotten Fallacy",
+        "monsters": [
+            [
+                4,
+                "17007-scout",
+                100
+            ]
+        ],
+        "text": "Healing Saqiri. Four hunters (scouts) guard Saqiri. These hunters have shadowy forms and hazy faces, because Alyxian\u2019s memory of them has faded somewhat."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Grottoes of Regret; Grottoes of Regret Locations; N4: Haunted Ashes",
+        "monsters": [
+            [
+                4,
+                "2407571-sword-wraith-warrior",
+                700
+            ],
+            [
+                1,
+                "2407570-sword-wraith-commander",
+                3900
+            ]
+        ],
+        "text": "Raiders. A group of soldiers\u2014allies of Alyxian in the battle against Torog\u2014have decided that since they saved this village, it is theirs to pillage. Four sword wraith warriors led by a sword wraith commander (see appendix A for their stat blocks) take the shadowy shape of Alyxian\u2019s crass allies. They are bullying a group of ten commoners in the middle of the village. As the characters approach, the commander, a neutral evil human in his mid-twenties named Kalagothe, looks to them as if they were Alyxian and roars, \u201cCommander Alyxian, these people refuse to pay us tribute!\u201d"
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Grottoes of Regret; Grottoes of Regret Locations; N5: Alyxian\u2019s Refuge",
+        "monsters": [
+            [
+                3,
+                "16871-ghost",
+                1100
+            ]
+        ],
+        "text": "Ghosts of the Remembered. When the characters learn all three names, three ghosts rise from the women\u2019s corpses and attack the intruders until at least one of the ghosts\u2019 names is spoken aloud. The ghosts resemble the three women, but they are not restless spirits. Rather, they are manifestations of Alyxian\u2019s rage and regret. The characters can destroy these ghosts by reducing each of them to 0 hit points."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Grottoes of Regret; Grottoes of Regret Locations; N7: Battle at the Betrayers\u2019 Rise",
+        "monsters": [
+            [
+                5,
+                "2407571-sword-wraith-warrior",
+                700
+            ]
+        ],
+        "text": "First Wave. This wave consists of one  sword wraith warrior (see appendix A) per character, up to a maximum of five. These grim knights represent the evil soldiers of the Crawling King. As the battle is joined, Alyxian chimes in:"
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Grottoes of Regret; Grottoes of Regret Locations; N7: Battle at the Betrayers\u2019 Rise",
+        "monsters": [
+            [
+                2,
+                "744323-moorbounder",
+                200
+            ],
+            [
+                1,
+                "2407567-slithering-bloodfin",
+                5000
+            ]
+        ],
+        "text": "Second Wave. After the first wave is defeated, the characters have 2 rounds to heal and prepare for the second wave: two moorbounders (see appendix A) accompanied by five sword wraith warriors. Before the characters can do anything to prevent it, the sword wraiths merge into one creature\u2014a slithering bloodfin (see appendix A) that swims through the air as easily as it normally swims through water. The howling faces of the warriors are visible on the bloodfin\u2019s flesh. The bloodfin is not what the Apotheon sought to conjure in this moment; rather, it represents Alyxian\u2019s inability to keep the Netherdeep from intruding upon his memories."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Grottoes of Regret; Grottoes of Regret Locations; N7: Battle at the Betrayers\u2019 Rise",
+        "monsters": [
+            [
+                1,
+                "2407570-sword-wraith-commander",
+                3900
+            ],
+            [
+                4,
+                "2407571-sword-wraith-warrior",
+                700
+            ],
+            [
+                1,
+                "744315-horizonback-tortoise",
+                3900
+            ]
+        ],
+        "text": "Third Wave. After the second wave is defeated, the characters have 1 round to heal and prepare for the final wave: a sword wraith commander and four sword wraith warriors on the back of a horizonback tortoise (see appendix A for these creatures\u2019 stat blocks). Alyxian shares his thoughts as the tortoise lumbers toward the party:"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Grottoes of Regret; Grottoes of Regret Locations; N7: Battle at the Betrayers\u2019 Rise",
+        "monsters": [
+            [
+                1,
+                "17045-veteran",
+                700
+            ]
+        ],
+        "text": "Placating the Apotheon\u2019s Regret. When all three waves of foes are defeated, Alyxian\u2019s allies cheer as the enemy is routed. A veteran covered in blood limps toward the characters and says, \u201cYou won the day, brave Alyxian. My wounds burn, but if you command it, I will follow you to the end.\u201d Alyxian whispers an answer that only the characters can hear: \u201cIt never ends.\u201d The wounded soldier, named Talmyth, has 1 hit point. If a character heals him, that act has a positive effect on the final battle against Alyxian (see \u201cEmotional Healing\u201d in chapter 7)."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Vents of Fury; Roleplaying the Apotheon",
+        "monsters": [
+            [
+                1,
+                "16826-cloaker",
+                3900
+            ]
+        ],
+        "text": "If a character speaks out against the Apotheon a third time in the Vents of Fury, the Apotheon bellows, \u201cSo be it. You too shall know the suffering of betrayal.\u201d Sludgy ichor oozes out from the character\u2019s skin and coalesces, taking the form of a cloaker whose face resembles that of someone the character loves or thinks of fondly. This cloaker has the following changes to its stat block:"
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Vents of Fury; Vents of Fury Locations; N10: Belching Gallows",
+        "monsters": [
+            [
+                1,
+                "2407567-slithering-bloodfin",
+                5000
+            ],
+            [
+                1,
+                "2407569-swarm-of-sorrowfish",
+                2300
+            ]
+        ],
+        "text": "In the distance, a slithering bloodfin chases a swarm of sorrowfish (see appendix A for these creatures\u2019 stat blocks). A character who isn\u2019t carrying a light source can move around in the flooded cavern without attracting the attention of these creatures by succeeding on a DC 14 Dexterity (Stealth) check. If the check fails or the character makes no attempt to hide, the bloodfin notices and attacks the intruder. The sorrowfish are attracted to blood and attack any creature in the cavern that is wounded, including the bloodfin."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Vents of Fury; Vents of Fury Locations; N11: Frothing Hollow",
+        "monsters": [
+            [
+                1,
+                "2407548-light-devourer",
+                2300
+            ]
+        ],
+        "text": "A light devourer (see appendix A) swims in the dark water 50 feet above the cavern floor. It attacks any character who brings a light source into the chamber."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Vents of Fury; Vents of Fury Locations; N12: Scalding Pit",
+        "monsters": [
+            [
+                2,
+                "2407534-death-embrace",
+                7200
+            ]
+        ],
+        "text": "The creatures floating in the chamber are two death embraces (see appendix A). They are oblivious to what happens around them and attack only if damaged or otherwise disturbed (see \u201cApotheon\u2019s Fury\u201d below). Moving around a death embrace without touching it doesn\u2019t disturb it."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Vents of Fury; Vents of Fury Locations; N13: Warriors of Wrath",
+        "monsters": [
+            [
+                3,
+                "2407564-scuttling-serpentmaw",
+                1100
+            ]
+        ],
+        "text": "Three scuttling serpentmaws (see appendix A) hide behind the statues and ruidium spikes in the middle of the area. A character who tries to cross the cavern must succeed on a DC 19 Wisdom (Perception) check to avoid being surprised when the serpentmaws attack."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Vents of Fury; Vents of Fury Locations; N14: Carmine Sepulcher",
+        "monsters": [
+            [
+                3,
+                "2407567-slithering-bloodfin",
+                5000
+            ]
+        ],
+        "text": "Bones. The floor contains the bones of three slithering bloodfins. If the secret door to area N14a is opened, the bones quietly knit themselves back together and attack any other creatures in the cavern. These skeletal creatures have glowing red eyes and use the slithering bloodfin stat block (see appendix A), with these changes:"
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Vents of Fury; Vents of Fury Locations; N15: Spear of the Apotheon",
+        "monsters": [
+            [
+                1,
+                "17025-stone-golem",
+                5900
+            ]
+        ],
+        "text": "When Alyxian the Hunter drops to 0 hit points, the golem turns into an immobile vermilion haze that can\u2019t be harmed or dispelled. If the spear from this area has been taken into the Heart of Despair, the haze disperses as the golem is destroyed. Otherwise, the haze coalesces and solidifies into a new ruidium body 1 minute later, whereupon Alyxian the Hunter regains all its hit points and resumes the hunt."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Vents of Fury; Vents of Fury Locations; N16: Curse of Ruidus",
+        "monsters": [
+            [
+                2,
+                "2407532-corrupted-giant-shark",
+                5000
+            ]
+        ],
+        "text": "Two corrupted giant sharks (see appendix A) orbit the red moon. The sharks don\u2019t attack until certain conditions are met (described below) or they are attacked."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Vents of Fury; Vents of Fury Locations; N18: Fragment of Melancholy",
+        "monsters": [
+            [
+                3,
+                "16824-chuul",
+                1100
+            ]
+        ],
+        "text": "When a character touches the mote of light (see \u201cFragment of Melancholy\u201d below), three chuuls hidden under the sandy floor in the middle of the grotto rise and attack. Theo shrieks and cowers from the chuuls, which do not attack him. The chuuls pursue prey into area N17 but won\u2019t go any farther."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Vents of Fury; Vents of Fury Locations; N18: Fragment of Melancholy",
+        "monsters": [
+            [
+                1,
+                "17025-stone-golem",
+                5900
+            ]
+        ],
+        "text": "Alyxian the Hunter. If Alyxian the Hunter is stalking the characters, they find the golem waiting for them at the northern end of the tunnel outside area N17. See area N15 for more information about the golem."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Chasm of Yearning; Chasm of Yearning Locations; N22: Cavern of Many Graves",
+        "monsters": [
+            [
+                5,
+                "17196-revenant",
+                1800
+            ]
+        ],
+        "text": "Gravedigging. If the characters start digging up graves, they find a number of faceless corpses buried under the sand in shallow graves equal to the number of characters in the party. These corpses have nothing in their possession. Removing a corpse from its grave causes all the corpses in the area to animate and attack. Each corpse uses the revenant stat block and transforms into a 1-ounce pebble of ruidium when reduced to 0 hit points."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Chasm of Yearning; Chasm of Yearning Locations; N23: Grotto of Many Futures",
+        "monsters": [
+            [
+                1,
+                "2407534-death-embrace",
+                7200
+            ],
+            [
+                1,
+                "2407569-swarm-of-sorrowfish",
+                2300
+            ]
+        ],
+        "text": "In the center of the cavern is a death embrace that has a swarm of sorrowfish darting around its tentacles (see appendix A for these creatures\u2019 stat blocks). These creatures ignore the characters, attacking only in self-defense or when something becomes entangled in the death embrace\u2019s tentacles, such as what can happen when the east door is touched (see below)."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Chasm of Yearning; Chasm of Yearning Locations; N24: Cavern of Many Waterfalls",
+        "monsters": [
+            [
+                1,
+                "16840-deva",
+                5900
+            ]
+        ],
+        "text": "The blue-skinned angel is a deva named Perigee. She is a servant of the Moon Weaver who fought with Alyxian in his final battle. Perigee was destroyed but later re-formed at the Moon Weaver\u2019s side. For centuries thereafter, she searched for Alyxian and eventually found her way to the Netherdeep, where she became mired in despair and corrupted by ruidium. In the Celestial tongue, she accuses the characters of disturbing the Apotheon\u2019s dreams and attacks them."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.065747,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-netherdeep.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Netherdeep; Chasm of Yearning; Chasm of Yearning Locations; N26: Sanctuary of Despair",
+        "monsters": [
+            [
+                1,
+                "17025-stone-golem",
+                5900
+            ]
+        ],
+        "text": "If a character brings the spear from area N15 into the Heart of Despair, the golem-like creature called Alyxian the Hunter is destroyed instantly and permanently. If the characters have avoided Alyxian the Hunter so far, have it catch up to the party in this area, so that one or more characters can witness its destruction when the spear is brought into the Heart of Despair."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.3016148,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-heart-of-despair.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Heart of Despair; Battle for the Soul of the Apotheon; Stage 1: Alyxian the Tormented",
+        "monsters": [
+            [
+                1,
+                "2407527-alyxian-the-tormented",
+                7200
+            ]
+        ],
+        "text": "Alyxian\u2019s first form is gigantic and monstrous, for it represents the most corrupted version of the Apotheon. All the pain that torments his soul is made manifest upon his flesh to such an extent that it eclipses the gentle soul within. In this form, he uses the accompanying Alyxian the Tormented stat block."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.3016148,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-heart-of-despair.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Heart of Despair; Battle for the Soul of the Apotheon; Stage 2: Alyxian the Callous",
+        "monsters": [
+            [
+                1,
+                "2407524-alyxian-the-callous",
+                8400
+            ]
+        ],
+        "text": "To spare himself the pain that comes with feeling, Alyxian has hidden his emotions beneath the expressionless mask of a killer. In this form, he uses the Alyxian the Callous stat block."
+    },
+    {
+        "type": "combat",
+        "modified": 1753295769.3016148,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-heart-of-despair.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Heart of Despair; Battle for the Soul of the Apotheon; Stage 3: Alyxian the Dispossessed",
+        "monsters": [
+            [
+                1,
+                "2407525-alyxian-the-dispossessed",
+                10000
+            ]
+        ],
+        "text": "His heroic countenance shattered, Alyxian\u2019s radiant form sloughs off, revealing an old man. In this form, he uses the Alyxian the Dispossessed stat block."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1753295769.3016148,
+        "book": "Critical Role: Call of the Netherdeep",
+        "path": "./library/stripped/sources/cotn/the-heart-of-despair.html",
+        "book_path": "Critical Role: Call of the Netherdeep; The Heart of Despair; Battle for the Soul of the Apotheon; Ending the Battle; Alyxian Redeemed",
+        "monsters": [
+            [
+                1,
+                "2407523-alyxian-the-absolved",
+                11500
+            ]
+        ],
+        "text": "Upon assuming the form of Alyxian the Absolved (see the accompanying stat block), the Apotheon no longer has any desire to fight the characters. Read:"
+    }
+]

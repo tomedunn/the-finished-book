@@ -1,0 +1,3069 @@
+[
+    {
+        "type": "combat",
+        "modified": 1741669506.4931169,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/welcome-to-phandalin.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Welcome to Phandalin; Adventure Summary; Lost Mine of Phandelver",
+        "monsters": [
+            [
+                4,
+                "16907-goblin",
+                50
+            ]
+        ],
+        "text": "The mind flayer fanatics\u2019 activities beneath Phandalin are invisible for most of this book\u2019s first four chapters. If your players don\u2019t wish to delve into themes of unseen horror, evil fanatics, or malevolent elder entities, you can easily end the adventure at the conclusion of chapter 4. If you do, replace the psionic goblins in chapters 1\u2013chapter 4 with goblins from the Monster Manual, and end the adventure once the characters defeat Nezznar. (The \u201cWhat\u2019s Next?\u201d section at the end of chapter 4 provides more information if you\u2019re using this option.) There\u2019s no need for the heroes to return to Phandalin and thus kick off the events of chapter 5 and beyond."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.590941,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/a-dangerous-journey.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; A Dangerous Journey; The Road to Phandalin; Goblin Ambush",
+        "monsters": [
+            [
+                4,
+                "16907-goblin",
+                50
+            ]
+        ],
+        "text": "Four goblins are hiding in the woods, two on either side of the road. They wait until someone approaches the horses and then attack."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.590941,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/a-dangerous-journey.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; A Dangerous Journey; Cragmaw Hideout; Cragmaw Hideout Locations; H2: Goblin Guard Post",
+        "monsters": [
+            [
+                2,
+                "16907-goblin",
+                50
+            ],
+            [
+                1,
+                "17155-goblin-boss",
+                200
+            ]
+        ],
+        "text": "Two goblins and one goblin boss are stationed here. If the goblins notice intruders in area H1, they open fire with their bows, shooting through the thickets and probably catching the characters by surprise. If the goblins don\u2019t notice the characters in area H1, they spot the characters splashing across the stream, and neither side is surprised."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.590941,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/a-dangerous-journey.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; A Dangerous Journey; Cragmaw Hideout; Cragmaw Hideout Locations; H3: Kennel",
+        "monsters": [
+            [
+                3,
+                "17062-wolf",
+                50
+            ],
+            [
+                3,
+                "16907-goblin",
+                50
+            ]
+        ],
+        "text": "Three wolves are chained to a single post. They can\u2019t reach targets standing on the steps, but all three wolves attack any creature that moves into the room (see \u201cDevelopment\u201d below). Goblins in nearby caves normally ignore the sounds of growling wolves, but if the characters fight the wolves, 1d4 goblins come to investigate in 2 rounds."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.590941,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/a-dangerous-journey.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; A Dangerous Journey; Cragmaw Hideout; Cragmaw Hideout Locations; H4: Steep Passage",
+        "monsters": [
+            [
+                1,
+                "16890-giant-poisonous-snake",
+                50
+            ]
+        ],
+        "text": "Western Passage. This passage is choked with rubble and blocked by steep slopes. Moving up the slope requires 5 feet of extra movement. Although this passage offers a way to avoid the goblin in area H5 or escape a flood, it\u2019s more dangerous than it looks. A giant poisonous snake is coiled on the fragile ledge between the two escarpments. It strikes at any creature that disturbs it, which includes characters scrambling up the slope. A climbing character with a passive Wisdom (Perception) score of 13 or higher avoids being surprised. The snake has advantage on attack rolls against any character who fights while on the slope. A fight against the snake alerts the goblin on the bridge."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.590941,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/a-dangerous-journey.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; A Dangerous Journey; Cragmaw Hideout; Cragmaw Hideout Locations; H5: Overpass",
+        "monsters": [
+            [
+                1,
+                "16907-goblin",
+                50
+            ]
+        ],
+        "text": "The goblins have set a bridge guard where a high tunnel passes through the larger cavern below. One goblin stands watch here and is well concealed, requiring a successful DC 15 Wisdom (Perception) check to spot it. Like other goblins in the hideout, this guard is inattentive. If no characters are using light sources, any character can creep by without being noticed with a successful DC 12 Dexterity (Stealth) check. On a failed check, the guard signals the goblins in area H7 to release a flood (see \u201cFlood!\u201d below), then uses a bow to shoot at the characters."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.590941,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/a-dangerous-journey.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; A Dangerous Journey; Cragmaw Hideout; Cragmaw Hideout Locations; H6: Goblin Den",
+        "monsters": [
+            [
+                5,
+                "16907-goblin",
+                50
+            ],
+            [
+                2,
+                "17155-goblin-boss",
+                200
+            ]
+        ],
+        "text": "Five goblins and two goblin bosses inhabit this den. The southern half of the cave is 10 feet higher than the northern end."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669506.590941,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/a-dangerous-journey.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; A Dangerous Journey; Cragmaw Hideout; Cragmaw Hideout Locations; H6: Goblin Den",
+        "monsters": [
+            [
+                1,
+                "3805769-sildar-hallwinter",
+                200
+            ]
+        ],
+        "text": "Sildar Hallwinter is being held prisoner in this chamber. He is bound on the southern ledge of the cavern. The goblins have been beating and tormenting him, so he is weak and has 1 hit point."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.590941,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/a-dangerous-journey.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; A Dangerous Journey; Cragmaw Hideout; Cragmaw Hideout Locations; H7: Twin Pools Cave",
+        "monsters": [
+            [
+                3,
+                "16907-goblin",
+                50
+            ],
+            [
+                2,
+                "17062-wolf",
+                50
+            ]
+        ],
+        "text": "Three goblins and two wolves guard this cave. If the goblins were warned about the characters, the goblins here are on guard. As soon as a fight breaks out here, one of the goblins flees to area H8 to warn Klarg. Creatures in area H8 can\u2019t hear fighting in this area due to a noisy waterfall, nor can creatures in this area hear fighting in area H8."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.590941,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/a-dangerous-journey.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; A Dangerous Journey; Cragmaw Hideout; Cragmaw Hideout Locations; H8: Klarg\u2019s Cave",
+        "monsters": [
+            [
+                1,
+                "16817-bugbear",
+                200
+            ],
+            [
+                2,
+                "16907-goblin",
+                50
+            ],
+            [
+                1,
+                "17062-wolf",
+                50
+            ]
+        ],
+        "text": "Klarg the bugbear shares this cave with two goblins (his \u201chonor guards\u201d) and his mangy pet wolf, Ripper. The bugbear is filled with delusions of grandeur and views himself as a mighty king just beginning his career of conquest. He refers to himself in the third person: \u201cWho dares defy Klarg?\u201d and \u201cKlarg will build a throne from your bones!\u201d The goblins under his command resent his incessant bullying."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.7309504,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/trouble-in-phandalin.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Trouble in Phandalin; Redbrand Ruffians",
+        "monsters": [
+            [
+                4,
+                "3805766-redbrand-ruffian",
+                100
+            ]
+        ],
+        "text": "Four Redbrand ruffians (see appendix A) fight the characters. The ruffians are not overly brave. If three of the Redbrands are defeated, the remaining ruffian flees toward Tresendar Manor."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.7309504,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/trouble-in-phandalin.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Trouble in Phandalin; Redbrands\u2019 Hideout; Redbrand Hideout Locations; R2: Barrack",
+        "monsters": [
+            [
+                3,
+                "16798-bandit",
+                25
+            ]
+        ],
+        "text": "Three human bandits, all members of the Redbrands, are resting in this room. If they hear noise in area R1 (including loud voices or barrels being rolled around), they prepare themselves for a fight and try to surprise intruders."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.7309504,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/trouble-in-phandalin.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Trouble in Phandalin; Redbrands\u2019 Hideout; Redbrand Hideout Locations; R4: Tresendar Crypts",
+        "monsters": [
+            [
+                6,
+                "17015-skeleton",
+                50
+            ]
+        ],
+        "text": "The six skeletons are animated and under orders to attack any creature that comes within 10 feet of the door leading to area R5 or the door leading to area R6. They don\u2019t attack a creature wearing the scarlet cloak of the Redbrands or that speaks the password \u201cIllefarn\u201d (the name of an ancient elven nation that once spread across much of the Sword Coast)."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.7309504,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/trouble-in-phandalin.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Trouble in Phandalin; Redbrands\u2019 Hideout; Redbrand Hideout Locations; R5: Holding Cells",
+        "monsters": [
+            [
+                3,
+                "3805766-redbrand-ruffian",
+                100
+            ]
+        ],
+        "text": "Three Redbrand ruffians (see appendix A) stand guard here, though they spend most of their time taunting the hapless prisoners (see \u201cCaptives\u201d below). If they hear fighting in area R4, they take positions against the wall near the door, then try to surprise intruders. The captives are too intimidated to shout warnings or call for help."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669506.7309504,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/trouble-in-phandalin.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Trouble in Phandalin; Redbrands\u2019 Hideout; Redbrand Hideout Locations; R5: Holding Cells",
+        "monsters": [
+            [
+                3,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "Captives. The three human commoners imprisoned here are Mirna Dendrar and her teenage children, thirteen-year-old Nars and eighteen-year-old Nilsa. A couple days ago, the Redbrands murdered Mirna\u2019s husband, Thel. (His corpse can be found in area R8.) The gang was then going to kill his family, but Mirna promised that wealthy relatives in Neverwinter would pay a substantial sum for her and her children\u2019s safe return. The Redbrands have kept the Dendrars here while they develop a ransom plan."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669506.7309504,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/trouble-in-phandalin.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Trouble in Phandalin; Redbrands\u2019 Hideout; Redbrand Hideout Locations; R8: Crevasse Cave",
+        "monsters": [
+            [
+                1,
+                "17092-nothic",
+                450
+            ]
+        ],
+        "text": "A subterranean monster that hungers for flesh\u2014a nothic named Ssarnak\u2014guards this cave. Lured by a faint magical effect emanating from the crevasse, the creature was occupying the area when Glasstaff moved in. Glasstaff struck a bargain with the monster, convincing it to help guard the stronghold in exchange for treasure and the occasional gift of fresh meat. Ssarnak is untrustworthy but loyal enough, for the moment."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.7309504,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/trouble-in-phandalin.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Trouble in Phandalin; Redbrands\u2019 Hideout; Redbrand Hideout Locations; R9: Guard Barrack",
+        "bystanders": [
+            [
+                1,
+                "16907-goblin",
+                50
+            ]
+        ],
+        "monsters": [
+            [
+                4,
+                "16817-bugbear",
+                200
+            ]
+        ],
+        "text": "Four bugbears and one goblin are present. The goblin, Droop, is at the bugbears\u2019 mercy. He faints at the sight of the party, but another creature can use an action to wake him. Otherwise, Droop has the unconscious condition for 1d10 minutes."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.7309504,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/trouble-in-phandalin.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Trouble in Phandalin; Redbrands\u2019 Hideout; Redbrand Hideout Locations; R10: Common Room",
+        "monsters": [
+            [
+                2,
+                "3805766-redbrand-ruffian",
+                100
+            ],
+            [
+                2,
+                "16798-bandit",
+                25
+            ]
+        ],
+        "text": "Two Redbrand ruffians (see appendix A) and two human bandits, all members of the Redbrands, are playing knucklebones when the characters enter. The game isn\u2019t far from turning acrimonious. The dice are loaded, and the bandit to which they belong is winning big. All four are intoxicated."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.7309504,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/trouble-in-phandalin.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Trouble in Phandalin; Redbrands\u2019 Hideout; Redbrand Hideout Locations; R11: Wizard\u2019s Workshop",
+        "monsters": [
+            [
+                1,
+                "16988-quasit",
+                200
+            ]
+        ],
+        "text": "Though Glasstaff is in his quarters (area R12), he hasn\u2019t left his experiments untended. His evil familiar, a quasit named Zeond, lurks here and watches over its master\u2019s work."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.7309504,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/trouble-in-phandalin.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Trouble in Phandalin; Redbrands\u2019 Hideout; Redbrand Hideout Locations; R12: Glasstaff\u2019s Quarters",
+        "monsters": [
+            [
+                1,
+                "3805750-iarno-glasstaff-albrek",
+                200
+            ]
+        ],
+        "text": "If the characters approach this room through the secret passage from area R7, they can surprise the leader of the Redbrands, Iarno \u201cGlasstaff\u201d Albrek. Otherwise, his quasit familiar warns him of any who approach through area R11, and Glasstaff flees before the characters arrive. When the characters reach this room, read the following:"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Running This Chapter; Wilderness Encounters; Cragmaw Goblin Band",
+        "monsters": [
+            [
+                5,
+                "16907-goblin",
+                50
+            ],
+            [
+                1,
+                "17155-goblin-boss",
+                200
+            ]
+        ],
+        "text": "This band of Cragmaw marauders consists of 2d4 goblins led by a goblin boss. They know the location of Cragmaw Castle and can provide directions if they are captured and threatened. The boss has a pouch containing 1d10 cp and 1d10 sp."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Running This Chapter; Wilderness Encounters; Hobgoblin Squad",
+        "monsters": [
+            [
+                5,
+                "16925-hobgoblin",
+                100
+            ]
+        ],
+        "text": "This squad of 1d4 + 3 hobgoblins seeks the adventurers, hoping to collect a bounty set by the Spider. One of the hobgoblins carries a crudely drawn sketch of one party member, with \u201c25 gold pieces for this one\u201d and a symbol of a spider scrawled beneath it."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Running This Chapter; Wilderness Encounters; Bugbear Scouts",
+        "monsters": [
+            [
+                2,
+                "16817-bugbear",
+                200
+            ]
+        ],
+        "text": "These two bugbears are part of the band based at Wyvern Tor. As they roam, they look for travelers to ambush."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Conyberry and Agatha\u2019s Lair",
+        "monsters": [
+            [
+                1,
+                "17089-banshee",
+                1100
+            ]
+        ],
+        "text": "This 10-foot-by-10-foot shelter is the lair of Agatha the banshee. If the characters exercise caution and remember what they\u2019ve come here for, they won\u2019t have to fight her. As such, no map is provided. If a fight breaks out, any forest map with a small structure will do."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Old Owl Well",
+        "monsters": [
+            [
+                12,
+                "17077-zombie",
+                50
+            ]
+        ],
+        "text": "Twelve zombies lurk inside the crumbled shell of the old watchtower and can\u2019t be seen from outside. However, any character who succeeds on a DC 15 Wisdom (Perception) check smells a deathly odor wafting from the tower\u2019s direction."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Old Owl Well",
+        "monsters": [
+            [
+                1,
+                "16947-mage",
+                2300
+            ]
+        ],
+        "text": "When characters approach the tower or the tent, the zombies shamble from the tower. If a battle breaks out, Hamun Kost, a human mage, emerges from his tent and asks, \u201cWhat is the meaning of this?\u201d"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Ruins of Thundertree; Ruins Locations; U1: Westernmost Cottage",
+        "monsters": [
+            [
+                2,
+                "17095-twig-blight",
+                25
+            ]
+        ],
+        "text": "Two twig blights hide among the weeds that flank the cottage\u2019s open doorway. Characters who have a passive Wisdom (Perception) score of 13 or higher spot the blights from up to 10 feet away. Alternatively, a character within 10 feet of the doorway can look for signs of danger and make a DC 13 Wisdom (Perception) check, spotting the blights on a successful check."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Ruins of Thundertree; Ruins Locations; U2: Blighted Cottages",
+        "monsters": [
+            [
+                2,
+                "17095-twig-blight",
+                25
+            ]
+        ],
+        "text": "The overgrowth conceals a deadly threat: two twig blights lurking in the foliage. Characters who have a passive Wisdom (Perception) score of 13 or higher spot the blights from up to 10 feet away. Alternatively, a character within 10 feet of the doorway can look for signs of danger and make a DC 13 Wisdom (Perception) check, spotting the blights on a successful check."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Ruins of Thundertree; Ruins Locations; U3: The Brown Horse",
+        "monsters": [
+            [
+                6,
+                "17077-zombie",
+                50
+            ]
+        ],
+        "text": "Six ash zombies (see the \u201cAsh Zombies\u201d sidebar) lurk in the shadows in this building, slumped against the walls or under the bar. When living creatures enter, the zombies groan and stir, slowly climbing to their feet. They pursue any characters they see, attacking until destroyed."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Ruins of Thundertree; Ruins Locations; U5: Blighted Farmhouse",
+        "monsters": [
+            [
+                12,
+                "17095-twig-blight",
+                25
+            ],
+            [
+                2,
+                "17215-needle-blight",
+                50
+            ]
+        ],
+        "text": "The thicket east of this ruin is crawling with twelve twig blights and two needle blights. Any disturbance in the ruined farmhouse (for example, characters rooting around in the rubble) draws the blights\u2019 ire."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Ruins of Thundertree; Ruins Locations; U6: Ruined Store",
+        "monsters": [
+            [
+                2,
+                "16895-giant-spider",
+                200
+            ]
+        ],
+        "text": "Two giant spiders lurk in the building, hiding behind the walls. Thin, trailing lines from the webs in the lane outside allow the spiders to sense when likely prey moves through the webs, at which point they nimbly scuttle over the wall and attack. Allow characters who alert the spiders to make a DC 17 Wisdom (Perception) check to avoid being surprised."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Ruins of Thundertree; Ruins Locations; U7: Old Tower",
+        "monsters": [
+            [
+                1,
+                "17073-young-green-dragon",
+                3900
+            ]
+        ],
+        "text": "A young green dragon named Venomfang recently claimed the tower, having passed over Thundertree while searching Neverwinter Wood for a suitable lair. The giant spider corpses in the clearing are the former residents of the tower, killed by the dragon after Venomfang tore through the roof. Since then, the dragon has been laying low."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Ruins of Thundertree; Ruins Locations; U8: Old Smithy",
+        "monsters": [
+            [
+                4,
+                "17077-zombie",
+                50
+            ]
+        ],
+        "text": "Four ash zombies (see the \u201cAsh Zombies\u201d sidebar) are slumped on the floor. When the characters enter, the monsters climb to their feet and lurch forward to attack. Once the zombies see the characters, they pursue the characters relentlessly."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Ruins of Thundertree; Ruins Locations; U11: Old Garrison",
+        "monsters": [
+            [
+                5,
+                "17077-zombie",
+                50
+            ]
+        ],
+        "text": "Five ash zombies (see the \u201cAsh Zombies\u201d sidebar) lurk in this building. Former members of the garrison, they still wear the remnants of rusted mail and soldiers\u2019 surcoats. These scraps of armor don\u2019t improve their Armor Class. The zombies animate and attack if any living creature disturbs their rest."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Ruins of Thundertree; Ruins Locations; U12: Weaver\u2019s Cottage",
+        "monsters": [
+            [
+                4,
+                "17095-twig-blight",
+                25
+            ],
+            [
+                2,
+                "17215-needle-blight",
+                50
+            ]
+        ],
+        "text": "Four twig blights lurk in the thicket south of this ruin, while two needle blights hide in the trees on the east side of the lane. A character within 10 feet of one or more blights can make a DC 13 Wisdom (Perception) check, detecting the creatures\u2019 presence on a successful check. Otherwise, the blights attack if a character comes within 5 feet of them."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Ruins of Thundertree; Ruins Locations; U13: Dragon Cultists\u2019 Cottage",
+        "monsters": [
+            [
+                6,
+                "16835-cultist",
+                25
+            ]
+        ],
+        "text": "Six human cultists hide in the house. Four stand guard at a time (two in each room) on eight-hour shifts, while the others rest in the larger chamber. The cultists wear black cloaks cut to resemble dragon wings and black leather masks with stylized dragon horns. In addition to Common, the cultists speak Draconic."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Wyvern Tor; Raider Camp",
+        "monsters": [
+            [
+                1,
+                "16817-bugbear",
+                200
+            ]
+        ],
+        "text": "If the characters quietly take out the lone bugbear, they have a chance to surprise the raiders in the cave. If the sentry spots the characters sneaking up, or if an attack fails to take the sentry out, the sentry shouts a warning and retreats back to the cave, joining the rest of the marauders there."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Wyvern Tor; Raider Camp",
+        "monsters": [
+            [
+                1,
+                "16972-orc",
+                100
+            ],
+            [
+                4,
+                "16817-bugbear",
+                200
+            ],
+            [
+                1,
+                "16969-ogre",
+                450
+            ]
+        ],
+        "text": "The marauders in the cave include Brughor Axe-Biter, an orc with 18 hit points; four bugbears; and an ogre named Gog. Gog fights until slain, while the rest flee if Brughor is killed."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Cragmaw Castle; Cragmaw Castle Locations; C3: Archer Post",
+        "monsters": [
+            [
+                2,
+                "3805745-goblin-boss-variant",
+                200
+            ]
+        ],
+        "text": "Each of these two rooms is occupied by two goblin bosses armed with shortbows. Replace the goblin bosses\u2019 normal javelin attack with the following attack option:"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Cragmaw Castle; Cragmaw Castle Locations; C4: Ruined Quarters",
+        "monsters": [
+            [
+                3,
+                "16907-goblin",
+                50
+            ]
+        ],
+        "text": "Three goblins bunk here. Though the rubble appears dangerous, the tower is stable and the eastern passage is safe."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Cragmaw Castle; Cragmaw Castle Locations; C6: Hobgoblin Quarters",
+        "monsters": [
+            [
+                4,
+                "16925-hobgoblin",
+                100
+            ]
+        ],
+        "text": "Four hobgoblins are quartered in this room. Because their goblin neighbors are always getting into fights, they don\u2019t pay attention to noise in areas C2 or area C3. However, they\u2019re quick to defend their tower if any intruders appear, or to respond to an alarm raised by the goblin sentries."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Cragmaw Castle; Cragmaw Castle Locations; C7: Banquet Hall",
+        "monsters": [
+            [
+                6,
+                "16907-goblin",
+                50
+            ],
+            [
+                1,
+                "17155-goblin-boss",
+                200
+            ]
+        ],
+        "text": "This hall holds six goblins and one goblin boss\u2014a cantankerous fellow named Yegg. Yegg is the primary cook for the Cragmaws, and he berates his assistants as they go about the work of putting food on the Cragmaws\u2019 table. If Yegg is killed, any goblins left alive flee to the east or west, avoiding the north door because of the trap in area C2."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Cragmaw Castle; Cragmaw Castle Locations; C8: Dark Hall",
+        "monsters": [
+            [
+                1,
+                "16912-grick",
+                450
+            ]
+        ],
+        "text": "This chamber is home to a grick, the special pet of the goblin boss Lhupo in area C9. The grick likes to climb up to ledges hidden in the shadows of the statuary in the higher reaches of the room. It quietly observes intruders that enter the area before dropping down to strike. Characters in the hall must succeed on a DC 14 Wisdom (Perception) check or be surprised."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Cragmaw Castle; Cragmaw Castle Locations; C9: Goblin Shrine",
+        "monsters": [
+            [
+                1,
+                "17155-goblin-boss",
+                200
+            ],
+            [
+                2,
+                "16907-goblin",
+                50
+            ]
+        ],
+        "text": "This shrine is home to a goblin boss named Lhupo, who styles herself as a priest, and her \u201cacolytes,\u201d a pair of goblins. They all wear robes over their armor, but none of them possess divine powers. If the goblins heard the characters fighting the grick in area C8, they hide behind the altar and attempt to surprise the characters; otherwise, all three goblins are kneeling before the altar, praying."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Cragmaw Castle; Cragmaw Castle Locations; C12: Guard Quarters",
+        "monsters": [
+            [
+                4,
+                "16925-hobgoblin",
+                100
+            ]
+        ],
+        "text": "Four hobgoblins stand guard in this room. They keep watch from the arrow slit, so any characters creeping around outside the east side of the castle are likely to be spotted and attacked. The hobgoblins are smart, tough, and loyal to King Grol. At the start of combat, one hobgoblin runs to warn the king in area C14, then returns 2 rounds later to rejoin the fray."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Cragmaw Castle; Cragmaw Castle Locations; C13: Haunted Tower",
+        "monsters": [
+            [
+                1,
+                "17157-grell",
+                700
+            ]
+        ],
+        "text": "The Cragmaws believe this tower is haunted, but they\u2019re wrong. The area is the lair of a grell, a hideous flying monster. It can worm its way through the wreckage of the upper floors to leave the castle when it wants to hunt, but between excursions, it lurks in the shadows of the hollow tower. When the grell notices intruders in the lower portion of its tower, it silently drops from the shadows and attacks."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Cragmaw Castle; Cragmaw Castle Locations; C14: King\u2019s Quarters",
+        "monsters": [
+            [
+                1,
+                "16817-bugbear",
+                200
+            ],
+            [
+                1,
+                "16841-dire-wolf",
+                200
+            ],
+            [
+                1,
+                "16843-doppelganger",
+                700
+            ]
+        ],
+        "text": "King Grol is a fierce old bugbear. He rules the Cragmaws through pure intimidation. His fur is streaked with gray, his shoulders are stooped, and he wears a set of jeweled silver teeth over his own rotting fangs. He\u2019s agile and strong, demanding and vindictive, and no Cragmaw dares to cross him.\nGrol is attended by his pet dire wolf, named Snarl, and a special guest: a doppelganger disguised as a drow woman. The unconscious Gundren Rockseeker lies nearby (see \u201cUnconscious Dwarf\u201d). The doppelganger, Vyerith, is a messenger from the Spider, come to transport Gundren Rockseeker and the map to Wave Echo Cave. Grol wants to sell the map instead of surrendering it, and he and Vyerith are negotiating a price. Vyerith first wants to question Gundren to determine if anyone else knows the location of the mine. Then the doppelganger intends to betray the Spider by killing Gundren and destroying the map."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669506.9482458,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-spiders-web.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Spider\u2019s Web; Cragmaw Castle; Cragmaw Castle Locations; C14: King\u2019s Quarters",
+        "monsters": [
+            [
+                1,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "Unconscious Dwarf. Near the southwest corner of the room is Gundren Rockseeker, a dwarf commoner. He is unconscious but stable at 0 hit points."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.0547545,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/wave-echo-cave.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Wave Echo Cave; Wave Echo Cave; Cave Locations; W2: Mine Tunnels",
+        "monsters": [
+            [
+                1,
+                "16967-ochre-jelly",
+                450
+            ]
+        ],
+        "text": "Lurking in one dead end is an ochre jelly. (You can decide the jelly\u2019s exact location.) When the party enters this section of the mine, the jelly begins stalking the group, instinctively waiting for an opportunity to attack a lone target."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.0547545,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/wave-echo-cave.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Wave Echo Cave; Wave Echo Cave; Cave Locations; W3: Old Entrance",
+        "monsters": [
+            [
+                6,
+                "17023-stirge",
+                25
+            ]
+        ],
+        "text": "Six stirges cling to the ceiling. The monsters find scant living prey in the mines and are ravenous. Since the characters are probably looking at the skeletons on the floor, the stirges are likely to get the drop on them. Any character who isn\u2019t watching the ceiling must succeed on a DC 14 Wisdom (Perception) check to avoid being surprised. Characters who aren\u2019t surprised hear the stirges descending to attack."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.0547545,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/wave-echo-cave.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Wave Echo Cave; Wave Echo Cave; Cave Locations; W4: Old Guardroom",
+        "monsters": [
+            [
+                2,
+                "16970-ogre-zombie",
+                450
+            ],
+            [
+                6,
+                "17077-zombie",
+                50
+            ]
+        ],
+        "text": "In the round after any living creature enters this chamber, the dead creatures clamber to their feet to attack. The two ogre zombies and six dwarf zombies fight until destroyed."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.0547545,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/wave-echo-cave.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Wave Echo Cave; Wave Echo Cave; Cave Locations; W6: South Quarters",
+        "monsters": [
+            [
+                3,
+                "16872-ghoul",
+                200
+            ]
+        ],
+        "text": "Three ghouls from the pack in area W9 are here, cracking and gnawing on the bones in the vain hope that some morsel of marrow remains. Eager for a fresh meal, the ghouls attack immediately."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.0547545,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/wave-echo-cave.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Wave Echo Cave; Wave Echo Cave; Cave Locations; W8: Fungi Cavern",
+        "monsters": [
+            [
+                2,
+                "17046-violet-fungus",
+                50
+            ]
+        ],
+        "text": "Two violet fungi lurk here, one in the middle of the central fungi patch and one in the northern patch. They are hard to notice with all the other fungi around them. Each character can attempt a DC 15 Intelligence (Nature) check to spot the violet fungi before moving within their reach. Characters can safely avoid the fungi by staying close to the southern and eastern walls."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.0547545,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/wave-echo-cave.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Wave Echo Cave; Wave Echo Cave; Cave Locations; W9: Great Cavern",
+        "monsters": [
+            [
+                5,
+                "16872-ghoul",
+                200
+            ]
+        ],
+        "text": "The skeletal remains are inanimate. However, five ghouls lurk in the shadows on the western ledge. Any character with a passive Wisdom (Perception) score of 12 or more notices the ghouls. The ghouls notice any light or noise elsewhere in the cave and quickly bound down to attack. They are hungry and fight until destroyed."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.0547545,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/wave-echo-cave.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Wave Echo Cave; Wave Echo Cave; Cave Locations; W10: Dark Pool",
+        "monsters": [
+            [
+                1,
+                "16878-giant-constrictor-snake",
+                450
+            ]
+        ],
+        "text": "Small fish swim along the edge of the water, but the pool is also inhabited by a larger creature: a giant constrictor snake. If the characters pass through this area, the snake slithers from the water and attacks the character at the back of the party."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.0547545,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/wave-echo-cave.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Wave Echo Cave; Wave Echo Cave; Cave Locations; W11: North Quarters",
+        "monsters": [
+            [
+                6,
+                "16817-bugbear",
+                200
+            ]
+        ],
+        "text": "Six bugbears reside in this chamber. They are loyal minions of Nezznar. This room marks the front line in the Spider\u2019s assault on Wave Echo Cave, and the bugbears are here to prevent ghouls, zombies, or other Undead from troubling their leader in his lair (area W19)."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.0547545,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/wave-echo-cave.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Wave Echo Cave; Wave Echo Cave; Cave Locations; W12: Smelter Cavern",
+        "monsters": [
+            [
+                8,
+                "17077-zombie",
+                50
+            ],
+            [
+                1,
+                "17091-flameskull",
+                1100
+            ]
+        ],
+        "text": "Eight of the fallen dwarf warriors are zombies. They rise and shuffle toward any living creatures that enter the room, but they don\u2019t pursue creatures outside this area for more than 1 round. In addition, a far more intelligent Undead creature guards this area: a flameskull. This creature was a servant of the dwarves\u2019 human wizard allies, and it continues to act on ancient instructions to prevent any intruders from passing through this area."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.0547545,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/wave-echo-cave.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Wave Echo Cave; Wave Echo Cave; Cave Locations; W14: Wizards\u2019 Quarters",
+        "monsters": [
+            [
+                1,
+                "17064-wraith",
+                1800
+            ]
+        ],
+        "text": "This room contains the restless spirit of the last wizard to die here, Mormesk the wraith. Mormesk was a powerful mage until he met his end in the spell battle at the climax of the bandit attack. Centuries of anger have poisoned his soul, transforming him into a hate-filled apparition."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.0547545,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/wave-echo-cave.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Wave Echo Cave; Wave Echo Cave; Cave Locations; W15: Forge of Spells",
+        "monsters": [
+            [
+                1,
+                "17094-spectator",
+                700
+            ]
+        ],
+        "text": "The spherical monster that guards this room is a spectator that speaks Common. One of the human wizards who worked in the Forge of Spells summoned the creature to guard the magic items created and stored here. The spectator was slated to serve for 101 years. When the mine was sacked, the bandits disturbed the delicate magic in the area, eroding the spectator\u2019s grip on reality. It believes the mine is still in use, ignoring all evidence to the contrary."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.0547545,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/wave-echo-cave.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Wave Echo Cave; Wave Echo Cave; Cave Locations; W16: Booming Cavern",
+        "monsters": [
+            [
+                1,
+                "16888-giant-octopus",
+                200
+            ]
+        ],
+        "text": "This flooded cave is home to a giant octopus that is attracted to any light above the surface of the water. If a character lingers with a lantern, torch, or other light source, the octopus rises to the surface and attacks. Its tentacles are long enough to reach targets standing on the ledge, but creatures more than 5 feet from the edge are safe. The giant octopus pulls any creature it grapples into the water."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.0547545,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/wave-echo-cave.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Wave Echo Cave; Wave Echo Cave; Cave Locations; W18: Collapsed Cavern",
+        "monsters": [
+            [
+                4,
+                "16817-bugbear",
+                200
+            ],
+            [
+                1,
+                "16843-doppelganger",
+                700
+            ]
+        ],
+        "text": "Two of the four bugbears in this area clear rock on the rift floor while the other two stand guard in the western half of the cavern, watching for any Undead incursions. A doppelganger named Vhalak supervises the operation in the guise of a drow. If a fight breaks out in the main cavern, the two bugbears in the rift climb the ropes to join the fray."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.0547545,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/wave-echo-cave.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Wave Echo Cave; Wave Echo Cave; Cave Locations; W19: Temple Of Dumathoin",
+        "monsters": [
+            [
+                1,
+                "3805759-nezznar-the-spider",
+                450
+            ],
+            [
+                2,
+                "16817-bugbear",
+                200
+            ]
+        ],
+        "text": "Nezznar the Spider is accompanied by two bugbears who defend their leader to the death. If the doppelganger from area W18 retreated to this area, it assumes the guise of Nundro Rockseeker so that Nezznar can use the dwarf as leverage to force the party\u2019s surrender (although the Spider won\u2019t actually harm the doppelganger). See \u201cRoleplaying Nezznar\u201d for more information on the Spider."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669507.0547545,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/wave-echo-cave.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Wave Echo Cave; Wave Echo Cave; Cave Locations; W20: Priests\u2019 Quarters",
+        "monsters": [
+            [
+                1,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "The figure lying on the floor is Nundro, a dwarf commoner and the last of the three Rockseeker brothers. Nezznar kept him alive because he thought the dwarf might know more about the mine than he admitted. The Spider has interrogated Nundro every day ever since capturing him."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Townmaster\u2019s Plight; Crimes and Chaos; Mischief in Progress; Goblin Mischief",
+        "monsters": [
+            [
+                1,
+                "3805747-goblin-psi-commander",
+                1100
+            ]
+        ],
+        "text": "A goblin psi commander (see appendix A) is lighting small fires around the Alderleaf Farm, and these fires threaten to set the crops ablaze."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Townmaster\u2019s Plight; Crimes and Chaos; Mischief in Progress; Goblin Mischief",
+        "monsters": [
+            [
+                4,
+                "16907-goblin",
+                50
+            ]
+        ],
+        "text": "Four goblins surround an older human woman and attempt to steal her purse. The woman (use the commoner stat block) aggressively fights the goblins."
+    },
+    {
+        "type": "alternate combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Townmaster\u2019s Plight; Crimes and Chaos; Mischief in Progress; Goblin Mischief",
+        "monsters": [
+            [
+                3,
+                "16907-goblin",
+                50
+            ]
+        ],
+        "text": "Three goblins stole a goat and are attempting to run away with it. The goat, however, refuses to move."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Townmaster\u2019s Plight; Crimes and Chaos; Mischief in Progress; Goblin Mischief",
+        "monsters": [
+            [
+                2,
+                "3805746-goblin-psi-brawler",
+                450
+            ]
+        ],
+        "text": "A pair of goblin psi brawlers (see appendix A) are hiding in the trees of the Edermath Orchard. The goblins are using their telepathy to masquerade as ghosts and scare off others so they can steal apples uninterrupted."
+    },
+    {
+        "type": "alternate combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Townmaster\u2019s Plight; Crimes and Chaos; Mischief in Progress; Goblin Mischief",
+        "monsters": [
+            [
+                5,
+                "16907-goblin",
+                50
+            ]
+        ],
+        "text": "Five goblins fling refuse at passers-by from the alley behind Stonehill Inn."
+    },
+    {
+        "type": "alternate combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Townmaster\u2019s Plight; Crimes and Chaos; Mischief in Progress; Goblin Mischief",
+        "monsters": [
+            [
+                3,
+                "16907-goblin",
+                50
+            ]
+        ],
+        "text": "Three goblins splash paint across the side of Harbin Wester’s home"
+    },
+    {
+        "type": "alternate combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Townmaster\u2019s Plight; Crimes and Chaos; Mischief in Progress; Goblin Mischief",
+        "monsters": [
+            [
+                1,
+                "3805747-goblin-psi-commander",
+                1100
+            ]
+        ],
+        "text": "Shingles from the roof of the Sleeping Giant are flying toward a group of five confused miners (all commoners). Unbeknownst to them, a cackling goblin psi commander (see appendix A) on the tavern roof is the source of the mischief."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Townmaster\u2019s Plight; Crimes and Chaos; Mischief in Progress; Goblin Mischief",
+        "monsters": [
+            [
+                1,
+                "3805746-goblin-psi-brawler",
+                450
+            ],
+            [
+                2,
+                "16907-goblin",
+                50
+            ]
+        ],
+        "text": "One goblin psi brawler and two goblins are camped at the entrance to Triboar Trail, waiting to ambush unsuspecting travelers."
+    },
+    {
+        "type": "alternate combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Townmaster\u2019s Plight; Crimes and Chaos; Mischief in Progress; Goblin Mischief",
+        "monsters": [
+            [
+                2,
+                "16907-goblin",
+                50
+            ]
+        ],
+        "text": "Two goblins released two draft horses that are now running rampant across town."
+    },
+    {
+        "type": "alternate combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Townmaster\u2019s Plight; Crimes and Chaos; Mischief in Progress; Goblin Mischief",
+        "monsters": [
+            [
+                2,
+                "3805746-goblin-psi-brawler",
+                450
+            ]
+        ],
+        "text": "Two goblin psi brawlers (see appendix A) have poorly disguised themselves as children and are pestering a baker for sweets near the Stonehill Inn."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Townmaster\u2019s Plight; Scholarly Aid; Gwyn Oresong",
+        "monsters": [
+            [
+                1,
+                "16763-acolyte",
+                50
+            ]
+        ],
+        "text": "Gwyn is a neutral good, dwarf acolyte who hails from the city of Neverwinter. She\u2019s visiting Phandalin for a few months to spend time with her sister Elsa, who works as a bartender at the Stonehill Inn, and to do field research in the surrounding area."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Stolen Shards; Barthen\u2019s Well; Talking to Ander",
+        "monsters": [
+            [
+                1,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "Ander is a wide-eyed, fast-talking, teenage halfling commoner who works as one of Barthen\u2019s clerks. He was taking stock of the store when the goblins destroyed the well. Ander is waiting at Barthen\u2019s Provisions to talk with the characters when they arrive. He reveals the following information:"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Stolen Shards; Barthen\u2019s Well; Encounter: Well Cavern",
+        "monsters": [
+            [
+                1,
+                "16973-otyugh",
+                1800
+            ]
+        ],
+        "text": "An otyugh lurks in the cavern, feasting on a pile of trash it has gathered from the town above. A falling character immediately attracts the otyugh\u2019s attention; otherwise, a character must succeed on a DC 11 Dexterity (Stealth) check to avoid the otyugh\u2019s notice. The otyugh is hostile to any creature it sees."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Stolen Shards; Miner\u2019s Exchange; Encounter: Goblin Camp",
+        "monsters": [
+            [
+                3,
+                "3805746-goblin-psi-brawler",
+                450
+            ]
+        ],
+        "text": "Currently, three goblin psi brawlers (see appendix A) remain at the camp. A character can avoid the goblins\u2019 notice by succeeding on a DC 16 Dexterity (Stealth) check. Otherwise, the hostile goblins detect any creature that enters their camp. If one of the goblins is killed, the others try to surrender."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Stolen Shards; Sleeping Giant; Encounter: Rooftop Stash",
+        "monsters": [
+            [
+                1,
+                "3805747-goblin-psi-commander",
+                1100
+            ],
+            [
+                2,
+                "3805746-goblin-psi-brawler",
+                450
+            ]
+        ],
+        "text": "The goblin holding the sword and the sack is a goblin psi commander, and the other two goblins are goblin psi brawlers (see appendix A for both stat blocks). All three goblins attack once spotted."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Zorzula\u2019s Rest; Zorzula\u2019s Rest Locations; Z1: Entrance",
+        "monsters": [
+            [
+                2,
+                "3805747-goblin-psi-commander",
+                1100
+            ]
+        ],
+        "text": "Arrow Slits. Two goblin psi commanders (see appendix A) are positioned at the entrance\u2019s arrow slits. The arrow slits are 10 feet above the ground and can be reached from inside Zorzula\u2019s Rest via the spiral staircases in area Z2. The parapet shown on map 5.5 in area Z2 connects the two arrow slits, which grant all of the creatures on the ledge three-quarters cover against attacks made from outside the outpost."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Zorzula\u2019s Rest; Zorzula\u2019s Rest Locations; Z3: Mess Hall",
+        "monsters": [
+            [
+                5,
+                "16907-goblin",
+                50
+            ],
+            [
+                3,
+                "3805746-goblin-psi-brawler",
+                450
+            ],
+            [
+                2,
+                "3805747-goblin-psi-commander",
+                1100
+            ]
+        ],
+        "text": "At any time, 2d4 goblins eat in the mess hall, along with 1d6 goblin psi brawlers and 1d4 goblin psi commanders (see appendix A for both stat blocks)."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Zorzula\u2019s Rest; Zorzula\u2019s Rest Locations; Z4: Bunks",
+        "monsters": [
+            [
+                3,
+                "3805746-goblin-psi-brawler",
+                450
+            ]
+        ],
+        "text": "At any given time, 1d6 goblin psi brawlers (see appendix A) sleep in the bunks. Characters who enter the room must succeed on a DC 17 Dexterity (Stealth) check to avoid waking the goblins."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Zorzula\u2019s Rest; Zorzula\u2019s Rest Locations; Z7: Overlook Forge",
+        "monsters": [
+            [
+                3,
+                "3805742-feral-ashenwight",
+                1800
+            ]
+        ],
+        "text": "A character must succeed on a DC 12 Strength (Athletics) check to remove the barricade.The three figures are feral ashenwights (see appendix A), undead spirits who perished in the mind flayers\u2019 takeover. The ashenwights are hostile and attack immediately."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Zorzula\u2019s Rest; Zorzula\u2019s Rest Locations; Z8: Kitchen",
+        "monsters": [
+            [
+                1,
+                "16874-giant-badger",
+                50
+            ]
+        ],
+        "text": "A window in the west hall allows the mess hall to be viewed from the kitchen, and vice versa. The giant badger snuffling through the kitchen is the goblin enclave\u2019s unofficial pet. A dirty rope holds a crude name tag around the giant badger\u2019s neck; the name tag says \u201cBessie\u201d in Goblin."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Zorzula\u2019s Rest; Zorzula\u2019s Rest Locations; Z10: Captain\u2019s Suite",
+        "monsters": [
+            [
+                1,
+                "3805763-psionic-ashenwight",
+                2900
+            ]
+        ],
+        "text": "The jar is sealed with an intricate puzzle lock, requiring the body and lid of the jar to be moved at the exact right place and angle to open. A character can open the lock by succeeding on a DC 15 Intelligence (Investigation) check. Characters can also attempt to break the jar open by making a DC 20 Strength (Athletics) check, smashing the jar on a success. Once freed, Hjoldak\u2019s soul manifests as a peaceful psionic ashenwight (see appendix A)."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Zorzula\u2019s Rest; Zorzula\u2019s Rest Locations; Z14: Crystal Cavern",
+        "monsters": [
+            [
+                3,
+                "16912-grick",
+                450
+            ]
+        ],
+        "text": "Three gricks hide among the rocks and crystals, waiting to ambush potential prey."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Zorzula\u2019s Rest; Zorzula\u2019s Rest Locations; Z15: Cliff Strip Mine",
+        "monsters": [
+            [
+                3,
+                "3805742-feral-ashenwight",
+                1800
+            ],
+            [
+                3,
+                "3805763-psionic-ashenwight",
+                2900
+            ]
+        ],
+        "text": "Three feral ashenwights and three psionic ashenwights (see appendix A) occupy the cliff\u2019s lowest scaffolding. They mimic the mining they did in life, clawing at the rock in search of precious material."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Zorzula\u2019s Rest; Zorzula\u2019s Rest Locations; Z16: Cesspit",
+        "monsters": [
+            [
+                1,
+                "3805762-otyugh-mutate",
+                2300
+            ]
+        ],
+        "text": "The creature is an otyugh mutate (see appendix A). Long ago, duergar miners captured and brought several otyughs from the Underdark to serve as a convenient way to dispose of the outpost\u2019s waste. The otyughs survived the mind flayers\u2019 attack, continuing to feast on the remains and waste of the illithids\u2019 prisoners; however, the aberrant energy exuded by the mind flayers warped the otyughs and their descendants. Now this mutated otyugh gorges itself on the goblin enclave\u2019s sewage."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Zorzula\u2019s Rest; Zorzula\u2019s Rest Locations; Z18: Storage Chamber",
+        "monsters": [
+            [
+                1,
+                "3805743-fiendish-auger",
+                1800
+            ]
+        ],
+        "text": "The iron drill is a fiendish auger (see appendix A), a remnant of the ancient duergar mining operation. It attacks the characters who enter the chamber."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Indigo Sanctum; Entering the Sanctum; Ruxithid the Chosen",
+        "monsters": [
+            [
+                1,
+                "3805768-ruxithid-the-chosen",
+                1800
+            ],
+            [
+                1,
+                "17012-shield-guardian",
+                2900
+            ]
+        ],
+        "text": "The goblin standing on the sanctum mezzanine is Ruxithid the Chosen (see the accompanying stat block). Ruxithid\u2019s psionic abilities afford him a measure of rudimentary clairvoyance around the outpost, and thus the goblin leader is already aware of the characters\u2019 presence before they arrive.\nThe statue is a shield guardian under Ruxithid\u2019s control and fights alongside its master. The shield guardian stores a phantasmal killer spell from its original duergar creator and Ruxithid can command the Construct to cast it. If this fight seems too easy for the party, add two goblin psi brawlers (see appendix A), who rush from Zorzula\u2019s Rest to join the combat in 3 rounds."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669507.2266212,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/paths-of-peril.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Paths of Peril; Indigo Sanctum; Sanctum Showdown; A Disturbing Truth Revealed",
+        "monsters": [
+            [
+                3,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "There are three hostages here, and all use the commoner stat block. They are Dareth Grint, a human farmer who is Townmaster Harbin Wester\u2019s second cousin; Paulina Previne, a human stablehand who occasionally works at the Stonehill Inn; and Tumblewick Rollins, a gnome apothecary,"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Return to Phandalin; Phandalin Missions; Quest: Pip\u2019s Adventure",
+        "monsters": [
+            [
+                3,
+                "3805741-encephalon-gemmule",
+                700
+            ]
+        ],
+        "text": "Three encephalon gemmules (see appendix A) linger amid the rubble of the collapsed stairs. If attacked from above, they retreat into the surrounding rooms."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Return to Phandalin; Phandalin Missions; Quest: The Odd Cow",
+        "monsters": [
+            [
+                4,
+                "17186-psychic-gray-ooze",
+                100
+            ]
+        ],
+        "text": "Daisy\u2019s Consumption. Before the characters can head to the orchard to investigate, the cow totters clumsily into the Town Green. As soon as a character approaches within 5 feet of her, Daisy vomits forth four psychic gray oozes. The oozes use Mind Blast as often as they can and fight until destroyed. After Daisy vomits, the glow around her and her tentacles permanently disappear."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Return to Phandalin; Phandalin Missions; Quest: Missing Miners",
+        "monsters": [
+            [
+                1,
+                "17011-shambling-mound",
+                1800
+            ]
+        ],
+        "text": "The Miners\u2019 Fate. A shambling mound consumed a careless psionic goblin and gained some of the goblin\u2019s powers. The shambling mound stumbled upon the miners in the mountains and thought they\u2019d be an easy meal. The shambling mound cast charm person to lure Wallin into its clutches, but it was surprised when the other miners ushered Wallin into a chamber that\u2019s too narrow for the shambling mound to enter. The miners are now trapped by the relentless plant monster."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Return to Phandalin; Phandalin Missions; Quest: Missing Miners",
+        "monsters": [
+            [
+                1,
+                "17011-shambling-mound",
+                1800
+            ]
+        ],
+        "text": "The shambling mound lurks just within the eastern cave, unable to attack the miners in the western chamber. The shambling mound has the following additional action option:"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Talhundereth; Talhundereth Locations; T2: Deepening Hall",
+        "monsters": [
+            [
+                2,
+                "17148-galeb-duhr",
+                2300
+            ]
+        ],
+        "text": "Two galeb duhr, Fremine and Frowode, lurk near the collapse, disguised as boulders. They are guards for the medusa in area T3. If anyone approaches the door to area T3, one of them stands and commands the intruders to leave while the other prepares to fight if necessary."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Talhundereth; Talhundereth Locations; T3: Lesser Chapel",
+        "monsters": [
+            [
+                1,
+                "16954-medusa",
+                2300
+            ],
+            [
+                1,
+                "17148-galeb-duhr",
+                2300
+            ]
+        ],
+        "text": "This chapel, intended for Talhundereth\u2019s visitors, was plundered of its gemstones long ago. It\u2019s now the lair of a medusa named Honna and her companions. Only one companion, a galeb duhr named Cameren, is with her now (the others are in area T2). Honna loves art, and she scours the world for the most exquisite creatures she can transform into statues. She likes the carvings here and has been gradually capturing bandits and explorers to force them into kneeling poses before petrifying them; the statues are three of her victims. Honna\u2019s galeb duhr idolize her and eagerly serve as her bodyguards, though she doesn\u2019t care much about their fates and hasn\u2019t bothered to learn their names."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Talhundereth; Talhundereth Locations; T5: Sparring Chamber",
+        "monsters": [
+            [
+                1,
+                "17159-helmed-horror",
+                1100
+            ],
+            [
+                2,
+                "16786-animated-armor",
+                200
+            ]
+        ],
+        "text": "People who used this chamber didn\u2019t only spar with each other; they also tested their prowess against three suits of magically animated plate armor sized for dwarves. These constructs still stand ready to fight intruders. One is a helmed horror; the other two are animated armors. When a character spends more than a few moments in this room, the helmed horror utters, \u201csquad tactics routine\u201d in Dwarvish and all three suits of armor attack. They don\u2019t attack anyone who clearly surrenders and leaves the room, though they\u2019ll attack if the characters who surrender return. The suits don\u2019t leave this room."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Talhundereth; Talhundereth Locations; T7: Armory",
+        "monsters": [
+            [
+                6,
+                "16851-dust-mephit",
+                100
+            ],
+            [
+                1,
+                "17059-wight",
+                700
+            ]
+        ],
+        "text": "Six dust mephits lair here with a wight who follows them around and aids their malicious antics. The creatures are hiding when the characters enter this room, and they ambush the characters unless one or more characters succeed on a DC 14 Wisdom (Perception) check."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Talhundereth; Talhundereth Locations; T10: Private Rooms",
+        "monsters": [
+            [
+                1,
+                "3805749-humanoid-mutate",
+                1100
+            ],
+            [
+                1,
+                "3805741-encephalon-gemmule",
+                700
+            ]
+        ],
+        "text": "The northwest room is currently inhabited by a Humanoid mutate named Falfark and an encephalon gemmule (see appendix A for both stat blocks) that Falfark treats as a guardian. Falfark is a member of the Cult of the Obelisk."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Talhundereth; Talhundereth Locations; T11: Common Room",
+        "monsters": [
+            [
+                1,
+                "3805753-intellect-snare",
+                3900
+            ]
+        ],
+        "text": "Long ago, invading mind flayers and temple defenders fought fiercely in this room. Psychic echoes of the battle have drawn an intellect snare (see appendix A)."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Talhundereth; Talhundereth Locations; T14: Reading Room",
+        "monsters": [
+            [
+                3,
+                "17133-drow",
+                50
+            ]
+        ],
+        "text": "Three neutral drow temporarily live here. Their names are Erdan Vosselth, Thiala Sharne, and Vellios Keethe, and they have proudly worked for the Henlifel family as guards and laborers their whole lives. The drow are quick to fight Aberrations that intrude in their camp, but they cautiously greet other creatures (including the characters) in the hope of avoiding violence and maybe even making allies."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Talhundereth; Talhundereth Locations; T15: Librarian\u2019s Room",
+        "monsters": [
+            [
+                2,
+                "17134-drow-elite-warrior",
+                1800
+            ]
+        ],
+        "text": "Nythalyn and Yanthdel Henlifel, both neutral drow elite warriors, rest and plan in this bedroom. The drow brothers speak Common in addition to Elvish and Undercommon; Yanthdel also speaks Dwarvish. The most significant item among their scattered notes is a scrap of rough cloth with a map of areas T1, area T2, and area T9 through area T17, including the secret door to this room."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Talhundereth; Talhundereth Locations; T16: Library",
+        "monsters": [
+            [
+                2,
+                "16853-earth-elemental",
+                1800
+            ]
+        ],
+        "text": "The Granite Ledger. One of the books that the drow haven\u2019t yet touched has metal pages and a cover made of thin plates of granite. This book is The Granite Ledger, a compendium of Talhundereth\u2019s secrets. An ancient protective ward remains on the book; when the book is touched, two earth elementals rise from the floor and attempt to smash anyone in the room who isn\u2019t openly wearing Dumathoin\u2019s holy symbol."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Talhundereth; Talhundereth Locations; T17: Defaced Statue",
+        "monsters": [
+            [
+                1,
+                "3805749-humanoid-mutate",
+                1100
+            ],
+            [
+                4,
+                "3805741-encephalon-gemmule",
+                700
+            ]
+        ],
+        "text": "A Humanoid mutate named Malinia is defacing the statue. Malinia is perched on the statue\u2019s wide shoulders, 20 feet above the floor. Four encephalon gemmules (see appendix A for both stat blocks) occasionally gnaw on chips of stone that fall from Malinia\u2019s work. The cultist is quick to send the gemmules into battle, supporting them from her high perch with Nightmare Blast attacks."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Talhundereth; Talhundereth Locations; T18: Cleansing Chamber",
+        "monsters": [
+            [
+                4,
+                "3805749-humanoid-mutate",
+                1100
+            ]
+        ],
+        "text": "Worshipers of Dumathoin approaching the worship hall (area T21) cleansed themselves in these basins. This room is now the domain of four Humanoid mutates (see appendix A) who are members of the Cult of the Obelisk. One of them is Ontharyx, the father of the brothers in area T15. He has the stats of a Humanoid mutate, but he also has Deception +4. The other three mutates are named Chals, Harralie, and Paulam."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Talhundereth; Talhundereth Locations; T21: Worship Hall",
+        "monsters": [
+            [
+                1,
+                "3805740-encephalon-cluster",
+                5900
+            ]
+        ],
+        "text": "The obelisk\u2019s magical energies enhance the lingering psychic echoes from the mind flayers. These echoes attracted both an encephalon cluster (see appendix A) and members of the Cult of the Obelisk. The encephalon cluster is here all the time at the west end of the room; it doesn\u2019t need to leave because the cultists feed it victims they kidnap. The cultists rarely enter this room except for these feedings, as they consider the chamber a sacred space."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Crypt of the Talhund; Crypt of the Talhund Locations; P1: Lower Landing",
+        "monsters": [
+            [
+                4,
+                "17196-revenant",
+                1800
+            ]
+        ],
+        "text": "Each sarcophagus holds a dwarf crypt guardian whose spirit was corrupted by the mind flayers\u2019 magic. When a sarcophagus is disturbed or a living creature attempts to leave through the doorway to the west, all four crypt guardians burst out to fight until destroyed. The crypt guardians use the revenant stat block with the following changes:"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Crypt of the Talhund; Crypt of the Talhund Locations; P5: Watery Chamber",
+        "monsters": [
+            [
+                1,
+                "16929-hydra",
+                3900
+            ],
+            [
+                1,
+                "17208-water-weird",
+                700
+            ]
+        ],
+        "text": "A hydra named Grandlejaw dozes in the water, keeping one or two heads alert for danger. The source of the splashing is a high-strung water weird named Kellikilli. After realizing Kellikilli is inedible, Grandlejaw grudgingly decided to tolerate the water weird. The water weird\u2019s constant, frenetic motion keeps the water bubbly, which the hydra enjoys. Kellikilli likes fighting alongside a creature as tough as Grandlejaw."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Crypt of the Talhund; Crypt of the Talhund Locations; P8: Honored Dead",
+        "monsters": [
+            [
+                1,
+                "16825-clay-golem",
+                5000
+            ]
+        ],
+        "text": "The figure is a clay golem maintains its vigil here. It is 10 feet tall and shaped to resemble an armored dwarf. Even hundreds of years after it repelled the mind flayer attack, the golem remains vigilant. It pursues foes who flee into areas P6 and area P7, but not further."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Crypt of the Talhund; Crypt of the Talhund Locations; P9: Historian\u2019s Tomb",
+        "monsters": [
+            [
+                1,
+                "17211-deep-gnome-svirfneblin",
+                100
+            ]
+        ],
+        "text": "Adventurous Gnome. An elderly svirfneblin named Rivibiddel has spent many days in the crypt. Because of his advanced age, his walking speed is 15 feet, and he can\u2019t take reactions. Rivibiddel ran out of food days ago and is quickly running out of water. If the characters aid him, he shares the following information:"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Crypt of the Talhund; Crypt of the Talhund Locations; P10: Founder\u2019s Tomb",
+        "monsters": [
+            [
+                1,
+                "3805739-dwarf-skeleton",
+                100
+            ]
+        ],
+        "text": "The sarcophagus contains a single dwarf skeleton (see the accompanying stat block). This was the influential priest who first received Dumathoin\u2019s vision for Talhundereth and who oversaw its initial construction. As fourteen Talhund assisted her, the number fourteen became important throughout Talhundereth and the crypt."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Crypt of the Talhund; Crypt of the Talhund Locations; P11: Valiant Approach",
+        "monsters": [
+            [
+                4,
+                "3805739-dwarf-skeleton",
+                100
+            ]
+        ],
+        "text": "Four dwarf skeletons (see area P10) lumber from area P12 as soon as anyone enters this room. Two more dwarf skeletons come from area P12 at the start of each subsequent round until all fourteen dwarf skeletons have entered the fray. Any skeletons already in a fight pursue fleeing foes. The skeletons fight until destroyed."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Crypt of the Talhund; Crypt of the Talhund Locations; P13: General\u2019s Tomb",
+        "monsters": [
+            [
+                3,
+                "16871-ghost",
+                1100
+            ]
+        ],
+        "text": "The general and both of her aides have returned from the dead as ghosts. If the characters have put the crypt\u2019s haunts to rest (see the \u201cPurifying the Crypt\u201d section), the ghosts don\u2019t manifest when the characters enter the room. Otherwise, the ghosts attack when the characters enter. If a character spends an action, invokes the name of Dumathoin, and succeeds on a DC 14 Intelligence (Religion) check, the ghosts stop attacking."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Crypt of the Talhund; Crypt of the Talhund Locations; P14: Rotating Sanctum",
+        "monsters": [
+            [
+                3,
+                "17064-wraith",
+                1800
+            ]
+        ],
+        "text": "Three wraiths manifest and attack as soon as any other creature enters the room. They can\u2019t leave the room and fight until destroyed."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Crypt of the Talhund; Crypt of the Talhund Locations; P15: Blessed Dead",
+        "monsters": [
+            [
+                6,
+                "17196-revenant",
+                1800
+            ]
+        ],
+        "text": "The virtuous souls of the priests interred here weren\u2019t affected by the mind flayers\u2019 corruption, but the six crypt guardians assigned to watch over the dead were. When a character enters this area, the slumped skeletons rise as six revenants with the following changes:"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Crypt of the Talhund; Crypt of the Talhund Locations; P17: Architect\u2019s Tomb",
+        "monsters": [
+            [
+                1,
+                "17012-shield-guardian",
+                2900
+            ],
+            [
+                1,
+                "16961-mummy",
+                700
+            ]
+        ],
+        "text": "The statue is an old shield guardian bound to the crypt\u2019s architect, who was buried here with several sheaves of his best architectural plans. The corrupted energies unleashed by the mind flayers bound the designs to the corpse of the dwarf, creating a mummy wrapped in architectural plans. If the characters have put the crypt\u2019s haunts to rest (see the \u201cPurifying the Crypt\u201d section), the mummy doesn\u2019t animate and the statue doesn\u2019t move. Otherwise, the mummy pushes off the lid to the sarcophagus and rises to slay intruders, while the shield guardian protects it. The mummy has complete knowledge of the crypt, and might, for example, move through the rotating sanctum (area P14) to intercept characters who flee."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Crypt of the Talhund; Crypt of the Talhund Locations; P18: Obelisk Chamber",
+        "monsters": [
+            [
+                4,
+                "17017-specter",
+                200
+            ],
+            [
+                3,
+                "17017-specter",
+                200
+            ]
+        ],
+        "text": "Initially, four specters emerge from the carvings. At the beginning of each round, another specter emerges from another carving until the fragment is removed from the room or until all seven specters are summoned into the fight."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Gibbet Crossing; Gibbet Crossing Locations; G3: Cage Workshop",
+        "monsters": [
+            [
+                4,
+                "3805742-feral-ashenwight",
+                1800
+            ]
+        ],
+        "text": "Four feral ashenwights (see appendix A) are bound to the workshop in which they worked while alive. They attack trespassers and fight until destroyed."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Gibbet Crossing; Gibbet Crossing Locations; G6: Prison",
+        "monsters": [
+            [
+                1,
+                "16822-chain-devil",
+                3900
+            ]
+        ],
+        "text": "Duergar diabolists bound a chain devil to this room long ago. She dimly remembers her name is Vakketar. When the mind flayers routed the duergar, they blasted Vakketar\u2019s mind and left her for dead. The chain devil survived, however, as did the magic that binds her here. She can leave this area for only 1 minute at a time before the binding magic compels her to return."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Gibbet Crossing; Gibbet Crossing Locations; G8: Intersection",
+        "monsters": [
+            [
+                1,
+                "17158-grick-alpha",
+                2900
+            ]
+        ],
+        "text": "A grick alpha recently moved into this area and is coiled around one of the eastern stalactites, where it can easily slither down the nearby wall to snag prey. A character who succeeds on a DC 15 Wisdom (Perception) check notices the grick, which attacks when noticed. The first time it is injured, the grick emits a loud squeal that draws the gricks lairing in the mine (area G9) to its aid. Qunbraxel\u2019s grimlocks know to avoid the grick when they come this way on errands."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Gibbet Crossing; Gibbet Crossing Locations; G9: Depleted Mine",
+        "monsters": [
+            [
+                6,
+                "16912-grick",
+                450
+            ]
+        ],
+        "text": "Six gricks lair here amid the nests they\u2019ve made from their own mucus. The characters might have already encountered them if the grick alpha in the adjacent intersection squealed for aid."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Gibbet Crossing; Gibbet Crossing Locations; G10: Collapsed Tunnel",
+        "monsters": [
+            [
+                2,
+                "16999-roper",
+                1800
+            ]
+        ],
+        "text": "Two ropers lurk amid the stones here. They enjoy ambushing travelers, but there haven\u2019t been many travelers recently. The ropers don\u2019t know that gricks have been poaching their potential prey. They\u2019re hungry and desperate for victims."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Gibbet Crossing; Gibbet Crossing Locations; G14: Toppled Tower",
+        "monsters": [
+            [
+                1,
+                "17066-xorn",
+                1800
+            ],
+            [
+                2,
+                "16853-earth-elemental",
+                1800
+            ]
+        ],
+        "text": "A xorn named Zoklork lairs here with two earth elementals. They are discussing the tower in Terran."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Gibbet Crossing; Gibbet Crossing Locations; G16: Negotiating Chamber",
+        "monsters": [
+            [
+                4,
+                "16824-chuul",
+                1100
+            ]
+        ],
+        "text": "The water makes this room difficult terrain for creatures without a swimming speed. Four chuuls lurk here, alert for prey entering from any direction. They know about the secret door in the south wall (see below), but they also know that a dangerous creature is beyond it. They don\u2019t pass through the secret door unless they can chase foes that way."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Gibbet Crossing; Gibbet Crossing Locations; G20: Azfadiel Shrine",
+        "monsters": [
+            [
+                1,
+                "17127-yochlol",
+                5900
+            ]
+        ],
+        "text": "The yochlol Zuluthl was summoned by the priests of House Azfadiel, and it has remained here ever since. The demon knows that the Azfadiel drow here were killed a long time ago, but the fight was over too quickly for the yochlol to join. Although Zuluthl doesn\u2019t need to remain here, the yochlol considers itself on an extended break from the chaotic machinations of the Demonweb Pits. It enjoys the solitude and reacts violently to intruders."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Gibbet Crossing; Gibbet Crossing Locations; G21: Receiving Room",
+        "monsters": [
+            [
+                5,
+                "16914-grimlock",
+                50
+            ],
+            [
+                2,
+                "16801-basilisk",
+                700
+            ]
+        ],
+        "text": "Five grimlocks live here, keeping watch on the doors and resting from their interminable excavations in the hall to the north. They keep two basilisks as pets. The grimlocks can\u2019t be petrified by the basilisks."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Gibbet Crossing; Gibbet Crossing Locations; G23: Killing Hall",
+        "monsters": [
+            [
+                2,
+                "16914-grimlock",
+                50
+            ]
+        ],
+        "text": "Blocked Hall. The top of the mudslick tower blocks the end of this hall except for gaps only a few inches wide between the battlements along the toppled tower\u2019s roof. It churns with muddy knobs that emerge and collapse into the tower, just like the tower\u2019s base in area G14. Two grimlocks diligently work to batter their way through the tower. They\u2019ve made no progress, as any lapse in their work allows the tower to magically repair the damage. They don\u2019t stop their work unless enemies get close."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.4606915,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/the-shattered-obelisk.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; The Shattered Obelisk; Gibbet Crossing; Gibbet Crossing Locations; G24: Guard Room",
+        "monsters": [
+            [
+                1,
+                "3805765-qunbraxel",
+                5000
+            ],
+            [
+                4,
+                "16914-grimlock",
+                50
+            ]
+        ],
+        "text": "Qunbraxel (see the accompanying stat block) is an arrogant mind flayer warlock. Qunbraxel is either seated on the stone throne or reviewing the intricate map drawn on the wall. Qunbraxel is always attended by four loyal grimlocks. They swap this duty with other grimlocks nearby, although Qunbraxel can hardly be bothered to tell one grimlock minion from another."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Shadow over Phandalin; Infected Townspeople",
+        "monsters": [
+            [
+                3,
+                "16805-berserker",
+                450
+            ]
+        ],
+        "text": "In this state, Sister Garaele, Halia, and Ander all use the berserker stat block, but replace their Greataxe action with the following:"
+    },
+    {
+        "type": "optional combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Shadow over Phandalin; Infected Townspeople; The Fourth Infection",
+        "monsters": [
+            [
+                1,
+                "3805746-goblin-psi-brawler",
+                450
+            ]
+        ],
+        "text": "Captured Goblins. When the goblins fled with the kidnap victims, some psionic goblins were left behind. They\u2019re lurking about, unsure what they should be doing. Present the characters with an easy encounter with some goblin psi brawlers (see appendix A). If captured and questioned, the goblins boast about \u201cthe people stolen away right beneath where you soak your noses in ale!\u201d"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Journey through the Deep; Journey Locations; J3: Grell Lair",
+        "monsters": [
+            [
+                4,
+                "17157-grell",
+                700
+            ]
+        ],
+        "text": "Four grells lurk amid the stalactites, resting and keeping watch in pairs. The broken stalagmites make the room difficult terrain, which doesn\u2019t hinder the grells. Eager to defend their lair, the grells fight to the death."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Journey through the Deep; Journey Locations; J4: Larder",
+        "monsters": [
+            [
+                3,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "Three despondent commoners from Phandalin are trapped here: a sawyer named Oskar Ninebough, and two sisters, Cathlette and Aida Camber, who are miners. Oskar and Cathlette are engaged to be married."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Journey through the Deep; Journey Locations; J6: Behir Den",
+        "monsters": [
+            [
+                1,
+                "16804-behir",
+                7200
+            ]
+        ],
+        "text": "A lazy behir rests in its nest, sometimes sleeping for weeks at a time. Affected by its long proximity to Illithinoch\u2019s elder brain, the behir has vulnerability to psychic damage."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Journey through the Deep; Journey Locations; J7: Scavengers\u2019 Nook",
+        "monsters": [
+            [
+                2,
+                "17157-grell",
+                700
+            ],
+            [
+                1,
+                "3805748-grell-psychic",
+                1100
+            ]
+        ],
+        "text": "Two grells lair here with their leader, a grell psychic (see the accompanying stat block) named Vundru. Vundru used to lurk much closer to Illithinoch, where he became infused with minor psychic abilities. He has no knowledge of the Far Realm and no desire to learn more; he\u2019s interested only in hunting safely."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Journey through the Deep; Journey Locations; J9: Gibbering Grotto",
+        "monsters": [
+            [
+                6,
+                "16901-gibbering-mouther",
+                450
+            ]
+        ],
+        "text": "Six gibbering mouthers lurk in the pit, all but indistinguishable from the flesh gobbets."
+    },
+    {
+        "type": "alternate combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Journey through the Deep; Journey Locations; J9: Gibbering Grotto",
+        "monsters": [
+            [
+                1,
+                "3805744-flesh-meld",
+                2900
+            ]
+        ],
+        "text": "If the characters encounter the gibbering mouthers and then retreat from this room without defeating them all, the surviving gibbering mouthers combine into a single flesh meld (see appendix A) that arises from the muck the next time the characters pass through."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Journey through the Deep; Journey Locations; J10: Hooked Stones",
+        "monsters": [
+            [
+                1,
+                "3805738-cloaker-mutate",
+                5900
+            ]
+        ],
+        "text": "A cloaker mutate (see appendix A) lives in this room, leaving only to hunt. This cloaker mutate \u201cadopted\u201d a withered dwarf corpse it discovered here many years ago\u2014that of Thorgran Ironquill. It now manipulates the dead historian like a macabre puppet."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Illithinoch; Illithinoch Locations; X2: Reception Hall",
+        "monsters": [
+            [
+                2,
+                "17104-mind-flayer",
+                2900
+            ]
+        ],
+        "text": "Two mind flayers named Shalghast and Ulthundul guard this room while engaging in telepathic conversation, but they aren\u2019t expecting an attack. The fanatics have told the mind flayers to expect surface cultists, such as the aberrant zealots who reside elsewhere in Illithinoch, or minions delivering obelisk fragments. Both mind flayers are imperious and demanding. Shalghast does the communicating, while Ulthundul casts detect thoughts to try to uncover any trickery."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Illithinoch; Illithinoch Locations; X4: Laboratory",
+        "monsters": [
+            [
+                1,
+                "3805747-goblin-psi-commander",
+                1100
+            ],
+            [
+                3,
+                "3805746-goblin-psi-brawler",
+                450
+            ]
+        ],
+        "text": "A goblin psi commander bullies three goblin psi brawlers (see appendix A for both) in this room. The fanatics removed anything important to them from this laboratory and allow psionic goblins to rest here, mostly to have expendable minions present in case the grells beyond the rift get too curious."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Illithinoch; Illithinoch Locations; X5: Cosmologium",
+        "monsters": [
+            [
+                1,
+                "17116-red-slaad",
+                1800
+            ],
+            [
+                1,
+                "17112-blue-slaad",
+                2900
+            ]
+        ],
+        "text": "A red slaad and a blue slaad have been on guard here for nearly a week. The slaadi came through the rift from a Far Realm site they call Spawn Hollow. The denizens of Illithinoch don\u2019t have much interest in this room and thus leave the slaadi alone. The slaadi mistake this indifference for cowardice and have come to think that no one dares to contest their claim. They try to bully any intruders into leaving this room and attack if not met with immediate compliance."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Illithinoch; Illithinoch Locations; X7: Voalsh\u2019s Lounge",
+        "monsters": [
+            [
+                1,
+                "3805761-oshundo-the-alhoon",
+                5900
+            ]
+        ],
+        "text": "The sitting creature is Oshundo the alhoon (see the accompanying stat block). It isn\u2019t likely to notice intruders in Illithinoch until they enter its room. Oshundo is concentrating on several old Underdark maps and psychically projecting their images into a large orange crystal in its possession. This crystal stores memories like those in the psychic library (area X6). In this case, Oshundo is filling the crystal with images rather than viewing it."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Illithinoch; Illithinoch Locations; X10: Experimentation Chamber",
+        "monsters": [
+            [
+                1,
+                "17104-mind-flayer",
+                2900
+            ],
+            [
+                2,
+                "17092-nothic",
+                450
+            ]
+        ],
+        "text": "The mind flayer is named Ahooshathan, and it works here with two nothics who were once mind flayers. Each nothic has a fringe of tentacles beneath its single eye, telepathy to 120 feet, and the following action instead of Rotting Gaze:"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Illithinoch; Illithinoch Locations; X11: Feeding Pool",
+        "monsters": [
+            [
+                1,
+                "3805736-aberrant-zealot",
+                3900
+            ],
+            [
+                1,
+                "16836-cult-fanatic",
+                450
+            ]
+        ],
+        "text": "In this former feeding chamber, an aberrant zealot (see appendix A) named Duoro Engletor is instructing a human cult fanatic named Larnon Veddin. Both are neutral evil Far Realm scholars who were driven from Neverwinter when their nascent Far Realm cult was exposed. Whispers from Ilvaash led the pair here. Duoro wholly embraced Ilvaash\u2019s malignant faith, resulting in his physical transformation. He can\u2019t speak above a hoarse whisper, and black eyes continually sprout and close across his face. Larnon has been slower to accept the \u201cgifts\u201d of the Far Realm and give up his humanity, so Duoro is lecturing him about Ilvaash."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Illithinoch; Illithinoch Locations; X12: Sleeping Pods",
+        "monsters": [
+            [
+                6,
+                "17092-nothic",
+                450
+            ]
+        ],
+        "text": "Six nothics who were once mind flayers lair here. Each has a fringe of tentacles beneath their single eye, telepathy to 120 feet, and the following action instead of Rotting Gaze:"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Illithinoch; Illithinoch Locations; X14: Chishinix\u2019s Room",
+        "monsters": [
+            [
+                1,
+                "3805757-mind-flayer-prophet",
+                3900
+            ],
+            [
+                1,
+                "16926-homunculus",
+                10
+            ]
+        ],
+        "text": "Chishinix isn\u2019t here, but a mind flayer prophet (see appendix A) named Gulguush is waiting here along with its homunculus."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Illithinoch; Illithinoch Locations; X15: Elder Brain Pool",
+        "monsters": [
+            [
+                1,
+                "3805751-infected-elder-brain",
+                7200
+            ]
+        ],
+        "text": "Illithinoch\u2019s infected elder brain (see the accompanying stat block) squats in the fluid remaining in this pool, occasionally running its tendrils across the mold-crusted rim and dwelling on its obsessions with Ilvaash and the Far Realm."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Far Realm Rifts; Far Realm Rifts Features; Gnawbles",
+        "monsters": [
+            [
+                1,
+                "17052-weasel",
+                10
+            ]
+        ],
+        "text": "The characters aren\u2019t likely to get into combat with a gnawble but, if necessary, it has the statistics of a weasel with a speed of 0 feet. It doesn\u2019t need to breathe, drink, eat, or sleep."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Far Realm Rifts; Feeder Trenches Locations; F2: Common Eatery",
+        "monsters": [
+            [
+                3,
+                "17157-grell",
+                700
+            ]
+        ],
+        "text": "When the characters arrive, three grells are feeding from the troughs. Grells without special invitation from Feedkeeper Naruv can eat here but aren\u2019t allowed in area F3 or area F4. The grells consider non-grells to be special morsels and immediately attack them."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Far Realm Rifts; Feeder Trenches Locations; F3: Private Eatery",
+        "monsters": [
+            [
+                2,
+                "17157-grell",
+                700
+            ]
+        ],
+        "text": "When the characters arrive, two grells are feeding from the trough. One grell is the host of the Feeder Trenches, Feedkeeper Naruv. Naruv speaks Common, Deep Speech, and Grell. The grells are enraged at the interruption of their private meal, but none more so than Naruv."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Far Realm Rifts; Feeder Trenches Locations; F4: Food Source",
+        "monsters": [
+            [
+                1,
+                "17092-nothic",
+                450
+            ]
+        ],
+        "text": "Two nothics are dead, but the third nothic is still alive. This nothic, a petty and spiteful creature named Bashudu, is in no condition to fight. Bashudu speaks Deep Speech as well as Undercommon and has telepathy to 120 feet. Bashudu communicates only if its head is lifted from the pool or if the creature is rolled over. Bashudu can explain how the three mind flayer fanatics who took over the stronghold traded it and the other nothics to Naruv to scribe their bolstering rune here. Bashudu is irate at the betrayal but has lost too much of its vital essence to Naruv\u2019s ritual. Bashudu dies a few minutes after meeting the characters."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Far Realm Rifts; Spawn Hollow Locations; S2: Crystal Pit",
+        "monsters": [
+            [
+                12,
+                "17117-slaad-tadpole",
+                25
+            ],
+            [
+                1,
+                "17116-red-slaad",
+                1800
+            ]
+        ],
+        "text": "Twelve slaad tadpoles cavort in the pit, climbing in and out of the whirlpool. A single red slaad carefully watches over them, giving them a whack when they nip at each other. The slaadi are eager to attack intruders to get some fresh meat."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Far Realm Rifts; Spawn Hollow Locations; S3: Flesh Vortex Chamber",
+        "monsters": [
+            [
+                1,
+                "17114-gray-slaad",
+                5000
+            ]
+        ],
+        "text": "This chamber is where Chalaag, the gray slaad explorer who discovered Spawn Hollow, studies the migrating flesh by tracking its warts. Chalaag is a gangly slaad that speaks Common and Deep Speech in addition to Slaad, and can cast glyph of warding once per day in addition to its other spells."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.7425802,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/rifts-in-reality.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Far Realm Rifts; Labyrinth of Eyes Locations; L7: Golcuus\u2019s Lair",
+        "monsters": [
+            [
+                1,
+                "3805760-oculorb",
+                5000
+            ]
+        ],
+        "text": "Golcuus, a beholder transformed into an oculorb (see appendix A), is here, wallowing in the misery of its transformation. The monster is not immediately visible when the characters enter due to the area\u2019s dividing walls."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Briny Maze; Briny Maze Locations; B3: Webbed Chamber",
+        "monsters": [
+            [
+                2,
+                "16978-phase-spider",
+                700
+            ],
+            [
+                2,
+                "3805763-psionic-ashenwight",
+                2900
+            ]
+        ],
+        "text": "Two phase spiders live here and are responsible for the flimsy webbing. The spiders can\u2019t use their Ethereal Jaunt ability in the Briny Maze and scuttle from known dangers like the encephalon cluster that hunts in this area and lairs in area B12. Two psionic ashenwights (see appendix A) stumbled here after the betrayal in the adjacent passage (area B2) and joined forces with the spiders for mutual protection. The chamber\u2019s webbing heavily obscures the ashenwights."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Briny Maze; Briny Maze Locations; B4: Wall of Hubris",
+        "monsters": [
+            [
+                5,
+                "17091-flameskull",
+                1100
+            ]
+        ],
+        "text": "As soon as any creature disturbs or steps close to the corpses, a flaming skull erupts from each corpse head. The five flameskulls pursue foes who flee and fight until destroyed."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Briny Maze; Briny Maze Locations; B6: Right Temporal Lobe",
+        "monsters": [
+            [
+                3,
+                "17064-wraith",
+                1800
+            ]
+        ],
+        "text": "Danger of Making Music. The characters can create their own musical echoes here by playing an instrument or singing, but they risk a bad performance taking on malevolent life. A character who succeeds on a DC 13 Charisma (Performance) check causes any existing shadows to wink out and new shadows to replace them and repeat the tune for 2d4 days. On a failed check, the shadows solidify and become malevolent, taking the form of 1d4 + 1 wraiths that attack anyone they can catch. These wraiths automatically fail Dexterity (Stealth) checks to hide, as they continually emit jarring music."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Briny Maze; Briny Maze Locations; B7: Githyanki Camp",
+        "monsters": [
+            [
+                1,
+                "17150-githyanki-knight",
+                3900
+            ],
+            [
+                2,
+                "17149-githyanki-warrior",
+                700
+            ]
+        ],
+        "text": "A githyanki knight named Varakkta lives here with two githyanki warriors named Kianka and Vazzi. Varakkta is using a spare greatsword rather than her silver greatsword, so her attacks don\u2019t count as magical. She speaks Common and Deep Speech in addition to Gith."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Briny Maze; Briny Maze Locations; B9: Shalfi\u2019s Digging Spot",
+        "monsters": [
+            [
+                1,
+                "3805736-aberrant-zealot",
+                3900
+            ],
+            [
+                1,
+                "3805744-flesh-meld",
+                2900
+            ]
+        ],
+        "text": "The digger is a disciple of Ilvaash named Shalfi Lewin. Shalfi is chaotic evil and uses the stat block of an aberrant zealot (see appendix A) but also has a +7 bonus to Charisma (Performance) checks. Shalfi digs beneath a loyal flesh meld (see appendix A) that he calls Jitterjaws. Jitterjaws was a gift from Ilvaash to Shalfi for his devotion. It is loyal to Shalfi, and Shalfi is immune to the creature\u2019s aura."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Briny Maze; Briny Maze Locations; B10: Left Temporal Lobe",
+        "monsters": [
+            [
+                1,
+                "17094-spectator",
+                700
+            ]
+        ],
+        "text": "A spectator named Jomlus reads from the book. Jomlus is a slow and pedantic speaker, but it\u2019s not aggressive unless someone attempts to take its book."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Briny Maze; Briny Maze Locations; B11: Hidden Chamber",
+        "monsters": [
+            [
+                7,
+                "17145-flumph",
+                25
+            ]
+        ],
+        "text": "A cloister of seven flumphs lives here. The flumphs came to the Briny Maze to fight Ilvaash even though they aren\u2019t individually very powerful. They are friendly toward anyone who opposes Ilvaash."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Briny Maze; Briny Maze Locations; B12: Encephalon Lair",
+        "monsters": [
+            [
+                1,
+                "3805740-encephalon-cluster",
+                5900
+            ],
+            [
+                4,
+                "3805741-encephalon-gemmule",
+                700
+            ]
+        ],
+        "text": "The encephalon cluster that hunts this region of the Briny Maze usually dozes here with four encephalon gemmules (see appendix A for both stat blocks). The encephalon cluster occasionally leaves this nook, while the gemmules are always here, wallowing in their progenitor\u2019s warm slime. They\u2019re hostile to any characters they see."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Briny Maze; Briny Maze Locations; B14: Prospective Lair",
+        "monsters": [
+            [
+                1,
+                "17099-beholder",
+                10000
+            ]
+        ],
+        "text": "A beholder named Mublinesh appointed itself as Ilvaash\u2019s guardian and floats throughout this area, alert for intruders. Ilvaash was impressed by Mublinesh\u2019s dedication and promised that once the beholder destroyed one hundred intruders, Ilvaash would permit Mublinesh to consider this area its lair (and thus gain the benefits of a beholder lair described in the Monster Manual). Mublinesh has already slain 96 intruders and has started remodeling the area by removing some of the walls. It doesn\u2019t attack mind flayers or anyone accompanying a mind flayer, but the beholder considers anyone else fair game to reach its assigned tally."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Briny Maze; Briny Maze Locations; B17: Dragon\u2019s Den",
+        "monsters": [
+            [
+                1,
+                "3805754-lowarnizel",
+                5000
+            ],
+            [
+                1,
+                "16947-mage",
+                2300
+            ]
+        ],
+        "text": "Two individuals seeking to weaken Ilvaash hide in this secure chamber. Lowarnizel is a young amethyst dragon (see the accompanying stat block), and his companion is a lawful neutral human mage named Gossa. Both hate the Far Realm and anything tainted by it. An errant spell scroll of plane shift deposited these two friends in the Briny Maze, and they felt lucky to find an isolated place beneath an old storage room, despite the unpleasant smell. They\u2019ve been making occasional raids into other parts of the Briny Maze for days. They\u2019ve been careful to remain hidden, and none of the other denizens know they\u2019re here except Shalfi and Jitterjaws."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Briny Maze; Briny Maze Locations; B18: The Collectors\u2019 Nook",
+        "monsters": [
+            [
+                2,
+                "3805736-aberrant-zealot",
+                3900
+            ]
+        ],
+        "text": "Two aberrant zealots (see appendix A) are in this room. Their names are Nouashu and Groushim. Both have engaged in profane experiments that have tinted their skin violet and given them squirming face tentacles. They have the statistics of aberrant zealots with the following additional action:"
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Briny Maze; Briny Maze Locations; B21: Ashripask\u2019s Alcove",
+        "monsters": [
+            [
+                1,
+                "17109-arcanaloth",
+                8400
+            ]
+        ],
+        "text": "An arcanaloth named Ashripask lives in this alcove. She also casts mind blank on herself each day. Ashripask prefers to let people underestimate her, so she holds up her hands in surrender, spluttering about how she means no danger to anyone."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Briny Maze; Briny Maze Locations; B22: Briny Pool",
+        "monsters": [
+            [
+                1,
+                "16987-purple-worm",
+                13000
+            ]
+        ],
+        "text": "A purple worm with a swimming speed of 50 feet lives in the pool. The worm\u2019s tremorsense allows it to detect other creatures in the fluid if it swims nearby."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Endless Void; Endless Void Features; Intellect Snares",
+        "monsters": [
+            [
+                3,
+                "3805753-intellect-snare",
+                3900
+            ]
+        ],
+        "text": "Hungry intellect snares float through the Endless Void. Characters on one of the floating nodules, or who are traveling from one nodule to another nearby one, don\u2019t draw the attention of these creatures. Characters who simply float freely in the void, or who venture into the Endless Void without a particular destination, encounter 1d6 intellect snares (see appendix A) each hour."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Endless Void; Crystal Dome",
+        "monsters": [
+            [
+                5,
+                "17012-shield-guardian",
+                2900
+            ]
+        ],
+        "text": "Five shield guardians shaped like mind flayers normally guard the walkway, but the Ilvaash fanatics have relocated the shield guardians inside the dome where they guard four imprisoned Phandalin townspeople. The shield guardians lurk just inside the dome, and they attack any intruders who enter it. The shield guardians each store a magic missile spell (cast at 3rd level), which they cast when the spell could affect more than one character."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Endless Void; Crystal Dome",
+        "monsters": [
+            [
+                4,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "Imprisoned Townspeople. The four prisoners from Phandalin are commoners: a nervous human farmer named Thawnia Browne and her more easygoing elf wife named Shansa; a gnome wainwright named Wramble and his capybara mount named Violet; and a newly engaged elf laborer named Unmiel. The prisoners are glued to the interior of the dome, 2 feet above the floor, with a sticky mucus. As an action, a character can try to free a prisoner within reach, doing so with a successful DC 12 Strength (Athletics) check."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Endless Void; Empty Bridge",
+        "monsters": [
+            [
+                1,
+                "16762-aboleth",
+                5900
+            ],
+            [
+                1,
+                "17051-water-elemental",
+                1800
+            ]
+        ],
+        "text": "The danger on this nodule isn\u2019t in the tower, but in the churning river, which is 30 feet deep. An aboleth lurks in the water along with a water elemental minion. Trapped in the Far Realm long ago, the aboleth sequestered itself in this river to study the strange environment. Both creatures are concealed by the dark, churning water and make attacks against anyone who gets close, particularly creatures affected by the magical symbol on the bridge."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Endless Void; Mire of Doubt; M2: Valsyx\u2019s Clearing",
+        "monsters": [
+            [
+                2,
+                "17019-spirit-naga",
+                3900
+            ]
+        ],
+        "text": "The spirit naga Valsyx lurks here, composing abstruse riddles unless the characters encountered him elsewhere. He knows confusion rather than blight. Valsyx is at home in the mire and isn\u2019t slowed by its difficult terrain."
+    },
+    {
+        "type": "alternate combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Endless Void; Mire of Doubt; M3: Charnyz\u2019s Dell",
+        "monsters": [
+            [
+                2,
+                "17019-spirit-naga",
+                3900
+            ]
+        ],
+        "text": "The spirit naga Charnyz is here unless the characters have already encountered her elsewhere. She loves illusions that mimic reality and spends time copying the mire\u2019s blighted flora and fauna with careful precision. She knows major image rather than water breathing. Charnyz is at home in the mire and isn\u2019t slowed by its difficult terrain."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Endless Void; The Nematode; N1: The Mouth",
+        "monsters": [
+            [
+                2,
+                "3805753-intellect-snare",
+                3900
+            ]
+        ],
+        "text": "When the mouth closes, two intellect snares (see appendix A) emerge from the throat and attack. Swallowed by the Nematode several days ago, they are eager to feed. The intellect snares focus their attacks on different creatures when possible."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Endless Void; Occluding Miasma",
+        "monsters": [
+            [
+                3,
+                "16934-invisible-stalker",
+                2300
+            ]
+        ],
+        "text": "Three invisible stalkers lurk in the fog. The mind flayer fanatics summoned the stalkers to watch over the metal tongue. The invisible stalkers don\u2019t have any special way to see through the fog and simply fly through it in irregular patrols. They\u2019re immediately aware if anyone touches the tongue."
+    },
+    {
+        "type": "non-combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Endless Void; Toppled Statue",
+        "monsters": [
+            [
+                4,
+                "16829-commoner",
+                10
+            ]
+        ],
+        "text": "The four townspeople are all commoners with an Intelligence of 16: a pair of human clerks named Hovnar Tartesh and Menvin Tartesh, a dwarf named Nalpina Goldstone who is a traveling inventor, and an orc farmer named Mildra Merkel. They haven\u2019t eaten in many days and are nearly overcome with hunger and dread. Hovnar has tried to rally the group, mostly to support his brother Menvin, who is nearly comatose with despair."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Endless Void; Wailing Battlefield",
+        "monsters": [
+            [
+                2,
+                "17124-mezzoloth",
+                1800
+            ]
+        ],
+        "text": "Two pairs of mezzoloths patrol the battlefield in irregular patterns. Characters traveling across the nodule or searching the rubble have a chance of encountering a patrol. Roll a d6; on a 1 or 2, the characters encounter one of the patrolling pairs. These mezzoloths want to impress their leader and thus fight to the death."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Endless Void; Wailing Battlefield",
+        "monsters": [
+            [
+                2,
+                "17124-mezzoloth",
+                1800
+            ]
+        ],
+        "text": "Two pairs of mezzoloths patrol the battlefield in irregular patterns. Characters traveling across the nodule or searching the rubble have a chance of encountering a patrol. Roll a d6; on a 1 or 2, the characters encounter one of the patrolling pairs. These mezzoloths want to impress their leader and thus fight to the death."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Endless Void; Wailing Battlefield; W1: Prison Pyramid",
+        "monsters": [
+            [
+                3,
+                "17124-mezzoloth",
+                1800
+            ],
+            [
+                1,
+                "17205-umber-hulk",
+                1800
+            ]
+        ],
+        "text": "Three mezzoloths inhabit the pyramid along with an umber hulk they recently freed from magical stasis. The mezzoloths are darkening the sand-colored umber hulk\u2019s hide with charcoal so it more closely resembles their mottled black color."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Endless Void; Wailing Battlefield; W2: Nellik\u2019s Windmill",
+        "monsters": [
+            [
+                1,
+                "17125-nycaloth",
+                5000
+            ],
+            [
+                1,
+                "17124-mezzoloth",
+                1800
+            ]
+        ],
+        "text": "A wary nycaloth named Nellik lairs in the windmill. Nellik\u2019s adjutant, a wary mezzoloth named Frevvik, wears a war horn on a strap and keeps watch nearby for danger. Nellik\u2019s greataxe is a flayer slayer (see appendix B), which changes her Greataxe attack as follows:"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Endless Void; Ilvaash\u2019s Anima",
+        "monsters": [
+            [
+                1,
+                "3805755-mind-flayer-clairvoyant",
+                7200
+            ],
+            [
+                1,
+                "3805741-encephalon-gemmule",
+                700
+            ]
+        ],
+        "text": "Chishinix is always accompanied by a severed head, which has the statistics of an encephalon gemmule (see appendix A) with a speed of 10 feet. The head lacks the Encephalon Progeny ability."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Endless Void; Ilvaash\u2019s Anima",
+        "monsters": [
+            [
+                2,
+                "3805755-mind-flayer-clairvoyant",
+                7200
+            ]
+        ],
+        "text": "All three of the mind flayer fanatics (Chishinix, Hashutu, and Voalsh) are here in this sacred site, engaged in their ritual. They are mind flayer clairvoyants (see appendix A) with the following modifications:"
+    },
+    {
+        "type": "alternate combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Endless Void; Ilvaash\u2019s Anima",
+        "monsters": [
+            [
+                1,
+                "3805755-mind-flayer-clairvoyant",
+                7200
+            ]
+        ],
+        "text": "All three of the mind flayer fanatics (Chishinix, Hashutu, and Voalsh) are here in this sacred site, engaged in their ritual. They are mind flayer clairvoyants (see appendix A) with the following modifications:"
+    },
+    {
+        "type": "alternate combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Endless Void; Ilvaash\u2019s Anima",
+        "monsters": [
+            [
+                1,
+                "3805755-mind-flayer-clairvoyant",
+                7200
+            ]
+        ],
+        "text": "All three of the mind flayer fanatics (Chishinix, Hashutu, and Voalsh) are here in this sacred site, engaged in their ritual. They are mind flayer clairvoyants (see appendix A) with the following modifications:"
+    },
+    {
+        "type": "alternate combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Endless Void; Ilvaash\u2019s Anima",
+        "monsters": [
+            [
+                3,
+                "3805755-mind-flayer-clairvoyant",
+                7200
+            ],
+            [
+                1,
+                "3805741-encephalon-gemmule",
+                700
+            ]
+        ],
+        "text": "All three of the mind flayer fanatics (Chishinix, Hashutu, and Voalsh) are here in this sacred site, engaged in their ritual. They are mind flayer clairvoyants (see appendix A) with the following modifications:"
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; The Endless Void; Ilvaash\u2019s Anima; A3: Disciples\u2019 Chamber",
+        "monsters": [
+            [
+                2,
+                "3805757-mind-flayer-prophet",
+                3900
+            ]
+        ],
+        "text": "Seven Fragments. If the fanatics found all seven obelisk fragments, they used some excess power to summon two mind flayer prophets (see appendix A). These mind flayers want to prove their worth by dispatching intruders who threaten to disrupt the fanatics\u2019 ritual and thus fight to the death."
+    },
+    {
+        "type": "combat",
+        "modified": 1741669507.9865522,
+        "book": "Phandelver and Below: The Shattered Obelisk",
+        "path": "./library/stripped/sources/pbtso/beyond-a-lightless-star.html",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Beyond a Lightless Star; Ilvaash\u2019s Refraction",
+        "monsters": [
+            [
+                1,
+                "3805767-refraction-of-ilvaash",
+                13000
+            ]
+        ],
+        "text": "The refraction of Ilvaash (see the stat block below) wields only a sliver of the godlet\u2019s power but is nevertheless a formidable foe. It fights until destroyed. If the characters are escorting rescued townspeople, the refraction targets the former captives with its Dissonant Claw attack or mind blast in the hope of driving the characters into despair."
+    }
+]
