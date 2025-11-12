@@ -100,8 +100,9 @@ def monster_defensive_challenge_rating(hp, ac):
     ac -- armor class
     """
     id = _find_nearest_loc(MONSTER_DEFAULTS['HP mean'], hp)
-    ac_delta = ac - MONSTER_DEFAULTS['AC'][id]
-    id = int(max(0, min(33, id + np.fix(0.5*ac_delta))))
+    if ac:
+        ac_delta = ac - MONSTER_DEFAULTS['AC'][id]
+        id = int(max(0, min(33, id + np.fix(0.5*ac_delta))))
     return MONSTER_DEFAULTS['CR'][id]
 
 def monster_offensive_challenge_rating(dpr, ab):
@@ -110,8 +111,9 @@ def monster_offensive_challenge_rating(dpr, ab):
     ab -- attack bonus
     """
     id = _find_nearest_loc(MONSTER_DEFAULTS['DPR mean'], dpr)
-    ab_delta = ab - MONSTER_DEFAULTS['AB'][id]
-    id = int(max(0, min(33, id + np.fix(0.5*ab_delta))))
+    if ab:
+        ab_delta = ab - MONSTER_DEFAULTS['AB'][id]
+        id = int(max(0, min(33, id + np.fix(0.5*ab_delta))))
     return MONSTER_DEFAULTS['CR'][id]
 
 def monster_challenge_rating(hp, ac, dpr, ab):

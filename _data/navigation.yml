@@ -87,6 +87,8 @@ theory:
         url: /theory/xgte-encounter-building/
       - title: "Calibrating Encounter Math"
         url: /theory/calibrating-encounter-math/
+      - title: "XP Approximations"
+        url: /theory/xp-approximations/
   - title: "Variability"
     children:
       - title: "Variability: Damage and Healing Rolls"

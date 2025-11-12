@@ -48,9 +48,11 @@ def effXP(hp, ac, dpr, ab, method='linear', ctype='NPC'):
     else:
         c = np.nan
 
-    if method == 'exp':
+    if method in ['exp','exact']:
         return c*hp*dpr*np.power(1 + scale, ac + ab - (AC0 + AB0))
-    elif method == 'linear':
+    elif method in ['flat','O0']:
+        return c*hp*dpr
+    elif method in ['linear','O1']:
         return c*hp*dpr*(1 + scale*(ac + ab - (AC0 + AB0)))
-    elif method == 'quadratic':
+    elif method in ['quadratic','O2']:
         return c*hp*dpr*(1 + scale*(ac - AC0))*(1 + scale*(ab - AB0))

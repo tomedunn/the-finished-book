@@ -8,6 +8,8 @@ from bs4 import BeautifulSoup
 import plotly.graph_objects as go
 import numpy as np
 from scipy import optimize
+from scipy.interpolate import UnivariateSpline
+
 
 # plotly figure template
 FIG_TEMPLATE = dict(
@@ -39,6 +41,9 @@ FIG_TEMPLATE = dict(
             ticks='outside',
             minor=dict(tickmode='linear', ticks='outside'),
             zeroline=False,
+        ),
+        legend=dict(
+            tracegroupgap=0,
         ),
         hoverlabel=dict(align='left'),
     )
@@ -140,6 +145,12 @@ def save_fig_html(fig, format, name, **kwargs):
         fout.write(fig_soup.prettify('utf-8'))
 
 
+def jitter(vals, sigma):
+    if type(vals) is list:
+        return np.array(vals) + np.random.normal(0, sigma, len(vals))
+    else:
+        return vals + np.random.normal(0, sigma, len(vals))
+
 def plot_data_and_fit(fig, x, y, **kwargs):
     print_coefficients = kwargs.pop('print_coefficients', False)
     
@@ -169,19 +180,15 @@ def plot_data_and_fit(fig, x, y, **kwargs):
     
     return fig
 
-def jitter(vals, sigma):
-    if type(vals) is list:
-        return np.array(vals) + np.random.normal(0, sigma, len(vals))
-    else:
-        return vals + np.random.normal(0, sigma, len(vals))
-
 def piecewise_linear(x, x0, y0, k1, k2):
     #return np.piecewise(x, [x < x0], [lambda x:k1*x + y0-k1*x0, lambda x:k2*x + y0-k2*x0])
     return np.piecewise(x, [x < 20], [lambda x:k1*x + y0-k1*20, lambda x:k2*x + y0-k2*20])
 
 def plot_data_and_fit_piecewise(fig, x, y, **kwargs):
-    row = kwargs.pop('row') if 'row' in kwargs else 1
-    col = kwargs.pop('col') if 'col' in kwargs else 1
+    row = kwargs.pop('row') if 'row' in kwargs else None
+    col = kwargs.pop('col') if 'col' in kwargs else None
+    f = kwargs.pop('piecewise_linear', piecewise_linear)
+    xr = kwargs.pop('x_fit', np.linspace(1,30,30))
     
     # plot data
     fig.add_trace(go.Scatter(
@@ -194,12 +201,36 @@ def plot_data_and_fit_piecewise(fig, x, y, **kwargs):
     kwargs['hoverinfo'] = 'skip'
     kwargs['showlegend'] = False
     kwargs['line_dash'] = 'solid'
-    p, e = optimize.curve_fit(piecewise_linear, x, y)
-    xr = np.linspace(1,30,30)
+    p, e = optimize.curve_fit(f, x, y)
     fig.add_trace(go.Scatter(
         x=xr, 
-        y=piecewise_linear(xr, *p),
+        y=f(xr, *p),
         mode='lines', 
         **kwargs,
     ), row=row, col=col)
-    return fig, piecewise_linear(xr, *p)
+    return fig, f(xr, *p)
+
+def plot_data_and_spline(fig, x, y, smooth_factor, **kwargs):
+    fig.add_trace(go.Scatter(
+        x=x,
+        y=y,
+        mode='markers', 
+        **kwargs,
+        showlegend=False,
+    ))
+    _ = kwargs.pop('hovertemplate', None)
+    _ = kwargs.pop('hoverinfo', None)
+
+    # add fit line
+    spl = UnivariateSpline(x, y)
+    xs = np.linspace(min(x), max(x), 100)
+    spl.set_smoothing_factor(smooth_factor)
+    fig.add_trace(go.Scatter(
+        x=xs,
+        y=spl(xs),
+        mode='lines', 
+        **kwargs,
+        showlegend=True,
+        hoverinfo='skip',
+    ))
+    return fig

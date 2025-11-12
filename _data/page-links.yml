@@ -105,5 +105,8 @@ xgte-encounter-building:
 xp-and-encounter-balancing:
   path: /the-finished-book/theory/xp-and-encounter-balancing/
 
+xp-approximations:
+  path: /the-finished-book/theory/xp-approximations/
+
 xp-dnd-vs-pathfinder:
   path: /the-finished-book/theory/xp-dnd-vs-pathfinder/
