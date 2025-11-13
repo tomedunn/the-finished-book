@@ -2,8 +2,10 @@
 title: "XP Approximations"
 excerpt: "Approximations simplify XP calculations but that comes at the cost of accuracy. How much are we paying?"
 permalink: /:collection/:name/
+header:
+  og_image: /assets/images/xp-approximations.png
 date: 2025-11-12
-last_modified_at: 2025-11-12
+last_modified_at: 2025-11-13
 tags:
   - encounter balancing
   - theory
@@ -26,9 +28,9 @@ tags:
 
 # Introduction
 
-In my previous posts on [XP and Encounter Balancing]({{ site.data.page-links.xp-and-encounter-balancing.path }}) I showed how XP values can be calculated for monsters and for player characters. The linear approximation to that equation showed excellent agreement with monster XP values in 5th edition D&D (5e) when using the baseline monster stats from chapter 9 of the 2014 _Dungeon Master's Guide_, but when using stats from [actual monsters]({{ site.data.page-links.calculating-monster-xp.path }}) it tended to produce lower than expected XP values at low CRs and higher than expected values at high CRs.
+In my previous posts on [XP and Encounter Balancing]({{ site.data.page-links.xp-and-encounter-balancing.path }}) I showed how XP values can be calculated for monsters and for player characters. The linear approximation to that equation showed excellent agreement with monster XP values in 5th edition D&D (5e) when using the baseline monster stats from chapter 9 of the 2014 _Dungeon Master's Guide_, but when using stats from [actual monsters]({{ site.data.page-links.calculating-monster-xp.path }}) it tended to produce lower than expected XP values at low CRs.
 
-As it turns out, the reason for this discrepancy is that published monsters and the baseline monsters in the 2014 DMG follow different XP formula. Specifically, they have different sensitivities to armor class $$(\AC\,)$$ and attack bonus $$(\AB\,).$$ This can be seen clearly in Fig. \figref{fig:npc-accuracy-vs-acab} (below) which plots monster $$\XP$$ values, normalized to their average hit points $$(\HP\,)$$ and damage per round $$(\DPR\,),$$ against the sum $$\AC + \AB.$$ Since $$\XP \propto \HP \cdot \DPR$$ this allows us to isolate and view the dependence of $$\XP$$ on $$\AC$$ and $$\AB$$ directly.
+As it turns out, the reason for this discrepancy is that published monsters and the baseline monsters in the 2014 DMG follow different XP formula. Specifically, they have different sensitivities to armor class $$(\AC\,)$$ and attack bonus $$(\AB\,).$$ This can be seen clearly in Fig. \figref{fig:npc-accuracy-vs-acab} (below) which plots monster $$\XP$$ values, normalized to their average hit points $$(\HP\,)$$ and damage per round $$(\DPR\,),$$ against the sum of $$\AC + \AB.$$ Since $$\XP \propto \HP \cdot \DPR$$ this allows us to isolate and view the dependence of $$\XP$$ on $$\AC$$ and $$\AB$$ directly.
 
 <figure id="fig:npc-accuracy-vs-acab">
     {% include_relative fig-npc-accuracy-vs-acab-small.html %}
@@ -39,7 +41,7 @@ As it turns out, the reason for this discrepancy is that published monsters and 
 **Note.** For a summary of the monsters used in this analysis, see [Monster Dataset]({{ site.data.page-links.monster-dataset.path }}).
 {: .notice--warning}
 
-While the $$\XP$$ values for the baseline monsters described in the 2014 DMG are clearly linearly depended on $$\AC + \AB,$$ for published monsters the dependence is split. Published monsters above CR 20 show the same linear dependence on $$\AC + \AB$$ as the 2014 DMG baseline monsters, while the dependence for monsters CR 20 and below is essentially flat (i.e., their XP values have no $$\AC + \AB$$ dependence).
+While the $$\XP$$ values for the baseline monsters described in the 2014 DMG are clearly linearly dependent on $$\AC + \AB,$$ for published monsters the dependence is split. Published monsters above CR 20 show the same linear dependence on $$\AC + \AB$$ as the 2014 DMG baseline monsters, while the dependence for monsters CR 20 and below is essentially flat (i.e., their XP values have no $$\AC + \AB$$ dependence).
 
 In terms of the $$\XP$$ equation derived in [XP and Encounter Balancing]({{ site.data.page-links.xp-and-encounter-balancing.path }}), published monsters above CR 20 follow a 1st order (i.e., linear) approximation with respect to $$\AC + \AB,$$ while monsters CR 20 and blow follow a 0th order approximation with respect to $$\AC + \AB.$$
 
@@ -53,19 +55,19 @@ In terms of the $$\XP$$ equation derived in [XP and Encounter Balancing]({{ site
 \end{eqnarray}
 -->
 
-This flat dependence on $$\AC + \AB$$ can also be observed for PCs by applying a similar technique to the various encounter difficulty XP thresholds found in the [encounter building rules](https://www.dndbeyond.com/sources/dnd/basic-rules-2014/building-combat-encounters#XPThresholdsbyCharacterLevel) from chapter 3 of the 2014 DMG, along with stats taken from my previous post [Baseline PC Stats]({{ site.data.page-links.baseline-player-character-stats.path }}).
+This flat dependence on $$\AC + \AB$$ can also be observed for PCs by applying a similar technique to the various encounter difficulty XP thresholds found in the [encounter building rules](https://www.dndbeyond.com/sources/dnd/basic-rules-2014/building-combat-encounters#XPThresholdsbyCharacterLevel) from chapter 3 of the 2014 DMG, along with stats taken from my previous post [Baseline PC Stats]({{ site.data.page-links.baseline-player-character-stats.path }}). The "Very Deadly" difficulty corresponds to half the Adventuring Day XP budget.
 
 <figure id="fig:pc-accuracy-vs-acab">
     {% include_relative fig-pc-accuracy-vs-acab-small.html %}
     {% include_relative fig-pc-accuracy-vs-acab-large.html %}
-    <figcaption>Plots player character XP thresholds from chapter 3 of the 2014 DMG, normalized to their adjusted total hit points and unmitigated damage per round, against the sum of their adjusted armor class and adjusted attack bonus. Player character stats were taken from <a href="{{ site.data.page-links.baseline-player-character-stats.path }}">Baseline PC Stats</a>.</figcaption>
+    <figcaption>Plots player character XP thresholds from chapter 3 of the 2014 DMG, normalized to their adjusted total hit points and unmitigated damage per round, against the sum of their adjusted armor class and adjusted attack bonus. Player character stats were taken from <a href="{{ site.data.page-links.baseline-player-character-stats.path }}">Baseline PC Stats</a>. The "Very Deadly" difficulty corresponds to half the Adventuring Day XP budget.</figcaption>
 </figure>
 
 In order to understand the impact these results have on the game, in this post I look at how different approximations to the $$\XP$$ equation affect the accuracy of D&D's encounter building rules.
 
 # Measuring XP accuracy
 
-In order to assess the accuracy different XP calculation we need a way of comparing their predicted difficulties against the corresponding actual difficulties produced from actual combat encounters. In [XP and Encounter Balancing]({{ site.data.page-links.xp-and-encounter-balancing.path }}) the XP equation was derived from efforts to calculate how much total damage the enemy NPCs would deal to the PCs during a combat encounter on average $$(\D_{\NPCs}^{\,\total})$$ relative to the PCs' total hit points $$(\HP_{\PCs}^{\,\total}),$$
+In order to assess the accuracy different XP calculation, we need a way of comparing their predicted difficulties against the corresponding actual difficulties produced by combat encounters. In [XP and Encounter Balancing]({{ site.data.page-links.xp-and-encounter-balancing.path }}) the XP equation was derived from efforts to calculate the average total damage the enemy NPCs would deal to the PCs $$(\D_{\NPCs}^{\,\total})$$ relative to the PCs' total hit points $$(\HP_{\PCs}^{\,\total}),$$
 \begin{align}
     \d \equiv \frac{ \D_{\NPCs}^{\,\total} }{ \HP_{\PCs}^{\,\total} } \,. 
     \label{eq:difficulty-definition}
@@ -93,7 +95,7 @@ In terms of $$\XP$$, Eqn. \eqref{eq:difficulty-definition} takes the form
     \d_{\XP} = \frac{ \XP_{\NPCs} }{ 4 \XP_{\PCs} }\,. 
     \label{eq:difficulty-xp}
 \end{align}
-Normally this would also include the encounter XP multiplier $$\EM$$ in the numerator, but for encounters with a single monster and a party of four identical PCs $$\EM = 1.$$
+Normally this would also include the encounter XP multiplier, $$\EM,$$ in the numerator, but for encounters with a single monster and a party of four identical PCs $$\EM = 1.$$
 
 Expanding out $$\XP_{\NPCs}$$ and $$\XP_{\PCs}$$, Eqn. \eqref{eq:difficulty-xp} becomes
 \begin{align}
@@ -118,17 +120,6 @@ Plugging Eqns. \eqref{eq:difficulty-actual} and \eqref{eq:difficulty-xp-full} in
         \left[ \frac{ P \left( \AB_{\NPCs}, \AC_{\PCs} \right) }{ P \left( \AB_{\PCs}, \AC_{\NPCs} \right) } \right] \,. 
     \label{eq:accuracy-xp-full}
 \end{align}
-
-<!--
-
-\begin{align}
-    F_{e} &= 1.077^{\AC + \AB - 15} \\\\ 
-    F_{0} &= 1 \\\\ 
-    F_{1} &= \left( \frac{\AC + \AB - 2}{13} \right)
-\end{align}
--->
-
-
 
 
 # Analysis
@@ -167,7 +158,7 @@ Moving on to the more general case, Fig. \figref{fig:xp-accuracy-vs-relative-cr}
     <figcaption>Plots the accuracy ratio for encounters with a party of four PCs against a single monster as a function the monster's relative challenge rating.</figcaption>
 </figure>
 
-Once again, the exponential $$\XP$$ equation performs the best out of the three, with the average $$\accuracy$$ keeping within $$10\%$$ of target for CR within $$\pm 15$$ of the party's level. Even if we look beyond the average, at the individual points, this range only shrinks to CR with the range $$[-13,8]$$ of the party's level, which is still quite large.
+Once again, the exponential $$\XP$$ equation performs the best out of the three, with the average $$\accuracy$$ keeping within $$10\%$$ of target for CR within $$\pm 15$$ of the party's level. Even if we look beyond the average, at the individual points, this range only shrinks to $$[-13,8],$$ which is still quite large.
 
 The difference in $$\accuracy$$ between the linear $$\XP$$ approximation and official 5e XP values is also much more apparent in Fig. \figref{fig:xp-accuracy-vs-relative-cr}. For the later, the average $$\accuracy$$ stays within $$10\%$$ of target for only a narrow range of CR within $$[-2, 1]$$ of the party's level, with the former doing only a bit better with a range of $$[-4,2].$$ For official 5e XP values the $$\accuracy$$ is especially poor at low relative CR, i.e., when the monsters have CRs that are significantly below the party's level.
 
@@ -175,11 +166,11 @@ The difference in $$\accuracy$$ between the linear $$\XP$$ approximation and off
 
 Before concluding, I think it's worth discussing these results within a broader context. Because the poor accuracy produced by the official 5e XP values isn't likely as bad as it might appear at first glance. The key takeaway from the previous section is that the official 5e XP values underestimate the difficulty of individual monsters with CR above the party's level and overestimate it when they have CR below the party's level. If we think about this in the context of encounter building, an interesting connection appears.
 
-When building an encounter monsters are added until their adjusted XP total falls within a certain range, as defined by the encounter's intended difficulty. We get this adjusted XP total by multiplying the total XP of the monsters by the encounter multiplier, $$\EM,$$ which depends on the number of monsters. Encounters with more monsters have higher $$\EM$$ values than those with fewer.
+When building an encounter monsters are added until their adjusted XP total falls within a certain range, as defined by the encounter's intended difficulty. We get this adjusted XP total by multiplying the total XP of the monsters by the encounter multiplier, $$\EM,$$ which depends on the number of monsters. Encounters with more monsters have higher $$\EM$$ values than those with fewer. This is done to account for the fact that monsters tend to live longer when grouped together than they would normally on their own, allowing them to deal more damage.
 
-Since an encounter with lower CR monsters can contain more monsters than one made up of higher CR monsters, groups of lower CR monsters end up getting treated being more dangerous than their individual stats would suggest. In other words, it produces a qualitatively similar shift in the predicted difficulty to what was observed in the previous section for official 5e XP values.
+Since an encounter with lower CR monsters can contain more monsters than one made up of higher CR monsters at a given difficulty, groups of lower CR monsters end up getting treated being more dangerous than their individual stats would suggest. In other words, it produces a qualitatively similar shift in the predicted difficulty to what was observed in the previous section for official 5e XP values.
 
-We can compare the sizes of these two effects quantitatively by constructing an effective multiplier created by the official 5e XP values and comparing it against the $$\EM$$ in the 2014 DMG. To do this, we can construct combat encounters in the typical way using just the monster XP values (i.e., no multiplier) to determine the number of monsters for a given $$\CR$$ and difficulty, and then use the $$\accuracy$$ for those monsters, calculated from Eqn. \eqref{eq:accuracy-xp}, for the effective $$\EM.$$ The results of this process are shown in Fig. \figref{fig:effective-xp-multiplier} (below) for several difficulty thresholds.
+We can compare the sizes of these two effects quantitatively by constructing an effective multiplier created by the official 5e XP values and comparing it against the $$\EM$$ in the 2014 DMG. To do this we construct combat encounters in the typical way, using just the monster XP values (i.e., no multiplier), to determine the number of monsters for a given $$\CR$$ and difficulty, and then use the $$\accuracy$$ for those monsters, calculated from Eqn. \eqref{eq:accuracy-xp}, for the effective $$\EM.$$ The results of this process are shown in Fig. \figref{fig:effective-xp-multiplier} (below) for several difficulty thresholds.
 
 <figure id="fig:effective-xp-multiplier">
     {% include_relative fig-effective-xp-multiplier-small.html %}
@@ -195,8 +186,8 @@ Of course, this wouldn't be a perfect solution. As Fig. \figref{fig:effective-xp
 
 To summarize, the results presented here help answer two key questions that have lingered on my mind for some time now regarding the encounter building rules in 5e and my research on them.
 
-First, why did my XP formula worked so well for the baseline monsters in the 2014 DMG while consistently giving low values for low CR published monsters? I had always assumed the answer had to do with designers having a bias towards weaker monsters at low CR, but this analysis shows that hasn't been the case. Instead, its because the XP formula used for published monsters is simply different from the one used when generating the baseline monsters in the 2014 DMG. And that difference happens to be most pronounced for low CR monsters, and leads to them having high XP values than they would based on the monster creation rules in the 2014 DMG.
+First, why did my XP formula worked so well for the baseline monsters in the 2014 DMG while consistently giving low values for low CR published monsters? I had always assumed the answer had to do with designers having a bias towards weaker monsters at low CR, but this analysis shows that hasn't been the case. Instead, its because the XP formula used for published monsters is simply different from the one used when generating the baseline monsters in the 2014 DMG. And that difference happens to be most pronounced for low CR monsters, and leads to them having higher XP values than they would based on the monster creation rules in the 2014 DMG.
 
-Second, why did the 2024 encounter building rules do away with the encounter XP multiplier? There are still a few angle left to consider in regard to how PCs have change in power under the 2024 rules update for 5e, so I wouldn't consider this point closed completely. But these results are compelling, and strongly suggest that the 2024 encounter building rules are able to go without the encounter XP multiplier because one was already baked into the game's XP values, knowingly or unknowingly.
+Second, why are the 2024 encounter building rules able to work without an encounter XP multiplier? There are still a few angle left to consider in regard to how PCs have change in power under the 2024 rules update for 5e, so I wouldn't consider this point closed completely. But these results are compelling, and strongly suggest that the 2024 encounter building rules are able to go without the encounter XP multiplier because one was already baked into the game's XP values.
 
-My analysis of the [Pathfinder 2]({{ site.data.page-links.xp-dnd-vs-pathfinder.path }}) encounter building rules showed something similar. However, for those rules the offset appeared to a fixed percent scaling difference, which would produce a more uniform and predictable shift at each level of play. Applied to 5e, this would be like using the exponential XP formula but with a smaller exponential base (e.g., instead of $$1.077$$ a smaller value like $$1.06$$ could be used instead).
+My analysis of the [Pathfinder 2]({{ site.data.page-links.xp-dnd-vs-pathfinder.path }}) encounter building rules showed something similar. However, for those rules the offset appeared as a fixed percent scaling difference, which produces a more uniform and predictable shift at each level of play. Applied to 5e, this would be like using the exponential XP formula but with a smaller exponential base (e.g., instead of $$1.077$$ a smaller value like $$1.06$$ could be used).
