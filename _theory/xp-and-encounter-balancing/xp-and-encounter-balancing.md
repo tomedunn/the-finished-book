@@ -3,7 +3,7 @@ title: "XP and Encounter Balancing"
 excerpt: "A detailed explanation of where XP comes from and how encounter balancing works."
 permalink: /:collection/:name/
 date: 2022-1-27
-last_modified_at: 2022-4-18
+last_modified_at: 2025-11-14
 tags:
   - encounter balancing
   - encounter multiplier
@@ -258,10 +258,11 @@ To verify that these methods for calculating XP are accurate, Fig. \figref{fig:e
     <figcaption>Plots XP values for typical monsters at each CR calculated using Eqn. \eqref{eq:xp-npc-explicit} (blue) and Eqn. \eqref{eq:experience-NPC-linear} (orange). Typical values for monster statistics were taken from the <a href="https://www.dndbeyond.com/sources/dmg/dungeon-masters-workshop#MonsterStatisticsbyChallengeRating">Monster Statistics by Challenge Rating</a> table in chapter 9 of the DMG.</figcaption>
 </figure>
 
-Clearly, the linear approximation given by Eqn. \eqref{eq:experience-NPC-linear} matches the target XP values the best out of the two. From an theoretical perspective, I would consider Eqn. \eqref{eq:experience-NPC-linear} to be less correct than Eqn. \eqref{eq:xp-npc-explicit}, since the approximation needed to reach it doesn't hold up for higher CR monsters. However, since the same approximation would be applied to both PCs and NPCs alike, I think it's unlikely cause to any significant problems unless there is a large gap between $$\AC + \AB\,$$ for the PCs and NPCs in the encounter.
+Clearly, the linear approximation given by Eqn. \eqref{eq:experience-NPC-linear} matches the target XP values the best out of the two. However, from an theoretical perspective, I would still consider Eqn. \eqref{eq:experience-NPC-linear} to be less correct than Eqn. \eqref{eq:xp-npc-explicit}, since the approximation used to derive it doesn't hold up for higher CR monsters who tend to have higher $$\AC + \AB$$ values.
 
-This method also works well for calculating XP values for published monsters and for player characters. For a comparison between calculated XP and target XP values of published monsters, see [Calculating Monster XP]({{ site.data.page-links.calculating-monster-xp.path }}). And, for a comparison of calculated XP values and player character XP thresholds, see [Player Character XP]({{ site.data.page-links.xp-and-player-characters.path }}).
+The linear approximation also works well for calculating XP values for published monsters, see [Calculating Monster XP]({{ site.data.page-links.calculating-monster-xp.path }}), and for player characters, see [Player Character XP]({{ site.data.page-links.xp-and-player-characters.path }}). Though, notably, it tends to give lower values than those listed in the core rules at low monster CRs and low PC levels.
 
+For a more detailed dive into why that is, as well as the overall accuracy of different forms of the XP equation, see [XP Approximations]({{ site.data.page-links.xp-approximations.path }}).
 
 # Encounter multiplier
 
