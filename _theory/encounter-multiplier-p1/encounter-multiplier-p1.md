@@ -3,7 +3,7 @@ title: "Calculating the Encounter Multiplier: part 1"
 excerpt: "A deep dive into the encounter multiplier and how it depends on the number of NPCs and PC strategies."
 permalink: /:collection/:name/
 date: 2022-02-21
-last_modified_at: 2024-01-23
+last_modified_at: 2026-01-05
 tags:
   - encounter balancing
   - encounter multiplier
@@ -396,10 +396,6 @@ This encounter multiplier is plotted in Fig. \figref{fig:encounter-multiplier-ap
 From my post on calculating [Player Character XP]({{ site.data.page-links.xp-and-player-characters.path }}), the effective damage per round "budgets" for each class are roughly equal to one another. This means that for a standard party of four PCs, if two are capable of dealing AoE damage, then both would need target around four monsters with each of their AoEs in order to achieve $$\dMTi = 0.75$$. When facing six or more monsters, this is definitely an achievable target.
 
 For groups that have weak or no AoE damage capabilities, encounter difficulties calculated using the encounter multiplier in the DMG can underestimate the encounter's difficulty by as much as $$50\%$$! Thankfully, classes that tend to have weak AoE damage capabilities also tend to have higher individual XP values due to having higher effective hit points which will, at least, partially offset this difference.
-
-# Additional mixed strategies
-
-A variation on the strategy discussed in the previous section is for some of the party members to focus on damaging 
 
 # Conclusion
 
