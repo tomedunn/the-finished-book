@@ -36,7 +36,7 @@ Put another way, if we calculate the average number of encounters that can fit i
     <figcaption>Shows the average number of encounters that can fit into a full Adventuring Day with an even mix of Medium and Hard difficulties.</figcaption>
 </figure>
 
-To shed light on where this disagreement likely comes from, we need to look back at how the encounter build and adventuring day rules for 5th edition evolved over time. Starting with the D&D Next playtest.
+To shed light on where this disagreement likely comes from, we need to look back at how the encounter building and adventuring day rules for 5th edition evolved over time, starting with the D&D Next playtest.
 
 # DnD Next Playtest
 
@@ -46,11 +46,11 @@ The encounter building rules throughout the D&D Next playtest had three encounte
 
 In the D&D Next rules a DM was suppose to pick a difficulty and then fill their encounter with monsters until they had spent their budget, while in the 2014 DMG DMs are expected to fill their encounter with monsters and then determine what it's difficulty is based on its XP total. For this reason, the average XP for each difficulty under the D&D Next rules should be effectively the same as the XP budget for that difficulty.
 
-While XP was used for building individual encounters in these rules, the Adventuring Day rules had no XP budgets, providing only the number of encounters for each encounter difficulty instead. For example, the Adventuring Day section from the D&D Next playtest packet released on August 13th 2012 states
+While XP was used for building individual encounters in these rules, the Adventuring Day rules had no daily XP budgets, providing only the number of encounters for each encounter difficulty instead. For example, the Adventuring Day section from the D&D Next playtest packet released on August 13th 2012 states
 
 > As a rule of thumb, you can figure that the characters will probably get through four average encounters, six or seven easy encounters, or two tough encounters before they have to take a long rest.
 
-Importantly, while these playtest packets didn't give official Adventuring Day XP budgets, the given number of encounters for each difficulty generally produced similar XP totals to one another. Using the August 13th 2012 playtest again as an example, a full Adventuring Day consisting of only Average encounters is worth the same amount of XP on average as one consisting of only Tough encounters, and each of those is only worth $$2.3\%$$ more XP than one consisting of only Easy encounters.
+Despite not having official daily XP budgets, each example of a full adventuring day produced similar total XP values to one another. Using the August 13th 2012 playtest again as an example, a full Adventuring Day consisting of only Average encounters is worth the same amount of XP on average as one consisting of only Tough encounters, and each of those is contains just $$2.3\%$$ more XP than one consisting of only Easy encounters.
 
 This consistency is shown in Fig. \figref{fig:next-daily-encounters} (below), which calculates the total XP for each example adventuring day and converts it to an equivalent number of Easy encounters for each version of the Encounter Building and Adventuring Day rules that appeared throughout the D&D Next playtest.
 
@@ -60,13 +60,15 @@ This consistency is shown in Fig. \figref{fig:next-daily-encounters} (below), wh
     <figcaption>Shows number of equivalent Easy difficulty encounters for each example Adventuring Day given throughout the D&D Next open playtest.</figcaption>
 </figure>
 
-These findings don't fully resolve the problem present in the 2014 DMG discussed in the previous section, but they do establish that the example adventuring days in these early playtest were consistent with the PCs having a daily XP budget. The next section builds on this by looking at the Encounter Building and Adventuring Day rules that appeared in the very first version of the 5th edition _Basic Rules_.
+These findings don't fully resolve the problem present in the 2014 DMG discussed in the previous section, but they do establish that the example adventuring days in these early playtest were consistent with the PCs having a daily XP budget.
+
+The next section builds on this by looking at the Encounter Building and Adventuring Day rules that appeared in the very first version of the 5th edition _Basic Rules_.
 
 # Basic Rules v0.1
 
 The _Player's Handbook_ for 5th edition D&D was first published on August 19th of 2014, with the _Dungeon Master's Guide_ being published nearly four months later on December 9th. In order to provide DMs access to some of the tools they would need to run games of 5th edition during that time, on August 12th of 2014 an initial version of the _[Basic Rules](https://media.wizards.com/2014/downloads/dnd/DMDnDBasicRules_v0.1.pdf)_ was published online (version 0.1). It included, among other things, rules for build encounters as well as a section on the Adventuring Day (see p. 56-58).
 
-Comparing these rules to the ones found in the 2014 DMG reveals several similarities. The XP thresholds are identical for each encounter difficulty, as are the Adventuring Day XP budgets. And both use six to eight Medium or Hard encounters as examples of a full adventuring day. At first glance, they both look like they should be functionally the same, but this is not the case.
+Comparing these rules to the ones found in the 2014 DMG reveals several similarities. The XP thresholds are identical for each encounter difficulty, as are the Adventuring Day XP budgets. And both use six to eight Medium or Hard encounters as examples of a full adventuring day. At first glance, they look like they should be functionally the same, but this is not the case.
 
 In the rules for building encounters in the _Basic Rules_ each XP threshold acts as the upper limit for that encounter difficult rather than a lower limit as they are in the 2014 DMG. This means the average XP for a Medium encounter in the _Basic Rules_ falls halfway between the Easy and Medium XP thresholds, which is significantly lower than it is in the 2014 DMG which sits halfway between the Medium and Hard XP thresholds. 
 
@@ -79,6 +81,8 @@ Calculating the number of encounters that can fit into a full adventuring day wi
     {% include_relative fig-br-daily-medium-to-hard-large.html %}
     <figcaption>Shows the average number of encounters that can fit into a full Adventuring Day with an even mix of Medium and Hard difficulties using the definition from version 0.1 of the <i>Basic Rules</i> (orange) as well as the 2014 <i>Dungeon Master's Guide</i> (blue).</figcaption>
 </figure>
+
+The Adventuring Day rule presented in this early version of the _Basic Rules_ are clearly marked as a "work in progress". Still it is curious that they lack the problem present in the 2014 DMG Adventuring Day rules, despite all of the numeric aspects being identical between the two. 
 
 # Conclusion
 
