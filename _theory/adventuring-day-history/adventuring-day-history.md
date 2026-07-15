@@ -68,9 +68,12 @@ The next section builds on this by looking at the Encounter Building and Adventu
 
 The _Player's Handbook_ for 5th edition D&D was first published on August 19th of 2014, with the _Dungeon Master's Guide_ being published nearly four months later on December 9th. In order to provide DMs access to some of the tools they would need to run games of 5th edition during that time, on August 12th of 2014 an initial version of the _[Basic Rules](https://media.wizards.com/2014/downloads/dnd/DMDnDBasicRules_v0.1.pdf)_ was published online (version 0.1). It included, among other things, rules for build encounters as well as a section on the Adventuring Day (see p. 56-58).
 
-Comparing these rules to the ones found in the 2014 DMG reveals several similarities. The XP thresholds are identical for each encounter difficulty, as are the Adventuring Day XP budgets. And both use six to eight Medium or Hard encounters as examples of a full adventuring day. At first glance, they look like they should be functionally the same, but this is not the case.
+Comparing these rules to the ones found in the 2014 DMG reveals several similarities. The XP threshold values are identical for each encounter difficulty, as are the Adventuring Day XP budgets. And both use six to eight Medium or Hard encounters as examples of a full adventuring day. At first glance, they look like they should be functionally the same, but this is not the case.
 
 In the rules for building encounters in the _Basic Rules_ each XP threshold acts as the upper limit for that encounter difficult rather than a lower limit as they are in the 2014 DMG. This means the average XP for a Medium encounter in the _Basic Rules_ falls halfway between the Easy and Medium XP thresholds, which is significantly lower than it is in the 2014 DMG which sits halfway between the Medium and Hard XP thresholds. 
+
+**Note.** The XP thresholds in the _Basic Rules_ being upper limits isn't spelled out explicitly in the rules proper, but is made evident in both encounter difficulty examples from that section.
+{: .notice--warning}
 
 The result of this difference is that an even mix of Medium or Hard encounters in the 2014 DMG is worth roughly $$50\%$$ more XP than they would be using the _Basic Rules_. For this reason, the average XP total for the example adventuring day in the _Basic Rules_ ends up being only $$7.5\%$$ higher than the Adventuring Day XP budget values! 
 
