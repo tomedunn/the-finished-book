@@ -3,7 +3,7 @@ title: "Adventuring Day History"
 excerpt: "A look at how D&D encounter building and adventuring day evolved during the development of 5th edition."
 permalink: /:collection/:name/
 date: 2026-07-13
-last_modified_at: 2026-07-13
+last_modified_at: 2026-07-17
 tags:
   - D&D
   - D&D 2014
@@ -26,7 +26,7 @@ The rules also give an example adventuring day of 6-8 Medium or Hard encounters.
 
 While much attention has been paid to this example and how 6-8 encounters can feel like a lot for any group to squeeze in between long rests, a more fundamental problem appears when comparing it against the PCs' XP budget. The two do not agree. No matter the PCs' levels, an even mix of 6-8 Medium or Hard encounters is worth substantially more XP than the party's Adventuring Day XP budget. 
 
-The XP thresholds in the DMG represent the minimum XP for their respective difficulty, which means the average XP for a Medium encounter falls halfway between the Medium and Hard XP thresholds, and the average XP for a Hard encounter falls halfway between the Hard and Deadly XP thresholds. When this is used to calculated the total XP for the example adventuring day in the 2014 DMG the result gives $$68\%$$ more XP than the Adventuring Day XP budgets allow!
+The XP thresholds in the DMG represent the minimum XP for their respective difficulty, which means the average XP for a Medium encounter falls halfway between the Medium and Hard XP thresholds, and the average XP for a Hard encounter falls halfway between the Hard and Deadly XP thresholds. When this is used to calculate the total XP for the example adventuring day in the 2014 DMG the result gives $$68\%$$ more XP than the Adventuring Day XP budgets allow!
 
 Put another way, if we calculate the average number of encounters that can fit into the PCs' daily XP budget with an even mix of Medium and Hard difficulties, we get far fewer than the example from the 2014 DMG, with an average of $$4.2$$ encounters and nearly all levels falling between 4-5 encounters as shown in Fig. \figref{fig:dmg-daily-medium-to-hard} (below).
 
