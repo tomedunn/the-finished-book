@@ -1,0 +1,4287 @@
+[
+    {
+        "id": "554cbaea-f540-4250-8414-e0a2fae7d7c5",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Rise of Elemental Evil; Adventure Background",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17427-aerisi-kalinoth", 2900],
+            [1, "17443-vanifer", 5000],
+            [1, "17451-gar-shatterkeel", 5000],
+            [1, "17435-marlos-urnrayle", 3900]
+        ]
+    },
+    {
+        "id": "94354afc-728a-4c40-af7d-c42802852943",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Rise of Elemental Evil; Elemental Cults; Cult of the Black Earth",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16787-ankheg", 450],
+            [1, "16818-bulette", 1800]
+        ]
+    },
+    {
+        "id": "bf5da5fb-50e0-4cb3-b920-64ca2dcd5af6",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Rise of Elemental Evil; Elemental Cults; Cult of the Black Earth; Prophet of Earth",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17435-marlos-urnrayle", 3900],
+            [1, "17462-ogremoch", 24500]
+        ]
+    },
+    {
+        "id": "f98bf978-a4c4-4c43-b2f0-4ca3e3f70856",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Rise of Elemental Evil; Elemental Cults; Cult of the Crushing Wave",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16956-merrow", 450],
+            [1, "16968-octopus", 10]
+        ]
+    },
+    {
+        "id": "a971f695-08d2-48e9-a981-42e10d521ce7",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Rise of Elemental Evil; Elemental Cults; Cult of the Crushing Wave; Prophet of Water",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17451-gar-shatterkeel", 5000],
+            [1, "17463-olhydra", 20000]
+        ]
+    },
+    {
+        "id": "28f4a6a5-5b94-4371-9481-1025163bf8a0",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Rise of Elemental Evil; Elemental Cults; Cult of the Eternal Flame; Fire Prophet",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17443-vanifer", 5000]
+        ]
+    },
+    {
+        "id": "2f7c32c6-b7fe-43a3-8dbf-a6aef840c976",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Rise of Elemental Evil; Elemental Cults; Cult of the Eternal Flame; Fire Prophet",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17461-imix", 22000]
+        ]
+    },
+    {
+        "id": "6bbc4970-7536-4ce3-b8fb-9934b1b13fbd",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Rise of Elemental Evil; Elemental Cults; Cult of the Howling Hatred",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16924-hippogriff", 200],
+            [1, "16913-griffon", 450],
+            [1, "16897-giant-vulture", 200]
+        ]
+    },
+    {
+        "id": "5ea94fca-6e18-4b47-a4b9-913c7f6381d2",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Rise of Elemental Evil; Elemental Cults; Cult of the Howling Hatred; Prophet of Air",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17427-aerisi-kalinoth", 2900]
+        ]
+    },
+    {
+        "id": "efeda19f-09e1-4819-b104-9ce4bc39f7d7",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Rise of Elemental Evil; Elemental Cults; Cult of the Howling Hatred; Prophet of Air",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17464-yan-c-bin", 20000]
+        ]
+    },
+    {
+        "id": "b2c4ee35-55d9-42aa-a0f6-354dbe6f32a5",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Rise of Elemental Evil; Running the Adventure; Adventure Hooks; Defeat the Skyriders",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16924-hippogriff", 200]
+        ]
+    },
+    {
+        "id": "71054710-a2df-40b6-8835-602e557a54bd",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Rise of Elemental Evil; Running the Adventure; Adventure Hooks; The Mud Sorcerer",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17434-miraj-vizann", 2300]
+        ]
+    },
+    {
+        "id": "23a66cad-a3e4-4790-86b8-06231cb722ff",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Rise of Elemental Evil; Running the Adventure; Adventure Hooks; Ominous Dream",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17435-marlos-urnrayle", 3900]
+        ]
+    },
+    {
+        "id": "285ad487-b8f0-4b63-84fa-4e04110aba41",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Rise of Elemental Evil; Running the Adventure; Adventure Hooks; Seeking Revenge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17443-vanifer", 5000]
+        ]
+    },
+    {
+        "id": "bdf167e9-554b-4a9b-ab84-66e95350724b",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Rise of Elemental Evil; Running the Adventure; Adventure Hooks; Shatterkeel\u2019s Trail",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17451-gar-shatterkeel", 5000]
+        ]
+    },
+    {
+        "id": "75dd330d-c09a-42fd-871e-38f2da897ddf",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Rise of Elemental Evil; Running the Adventure; Adventure Hooks; Undercover",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17450-shoalar-quanderil", 1100]
+        ]
+    },
+    {
+        "id": "99d3d94a-675c-4683-b557-5f2f1c0c055e",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 1. Allfaiths Shrine",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16985-priest", 450],
+            [1, "16763-acolyte", 50]
+        ]
+    },
+    {
+        "id": "fb111982-3605-4929-a402-354e79b83496",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 2. The Swinging Sword",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "61d3c53c-e936-43e7-8fad-4f67651e99a6",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 2. The Swinging Sword",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16829-commoner", 10],
+            [1, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "cc85029b-5d36-4038-8dd6-126247ac3186",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 2. The Swinging Sword",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16763-acolyte", 50]
+        ]
+    },
+    {
+        "id": "0fabee75-7dc0-4914-bd79-91d670da22b2",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 3. The Helm at Highsun",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10],
+            [1, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "229e2176-2435-4873-8e78-38b0d294a2e5",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 3. The Helm at Highsun",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "9acdbe8d-0443-4777-9dae-f456358e4bc8",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 3. The Helm at Highsun",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "1759baf3-43dd-4d49-8dfe-3f3bb3fcc58a",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 4. Mother Yalantha\u2019s",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "e1293706-486e-4ca1-9066-bd0ff28e16f0",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 4. Mother Yalantha\u2019s",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "ce063356-deb6-402e-8222-640bf3680844",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 5. Thelorn\u2019s Safe Journeys",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "c6acc6b4-7482-4c5b-9001-0d4dcc29e355",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 6. Chansyrl Fine Harness",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17007-scout", 100]
+        ]
+    },
+    {
+        "id": "a7158ed9-66a2-4a68-8f39-c036c4cc7fde",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 7. Helvur Tarnlar, Clothier",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "398c10c0-a654-4010-9fd6-bac2868f7a40",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 7. Helvur Tarnlar, Clothier",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "bb575bb8-507b-44f9-a4a7-2457d1eba6d5",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 8. Lorren\u2019s Bakery",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "37ae8e95-c8ca-4166-aab0-058dc0b0f0f6",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 9. Tantur Smithy",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "f38cd9e6-bbfe-443b-89bf-59f84c555d6c",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 10. Drouth Fine Poultry",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "6431ee28-cd08-404b-bf84-2d27d79e475c",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 11. Jalessa Ornra, Butcher",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16829-commoner", 10],
+            [1, "17045-veteran", 700]
+        ]
+    },
+    {
+        "id": "5dbcdf51-3cce-4682-9928-e94538a204ec",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 11. Jalessa Ornra, Butcher",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "74c2b28f-8430-4dcf-993d-1d4b77110f5b",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 12. Dornen Finestone",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
+    },
+    {
+        "id": "36f2d850-0d53-41b6-9691-b1616afc0c61",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 13. Ironhead Arms",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17045-veteran", 700]
+        ]
+    },
+    {
+        "id": "c86b87eb-1204-4dd2-87d7-7f07d698bffb",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 14. Mhandyvver\u2019s Poultry",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "fbd6bf67-5027-45d3-a0a8-12e73af9ce6f",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 15. Haeleeya\u2019s",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "94a361fa-944f-4e6d-a736-21a8bd0b480e",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 16. Waelvur\u2019s Wagonworks",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "0e6ea983-1417-47e4-b8f1-079443cbb723",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 17. Gaelkur\u2019s",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "bc628293-8b52-4649-8feb-01f7387f5d96",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 17. Gaelkur\u2019s",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "8ee0245b-f76e-4b94-9e84-2cb921b1d0e7",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 18. Mellikho Stoneworks",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "2dd07123-e9f6-46a6-b003-5f48075bb9d3",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 19. Luruth\u2019s Tannery",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "fc128230-f2f1-4f23-aa9a-71709e9d8136",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 20. Bethendur\u2019s Storage",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25],
+            [3, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "1e392666-1752-4922-b0e5-8a4e980c14cc",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 21. The Market",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "d56ac94d-4abd-4c2a-868f-ef68b7c9ac3a",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Red Larch; Red Larch Locations; 22. Vallivoe\u2019s Sundries",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "c6ed2010-34d5-4131-8182-607e7f8f4038",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17100-aarakocra", 50]
+        ]
+    },
+    {
+        "id": "5401fbcd-5235-42e8-ace6-aa9f6ce5909b",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17100-aarakocra", 50],
+            [1, "16774-air-elemental", 1800]
+        ]
+    },
+    {
+        "id": "425301c3-7d46-467d-b0a9-23b0f70c9210",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17423-hurricane", 450]
+        ]
+    },
+    {
+        "id": "9f00de15-6ea6-4e08-96f2-ec52a19d5563",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17420-feathergale-knight", 200],
+            [2, "17424-skyweaver", 700],
+            [3, "16897-giant-vulture", 200]
+        ]
+    },
+    {
+        "id": "614ad0c7-e789-4d2f-ba81-f271b4c6243d",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16915-guard", 25],
+            [5, "16829-commoner", 10],
+            [1, "17021-spy", 200]
+        ]
+    },
+    {
+        "id": "8ced064e-830e-4dd4-a7ea-e0549a820b55",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17007-scout", 100],
+            [1, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "455138ab-be74-489c-82f0-e39948068794",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17428-black-earth-guard", 450],
+            [1, "17429-black-earth-priest", 700],
+            [1, "16969-ogre", 450]
+        ]
+    },
+    {
+        "id": "c8b6631e-4fee-4325-baa4-9037b76ef42f",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16798-bandit", 25],
+            [2, "17428-black-earth-guard", 450]
+        ]
+    },
+    {
+        "id": "9e18ca24-c442-495d-8592-07076b936a2d",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16774-air-elemental", 1800]
+        ]
+    },
+    {
+        "id": "f56832ca-422a-486d-bbab-32e796bb7c75",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16853-earth-elemental", 1800]
+        ]
+    },
+    {
+        "id": "3296fc09-16f2-4bef-b27b-1bd0f6cc123d",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16861-fire-elemental", 1800]
+        ]
+    },
+    {
+        "id": "2cd18379-1ec4-4eaa-8fe3-423ad3dfa80b",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17051-water-elemental", 1800]
+        ]
+    },
+    {
+        "id": "212e1046-1744-434a-b681-c0e6bffc745c",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16805-berserker", 450],
+            [3, "17038-tribal-warrior", 25]
+        ]
+    },
+    {
+        "id": "047e7275-4aac-4022-9ec2-9d14bdb893a8",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "17436-eternal-flame-guardian", 450],
+            [1, "17437-eternal-flame-priest", 700]
+        ]
+    },
+    {
+        "id": "9ae25750-3180-4af3-97ad-a8e820a90e56",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17436-eternal-flame-guardian", 450],
+            [1, "17437-eternal-flame-priest", 700],
+            [2, "16921-hell-hound", 700]
+        ]
+    },
+    {
+        "id": "8d59234d-e28f-4ffc-9c23-8a077b2ab5b7",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "a3547314-7dd9-48d7-afeb-f211ed18e2a1",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16829-commoner", 10],
+            [2, "16915-guard", 25],
+            [1, "17021-spy", 200]
+        ]
+    },
+    {
+        "id": "50384e46-71ed-4dbf-9fa5-9f331ef7acb0",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17045-veteran", 700],
+            [2, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "6c841723-e887-4fc2-9fe3-2791d4fd0ea7",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16851-dust-mephit", 100],
+            [1, "16932-ice-mephit", 100],
+            [1, "16948-magma-mephit", 100],
+            [1, "17173-mud-mephit", 50],
+            [1, "17174-smoke-mephit", 50],
+            [1, "17022-steam-mephit", 50]
+        ]
+    },
+    {
+        "id": "33c9eb75-22ff-4df1-83d3-4034ba2acade",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "16829-commoner", 10],
+            [3, "16915-guard", 25],
+            [2, "16763-acolyte", 50],
+            [1, "16985-priest", 450]
+        ]
+    },
+    {
+        "id": "61d62fd6-8eed-4135-b815-1d91248c4205",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "16798-bandit", 25],
+            [2, "17035-thug", 100],
+            [1, "16799-bandit-captain", 450]
+        ]
+    },
+    {
+        "id": "5a97095b-8377-4644-beb3-a8a36eac0333",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16829-commoner", 10],
+            [1, "17007-scout", 100]
+        ]
+    },
+    {
+        "id": "a65c938c-7066-4c8b-81f6-1a0ca0713c5c",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17159-helmed-horror", 1100]
+        ]
+    },
+    {
+        "id": "c1504f89-564a-45d2-9ad7-05f9bea0896a",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "17445-crushing-wave-reaver", 100],
+            [1, "17444-crushing-wave-priest", 450],
+            [1, "17448-fathomer", 450]
+        ]
+    },
+    {
+        "id": "913720e9-0cfc-4c6d-999c-17f608040cb9",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Exploring the Valley; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "17445-crushing-wave-reaver", 100],
+            [1, "17444-crushing-wave-priest", 450],
+            [1, "17449-one-eyed-shiver", 700],
+            [1, "17446-dark-tide-knight", 700],
+            [1, "16880-giant-crocodile", 1800]
+        ]
+    },
+    {
+        "id": "fad9e38f-6526-4d6b-9f80-bbb968a1c7d6",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Valley Sites; Bargewright Inn",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17045-veteran", 700]
+        ]
+    },
+    {
+        "id": "fcee2710-94f5-4165-9cb6-1c5e3716b9b3",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Valley Sites; Bargewright Inn",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17021-spy", 200]
+        ]
+    },
+    {
+        "id": "7a298502-d430-4d7d-b33d-661a6c2142ef",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Valley Sites; Goldenfields",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16985-priest", 450]
+        ]
+    },
+    {
+        "id": "be537b3f-9b52-442a-8b68-b85485af7ec1",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Valley Sites; Helvenblade House",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16767-adult-bronze-dragon", 13000]
+        ]
+    },
+    {
+        "id": "2b3053b9-8378-4f0f-b77c-232a1d31797d",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Valley Sites; High Forest",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17037-treant", 5000],
+            [1, "16816-brown-bear", 200],
+            [1, "16975-owlbear", 700],
+            [1, "17062-wolf", 50],
+            [1, "17042-unicorn", 1800]
+        ]
+    },
+    {
+        "id": "56e34732-b635-4de5-97cc-23cc47094d67",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Valley Sites; Homesteads",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "f26ed3bc-54ae-4db3-96f7-3a607a70b9fa",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Valley Sites; Kryptgarden Forest",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "297838-claugiyliamatar", 41000]
+        ]
+    },
+    {
+        "id": "42c0e168-0073-4dab-bdc8-0c7397460073",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Valley Sites; Rundreth Manor",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "314818-nurvureem", 11500]
+        ]
+    },
+    {
+        "id": "574a2e11-edfe-4154-a983-9b820bf75074",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Valley Sites; Summit Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16938-knight", 700]
+        ]
+    },
+    {
+        "id": "ce046178-b127-4244-ab20-763ebb2cf3e5",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Valley Sites; Triboar",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16938-knight", 700],
+            [12, "17045-veteran", 700]
+        ]
+    },
+    {
+        "id": "86dbc3fd-8039-4ac2-9d7c-a116ed5244d5",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Valley Sites; Westbridge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "20811f23-c093-4fe8-a26e-f266feeee71d",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; The Dessarin Valley; Valley Sites; Yartar",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
+    },
+    {
+        "id": "d73a128c-a023-48fe-9758-39fb4ac53b32",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Early Investigations; Womford Rats",
+        "allies": [],
+        "bystanders": [
+            [6, "16829-commoner", 10]
+        ],
+        "enemies": [
+            [1, "17450-shoalar-quanderil", 1100],
+            [1, "17035-thug", 100],
+            [2, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "d54a0eec-0dd0-4f39-8362-3a93d4b69f7b",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Cult Reprisals; Tremors",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16787-ankheg", 450]
+        ]
+    },
+    {
+        "id": "e9dd6871-c5a1-40e4-b3e1-2cef3c155432",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Cult Reprisals; Skyriders",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17420-feathergale-knight", 200],
+            [2, "17421-howling-hatred-initiate", 25],
+            [3, "16897-giant-vulture", 200]
+        ]
+    },
+    {
+        "id": "b5055705-ebb1-4c4e-912e-489ee049123e",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Cult Reprisals; Reaver Ambush",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17444-crushing-wave-priest", 450],
+            [2, "17445-crushing-wave-reaver", 100],
+            [5, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "20291bb5-63bc-4ea5-a455-41e5c95c6c52",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Cult Reprisals; Fiery Fangs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16921-hell-hound", 700]
+        ]
+    },
+    {
+        "id": "a17412a9-9597-42a1-b233-795ff58bcf9c",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Feathergale Spire; Spire Approach",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17420-feathergale-knight", 200],
+            [2, "16897-giant-vulture", 200]
+        ]
+    },
+    {
+        "id": "23dc9d37-6f82-4a98-b38f-9a3f4a9085e6",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Feathergale Spire; Feathergale Moat",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17420-feathergale-knight", 200]
+        ]
+    },
+    {
+        "id": "510dd3ef-4713-43d9-99b0-3e7927e1f06f",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Feathergale Spire; Spire Locations; S1. Stable Level",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16924-hippogriff", 200],
+            [2, "16897-giant-vulture", 200],
+            [1, "17420-feathergale-knight", 200]
+        ]
+    },
+    {
+        "id": "a204dc03-d537-4579-b212-1e4d47b72fff",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Feathergale Spire; Spire Locations; S2. Front Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17420-feathergale-knight", 200],
+            [2, "17421-howling-hatred-initiate", 25]
+        ]
+    },
+    {
+        "id": "42b8b47f-7ecc-48f0-9d96-b409c3b1495a",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Feathergale Spire; Spire Locations; S6. Kitchen",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17421-howling-hatred-initiate", 25]
+        ]
+    },
+    {
+        "id": "3db904ac-ea1b-43c4-a448-71b06be6f2c4",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Feathergale Spire; Spire Locations; S7. Solarium",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17421-howling-hatred-initiate", 25],
+            [1, "17423-hurricane", 450]
+        ]
+    },
+    {
+        "id": "4327d972-d010-4c63-af02-469d461a7e87",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Feathergale Spire; Spire Locations; S8. Great Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17420-feathergale-knight", 200]
+        ]
+    },
+    {
+        "id": "b0564343-3687-46b2-b9c4-5b44915a840c",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Feathergale Spire; Spire Locations; S11. Pinnacle",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17420-feathergale-knight", 200],
+            [2, "16897-giant-vulture", 200]
+        ]
+    },
+    {
+        "id": "4afa825b-77c6-4431-b861-21291fe26407",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Feathergale Spire; Knights\u2019 Quest; Manticore Hunt",
+        "allies": [
+            [4, "16897-giant-vulture", 200],
+            [5, "16924-hippogriff", 200],
+            [4, "17420-feathergale-knight", 200]
+        ],
+        "bystanders": [],
+        "enemies": [
+            [1, "16951-manticore", 700]
+        ]
+    },
+    {
+        "id": "280eb20d-f825-4fcc-97f2-fd0df54cd606",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sighing Valley; V2. Dead Rocks",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16897-giant-vulture", 200],
+            [6, "16810-blood-hawk", 25]
+        ]
+    },
+    {
+        "id": "9d344672-8ce9-42f3-a627-01f2e5ec6f4e",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sighing Valley; V3. Knifepoint Gully",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17423-hurricane", 450]
+        ]
+    },
+    {
+        "id": "dac7e6dd-9643-4067-91aa-225fa4e2f24b",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sighing Valley; V4. The Lost River",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17153-gnoll-pack-lord", 450],
+            [3, "16904-gnoll", 100]
+        ]
+    },
+    {
+        "id": "0c13b3f4-9eb4-434d-996b-24575afe7f9f",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sighing Valley; V6. The Lost River",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16904-gnoll", 100],
+            [4, "16930-hyena", 10]
+        ]
+    },
+    {
+        "id": "a982dada-c473-444e-be9e-d5befe646099",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sighing Valley; V7. Griffon Roost",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16913-griffon", 450]
+        ]
+    },
+    {
+        "id": "73c613fb-9ae1-41f5-a7c7-5ff8ef4e48c0",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sighing Valley; V8. Aarakocra Camp",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17100-aarakocra", 50]
+        ]
+    },
+    {
+        "id": "d96294c4-258f-4afc-917c-42edc24ace3a",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sighing Valley; V9. Manticore Lair",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16951-manticore", 700]
+        ]
+    },
+    {
+        "id": "247f458c-789d-4821-a0f8-e5293b876f34",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Investigating Rivergard; Peaceful Approach",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16798-bandit", 25],
+            [3, "17445-crushing-wave-reaver", 100]
+        ]
+    },
+    {
+        "id": "2153b165-361d-42e4-83e6-ef9a3ba2904c",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Features",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "63fb90dc-e2f2-4ddb-b48b-7b8c40d904a6",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K1. Front Gate",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "d9741ff2-7d1a-47f3-8011-38768a6d1ed9",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K1. Front Gate",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17035-thug", 100],
+            [4, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "1f83ec28-1b77-422c-aeec-a4ba7474d68e",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K2. Gatehouse; Gatehouse Interior",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "b87346f3-e78a-487c-82d2-5381ed4b051d",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K3. Gatehouse Upper Floor",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17035-thug", 100],
+            [3, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "04aed3ad-05d8-4329-95d5-96e85ca3bf5b",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K4. Castle Yard",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "c8194b07-f378-4e27-87b1-899356a77aac",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K4. Castle Yard",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16891-giant-rat", 25]
+        ]
+    },
+    {
+        "id": "8fedb50d-b3fc-4999-92ba-4936984a6240",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K8. Barracks",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "16798-bandit", 25],
+            [2, "17445-crushing-wave-reaver", 100]
+        ]
+    },
+    {
+        "id": "97e0f526-6ce4-4a7e-a62a-43a61d588119",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K9. Water Tower",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17445-crushing-wave-reaver", 100],
+            [1, "17448-fathomer", 450]
+        ]
+    },
+    {
+        "id": "981bb105-9933-477f-b309-090d0bcf3cf7",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K12. Moored Keelboat",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17450-shoalar-quanderil", 1100],
+            [1, "17035-thug", 100],
+            [2, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "4bc226db-21b6-4b68-8fad-b24fe883585c",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K12. Moored Keelboat",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16799-bandit-captain", 450],
+            [1, "17035-thug", 100],
+            [2, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "8039f8c9-a0e1-4b40-a012-5647003300d8",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K14. North Tower",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16817-bugbear", 200]
+        ]
+    },
+    {
+        "id": "9ee82c98-905c-4091-8a02-4d0d09996b8a",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K15. Chapel",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17444-crushing-wave-priest", 450],
+            [2, "17445-crushing-wave-reaver", 100]
+        ]
+    },
+    {
+        "id": "17265a95-fb37-4766-a1f2-5d741deb716b",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K16. Great Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17054-wereboar", 1100],
+            [1, "17448-fathomer", 450],
+            [2, "17445-crushing-wave-reaver", 100]
+        ]
+    },
+    {
+        "id": "1d10f28f-4068-487b-a1c3-dbabd06dca41",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K17. Servants\u2019 Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "1cd30eba-625c-41ca-9ce7-fb3226d9ec42",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K18. Kitchens",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "c51b3e18-a41f-45de-bac7-6a3e85bee10c",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K19. Old Library",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17448-fathomer", 450]
+        ]
+    },
+    {
+        "id": "d3c161c2-fecb-4084-935c-980fee56584c",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K20. Keep Guardroom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17445-crushing-wave-reaver", 100]
+        ]
+    },
+    {
+        "id": "d0a59222-e1cb-47e5-adbe-869ba29834cd",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K21. Lord\u2019s Chambers",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17054-wereboar", 1100]
+        ]
+    },
+    {
+        "id": "94af3184-4b7f-43a2-8b31-42f43ba90466",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K22. Secret Landing",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16872-ghoul", 200]
+        ]
+    },
+    {
+        "id": "41cc43c9-4b08-4300-9b44-d38c97d3347a",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sacred Stone Monastery; Monastery Locations; M2. Basalt Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17431-sacred-stone-monk", 100]
+        ]
+    },
+    {
+        "id": "30295e63-0a5c-46b9-a46e-854425480426",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sacred Stone Monastery; Monastery Locations; M2. Basalt Hall; Development",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16958-minotaur", 700],
+            [1, "17431-sacred-stone-monk", 100]
+        ]
+    },
+    {
+        "id": "03dfc382-85ee-4dc2-bcb4-7d2472f9f70d",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sacred Stone Monastery; Monastery Locations; M3. South Dormitory",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "17431-sacred-stone-monk", 100]
+        ]
+    },
+    {
+        "id": "05a08e41-7846-4fec-bc42-aa458f131d6f",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sacred Stone Monastery; Monastery Locations; M4. Guest Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17429-black-earth-priest", 700],
+            [2, "17428-black-earth-guard", 450]
+        ]
+    },
+    {
+        "id": "bf513dfd-df3d-4816-9abc-0bc9f7d13ba9",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sacred Stone Monastery; Monastery Locations; M5. West Dormitory",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16850-duergar", 200]
+        ]
+    },
+    {
+        "id": "4f1df5be-5700-494a-b8ab-5b2e82065f50",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sacred Stone Monastery; Monastery Locations; M6. Refectory",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "17431-sacred-stone-monk", 100],
+            [1, "17433-hellenrae", 1800],
+            [1, "17429-black-earth-priest", 700],
+            [2, "17428-black-earth-guard", 450],
+            [1, "17189-orog", 450]
+        ]
+    },
+    {
+        "id": "76ec7ef4-e7b0-40b5-907e-aeb0f19b406e",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sacred Stone Monastery; Monastery Locations; M7. Kitchen",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17431-sacred-stone-monk", 100]
+        ]
+    },
+    {
+        "id": "6a273172-a633-4b14-b842-f4de8c85322b",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sacred Stone Monastery; Monastery Locations; M8. Sandstone Court",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16868-gargoyle", 450]
+        ]
+    },
+    {
+        "id": "24bb9172-f6c5-48f4-a6c4-f795050fed37",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sacred Stone Monastery; Monastery Locations; M9. Shrine of Stone",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17429-black-earth-priest", 700],
+            [2, "17428-black-earth-guard", 450]
+        ]
+    },
+    {
+        "id": "c996cd08-ea8b-4a03-a7bc-084ef32f8e9c",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sacred Stone Monastery; Monastery Locations; M10. Scriptorium",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17431-sacred-stone-monk", 100]
+        ]
+    },
+    {
+        "id": "0f41d726-9328-4588-b716-108fda1b0b71",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sacred Stone Monastery; Monastery Locations; M12. Abbess\u2019s Chambers",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17433-hellenrae", 1800]
+        ]
+    },
+    {
+        "id": "99c1a3ff-273a-4bc4-873f-fa822255fc6f",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sacred Stone Monastery; Monastery Locations; M13. Distilling Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17431-sacred-stone-monk", 100]
+        ]
+    },
+    {
+        "id": "1f4c1c1f-cfe7-4970-bd34-154a8c46dd17",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sacred Stone Monastery; Monastery Locations; M14. Garden of Stone",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16868-gargoyle", 450]
+        ]
+    },
+    {
+        "id": "9c14ce12-3992-402d-920b-f67a07fe897b",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sacred Stone Monastery; Monastery Locations; M15. Dojo",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17433-hellenrae", 1800],
+            [4, "17431-sacred-stone-monk", 100]
+        ]
+    },
+    {
+        "id": "5e5f5273-06e8-4b94-aa6a-5ee20ec30b7e",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sacred Stone Monastery; Monastery Locations; M16. Renwick\u2019s Tower; Roleplaying Renwick",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16943-lich", 33000]
+        ]
+    },
+    {
+        "id": "88db5106-8305-4922-9c39-e66c25d89f3a",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sacred Stone Monastery; Monastery Locations; M18. Mine Guardroom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17189-orog", 450],
+            [1, "16969-ogre", 450]
+        ]
+    },
+    {
+        "id": "4591c5ad-97b5-4075-ba6e-b8c99fb9e8f5",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sacred Stone Monastery; Monastery Locations; M18. Mine Guardroom; Development",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16850-duergar", 200]
+        ]
+    },
+    {
+        "id": "f34de0ce-6e25-4d83-9a15-6d9f06faae9d",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sacred Stone Monastery; Monastery Locations; M19. Slave Pens",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [17, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "bf075d48-5cdf-4119-b9b3-2d681f9782f3",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sacred Stone Monastery; Monastery Locations; M20. The Haunted Crypt",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17077-zombie", 50]
+        ]
+    },
+    {
+        "id": "f1fcc0a2-3dd5-49f5-97d9-cda04f1c5c4a",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Sacred Stone Monastery; Monastery Locations; M21. Hall of Thirsting Stone",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "656065-umber-hulk-modified-variant", 1800]
+        ]
+    },
+    {
+        "id": "13aa7f6b-c5b9-40c2-930f-c44e27d755a2",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Scarlet Moon Hall; Camp Locations; Hc1. Druid Camp",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16848-druid", 450],
+            [2, "16857-elk", 50]
+        ]
+    },
+    {
+        "id": "9041cff5-70b1-4ca3-ad4a-9f16e179b0f0",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Scarlet Moon Hall; Camp Locations; Hc2. Cult Camp",
+        "allies": [
+            [1, "16816-brown-bear", 200]
+        ],
+        "bystanders": [],
+        "enemies": [
+            [2, "17437-eternal-flame-priest", 700]
+        ]
+    },
+    {
+        "id": "57bffee1-1f8f-44ad-b965-ef404fe87d63",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Scarlet Moon Hall; Camp Locations; Hc3. Werewolf Camp",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17057-werewolf", 700]
+        ]
+    },
+    {
+        "id": "dcd9d493-ca2e-4a40-a164-55f430ed3e1e",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Scarlet Moon Hall; Camp Locations; Hc4. Cult Camp",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17437-eternal-flame-priest", 700],
+            [3, "17436-eternal-flame-guardian", 450]
+        ]
+    },
+    {
+        "id": "cbfeaa34-3733-44b7-9f3f-185fe24fce91",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Scarlet Moon Hall; Camp Locations; Hc5. Fiddler\u2019s Camp",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16848-druid", 450],
+            [2, "17020-sprite", 50]
+        ]
+    },
+    {
+        "id": "a85a4416-16d5-4eab-9342-8c4ad2df578d",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Scarlet Moon Hall; Camp Locations; Hc6. Druid Camp",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16848-druid", 450],
+            [1, "17444-crushing-wave-priest", 450]
+        ]
+    },
+    {
+        "id": "01e928e5-b9f8-45ad-b335-3bf5b3472abc",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Scarlet Moon Hall; Camp Locations; Hc7. Bugbear Camp",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16817-bugbear", 200],
+            [2, "17063-worg", 100]
+        ]
+    },
+    {
+        "id": "c9a7f46d-b793-442b-811b-5d3933473e8b",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Scarlet Moon Hall; Scarlet Moon Hall Locations; H1. Courtyard",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17437-eternal-flame-priest", 700]
+        ]
+    },
+    {
+        "id": "f3ca8a8d-f84b-4c65-a8ff-d0f9f76b5074",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Scarlet Moon Hall; Scarlet Moon Hall Locations; H2. Wicker Giant",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16861-fire-elemental", 1800]
+        ]
+    },
+    {
+        "id": "749d276c-7752-4648-a3fc-7299cb6d6415",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Scarlet Moon Hall; Scarlet Moon Hall Locations; H3. Kennel",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16921-hell-hound", 700],
+            [1, "17436-eternal-flame-guardian", 450]
+        ]
+    },
+    {
+        "id": "3f103df3-dd22-4e86-a732-a46c41de5bc1",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Scarlet Moon Hall; Scarlet Moon Hall Locations; H4. Scaffolding",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17436-eternal-flame-guardian", 450]
+        ]
+    },
+    {
+        "id": "9a0e7d06-74e1-4aa9-9439-8062888078c3",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Scarlet Moon Hall; Scarlet Moon Hall Locations; H5. Upper Entry Chamber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17436-eternal-flame-guardian", 450],
+            [1, "16794-azer", 450]
+        ]
+    },
+    {
+        "id": "11bea498-616d-49a8-b9bf-e51447b028e8",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Scarlet Moon Hall; Scarlet Moon Hall Locations; H6. The Downward Path",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16949-magmin", 100]
+        ]
+    },
+    {
+        "id": "eb52977d-04c2-4251-96f2-5ed45d6226c1",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Scarlet Moon Hall; Scarlet Moon Hall Locations; H7. Cultist Barracks",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17437-eternal-flame-priest", 700],
+            [2, "17436-eternal-flame-guardian", 450],
+            [1, "17442-elizar-dryflagon", 1800]
+        ]
+    },
+    {
+        "id": "6efaddff-ca2a-4726-84a8-43bfd07ae07d",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Scarlet Moon Hall; Scarlet Moon Hall Locations; H8. Elizar\u2019s Chamber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17442-elizar-dryflagon", 1800]
+        ]
+    },
+    {
+        "id": "38be32a5-b0f3-4403-b124-6f86bae8bdd4",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Scarlet Moon Hall; Scarlet Moon Hall Locations; H9. Bats in the Attic",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16875-giant-bat", 50]
+        ]
+    },
+    {
+        "id": "ee553f46-126b-4090-8107-dad33f5a1a0c",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Rooting Out Evil; The Spy\u2019s Letter",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16799-bandit-captain", 450],
+            [5, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "9509ae73-65c3-4bf3-8ec4-1ea1fe4c7eb5",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Cult Retaliation; Reckless Hate",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17422-howling-hatred-priest", 450],
+            [1, "17423-hurricane", 450],
+            [8, "17421-howling-hatred-initiate", 25]
+        ]
+    },
+    {
+        "id": "debe002d-e972-41cb-a550-e25809c58a0e",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Cult Retaliation; Reckless Hate",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17429-black-earth-priest", 700],
+            [2, "17428-black-earth-guard", 450],
+            [4, "17431-sacred-stone-monk", 100]
+        ]
+    },
+    {
+        "id": "61b97e08-b302-496b-a27b-2ee1ca4dc1ff",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Cult Retaliation; Reckless Hate",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17437-eternal-flame-priest", 700],
+            [3, "17436-eternal-flame-guardian", 450],
+            [1, "17438-flamewrath", 2300]
+        ]
+    },
+    {
+        "id": "59ed7bf5-815c-47ff-b855-e3608bfd4ef7",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Cult Retaliation; Reckless Hate",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17444-crushing-wave-priest", 450],
+            [6, "17445-crushing-wave-reaver", 100]
+        ]
+    },
+    {
+        "id": "17e5840c-6487-452c-86fc-9eaf9561b443",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Cult Retaliation; Race to Destruction",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17420-feathergale-knight", 200],
+            [2, "16924-hippogriff", 200],
+            [1, "17424-skyweaver", 700],
+            [1, "17423-hurricane", 450],
+            [5, "16817-bugbear", 200]
+        ]
+    },
+    {
+        "id": "c94c957d-2fd1-4048-b894-75c58e26aeaa",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Cult Retaliation; Race to Destruction",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17446-dark-tide-knight", 700],
+            [1, "16880-giant-crocodile", 1800],
+            [1, "17448-fathomer", 450],
+            [1, "17444-crushing-wave-priest", 450],
+            [6, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "5b7a0fca-1a85-4848-841c-6edbc3e774f3",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Cult Retaliation; Race to Destruction",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17430-burrowshark", 1100],
+            [1, "16818-bulette", 1800],
+            [2, "17428-black-earth-guard", 450]
+        ]
+    },
+    {
+        "id": "d2b06639-baef-4880-8838-0f3eb4b679dc",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Cult Retaliation; Race to Destruction",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17436-eternal-flame-guardian", 450],
+            [2, "16958-minotaur", 700],
+            [4, "16921-hell-hound", 700]
+        ]
+    },
+    {
+        "id": "87ebe4a1-c1f9-4e1d-ad4b-a89d22081495",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A2. Gatehouse",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17165-kenku", 50]
+        ]
+    },
+    {
+        "id": "c0aec432-73ad-44be-a898-92d5c9c58c4f",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A3. Machine Chamber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17422-howling-hatred-priest", 450],
+            [5, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "ecf52234-059d-4f5a-bb5b-0a720e640b90",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A4. Plaza of the Muses",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17426-windharrow", 700],
+            [5, "17421-howling-hatred-initiate", 25]
+        ]
+    },
+    {
+        "id": "184288f6-ecae-45ff-bd6d-60dbaf9e6a3c",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A5. Tyar-Besil Shops",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16826-cloaker", 3900]
+        ]
+    },
+    {
+        "id": "8a06b85b-a9ac-4dea-a8f4-ea71078e67e7",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A6. Plaza of Vergadain",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "17165-kenku", 50]
+        ]
+    },
+    {
+        "id": "bc046ca2-8b1f-41b2-9a66-d8131764d06f",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A7. Plaza of Moradin",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17421-howling-hatred-initiate", 25],
+            [1, "17423-hurricane", 450],
+            [1, "17424-skyweaver", 700],
+            [2, "17165-kenku", 50]
+        ]
+    },
+    {
+        "id": "84074a32-b362-4aef-9c2f-18763baac829",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A8. Ruined Villa",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17205-umber-hulk", 1800]
+        ]
+    },
+    {
+        "id": "73e92c10-0f75-45cb-86eb-aedb207c7629",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A9. Tombs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "16872-ghoul", 200]
+        ]
+    },
+    {
+        "id": "5b7e5871-e4c0-4cc2-8cb7-6fb29ebb4924",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A10. Palace Plaza",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17424-skyweaver", 700],
+            [1, "17065-wyvern", 2300]
+        ]
+    },
+    {
+        "id": "0de558b5-ddab-4b08-b26e-9f5e8f962b48",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A11. Moat",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17025-stone-golem", 5900]
+        ]
+    },
+    {
+        "id": "eaaebac8-7d5a-47c3-b284-3642bac3b6de",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A12. Moradin\u2019s Shrine",
+        "allies": [],
+        "bystanders": [
+            [5, "16829-commoner", 10]
+        ],
+        "enemies": [
+            [3, "17165-kenku", 50]
+        ]
+    },
+    {
+        "id": "e1728536-0b7b-4a62-971b-c6287459bde3",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A13. Vergadain\u2019s Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17421-howling-hatred-initiate", 25],
+            [1, "17423-hurricane", 450],
+            [1, "17424-skyweaver", 700]
+        ]
+    },
+    {
+        "id": "ca0401fc-0501-48d1-8313-ec0a35281907",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A15. Plaza of Fallen Spires",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16842-djinni", 7200]
+        ]
+    },
+    {
+        "id": "22a401f3-ed59-4189-befb-bd0cd3ef09d4",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A16. Obelisk Row",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17421-howling-hatred-initiate", 25]
+        ]
+    },
+    {
+        "id": "7b8e8b35-b2c3-4e5f-90a1-ca2e6544e63f",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A18. Grand Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17423-hurricane", 450],
+            [1, "17424-skyweaver", 700],
+            [5, "17421-howling-hatred-initiate", 25]
+        ]
+    },
+    {
+        "id": "c5825c23-2583-4109-a0d5-51ef48f482de",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A19. Temple of Elemental Air",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17427-aerisi-kalinoth", 2900],
+            [1, "16934-invisible-stalker", 2300],
+            [10, "17421-howling-hatred-initiate", 25]
+        ]
+    },
+    {
+        "id": "870c5f47-fbd1-4aa4-bebe-6012206aca26",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A19. Temple of Elemental Air",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17047-vrock", 2300]
+        ]
+    },
+    {
+        "id": "fd7ff735-6c93-4783-92eb-8505949e3849",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C1. Lake Landing",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17445-crushing-wave-reaver", 100],
+            [1, "17448-fathomer", 450],
+            [1, "17446-dark-tide-knight", 700],
+            [1, "16928-hunter-shark", 450]
+        ]
+    },
+    {
+        "id": "a9d40017-5dad-4e9d-adaa-56d8d28c162b",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C3. Whisper Lake",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16888-giant-octopus", 200]
+        ]
+    },
+    {
+        "id": "812314f3-5377-44e2-9d27-271f579653fd",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C4. Drowning Chambers",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "16872-ghoul", 200]
+        ]
+    },
+    {
+        "id": "0f65b378-4ebb-472b-ba68-52700916c651",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C7. Reaver Barracks",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17445-crushing-wave-reaver", 100],
+            [1, "17444-crushing-wave-priest", 450]
+        ]
+    },
+    {
+        "id": "fe032f46-f155-46f5-819c-9964797fb017",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C9. North Guard Post",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17449-one-eyed-shiver", 700],
+            [1, "17446-dark-tide-knight", 700],
+            [3, "17445-crushing-wave-reaver", 100]
+        ]
+    },
+    {
+        "id": "a058ea51-d74b-4e48-abf5-1601b86b550f",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C9. North Guard Post; Development",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17445-crushing-wave-reaver", 100]
+        ]
+    },
+    {
+        "id": "083532a4-d7fd-46fa-9228-c4d89c221447",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C10. Gargoyle Fountain",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17092-nothic", 450]
+        ]
+    },
+    {
+        "id": "ff88f049-146f-4d33-abcf-ceb812689a58",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C12. Troll Hole",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17040-troll", 1800]
+        ]
+    },
+    {
+        "id": "4cce79e8-865c-4b33-96b5-e55f7a92677a",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C13. Blackmaw Den",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "16946-lizardfolk", 100]
+        ]
+    },
+    {
+        "id": "628ed6a7-1e52-4013-a9ff-c2f95e9fd6fe",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C14. Hag Lair",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17008-sea-hag", 450],
+            [2, "16969-ogre", 450]
+        ]
+    },
+    {
+        "id": "4e560bc6-cc1f-468f-949f-9998def919d8",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C15. Dragon Bridge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17040-troll", 1800]
+        ]
+    },
+    {
+        "id": "3aea0d91-9b35-4600-9a6c-482008b3944b",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C16. Thunderhammer Brewery",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17208-water-weird", 700]
+        ]
+    },
+    {
+        "id": "a8060c96-25ec-4af6-a9ae-1132ec90c36c",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C17. Morbeoth\u2019s Workshop",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17449-one-eyed-shiver", 700],
+            [6, "17445-crushing-wave-reaver", 100]
+        ]
+    },
+    {
+        "id": "f33cbdca-442b-445a-9b3c-f4480c1befb4",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C18. West Guard Post",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16817-bugbear", 200]
+        ]
+    },
+    {
+        "id": "14afd8fa-8a8d-42f9-a587-bba98116f119",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C19. Cavern Lakeshore",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16888-giant-octopus", 200]
+        ]
+    },
+    {
+        "id": "ce1c4520-cb00-4a8e-bd18-2b4d26536a49",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C21. Starry Lake",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "748140-bronzefume", 10000]
+        ]
+    },
+    {
+        "id": "a9f735c9-6a58-4641-9d0e-803a417e258b",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C22. Market Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17448-fathomer", 450],
+            [3, "16835-cultist", 25]
+        ]
+    },
+    {
+        "id": "3913069d-b1ad-4d5d-ac5c-4a60ecf2540e",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C23. Galley",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17445-crushing-wave-reaver", 100],
+            [4, "16835-cultist", 25]
+        ]
+    },
+    {
+        "id": "b291e6bd-4a8b-4549-bb6a-9c47bc6a8599",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C25. Temple of Elemental Water",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16946-lizardfolk", 100],
+            [1, "16922-hezrou", 3900]
+        ]
+    },
+    {
+        "id": "dcd75b2b-be00-4bc1-bd4a-52acb6425cf9",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C25. Temple of Elemental Water",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16946-lizardfolk", 100],
+            [1, "17451-gar-shatterkeel", 5000]
+        ]
+    },
+    {
+        "id": "a9c7d032-62ab-4e61-9abc-cb51b5b75376",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C27. Priests\u2019 Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17444-crushing-wave-priest", 450],
+            [4, "16835-cultist", 25]
+        ]
+    },
+    {
+        "id": "ce76ceea-e9d7-46aa-a106-e32942f5f40d",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C28. Caravan Stairs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17124-mezzoloth", 1800]
+        ]
+    },
+    {
+        "id": "0fcc3031-8298-4f95-b501-3f4cde9402bc",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B1. Gargoyle Chasm",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16868-gargoyle", 450]
+        ]
+    },
+    {
+        "id": "d03ce40d-5a2d-4a7d-b0ed-1698717d2bfc",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B4. Hall of the Gate",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16925-hobgoblin", 100],
+            [1, "17430-burrowshark", 1100],
+            [1, "16818-bulette", 1800]
+        ]
+    },
+    {
+        "id": "c53aac4b-3a8b-443c-a8b8-ea945172ff79",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B5. East Guardroom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16850-duergar", 200]
+        ]
+    },
+    {
+        "id": "80bf36d8-4388-4a47-99cb-66e461a7579a",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B6. Yarsha\u2019s Burrow",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17432-stonemelder", 1100],
+            [2, "17428-black-earth-guard", 450]
+        ]
+    },
+    {
+        "id": "51738cb5-3a3c-47ed-936f-8d87d1004fa9",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B7. Gatewarden\u2019s Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17430-burrowshark", 1100],
+            [1, "17428-black-earth-guard", 450],
+            [4, "16835-cultist", 25]
+        ]
+    },
+    {
+        "id": "98c410ea-e9a2-479a-a422-1b0e6d75a1de",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B8. Mud Sorcerer\u2019s Lab",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17434-miraj-vizann", 2300],
+            [1, "748147-ancient-construct", 1100]
+        ]
+    },
+    {
+        "id": "82755929-800f-4092-9265-883cb3494a5a",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B9. Broken Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16818-bulette", 1800]
+        ]
+    },
+    {
+        "id": "b7fb607e-8f0f-407c-b326-de0257fe8116",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B10. Long Chasm",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17028-swarm-of-bats", 50]
+        ]
+    },
+    {
+        "id": "7744d5c8-5e62-473b-8e2e-dae4474d4855",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B12. Broog-Norb\u2019s Lair",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16860-ettin", 1100]
+        ]
+    },
+    {
+        "id": "68553086-d0d2-470e-a33c-588da64b2c29",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B14. Torture Chamber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17432-stonemelder", 1100],
+            [3, "16835-cultist", 25]
+        ]
+    },
+    {
+        "id": "15b8fbaf-0451-4269-8df2-81350ec50ad2",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B15. Stone Forge",
+        "allies": [],
+        "bystanders": [
+            [1, "17142-dao", 7200]
+        ],
+        "enemies": [
+            [2, "16850-duergar", 200]
+        ]
+    },
+    {
+        "id": "00c49d0c-4cdc-429a-ac2c-f7e879e11024",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B16. Armory",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16969-ogre", 450]
+        ]
+    },
+    {
+        "id": "1471726f-ec82-433f-b564-8891fa65b41a",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B16. Armory; Development",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17458-earth-elemental-myrmidon", 2900]
+        ]
+    },
+    {
+        "id": "04086be8-d497-4fba-bd2f-ad986466bdc7",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B18. Barracks",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17428-black-earth-guard", 450],
+            [1, "17429-black-earth-priest", 700]
+        ]
+    },
+    {
+        "id": "0ddba904-d083-4298-9231-5212296532a1",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B20. Mess Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17428-black-earth-guard", 450],
+            [3, "16835-cultist", 25]
+        ]
+    },
+    {
+        "id": "9e5247ab-1b64-4c0c-90a6-b5b00a3bbac4",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B21. Screaming Statues",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17131-shadow-demon", 1100]
+        ]
+    },
+    {
+        "id": "7b9a7174-c67b-472f-b12d-ef3babe3aa7d",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B21. Screaming Statues",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17435-marlos-urnrayle", 3900],
+            [1, "17131-shadow-demon", 1100]
+        ]
+    },
+    {
+        "id": "d62ea202-324c-450f-aeda-746d5f04118b",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B23. Shrine of Bleeding Stone",
+        "allies": [],
+        "bystanders": [
+            [1, "17211-deep-gnome-svirfneblin", 100]
+        ],
+        "enemies": [
+            [1, "17429-black-earth-priest", 700],
+            [4, "16835-cultist", 25],
+            [1, "16808-black-pudding", 1100]
+        ]
+    },
+    {
+        "id": "1133028c-9a16-4842-bf7b-eb792d90f074",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B24. Sentinel\u2019s Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "748147-ancient-construct", 1100]
+        ]
+    },
+    {
+        "id": "96689a0d-2f98-4f3f-b712-faae33491541",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Eternal Flame; Areas of the Fire Temple; E1. Entrance",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16925-hobgoblin", 100],
+            [1, "17160-hobgoblin-captain", 700]
+        ]
+    },
+    {
+        "id": "49bff44c-dd26-403c-a5ff-709dd5fef48e",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Eternal Flame; Areas of the Fire Temple; E2. Columned Chamber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17439-razerblast", 1800]
+        ]
+    },
+    {
+        "id": "dad0b386-788e-42f5-8639-eae029d58df7",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Eternal Flame; Areas of the Fire Temple; E5. Crumbling Barricades",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16969-ogre", 450],
+            [4, "17185-half-ogre", 200]
+        ]
+    },
+    {
+        "id": "8ca23f50-cebd-4f32-af37-53b6be2e089e",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Eternal Flame; Areas of the Fire Temple; E6. Bastian\u2019s Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17440-bastian-thermandar", 3900]
+        ]
+    },
+    {
+        "id": "d99c8ce5-2e13-4d1b-9643-b5170c2109e1",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Eternal Flame; Areas of the Fire Temple; E7. Barracks",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17436-eternal-flame-guardian", 450]
+        ]
+    },
+    {
+        "id": "921c1927-9695-44dd-acc1-141720ba000f",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Eternal Flame; Areas of the Fire Temple; E8. Priests\u2019 Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17437-eternal-flame-priest", 700]
+        ]
+    },
+    {
+        "id": "747cc2ae-6575-438b-87d7-f8f837ffce21",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Eternal Flame; Areas of the Fire Temple; E10. Hobgoblin Lair",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16925-hobgoblin", 100],
+            [1, "17160-hobgoblin-captain", 700]
+        ]
+    },
+    {
+        "id": "57b82c05-644b-4168-8462-19ee821cbdd5",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Eternal Flame; Areas of the Fire Temple; E11. Cellblock",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17436-eternal-flame-guardian", 450],
+            [2, "17438-flamewrath", 2300]
+        ]
+    },
+    {
+        "id": "6543290c-8b3e-4ace-8c37-a1a7691308f1",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Eternal Flame; Areas of the Fire Temple; E11. Cellblock; Prison Cells",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17004-salamander", 1800]
+        ]
+    },
+    {
+        "id": "2e95e921-0890-4fb1-a397-49dc83798e16",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Eternal Flame; Areas of the Fire Temple; E11. Cellblock; Prison Cells",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16794-azer", 450]
+        ]
+    },
+    {
+        "id": "0d287176-66e3-4183-bfcc-e7de0ffd310f",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Eternal Flame; Areas of the Fire Temple; E13. Foundry",
+        "allies": [
+            [1, "17004-salamander", 1800],
+            [3, "16794-azer", 450]
+        ],
+        "bystanders": [],
+        "enemies": [
+            [1, "16854-efreeti", 7200],
+            [1, "17439-razerblast", 1800],
+            [2, "17436-eternal-flame-guardian", 450]
+        ]
+    },
+    {
+        "id": "1f86a773-d80d-4252-a5f7-3eaee44a83e9",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Eternal Flame; Areas of the Fire Temple; E19. Kennel",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16921-hell-hound", 700]
+        ]
+    },
+    {
+        "id": "d5dc82ec-a78c-4d20-b383-8bed8cccaad9",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Eternal Flame; Areas of the Fire Temple; E22. Display Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17436-eternal-flame-guardian", 450]
+        ]
+    },
+    {
+        "id": "21d8ec72-7a14-40bf-8ac3-afb846b4a9e1",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Eternal Flame; Areas of the Fire Temple; E23. Barracks",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17436-eternal-flame-guardian", 450]
+        ]
+    },
+    {
+        "id": "4af14f71-9022-415d-919c-ee378aa307b4",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Eternal Flame; Areas of the Fire Temple; E24. Ignatia\u2019s Abode",
+        "allies": [],
+        "bystanders": [
+            [1, "17445-crushing-wave-reaver", 100]
+        ],
+        "enemies": [
+            [1, "17438-flamewrath", 2300]
+        ]
+    },
+    {
+        "id": "f27c4658-3264-4126-a1df-6c6cd6062927",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Eternal Flame; Areas of the Fire Temple; E25. Supplicants\u2019 Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "16835-cultist", 25],
+            [2, "16836-cult-fanatic", 450]
+        ]
+    },
+    {
+        "id": "37518f1d-ce1b-400b-b4e9-5492980ff8c4",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Eternal Flame; Areas of the Fire Temple; E26. Fire Temple",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17443-vanifer", 5000],
+            [2, "16861-fire-elemental", 1800]
+        ]
+    },
+    {
+        "id": "3fdbe4ff-4745-49b0-9cb0-99d6b99ede59",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Eternal Flame; Areas of the Fire Temple; E27. Barricades",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16925-hobgoblin", 100]
+        ]
+    },
+    {
+        "id": "cc7ede79-18a6-44f2-9fee-0676d92a318d",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Eternal Flame; Areas of the Fire Temple; E28. Barracks",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16925-hobgoblin", 100],
+            [1, "17160-hobgoblin-captain", 700]
+        ]
+    },
+    {
+        "id": "576724f9-3aed-4e9a-b30c-2ca6f435611b",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Eternal Flame; Areas of the Fire Temple; E29. Lyzzie\u2019s Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16949-magmin", 100],
+            [1, "16947-mage", 2300]
+        ]
+    },
+    {
+        "id": "38d3ab49-fb80-4063-92fe-c18767499bd1",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Eternal Flame; Areas of the Fire Temple; E30. Chimera Lair",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16823-chimera", 2300]
+        ]
+    },
+    {
+        "id": "7f6fa654-02a5-49cd-a147-58509aa86a6b",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Wrath of the Elements; Burning Hills",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16861-fire-elemental", 1800],
+            [5, "17174-smoke-mephit", 50]
+        ]
+    },
+    {
+        "id": "47287722-3ebd-4f0f-9845-f7e227897962",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Wrath of the Elements; Tortured Earth",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "748152-young-purple-worm", 10000]
+        ]
+    },
+    {
+        "id": "dac10087-fa79-4e70-9c49-266b39598aed",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Wrath of the Elements; Counsel of Despair",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17007-scout", 100]
+        ]
+    },
+    {
+        "id": "8a843cb8-3903-4faf-9b73-e0b49b818f6a",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Wrath of the Elements; Counsel of Despair; Arrival in Westbridge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "01b7b2f3-4e05-4776-aae5-91e8c7c9bef4",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Wrath of the Elements; Counsel of Despair; Arrival in Westbridge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "4dc2f9cc-af7f-4d6f-aa32-150e2acc15b6",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Wrath of the Elements; Counsel of Despair; New Converts",
+        "allies": [],
+        "bystanders": [
+            [40, "16829-commoner", 10]
+        ],
+        "enemies": [
+            [3, "16835-cultist", 25]
+        ]
+    },
+    {
+        "id": "8892bd95-9189-4b1b-aef5-95baa965d3b9",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Wrath of the Elements; Counsel of Despair; The Harvest Inn",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17429-black-earth-priest", 700],
+            [2, "17428-black-earth-guard", 450],
+            [1, "16923-hill-giant", 1800],
+            [6, "16925-hobgoblin", 100]
+        ]
+    },
+    {
+        "id": "a5be6d09-1ec3-4740-914d-92dceadc1bc9",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Wrath of the Elements; Counsel of Despair; The Harvest Inn",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "ae2df2a4-f64c-46e4-ad2b-f63a6413474b",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Wrath of the Elements; Haayon the Punisher; The Punished",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16835-cultist", 25]
+        ]
+    },
+    {
+        "id": "cc5c21e8-b480-4c4e-b0b2-cba31973b8b0",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Wrath of the Elements; Haayon the Punisher; Haayon\u2019s Camp",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17445-crushing-wave-reaver", 100],
+            [1, "17422-howling-hatred-priest", 450]
+        ]
+    },
+    {
+        "id": "1865ae20-b231-4869-871a-c8eb253a9fe2",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Wrath of the Elements; Haayon the Punisher; Haayon\u2019s Camp",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16827-cloud-giant", 5000],
+            [2, "17420-feathergale-knight", 200],
+            [6, "16835-cultist", 25],
+            [2, "16924-hippogriff", 200]
+        ]
+    },
+    {
+        "id": "da225d7d-596f-4713-ad13-c3e17249193a",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Fane of the Eye; Fane Locations; F3. Wind Prison",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16865-flying-sword", 50]
+        ]
+    },
+    {
+        "id": "f7426d6a-c1ae-4609-9b53-aa3cd392052e",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Fane of the Eye; Fane Locations; F4. Harpy Nest",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16919-harpy", 200]
+        ]
+    },
+    {
+        "id": "dd80fbae-d682-4d47-86a5-ccb6b1b724c9",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Fane of the Eye; Fane Locations; F5. Rust Monster Pit",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17001-rust-monster", 100]
+        ]
+    },
+    {
+        "id": "80652eaa-474a-4db2-9036-f83749e6d4e4",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Fane of the Eye; Fane Locations; F6. Swift Stream",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17208-water-weird", 700]
+        ]
+    },
+    {
+        "id": "18a8efdb-07a1-435f-ae55-4b9af563ef83",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Fane of the Eye; Fane Locations; F7. Blackmaw Throne",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17172-lizard-king-queen", 1100],
+            [1, "17171-lizardfolk-shaman", 450],
+            [8, "16946-lizardfolk", 100]
+        ]
+    },
+    {
+        "id": "f6105d28-ec22-46f7-8d1d-7e8261d99df5",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Fane of the Eye; Fane Locations; F9. Fungal Swamp",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17046-violet-fungus", 50],
+            [1, "17157-grell", 700]
+        ]
+    },
+    {
+        "id": "23cd167d-1cd6-403b-a5c3-febe68fa49d1",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Fane of the Eye; Fane Locations; F12. Abandoned Mine",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17017-specter", 200]
+        ]
+    },
+    {
+        "id": "fe3f8051-86c4-4d05-b7b1-1bdc639edb1a",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Fane of the Eye; Fane Locations; F13. Hall of Black Crystal",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16923-hill-giant", 1800]
+        ]
+    },
+    {
+        "id": "898226e5-5aaa-4bba-af48-a8fbc6e2e426",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Fane of the Eye; Fane Locations; F14. Zegdar\u2019s Lair",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "301254-zegdar", 700],
+            [1, "17092-nothic", 450]
+        ]
+    },
+    {
+        "id": "4f192dd9-059f-4a28-8720-64e8884764df",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Fane of the Eye; Fane Locations; F16. Emberhorn Den",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16958-minotaur", 700]
+        ]
+    },
+    {
+        "id": "27b3234b-04a1-4d1e-b451-23ba5d790428",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Fane of the Eye; Fane Locations; F17. Ancient Conjury",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16958-minotaur", 700]
+        ]
+    },
+    {
+        "id": "1d5931ee-29cb-4cf8-9bdf-cb32a970f058",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Fane of the Eye; Fane Locations; F20. Hall of Battle",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17457-air-elemental-myrmidon", 2900]
+        ]
+    },
+    {
+        "id": "f14947f4-19ce-42ac-b404-2a732f917055",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Fane of the Eye; Fane Locations; F21. Temple of the Elder Elemental Eye; Cult Forces",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17427-aerisi-kalinoth", 2900],
+            [1, "17426-windharrow", 700],
+            [2, "17423-hurricane", 450],
+            [3, "17421-howling-hatred-initiate", 25]
+        ]
+    },
+    {
+        "id": "bfa3c73b-772d-434f-872e-a91c15a4a3e2",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Fane of the Eye; Fane Locations; F21. Temple of the Elder Elemental Eye; Cult Forces",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17451-gar-shatterkeel", 5000],
+            [1, "16880-giant-crocodile", 1800],
+            [4, "17445-crushing-wave-reaver", 100]
+        ]
+    },
+    {
+        "id": "69c4fb41-5e94-403f-8f03-231682f402f9",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Fane of the Eye; Fane Locations; F21. Temple of the Elder Elemental Eye; Cult Forces",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17435-marlos-urnrayle", 3900],
+            [2, "16868-gargoyle", 450],
+            [2, "17431-sacred-stone-monk", 100]
+        ]
+    },
+    {
+        "id": "ea166f60-520e-4bcd-bb6b-7345ac4c00e5",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Fane of the Eye; Fane Locations; F21. Temple of the Elder Elemental Eye; Cult Forces",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17443-vanifer", 5000],
+            [1, "17091-flameskull", 1100],
+            [2, "17439-razerblast", 1800]
+        ]
+    },
+    {
+        "id": "a3feb1b6-d9f1-440b-a178-aa9cda962e0f",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; Fane of the Eye; Fane Locations; F21. Temple of the Elder Elemental Eye; Cult Forces",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "b8ab4335-9aa1-4a48-b115-811ecf4c2d77",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Howling Caves; Howling Caves Locations; N3. Oubliette",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16774-air-elemental", 1800]
+        ]
+    },
+    {
+        "id": "143a0787-f693-4e92-9d5c-df6534a1f4f9",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Howling Caves; Howling Caves Locations; N5. Svirfneblin Settlement",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17017-specter", 200]
+        ]
+    },
+    {
+        "id": "b50a562b-41bd-4396-91cd-6898de0c5da8",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Howling Caves; Howling Caves Locations; N7. The Floating Ones",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17125-nycaloth", 5000]
+        ]
+    },
+    {
+        "id": "e9359116-13e7-4a72-a4ab-6119a72a0b12",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Howling Caves; Howling Caves Locations; N7. The Floating Ones",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17421-howling-hatred-initiate", 25]
+        ]
+    },
+    {
+        "id": "e37a6588-de8b-4785-b34d-304722ff3b27",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Howling Caves; Howling Caves Locations; N7. The Floating Ones",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17100-aarakocra", 50]
+        ]
+    },
+    {
+        "id": "855a41c4-846d-4e82-9264-89f5d5b7e34f",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Howling Caves; Howling Caves Locations; N7. The Floating Ones",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17135-drow-mage", 2900]
+        ]
+    },
+    {
+        "id": "b53a660c-1270-4853-a3b5-d9ea82d5a6fa",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Howling Caves; Howling Caves Locations; N15. Windhuggers",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17422-howling-hatred-priest", 450],
+            [8, "17421-howling-hatred-initiate", 25]
+        ]
+    },
+    {
+        "id": "24fb7524-21c8-462c-8072-c3df2d60703c",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Howling Caves; Howling Caves Locations; N16. Tortured Cavern",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16808-black-pudding", 1100]
+        ]
+    },
+    {
+        "id": "5041f55b-956a-45ae-8797-c1a2ae7c2c3c",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Howling Caves; Howling Caves Locations; N17. Sacrifices",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17110-barlgura", 1800]
+        ]
+    },
+    {
+        "id": "a83875bb-90f1-4a0f-b34a-a42bd01e07ed",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Howling Caves; Howling Caves Locations; N17. Sacrifices",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10],
+            [1, "16966-noble", 25]
+        ]
+    },
+    {
+        "id": "fbf69469-eb08-4a44-bff7-898cdccd75b0",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Howling Caves; Howling Caves Locations; N18. Royal Guard",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17422-howling-hatred-priest", 450]
+        ]
+    },
+    {
+        "id": "cff9e111-75f0-4680-bd1c-6856e16e58f6",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Howling Caves; Howling Caves Locations; N19. Air Portal",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17457-air-elemental-myrmidon", 2900]
+        ]
+    },
+    {
+        "id": "b4d83daf-d08a-4c73-aceb-61e0f9522539",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Howling Caves; Howling Caves Locations; N19. Air Portal; Encounter with Aerisi",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17427-aerisi-kalinoth", 2900],
+            [1, "17457-air-elemental-myrmidon", 2900]
+        ]
+    },
+    {
+        "id": "8c870814-8538-480c-b8d7-0f8cae115b3e",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Howling Caves; Howling Caves Locations; N19. Air Portal; Encounter with Yan-C-Bin",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17427-aerisi-kalinoth", 2900],
+            [1, "17464-yan-c-bin", 20000]
+        ]
+    },
+    {
+        "id": "38a24944-02c9-4249-b3bb-eeb1f3cc6836",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Locations; P3. Nets",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "16879-giant-crab", 25]
+        ]
+    },
+    {
+        "id": "dc6ab6a4-43e0-4cf7-b61b-e4d05359cc8a",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Locations; P4. Temple Entrance",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17166-kuo-toa", 50],
+            [1, "17170-kuo-toa-monitor", 700]
+        ]
+    },
+    {
+        "id": "4d40f5e2-6769-40be-b2a1-5db047edbe74",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Locations; P5. Shrine of Yngukulub",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17167-kuo-toa-archpriest", 2300],
+            [2, "17166-kuo-toa", 50]
+        ]
+    },
+    {
+        "id": "9391b343-daa6-4b89-bd67-aa58ac242cc7",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Locations; P6. Yngukulub the Devourer",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16762-aboleth", 5900]
+        ]
+    },
+    {
+        "id": "869bffa0-1681-4616-9220-d7b347dc258e",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Locations; P7. Quipper Pit",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17166-kuo-toa", 50],
+            [1, "17169-kuo-toa-whip", 200],
+            [1, "17031-swarm-of-quippers", 200]
+        ]
+    },
+    {
+        "id": "48c9d072-c57e-43a5-aaee-8c399a601937",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Locations; P8. Sloping Cave",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16999-roper", 1800],
+            [4, "17191-piercer", 100]
+        ]
+    },
+    {
+        "id": "0896598a-72ad-4e0d-81ba-a19b73eceb05",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Locations; P9. Crushing Wave Outpost",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17445-crushing-wave-reaver", 100],
+            [2, "16824-chuul", 1100]
+        ]
+    },
+    {
+        "id": "33ccc956-3826-4be7-9a8a-5616b028ebd6",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Locations; P10. Trial by Water",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "17445-crushing-wave-reaver", 100]
+        ]
+    },
+    {
+        "id": "fb99aa7d-cf08-4996-aa16-9afbf98a828d",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Locations; P11. Hunter\u2019s Den",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16888-giant-octopus", 200]
+        ]
+    },
+    {
+        "id": "ef3c4dfb-7f01-4ec9-9a98-053e73ea9a5f",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Locations; P13. The Hungry",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "16872-ghoul", 200],
+            [1, "16870-ghast", 450]
+        ]
+    },
+    {
+        "id": "ce340fa6-82c1-45f7-ae82-ec0c2b5858ac",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Locations; P14. Eye of Anguish",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17449-one-eyed-shiver", 700],
+            [7, "16932-ice-mephit", 100]
+        ]
+    },
+    {
+        "id": "86f844c6-b22a-4f58-800f-c5803cc943e3",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Locations; P16. Hut of the Dark Tide",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17208-water-weird", 700],
+            [2, "17446-dark-tide-knight", 700]
+        ]
+    },
+    {
+        "id": "e2be4521-d1ae-41d3-898e-68e567db66f3",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Locations; P17. Elemental Guardian",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17460-water-elemental-myrmidon", 2900]
+        ]
+    },
+    {
+        "id": "ca990275-ed68-4d5f-b4bf-1906c31904c8",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Locations; P18. Wrecks",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16929-hydra", 3900]
+        ]
+    },
+    {
+        "id": "c267fbea-7030-47b2-a925-f0e1b980abf1",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Locations; P20. Water Portal; Encounter with the Aboleth",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16762-aboleth", 5900],
+            [2, "16824-chuul", 1100]
+        ]
+    },
+    {
+        "id": "809dbdb7-36da-4f2f-9357-423370d1d547",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Locations; P20. Water Portal; Encounter with Gar Shatterkeel",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17451-gar-shatterkeel", 5000],
+            [1, "17051-water-elemental", 1800],
+            [3, "16834-crocodile", 100]
+        ]
+    },
+    {
+        "id": "2e74846d-bdab-4d34-931c-35c5964fa776",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Locations; P20. Water Portal; Encounter with Olhydra",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17451-gar-shatterkeel", 5000],
+            [1, "17463-olhydra", 20000]
+        ]
+    },
+    {
+        "id": "e4a71fb0-8e32-491e-9912-feff18972c6d",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Locations; G1. Hall of the Guardians",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17428-black-earth-guard", 450],
+            [2, "16853-earth-elemental", 1800]
+        ]
+    },
+    {
+        "id": "76bed357-0877-45d6-9ae1-30df7d3cd174",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Locations; G2. Keltar and Gorx",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17432-stonemelder", 1100],
+            [1, "17066-xorn", 1800]
+        ]
+    },
+    {
+        "id": "aab4c390-fd35-49dc-b763-94117da94364",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Locations; G3. Roper Den",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16999-roper", 1800]
+        ]
+    },
+    {
+        "id": "21cd85ec-01a1-408f-988a-30214bfc9632",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Locations; G8. Cavern of the Lost Crown",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16871-ghost", 1100],
+            [4, "17017-specter", 200]
+        ]
+    },
+    {
+        "id": "39955509-ca58-4124-a228-695be2087d79",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Locations; G9. Narrow Stone Bridge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17148-galeb-duhr", 2300]
+        ]
+    },
+    {
+        "id": "20986196-64a3-41a9-baae-118b0545205c",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Locations; G10. Clickety Clack",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "17162-hook-horror", 700]
+        ]
+    },
+    {
+        "id": "7eb9ae9c-b167-4acb-85bf-44437198c32a",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Locations; G11. Elemental Mud Pool",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17458-earth-elemental-myrmidon", 2900],
+            [6, "17173-mud-mephit", 50]
+        ]
+    },
+    {
+        "id": "01011bb9-7b4d-4105-8ed4-cd47830b6add",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Locations; G12. Hall of Meditation",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17428-black-earth-guard", 450],
+            [1, "17430-burrowshark", 1100],
+            [1, "17432-stonemelder", 1100]
+        ]
+    },
+    {
+        "id": "a105b38c-8ab2-46dd-98d1-14c4289e5d3e",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Locations; G12. Hall of Meditation",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17428-black-earth-guard", 450],
+            [1, "17430-burrowshark", 1100],
+            [1, "17433-hellenrae", 1800]
+        ]
+    },
+    {
+        "id": "ae3c286a-7d9b-428c-a7a0-eaafeff2b536",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Locations; G13. Bulette Kennels",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17430-burrowshark", 1100],
+            [1, "16818-bulette", 1800]
+        ]
+    },
+    {
+        "id": "4374fca0-56cb-4425-925e-e6072db0efee",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Locations; G13. Bulette Kennels",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16996-rhinoceros", 450]
+        ]
+    },
+    {
+        "id": "a3ff15d2-6b83-45c6-aa8a-b77f60fcb186",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Locations; G14. Rorgrin\u2019s Cave",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17430-burrowshark", 1100],
+            [1, "16818-bulette", 1800]
+        ]
+    },
+    {
+        "id": "2294b7d3-8890-4290-b1d6-e36e088b923f",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Locations; G15. Arcane Foundry",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17432-stonemelder", 1100],
+            [3, "17092-nothic", 450]
+        ]
+    },
+    {
+        "id": "81e8d851-0545-419c-95eb-ac16bb73b4e6",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Locations; G15. Arcane Foundry",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17432-stonemelder", 1100],
+            [1, "17434-miraj-vizann", 2300],
+            [3, "17092-nothic", 450]
+        ]
+    },
+    {
+        "id": "ec870ea7-50c1-4084-8636-2c17cd315813",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Locations; G15. Arcane Foundry",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "301281-rhundorth", 25]
+        ]
+    },
+    {
+        "id": "3c08ac2e-06df-4929-8fc4-4da168f2f7a6",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Locations; G17. Earth Portal",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17458-earth-elemental-myrmidon", 2900]
+        ]
+    },
+    {
+        "id": "99326d74-88e1-459b-b2cb-c36e01e08097",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Locations; G17. Earth Portal; Encounter with Marlos Urnrayle",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17435-marlos-urnrayle", 3900],
+            [2, "17428-black-earth-guard", 450],
+            [4, "16868-gargoyle", 450]
+        ]
+    },
+    {
+        "id": "6bf35271-978a-4fc9-ba8c-c4c3c3560aaf",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Locations; G17. Earth Portal; Encounter with Ogr\u00e9moch",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17435-marlos-urnrayle", 3900],
+            [1, "17462-ogremoch", 24500]
+        ]
+    },
+    {
+        "id": "b126f305-c85c-4348-824b-7dc6a342a1b1",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Weeping Colossus; Colossus Locations; W1. Volcanic Shaft",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17438-flamewrath", 2300],
+            [1, "17437-eternal-flame-priest", 700],
+            [1, "17439-razerblast", 1800]
+        ]
+    },
+    {
+        "id": "89783b1f-24ab-468e-b410-96646252aad4",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Weeping Colossus; Colossus Locations; W2. Sentry Chamber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17439-razerblast", 1800],
+            [1, "16862-fire-giant", 5000]
+        ]
+    },
+    {
+        "id": "4a909ca1-7c8b-485d-862a-359ef07c8f10",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Weeping Colossus; Colossus Locations; W4. Pool of Lava",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "301285-molten-magma-roper", 7200]
+        ]
+    },
+    {
+        "id": "b597ff86-39ad-44f1-b336-68c3f540847b",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Weeping Colossus; Colossus Locations; W5. Chamber of Skulls",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17091-flameskull", 1100]
+        ]
+    },
+    {
+        "id": "ff8251ff-28c0-4d1c-a289-68782a898c05",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Weeping Colossus; Colossus Locations; W6. Prison",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16966-noble", 25],
+            [1, "17445-crushing-wave-reaver", 100],
+            [1, "16848-druid", 450]
+        ]
+    },
+    {
+        "id": "9967dc2d-6b2d-42b3-93ad-8bdcc0bb8051",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Weeping Colossus; Colossus Locations; W7. Breeding Chamber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17004-salamander", 1800],
+            [8, "17199-fire-snake", 200]
+        ]
+    },
+    {
+        "id": "afc1c486-fe02-49fd-8757-7573bd4275f5",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Weeping Colossus; Colossus Locations; W8. Fire Shrine",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17437-eternal-flame-priest", 700],
+            [1, "17439-razerblast", 1800]
+        ]
+    },
+    {
+        "id": "53d42507-0e3a-4d4e-b783-348166f162c4",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Weeping Colossus; Colossus Locations; W9. Efreeti Lair",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16854-efreeti", 7200]
+        ]
+    },
+    {
+        "id": "12f9923b-a06d-4f08-b108-9e03977999e2",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Weeping Colossus; Colossus Locations; W11. Flowing Lava",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17074-young-red-dragon", 5900]
+        ]
+    },
+    {
+        "id": "4fb59ba8-fb74-465f-b6dd-8f7b61311826",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Weeping Colossus; Colossus Locations; W12. Fire Portal",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17459-fire-elemental-myrmidon", 2900],
+            [1, "17074-young-red-dragon", 5900]
+        ]
+    },
+    {
+        "id": "4fdff032-0126-4b24-9758-b70465fa920e",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Weeping Colossus; Colossus Locations; W12. Fire Portal; Encounter with Vanifer",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17443-vanifer", 5000],
+            [1, "17074-young-red-dragon", 5900],
+            [1, "16861-fire-elemental", 1800]
+        ]
+    },
+    {
+        "id": "6dde8a00-fa67-4dda-93c2-56d69723bef5",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Weeping Colossus; Colossus Locations; W12. Fire Portal; Encounter with Imix",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17443-vanifer", 5000],
+            [1, "17461-imix", 22000]
+        ]
+    },
+    {
+        "id": "f4c190b8-ebb7-4cc7-9251-671ca5771949",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Alarums and Excursions; Into the Wilderness; Bears and Bows",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16798-bandit", 25],
+            [1, "16806-black-bear", 100]
+        ]
+    },
+    {
+        "id": "b5c681a6-7e95-4837-a3d4-7a552fce30cd",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Alarums and Excursions; Into the Wilderness; Haunted Tomb",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16907-goblin", 50],
+            [1, "17185-half-ogre", 200]
+        ]
+    },
+    {
+        "id": "2c5f498d-54fc-462e-93be-4c0c4a7f824e",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Alarums and Excursions; Into the Wilderness; Haunted Tomb; Tomb Passage",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17017-specter", 200]
+        ]
+    },
+    {
+        "id": "d5e461b6-83f7-45fd-883d-c2b461e1717c",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Alarums and Excursions; Into the Wilderness; Haunted Tomb; Inner Tomb",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16865-flying-sword", 50]
+        ]
+    },
+    {
+        "id": "c3e1a4bd-e9bb-4b95-b3c7-9e086d8a2271",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Alarums and Excursions; Into the Wilderness; Bloody Treasure",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17023-stirge", 25]
+        ]
+    },
+    {
+        "id": "5a3aff7d-e04a-4a25-9fcd-d4cd1d551f5b",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Alarums and Excursions; Necromancer\u2019s Cave; L1. Entry Cave",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17077-zombie", 50]
+        ]
+    },
+    {
+        "id": "dc846e66-9a9d-410a-90d6-7d58d759de05",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Alarums and Excursions; Necromancer\u2019s Cave; L2. Guard Cave",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17077-zombie", 50]
+        ]
+    },
+    {
+        "id": "badf7281-ce9a-4f85-9d8e-1e10884d9956",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Alarums and Excursions; Necromancer\u2019s Cave; L3. Corpse Cave",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17015-skeleton", 50]
+        ]
+    },
+    {
+        "id": "e1a4b0ea-f38d-46e3-bc72-2a688f91eec8",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Alarums and Excursions; Necromancer\u2019s Cave; L4. Dancing Dead",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17077-zombie", 50]
+        ]
+    },
+    {
+        "id": "371d332b-fad7-41e8-9056-b0c7046fb6bd",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Alarums and Excursions; Necromancer\u2019s Cave; L5. Workshop",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17077-zombie", 50],
+            [5, "17139-crawling-claw", 10]
+        ]
+    },
+    {
+        "id": "ad354380-929e-4ad9-945b-01b07dc54103",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Alarums and Excursions; Necromancer\u2019s Cave; L5. Workshop",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17015-skeleton", 50]
+        ]
+    },
+    {
+        "id": "4ed09351-4393-44fa-9cfd-8e9b8588cd33",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Alarums and Excursions; Necromancer\u2019s Cave; L6. Study",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17454-oreioth", 450]
+        ]
+    },
+    {
+        "id": "62ea2080-76be-42ef-b0d3-5d5ef1be17eb",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Alarums and Excursions; Tomb of Moving Stones; Sinkhole",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16798-bandit", 25],
+            [1, "16829-commoner", 10],
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "baa4e865-fcfa-42f8-a1fb-bb7bb9de11ee",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Alarums and Excursions; Tomb of Moving Stones; T3. Cage Trap",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "a497609c-e12d-45a6-8dc4-d1787e0fa49c",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Alarums and Excursions; Tomb of Moving Stones; T4. Antechamber",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 0]
+        ],
+        "enemies": [
+            [1, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "013ea511-ad65-4326-8c8c-e875c85b6107",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Alarums and Excursions; Tomb of Moving Stones; T5. Charnel Chamber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16891-giant-rat", 25]
+        ]
+    },
+    {
+        "id": "6c64c782-a44a-4d59-87c3-5a10c1711327",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Alarums and Excursions; Tomb of Moving Stones; T7. Dwarf Statue; Development",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "157a80ee-f740-4848-8ed3-f417fa23b086",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Alarums and Excursions; Tomb of Moving Stones; T8. Approach",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "c58e5996-a54e-4dc8-908e-f4fa7a5d6663",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Alarums and Excursions; Tomb of Moving Stones; T9. Chamber of Moving Stones",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17429-black-earth-priest", 700]
+        ]
+    },
+    {
+        "id": "1cb11cd3-a12a-46a2-8ae2-489ba18c3ce9",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; New Management",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17045-veteran", 700],
+            [1, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "2f360e1d-5eca-443c-afb7-f0e60c7946e4",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; New Management",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17021-spy", 200]
+        ]
+    },
+    {
+        "id": "5297a5d1-7b62-41ea-8a19-e3f4e5265838",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; New Management; Setup",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17021-spy", 200]
+        ]
+    },
+    {
+        "id": "0c806336-146d-43a2-9d6e-e890d2e1993f",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; New Management; Setup",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17007-scout", 100],
+            [1, "17021-spy", 200],
+            [1, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "d5eeffa7-59a4-4728-93f2-e99cfdde7b87",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; New Management; Key Duty; Unlucky Kendrin",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "3f0e57a9-0b8c-4978-8645-a962bd402f51",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; New Management; Key Duty; Unlucky Kendrin",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25],
+            [4, "17018-spider", 10]
+        ]
+    },
+    {
+        "id": "9d6f6f24-8e66-4dc1-ac7c-2ae58a585a6a",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Iceshield Orcs; Smoke on the Horizon; Saving Selwyn",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "e2d3c2ff-82b9-477d-9b9c-f1e0e6fa8aec",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Iceshield Orcs; Smoke on the Horizon; Rescue Mission",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16972-orc", 100]
+        ]
+    },
+    {
+        "id": "81d9ca69-8158-4f66-8d11-e82e10a3becf",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Iceshield Orcs; Dellmon Ranch; The Dellmon Family",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
+    },
+    {
+        "id": "138cbd03-c229-4c98-9892-d58ffaa81236",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Iceshield Orcs; Running the Siege; Initial Surge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16972-orc", 100],
+            [1, "17189-orog", 450],
+            [1, "17188-orc-eye-of-gruumsh", 450]
+        ]
+    },
+    {
+        "id": "4527b77c-e4a7-4862-9118-a4177cb88817",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Iceshield Orcs; Running the Siege; Relief Arrives",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16915-guard", 25],
+            [1, "16763-acolyte", 50],
+            [1, "17007-scout", 100],
+            [1, "17045-veteran", 700]
+        ]
+    },
+    {
+        "id": "da977a10-d834-4699-ad9e-4d1de1780e44",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; The Long Road; Setup; The Caravan",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17035-thug", 100],
+            [1, "16829-commoner", 10],
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "501a42a8-84e6-4329-857a-185aac675fc6",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; The Long Road; Setup; The Caravan",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17045-veteran", 700]
+        ]
+    },
+    {
+        "id": "4644d5ba-73a1-4cd2-b431-baebbf714c9c",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; The Long Road; Bandit Attack",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [16, "16798-bandit", 25],
+            [1, "16799-bandit-captain", 450]
+        ]
+    },
+    {
+        "id": "312f6184-3168-40b1-b818-3fd438c8816b",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; The Long Road; Second Bandit Attack",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16996-rhinoceros", 450]
+        ]
+    },
+    {
+        "id": "267e1d2f-0e75-412f-94c6-1719bb24a71a",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; The Long Road; Howling Hatred Attack",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17421-howling-hatred-initiate", 25],
+            [1, "16897-giant-vulture", 200]
+        ]
+    },
+    {
+        "id": "24d97ade-3724-4645-8312-5243e8abc98f",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Curse of the Fire Witch",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17433-hellenrae", 1800]
+        ]
+    },
+    {
+        "id": "1997a9a3-9b66-4e13-ac37-dcadc5d5a1bd",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Curse of the Fire Witch; Barrow Mound; The Chieftain\u2019s Return",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17196-revenant", 1800]
+        ]
+    },
+    {
+        "id": "719fd673-6a56-4daf-bddb-b368265e9459",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Curse of the Fire Witch; Barrow Mound; The Chieftain\u2019s Return",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16853-earth-elemental", 1800]
+        ]
+    },
+    {
+        "id": "5cf169fd-9c37-46e0-af37-4b6ecd044eaf",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Curse of the Fire Witch; Uthgardt Vengeance",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16805-berserker", 450],
+            [1, "301293-fennor", 700],
+            [10, "17038-tribal-warrior", 25],
+            [1, "16805-berserker", 450],
+            [1, "301296-padraich", 450],
+            [2, "17049-warhorse", 100]
+        ]
+    },
+    {
+        "id": "a9228f9a-7341-4a96-850d-71f4d25b22f9",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Curse of the Fire Witch; Conclusion",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17433-hellenrae", 1800],
+            [1, "17434-miraj-vizann", 2300]
+        ]
+    },
+    {
+        "id": "6e0b7968-62f5-4553-a6f3-5338414b90ae",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Vale of Dancing Waters; D2. Shrine Entrance",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "9a76ad7d-dcc0-4da9-ad99-7553bfe1c46a",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Vale of Dancing Waters; D3. Courtyard",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16915-guard", 25],
+            [2, "16915-guard", 25],
+            [8, "16971-oni", 2900]
+        ]
+    },
+    {
+        "id": "97481ae1-3e0c-4639-97c3-63c40897fc76",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Vale of Dancing Waters; D7. Temple; Dwarves at Work",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17455-grumink-the-renegade", 3900],
+            [1, "16971-oni", 2900],
+            [8, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "0f9aca36-1e4f-48db-96eb-1fc98817fd84",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Vale of Dancing Waters; D7. Temple; Dwarves Alerted",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17455-grumink-the-renegade", 3900],
+            [2, "16915-guard", 25],
+            [1, "16971-oni", 2900]
+        ]
+    },
+    {
+        "id": "5cdf6d5f-9638-43e4-9899-60523176adb4",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Dark Dealings in Yartar; The Wink and Kiss",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "16829-commoner", 10],
+            [2, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "c492d2ff-d166-4bc1-b05f-74d3b5065326",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Dark Dealings in Yartar; The Wink and Kiss",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17021-spy", 200],
+            [2, "17045-veteran", 700],
+            [2, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "2eca5859-6c55-4b2b-a79d-0cf4ebafc6ec",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Dark Dealings in Yartar; The Wink and Kiss; Rival Seller",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16790-assassin", 3900]
+        ]
+    },
+    {
+        "id": "adf741c6-0c1a-42d7-8afa-0ae3f8012a90",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Dark Dealings in Yartar; Meeting at the Tomb",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17453-ghald", 2900],
+            [1, "16985-priest", 450],
+            [2, "17045-veteran", 700]
+        ]
+    },
+    {
+        "id": "157829ad-f11f-489f-ba6b-ef988f8151a2",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Rundreth Manor",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "314818-nurvureem", 11500]
+        ]
+    },
+    {
+        "id": "70dfb495-71f9-44d0-90c0-0c6fd537a3e0",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Rundreth Manor; Undercroft",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "314818-nurvureem", 11500]
+        ]
+    },
+    {
+        "id": "bb2c4e13-990b-4807-b3d3-a89c8555448d",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Rundreth Manor; Undercroft; Conversing with the Dark Lady",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "314818-nurvureem", 11500]
+        ]
+    },
+    {
+        "id": "4105bf18-dc44-4c5c-a80a-09c3c83260c4",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Rundreth Manor; Undercroft; Conversing with the Dark Lady",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "314818-nurvureem", 11500]
+        ]
+    },
+    {
+        "id": "a51177ed-e3af-4e48-b631-532c489bdd62",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Rundreth Manor; Undercroft; Conversing with the Dark Lady",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "314818-nurvureem", 11500],
+            [1, "16764-adult-black-dragon", 11500]
+        ]
+    },
+    {
+        "id": "85621603-a3c3-435a-b2ea-52399dbaf7f3",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Halls of the Hunting Axe; Starting Out",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16843-doppelganger", 700]
+        ]
+    },
+    {
+        "id": "1e715a63-4c27-48c6-a20d-d0f509a0c927",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Halls of the Hunting Axe; The Stone Bridge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17035-thug", 100],
+            [1, "16947-mage", 2300]
+        ]
+    },
+    {
+        "id": "641af88d-af15-42d0-b39c-4b4e08b6965e",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Halls of the Hunting Axe; The Stone Bridge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16843-doppelganger", 700]
+        ]
+    },
+    {
+        "id": "3c779031-0857-42cf-b29e-f2f78a79c830",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Halls of the Hunting Axe; The Ruins; X1. Owlbear Greetings",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16975-owlbear", 700]
+        ]
+    },
+    {
+        "id": "331f5e99-5972-44a2-b39f-4430e80c8c8a",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Halls of the Hunting Axe; The Ruins; X5. Cistern",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16947-mage", 2300],
+            [2, "17007-scout", 100]
+        ]
+    },
+    {
+        "id": "7362f161-8a03-4eb9-ba77-ef260614c07f",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Halls of the Hunting Axe; The Ruins; X6. Amphitheater",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17452-drannin-splithelm", 2900],
+            [1, "17012-shield-guardian", 2900],
+            [3, "17045-veteran", 700]
+        ]
+    },
+    {
+        "id": "67330e0a-aebc-4e28-9a41-f27c51060c28",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Halls of the Hunting Axe; The Ruins; X10. False Tomb",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17025-stone-golem", 5900]
+        ]
+    },
+    {
+        "id": "e4b464c4-7bd7-496b-9dd4-d3922cf22220",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Side Treks; Halls of the Hunting Axe; The Ruins; X10. False Tomb; Development",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17452-drannin-splithelm", 2900],
+            [1, "17012-shield-guardian", 2900],
+            [3, "17045-veteran", 700],
+            [1, "16843-doppelganger", 700]
+        ]
+    }
+]

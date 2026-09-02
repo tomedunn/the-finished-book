@@ -1,3114 +1,1894 @@
 [
     {
+        "id": "2db04997-00b6-40fc-8753-e5b42920a039",
         "type": "non-combat",
-        "modified": 1741669501.870986,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/prelude-to-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Prelude to War; Preludes; Eye in the Sky; The Trial Begins",
-        "monsters": [
-            [
-                1,
-                "16763-acolyte",
-                50
-            ]
-        ],
-        "text": "Once the characters are ready, Rovina opens a door, revealing a portal filled with swirling amber light. She directs anyone intending to face the trial to enter the portal together. If a single character is going through this prelude and you think they\u2019d appreciate assistance, Rovina can also admit another visiting apprentice (an acolyte) to aid the character."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16763-acolyte", 50]
+        ]
     },
     {
+        "id": "bee10b2a-40fe-4f96-b0af-9824b596b1b1",
         "type": "non-combat",
-        "modified": 1741669501.870986,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/prelude-to-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Prelude to War; Preludes; Scales of War; Frantic Farmer",
-        "monsters": [
-            [
-                1,
-                "16829-commoner",
-                10
-            ]
-        ],
-        "text": "The prelude begins on the road to Vogler. At some point during travel, the characters encounter Rhys, a young human commoner who barely survived a recent attack on the caravan he was traveling with."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
     },
     {
+        "id": "85e21060-e737-4919-8cef-d78272992af6",
         "type": "combat",
-        "modified": 1741669501.870986,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/prelude-to-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Prelude to War; Preludes; Scales of War; Fallen Caravan",
-        "monsters": [
-            [
-                1,
-                "3081113-kapak-draconian",
-                700
-            ],
-            [
-                4,
-                "3081100-baaz-draconian",
-                100
-            ]
-        ],
-        "text": "The mysterious raiders are a kapak draconian and four baaz draconians (see appendix B for both stat blocks). They wear armor emblazoned with the symbol of Takhisis, which any character can recognize by succeeding on a DC 12 Intelligence (Religion) check."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081113-kapak-draconian", 700],
+            [4, "3081100-baaz-draconian", 100]
+        ]
     },
     {
+        "id": "9f118fdf-8e05-4fdd-8f1b-ff6b8d735522",
         "type": "non-combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Vogler Gazetteer; Locations in Vogler; The Brass Crab",
-        "monsters": [
-            [
-                1,
-                "16829-commoner",
-                10
-            ]
-        ],
-        "text": "The Brass Crab is a modest single-story inn on the village wharf, and its exterior vaguely resembles its namesake. Its proprietor, an Ergothian woman named Yalme (neutral good, human commoner), has an odd love of bad storytellers and inept musicians. One wall of the circular common room features a faded mural of two enormous crabs locked in combat, inlaid with brass details. The mural\u2019s origins are lost to time, but if asked, Yalme says she named the crabs Fancy and Gorgeous George. Four short halls branch off the common room, each lined with rooms for rent."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
     },
     {
+        "id": "0779e30d-6ac6-4207-a708-c19001300ed6",
         "type": "non-combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Vogler Gazetteer; Locations in Vogler; The Fishbowl",
-        "monsters": [
-            [
-                1,
-                "16829-commoner",
-                10
-            ]
-        ],
-        "text": "After a long day on the river, many of Vogler\u2019s fishers gather at the Fishbowl to tell tales, quench their thirst, and indulge in baked fish pies. The cramped but well-kept tavern is known for its savory baked goods more than its weak ale. The Fishbowl\u2019s proprietor is the elderly Elthar (neutral good, human commoner), whom most locals call Uncle."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
     },
     {
+        "id": "0f4ed695-c17b-4cbc-a734-a230bc749dd0",
         "type": "non-combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Vogler Gazetteer; Locations in Vogler; Market",
-        "monsters": [
-            [
-                1,
-                "16829-commoner",
-                10
-            ]
-        ],
-        "text": "Across from Vogler\u2019s busy wharf spreads the village market. Amid this collection of stalls, vendors sell fresh river fish, fishing supplies, crafts, the bounty of local farms, and all manner of mundane equipment. One notable stall is that of Froswin (chaotic good, kender commoner), who sells intricate fish-bone puppets she designs in the shapes of animals and sea serpents."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
     },
     {
+        "id": "693d785b-b532-4b35-8e33-b0ed67ceae26",
         "type": "non-combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Vogler Gazetteer; Locations in Vogler; Mayor\u2019s Home",
-        "monsters": [
-            [
-                1,
-                "17007-scout",
-                100
-            ]
-        ],
-        "text": "Vogler\u2019s down-to-earth mayor, Raven Uth Vogler (neutral good, human scout), lives in a two-story house on the village circle. Raven is a practical, empathetic leader in her thirties who grew up on the river. She keeps a pair of guest rooms\u2014lavishly decorated with mounted fish\u2014where she frequently hosts villagers going through tough times."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17007-scout", 100]
+        ]
     },
     {
+        "id": "690c4ea1-565b-4ab5-81db-f6b94c8e1083",
         "type": "non-combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Vogler Gazetteer; Locations in Vogler; Village Circle",
-        "monsters": [
-            [
-                13,
-                "16915-guard",
-                25
-            ]
-        ],
-        "text": "The homes and shops in Vogler cluster around a grassy patch shaded by an ancient tree. This green is encircled by a dirt road that branches off into streets leading north out of the village and south to the ferry across the Vingaard, and others radiating out into the town. The village circle serves as a public space, meeting spot, and festival ground. An iron bell hangs atop a tall pole near the mayor\u2019s house. In times of need, anyone who vigorously rings the bell summons the mayor and 2d12 volunteer militia members (guards) who arrive in about 5 minutes. The local militia is largely composed of retired farmers and fishers who exhibit more zeal than skill in the village\u2019s defense, but they all take the bell\u2019s sounding very seriously."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [13, "16915-guard", 25]
+        ]
     },
     {
+        "id": "2a53fefa-7965-48a6-a2e1-fd56f15bdffd",
         "type": "non-combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Vogler Gazetteer; Locations in Vogler; Westide House",
-        "monsters": [
-            [
-                2,
-                "16966-noble",
-                25
-            ]
-        ],
-        "text": "The horseshoe-shaped structure known as Westide House is only slightly larger than the other homes in Vogler, but its owner speaks of it as if it were an opulent country manor. This is the home of Lord Bakaris Uth Estide (neutral evil, human noble; detailed in chapter 4) and his son, Bakaris the Younger (introduced in the \u201cHeckler\u201d section later in this chapter). Lord Bakaris is a Solamnic noble who claims to be living in exile after raiders burned his family home in Estwilde. In truth, Lord Bakaris and his son were driven from the region and sought anonymity in Vogler. They\u2019ve been in the village for over a year, throwing their wealth around and treating the people of Vogler as backward yokels."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16966-noble", 25]
+        ]
     },
     {
+        "id": "b6dd1a0d-650a-41a9-8368-63de854e797e",
         "type": "non-combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Vogler Gazetteer; Locations in Vogler; Wharfinger\u2019s Office",
-        "monsters": [
-            [
-                1,
-                "16915-guard",
-                25
-            ],
-            [
-                1,
-                "16829-commoner",
-                10
-            ]
-        ],
-        "text": "Wharfinger Umpton Lanth (lawful neutral, human guard) wakes up earlier than any other fisher in Vogler to inspect boats docked at the wharf and impose fines on those in poor repair. Fishers and traders seeking to use the wharf must register with Umpton at his stuffy two-story office across from the market. The office is usually staffed by Umpton\u2019s son Nesau (chaotic neutral, human commoner), who\u2014to his father\u2019s consternation\u2014is quick to forgive fines and forgo docking fees when his father isn\u2019t present, making him quite popular in the village."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16915-guard", 25],
+            [1, "16829-commoner", 10]
+        ]
     },
     {
+        "id": "b23eab5c-ee67-426b-9f03-cb6d4ffb9861",
         "type": "non-combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Final Farewell; Meeting Becklin; Becklin Uth Viharin",
-        "monsters": [
-            [
-                1,
-                "16938-knight",
-                700
-            ]
-        ],
-        "text": "Becklin Uth Viharin (lawful good, human knight) is a Solamnic Knight of the Order of the Crown who, in her earlier years, adventured with Ispin Greenshield and Cudgel Ironsmile. For the last decade, she has served as castellan of Thornwall Keep in Vogler. This posting is not only an official charge from her superiors but also a quiet retirement for her. Becklin takes her role seriously, maintaining her skills and equipment as she remains alert for danger. In her considerable free time, she indulges her passion for studying the past by excavating the ruins of Thornwall Keep."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16938-knight", 700]
+        ]
     },
     {
+        "id": "36a8aab6-7a3c-44ac-a6b9-b3649fc98e71",
         "type": "non-combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Final Farewell; Heckler; Bakaris \u201cthe Younger\u201d Uth Estide",
-        "monsters": [
-            [
-                1,
-                "16966-noble",
-                25
-            ]
-        ],
-        "text": "Bakaris (neutral evil, human noble) shares the same name as his father, his father\u2019s father, and so on for generations. Bakaris places inordinate value on his good looks, fashionable clothes, and athleticism, but he\u2019s known more for his arrogance, pettiness, and short temper. He cares nothing for his family name, but he defers to his father\u2014partly from unbroken childhood habit, and partly because all his privilege depends on his father\u2019s wealth. Bakaris also has a violent streak. While living in Estwilde, he murdered the son of a local leader during a duel, and he and his father to Vogler to escape the consequences. Bakaris takes quiet pride in that killing, and he fantasizes about one day winning respect via the point of his sword. He loathes being called \u201cthe Younger,\u201d a diminutive his father encourages."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
     },
     {
+        "id": "c32ca831-e961-452b-b8f9-b9d53567fab4",
         "type": "non-combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Final Farewell; Meeting Cudgel; Ridomir \u201cCudgel\u201d Ironsmile",
-        "monsters": [
-            [
-                1,
-                "17045-veteran",
-                700
-            ]
-        ],
-        "text": "Cudgel Ironsmile (neutral, hill dwarf veteran) hails from the dwarven nation of Kayolin, south of Solamnia. For most of her life, she adventured with Becklin and Ispin, earning the nickname Cudgel along the way. She now commands her own company of mercenaries known as the Ironclad Regiment. Though small, the company has built a reputation for beating the odds, thanks in large part to her adroit leadership. Beyond a life of fighting, the middle-aged dwarf is a gifted card player. She also has a soft spot for Vogler, which she swears serves the best fish pies in Solamnia."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17045-veteran", 700]
+        ]
     },
     {
+        "id": "2da8f4d1-0308-4cd6-99a7-c3b7d9f85314",
         "type": "non-combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Final Farewell; Mysterious Mourner; Leedara",
-        "monsters": [
-            [
-                1,
-                "16871-ghost",
-                1100
-            ]
-        ],
-        "text": "Leedara is neutral-aligned and typically appears as a living Silvanesti elf. She has the statistics of a ghost with the following action:"
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16871-ghost", 1100]
+        ]
     },
     {
+        "id": "dd43c21f-204d-4006-a359-4bae3cd64758",
         "type": "non-combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Parting Gift; Meeting Darrett; Darrett Highwater",
-        "monsters": [
-            [
-                1,
-                "16938-knight",
-                700
-            ]
-        ],
-        "text": "Darrett Highwater (lawful good, human knight) is a fastidious, aspiring knight who serves Becklin Uth Viharin. His parents abandoned him in town over a decade ago, after which Darrett spent years as a ward of the community before coming under Becklin\u2019s wing. In the years since, his good heart and aptitude for strategic thinking led Becklin to train him for induction into the Knights of Solamnia one day. Darrett is well-read and courteous, though he sometimes catches himself talking in ways he considers less than knightly, for which he apologizes profusely."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16938-knight", 700]
+        ]
     },
     {
+        "id": "bd4a0f79-4835-45c2-9df8-075728be8348",
         "type": "combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Betrayal at High Hill; Battle of High Hill",
-        "monsters": [
-            [
-                3,
-                "16915-guard",
-                25
-            ],
-            [
-                3,
-                "17049-warhorse",
-                100
-            ]
-        ],
-        "text": "The characters have little opportunity to aid the villagers being attacked as three hostile mercenary guards, each mounted on a warhorse, appear on the road at the southwest edge of the battlefield and focus their attacks on the characters."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16915-guard", 25],
+            [3, "17049-warhorse", 100]
+        ]
     },
     {
+        "id": "00df9b1c-de03-483d-95ca-314ba7222d23",
         "type": "combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Betrayal at High Hill; Battle of High Hill; Gragonis Arrives",
-        "monsters": [
-            [
-                1,
-                "17185-half-ogre",
-                200
-            ],
-            [
-                4,
-                "16915-guard",
-                25
-            ]
-        ],
-        "text": "The half-ogre Gragonis emerges at the west edge of the battlefield adjacent to the Fray, along with four mercenaries (use the guard stat block). As he does, he points at the most formidable-looking character and laughs to his allies, \u201cLook here! We got one who still thinks this is all a game!\u201d Gragonis and the mercenaries then attack."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17185-half-ogre", 200],
+            [4, "16915-guard", 25]
+        ]
     },
     {
+        "id": "b471a9e2-48d9-4da7-8e9c-5b726983c13e",
         "type": "non-combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Back in Vogler; Mercenary Interrogation",
-        "monsters": [
-            [
-                1,
-                "16915-guard",
-                25
-            ]
-        ],
-        "text": "Unless the characters previously spared the life of a specific mercenary (such as Gragonis), the mercenary captured during the Battle of High Hill is a low-ranking guard of the Ironclad Regiment named Svilnt Sunderlit."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16915-guard", 25]
+        ]
     },
     {
+        "id": "0d969607-01bc-459a-ae16-26cd183d5acd",
         "type": "combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Sighting the Enemy",
-        "monsters": [
-            [
-                3,
-                "3081100-baaz-draconian",
-                100
-            ],
-            [
-                2,
-                "3081106-dragon-army-soldier",
-                200
-            ]
-        ],
-        "text": "This is a camp of Red Dragon Army soldiers. Should the characters attempt to approach the camp, a patrol of three baaz draconians and two Dragon Army soldiers draws near (see appendix B for both stat blocks). The draconians are hooded and look like Humanoid soldiers from afar, but a character who engages in melee combat with them discovers their true nature. If attacked, one draconian attempts to flee to camp and raise an alarm."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "3081100-baaz-draconian", 100],
+            [2, "3081106-dragon-army-soldier", 200]
+        ]
     },
     {
+        "id": "0931ccee-0b3b-4c25-952a-3f1f90b87cca",
         "type": "combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; A Fateful Morning; Voice of War",
-        "monsters": [
-            [
-                1,
-                "3081106-dragon-army-soldier",
-                200
-            ],
-            [
-                1,
-                "17049-warhorse",
-                100
-            ],
-            [
-                4,
-                "3081106-dragon-army-soldier",
-                200
-            ]
-        ],
-        "text": "This Dragon Army soldier (see appendix B) astride a warhorse is a messenger from the Red Dragon Army. If a character doesn\u2019t speak up first, Raven steps forward and takes the messenger\u2019s letter. The message reads as follows:\nThe messenger demands the village prepare to be occupied by Dragon Army troops that evening. In the meantime, nobody can leave the village. If the characters press the messenger for more information, she provides none. If threatened, the soldier holds her ground and gives a signal. Atop the 30-foot-tall cliffs to the east of the gate, four Dragon Army soldiers appear (see appendix B). They use their javelins to attack anyone who threatens the messenger or who tries to leave the village."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081106-dragon-army-soldier", 200],
+            [1, "17049-warhorse", 100],
+            [4, "3081106-dragon-army-soldier", 200]
+        ]
     },
     {
+        "id": "7d14da34-8996-442c-bfba-0114e115a245",
         "type": "combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; A Fateful Morning; Resistance; On the Cliffs",
-        "monsters": [
-            [
-                4,
-                "3081106-dragon-army-soldier",
-                200
-            ]
-        ],
-        "text": "The area atop the cliffs is wooded, but an open field lies below and behind the soldiers\u2019 position. Scaling the 30-foot-tall cliffs is simple enough, but unless they are distracted, the soldiers notice anyone climbing the cliff or approaching from another direction. If the characters reach the top of the cliff, they find four Dragon Army soldiers (see appendix B)."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "3081106-dragon-army-soldier", 200]
+        ]
     },
     {
+        "id": "dfee2d5e-e817-4aae-9562-f3fdf99033dd",
         "type": "combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Invasion of Vogler; News from the Front",
         "allies": [
-            [
-                1,
-                "17007-scout",
-                100
-            ]
+            [1, "17007-scout", 100]
         ],
-        "monsters": [
-            [
-                1,
-                "3081100-baaz-draconian",
-                100
-            ]
-        ],
-        "text": "The rider is a scout sent by Becklin to alert Vogler to evacuate immediately. When the characters arrive, the rider\u2019s horse is dead and she is locked in battle with her attacker, a baaz draconian (see appendix B). The draconian kills her if the characters don\u2019t intercede."
+        "bystanders": [],
+        "enemies": [
+            [1, "3081100-baaz-draconian", 100]
+        ]
     },
     {
+        "id": "aeb5273b-c149-4d68-8f93-11a8d7be895a",
         "type": "combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Invasion of Vogler; Invasion Encounters; Airborne Assassin",
-        "monsters": [
-            [
-                1,
-                "3081113-kapak-draconian",
-                700
-            ]
-        ],
-        "text": "A kapak draconian (see appendix B) glides overhead from the cliffs, intent on dropping onto one of the characters. Only characters who have a passive Wisdom (Perception) score of 14 or higher notice it. Unless alerted, the other characters are surprised when the kapak attacks."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081113-kapak-draconian", 700]
+        ]
     },
     {
+        "id": "87ca2033-f497-4d8e-ad85-0c89d53a113b",
         "type": "combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Invasion of Vogler; Invasion Encounters; Direct Attack",
-        "monsters": [
-            [
-                5,
-                "3081100-baaz-draconian",
-                100
-            ]
-        ],
-        "text": "Five baaz draconians (see appendix B) charge toward the wharf, intent on setting buildings ablaze and murdering escaping villagers. In their frenzied state, the draconians fight to the death."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "3081100-baaz-draconian", 100]
+        ]
     },
     {
+        "id": "99658204-e05f-47b5-affd-8543ef2069c4",
         "type": "combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Invasion of Vogler; Invasion Encounters; Vogler Militia",
         "allies": [
-            [
-                2,
-                "16915-guard",
-                25
-            ]
+            [2, "16915-guard", 25]
         ],
-        "monsters": [
-            [
-                5,
-                "3081100-baaz-draconian",
-                100
-            ]
-        ],
-        "text": "The two militia members (guards) are outmatched by five baaz draconians (see appendix B). If the characters don\u2019t intervene quickly, the militia members are slaughtered. If the characters help and a militia member lives, this survivor gives the characters a potion of healing."
+        "bystanders": [],
+        "enemies": [
+            [5, "3081100-baaz-draconian", 100]
+        ]
     },
     {
+        "id": "8b207038-6e58-4f7c-8dc9-3b33b5053686",
         "type": "combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Invasion of Vogler; Escape from Vogler",
-        "monsters": [
-            [
-                4,
-                "3081100-baaz-draconian",
-                100
-            ]
-        ],
-        "text": "Despite its appearance, the thing nearing Vogler\u2019s wharf isn\u2019t a dragon\u2014it\u2019s a boilerdrak, a gnomish siege engine invented for the Red Dragon Army (see appendix A). The boilerdrak is crewed by four baaz draconians (see appendix B)."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "3081100-baaz-draconian", 100]
+        ]
     },
     {
+        "id": "13760669-8633-443d-97e9-41de20e388e6",
         "type": "combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Invasion of Vogler; Escape from Vogler; Fewmaster Gholcag",
-        "monsters": [
-            [
-                2,
-                "3081100-baaz-draconian",
-                100
-            ],
-            [
-                1,
-                "16969-ogre",
-                450
-            ]
-        ],
-        "text": "Fewmaster Gholcag is a low-ranking commander in the Red Dragon Army and the leader of the raid on Vogler. She and two baaz draconians (see appendix B) arrive adjacent to the Fray along the northernmost road. Fewmaster Gholcag uses the ogre stat block, but she wears scale mail and has AC 14. She and the draconians fight to the death."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "3081100-baaz-draconian", 100],
+            [1, "16969-ogre", 450]
+        ]
     },
     {
+        "id": "04f14284-7b79-4b0f-bc87-238f081b3611",
         "type": "non-combat",
-        "modified": 1741669502.0457816,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/when-home-burns.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Invasion of Vogler; The Final Boat; Lost in Battle",
-        "monsters": [
-            [
-                1,
-                "16799-bandit-captain",
-                450
-            ]
-        ],
-        "text": "Assassination. Jeyev is actually a neutral evil bandit captain who was bought off by the Dragon Army just like Gragonis was. He\u2019s been hired to assassinate the Solamnic knights in Vogler\u2014Becklin and Darrett. He murdered Becklin during the battle and is now using her helmet to get close to Darrett."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16799-bandit-captain", 450]
+        ]
     },
     {
+        "id": "9ce586e7-f63e-4af7-ae10-1721fdc21ed6",
         "type": "non-combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Kalaman Gazetteer; Kalaman Locations; Hammerstrike Forges",
-        "monsters": [
-            [
-                2,
-                "17045-veteran",
-                700
-            ]
-        ],
-        "text": "Twin forges stand across the street from one another, run by the dwarven cousins Kadmos and Tiria Hammerstrike (both lawful neutral, hill dwarf veterans). While both are competent smiths, Kadmos specializes in armor and Tiria excels with weaponry."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17045-veteran", 700]
+        ]
     },
     {
+        "id": "a04e386f-6509-49e0-99f5-a18246e2609b",
         "type": "non-combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Kalaman Gazetteer; Kalaman Locations; Meulara\u2019s Oddities",
-        "monsters": [
-            [
-                1,
-                "16829-commoner",
-                10
-            ]
-        ],
-        "text": "Meulara\u2019s Oddities is a small shop piled with trinkets. Its shopkeeper, Meulara (chaotic good, kender commoner), is a silver-haired woman with a bright smile. Meulara claims to know every kender in the city, and most kender new to town are directed to her so they can swap stories and news from their travels."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
     },
     {
+        "id": "873cf04e-2ead-4dd1-a2cb-24a4c50dc8e2",
         "type": "non-combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Kalaman Gazetteer; Kalaman Locations; The Steady Beacon",
-        "monsters": [
-            [
-                1,
-                "17045-veteran",
-                700
-            ]
-        ],
-        "text": "The Steady Beacon is a tavern that boasts a large taproom, a fish-focused menu, and modest lodging. Its decor features the broken weapons of defeated bandits. The tavern is a favorite of Kalaman\u2019s soldiers, and most evenings, dozens of off-duty troops relax here. The inn\u2019s owner, Jesen Thold (neutral good, human veteran), is a friend of Marshal Nestra Vendri, head of Kalaman\u2019s military."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17045-veteran", 700]
+        ]
     },
     {
+        "id": "f4a3b11f-55ea-443b-b6d8-f249baba2a96",
         "type": "non-combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Kalaman Gazetteer; Kalaman Locations; Wyhan\u2019s Apothecary",
-        "monsters": [
-            [
-                1,
-                "16947-mage",
-                2300
-            ]
-        ],
-        "text": "Wyhan (lawful evil, human mage) is a black-robed Mage of High Sorcery. Though supposedly retired, she keeps a shop that deals in wares few in Kalaman need. Wyhan\u2019s Apothecary sells the occasional good-luck charm, but those who know what to ask for might gain access to the apothecary\u2019s back room, which houses esoteric spell components. The \u201cMessage for a Mage\u201d section later in this chapter provides more details on Wyhan and her shop."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16947-mage", 2300]
+        ]
     },
     {
+        "id": "23bc3658-4d3e-4bcc-a5e7-f6111a9f5a4f",
         "type": "non-combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Castle Kalaman; Council Meeting; Lord Bakaris Uth Estide",
-        "monsters": [
-            [
-                1,
-                "16966-noble",
-                25
-            ]
-        ],
-        "text": "Lord Bakaris Uth Estide (neutral evil, human noble) is an arrogant man with a lesser title among the Solamnic nobility. In ages past, his family was known for its wealth and generations of membership in the Knights of Solamnia. While Lord Bakaris retains a considerable amount of wealth, he has lived his entire life on stories of honor and great deeds, none of which are his own. Now Lord Bakaris sees the situation in Kalaman as his chance to win glory for himself. At heart, he\u2019s comically cowardly, full of bluster and inflated words. He has neither the spine to stand up to opposition nor the experience to lead."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
     },
     {
+        "id": "82d31545-519f-4286-8e35-30333ca7771e",
         "type": "non-combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Message for a Mage",
-        "monsters": [
-            [
-                1,
-                "16947-mage",
-                2300
-            ]
-        ],
-        "text": "The shopkeeper here is Wyhan (lawful evil, human mage), a black-robed Mage of High Sorcery. Although self-interested and disdainful of non-mages, Wyhan is a dedicated member of her organization."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16947-mage", 2300]
+        ]
     },
     {
+        "id": "3c2e8de4-4677-4618-92dc-f1ceb3f879aa",
         "type": "combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; The First Mission; Rookledust\u2019s Workshop",
-        "monsters": [
-            [
-                10,
-                "16907-goblin",
-                50
-            ],
-            [
-                1,
-                "16925-hobgoblin",
-                100
-            ]
-        ],
-        "text": "The home of the gnome Tatina Rookledust is under attack by ten goblins and\u2014standing well back from the chaos\u2014their hobgoblin leader. The goblinoids wear dark armor with a spiral symbol\u2014the same colors and symbol of Takhisis commonly worn by Red Dragon Army troops."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "16907-goblin", 50],
+            [1, "16925-hobgoblin", 100]
+        ]
     },
     {
+        "id": "65a7a497-f2db-4c98-b7e4-b1e3eba4366d",
         "type": "non-combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; The First Mission; Meeting Rookledust; Tatina Rookledust",
-        "monsters": [
-            [
-                1,
-                "16763-acolyte",
-                50
-            ]
-        ],
-        "text": "Tatina Rookledust (neutral good rock gnome) moved to Nightlund decades ago from the distant gnome homeland of Mount Nevermind. She uses the acolyte stat block, but the effects of her Spellcasting manifest from various tools and tiny devices she always carries with her. Rookledust talks rapidly and is always formulating new ideas for her next overdesigned contraption. Though many of her creations are dangerous, she doesn\u2019t build them with violence in mind. She\u2019s particularly interested in devices for long-distance communication and inventions that mechanize the work of farm animals."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16763-acolyte", 50]
+        ]
     },
     {
+        "id": "3f035d18-5e84-479c-944a-3b05bde3f4f3",
         "type": "combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Missions for Kalaman; Missions; Ambushing the Enemy",
-        "monsters": [
-            [
-                1,
-                "3081106-dragon-army-soldier",
-                200
-            ],
-            [
-                6,
-                "16925-hobgoblin",
-                100
-            ]
-        ],
-        "text": "The characters are tasked with investigating a farmstead eighteen miles east of the city, after fleeing residents report the farm was overrun by soldiers. When the characters arrive, they find the farm ransacked and a Dragon Army soldier (see appendix B) training six hobgoblin mercenaries. The Dragon Army soldier orders the hobgoblins to attack, telling them, \u201cHere\u2019s your final test. Dispatch these fools and earn your place in the Dragon Army!\u201d The hobgoblins fight until their commanding Dragon Army soldier is killed or half their number are wiped out."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081106-dragon-army-soldier", 200],
+            [6, "16925-hobgoblin", 100]
+        ]
     },
     {
+        "id": "b6160a50-03cb-4425-bf1a-bca68096aa62",
         "type": "combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Missions for Kalaman; Missions; Draconian Blockade",
-        "monsters": [
-            [
-                5,
-                "3081100-baaz-draconian",
-                100
-            ],
-            [
-                1,
-                "3081101-bozak-draconian",
-                450
-            ]
-        ],
-        "text": "Twenty miles east of Kalaman, where the road crosses the Raiding Rill, the characters find two empty, toppled wagons. A character who succeeds on a DC 12 Wisdom (Survival) finds clawed footprints leading to woods to the south. If the characters follow the path, they come on a camp of five baaz draconians led by a bozak draconian (see appendix B for both stat blocks). The draconians fight to the death."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "3081100-baaz-draconian", 100],
+            [1, "3081101-bozak-draconian", 450]
+        ]
     },
     {
+        "id": "e45b48a5-2699-492a-81e0-2a82cd29220f",
         "type": "combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Missions for Kalaman; Missions; Missing Scouts",
+        "allies": [],
         "bystanders": [
-            [
-                1,
-                "17007-scout",
-                100
-            ]
+            [1, "17007-scout", 100]
         ],
-        "monsters": [
-            [
-                2,
-                "3081100-baaz-draconian",
-                100
-            ],
-            [
-                1,
-                "3081113-kapak-draconian",
-                700
-            ]
-        ],
-        "text": "Once the characters arrive in the area, they find the lookout post in fifteen minutes if a character succeeds on a DC 15 Wisdom (Survival) check; otherwise, finding the post takes three hours. Regardless of when the characters arrive, they find one scout tied to a tree in the center of the camp, being harassed by two baaz draconians (see appendix B); the other scout lies dead nearby. A kapak draconian (see appendix B) hides in the trees above the camp and tries to ambush the characters after combat begins."
+        "enemies": [
+            [2, "3081100-baaz-draconian", 100],
+            [1, "3081113-kapak-draconian", 700]
+        ]
     },
     {
+        "id": "d002f90f-a5db-41e5-ba1d-7defc360c920",
         "type": "combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Wheelwatch Outpost; Preparing for the Mission; Reconnaissance",
-        "monsters": [
-            [
-                6,
-                "3081106-dragon-army-soldier",
-                200
-            ]
-        ],
-        "text": "If a character spends eight hours observing the fort, they determine that patrols in the corner towers switch watch duty every six hours, and they can make a DC 14 Intelligence (Investigation) check to estimate how many Dragon Army soldiers are in the fort. On a successful check, the character accurately estimates about twenty Dragon Army soldiers are in the fort. On a failed check, they estimate double this number. If the check fails by 10 or more, the character is spotted, and after 10 minutes, a squad of six Dragon Army soldiers (see appendix B) leaves the fort to investigate the character\u2019s position. If the soldiers find the character or don\u2019t return, the fort goes on alert (see the \u201cWheelwatch Alert\u201d section)."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "3081106-dragon-army-soldier", 200]
+        ]
     },
     {
+        "id": "9966dcb3-7bb0-4b2f-807b-cf7fbece706b",
         "type": "alternate combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Wheelwatch Outpost; Wheelwatch Alert; Alert",
-        "monsters": [
-            [
-                8,
-                "3081106-dragon-army-soldier",
-                200
-            ]
-        ],
-        "text": "If a threat is detected, the eight Dragon Army soldiers (see appendix B) in area W5 rush to meet it (or gather in area W1 if the source is unclear). While on alert, Dragon Army troops have advantage on Wisdom (Perception) checks. Troops remain on alert for twelve hours after spotting an enemy or finding other clear signs of enemy activity. In the case of other threats, troops remain on alert until the danger passes or is identified as a false alarm."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "3081106-dragon-army-soldier", 200]
+        ]
     },
     {
+        "id": "87ccaf5c-c1df-4849-8365-4d5c99109665",
         "type": "alternate combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Wheelwatch Outpost; Wheelwatch Alert; Dragonnel Rider",
-        "monsters": [
-            [
-                1,
-                "3081104-dragon-army-dragonnel",
-                700
-            ],
-            [
-                1,
-                "3081105-dragon-army-officer",
-                700
-            ]
-        ],
-        "text": "The Dragon Army has a secret weapon in area W8: a Dragon Army dragonnel and its Dragon Army officer rider (see appendix B for both stat blocks). If the characters don\u2019t discover the pair first, the dragonnel and its rider take to the air and attack at a dramatic moment\u2014likely after the characters have overcome most of the fort\u2019s forces or as they work to open the gates in area W1."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081104-dragon-army-dragonnel", 700],
+            [1, "3081105-dragon-army-officer", 700]
+        ]
     },
     {
+        "id": "b5df92d3-2d66-4fee-a384-6f32a1f332f1",
         "type": "combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Wheelwatch Outpost; Wheelwatch Locations; W1: Courtyard",
-        "monsters": [
-            [
-                3,
-                "3081106-dragon-army-soldier",
-                200
-            ]
-        ],
-        "text": "At any given time, three Dragon Army soldiers (see appendix B) are in the courtyard patrolling, training, or running errands."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "3081106-dragon-army-soldier", 200]
+        ]
     },
     {
+        "id": "738034aa-8c35-4945-8829-84da04868e6d",
         "type": "combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Wheelwatch Outpost; Wheelwatch Locations; W2: South Guard Towers",
-        "monsters": [
-            [
-                2,
-                "3081106-dragon-army-soldier",
-                200
-            ]
-        ],
-        "text": "The south guard towers are identical. In each, two Dragon Army soldiers (see appendix B) watch the surrounding land."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "3081106-dragon-army-soldier", 200]
+        ]
     },
     {
+        "id": "a7168dfa-da55-4df3-be90-c71d107e229e",
         "type": "combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Wheelwatch Outpost; Wheelwatch Locations; W2: South Guard Towers",
-        "monsters": [
-            [
-                2,
-                "3081106-dragon-army-soldier",
-                200
-            ]
-        ],
-        "text": "The south guard towers are identical. In each, two Dragon Army soldiers (see appendix B) watch the surrounding land."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "3081106-dragon-army-soldier", 200]
+        ]
     },
     {
+        "id": "6bf33456-af9e-4749-bb9e-734eb33ba233",
         "type": "combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Wheelwatch Outpost; Wheelwatch Locations; W3: Northwest Guard Tower",
-        "monsters": [
-            [
-                1,
-                "3081121-sivak-draconian",
-                1100
-            ]
-        ],
-        "text": "On the first floor, a sivak draconian (see appendix B) stands guard in human guise. It\u2019s using its Shape Theft reaction to take the form of a Kalaman soldier it killed. If slain, it shifts back to its true form."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081121-sivak-draconian", 1100]
+        ]
     },
     {
+        "id": "3f8ce259-8b0b-400e-a67b-d93fc622ba24",
         "type": "combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Wheelwatch Outpost; Wheelwatch Locations; W3: Northwest Guard Tower",
-        "monsters": [
-            [
-                2,
-                "3081106-dragon-army-soldier",
-                200
-            ]
-        ],
-        "text": "Two Dragon Army soldiers (see appendix B) guard the second floor. Their alarm horn hangs on the south wall by the ladder."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "3081106-dragon-army-soldier", 200]
+        ]
     },
     {
+        "id": "57a5fdf7-6dbd-4483-ac5e-d843a2bd972f",
         "type": "combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Wheelwatch Outpost; Wheelwatch Locations; W4: Northeast Fortification",
-        "monsters": [
-            [
-                2,
-                "3081100-baaz-draconian",
-                100
-            ]
-        ],
-        "text": "Two baaz draconians (see appendix B) keep watch in the hall here. Their alarm horn hangs from the north weapon rack. If battle breaks out here, the Dragon Army soldiers in area W5 come to investigate after 2 rounds."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "3081100-baaz-draconian", 100]
+        ]
     },
     {
+        "id": "413d0e5c-e193-4bd2-94a5-f294aba8e306",
         "type": "combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Wheelwatch Outpost; Wheelwatch Locations; W5: Barracks",
-        "monsters": [
-            [
-                8,
-                "3081106-dragon-army-soldier",
-                200
-            ]
-        ],
-        "text": "At any given time, eight Dragon Army soldiers (see appendix B) rest here. They swap places with on-duty guards throughout the day. If they hear battle in area W4 or an alarm horn sounds, they rush to support their allies after 2 rounds."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "3081106-dragon-army-soldier", 200]
+        ]
     },
     {
+        "id": "c107269c-ddd7-4cb8-87c0-2bc6c9a282b4",
         "type": "combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Wheelwatch Outpost; Wheelwatch Locations; W6: Prison",
-        "monsters": [
-            [
-                1,
-                "3081105-dragon-army-officer",
-                700
-            ]
-        ],
-        "text": "If the alarm hasn\u2019t been raised, a Dragon Army officer (see appendix B) named Ardlic Vanse is seated at a desk, writing a report. He commands the forces here. He is terrified of his commander, Kansaldi Fire-Eyes, and will sacrifice his life and the lives of his troops to keep control of the fort."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081105-dragon-army-officer", 700]
+        ]
     },
     {
+        "id": "0e29b0bf-01ec-4b4d-9896-95a786e8e47c",
         "type": "non-combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Wheelwatch Outpost; Wheelwatch Locations; W6: Prison",
-        "monsters": [
-            [
-                1,
-                "3081111-kalaman-soldier",
-                100
-            ]
-        ],
-        "text": "North Cell. This locked cell holds a neutral human Kalaman soldier (see appendix B) named Lanal Brint. He was sleeping off a night of drink in this cell when the outpost was taken. He tells the characters anything they want to know about the fortress\u2014such as how the gate mechanisms work\u2014but only after he\u2019s separated from Elgo (see below)."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081111-kalaman-soldier", 100]
+        ]
     },
     {
+        "id": "276612a7-4c48-4864-bf49-cf0047312cb8",
         "type": "non-combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Wheelwatch Outpost; Wheelwatch Locations; W6: Prison",
-        "monsters": [
-            [
-                1,
-                "3081114-kender-skirmisher",
-                50
-            ]
-        ],
-        "text": "South Cell. This locked cell holds Elgo Duckditcher, a chaotic good kender skirmisher (see appendix B) who considers herself a famous explorer and avoider of fowl. The Red Dragon Army imprisoned her here after she insisted she be allowed to explore the fort. In the days since, she has told Lanal every story she knows twice and has declared him her adopted cousin. She\u2019s convinced his name is Flannel, though, and she won\u2019t hear otherwise\u2014she knows her own cousin\u2019s name. If freed, Elgo won\u2019t leave until she recovers her hoopak (found in area W4)."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081114-kender-skirmisher", 50]
+        ]
     },
     {
+        "id": "4fb1b2ff-3dc6-4fd7-a8a7-c038d199303e",
         "type": "combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Wheelwatch Outpost; Wheelwatch Locations; W8: Stable",
-        "monsters": [
-            [
-                1,
-                "3081104-dragon-army-dragonnel",
-                700
-            ],
-            [
-                1,
-                "3081105-dragon-army-officer",
-                700
-            ]
-        ],
-        "text": "A Dragon Army dragonnel and its rider, a Dragon Army officer, are in this stable (see appendix B for both stat blocks). If the characters enter, the dragonnel recognizes them as intruders and attacks. This is likely the first time the characters have seen a creature this similar to a dragon. A character who succeeds on a DC 14 Intelligence (Arcana or Nature) check knows the creature is a dragonnel, a wild lesser cousin of the storied dragons that disappeared from Krynn."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081104-dragon-army-dragonnel", 700],
+            [1, "3081105-dragon-army-officer", 700]
+        ]
     },
     {
+        "id": "70759fe3-2a9e-4614-8a66-b456705625ee",
         "type": "combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Wheelwatch Outpost; Wheelwatch Locations; W9: Kitchen",
-        "monsters": [
-            [
-                1,
-                "3081106-dragon-army-soldier",
-                200
-            ]
-        ],
-        "text": "A Dragon Army soldier (see appendix B) prepares a meal here: a watery soup, heavy on pepper."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081106-dragon-army-soldier", 200]
+        ]
     },
     {
+        "id": "29865daa-ad62-4af8-a506-d8f9849ad391",
         "type": "combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Battle at Steel Springs; Retreat from Steel Springs",
         "allies": [
-            [
-                6,
-                "3081111-kalaman-soldier",
-                100
-            ]
+            [6, "3081111-kalaman-soldier", 100]
         ],
-        "monsters": [
-            [
-                4,
-                "3081106-dragon-army-soldier",
-                200
-            ],
-            [
-                4,
-                "17049-warhorse",
-                100
-            ]
-        ],
-        "text": "This battlefield is represented on map 4.3. As the characters arrive, six Kalaman soldiers (see appendix B), each with 8 hit points, flee south from the battle occurring up the road. They\u2019ve reached the islet at the center of the map. Four Dragon Army soldiers (see appendix B) on warhorses gallop in pursuit along the road at the north of the map."
+        "bystanders": [],
+        "enemies": [
+            [4, "3081106-dragon-army-soldier", 200],
+            [4, "17049-warhorse", 100]
+        ]
     },
     {
+        "id": "57bd2424-aadb-4127-9c65-f31c9ae19a70",
         "type": "combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; The Lord\u2019s Arrival; Returning to Kalaman; Castle Kalaman\u2019s Visitors",
-        "monsters": [
-            [
-                2,
-                "17059-wight",
-                700
-            ]
-        ],
-        "text": "The two knights here are Undead soldiers. They use the wight stat block with the following changes:"
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17059-wight", 700]
+        ]
     },
     {
+        "id": "60c29860-9b7a-453e-8dc5-0654d45ee8ff",
         "type": "combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; The Lord\u2019s Arrival; Council Massacre",
-        "monsters": [
-            [
-                1,
-                "3081102-caradoc",
-                3900
-            ],
-            [
-                1,
-                "16938-knight",
-                700
-            ]
-        ],
-        "text": "The man here is Caradoc (see appendix B), an Undead spirit who has been possessing a Knight of Solamnia (use the knight stat block) for over a week. Charming but utterly amoral, Caradoc is Lord Loren Soth\u2019s seneschal. He served as the mouthpiece of Lord Soth and his Undead troops, gaining them access to Kalaman\u2019s rulers under the guise of being helpful Knights of Solamnia. During their audience with the city\u2019s rulers, Lord Soth, Caradoc, and their Undead knights murdered the city\u2019s leaders. Soth then went on to his actual objective in the catacombs beneath the castle, while Caradoc remained behind to prevent any interference."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081102-caradoc", 3900],
+            [1, "16938-knight", 700]
+        ]
     },
     {
+        "id": "d3ffa66f-bac7-49e7-b9bf-e2a3202ca0e9",
         "type": "non-combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; The Lord\u2019s Arrival; Council Massacre; Caught in the Act",
-        "monsters": [
-            [
-                1,
-                "16938-knight",
-                700
-            ]
-        ],
-        "text": "Lost Knight. If the knight Caradoc has been possessing drops to 0 hit points, allow the knight to make death saving throws, as the characters may wish to heal him. His name is Durstan Rial (neutral, human knight), and he has little memory of the last few weeks since he was ambushed while traveling near the Dargaard Mountains. He helps the characters defeat Caradoc if the spirit is present, but he ultimately wishes to return to his home in Maelgoth."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16938-knight", 700]
+        ]
     },
     {
+        "id": "453a13e0-a3e1-49d8-96f5-fab836ff76b6",
         "type": "non-combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; The Lord\u2019s Arrival; Council Massacre; Leedara\u2019s Warning",
-        "monsters": [
-            [
-                1,
-                "16871-ghost",
-                1100
-            ]
-        ],
-        "text": "Moments after Caradoc is defeated, Leedara (detailed in chapter 3) appears. Read the following text:"
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16871-ghost", 1100]
+        ]
     },
     {
+        "id": "86d4253b-cb07-4592-8416-96c971222985",
         "type": "combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Raided Catacombs; Raided Catacombs Locations; R2: Crypts",
-        "monsters": [
-            [
-                2,
-                "17064-wraith",
-                1800
-            ]
-        ],
-        "text": "Burial Alcoves. Fifteen forgotten Knights of Solamnia are buried here, each with their now-rusted plate armor and longsword. If any of the bodies are disturbed, two wraiths that look like spectral Knights of Solamnia emerge from crypts and attack. The wraiths vanish if a character returns any stolen goods and makes an earnest apology."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17064-wraith", 1800]
+        ]
     },
     {
+        "id": "390461d3-7b15-4e58-84f9-699e99ea3d44",
         "type": "combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Raided Catacombs; Raided Catacombs Locations; R4: Hall of Steeds",
-        "monsters": [
-            [
-                2,
-                "17050-warhorse-skeleton",
-                100
-            ]
-        ],
-        "text": "As the characters enter this area, the next scene from the \u201cVisions in Fire\u201d section plays out. After the scene completes, two warhorse skeletons manifest at the west end of the hall. These are the remains of the heroic warhorses Xheriev and Steelwind, which attack. However, if a character is wearing the armor of a Solamnic knight or succeeds on a DC 16 Wisdom (Animal Handling) check, the skeletons stop, bow, and vanish. That character then gains the following charm (a type of supernatural gift detailed in the Dungeon Master\u2019s Guide)."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17050-warhorse-skeleton", 100]
+        ]
     },
     {
+        "id": "7a14a03e-0099-436f-9f67-98af9aa720cc",
         "type": "combat",
-        "modified": 1741669502.2515776,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/shadow-of-war.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; Raided Catacombs; Raided Catacombs Locations; R7: Tomb of Heroes",
-        "monsters": [
-            [
-                1,
-                "3081122-skeletal-knight",
-                2900
-            ]
-        ],
-        "text": "Knight Sarlamir. Lord Soth used the Cataclysmic fire to reanimate Sarlamir as a skeletal knight (see appendix B). The Undead knight wears ancient Solamnic armor and wields a blade blazing with violet flame. He attacks the characters as soon as he emerges and fights until destroyed."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081122-skeletal-knight", 2900]
+        ]
     },
     {
+        "id": "8d2b49d0-11b1-4cc7-8a01-70d4c1857a21",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Dragon Army Patrols; Dragon Army Patrol",
-        "monsters": [
-            [
-                8,
-                "3081100-baaz-draconian",
-                100
-            ],
-            [
-                2,
-                "3081106-dragon-army-soldier",
-                200
-            ]
-        ],
-        "text": "8 baaz draconians and 2 Dragon Army soldiers"
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "3081100-baaz-draconian", 100],
+            [2, "3081106-dragon-army-soldier", 200]
+        ]
     },
     {
+        "id": "49569bf1-166c-4fdc-8646-22294924ee9f",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Dragon Army Patrols; Dragon Army Patrol",
-        "monsters": [
-            [
-                1,
-                "3081121-sivak-draconian",
-                1100
-            ],
-            [
-                5,
-                "3081106-dragon-army-soldier",
-                200
-            ]
-        ],
-        "text": "1 sivak draconian and 5 Dragon Army soldiers"
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081121-sivak-draconian", 1100],
+            [5, "3081106-dragon-army-soldier", 200]
+        ]
     },
     {
+        "id": "3cec313c-0541-41bb-83d1-52c8f9dc906e",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Dragon Army Patrols; Dragon Army Patrol",
-        "monsters": [
-            [
-                2,
-                "3081113-kapak-draconian",
-                700
-            ],
-            [
-                2,
-                "3081105-dragon-army-officer",
-                700
-            ]
-        ],
-        "text": "2 kapak draconians and 2 Dragon Army officers"
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "3081113-kapak-draconian", 700],
+            [2, "3081105-dragon-army-officer", 700]
+        ]
     },
     {
+        "id": "19807a33-520f-4c01-aa4f-9d76764e7789",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Dragon Army Patrols; Dragon Army Patrol",
-        "monsters": [
-            [
-                3,
-                "3081105-dragon-army-officer",
-                700
-            ],
-            [
-                3,
-                "3081104-dragon-army-dragonnel",
-                700
-            ]
-        ],
-        "text": "3 Dragon Army officers riding 3 Dragon Army dragonnels"
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "3081105-dragon-army-officer", 700],
+            [3, "3081104-dragon-army-dragonnel", 700]
+        ]
     },
     {
+        "id": "2d279446-fbea-4fd4-bb35-574fefedc5db",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Malfunctioning Gate",
-        "monsters": [
-            [
-                1,
-                "16825-clay-golem",
-                5000
-            ]
-        ],
-        "text": "The characters find a stone archway lined with sigils. This gate used to be a teleportation gate\u2014part of a magical transportation system created by Istarian mages. It once stood in Onyari before the city fell. As soon as a character approaches, magical energy swirls within the arch. The magic kicks up nearby debris that animates as a hostile clay golem."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16825-clay-golem", 5000]
+        ]
     },
     {
+        "id": "816d5f69-ce38-4823-ab81-e8927202794e",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; A: Wrecker\u2019s Edge; Hidden Cove; Elven Ship",
-        "monsters": [
-            [
-                2,
-                "16774-air-elemental",
-                1800
-            ]
-        ],
-        "text": "The ship is small but seaworthy, with enough room for a dozen crew members. It has nothing of value on its deck or in the communal bunks below deck. However, two air elementals on the deck defend the vessel against intruders. They attack any non-elf that sets foot upon the ship."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16774-air-elemental", 1800]
+        ]
     },
     {
+        "id": "0c8e6cb4-0c43-429b-8b82-e6abe2e3b531",
         "type": "non-combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; A: Wrecker\u2019s Edge; Meeting Dalamar; Dalamar",
-        "monsters": [
-            [
-                1,
-                "16947-mage",
-                2300
-            ]
-        ],
-        "text": "An ambitious elf magic-user, Dalamar (neutral elf mage) has an insatiable thirst for knowledge. This often puts him at odds with other Silvanesti mages, whose conservative methods wear on his patience."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16947-mage", 2300]
+        ]
     },
     {
+        "id": "ee8b6e31-3ddb-4646-806a-8dd57e0a560a",
         "type": "non-combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; B: Elven Encampment; Expedition Members",
-        "monsters": [
-            [
-                10,
-                "16947-mage",
-                2300
-            ]
-        ],
-        "text": "The elven camp lies next to some small ruins on a plateau overlooking the wastes, with a dozen or so tents arranged in a spiral pattern. Ten elves are present in the camp when the characters arrive, including their leader, Zhelsuel. Others roam the wastes in search of information. They all use the mage stat block."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "16947-mage", 2300]
+        ]
     },
     {
+        "id": "46c2ee06-44c2-4f4e-ad28-13bd9b42ab28",
         "type": "non-combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; C: Blue Phoenix Shrine; Approaching the Shrine; Ishvern Stargazer",
-        "monsters": [
-            [
-                1,
-                "17007-scout",
-                100
-            ]
-        ],
-        "text": "Ishvern (neutral good, sea elf scout), the de facto leader of the Dimernesti group in their priest\u2019s absence, is pious, curious, and insightful. Having survived in the deadliest depths of the Turbidus Ocean for over a century, he knows better than to venture into mysterious places unprepared. He isn\u2019t eager to risk his companions\u2019 lives without the priest Yearkal\u2019s guidance. However, Ishvern fears Yearkal might be lost forever. If others might aid him in fulfilling her spiritual mission, he\u2019s eager for their help."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17007-scout", 100]
+        ]
     },
     {
+        "id": "bca2e3cb-80a4-424c-bb06-3f34ea9c9124",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; C: Blue Phoenix Shrine; Shrine Locations; C2: Altar Room",
-        "monsters": [
-            [
-                3,
-                "17208-water-weird",
-                700
-            ]
-        ],
-        "text": "Altar Guardians. If a character comes within 10 feet of the altar without having washed themself in area C3 within the last 24 hours, three water weirds rise from the water between the pillars. They are hostile toward any Humanoid who doesn\u2019t openly bear the symbol of Habbakuk. The water weirds cease attacking and vanish if a creature in the room uses an action to apologize to Habbakuk or speak a prayer to the god\u2019s name."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17208-water-weird", 700]
+        ]
     },
     {
+        "id": "e8030001-0e95-4cc4-aa64-f3451fd5d8e5",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; C: Blue Phoenix Shrine; Shrine Locations; C6: Offering Chamber",
-        "monsters": [
-            [
-                3,
-                "16808-black-pudding",
-                1100
-            ]
-        ],
-        "text": "Shrine Guardians. If a character who didn\u2019t wash in area C3 or who opened a sarcophagus in area C4 comes within 10 feet of the well, the algae on the walls coalesces into three black puddings that immediately attack the offending character as well as other creatures that attack the puddings."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16808-black-pudding", 1100]
+        ]
     },
     {
+        "id": "f633c608-dbbf-4eb2-bd04-d7e600f63788",
         "type": "non-combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; C: Blue Phoenix Shrine; Leaving the Shrine",
-        "monsters": [
-            [
-                1,
-                "17007-scout",
-                100
-            ]
-        ],
-        "text": "As the group leaves the shrine, if the characters haven\u2019t already rescued the sea elves at Camp Carrionclay, a sea elf scout approaches Ishvern to tell him they\u2019ve found where their captured companions were taken. The sea elves have been imprisoned at a Dragon Army camp in the middle of a murky lake (see the \u201cI: Camp Carrionclay\u201d section). These sea elf scouts provide directions to area I on map 5.1. Mark this hex on the players\u2019 map of the region in appendix E."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17007-scout", 100]
+        ]
     },
     {
+        "id": "1074e1a0-87dc-4feb-ae38-e2b88cac7a03",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; D: Sunward Fortress; Approaching the Fortress; Dragon Army Excavation",
-        "monsters": [
-            [
-                2,
-                "17116-red-slaad",
-                1800
-            ]
-        ],
-        "text": "Resting near Camp. If the characters take a long rest in the camp or within a mile of the Sunward Fortress, there is a 50 percent chance they are attacked by two red slaadi that fight to the death."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17116-red-slaad", 1800]
+        ]
     },
     {
+        "id": "3ac54a5a-2578-4a09-ae9a-6edb740d5d67",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; D: Sunward Fortress; Sunward Fortress Locations; D3: Lower Chambers",
-        "monsters": [
-            [
-                4,
-                "3081113-kapak-draconian",
-                700
-            ]
-        ],
-        "text": "Dracophage Subjects. Four mutated draconian-slaad hybrids lurk in the east hall. They look like bloated draconians with bright-red skin and wide, frog-like mouths. These creatures use the kapak draconian stat block (see appendix B), but replace their Dagger attack with the following attack:"
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "3081113-kapak-draconian", 700]
+        ]
     },
     {
+        "id": "333981f9-ea16-4e25-8e25-ed05fa31cb78",
         "type": "non-combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; D: Sunward Fortress; Sunward Fortress Locations; D4: Barricaded Room",
-        "monsters": [
-            [
-                1,
-                "16763-acolyte",
-                50
-            ],
-            [
-                1,
-                "17007-scout",
-                100
-            ]
-        ],
-        "text": "Survivors. The Dimernesti sea elf Yearkal (neutral good, sea elf acolyte; see the \u201cC: Blue Phoenix Shrine\u201d section for details on sea elves) hides inside the room with the unconscious Rone (neutral, human scout), a hunter from Heart\u2019s Hollow. Rone has been infected with an ailment Yearkal doesn\u2019t know how to treat (see \u201cRone\u2019s Fate\u201d below)."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16763-acolyte", 50],
+            [1, "17007-scout", 100]
+        ]
     },
     {
+        "id": "b392718d-1eb7-44a1-9679-e24ef0f95461",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; D: Sunward Fortress; Sunward Fortress Locations; D4: Barricaded Room",
-        "monsters": [
-            [
-                1,
-                "17117-slaad-tadpole",
-                25
-            ]
-        ],
-        "text": "If the characters don\u2019t heal Rone, a slaad tadpole emerges 1 hour after the characters encounter him, killing him. If the characters do heal Rone, he thanks them and offers them a 1,000 gp reward if they take him home to Heart\u2019s Hollow."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17117-slaad-tadpole", 25]
+        ]
     },
     {
+        "id": "3b5b9099-ace0-4517-ab00-3f50214a9c90",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; D: Sunward Fortress; Sunward Fortress Locations; D5: Spire Depths",
-        "monsters": [
-            [
-                1,
-                "17116-red-slaad",
-                1800
-            ],
-            [
-                5,
-                "17117-slaad-tadpole",
-                25
-            ]
-        ],
-        "text": "The creature is a red slaad covered in five slaad tadpoles. These monsters attack as soon as they spot the characters. A character who succeeds on a DC 16 Intelligence (Arcana) check recognizes the monsters as slaadi, denizens of the plane of Limbo."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17116-red-slaad", 1800],
+            [5, "17117-slaad-tadpole", 25]
+        ]
     },
     {
+        "id": "dfd19b4a-6e69-41b5-ba40-5a71f3502af0",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; D: Sunward Fortress; Sunward Fortress Locations; D5: Spire Depths",
-        "monsters": [
-            [
-                1,
-                "17115-green-slaad",
-                3900
-            ]
-        ],
-        "text": "Virruza. Changed by days of strange experiments involving draconian blood and exposure to the Spawning Shard, Virruza now looks like a tumescent draconian with warty green skin and an overly large mouth. Use the green slaad stat block for Virruza, but replace the Shapechanger trait with the following trait:"
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17115-green-slaad", 3900]
+        ]
     },
     {
+        "id": "c16f94c6-a3c6-4252-96a8-9507c03822eb",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; E: Wakenreth; Wakenreth Locations; E2: Second Level",
-        "monsters": [
-            [
-                2,
-                "17064-wraith",
-                1800
-            ]
-        ],
-        "text": "The characters draw the attention of two hostile wraiths that lurk inside the crypts here. Once each wraith is defeated, it turns into an incorporeal elven spirit. One spirit quickly fades away, while the other\u2014a woman with light-gray hair and pale eyes\u2014floats through the ceiling and out of sight."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17064-wraith", 1800]
+        ]
     },
     {
+        "id": "d9af6f1c-430d-44cf-98cb-f9f83e703597",
         "type": "non-combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; E: Wakenreth; Wakenreth Locations; E5: Shadowfell Expanse",
-        "monsters": [
-            [
-                1,
-                "16871-ghost",
-                1100
-            ]
-        ],
-        "text": "Veriel. An elf spirit appears and greets the characters, introducing himself as Veriel (lawful neutral ghost), Wakenreth\u2019s caretaker. He explains to the characters what happened to the tower (detailed in \u201cThe Doomed Mausoleum\u201d at the beginning of the \u201cE: Wakenreth\u201d section). He knows nothing about the City of Lost Names or its location (as he\u2019s unaware Onyari was later called that). Veriel asks for the party\u2019s help in severing the link between Wakenreth and the Shadowfell, a feat that can be accomplished only from the other side of the portal. His time spent in the Shadowfell has linked him to this plane, and he can\u2019t pass through the portal."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16871-ghost", 1100]
+        ]
     },
     {
+        "id": "8ea111a8-d405-459d-9916-81a21629ee48",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; E: Wakenreth; Wakenreth Locations; E5: Shadowfell Expanse",
-        "monsters": [
-            [
-                1,
-                "3081098-anhkolox",
-                5000
-            ]
-        ],
-        "text": "Undead Beast. As Veriel relays this information, an anhkolox (see appendix B) climbs into view from the tower\u2019s edge, drawn by the activity here. Hungry for the characters\u2019 life essence, the creature attacks. It ignores Veriel, who stays out of the fight."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081098-anhkolox", 5000]
+        ]
     },
     {
+        "id": "61a544df-7b4a-4161-baef-fcf1db981099",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; F: Bluemaw Cave; Bluemaw Cave Locations; F1: Crystal Cave",
-        "monsters": [
-            [
-                7,
-                "16912-grick",
-                450
-            ]
-        ],
-        "text": "Grick Pack. The characters draw the attention of a pack of seven gricks hiding in cracks in the walls. They were riled up and ultimately scared off from the lower chamber by the draconians. They attack the first creature they see."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "16912-grick", 450]
+        ]
     },
     {
+        "id": "a3545c7d-8c7f-4cb8-b7f9-c615c5e0e184",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; F: Bluemaw Cave; Bluemaw Cave Locations; F3: Sand Pit",
-        "monsters": [
-            [
-                1,
-                "3081121-sivak-draconian",
-                1100
-            ],
-            [
-                5,
-                "3081100-baaz-draconian",
-                100
-            ]
-        ],
-        "text": "Draconians. A sivak draconian and five baaz draconians occupy this room (see appendix B for both stat blocks). The baaz draconians drag treasure from the sand pit, placing it into sacks the sivak draconian can fly out through the cavern\u2019s open top. If a draconian spots the characters, they attack while shouting to alert the others."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081121-sivak-draconian", 1100],
+            [5, "3081100-baaz-draconian", 100]
+        ]
     },
     {
+        "id": "a5155deb-5138-4712-8e91-aae8d50c3815",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; F: Bluemaw Cave; Bluemaw Cave Locations; F3: Sand Pit",
-        "monsters": [
-            [
-                1,
-                "17158-grick-alpha",
-                2900
-            ],
-            [
-                2,
-                "16912-grick",
-                450
-            ]
-        ],
-        "text": "Grick Alpha. If combat breaks out, a grick alpha and two gricks that were dozing in the sand emerge in a random space adjacent to the quicksand. They indiscriminately attack any creatures in the room."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17158-grick-alpha", 2900],
+            [2, "16912-grick", 450]
+        ]
     },
     {
+        "id": "8fae05e4-4555-4280-8986-11903174bd71",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; G: Heart\u2019s Hollow; The Dragon Hunter",
         "allies": [
-            [
-                1,
-                "17007-scout",
-                100
-            ]
+            [1, "17007-scout", 100]
         ],
-        "monsters": [
-            [
-                5,
-                "16895-giant-spider",
-                200
-            ]
-        ],
-        "text": "Clystran (neutral good, human scout) is being pursued by five giant spiders as the canyon floods (see \u201cThe Wash\u201d earlier in this chapter). You decide whether the characters are in the canyon as well or above it. The giant spiders turn their attention toward the characters if attacked, and they flee if three or more spiders are killed."
+        "bystanders": [],
+        "enemies": [
+            [5, "16895-giant-spider", 200]
+        ]
     },
     {
+        "id": "a60e9eb5-6966-4160-8ed3-bf8d0de8f7d0",
         "type": "non-combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; G: Heart\u2019s Hollow; Heart\u2019s Hollow Locations",
-        "monsters": [
-            [
-                1,
-                "16829-commoner",
-                10
-            ]
-        ],
-        "text": "End\u2019s Odds. Run by Grandit \u201cEnd\u201d Pike (neutral good, hill dwarf commoner), End\u2019s Odds sells \u201cslightly used\u201d goods and equipment found in the wastes."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
     },
     {
+        "id": "325b6250-21a2-4332-a3f9-5806aa1ef572",
         "type": "non-combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; G: Heart\u2019s Hollow; Heart\u2019s Hollow Locations",
-        "monsters": [
-            [
-                1,
-                "16947-mage",
-                2300
-            ]
-        ],
-        "text": "Lavender\u2019s. Lavender Jalls (lawful neutral, human mage) is a renegade wizard who hasn\u2019t taken the Test of High Sorcery. He specializes in casting helpful cantrips and brewing alchemical tinctures."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16947-mage", 2300]
+        ]
     },
     {
+        "id": "96ac8bbf-298a-4d20-95c8-d6f09508f603",
         "type": "non-combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; G: Heart\u2019s Hollow; Heart\u2019s Hollow Residents; Nezrah",
-        "monsters": [
-            [
-                1,
-                "16767-adult-bronze-dragon",
-                13000
-            ]
-        ],
-        "text": "The secretive dragon Nezrah (neutral good adult bronze dragon) goes by the name Ness. She uses her magic to disguise herself as a middle-aged human woman, and no one knows she\u2019s a dragon."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16767-adult-bronze-dragon", 13000]
+        ]
     },
     {
+        "id": "2af93d59-14a7-43eb-8550-bae58a0d2a2b",
         "type": "non-combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; H: Dragonnel Spire",
-        "monsters": [
-            [
-                12,
-                "3081124-wasteland-dragonnel",
-                700
-            ]
-        ],
-        "text": "Twelve wasteland dragonnels (see appendix B) lair atop this rock formation, which looks like a dragon. Formations like this are common in the wastes, as if the spirits of the dragons killed during Onyari\u2019s fall reshaped the land."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "3081124-wasteland-dragonnel", 700]
+        ]
     },
     {
+        "id": "50be5df1-ba56-41de-a725-3a223559cf90",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; I: Camp Carrionclay; Camp Carrionclay Features",
-        "monsters": [
-            [
-                2,
-                "3081105-dragon-army-officer",
-                700
-            ],
-            [
-                5,
-                "3081106-dragon-army-soldier",
-                200
-            ]
-        ],
-        "text": "Patrols. Two groups of soldiers patrol the camp, each including a Dragon Army officer and five Dragon Army soldiers (see appendix B for both stat blocks). One group watches the bridge outside the walls, and the other monitors the interior."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "3081105-dragon-army-officer", 700],
+            [5, "3081106-dragon-army-soldier", 200]
+        ]
     },
     {
+        "id": "cb5e85af-35e3-4f57-a5dc-ba0eb43bf092",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; I: Camp Carrionclay; Camp Carrionclay Features",
-        "monsters": [
-            [
-                2,
-                "3081105-dragon-army-officer",
-                700
-            ],
-            [
-                5,
-                "3081106-dragon-army-soldier",
-                200
-            ]
-        ],
-        "text": "Patrols. Two groups of soldiers patrol the camp, each including a Dragon Army officer and five Dragon Army soldiers (see appendix B for both stat blocks). One group watches the bridge outside the walls, and the other monitors the interior."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "3081105-dragon-army-officer", 700],
+            [5, "3081106-dragon-army-soldier", 200]
+        ]
     },
     {
+        "id": "437a9b4b-5aa4-4145-9a50-ccaa28e22906",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; I: Camp Carrionclay; Camp Carrionclay Locations; I1: Wooden Bridge and Lake",
-        "monsters": [
-            [
-                1,
-                "17031-swarm-of-quippers",
-                200
-            ]
-        ],
-        "text": "When the Wash is low, the lake surrounding the camp becomes a marsh filled with marine-animal carcasses and swamp plants, making the area difficult terrain. When the Wash is high, creatures can swim across the lake, but there is a 50 percent chance they are attacked by a swarm of quippers."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17031-swarm-of-quippers", 200]
+        ]
     },
     {
+        "id": "040dbee9-bb01-4572-b6b9-b27b8d2dff53",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; I: Camp Carrionclay; Camp Carrionclay Locations; I2: Main Entrance",
-        "monsters": [
-            [
-                1,
-                "3081121-sivak-draconian",
-                1100
-            ],
-            [
-                2,
-                "3081100-baaz-draconian",
-                100
-            ]
-        ],
-        "text": "The camp\u2019s only gate is watched by a sivak draconian and two baaz draconians (see appendix B for both stat blocks)."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081121-sivak-draconian", 1100],
+            [2, "3081100-baaz-draconian", 100]
+        ]
     },
     {
+        "id": "4880c5dc-8028-469f-99ee-988ee2c5de44",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; I: Camp Carrionclay; Camp Carrionclay Locations; I3: Watchtower",
-        "monsters": [
-            [
-                3,
-                "3081106-dragon-army-soldier",
-                200
-            ]
-        ],
-        "text": "The watchtower is occupied by three Dragon Army soldiers (see appendix B). Due to the high vantage point, the soldiers\u2019 passive Wisdom (Perception) score is 19."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "3081106-dragon-army-soldier", 200]
+        ]
     },
     {
+        "id": "25c11d22-857f-4754-8bbc-3a1198010f10",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; I: Camp Carrionclay; Camp Carrionclay Locations; I4: Prisoner Cages",
-        "monsters": [
-            [
-                3,
-                "3081100-baaz-draconian",
-                100
-            ],
-            [
-                1,
-                "17160-hobgoblin-captain",
-                700
-            ]
-        ],
-        "text": "The draconians keep prisoners in these cages. If the characters are captured, they\u2019re imprisoned in a cage with Kennah. The cages are guarded by three baaz draconians (see appendix B) and Urta, a hobgoblin captain who serves as jailer."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "3081100-baaz-draconian", 100],
+            [1, "17160-hobgoblin-captain", 700]
+        ]
     },
     {
+        "id": "a0794835-3ea6-49f7-bebb-8da4d4a391e6",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; I: Camp Carrionclay; Camp Carrionclay Locations; I4: Prisoner Cages",
-        "monsters": [
-            [
-                1,
-                "16818-bulette",
-                1800
-            ]
-        ],
-        "text": "Bulette. One cage holds a recently captured bulette. It\u2019s hostile to everyone. If freed, it goes on a rampage, attacking anyone and retreating into the ground once reduced to 15 hit points or fewer."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16818-bulette", 1800]
+        ]
     },
     {
+        "id": "1629d44f-bfe6-4a63-920b-b4492252e555",
         "type": "non-combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; I: Camp Carrionclay; Camp Carrionclay Locations; I4: Prisoner Cages",
-        "monsters": [
-            [
-                1,
-                "3081114-kender-skirmisher",
-                50
-            ]
-        ],
-        "text": "Kennah. One cage houses Kennah, a kender skirmisher (see appendix B) with 1 hit point and no weapons. Kennah is from Heart\u2019s Hollow and was captured while scavenging the wastes. If freed, Kennah can take the characters to her settlement."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081114-kender-skirmisher", 50]
+        ]
     },
     {
+        "id": "8b614943-cd92-4ccc-a5bb-1a5c43c542d8",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; I: Camp Carrionclay; Camp Carrionclay Locations; I5: Zirrok\u2019s Hut",
-        "monsters": [
-            [
-                1,
-                "17161-hobgoblin-warlord",
-                2300
-            ],
-            [
-                2,
-                "3081121-sivak-draconian",
-                1100
-            ]
-        ],
-        "text": "This hut belongs to Fewmaster Zirrok, the hobgoblin warlord in charge of the camp. Zirrok rarely leaves it. The hut is guarded by two sivak draconians (see appendix B). Inside is a cot, a desk, and an ornate chest."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17161-hobgoblin-warlord", 2300],
+            [2, "3081121-sivak-draconian", 1100]
+        ]
     },
     {
+        "id": "d52ca8cf-884a-4dbd-86a0-28a726e05c8c",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; I: Camp Carrionclay; Camp Carrionclay Locations; Wings of Death",
-        "monsters": [
-            [
-                1,
-                "16764-adult-black-dragon",
-                11500
-            ]
-        ],
-        "text": "The creature is Akhviri, an adult black dragon tasked with retrieving the dragon egg for Belephaion. If the characters haven\u2019t left evidence of their presence, Akhviri waits for Fewmaster Zirrok to bring the chest from his tent to the watchtower."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16764-adult-black-dragon", 11500]
+        ]
     },
     {
+        "id": "2fc3fd57-2462-4432-b8ac-5be971898bcc",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; J: Dread Wolf Cove",
         "allies": [
-            [
-                1,
-                "16947-mage",
-                2300
-            ]
+            [1, "16947-mage", 2300]
         ],
-        "monsters": [
-            [
-                1,
-                "3081098-anhkolox",
-                5000
-            ]
-        ],
-        "text": "Dread Wolf Cove is usually an unassuming inlet along the coast. However, the cove is lightly obscured by fog that billows from a nearby cave. If the characters enter, they encounter a wolflike anhkolox (see appendix B). Should the characters battle the monster, Dalamar (neutral elf mage) aids them."
+        "bystanders": [],
+        "enemies": [
+            [1, "3081098-anhkolox", 5000]
+        ]
     },
     {
+        "id": "04c77c35-0677-41ae-a07b-6dbcfe4ea0f4",
         "type": "combat",
-        "modified": 1741669502.5647156,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/the-northern-wastes.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Exploring the Wastes; K: City of Lost Names; Attack on Wind\u2019s End",
-        "monsters": [
-            [
-                3,
-                "3081105-dragon-army-officer",
-                700
-            ],
-            [
-                1,
-                "3081104-dragon-army-dragonnel",
-                700
-            ],
-            [
-                2,
-                "3081106-dragon-army-soldier",
-                200
-            ]
-        ],
-        "text": "Three Dragon Army officers remain here with a Dragon Army dragonnel in a pen (see appendix B for both stat blocks). While the dragonnel is alert, the officers are distracted by the Kalaman forces and are surprised when the characters attack."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "3081105-dragon-army-officer", 700],
+            [1, "3081104-dragon-army-dragonnel", 700],
+            [2, "3081106-dragon-army-soldier", 200]
+        ]
     },
     {
+        "id": "ffdf8fb6-6d61-46dd-91ec-a27518bdca8e",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Path of Memories; Path Locations; M2: Fallen Shop",
-        "monsters": [
-            [
-                1,
-                "17025-stone-golem",
-                5900
-            ]
-        ],
-        "text": "A stone golem hides under a pile of shattered wood and feathery hats. Demelin (see area M9) created the golem and ordered it to attack any creature that disturbs the ruined structure. Any characters who near the ruin and have a passive Wisdom (Perception) score of 16 or higher notice the golem."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17025-stone-golem", 5900]
+        ]
     },
     {
+        "id": "768df6bb-9044-477e-83ea-8605c0eaa275",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Path of Memories; Path Locations; M5: Bone Gauntlet",
-        "monsters": [
-            [
-                3,
-                "17118-bone-naga",
-                1100
-            ]
-        ],
-        "text": "Three incomplete dragon skeletons emerge from the walls, missing bones and entire limbs. These creatures each use the bone naga stat block but without the Spellcasting trait. They fight until destroyed."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17118-bone-naga", 1100]
+        ]
     },
     {
+        "id": "350371cf-6682-4fbc-b6bb-9a9869ecd957",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Path of Memories; Path Locations; M6: Flooded Tavern",
-        "monsters": [
-            [
-                1,
-                "17115-green-slaad",
-                3900
-            ]
-        ],
-        "text": "A green slaad lurks on the stage, drawn to the tunnels by the chaotic magic of the city. If it notices a character, the slaad turns and hisses before using its Hurl Flame action against the character. If a character is in the water, the slaad ignites the flammable liquid (see below). The slaad fights until slain."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17115-green-slaad", 3900]
+        ]
     },
     {
+        "id": "7c6bf0a9-0848-471e-a99f-254e6665b57f",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Path of Memories; Path Locations; M7: Ghosts of the Past",
-        "monsters": [
-            [
-                1,
-                "3081116-lesser-death-dragon",
-                5900
-            ]
-        ],
-        "text": "A character speaking Draconic can try to convince the dragon they mean no harm by making a DC 18 Charisma (Persuasion) check. On a successful check, the brass dragon nods and disappears. On a failed check or if a character doesn\u2019t speak to the dragon, the dragon\u2019s bones manifest around the skull as a complete skeleton. Together, they animate as a lesser death dragon (see appendix B) and attack."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081116-lesser-death-dragon", 5900]
+        ]
     },
     {
+        "id": "365f2858-7a8e-47d2-a902-42602286638a",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Path of Memories; Path Locations; M9: Demelin\u2019s Apartment",
-        "monsters": [
-            [
-                1,
-                "16774-air-elemental",
-                1800
-            ]
-        ],
-        "text": "The gem Demelin breaks is an elemental gem. An instant later, an air elemental with an outline resembling a dragon appears and attacks the characters. Demelin stands back and watches, taking the Dodge action until the elemental is defeated. Afterward, she holds up a hand and says the following:"
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16774-air-elemental", 1800]
+        ]
     },
     {
+        "id": "e85db683-ba44-4ec8-8324-27866573b224",
         "type": "non-combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Path of Memories; Demelin",
-        "monsters": [
-            [
-                1,
-                "16789-archmage",
-                8400
-            ]
-        ],
-        "text": "Demelin (neutral, elf archmage) is hundreds of years old, one of a handful of Silvanesti elves old enough to have lived through the Cataclysm. She commonly wears a bone mask that resembles a skull, and her red robes serve as a cape of the mountebank. Prior to the destruction of the world, Demelin was a prominent member of the Mages of High Sorcery, the high wizard of Onyari, and\u2014along with the Kingpriest of Istar\u2014one of the magic-users responsible for raising the city into the heavens. When the city fell, Demelin learned a lesson in hubris. The dispassionate mage has since dwelled in the city\u2019s ruins, guarding the city to ensure it never takes to the skies again."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16789-archmage", 8400]
+        ]
     },
     {
+        "id": "7c2fb767-cd58-40d6-8ef0-9e9d7ed7c7ff",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Test of High Sorcery; Running the Test",
-        "monsters": [
-            [
-                1,
-                "17075-young-silver-dragon",
-                5000
-            ]
-        ],
-        "text": "The character taking the test finds themself in this re-creation of Onyari\u2019s final moments before the flying city was destroyed. A moment later, a young silver dragon strafes the street ahead, freezing structures and people alike."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17075-young-silver-dragon", 5000]
+        ]
     },
     {
+        "id": "6719a259-755f-417b-bb50-613ebaa67e22",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Exploring the City; City Encounters; Bridge Checkpoint",
-        "monsters": [
-            [
-                3,
-                "3081121-sivak-draconian",
-                1100
-            ]
-        ],
-        "text": "Three sivak draconians (see appendix B) stand guard on a 25-foot-wide bridge spanning a 60-foot drop into a rocky fissure. They are quick to investigate any nearby noise or strange sights."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "3081121-sivak-draconian", 1100]
+        ]
     },
     {
+        "id": "a9aa156f-d036-48cd-8396-1307eff9b1ad",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Exploring the City; City Encounters; Dragon Army Engineers",
+        "allies": [],
         "bystanders": [
-            [
-                10,
-                "16829-commoner",
-                10
-            ]
+            [10, "16829-commoner", 10]
         ],
-        "monsters": [
-            [
-                1,
-                "3081105-dragon-army-officer",
-                700
-            ],
-            [
-                3,
-                "3081121-sivak-draconian",
-                1100
-            ]
-        ],
-        "text": "One Dragon Army officer and three sivak draconians (see appendix B for both stat blocks) oversee ten commoner engineers repairing 30-foot-deep cracks in the city\u2019s streets. If the Dragon Army members spot the characters or the characters attack them, the engineers stay out of combat. The engineers can tell the characters they\u2019re making sure the city\u2019s foundations are solid, though they don\u2019t know why."
+        "enemies": [
+            [1, "3081105-dragon-army-officer", 700],
+            [3, "3081121-sivak-draconian", 1100]
+        ]
     },
     {
+        "id": "d9562cc4-b54b-4478-b8af-ea2ec9d1ba76",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Exploring the City; City Encounters; Monster Hunters",
-        "monsters": [
-            [
-                1,
-                "3081121-sivak-draconian",
-                1100
-            ],
-            [
-                4,
-                "3081113-kapak-draconian",
-                700
-            ]
-        ],
-        "text": "A sivak draconian and four kapak draconians (see appendix B for both stat blocks) have orders to seek out dangerous monsters lurking in the ruins. They\u2019ve just found an Istarian drone (see appendix B) and are preparing to attack."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081121-sivak-draconian", 1100],
+            [4, "3081113-kapak-draconian", 700]
+        ]
     },
     {
+        "id": "8936cd68-1cee-442d-a23f-b09474fc8f7e",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Exploring the City; City Encounters; Patrol",
-        "monsters": [
-            [
-                5,
-                "3081113-kapak-draconian",
-                700
-            ]
-        ],
-        "text": "Five kapak draconians (see appendix B) patrol the city. They follow a predictable route and, after an hour of walking, check in at their headquarters (see the \u201cOccupied Mansion\u201d section)."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "3081113-kapak-draconian", 700]
+        ]
     },
     {
+        "id": "7c5830bc-cfb7-425c-8bcb-3696d7cf2fcf",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Occupied Mansion; Occupied Mansion Locations; O1: Exterior",
-        "monsters": [
-            [
-                4,
-                "3081113-kapak-draconian",
-                700
-            ]
-        ],
-        "text": "Guards. Four kapak draconians (see appendix B) stand guard outside the mansion: one at the carriage house\u2019s east door, two at the front door, and one at the back patio door. If attacked, the draconians shout to alert the other draconians outside the house and in the area connected to the door they guard (area O3 or area O4, whichever\u2019s closest)."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "3081113-kapak-draconian", 700]
+        ]
     },
     {
+        "id": "20570164-7cbf-440a-a3ad-176bcecd1086",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Occupied Mansion; Occupied Mansion Locations; O1: Exterior",
-        "monsters": [
-            [
-                8,
-                "3081106-dragon-army-soldier",
-                200
-            ]
-        ],
-        "text": "Patrol. Roughly once per hour, a group of eight Dragon Army soldiers (see appendix B) arrives outside the mansion, checks in with the guards there, then departs. If the kapak guards aren\u2019t at their posts, the patrol ventures into the mansion to investigate."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "3081106-dragon-army-soldier", 200]
+        ]
     },
     {
+        "id": "262b61b7-7ad3-4f78-ada0-01bf120f00cd",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Occupied Mansion; Occupied Mansion Locations; O3: Carriage House",
-        "monsters": [
-            [
-                3,
-                "3081113-kapak-draconian",
-                700
-            ]
-        ],
-        "text": "Draconians. Three kapak draconians (see appendix B) stand guard here. One has the key to the prison cart."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "3081113-kapak-draconian", 700]
+        ]
     },
     {
+        "id": "66c75ad6-6ae1-48ee-b89c-34b7aead16a9",
         "type": "non-combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Occupied Mansion; Occupied Mansion Locations; O3: Carriage House",
-        "monsters": [
-            [
-                1,
-                "3081124-wasteland-dragonnel",
-                700
-            ]
-        ],
-        "text": "Prison Cart. A wooden cart with an iron cage built into it holds a wasteland dragonnel (see appendix B) that had been lairing near the mansion. The troops captured the dragonnel, hoping to train it to serve as a mount. A character can free the caged dragonnel by using the key held by the room\u2019s guards or by succeeding on a DC 18 Dexterity check using thieves\u2019 tools. If freed, the dragonnel is wary of the characters, avoiding them as it tries to escape to the street so it can fly away. It attacks any Dragon Army troops it encounters along the way."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081124-wasteland-dragonnel", 700]
+        ]
     },
     {
+        "id": "85030e6d-1901-468c-a1a3-3ea6925eedfc",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Occupied Mansion; Occupied Mansion Locations; O4: Salon",
-        "monsters": [
-            [
-                2,
-                "3081101-bozak-draconian",
-                450
-            ],
-            [
-                1,
-                "3081113-kapak-draconian",
-                700
-            ],
-            [
-                3,
-                "3081106-dragon-army-soldier",
-                200
-            ]
-        ],
-        "text": "The Dragon Army has converted this room into a mess hall. At any time, two bozak draconians, one kapak draconian, and three Dragon Army soldiers (see appendix B for these stat blocks) take meals here. They glance up at anyone who enters the room, but they pay no attention to characters dressed as Dragon Army troops."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "3081101-bozak-draconian", 450],
+            [1, "3081113-kapak-draconian", 700],
+            [3, "3081106-dragon-army-soldier", 200]
+        ]
     },
     {
+        "id": "34246462-66c9-428c-bed0-c602f2aba2fa",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Occupied Mansion; Occupied Mansion Locations; O6: Kitchen",
-        "monsters": [
-            [
-                1,
-                "17160-hobgoblin-captain",
-                700
-            ]
-        ],
-        "text": "The command post\u2019s cook, Yurl, is a skeletally thin hobgoblin captain. His apron is covered with grisly stains, which grow by the minute as he hacks at a jackal carcass with an oversized cleaver. If Yurl detects intruders, he attacks with his cleaver (which uses the statistics for his Greatsword attack)."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17160-hobgoblin-captain", 700]
+        ]
     },
     {
+        "id": "2df91b1c-d926-4ea8-94f4-f46494159f5f",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Occupied Mansion; Occupied Mansion Locations; O8: Drawing Room",
-        "monsters": [
-            [
-                8,
-                "3081106-dragon-army-soldier",
-                200
-            ]
-        ],
-        "text": "This parlor serves as a barracks for Dragon Army troops not on patrol. Eight Dragon Army soldiers (see appendix B) are resting here. If they haven\u2019t been alerted by noise in other rooms, they are surprised if the characters attack."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "3081106-dragon-army-soldier", 200]
+        ]
     },
     {
+        "id": "07e13b64-9371-48bf-9eae-912f9600f972",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Occupied Mansion; Occupied Mansion Locations; O10: Master Bedroom",
-        "monsters": [
-            [
-                1,
-                "3081099-aurak-draconian",
-                2300
-            ]
-        ],
-        "text": "Captain Hask, an aurak draconian (see appendix B), is writing reports at the desk. Hask knows all the soldiers in his unit, and the characters can convince Hask they\u2019re Dragon Army soldiers only with a successful DC 22 Charisma (Deception) check. If Hask believes he\u2019s being tricked, he stands and attacks while calling for the soldiers in area O11, who arrive after 1 round. Hask is a devout servant of the Dragon Queen and fights to the death."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081099-aurak-draconian", 2300]
+        ]
     },
     {
+        "id": "b81872f2-04dd-46de-b066-beca15d3ff08",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Occupied Mansion; Occupied Mansion Locations; O11: Library",
-        "monsters": [
-            [
-                3,
-                "3081105-dragon-army-officer",
-                700
-            ]
-        ],
-        "text": "Three Dragon Army officers (see appendix B) work here as clerks, coordinating reports. If threatened, they shout to alert Captain Hask, who arrives from area O10 after 1 round. These officers are loyal to Captain Hask, and he counts as a Dragon for the purpose of their Draconic Devotion trait. Two of the three officers fight to the death. The last remaining officer surrenders when their allies are defeated."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "3081105-dragon-army-officer", 700]
+        ]
     },
     {
+        "id": "74f472c5-d205-424f-82be-518b368544bb",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Temple of Paladine; Temple of Paladine Locations; P2: Wooded Berm",
-        "monsters": [
-            [
-                1,
-                "17037-treant",
-                5000
-            ]
-        ],
-        "text": "The neutral treant Duskwalker stands motionless amid trees whose branches bear dead Dragon Army soldiers. Before Onyari\u2019s destruction, Duskwalker served as its master gardener. The city\u2019s devastation left them deeply bitter, and the Dragon Army\u2019s invasion has newly angered the ancient creature."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17037-treant", 5000]
+        ]
     },
     {
+        "id": "16e6b3be-87ca-450c-8776-49d05f15a2c8",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Temple of Paladine; Temple of Paladine Locations; P3: Lake",
-        "monsters": [
-            [
-                1,
-                "17143-marid",
-                7200
-            ],
-            [
-                1,
-                "17051-water-elemental",
-                1800
-            ]
-        ],
-        "text": "A hostile marid named Jamir has taken up residence in this area. Once bound by the kingpriest\u2019s wizards to power the city\u2019s plumbing, Jamir has taken great delight in Onyari\u2019s destruction and seeks to punish any who would reclaim the city. If alerted to the party\u2019s presence by noise from area P2, he conjures a water elemental and hides underwater, prepared to ambush the characters. Characters with a passive Wisdom (Perception) score of 16 or higher aren\u2019t surprised when Jamir attacks. If reduced to 20 hit points or fewer, he uses plane shift to escape at the first opportunity."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17143-marid", 7200],
+            [1, "17051-water-elemental", 1800]
+        ]
     },
     {
+        "id": "9708d161-e3e2-4fe8-bc89-c66152911554",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Temple of Paladine; Temple of Paladine Locations; P4: Nave",
-        "monsters": [
-            [
-                4,
-                "16961-mummy",
-                700
-            ]
-        ],
-        "text": "Disturbed Dead. If a creature falls into one of the pits, it disturbs the dead buried in the vault below. One round later, four slimy mummies emerge from the three pits. These lawful neutral Undead seek to defend the temple. They won\u2019t converse with characters, but they return to their soggy tombs if a character brandishes a symbol of Paladine toward them."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16961-mummy", 700]
+        ]
     },
     {
+        "id": "d0538420-ef42-47fb-a6e2-660a243f9135",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Threshold of the Heavens; Threshold Locations; T1: Plaza",
-        "monsters": [
-            [
-                3,
-                "3081105-dragon-army-officer",
-                700
-            ],
-            [
-                1,
-                "3081104-dragon-army-dragonnel",
-                700
-            ]
-        ],
-        "text": "Tower Patrol. Three Dragon Army officers mounted on Dragon Army dragonnels (see appendix B for both stat blocks) patrol near the tower. They ignore creatures wearing Dragon Army armor but confront anyone else on the floating island. If the tower\u2019s guards are attacked, this patrol arrives to aid their allies in 2 rounds."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "3081105-dragon-army-officer", 700],
+            [1, "3081104-dragon-army-dragonnel", 700]
+        ]
     },
     {
+        "id": "a26d84dc-087b-4540-ae5a-8050b471e2a8",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Threshold of the Heavens; Threshold Locations; T1: Plaza",
-        "monsters": [
-            [
-                4,
-                "3081121-sivak-draconian",
-                1100
-            ]
-        ],
-        "text": "Tower Guards. Four sivak draconians (see appendix B) guard the tower\u2019s entrance. They halt anyone who tries to enter, whether wearing Dragon Army armor or not, and demand they state the passphrase. If a character responds with the passphrase they learned in the \u201cOccupied Mansion\u201d section (\u201cBy her will: the world\u201d) the draconians let the characters pass. If they don\u2019t speak the passphrase, a character must succeed on a DC 18 Charisma (Deception) check to fool the sivaks; otherwise, the sivaks attack. Characters wearing Dragon Army armor or similar garb have advantage on Charisma checks made to influence the tower\u2019s guards. The draconians ignore sounds inside the tower."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "3081121-sivak-draconian", 1100]
+        ]
     },
     {
+        "id": "1b423fb5-1845-4623-a18f-23f08cac9a3d",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Threshold of the Heavens; Threshold Locations; T2: Entry",
-        "monsters": [
-            [
-                1,
-                "16813-bone-devil",
-                5000
-            ],
-            [
-                1,
-                "3081101-bozak-draconian",
-                450
-            ]
-        ],
-        "text": "Guardians. A bone devil named Guelfost and his handler, a bozak draconian (see appendix B) named Orm, serve Lohezet and have been assigned to guard this level of the tower. Orm demands visitors state their business. A character must succeed on a DC 12 Charisma (Deception) check to convince Orm the characters have business in the tower."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16813-bone-devil", 5000],
+            [1, "3081101-bozak-draconian", 450]
+        ]
     },
     {
+        "id": "d3de0b61-8f6f-4bf7-b759-473c08bd2860",
         "type": "alternate combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Threshold of the Heavens; Threshold Locations; T3: Tower Monitoring",
-        "monsters": [
-            [
-                3,
-                "17091-flameskull",
-                1100
-            ]
-        ],
-        "text": "If the tower drops in this manner, Lohezet commands the three flameskulls in area T7 to find the source of the problem. One minute later, the flameskulls find the characters (regardless of their location in the tower) and attack."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17091-flameskull", 1100]
+        ]
     },
     {
+        "id": "f7ffed1b-dceb-4df6-bc34-ad3a9576a953",
         "type": "alternate combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Threshold of the Heavens; Threshold Locations; T4: Energy Field",
-        "monsters": [
-            [
-                1,
-                "3081110-istarian-drone",
-                2300
-            ]
-        ],
-        "text": "Crystal Columns. The columns in this room are Large objects with AC 16, 18 hit points, and immunity to poison and psychic damage. If three or more of the room\u2019s nine columns are destroyed, lightning stops arcing between the columns, ending the effect described above. The first time a column in the room takes damage, a 10-foot-square panel opens in the floor near the door leading to area T5, releasing a hostile Istarian drone (see appendix B)."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081110-istarian-drone", 2300]
+        ]
     },
     {
+        "id": "0b7164b4-918b-4274-9868-c51037845ebc",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Threshold of the Heavens; Threshold Locations; T5: Drone Monitoring",
-        "monsters": [
-            [
-                2,
-                "3081110-istarian-drone",
-                2300
-            ]
-        ],
-        "text": "In this room, workers would charge and repair the tower\u2019s construct defenders. The two Istarian drones (see appendix B) are intact but powered down. They activate and attack in the room if a drone, a column, or the console is damaged."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "3081110-istarian-drone", 2300]
+        ]
     },
     {
+        "id": "c50fc004-33d3-413c-8399-b8708f583024",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Threshold of the Heavens; Threshold Locations; T7: Communications",
-        "monsters": [
-            [
-                3,
-                "17091-flameskull",
-                1100
-            ]
-        ],
-        "text": "Flameskulls. Since whatever accident befell this room, Lohezet doesn\u2019t allow Dragon Army soldiers higher than this floor. Three flameskulls guard this room and attack any creature other than Lohezet that enters. The flameskulls are no longer present if they went to investigate area T3."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17091-flameskull", 1100]
+        ]
     },
     {
+        "id": "bfe70798-d0d2-48f1-bd81-9e6e1aec8030",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Threshold of the Heavens; Threshold Locations; T8: Navigation",
-        "monsters": [
-            [
-                2,
-                "3081099-aurak-draconian",
-                2300
-            ]
-        ],
-        "text": "Two aurak draconians (see appendix B) lean over the table, intensely studying it. They can be surprised by a character who succeeds on a DC 8 Dexterity (Stealth) check."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "3081099-aurak-draconian", 2300]
+        ]
     },
     {
+        "id": "9c0c0253-132e-422f-9bb9-32f1813dd354",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Threshold of the Heavens; Threshold Locations; T9: Scrying Room",
-        "monsters": [
-            [
-                1,
-                "3081117-lohezet",
-                8400
-            ]
-        ],
-        "text": "This chamber\u2019s scrying magic informed the city\u2019s navigators of storms and other approaching threats. The black-robed wizard Lohezet (see appendix B), who hunches over the southwest desk here, has been using his magic to alter the magical mirrors\u2019 focuses, fixing one on Kalaman."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081117-lohezet", 8400]
+        ]
     },
     {
+        "id": "e99aa1ca-c7ab-4951-9858-a2bebbd3ce19",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Threshold of the Heavens; Threshold Locations; T10: Bridge",
-        "monsters": [
-            [
-                1,
-                "17068-young-blue-dragon",
-                5000
-            ],
-            [
-                2,
-                "3081101-bozak-draconian",
-                450
-            ]
-        ],
-        "text": "Belephaion (see below) sits on the throne in this room. Two bozak draconians (see appendix B) attend him, one in the walkway to the southwest and the other in the walkway to the southeast."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17068-young-blue-dragon", 5000],
+            [2, "3081101-bozak-draconian", 450]
+        ]
     },
     {
+        "id": "9445bfb3-6162-40b5-a6e0-92c6004048be",
         "type": "non-combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; The City Rises; Escaping the City; Escaped Dragonnels",
-        "monsters": [
-            [
-                4,
-                "3081104-dragon-army-dragonnel",
-                700
-            ]
-        ],
-        "text": "Four Dragon Army dragonnels (see appendix B) have been separated from their riders. A character can convince the dragonnels to let the characters ride them out of the city by succeeding on a DC 16 Charisma (Persuasion) check. Afterward, the dragonnels drop the characters off and depart."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "3081104-dragon-army-dragonnel", 700]
+        ]
     },
     {
+        "id": "97a53f42-3a04-4211-990b-ed40a521ff8a",
         "type": "non-combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; The City Rises; Escaping the City; Escaped Dragonnels",
-        "monsters": [
-            [
-                1,
-                "3081124-wasteland-dragonnel",
-                700
-            ]
-        ],
-        "text": "Alternatively, if the characters saved the wasteland dragonnel (see appendix B) in the occupied mansion, it might return with other dragonnels to help them escape."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081124-wasteland-dragonnel", 700]
+        ]
     },
     {
+        "id": "e6bd4d28-6be8-44b1-8310-8f30fb0e3c0a",
         "type": "combat",
-        "modified": 1741669502.7568786,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/city-of-lost-names.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; The City Rises; Escaping the City; Ill-Fated Ambush",
-        "monsters": [
-            [
-                3,
-                "3081113-kapak-draconian",
-                700
-            ],
-            [
-                1,
-                "3081121-sivak-draconian",
-                1100
-            ]
-        ],
-        "text": "A patrol of three kapak draconians and one sivak draconian (see appendix B for both stat blocks) spots the characters and attacks. At the end of the first round of combat, roll a die. If you roll an even number, a random draconian is affected as if by the levitate spell (save DC 15) for 1 minute. If you roll an odd number, a boulder falls on a random draconian, dealing 33 (6d10) bludgeoning damage to it."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "3081113-kapak-draconian", 700],
+            [1, "3081121-sivak-draconian", 1100]
+        ]
     },
     {
+        "id": "26b44ca1-f2b7-43e7-923f-d2deee5f5503",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; A Hasty Retreat",
-        "monsters": [
-            [
-                2,
-                "3081116-lesser-death-dragon",
-                5900
-            ]
-        ],
-        "text": "The flying citadel and the Dragon Army aren\u2019t immediate threats so long as the characters and Kalaman\u2019s forces keep their distance. If the characters draw near, they attract the attention of one or more lesser death dragons (see appendix B) that attack until the characters retreat."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "3081116-lesser-death-dragon", 5900]
+        ]
     },
     {
+        "id": "999756ad-a796-47cf-8e1e-74d3cf9fee5a",
         "type": "non-combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; A Hasty Retreat; Shadow of the Citadel",
-        "monsters": [
-            [
-                1,
-                "17007-scout",
-                100
-            ]
-        ],
-        "text": "Darrett encourages the characters to rest, then set off for the coast as soon as they\u2019re ready. If Clystran (see chapter 5) is with Darrett\u2019s troops, he can guide them, hastening the characters\u2019 journey."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17007-scout", 100]
+        ]
     },
     {
+        "id": "b8aa639f-8e17-4327-83fd-b5295d894e5d",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; A Hasty Retreat; To the Coast; Dragonnel Down",
+        "allies": [],
         "bystanders": [
-            [
-                1,
-                "3081124-wasteland-dragonnel",
-                700
-            ]
+            [1, "3081124-wasteland-dragonnel", 700]
         ],
-        "monsters": [
-            [
-                3,
-                "3081105-dragon-army-officer",
-                700
-            ],
-            [
-                3,
-                "3081104-dragon-army-dragonnel",
-                700
-            ]
-        ],
-        "text": "The injured wasteland dragonnel (see appendix B) crashes to the ground 30 feet from the characters. It has 4 hit points remaining and is restrained by a net. The three Dragon Army officers and their Dragon Army dragonnels (see appendix B for both stat blocks) land nearby. They approach the injured dragonnel, planning to capture it and train it to serve as a mount. If the characters interfere, the Dragon Army troops attack them. The Dragon Army dragonnels flee if their riders are defeated."
+        "enemies": [
+            [3, "3081105-dragon-army-officer", 700],
+            [3, "3081104-dragon-army-dragonnel", 700]
+        ]
     },
     {
+        "id": "9cb54000-1d1e-4071-97c6-2865571f0124",
         "type": "non-combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Day of Dread; Trouble at the Gates",
-        "monsters": [
-            [
-                1,
-                "17045-veteran",
-                700
-            ],
-            [
-                8,
-                "3081111-kalaman-soldier",
-                100
-            ]
-        ],
-        "text": "The Trade Gate has been closed at the orders of Captain Oklid Narnhelm (neutral, human veteran). He\u2019s on the scene with his eight Kalaman soldiers (see appendix B). If questioned, Narnhelm shares the following:"
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17045-veteran", 700],
+            [8, "3081111-kalaman-soldier", 100]
+        ]
     },
     {
+        "id": "432cc5f1-14b6-46fd-a584-534d16988891",
         "type": "non-combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Day of Dread; Strange Riders",
-        "monsters": [
-            [
-                1,
-                "17007-scout",
-                100
-            ],
-            [
-                1,
-                "16938-knight",
-                700
-            ]
-        ],
-        "text": "The riders are Clystran and Darrett. If the characters saved the dragonnel in the \u201cOccupied Mansion\u201d section in chapter 6 or in the \u201cDragonnel Down\u201d encounter earlier in this chapter, they recognize it as the same creature."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17007-scout", 100],
+            [1, "16938-knight", 700]
+        ]
     },
     {
+        "id": "330969ee-9221-4f6d-888c-58677cc3caae",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Night of Terror; No Sleep in Kalaman; Night Encounters",
         "allies": [
-            [
-                4,
-                "3081111-kalaman-soldier",
-                100
-            ]
+            [4, "3081111-kalaman-soldier", 100]
         ],
-        "monsters": [
-            [
-                6,
-                "3081113-kapak-draconian",
-                700
-            ]
-        ],
-        "text": "Six kapak draconians scale the walls and attack a group of Kalaman soldiers near the characters (see appendix B for both stat blocks)."
+        "bystanders": [],
+        "enemies": [
+            [6, "3081113-kapak-draconian", 700]
+        ]
     },
     {
+        "id": "926d7fac-e963-4d0e-a6e9-21fc40203386",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Night of Terror; No Sleep in Kalaman; Night Encounters",
-        "monsters": [
-            [
-                4,
-                "3081121-sivak-draconian",
-                1100
-            ]
-        ],
-        "text": "Four Kalaman soldiers turn on their commander—in truth, these are four sivak draconians (see appendix B) disguised using Shape Theft."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "3081121-sivak-draconian", 1100]
+        ]
     },
     {
+        "id": "edd74c93-c56e-4110-ac97-a3d0914c9bcb",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Night of Terror; No Sleep in Kalaman; Testing the Defenses",
         "allies": [
-            [
-                6,
-                "3081111-kalaman-soldier",
-                100
-            ]
+            [6, "3081111-kalaman-soldier", 100]
         ],
-        "monsters": [
-            [
-                4,
-                "3081104-dragon-army-dragonnel",
-                700
-            ],
-            [
-                8,
-                "3081101-bozak-draconian",
-                450
-            ]
-        ],
-        "text": "Four Dragon Army dragonnels carry a total of eight bozak draconians (see appendix B for both stat blocks). On the walls near the characters are three ballistae (detailed in the \u201cSiege Equipment\u201d section of the Dungeon Master\u2019s Guide) and six Kalaman soldiers (see appendix B)."
+        "bystanders": [],
+        "enemies": [
+            [4, "3081104-dragon-army-dragonnel", 700],
+            [8, "3081101-bozak-draconian", 450]
+        ]
     },
     {
+        "id": "46c512dc-8fc1-4924-9c82-4ad35c981830",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Night of Terror; No Sleep in Kalaman; Highmaster\u2019s Message",
-        "monsters": [
-            [
-                1,
-                "3081116-lesser-death-dragon",
-                5900
-            ]
-        ],
-        "text": "This lesser death dragon (see appendix B) has come specifically for the characters. After its dramatic crash landing, it starts the battle with 160 hit points and fights to the death."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081116-lesser-death-dragon", 5900]
+        ]
     },
     {
+        "id": "9051c201-f9dd-46b0-a5b5-e481a81f48ba",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Night of Terror; Bakaris Defects",
-        "monsters": [
-            [
-                6,
-                "3081105-dragon-army-officer",
-                700
-            ]
-        ],
-        "text": "The portcullis rises jerkily. After 3 rounds, it will be high enough to admit a group of six Dragon Army officers (see appendix B) into the city."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "3081105-dragon-army-officer", 700]
+        ]
     },
     {
+        "id": "22b05f5a-a895-4153-8e59-652ae5b50eda",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Night of Terror; Bakaris Defects",
+        "allies": [],
         "bystanders": [
-            [
-                1,
-                "16966-noble",
-                25
-            ]
+            [1, "16966-noble", 25]
         ],
-        "monsters": [
-            [
-                6,
-                "16938-knight",
-                700
-            ]
-        ],
-        "text": "The characters know the portcullis\u2019s controls are in the guardroom adjacent to the gate. There they find the anxious Lord Bakaris (noble), accompanied by six knights in Kalaman armor. One of the knights turns a winch, raising the portcullis outside."
+        "enemies": [
+            [6, "16938-knight", 700]
+        ]
     },
     {
+        "id": "c10505f8-f9e5-4f20-8f40-c246ef1a1136",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Battle of Kalaman; Battle Begins; Ballista Breakers",
-        "monsters": [
-            [
-                4,
-                "3081121-sivak-draconian",
-                1100
-            ]
-        ],
-        "text": "A flight of dozens of sivak draconians soars from the flying citadel toward Kalaman. Many are shot down, but four sivak draconians (see appendix B) land on Kalaman\u2019s wall and attempt to destroy three ballistae 30 feet from the characters."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "3081121-sivak-draconian", 1100]
+        ]
     },
     {
+        "id": "cb0efdc1-948e-4514-b26b-af9503732e61",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Battle of Kalaman; Battle Begins; Daring Riders",
-        "monsters": [
-            [
-                3,
-                "3081105-dragon-army-officer",
-                700
-            ],
-            [
-                3,
-                "3081104-dragon-army-dragonnel",
-                700
-            ]
-        ],
-        "text": "Three Dragon Army officers mounted on Dragon Army dragonnels (see appendix B for both stat blocks) manage to get past Kalaman\u2019s walls. The riders throw alchemist\u2019s fire onto the city as they circle overhead. Characters on the wall can turn a ballista to fire over the city, but doing so takes an action and a successful DC 16 Strength (Athletics) check. If the ballistae near the characters have been destroyed, they can find an additional ballista 60 feet farther along the city wall."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "3081105-dragon-army-officer", 700],
+            [3, "3081104-dragon-army-dragonnel", 700]
+        ]
     },
     {
+        "id": "10c2a85f-622a-4aa7-a0cf-767c076e12d9",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Battle of Kalaman; Battle Begins; Death Dragon Attack",
-        "monsters": [
-            [
-                1,
-                "3081116-lesser-death-dragon",
-                5900
-            ],
-            [
-                4,
-                "17077-zombie",
-                50
-            ]
-        ],
-        "text": "A lesser death dragon (see appendix B) crashes against Kalaman\u2019s wall at least 90 feet from the characters. By the time the characters draw close, the death dragon has already used its Cataclysmic Breath to kill four Kalaman soldiers, transforming them into zombies."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081116-lesser-death-dragon", 5900],
+            [4, "17077-zombie", 50]
+        ]
     },
     {
+        "id": "0d18a4ad-f6e2-43f5-9c25-a65485e15e9c",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Battle of Kalaman; Battle Begins; Draconian Assassins",
         "allies": [
-            [
-                1,
-                "17045-veteran",
-                700
-            ]
+            [1, "17045-veteran", 700]
         ],
-        "monsters": [
-            [
-                2,
-                "3081099-aurak-draconian",
-                2300
-            ]
-        ],
-        "text": "While the characters are at the Trade Gate command post or another vulnerable point, two aurak draconians (see appendix B) teleport nearby using the dimension door spell and attack a Kalaman commander (use the veteran stat block). This might be Marshal Vendri, Captain Narnhelm, or another Kalaman officer."
+        "bystanders": [],
+        "enemies": [
+            [2, "3081099-aurak-draconian", 2300]
+        ]
     },
     {
+        "id": "412c35b8-8b18-4a6e-8ee3-351ff4d5ed94",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Battle of Kalaman; Assault on Hawker\u2019s Grove",
+        "allies": [],
         "bystanders": [
-            [
-                1,
-                "17007-scout",
-                100
-            ],
-            [
-                5,
-                "3081124-wasteland-dragonnel",
-                700
-            ]
+            [1, "17007-scout", 100],
+            [5, "3081124-wasteland-dragonnel", 700]
         ],
-        "monsters": [
-            [
-                4,
-                "16993-red-dragon-wyrmling",
-                1100
-            ],
-            [
-                1,
-                "3081121-sivak-draconian",
-                1100
-            ]
-        ],
-        "text": "The scout Clystran has taken refuge in the grove and has set up a small camp where he waits for the characters. He\u2019s accompanied by his own coppery wasteland dragonnel (see appendix B) and one for each character. Just before the characters arrived, four red dragon wyrmlings pursuing the dragonnels used their breath to set part of the grove aflame. The red dragons now lurk in the smoke, preparing to attack. They fight until wounded by a dragonlance or reduced to 10 hit points or fewer. Clystran and his dragonnels stay out of battle unless attacked."
+        "enemies": [
+            [4, "16993-red-dragon-wyrmling", 1100],
+            [1, "3081121-sivak-draconian", 1100]
+        ]
     },
     {
+        "id": "8c2e4b93-ee10-4145-92e5-d8f55c0d30c2",
         "type": "non-combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Battle of Kalaman; Meeting with Clystran",
-        "monsters": [
-            [
-                1,
-                "17007-scout",
-                100
-            ],
-            [
-                5,
-                "3081124-wasteland-dragonnel",
-                700
-            ]
-        ],
-        "text": "After the red dragons are defeated, Clystran greets the characters and introduces them to the wasteland dragonnels (see appendix B) he has convinced to aid them. Use the following topics to guide the conversation with Clystran:"
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17007-scout", 100],
+            [5, "3081124-wasteland-dragonnel", 700]
+        ]
     },
     {
+        "id": "6c81fb1a-cf2d-45ff-8849-5f8dd26d32c9",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Battle of Kalaman; Flight of the Dragonnels",
         "allies": [
-            [
-                1,
-                "17007-scout",
-                100
-            ],
-            [
-                5,
-                "3081124-wasteland-dragonnel",
-                700
-            ]
+            [1, "17007-scout", 100],
+            [5, "3081124-wasteland-dragonnel", 700]
         ],
-        "monsters": [
-            [
-                6,
-                "3081104-dragon-army-dragonnel",
-                700
-            ]
-        ],
-        "text": "As the characters near the flying citadel, they must succeed on a DC 14 group Dexterity (Stealth) check or a flight of six Dragon Army dragonnels (see appendix B) spots the party and approaches. If the characters have disguised themselves as Dragon Army soldiers, the dragonnels ignore them and fly on. Otherwise, the dragonnels attack. If the characters flee, the dragonnels break off after a short pursuit, but other foes notice the characters (see the following section)."
+        "bystanders": [],
+        "enemies": [
+            [6, "3081104-dragon-army-dragonnel", 700]
+        ]
     },
     {
+        "id": "f1bfe8f6-505f-4ad6-8003-df31699df8bc",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Battle of Kalaman; Flight of the Dragonnels; Red Ruin",
-        "bystanders": [
-            [
-                1,
-                "17007-scout",
-                100
-            ],
-            [
-                1,
-                "3081124-wasteland-dragonnel",
-                700
-            ]
-        ],
         "allies": [
-            [
-                4,
-                "3081124-wasteland-dragonnel",
-                700
-            ]
+            [4, "3081124-wasteland-dragonnel", 700]
         ],
-        "monsters": [
-            [
-                1,
-                "3081119-red-ruin",
-                5900
-            ],
-            [
-                1,
-                "3081105-dragon-army-officer",
-                700
-            ],
-            [
-                2,
-                "3081104-dragon-army-dragonnel",
-                700
-            ]
+        "bystanders": [
+            [1, "17007-scout", 100],
+            [1, "3081124-wasteland-dragonnel", 700]
         ],
-        "text": "The characters are spotted while they\u2019re approximately 600 feet above the ground. Coming for them is Red Ruin, the Red Dragon Army\u2019s ace dragonnel rider, and Bakaris the Younger (a Dragon Army officer). Both are mounted on Dragon Army dragonnels (see appendix B for all three stat blocks)."
+        "enemies": [
+            [1, "3081119-red-ruin", 5900],
+            [1, "3081105-dragon-army-officer", 700],
+            [2, "3081104-dragon-army-dragonnel", 700]
+        ]
     },
     {
+        "id": "bdf7e164-050c-4e75-a680-11d08bb03ce4",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; Citadel Depths; S1: Tunnels",
-        "monsters": [
-            [
-                1,
-                "3081116-lesser-death-dragon",
-                5900
-            ]
-        ],
-        "text": "To navigate the tunnels to area S2 without incident, the characters must succeed on a DC 16 group Wisdom (Survival) check. If more than half the characters fail the check, they find the passage leads through a 50-foot-wide, 70-foot-long, 50-foot-high cavern where a lesser death dragon (see appendix B) lurks. It attacks when it notices the characters. Once the dragon is defeated, the characters face no more dangers in the tunnels. They eventually find a 30-foot shaft rising to area S2."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081116-lesser-death-dragon", 5900]
+        ]
     },
     {
+        "id": "b05bb31a-827a-41b3-b966-a85ffcca7be2",
         "type": "non-combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; Temple Crypts; S2: Entry",
-        "monsters": [
-            [
-                1,
-                "16871-ghost",
-                1100
-            ]
-        ],
-        "text": "The elf waiting here is Leedara (a neutral ghost detailed in chapter 3) in her guise as a living Silvanesti elf. She\u2019s here to aid the characters in confounding Lord Soth\u2019s plans and imparts the following information:"
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16871-ghost", 1100]
+        ]
     },
     {
+        "id": "77125376-3077-4190-864c-fc03d8b8ed3c",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; Temple Crypts; S3: Burial Vault",
-        "monsters": [
-            [
-                2,
-                "3081122-skeletal-knight",
-                2900
-            ],
-            [
-                1,
-                "16959-minotaur-skeleton",
-                450
-            ]
-        ],
-        "text": "Two skeletal knights (see appendix B) and a minotaur skeleton stand guard in this room and attack intruders on sight."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "3081122-skeletal-knight", 2900],
+            [1, "16959-minotaur-skeleton", 450]
+        ]
     },
     {
+        "id": "ca020efe-7739-4e9a-8c1d-64214b653d76",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; Temple Crypts; S4: Chemosh\u2019s Shrine",
-        "monsters": [
-            [
-                1,
-                "16825-clay-golem",
-                5000
-            ]
-        ],
-        "text": "If the character refuses the offer, the altar emits smoke that coalesces into a hulking figure. This hostile figure uses the clay golem stat block, but it is an Undead instead of a Construct. If the character accepts, they immediately become aware of how to use the altar to speak with the dead, and they don\u2019t need a holy symbol to do so."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16825-clay-golem", 5000]
+        ]
     },
     {
+        "id": "cbd674e1-2296-4e1e-95da-b74db74cf986",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; Temple Crypts; S9: Tenadria\u2019s Tomb",
-        "monsters": [
-            [
-                1,
-                "17043-vampire",
-                10000
-            ]
-        ],
-        "text": "Alstare Bellis. The neutral evil vampire and former high priest of Chemosh, Alstare Bellis, hides just above the entrance to the tomb in bat form. A character who succeeds on a DC 18 Wisdom (Perception) check notices the bat. If Alstare isn\u2019t detected, he waits for the characters to enter the tomb and drops behind them, changing into his Humanoid form and blocking the exit."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17043-vampire", 10000]
+        ]
     },
     {
+        "id": "6cfc7fe0-ac1c-4e83-91f9-55a1956ca5c2",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; Priests\u2019 Quarters; S10: Corridors",
-        "monsters": [
-            [
-                2,
-                "3081122-skeletal-knight",
-                2900
-            ]
-        ],
-        "text": "The corridors on this level are guarded by two skeletal knights (see appendix B). The knights guard the door to the sanctuary (area S12), and they notice anyone using the southeast stairs to area S3."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "3081122-skeletal-knight", 2900]
+        ]
     },
     {
+        "id": "e436bc03-6d97-4354-88f1-73c6ce6236bb",
         "type": "non-combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; Priests\u2019 Quarters; S11: Rubble and Ruin",
-        "monsters": [
-            [
-                1,
-                "17043-vampire",
-                10000
-            ]
-        ],
-        "text": "Lorry Wanwillow (chaotic evil, kender vampire; her Shapechanger trait allows her to become a rat instead of a bat) rests in the coffin. The Humanoid and rat tracks in the room to the north were both hers. She appears dead, feigning as much until the characters draw near, at which point she tries to scare them by sitting up. Amused with herself, she then addresses the characters:"
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17043-vampire", 10000]
+        ]
     },
     {
+        "id": "ecacb65d-03b0-4677-96af-4e7dd6c7aaab",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; Priests\u2019 Quarters; S12: Sanctuary",
-        "monsters": [
-            [
-                1,
-                "3081099-aurak-draconian",
-                2300
-            ],
-            [
-                6,
-                "3081101-bozak-draconian",
-                450
-            ]
-        ],
-        "text": "Creatures. The aurak draconian Drayan supervises six bozak draconians (see appendix B for both stat blocks) in this room. The bozaks are busy dismantling the statues of the gods behind the effigy of Takhisis. If a fight ensues and the draconians are losing, Drayan uses the dimension door spell to flee to area S18, where she prepares to ambush the characters."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081099-aurak-draconian", 2300],
+            [6, "3081101-bozak-draconian", 450]
+        ]
     },
     {
+        "id": "2082a04f-b63e-4b38-8c02-53a22ff2ca4c",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; Priests\u2019 Quarters; S14: Primordial Altar",
-        "monsters": [
-            [
-                3,
-                "17064-wraith",
-                1800
-            ]
-        ],
-        "text": "Creatures. As soon a creature touches the altar, three wraiths emerge and attack."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17064-wraith", 1800]
+        ]
     },
     {
+        "id": "f2c385f3-66ac-41bb-a23c-c8f1d8d39f2a",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; Priests\u2019 Quarters; S15: Draconian Garrison",
-        "monsters": [
-            [
-                4,
-                "3081101-bozak-draconian",
-                450
-            ],
-            [
-                3,
-                "3081113-kapak-draconian",
-                700
-            ]
-        ],
-        "text": "This garrison is occupied by four bozak draconians and three kapak draconians (see appendix B for both stat blocks)."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "3081101-bozak-draconian", 450],
+            [3, "3081113-kapak-draconian", 700]
+        ]
     },
     {
+        "id": "4afd8dda-263f-42ea-ba80-d4cc3c8f8131",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; Priests\u2019 Quarters; S18: Draconian War Room",
-        "monsters": [
-            [
-                6,
-                "3081121-sivak-draconian",
-                1100
-            ]
-        ],
-        "text": "Six sivak draconians (see appendix B) are here reviewing the battle plan for the assault on Kalaman. On the table in front of them are rough sketches of Kalaman\u2019s leadership, including Marshal Vendri, Darrett, and the characters themselves. One of the sivaks has a key to the cells in area S19."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "3081121-sivak-draconian", 1100]
+        ]
     },
     {
+        "id": "6ab2c781-22fe-4d14-9280-0477f13680f9",
         "type": "alternate combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; Priests\u2019 Quarters; S18: Draconian War Room",
-        "monsters": [
-            [
-                4,
-                "3081121-sivak-draconian",
-                1100
-            ],
-            [
-                1,
-                "3081099-aurak-draconian",
-                2300
-            ]
-        ],
-        "text": "If Drayan was encountered in area S12 and escaped, she is here when the characters arrive. If so, only four sivak draconians are with her. Drayan has readied an action to use her Noxious Breath as soon as she sees a character in range."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "3081121-sivak-draconian", 1100],
+            [1, "3081099-aurak-draconian", 2300]
+        ]
     },
     {
+        "id": "d01272bd-10b8-43bf-bcf9-f6d24122c323",
         "type": "non-combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; Bastion of Takhisis; S21: Ruined Hall",
-        "monsters": [
-            [
-                1,
-                "17045-veteran",
-                700
-            ],
-            [
-                1,
-                "3081102-caradoc",
-                3900
-            ]
-        ],
-        "text": "Soldier. The soldier is a veteran wearing the armor of a Kalaman soldier\u2014but she\u2019s possessed by Caradoc (detailed in chapter 4; stat block in appendix B). When she notices the characters, she withdraws up the stairs to area S22."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17045-veteran", 700],
+            [1, "3081102-caradoc", 3900]
+        ]
     },
     {
+        "id": "38694e2e-2996-4a06-8a3d-4bf3bf639268",
         "type": "non-combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; Bastion of Takhisis; S22: Nuitari\u2019s Shrine",
-        "monsters": [
-            [
-                1,
-                "17045-veteran",
-                700
-            ],
-            [
-                1,
-                "3081102-caradoc",
-                3900
-            ]
-        ],
-        "text": "Caradoc. The soldier the characters encountered in area S21 withdraws here. This is Caradoc (see appendix B) possessing the body of a veteran in Kalaman armor. Caradoc is eager to speak with the characters and enlist them in a plot to betray Lord Soth and steal the flying citadel for himself. He doesn\u2019t try to disguise his identity despite the new body he\u2019s claimed. Use the following points to guide the conversation:"
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17045-veteran", 700],
+            [1, "3081102-caradoc", 3900]
+        ]
     },
     {
+        "id": "1ddfc987-82e8-4d44-9d0a-22cf7bd211bd",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; Bastion of Takhisis; S23: Mourning Sanctum",
-        "monsters": [
-            [
-                1,
-                "3081125-wersten-kern",
-                11500
-            ]
-        ],
-        "text": "Wersten Kern. The figure atop the scaffold is Wersten Kern (see appendix B), an Undead former Knight of Solamnia who is now Lord Soth\u2019s standard bearer. When she notices a character, she salutes them and demands they either submit and join the service of her master, Lord Soth, or face her in honorable, one-on-one combat. Regardless of their response, she begins battle by using her Terrifying Litany action. Kern fights to the death and prioritizes attacking foes that seek to damage the room\u2019s brazier or scaffold."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081125-wersten-kern", 11500]
+        ]
     },
     {
+        "id": "0a3bc364-49de-4203-b94a-2adc2e4634fc",
         "type": "alternate combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; Bastion of Takhisis; S23: Mourning Sanctum",
-        "monsters": [
-            [
-                1,
-                "3081118-lord-soth",
-                22000
-            ]
-        ],
-        "text": "Lord Soth. If the characters didn\u2019t already paralyze Lord Soth (see appendix B) with the mirror of reflected pasts in area S25, he arrives 3 rounds after the battle with Kern begins and immediately attacks. See area S25 for more details."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081118-lord-soth", 22000]
+        ]
     },
     {
+        "id": "1bdbc5bc-e279-4d6d-aff5-19bd56ed1a6a",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; Bastion of Takhisis; S24: Sargonnas\u2019s Shrine",
-        "monsters": [
-            [
-                2,
-                "3081122-skeletal-knight",
-                2900
-            ]
-        ],
-        "text": "Two skeletal knights (see appendix B) stand guard in this room."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "3081122-skeletal-knight", 2900]
+        ]
     },
     {
+        "id": "82a1def6-09c2-4954-afed-c32a26e38aec",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
-        "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; Bastion of Takhisis; S25: Lord Soth’s Throne Room",
-        "monsters": [
-            [
-                1,
-                "3081118-lord-soth",
-                22000
-            ]
-        ],
-        "text": "Lord Soth. Unless the characters already encountered him in area S23, Lord Soth (see appendix B) is seated on the throne. Soth is fixated on controlling the movement of the flying citadel and ignores the characters until they address him. Soth is a terrifying figure, and his armored corpse crackles with cinders. Once confronted, he speaks little, preferring concise threats like “Submit” or “Die.” If possible, he begins combat using his Cataclysmic Fire action against a group of characters."
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; Bastion of Takhisis; S25: Lord Soth\u2019s Throne Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081118-lord-soth", 22000]
+        ]
     },
     {
+        "id": "f62fa646-e9ec-486c-8da9-d0b9c6e6e4a8",
         "type": "non-combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; The Citadel\u2019s Destruction; Scenes of Destruction",
-        "monsters": [
-            [
-                1,
-                "3081116-lesser-death-dragon",
-                5900
-            ]
-        ],
-        "text": "Death Dragon Destruction. A lesser death dragon (see appendix B) lands near the characters. The violet flames animating it fade, and the creature collapses into a pile of inanimate bones. Elsewhere, the characters can see other death dragons falling, their flames extinguished as well."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081116-lesser-death-dragon", 5900]
+        ]
     },
     {
+        "id": "b4f08504-0f0b-487e-a554-623cf5589804",
         "type": "non-combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; The Citadel\u2019s Destruction; Scenes of Destruction",
-        "monsters": [
-            [
-                6,
-                "3081100-baaz-draconian",
-                100
-            ]
-        ],
-        "text": "Hungry Crevice. Six baaz draconians (see appendix B) rush toward the characters through a crack opening in the temple walls. A 10-foot-wide fissure in the ground opens up, swallowing the draconians in darkness."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "3081100-baaz-draconian", 100]
+        ]
     },
     {
+        "id": "d5b385fb-d7e8-4d28-931e-1d0bedea7577",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; The Citadel\u2019s Destruction; Karavarix\u2019s Revenge",
-        "monsters": [
-            [
-                1,
-                "3081108-greater-death-dragon",
-                11500
-            ]
-        ],
-        "text": "Karavarix is a chaotic evil greater death dragon (see appendix B) who hasn\u2019t been affected by the destruction of the brazier in the Mourning Sanctum (area S23). In life, she was the gold dragon Sarlamir slew during his quest to the flying city of Onyari\u2014and Karavarix still seeks revenge. Before she attacks, she roars, \u201cSarlamir! I won\u2019t be driven from the skies again. I\u2019ll have my revenge on you and all humans!\u201d Characters who explored the catacombs beneath Castle Kalaman (detailed in chapter 4) recall the name Sarlamir, the dragon he slew, and the statue in his tomb with gold dragon features. Karavarix then fights until destroyed."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081108-greater-death-dragon", 11500]
+        ]
     },
     {
+        "id": "17c155e5-9df4-4226-a896-b2ffd20e84e3",
         "type": "combat",
-        "modified": 1741669502.9680026,
-        "book": "Dragonlance: Shadow of the Dragon Queen",
-        "path": "./library/stripped/sources/sotdq/siege-of-kalaman.html",
         "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Dragon Army Rout; Clash of Fallen Flames",
-        "monsters": [
-            [
-                1,
-                "3081112-kansaldi-fire-eyes",
-                7200
-            ],
-            [
-                1,
-                "17074-young-red-dragon",
-                5900
-            ]
-        ],
-        "text": "This is Kansaldi Fire-Eyes (see appendix B) and her red dragon ally, Ignia. Ignia uses the young red dragon stat block but is Huge. Kansaldi spotted the characters fleeing the flying citadel and now seeks revenge. She\u2019s a fanatical follower of the Dragon Queen and vents righteous rage on the characters, including the following topics:"
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081112-kansaldi-fire-eyes", 7200],
+            [1, "17074-young-red-dragon", 5900]
+        ]
     }
 ]

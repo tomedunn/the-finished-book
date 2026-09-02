@@ -1,0 +1,3589 @@
+[
+    {
+        "id": "be436b01-3ec6-43c4-b217-df0781193e7b",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; A Friend in Need; Where to Start; Tavern Brawl",
+        "allies": [
+            [1, "17035-thug", 100]
+        ],
+        "bystanders": [],
+        "enemies": [
+            [5, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "8425e0ee-5fe1-42d7-a00a-1788d22d8499",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; A Friend in Need; Where to Start; Troll and Friends",
+        "allies": [
+            [1, "149798-durnan", 5000]
+        ],
+        "bystanders": [
+            [1, "17040-troll", 1800],
+            [6, "17023-stirge", 25]
+        ],
+        "enemies": [
+            [3, "17023-stirge", 25]
+        ]
+    },
+    {
+        "id": "1bc0357d-5b53-41a5-9f81-ca3f69851d80",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; A Friend in Need; Where to Start; Finding Floon; Blood in the Streets",
+        "allies": [],
+        "bystanders": [
+            [12, "16915-guard", 25],
+            [3, "16798-bandit", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "42d3b085-8b80-4542-9b3a-b6b68441b77f",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; A Friend in Need; Where to Start; Finding Floon; Old Xoblob Shop",
+        "allies": [],
+        "bystanders": [
+            [1, "17211-deep-gnome-svirfneblin", 100]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "d25cd755-4729-4f24-89f9-fa68a71a8384",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; A Friend in Need; Zhentarim Hideout; Z1. Main Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17165-kenku", 50]
+        ]
+    },
+    {
+        "id": "d375a35a-f607-48b5-ab9b-bec89fe2dbd1",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; A Friend in Need; Zhentarim Hideout; Z5. Offices",
+        "allies": [],
+        "bystanders": [
+            [1, "16991-rat", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "cba0beda-04fa-4495-9381-869a7b95d387",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; A Friend in Need; The Watch Arrives",
+        "allies": [
+            [1, "17045-veteran", 700],
+            [12, "17045-veteran", 700]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "7026cb78-b6cd-4c8b-bca4-1e98162a851e",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; A Friend in Need; Tracking Floon; Navigating the Sewers; Gazer Guard",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17221-gazer", 100]
+        ]
+    },
+    {
+        "id": "1614126e-c87f-45de-adb6-178e7bdc5ccc",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; A Friend in Need; Xanathar Guild Hideout; Q2. Watch Posts",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16907-goblin", 50]
+        ]
+    },
+    {
+        "id": "c964380b-e973-4cd6-8bb9-1953fdd5fb83",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; A Friend in Need; Xanathar Guild Hideout; Q5. Sleeping Area",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16850-duergar", 200],
+            [1, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "ed422f0f-4a09-4272-955c-eaaea3876908",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; A Friend in Need; Xanathar Guild Hideout; Q6. Lavatory",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16909-gray-ooze", 100]
+        ]
+    },
+    {
+        "id": "f983fa40-f232-495b-bf1f-c28b11876f72",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; A Friend in Need; Xanathar Guild Hideout; Q7. Boss Fight",
+        "allies": [],
+        "bystanders": [
+            [1, "17104-mind-flayer", 2900]
+        ],
+        "enemies": [
+            [1, "17163-intellect-devourer", 450],
+            [1, "280299-grumshar", 50]
+        ]
+    },
+    {
+        "id": "89f91209-c031-4115-ada7-45ff688246e3",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; A Friend in Need; Xanathar Guild Hideout; Q12. Hostel Cellar",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "280305-roscoe-underbough", 450]
+        ]
+    },
+    {
+        "id": "9d27983e-e598-4367-8e22-8912dcc226cf",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Areas in the Alley; T1. Trollskull Manor; Spirit on Tap",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17017-specter", 200]
+        ]
+    },
+    {
+        "id": "6b365c85-c74c-4e6a-879b-39eb1fc23dbd",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Areas in the Alley; T2. The Bent Nail",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "280309-talisolvanar-tally-fellbranch", 10]
+        ]
+    },
+    {
+        "id": "879487b3-6a07-43d2-a83a-580215d07be6",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Areas in the Alley; T3. Steam and Steel",
+        "allies": [],
+        "bystanders": [
+            [1, "280311-embric", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "a5bce23c-ae34-4b05-9ea4-7d1d0f80adeb",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Areas in the Alley; T3. Steam and Steel",
+        "allies": [],
+        "bystanders": [
+            [1, "280314-avi", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "9d8c0fa1-5a4e-4bf5-b9d8-56a4729340c2",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Areas in the Alley; T4. Corellon\u2019s Crown",
+        "allies": [],
+        "bystanders": [
+            [1, "280317-fala-lefaliir", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "2a024c57-f332-418b-830f-11a3204eec60",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Areas in the Alley; T5. Tiger\u2019s Eye",
+        "allies": [],
+        "bystanders": [
+            [1, "16990-rakshasa", 10000]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "a9383cb4-4a6f-4545-a0db-74860e73116a",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Areas in the Alley; T6. Book Wyrm\u2019s Treasure",
+        "allies": [],
+        "bystanders": [
+            [1, "280320-rishaal", 2300]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "bc8189cb-459b-4311-a4b4-13229aa49811",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Bregan D\u2019aerthe",
+        "allies": [],
+        "bystanders": [
+            [3, "149812-drow-gunslinger", 1100]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "e9501e63-4914-4c73-9164-a1e6caf062e1",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Bregan D\u2019aerthe; Jarlaxle Baenre",
+        "allies": [],
+        "bystanders": [
+            [1, "149550-jarlaxle-baenre", 13000]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "868b659f-5741-46eb-a2a3-f74649790ce5",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Bregan D\u2019aerthe; Jarlaxle Baenre; Bregan D\u2019aerthe Missions; 4th",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16817-bugbear", 200]
+        ]
+    },
+    {
+        "id": "9abfca55-5cb5-4118-92b5-1c020cb08f1c",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Bregan D\u2019aerthe; Jarlaxle Baenre; Bregan D\u2019aerthe Missions; 4th",
+        "allies": [],
+        "bystanders": [
+            [4, "16829-commoner", 10]
+        ],
+        "enemies": [
+            [4, "17163-intellect-devourer", 450]
+        ]
+    },
+    {
+        "id": "72f0102a-31f1-4290-ba18-869d100dff44",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Bregan D\u2019aerthe; Jarlaxle Baenre; Bregan D\u2019aerthe Missions; 4th",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17111-beholder-zombie", 1800]
+        ]
+    },
+    {
+        "id": "5f4fadb2-e791-45a1-8e96-ed6f83576015",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Emerald Enclave; Melannor Fellbranch",
+        "allies": [],
+        "bystanders": [
+            [1, "16848-druid", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "d80d947a-0d80-4e7b-9117-475335bc41d8",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Emerald Enclave; Jeryth Phaulkon; Emerald Enclave Missions; 2nd",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17200-scarecrow", 200]
+        ]
+    },
+    {
+        "id": "a4d3208f-8620-4326-83ee-f6d5e4ac0067",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Emerald Enclave; Jeryth Phaulkon; Emerald Enclave Missions; 2nd",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17200-scarecrow", 200]
+        ]
+    },
+    {
+        "id": "a48fb21d-1bed-4e8b-9d33-c7bece6bed0b",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Emerald Enclave; Jeryth Phaulkon; Emerald Enclave Missions; 2nd",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17200-scarecrow", 200]
+        ]
+    },
+    {
+        "id": "357d9032-915e-44f5-8821-e8d645a54007",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Emerald Enclave; Jeryth Phaulkon; Emerald Enclave Missions; 3rd",
+        "allies": [],
+        "bystanders": [
+            [1, "16938-knight", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "7b1e97b4-9fdb-4d24-b3ad-de02633f3ada",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Emerald Enclave; Jeryth Phaulkon; Emerald Enclave Missions; 3rd",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17015-skeleton", 50]
+        ]
+    },
+    {
+        "id": "0f6e7f6a-330e-4d98-acef-35c7fdb3a533",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Emerald Enclave; Jeryth Phaulkon; Emerald Enclave Missions; 4th",
+        "allies": [],
+        "bystanders": [
+            [1, "16843-doppelganger", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "503b046a-4a02-4622-83ec-a769737b37d2",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Emerald Enclave; Jeryth Phaulkon; Emerald Enclave Missions; 5th",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17157-grell", 700]
+        ]
+    },
+    {
+        "id": "fb56e2cd-cc31-4292-b0f2-91d76dce46ce",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Force Grey (Gray Hands)",
+        "allies": [],
+        "bystanders": [
+            [1, "149116-vajra-safahr", 10000]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "c8943c03-b970-4118-83bb-d615ab39e469",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Force Grey (Gray Hands); Vajra Safahr; Force Grey (Gray Hands) Missions; 2nd",
+        "allies": [],
+        "bystanders": [
+            [1, "149786-hlam", 15000]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "1a4f7b9a-611e-407a-aded-51e1e40d76fa",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Force Grey (Gray Hands); Vajra Safahr; Force Grey (Gray Hands) Missions; 3rd",
+        "allies": [],
+        "bystanders": [
+            [1, "17070-young-bronze-dragon", 3900]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "b9b9b008-a477-4303-a169-326aec2bfdf5",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Force Grey (Gray Hands); Vajra Safahr; Force Grey (Gray Hands) Missions; 4th",
+        "allies": [],
+        "bystanders": [
+            [1, "148973-meloon-wardragon", 5000]
+        ],
+        "enemies": [
+            [1, "17163-intellect-devourer", 450]
+        ]
+    },
+    {
+        "id": "29008591-4b22-4153-9565-dccaf5cdc613",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Force Grey (Gray Hands); Vajra Safahr; Force Grey (Gray Hands) Missions; 5th",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17104-mind-flayer", 2900]
+        ]
+    },
+    {
+        "id": "6732c86d-1f96-4b3b-89ab-846a63747c65",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Harpers; Mirt",
+        "allies": [],
+        "bystanders": [
+            [1, "148977-mirt", 5000]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "ed629f82-e396-41b0-9b3a-493007b8077f",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Harpers; Mirt; Harper Missions; 2nd",
+        "allies": [],
+        "bystanders": [
+            [1, "16844-draft-horse", 50]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "afa8ea6b-3bed-488b-bf30-32e90940e81f",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Harpers; Mirt; Harper Missions; 3rd",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "3e001686-b450-49c0-93fb-22cc03bb0393",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Harpers; Mirt; Harper Missions; 3rd",
+        "allies": [],
+        "bystanders": [
+            [1, "16820-cat", 10]
+        ],
+        "enemies": [
+            [1, "17221-gazer", 100]
+        ]
+    },
+    {
+        "id": "7407ead9-37ca-4fe2-95d6-6a56fe0c71a2",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Harpers; Mirt; Harper Missions; 4th",
+        "allies": [],
+        "bystanders": [
+            [5, "16843-doppelganger", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "73c82255-4232-498d-b77e-6feb07f8b367",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Harpers; Mirt; Harper Missions; 5th",
+        "allies": [],
+        "bystanders": [
+            [1, "149049-remallia-haventree", 5000],
+            [1, "149550-jarlaxle-baenre", 13000]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "c3ff287d-bd04-4d9a-9519-b6086085b939",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Lords\u2019 Alliance; Jalester Silvermane",
+        "allies": [
+            [1, "149770-jalester-silvermane", 1100]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "7e414f94-ff4e-4a6c-822a-5b01e35cbe8a",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Lords\u2019 Alliance; Jalester Silvermane; 2nd",
+        "allies": [
+            [2, "16915-guard", 25]
+        ],
+        "bystanders": [
+            [4, "16829-commoner", 10]
+        ],
+        "enemies": [
+            [1, "17138-carrion-crawler", 450]
+        ]
+    },
+    {
+        "id": "31fcf4f4-0154-4ef2-82f5-26e5a3f4702f",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Lords\u2019 Alliance; Jalester Silvermane; 3rd",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16799-bandit-captain", 450],
+            [2, "17165-kenku", 50]
+        ]
+    },
+    {
+        "id": "d9f80cd1-a232-4345-9c90-1506b2631c2d",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Lords\u2019 Alliance; Jalester Silvermane; 4th",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16947-mage", 2300],
+            [5, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "d20e18e4-5f62-47c8-904d-c38017e0271a",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Lords\u2019 Alliance; Jalester Silvermane; 5th",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "149873-ziraj-the-hunter", 3900]
+        ]
+    },
+    {
+        "id": "535b248e-8738-4adc-9505-23a5d5132069",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Order of the Gauntlet; Savra Belabranta",
+        "allies": [
+            [1, "16938-knight", 700]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "0a25a330-a3a0-4efc-a120-60aa64e8a7a9",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Order of the Gauntlet; Savra Belabranta; Order of the Gauntlet Missions; 2nd",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "b8f82fe6-4a44-40f4-91c3-411c5778a96e",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Order of the Gauntlet; Savra Belabranta; Order of the Gauntlet Missions; 3rd",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "2ed1f1fd-58a9-41f3-b465-d360b2576c86",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Order of the Gauntlet; Savra Belabranta; Order of the Gauntlet Missions; 3rd",
+        "allies": [],
+        "bystanders": [
+            [1, "149799-ammalia-cassalanter", 1800]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "0c2bd949-e903-4567-9ec1-fda56a2bb380",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Order of the Gauntlet; Savra Belabranta; Order of the Gauntlet Missions; 4th",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17055-wererat", 450]
+        ]
+    },
+    {
+        "id": "cf590b92-4b62-4187-bb7f-0c1a20679323",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Order of the Gauntlet; Savra Belabranta; Order of the Gauntlet Missions; 5th",
+        "allies": [
+            [1, "16938-knight", 700]
+        ],
+        "bystanders": [],
+        "enemies": [
+            [5, "17214-spined-devil", 450]
+        ]
+    },
+    {
+        "id": "dd800b86-c20d-4a28-9ef4-896615eda69a",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Order of the Gauntlet; Savra Belabranta; Order of the Gauntlet Missions; 5th",
+        "allies": [
+            [1, "16938-knight", 700]
+        ],
+        "bystanders": [],
+        "enemies": [
+            [1, "16836-cult-fanatic", 450]
+        ]
+    },
+    {
+        "id": "df0d2f1c-ea26-4e85-82ba-6a8dec67379c",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Zhentarim",
+        "allies": [],
+        "bystanders": [
+            [1, "16864-flying-snake", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "1f7e5b50-c288-424b-befe-8d85531f1c8f",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Zhentarim; Davil Starsong",
+        "allies": [
+            [1, "149845-davil-starsong", 2300]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "0edfb4e5-01b8-43c0-a272-07b6047f3b65",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Zhentarim; Tashlyn Yafeera",
+        "allies": [
+            [1, "149868-tashlyn-yafeera", 5000]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "6fc5d10a-8368-4898-b014-cf2a9014a65a",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Zhentarim; Tashlyn Yafeera; Zhentarim Missions; 2nd",
+        "allies": [],
+        "bystanders": [
+            [1, "16798-bandit", 25]
+        ],
+        "enemies": [
+            [1, "149812-drow-gunslinger", 1100]
+        ]
+    },
+    {
+        "id": "e5a8a3eb-2d88-40d1-9071-ff0fbc540025",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Zhentarim; Tashlyn Yafeera; Zhentarim Missions; 3rd",
+        "allies": [
+            [1, "149862-skeemo-weirdbottle", 2300]
+        ],
+        "bystanders": [
+            [1, "149834-black-viper", 1800]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "d6cdd52e-09d1-40a1-82ce-12e40a8bf7e3",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Joining Factions; Zhentarim; Tashlyn Yafeera; Zhentarim Missions; 5th",
+        "allies": [],
+        "bystanders": [
+            [5, "16829-commoner", 10]
+        ],
+        "enemies": [
+            [1, "149862-skeemo-weirdbottle", 2300]
+        ]
+    },
+    {
+        "id": "fd434d0e-494d-475f-b6b0-3006a2ebe012",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Open for Business?; Sample Guild Representatives; Broxley Fairkettle",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "084a2b2a-6ee6-4d70-a314-8cff3c017514",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Open for Business?; Sample Guild Representatives; Hammond Kraddoc",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10],
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "ef7813f9-0e2c-41f9-b296-3f56996fc2c7",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Open for Business?; Sample Guild Representatives; Justyn Rassk",
+        "allies": [],
+        "bystanders": [
+            [1, "17035-thug", 100]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "5db6d326-d680-4271-8092-4e5cf62312bd",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Open for Business?; Sample Guild Representatives; Ulkoria Stonemarrow",
+        "allies": [],
+        "bystanders": [
+            [1, "16789-archmage", 8400],
+            [1, "17012-shield-guardian", 2900]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "86c66fd1-0c40-457b-ac96-52616f86b63e",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Open for Business?; Business Rival: Emmek Frewn",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "539a6ad1-e391-4f22-a3a4-b54d405f436c",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Trollskull Alley; Open for Business?; Business Rival: Emmek Frewn; Plans",
+        "allies": [],
+        "bystanders": [
+            [4, "280330-halfling-wererat", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "db943223-621f-45c4-b0a8-356358bf08bd",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Fireball; After the Blast",
+        "allies": [],
+        "bystanders": [
+            [6, "16915-guard", 25],
+            [6, "16915-guard", 25],
+            [1, "149838-griffon-cavalry-rider", 450],
+            [1, "16913-griffon", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "8a98931a-badf-42d0-a7ba-77b50d41667a",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Fireball; After the Blast; The Watch Arrives",
+        "allies": [],
+        "bystanders": [
+            [1, "149820-barnibus-blastwind", 450],
+            [20, "17045-veteran", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "ea0ba0e3-652c-4f86-81b5-5ff52bc2ba91",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Fireball; Nim\u2019s Secret; House of Inspired Hands",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "148992-nimblewright", 1100]
+        ]
+    },
+    {
+        "id": "62cf04c8-dce4-46a5-acb8-ab10cdf42d88",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Fireball; Nim\u2019s Secret; Inside the Temple; Meeting Valetta",
+        "allies": [],
+        "bystanders": [
+            [1, "16985-priest", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "8e5104ad-29aa-4b16-94ef-7c434b302e77",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Fireball; Nim\u2019s Secret; Finding Nim\u2019s Creation",
+        "allies": [],
+        "bystanders": [
+            [1, "16913-griffon", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "516222e8-09bc-4dee-a1e6-1c2ee9d9006d",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Fireball; Nim\u2019s Secret; Finding Nim\u2019s Creation; Dock Ward Distraction",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "149550-jarlaxle-baenre", 13000]
+        ]
+    },
+    {
+        "id": "532ee993-6afb-4113-b51a-09fd63c2f97c",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Fireball; Gralhund Villa; Should They or Shouldn\u2019t They?; Let the Watch Handle It",
+        "allies": [],
+        "bystanders": [
+            [1, "149820-barnibus-blastwind", 450],
+            [1, "17045-veteran", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "a10d48e2-b2f0-49df-80ea-75386f279b9b",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Fireball; Gralhund Villa; Overview",
+        "allies": [],
+        "bystanders": [
+            [1, "16947-mage", 2300],
+            [6, "17045-veteran", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "b015c9f6-4666-4f88-87eb-1985998166e7",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Fireball; Gralhund Villa; Encounters in the Villa; G2. Yard",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16836-cult-fanatic", 450],
+            [2, "16953-mastiff", 25]
+        ]
+    },
+    {
+        "id": "6ebec71c-300a-4977-b671-4e734349b87a",
+        "type": "alternate combat",
+        "book_path": "Waterdeep: Dragon Heist; Fireball; Gralhund Villa; Encounters in the Villa; G2. Yard",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17010-shadow", 100]
+        ]
+    },
+    {
+        "id": "ff0e8dd2-31a0-4e7f-9467-e47dff60135d",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Fireball; Gralhund Villa; Encounters in the Villa; G3. Coach House",
+        "allies": [],
+        "bystanders": [
+            [4, "16844-draft-horse", 50],
+            [1, "16997-riding-horse", 50]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "9f966c2e-924d-4244-bb29-5047c573f253",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Fireball; Gralhund Villa; Encounters in the Villa; G3. Coach House",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "26b32ee1-ed95-4107-b9d2-3e434326ed14",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Fireball; Gralhund Villa; Encounters in the Villa; G8. Great Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "82b9ad5a-c60f-428e-84ac-8f1cd71116ba",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Fireball; Gralhund Villa; Encounters in the Villa; G10. Den and Trophy Room",
+        "allies": [],
+        "bystanders": [
+            [1, "16920-hawk", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "6247aa2d-12af-462e-b9bc-108293480d28",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Fireball; Gralhund Villa; Encounters in the Villa; G12. Family Library",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17017-specter", 200]
+        ]
+    },
+    {
+        "id": "a542cc30-fdbe-4c11-a5d5-26d0abf82805",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Fireball; Gralhund Villa; Encounters in the Villa; G13. Upstairs Foyer",
+        "allies": [
+            [4, "17045-veteran", 450]
+        ],
+        "bystanders": [],
+        "enemies": [
+            [3, "17035-thug", 50]
+        ]
+    },
+    {
+        "id": "de0d66ab-8ded-4c5f-a6e1-6956bdbcca7d",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Fireball; Gralhund Villa; Encounters in the Villa; G15. Guest Suite",
+        "allies": [],
+        "bystanders": [
+            [3, "16864-flying-snake", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "eb66e9cc-bebf-4b2d-9d5e-5a385563ee8c",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Fireball; Gralhund Villa; Encounters in the Villa; G16. Master Bedroom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "280438-yalah-gralhund", 25],
+            [1, "149774-hrabbaz", 1800]
+        ]
+    },
+    {
+        "id": "75c0c650-889c-4718-b804-04d8c251fdfe",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Fireball; Gralhund Villa; Encounters in the Villa; G19. Servants\u2019 Wing",
+        "allies": [],
+        "bystanders": [
+            [9, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "8a6502b3-e1da-4fc5-9785-988aace7352d",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Fireball; Aftermath",
+        "allies": [],
+        "bystanders": [
+            [1, "149820-barnibus-blastwind", 450],
+            [1, "17045-veteran", 700],
+            [20, "17045-veteran", 700],
+            [2, "149838-griffon-cavalry-rider", 450],
+            [2, "16913-griffon", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "fe2fd8c5-d706-4d13-9587-f91d3d200f92",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Fireball; Loose Ends; Bad Time to Be a Zhent; Encounter with Istrid Horn",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "149851-istrid-horn", 3900],
+            [1, "16864-flying-snake", 25]
+        ]
+    },
+    {
+        "id": "45872e9b-2053-4c17-9535-562b5046a621",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Setting the Stage; Finding the Nimblewright; Caught at Last!",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "148992-nimblewright", 1100]
+        ]
+    },
+    {
+        "id": "10747f40-d1f1-48ee-a5d1-52456e7c476a",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Setting the Stage; Finding the Nimblewright; Caught at Last!",
+        "allies": [],
+        "bystanders": [
+            [6, "17045-veteran", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "23fdc4c3-b1da-49ce-9516-1f6b21eeb84a",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 1: Alley; Areas of the Alley; L2. Store",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "450c8649-fedc-4baf-bb3c-07e6563e5c1c",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 1: Alley; Alley: Spring; Ambushers",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "16939-kobold", 25],
+            [1, "16817-bugbear", 200],
+            [1, "17163-intellect-devourer", 450]
+        ]
+    },
+    {
+        "id": "6ab0814f-26fe-47d4-8737-173e9267c8cd",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 1: Alley; Alley: Summer; Hire-Coach",
+        "allies": [],
+        "bystanders": [
+            [2, "16844-draft-horse", 50],
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": [
+            [1, "16843-doppelganger", 700],
+            [1, "16803-bearded-devil", 700],
+            [3, "16933-imp", 200],
+            [1, "17214-spined-devil", 450]
+        ]
+    },
+    {
+        "id": "24fa12e2-b714-411f-baed-399899d0ce5d",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 1: Alley; Alley: Autumn; Jarlaxle in Disguise",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "149550-jarlaxle-baenre", 13000]
+        ]
+    },
+    {
+        "id": "3012ba02-5ff9-45bd-a27c-74838e3ecec8",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 1: Alley; Alley: Winter; Bugbears Attack",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16817-bugbear", 200]
+        ]
+    },
+    {
+        "id": "76e0408c-1f82-4f1a-900f-2aa5675c9a1e",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 1: Alley; Alley: Winter; Cuttle\u2019s Meat Pies",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "e5cfed9c-b124-4d59-b120-7d460b88c0b4",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 1: Alley; Alley: Winter; Zhentarim Safe House",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17021-spy", 200],
+            [1, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "3ed1ea1d-399c-4bbb-95b3-8ec28b6c6709",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 1: Alley; Alley: Winter; Zhentarim Safe House",
+        "allies": [],
+        "bystanders": [
+            [1, "17340-swashbuckler", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "fd511129-5959-4170-b86c-4d89ac839bc5",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 1: Alley; Alley: Winter; Zhentarim Safe House",
+        "allies": [],
+        "bystanders": [
+            [1, "280417-ott-steeltoes", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "1ecdf49f-a385-4266-9ad5-734878ade096",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 2: Mistshore; Areas of Mistshore; D1. Kraken\u2019s Folly",
+        "allies": [],
+        "bystanders": [
+            [14, "16798-bandit", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "85da8013-bd08-4e85-bdee-e31055f93f4f",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 2: Mistshore; Areas of Mistshore; D2. Grinda\u2019s Residence",
+        "allies": [],
+        "bystanders": [
+            [1, "16947-mage", 2300]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "d469073a-b474-41b8-9071-e6c164489b42",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 2: Mistshore; Areas of Mistshore; D3. Grinda\u2019s Apparatus",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285275-obliteros", 1800]
+        ]
+    },
+    {
+        "id": "d0d1fd3f-5166-4c3b-b941-07929e695854",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 2: Mistshore; Mistshore: Spring",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16798-bandit", 25],
+            [1, "16956-merrow", 450],
+            [8, "16798-bandit", 25, 2]
+        ]
+    },
+    {
+        "id": "ffc52786-c21a-4ce9-9e80-258bf30d7c8b",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 2: Mistshore; Mistshore: Spring; Spy in the Sky",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17221-gazer", 100]
+        ]
+    },
+    {
+        "id": "edcd5918-e9b3-445e-a5fc-f440b72c2863",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 2: Mistshore; Mistshore: Autumn",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "149812-drow-gunslinger", 1100]
+        ]
+    },
+    {
+        "id": "bbc722bd-2214-45a7-a500-5fb5230eca2e",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 2: Mistshore; Mistshore: Winter; A Waiting Coach",
+        "allies": [],
+        "bystanders": [
+            [2, "16844-draft-horse", 50],
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "4e56c002-bc05-4b90-9860-3ce5dfe123d9",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 2: Mistshore; Mistshore: Winter; A Cold Reception",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "fa212c61-753b-4aaf-ab13-7bfa9158b393",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 2: Mistshore; Mistshore: Winter; Mother and Son",
+        "allies": [],
+        "bystanders": [
+            [1, "17328-bard", 450],
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "e25af3f5-27a5-4856-b5ab-c5f548c8bb72",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 2: Mistshore; Mistshore: Winter; Zhents in the Wind",
+        "allies": [
+            [2, "17021-spy", 200],
+            [1, "16947-mage", 2300]
+        ],
+        "bystanders": [],
+        "enemies": [
+            [9, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "1a57420f-b78d-4469-ab90-06e440cbf056",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 3: Street Chase; Street Chase: Spring",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17165-kenku", 50],
+            [1, "17165-kenku", 50, 1]
+        ]
+    },
+    {
+        "id": "22b193da-d08b-475d-847d-9b67ff8f6977",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 3: Street Chase; Street Chase: Summer; Crowded Street",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16933-imp", 200]
+        ]
+    },
+    {
+        "id": "b08f0f74-e32e-440d-93ae-c89120eafb4c",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 3: Street Chase; Street Chase: Winter",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17340-swashbuckler", 700]
+        ]
+    },
+    {
+        "id": "e5b1e720-74ad-45c6-b6f7-0eb738efc4b1",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 3: Street Chase; Street Chase: Winter; Where\u2019s the Stone?",
+        "allies": [],
+        "bystanders": [
+            [1, "149049-remallia-haventree", 5000]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "3fc95c21-85e8-4882-9c89-2d72c40304dd",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 4: Mausoleum",
+        "allies": [],
+        "bystanders": [
+            [2, "16915-guard", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "f50c30ef-4a3e-43da-9e15-6e6bd0fdaabf",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 4: Mausoleum",
+        "allies": [],
+        "bystanders": [
+            [1, "16938-knight", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "6d9d2798-2d15-48da-aa04-a85c539d87dc",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 4: Mausoleum; Mausoleum: Spring; Xanathar Guild Ambush",
+        "allies": [],
+        "bystanders": [
+            [1, "17221-gazer", 100]
+        ],
+        "enemies": [
+            [4, "16850-duergar", 200]
+        ]
+    },
+    {
+        "id": "c626bb1d-183f-456c-9897-740740279503",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 4: Mausoleum; Mausoleum: Summer; Left for Dead",
+        "allies": [],
+        "bystanders": [
+            [1, "16835-cultist", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "567bb6b5-b0e4-4eca-83cc-9e48d4631e97",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 4: Mausoleum; Mausoleum: Winter; Guardian Treant",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17037-treant", 5000]
+        ]
+    },
+    {
+        "id": "65f78c48-f547-4278-831c-d929747bfee1",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 4: Mausoleum; Mausoleum: Winter; Uld\u2019s Resting Place",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17139-crawling-claw", 10]
+        ]
+    },
+    {
+        "id": "d2f910a7-4889-4d69-b0e0-2dfab0b90eb7",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 5: Rooftop Chase; Rooftop Chase: Summer",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17214-spined-devil", 450]
+        ]
+    },
+    {
+        "id": "869a672c-4862-4c8b-92ed-fd85e94af7ff",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 5: Rooftop Chase; Rooftop Chase: Autumn",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "149812-drow-gunslinger", 1100]
+        ]
+    },
+    {
+        "id": "2846a5ae-319e-4a51-b543-e06529e5cbaf",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 5: Rooftop Chase; Rooftop Chase: Winter",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17340-swashbuckler", 700]
+        ]
+    },
+    {
+        "id": "14708a19-eef1-47c1-b547-f16129659f51",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 6: Theater; Areas of the Theater; P2. Ticket Booths",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "5b5c06fd-c01b-4e05-92ae-8788a459b9a7",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 6: Theater; Areas of the Theater; P4. Auditorium",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "a445ba55-df92-44df-b192-c2d31f643768",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 6: Theater; Areas of the Theater; P6. Stage Manager\u2019s Office",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "654f6fee-d3cb-42ef-acda-cdd7da9d714c",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 6: Theater; Areas of the Theater; P8. Dressing Rooms",
+        "allies": [],
+        "bystanders": [
+            [2, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "128809b5-397b-4fa5-a881-74d58ba9df02",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 6: Theater; Theater: Spring",
+        "allies": [],
+        "bystanders": [
+            [1, "17328-bard", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "c8d41ddd-194c-4b1f-a859-005bfcfb98c8",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 6: Theater; Theater: Spring; Theater Owner",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "88ae7394-b0ee-4de0-8240-04b11ac027a8",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 6: Theater; Theater: Spring; Wishes the Faerie Dragon",
+        "allies": [],
+        "bystanders": [
+            [1, "17108-faerie-dragon-older", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "feb277ae-9992-46cf-977f-f455b6aecbe0",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 6: Theater; Theater: Autumn; Sapphiria\u2019s Booty",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "149550-jarlaxle-baenre", 13000],
+            [4, "17134-drow-elite-warrior", 1800]
+        ]
+    },
+    {
+        "id": "7c2cc0c3-837b-4628-983c-b8e57aefe400",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 6: Theater; Theater: Autumn; Sapphiria\u2019s Booty",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "90afd8f8-7389-4fb4-be64-1e6d3bae49ae",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 6: Theater; Theater: Winter; Brizzenbright\u2019s Ghost",
+        "allies": [],
+        "bystanders": [
+            [1, "16871-ghost", 1100]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "3d5efc23-ec55-4b34-88a3-fe947c04af98",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 6: Theater; Theater: Winter; Snakes in the House",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17340-swashbuckler", 700]
+        ]
+    },
+    {
+        "id": "8f1457e8-50a2-4a6d-8724-ec719531c0a7",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 6: Theater; Theater: Winter; Snakes in the House",
+        "allies": [
+            [1, "149049-remallia-haventree", 5000],
+            [2, "17021-spy", 200]
+        ],
+        "bystanders": [
+            [30, "16829-commoner", 10]
+        ],
+        "enemies": [
+            [1, "17328-bard", 450],
+            [1, "16985-priest", 450]
+        ]
+    },
+    {
+        "id": "8bfe358d-98d0-416d-9b72-31681352377c",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 7: Old Tower; Old Tower: Spring; Confronting the Kenku",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17165-kenku", 50]
+        ]
+    },
+    {
+        "id": "ac932eba-2b13-4760-b0dc-2f31448b2093",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 7: Old Tower; Old Tower: Spring; Gazer Attack",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17221-gazer", 100]
+        ]
+    },
+    {
+        "id": "a297c6e7-e500-4079-83ed-37251f7ee224",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 7: Old Tower; Old Tower: Summer; House Rosznar Guards",
+        "allies": [],
+        "bystanders": [
+            [4, "16915-guard", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "9785b712-7dbe-4046-b833-6e56bbf427bc",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 7: Old Tower; Old Tower: Summer; Bought and Paid For",
+        "allies": [],
+        "bystanders": [
+            [1, "149834-black-viper", 1800],
+            [3, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "6af2738e-0eb5-4e9f-987d-cb48026df440",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 7: Old Tower; Old Tower: Autumn; Tower Swords",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16865-flying-sword", 50]
+        ]
+    },
+    {
+        "id": "3e782f42-23fc-442d-848f-f04b2150aec6",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 7: Old Tower; Old Tower: Autumn; Where\u2019s the Stone?",
+        "allies": [],
+        "bystanders": [
+            [3, "149812-drow-gunslinger", 1100]
+        ],
+        "enemies": [
+            [1, "149812-drow-gunslinger", 1100]
+        ]
+    },
+    {
+        "id": "e2eae700-611c-4584-9b66-d30ea943c75b",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 7: Old Tower; Old Tower: Winter; House of Tyranny",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": [
+            [1, "16985-priest", 450],
+            [4, "16763-acolyte", 50],
+            [3, "16864-flying-snake", 25]
+        ]
+    },
+    {
+        "id": "ea94ced3-7683-4027-adbf-a2eedb5279eb",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 7: Old Tower; Old Tower: Winter; Simulacrum",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "148481-manshoon", 10000]
+        ]
+    },
+    {
+        "id": "55af5b82-a0e8-43ec-97f6-330e56ff8807",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 8: Courthouse",
+        "allies": [],
+        "bystanders": [
+            [2, "16915-guard", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "d819b3dc-4676-4658-a77f-4b0870164805",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 8: Courthouse",
+        "allies": [],
+        "bystanders": [
+            [2, "16915-guard", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "974cef6c-8986-4650-96c3-a2a0737b36c2",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 8: Courthouse; Areas of the Courthouse; H1. Upstairs Waiting Room",
+        "allies": [],
+        "bystanders": [
+            [2, "16915-guard", 25],
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "0d17752e-e800-42c7-92cc-8c834af55495",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 8: Courthouse; Areas of the Courthouse; H3. Clerks\u2019 Office",
+        "allies": [],
+        "bystanders": [
+            [2, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "0882f45b-9454-4c2c-b405-fb2fee8907e2",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 8: Courthouse; Areas of the Courthouse; H4. Magister\u2019s Office",
+        "allies": [],
+        "bystanders": [
+            [1, "16938-knight", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "106e7513-6d42-436f-9ebc-dd680451072d",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 8: Courthouse; Areas of the Courthouse; H5. Courtroom",
+        "allies": [],
+        "bystanders": [
+            [2, "16915-guard", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "e12d0e12-4aa4-4757-878d-bfa598c51493",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 8: Courthouse; Areas of the Courthouse;H6. Downstairs Waiting Room",
+        "allies": [],
+        "bystanders": [
+            [2, "16915-guard", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "732096fa-c1b2-4ff3-b40a-e8eb55cd8418",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 8: Courthouse; Areas of the Courthouse; H8. Cell Block",
+        "allies": [],
+        "bystanders": [
+            [2, "16915-guard", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "906ba735-3dea-4f35-a3ed-ec7d92d06e6a",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 8: Courthouse; Areas of the Courthouse; H9. Watch Wagon",
+        "allies": [],
+        "bystanders": [
+            [2, "17045-veteran", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "f244c39f-1f8a-4954-a383-7e561371e85a",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 8: Courthouse; Courthouse: Summer; Under Arrest",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "17045-veteran", 700]
+        ]
+    },
+    {
+        "id": "f4ea65e1-d838-4915-8c64-ba8fa921975f",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 8: Courthouse; Courthouse: Summer; False Captain",
+        "allies": [
+            [1, "16843-doppelganger", 700]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "02531ec2-54ca-46e6-b736-73a521f4fef7",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 8: Courthouse; Courthouse: Summer; False Captain",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16843-doppelganger", 700],
+            [10, "16915-guard", 25],
+            [2, "17045-veteran", 700]
+        ]
+    },
+    {
+        "id": "7b349855-e567-4791-84ca-b29bf87b02b1",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 8: Courthouse; Courthouse: Summer; Meeting with the Magister",
+        "allies": [],
+        "bystanders": [
+            [1, "285279-magister-umbero-zastro", 0]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "bc5df5f0-d843-46d2-bb75-03bfb4614a96",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 8: Courthouse; Courthouse: Autumn",
+        "allies": [],
+        "bystanders": [
+            [1, "148977-mirt", 5000]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "73db6bea-e999-42cd-b9ae-08118567d29e",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 8: Courthouse; Courthouse: Autumn",
+        "allies": [],
+        "bystanders": [
+            [1, "148474-laeral-silverhand", 18000]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "d2e3f70e-efd8-4ac9-9168-6a7cc33e7e96",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 8: Courthouse; Courthouse: Autumn; Meeting with the Magister",
+        "allies": [],
+        "bystanders": [
+            [1, "285280-hester-barch", 50]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "a83234bc-ccb4-4607-ab12-1391f2151140",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 8: Courthouse; Courthouse: Autumn; Talking to Fenerus",
+        "allies": [],
+        "bystanders": [
+            [1, "16799-bandit-captain", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "d40d018c-0a42-4636-b816-104d9d08a8ad",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 9: Cellar Complex; Areas of the Cellar Complex; B9. Rat-Infested Cellar",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16957-mimic", 450]
+        ]
+    },
+    {
+        "id": "f01e2762-4d17-4acd-8bbc-f52c81fd313e",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 9: Cellar Complex; Cellar Complex: Spring",
+        "allies": [],
+        "bystanders": [
+            [2, "17045-veteran", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "7e3023ba-9de2-4175-8b36-89e172797828",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 9: Cellar Complex; Cellar Complex: Spring",
+        "allies": [],
+        "bystanders": [
+            [1, "17221-gazer", 100]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "cd25fd57-47b3-48eb-95a9-fb5a17534f03",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 9: Cellar Complex; Cellar Complex: Spring; Necromancer",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "17015-skeleton", 50]
+        ]
+    },
+    {
+        "id": "394af492-2f64-4bfa-a930-3ba5154827b4",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 9: Cellar Complex; Cellar Complex: Spring; Where\u2019s the Stone?",
+        "allies": [
+            [2, "17015-skeleton", 50]
+        ],
+        "bystanders": [
+            [1, "285282-losser-mirklav", 2300]
+        ],
+        "enemies": [
+            [3, "17165-kenku", 50],
+            [1, "17221-gazer", 100]
+        ]
+    },
+    {
+        "id": "6842a131-790d-46e6-ae7c-0e9313482cca",
+        "type": "alternate combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 9: Cellar Complex; Cellar Complex: Summer; Chair Today, Gone Tomorrow",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16957-mimic", 450]
+        ]
+    },
+    {
+        "id": "2196d17d-5d05-470a-aebb-e17461e8e639",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 9: Cellar Complex; Cellar Complex: Autumn; Xanathar Guild Roster; B5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16907-goblin", 50]
+        ]
+    },
+    {
+        "id": "d8e9df4d-00a3-4559-826f-8230b4407fa5",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 9: Cellar Complex; Cellar Complex: Autumn; Xanathar Guild Roster; B6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17185-half-ogre", 200]
+        ]
+    },
+    {
+        "id": "1ec7a41c-76ff-40aa-a8b1-9e421a3cd7e0",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 9: Cellar Complex; Cellar Complex: Autumn; Xanathar Guild Roster; B7",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16850-duergar", 200],
+            [1, "17221-gazer", 100]
+        ]
+    },
+    {
+        "id": "98edf26b-9af3-4159-a87f-027126789f9f",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 9: Cellar Complex; Cellar Complex: Autumn; Xanathar Guild Roster; B8",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16850-duergar", 450],
+            [3, "16939-kobold", 25]
+        ]
+    },
+    {
+        "id": "f0f7f6d6-2bfe-48a9-8549-bd3331b33e24",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 9: Cellar Complex; Cellar Complex: Autumn; Xanathar Guild Roster; B10",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "17204-troglodyte", 50]
+        ]
+    },
+    {
+        "id": "4bdaf072-daf5-4afd-9d7e-de15bb7e6b4c",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 9: Cellar Complex; Cellar Complex: Autumn; Xanathar Guild Roster; B11a",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16901-gibbering-mouther", 450]
+        ]
+    },
+    {
+        "id": "ccf24670-5850-44f8-8e9b-976483905b35",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 10: Converted Windmill; Areas of the Converted Windmill; W2. Squatters",
+        "allies": [],
+        "bystanders": [
+            [4, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "83b6379c-967b-4c6a-b5e2-a4b65be93899",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 10: Converted Windmill; Converted Windmill: Spring",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "a1b29724-e5ce-438a-94ed-101e2a312016",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 10: Converted Windmill; Converted Windmill: Summer; Devils\u2019 Arrival",
+        "allies": [],
+        "bystanders": [
+            [3, "17214-spined-devil", 450]
+        ],
+        "enemies": [
+            [2, "16836-cult-fanatic", 450]
+        ]
+    },
+    {
+        "id": "065eb38b-ae51-47e2-bf54-a97ec612d58d",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 10: Converted Windmill; Converted Windmill: Autumn",
+        "allies": [],
+        "bystanders": [
+            [8, "17045-veteran", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "61b83daf-d9d0-4e1e-87a3-50cde5026118",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 10: Converted Windmill; Converted Windmill: Autumn; Visiting the Residence",
+        "allies": [],
+        "bystanders": [
+            [1, "16985-priest", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "adc98427-1e9f-4795-992e-8b11a5dfee2c",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 10: Converted Windmill; Converted Windmill: Autumn; Kalain",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285289-kalain", 450],
+            [1, "17130-displacer-beast", 700],
+            [6, "17032-swarm-of-rats", 50]
+        ]
+    },
+    {
+        "id": "827c6506-6b99-492f-8c24-1a143beb203f",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Encounter 10: Converted Windmill; Converted Windmill: Winter; Thrakkus the Butcher",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16805-berserker", 450]
+        ]
+    },
+    {
+        "id": "27f50c24-cb69-4f24-9eec-1c91e206788d",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault Keys",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16907-goblin", 50],
+            [1, "16817-bugbear", 200]
+        ]
+    },
+    {
+        "id": "2fa10e14-a4ab-4c3f-ba46-1cb0cf124d41",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault Keys",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17055-wererat", 450]
+        ]
+    },
+    {
+        "id": "ac57fb23-6bb3-46d9-aaad-0e8a7f29e5f5",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault Keys",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16933-imp", 200],
+            [3, "16835-cultist", 25],
+            [1, "16836-cult-fanatic", 450]
+        ]
+    },
+    {
+        "id": "d5703091-fea6-4f56-b7f8-fb96afccacff",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault Keys",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16933-imp", 200],
+            [3, "16835-cultist", 25],
+            [4, "17214-spined-devil", 450]
+        ]
+    },
+    {
+        "id": "a686a3da-df7e-445c-b2d0-999a4165a199",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault Keys",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "149812-drow-gunslinger", 1100],
+            [6, "17133-drow", 50]
+        ]
+    },
+    {
+        "id": "570a32ab-e4bf-46bc-98dc-d6bd0f9328bf",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault Keys",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17337-martial-arts-adept", 700],
+            [1, "17340-swashbuckler", 700]
+        ]
+    },
+    {
+        "id": "a6830ed3-23cf-42a1-b384-6fd6af9e8087",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault Keys",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17337-martial-arts-adept", 700],
+            [1, "17328-bard", 450]
+        ]
+    },
+    {
+        "id": "cac0b575-5a52-48ab-afad-30728227ffb5",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault Keys; Key Descriptions; Bronze Dragon Scale",
+        "allies": [],
+        "bystanders": [
+            [1, "17070-young-bronze-dragon", 3900]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "167b9180-9424-4dff-b297-3042914d7a7e",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault of Dragons; Areas of the Vault; V4. Hall of Moradin",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16808-black-pudding", 1100]
+        ]
+    },
+    {
+        "id": "d6c15144-e651-486a-a789-4319bd3833c2",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault of Dragons; Areas of the Vault; V9. Main Vault",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16769-adult-gold-dragon", 18000]
+        ]
+    },
+    {
+        "id": "5efcebaa-2f31-4a2f-b9c0-d92c07f61b03",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault of Dragons; Leaving the Vault",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "280407-noska-urgray", 100],
+            [6, "16817-bugbear", 200],
+            [1, "17221-gazer", 100]
+        ]
+    },
+    {
+        "id": "48452548-d4c0-42bf-a109-fc607e7b957b",
+        "type": "alternate combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault of Dragons; Leaving the Vault",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17135-drow-mage", 2900],
+            [1, "17157-grell", 700],
+            [6, "16817-bugbear", 200],
+            [1, "17221-gazer", 100]
+        ]
+    },
+    {
+        "id": "4ed38c22-718e-4fff-ac7c-4c03145f1b04",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault of Dragons; Leaving the Vault",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16836-cult-fanatic", 450],
+            [3, "16835-cultist", 25],
+            [1, "16843-doppelganger", 700]
+        ]
+    },
+    {
+        "id": "48bf1afa-38af-4baa-b32f-4e415fd4879a",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault of Dragons; Leaving the Vault",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "149550-jarlaxle-baenre", 13000],
+            [3, "149812-drow-gunslinger", 1100]
+        ]
+    },
+    {
+        "id": "01b33dad-5c4d-4469-b7ce-e671ee3ff5ac",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault of Dragons; Leaving the Vault",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285380-manshoons-simulacrum", 3900],
+            [1, "17328-bard", 450],
+            [1, "17340-swashbuckler", 700],
+            [3, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "d8611d4d-1cf4-4118-98e8-dd90069009da",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault of Dragons; Leaving the Vault; Faction Reinforcements",
+        "allies": [
+            [1, "149550-jarlaxle-baenre", 13000],
+            [3, "149812-drow-gunslinger", 1100]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "4514211c-d170-4de5-a41a-cd1cb1404a45",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault of Dragons; Leaving the Vault; Faction Reinforcements",
+        "allies": [
+            [1, "148977-mirt", 5000],
+            [2, "17340-swashbuckler", 700]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "1e66102f-ecba-41af-90fd-9cbbc59f2275",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault of Dragons; Leaving the Vault; Faction Reinforcements",
+        "allies": [
+            [3, "17032-swarm-of-rats", 50]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "e88c9156-658c-4457-9908-307badb0cfbf",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault of Dragons; Leaving the Vault; Faction Reinforcements",
+        "allies": [
+            [1, "148973-meloon-wardragon", 5000]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "e8e37444-a79e-4a15-a11d-ff9f7de57c1e",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault of Dragons; Leaving the Vault; Faction Reinforcements",
+        "allies": [
+            [1, "148474-laeral-silverhand", 18000],
+            [1, "149770-jalester-silvermane", 1100],
+            [6, "17045-veteran", 700]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "4b33a7ed-434a-4c03-9fef-59eb905b5b90",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault of Dragons; Leaving the Vault; Faction Reinforcements",
+        "allies": [
+            [1, "149786-hlam", 15000]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "4e25327d-b169-4f77-bfa1-965d1dcafb5f",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Vault of Dragons; Leaving the Vault; Faction Reinforcements",
+        "allies": [
+            [1, "149845-davil-starsong", 2300],
+            [1, "149851-istrid-horn", 3900],
+            [1, "149862-skeemo-weirdbottle", 2300],
+            [1, "149868-tashlyn-yafeera", 5000],
+            [1, "149873-ziraj-the-hunter", 3900]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "26115efc-1bff-4006-aa5c-559acecb20a6",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Adventure Conclusion; Removing the Gold",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "5f22600d-892d-459d-b782-93f4ec870a6c",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Adventure Conclusion; Removing the Gold",
+        "allies": [],
+        "bystanders": [
+            [1, "149845-davil-starsong", 2300]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "cdcfe3dc-97d9-420c-8576-123a105e9951",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Adventure Conclusion; Removing the Gold",
+        "allies": [],
+        "bystanders": [
+            [1, "280395-floon-blagmaar", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "7ced898d-8dbe-4c6f-8866-21a777958f99",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Dragon Season; Adventure Conclusion; Removing the Gold",
+        "allies": [
+            [1, "33269-volothamp-volo-geddarm", 50]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "3177873e-b27f-4bc0-9a39-6395b7243827",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Getting to the Lair; Bregan D\u2019aerthe",
+        "allies": [
+            [4, "17133-drow", 50]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "0c17a174-82cc-4a19-bd03-5913e40c6454",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Getting to the Lair; Harpers",
+        "allies": [
+            [1, "148977-mirt", 5000]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "e4282017-82ad-4944-8ac7-80da73929bd7",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Getting to the Lair; Lords\u2019 Alliance",
+        "allies": [
+            [1, "149770-jalester-silvermane", 1100]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "e2109450-765f-43b3-93ad-e7f3c73225bf",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Getting to the Lair; Emerald Enclave",
+        "allies": [
+            [1, "16991-rat", 10]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "55adec4e-d7e8-4348-9f6e-78fa6c20f75d",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Getting to the Lair; Zhentarim",
+        "allies": [
+            [1, "17035-thug", 100]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "343979d8-0f83-462b-82ac-1c7c786ab425",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X3. Beholder Zombie Guard",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17111-beholder-zombie", 1800],
+            [4, "17147-gas-spore", 100]
+        ]
+    },
+    {
+        "id": "685fa5bd-064c-4195-82b8-7ef1d708a88c",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X5. Horror\u2019s Alcove",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16786-animated-armor", 200]
+        ]
+    },
+    {
+        "id": "3188c6a1-7d3d-4f3a-a7e8-1d786f16f37d",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X6. Pit of Blood and Fortune",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "149778-ahmaergo", 5000],
+            [1, "280407-noska-urgray", 100],
+            [10, "16798-bandit", 25],
+            [5, "16817-bugbear", 200],
+            [2, "16907-goblin", 50]
+        ]
+    },
+    {
+        "id": "b590024f-6528-4226-81db-96cb935aa854",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X6. Pit of Blood and Fortune",
+        "allies": [],
+        "bystanders": [
+            [1, "16958-minotaur", 700],
+            [1, "285299-samara-strongbones", 200]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "842e194d-3566-4bd2-a09b-6bb38a28e5b1",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X7. Cell Block",
+        "allies": [],
+        "bystanders": [
+            [1, "17185-half-ogre", 200],
+            [1, "16958-minotaur", 700],
+            [1, "17189-orog", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "87f904c1-d5e9-455d-a8ca-49fb7a90e7bd",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X7. Cell Block",
+        "allies": [],
+        "bystanders": [
+            [1, "17328-bard", 450],
+            [1, "16966-noble", 25],
+            [1, "17340-swashbuckler", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "9d98e225-75c5-431b-bcab-471ed7d9086d",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X7. Cell Block",
+        "allies": [],
+        "bystanders": [
+            [1, "17133-drow", 50]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "e1426ee4-6dd3-4052-a209-aa338451bea0",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X7. Cell Block",
+        "allies": [],
+        "bystanders": [
+            [1, "285299-samara-strongbones", 200]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "f8f68aec-46e7-4a2c-bd1a-b25d3e3cdaf4",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X8. Hall of Statues",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17211-deep-gnome-svirfneblin", 100]
+        ]
+    },
+    {
+        "id": "c33ee107-f28f-41bf-b1b6-ef87eee7a6cf",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X9. Guild Barracks",
+        "allies": [],
+        "bystanders": [
+            [10, "16798-bandit", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "f93c04f9-2e39-4578-a661-4fdb3297c9ed",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X10. Noska\u2019s Quarters",
+        "allies": [],
+        "bystanders": [
+            [1, "17001-rust-monster", 100]
+        ],
+        "enemies": [
+            [1, "280407-noska-urgray", 100]
+        ]
+    },
+    {
+        "id": "d9ce476d-5b1a-41af-93ae-7a90968edc94",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X11. Ahmaergo\u2019s Collection",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16959-minotaur-skeleton", 450]
+        ]
+    },
+    {
+        "id": "5b91f637-f4c2-4ce9-97c8-ae71439492a8",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X13. Thorvin\u2019s Workshop",
+        "allies": [],
+        "bystanders": [
+            [1, "17221-gazer", 100]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "790826a8-eb4b-4e9f-966b-7f267ca883b8",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X16. Panopticus Guard Station",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17325-apprentice-wizard", 50]
+        ]
+    },
+    {
+        "id": "cdc16bba-8c2f-4c42-a7c5-c23cf11f450c",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X17. Promenade",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "149778-ahmaergo", 5000]
+        ]
+    },
+    {
+        "id": "9610f0fe-4e90-4649-bf77-83db2e42c266",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X18. Audience Chamber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "16798-bandit", 25],
+            [2, "16850-duergar", 200],
+            [1, "17135-drow-mage", 2900],
+            [1, "17157-grell", 700]
+        ]
+    },
+    {
+        "id": "ea0d60ce-3829-4e60-8419-da1bbf516fcd",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X19. Xanathar\u2019s Sanctum",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "280417-ott-steeltoes", 25]
+        ]
+    },
+    {
+        "id": "6bc85434-6caf-4f7d-b663-5fdd91b45d7c",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X23. Antechamber of Madness",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17169-kuo-toa-whip", 200],
+            [6, "17166-kuo-toa", 50]
+        ]
+    },
+    {
+        "id": "7a8fccf0-4235-485b-969b-ba2b33923575",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X24. Extraction Chamber",
+        "allies": [],
+        "bystanders": [
+            [1, "17133-drow", 50]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "250482a0-8a86-49be-b0bc-d4e6fdada249",
+        "type": "alternate combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X24. Extraction Chamber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17104-mind-flayer", 2900],
+            [1, "17163-intellect-devourer", 450]
+        ]
+    },
+    {
+        "id": "89d96ec7-4fea-4da2-a61e-8209baa6e4b1",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X25. Food for Thought",
+        "allies": [],
+        "bystanders": [
+            [2, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "c49f8452-b65d-438e-9a6b-2b61bdf4fcc3",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X26. Devourer Spawning Pool",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17104-mind-flayer", 2900],
+            [1, "17163-intellect-devourer", 450]
+        ]
+    },
+    {
+        "id": "33af6b18-7506-4057-9456-2d49f7f146af",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X27. Prison",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17169-kuo-toa-whip", 200]
+        ]
+    },
+    {
+        "id": "d36dcb8a-ebc2-4a76-9ac9-4deca2e9e0c4",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X27. Prison",
+        "allies": [],
+        "bystanders": [
+            [1, "17045-veteran", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "2361fc4a-6d09-4f27-8830-22fe359daa3a",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X28. Guild Recreation Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "16798-bandit", 25],
+            [2, "16907-goblin", 50],
+            [1, "280407-noska-urgray", 100]
+        ]
+    },
+    {
+        "id": "bf5e46a3-6a2c-4fe8-8f63-1233807d11a0",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X30. Xanathar\u2019s Gourmet Kitchen",
+        "allies": [],
+        "bystanders": [
+            [7, "16939-kobold", 25]
+        ],
+        "enemies": [
+            [2, "17221-gazer", 100]
+        ]
+    },
+    {
+        "id": "072b37a7-bf96-478e-9edd-1d3d9a93dc62",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Xanathar\u2019s Lair; Areas of the Lair; X31. The Other Kitchen",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "04217fbe-aa12-462b-a999-f88421fe4e7e",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Spring Madness; Special Events; Trolltide Slaughter",
+        "allies": [
+            [2, "17045-veteran", 700],
+            [1, "17045-veteran", 700, 3]
+        ],
+        "bystanders": [],
+        "enemies": [
+            [1, "17040-troll", 1100]
+        ]
+    },
+    {
+        "id": "2e1db9e7-d83f-4a08-bc08-c6e711838ac3",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Approaching Cassalanter Villa",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "3fa312f3-0643-4aac-b6f2-14fdcf5e13ff",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Approaching Cassalanter Villa",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "7b2a6b85-b92c-42b7-b613-51347484a573",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Approaching Cassalanter Villa",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "8710d071-91f7-4773-92de-d038a0605042",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Approaching Cassalanter Villa; Spotted by the Guards",
+        "allies": [],
+        "bystanders": [
+            [1, "17045-veteran", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "0333ac4e-85c8-42f5-a884-66f427afad7e",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; Coach House",
+        "allies": [],
+        "bystanders": [
+            [4, "16844-draft-horse", 50],
+            [2, "16997-riding-horse", 50]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "6e2f7ea2-e2ef-47a4-8078-b908915794bc",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C1. Entrance Hall",
+        "allies": [],
+        "bystanders": [
+            [1, "16843-doppelganger", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "2e64ecd6-de34-463d-8e45-154701d4687d",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C2. Garden Mudroom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "cecd7107-a46c-41f6-a77c-97600136b8ff",
+        "type": "alternate combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C2. Garden Mudroom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16803-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "c5c35eef-b8c6-4d9b-9bd4-ee61e86248ff",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C2. Garden Mudroom",
+        "allies": [],
+        "bystanders": [
+            [1, "149834-black-viper", 1800]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "17f7de87-b1a1-4330-acf5-9781dd9f69df",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C4. Reading Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "149477-victoro-cassalanter", 5900]
+        ]
+    },
+    {
+        "id": "ab177e56-9aaa-4b5f-b39c-3b303f8f2615",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C5. Foyer",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "ce04c8af-65f1-4487-a648-adbd96b4137e",
+        "type": "alternate combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C5. Foyer",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16803-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "04be3a33-ec00-45e1-a29f-64c050206ad5",
+        "type": "alternate combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C6. Victoro\u2019s Office",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "149477-victoro-cassalanter", 5900]
+        ]
+    },
+    {
+        "id": "2a3540f4-abc7-4dc9-a8e1-51ae8ce79d58",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C6. Victoro\u2019s Office",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17159-helmed-horror", 1100]
+        ]
+    },
+    {
+        "id": "2f619f74-70c7-4609-82ee-d0ba6bc4222d",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C8. Covered Porch",
+        "allies": [],
+        "bystanders": [
+            [10, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "6b1e0a25-ca08-44bb-81c2-999618486588",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C10. Kitchen",
+        "allies": [],
+        "bystanders": [
+            [6, "16829-commoner", 10]
+        ],
+        "enemies": [
+            [1, "16836-cult-fanatic", 450],
+            [10, "16865-flying-sword", 50]
+        ]
+    },
+    {
+        "id": "32364670-a553-40ae-9083-c7ff008d6315",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C12. Smoking Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "927308f8-a4b7-482b-bd87-f6c377e88190",
+        "type": "alternate combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C12. Smoking Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16803-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "ebbd83db-5c06-4ccd-8e36-f009c56bf208",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C13. Ballroom",
+        "allies": [],
+        "bystanders": [
+            [1, "148992-nimblewright", 0]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "06d33b7e-03c3-400a-b8c2-115961abc894",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C14. Banquet Kitchen",
+        "allies": [],
+        "bystanders": [
+            [4, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "e1381d25-9c9d-4fd6-a64a-98541a1971d0",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C15. Banquet Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285320-giant-mimic", 700]
+        ]
+    },
+    {
+        "id": "ed5bd46f-8f3a-4d34-9403-8305c737a39f",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C15. Banquet Hall",
+        "allies": [],
+        "bystanders": [
+            [4, "16843-doppelganger", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "b919a79e-1e77-4848-a2c0-4cad6fe1fcc7",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C17. Playroom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16836-cult-fanatic", 450]
+        ]
+    },
+    {
+        "id": "4b7bd6b2-bc81-4c9a-9f2c-de15ff6e8186",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C19. Master Sitting Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16836-cult-fanatic", 450]
+        ]
+    },
+    {
+        "id": "5b607ca9-f647-4724-b5cf-923e9f579a9e",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C20. Linen Closet",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17000-rug-of-smothering", 450]
+        ]
+    },
+    {
+        "id": "71190db8-029e-4774-8f43-ddb5ba303e33",
+        "type": "alternate combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C24. Osvaldo\u2019s Prison",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "149799-ammalia-cassalanter", 1800]
+        ]
+    },
+    {
+        "id": "6d0c7579-5026-4f51-9035-8c4d6275356a",
+        "type": "alternate combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C24. Osvaldo\u2019s Prison",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "149477-victoro-cassalanter", 5900]
+        ]
+    },
+    {
+        "id": "bb02340c-6ef7-4da7-9b2e-14d900d7f860",
+        "type": "alternate combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C24. Osvaldo\u2019s Prison",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "149799-ammalia-cassalanter", 1800],
+            [1, "149477-victoro-cassalanter", 5900]
+        ]
+    },
+    {
+        "id": "e88d6df8-2d11-429c-b1a8-5244e5101f19",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C24. Osvaldo\u2019s Prison",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16933-imp", 200]
+        ]
+    },
+    {
+        "id": "b5e6c455-d714-4970-8ae1-c1204774bdeb",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C24. Osvaldo\u2019s Prison",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16822-chain-devil", 3900]
+        ]
+    },
+    {
+        "id": "88fe4e83-c082-4b1a-b3a3-b0ba75aaec5a",
+        "type": "alternate combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C25. Butterfly Garden",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "149799-ammalia-cassalanter", 1800],
+            [6, "16933-imp", 200]
+        ]
+    },
+    {
+        "id": "abe8aaa5-216f-4fac-adfd-aaf8f22db121",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C25. Butterfly Garden",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16933-imp", 200]
+        ]
+    },
+    {
+        "id": "1f7c4f99-1bff-4058-ad4a-367b873d4d45",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Cassalanter Villa; Areas of the Villa; C25a. Garden Balcony",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "149799-ammalia-cassalanter", 1800]
+        ]
+    },
+    {
+        "id": "0af2bb29-2851-4f8e-ba33-b40ee95dcbc4",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Temple of Asmodeus; Areas of the Temple; A3. Anterior Vestibule",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16803-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "66e378f0-9a25-4e52-8427-89588a870e5c",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Temple of Asmodeus; Areas of the Temple; A4. Family Crypt",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17017-specter", 200],
+            [1, "16871-ghost", 1100]
+        ]
+    },
+    {
+        "id": "5d318874-503a-41fe-8b66-2a5910006e9f",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Temple of Asmodeus; Areas of the Temple; A6. Secret Vestry",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16835-cultist", 25]
+        ]
+    },
+    {
+        "id": "1c4bd4d6-f8b6-4a19-b01e-1d561607d849",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Temple of Asmodeus; Areas of the Temple; A7. Ceremonial Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16835-cultist", 25]
+        ]
+    },
+    {
+        "id": "1e6f3d17-8101-43aa-8044-ae82382a5ada",
+        "type": "alternate combat",
+        "book_path": "Waterdeep: Dragon Heist; Hell of a Summer; Temple of Asmodeus; Areas of the Temple; A7. Ceremonial Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [30, "16835-cultist", 25],
+            [1, "149477-victoro-cassalanter", 5900],
+            [1, "149799-ammalia-cassalanter", 1800],
+            [1, "16843-doppelganger", 700],
+            [3, "16836-cult-fanatic", 450],
+            [6, "16933-imp", 200]
+        ]
+    },
+    {
+        "id": "00ae2430-bfef-49d7-bd7d-1b347301707c",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Crews; Carnies",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "2f4442b7-4861-4901-90b6-aaf44efa815f",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Areas of the Ships; J1. Main Deck",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17133-drow", 50],
+            [1, "17134-drow-elite-warrior", 1800]
+        ]
+    },
+    {
+        "id": "acf86964-843b-451f-b7c8-69adb9f79fb3",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Areas of the Ships; J3. Mates\u2019 Cabin",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17134-drow-elite-warrior", 1800]
+        ]
+    },
+    {
+        "id": "3dc8b345-adc8-42dd-80e0-d05f2cb3b712",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Areas of the Ships; J4. Crew Cabins",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17133-drow", 50]
+        ]
+    },
+    {
+        "id": "c214567d-b615-435c-b02b-50226d1faf39",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Areas of the Ships; J7. Dining Cabin",
+        "allies": [],
+        "bystanders": [
+            [2, "16829-commoner", 10]
+        ],
+        "enemies": [
+            [6, "17133-drow", 50]
+        ]
+    },
+    {
+        "id": "f0d6fc0a-1604-44cd-a514-840ef06100e6",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Areas of the Ships; J9. Aft Castle Lower Deck",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17133-drow", 50]
+        ]
+    },
+    {
+        "id": "f6101ede-90d2-4f28-ac02-ca86aa5a8f47",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Areas of the Ships; J10. Captain\u2019s Cabin",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17135-drow-mage", 2900],
+            [1, "148992-nimblewright", 1100]
+        ]
+    },
+    {
+        "id": "fe5760c1-6e62-4429-a41e-38ca5ad1b4fb",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Areas of the Ships; J11. Aft Castle Upper Deck",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17133-drow", 50]
+        ]
+    },
+    {
+        "id": "d3d88d1a-6dab-4535-8959-2f1913b13769",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Areas of the Ships; J14. Carnies\u2019 Cabins",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "906d3a99-fff7-4b67-925e-8fc3a5ef2bd5",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Areas of the Ships; J15. Brig",
+        "allies": [],
+        "bystanders": [
+            [25, "17133-drow", 50]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "a4d9f8a3-7eb8-4e34-846f-0e510b707556",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Areas of the Ships; J17. Lower Cargo Hold",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16895-giant-spider", 200]
+        ]
+    },
+    {
+        "id": "23521f9e-9d16-4b7b-a4d8-198cddccaf72",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Areas of the Ships; J20. Creature Pens",
+        "allies": [],
+        "bystanders": [
+            [2, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "765f74c5-5e35-40d3-85f4-9f7700959310",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Areas of the Ships; J20. Creature Pens",
+        "allies": [],
+        "bystanders": [
+            [2, "16788-ape", 100],
+            [4, "16883-giant-fire-beetle", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "8ac82573-5d7b-46cc-a1dd-7512695cd5a7",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Areas of the Ships; J20. Creature Pens",
+        "allies": [],
+        "bystanders": [
+            [1, "16996-rhinoceros", 450],
+            [1, "16924-hippogriff", 200]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "fe9a0667-0f82-48e3-b7ab-7e11c07ad5e2",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Areas of the Ships; J20. Creature Pens",
+        "allies": [],
+        "bystanders": [
+            [1, "17036-tiger", 200],
+            [1, "16793-axe-beak", 50]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "f529c192-0823-45b0-b9b7-9fffc65a9ea9",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Areas of the Ships; J20. Creature Pens",
+        "allies": [],
+        "bystanders": [
+            [1, "17087-allosaurus", 450],
+            [2, "16838-death-dog", 200]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "bd34183f-6500-4021-94b3-c926e8e20b6b",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Areas of the Ships; J20. Creature Pens",
+        "allies": [],
+        "bystanders": [
+            [2, "16976-panther", 50],
+            [1, "16897-giant-vulture", 200]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "d1d11820-083e-42f9-b6e5-94807bb7a60c",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Areas of the Ships; J20. Creature Pens",
+        "allies": [],
+        "bystanders": [
+            [1, "16975-owlbear", 700],
+            [1, "16983-polar-bear", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "75bf7ed1-280f-4945-88f6-2de988198921",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Areas of the Ships; J23. Gunslingers\u2019 Hold",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "149812-drow-gunslinger", 1100]
+        ]
+    },
+    {
+        "id": "b3651a24-e262-49a4-8235-0153e325cc01",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Areas of the Ships; J29. Guest Cabin",
+        "allies": [],
+        "bystanders": [
+            [1, "149550-jarlaxle-baenre", 13000],
+            [1, "17328-bard", 450],
+            [1, "17340-swashbuckler", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "bf81568e-a033-4fe3-b7e8-c3d9619dda37",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Areas of the Ships; J30. Zardoz Zord\u2019s Cabin",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "148992-nimblewright", 1100]
+        ]
+    },
+    {
+        "id": "0ae89472-a875-4b30-aca6-d7d63defb5d1",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Sea Maidens Faire; Areas of the Ships; J31. Training Area",
+        "allies": [],
+        "bystanders": [
+            [5, "16786-animated-armor", 200]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "e24d835a-27c5-4589-86ec-a9690fa255f6",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Scarlet Marpenoth; Areas of the Scarlet Marpenoth; U3. Soluun\u2019s Stateroom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "280387-soluun-xibrindas", 1100]
+        ]
+    },
+    {
+        "id": "6198e12a-b95c-4877-868a-a1014e350710",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Scarlet Marpenoth; Areas of the Scarlet Marpenoth; U4. Jarlaxle\u2019s Stateroom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285351-swarm-of-mechanical-spiders", 100]
+        ]
+    },
+    {
+        "id": "c5cb7ec6-1222-4c64-9310-857fe2e5594c",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Scarlet Marpenoth; Areas of the Scarlet Marpenoth; U5. Fel\u2019rekt\u2019s Stateroom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "149812-drow-gunslinger", 1100]
+        ]
+    },
+    {
+        "id": "dd22e654-326d-4863-8309-2da297fd4a2f",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Scarlet Marpenoth; Areas of the Scarlet Marpenoth; U6. Krebbyg\u2019s Stateroom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "149812-drow-gunslinger", 1100]
+        ]
+    },
+    {
+        "id": "0d713a64-2c17-42f9-9612-b6646f5adc74",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Scarlet Marpenoth; Areas of the Scarlet Marpenoth; U7. Control Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "149550-jarlaxle-baenre", 13000]
+        ]
+    },
+    {
+        "id": "53223b52-1187-4240-9e76-701b680c11e9",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Scarlet Marpenoth; Areas of the Scarlet Marpenoth; U7. Control Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17325-apprentice-wizard", 50],
+            [2, "17134-drow-elite-warrior", 1800]
+        ]
+    },
+    {
+        "id": "9de2df75-4142-4688-8822-2fbc025974f4",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Scarlet Marpenoth; Areas of the Scarlet Marpenoth; U8. Engineers\u2019 Staterooms",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17325-apprentice-wizard", 50]
+        ]
+    },
+    {
+        "id": "f97e1927-3d0c-4cef-9861-d40aa95c1a7f",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Special Events; The Friendly Dragon",
+        "allies": [],
+        "bystanders": [
+            [1, "17070-young-bronze-dragon", 3900]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "3793f760-ebb7-47d8-a7c0-5c29fb6450ff",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Special Events; A Night to Remember",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "149812-drow-gunslinger", 1100]
+        ]
+    },
+    {
+        "id": "41a50f1a-48a7-4a0b-9f06-a5d2c9cf7c9a",
+        "type": "alternate combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Special Events; A Night to Remember",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17134-drow-elite-warrior", 1800]
+        ]
+    },
+    {
+        "id": "4d420d27-33d7-43ae-810a-c5e25713f5d3",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Special Events; A Night to Remember",
+        "allies": [],
+        "bystanders": [
+            [1, "148474-laeral-silverhand", 18000]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "c8eed251-dd13-490c-bbc8-246e46d8b0c9",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Special Events; A Night to Remember",
+        "allies": [],
+        "bystanders": [
+            [6, "17045-veteran", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "b1b9fc53-4d92-4eed-aff0-c285b6412258",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Maestro's Fall; Special Events; Escaped Bear",
+        "allies": [],
+        "bystanders": [
+            [1, "16983-polar-bear", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "c17fd7ee-e9c7-45bb-b5dd-dc31e9e2ac68",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Kolat Towers; Force Field; Digging under the Force Field",
+        "allies": [],
+        "bystanders": [
+            [7, "17045-veteran", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "109eaea7-f45c-4cef-b2fc-b9c9a0ae1f77",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Kolat Towers; Areas of Kolat Towers; K2. Dining Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17045-veteran", 700],
+            [2, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "ec8b7319-88dc-4dfa-8568-a3aa25997da0",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Kolat Towers; Areas of Kolat Towers; K3. Kitchen",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285356-manafret-cherryport", 2300]
+        ]
+    },
+    {
+        "id": "02655f59-4506-4852-9ffd-3520d7d4c432",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Kolat Towers; Areas of Kolat Towers; K4. Musty Library",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16868-gargoyle", 450]
+        ]
+    },
+    {
+        "id": "e7b62ca7-2b73-44b9-804b-d6758f43d975",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Kolat Towers; Areas of Kolat Towers; K6. Main Tower Landing and Ledge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16957-mimic", 450]
+        ]
+    },
+    {
+        "id": "e06adb64-0c31-4620-b541-aa686926da5a",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Kolat Towers; Areas of Kolat Towers; K7. Reading Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285362-yorn-the-terror", 100]
+        ]
+    },
+    {
+        "id": "2906a158-b19f-4d02-8448-e914e034b5dc",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Kolat Towers; Areas of Kolat Towers; K12. Staff Display",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16865-flying-sword", 50]
+        ]
+    },
+    {
+        "id": "ef59d08b-ba70-4315-b971-6cb8c81e388a",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Kolat Towers; Areas of Kolat Towers; K13. Holding Cell",
+        "allies": [],
+        "bystanders": [
+            [1, "285365-lady-gondafrey", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "657334ac-a846-433c-9084-a73aed7008ed",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Kolat Towers; Areas of Kolat Towers; K14. Servants\u2019 Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "695de37d-a45b-4203-b1b3-3fdec8284df1",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Kolat Towers; Areas of Kolat Towers; K15. Summoning Chamber",
+        "allies": [],
+        "bystanders": [
+            [1, "17110-barlgura", 1800]
+        ],
+        "enemies": [
+            [3, "17325-apprentice-wizard", 50]
+        ]
+    },
+    {
+        "id": "b0952e03-d855-499f-8cb9-81cb13d89a3f",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Kolat Towers; Areas of Kolat Towers; K15. Summoning Chamber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17110-barlgura", 1800]
+        ]
+    },
+    {
+        "id": "677f40a4-a22d-4eed-b95b-acf98b02ede7",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Kolat Towers; Areas of Kolat Towers; K16. Construct Workshop",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16786-animated-armor", 200]
+        ]
+    },
+    {
+        "id": "ccdb3df8-0e63-4893-80b4-001f6c4f17fd",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Kolat Towers; Areas of Kolat Towers; K17. Flesh Golem",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16863-flesh-golem", 1800]
+        ]
+    },
+    {
+        "id": "7ab8291f-1995-45e9-a1e6-842e86b5315c",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Kolat Towers; Areas of Kolat Towers; K18. Arcane Rune",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17116-red-slaad", 1800]
+        ]
+    },
+    {
+        "id": "105f6165-9120-4411-a33d-68040709d2da",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Kolat Towers; Areas of Kolat Towers; K19. Duhlark\u2019s Bedroom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17091-flameskull", 1100]
+        ]
+    },
+    {
+        "id": "5849bd4e-1684-4bf2-b9f2-2f46adc35c97",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Kolat Towers; Areas of Kolat Towers; K21. Duhlark\u2019s Private Library",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17028-swarm-of-bats", 50]
+        ]
+    },
+    {
+        "id": "c554c5e5-3296-4dcc-a566-79d2d4b52b51",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Kolat Towers; Areas of Kolat Towers; K22. Teleportation Circle",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17094-spectator", 700],
+            [4, "16864-flying-snake", 25]
+        ]
+    },
+    {
+        "id": "53e83735-dd08-4c1a-929d-37840c5ab736",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Extradimensional Sanctum; Areas of the Sanctum; E1. Arrival Point",
+        "allies": [],
+        "bystanders": [
+            [1, "285380-manshoons-simulacrum", 3900]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "2f8dda68-0707-4137-876b-dbc950240e79",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Extradimensional Sanctum; Areas of the Sanctum; E2. Foyer",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285380-manshoons-simulacrum", 3900]
+        ]
+    },
+    {
+        "id": "fd588a9a-2ebb-47a4-83eb-f22186873488",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Extradimensional Sanctum; Areas of the Sanctum; E3. Guard Station",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285375-kaevja-cynavern", 2300],
+            [1, "16853-earth-elemental", 1800]
+        ]
+    },
+    {
+        "id": "cdc33990-fb94-46f3-9b4f-cdb0a3de13f7",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Extradimensional Sanctum; Areas of the Sanctum; E5. Laboratory",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "280435-urstul-floxin", 3900]
+        ]
+    },
+    {
+        "id": "dbaf3fba-b6c7-487b-b1c8-5b23ff9eeba1",
+        "type": "alternate combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Extradimensional Sanctum; Areas of the Sanctum; E7. Manshoon\u2019s Simulacrum",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285380-manshoons-simulacrum", 3900]
+        ]
+    },
+    {
+        "id": "055fe967-69b4-4c37-a4ce-c187afec0386",
+        "type": "alternate combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Extradimensional Sanctum; Areas of the Sanctum; E8. Reading Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17340-swashbuckler", 700],
+            [1, "17328-bard", 450]
+        ]
+    },
+    {
+        "id": "a6dfa73b-1c5c-4ed9-89f9-844118f1f8c0",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Extradimensional Sanctum; Areas of the Sanctum; E10. Audience Chamber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285389-havia-quickknife", 700],
+            [1, "285396-mookie-plush", 700]
+        ]
+    },
+    {
+        "id": "a883ada9-2d98-4717-8050-b8b9b0a5dcf5",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Extradimensional Sanctum; Areas of the Sanctum; E12. Manshoon\u2019s Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "148481-manshoon", 10000]
+        ]
+    },
+    {
+        "id": "0d826518-3fd3-4f57-b9eb-ffd47140e14a",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Extradimensional Sanctum; Areas of the Sanctum; E13. Manshoon\u2019s Study",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17159-helmed-horror", 1100]
+        ]
+    },
+    {
+        "id": "7096627c-741b-4c67-8630-d21fa07e30e8",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Special Events; Blackmailed Lords; Corylus Thann",
+        "allies": [],
+        "bystanders": [
+            [1, "16966-noble", 25],
+            [6, "16915-guard", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "b6f2b1dc-e755-4d43-ba2d-81d4ceec1e7b",
+        "type": "combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Special Events; Blackmailed Lords; Corylus Thann",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "17045-veteran", 700]
+        ]
+    },
+    {
+        "id": "bd34900d-d1f7-4e31-a979-845bf7a6a170",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dragon Heist; Winter Wizardry; Special Events; Blackmailed Lords; Jelenn Urmbrusk",
+        "allies": [],
+        "bystanders": [
+            [1, "16966-noble", 25],
+            [16, "16915-guard", 25]
+        ],
+        "enemies": []
+    }
+]

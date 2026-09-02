@@ -1,0 +1,2662 @@
+[
+    {
+        "id": "fe7f9fa8-fb2d-49fb-bc21-b11c528df330",
+        "type": "alternate combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; The Basilisk Gate; Meeting Captain Zodge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17045-veteran", 700],
+            [6, "17045-veteran", 700]
+        ]
+    },
+    {
+        "id": "922c98c1-a3e9-4c6b-9c9b-b584744c9fc1",
+        "type": "alternate combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17045-veteran", 700],
+            [1, "17091-flameskull", 1100]
+        ]
+    },
+    {
+        "id": "0a2aa58a-31f1-41e2-b872-095a7001dec2",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern; About the Tavern",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "41240bc9-7569-4f69-bdcc-b65d50779ec9",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern; Tavern Locations; E1. Taproom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16829-commoner", 10],
+            [1, "16786-animated-armor", 200],
+            [1, "17185-half-ogre", 200]
+        ]
+    },
+    {
+        "id": "86d5eb08-6bdc-417e-9846-47c768d46932",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern; Tavern Locations; E1. Taproom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10],
+            [1, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "f340c1bc-73b0-47b0-9dbe-4a18073123f6",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern; Tavern Locations; E6. Kitchen",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "d5b2fe3a-2915-4c6a-b05d-8269878e0e85",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern; Tavern Locations; E11. Large Guest Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17197-sahuagin-priestess", 450]
+        ]
+    },
+    {
+        "id": "514c3d63-fc3a-48f6-8f2d-5733774b11de",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern; Tavern Locations; E13. Alan\u2019s Bedroom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17000-rug-of-smothering", 450]
+        ]
+    },
+    {
+        "id": "87095fb4-29e5-4de2-9d1c-0a6538fb60e5",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern; Dealing with Tarina",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "384b70ed-76ad-4479-bf63-d6c8f3ba914a",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern; With Friends Like These",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16799-bandit-captain", 450],
+            [7, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "b1a54cca-8d37-4510-bf29-7e4e3bb165ff",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern; With Friends Like These; Treasure",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [11, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "dcfbe89f-7caf-4b25-8c03-02ac402809e3",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D1. Courtyard",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16933-imp", 200]
+        ]
+    },
+    {
+        "id": "c5149455-f800-410e-9460-730c2ff85e48",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D2. Baths",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "429728-night-blade", 50]
+        ]
+    },
+    {
+        "id": "885f8746-3826-4578-b0e2-3ac362d17ab3",
+        "type": "alternate combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D2. Baths",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "429728-night-blade", 50],
+            [1, "416948-necromite-of-myrkul", 100]
+        ]
+    },
+    {
+        "id": "6102eab8-e5a6-4302-b0ac-9ed8b81cd6ae",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D3. South Massage Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "6c628e79-8c1d-43c8-83e4-4c6d2e2a0ed4",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D4. North Massage Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "416948-necromite-of-myrkul", 100]
+        ]
+    },
+    {
+        "id": "6f6d9830-898f-4629-aafb-6e16272bde19",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D10. Necromites\u2019 Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "416948-necromite-of-myrkul", 100]
+        ]
+    },
+    {
+        "id": "55d7e4e1-e098-4936-8718-6f13e776af10",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D12. Bane\u2019s Altar",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "416945-fist-of-bane", 100],
+            [1, "417125-iron-consul", 450]
+        ]
+    },
+    {
+        "id": "dcf3d3c9-504d-45e9-aed2-ac2c9970a5dc",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D12. Bane\u2019s Altar",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
+    },
+    {
+        "id": "d1b89ae9-3efa-4897-a4f1-ddfbf3cad679",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D12. Bane\u2019s Altar",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16865-flying-sword", 50]
+        ]
+    },
+    {
+        "id": "389ac95c-6452-4323-a4ef-2b7ec6bcfdea",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D13. Morgue",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "417434-master-of-souls", 1100],
+            [1, "17032-swarm-of-rats", 50]
+        ]
+    },
+    {
+        "id": "bb8678d0-7893-4daa-a926-61f3848335ee",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D14. Hungry Rat",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16991-rat", 10]
+        ]
+    },
+    {
+        "id": "3e1c155b-c144-4182-8358-aa98e7a38cfa",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D17. Myrkul\u2019s Altar",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17015-skeleton", 50]
+        ]
+    },
+    {
+        "id": "edbc1f3f-b76b-45bc-b39a-41209a9519d2",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D21. Zombie Crypt",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17077-zombie", 50]
+        ]
+    },
+    {
+        "id": "c4e5d2e5-ed83-4991-876a-e3b2ea20dc82",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D22. Torture Chamber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "4844908f-6585-40fa-99a1-ac87485ac8b0",
+        "type": "alternate combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D23. Secret Door and Sentry",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "416945-fist-of-bane", 100]
+        ]
+    },
+    {
+        "id": "542319bd-514a-4892-91bf-0548abf39cf8",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D25. Bane\u2019s Rest",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "416945-fist-of-bane", 100],
+            [1, "416945-fist-of-bane", 100]
+        ]
+    },
+    {
+        "id": "306ea73a-7955-457e-8a36-4c23a8083db4",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D26. Bhaal\u2019s Rest",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "417140-reaper-of-bhaal", 450]
+        ]
+    },
+    {
+        "id": "3ade1131-17f1-4f24-b297-9b065df53cf9",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D28. Old Cellar",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17015-skeleton", 50]
+        ]
+    },
+    {
+        "id": "4b00efb3-7766-4173-a34e-0453a8343418",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D29. Mortlock Vanthampur",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "417738-mortlock-vanthampur", 700],
+            [1, "416937-deaths-head-of-bhaal", 1800]
+        ]
+    },
+    {
+        "id": "aca8360e-ae93-4156-8322-f3bdd8c2d434",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D32. Stolen Goods",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16991-rat", 10]
+        ]
+    },
+    {
+        "id": "d2042db9-c0dc-4a90-a23f-bb5e0a4f390e",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D33. Covenant of the Dead Three",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "416937-deaths-head-of-bhaal", 1800]
+        ]
+    },
+    {
+        "id": "a940f5dd-ac98-4e86-9327-fadf79095be0",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Surprise! Dragon Cultists!",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16835-cultist", 25],
+            [1, "16836-cult-fanatic", 450]
+        ]
+    },
+    {
+        "id": "5586916d-aa14-4905-a20c-1d7af85ce49e",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Surprise! Dragon Cultists!",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16933-imp", 200]
+        ]
+    },
+    {
+        "id": "48d3b545-aa77-4237-8d46-6ea750598612",
+        "type": "alternate combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Where Next?",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "416945-fist-of-bane", 100],
+            [3, "429728-night-blade", 50],
+            [2, "416948-necromite-of-myrkul", 100]
+        ]
+    },
+    {
+        "id": "d04c2481-64fe-4c93-8a06-c6bb464ce810",
+        "type": "alternate combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Where Next?",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "417125-iron-consul", 450],
+            [2, "416945-fist-of-bane", 100],
+            [3, "429728-night-blade", 50],
+            [1, "416952-skull-lasher-of-myrkul", 200]
+        ]
+    },
+    {
+        "id": "d8d1c8df-20c5-4e3a-bf02-9a1c7a3b1cec",
+        "type": "alternate combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Where Next?",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "417058-black-gauntlet-of-bane", 2300],
+            [2, "417140-reaper-of-bhaal", 450],
+            [1, "417434-master-of-souls", 1100],
+            [6, "17015-skeleton", 50],
+            [4, "17077-zombie", 50]
+        ]
+    },
+    {
+        "id": "80760b56-3c36-4b75-b153-d19c9a9c691d",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Low Lantern; About the Tavern",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16947-mage", 2300],
+            [1, "16833-crab", 10]
+        ]
+    },
+    {
+        "id": "598251ac-0d16-4be3-849a-e546801ca2d8",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Low Lantern; About the Tavern",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17165-kenku", 50],
+            [6, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "8e243001-6823-4002-9f61-3e3df7b81acf",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Low Lantern; Tavern Locations; L1. Main Deck",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16933-imp", 200]
+        ]
+    },
+    {
+        "id": "680911f1-15dd-429f-b213-396a478e07ee",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Low Lantern; Tavern Locations; L4. Laraelra\u2019s Cabin",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "417110-flying-dagger", 25]
+        ]
+    },
+    {
+        "id": "651b972e-e113-40be-916f-1e68c854c93d",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Low Lantern; Tavern Locations; L5. Taproom and Gambling Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17035-thug", 100],
+            [1, "16947-mage", 2300],
+            [1, "16833-crab", 10]
+        ]
+    },
+    {
+        "id": "8f30b222-6d0f-43a4-8cac-4e2aeffdbb0a",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Low Lantern; Tavern Locations; L6. Tavern Lounge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "1f9dbaef-5775-45fb-8d67-6be55259dac5",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Low Lantern; Tavern Locations; L6. Tavern Lounge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "417759-amrik-vanthampur", 700],
+            [1, "17214-spined-devil", 450],
+            [1, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "cb5aa7df-ac36-41b1-bf2c-e332962b6fc5",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Low Lantern; Tavern Locations; L8. Sleeping Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "853745a3-f832-42d7-bea9-db51fe698ff8",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Low Lantern; Reya Mantlemorn",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17045-veteran", 700]
+        ]
+    },
+    {
+        "id": "f1f172f1-6eed-4c6e-9ebd-21e5c17aa771",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Vanthampur Villa; Getting to the Villa",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [20, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "107c5322-2187-4b05-887f-4798ccc4e73e",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Vanthampur Villa; The Vanthampur Family",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17353-tressym", 10]
+        ]
+    },
+    {
+        "id": "828af86b-d64e-406a-9243-4eaafbd01ffc",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Vanthampur Villa; About the Villa; Servants",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "5f87338a-d384-47d8-9e7e-5353e00e05b4",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Vanthampur Villa; Villa Locations; V1. Yard",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [9, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "23e02e81-b2bf-48bf-9728-ec2566f3396c",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Vanthampur Villa; Villa Locations; V2. Stable House",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16844-draft-horse", 50]
+        ]
+    },
+    {
+        "id": "587a7419-60c3-4573-a08e-2ef53ee32c8c",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Vanthampur Villa; Villa Locations; V3. Foyer",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16933-imp", 200]
+        ]
+    },
+    {
+        "id": "398f5bd1-7923-408d-a180-ae3e0a9fb260",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Vanthampur Villa; Villa Locations; V5. Kitchen",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17353-tressym", 10]
+        ]
+    },
+    {
+        "id": "9cd3920b-d781-4d83-b9e9-4bbb0e5317bb",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Vanthampur Villa; Villa Locations; V9. Dining Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16933-imp", 200]
+        ]
+    },
+    {
+        "id": "9f84373c-950b-4f6f-a65f-c46bcf05d9d2",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Vanthampur Villa; Villa Locations; V11. Upstairs Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "52279471-9c88-42d8-831a-93437bb94ad9",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Vanthampur Villa; Villa Locations; V13. Thurstwell\u2019s Bedroom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "417778-thurstwell-vanthampur", 25],
+            [1, "16933-imp", 200]
+        ]
+    },
+    {
+        "id": "56130100-f550-40a9-87ab-9d5670003591",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Vanthampur Villa; Villa Locations; V18. Duke\u2019s Study",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17159-helmed-horror", 1100]
+        ]
+    },
+    {
+        "id": "5d9c82b2-bbe0-4660-90f6-501d72e4f063",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Vanthampur Villa; Villa Locations; V19. Tower Peak",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16933-imp", 200]
+        ]
+    },
+    {
+        "id": "016a4d39-eeea-4a63-a8d2-f75872de0bdb",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Vanthampur Villa; Villa Locations; V19. Tower Peak",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "9281994b-9503-40e2-85ff-1faf8cbb4f24",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Vanthampur Villa; Villa Locations; V19. Tower Peak",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "cbd76c0b-b976-444a-bd7b-561887a84a45",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Under the Villa; Dungeon Locations; V20. Cellar",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17214-spined-devil", 450]
+        ]
+    },
+    {
+        "id": "883dd3b5-05f2-4bb3-8629-bb5e9662bea8",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Under the Villa; Dungeon Locations; V22. Sewer Tunnels",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16835-cultist", 25]
+        ]
+    },
+    {
+        "id": "3fcdf790-bdf5-4630-a0e4-b604eccfdec9",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Under the Villa; Dungeon Locations; V22. Sewer Tunnels",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16835-cultist", 25],
+            [1, "16933-imp", 200]
+        ]
+    },
+    {
+        "id": "8d7bab1c-ee2e-41d5-97af-023e966bc551",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Under the Villa; Dungeon Locations; V22. Sewer Tunnels",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16836-cult-fanatic", 450]
+        ]
+    },
+    {
+        "id": "dbeee75a-2ae0-499a-9313-3603f2c66b01",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Under the Villa; Dungeon Locations; V26. Temple of Zariel",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16800-barbed-devil", 1800],
+            [4, "16835-cultist", 25]
+        ]
+    },
+    {
+        "id": "db3be630-5afa-47f8-ace8-3f13d680fd22",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Under the Villa; Dungeon Locations; V28. Secret Shrine",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "417078-duke-thalamra-vanthampur", 1100]
+        ]
+    },
+    {
+        "id": "c944e496-eba9-4443-a0ce-0c63708a3ada",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Under the Villa; Dungeon Locations; V29. Prison",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16803-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "35bd8afc-a01a-4dc7-9fc2-27f5e0320d01",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Under the Villa; Dungeon Locations; V29. Prison",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17021-spy", 200]
+        ]
+    },
+    {
+        "id": "6976ebb0-e313-4c7f-a894-78598a51cbb9",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Under the Villa; Dungeon Locations; V29. Prison",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
+    },
+    {
+        "id": "1d3ab47c-13a4-41e2-b643-5a2ff0976318",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Under the Villa; Dungeon Locations; V32. Connecting Tunnel",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16836-cult-fanatic", 450]
+        ]
+    },
+    {
+        "id": "f24f6437-04e0-4abe-b51b-a3604556471f",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Under the Villa; Dungeon Locations; V33. Cultists\u2019 Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "16835-cultist", 25]
+        ]
+    },
+    {
+        "id": "2d19c99e-d3bd-4305-936a-4319c452ee01",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Under the Villa; Dungeon Locations; V36. Vanthampur Vault",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "429696-thavius-kreeg", 100]
+        ]
+    },
+    {
+        "id": "a00258df-5c22-4b78-839f-9ff09593f591",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Final Encounters in Baldur\u2019s Gate; Commander Portyr",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33046-liara-portyr", 1100]
+        ]
+    },
+    {
+        "id": "05aeae2a-da16-4db9-a6eb-f74c90d42c83",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Journey to Candlekeep; Wyrm\u2019s Crossing",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "c1308874-2d56-42d3-a8d4-b6d1fcab1b43",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Journey to Candlekeep; Knights of the Shield",
+        "allies": [],
+        "bystanders": [
+            [2, "16844-draft-horse", 50]
+        ],
+        "enemies": [
+            [1, "17137-cambion", 1800],
+            [3, "17045-veteran", 700]
+        ]
+    },
+    {
+        "id": "b065fe93-06dd-4ece-910c-e8a4da08317e",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Candlekeep; Entering Candlekeep",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16985-priest", 450]
+        ]
+    },
+    {
+        "id": "c29441bd-c228-48fb-bacb-095b1b5b3cdb",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Candlekeep; Entering Candlekeep; The Hearth",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16969-ogre", 450]
+        ]
+    },
+    {
+        "id": "dc98ace1-86e7-49e0-9ef4-5a5bae024a24",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Candlekeep; Sylvira Savikas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "431835-sylvira-savikas", 8400],
+            [1, "16988-quasit", 200]
+        ]
+    },
+    {
+        "id": "273c5326-5d58-4cc0-b43d-f526563d711b",
+        "type": "alternate combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Candlekeep; Sylvira Savikas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16789-archmage", 8400],
+            [2, "16947-mage", 2300],
+            [2, "16789-archmage", 8400]
+        ]
+    },
+    {
+        "id": "ca7532d3-9048-43ae-891a-a92f4077ae97",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Getting to Avernus",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16913-griffon", 450]
+        ]
+    },
+    {
+        "id": "004cf2fd-433b-4d23-9c5e-c5a624cb5a4d",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Getting to Avernus; Traxigor\u2019s Tower",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "424613-traxigor", 8400]
+        ]
+    },
+    {
+        "id": "1cc21fb5-051f-4818-ac82-8c93618addaf",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Getting to Avernus; Lulu the Hollyphant",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "417848-hollyphant", 1800]
+        ]
+    },
+    {
+        "id": "9e6f8fc4-de70-4750-be57-dd8824dd017a",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Arrival in Elturel",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "424613-traxigor", 8400],
+            [1, "417848-hollyphant", 1800]
+        ]
+    },
+    {
+        "id": "e7331fcd-08aa-462b-ab87-fcb1d879db49",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Unwelcome Party",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16803-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "f68cbb4f-2a4a-4b69-90f2-17cfc677c013",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Unwelcome Party; Aftermath",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "de6de081-20f3-4a8f-97bc-2811da144bdb",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Arrival in Elturel; More Encounters in Elturel; Collapsed Building",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16829-commoner", 10],
+            [1, "16763-acolyte", 50]
+        ]
+    },
+    {
+        "id": "d730afaf-963d-4087-b3b5-b84345c642f8",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Arrival in Elturel; More Encounters in Elturel; Cry for Help",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "94204-bulezau", 700]
+        ]
+    },
+    {
+        "id": "e8903b53-1df4-428d-b6a8-a50f6a07b3fe",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Arrival in Elturel; More Encounters in Elturel; Cry for Help",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "257235-incubus", 1100]
+        ]
+    },
+    {
+        "id": "38b33825-f7d4-4a2a-9b98-1b5791585af7",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Arrival in Elturel; More Encounters in Elturel; Ghastly Meal",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16870-ghast", 450]
+        ]
+    },
+    {
+        "id": "c883fe91-53e2-4ed2-99aa-4bbb8ba509df",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Arrival in Elturel; More Encounters in Elturel; Ghoul Pack",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "16872-ghoul", 200]
+        ]
+    },
+    {
+        "id": "fa557586-07ba-477d-ab5f-eda3a1e63d33",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Arrival in Elturel; More Encounters in Elturel; Hateful Patrol",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "95021-merregon", 1100],
+            [3, "17214-spined-devil", 450]
+        ]
+    },
+    {
+        "id": "8a034f98-b61e-4413-bf9a-306581363340",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Arrival in Elturel; More Encounters in Elturel; Imp Sales Pitch",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16933-imp", 200],
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "a1c6e370-6172-4e7c-83ae-1ceb773434f6",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Arrival in Elturel; More Encounters in Elturel; Narzugon Cavalier",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "95077-narzugon", 10000],
+            [1, "16964-nightmare", 700]
+        ]
+    },
+    {
+        "id": "49b16def-cf80-41ab-af95-9ed4550a3eff",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Arrival in Elturel; More Encounters in Elturel; Vrock Philosophy",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17047-vrock", 2300]
+        ]
+    },
+    {
+        "id": "c929df2c-a319-452b-ad90-190150940d14",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Arrival in Elturel; More Encounters in Elturel; Zombie Horde",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "17077-zombie", 50]
+        ]
+    },
+    {
+        "id": "f0de782e-6239-4645-88d1-fcf5b827ede8",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Arrival in Elturel; Torm\u2019s Bridges",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16803-bearded-devil", 700],
+            [4, "17214-spined-devil", 450]
+        ]
+    },
+    {
+        "id": "4865bd38-f7bc-4230-b404-5328741451f6",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Arrival in Elturel; Torm\u2019s Bridges",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16803-bearded-devil", 700],
+            [4, "17214-spined-devil", 450]
+        ]
+    },
+    {
+        "id": "4117ddfe-d15c-4be2-ae05-8f9b3c65b3a6",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; High Hall; Approaching the High Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16921-hell-hound", 700]
+        ]
+    },
+    {
+        "id": "b47b9d05-ea5c-4008-b548-4929cff0ba96",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; High Hall; Cathedral Assault; Group 1: Abishai and Cultists",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "94636-white-abishai", 2300],
+            [6, "16835-cultist", 25]
+        ]
+    },
+    {
+        "id": "296c933e-69e3-48cf-ab48-0aca2d105ca9",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; High Hall; Cathedral Assault; Group 2: Crab Attack",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16800-barbed-devil", 1800],
+            [8, "16879-giant-crab", 25]
+        ]
+    },
+    {
+        "id": "2cf6e261-96fb-4493-bbff-32c0ae73f564",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; High Hall; Cathedral Assault; Group 3: Devilish Brigands",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17214-spined-devil", 450],
+            [3, "16799-bandit-captain", 450]
+        ]
+    },
+    {
+        "id": "83d7567b-be15-49c5-814c-2756dfbec55f",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; High Hall; Cathedral Assault; Group 4: Hellish Hunters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "95021-merregon", 1100],
+            [2, "16921-hell-hound", 700]
+        ]
+    },
+    {
+        "id": "4c3fbb46-48f3-4634-992f-c7c8b38a9c37",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; High Hall; High Hall Cathedral; H4. Private Chapels",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16848-druid", 450]
+        ]
+    },
+    {
+        "id": "279ad841-a935-4031-ad4e-44c281edfb6a",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; High Hall; High Hall Cathedral; H8. Defenses",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "02ede9c5-16a3-4d55-a945-0bf986a17215",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; High Hall; High Hall Cathedral; H10. Recessed Mausoleums",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "44679662-548b-4d01-b101-5fe57ef5460f",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; High Hall; High Hall Cathedral; H12. Temple of the Highest",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16961-mummy", 700]
+        ]
+    },
+    {
+        "id": "e484f974-0825-41c7-b47e-35679cf666f9",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; High Hall; High Hall Cathedral; H16. Main Crypts",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16763-acolyte", 50]
+        ]
+    },
+    {
+        "id": "c094d186-748b-4aab-8d68-cb0ed561ed83",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Grand Cemetery; Exploring the Cemetery; Approaching the Chapel",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16959-minotaur-skeleton", 450]
+        ]
+    },
+    {
+        "id": "d043c76f-00c1-4b98-b3ca-aaccd654d217",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Grand Cemetery; Exploring the Cemetery; G1. Walk of Bravery",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17010-shadow", 100],
+            [4, "17017-specter", 200]
+        ]
+    },
+    {
+        "id": "1471c9e5-3208-455a-a2d0-aaa9b9c76ac6",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Grand Cemetery; Exploring the Cemetery; G2. Chapel of Light",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16959-minotaur-skeleton", 450]
+        ]
+    },
+    {
+        "id": "5b2c58f5-82bb-4665-9b3d-49fc247c121a",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Grand Cemetery; Exploring the Cemetery; G4. Vestment Chamber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17124-mezzoloth", 1800],
+            [1, "421337-gideon-lightward", 2300]
+        ]
+    },
+    {
+        "id": "6b061f26-61bc-45f6-9d4b-11fd528f687f",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Grand Cemetery; Exploring the Cemetery; G4. Vestment Chamber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16892-giant-scorpion", 700],
+            [5, "16846-dretch", 50]
+        ]
+    },
+    {
+        "id": "1604a49a-1d74-4a89-be01-a2df4c7382bf",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Grand Cemetery; Exploring the Cemetery; G9. Main Ossuary",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16988-quasit", 200]
+        ]
+    },
+    {
+        "id": "e138ba5c-5b3c-44ae-a69f-95003f4ef923",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Grand Cemetery; Exploring the Cemetery; G12. Vault of Ascendance",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "416956-ulder-ravengard", 1800]
+        ]
+    },
+    {
+        "id": "46e86eea-58b9-4137-8df5-e65295d9c280",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Grand Cemetery; Exploring the Cemetery; G12. Vault of Ascendance",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16958-minotaur", 700]
+        ]
+    },
+    {
+        "id": "645b72fa-460e-4f8c-acdb-572f6e7a8c89",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Escaping the Siege; Ritual of Returning; Performing the Prayer",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17060-will-o-wisp", 450]
+        ]
+    },
+    {
+        "id": "0b41000e-c31e-4e9b-b08d-e5cf20534526",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Elturel Has Fallen; Escaping the Siege; Battle of Elturel",
+        "allies": [],
+        "bystanders": [1, "16979-pit-fiend", 25000],
+        "enemies": [
+            [12, "17214-spined-devil", 450]
+        ]
+    },
+    {
+        "id": "f1142578-c143-4f49-9166-b306403fe467",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus; Fort Knucklebone; Entering the Fort",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "2556141-redcap", 700]
+        ]
+    },
+    {
+        "id": "81c1298e-7b64-4d0d-8c7e-067ad2980ce4",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus; Fort Knucklebone; Mad Maggie",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16965-night-hag", 1800]
+        ]
+    },
+    {
+        "id": "7a632836-7fc7-477e-8455-171f95009056",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus; Fort Knucklebone; The Knucklebones Gang; Chukka and Clonk",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17165-kenku", 50]
+        ]
+    },
+    {
+        "id": "d5c5a0a9-4f95-453d-a691-531cf06d1c62",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus; Fort Knucklebone; The Knucklebones Gang; Mickey the Flesh Golem",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "417091-fiendish-flesh-golem", 3900]
+        ]
+    },
+    {
+        "id": "69cf3de9-cd56-49c2-9416-d2220bfedf0f",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus; Fort Knucklebone; The Knucklebones Gang; Pins and Needles",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16933-imp", 200]
+        ]
+    },
+    {
+        "id": "744c0ae1-4900-450e-9638-f17cd381cb01",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus; Fort Knucklebone; The Knucklebones Gang; Barnabas the Flameskull",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17091-flameskull", 1100]
+        ]
+    },
+    {
+        "id": "8444e7ec-4b16-4e43-8dba-7a6c966aa349",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus; Fort Knucklebone; Lulu\u2019s Dream Quest; Dream 2: Betrayal!",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17214-spined-devil", 450]
+        ]
+    },
+    {
+        "id": "3c95153b-4661-4d19-8492-af21f83dd3d1",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus; Raggadragga Attacks!",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17054-wereboar", 1100],
+            [2, "17054-wereboar", 1100],
+            [2, "17055-wererat", 450]
+        ]
+    },
+    {
+        "id": "d7ba684c-5131-422f-b9a8-a60831bbc456",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus; Warlords of the Avernian Wastelands; Bitter Breath; Bitter Breath\u2019s Marauders",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16927-horned-devil", 7200],
+            [3, "16925-hobgoblin", 100],
+            [1, "17161-hobgoblin-warlord", 2300],
+            [2, "17160-hobgoblin-captain", 700],
+            [14, "16925-hobgoblin", 100]
+        ]
+    },
+    {
+        "id": "4ac99851-c2ae-4c87-b107-153c3f21f101",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus; Warlords of the Avernian Wastelands; Feonor; Golden Doom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16789-archmage", 8400],
+            [1, "16870-ghast", 450],
+            [5, "16872-ghoul", 200],
+            [10, "17139-crawling-claw", 10],
+            [6, "17124-mezzoloth", 1800]
+        ]
+    },
+    {
+        "id": "db749ab1-be30-4e95-83a6-43f9fbfbca50",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus; Warlords of the Avernian Wastelands; Princeps Kovik; The Eighth Remnant",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16822-chain-devil", 3900],
+            [2, "16803-bearded-devil", 700],
+            [4, "16800-barbed-devil", 1800],
+            [8, "16803-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "70d1f65c-0b21-4bbe-a36e-5bb103f0b048",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus; Haruman\u2019s Hill",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17023-stirge", 25]
+        ]
+    },
+    {
+        "id": "25d838bf-eba4-4c5c-9735-8bd76bc8d1df",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus; Haruman\u2019s Hill; Jander Sunstar",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17043-vampire", 10000]
+        ]
+    },
+    {
+        "id": "ab88dea0-976f-433c-a287-1d02b0090f86",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus; Haruman\u2019s Hill; Haruman\u2019s Arrival",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [20, "17023-stirge", 25]
+        ]
+    },
+    {
+        "id": "6dba3d06-389c-4467-bc99-c2b2f42b0d8e",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus; Haruman\u2019s Hill; Haruman\u2019s Arrival",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "95077-narzugon", 10000],
+            [1, "16964-nightmare", 700],
+            [1, "417402-hellwasp", 1800]
+        ]
+    },
+    {
+        "id": "51cea2da-adcc-4bf0-957e-0e6c5727cb50",
+        "type": "alternate combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus; Hellwasp Nest; Encounters in the Nest; N1. Entry Level",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "417402-hellwasp", 1800]
+        ]
+    },
+    {
+        "id": "c8cccb0e-9b0d-4ee2-9396-4ed5867132c4",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus; Hellwasp Nest; Encounters in the Nest; N2. Drone Cells",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "417402-hellwasp", 1800]
+        ]
+    },
+    {
+        "id": "3c14d43b-2cc3-4e68-82ff-623b4898e143",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus; Hellwasp Nest; Encounters in the Nest; N3. Hellwasp Larvae",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "417402-hellwasp", 1800],
+            [7, "16877-giant-centipede", 50]
+        ]
+    },
+    {
+        "id": "ddc593cc-3944-4ab0-af65-7ec036564d43",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus; Hellwasp Nest; Encounters in the Nest; N4. Larder",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "417402-hellwasp", 1800]
+        ]
+    },
+    {
+        "id": "8dcfaadf-29fc-48b1-8d3a-05013638e015",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Demons; Spawning Trees; Devilish Work Crew",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16803-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "487b5975-8db2-4d4c-83cf-0cabae4cc275",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Demons; Tower of Urm",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16789-archmage", 8400]
+        ]
+    },
+    {
+        "id": "7acaa646-82c4-46b7-9c77-b9a950208fa0",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Demons; Tower of Urm",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [9, "17124-mezzoloth", 1800],
+            [3, "17125-nycaloth", 5000]
+        ]
+    },
+    {
+        "id": "637d4a78-87e0-4476-843e-534f2f6669da",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Demons; Tower of Urm",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17125-nycaloth", 5000]
+        ]
+    },
+    {
+        "id": "7a142b5a-0557-414a-9b90-879908cc6f85",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Demons; Obelisk",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17110-barlgura", 1800]
+        ]
+    },
+    {
+        "id": "cdbe1ce9-2fc3-47e6-a0a2-95d072c5dc87",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Demons; Mirror of Mephistar; The Emissary",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17137-cambion", 1800]
+        ]
+    },
+    {
+        "id": "13162fa4-4ab4-4275-b8bb-7644e4330cb1",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Demons; Mirror of Mephistar; The Emissary; Development",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16931-ice-devil", 11500]
+        ]
+    },
+    {
+        "id": "c92ddd99-acec-4868-9870-1fc11317f911",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Demons; Pit of Shummrath; Imprisoned Ultroloth",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17126-ultroloth", 10000]
+        ]
+    },
+    {
+        "id": "2f51f0d2-78ab-4b11-bfc7-3e2acc9712e9",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Demons; Pit of Shummrath; Damming the Styx",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "17214-spined-devil", 450]
+        ]
+    },
+    {
+        "id": "4d9ed17e-8913-4738-a8a3-85f27c8f227f",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Demons; Pit of Shummrath; Damming the Styx",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16979-pit-fiend", 25000]
+        ]
+    },
+    {
+        "id": "88b4ca04-943b-4458-b7dc-3d2cd73cae6a",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Demons; Crypt of the Hellriders; Encounters in the Crypt; C2. Funerary Chambers",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16871-ghost", 1100]
+        ]
+    },
+    {
+        "id": "68e4fb90-bdd0-48b3-af78-bda2603ec25e",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Demons; Crypt of the Hellriders; Encounters in the Crypt; C3. Knights\u2019 Caskets",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17064-wraith", 1800]
+        ]
+    },
+    {
+        "id": "855fe084-51b9-4091-8948-de3c361447b0",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Demons; Crypt of the Hellriders; Encounters in the Crypt; C3. Knights\u2019 Caskets",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17064-wraith", 1800]
+        ]
+    },
+    {
+        "id": "578835c3-9baf-4b25-8014-1dd92220fbe2",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Demons; Crypt of the Hellriders; Encounters in the Crypt; C3. Knights\u2019 Caskets",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17064-wraith", 1800]
+        ]
+    },
+    {
+        "id": "9c004ed5-df83-4050-9c18-8267a06c387e",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Demons; Crypt of the Hellriders; Encounters in the Crypt; C3. Knights\u2019 Caskets",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17064-wraith", 1800]
+        ]
+    },
+    {
+        "id": "cf637deb-5e38-4672-9be8-c306fd488977",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Demons; Crypt of the Hellriders; Encounters in the Crypt; C3. Knights\u2019 Caskets",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17064-wraith", 1800]
+        ]
+    },
+    {
+        "id": "3220f76f-1cad-4ee1-9ed9-2ab4711d9955",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Demons; Crypt of the Hellriders; Encounters in the Crypt; C3. Knights\u2019 Caskets",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17064-wraith", 1800]
+        ]
+    },
+    {
+        "id": "2bc4f2e4-4cca-4fa5-9748-401c4917ad8b",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Demons; Crypt of the Hellriders; Encounters in the Crypt; C4. Warlocks\u2019 Tomb",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "16961-mummy", 700]
+        ]
+    },
+    {
+        "id": "c01a61b4-1185-4d0b-b4ed-a348e96735de",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Demons; Crypt of the Hellriders; Olanthius Returns",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17128-death-knight", 18000],
+            [3, "17017-specter", 200]
+        ]
+    },
+    {
+        "id": "1e56264b-3183-44dc-8ac3-9b3c888f3c0a",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Demons; Crypt of the Hellriders; Olanthius Returns",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16908-gorgon", 1800]
+        ]
+    },
+    {
+        "id": "07e957f7-1250-4914-ab65-4de7558196be",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Demons; Kostchtchie\u2019s Maw; The Chasm; Prison Guards",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16822-chain-devil", 3900],
+            [4, "16921-hell-hound", 700]
+        ]
+    },
+    {
+        "id": "66fc1ff0-77ed-451c-85ff-996bd11a8de7",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Demon Zapper",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17042-unicorn", 1800]
+        ]
+    },
+    {
+        "id": "134a910c-952f-4074-bdd4-837dc94f2a48",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Demon Zapper; Ralzala the Dao",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17142-dao", 7200]
+        ]
+    },
+    {
+        "id": "879b2c0a-079f-457d-a903-42b8e26d6fdb",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Bone Brambles; Encounters in the Brambles; B2. Dead Ends",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17089-banshee", 1100]
+        ]
+    },
+    {
+        "id": "e8fd3b44-8e14-4dbc-a1e1-e568d79c612d",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Bone Brambles; Encounters in the Brambles; B2. Dead Ends",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17011-shambling-mound", 1800]
+        ]
+    },
+    {
+        "id": "4d451422-371d-44b6-ae8b-e38882a260f5",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Bone Brambles; Encounters in the Brambles; B3. Red Ruth\u2019s Lair",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16965-night-hag", 1800]
+        ]
+    },
+    {
+        "id": "069d5cf3-abf2-43d8-aa5b-086dfba73aae",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Bone Brambles; Hold the Fort",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17089-banshee", 1100],
+            [1, "17037-treant", 5000]
+        ]
+    },
+    {
+        "id": "163860d5-3bc0-4646-99e9-3cd98e32fa07",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Uldrak\u2019s Grave",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17214-spined-devil", 450]
+        ]
+    },
+    {
+        "id": "0203f12f-f271-47c6-8925-2f93ae8f5211",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Arkhan\u2019s Tower",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [50, "17015-skeleton", 50],
+            [30, "17077-zombie", 50],
+            [1, "16773-adult-white-dragon", 10000]
+        ]
+    },
+    {
+        "id": "a6d2ec25-092b-4203-8dd1-ca78bc098ec4",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Arkhan\u2019s Tower",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "417126-krull", 2300],
+            [4, "16872-ghoul", 200]
+        ]
+    },
+    {
+        "id": "681da492-8eb7-4a1f-a89d-0fa828921ba5",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Arkhan\u2019s Tower",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17067-young-black-dragon", 2900],
+            [1, "17068-young-blue-dragon", 5000],
+            [1, "17073-young-green-dragon", 3900],
+            [1, "16993-red-dragon-wyrmling", 1100]
+        ]
+    },
+    {
+        "id": "5a1bbf9b-7d8c-4159-a988-6a61e3ac5e31",
+        "type": "alternate combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Arkhan\u2019s Tower",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "416910-arkhan-the-cruel", 15000]
+        ]
+    },
+    {
+        "id": "86df6795-818f-4037-bfe9-ddbc81874cb4",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Monument to Tiamat",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "94636-white-abishai", 2300]
+        ]
+    },
+    {
+        "id": "a7596393-17a1-4dda-8365-9401113ef5d9",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Monument to Tiamat; Arkhan the Cruel",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "416910-arkhan-the-cruel", 15000],
+            [1, "16951-manticore", 700],
+            [1, "417139-torogar-steelfist", 7200],
+            [1, "16823-chimera", 2300]
+        ]
+    },
+    {
+        "id": "71e45ee0-eed8-4d8f-99aa-ed484d7408bc",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Monument to Tiamat; Arkhan the Cruel",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "94636-white-abishai", 2300]
+        ]
+    },
+    {
+        "id": "6ecdd312-7fe2-46a1-b2ab-a2182b09f036",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Monument to Tiamat; Arkhan the Cruel; Development",
+        "allies": [
+            [1, "17212-empyrean", 50000]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "80c9ab25-f0b5-46a7-b0f1-38bb30c2fad5",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Bel\u2019s Forge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16927-horned-devil", 7200],
+            [10, "16803-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "369cb98e-116e-42d5-b4c1-459f0f24a8ee",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Bel\u2019s Forge; Encounters in the Forge; F1. Descent to the Forge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "416924-bel", 75000]
+        ]
+    },
+    {
+        "id": "191a7314-7716-4673-9c1a-d29403322947",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Bel\u2019s Forge; Encounters in the Forge; F2. Fire Giant Blacksmiths",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16862-fire-giant", 5000]
+        ]
+    },
+    {
+        "id": "8b03c4c3-7d3e-4623-b852-e5abd10af43a",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Bel\u2019s Forge; Roleplaying Bel; Development",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16933-imp", 200]
+        ]
+    },
+    {
+        "id": "07ba38c0-4a15-4e16-9ff4-35952ab864b7",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Bel\u2019s Forge; Roleplaying Bel; River Travel",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16813-bone-devil", 5000],
+            [10, "95021-merregon", 1100]
+        ]
+    },
+    {
+        "id": "ec99fe96-8703-4a76-a4da-506cd3c2dbac",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Sibriex",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "94512-sibriex", 20000]
+        ]
+    },
+    {
+        "id": "b28fb47e-5f20-4c27-a84e-fe3a78ee434f",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Sibriex",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16822-chain-devil", 3900],
+            [1, "17109-arcanaloth", 8400]
+        ]
+    },
+    {
+        "id": "b7b860d6-a00d-47af-8d32-e2d6b928edad",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Wrecked Flying Fortress; Lower Decks; Bone Whelks",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "428989-bone-whelk", 50]
+        ]
+    },
+    {
+        "id": "053fb06c-cbb4-4f8f-94cb-152e9c039fc0",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Wrecked Flying Fortress; Lower Decks; Bone Whelks",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16995-remorhaz", 7200]
+        ]
+    },
+    {
+        "id": "efd92c91-6699-47d3-8531-ba17a4c54cc0",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Wrecked Flying Fortress; Command Deck Encounters; W1. Bridge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17047-vrock", 2300]
+        ]
+    },
+    {
+        "id": "7ead5706-89a1-4260-ae43-d9a9bd7f92cc",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Wrecked Flying Fortress; Command Deck Encounters; W1. Bridge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17165-kenku", 50],
+            [1, "17091-flameskull", 1100],
+            [3, "2556141-redcap", 700],
+            [6, "417128-madcap", 700]
+        ]
+    },
+    {
+        "id": "86ddf726-d6a0-4991-bdbd-fb3f98d19b1a",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Wrecked Flying Fortress; Command Deck Encounters; W4. Records Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17113-death-slaad", 5900]
+        ]
+    },
+    {
+        "id": "924dd2df-c1bc-465f-ab57-09757340cf3e",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Path of Devils; Wrecked Flying Fortress; Command Deck Encounters; W7. Stirge Nest",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "17023-stirge", 25]
+        ]
+    },
+    {
+        "id": "f9c8830d-b106-474d-a56a-b1ae6440fcdd",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Stygian Dock",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16927-horned-devil", 7200]
+        ]
+    },
+    {
+        "id": "2bf25a64-ea15-4cec-b144-588e399d32ae",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Stygian Dock",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16800-barbed-devil", 1800]
+        ]
+    },
+    {
+        "id": "b3d15a88-03cd-4226-b780-5bb9fa1f5e55",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Stygian Dock",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16800-barbed-devil", 1800]
+        ]
+    },
+    {
+        "id": "ef1f3a41-5799-4978-ad1e-0bfc963afd4e",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Stygian Dock",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16800-barbed-devil", 1800]
+        ]
+    },
+    {
+        "id": "0694abdb-6abb-400a-9751-bdbcae9e46ec",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Stygian Dock",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16800-barbed-devil", 1800]
+        ]
+    },
+    {
+        "id": "c24d764d-2a2c-4780-acd0-4edc63e9c15c",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Stygian Dock",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16813-bone-devil", 5000]
+        ]
+    },
+    {
+        "id": "44ae38c5-2da0-4fe8-b263-27df7b6e59ce",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Stygian Dock; Dealing with Bazelsteen; Demon Attack",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "17047-vrock", 2300]
+        ]
+    },
+    {
+        "id": "b4565a9d-5a47-40c7-a32d-958fa2ca6d50",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Stygian Dock; Dealing with Bazelsteen; Demon Attack",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16902-glabrezu", 5000]
+        ]
+    },
+    {
+        "id": "c9f41186-bafb-4b07-8e85-b529d6042b7e",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Styx Watchtowers; Watchtower Locations; T1. Ground Floor",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "16803-bearded-devil", 700],
+            [10, "16921-hell-hound", 700]
+        ]
+    },
+    {
+        "id": "547d9d41-69a5-4c0b-983c-c79397c2db04",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Styx Watchtowers; Watchtower Locations; T2. Second Floor",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "94669-amnizu", 20000],
+            [1, "16822-chain-devil", 3900]
+        ]
+    },
+    {
+        "id": "d9f13601-2ec0-4368-a907-f5af47d6dcec",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Styx Watchtowers; Watchtower Locations; T3. Roof",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17214-spined-devil", 450]
+        ]
+    },
+    {
+        "id": "377d5b12-c35c-4127-8bb1-cfa5f0555685",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Sundered Chains; Infernal Pilgrim",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16822-chain-devil", 3900],
+            [2, "16803-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "1321dbc9-fd42-46ef-a27a-6661c7b80ef8",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; The Wandering Emporium; Mahadi, Emporium Master",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "417862-mahadi-the-rakshasa", 11500]
+        ]
+    },
+    {
+        "id": "e9d669ed-0122-4a64-9880-403bb69a5aec",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; The Wandering Emporium; Wandering Emporium Businesses; Firesnake Forge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17004-salamander", 1800],
+            [9, "16949-magmin", 100],
+            [8, "16786-animated-armor", 200]
+        ]
+    },
+    {
+        "id": "e8186759-3e5d-43cc-9a64-a5741232a7d4",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; The Wandering Emporium; Wandering Emporium Businesses; Burney the Barber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16779-ancient-copper-dragon", 33000]
+        ]
+    },
+    {
+        "id": "996e4632-af6c-4784-9c71-26e93a0a540e",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; The Wandering Emporium; Wandering Emporium Businesses; From Here to Avernus",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "94669-amnizu", 20000],
+            [1, "16933-imp", 200]
+        ]
+    },
+    {
+        "id": "1a85ff2b-829e-446d-9a42-fe1e6e8da92e",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; The Wandering Emporium; Wandering Emporium Businesses; Ichor\u2019s Aweigh!",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16947-mage", 2300]
+        ]
+    },
+    {
+        "id": "8ce32ee5-d232-44d8-801f-3844e2d69e7d",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; The Wandering Emporium; Wandering Emporium Businesses; Z\u2019neth\u2019s Larva Farm",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17161-hobgoblin-warlord", 2300]
+        ]
+    },
+    {
+        "id": "ee50eea1-ba78-49cc-afc7-34a5a58c3af4",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; The Wandering Emporium; Wandering Emporium Businesses; Z\u2019neth\u2019s Larva Farm",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "27752-larva", 10]
+        ]
+    },
+    {
+        "id": "aeb5c61a-5b05-45d9-a185-fc44cc1b2abd",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Zariel\u2019s Flying Fortress",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16858-erinyes", 8400]
+        ]
+    },
+    {
+        "id": "1d28a55b-3d3a-4cc1-b944-4346d824713b",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Zariel\u2019s Flying Fortress",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16803-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "0d921e75-e711-4a45-b30f-aaaec04890f9",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Zariel\u2019s Flying Fortress",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16803-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "fc7618db-c150-4315-918a-ca823e98f930",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Zariel\u2019s Flying Fortress",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16803-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "0a653449-1dab-46ce-bd6e-0f992a8bafda",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Zariel\u2019s Flying Fortress",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16803-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "6b88a38f-751d-4420-8343-c9cd1da6912a",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Zariel\u2019s Flying Fortress",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16803-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "7fb0338d-9a92-4065-85f9-ec2dae43b15f",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Zariel\u2019s Flying Fortress",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16803-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "709d08e5-eae5-4721-9b23-5bb25a01f3ff",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Zariel\u2019s Flying Fortress",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16803-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "81623b8d-72ee-4b07-861d-db269867ab19",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Zariel\u2019s Flying Fortress",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16803-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "7ed070ff-82ef-44d7-bd11-da103fd50c90",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Zariel\u2019s Flying Fortress",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16803-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "7ed5c7fb-cd6b-4b9b-b191-453e31f4005a",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Zariel\u2019s Flying Fortress",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16813-bone-devil", 5000]
+        ]
+    },
+    {
+        "id": "ed4b2345-15b0-4e9c-a6fa-83fb555fda45",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Zariel\u2019s Flying Fortress; Stowing Away",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "417081-archduke-zariel-of-avernus", 90000],
+            [1, "16979-pit-fiend", 25000],
+            [6, "16858-erinyes", 8400],
+            [12, "16803-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "46cbcb38-9a0d-4764-b699-a5699a83c1e8",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Zariel\u2019s Flying Fortress; Poor Devil: Thavius Kreeg",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "94669-amnizu", 20000]
+        ]
+    },
+    {
+        "id": "6ddfa854-79e9-40bb-a536-6ab760ae426e",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Avernus - Other Locations; Roaming Encounter: Smiler the Defiler",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "417410-smiler-the-defiler", 2900]
+        ]
+    },
+    {
+        "id": "d87ee0c6-50d5-4529-9b67-cfc8f91ac92e",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Sword of Zariel; The Scab; Scab Locations; S3. Drowned Hag",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "94204-bulezau", 700]
+        ]
+    },
+    {
+        "id": "3909c5cd-2f8f-47d2-9dee-aca305710158",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Sword of Zariel; The Scab; Scab Locations; S4. Bloody Downpour",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17110-barlgura", 1800]
+        ]
+    },
+    {
+        "id": "4e598ac2-881b-4322-afbc-2ade49a808d8",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Sword of Zariel; The Scab; Scab Locations; S5. Food Fight",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16922-hezrou", 3900]
+        ]
+    },
+    {
+        "id": "e714284a-0753-4ebd-a395-8d3101b68294",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Sword of Zariel; The Scab; Scab Locations; S6. Torture Chamber",
+        "allies": [],
+        "bystanders": [
+            [1, "16800-barbed-devil", 1800]
+        ],
+        "enemies": [
+            [3, "17140-chasme", 2300]
+        ]
+    },
+    {
+        "id": "880eb67b-a5f1-496f-80c6-aad9b160b998",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Sword of Zariel; The Scab; Scab Locations; S7. Trantolox\u2019s Larder",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17029-swarm-of-insects", 100]
+        ]
+    },
+    {
+        "id": "f0f56143-8c4f-4852-8a04-a33c46dd988e",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Sword of Zariel; The Scab; Scab Locations; S8. Hag\u2019s Lair",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "417091-fiendish-flesh-golem", 3900]
+        ]
+    },
+    {
+        "id": "f2e58273-9a59-42c4-84cf-a8c49859def6",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Sword of Zariel; The Scab; Scab Locations; S9. Digging Demons",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "16846-dretch", 50]
+        ]
+    },
+    {
+        "id": "6e99aee1-48d3-4f48-a4b7-49570d03c5df",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Sword of Zariel; The Scab; Scab Locations; S10. Crokek\u2019toeck\u2019s Prison",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "417877-crokektoeck", 11500]
+        ]
+    },
+    {
+        "id": "c8def3a5-5383-4eaf-bfbc-5b32e84c1022",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Sword of Zariel; The Scab; Scab Locations; S11. Statue of Yeenoghu",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17047-vrock", 2300],
+            [6, "16904-gnoll", 100]
+        ]
+    },
+    {
+        "id": "2b966bfa-8552-4ae1-98b1-27b77efa6927",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Sword of Zariel; The Scab; Scab Locations; S13. Cackling Gnolls",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17154-gnoll-fang-of-yeenoghu", 1100],
+            [15, "16904-gnoll", 100]
+        ]
+    },
+    {
+        "id": "26e4658e-13cd-46eb-9f23-5db710f4e517",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Sword of Zariel; The Scab; Scab Locations; S14. Entrance to the Bleeding Citadel",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16963-nalfeshnee", 10000],
+            [3, "94204-bulezau", 700]
+        ]
+    },
+    {
+        "id": "ec5b9a4c-6363-42f8-a907-c1ae502aa45c",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Sword of Zariel; Idyllglen; Idyllglen Locations; I3. Temple of Lathander",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16985-priest", 450],
+            [50, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "67a0a15d-c736-4095-a494-07927fba2dd4",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Sword of Zariel; Idyllglen; Idyllglen Events; Event 1. Characters\u2019 Arrival",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10],
+            [1, "16953-mastiff", 25]
+        ],
+        "enemies": [
+            [6, "16904-gnoll", 100],
+            [6, "16846-dretch", 50],
+            [1, "16886-giant-hyena", 200],
+            [1, "16922-hezrou", 3900]
+        ]
+    },
+    {
+        "id": "7833ce89-ddec-41ba-aee7-3d1a36a6fbb2",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Sword of Zariel; Idyllglen; Idyllglen Events; Event 2. Yeenoghu\u2019s Champion",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16952-marilith", 15000]
+        ]
+    },
+    {
+        "id": "3fa98229-023b-450a-8a83-253b86b78cb2",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Sword of Zariel; Idyllglen; Idyllglen Events; Event 3. Madness Reigns",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "556827c2-2c3a-448e-92d5-fba0ee4347b4",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Sword of Zariel; Idyllglen; Idyllglen Events; Event 5. Renewed Assault",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17110-barlgura", 1800],
+            [5, "16846-dretch", 50],
+            [1, "17153-gnoll-pack-lord", 450],
+            [6, "16904-gnoll", 100],
+            [1, "17047-vrock", 2300]
+        ]
+    },
+    {
+        "id": "33e9c2c1-e327-4992-9ef4-8afd0d415346",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Sword of Zariel; Idyllglen; Idyllglen Events; Event 6. Yeenoghu",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17418-yeenoghu", 62000]
+        ]
+    },
+    {
+        "id": "14e9807f-3355-4e61-9401-9ac2880ece56",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Sword of Zariel; Idyllglen; Idyllglen Events; Event 7. Zariel\u2019s Arrival",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17016-solar", 33000],
+            [1, "417848-hollyphant", 1800],
+            [1, "16938-knight", 700],
+            [1, "17049-warhorse", 100]
+        ]
+    },
+    {
+        "id": "4558b0c1-316f-4838-90bf-e2b1affd2a2b",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Escape from Avernus; Who Should Rule Avernus?; Zariel\u2019s Wrath; Baphomet, Kostchtchie, or Yeenoghu",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17408-baphomet", 50000],
+            [1, "17418-yeenoghu", 62000],
+            [1, "417094-kostchtchie", 75000]
+        ]
+    },
+    {
+        "id": "1fe845ed-6d7a-454f-bc93-add25f636b28",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Escape from Avernus; Who Should Rule Avernus?; Zariel\u2019s Wrath; Bel",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "416924-bel", 75000]
+        ]
+    },
+    {
+        "id": "bb693231-fe00-4728-822e-5720ce61bd1f",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Escape from Avernus; Who Should Rule Avernus?; Zariel\u2019s Wrath; Gargauth",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16979-pit-fiend", 25000]
+        ]
+    },
+    {
+        "id": "3cf4ab18-94e1-4358-8e72-c511a5c0c92e",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Escape from Avernus; Who Should Rule Avernus?; Zariel\u2019s Wrath; Tiamat",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "21927-tiamat", 155000],
+            [1, "416910-arkhan-the-cruel", 15000]
+        ]
+    },
+    {
+        "id": "9dbf5337-f267-4dab-9a05-1899938dbafa",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Escape from Avernus; Who Should Rule Avernus?; Zariel\u2019s Wrath; Tiamat",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "94636-white-abishai", 2300],
+            [1, "16823-chimera", 2300],
+            [1, "417139-torogar-steelfist", 7200],
+            [1, "16951-manticore", 700]
+        ]
+    },
+    {
+        "id": "9e393afc-7c59-4e27-9ed3-385bb380cbde",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Escape from Avernus; Will Elturel Be Saved?; Breaking the Chains; Ire of Tiamat",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "21927-tiamat", 155000]
+        ]
+    },
+    {
+        "id": "b3c1ca0d-a52e-489c-8fcd-264b8f8148b1",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Escape from Avernus; Will Elturel Be Saved?; Breaking the Chains; Jaws of Crokek\u2019toeck",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "417877-crokektoeck", 11500]
+        ]
+    },
+    {
+        "id": "1a643e31-bb6f-44cf-aa6d-5d5f10927e6b",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Escape from Avernus; Will Elturel Be Saved?; Breaking the Contract",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "429696-thavius-kreeg", 100]
+        ]
+    },
+    {
+        "id": "b1772989-3e93-45fd-8503-b82e73a0b1b5",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Escape from Avernus; Will Elturel Be Saved?; Breaking the Contract; The Fate of Thavius Kreeg",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "94669-amnizu", 20000]
+        ]
+    },
+    {
+        "id": "b1beb1a6-47cf-4fbe-9560-1c1139e21fb5",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Escape from Avernus; Will Elturel Be Saved?; Making a Deal with Zariel; To Destroy a Demon Lord",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17408-baphomet", 50000],
+            [1, "17418-yeenoghu", 62000]
+        ]
+    },
+    {
+        "id": "bed1e1d1-a7bd-4068-b7df-55df34ecd5ce",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Escape from Avernus; Will Elturel Be Saved?; Making a Deal with Zariel; To Destroy a Demon Lord",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "417094-kostchtchie", 75000]
+        ]
+    },
+    {
+        "id": "7be8ea05-a743-4f04-80b7-3880d4623596",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Escape from Avernus; Will Elturel Be Saved?; Making a Deal with Zariel; Shield of the Hidden Lord",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16979-pit-fiend", 25000]
+        ]
+    },
+    {
+        "id": "b11849d6-2065-4bb2-90ea-9ef09c5bd254",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Escape from Avernus; Will Elturel Be Saved?; Dealing with the Companion; The Planetar\u2019s Power",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16980-planetar", 15000]
+        ]
+    },
+    {
+        "id": "aab571d8-47ee-40ef-b5b7-d239326da896",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Escape from Avernus; Endgame in Elturel; Event 1: River\u2019s Edge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16927-horned-devil", 7200]
+        ]
+    },
+    {
+        "id": "5c611aab-1b5a-48a1-a9b3-b1fc38f37575",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Escape from Avernus; Endgame in Elturel; Event 2: Field of Flames",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16922-hezrou", 3900]
+        ]
+    },
+    {
+        "id": "1e2c5b6d-9efa-4c2c-bee4-f94cafb53cbb",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Escape from Avernus; Endgame in Elturel; Event 2: Field of Flames",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16979-pit-fiend", 25000]
+        ]
+    },
+    {
+        "id": "86ed681e-ea28-4b9a-953f-14924010c7be",
+        "type": "combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Escape from Avernus; Endgame in Elturel; Event 3: Showdown with Zariel",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "417081-archduke-zariel-of-avernus", 90000]
+        ]
+    },
+    {
+        "id": "e89d7e54-9cb2-4d2c-a8f2-e86158bc33cf",
+        "type": "alternate combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; Escape from Avernus; Endgame in Elturel; Event 3: Showdown with Zariel",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "417094-kostchtchie", 75000]
+        ]
+    }
+]

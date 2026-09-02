@@ -1,0 +1,3220 @@
+[
+    {
+        "id": "8e1ad8e6-626c-49a2-8761-607fb972e976",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Into the Mists; Adventure Hooks; Plea for Help",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16790-assassin", 3900]
+        ]
+    },
+    {
+        "id": "1b636704-57ff-4998-a293-6e6dc18e92df",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Into the Mists; Adventure Hooks; Mysterious Visitors",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16947-mage", 2300],
+            [1, "17021-spy", 200],
+            [1, "16799-bandit-captain", 450],
+            [9, "16798-bandit", 25],
+            [6, "16844-draft-horse", 50]
+        ]
+    },
+    {
+        "id": "564fadef-323e-4159-a1f6-eb47c3188913",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Into the Mists; Adventure Hooks; Werewolves in the Mist; Harpers",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16947-mage", 2300]
+        ]
+    },
+    {
+        "id": "16a5f363-fbd6-4b0a-93e7-4fee2b530c14",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Into the Mists; Adventure Hooks; Werewolves in the Mist; Order of the Gauntlet",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16938-knight", 700]
+        ]
+    },
+    {
+        "id": "894af986-b3a8-4afa-aacd-1b93125f5b55",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Into the Mists; Adventure Hooks; Werewolves in the Mist; Lords\u2019 Alliance",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
+    },
+    {
+        "id": "5bcdf3a2-53d3-45b3-9d5b-b4c6cb83f11b",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Into the Mists; Adventure Hooks; Werewolves in the Mist; Zhentarim",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16790-assassin", 3900]
+        ]
+    },
+    {
+        "id": "d133a6f0-aa17-48fd-8f75-a871da19ae49",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Barovian Commoners",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "120c8e56-d71d-4a74-b041-eb84721e0879",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Barovian Scouts",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17007-scout", 100]
+        ]
+    },
+    {
+        "id": "39ba66d2-cb37-447a-a72e-90647e673150",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Berserkers",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16805-berserker", 450]
+        ]
+    },
+    {
+        "id": "0889fc16-18f2-4fc8-bc94-5eee250b1706",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Dire Wolves",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16841-dire-wolf", 200]
+        ]
+    },
+    {
+        "id": "33d75731-4cdf-4065-bde8-6dd8cc8131a6",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Druid and Twig Blights",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16848-druid", 450],
+            [1, "17095-twig-blight", 25]
+        ]
+    },
+    {
+        "id": "9b37e338-3adc-4edd-aa29-ae10f5e14641",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Ghost",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16871-ghost", 1100]
+        ]
+    },
+    {
+        "id": "a61ebb1e-f11e-49cb-a07e-57a697c58f5e",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Needle Blights",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17215-needle-blight", 50]
+        ]
+    },
+    {
+        "id": "39ea41f6-001f-4db2-a717-b24e1ef0d4da",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Revenant",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17196-revenant", 1800]
+        ]
+    },
+    {
+        "id": "55fd33cc-a383-4f7b-bcdd-29ff6f4e1cba",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Scarecrows",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17200-scarecrow", 200]
+        ]
+    },
+    {
+        "id": "084b4814-daf8-4cb4-99a5-a797431fea50",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Skeletal Rider",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17015-skeleton", 50],
+            [1, "17050-warhorse-skeleton", 100]
+        ]
+    },
+    {
+        "id": "e822958e-9199-4949-b88c-36e0a831dc61",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Strahd Zombies",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17375-strahd-zombie", 200]
+        ]
+    },
+    {
+        "id": "43bed50e-21b5-4754-807b-3e3636a56521",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Swarms of Bats",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17028-swarm-of-bats", 50]
+        ]
+    },
+    {
+        "id": "32e4d0cf-9b00-423d-ab6b-160d719dd186",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Swarms of Ravens",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17033-swarm-of-ravens", 50]
+        ]
+    },
+    {
+        "id": "33357b15-10f3-444e-b1bb-afc5b8caf298",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Vistani Bandits",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "8ea7d5f6-469c-47cb-861c-531e93b85e4d",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Wereraven",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17377-wereraven", 450]
+        ]
+    },
+    {
+        "id": "aa060cd2-18d2-4229-9f7c-50b2146381f4",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Werewolves",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17057-werewolf", 700]
+        ]
+    },
+    {
+        "id": "c2d6a0af-782a-401c-a671-b2f69e9d9412",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Will-o\u2019-Wisp",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17060-will-o-wisp", 450]
+        ]
+    },
+    {
+        "id": "c24519f9-b91b-4878-b253-84f976c595c2",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Will-o\u2019-Wisp",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17077-zombie", 50]
+        ]
+    },
+    {
+        "id": "670b82d1-1260-462b-b4b5-8b137800d6bf",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Wolves",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17062-wolf", 50]
+        ]
+    },
+    {
+        "id": "c637d12f-d9d1-4620-b43f-3ca2f44da843",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Zombies",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17077-zombie", 50]
+        ]
+    },
+    {
+        "id": "2c025079-fea8-4da1-9165-7036a845995c",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Areas of Barovia (A-I); C. Svalich Woods",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16841-dire-wolf", 200],
+            [20, "17062-wolf", 50]
+        ]
+    },
+    {
+        "id": "71f7c14c-87d9-4ff1-beed-c765962dc352",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Areas of Barovia (A-I); G. Tser Pool Encampment",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "16844-draft-horse", 50]
+        ]
+    },
+    {
+        "id": "14c77906-ddb1-4122-a1fc-3a23217d2229",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Areas of Barovia (A-I); G. Tser Pool Encampment",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "16798-bandit", 25],
+            [3, "16799-bandit-captain", 450]
+        ]
+    },
+    {
+        "id": "cea8725d-30fc-43e9-9144-11f780a2f982",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Areas of Barovia (A-I); G. Tser Pool Encampment; Madam Eva\u2019s Tent",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17366-madam-eva", 5900]
+        ]
+    },
+    {
+        "id": "6ec92772-cf0b-45db-bfdd-b6f8f04b47cc",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Areas of Barovia (A-I); I. Black Carriage",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16844-draft-horse", 50]
+        ]
+    },
+    {
+        "id": "2b10b06c-215f-49d5-9b4a-d1be55af8eb9",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Areas of Barovia (J-R); L. Lake Zarovich",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16829-commoner", 10],
+            [7, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "ba9830d1-71f7-4df1-9b28-e25842847007",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Areas of Barovia (J-R); M. Mad Mage of Mount Baratok",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16789-archmage", 8400]
+        ]
+    },
+    {
+        "id": "9ecee468-7eeb-47e5-9524-f2022db0cede",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Areas of Barovia (J-R); M. Mad Mage of Mount Baratok",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16789-archmage", 8400]
+        ]
+    },
+    {
+        "id": "258fec22-cf1b-4b8d-8710-cd8e6ed99acb",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Areas of Barovia (J-R); M. Mad Mage of Mount Baratok",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16789-archmage", 8400]
+        ]
+    },
+    {
+        "id": "048b549f-8c2f-4f5c-9fa5-66b057def002",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Areas of Barovia (J-R); M. Mad Mage of Mount Baratok; The Mad Mage\u2019s Mansion",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16789-archmage", 8400]
+        ]
+    },
+    {
+        "id": "66a56d93-1641-45b8-bbf1-198efc1b3142",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Areas of Barovia (J-R); M. Mad Mage of Mount Baratok; The Mad Mage\u2019s Mansion",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16789-archmage", 8400]
+        ]
+    },
+    {
+        "id": "ba1dd9ca-8364-47a8-af71-a1ae66287543",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Areas of Barovia (J-R); M. Mad Mage of Mount Baratok; Fortunes of Ravenloft",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16789-archmage", 8400]
+        ]
+    },
+    {
+        "id": "870a19f6-4834-40c5-8f65-25585e807910",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Village of Barovia; Approaching the Village; House Occupants; Rats",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17032-swarm-of-rats", 50]
+        ]
+    },
+    {
+        "id": "b724854c-84a9-412f-91d6-f6a3b3d2a78e",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Barovia; Approaching the Village; House Occupants; Barovian Villagers",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "0beef207-bcce-4f82-816d-b3e1e6d2a052",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Village of Barovia; Approaching the Village; House Occupants; Strahd Zombies",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17375-strahd-zombie", 200]
+        ]
+    },
+    {
+        "id": "fb481f3f-a5dd-466d-8af8-f979fb17e6a7",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Barovia; Areas of the Village; E1. Bildrath\u2019s Mercantile",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "f6a74266-03f7-4e21-80e3-324228c7d50a",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Village of Barovia; Areas of the Village; E1. Bildrath\u2019s Mercantile",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16903-gladiator", 1800]
+        ]
+    },
+    {
+        "id": "6d14e7a4-fdc6-4399-9e43-e33d8f713576",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Barovia; Areas of the Village; E2. Blood of the Vine Tavern; Roleplaying Ismark",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17045-veteran", 700]
+        ]
+    },
+    {
+        "id": "d85fc024-6170-42ee-8f02-4734bee560fb",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Barovia; Areas of the Village; E2. Blood of the Vine Tavern; Roleplaying the Other NPCs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "994a4f3c-a572-4d68-8ceb-10c8fd448e37",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Barovia; Areas of the Village; E2. Blood of the Vine Tavern; Roleplaying the Other NPCs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17021-spy", 200]
+        ]
+    },
+    {
+        "id": "751a4dac-a4ca-4ce3-a32e-f63d46b7f86d",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Barovia; Areas of the Village; E3. Mad Mary\u2019s Townhouse",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "30317336-7fcf-41d8-9c99-0756061489e1",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Barovia; Areas of the Village; E4. Burgomaster\u2019s Mansion",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
+    },
+    {
+        "id": "96228cde-9b3b-4d62-80e9-76baaf727e4c",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Barovia; Areas of the Village; E5. Church; E5f. Chapel",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16763-acolyte", 50]
+        ]
+    },
+    {
+        "id": "033688b0-6ad3-4b83-90d7-54cffc5c13d1",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Village of Barovia; Areas of the Village; E5. Church; E5g. Undercroft",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17044-vampire-spawn", 1800]
+        ]
+    },
+    {
+        "id": "2e6240e4-71dd-43ad-84d2-fc9ed85708a4",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Barovia; Special Events; Dream Pastries",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16965-night-hag", 1800]
+        ]
+    },
+    {
+        "id": "991e2a72-acea-44f9-b18d-96c3ad2f054e",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (A-C); Barovian Commoners",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "48cb682a-d099-4c6d-aa92-7018a0597657",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (A-C); Barovian Witch",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17362-barovian-witch", 100]
+        ]
+    },
+    {
+        "id": "6a17ab23-e633-4386-bc54-5a95ed80b05d",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (A-C); Black Cat",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16820-cat", 10]
+        ]
+    },
+    {
+        "id": "fdfab52f-85c2-49ca-a077-bbed861c3a86",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (A-C); Broom of Animated Attack",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17358-broom-of-animated-attack", 50]
+        ]
+    },
+    {
+        "id": "894ae562-9eb3-4b52-b6cc-401bd2e3642e",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (A-C); Crawling Claws",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "17139-crawling-claw", 10]
+        ]
+    },
+    {
+        "id": "597c1909-1388-4bd3-b19a-7250f34c40bf",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (A-C); Crawling Strahd Zombie",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17375-strahd-zombie", 200]
+        ]
+    },
+    {
+        "id": "3043c93c-6a6b-4b2a-91a9-8be36763f44c",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (D-S); Ezmerelda d\u2019Avenir",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17364-ezmerelda-davenir", 3900]
+        ]
+    },
+    {
+        "id": "b6b38bae-a4ee-480a-91b1-22a138997b84",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (D-S); Flying Swords",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16865-flying-sword", 50]
+        ]
+    },
+    {
+        "id": "eb1608a3-8e88-4cb9-9e6f-82bf544ba73c",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (D-S); Rahadin",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17370-rahadin", 5900]
+        ]
+    },
+    {
+        "id": "3e93b6a2-4bda-4789-8f5d-c4872259c8f3",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (D-S); Shadows",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17010-shadow", 100]
+        ]
+    },
+    {
+        "id": "f758dfc2-32b6-4c75-9dbc-2e7088060a6c",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (D-S); Strahd von Zarovich",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17374-strahd-von-zarovich", 13000]
+        ]
+    },
+    {
+        "id": "c470b66a-7451-43e9-8b67-95de057d7443",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (D-S); Swarms of Bats",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17028-swarm-of-bats", 50]
+        ]
+    },
+    {
+        "id": "9258ffd0-0429-4a3d-92a6-55353bddeaa8",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (T-Z); Vampire Spawn",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17044-vampire-spawn", 1800]
+        ]
+    },
+    {
+        "id": "2f0ad6f2-145e-4dfb-9712-f916fbdcc2c6",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (T-Z); Vistani Thugs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "f36dd4af-9ba8-4f0b-9035-60dd3c0f8946",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (T-Z); Wights",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17059-wight", 700]
+        ]
+    },
+    {
+        "id": "1bf1fb09-340a-497c-b619-b86f8e9700ee",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Walls of Ravenloft; K6. Overlook; Fortunes of Ravenloft",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17374-strahd-von-zarovich", 13000]
+        ]
+    },
+    {
+        "id": "c220d376-02ba-4f38-9496-ae5b23b13339",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Main Floor; K7. Entry",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16993-red-dragon-wyrmling", 1100]
+        ]
+    },
+    {
+        "id": "7ccf62be-8afe-4574-8dae-0d38a6e941cb",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Main Floor; K8. Great Entry",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17370-rahadin", 5900]
+        ]
+    },
+    {
+        "id": "4dc3de1d-97cb-41ca-852b-419e2171a72a",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Main Floor; K8. Great Entry; Development",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "16868-gargoyle", 450]
+        ]
+    },
+    {
+        "id": "d0c89172-aa32-4e44-a15e-a2ceb506ebca",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Main Floor; K15. Chapel; Fortunes of Ravenloft",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17374-strahd-von-zarovich", 13000]
+        ]
+    },
+    {
+        "id": "e7d142f5-d508-454b-8ec6-fe4cd9e2850c",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Main Floor; K20. Heart of Sorrow; The Heart",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "299572-animated-halberd", 50]
+        ]
+    },
+    {
+        "id": "6fba3809-762d-4600-bb4d-0bb940a877af",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Main Floor; K20. Heart of Sorrow; The Heart",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17044-vampire-spawn", 1800]
+        ]
+    },
+    {
+        "id": "5d37d3eb-1f0a-449b-84d9-b416934f151f",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Court of the Count; K25. Audience Hall; Fortunes of Ravenloft",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17374-strahd-von-zarovich", 13000]
+        ]
+    },
+    {
+        "id": "39114684-2a1c-4557-be8b-d37a08bf7d96",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Court of the Count; K28. King\u2019s Balcony",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17375-strahd-zombie", 200]
+        ]
+    },
+    {
+        "id": "5f9a14a5-d75d-403b-ab87-21d520549166",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Court of the Count; K30. King\u2019s Accountant",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "01c4d021-4e68-495b-9e2a-a3c2d09328af",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Court of the Count; K32. Maid in Hell",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17044-vampire-spawn", 1800]
+        ]
+    },
+    {
+        "id": "f4f9e9f3-0337-4693-8881-a963f14d6fa5",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Rooms of Weeping; K35. Guardian Vermin",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17032-swarm-of-rats", 50]
+        ]
+    },
+    {
+        "id": "c999c61a-13dd-4ed4-8548-66b1b0b22498",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Rooms of Weeping; K37. Study; Fortunes of Ravenloft",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17374-strahd-von-zarovich", 13000]
+        ]
+    },
+    {
+        "id": "b68bce3e-897c-42fe-a5bc-72c1214de2a3",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Rooms of Weeping; K40. Belfry",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16895-giant-spider", 200]
+        ]
+    },
+    {
+        "id": "3de937a3-9b03-4b32-904d-517ff4349448",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Rooms of Weeping; K41. Treasury; Fortunes of Ravenloft",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17374-strahd-von-zarovich", 13000]
+        ]
+    },
+    {
+        "id": "2e82f26d-3ec2-4cd9-bc24-8a289d2d3612",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Rooms of Weeping; K42. King\u2019s Bedchamber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "c601422a-c88d-4e63-af47-e58c76de8f7a",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Rooms of Weeping; K46. Parapets",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17360-strahds-animated-armor", 2300]
+        ]
+    },
+    {
+        "id": "9ffa7412-1822-422e-8103-959b844a7a96",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Spires of Ravenloft; K47. Portrait of Strahd",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17000-rug-of-smothering", 450],
+            [1, "17359-guardian-portrait", 200]
+        ]
+    },
+    {
+        "id": "da611fd3-74ae-4bef-ad8e-f10c296d9a72",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Spires of Ravenloft; K49. Lounge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17044-vampire-spawn", 1800]
+        ]
+    },
+    {
+        "id": "5d7a69f5-8bb1-4915-a43a-51f367b80d9a",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Spires of Ravenloft; K49. Lounge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17044-vampire-spawn", 1800]
+        ]
+    },
+    {
+        "id": "8b408896-b429-43f0-a1c9-1a77ce722675",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Spires of Ravenloft; K50. Guest Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17362-barovian-witch", 100]
+        ]
+    },
+    {
+        "id": "718cdf1a-e63e-43eb-9900-ed428eb68418",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Spires of Ravenloft; K54. Familiar Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16820-cat", 10]
+        ]
+    },
+    {
+        "id": "286ae0b6-ff72-4244-801b-eaf2b9549bfc",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Spires of Ravenloft; K55. Element Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17044-vampire-spawn", 1800]
+        ]
+    },
+    {
+        "id": "dea92d04-ee37-4999-93a0-e190ee70bf1b",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Spires of Ravenloft; K56. Cauldron",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "17362-barovian-witch", 100]
+        ]
+    },
+    {
+        "id": "95523273-cb45-4e13-98c4-45ac31fdab26",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Spires of Ravenloft; K59. High Tower Peak; Pidlwick II",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17369-pidlwick-ii", 50]
+        ]
+    },
+    {
+        "id": "21a9669d-ba5c-4f2d-ba0d-3111657a0594",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Spires of Ravenloft; K60. North Tower Peak; Fortunes of Ravenloft",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17374-strahd-von-zarovich", 13000]
+        ]
+    },
+    {
+        "id": "31477903-26d2-4727-8c81-26ed3bf24324",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Spires of Ravenloft; K60a. North Tower Rooftop",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "17028-swarm-of-bats", 50]
+        ]
+    },
+    {
+        "id": "3c53562c-ee3f-4b77-9fcd-325fa7981630",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Larders of Ill Omen; K62. Servants\u2019 Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17367-mongrelfolk", 50]
+        ]
+    },
+    {
+        "id": "70f48299-5508-426c-b8b7-d46faddaafc0",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Larders of Ill Omen; K63. Wine Cellar; Wine Casks",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16808-black-pudding", 1100]
+        ]
+    },
+    {
+        "id": "4caae05f-d4eb-43e4-8fba-d0d5a29039e5",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Larders of Ill Omen; K65. Kitchen",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17077-zombie", 50]
+        ]
+    },
+    {
+        "id": "4172bfbd-813e-4434-acab-c7c19c464ca6",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Larders of Ill Omen; K67. Hall of Bones; Fortunes of Ravenloft",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17374-strahd-von-zarovich", 13000]
+        ]
+    },
+    {
+        "id": "0e662565-1f7d-495b-82c4-cd52246caac7",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Larders of Ill Omen; K69. Guards\u2019 Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "17015-skeleton", 50]
+        ]
+    },
+    {
+        "id": "ea7e4635-c033-4c0a-9e0f-f0e494d2aa81",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Larders of Ill Omen; K72. Chamberlain\u2019s Office",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17370-rahadin", 5900]
+        ]
+    },
+    {
+        "id": "1b1ed96a-7cdb-43b0-bb57-8a4f0aa98174",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Larders of Ill Omen; K72. Chamberlain\u2019s Office",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17131-shadow-demon", 1100]
+        ]
+    },
+    {
+        "id": "e45fb7cb-ae66-4cf4-ba37-5f3e5df44f21",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K74. North Dungeon; K74g. Gray Ooze",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16909-gray-ooze", 100]
+        ]
+    },
+    {
+        "id": "1ad27441-01a2-4c94-a02f-24340f62343c",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K75. South Dungeon; K75a. Prisoner",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17057-werewolf", 700]
+        ]
+    },
+    {
+        "id": "fd22ba05-935e-482c-9dc1-5395fe3868b2",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K76. Torture Chamber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17375-strahd-zombie", 200]
+        ]
+    },
+    {
+        "id": "99498861-76bb-47c4-b6e3-e8d81c0313c1",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K78. Brazier Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16935-iron-golem", 15000]
+        ]
+    },
+    {
+        "id": "7d4fb87e-aa55-42e1-8b3b-2d79fcf9b2bd",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K84. Catacombs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17028-swarm-of-bats", 50]
+        ]
+    },
+    {
+        "id": "7471ff82-7f5d-4f13-ac5b-5176b6f3d4d4",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K84. Catacombs; Teleport Traps",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17059-wight", 700]
+        ]
+    },
+    {
+        "id": "dbb06543-db60-4779-8fc2-1cd55865916d",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K84. Catacombs; Crypt 4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16871-ghost", 1100]
+        ]
+    },
+    {
+        "id": "36a6c54f-4639-4248-930f-eace8e184438",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K84. Catacombs; Crypt 7",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16868-gargoyle", 450]
+        ]
+    },
+    {
+        "id": "ade00c84-6c68-448c-b4c6-b81fafaa9531",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K84. Catacombs; Crypt 14",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17059-wight", 700]
+        ]
+    },
+    {
+        "id": "8a818266-5926-43a8-80e8-b69054223880",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K84. Catacombs; Crypt 14",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "17015-skeleton", 50]
+        ]
+    },
+    {
+        "id": "cff9647b-fd6b-4c4e-92a8-22a415bf6ad7",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K84. Catacombs; Crypt 20",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17044-vampire-spawn", 1800]
+        ]
+    },
+    {
+        "id": "eaaa04ad-7c61-4237-8483-f9c760ebc5db",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K84. Catacombs; Crypt 21",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17089-banshee", 1100]
+        ]
+    },
+    {
+        "id": "690b5905-aa1e-4a28-8e1d-250d72c64a61",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K84. Catacombs; Crypt 27",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16900-giant-wolf-spider", 50]
+        ]
+    },
+    {
+        "id": "0da26991-46ea-41f1-bd54-98c4391a3939",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K84. Catacombs; Crypt 33",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17368-phantom-warrior", 700]
+        ]
+    },
+    {
+        "id": "72127c70-ab9b-4608-84d3-49d0305866b3",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K84. Catacombs; Crypt 34",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16933-imp", 200]
+        ]
+    },
+    {
+        "id": "bc0d2939-d01d-478c-921d-7812a5a3e44f",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K84. Catacombs; Crypt 35",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16872-ghoul", 200]
+        ]
+    },
+    {
+        "id": "bbe5a104-6c1a-495e-b20e-a0a8c3447377",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K84. Catacombs; Crypt 38",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16921-hell-hound", 700],
+            [1, "17064-wraith", 1800]
+        ]
+    },
+    {
+        "id": "1f146a67-232f-440f-a6f6-7e525ece0940",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K84. Catacombs; Crypt 39",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16964-nightmare", 700]
+        ]
+    },
+    {
+        "id": "d55f6bdc-bebf-4115-a82a-886c3e51a904",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K85. Sergei\u2019s Tomb; Fortunes of Ravenloft",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17374-strahd-von-zarovich", 13000]
+        ]
+    },
+    {
+        "id": "922d2827-25c6-4332-95f0-6fbc59989159",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K86. Strahd\u2019s Tomb",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17044-vampire-spawn", 1800]
+        ]
+    },
+    {
+        "id": "8c83a985-f0cf-4e87-8ced-186f0f6f1037",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K86. Strahd\u2019s Tomb; Fortunes of Ravenloft",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17374-strahd-von-zarovich", 13000]
+        ]
+    },
+    {
+        "id": "3c3467e5-f9f2-42cc-ae4d-ad50a0f3971b",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Dungeon and Catacombs; K88. Tomb of King Barov and Queen Ravenovia; Fortunes of Ravenloft",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17374-strahd-von-zarovich", 13000]
+        ]
+    },
+    {
+        "id": "9ef12f38-e902-49a8-9331-3527c07ecdb8",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Approaching the Town; Town Gates",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "5e39d848-7439-4f7b-bea3-38849c54b06e",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Approaching the Town; Town Gates",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "16915-guard", 25],
+            [50, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "df1465a7-549f-4f65-955a-4440c8f48abb",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Approaching the Town; House Occupants; Rats",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17032-swarm-of-rats", 50]
+        ]
+    },
+    {
+        "id": "a20ee644-b2e4-4afc-b53e-c5557bffd96c",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Approaching the Town; House Occupants; Townsfolk",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "afeec0eb-3c0f-4eb7-b219-419259e0c0fb",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Approaching the Town; House Occupants; Cultists",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16835-cultist", 25],
+            [1, "16836-cult-fanatic", 450]
+        ]
+    },
+    {
+        "id": "59913ac1-45e5-46ed-85f7-740043549056",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N1. St. Andral\u2019s Church",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16985-priest", 450],
+            [1, "296528-milivoj", 10]
+        ]
+    },
+    {
+        "id": "654c7d3e-a7c4-4310-bad2-e43e55e66e91",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N1. St. Andral\u2019s Church",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "10a8f073-024a-4674-9f61-34715da89479",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N2. Blue Water Inn; Keepers of the Feather",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17377-wereraven", 450],
+            [1, "17377-wereraven", 450]
+        ]
+    },
+    {
+        "id": "e7eb12d9-81f0-453e-87c5-049e9cfd6c2a",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N2. Blue Water Inn; Keepers of the Feather",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17377-wereraven", 450]
+        ]
+    },
+    {
+        "id": "cdfc7226-0c98-4945-b997-eaf97555891f",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N2. Blue Water Inn; Keepers of the Feather",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17377-wereraven", 450]
+        ]
+    },
+    {
+        "id": "e1f2d257-6f6c-4445-88dd-8bea1d17ea7b",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N2. Blue Water Inn; Fortunes of Ravenloft",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17377-wereraven", 450]
+        ]
+    },
+    {
+        "id": "026655a5-49a2-4a91-a0a0-32fcada3b2d4",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N2. Blue Water Inn; N2c. Taproom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "a8675f9f-1663-457f-9fd8-1fb3fa568ef3",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N2. Blue Water Inn; N2c. Taproom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17007-scout", 100]
+        ]
+    },
+    {
+        "id": "d53c8991-263f-41a2-9709-87d06324779b",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N2. Blue Water Inn; N2c. Taproom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16966-noble", 25]
+        ]
+    },
+    {
+        "id": "94f1b166-928d-4b05-90c6-47c902857da9",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N2. Blue Water Inn; N2c. Taproom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17371-rictavio", 1800]
+        ]
+    },
+    {
+        "id": "ff61585c-8781-4168-9d3c-0addeec1c441",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N2. Blue Water Inn; N2f. Stable",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16844-draft-horse", 50]
+        ]
+    },
+    {
+        "id": "164b639a-3e19-4aa2-b622-169622586759",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N2. Blue Water Inn; N2h. Ravens\u2019 Loft",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17033-swarm-of-ravens", 50]
+        ]
+    },
+    {
+        "id": "86f0e97f-9622-4e59-95ad-1466ebdd238a",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N3. Burgomaster\u2019s Mansion",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "b0d0c92c-f77a-4820-82eb-811f8365bc74",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N3. Burgomaster\u2019s Mansion; Roleplaying the Vallakovich Family",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17365-izek-strazni", 1800]
+        ]
+    },
+    {
+        "id": "fad2359b-8b8c-4bd4-9cf4-eb1c7bac8f12",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N3. Burgomaster\u2019s Mansion; Roleplaying the Vallakovich Family",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "411cfbca-bd81-4ddf-b2c0-9cc8371cd225",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N3. Burgomaster\u2019s Mansion; Roleplaying the Vallakovich Family",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17365-izek-strazni", 1800],
+            [30, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "77169a01-5e25-4a7f-a9d4-0978d1e5ca06",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N3. Burgomaster\u2019s Mansion; Roleplaying the Vallakovich Family",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "71e68797-a4b2-410f-95a9-64df3f46374b",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N3. Burgomaster\u2019s Mansion; N3c. Dining Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "e1108d7d-bc91-442a-a0fc-b4dfc16b2486",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N3. Burgomaster\u2019s Mansion; N3f. Servants\u2019 Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10],
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "b758cb2e-4781-488b-b9ad-e69eeb6134d3",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N3. Burgomaster\u2019s Mansion; N3l. Library",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25],
+            [2, "16953-mastiff", 25]
+        ]
+    },
+    {
+        "id": "e290ef53-406b-4b7e-a837-2dd331a019d3",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N3. Burgomaster\u2019s Mansion; N3m. Locked Closet",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "7d70a111-9a55-4b99-8816-a6a7bacc225f",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N3. Burgomaster\u2019s Mansion; N3p. Bridal Gown and Spirit Mirror",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16790-assassin", 3900]
+        ]
+    },
+    {
+        "id": "4acef235-8e67-4b26-9470-c6499fd9a7bb",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N3. Burgomaster\u2019s Mansion; N3p. Bridal Gown and Spirit Mirror",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16871-ghost", 1100]
+        ]
+    },
+    {
+        "id": "837e89be-e37e-4551-aecd-10162b6bc815",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N3. Burgomaster\u2019s Mansion; N3t. Victor\u2019s Workroom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16947-mage", 2300],
+            [6, "16820-cat", 10]
+        ]
+    },
+    {
+        "id": "fdada497-1218-4a2d-9048-0853927a292d",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N4. Wachterhaus; Roleplaying",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16985-priest", 450]
+        ]
+    },
+    {
+        "id": "acb9e064-d585-43e1-85c9-855eec8b9e57",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N4. Wachterhaus; Roleplaying",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16966-noble", 25]
+        ]
+    },
+    {
+        "id": "1b904131-1e34-4505-9afa-572ac74b088a",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N4. Wachterhaus; Roleplaying",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17021-spy", 200]
+        ]
+    },
+    {
+        "id": "765b7ee6-7df3-4090-83ff-106700ffdc9f",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N4. Wachterhaus; N4h. Servants\u2019 Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "90abbea5-aa91-4009-8a27-4784493f17e5",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N4. Wachterhaus; N4n. Stella\u2019s Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "057579a0-ee1f-4934-bf68-d7891740ca63",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N4. Wachterhaus; N4p. Library",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "16820-cat", 10]
+        ]
+    },
+    {
+        "id": "b9ce7e05-64fa-49f6-be93-10d7879d9e2f",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N4. Wachterhaus; N4s. Cellar",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "17015-skeleton", 50]
+        ]
+    },
+    {
+        "id": "d0308c79-1f36-4cba-a961-4d67878ac09e",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N4. Wachterhaus; N4t. Cult Headquarters",
+        "allies": [],
+        "bystanders": [
+            [1, "16933-imp", 200]
+        ],
+        "enemies": [
+            [4, "16836-cult-fanatic", 450]
+        ]
+    },
+    {
+        "id": "41e225d8-d1e0-40a9-92ba-c2314a0ea5a4",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N5. Arasek Stockyard",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "5a89613f-4f12-4eff-8b3b-884a880304e0",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N5. Arasek Stockyard; Rictavio\u2019s Carnival Wagon",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17371-rictavio", 1800]
+        ]
+    },
+    {
+        "id": "4ff9e605-46f9-405b-8f3d-5a5ffddae7d7",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N5. Arasek Stockyard; Rictavio\u2019s Carnival Wagon",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17002-saber-toothed-tiger", 450]
+        ]
+    },
+    {
+        "id": "e4b7ffc5-61be-4ddb-a5f7-4c1c42af399c",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N6. Coffin Maker\u2019s Shop",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "d1d55fe3-d132-40e3-baaf-d57af834c725",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N6. Coffin Maker\u2019s Shop",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "259df8ac-4884-4d9c-b5c6-9c4f87989c5f",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N6. Coffin Maker\u2019s Shop; N6f. Vampire Nest",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17044-vampire-spawn", 1800]
+        ]
+    },
+    {
+        "id": "9dd274cb-8b52-4207-84df-3babcae405a2",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N7. Blinsky Toys",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10],
+            [1, "16795-baboon", 10]
+        ]
+    },
+    {
+        "id": "55f13175-f0d8-4046-8afc-ceda4579c231",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N8. Town Square",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17365-izek-strazni", 1800],
+            [2, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "ce7bc91c-70d9-4a5d-a3f8-1d1e23513962",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N8. Town Square; Donkey-Headed Criminals",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "3ee3c6e5-7c62-4ced-bc88-f90a749e76be",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N8. Town Square; Donkey-Headed Criminals",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [24, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "38a91e66-53b4-4d6e-92aa-eedeb47effdb",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N9. Vistani Camp; N9a. Kasimir\u2019s Hovel",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "5ee72409-97fb-4fe4-a4b3-c337be88169b",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N9. Vistani Camp; N9a. Kasimir\u2019s Hovel",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "299546-kasimir-velikov", 2300]
+        ]
+    },
+    {
+        "id": "ec518917-0892-445c-a583-1a9973891703",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N9. Vistani Camp; N9b. Dusk Elf Hovels",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "0a35ff30-176b-4740-908d-48b1be4e2b93",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N9. Vistani Camp; N9c. Vistani Tent",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16799-bandit-captain", 450],
+            [1, "16790-assassin", 3900]
+        ]
+    },
+    {
+        "id": "ce41de7d-5f03-429d-98cf-679afee53227",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N9. Vistani Camp; N9c. Vistani Tent",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "4709d024-39ba-4370-8139-6c2f506df366",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N9. Vistani Camp; N9c. Vistani Tent",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "37caab9e-40ee-48e3-a46a-6a8e8ce8cbd1",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N9. Vistani Camp; N9c. Vistani Tent",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "ea0ef0c6-0b92-4d20-86b9-aea182dcd286",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N9. Vistani Camp; N9c. Vistani Tent",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [9, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "4c3a6d88-582e-47fd-8b0d-0bbe23735eaa",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N9. Vistani Camp; N9d. Horses",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [24, "16844-draft-horse", 50],
+            [6, "16997-riding-horse", 50]
+        ]
+    },
+    {
+        "id": "9579d655-60e6-408f-866a-fead1801216c",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N9. Vistani Camp; N9f. Wagon of Sleeping Vistani",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "65672832-75b9-45fe-951a-92333568e4e5",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N9. Vistani Camp; N9g. Wagon of Gambling Vistani",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [9, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "6df16f9f-8cf5-46b1-852a-672678737230",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Areas of Vallaki; N9. Vistani Camp; N9h. Vistani Family Wagon",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "26dcc3d1-467c-44e2-8a76-268aa9697f46",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Special Events; Festival of the Blazing Sun",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "6734c920-4451-4c1a-abab-a850d195aa00",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Special Events; Tyger, Tyger",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17365-izek-strazni", 1800]
+        ]
+    },
+    {
+        "id": "e0b45d86-5b0f-403a-b9cc-6f0da7dea726",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Special Events; St. Andral\u2019s Feast",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17374-strahd-von-zarovich", 13000]
+        ]
+    },
+    {
+        "id": "4eceb0cd-f280-45b1-aa67-b412ef881dcf",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Special Events; St. Andral\u2019s Feast",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17028-swarm-of-bats", 50]
+        ]
+    },
+    {
+        "id": "474265d5-e662-41fa-8f53-8ccd590c57e6",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Town of Vallaki; Special Events; St. Andral\u2019s Feast",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17044-vampire-spawn", 1800]
+        ]
+    },
+    {
+        "id": "7d83ac66-5ab6-48a4-b179-9da9f255588b",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Old Bonegrinder; Approaching the Windmill",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16992-raven", 10]
+        ]
+    },
+    {
+        "id": "0a8e0a9c-57e6-44fe-964c-33c70384a9b9",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Old Bonegrinder; Areas of the Windmill; O1. Ground Floor",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16846-dretch", 50]
+        ]
+    },
+    {
+        "id": "6a9e40a0-c7c1-48d4-9099-c7c8a3f5c656",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Old Bonegrinder; Areas of the Windmill; O1. Ground Floor",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16866-frog", 0]
+        ]
+    },
+    {
+        "id": "39f94031-727b-4375-aa43-46d3cc361b85",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Old Bonegrinder; Areas of the Windmill; O2. Bone Mill",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16965-night-hag", 1800]
+        ]
+    },
+    {
+        "id": "d5307805-3a34-4ca8-ad4f-18c7dd1ba208",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Old Bonegrinder; Areas of the Windmill; O2. Bone Mill",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16965-night-hag", 1800]
+        ]
+    },
+    {
+        "id": "603fee3e-c98b-40bf-8bcf-0015460b77f5",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Old Bonegrinder; Areas of the Windmill; O3. Bedroom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16965-night-hag", 1800]
+        ]
+    },
+    {
+        "id": "ec2cb07e-a7ae-4aa9-8071-ce16376576d9",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Argynvostholt; Areas of Argynvostholt (Q1-Q9); Q4. Spiders\u2019 Ballroom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [9, "16895-giant-spider", 200]
+        ]
+    },
+    {
+        "id": "6a0c4e3f-76c2-4be6-a1d0-4a313917ceab",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Argynvostholt; Areas of Argynvostholt (Q10-Q18); Q10. Kitchen",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16802-bat", 10]
+        ]
+    },
+    {
+        "id": "2f3a5576-465e-4070-a235-e4df038365ff",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Argynvostholt; Areas of Argynvostholt (Q10-Q18); Q11. Wine Storage",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17007-scout", 100]
+        ]
+    },
+    {
+        "id": "b5649be4-3971-4f31-8d5a-df0e2d5584f8",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Argynvostholt; Areas of Argynvostholt (Q10-Q18); Q13. Chapel of Morning",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17196-revenant", 1800]
+        ]
+    },
+    {
+        "id": "5028a213-9524-454b-b2e0-b03deb4ffea4",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Argynvostholt; Areas of Argynvostholt (Q19-Q27); Q25. Trapped Hallway",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "17368-phantom-warrior", 700]
+        ]
+    },
+    {
+        "id": "298856de-4a3b-47b7-ad1a-664ab6e89222",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Argynvostholt; Areas of Argynvostholt (Q19-Q27); Q26. Northeast Guest Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17174-smoke-mephit", 50]
+        ]
+    },
+    {
+        "id": "bad10fd6-d387-48d6-8d47-db57f2ffdc31",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Argynvostholt; Areas of Argynvostholt (Q19-Q27); Q27. Knights\u2019 Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17368-phantom-warrior", 700]
+        ]
+    },
+    {
+        "id": "85990b7b-8adb-414e-bd53-54b14acb5c70",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Argynvostholt; Areas of Argynvostholt (Q28-Q36); Q28. Knights\u2019 Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17368-phantom-warrior", 700]
+        ]
+    },
+    {
+        "id": "5d7c3ac8-0c41-4c94-bb3a-38f1879b478d",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Argynvostholt; Areas of Argynvostholt (Q28-Q36); Q36. Dragon\u2019s Audience Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17376-vladimir-horngaard", 2900],
+            [6, "17368-phantom-warrior", 700]
+        ]
+    },
+    {
+        "id": "0f0fa0b3-509c-4f1d-b991-9c6d751444b6",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Argynvostholt; Areas of Argynvostholt (Q37-Q45); Q37. Knights of the Order",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17196-revenant", 1800],
+            [1, "297564-sir-godfrey-gwilym", 2300]
+        ]
+    },
+    {
+        "id": "50fde806-8f3e-42c0-9615-1909c3ceca06",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Argynvostholt; Areas of Argynvostholt (Q46-Q53); Q52. Beacon Turrets",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17368-phantom-warrior", 700]
+        ]
+    },
+    {
+        "id": "7484051d-cfd3-4d27-8ba8-28a287af348e",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Argynvostholt; Areas of Argynvostholt (Q46-Q53); Q53. Beacon of Argynvostholt",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16992-raven", 10]
+        ]
+    },
+    {
+        "id": "6682de66-9673-4477-b995-df3a45c8ddf1",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Argynvostholt; Special Events; Special Delivery",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16844-draft-horse", 50],
+            [1, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "9ee648c5-f36f-47b2-94dc-9448a1663bb9",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Argynvostholt; Special Events; Special Delivery",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17028-swarm-of-bats", 50]
+        ]
+    },
+    {
+        "id": "2662ff22-2fc1-4d77-914a-5783ef107d60",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Argynvostholt; Special Events; Arrigal\u2019s Hunt",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17364-ezmerelda-davenir", 3900],
+            [1, "16997-riding-horse", 50]
+        ]
+    },
+    {
+        "id": "948e35b3-8f98-4fda-8cb3-fb328c7c74d9",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Argynvostholt; Special Events; Arrigal\u2019s Hunt",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16790-assassin", 3900],
+            [2, "16798-bandit", 25],
+            [1, "16997-riding-horse", 50],
+            [2, "16841-dire-wolf", 200]
+        ]
+    },
+    {
+        "id": "724ea6b2-6d7e-487d-8b5c-50cd9b5120bb",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of Krezk; S2. Gatehouse",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17007-scout", 100],
+            [4, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "0bb9552e-5924-45b6-b448-c55eda02e766",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of Krezk; S2. Gatehouse",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16915-guard", 25],
+            [40, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "ddd1be5a-5d2e-475c-ade3-32af0c46174c",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of Krezk; S2. Gatehouse",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "64eaf63b-021f-41b2-bcb9-c7bb2b68cfc8",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of Krezk; S2. Gatehouse; Burgomaster Dmitri Krezkov",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
+    },
+    {
+        "id": "8cb15c80-52ad-42d2-b27b-b8e156f275da",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of Krezk; S3. Village of Krezk; Cottages",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
+    },
+    {
+        "id": "280bca2c-dc86-43ea-bea1-d972628468ac",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of Krezk; S3. Village of Krezk; Cottages",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "5a5ae5b3-8589-4841-bf99-4e23fe8bcb8f",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of the Abbey (S6-S12); S6. North Gate",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17367-mongrelfolk", 50]
+        ]
+    },
+    {
+        "id": "e78c7540-1e06-4df6-8e44-b45ba1180f04",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of the Abbey (S6-S12); S9. Gardens; Fortunes of Ravenloft",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "17059-wight", 700]
+        ]
+    },
+    {
+        "id": "e6815398-d1eb-48e8-acf6-bec07968960e",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of the Abbey (S6-S12); S12. Courtyard; S12a. Well",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17367-mongrelfolk", 50]
+        ]
+    },
+    {
+        "id": "7dbbebcb-1f4a-4de7-ab5f-431bb4be1681",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of the Abbey (S6-S12); S12. Courtyard; S12c. Chicken Sheds",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [9, "17367-mongrelfolk", 50]
+        ]
+    },
+    {
+        "id": "cf903044-f21c-4caa-99bf-f5c4b66afe5e",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of the Abbey (S6-S12); S12. Courtyard; S12d. Tethering Posts",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17367-mongrelfolk", 50]
+        ]
+    },
+    {
+        "id": "15fad0de-93f0-403c-94de-ad268bf06b77",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of the Abbey (S13-S18); S13. Main Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17372-the-abbot", 5900],
+            [1, "16863-flesh-golem", 1800]
+        ]
+    },
+    {
+        "id": "b02e8fe7-8045-4742-8650-f904ba9de247",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of the Abbey (S13-S18); S15. Madhouse",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16863-flesh-golem", 1800]
+        ]
+    },
+    {
+        "id": "24a16c15-21a5-43e5-a59b-5cc80564bc46",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of the Abbey (S13-S18); S15. Madhouse",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [60, "17367-mongrelfolk", 50]
+        ]
+    },
+    {
+        "id": "c340556d-ccc2-4cb9-a3c4-03f55fcef612",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of the Abbey (S13-S18); S15. Madhouse; S15a. Fearful Mongrelfolk",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17367-mongrelfolk", 50]
+        ]
+    },
+    {
+        "id": "de924785-9bbd-45c0-87a1-a4cdf9bbdfeb",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of the Abbey (S13-S18); S15. Madhouse; S15b. Quarreling Mongrelfolk",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17367-mongrelfolk", 50]
+        ]
+    },
+    {
+        "id": "f949471a-e9ad-4071-af71-41b0f0e98891",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of the Abbey (S13-S18); S15. Madhouse; S15c. Incanting Mongrelfolk",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "17367-mongrelfolk", 50]
+        ]
+    },
+    {
+        "id": "e26a50d0-1111-4bb5-829f-5c4d9ee96c92",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of the Abbey (S13-S18); S15. Madhouse; S15d. Hungry Mongrelfolk",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [9, "17367-mongrelfolk", 50]
+        ]
+    },
+    {
+        "id": "e8a75257-b782-4e8a-8551-5c4acee6f823",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of the Abbey (S13-S18); S15. Madhouse; S15e. Mongrelfolk Horde",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [16, "17367-mongrelfolk", 50]
+        ]
+    },
+    {
+        "id": "43773587-8155-45a8-a4d8-e194e0c7aa41",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of the Abbey (S13-S18); S15. Madhouse; S15f. Singing and Dancing Mongrelfolk",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "17367-mongrelfolk", 50]
+        ]
+    },
+    {
+        "id": "bf4b7469-12c3-4340-97ee-6066e9dd4cb3",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of the Abbey (S13-S18); S15. Madhouse; S15g. Mongrelfolk Babies",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "17367-mongrelfolk", 50]
+        ]
+    },
+    {
+        "id": "4fef19bb-486f-46cc-8b24-e225a944e24f",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of the Abbey (S13-S18); S15. Madhouse; S15h. Mongrelfolk Fort",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17367-mongrelfolk", 50]
+        ]
+    },
+    {
+        "id": "6638dce9-3241-4d44-ba9d-99ce6900ce80",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of the Abbey (S13-S18); S17. Loft and Belfry",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17367-mongrelfolk", 50]
+        ]
+    },
+    {
+        "id": "7d52631c-9310-4963-ac7c-90eaca37b3cd",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of the Abbey (S19-S24); S19. Barracks; Ezmerelda d\u2019Avenir",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17364-ezmerelda-davenir", 3900]
+        ]
+    },
+    {
+        "id": "349ea09b-1b4e-427e-a3fe-21f10a482c50",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of the Abbey (S19-S24); S21. Haunted Hospital",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17010-shadow", 100]
+        ]
+    },
+    {
+        "id": "5ff9ce34-6d28-480f-a0ca-28533495d97f",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Areas of the Abbey (S19-S24); S24. Morgue",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16992-raven", 10]
+        ]
+    },
+    {
+        "id": "335e6257-ae1e-49b7-aeaf-4ab0442f1dc9",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Special Events; Something New",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "1bff3bcc-eb7f-4f2d-a938-1da9ea44d31d",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Village of Krezk; Special Events; Something Borrowed",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25],
+            [2, "16915-guard", 25],
+            [4, "16829-commoner", 10],
+            [1, "16960-mule", 25]
+        ]
+    },
+    {
+        "id": "0e4c8abe-d459-45c9-aae6-d97f89b2d462",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Tsolenka Pass; Areas of the Pass; T2. Demon Statues",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17047-vrock", 2300]
+        ]
+    },
+    {
+        "id": "c1cfa118-f306-43b5-a62d-158a0ef82cd1",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Tsolenka Pass; Areas of the Pass; T6. Guard Tower Rooftop; Fortunes of Ravenloft",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "299425-snow-maiden", 200]
+        ]
+    },
+    {
+        "id": "3ea743b3-02d2-4f88-83e1-384740e3284f",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Tsolenka Pass; Special Events; Roc of Mount Ghakis",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16998-roc", 7200]
+        ]
+    },
+    {
+        "id": "1106c028-8957-4028-8ee1-d1f325380d94",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Tsolenka Pass; Special Events; Bloodhorn\u2019s Charge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "299431-sangzor", 200]
+        ]
+    },
+    {
+        "id": "46320321-3718-43d2-b756-125862feb5c6",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Ruins of Berez; Approaching the Ruins",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "301415-swarm-of-insects-wasps", 100]
+        ]
+    },
+    {
+        "id": "97d163d0-9e3b-4a21-a34a-5361e37b8274",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Ruins of Berez; Approaching the Ruins; Marsh Scarecrows",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "17200-scarecrow", 200]
+        ]
+    },
+    {
+        "id": "04401213-3a7d-4685-9631-a4fa7a9560c3",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Ruins of Berez; Areas of Berez; U2. Ulrich Mansion",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16871-ghost", 1100]
+        ]
+    },
+    {
+        "id": "c5bd596b-f95f-439d-a3d2-c618ea620fba",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Ruins of Berez; Areas of Berez; U2. Ulrich Mansion; Garden",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16890-giant-poisonous-snake", 50]
+        ]
+    },
+    {
+        "id": "69c9088e-9fc9-4870-9ea0-4b0c1ed22c12",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Ruins of Berez; Areas of Berez; U2. Ulrich Mansion; Goat Pen",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [9, "16906-goat", 10]
+        ]
+    },
+    {
+        "id": "11c08886-1890-42c5-ad35-20544e4fa3ba",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Ruins of Berez; Areas of Berez; U3. Baba Lysaga\u2019s Hut",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17361-baba-lysaga", 7200]
+        ]
+    },
+    {
+        "id": "f05d7dff-dd3d-494f-8b9d-b255c6c51e27",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Ruins of Berez; Areas of Berez; U3. Baba Lysaga\u2019s Hut",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17033-swarm-of-ravens", 50]
+        ]
+    },
+    {
+        "id": "25bb8a64-863f-4cf5-8105-36a0723e9701",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Ruins of Berez; Areas of Berez; U3. Baba Lysaga\u2019s Hut; Treasure",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17139-crawling-claw", 10]
+        ]
+    },
+    {
+        "id": "254b1ba3-d31a-4d9b-86c7-b906f273a310",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Ruins of Berez; Areas of Berez; U5. Marina\u2019s Monument; Fortunes of Ravenloft",
+        "allies": [],
+        "bystanders": [
+            [7, "1317680-walking-corpse", 10]
+        ],
+        "enemies": [
+            [7, "17030-swarm-of-poisonous-snakes", 450]
+        ]
+    },
+    {
+        "id": "7c5dd7fd-d33a-4b04-bc21-8e044a3b448b",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Ruins of Berez; Areas of Berez; U6. Standing Stones",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17377-wereraven", 450]
+        ]
+    },
+    {
+        "id": "3387ff3c-a03b-40ef-91cc-912147f42fc7",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Ruins of Berez; Special Events; Creeping Hut",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17357-baba-lysagas-creeping-hut", 7200]
+        ]
+    },
+    {
+        "id": "a138b99f-d63e-4c76-a2ab-7df84748ac0e",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Van Richten\u2019s Tower; Areas of the Tower; V2. Tower Door; Opening the Door",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17068-young-blue-dragon", 5000]
+        ]
+    },
+    {
+        "id": "a632652b-8cfe-47a5-ac8f-c3ff2098453e",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Van Richten\u2019s Tower; Areas of the Tower; V4. Tower, First Floor",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16825-clay-golem", 5000]
+        ]
+    },
+    {
+        "id": "8d1d5d0a-a25a-4f69-8306-df8508ae8daf",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Van Richten\u2019s Tower; Areas of the Tower; V7. Tower, Fourth Floor",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16786-animated-armor", 200]
+        ]
+    },
+    {
+        "id": "fc509ee9-144e-472a-b61b-c630a9991c82",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Van Richten\u2019s Tower; Areas of the Tower; V7. Tower, Fourth Floor; Fortunes of Ravenloft",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16825-clay-golem", 5000]
+        ]
+    },
+    {
+        "id": "5e510e4c-8c30-425f-b18c-6f5042f466e9",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Van Richten\u2019s Tower; Special Events; Pack Attack",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "299436-kiril-stoyanovich", 700],
+            [6, "17057-werewolf", 700],
+            [9, "17062-wolf", 50]
+        ]
+    },
+    {
+        "id": "700be5cf-5387-40a8-9965-5826f7a32693",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Van Richten\u2019s Tower; Special Events; Ezmerelda\u2019s Retreat",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17364-ezmerelda-davenir", 3900],
+            [1, "16997-riding-horse", 50]
+        ]
+    },
+    {
+        "id": "3a040f53-8c9f-4da7-a540-5e4d455a0bf2",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Wizard of Wines; Approaching the Vineyard",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [9, "17377-wereraven", 450]
+        ]
+    },
+    {
+        "id": "42d03922-2dff-44e8-af26-b314d33326f4",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Wizard of Wines; Approaching the Winery",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [30, "17215-needle-blight", 50]
+        ]
+    },
+    {
+        "id": "aed43d42-6697-42e3-ac45-00a41b75c1df",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Wizard of Wines; Areas of the Winery (Ground Floor W1-W12); W1. Stables",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16844-draft-horse", 50]
+        ]
+    },
+    {
+        "id": "ef5f3c2c-4a77-4b53-901a-42ccf38133b0",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Wizard of Wines; Areas of the Winery (Ground Floor W1-W12); W9. Fermentation Vats",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17033-swarm-of-ravens", 50]
+        ]
+    },
+    {
+        "id": "e4ff7901-114e-45c3-99c9-d43b05d1d5a7",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Wizard of Wines; Areas of the Winery (Ground Floor W1-W12); W9. Fermentation Vats",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [24, "17095-twig-blight", 25],
+            [1, "16848-druid", 450]
+        ]
+    },
+    {
+        "id": "6872ba8f-736f-45e0-8967-5ae670034e43",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Wizard of Wines; Areas of the Winery (Cellar W13-W15); W14. Wine Cellar",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17215-needle-blight", 50],
+            [1, "16848-druid", 450]
+        ]
+    },
+    {
+        "id": "65c377df-cf8d-4fb3-ac89-f3f235f4c6bf",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Wizard of Wines; Areas of the Winery (Upper Floor W16-W20); W16. Loading Winch",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16848-druid", 450]
+        ]
+    },
+    {
+        "id": "98f8f8f2-f07e-4a83-9fe3-a296a3644020",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Wizard of Wines; Areas of the Winery (Upper Floor W16-W20); W20. Printing Press",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17216-vine-blight", 100],
+            [1, "16848-druid", 450]
+        ]
+    },
+    {
+        "id": "e662d315-a90c-4dbd-9014-678d367d823b",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Wizard of Wines; Special Events; Wine Delivery",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17033-swarm-of-ravens", 50]
+        ]
+    },
+    {
+        "id": "75b60623-4bfb-49ba-b463-69d895792dd9",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Wizard of Wines; Special Events; Wintersplinter Attacks",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17363-tree-blight", 2900]
+        ]
+    },
+    {
+        "id": "295fedf6-f7fc-40da-b99f-0c6833f50bd4",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; The Wizard of Wines; Special Events; Wintersplinter Attacks; Development",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "17200-scarecrow", 200]
+        ]
+    },
+    {
+        "id": "091b8499-68a6-4e5f-b4ca-e71408156fad",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Amber Temple; Areas of the Temple (X1-X6); X5. Temple of Lost Secrets",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17109-arcanaloth", 8400]
+        ]
+    },
+    {
+        "id": "323cc07f-a5fa-4989-b381-1a40652c99d4",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; The Amber Temple; Areas of the Temple (X1-X6); X5. Temple of Lost Secrets",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17091-flameskull", 1100]
+        ]
+    },
+    {
+        "id": "814d7317-4a0f-42d2-a3c6-6eae711fd0e8",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; The Amber Temple; Areas of the Temple (X1-X6); X6. Southeast Annex",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17091-flameskull", 1100]
+        ]
+    },
+    {
+        "id": "be35135a-3458-4ae5-be66-83e32beea996",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Amber Temple; Areas of the Temple (X7-X15); X9. Lecture Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16947-mage", 2300],
+            [1, "16988-quasit", 200]
+        ]
+    },
+    {
+        "id": "efae1979-f7b8-4a44-80c4-89cb15b61571",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Amber Temple; Areas of the Temple (X7-X15); X10. Northeast Annex",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17025-stone-golem", 5900]
+        ]
+    },
+    {
+        "id": "d2990c6f-5896-42fd-aec7-b100abb28330",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Amber Temple; Areas of the Temple (X7-X15); X15. Southwest Annex",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16903-gladiator", 1800],
+            [5, "16805-berserker", 450],
+            [1, "16841-dire-wolf", 200]
+        ]
+    },
+    {
+        "id": "2297cb91-adc9-4a4a-a485-dc29f47ed217",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Amber Temple; Areas of the Temple (X16-X25); X17. Upper West Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17091-flameskull", 1100]
+        ]
+    },
+    {
+        "id": "8b9666d7-0a0a-41ee-976d-13669196f284",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Amber Temple; Areas of the Temple (X16-X25); X22. Northwest Annex",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "17017-specter", 200]
+        ]
+    },
+    {
+        "id": "69c3e388-d382-49ed-ac5e-d63d6674b9d6",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Amber Temple; Areas of the Temple (X26-X33); X27. Lich\u2019s Lair",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "1842957-exethanter", 5900]
+        ]
+    },
+    {
+        "id": "e8ec394e-ebe1-479a-8311-1e1fabeab411",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Amber Temple; Areas of the Temple (X26-X33); X32. Lower East Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17362-barovian-witch", 100],
+            [3, "17358-broom-of-animated-attack", 50]
+        ]
+    },
+    {
+        "id": "dfa1383e-2210-4f06-98e4-3d5419ee9f67",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Amber Temple; Areas of the Temple (X33-X42); X33. Amber Vaults; X33a. Vault of Shalx",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17091-flameskull", 1100]
+        ]
+    },
+    {
+        "id": "0695d0cb-a938-49dc-9567-81ce2bafdb15",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Amber Temple; Areas of the Temple (X33-X42); X33. Amber Vaults; X33c. Ghastly Vault",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "16870-ghast", 450]
+        ]
+    },
+    {
+        "id": "790befc6-442c-4f69-8604-7381c200192e",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Amber Temple; Areas of the Temple (X33-X42); X33. Amber Vaults; X33d. Breached Vault",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17092-nothic", 450]
+        ]
+    },
+    {
+        "id": "fba90f62-c834-4cf6-b757-9d09d9f004c6",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Amber Temple; Areas of the Temple (X33-X42); X33. Amber Vaults; X33e. Vault of Harkotha",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17113-death-slaad", 5900]
+        ]
+    },
+    {
+        "id": "ebb08ee3-6004-41a9-b6c0-fb6106087c87",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Amber Temple; Areas of the Temple (X33-X42); X35. Sleeping Guardian",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17012-shield-guardian", 2900]
+        ]
+    },
+    {
+        "id": "b31462e4-ea4d-4110-aee4-4bc7630188fd",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Amber Temple; Areas of the Temple (X33-X42); X38. Haunted Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17202-poltergeist", 450]
+        ]
+    },
+    {
+        "id": "2033788e-c27f-4f80-aa81-b64f35b53dc1",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Amber Temple; Areas of the Temple (X33-X42); X39. Plundered Treasury",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17202-poltergeist", 450]
+        ]
+    },
+    {
+        "id": "43c17933-cb4f-4dbc-be2d-7c2903a34709",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Amber Temple; Areas of the Temple (X33-X42); X40. Sealed Treasury",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17025-stone-golem", 5900]
+        ]
+    },
+    {
+        "id": "6181f095-c10a-449b-8c16-65fedb637dec",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Amber Temple; Areas of the Temple (X33-X42); X42. Amber Vault",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17044-vampire-spawn", 1800]
+        ]
+    },
+    {
+        "id": "e4a347f8-04c3-47ea-a799-078870070b82",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Amber Temple; Special Events; Rahadin\u2019s Prayer",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17370-rahadin", 5900]
+        ]
+    },
+    {
+        "id": "0313e7d2-e9a8-4098-bd20-db3d6183be27",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Amber Temple; Special Events; Kasimir\u2019s Dark Gift",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "299546-kasimir-velikov", 2300]
+        ]
+    },
+    {
+        "id": "0bd37314-3588-40b9-b444-2356c23d2ed4",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Yester Hill; Areas of the Hill; Y3. Druids\u2019 Circle; Hidden Graves",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16848-druid", 450],
+            [6, "16805-berserker", 450]
+        ]
+    },
+    {
+        "id": "cedfba3b-ddbd-4bfb-9e9b-b86351f6cf5e",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Yester Hill; Areas of the Hill; Y4. Gulthias Tree",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17216-vine-blight", 100],
+            [6, "17215-needle-blight", 50],
+            [12, "17095-twig-blight", 25]
+        ]
+    },
+    {
+        "id": "d50a8b39-b4c8-4066-9ad1-5586d08ea23e",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Yester Hill; Special Events; Druids\u2019 Ritual",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17374-strahd-von-zarovich", 13000],
+            [1, "16964-nightmare", 700]
+        ]
+    },
+    {
+        "id": "4dc4f657-c4a3-404e-aa15-30fb3a8044e1",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Yester Hill; Special Events; Druids\u2019 Ritual; Development",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17363-tree-blight", 2900]
+        ]
+    },
+    {
+        "id": "d4c382e2-7042-4360-98c4-b18910f66c20",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Werewolf Den; Areas of the Den; Z2. Guard Post",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17057-werewolf", 700]
+        ]
+    },
+    {
+        "id": "0eaf2838-1ceb-4742-ac61-2c3906108a08",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Werewolf Den; Areas of the Den; Z3. Wolf Den",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [9, "17062-wolf", 50],
+            [1, "17057-werewolf", 700]
+        ]
+    },
+    {
+        "id": "6ae5dd55-190c-4cc5-a9db-f827fdf7bf6e",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Werewolf Den; Areas of the Den; Z5. Deep Caves; Z5a. South Cave",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17057-werewolf", 700]
+        ]
+    },
+    {
+        "id": "bf7e8547-f6ed-4738-acf1-e86d42d6966f",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Werewolf Den; Areas of the Den; Z5. Deep Caves; Z5b. North Cave",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17057-werewolf", 700]
+        ]
+    },
+    {
+        "id": "e36bf50a-340c-4031-9098-aba073cc0ba7",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Werewolf Den; Areas of the Den; Z6. Kiril\u2019s Cave",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "299436-kiril-stoyanovich", 700]
+        ]
+    },
+    {
+        "id": "7008cd72-042c-48b1-ada6-e255f0820975",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Werewolf Den; Areas of the Den; Z7. Shrine of Mother Night",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17057-werewolf", 700]
+        ]
+    },
+    {
+        "id": "f145ebc4-63a6-48e8-9a42-93a10e26d984",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Werewolf Den; Special Events; Leader of the Pack",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "299436-kiril-stoyanovich", 700],
+            [3, "17057-werewolf", 700],
+            [9, "17062-wolf", 50]
+        ]
+    },
+    {
+        "id": "3fc6d1b6-c589-4b50-b84d-1a81eff156fa",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Werewolf Den; Special Events; Leader of the Pack",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17057-werewolf", 700]
+        ]
+    },
+    {
+        "id": "832f6bac-3f0b-4a94-a479-6f57179c59de",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Werewolf Den; Special Events; Die Kinder",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17377-wereraven", 450]
+        ]
+    },
+    {
+        "id": "2445164d-73f3-4bbb-a5b9-40e6cb0cb3fc",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Epilogue; Strahd Dies",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17374-strahd-von-zarovich", 13000]
+        ]
+    },
+    {
+        "id": "41442c6c-0b56-49ea-889d-fcf8b56e0f7b",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Epilogue; Strahd Dies; Rahadin\u2019s Revenge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17370-rahadin", 5900]
+        ]
+    },
+    {
+        "id": "6635e24a-4957-4a10-9b88-0e6e6c40dad8",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Appendix B: Death House; Areas of the House (11-20); 11. Balcony",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16786-animated-armor", 200]
+        ]
+    },
+    {
+        "id": "c4c4fd6e-35cb-486e-a849-26baec91dc17",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Appendix B: Death House; Areas of the House (11-20); 14. Storage Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17358-broom-of-animated-attack", 50]
+        ]
+    },
+    {
+        "id": "9b55d1e8-872e-467e-aba4-63283b5cfcfc",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Appendix B: Death House; Areas of the House (11-20); 15. Nursemaid\u2019s Suite",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17017-specter", 200]
+        ]
+    },
+    {
+        "id": "93435c3b-8203-469f-86ec-aa8c00e2e955",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Appendix B: Death House; Areas of the House (11-20); 18. Storage Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17017-specter", 200]
+        ]
+    },
+    {
+        "id": "1d1db685-df87-4fd0-887c-96f66209bd2e",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Appendix B: Death House; Areas of the House (11-20); 20. Children\u2019s Room; Rose and Thorn",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "356626-rose-durst", 700],
+            [1, "356633-thorn-durst", 700]
+        ]
+    },
+    {
+        "id": "a988adf6-c4eb-4cac-8f76-ab7138949907",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Appendix B: Death House; Areas of the House (21-30); 23. Family Crypts; 23D. Elisabeth\u2019s Crypt",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "301411-swarm-of-insects-centipedes", 100]
+        ]
+    },
+    {
+        "id": "5c61e9f9-ba90-4d41-9ba7-4caf89d29945",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Appendix B: Death House; Areas of the House (21-30); 28. Larder",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16912-grick", 450]
+        ]
+    },
+    {
+        "id": "d8d048b5-58c8-4590-a728-c54d3416dde0",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Appendix B: Death House; Areas of the House (21-30); 29. Ghoulish Encounter",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16872-ghoul", 200]
+        ]
+    },
+    {
+        "id": "617dc878-8825-4614-93be-aa8702abe133",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Appendix B: Death House; Areas of the House (31-38); 31. Darklord\u2019s Shrine",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17010-shadow", 100]
+        ]
+    },
+    {
+        "id": "5ca4a15f-658d-4b4e-84ab-3d4e786a32ce",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Appendix B: Death House; Areas of the House (31-38); 33. Cult Leaders\u2019 Den",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16957-mimic", 450]
+        ]
+    },
+    {
+        "id": "6003b7ca-7795-439f-830e-d0828e20d947",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Appendix B: Death House; Areas of the House (31-38); 34. Cult Leaders\u2019 Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16870-ghast", 450]
+        ]
+    },
+    {
+        "id": "56862017-e17c-4bde-973c-4e0b1c5d0724",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Appendix B: Death House; Areas of the House (31-38); 38. Ritual Chamber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17011-shambling-mound", 1800]
+        ]
+    }
+]

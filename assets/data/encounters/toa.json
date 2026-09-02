@@ -1,0 +1,4161 @@
+[
+    {
+        "id": "bd974ba4-7f5c-404b-9d34-39c2e19281e5",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Introduction; Story Overview",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285407-syndra-silvane", 8400]
+        ]
+    },
+    {
+        "id": "e5a7cd4a-a706-4ca4-b46f-a257a5d9b071",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Introduction; Running the Adventure; Adventure Summary",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "32961-acererak", 50000]
+        ]
+    },
+    {
+        "id": "468cc4ab-7726-44c0-84f0-5532c5c50315",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Introduction; Running the Adventure; Adventure Summary",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "32961-acererak", 50000]
+        ]
+    },
+    {
+        "id": "cc76a4eb-954b-4d4a-89d5-6416668a0e46",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Introduction; Starting the Adventure; Syndra Silvane\u2019s Curse",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285407-syndra-silvane", 8400]
+        ]
+    },
+    {
+        "id": "cb87e7d5-5625-43bc-810f-bbbe52065bb6",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Introduction; Starting the Adventure; Syndra Silvane\u2019s Curse",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285407-syndra-silvane", 8400],
+            [1, "16789-archmage", 8400]
+        ]
+    },
+    {
+        "id": "911bb6ab-83f4-4270-8bc6-34f5324172a4",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Introduction; Welcome to Chult; Races of Chult",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17015-skeleton", 50],
+            [1, "17077-zombie", 50],
+            [1, "16872-ghoul", 200]
+        ]
+    },
+    {
+        "id": "545807c3-b469-47c5-856c-eec92fe35616",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Introduction; Welcome to Chult; Races of Chult; Batiri (Goblins)",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17155-goblin-boss", 200]
+        ]
+    },
+    {
+        "id": "15a2ae9b-dc02-4e7f-9fe6-d8ae928ea9d1",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Introduction; Welcome to Chult; Races of Chult; Undead",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33253-ras-nsi", 2900],
+            [1, "33284-girallon-zombie", 700],
+            [1, "33286-tyrannosaurus-zombie", 3900]
+        ]
+    },
+    {
+        "id": "0413384f-6181-4552-935b-304c8f0d84fe",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Introduction; Welcome to Chult; Races of Chult; Weretigers",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17056-weretiger", 1100]
+        ]
+    },
+    {
+        "id": "d1b00ebe-d9f4-4a20-a1fe-4d9c817fbd0f",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Introduction; Welcome to Chult; Races of Chult; Yuan-ti",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17123-yuan-ti-pureblood", 200],
+            [1, "17122-yuan-ti-malison", 700],
+            [1, "17121-yuan-ti-abomination", 2900]
+        ]
+    },
+    {
+        "id": "aba716db-b9b4-403d-999f-d4bf4f605a4c",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Arrival",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285407-syndra-silvane", 8400]
+        ]
+    },
+    {
+        "id": "a322df8a-c60b-4239-a043-f25c7453e8a9",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Locations in the City; Old City; 2. Executioner\u2019s Run",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17243-velociraptor", 50],
+            [1, "16976-panther", 50],
+            [1, "17087-allosaurus", 450]
+        ]
+    },
+    {
+        "id": "b118df8a-2f80-4b73-be12-caccd5dafd7d",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Locations in the City; Old City; 3. Refuse Pit",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16872-ghoul", 200]
+        ]
+    },
+    {
+        "id": "8bee74ad-361b-4716-ae0a-36735dcbb76c",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Locations in the City; Old City; 3. Refuse Pit",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16973-otyugh", 1800]
+        ]
+    },
+    {
+        "id": "1653962f-b982-457e-a6fe-bcc37c59a8b9",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Locations in the City; Merchants\u2019 Ward; 4. Goldenthrone",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "16903-gladiator", 1800]
+        ]
+    },
+    {
+        "id": "7592f619-2424-49ad-a142-4ca71829bff9",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Locations in the City; Merchants\u2019 Ward; 7. Temple of Savras",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16985-priest", 450],
+            [3, "16790-assassin", 3900]
+        ]
+    },
+    {
+        "id": "e93dff22-05e8-43bf-9f94-6ebf682e1cbd",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Locations in the City; Merchants\u2019 Ward; 10. Jewel Market",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16915-guard", 25],
+            [1, "17021-spy", 200]
+        ]
+    },
+    {
+        "id": "02c991d4-023a-4d81-80f1-a1c25125900b",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Locations in the City; Harbor Ward",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16799-bandit-captain", 450],
+            [1, "17045-veteran", 700],
+            [6, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "9add78b1-e0eb-4c1d-9649-30fd041dd32a",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Locations in the City; Harbor Ward; 13. Harbormaster\u2019s Office",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33281-zindar", 3900]
+        ]
+    },
+    {
+        "id": "84596866-30fc-472d-98e3-70f2796d27c2",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Locations in the City; Harbor Ward; 15. Fort Nyanzaru",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16966-noble", 25],
+            [4, "17045-veteran", 700],
+            [1, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "c342bad2-6cde-4bae-9189-45de457e7d84",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Locations in the City; Market Ward; 20. Grand Coliseum",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17243-velociraptor", 50],
+            [1, "17036-tiger", 200],
+            [1, "16872-ghoul", 200],
+            [1, "17015-skeleton", 50],
+            [1, "17077-zombie", 50]
+        ]
+    },
+    {
+        "id": "d7d9836f-7759-44a5-ac39-0da5f97c5ec5",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Locations in the City; Market Ward; 21. Hall of Gold",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16985-priest", 450]
+        ]
+    },
+    {
+        "id": "a27a2b25-9bc9-46a6-9a5d-8fb4460948fd",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; City Denizens; Merchant Princes; Ekene-Afa",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16903-gladiator", 1800]
+        ]
+    },
+    {
+        "id": "586d79fd-febb-4925-983e-321cba920008",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; City Denizens; Merchant Princes; Ifan Talro\u2019a",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
+    },
+    {
+        "id": "6a6291d2-0a6c-4f86-a56f-d9f30bf831c2",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; City Denizens; Merchant Princes; Jessamine",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16790-assassin", 3900]
+        ]
+    },
+    {
+        "id": "c5983807-0797-49f1-9e8e-c15748f50980",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; City Denizens; Merchant Princes; Jobal",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17007-scout", 100],
+            [1, "17021-spy", 200]
+        ]
+    },
+    {
+        "id": "4362ff19-ef2f-454e-90fb-c0cfc78db736",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; City Denizens; Merchant Princes; Kwayoth\u00e9",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16985-priest", 450],
+            [2, "17027-succubus", 1100],
+            [1, "257235-incubus", 1100]
+        ]
+    },
+    {
+        "id": "e8d678ee-2fb5-4d93-bdcd-94a6d3d770bd",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; City Denizens; Merchant Princes; Wakanga O\u2019tamu",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16947-mage", 2300]
+        ]
+    },
+    {
+        "id": "3c437e05-dbf1-449a-9f13-05a598ab5e47",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; City Denizens; Merchant Princes; Zhanthi",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
+    },
+    {
+        "id": "9dd4ee24-59ec-4538-84bc-22127cf73b1e",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Merchant Prince\u2019s Villa; Lower Level; 1. Entryway",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16903-gladiator", 1800]
+        ]
+    },
+    {
+        "id": "c48c194d-445b-4c33-b69f-cd25b9249a9a",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Merchant Prince\u2019s Villa; Lower Level; 7. Sauna",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16861-fire-elemental", 1800]
+        ]
+    },
+    {
+        "id": "1e068455-b7f3-40a6-8f52-cd6544c3b56f",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Merchant Prince\u2019s Villa; Upper Level; 13. Guard Rooms",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16903-gladiator", 1800]
+        ]
+    },
+    {
+        "id": "3bd06fbf-9b46-4ffe-bdab-df07be787b02",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Things to Do; Dinosaur Racing; Betting",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17035-thug", 100],
+            [1, "16903-gladiator", 1800]
+        ]
+    },
+    {
+        "id": "296ea046-2801-47e6-854f-ca8bb49fef57",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Things to Do; Finding a Guide; Azaka Stormfang",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17056-weretiger", 1100]
+        ]
+    },
+    {
+        "id": "97715d34-29d0-4eb6-be67-be9a36e66cb7",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Things to Do; Finding a Guide; Eku",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16832-couatl", 1100]
+        ]
+    },
+    {
+        "id": "f2cb960a-5923-4fa0-8f64-0d5d0ab080ae",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Things to Do; Finding a Guide; Faroul and Gondolo",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17007-scout", 100],
+            [1, "17007-scout", 100],
+            [2, "17039-triceratops", 1800]
+        ]
+    },
+    {
+        "id": "6a4e3226-3358-437b-bf0f-97d536d9ce61",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Things to Do; Finding a Guide; Hew Hackinstone",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285442-hew-hackinstone", 450]
+        ]
+    },
+    {
+        "id": "9a7dfa0d-a263-45f3-bb6b-e802ada17d1e",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Things to Do; Finding a Guide; Musharib",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "32988-albino-dwarf-spirit-warrior", 200]
+        ]
+    },
+    {
+        "id": "30e962c3-d488-4ceb-a48c-29a41cfff1e0",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Things to Do; Finding a Guide; Qawasha and Kupalu\u00e9",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16848-druid", 450],
+            [1, "17308-vegepygmy", 50]
+        ]
+    },
+    {
+        "id": "0b07f810-38b6-4ace-872c-8a321342ec9a",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Things to Do; Finding a Guide; River Mist and Flask of Wine",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33259-tabaxi-hunter", 200]
+        ]
+    },
+    {
+        "id": "0205a6ce-2eae-4495-9e7a-8d6d44387e9f",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Things to Do; Finding a Guide; Salida",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285456-salida", 200]
+        ]
+    },
+    {
+        "id": "4a1c69ed-57e2-4b08-b6ee-52aabae0eb96",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Port Nyanzaru; Things to Do; Finding a Guide; Shago",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285457-shago", 1800]
+        ]
+    },
+    {
+        "id": "6bf97028-c7f0-42d6-829f-11c22bcf5347",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; The Expedition Begins; Travel Distances; Tracking Miles",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33005-artus-cimber", 2900],
+            [1, "33022-dragonbait", 1800]
+        ]
+    },
+    {
+        "id": "af565967-3fda-49a7-8c54-8bab2f9b5e42",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Ataaz Muhahah; Shrine of Ubtao",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17025-stone-golem", 5900]
+        ]
+    },
+    {
+        "id": "c1acd406-d414-43c0-b9b1-348ff0b344ad",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Ataaz Muhahah; Hanging Vines",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16795-baboon", 10]
+        ]
+    },
+    {
+        "id": "8921ee4a-a0f0-4a70-95da-87bfa376be8d",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Ataaz Yklwazi",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17246-firenewt-warrior", 100],
+            [1, "17247-giant-strider", 200]
+        ]
+    },
+    {
+        "id": "57ca0566-2fd7-46bf-b902-90f518864e4a",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Ataaz Yklwazi",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17074-young-red-dragon", 5900]
+        ]
+    },
+    {
+        "id": "0a17eab9-6f11-4db6-ba57-efe7e616ccbb",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Bay of Chult",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16845-dragon-turtle", 18000]
+        ]
+    },
+    {
+        "id": "e060b98d-7739-4a78-8847-290aac401e96",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Bay of Chult",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16994-reef-shark", 100]
+        ]
+    },
+    {
+        "id": "196ea8d6-3d35-4183-81f2-6210df907eed",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Camp Righteous",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "16907-goblin", 50],
+            [1, "17155-goblin-boss", 200]
+        ]
+    },
+    {
+        "id": "21ccc375-e5a1-4ca5-98dd-f4b7048e2844",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Camp Righteous",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17077-zombie", 50],
+            [3, "17015-skeleton", 50]
+        ]
+    },
+    {
+        "id": "d99b387f-536b-4949-a324-8dd5e9b62782",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Camp Righteous",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17087-allosaurus", 450],
+            [3, "16793-axe-beak", 50]
+        ]
+    },
+    {
+        "id": "cf8f76d9-7ff0-4256-a2a4-1eb08fa6405d",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Camp Righteous; 1. Command Tents",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16982-poisonous-snake", 25]
+        ]
+    },
+    {
+        "id": "532b2969-936d-481d-8dd5-c4c07e4bbde8",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Camp Righteous; 4. Animal Pens",
+        "allies": [],
+        "bystanders": [
+            [1, "16793-axe-beak", 0]
+        ],
+        "enemies": [
+            [5, "16793-axe-beak", 50]
+        ]
+    },
+    {
+        "id": "1e101d79-368d-43e1-bbac-08017e8bb81f",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Camp Vengeance",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25],
+            [2, "17045-veteran", 700],
+            [1, "17045-veteran", 700],
+            [8, "17045-veteran", 700],
+            [24, "16915-guard", 25],
+            [6, "16763-acolyte", 50],
+            [1, "16985-priest", 450],
+            [15, "17038-tribal-warrior", 25],
+            [1, "17007-scout", 100],
+            [1, "17007-scout", 100]
+        ]
+    },
+    {
+        "id": "4cf3933a-010a-4f5b-a6a1-8858928bf3ab",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Camp Vengeance; 2. Gatehouse",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "65ab671b-c19b-451d-8c7f-53befcb54b7f",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Camp Vengeance; 3. Watchtowers",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "9ac45eb2-12a3-4fed-9b41-a0d55077b3b5",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Camp Vengeance; 6. Command Tent",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16915-guard", 25],
+            [4, "17038-tribal-warrior", 25]
+        ]
+    },
+    {
+        "id": "402f19aa-97dc-455e-8662-cf61aeda4b64",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [9, "17262-grung", 50]
+        ]
+    },
+    {
+        "id": "4a0e5cf0-ab35-467a-9fc6-ff0aedae6173",
+        "type": "alternate combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [9, "17262-grung", 50]
+        ]
+    },
+    {
+        "id": "6d05a039-ba40-425c-be2b-4a7da048612f",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17263-grung-elite-warrior", 450]
+        ]
+    },
+    {
+        "id": "a80c3271-07df-4aa1-a788-08ba72e4d469",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17264-grung-wildling", 200]
+        ]
+    },
+    {
+        "id": "fc12ba07-02f5-4085-aa41-ba86d9120000",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17263-grung-elite-warrior", 450]
+        ]
+    },
+    {
+        "id": "2d2609cc-7f13-43e0-bcda-22d057ee4538",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung; 1. Thorn Maze; Thorn Maze Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [9, "17262-grung", 50]
+        ]
+    },
+    {
+        "id": "b26c0248-e085-437a-b5d7-f50fc394250b",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung; 1. Thorn Maze; Thorn Maze Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "33010-assassin-vine", 700]
+        ]
+    },
+    {
+        "id": "830fbecf-2a19-4fbe-84a8-6edc54830fd0",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung; 1. Thorn Maze; Thorn Maze Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16872-ghoul", 200]
+        ]
+    },
+    {
+        "id": "f1c8b809-4e63-455e-b7a7-a5ae4817f172",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung; 1. Thorn Maze; Thorn Maze Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17077-zombie", 50]
+        ]
+    },
+    {
+        "id": "f0baa856-9895-4760-ac94-37ecad9368e7",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung; 2. Main Entrance",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17262-grung", 50],
+            [12, "17262-grung", 50]
+        ]
+    },
+    {
+        "id": "7599a254-fdf0-46dc-8d2f-8f46d5fcdcd4",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung; 3. Groak\u2019s Isle",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "17263-grung-elite-warrior", 450]
+        ]
+    },
+    {
+        "id": "bb2f6e27-900c-41cf-9969-d5d17f94e615",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung; 4. Shrine",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17264-grung-wildling", 200],
+            [6, "17262-grung", 50],
+            [1, "17263-grung-elite-warrior", 450],
+            [1, "17263-grung-elite-warrior", 450]
+        ]
+    },
+    {
+        "id": "7f4c9f08-0dae-4f3b-8eb6-19abece3f69e",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung; 5. Grung Hovels",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17262-grung", 50]
+        ]
+    },
+    {
+        "id": "00a50b4e-1f7a-4c79-bf2f-0965f84171f8",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung; 7. Prison Pit",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17262-grung", 50]
+        ]
+    },
+    {
+        "id": "3444e816-cb9b-4b2e-a0e3-00c22871a2db",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Firefinger",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "33242-pterafolk", 200]
+        ]
+    },
+    {
+        "id": "50048d15-cb98-4703-9bf8-e92b686a0761",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Firefinger; Level 1. Abandoned Cave",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16900-giant-wolf-spider", 50]
+        ]
+    },
+    {
+        "id": "a63b376b-3a1d-419f-b2e6-e50eb0b2ebbe",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Firefinger; Level 2. Stirge Cave",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [9, "17023-stirge", 25]
+        ]
+    },
+    {
+        "id": "0ec845f9-0c01-4ac9-9c09-953a3bf43793",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Firefinger; Level 3. Pterafolk Nest",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "33242-pterafolk", 200]
+        ]
+    },
+    {
+        "id": "b5954ff1-3863-4638-94b2-d2afa6009732",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Firefinger; Level 3. Pterafolk Nest",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17100-aarakocra", 50]
+        ]
+    },
+    {
+        "id": "6b734f60-ed2c-4e25-b3c5-6b8424569c4c",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Firefinger; Level 4. Pinnacle",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "33242-pterafolk", 200]
+        ]
+    },
+    {
+        "id": "71fc80a9-f79c-4393-ba41-c368c909d3fa",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Fort Beluarian",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33046-liara-portyr", 1100],
+            [3, "16938-knight", 700],
+            [3, "17045-veteran", 700],
+            [54, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "19d07055-7b57-4aec-913c-a7d4948dc4dc",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Fort Beluarian; 1. West Gate",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "700ae1e7-a52a-43b5-93c5-0a7fa1073b0c",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Fort Beluarian; 3. Armorer/Weaponsmith",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17021-spy", 200]
+        ]
+    },
+    {
+        "id": "5ae8ceda-4172-4259-9a43-33be2efda6a6",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Fort Beluarian; 5. Temple of Helm",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16985-priest", 450]
+        ]
+    },
+    {
+        "id": "99ed05aa-6ced-4964-8309-9b02525d513f",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Fort Beluarian; 6. Stables",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16997-riding-horse", 50],
+            [5, "17049-warhorse", 100]
+        ]
+    },
+    {
+        "id": "a2e085d2-e478-4576-b2b7-7ae97db06a4e",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Fort Beluarian; 6. Stables",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "eb6a8d34-4261-4eaa-b2ca-268e84650278",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Fort Beluarian; 8. Flaming Fist Provisioner",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "c8877480-1f65-4ef8-8ab1-cedd829db8b8",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Fort Beluarian; 10B. Raptor Pen",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17241-hadrosaurus", 50],
+            [4, "17240-deinonychus", 200]
+        ]
+    },
+    {
+        "id": "12579662-7eed-49a5-b7d6-52fa6c6c008b",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Fort Beluarian; 10B. Raptor Pen",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17038-tribal-warrior", 25]
+        ]
+    },
+    {
+        "id": "1adce3cb-1d22-4aa4-914c-86a507b31704",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Fort Beluarian; 10C. Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33046-liara-portyr", 1100]
+        ]
+    },
+    {
+        "id": "5af2d5ea-5d7e-49ec-a997-55cfab31ae0c",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Fort Beluarian; 10D. Kitchen",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17045-veteran", 700]
+        ]
+    },
+    {
+        "id": "e7a972ff-3fe4-40b9-83a8-70449fea91fb",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Fort Beluarian; 10E. Castellan",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16938-knight", 700]
+        ]
+    },
+    {
+        "id": "72efd137-5c56-4f2b-a13f-28024c504295",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Fort Beluarian; 10H. Gauntlets\u2019 Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17045-veteran", 700]
+        ]
+    },
+    {
+        "id": "a976e513-7dcc-432f-9ce4-e7cc9b479aa7",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Heart of Ubtao",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285742-valindra-shadowmantle", 33000]
+        ]
+    },
+    {
+        "id": "d5b0c74e-a075-4e35-8b5e-879d4d542f15",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Heart of Ubtao; 1. Petrified Tree",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17028-swarm-of-bats", 50]
+        ]
+    },
+    {
+        "id": "35f46ce3-5eaa-423a-b7cc-f6e5a2b5e27f",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Heart of Ubtao; 5. Undead Guardians",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17077-zombie", 50],
+            [2, "33284-girallon-zombie", 700]
+        ]
+    },
+    {
+        "id": "6e140b8f-79fd-40bf-a9a2-a9ff5f58afe5",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Hrakhamar",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "32985-albino-dwarf-warrior", 50]
+        ]
+    },
+    {
+        "id": "25f1d99c-ecd7-4bc7-a231-39637990c70d",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Hrakhamar; 2. Smelter",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "17246-firenewt-warrior", 100]
+        ]
+    },
+    {
+        "id": "ae55eae3-14d3-4de5-b781-b1419abe6700",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Hrakhamar; 4. Forge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17246-firenewt-warrior", 100],
+            [6, "17246-firenewt-warrior", 100],
+            [1, "17248-firenewt-warlock-of-imix", 200]
+        ]
+    },
+    {
+        "id": "0406f566-0072-47aa-818c-dc1c520da1d4",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Hrakhamar; 5. Stores",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17246-firenewt-warrior", 100],
+            [4, "17246-firenewt-warrior", 100],
+            [2, "17248-firenewt-warlock-of-imix", 200]
+        ]
+    },
+    {
+        "id": "8fec662e-60af-4631-964b-b1f22076d631",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Hrakhamar; 7. Imix Shrine",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17248-firenewt-warlock-of-imix", 200],
+            [2, "17246-firenewt-warrior", 100]
+        ]
+    },
+    {
+        "id": "60b0ca54-ce0d-4b7c-b236-c6e24241a4ae",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Hrakhamar; 8. Smoke-Filled Caverns",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17174-smoke-mephit", 50]
+        ]
+    },
+    {
+        "id": "a4cae4b1-0815-40ea-a94b-274bcbd8476b",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Hrakhamar; 9. Cells and Passage to Wyrmheart Mine",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "32985-albino-dwarf-warrior", 50]
+        ]
+    },
+    {
+        "id": "99a8fb39-6506-4004-a66c-c4feaab0ad07",
+        "type": "alternate combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Hrakhamar; 9. Cells and Passage to Wyrmheart Mine",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17138-carrion-crawler", 450],
+            [1, "16895-giant-spider", 200],
+            [1, "16939-kobold", 25]
+        ]
+    },
+    {
+        "id": "1f0b4d54-5982-4203-8261-f118481281ba",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Hrakhamar; 10. Mine Cart Bay",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "17247-giant-strider", 200]
+        ]
+    },
+    {
+        "id": "c56da83b-0e94-4624-ad1b-e3293dea71aa",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Hvalspyd",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16867-frost-giant", 3900]
+        ]
+    },
+    {
+        "id": "c3be617e-95f6-44f3-a488-b66659bfd36a",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Hvalspyd",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16867-frost-giant", 3900]
+        ]
+    },
+    {
+        "id": "3f65bfee-b07f-4dd3-bb6b-788c95b77b68",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Hvalspyd; Frost Giant Search Parties",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16867-frost-giant", 3900],
+            [2, "17061-winter-wolf", 700]
+        ]
+    },
+    {
+        "id": "33bfdaf3-72bc-4b3f-a5ca-f87b12349f16",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations F - I; Ishau",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16928-hunter-shark", 450],
+            [1, "16994-reef-shark", 100],
+            [1, "17008-sea-hag", 450]
+        ]
+    },
+    {
+        "id": "14d70653-0841-4696-9179-87a2e5189047",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations J - L; Jahaka Anchorage",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17054-wereboar", 1100]
+        ]
+    },
+    {
+        "id": "089022f0-435c-4214-b0d9-c31cc2be67f3",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations J - L; Jahaka Anchorage",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17021-spy", 200],
+            [15, "16798-bandit", 25],
+            [3, "17035-thug", 100],
+            [1, "16848-druid", 450]
+        ]
+    },
+    {
+        "id": "0d4190cf-afb8-4de4-8e2b-277a31a89d02",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations J - L; Jahaka Anchorage",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16799-bandit-captain", 450]
+        ]
+    },
+    {
+        "id": "871e414f-9c9e-4d18-9a9c-41a356f6a6e7",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations J - L; Jahaka Anchorage",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16805-berserker", 450],
+            [12, "16798-bandit", 25],
+            [2, "17035-thug", 100],
+            [5, "17038-tribal-warrior", 25]
+        ]
+    },
+    {
+        "id": "ac532079-b154-4c99-ad32-283f726f53cf",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations J - L; Jahaka Anchorage",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16799-bandit-captain", 450]
+        ]
+    },
+    {
+        "id": "4503af8f-8537-444f-adff-a2d4161a1f89",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations J - L; Jahaka Anchorage",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16903-gladiator", 1800],
+            [12, "16798-bandit", 25],
+            [6, "17035-thug", 100],
+            [1, "16985-priest", 450]
+        ]
+    },
+    {
+        "id": "8d1fa2a1-f086-4a2f-ae3b-c6cd935d747b",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations J - L; Jahaka Anchorage; 4. Warehouse",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "16865-flying-sword", 50]
+        ]
+    },
+    {
+        "id": "3913a905-512f-48eb-8c1f-427a1dcda53e",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations J - L; Jahaka Anchorage; 5. The Cage",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16994-reef-shark", 100]
+        ]
+    },
+    {
+        "id": "ad7a5ef7-b711-4d06-913a-a5fe32b6b342",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations J - L; Jahaka Anchorage; 6. Watchtower",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "582bcffb-29cf-406e-8a94-9a156a90f974",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations J - L; Jahaka Anchorage; 6. Watchtower; 6A. Bosco\u2019s Bilge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17035-thug", 100],
+            [1, "17240-deinonychus", 200]
+        ]
+    },
+    {
+        "id": "0f8888a9-4afd-4e8d-9a56-853fa9a7504b",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations J - L; Jahaka Anchorage; 6. Watchtower; 6A. Bosco\u2019s Bilge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "bd42e9d3-5548-498e-b391-d0d5ffc3cd41",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations J - L; Kir Sabal",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [56, "17100-aarakocra", 50]
+        ]
+    },
+    {
+        "id": "477e14cb-b712-43f6-9b0d-54d94b616653",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations J - L; Kir Sabal",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285756-asharra", 450]
+        ]
+    },
+    {
+        "id": "99b08d17-1573-45b8-a31a-db902916fce6",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations J - L; Kir Sabal",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33056-mwaxanare", 25]
+        ]
+    },
+    {
+        "id": "7faa6f59-1681-42ab-ab78-9e4801e5ac3d",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations J - L; Kir Sabal",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16868-gargoyle", 450]
+        ]
+    },
+    {
+        "id": "818ae96e-7cb3-457e-a33c-7984b985f867",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations J - L; Kir Sabal; 1. Monastery",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17100-aarakocra", 50]
+        ]
+    },
+    {
+        "id": "1d620fe9-a39c-4bdd-9cbc-86790460c548",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations J - L; Kir Sabal; 3. Elder\u2019s House",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17100-aarakocra", 50]
+        ]
+    },
+    {
+        "id": "60d4801c-03ce-4ec9-a0db-4c03c8024889",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations J - L; Kir Sabal; 4. Dwellings",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17100-aarakocra", 50]
+        ]
+    },
+    {
+        "id": "b0ebf67f-a847-42f2-a472-0f3d8f109be2",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations J - L; Lake Luo",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17173-mud-mephit", 50],
+            [1, "17022-steam-mephit", 50]
+        ]
+    },
+    {
+        "id": "b9f8e564-1bc5-4265-90ba-bb9194e8ddc1",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations J - L; Land of Ash and Smoke",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17074-young-red-dragon", 5900]
+        ]
+    },
+    {
+        "id": "7c03aeb3-36e2-4219-9edb-91a359233dbb",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Mbala; Nanny Pu\u2019pu",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16911-green-hag", 700],
+            [1, "16863-flesh-golem", 1800]
+        ]
+    },
+    {
+        "id": "807e4930-d61c-4b9b-897c-2ab080807092",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Mbala; Nanny Pu\u2019pu",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "33025-flying-monkey", 10]
+        ]
+    },
+    {
+        "id": "1ca8dcd0-f196-4ada-9ab3-719f20f533cb",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Mbala; Pterafolk Nest",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "33242-pterafolk", 200]
+        ]
+    },
+    {
+        "id": "d62a45cd-faaa-4b96-a1e9-e5994a0ff346",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Mbala; Pterafolk Nest",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [13, "33242-pterafolk", 200]
+        ]
+    },
+    {
+        "id": "7bc6c6e5-455a-4641-b305-38134fc2cffc",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Nangalore; 1. Entrance",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16834-crocodile", 100]
+        ]
+    },
+    {
+        "id": "25ec1014-03aa-4503-86e2-9c0b76af45c0",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Nangalore; 2. Terraces",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33048-mantrap", 200]
+        ]
+    },
+    {
+        "id": "07e0644e-d116-49ad-93d6-5f1502e99b5b",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Nangalore; 2. Terraces",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "33277-yellow-musk-zombie", 50]
+        ]
+    },
+    {
+        "id": "6afa55a5-203d-4bb4-a553-faacd42ba532",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Nangalore; 2. Terraces",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33275-yellow-musk-creeper", 450]
+        ]
+    },
+    {
+        "id": "c762d234-59df-404f-9eed-664ee014e5d5",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Nangalore; 2. Terraces",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33010-assassin-vine", 700]
+        ]
+    },
+    {
+        "id": "13009ab0-724d-40fc-8ca3-a4d2107d677d",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Nangalore; 2. Terraces",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "33039-jaculi", 100]
+        ]
+    },
+    {
+        "id": "879174ca-7bfe-4bd3-87ac-4b2cad6adc44",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Nangalore; 3. Spirit Domes",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16895-giant-spider", 200]
+        ]
+    },
+    {
+        "id": "4fe9e971-baed-47ab-b10c-aca4760f8271",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Nangalore; 3. Spirit Domes",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "33021-chwinga", 10]
+        ]
+    },
+    {
+        "id": "de59d3be-93f7-4c7b-bacb-765ce27a0912",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Nangalore; 4. Ruined Palace",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17030-swarm-of-poisonous-snakes", 450]
+        ]
+    },
+    {
+        "id": "71463184-63ce-4376-b918-25d5f36b8819",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Nangalore; 4. Ruined Palace",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17007-scout", 100]
+        ]
+    },
+    {
+        "id": "79ef9799-1f23-4894-ac6c-b28d6dad6c01",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Nangalore; 5. Hallucinogenic Plants",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "33267-tri-flower-frond", 100]
+        ]
+    },
+    {
+        "id": "66424c39-8a5e-4e7e-9fe7-909bcfcd3184",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Nangalore; 5. Hallucinogenic Plants",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33048-mantrap", 200]
+        ]
+    },
+    {
+        "id": "1758f87e-0e4e-4767-91e5-8a1c49bef52a",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Nangalore; 6. Pagoda",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "33024-eblis", 200]
+        ]
+    },
+    {
+        "id": "adf2e3f4-19b2-408d-aecf-05c48b427f67",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Nangalore; 7. Flooded Garden",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17007-scout", 100]
+        ]
+    },
+    {
+        "id": "576efa58-7f85-4b07-9f0f-beb2a4228854",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Nangalore; 8. Zalkor\u00e9\u2019s Lair",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16954-medusa", 2300]
+        ]
+    },
+    {
+        "id": "1d439cba-1c3d-4ea1-bcd4-39dd32558350",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Nangalore; 8. Zalkor\u00e9\u2019s Lair",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33024-eblis", 200]
+        ]
+    },
+    {
+        "id": "b61c1a32-1c76-420f-8e87-fbc308a47028",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Needle\u2019s Bones",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17031-swarm-of-quippers", 200]
+        ]
+    },
+    {
+        "id": "3b7a85f4-71e6-468f-a4a6-fd5003aead08",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Orolunga; First Steps",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33021-chwinga", 10]
+        ]
+    },
+    {
+        "id": "e9fd95ec-24ad-45d3-bce8-a0a5dd0bf672",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Orolunga; Second Steps",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33021-chwinga", 10]
+        ]
+    },
+    {
+        "id": "cb44fdfd-cbd0-4bca-88fb-4cbf42052891",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Orolunga; Third Steps",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17030-swarm-of-poisonous-snakes", 450]
+        ]
+    },
+    {
+        "id": "75d0b7ac-4766-4498-af6e-118ee7b55185",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Orolunga; Third Steps",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33021-chwinga", 10]
+        ]
+    },
+    {
+        "id": "9b7e9ef2-96da-4703-9bba-6a958e6de547",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations M - P; Orolunga; Saja N\u2019baza\u2019s Shrine",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16916-guardian-naga", 5900]
+        ]
+    },
+    {
+        "id": "617d6eda-0bdd-48af-a34b-437fc407d8ba",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations R - S; Snapping Turtle Bay",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33267-tri-flower-frond", 100],
+            [1, "33048-mantrap", 200],
+            [1, "33039-jaculi", 100],
+            [1, "33030-giant-snapping-turtle", 700]
+        ]
+    },
+    {
+        "id": "3a300d0d-0ccf-434e-bcb4-7de77ab01b07",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations R - S; Snapping Turtle Bay",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17090-cyclops", 2300]
+        ]
+    },
+    {
+        "id": "4f18c39e-4838-4d0b-95bd-c2589193628d",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations R - S; Snapping Turtle Bay; King Toba",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33030-giant-snapping-turtle", 700]
+        ]
+    },
+    {
+        "id": "32a77a20-c8f3-48d3-bcd0-4aaa5252d3de",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations V - Y; Valley of Lost Honor",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17246-firenewt-warrior", 100],
+            [1, "17247-giant-strider", 200]
+        ]
+    },
+    {
+        "id": "0cc4cc49-3a0b-469f-87a0-afdc05f117ca",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations V - Y; Vorn",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17012-shield-guardian", 2900]
+        ]
+    },
+    {
+        "id": "ed662dad-7876-4056-aac0-d0b6ad486f30",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations V - Y; Wreck of the Narwhal",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17309-vegepygmy-chief", 450],
+            [12, "17308-vegepygmy", 50],
+            [3, "17310-thorny", 200]
+        ]
+    },
+    {
+        "id": "5175546c-0c9b-47eb-a5dd-500489a5d68e",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations V - Y; Wreck of the Narwhal",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17056-weretiger", 1100]
+        ]
+    },
+    {
+        "id": "f3e096a8-764d-494b-9ec0-a9daa309b91f",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations V - Y; Wreck of the Star Goddess; Crash Survivors",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25],
+            [1, "17007-scout", 100],
+            [1, "17045-veteran", 700],
+            [3, "16915-guard", 25]
+        ]
+    },
+    {
+        "id": "80f21693-14d6-42c4-8085-70cf165a1fe7",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations V - Y; Wreck of the Star Goddess; Undead Scavengers",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "16872-ghoul", 200]
+        ]
+    },
+    {
+        "id": "6ec48c2d-8fd2-4c9f-a6b2-06ae8398362a",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations V - Y; Wreck of the Star Goddess; Undead Scavengers",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "33284-girallon-zombie", 700]
+        ]
+    },
+    {
+        "id": "e4222763-8abc-4cf2-bbd3-345ef0af1dab",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations V - Y; Wyrmheart Mine; 5. Haunted Forge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17017-specter", 200]
+        ]
+    },
+    {
+        "id": "cc8c5ce3-4b3b-445e-9e37-af02ead744a6",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations V - Y; Wyrmheart Mine; 6A. Ledge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17277-kobold-inventor", 50]
+        ]
+    },
+    {
+        "id": "8cc6267f-2a5d-46bf-b798-7493ad1b13f9",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations V - Y; Wyrmheart Mine; 6B. Egg Nursery",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "16939-kobold", 25]
+        ]
+    },
+    {
+        "id": "4bf71514-dce5-4b6e-bb8c-9d2b9b31dfcb",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations V - Y; Wyrmheart Mine; 7. Upper Landing",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16939-kobold", 25]
+        ]
+    },
+    {
+        "id": "9e384599-fa7d-4e41-a6b5-a822c287a4e4",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations V - Y; Wyrmheart Mine; 8. Main Living Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16939-kobold", 25]
+        ]
+    },
+    {
+        "id": "0a08f835-ec9f-4efd-a0f4-1f8c23343287",
+        "type": "alternate combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations V - Y; Wyrmheart Mine; 8. Main Living Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "16939-kobold", 25]
+        ]
+    },
+    {
+        "id": "58cde04a-5cd9-4488-a689-39735fd9ae7e",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations V - Y; Wyrmheart Mine; 9. Inventors\u2019 Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17277-kobold-inventor", 50]
+        ]
+    },
+    {
+        "id": "fec4d223-606e-4afc-a98b-5d9e3c3e98cf",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations V - Y; Wyrmheart Mine; 11. Urds\u2019 Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "17210-winged-kobold", 50]
+        ]
+    },
+    {
+        "id": "063b9ddb-8fe2-4be2-8b1b-18128b165631",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations V - Y; Wyrmheart Mine; 12. Bottom of the Shaft",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "16989-quipper", 10]
+        ]
+    },
+    {
+        "id": "dd206604-f46b-4b6a-8877-8d9e522628f1",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations V - Y; Wyrmheart Mine; 14. Tinder\u2019s Lair",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17074-young-red-dragon", 5900]
+        ]
+    },
+    {
+        "id": "ae53fa2b-3922-42f5-879a-89b529921201",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations V - Y; Yellyark",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17155-goblin-boss", 200],
+            [24, "16907-goblin", 50]
+        ]
+    },
+    {
+        "id": "81fb142e-c483-42da-8a8a-0cf3e2a84a68",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations V - Y; Yellyark; 3. Queen Grabstab\u2019s Hut",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16907-goblin", 50],
+            [1, "17155-goblin-boss", 200],
+            [4, "16907-goblin", 50]
+        ]
+    },
+    {
+        "id": "d82e400f-7e45-44d0-9bbf-f09430b139f3",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations V - Y; Yellyark; 5. Ant Hills",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17029-swarm-of-insects", 100]
+        ]
+    },
+    {
+        "id": "7596ceaa-5675-4c79-bf51-25a7be46eba8",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Omu; Entering the City",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16868-gargoyle", 450]
+        ]
+    },
+    {
+        "id": "525080aa-dbf0-407d-8976-391ca2d798cb",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Omu; City Inhabitants; Yuan-ti",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "301425-yuan-ti-malison-type-3", 700],
+            [10, "17123-yuan-ti-pureblood", 200]
+        ]
+    },
+    {
+        "id": "60f705e3-a3a2-4f41-a28d-9b3d52455201",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Omu; Puzzle Cubes; Race for the Puzzle Cubes",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "301418-yuan-ti-malison-type-1", 700],
+            [6, "17123-yuan-ti-pureblood", 200]
+        ]
+    },
+    {
+        "id": "3aece865-83e5-4da2-b926-01331908b2c2",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Omu; Navigation; Assassin Vines",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "33010-assassin-vine", 700]
+        ]
+    },
+    {
+        "id": "60614214-ffb5-4754-ac81-1404895ee4e1",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Omu; Navigation; Nest; Nest Occupants",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16898-giant-wasp", 100]
+        ]
+    },
+    {
+        "id": "5473ff3d-315f-4b74-b88b-68e513b50fc3",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Omu; Navigation; Nest; Nest Occupants",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "17023-stirge", 25]
+        ]
+    },
+    {
+        "id": "1a147a9f-1146-41fc-9e5f-b17ee5a2dd23",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Omu; Navigation; Nest; Nest Occupants",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17030-swarm-of-poisonous-snakes", 450]
+        ]
+    },
+    {
+        "id": "8e41b10c-386e-4b97-a637-2253d955e786",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Omu; Navigation; Vegepygmies",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17308-vegepygmy", 50]
+        ]
+    },
+    {
+        "id": "2bb3d0dd-c85d-4351-ac00-9724e2d4385d",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 1. City Entrance; Ras Nsi\u2019s Scouts",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "301418-yuan-ti-malison-type-1", 700],
+            [2, "301421-yuan-ti-malison-type-2", 700],
+            [1, "301425-yuan-ti-malison-type-3", 700]
+        ]
+    },
+    {
+        "id": "8643b54e-c551-4aae-9617-a5e984faad81",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 2. Walled Compound",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16936-jackal", 10]
+        ]
+    },
+    {
+        "id": "2a66cf25-2be2-4497-823d-d9b4e9b35dc1",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 2. Walled Compound; Orvex Ocrammas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285833-orvex-ocrammas", 200]
+        ]
+    },
+    {
+        "id": "ada578f3-f423-48a7-919c-81a67f244e41",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 3. Kubazan\u2019s Shrine; 3A. Froghemoth Pool",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17250-froghemoth", 5900]
+        ]
+    },
+    {
+        "id": "d1168120-716c-4305-8fa9-bc2c95226b36",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 4. Shagambi\u2019s Shrine",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "33044-kamadan", 1100]
+        ]
+    },
+    {
+        "id": "2f836842-707c-42d0-a0ea-b613f4009698",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 4. Shagambi\u2019s Shrine; 4C. Gladiator Cells",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "285864-clay-gladiator", 1800]
+        ]
+    },
+    {
+        "id": "4f120ac7-75da-422c-af8f-7314f4efd3ae",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 5. Great Rift; Sacrifice of Fire",
+        "allies": [],
+        "bystanders": [
+            [1, "17262-grung", 50]
+        ],
+        "enemies": [
+            [1, "17309-vegepygmy-chief", 450],
+            [8, "17308-vegepygmy", 50],
+            [1, "17310-thorny", 200]
+        ]
+    },
+    {
+        "id": "8ee320e9-496f-4363-9214-fe1e4d8b1ad1",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 6. Moa\u2019s Shrine; 6A. Shrine Entrance",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "33039-jaculi", 100]
+        ]
+    },
+    {
+        "id": "25231c69-1f8d-49e1-b408-f02d6f008e68",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 7. Fallen Tree; Bag of Nails",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285894-bag-of-nails", 3900]
+        ]
+    },
+    {
+        "id": "ee88c691-b3fa-4ff5-afae-32a6ff03a98e",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 7. Fallen Tree; Bag of Nails",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285894-bag-of-nails", 3900]
+        ]
+    },
+    {
+        "id": "8532455b-accb-434d-9e5a-404114fe236b",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 8. Unkh\u2019s Shrine; 8C. Chamber of Contemplation",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16870-ghast", 450]
+        ]
+    },
+    {
+        "id": "70034ce8-701b-4cce-a2af-3de7266ca230",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 10. I\u2019jin\u2019s Shrine; 10A. Shrine Entrance",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "32994-almiraj", 10]
+        ]
+    },
+    {
+        "id": "36f26578-0c57-4c66-a0a3-15f5de69e5c0",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 11. Chwinga Wagon",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33021-chwinga", 10]
+        ]
+    },
+    {
+        "id": "3df5dbe7-3a77-4095-b6b8-f613850201e2",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 12. Wongo\u2019s Shrine; 12B. Test of Friendship",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17022-steam-mephit", 50]
+        ]
+    },
+    {
+        "id": "8ec39b5b-ad73-4288-ab45-c71335c50849",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 12. Wongo\u2019s Shrine; 12B. Test of Friendship",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "33257-su-monster", 200]
+        ]
+    },
+    {
+        "id": "be0e5796-4624-47af-b7f6-728066deb647",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 13. Amphitheater",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285906-king-of-feathers", 3900]
+        ]
+    },
+    {
+        "id": "47c6c9b0-ac68-4986-8cbd-d06beeba47f9",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 13. Amphitheater",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17240-deinonychus", 200]
+        ]
+    },
+    {
+        "id": "a252a238-47ee-446b-823a-76d47b0e31c7",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 15. Ruined Bazaar",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16939-kobold", 25]
+        ]
+    },
+    {
+        "id": "2d5d9256-83fb-4968-a87d-11b1a555e428",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 15. Ruined Bazaar; Kobold Cellars",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17278-kobold-scale-sorcerer", 200],
+            [2, "17277-kobold-inventor", 50],
+            [10, "16939-kobold", 25]
+        ]
+    },
+    {
+        "id": "f5599a02-a962-41e7-aa13-bc71c2063461",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 16. Papazotl\u2019s Shrine; 16A. Shrine Entrance",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16834-crocodile", 100],
+            [1, "16880-giant-crocodile", 1800]
+        ]
+    },
+    {
+        "id": "666688ec-c6aa-4a5f-a783-bcf091f0de23",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 18. Nangnang\u2019s Shrine; 18A. Shrine Entrance",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17263-grung-elite-warrior", 450],
+            [4, "17263-grung-elite-warrior", 450],
+            [1, "17241-hadrosaurus", 50],
+            [1, "17264-grung-wildling", 200],
+            [7, "17262-grung", 50]
+        ]
+    },
+    {
+        "id": "bceee81e-ed4e-4540-a520-43567a1bc938",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 18. Nangnang\u2019s Shrine; 18A. Shrine Entrance",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [20, "17262-grung", 50]
+        ]
+    },
+    {
+        "id": "11051f59-2204-4b67-be16-2b54b1ad3b2a",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 19. Obo\u2019laka\u2019s Shrine; 19A. Shrine Entrance",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "33290-zorbo", 100]
+        ]
+    },
+    {
+        "id": "f3b3e6bf-b89a-4b7b-9730-bb865b020822",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 19. Obo\u2019laka\u2019s Shrine; 19E. Chamber of Sacraments",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16947-mage", 2300]
+        ]
+    },
+    {
+        "id": "08a3e960-ae68-4865-804c-42c79869d837",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 20. Royal Palace",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "301418-yuan-ti-malison-type-1", 700]
+        ]
+    },
+    {
+        "id": "c071be72-5f7d-43e4-bab4-b3457bd26c81",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Dwellers of the Forbidden City; Locations in the City; 20. Royal Palace",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "301418-yuan-ti-malison-type-1", 700]
+        ]
+    },
+    {
+        "id": "692d186d-b832-4cca-a822-46e1fd929354",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Fane of the Night Serpent; Locations in the Temple; 1. Main Gate",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "301418-yuan-ti-malison-type-1", 700],
+            [4, "17316-yuan-ti-broodguard", 450]
+        ]
+    },
+    {
+        "id": "13b01754-a491-4ece-aa84-7ce0440077fb",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Fane of the Night Serpent; Locations in the Temple; 1. Main Gate; Snake Pits",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17030-swarm-of-poisonous-snakes", 450]
+        ]
+    },
+    {
+        "id": "da2d647d-cf05-4beb-a3d2-e797c21c8d80",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Fane of the Night Serpent; Locations in the Temple; 2. Hall of War",
+        "allies": [],
+        "bystanders": [
+            [1, "17039-triceratops", 1800]
+        ],
+        "enemies": [
+            [1, "17123-yuan-ti-pureblood", 200],
+            [4, "17316-yuan-ti-broodguard", 450],
+            [2, "16801-basilisk", 700]
+        ]
+    },
+    {
+        "id": "e501ad16-dc66-4d2a-9398-dce77deafce6",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Fane of the Night Serpent; Locations in the Temple; 4. Armory",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17118-bone-naga", 1100],
+            [2, "16959-minotaur-skeleton", 450]
+        ]
+    },
+    {
+        "id": "0e19ecc3-3650-4c8c-b0b4-442682ff95df",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Fane of the Night Serpent; Locations in the Temple; 5. Fenthaza\u2019s Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "301421-yuan-ti-malison-type-2", 700]
+        ]
+    },
+    {
+        "id": "07cc7029-2f05-454d-b558-2bf44b12bd1f",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Fane of the Night Serpent; Locations in the Temple; 5. Fenthaza\u2019s Quarters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17318-yuan-ti-nightmare-speaker", 1100],
+            [1, "16774-air-elemental", 1800]
+        ]
+    },
+    {
+        "id": "ce901fa9-bd07-4c4d-817d-51cfe6e584a0",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Fane of the Night Serpent; Locations in the Temple; 6. Sacrificial Chamber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17316-yuan-ti-broodguard", 450]
+        ]
+    },
+    {
+        "id": "741ab40c-ef2c-429c-88c3-4b2fbbbd580f",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Fane of the Night Serpent; Locations in the Temple; 7. Evil Oracle",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "285943-yuan-ti-priest", 700]
+        ]
+    },
+    {
+        "id": "39245463-d3c1-4352-a947-32e4fbb4d583",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Fane of the Night Serpent; Locations in the Temple; 10. Harem",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [11, "17123-yuan-ti-pureblood", 200],
+            [1, "16843-doppelganger", 700],
+            [2, "17316-yuan-ti-broodguard", 450]
+        ]
+    },
+    {
+        "id": "dbf1fbfc-e70f-43b7-8c40-0ae2f0d973a3",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Fane of the Night Serpent; Locations in the Temple; 11. Throne Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33253-ras-nsi", 2900],
+            [2, "301418-yuan-ti-malison-type-1", 700],
+            [1, "285953-sekelok", 5000],
+            [3, "17316-yuan-ti-broodguard", 450],
+            [4, "16872-ghoul", 200]
+        ]
+    },
+    {
+        "id": "b8040ed4-62e8-4dcf-a1cb-ac187d2b55d1",
+        "type": "alternate combat",
+        "book_path": "Tomb of Annihilation; Fane of the Night Serpent; Locations in the Temple; 12. Ras Nsi\u2019s Lair",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33253-ras-nsi", 2900]
+        ]
+    },
+    {
+        "id": "d0ba2ec2-2517-46bc-a465-2a34885dd91d",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Fane of the Night Serpent; Locations in the Temple; 13. Storeroom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16878-giant-constrictor-snake", 450]
+        ]
+    },
+    {
+        "id": "333da9ed-4e93-4279-a59e-979e1886411a",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Fane of the Night Serpent; Locations in the Temple; 14. Venom Distillery",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17123-yuan-ti-pureblood", 200],
+            [5, "17077-zombie", 50]
+        ]
+    },
+    {
+        "id": "15fc0957-c378-487b-a2ec-fed1e2d13f99",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Fane of the Night Serpent; Locations in the Temple; 15. Snake Pit",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17030-swarm-of-poisonous-snakes", 450]
+        ]
+    },
+    {
+        "id": "d4c7aef7-837e-4b40-abcd-9904fb28c369",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Fane of the Night Serpent; Locations in the Temple; 16. Blood Baths",
+        "allies": [],
+        "bystanders": [
+            [5, "16829-commoner", 10]
+        ],
+        "enemies": [
+            [4, "17123-yuan-ti-pureblood", 200],
+            [2, "301421-yuan-ti-malison-type-2", 700]
+        ]
+    },
+    {
+        "id": "9f658ed0-537c-4818-b510-ac1fe6cf8163",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Fane of the Night Serpent; Locations in the Temple; 17. Sauna",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16903-gladiator", 1800],
+            [1, "301418-yuan-ti-malison-type-1", 700]
+        ]
+    },
+    {
+        "id": "a225bfa4-49d2-4f2a-a2eb-a50348eabce4",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Fane of the Night Serpent; Locations in the Temple; 18. Yuan-ti Nests",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17122-yuan-ti-malison", 700],
+            [6, "17123-yuan-ti-pureblood", 200]
+        ]
+    },
+    {
+        "id": "1e5add7a-def3-457c-9e37-44b6db51472f",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Fane of the Night Serpent; Locations in the Temple; 19. Captives\u2019 Quarters",
+        "allies": [],
+        "bystanders": [
+            [11, "16829-commoner", 10]
+        ],
+        "enemies": [
+            [3, "301425-yuan-ti-malison-type-3", 700]
+        ]
+    },
+    {
+        "id": "400ecc40-fdb6-4a9b-8023-cbc11b29f0d1",
+        "type": "alternate combat",
+        "book_path": "Tomb of Annihilation; Fane of the Night Serpent; Locations in the Temple; 20. Underground River; Rowboats",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16929-hydra", 3900]
+        ]
+    },
+    {
+        "id": "edd94ce0-77c8-4f41-9d93-8c7d6b8b3dbe",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Fane of the Night Serpent; Locations in the Temple; 20. Underground River; Yuan-ti Broodguards",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17316-yuan-ti-broodguard", 450]
+        ]
+    },
+    {
+        "id": "35c4f9bc-083f-4acb-9ca7-a2d53128ab48",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Fane of the Night Serpent; Locations in the Temple; 21. Hydra\u2019s Lair",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16929-hydra", 3900]
+        ]
+    },
+    {
+        "id": "975491b4-ecd2-4dfe-a814-b38b1dbc186b",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 1: Rotten Halls; 1. Acererak\u2019s Warning",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16868-gargoyle", 450]
+        ]
+    },
+    {
+        "id": "b3b75915-0f06-415e-aa0d-ae5aed3f5d48",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 1: Rotten Halls; 1. Acererak\u2019s Warning; Obelisk",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16963-nalfeshnee", 10000]
+        ]
+    },
+    {
+        "id": "a14f8f49-9d64-495c-b245-402fc7ad358c",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 1: Rotten Halls; 5. Trapped Corridor; 5B. Devil Face",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17131-shadow-demon", 1100]
+        ]
+    },
+    {
+        "id": "d1c5c89b-1e74-41d3-bc77-5c2812ed10b6",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 1: Rotten Halls; 7. Grand Staircase; 7A. We Are Not Alone",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17059-wight", 700]
+        ]
+    },
+    {
+        "id": "78865baf-cda2-4318-ac01-503fbd3362c6",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 1: Rotten Halls; 10. Obo\u2019laka\u2019s Tomb",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17059-wight", 700]
+        ]
+    },
+    {
+        "id": "570b7692-b028-4e7a-9450-5277f96ecc1b",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 1: Rotten Halls; 14. Moa\u2019s Tomb; Nepartak\u2019s Skull",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17091-flameskull", 1100]
+        ]
+    },
+    {
+        "id": "695cb4f0-774e-47dc-b8f4-60820ecaf8d8",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 1: Rotten Halls; 14. Moa\u2019s Tomb; Undead Spider Warrens",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "301414-swarm-of-insects-spiders", 100]
+        ]
+    },
+    {
+        "id": "e67eba48-6f04-4cef-a87d-43fc5be55ef8",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 1: Rotten Halls; 16. Wongo\u2019s Tomb; Sarcophagus",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16961-mummy", 700]
+        ]
+    },
+    {
+        "id": "3afe7359-740a-4028-ba18-174cb2276543",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 1: Rotten Halls; 17. Underground Waterfall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16957-mimic", 450]
+        ]
+    },
+    {
+        "id": "5701e14d-2a0c-4f8d-a731-4045599ce602",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 2: Dungeon of Deception; 18. Devil Pit",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17028-swarm-of-bats", 50]
+        ]
+    },
+    {
+        "id": "d07881cb-250a-4059-bba1-5eb029995cfd",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 2: Dungeon of Deception; 20. False Tomb; Trap",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17208-water-weird", 700]
+        ]
+    },
+    {
+        "id": "55ab110b-b692-44db-8c7d-a371e71c0a97",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 2: Dungeon of Deception; 21. Zombie Door",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17077-zombie", 50]
+        ]
+    },
+    {
+        "id": "d251c09c-2753-4b41-9c34-9b1003b5f76f",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 2: Dungeon of Deception; 22. Papazotl\u2019s Tomb; Glass Cauldrons",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "17015-skeleton", 50],
+            [3, "17015-skeleton", 50]
+        ]
+    },
+    {
+        "id": "9299a592-84b7-4a42-ac8b-79e1931a236f",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 2: Dungeon of Deception; 23. Bottled Genie",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17142-dao", 7200]
+        ]
+    },
+    {
+        "id": "27fd6ef0-ac7b-4674-8b54-13c26cba37be",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 2: Dungeon of Deception; 24. Nangnang\u2019s Tomb",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "301511-gray-slaad-control-gem-variant", 5000]
+        ]
+    },
+    {
+        "id": "46487b7e-3e60-4e4e-be38-73ae59505fed",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 2: Dungeon of Deception; 25. Scrying Pool",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "286174-tomb-guardian", 2300]
+        ]
+    },
+    {
+        "id": "3571c801-f97f-4e0f-be11-3ff6f4691615",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 2: Dungeon of Deception; 27. Forge of the Tomb Dwarves",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17059-wight", 700],
+            [1, "286174-tomb-guardian", 2300]
+        ]
+    },
+    {
+        "id": "2b7fafd1-b60e-4fce-b815-8c208943f32f",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 2: Dungeon of Deception; 28. Withers\u2019s Office",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "286168-withers", 1100],
+            [7, "17139-crawling-claw", 10]
+        ]
+    },
+    {
+        "id": "c7404e71-cf8d-4b49-98ed-ff41e2984200",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 3: Vault of Reflection; 33. Chamber of Opposition",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "af51ccd8-c16e-4802-9b9b-922942f6744d",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 3: Vault of Reflection; 38. Revolving Room Trap; 38A. Control Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "286174-tomb-guardian", 2300]
+        ]
+    },
+    {
+        "id": "0b9e14ed-1889-4e7a-99c3-d8f771b43f46",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 3: Vault of Reflection; 39. Golem Pit",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16825-clay-golem", 5000]
+        ]
+    },
+    {
+        "id": "60dc7786-4e46-4edd-9cab-3a61f6f8cbc0",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 3: Vault of Reflection; 41. Tomb Guardians",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "286174-tomb-guardian", 2300]
+        ]
+    },
+    {
+        "id": "d3b9d791-c057-41ce-9cf8-3b2675f2cb4d",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 3: Vault of Reflection; 42. Kubazan\u2019s Tomb; Performing the Ritual",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17064-wraith", 1800]
+        ]
+    },
+    {
+        "id": "a7f56ac0-39d3-4eee-ba85-409f66d77daa",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 3: Vault of Reflection; 44. Vault of the Beholder; 44B. Inside the Vault",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17099-beholder", 10000]
+        ]
+    },
+    {
+        "id": "c81b4946-94a7-4289-8107-5b9dcfca1d25",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 4: Chambers of Horror; 45. Gargoyle Guardians",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "33028-giant-four-armed-gargoyle", 5900]
+        ]
+    },
+    {
+        "id": "38a0ebd2-5993-4764-be2f-ce37e974de48",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 4: Chambers of Horror; 46. Lizard Den",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16945-lizard", 10]
+        ]
+    },
+    {
+        "id": "ae6dac58-4974-47b2-a115-b314c8c0150d",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 4: Chambers of Horror; 48. Shagambi\u2019s Tomb; Terracotta Warriors",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [48, "286176-terracotta-warrior", 200]
+        ]
+    },
+    {
+        "id": "982bd4f3-20e9-4275-8b4e-a038444e16c9",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 4: Chambers of Horror; 49. Maze of Death; 49C. Black Opal Crown",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17223-bodak", 2300]
+        ]
+    },
+    {
+        "id": "33725240-c9f2-4cbe-a31d-1d73d81be17c",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 4: Chambers of Horror; 50. Mirror of Life Trapping; Destroying the Mirror",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16934-invisible-stalker", 2300],
+            [1, "17040-troll", 1800]
+        ]
+    },
+    {
+        "id": "7ad0f9d5-66c1-4294-974e-b25b3b6b1805",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 4: Chambers of Horror; 51. Ghastly Door",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16870-ghast", 450]
+        ]
+    },
+    {
+        "id": "10243e95-8c86-41cb-8151-613bad1a101b",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 4: Chambers of Horror; 52. Throne Room; Blind Artists",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17077-zombie", 0]
+        ]
+    },
+    {
+        "id": "e1e5410a-3a1c-4663-a56a-5dd51a5e3d30",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 4: Chambers of Horror; 52. Throne Room; Blind Artists",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33286-tyrannosaurus-zombie", 3900]
+        ]
+    },
+    {
+        "id": "ea526906-70c7-456b-82dd-22eb24961342",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 4: Chambers of Horror; 55. Unkh\u2019s Tomb; Maze",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "16959-minotaur-skeleton", 450]
+        ]
+    },
+    {
+        "id": "82242c1d-7b02-4915-82ac-0f011fc3b1bf",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 4: Chambers of Horror; 55. Unkh\u2019s Tomb; Maze; Maze Discoveries",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16958-minotaur", 700]
+        ]
+    },
+    {
+        "id": "775021bd-8f11-43c6-998e-8853ab2a5974",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 4: Chambers of Horror; 57. Oubliette",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16973-otyugh", 1800]
+        ]
+    },
+    {
+        "id": "92eb7aad-6e4e-476d-b4ed-50818170355e",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 5: Gears of Hate; 58. Cog of Rot",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17011-shambling-mound", 1800]
+        ]
+    },
+    {
+        "id": "94dcc0d3-988d-4c19-958a-48db466dd221",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 5: Gears of Hate; 60. Cog of Blood; Acheron Wardrobe",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17187-orc-war-chief", 1100],
+            [7, "16972-orc", 100]
+        ]
+    },
+    {
+        "id": "14369772-7b3d-437c-b4b4-3fdb361b6695",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 5: Gears of Hate; 60. Cog of Blood; Gehenna Wardrobe",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17124-mezzoloth", 1800]
+        ]
+    },
+    {
+        "id": "e991a3e4-bbbc-45e0-912d-332725e140bf",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 5: Gears of Hate; 60. Cog of Blood; Mechanus Wardrobe",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17176-monodrone", 25]
+        ]
+    },
+    {
+        "id": "be350487-11c5-4e28-90af-9aed44312da7",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 5: Gears of Hate; 60. Cog of Blood; Nine Hells Wardrobe",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16813-bone-devil", 5000]
+        ]
+    },
+    {
+        "id": "9edf6df1-94a4-4dce-88a7-dca34b9131f4",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 5: Gears of Hate; 60. Cog of Blood; Shadowfell Wardrobe",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17060-will-o-wisp", 450]
+        ]
+    },
+    {
+        "id": "1a64b660-2bd9-4f46-9933-c4535ac5b5cb",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 5: Gears of Hate; 62. Stone Juggernaut; 62D. Secret Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33254-stone-juggernaut", 8400]
+        ]
+    },
+    {
+        "id": "f4e54d7a-ee36-4e2f-875f-09217c59f8f2",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 5: Gears of Hate; 65. Underground Lake",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17059-wight", 700]
+        ]
+    },
+    {
+        "id": "e199b5f6-7581-468b-a6cf-5b1de66af091",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 5: Gears of Hate; 65. Underground Lake; Lurker in the Lake",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16762-aboleth", 5900]
+        ]
+    },
+    {
+        "id": "af00b989-d4ce-4880-afc8-ae9f9c820f99",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 5: Gears of Hate; 66. Door of Devouring; Diving Cage",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "16833-crab", 10]
+        ]
+    },
+    {
+        "id": "682ca41f-c747-4df3-b681-423f950f5aca",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 5: Gears of Hate; 67. Hall of the Golden Mastodon; Golden Mastodon",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17214-spined-devil", 450],
+            [3, "16803-bearded-devil", 700],
+            [2, "16800-barbed-devil", 1800],
+            [1, "16927-horned-devil", 7200],
+            [1, "16858-erinyes", 8400]
+        ]
+    },
+    {
+        "id": "ad049c9c-919c-4bd8-b6bc-233f6a2aed72",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 5: Gears of Hate; 67. Hall of the Golden Mastodon; Ch\u2019gakare",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17196-revenant", 1800]
+        ]
+    },
+    {
+        "id": "a0e30f4f-9554-4f69-992e-696beb966197",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 5: Gears of Hate; 69. Mechanus Chain; Modron Intervention",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17179-pentadrone", 450],
+            [9, "17178-quadrone", 200]
+        ]
+    },
+    {
+        "id": "734a4f9a-667d-49c3-96c8-79118e8a8495",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 5: Gears of Hate; 70. Armillary Sphere; Monster in the Moon",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17125-nycaloth", 5000]
+        ]
+    },
+    {
+        "id": "e8b2f567-310c-49eb-9732-121b72e838cb",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 6: Cradle of the Death God; 71. Lair of the Sewn Sisters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "301755-night-hag-coven-variant", 2900]
+        ]
+    },
+    {
+        "id": "aaa16cd7-d418-43b6-b1ff-26bfde70bcee",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 6: Cradle of the Death God; 71. Lair of the Sewn Sisters; Cage",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "53ed3ebc-ea32-4ff7-a42c-b398772a101c",
+        "type": "alternate combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 6: Cradle of the Death God; Skeleton Gate",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "301755-night-hag-coven-variant", 2900]
+        ]
+    },
+    {
+        "id": "14f25e31-919a-4329-b533-d868e32aa156",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 6: Cradle of the Death God; 73. Trial of the Square",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16851-dust-mephit", 100]
+        ]
+    },
+    {
+        "id": "7acbe582-b6f2-4bcf-90ac-435c521aa198",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 6: Cradle of the Death God; 74. Trial of the Pentagon",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17200-scarecrow", 200]
+        ]
+    },
+    {
+        "id": "13989455-2952-481f-8331-679dd29c2a1a",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 6: Cradle of the Death God; 75. Trial of the Hexagon; Cracked Mirror",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17054-wereboar", 1100]
+        ]
+    },
+    {
+        "id": "b93f3706-e93d-41b8-a157-2c0cdeb4cd4c",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 6: Cradle of the Death God; 77. Death God\u2019s Nursery",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33015-atropal", 10000]
+        ]
+    },
+    {
+        "id": "fb345e5e-8330-4789-831a-722fed574771",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 6: Cradle of the Death God; 77. Death God\u2019s Nursery; Acererak\u2019s Revenge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "32961-acererak", 50000]
+        ]
+    },
+    {
+        "id": "27101d8a-0790-46fc-b5db-96222204d341",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 6: Cradle of the Death God; 78. Chapel of Hate; Body Bag",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16938-knight", 700]
+        ]
+    },
+    {
+        "id": "94de95e0-0eaf-4e5c-a28c-1204274d3a97",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 6: Cradle of the Death God; 78. Chapel of Hate; Devotees of Acererak",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "17092-nothic", 450]
+        ]
+    },
+    {
+        "id": "21991c86-05fe-4699-b040-1d164958061d",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Tomb of the Nine Gods; Level 6: Cradle of the Death God; 80. Red Library",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17109-arcanaloth", 8400]
+        ]
+    },
+    {
+        "id": "8588ed83-5f62-41f6-b9c4-c7b9e6f04f67",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33021-chwinga", 10]
+        ]
+    },
+    {
+        "id": "5056ebcb-fdf0-47c9-ab15-3e22886926fc",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Aarakocra",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17100-aarakocra", 50]
+        ]
+    },
+    {
+        "id": "a294079c-4c0e-4ab6-9df2-35e39f183436",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Albino Dwarves",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "32985-albino-dwarf-warrior", 50]
+        ]
+    },
+    {
+        "id": "a4050c97-80bd-4e48-93f5-21d2471d2b93",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Aldani",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "32991-aldani-lobsterfolk", 200]
+        ]
+    },
+    {
+        "id": "c1564293-e4cf-47a6-8e27-55559a3e5e08",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Almiraj",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "32994-almiraj", 10]
+        ]
+    },
+    {
+        "id": "9290b4da-a00c-4cd7-a5e2-a78cfe1e7a29",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Apes",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16788-ape", 100]
+        ]
+    },
+    {
+        "id": "537adb36-b642-4b9d-aa0a-fd724198134b",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Artus Cimber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33005-artus-cimber", 2900],
+            [1, "33022-dragonbait", 1800]
+        ]
+    },
+    {
+        "id": "fa54558a-d715-42df-ade7-3c34cc98f484",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Assassin Vines",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33010-assassin-vine", 700]
+        ]
+    },
+    {
+        "id": "2d6d8dca-f4f0-43cd-a833-df562c021a20",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Axe Beaks",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16793-axe-beak", 50]
+        ]
+    },
+    {
+        "id": "5769a492-3993-4f0d-86f7-4a15737af1b6",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Baboons",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16795-baboon", 10]
+        ]
+    },
+    {
+        "id": "4daea81c-c6d5-4c73-925e-97fac79dbb5e",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Cannibals",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17038-tribal-warrior", 25]
+        ]
+    },
+    {
+        "id": "29e606d5-9b79-4159-8f5c-fc0791e220f5",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Cannibals",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17038-tribal-warrior", 25]
+        ]
+    },
+    {
+        "id": "50d7acc3-5632-4159-966f-53031216a0da",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Chwinga",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33021-chwinga", 10]
+        ]
+    },
+    {
+        "id": "aae9b80c-a2a2-4452-aa9f-e045aaeae72b",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Crocodiles",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16834-crocodile", 100]
+        ]
+    },
+    {
+        "id": "1ef11c9c-c622-4e62-a86e-2b06e46793d5",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Cyclops",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17090-cyclops", 2300]
+        ]
+    },
+    {
+        "id": "c946c2b1-93fb-4471-b1e4-8cc6d596dfe0",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Dinosaurs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17087-allosaurus", 450]
+        ]
+    },
+    {
+        "id": "2ed8d1bf-6989-43d4-8b12-8ba797354896",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Dinosaurs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17088-ankylosaurus", 700]
+        ]
+    },
+    {
+        "id": "d2764843-38a1-4d39-98bd-bfa73185b9d5",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Dinosaurs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17239-brontosaurus", 1800]
+        ]
+    },
+    {
+        "id": "50a072f5-62ef-44cf-b1eb-3ddc99a41214",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Dinosaurs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16812-boar", 50],
+            [2, "17240-deinonychus", 200]
+        ]
+    },
+    {
+        "id": "45b4b6f3-22a7-4485-a7d6-5437a1b973a1",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Dinosaurs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17238-dimetrodon", 50]
+        ]
+    },
+    {
+        "id": "ca3b217d-2800-40c4-8c82-a28abf4f47a2",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Dinosaurs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17241-hadrosaurus", 50]
+        ]
+    },
+    {
+        "id": "f657be72-fbf3-4678-9884-573efba80a6e",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Dinosaurs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16981-plesiosaurus", 450]
+        ]
+    },
+    {
+        "id": "41976d78-7c0b-49ea-abbc-2efaa36edf30",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Dinosaurs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17093-pteranodon", 50]
+        ]
+    },
+    {
+        "id": "702661b8-0a85-485b-8c63-75f7f0bf7bea",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Dinosaurs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17242-quetzalcoatlus", 450]
+        ]
+    },
+    {
+        "id": "04201e70-3987-4216-9e4d-72044d98c65c",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Dinosaurs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17244-stegosaurus", 1100]
+        ]
+    },
+    {
+        "id": "4beb288f-26a2-44de-8581-632b5d11161c",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Dinosaurs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17039-triceratops", 1800]
+        ]
+    },
+    {
+        "id": "f710dd4a-f115-44c4-b58b-c9e5f7d809c8",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Dinosaurs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17041-tyrannosaurus-rex", 3900]
+        ]
+    },
+    {
+        "id": "9a19f2df-349c-474b-a2ba-155374f748b2",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Dinosaurs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17243-velociraptor", 50]
+        ]
+    },
+    {
+        "id": "1af2d0ba-fe27-462f-8d29-e19069c82cd8",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Dragon, Faerie",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17108-faerie-dragon-older", 450]
+        ]
+    },
+    {
+        "id": "19e8cf60-e943-44fe-8bc2-b4d52b518310",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Dragon, Red",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [50, "17074-young-red-dragon", 5900]
+        ]
+    },
+    {
+        "id": "4378d68a-d4e2-4d23-82be-3552c6e09880",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Eblis",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33024-eblis", 200]
+        ]
+    },
+    {
+        "id": "94d580b1-cdea-4a2d-8ab5-ab7355837d7d",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Emerald Enclave",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16985-priest", 450],
+            [1, "17007-scout", 100]
+        ]
+    },
+    {
+        "id": "2e1b65e6-0463-4110-8fe6-08c784479010",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Explorers",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16947-mage", 2300],
+            [1, "16985-priest", 450],
+            [1, "17007-scout", 100],
+            [1, "17038-tribal-warrior", 25]
+        ]
+    },
+    {
+        "id": "b6aef3ac-aca2-4bac-a9fc-f72c5a97fea9",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Firenewts",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17246-firenewt-warrior", 100],
+            [1, "17247-giant-strider", 200],
+            [1, "17246-firenewt-warrior", 100],
+            [1, "17248-firenewt-warlock-of-imix", 200],
+            [1, "17247-giant-strider", 200]
+        ]
+    },
+    {
+        "id": "9dcf3b25-ce36-4a90-a166-a97d987df1a3",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Flail Snail",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17249-flail-snail", 700]
+        ]
+    },
+    {
+        "id": "3d215c96-187a-4f55-9db3-12c879ede036",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Flaming Fist",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16938-knight", 700],
+            [1, "17045-veteran", 700],
+            [1, "16763-acolyte", 50],
+            [1, "17007-scout", 100],
+            [1, "16915-guard", 25],
+            [1, "17240-deinonychus", 200]
+        ]
+    },
+    {
+        "id": "7007deb4-451e-46e9-ba92-269d01c77dc1",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Flying Monkeys",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33025-flying-monkey", 10]
+        ]
+    },
+    {
+        "id": "2b883fd1-617a-41b7-a2be-e665e7f8f536",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Flying Snakes",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16864-flying-snake", 25],
+            [1, "16864-flying-snake", 25]
+        ]
+    },
+    {
+        "id": "e2a6bd2d-dcbd-4e85-b706-eb77e561cacd",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Frost Giants",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16867-frost-giant", 3900],
+            [1, "17061-winter-wolf", 700]
+        ]
+    },
+    {
+        "id": "d9a16983-906c-46ac-9752-6f534865e3e1",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Giant Boars",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16876-giant-boar", 450]
+        ]
+    },
+    {
+        "id": "7ae6857f-b9a4-4a48-9100-5cc708a54f79",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Giant Crocodile",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16880-giant-crocodile", 1800]
+        ]
+    },
+    {
+        "id": "b51be609-2cb8-4899-84da-cacfc5df86bc",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Giant Frogs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16884-giant-frog", 50]
+        ]
+    },
+    {
+        "id": "f711067b-2d41-486b-a954-cdb5f9af9964",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Giant Lizards",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16887-giant-lizard", 50]
+        ]
+    },
+    {
+        "id": "794547b3-cb50-4105-b6ec-3280397f88e6",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Giant Scorpions",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [11, "16892-giant-scorpion", 700]
+        ]
+    },
+    {
+        "id": "a1734472-51ab-40be-a7a1-4fb986b48281",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Giant Snapping Turtle",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33030-giant-snapping-turtle", 700]
+        ]
+    },
+    {
+        "id": "cdf9149e-eb0a-4c13-836e-5b32072131b0",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Giant Wasps",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16898-giant-wasp", 100]
+        ]
+    },
+    {
+        "id": "4cc8a2e4-830b-4450-8c5f-8aecfc91fca8",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Girallons",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17257-girallon", 1100]
+        ]
+    },
+    {
+        "id": "98f3a31c-5edf-4478-9487-712226b21b0d",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Goblins",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17155-goblin-boss", 200],
+            [3, "16907-goblin", 50]
+        ]
+    },
+    {
+        "id": "8947f22b-4b8d-4790-81fd-a848595e6f62",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Grungs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17262-grung", 50],
+            [1, "17263-grung-elite-warrior", 450]
+        ]
+    },
+    {
+        "id": "99c8deac-7f85-4824-a745-f604b684fdd2",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Jaculis",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33039-jaculi", 100]
+        ]
+    },
+    {
+        "id": "af35d0f4-a19e-447c-82fd-0199dffea907",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Kamadans",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33044-kamadan", 1100]
+        ]
+    },
+    {
+        "id": "4668c586-0bff-4267-b82f-d54808a15e6f",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Lizardfolk",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16946-lizardfolk", 100],
+            [1, "17171-lizardfolk-shaman", 450]
+        ]
+    },
+    {
+        "id": "22abc459-3393-4552-9edd-69dec9e47b49",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Magmins",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16949-magmin", 100]
+        ]
+    },
+    {
+        "id": "044794ad-388e-4022-aeef-8fc476628adc",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Mantraps",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33048-mantrap", 200]
+        ]
+    },
+    {
+        "id": "5bab16be-e7d1-458b-ac39-48c8cc075079",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Mephits",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16948-magma-mephit", 100],
+            [1, "17173-mud-mephit", 50],
+            [1, "17174-smoke-mephit", 50],
+            [1, "17022-steam-mephit", 50]
+        ]
+    },
+    {
+        "id": "ed0b48c1-3e4a-41be-89ee-d1984c1b06ac",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Night Hag",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16965-night-hag", 1800]
+        ]
+    },
+    {
+        "id": "a6387267-933c-4df5-b474-c4dc91bc9f60",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Pterafolk",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "33242-pterafolk", 200]
+        ]
+    },
+    {
+        "id": "cf638327-9135-4772-8186-92ec4b799b3f",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Red Wizard",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16947-mage", 2300],
+            [1, "16915-guard", 25],
+            [1, "17015-skeleton", 50]
+        ]
+    },
+    {
+        "id": "75d6eb62-75fb-4793-a87a-3b4d70aa8d37",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Salamander",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17004-salamander", 1800],
+            [1, "17199-fire-snake", 200]
+        ]
+    },
+    {
+        "id": "cc756321-afc1-4f3d-838f-d500192577c3",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Sea Hags",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "301760-sea-hag-coven-variant", 1100]
+        ]
+    },
+    {
+        "id": "35f480bb-9bd2-471d-bee2-0d5a94978e4c",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Shambling Mound",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17011-shambling-mound", 1800]
+        ]
+    },
+    {
+        "id": "e164aeba-d710-4cb3-8916-e7f3c31e68f5",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Snake, Constrictor",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16830-constrictor-snake", 50]
+        ]
+    },
+    {
+        "id": "b348e329-d505-4fc4-bc2e-87b16a887c46",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Snake, Giant Constrictor",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16878-giant-constrictor-snake", 450]
+        ]
+    },
+    {
+        "id": "9ffa95c6-2659-42cc-a953-4f4961d52c70",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Snake, Giant Poisonous",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16890-giant-poisonous-snake", 50]
+        ]
+    },
+    {
+        "id": "5fb859f8-3feb-4c21-b682-2f48f4bba34d",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Spiders",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [13, "16895-giant-spider", 200]
+        ]
+    },
+    {
+        "id": "1d008608-1d6d-48de-89a5-303564f493a2",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Stirges",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17023-stirge", 25]
+        ]
+    },
+    {
+        "id": "fd619c7b-ee9b-40b2-bc8d-ab834a74925f",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Su-monsters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33257-su-monster", 200]
+        ]
+    },
+    {
+        "id": "bc523f5f-d673-4733-b674-2015b7c0b6e7",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Swarms of Bats",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17028-swarm-of-bats", 50]
+        ]
+    },
+    {
+        "id": "933481e3-2747-4b37-96aa-4dd649d1c91e",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Swarms of Insects",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "301411-swarm-of-insects-centipedes", 100]
+        ]
+    },
+    {
+        "id": "e0f79310-5999-4e23-bd1b-93ad67107cdd",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Swarms of Quippers",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17031-swarm-of-quippers", 200]
+        ]
+    },
+    {
+        "id": "6d242b8b-22ae-4df8-9287-78ba87a7edbf",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Tabaxi Hunter",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [15, "33259-tabaxi-hunter", 200]
+        ]
+    },
+    {
+        "id": "ee173694-bd17-48a1-bf0b-e08a55495e0a",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Tiger",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17036-tiger", 200]
+        ]
+    },
+    {
+        "id": "51a9e5ca-a4e8-4c7e-9fad-92070992ebb3",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Tri-flower Frond",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33267-tri-flower-frond", 100]
+        ]
+    },
+    {
+        "id": "ab9a79b6-c8c9-4c5f-ac15-d392e3e55818",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Troll",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17040-troll", 1800]
+        ]
+    },
+    {
+        "id": "d0897963-2a5d-400d-96d4-3787bf713034",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Undead; Ghouls",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "16872-ghoul", 200],
+            [1, "16870-ghast", 450]
+        ]
+    },
+    {
+        "id": "43d535bf-14d2-48c3-a131-34180f502388",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Undead; Skeletons",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17015-skeleton", 50]
+        ]
+    },
+    {
+        "id": "2f697191-176d-4e9d-bc58-95543b677bd8",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Undead; Specter",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17017-specter", 200]
+        ]
+    },
+    {
+        "id": "e33a9c3e-7044-488a-836a-3d4cb4bc36f8",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Undead; Wight",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17059-wight", 700]
+        ]
+    },
+    {
+        "id": "ed935f48-4a7f-4de9-ac16-f6e44f96c76a",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Undead; Zombies",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17077-zombie", 50]
+        ]
+    },
+    {
+        "id": "42bac100-e105-4018-9adf-e1681da6e94a",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Undead; Zombies",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33282-ankylosaurus-zombie", 700]
+        ]
+    },
+    {
+        "id": "9745d943-45e9-4c5e-9d1e-29b58c2e3496",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Undead; Zombies",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33284-girallon-zombie", 700]
+        ]
+    },
+    {
+        "id": "888845f7-61bb-4f4e-bf9b-246a8755b703",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Undead; Zombies",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16970-ogre-zombie", 450]
+        ]
+    },
+    {
+        "id": "663eec17-84ce-4e72-9436-9bbe8171ca85",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Undead; Zombies",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33286-tyrannosaurus-zombie", 3900]
+        ]
+    },
+    {
+        "id": "43050d70-f09c-4383-b8d0-6fa61efd0457",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Vegepygmies",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17308-vegepygmy", 50],
+            [1, "17310-thorny", 200]
+        ]
+    },
+    {
+        "id": "8cdc6414-7adc-415a-876f-b3234f2c0f5f",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Wereboar",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17054-wereboar", 1100]
+        ]
+    },
+    {
+        "id": "ebc1582d-eadc-4da5-bed2-1bc95021d4d5",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Weretiger",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17056-weretiger", 1100]
+        ]
+    },
+    {
+        "id": "cc52363f-0101-4e72-8134-12d3aa1a928d",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Winterscape",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [120, "33005-artus-cimber", 2900]
+        ]
+    },
+    {
+        "id": "57459900-154d-427e-a3c6-9c8377b4705c",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Yellow Musk Creeper and Zombies",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33277-yellow-musk-zombie", 50],
+            [1, "33275-yellow-musk-creeper", 450]
+        ]
+    },
+    {
+        "id": "9274a466-1004-42c8-aa3b-7bcdb2feba02",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Yuan-ti",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17123-yuan-ti-pureblood", 200]
+        ]
+    },
+    {
+        "id": "77f34bb3-c84c-456d-9142-a3f64b253ffb",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Yuan-ti",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "301418-yuan-ti-malison-type-1", 700]
+        ]
+    },
+    {
+        "id": "961e2b14-07a0-4c3d-9ff8-57c20b3c5b6f",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Zhentarim",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16790-assassin", 3900],
+            [1, "16864-flying-snake", 25],
+            [1, "16985-priest", 450],
+            [1, "17035-thug", 100],
+            [1, "17038-tribal-warrior", 25]
+        ]
+    },
+    {
+        "id": "11cb3b4b-4188-463b-8304-a61135087e3a",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Zorbos",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33290-zorbo", 100]
+        ]
+    },
+    {
+        "id": "dd3aba9d-d596-42c2-8a13-bc5c8f2fb4fa",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Omu Encounters; Gargoyles",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16868-gargoyle", 450]
+        ]
+    },
+    {
+        "id": "287a1b61-6869-48a3-b58b-be3b146adc52",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Omu Encounters; Giant Wolf Spiders",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16900-giant-wolf-spider", 50]
+        ]
+    },
+    {
+        "id": "fc10b247-8865-4173-9964-9a3e70b53229",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Omu Encounters; King of Feathers",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "285906-king-of-feathers", 3900]
+        ]
+    },
+    {
+        "id": "bf369666-aa55-44a6-9cd6-ea434b610a25",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Omu Encounters; Kobolds",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16939-kobold", 25],
+            [1, "17277-kobold-inventor", 50],
+            [12, "17278-kobold-scale-sorcerer", 200]
+        ]
+    },
+    {
+        "id": "817aa6fc-f144-4ba9-be63-69008ca944e0",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Discoveries; Magic Items; Bookmark",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33005-artus-cimber", 2900]
+        ]
+    },
+    {
+        "id": "0db3e93c-971d-4dd2-8ec9-e8fcdb059a2b",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Discoveries; Magic Items; Ring of Winter",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "33005-artus-cimber", 2900]
+        ]
+    },
+    {
+        "id": "6f6a50b0-e6e5-4c59-a901-79d07da47163",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Discoveries; Magic Items; Ring of Winter",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16871-ghost", 1100]
+        ]
+    },
+    {
+        "id": "d6dc3d6e-d7ea-4cbd-ac23-4b14de9c93f8",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Monsters and NPCs; Albino Dwarves; Albino Dwarf Spirit Warriors",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "32988-albino-dwarf-spirit-warrior", 200]
+        ]
+    },
+    {
+        "id": "13bc10cb-66f8-473c-9571-af007f262508",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Monsters and NPCs; Atropal",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17064-wraith", 1800]
+        ]
+    },
+    {
+        "id": "f71f881e-20b1-46b6-a5b0-8ea4efe1c5dc",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Monsters and NPCs; Atropal",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17064-wraith", 1800]
+        ]
+    },
+    {
+        "id": "6853e57b-3712-4008-ba66-305d872bb014",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Monsters and NPCs; Grungs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17262-grung", 50]
+        ]
+    },
+    {
+        "id": "e66b821c-f442-4ae7-8764-e7efc1fb03f3",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Monsters and NPCs; Grungs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17264-grung-wildling", 200]
+        ]
+    },
+    {
+        "id": "0f7cb14e-aafd-4a22-a942-9c382d762b59",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Monsters and NPCs; Grungs",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17263-grung-elite-warrior", 450]
+        ]
+    },
+    {
+        "id": "235e1e32-a0e4-49e8-b0d9-68e02ac73e95",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Monsters and NPCs; Xandala",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16986-pseudodragon", 50]
+        ]
+    },
+    {
+        "id": "c4cec428-0aa1-4afe-8c8b-2144f0bc7320",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Monsters and NPCs; Yellow Musk Creeper and Zombie; Yellow Musk Creeper",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [0, "33277-yellow-musk-zombie", 50]
+        ]
+    },
+    {
+        "id": "fd801320-d5d2-426d-ae5f-e81301092727",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Monsters and NPCs; Zombies; Tyrannosaurus Zombie",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17077-zombie", 50],
+            [1, "17077-zombie", 50]
+        ]
+    }
+]

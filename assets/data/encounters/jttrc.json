@@ -1,2367 +1,1507 @@
 [
     {
+        "id": "74dd66f5-2112-46db-9888-eefde605eaf6",
         "type": "non-combat",
-        "modified": 1741669497.4256577,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-radiant-citadel.html",
         "book_path": "Journeys through the Radiant Citadel; The Radiant Citadel; Groups of the Citadel; Shieldbearers; Arayat",
-        "monsters": [
-            [
-                1,
-                "16790-assassin",
-                3900
-            ]
-        ],
-        "text": "Arayat (neutral, human assassin) was born to a family of Dayawlongon freedom fighters who had no more wars to fight. Peace did not bring them prosperity, and the family\u2019s glory faded. Arayat grew up on the streets until luck brought him to the Radiant Citadel. He soon joined the Shieldbearers, which gave him meaning and purpose. Defying the odds, Arayat has survived hundreds of deployments to the most dangerous situations across the founding civilizations and beyond. He is a master of the Dayawlongon martial art of eskrima and favors a pair of shortswords in combat."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16790-assassin", 3900]
+        ]
     },
     {
+        "id": "b70c176a-1ed7-4ca7-963b-e2eeb5849962",
         "type": "non-combat",
-        "modified": 1741669497.4256577,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-radiant-citadel.html",
         "book_path": "Journeys through the Radiant Citadel; The Radiant Citadel; Citadel Defenses",
-        "monsters": [
-            [
-                12,
-                "16789-archmage",
-                8400
-            ],
-            [
-                1,
-                "16947-mage",
-                2300
-            ],
-            [
-                1,
-                "17045-veteran",
-                700
-            ]
-        ],
-        "text": "If the diamond sphere cannot be erected for any reason, the Radiant Citadel is not helpless. Due to its many mysteries and its magical properties, the city attracts an unusually large number of powerful adventurers and spellcasters. If the citadel is attacked, no fewer than a dozen archmages and twenty mages led by Sholeh rally. If required, Arayat, commander of the Shieldbearers, also mobilizes his Shieldbearer veterans, while the other Speakers for the Ancestors call on the citizenry to bolster the city\u2019s defense."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "16789-archmage", 8400],
+            [1, "16947-mage", 2300],
+            [1, "17045-veteran", 700]
+        ]
     },
     {
+        "id": "348053ef-44c0-440b-9408-519a5c40c365",
         "type": "non-combat",
-        "modified": 1741669497.4256577,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-radiant-citadel.html",
         "book_path": "Journeys through the Radiant Citadel; The Radiant Citadel; Entering the Citadel",
-        "monsters": [
-            [
-                6,
-                "16915-guard",
-                25
-            ],
-            [
-                1,
-                "16947-mage",
-                2300
-            ],
-            [
-                1,
-                "16985-priest",
-                450
-            ]
-        ],
-        "text": "At any time, six guards are stationed at the Passage of Respite. They are led by a mage responsible for accepting tolls. These guards often employ magic items, such as helms of telepathy, when suspicious of the motives of a visitor. A priest from the House of Convalescence also attends the gate, ready to assist the ailing."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16915-guard", 25],
+            [1, "16947-mage", 2300],
+            [1, "16985-priest", 450]
+        ]
     },
     {
+        "id": "4b18e437-1137-49c1-bc20-8ad9e29f1be0",
         "type": "non-combat",
-        "modified": 1741669497.5631294,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/salted-legacy.html",
         "book_path": "Journeys through the Radiant Citadel; Salted Legacy; Welcome to the Market; Rival Vendors; Lamai Tyenmo",
-        "monsters": [
-            [
-                1,
-                "16829-commoner",
-                10
-            ]
-        ],
-        "text": "Lamai Tyenmo (lawful good, gnome commoner) has dark, wild hair and a wide smile. She recently took over as head of the Tyenmo family business, Tyenmo Noodles. The weight of the new responsibility hangs heavy on her, but she is determined to make her family proud."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
     },
     {
+        "id": "055e114e-9208-4892-9b92-015e50252739",
         "type": "non-combat",
-        "modified": 1741669497.5631294,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/salted-legacy.html",
         "book_path": "Journeys through the Radiant Citadel; Salted Legacy; Welcome to the Market; Rival Vendors; Kusa Xungoon",
-        "monsters": [
-            [
-                1,
-                "16966-noble",
-                25
-            ]
-        ],
-        "text": "Kusa Xungoon (lawful good, kobold noble) dresses in impeccable purple-and-gold silk gowns and has polished horns. She runs a respected market stand, Xungoon Family Seafood, and seeks to expand her family\u2019s business. She cherishes her son, Gammon, whom she\u2019s teaching to take over the business."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
     },
     {
+        "id": "1141f1d9-172e-4af7-bda4-bcf4062857db",
         "type": "non-combat",
-        "modified": 1741669497.5631294,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/salted-legacy.html",
         "book_path": "Journeys through the Radiant Citadel; Salted Legacy; Welcome to the Market; Caught in the Middle",
-        "monsters": [
-            [
-                1,
-                "16829-commoner",
-                10
-            ]
-        ],
-        "text": "Gammon Xungoon (chaotic good, kobold commoner) stole a bunch of green onions from Lamai Tyenmo. Gammon believes Lamai first stole these onions from his mother. At the moment, neither is interested in listening to reason."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
     },
     {
+        "id": "1af31e03-e79a-4760-beaa-87409beae4c0",
         "type": "non-combat",
-        "modified": 1741669497.5631294,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/salted-legacy.html",
         "book_path": "Journeys through the Radiant Citadel; Salted Legacy; Welcome to the Market; Around the Market; Kasem\u2019s Plan",
-        "monsters": [
-            [
-                1,
-                "16966-noble",
-                25
-            ]
-        ],
-        "text": "Kasem Aroon (chaotic neutral, human noble) and his twin brother, Vi Aroon, own and operate the Spicy Brothers stall, which features rare peppers and spices. While Vi has a zest for life, Kasem is reserved and calculating. He\u2019s also the one behind the sabotage currently afflicting the Tyenmo and Xungoon stalls."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
     },
     {
+        "id": "d51ad0d3-8726-42d1-bfaa-a014d0105f0f",
         "type": "non-combat",
-        "modified": 1741669497.5631294,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/salted-legacy.html",
         "book_path": "Journeys through the Radiant Citadel; Salted Legacy; Welcome to the Market; Around the Market; Kasem\u2019s Plan",
-        "monsters": [
-            [
-                1,
-                "2739107-wynling",
-                100
-            ]
-        ],
-        "text": "Several weeks ago, Vi told his brother he\u2019s getting married and moving to a distant land. Kasem knows he can\u2019t continue Spicy Brothers without Vi\u2019s charm and concocted a plan to buy out another successful business. But most businesses in the Dyn Singh Night Market are family shops the owners would never consider selling. While on a trip to get more stock for Spicy Brothers, Kasem encountered a trio of rare Fey creatures called wynlings. Kasem befriended them with a few sweet fruits and brought them back to the night market. He now bribes his invisible friends with fruit to cause disruptions around Tyenmo Noodles and Xungoon Family Seafood. He doesn\u2019t want to hurt anyone, but he hopes to make life in the market uncomfortable enough that one of the families sells its shop to him for a low price."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "2739107-wynling", 100]
+        ]
     },
     {
+        "id": "81723783-ab51-4c5e-a4ff-38628256cdf8",
         "type": "non-combat",
-        "modified": 1741669497.5631294,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/salted-legacy.html",
         "book_path": "Journeys through the Radiant Citadel; Salted Legacy; Market Games; Aroon Family Pepper Challenge",
-        "monsters": [
-            [
-                4,
-                "16829-commoner",
-                10
-            ]
-        ],
-        "text": "If the characters agree to the rules, the assistant asks them to wait a few moments for the next event to begin. If four or more characters choose to participate, they are the only contenders in the event. If fewer characters take part, other locals (commoners) join the event from the audience, ensuring there are at least four participants."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16829-commoner", 10]
+        ]
     },
     {
+        "id": "73025245-ba43-40d3-bc61-5ae979cb0fed",
         "type": "combat",
-        "modified": 1741669497.5631294,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/salted-legacy.html",
         "book_path": "Journeys through the Radiant Citadel; Salted Legacy; Market Games; Battle Prawn Challenge; Running the Challenge",
-        "monsters": [
-            [
-                1,
-                "16893-giant-sea-horse",
-                100
-            ]
-        ],
-        "text": "Prawn Preparation. The large tank contains four 8-foot-long jagged koi prawns (use the giant sea horse stat block). Participants must slay one of the prawns. Waiting sous-chefs then fish the prawn out and drag it to a wok. The prawns are not initially hostile but defend themselves if they take damage. They have half cover from any creature attacking from outside the water."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16893-giant-sea-horse", 100]
+        ]
     },
     {
+        "id": "34fe80e9-1c51-40af-9624-d3eea84e5c0e",
         "type": "non-combat",
-        "modified": 1741669497.5631294,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/salted-legacy.html",
         "book_path": "Journeys through the Radiant Citadel; Salted Legacy; Market Games; Hide-and-Seek Challenge",
-        "monsters": [
-            [
-                1,
-                "16966-noble",
-                25
-            ]
-        ],
-        "text": "Madam Kulp is an elderly gnome woman (neutral noble). If the characters accept her challenge, she hops up and opens a trapdoor at the center of the tent. A ladder descends into a dark, messy room full of boxes and furniture."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
     },
     {
+        "id": "35b2b3f0-479f-4de7-b4cb-8a1a1df55b07",
         "type": "non-combat",
-        "modified": 1741669497.5631294,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/salted-legacy.html",
         "book_path": "Journeys through the Radiant Citadel; Salted Legacy; Market Games; Hide-and-Seek Challenge",
-        "monsters": [
-            [
-                1,
-                "16945-lizard",
-                10
-            ]
-        ],
-        "text": "Madam Kulp explains that below are a series of rooms where several tut-krogh caterpillars (use the lizard stat block) are hiding. Her challenge is simple: descend the ladder and bring back four caterpillars within 1 minute. Any number of characters may participate, and they may use magical assistance as long as the caterpillars aren\u2019t harmed\u2014Madam Kulp is adamant about the caterpillars\u2019 safety. If the characters agree to these rules, they may descend into the maze when they are ready."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16945-lizard", 10]
+        ]
     },
     {
+        "id": "fee2c7d2-9392-4aa2-a989-519afd439cc9",
         "type": "non-combat",
-        "modified": 1741669497.5631294,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/salted-legacy.html",
         "book_path": "Journeys through the Radiant Citadel; Salted Legacy; Revealing the Plot; Revealing the Wynlings",
-        "monsters": [
-            [
-                1,
-                "2739107-wynling",
-                100
-            ]
-        ],
-        "text": "The characters might suspect Kasem is using a creature to harass the Tyenmo and Xungoon market stands\u2014either due to stories from vendors or from what they\u2019ve witnessed themselves. If a character casts detect evil and good near one of the sabotaged stalls, it reveals the presence of a Fey creature nearby, a wynling drowsing on a nearby stall roof. If approached, the wynling turns invisible and flees."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "2739107-wynling", 100]
+        ]
     },
     {
+        "id": "cc5a01bd-d878-407d-a315-6c71beb50107",
         "type": "combat",
-        "modified": 1741669497.5631294,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/salted-legacy.html",
         "book_path": "Journeys through the Radiant Citadel; Salted Legacy; Revealing the Plot; Confronting Kasem",
-        "monsters": [
-            [
-                1,
-                "16966-noble",
-                25
-            ],
-            [
-                3,
-                "2739107-wynling",
-                100
-            ]
-        ],
-        "text": "If characters challenge Kasem with details they learned about him from local vendors, he laughs them off, explaining the market is full of gossip. A character who succeeds on a DC 10 Wisdom (Insight) check realizes Kasem is hiding something. If the characters confront Kasem with multiple accounts or pieces of evidence, they can coax a confession from him (see the following section). If characters take a more hostile approach, Kasem defends himself. Kasem has the statistics of a noble and calls out to three wynlings (presented at the end of this adventure), who appear and aid him."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25],
+            [3, "2739107-wynling", 100]
+        ]
     },
     {
+        "id": "b28f0c2c-44ca-40d7-b162-474e5198e6fc",
         "type": "non-combat",
-        "modified": 1741669497.6830635,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/written-in-blood.html",
         "book_path": "Journeys through the Radiant Citadel; Written in Blood; Background; Fractured Soul",
-        "monsters": [
-            [
-                1,
-                "2739103-soul-shaker",
-                1100
-            ]
-        ],
-        "text": "An evil Undead called a soul shaker (detailed at the end of this adventure) manipulates many of the events in this story. Its origin and objectives are tied to one of the most infamous hauntings in Godsbreath."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "2739103-soul-shaker", 1100]
+        ]
     },
     {
+        "id": "a4ea223b-abb7-4828-8326-c6dca1dc7162",
         "type": "non-combat",
-        "modified": 1741669497.6830635,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/written-in-blood.html",
         "book_path": "Journeys through the Radiant Citadel; Written in Blood; Starting the Adventure; Eyes of Blood",
-        "monsters": [
-            [
-                4,
-                "16835-cultist",
-                25
-            ]
-        ],
-        "text": "Four farmers attack the festival-goers. They use the cultist stat block; their rusty, bladed farming implements have the same statistics as scimitars. Any character who engages the farmers sees their eyes swirl with crimson, resembling bloody, unshed teardrops. Characters have no way of knowing it yet, but this is a mark of the soul shaker\u2019s control (see the \u201cSoul Shaker\u201d section at the end of this adventure)."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16835-cultist", 25]
+        ]
     },
     {
+        "id": "1c5e1c14-646a-440a-af03-f04f384379df",
         "type": "non-combat",
-        "modified": 1741669497.6830635,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/written-in-blood.html",
         "book_path": "Journeys through the Radiant Citadel; Written in Blood; Starting the Adventure; Eyes of Blood",
-        "monsters": [
-            [
-                1,
-                "16829-commoner",
-                10
-            ]
-        ],
-        "text": "Only one local holds their ground: a surprised woman named Aunt Dellie (commoner). She clearly recognizes some of the strange farmers and tries to reason with them to no avail. Aunt Dellie shouts for the characters not to kill the farmers, noting that they\u2019re not behaving like themselves."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
     },
     {
+        "id": "35ed1b3a-9086-4f5e-888d-19064874f547",
         "type": "non-combat",
-        "modified": 1741669497.6830635,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/written-in-blood.html",
         "book_path": "Journeys through the Radiant Citadel; Written in Blood; Starting the Adventure; Eyes of Blood; Aunt Dellie",
-        "monsters": [
-            [
-                1,
-                "16829-commoner",
-                10
-            ]
-        ],
-        "text": "Aunt Delanore \u201cDellie\u201d Godsen (neutral good, human commoner) is a savvy operator with an honest reputation, a soft heart, and a talent for hearing a bit about everyone\u2019s business. A trader and skimmer boat pilot, Aunt Dellie has never been afraid to go her own way and knows much about Godsbreath\u2019s lands and threats. Although she\u2019s a small woman, Aunt Dellie\u2019s charm and knack for survival have gotten her through numerous near disasters. Everyone calls her \u201caunt,\u201d a trend started by her beloved goddaughter Kianna."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
     },
     {
+        "id": "096d6449-7150-4e67-a5b0-324dfa4cf473",
         "type": "non-combat",
-        "modified": 1741669497.6830635,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/written-in-blood.html",
         "book_path": "Journeys through the Radiant Citadel; Written in Blood; Starting the Adventure; An Unexpected Offer; Lady Dre",
-        "monsters": [
-            [
-                1,
-                "17007-scout",
-                100
-            ]
-        ],
-        "text": "Lady Dre (chaotic good, human scout) is a trader who makes an impression on everyone she meets. Tall and broad with shoulder-length locs, she\u2019s known for bright-colored clothing meant to catch the eye of potential business partners. She\u2019s a shrewd negotiator, thanks in no small part to her storytelling skill. Personable but focused, Lady Dre is willing to forgo short-term gains in favor of long-term growth."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17007-scout", 100]
+        ]
     },
     {
+        "id": "d875c445-9b01-4bb8-abd8-4b0bb02a155a",
         "type": "non-combat",
-        "modified": 1741669497.6830635,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/written-in-blood.html",
         "book_path": "Journeys through the Radiant Citadel; Written in Blood; Starting the Adventure; The Larger Truth; Proclaimer Tungsten Ward",
-        "monsters": [
-            [
-                1,
-                "16763-acolyte",
-                50
-            ]
-        ],
-        "text": "Proclaimer Tungsten Ward (lawful good, human acolyte) is small of stature and soft of voice, and their worldly appearance belies their young years. Despite Ward\u2019s relaxed demeanor, their approachability covers a calculating personality. Thanks to Ward\u2019s history of making friends, trading favors, and pulling strings, even rivals find the Proclaimer difficult to directly oppose. Ward seeks evidence of the gods\u2019 influence and motives in all things. Ward then adds such evidence to their orders\u2019 records and creates new verses of the Awakening Song."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16763-acolyte", 50]
+        ]
     },
     {
+        "id": "6279fd15-ea8c-4e63-b5d6-9e1a900e4408",
         "type": "combat",
-        "modified": 1741669497.6830635,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/written-in-blood.html",
         "book_path": "Journeys through the Radiant Citadel; Written in Blood; To the Rattle; Last Stop; Savage Scavengers",
-        "monsters": [
-            [
-                3,
-                "16841-dire-wolf",
-                200
-            ]
-        ],
-        "text": "Massive coyotes are a persistent threat in the Rattle. The three coyotes use the dire wolf stat block, while the farmer they pursue is a commoner. A coyotes flees if reduced to 10 hit points or fewer."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16841-dire-wolf", 200]
+        ]
     },
     {
+        "id": "fe2ea96d-a3d4-4bb2-90a4-2e54dce8deef",
         "type": "non-combat",
-        "modified": 1741669497.6830635,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/written-in-blood.html",
         "book_path": "Journeys through the Radiant Citadel; Written in Blood; To the Rattle; Last Stop; Uncle Polder",
-        "monsters": [
-            [
-                1,
-                "16829-commoner",
-                10
-            ]
-        ],
-        "text": "Uncle Polder (neutral good, human commoner) is an old man with a stocky build and an easy smile. He walks at an amble and speaks with a drawl\u2014but his mind is constantly working, developing solutions to any problem he faces. Polder has spent many seasons in the Rattle and is dedicated to helping others thrive\u2014in part to rid himself of the guilt of leaving a friend behind when he escaped a bulette attack during his first season."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
     },
     {
+        "id": "0e7b1369-ee5c-4756-8d22-c2fbd63f6961",
         "type": "combat",
-        "modified": 1741669497.6830635,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/written-in-blood.html",
         "book_path": "Journeys through the Radiant Citadel; Written in Blood; Fallen Farmhouse; Sinister Sinkhole",
-        "monsters": [
-            [
-                4,
-                "17139-crawling-claw",
-                10
-            ]
-        ],
-        "text": "Any creature at the bottom of the hole finds they\u2019re not alone. Four crawling claws scrabble free from the dirt at the bottom of the pit and attack any creatures within. After the Undead are dispatched, any character who examines the disembodied hands and succeeds on a DC 16 Wisdom (Perception) check can tell that the creatures were digging through the loose earth\u2014though it\u2019s not clear to what end."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17139-crawling-claw", 10]
+        ]
     },
     {
+        "id": "078a780f-8c18-49b0-97e1-d2dddd77d590",
         "type": "combat",
-        "modified": 1741669497.6830635,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/written-in-blood.html",
         "book_path": "Journeys through the Radiant Citadel; Written in Blood; Kianna\u2019s Farmhouse; Kianna\u2019s Farmhouse Locations; F5: Dining Room",
-        "monsters": [
-            [
-                6,
-                "17139-crawling-claw",
-                10
-            ]
-        ],
-        "text": "A character who approaches the table hears scratching coming from under it. Nothing is immediately visible beneath the table, but characters who investigate more closely find six crawling claws clinging to the underside. Once discovered, the monsters attack."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17139-crawling-claw", 10]
+        ]
     },
     {
+        "id": "25dfc9d3-4118-4f73-bbe2-bdcacb40d87b",
         "type": "combat",
-        "modified": 1741669497.6830635,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/written-in-blood.html",
         "book_path": "Journeys through the Radiant Citadel; Written in Blood; Kianna\u2019s Farmhouse; Kianna\u2019s Farmhouse Locations; F6: Kitchen",
-        "monsters": [
-            [
-                4,
-                "16835-cultist",
-                25
-            ]
-        ],
-        "text": "In the center of the room, four enchanted farmers stand facing each other, their crimson eyes unblinking. Each holds a sharp knife or farming implement. They don\u2019t react when the characters enter or if they are touched or spoken to. They react only if harmed, stolen from, or commanded by the soul shaker. Each uses the cultist stat block. Although the farmers are initially harmless, their appearance and lack of reaction are unnerving."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16835-cultist", 25]
+        ]
     },
     {
+        "id": "9c214863-ef35-42fd-95f0-1f0e4e1fd23f",
         "type": "combat",
-        "modified": 1741669497.6830635,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/written-in-blood.html",
         "book_path": "Journeys through the Radiant Citadel; Written in Blood; Kianna\u2019s Farmhouse; Kianna\u2019s Farmhouse Locations; F8: Cavern",
-        "monsters": [
-            [
-                1,
-                "2739103-soul-shaker",
-                1100
-            ]
-        ],
-        "text": "Soul Shaker. When the characters try to leave the area or disturb the pile of limbs, the heap begins to move, revealing itself as an Undead made entirely of arms and hands. This is a soul shaker (detailed at the end of this adventure). This creature has a fraction of the memories of Kianna\u2019s friend Culley, but the horror has perverted those thoughts, seeking to control Kianna, manipulate her guilt, and use her to lure other victims into its lair. When it reveals itself, the soul shaker targets a character with its telepathy, whispering things like \u201cCome play with us!\u201d, \u201cAre you lonely?\u201d, and \u201cBe with us forever!\u201d as it attacks. It might also relate snippets from the \u201cFractured Soul\u201d section of the adventure\u2019s background."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "2739103-soul-shaker", 1100]
+        ]
     },
     {
+        "id": "d89bd0b7-87c7-48e5-8251-cf359c4fc891",
         "type": "combat",
-        "modified": 1741669497.6830635,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/written-in-blood.html",
         "book_path": "Journeys through the Radiant Citadel; Written in Blood; Conclusion; The Farmers\u2019 Story",
-        "monsters": [
-            [
-                1,
-                "17139-crawling-claw",
-                10
-            ]
-        ],
-        "text": "Although the farmers can\u2019t reward the characters with much in the way of wealth, they gift the group a Heward\u2019s handy haversack they had stashed with tools in a nearby shed. The first character to open it, however, finds that a crawling claw has gotten itself trapped within. It tries to escape as soon as it is detected."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17139-crawling-claw", 10]
+        ]
     },
     {
+        "id": "19daf95b-5179-4211-96da-74d059c015c8",
         "type": "combat",
-        "modified": 1741669497.833725,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-fiend-of-hollow-mine.html",
         "book_path": "Journeys through the Radiant Citadel; The Fiend of Hollow Mine; Starting the Adventure; Ambush at the Archway",
-        "monsters": [
-            [
-                7,
-                "17007-scout",
-                100
-            ]
-        ],
-        "text": "Seven bounty hunters (use the scout stat block) shoot from behind the waist-high wall, which grants them half cover against anyone attacking from the other side. They draw shortswords if the characters close for melee. If three of the bounty hunters fall, the survivors quickly retreat to their nearby riding horses and flee the village."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "17007-scout", 100]
+        ]
     },
     {
+        "id": "ead9fca1-ef5e-4e92-821c-442e83bcd397",
         "type": "non-combat",
-        "modified": 1741669497.833725,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-fiend-of-hollow-mine.html",
         "book_path": "Journeys through the Radiant Citadel; The Fiend of Hollow Mine; Welcome to Milpazul; Entering the Village; Rufina",
-        "monsters": [
-            [
-                1,
-                "16829-commoner",
-                10
-            ]
-        ],
-        "text": "Formerly a human, Rufina is now an olvidado\u2014a deceased person who remained behind after the Night of the Remembered. Rufina doesn\u2019t know how or why they don\u2019t pass on to the afterlife. Although beings like Rufina are uncommon in the region, they\u2019re not unheard of, and the skeleton is a well-liked member of the community. Rufina is neutral good and uses the commoner stat block, but is Undead and doesn\u2019t require air, food, drink, or sleep."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
     },
     {
+        "id": "12b6f361-0c50-4ae2-ac1b-9647a852c493",
         "type": "non-combat",
-        "modified": 1741669497.833725,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-fiend-of-hollow-mine.html",
         "book_path": "Journeys through the Radiant Citadel; The Fiend of Hollow Mine; Welcome to Milpazul; Cursed Villagers",
-        "monsters": [
-            [
-                1,
-                "2739104-tlacatecolo",
-                1800
-            ]
-        ],
-        "text": "As they walk through the village, the characters notice many locals huddled in corners, bundled in blanket-like sarapes and trembling with cold despite it being a warm but cloudy day. If asked about them, Rufina replies that these unfortunates have caught sereno, an ailment seemingly spread by bitterly cold winds. Folk who have fallen ill speak of those winds blowing mostly at night, and Rufina warns the characters against staying out after dark. Although no one in Milpazul knows it, the sickness stems from the youth Serapio, who has transformed into a tlacatecolo (detailed at the end of this adventure) and hunts at night."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "2739104-tlacatecolo", 1800]
+        ]
     },
     {
+        "id": "3cedc7c0-831f-4295-a897-8f0b50bbc41d",
         "type": "non-combat",
-        "modified": 1741669497.833725,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-fiend-of-hollow-mine.html",
         "book_path": "Journeys through the Radiant Citadel; The Fiend of Hollow Mine; Welcome to Milpazul; Cursed Villagers; Sereno",
-        "monsters": [
-            [
-                1,
-                "2739104-tlacatecolo",
-                1800
-            ]
-        ],
-        "text": "Sereno is inflicted by an insidious, shapeshifting fiend known as a tlacatecolo. If a tlacatecolo that afflicted one or more creatures with the curse dies, the curse ends for its victims. See the \u201cTlacatecolo\u201d section at the end of this adventure for more details."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "2739104-tlacatecolo", 1800]
+        ]
     },
     {
+        "id": "1a1c7936-fde3-46a6-99bc-03a30bd17e67",
         "type": "non-combat",
-        "modified": 1741669497.833725,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-fiend-of-hollow-mine.html",
         "book_path": "Journeys through the Radiant Citadel; The Fiend of Hollow Mine; Welcome to Milpazul; Pulquer\u00eda",
-        "monsters": [
-            [
-                1,
-                "17045-veteran",
-                700
-            ]
-        ],
-        "text": "The dwarves are revolutionaries (veterans) who hang out in the tavern to protect Paloma. They won\u2019t engage the characters unless Paloma or Rufina is threatened."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17045-veteran", 700]
+        ]
     },
     {
+        "id": "e87017b8-93d5-401c-8d21-d8c82ebcdab0",
         "type": "non-combat",
-        "modified": 1741669497.833725,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-fiend-of-hollow-mine.html",
         "book_path": "Journeys through the Radiant Citadel; The Fiend of Hollow Mine; Welcome to Milpazul; Meeting Paloma",
-        "monsters": [
-            [
-                3,
-                "17045-veteran",
-                700
-            ]
-        ],
-        "text": "As conversation dies down, Paloma emerges from a door leading to the cellar and approaches the characters. She is wrapped in a rebozo and suffers from sereno with 3 levels of exhaustion. If the characters threaten to take her for the bounty, the dwarf veterans rush to protect her, and Rufina warns the characters that not just the villagers, but the folk of the entire region, will turn against them if they proceed."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17045-veteran", 700]
+        ]
     },
     {
+        "id": "c7212856-5823-43e3-a1ab-3341cc63ebdd",
         "type": "non-combat",
-        "modified": 1741669497.833725,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-fiend-of-hollow-mine.html",
         "book_path": "Journeys through the Radiant Citadel; The Fiend of Hollow Mine; Welcome to Milpazul; Meeting Paloma; Paloma",
-        "monsters": [
-            [
-                1,
-                "16790-assassin",
-                3900
-            ]
-        ],
-        "text": "Paloma (chaotic good, gnome assassin) leads a band of revolutionaries in the borderlands around San Citl\u00e1n. She was falsely accused of rustling, defended herself from the unjust arrest, and was charged with attempted murder as a result. She fled to the Indigo Desert and joined an outlaw band, quickly climbing the ranks to become the leader. While traveling across the region, Paloma saw many injustices. She has recently allied with local revolutionaries opposing exploitation and corruption in the region, and she is already considered one of the revolutionaries\u2019 leaders."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16790-assassin", 3900]
+        ]
     },
     {
+        "id": "45cc3cce-8c21-43e3-af9a-a6a5bb9bfaa4",
         "type": "non-combat",
-        "modified": 1741669497.833725,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-fiend-of-hollow-mine.html",
         "book_path": "Journeys through the Radiant Citadel; The Fiend of Hollow Mine; The Fiend\u2019s Identity",
-        "monsters": [
-            [
-                1,
-                "2739104-tlacatecolo",
-                1800
-            ]
-        ],
-        "text": "The fiend that Paloma\u2019s band is searching for is Serapio, a taciturn young man who lives in San Citl\u00e1n with his mother, Do\u00f1a Rosa. The son of the evil sorcerer Orencio, Serapio suffers from the corruption of the demon lord Pazuzu and has transformed into a tlacatecolo (detailed at the end of the adventure). His fiendish nature compels him to spread his curse and feed on the afflicted. When he\u2019s himself, Serapio is terrified and doesn\u2019t understand why he\u2019s changing. When he\u2019s overwhelmed by fiendish influence, he\u2019s ruled by the evil of his new form."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "2739104-tlacatecolo", 1800]
+        ]
     },
     {
+        "id": "9124c5fa-658f-4083-a07f-6bdd0945fe02",
         "type": "non-combat",
-        "modified": 1741669497.833725,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-fiend-of-hollow-mine.html",
         "book_path": "Journeys through the Radiant Citadel; The Fiend of Hollow Mine; A Town Called Hollow; Hollow",
-        "monsters": [
-            [
-                12,
-                "16798-bandit",
-                25
-            ]
-        ],
-        "text": "The road leading to the buildings is littered with items abandoned by the former residents. The armed figures are twelve bandits working for Itzmin, who has been buying property in the area to control access to the mine. The bandits won\u2019t allow the characters to access the mine without their boss\u2019s permission. If any characters ask questions or make trouble, the bandits point them to the carriage."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "16798-bandit", 25]
+        ]
     },
     {
+        "id": "594c95e0-1ef8-42d2-b709-1c2156409ec1",
         "type": "non-combat",
-        "modified": 1741669497.833725,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-fiend-of-hollow-mine.html",
         "book_path": "Journeys through the Radiant Citadel; The Fiend of Hollow Mine; A Town Called Hollow; Hollow; Itzmin",
-        "monsters": [
-            [
-                1,
-                "16836-cult-fanatic",
-                450
-            ]
-        ],
-        "text": "A spiteful tiefling in his late forties, Itzmin del Prado is a chaotic evil cult fanatic. He\u2019s also a politician and part of San Citl\u00e1n\u2019s ruling council, the Trecena, where he serves as Councilor of Arms. The public gave him the moniker Astaverde (meaning \u201cgreen horn\u201d) for his jadeite prosthetic horn."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16836-cult-fanatic", 450]
+        ]
     },
     {
+        "id": "6a528c81-aee6-41b8-9c8f-b95b1a50ed22",
         "type": "combat",
-        "modified": 1741669497.833725,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-fiend-of-hollow-mine.html",
         "book_path": "Journeys through the Radiant Citadel; The Fiend of Hollow Mine; Hollow Mine; Hollow Mine Locations; H2: Teoc\u00edn\u2019s Quarters",
-        "monsters": [
-            [
-                1,
-                "16836-cult-fanatic",
-                450
-            ],
-            [
-                2,
-                "16872-ghoul",
-                200
-            ]
-        ],
-        "text": "This chamber is the workspace of Teoc\u00edn, a cult fanatic dedicated to Pazuzu. As soon as the characters enter, Teoc\u00edn releases the two ghouls on the tables and joins them as they attack."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16836-cult-fanatic", 450],
+            [2, "16872-ghoul", 200]
+        ]
     },
     {
+        "id": "11e32b53-e392-4c45-b4f7-de8ecbf39561",
         "type": "combat",
-        "modified": 1741669497.833725,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-fiend-of-hollow-mine.html",
         "book_path": "Journeys through the Radiant Citadel; The Fiend of Hollow Mine; Hollow Mine; Hollow Mine Locations; H3: Corpse Disposal",
-        "monsters": [
-            [
-                2,
-                "16967-ochre-jelly",
-                450
-            ]
-        ],
-        "text": "Teoc\u00edn uses this chamber to dispose of her failed experiments. Two ochre jellies feed on the remains and are dissolving meals deep under piles of bones. They emerge, oozing up through the bones, as soon as they sense movement."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16967-ochre-jelly", 450]
+        ]
     },
     {
+        "id": "46e5911d-e99c-4c3d-9ad5-ed09ecbf3b89",
         "type": "combat",
-        "modified": 1741669497.833725,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-fiend-of-hollow-mine.html",
         "book_path": "Journeys through the Radiant Citadel; The Fiend of Hollow Mine; Hollow Mine; Hollow Mine Locations; H5: Wailing Cavern",
-        "monsters": [
-            [
-                2,
-                "17087-allosaurus",
-                450
-            ]
-        ],
-        "text": "If a character approaches within 10 feet of the altar, the two skeletons animate and attack. They both use the allosaurus stat block, with these changes:"
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17087-allosaurus", 450]
+        ]
     },
     {
+        "id": "7cc6fe47-b647-479c-8914-3c9c75643b4e",
         "type": "non-combat",
-        "modified": 1741669497.833725,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-fiend-of-hollow-mine.html",
         "book_path": "Journeys through the Radiant Citadel; The Fiend of Hollow Mine; Night of the Remembered; Do\u00f1a Rosa\u2019s Vecindad; Do\u00f1a Rosa",
-        "monsters": [
-            [
-                1,
-                "16829-commoner",
-                10
-            ]
-        ],
-        "text": "If the characters describe the creature they\u2019re looking for, Do\u00f1a Rosa (neutral good, human commoner) invites them into her home and tells them there is much they don\u2019t know about this fiend. Use the following information to guide the conversation:"
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
     },
     {
+        "id": "189d36b6-2cb7-4800-a3b7-350ebe7b6c10",
         "type": "non-combat",
-        "modified": 1741669497.833725,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-fiend-of-hollow-mine.html",
         "book_path": "Journeys through the Radiant Citadel; The Fiend of Hollow Mine; Night of the Remembered; Do\u00f1a Rosa\u2019s Vecindad; Itzmin\u2019s Mission",
-        "monsters": [
-            [
-                1,
-                "16836-cult-fanatic",
-                450
-            ]
-        ],
-        "text": "If Itzmin died or was captured in Hollow, one of his cult fanatic prot\u00e9g\u00e9s meets Serapio in the warehouse and takes Itzmin\u2019s place in the following chase. The characters might recognize the prot\u00e9g\u00e9 from Serapio\u2019s drawings, or Do\u00f1a Rosa can identify them as one of Itzmin\u2019s people."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16836-cult-fanatic", 450]
+        ]
     },
     {
+        "id": "a75d5046-daa9-4f14-8a07-c69613e113a9",
         "type": "combat",
-        "modified": 1741669497.833725,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-fiend-of-hollow-mine.html",
         "book_path": "Journeys through the Radiant Citadel; The Fiend of Hollow Mine; Night of the Remembered; Metalworks Confrontation; Facing Serapio",
-        "monsters": [
-            [
-                1,
-                "2739104-tlacatecolo",
-                1800
-            ]
-        ],
-        "text": "When the characters arrive, Serapio the tlacatecolo (see the end of this adventure) is lurking on the catwalk. If Itzmin has been dealt with, the young man is struggling with his fiendish form, overcome by fear and rocking back and forth. If Itzmin reached the warehouse before the characters, Serapio is expecting danger and is ready to attack."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "2739104-tlacatecolo", 1800]
+        ]
     },
     {
+        "id": "72505fe5-f0a6-48d0-aa7d-fc1d697deac7",
         "type": "combat",
-        "modified": 1741669497.9357102,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/wages-of-vice.html",
         "book_path": "Journeys through the Radiant Citadel; Wages of Vice; The River of Gold; Guilt by Association",
-        "monsters": [
-            [
-                3,
-                "17045-veteran",
-                700
-            ]
-        ],
-        "text": "Before the characters conclude their investigation of the body and the alley, three veterans wearing gold filigreed armor shout for the characters to stay where they are, attacking if the characters flee. These veterans were hired by Madame Samira Arah, the newest member of the Kings of Coin, to protect the dwarf, but they lost sight of him during the celebrations."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17045-veteran", 700]
+        ]
     },
     {
+        "id": "2da8ca63-8e63-4990-926c-25c3c20ceb29",
         "type": "non-combat",
-        "modified": 1741669497.9357102,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/wages-of-vice.html",
         "book_path": "Journeys through the Radiant Citadel; Wages of Vice; The River of Gold; Madame Samira Arah",
-        "monsters": [
-            [
-                1,
-                "17021-spy",
-                200
-            ]
-        ],
-        "text": "Madame Samira Arah (neutral, elf spy) joined the Kings of Coin within the last year. She was the chosen heir of the King of Coin she replaced but not part of their family (an important detail as it relates to Kala Mabarin\u2019s vengeance). Her peers\u2019 embrace of the status quo frustrates her grand plans for making Zinda even more prosperous. Samira plots to usurp the leadership of the Kings of Coin from Grand Messer Amos Nir and claim rulership of the city. Samira is sharp and severe, and she presents herself as haughty and imperturbable."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17021-spy", 200]
+        ]
     },
     {
+        "id": "443bfb91-5415-4cf6-86fa-7178e78e90e5",
         "type": "non-combat",
-        "modified": 1741669497.9357102,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/wages-of-vice.html",
         "book_path": "Journeys through the Radiant Citadel; Wages of Vice; On the Hunt; Mayhem in the Market; Kala Mabarin",
-        "monsters": [
-            [
-                1,
-                "16848-druid",
-                450
-            ]
-        ],
-        "text": "Kala Mabarin (neutral evil, human druid) is a skilled herbalist and datura, a protector of the spirits of the land. After years in the wilderness, she has returned to Zinda intent on vengeance. Kala entered into a pact with a biza, a type of vengeful spirit versed in sinister magic. In exchange for Kala murdering people for the biza to feed on, the spirit taught her how to make a powerful poison to facilitate her revenge. Now Kala uses what she has learned to placate the biza and wreak havoc on the Kings of Coin who murdered her mother\u2014particularly targeting their adult, firstborn heirs. Her deep rage at the Kings of Coin and Zinda is rivaled only by her joyful reverence for the spiritual world."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16848-druid", 450]
+        ]
     },
     {
+        "id": "b31b9edd-440a-4716-aae9-1b566a4e0c03",
         "type": "combat",
-        "modified": 1741669497.9357102,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/wages-of-vice.html",
         "book_path": "Journeys through the Radiant Citadel; Wages of Vice; On the Hunt; Mayhem in the Market; Breath of Vengeance",
-        "monsters": [
-            [
-                1,
-                "17045-veteran",
-                700
-            ]
-        ],
-        "text": "Poisoned Merchant. The merchant uses the veteran stat block, except his only weapon is a makeshift club\u2014treat it as a longsword that deals bludgeoning damage. He initially focuses his attack on the fallen man but randomly attacks any creature within reach. The merchant has been affected by a poison made by Kala called biza\u2019s breath (see the sidebar). A character who succeeds on a DC 14 Wisdom (Medicine) check notices that the man\u2019s glassy eyes and puppet-like movement suggest he has been drugged in some way. A protection from poison spell or similar magic ends the effect on the merchant."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17045-veteran", 700]
+        ]
     },
     {
+        "id": "8dc7a02e-f8be-4929-b878-bb0915266911",
         "type": "non-combat",
-        "modified": 1741669497.9357102,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/wages-of-vice.html",
         "book_path": "Journeys through the Radiant Citadel; Wages of Vice; On the Hunt; The Thornapple; Myx Nargis Ruba",
-        "monsters": [
-            [
-                1,
-                "16966-noble",
-                25
-            ]
-        ],
-        "text": "Myx Nargis Ruba (neutral evil, orc noble) is one of Zenia\u2019s parents and also a King of Coin. Nargis is overseer of the Tavern Keepers Trade and spends much of their time at the Thornapple, the centerpiece of their family\u2019s fortune."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
     },
     {
+        "id": "89a546dc-abb2-490a-b1b3-30b8a2cec3e7",
         "type": "non-combat",
-        "modified": 1741669497.9357102,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/wages-of-vice.html",
         "book_path": "Journeys through the Radiant Citadel; Wages of Vice; On the Hunt; The Thornapple; Meeting with Zenia",
-        "monsters": [
-            [
-                2,
-                "16915-guard",
-                25
-            ]
-        ],
-        "text": "Two Silent Verse guards sit at a table near the stage with Zenia, but they depart to allow the characters to sit if they see Samira\u2019s token. The tables near hers are packed with revelers, but the din of conversation makes it easy to talk without being heard."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16915-guard", 25]
+        ]
     },
     {
+        "id": "aef8296f-9371-4f9b-beae-2fbdb604647a",
         "type": "non-combat",
-        "modified": 1741669497.9357102,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/wages-of-vice.html",
         "book_path": "Journeys through the Radiant Citadel; Wages of Vice; On the Hunt; The Thornapple; Meeting with Zenia",
-        "monsters": [
-            [
-                1,
-                "16829-commoner",
-                10
-            ]
-        ],
-        "text": "Zenia greets the characters warmly. She is a gray-skinned orc commoner with her hair braided in elegant loops. She has an easygoing demeanor but is clearly nervous. Zenia is thrilled to meet adventurers and asks about the characters\u2019 work and travels. She admits to considering the adventuring life herself but knows that Nargis would never allow it."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
     },
     {
+        "id": "feb90438-72f2-48ad-8b3f-eff3304f0558",
         "type": "combat",
-        "modified": 1741669497.9357102,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/wages-of-vice.html",
         "book_path": "Journeys through the Radiant Citadel; Wages of Vice; On the Hunt; The Thornapple; Attack of the Divas",
-        "monsters": [
-            [
-                1,
-                "16790-assassin",
-                3900
-            ],
-            [
-                2,
-                "17007-scout",
-                100
-            ]
-        ],
-        "text": "Diva Luma uses the assassin stat block, but her only weapon is her wicked, high-heeled shoe, which functions as a Shortsword attack without poison. The other two divas use the scout stat block and attack only with broken bottles that function the same as their Shortsword attack. As the divas are all under the effects of biza\u2019s breath, they each randomly make one melee attack against Zenia or a character on their turns. All three divas fail their saving throws to resist the poison affecting them for three rounds. On the fourth round, they overcome the effects of biza\u2019s breath and groggily stop attacking."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16790-assassin", 3900],
+            [2, "17007-scout", 100]
+        ]
     },
     {
+        "id": "c23ab33b-d150-4274-9a2b-b76130789510",
         "type": "combat",
-        "modified": 1741669497.9357102,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/wages-of-vice.html",
         "book_path": "Journeys through the Radiant Citadel; Wages of Vice; Peril at the Parade; Parade Ambush; Kala\u2019s Attack",
-        "monsters": [
-            [
-                2,
-                "16915-guard",
-                25
-            ],
-            [
-                1,
-                "16848-druid",
-                450
-            ],
-            [
-                1,
-                "17064-wraith",
-                1800
-            ]
-        ],
-        "text": "Guards. The two guards are affected by the poison biza\u2019s breath (detailed in a sidebar earlier in this adventure). They automatically fail their saving throws to end the poison\u2019s effect. The guards make one melee attack against a randomly determined creature within reach each round for 1 minute before the poison\u2019s effect ends.\nKala. Kala uses the druid stat block and has already cast barkskin, giving her AC 16. She keeps her distance from the poisoned guards as she tries to kill Azra Nir using produce flame and thunderwave. She has three more doses of biza\u2019s breath, but they are prepared for use in combat."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16915-guard", 25],
+            [1, "16848-druid", 450],
+            [1, "17064-wraith", 1800]
+        ]
     },
     {
+        "id": "2ea3add8-0eab-4407-ba77-2fd5f7783fd9",
         "type": "combat",
-        "modified": 1741669498.122932,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/sins-of-our-elders.html",
         "book_path": "Journeys through the Radiant Citadel; Sins of Our Elders; Starting the Adventure; Peril in the Fog",
         "allies": [
-            [
-                2,
-                "16915-guard",
-                25
-            ]
+            [2, "16915-guard", 25]
         ],
-        "monsters": [
-            [
-                3,
-                "16868-gargoyle",
-                450
-            ]
-        ],
-        "text": "Soon after the characters arrive at the gate, three hostile gargoyles swoop down to menace the people nearby. The gargoyles all resemble the same fierce-looking woman with a mouth full of fangs, claw-like nails, and feathered wings. Two guards cover the retreat of panicked locals as the gargoyles attack traders\u2019 wagons or anything that threatens them. The gargoyles fight until destroyed, and they dissipate into mist when defeated, leaving no remains behind."
+        "bystanders": [],
+        "enemies": [
+            [3, "16868-gargoyle", 450]
+        ]
     },
     {
+        "id": "347701fe-ce99-4d1d-be77-35da9e157f6b",
         "type": "non-combat",
-        "modified": 1741669498.122932,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/sins-of-our-elders.html",
         "book_path": "Journeys through the Radiant Citadel; Sins of Our Elders; Starting the Adventure; Distressed Magistrate; Kun Ahn-Jun",
-        "monsters": [
-            [
-                1,
-                "16966-noble",
-                25
-            ]
-        ],
-        "text": "Magistrate Kun Ahn-Jun (neutral good, human noble) is a rising star in Yeonido\u2019s city bureaucracy despite their unassuming presence. They are humble and shy but show their inner strength during crises. Thanks to their ring of mind shielding\u2014a gift from their mother, who was also a magistrate\u2014they have not been affected by Wong-Ha\u2019s curse, as the spirit can\u2019t telepathically alter Ahn-Jun\u2019s memories. Ahn-Jun treasures the ring and usually keeps it invisible\u2014a property of the ring\u2014while wearing it. The magistrate takes little solace in this protection, though, as they don\u2019t know what\u2019s befallen the city or why, and they fear the strangeness is all in their own mind."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
     },
     {
+        "id": "6d67c0ff-9554-47d3-93c9-ac26b66a8af4",
         "type": "non-combat",
-        "modified": 1741669498.122932,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/sins-of-our-elders.html",
         "book_path": "Journeys through the Radiant Citadel; Sins of Our Elders; Exploring Yeonido; Tiger District; What the Overseer Knows",
-        "monsters": [
-            [
-                1,
-                "16915-guard",
-                25
-            ]
-        ],
-        "text": "Hwang Jung-Soon (lawful good, human guard) is friendly and speaks evenly, but she\u2019s frustrated by her site\u2019s setbacks and is protective of her workers. She wants to know what the characters\u2019 business is at the potentially dangerous construction site and asks them to leave if they seem to simply be sightseeing. If the characters openly carry weapons, she\u2019s hopeful that they\u2019ve been hired by the magistrates to investigate the recent accidents at the site."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16915-guard", 25]
+        ]
     },
     {
+        "id": "3130a76e-a013-46a3-ac03-db6826e10802",
         "type": "combat",
-        "modified": 1741669498.122932,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/sins-of-our-elders.html",
         "book_path": "Journeys through the Radiant Citadel; Sins of Our Elders; Exploring Yeonido; Tiger District; Work Site Attack",
-        "monsters": [
-            [
-                4,
-                "17002-saber-toothed-tiger",
-                450
-            ]
-        ],
-        "text": "A moment after the fog rises, four tigers (use the saber-toothed tiger stat block) appear from the direction of the forest. These hostile tigers are 12 feet long and have blue-tinged fur. The site\u2019s workers and hired guards flee upon seeing the tigers, but Jung-Soon stands her ground. The tigers attack her or any creature that appears to be a greater threat."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17002-saber-toothed-tiger", 450]
+        ]
     },
     {
+        "id": "7265f085-e6fa-425f-970d-6247cf40c68d",
         "type": "non-combat",
-        "modified": 1741669498.122932,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/sins-of-our-elders.html",
         "book_path": "Journeys through the Radiant Citadel; Sins of Our Elders; Exploring Yeonido; Phoenix District; The Tea Shop",
-        "monsters": [
-            [
-                1,
-                "16966-noble",
-                25
-            ]
-        ],
-        "text": "The owner, a talkative, neutral human noble named Bi Chin-Hae, greets everyone who enters, offering to prepare them a pot of buckwheat or jujube tea. Chin-Hae grows taciturn if asked about the recent attack near his shop or the troubles in the city, speaking about these events only in vague terms\u2014he doesn\u2019t want the area around his shop to be considered dangerous. A character who purchases a pot of tea for 2 sp or who succeeds on a DC 12 Charisma (Persuasion) check can convince Chin-Hae to mention that the two nobles attacked near his shop were named Nah Dae-Shim and Da Ju-Won and that they often play the game of baduk at the nearby baduk hall, a raised courtyard that\u2019s the social center of the Phoenix District."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
     },
     {
+        "id": "be8cbd1e-76a8-4e09-a036-3212ed70000f",
         "type": "non-combat",
-        "modified": 1741669498.122932,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/sins-of-our-elders.html",
         "book_path": "Journeys through the Radiant Citadel; Sins of Our Elders; Exploring Yeonido; Phoenix District; Baduk Hall",
-        "monsters": [
-            [
-                1,
-                "16966-noble",
-                25
-            ]
-        ],
-        "text": "Nah Dae-Shim, a dwarf man, and Da Ju-Won, a human woman, are in the middle of an intense game. Both are neutral nobles. They\u2019re not unfriendly, but they\u2019re not interested in talking at the moment. The pair are happy to talk after their game\u2014but it will take 3 hours to reach its conclusion. A character who succeeds on a DC 16 Charisma (Persuasion) check convinces the nobles to take a break from their game to talk. Alternatively, a character who watches their game and succeeds on a DC 16 Wisdom (Insight) check can point out strategic opportunities in the game to both sides, causing the game to conclude in 10 minutes."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
     },
     {
+        "id": "49a274d3-045e-4e03-a57d-8723f7a99441",
         "type": "non-combat",
-        "modified": 1741669498.122932,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/sins-of-our-elders.html",
         "book_path": "Journeys through the Radiant Citadel; Sins of Our Elders; Exploring Yeonido; Estate Gardens",
-        "monsters": [
-            [
-                4,
-                "16915-guard",
-                25
-            ]
-        ],
-        "text": "Former royal advisor Young-Gi spends little time at the great palace known as the Seat of Dragons these days, instead enjoying retirement in the gardens of his small estate, where the Phoenix District meets the Haetae District. The characters might learn about Young-Gi from Chin-Hae at the Tea Shop or by speaking with Kun Ahn-Jun. Four guards at the gate to Young-Gi\u2019s estate prevent strangers from meeting with the nobleman uninvited, but Ahn-Jun can provide the characters with a message to win them a meeting. Alternatively, a character who succeeds on a DC 16 Charisma (Intimidation or Persuasion) check convinces the guards to let them see Young-Gi."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16915-guard", 25]
+        ]
     },
     {
+        "id": "65ca34d1-58cd-4cd7-871b-4b038323acaa",
         "type": "non-combat",
-        "modified": 1741669498.122932,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/sins-of-our-elders.html",
         "book_path": "Journeys through the Radiant Citadel; Sins of Our Elders; Exploring Yeonido; Estate Gardens; Young-Gi",
-        "monsters": [
-            [
-                1,
-                "16966-noble",
-                25
-            ]
-        ],
-        "text": "As the uncle of the current queen, Jin-Mi, and brother of the previous queen, Young-Soo, Young-Gi (neutral, dragonborn noble) is accustomed to wealth and privilege. A life spent enjoying his status has made him charming and personable but also haughty. As he ages, however, he remembers the few true friends he once had and regrets how he treated Dae Won-Ha."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
     },
     {
+        "id": "0a93728a-1e3c-42eb-9c7e-b6ec4262fe8c",
         "type": "combat",
-        "modified": 1741669498.122932,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/sins-of-our-elders.html",
         "book_path": "Journeys through the Radiant Citadel; Sins of Our Elders; Spirit of the Past",
-        "monsters": [
-            [
-                1,
-                "16871-ghost",
-                1100
-            ],
-            [
-                2,
-                "16868-gargoyle",
-                450
-            ]
-        ],
-        "text": "A mysterious fog covers the park, lightly obscuring the area. The gwishin of Dae Won-Ha manifests from the fog at the base of the statue as a ghost. She appears as a middle-aged woman with dark hair and mournful features. Two gargoyles emerge out of the mist along with the spirit; like the gargoyles from the start of the adventure, they bear Won-Ha\u2019s face. Once defeated, these creatures discorporate into fog. Won-Ha\u2019s gwishin reappears 24 hours later, though, and continues to imperil the city until she is put to rest."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16871-ghost", 1100],
+            [2, "16868-gargoyle", 450]
+        ]
     },
     {
+        "id": "76118ec6-2f16-46de-8fcd-b1d5f47a51b1",
         "type": "non-combat",
-        "modified": 1741669498.2544458,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/gold-for-fools-and-princes.html",
         "book_path": "Journeys through the Radiant Citadel; Gold for Fools and Princes; Starting the Adventure; Rival Princes; Overseer Uzoma",
-        "monsters": [
-            [
-                1,
-                "16915-guard",
-                25
-            ]
-        ],
-        "text": "Uzoma Baten (lawful good, dwarf guard) was selected as the Goldwarren\u2019s overseer due to her compassion and diligence. She sees this position as the highest possible honor and strives daily to be worthy as she labors alongside her fellow miners. Determined to do right by them, Uzoma doesn\u2019t hesitate to challenge orders she deems unfair\u2014even if those orders come directly from King Diara."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16915-guard", 25]
+        ]
     },
     {
+        "id": "b2d09819-9e8b-441c-82dd-995a5ecf780b",
         "type": "combat",
-        "modified": 1741669498.2544458,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/gold-for-fools-and-princes.html",
         "book_path": "Journeys through the Radiant Citadel; Gold for Fools and Princes; Starting the Adventure; Princes and Scorpions",
         "allies": [
-            [
-                2,
-                "17045-veteran",
-                700
-            ]
+            [2, "17045-veteran", 700]
         ],
-        "monsters": [
-            [
-                5,
-                "16892-giant-scorpion",
-                700
-            ]
-        ],
-        "text": "The crowd flees, leaving only the characters and the princes to face five giant scorpions. Uzoma stands back and watches as the encounter unfolds.\nThe princes are friendly toward the characters and are quick to ally with them. Both use the veteran stat block, but they have only AC 11 and their Multiattack and Longsword actions. If a prince is reduced to half of his hit points or fewer, he uses the Dodge action to avoid taking further damage."
+        "bystanders": [],
+        "enemies": [
+            [5, "16892-giant-scorpion", 700]
+        ]
     },
     {
+        "id": "f9fd3462-89f5-408b-9b54-aa02cc9449fa",
         "type": "non-combat",
-        "modified": 1741669498.2544458,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/gold-for-fools-and-princes.html",
         "book_path": "Journeys through the Radiant Citadel; Gold for Fools and Princes; Anisa Academy; Audience with the High Priest",
-        "monsters": [
-            [
-                2,
-                "16915-guard",
-                25
-            ]
-        ],
-        "text": "When Simbon and the characters arrive at the library, a librarian ushers the group to Kedjou\u2019s private room on the library\u2019s top floor. Outside, two guards stand alert. Within, open tomes and scrolls lie spread across several tables, and Kedjou makes no effort to hide any of his notes, haughtily assuming no adventurer riffraff will understand it. Behind a screen in the corner stands a bed, suggesting the room doubles as Kedjou\u2019s quarters."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16915-guard", 25]
+        ]
     },
     {
+        "id": "017ebd26-190f-413e-9d6d-2e3bb0d9d928",
         "type": "non-combat",
-        "modified": 1741669498.2544458,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/gold-for-fools-and-princes.html",
         "book_path": "Journeys through the Radiant Citadel; Gold for Fools and Princes; Anisa Academy; Audience with the High Priest; High Priest Kedjou",
-        "monsters": [
-            [
-                1,
-                "16985-priest",
-                450
-            ]
-        ],
-        "text": "Kedjou Kamal (neutral evil, human priest) was raised in an orphanage run by the Acolytes of the Faceless Prophet (detailed in the \u201cSensa Empire Gazetteer\u201d section) and has long coveted power. As high priest, Kedjou does little to combat allegations of the Acolytes\u2019 corruption\u2014and in fact, he\u2019s behind much of that corruption. He is single-mindedly focused on securing an advisory position to Empress Inaya\u2019s heir. This mission has brought him into a pact with Kirina, Prince of Niba. The prince has offered Kedjou the position the priest seeks if he helps Kirina take the throne."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16985-priest", 450]
+        ]
     },
     {
+        "id": "4f565f50-24df-4e23-aeb0-1bef6a83f6bf",
         "type": "non-combat",
-        "modified": 1741669498.2544458,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/gold-for-fools-and-princes.html",
         "book_path": "Journeys through the Radiant Citadel; Gold for Fools and Princes; The Goldwarren",
-        "monsters": [
-            [
-                2,
-                "17045-veteran",
-                700
-            ]
-        ],
-        "text": "A crowd gathers around the mine\u2019s huge entrance tunnel. Nearby, Uzoma and Prince Kirina watch as miners inspect the new posts shoring up the damaged tunnel. Uzoma welcomes the characters and asks them to enter the mine and find the missing miners. Both Prince Kirina and Prince Simbon plan to join the characters and won\u2019t be dissuaded."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17045-veteran", 700]
+        ]
     },
     {
+        "id": "460eb215-8703-4ef0-b219-1fa3ed7e3813",
         "type": "combat",
-        "modified": 1741669498.2544458,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/gold-for-fools-and-princes.html",
         "book_path": "Journeys through the Radiant Citadel; Gold for Fools and Princes; The Goldwarren; Goldwarren Locations; G1: Junction Tunnel",
-        "monsters": [
-            [
-                5,
-                "2739093-aurumvorax",
-                450
-            ]
-        ],
-        "text": "As the party approaches the turntable, characters who have a passive Wisdom (Perception) score of 14 or higher hear skittering emanating from a nearby tunnel. Characters who have lower scores are surprised when several many-legged creatures hurtle out of the northwest passage. These five aurumvoraxes (detailed in the \u201cAurumvoraxes\u201d section at the end of this adventure) are hostile and rush to attack."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "2739093-aurumvorax", 450]
+        ]
     },
     {
+        "id": "ff790156-d8a1-4bc0-8aba-49f27218edf2",
         "type": "combat",
-        "modified": 1741669498.2544458,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/gold-for-fools-and-princes.html",
         "book_path": "Journeys through the Radiant Citadel; Gold for Fools and Princes; The Goldwarren; Goldwarren Locations; G1: Junction Tunnel",
-        "monsters": [
-            [
-                2,
-                "2739093-aurumvorax",
-                450
-            ]
-        ],
-        "text": "Multiple Paths. Awa wasn\u2019t sure which of the southern tunnels he fled through. Characters who search the area and succeed on a DC 14 Wisdom (Survival) check see that numerous aurumvorax claw marks lead from the southwest tunnel. If the characters head down that tunnel, they reach area G2 after 5 minutes of walking. If they follow any other tunnel, they reach a dead end after 10 minutes and have a 50 percent chance of encountering two aurumvoraxes gnawing on a seam of gold ore. These aurumvoraxes fight to the death and vanish when reduced to 0 hit points."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "2739093-aurumvorax", 450]
+        ]
     },
     {
+        "id": "dec2d648-931e-4496-82cb-328f975313f5",
         "type": "combat",
-        "modified": 1741669498.2544458,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/gold-for-fools-and-princes.html",
         "book_path": "Journeys through the Radiant Citadel; Gold for Fools and Princes; The Goldwarren; Goldwarren Locations; G3: Newly Dug Caverns",
-        "monsters": [
-            [
-                1,
-                "16887-giant-lizard",
-                50
-            ]
-        ],
-        "text": "Lounging Lizard. A friendly giant lizard lairs in one cavern. It was partly tamed by the miners and allowed to hunt rats and other vermin. The lizard charges the characters as soon as it spots them but doesn\u2019t attack immediately. Characters who succeed on a DC 14 Intelligence (Nature) check realize the creature is tame and hungry. The lizard attacks the characters only if they injure it, or if it\u2019s not placated with offerings of food."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16887-giant-lizard", 50]
+        ]
     },
     {
+        "id": "1f0cfc17-9db3-4a67-8a18-cfbed80aecda",
         "type": "combat",
-        "modified": 1741669498.2544458,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/gold-for-fools-and-princes.html",
         "book_path": "Journeys through the Radiant Citadel; Gold for Fools and Princes; The Goldwarren; Goldwarren Locations; G5: Aurumvorax Nest",
-        "monsters": [
-            [
-                5,
-                "2739093-aurumvorax",
-                450
-            ],
-            [
-                1,
-                "2739092-aurumvorax-den-leader",
-                1100
-            ]
-        ],
-        "text": "A tunnel dug by claws, not pick and shovel, extends from the easternmost of the newly dug caverns. As the characters approach, they hear sounds of movement from the large cavern beyond. This is the nest of the aurumvorax pack, including five aurumvoraxes and an aurumvorax den leader (detailed in the \u201cAurumvorax\u201d section at the end of this adventure). Characters who want to sneak up on the aurumvoraxes can attempt a group DC 13 Dexterity (Stealth) check. (Assume one prince succeeds at the check and the other fails, canceling each other out.) With a successful group check, the aurumvoraxes are surprised."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "2739093-aurumvorax", 450],
+            [1, "2739092-aurumvorax-den-leader", 1100]
+        ]
     },
     {
+        "id": "88c945ed-d495-4d49-b20f-1786bfeee66e",
         "type": "combat",
-        "modified": 1741669498.3759239,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/trail-of-destruction.html",
         "book_path": "Journeys through the Radiant Citadel; Trail of Destruction; Starting the Adventure",
         "allies": [
-            [
-                3,
-                "16985-priest",
-                450
-            ]
+            [3, "16985-priest", 450]
         ],
-        "monsters": [
-            [
-                2,
-                "17199-fire-snake",
-                200
-            ],
-            [
-                2,
-                "17004-salamander",
-                1800
-            ]
-        ],
-        "text": "Two fire snakes and two salamanders have ambushed three travelers from Etizalan. The three travelers use the priest stat block and fight to defend a wagon full of food, flowers, and colorful crafts. If the characters defend the travelers, the Elemental creatures focus their attacks on the newcomers."
+        "bystanders": [],
+        "enemies": [
+            [2, "17199-fire-snake", 200],
+            [2, "17004-salamander", 1800]
+        ]
     },
     {
+        "id": "bae5c9bf-9a09-4099-aad9-126ac5276c53",
         "type": "combat",
-        "modified": 1741669498.3759239,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/trail-of-destruction.html",
         "book_path": "Journeys through the Radiant Citadel; Trail of Destruction; The Way Up; Volcanic Threats",
-        "monsters": [
-            [
-                2,
-                "17004-salamander",
-                1800
-            ]
-        ],
-        "text": "Volcanic activity increases as the awakening of the tlexolotl Izel affects the region. While the characters travel, the earth occasionally shakes anew. During the journey, roll on the Volcanic Awakening table every 12 hours or whenever you desire. You can also have two salamanders ambush the party as these volcanic events take place."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17004-salamander", 1800]
+        ]
     },
     {
+        "id": "7e56eb93-ce8b-42b9-ad69-7b9bec8816f9",
         "type": "non-combat",
-        "modified": 1741669498.3759239,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/trail-of-destruction.html",
         "book_path": "Journeys through the Radiant Citadel; Trail of Destruction; Twin Gods Observatory; Meeting the Watchers",
-        "monsters": [
-            [
-                3,
-                "16763-acolyte",
-                50
-            ]
-        ],
-        "text": "When the characters arrive, three Watchers (neutral, human acolytes) greet them with a hint of disdain. The Watchers explain they are aware of the unusual volcanic activity and are doing their best to determine the cause, but their work will proceed faster if they\u2019re not interrupted. They initially claim to know nothing about warriors from Etizalan."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16763-acolyte", 50]
+        ]
     },
     {
+        "id": "1e5c8201-ccf0-47b7-b684-ff83178126cb",
         "type": "non-combat",
-        "modified": 1741669498.3759239,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/trail-of-destruction.html",
         "book_path": "Journeys through the Radiant Citadel; Trail of Destruction; Twin Gods Observatory; Disaster Strikes",
-        "monsters": [
-            [
-                1,
-                "16985-priest",
-                450
-            ]
-        ],
-        "text": "Tonalli. The leader of the Watchers, Tonalli (lawful neutral, dwarf priest), is on the rooftop when the structure begins to collapse. He survives only if the characters reach the roof and encourage him to flee back down the stairs immediately or save him via some other method. Desperate to escape, he eagerly follows the characters\u2019 instructions."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16985-priest", 450]
+        ]
     },
     {
+        "id": "40e29c08-8000-42f3-b757-0ad1bca8941a",
         "type": "combat",
-        "modified": 1741669498.3759239,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/trail-of-destruction.html",
         "book_path": "Journeys through the Radiant Citadel; Trail of Destruction; Traveling to the Gate; Ashen Battlefield; Giant\u2019s Wrath",
-        "monsters": [
-            [
-                1,
-                "16862-fire-giant",
-                5000
-            ]
-        ],
-        "text": "This is the fire giant Xocopol, whom characters might have learned about in Etizalan. Xocopol is neutral. He wields a massive hammer, which deals bludgeoning damage but is otherwise identical to a fire giant\u2019s Greatsword attack. He can speak Common, Giant, and Tletlahtolli."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16862-fire-giant", 5000]
+        ]
     },
     {
+        "id": "32d88671-dae0-4684-8f8d-eb46fb07ee4f",
         "type": "combat",
-        "modified": 1741669498.3759239,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/trail-of-destruction.html",
         "book_path": "Journeys through the Radiant Citadel; Trail of Destruction; Gate of Illumination; Gate of Illumination Locations; I2: Hall of Histories",
-        "monsters": [
-            [
-                1,
-                "17004-salamander",
-                1800
-            ],
-            [
-                4,
-                "17199-fire-snake",
-                200
-            ]
-        ],
-        "text": "People who bring their offerings to the gods prepare their prayers in this area, meditating on the blessing they want. A salamander and four fire snakes are in this room. The salamander stands guard before the door to area I5, while each fire snake lingers near one of the room\u2019s pillars. These creatures are hostile and attack any strangers that enter the room."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17004-salamander", 1800],
+            [4, "17199-fire-snake", 200]
+        ]
     },
     {
+        "id": "aece8818-1af8-4e1b-b6e8-21c8491f4bc2",
         "type": "combat",
-        "modified": 1741669498.3759239,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/trail-of-destruction.html",
         "book_path": "Journeys through the Radiant Citadel; Trail of Destruction; Gate of Illumination; Gate of Illumination Locations; I5: Preparation Room",
-        "monsters": [
-            [
-                1,
-                "17004-salamander",
-                1800
-            ]
-        ],
-        "text": "The salamanders serving Izel have brought the stolen offerings here. One salamander is currently organizing the offerings. It attacks any strangers who enter the chamber."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17004-salamander", 1800]
+        ]
     },
     {
+        "id": "7c3ee8eb-f006-4f78-81c4-89f3fe0a7039",
         "type": "combat",
-        "modified": 1741669498.3759239,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/trail-of-destruction.html",
         "book_path": "Journeys through the Radiant Citadel; Trail of Destruction; Gate of Illumination; Gate of Illumination Locations; I6: Caldera",
-        "monsters": [
-            [
-                1,
-                "2739105-tlexolotl",
-                5900
-            ]
-        ],
-        "text": "The magmatic pool at the heart of Jademount is the lair of the tlexolotl (detailed at the end of this adventure) named Izel. The tlexolotl resents any interruptions to his plans. The four humans chained to the wall are the missing warriors from Etizalan."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "2739105-tlexolotl", 5900]
+        ]
     },
     {
+        "id": "6d23d761-c7db-485e-bb6b-08d3c7032139",
         "type": "combat",
-        "modified": 1741669498.5124614,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/in-the-mists-of-manivarsha.html",
         "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; Storm of Destruction; Mass Destruction",
-        "monsters": [
-            [
-                1,
-                "17030-swarm-of-poisonous-snakes",
-                450
-            ]
-        ],
-        "text": "The wave washes a hostile swarm of poisonous snakes into the nearby crowd."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17030-swarm-of-poisonous-snakes", 450]
+        ]
     },
     {
+        "id": "ada215fe-3e2a-4cdb-a1a5-9d7455aa8197",
         "type": "combat",
-        "modified": 1741669498.5124614,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/in-the-mists-of-manivarsha.html",
         "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; Storm of Destruction; Chaos at the Temple",
-        "monsters": [
-            [
-                1,
-                "17051-water-elemental",
-                1800
-            ],
-            [
-                2,
-                "17208-water-weird",
-                700
-            ]
-        ],
-        "text": "A hostile water elemental and two water weirds with heads shaped like king cobras attack anyone who comes near the temple."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17051-water-elemental", 1800],
+            [2, "17208-water-weird", 700]
+        ]
     },
     {
+        "id": "b22175de-2c3f-4459-a44a-407b4a8534e5",
         "type": "combat",
-        "modified": 1741669498.5124614,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/in-the-mists-of-manivarsha.html",
         "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; The Swamp Forest",
-        "monsters": [
-            [
-                1,
-                "17037-treant",
-                5000
-            ]
-        ],
-        "text": "A mangrove-shaped treant blocks the path forward. The treant moves only if the party listens to its hour-long ode to the swamp, or if a character succeeds on a DC 18 Charisma (Persuasion) check to convince it to let the skiff pass."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17037-treant", 5000]
+        ]
     },
     {
+        "id": "4dd9672c-761f-41ba-9f93-5316e3907eb4",
         "type": "combat",
-        "modified": 1741669498.5124614,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/in-the-mists-of-manivarsha.html",
         "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; The Swamp Forest",
-        "monsters": [
-            [
-                1,
-                "17019-spirit-naga",
-                3900
-            ]
-        ],
-        "text": "A spirit naga appears and asks where the characters are heading. It offers to give a single character its magical treasure, a pearl of power, if that character is brave enough to let it bite them three times."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17019-spirit-naga", 3900]
+        ]
     },
     {
+        "id": "1232b6a2-14bf-47c7-90aa-4a25328930b6",
         "type": "combat",
-        "modified": 1741669498.5124614,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/in-the-mists-of-manivarsha.html",
         "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; The Swamp Forest",
-        "monsters": [
-            [
-                6,
-                "17173-mud-mephit",
-                50
-            ]
-        ],
-        "text": "Six swamp spirits (use the mud mephit stat block) emerge from the river, demanding that the characters hand over their shiniest valuables. They can be driven off with force or a successful DC 14 Charisma (Intimidation) check."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "17173-mud-mephit", 50]
+        ]
     },
     {
+        "id": "6576a342-f3b9-420e-862b-d71512a5aaf2",
         "type": "combat",
-        "modified": 1741669498.5124614,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/in-the-mists-of-manivarsha.html",
         "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; The Swamp Forest; Falls Clearing",
-        "monsters": [
-            [
-                3,
-                "17056-weretiger",
-                1100
-            ]
-        ],
-        "text": "As Dukha ties up the boat, characters who succeed on a DC 14 Wisdom (Perception) check notice several pairs of green, feline eyes watching from amid the island\u2019s foliage. Upon being noticed or soon after the characters land on the island, three hostile weretigers in hybrid form emerge with longbows drawn. They gauge the party\u2019s intentions for 1 round before attacking. A character who talks to the weretigers during this round can convince them not to attack by succeeding on a DC 16 Charisma (Intimidation or Persuasion) check. Even if the weretigers do attack, a character who spends an action can attempt this check, convincing the weretigers to stand down if they\u2019re successful. All the weretigers flee from combat when any of them are reduced to 10 hit points or fewer."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17056-weretiger", 1100]
+        ]
     },
     {
+        "id": "f3648a22-e061-4c76-a54c-a0f485024d3d",
         "type": "combat",
-        "modified": 1741669498.5124614,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/in-the-mists-of-manivarsha.html",
         "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; The Swamp Forest; Headwater Pool",
-        "monsters": [
-            [
-                1,
-                "17031-swarm-of-quippers",
-                200
-            ]
-        ],
-        "text": "From where Dukha moors his boat, the characters can follow an indirect but mostly dry path to the cliffs the parallel waterfalls cascade down. Climbing the slippery, 20-foot-tall rock face around the waterfalls requires a successful DC 12 Strength (Athletics) check. Those who fail the check fall 10 feet into the water. If more than one character falls, a swarm of quippers takes notice and attacks."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17031-swarm-of-quippers", 200]
+        ]
     },
     {
+        "id": "b5bd40eb-f876-4ad1-a84e-20b0e205bcb9",
         "type": "combat",
-        "modified": 1741669498.5124614,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/in-the-mists-of-manivarsha.html",
         "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; The Swamp Forest; Headwater Pool",
         "allies": [
-            [
-                1,
-                "2739101-riverine",
-                8400
-            ]
+            [1, "2739101-riverine", 8400]
         ],
-        "monsters": [
-            [
-                2,
-                "17051-water-elemental",
-                1800
-            ]
-        ],
-        "text": "Tinjhorna the riverine (detailed at the end of this adventure) is speaking in Aquan and trying to calm a pair of water elementals corrupted by the strange magic afflicting his river."
+        "bystanders": [],
+        "enemies": [
+            [2, "17051-water-elemental", 1800]
+        ]
     },
     {
+        "id": "f34bcce7-0ca0-4e18-8beb-efce44e4aff0",
         "type": "combat",
-        "modified": 1741669498.5124614,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/in-the-mists-of-manivarsha.html",
         "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; Forest of Hands",
-        "monsters": [
-            [
-                3,
-                "16808-black-pudding",
-                1100
-            ]
-        ],
-        "text": "Three clots of animate angul tree sap (use the black pudding stat block) attack from underwater."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16808-black-pudding", 1100]
+        ]
     },
     {
+        "id": "77f6cf80-8950-4db1-a721-5388c1b4420c",
         "type": "combat",
-        "modified": 1741669498.5124614,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/in-the-mists-of-manivarsha.html",
         "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; Forest of Hands",
-        "monsters": [
-            [
-                2,
-                "17060-will-o-wisp",
-                450
-            ],
-            [
-                2,
-                "16929-hydra",
-                3900
-            ]
-        ],
-        "text": "Fog rises and lightly obscures the forest. Through it, two will-o-wisps try to lead the characters into the path of a hostile hydra."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17060-will-o-wisp", 450],
+            [2, "16929-hydra", 3900]
+        ]
     },
     {
+        "id": "8aee1ded-e1e0-437a-9520-50ca0f9b454f",
         "type": "combat",
-        "modified": 1741669498.5124614,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/in-the-mists-of-manivarsha.html",
         "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; Forest of Hands",
-        "monsters": [
-            [
-                1,
-                "17146-fomorian",
-                3900
-            ]
-        ],
-        "text": "A fomorian hermit blocks the boat\u2019s passage. It demands the characters cook a meal for it, or it will eat them. It likes only disgusting food."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17146-fomorian", 3900]
+        ]
     },
     {
+        "id": "3c6f73bd-6fae-4328-865f-c0b8494a3ce6",
         "type": "combat",
-        "modified": 1741669498.5124614,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/in-the-mists-of-manivarsha.html",
         "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; Forest of Hands; Jijibisha\u2019s Vengeance",
-        "monsters": [
-            [
-                1,
-                "17126-ultroloth",
-                10000
-            ]
-        ],
-        "text": "Jijibisha Manivarshi uses the ultroloth stat block, but she has access to only the wall of fire spell and the at-will spells from her Innate Spellcasting trait. Despite her fiendish powers, she looks like an ancient, withered human."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17126-ultroloth", 10000]
+        ]
     },
     {
+        "id": "6826dcc6-84a3-439b-bdd5-88af9f0840a0",
         "type": "non-combat",
-        "modified": 1741669498.6340325,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/between-tangled-roots.html",
         "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Starting the Adventure; Destruction in Kalapang",
-        "monsters": [
-            [
-                1,
-                "16829-commoner",
-                10
-            ]
-        ],
-        "text": "Before the characters can go with Nimuel, the character who has the highest passive Wisdom (Perception) score notices something moving amid the debris. A character who investigates realizes someone\u2019s trapped in the rubble. Clearing the rubble safely requires a character to make a DC 14 Strength (Athletics) check. On a failed check, they find one of the home\u2019s residents (a commoner) unconscious with 0 hit points. On a successful check, they find the resident coughing but largely unharmed. Whether found conscious or restored by healing, the resident thanks the characters. The resident can\u2019t reward the characters but speaks well of them to the whole neighborhood\u2014a development that impresses Nimuel."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16829-commoner", 10]
+        ]
     },
     {
+        "id": "ba5b1420-46c0-4d04-8aaf-ab703d9e7b89",
         "type": "non-combat",
-        "modified": 1741669498.6340325,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/between-tangled-roots.html",
         "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Starting the Adventure; The Spirit and the Storyteller; Nimuel",
-        "monsters": [
-            [
-                1,
-                "16947-mage",
-                2300
-            ]
-        ],
-        "text": "Nimuel (neutral good, human mage) is a binukot in Kalapang, a scholar who collects and orally shares the region\u2019s wisdom, laws, traditions, culture, songs, poetry, literature, and more. Though young, she is so distinguished that many come to her for guidance and for stewarding their own stories."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16947-mage", 2300]
+        ]
     },
     {
+        "id": "2c53d8dd-4ad9-4821-9aee-4211cb066950",
         "type": "non-combat",
-        "modified": 1741669498.6340325,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/between-tangled-roots.html",
         "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Starting the Adventure; The Spirit and the Storyteller; Lungtian",
-        "monsters": [
-            [
-                1,
-                "16849-dryad",
-                200
-            ]
-        ],
-        "text": "The ninuno Lungtian (chaotic good dryad) was once a human and one of the first binukots of Kalapang. In this earlier life, they fought to defend the land from invaders alongside Pangil ng Buwan and formed a deep friendship with the bakunawa. When Lungtian died, the gods brought their spirit back as a dryad-like ninuno."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16849-dryad", 200]
+        ]
     },
     {
+        "id": "0aa27044-8a42-4b9b-aa5f-6a8cbfada26a",
         "type": "combat",
-        "modified": 1741669498.6340325,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/between-tangled-roots.html",
         "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Traveling the Skybridge",
-        "monsters": [
-            [
-                3,
-                "16774-air-elemental",
-                1800
-            ]
-        ],
-        "text": "A small storm reveals itself to be a violent group of three air elementals."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16774-air-elemental", 1800]
+        ]
     },
     {
+        "id": "f1c7755e-4e0c-473e-b7e9-60f61f3e3e75",
         "type": "combat",
-        "modified": 1741669498.6340325,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/between-tangled-roots.html",
         "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Traveling the Skybridge; Dragon Hunters",
-        "monsters": [
-            [
-                5,
-                "17045-veteran",
-                700
-            ]
-        ],
-        "text": "Paolo is the group\u2019s leader, and he travels with four of his cousins: Dolores, Raqua, Senedicto, and Yomas. They were raised together and share Paolo\u2019s conviction that they must slay the bakunawa as vengeance for wrongs done to their clan. All five dragon hunters are lawful neutral humans. They use the veteran stat block with the following adjustments:"
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17045-veteran", 700]
+        ]
     },
     {
+        "id": "eff20910-25c5-494e-980b-dc55a6b5f885",
         "type": "combat",
-        "modified": 1741669498.6340325,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/between-tangled-roots.html",
         "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Lambakluha; The Final Steps of Courage; Attack on the Final Steps",
-        "monsters": [
-            [
-                3,
-                "17064-wraith",
-                1800
-            ]
-        ],
-        "text": "As the characters converse with the sentries, a horn sounds from the camp\u2019s south gate. The sentries run toward the opposite side of the camp while the camp staff scatter. If the characters follow the sound, they see several tortured-looking incorporeal Undead attacking the camp\u2019s south gate and soldiers making an organized defense. A moment later, whether the characters are near the gate or elsewhere, three wraiths that look like the spirits of burn victims close in on the characters and attack."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17064-wraith", 1800]
+        ]
     },
     {
+        "id": "6d2ae22a-431f-44a1-b14e-01c59dfcbc84",
         "type": "combat",
-        "modified": 1741669498.6340325,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/between-tangled-roots.html",
         "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Lambakluha; The Weeping Paths",
-        "monsters": [
-            [
-                1,
-                "17064-wraith",
-                1800
-            ]
-        ],
-        "text": "A wraith appears and attacks the party. It looks like one of the characters, albeit covered in terrible burns."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17064-wraith", 1800]
+        ]
     },
     {
+        "id": "295d6339-2d35-4d95-8755-1a8775181023",
         "type": "combat",
-        "modified": 1741669498.6340325,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/between-tangled-roots.html",
         "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Lambakluha; The Weeping Paths",
-        "monsters": [
-            [
-                3,
-                "17011-shambling-mound",
-                1800
-            ]
-        ],
-        "text": "Three shambling mounds emerge from a heap of rotting vegetation near a ruined statue and attack the party."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17011-shambling-mound", 1800]
+        ]
     },
     {
+        "id": "758fb064-c725-496a-899d-b578eef4b7a4",
         "type": "combat",
-        "modified": 1741669498.6340325,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/between-tangled-roots.html",
         "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Lambakluha; The Weeping Paths",
-        "monsters": [
-            [
-                1,
-                "17037-treant",
-                5000
-            ]
-        ],
-        "text": "A fire-scarred treant awakens and attacks the characters, blaming them for the destruction of its home."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17037-treant", 5000]
+        ]
     },
     {
+        "id": "bb0f16bd-c2b3-4b40-ade6-12b6c64f4c21",
         "type": "combat",
-        "modified": 1741669498.6340325,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/between-tangled-roots.html",
         "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Lambakluha; Roots of Bathalang Puno; Facing the Dragon Hunters",
-        "monsters": [
-            [
-                5,
-                "17045-veteran",
-                700
-            ]
-        ],
-        "text": "If the characters follow the dragon hunters, they catch up to them as the hunters conduct a stealthy\u2014and slow\u2014search. Paolo and his cousins are surprised to see the characters but aren\u2019t deterred from their hunt. If a character tells the dragon hunters that Pangil ng Buwan isn\u2019t behaving naturally and succeeds on a DC 18 Charisma (Persuasion) check, Paolo wants to see the bakunawa himself and will decide its fate then. If hostilities break out, the dragon hunters defend themselves, using the stat blocks of five veterans (see \u201cThe Dragon Hunters\u201d earlier in this adventure)."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17045-veteran", 700]
+        ]
     },
     {
+        "id": "d4c4352a-a0c3-4abe-bdc6-76025b36ed75",
         "type": "combat",
-        "modified": 1741669498.6340325,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/between-tangled-roots.html",
         "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Lambakluha; Roots of Bathalang Puno; The Bakunawa\u2019s Lair",
-        "monsters": [
-            [
-                1,
-                "2739094-bakunawa",
-                8400
-            ]
-        ],
-        "text": "Pangil ng Buwan (see the bakunawa stat block at the end of this adventure) is covered in vines but is not restrained. The creature is half awake, resting as the corrupt vines spread hateful thoughts into its mind. Once the bakunawa notices creatures in its lair, it attacks."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "2739094-bakunawa", 8400]
+        ]
     },
     {
+        "id": "dec45fcc-3f22-4c4a-813c-5dbe8796973d",
         "type": "combat",
-        "modified": 1741669498.8698993,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/shadow-of-the-sun.html",
         "book_path": "Journeys through the Radiant Citadel; Shadow of the Sun; Starting the Adventure; Anarchist Outcry",
-        "monsters": [
-            [
-                5,
-                "17021-spy",
-                200
-            ]
-        ],
-        "text": "Five masked anarchists (use the spy stat block), members of a group called the Ashen Heirs, have interrupted the festivities to antagonize the Brightguard. As they do so, their attempts to stand atop stalls cause booths and tents to collapse, disrupting trade and imperiling vendors."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17021-spy", 200]
+        ]
     },
     {
+        "id": "742a3ae5-67f7-435b-a1d5-37c88b32fd31",
         "type": "combat",
-        "modified": 1741669498.8698993,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/shadow-of-the-sun.html",
         "book_path": "Journeys through the Radiant Citadel; Shadow of the Sun; Starting the Adventure; Anarchist Outcry",
-        "monsters": [
-            [
-                5,
-                "16915-guard",
-                25
-            ]
-        ],
-        "text": "The Ashen Heirs decry the Brightguard as oppressive brutes masquerading as pious saints. While some onlookers may agree, no one is fool enough to draw attention to themself by openly supporting either side. While the speaker shouts, five members of the Brightguard (use the guard stat block) move toward the Ashen Heirs\u2014one toward each anarchist\u2014trying to make sure they don\u2019t hurt themselves or anyone else with their dramatics."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16915-guard", 25]
+        ]
     },
     {
+        "id": "b22bf935-4e52-4199-a22d-7db28fa77e1e",
         "type": "combat",
-        "modified": 1741669498.8698993,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/shadow-of-the-sun.html",
         "book_path": "Journeys through the Radiant Citadel; Shadow of the Sun; Starting the Adventure; Purple Worm Attack",
-        "monsters": [
-            [
-                1,
-                "16987-purple-worm",
-                13000
-            ]
-        ],
-        "text": "The combination of noises from the large crowd and the disruptive vibrations of the boomhailers has enraged a purple worm dwelling deep below the city. It emerges and begins wreaking havoc on Three Sun Square, targeting the Ashen Heirs\u2019 boomhailers. When the Ashen Heirs see the worm racing toward them, they attempt to flee. The purple worm is irritated by the sound from the boomhailers and continues to attack until it devours the devices (and likely the Ashen Heirs holding them) or it is slain."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16987-purple-worm", 13000]
+        ]
     },
     {
+        "id": "f8eab00e-cc11-4917-8c63-35620de72a8a",
         "type": "non-combat",
-        "modified": 1741669498.8698993,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/shadow-of-the-sun.html",
         "book_path": "Journeys through the Radiant Citadel; Shadow of the Sun; Chaos at the Bazaar; Ruz Bazaar; Emad\u2019s Rug Shop",
-        "monsters": [
-            [
-                1,
-                "16966-noble",
-                25
-            ]
-        ],
-        "text": "Emad is a middle-aged merchant (neutral, halfling noble) and the proprietor of a sizable black-market business. If the characters enter his shop, read the following text:"
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16966-noble", 25]
+        ]
     },
     {
+        "id": "fbd885c8-3894-42e1-9f2b-2b89048bba4d",
         "type": "non-combat",
-        "modified": 1741669498.8698993,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/shadow-of-the-sun.html",
         "book_path": "Journeys through the Radiant Citadel; Shadow of the Sun; Chaos at the Bazaar; Ruz Bazaar; Backroom Thieves",
-        "monsters": [
-            [
-                2,
-                "16947-mage",
-                2300
-            ]
-        ],
-        "text": "Two of the Ashen Heir mages who shook down local merchants earlier in the day have returned. When the mages threatened Emad before, one of them found the shop\u2019s secret room, but the Brightguard\u2019s arrival forced them to flee before they could investigate."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16947-mage", 2300]
+        ]
     },
     {
+        "id": "0bb16b00-2fe5-4cac-8961-730988f0e7af",
         "type": "non-combat",
-        "modified": 1741669498.8698993,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/shadow-of-the-sun.html",
         "book_path": "Journeys through the Radiant Citadel; Shadow of the Sun; Chaos at the Bazaar; Bazaar Chase; The Stolen Samovar",
-        "monsters": [
-            [
-                1,
-                "16842-djinni",
-                7200
-            ]
-        ],
-        "text": "The stolen samovar is an iron flask containing a djinni. If opened, the samovar loses its magic (unlike a typical iron flask) and releases a friendly djinni named Baadi. Baadi is a bombastic fellow who offers to grant the characters a wish if they help him find his cousin\u2014another genie who lives in Akharin Sangar\u2014though Baadi doesn\u2019t know where he is or what name he\u2019s using. A character who succeeds on a DC 18 Wisdom (Insight) check notes that Baadi is bluffing and can\u2019t grant wishes. Baadi doesn\u2019t know that his cousin is the Ashen Heir leader, the efreeti Navid."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16842-djinni", 7200]
+        ]
     },
     {
+        "id": "eed9f019-a0ea-4ec7-84d2-a73fcaf30ea6",
         "type": "non-combat",
-        "modified": 1741669498.8698993,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/shadow-of-the-sun.html",
         "book_path": "Journeys through the Radiant Citadel; Shadow of the Sun; The Lions\u2019 Plea",
-        "monsters": [
-            [
-                1,
-                "17021-spy",
-                200
-            ]
-        ],
-        "text": "After contending with the members of the Ashen Heirs or completing their business with Emad, the characters are approached by a member of another revolutionary group, the Silent Roar, who has been observing the characters. The agent, a robed old human who uses the spy stat block, gives each character a piece of pistachio nougat candy wrapped in paper stamped with the symbol of the Ghorbani Bakery, a smiling manticore. The agent says that the characters\u2019 \u201cold friend Laleh\u201d is anxious to see them, then walks away."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17021-spy", 200]
+        ]
     },
     {
+        "id": "7c4afe2a-df7c-43f2-a985-6cf9efe14823",
         "type": "non-combat",
-        "modified": 1741669498.8698993,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/shadow-of-the-sun.html",
         "book_path": "Journeys through the Radiant Citadel; Shadow of the Sun; The Lions\u2019 Plea; Ghorbani Bakery; Laleh Ghorbani",
-        "monsters": [
-            [
-                1,
-                "17007-scout",
-                100
-            ]
-        ],
-        "text": "Laleh Ghorbani (neutral good, elf scout) uses her bakery as a safe house for the cell of the Silent Roar she leads with her sister, Afsoun Ghorbani. The gregarious baker delights in conversation and plumbs her customers for gossip that might be valuable to the Silent Roar. She distrusts those who enforce Atash\u2019s law without question."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17007-scout", 100]
+        ]
     },
     {
+        "id": "be38ed65-2a7d-4d7e-97ae-a00a78408dcb",
         "type": "combat",
-        "modified": 1741669498.8698993,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/shadow-of-the-sun.html",
         "book_path": "Journeys through the Radiant Citadel; Shadow of the Sun; Ashen Heir Hideout; Ashen Heir Hideout Locations; A2: Prayer Hall",
-        "monsters": [
-            [
-                3,
-                "17045-veteran",
-                700
-            ],
-            [
-                1,
-                "16790-assassin",
-                3900
-            ]
-        ],
-        "text": "If the characters have not alerted the anarchists to their presence, four Ashen Heirs are here: a guard near the door (veteran), two more veterans playing cards, and an assassin resting on the scaffolding. So long as the characters wear efreeti masks and attempt to pass as members of the group, the Ashen Heirs treat them as fellow anarchists. These cell members don\u2019t know much about Navid\u2019s plans or the samovar some of them were sent to track down, but they know their leader has big plans."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17045-veteran", 700],
+            [1, "16790-assassin", 3900]
+        ]
     },
     {
+        "id": "1b7a08e0-ae89-4056-b4ad-717967d1fba5",
         "type": "combat",
-        "modified": 1741669498.8698993,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/shadow-of-the-sun.html",
         "book_path": "Journeys through the Radiant Citadel; Shadow of the Sun; Ashen Heir Hideout; Ashen Heir Hideout Locations; A3: Hallway",
-        "monsters": [
-            [
-                1,
-                "16947-mage",
-                2300
-            ]
-        ],
-        "text": "This hallway features mosaics depicting the cycles of the moon. If both mages from the bazaar escaped with the samovar, one is lingering here. If one or neither of the mages escaped, this area is empty."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16947-mage", 2300]
+        ]
     },
     {
+        "id": "88837565-9ab9-4434-a24c-ded4411b27f3",
         "type": "combat",
-        "modified": 1741669498.8698993,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/shadow-of-the-sun.html",
         "book_path": "Journeys through the Radiant Citadel; Shadow of the Sun; Ashen Heir Hideout; Ashen Heir Hideout Locations; A4: Selenic Garden",
-        "monsters": [
-            [
-                1,
-                "16854-efreeti",
-                7200
-            ],
-            [
-                1,
-                "16947-mage",
-                2300
-            ]
-        ],
-        "text": "This cylindrical chamber once housed a lush garden, but Navid torched it to create more comfortable surroundings. The man here is Navid, leader of the Ashen Heirs, and his attendant is an Ashen Heir mage. The characters recognize the mage from the bazaar if either of those Ashen Heirs escaped; otherwise, he\u2019s a stranger."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16854-efreeti", 7200],
+            [1, "16947-mage", 2300]
+        ]
     },
     {
+        "id": "363bd9b1-d7a5-4fe2-b345-f15e4fd5945d",
         "type": "combat",
-        "modified": 1741669498.8698993,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/shadow-of-the-sun.html",
         "book_path": "Journeys through the Radiant Citadel; Shadow of the Sun; The Twilight Rose; Theater Lobby",
-        "monsters": [
-            [
-                4,
-                "17045-veteran",
-                700
-            ]
-        ],
-        "text": "Four Silent Roar guards (veterans) sit amid several small tables and chairs drinking tea and watching the entrance. Behind them, thick curtains close off the entrance to the theater proper. The guards are indifferent toward those who show an invitation from Laleh and hostile toward other strangers. A character without an invitation can persuade the guards to let the party pass by succeeding on a DC 14 Charisma (Deception or Persuasion) check. Mentioning Laleh or showing goods from the Ghorbani Bakery grants a character advantage on this check. If a fight breaks out, Laleh appears on initiative count 0 of the first round and intervenes (see \u201cLaleh\u2019s Plea\u201d below)."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17045-veteran", 700]
+        ]
     },
     {
+        "id": "c86ad79f-77b4-4f9b-90f6-826725f3e993",
         "type": "combat",
-        "modified": 1741669498.8698993,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/shadow-of-the-sun.html",
         "book_path": "Journeys through the Radiant Citadel; Shadow of the Sun; Pedestal of Judgment; Final Conflict; Fighting the Brightguard",
-        "monsters": [
-            [
-                1,
-                "2739100-pari",
-                10000
-            ],
-            [
-                2,
-                "16938-knight",
-                700
-            ],
-            [
-                2,
-                "16977-pegasus",
-                450
-            ]
-        ],
-        "text": "If the characters seek to free Afsoun, the shadows overhead are the pari Artavazda and two Brightguard knights riding two pegasi. They appear 30 feet in the air above the center of the pedestal. Artavazda expresses genuine disappointment with the characters and chastises them for turning away from the path of justice. The pari asks that the characters and their allies surrender and face arrest. As the characters are involved in a crime by attempting to free someone Artavazda considers justly arrested, the pari is unlikely to be talked out of apprehending them. During combat, the knights attempt to shove characters off the platform whenever possible."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "2739100-pari", 10000],
+            [2, "16938-knight", 700],
+            [2, "16977-pegasus", 450]
+        ]
     },
     {
+        "id": "a5d5b3c9-894e-441d-ab25-e19d1bf6518a",
         "type": "combat",
-        "modified": 1741669498.8698993,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/shadow-of-the-sun.html",
         "book_path": "Journeys through the Radiant Citadel; Shadow of the Sun; Pedestal of Judgment; Final Conflict; Fighting the Silent Roar",
-        "monsters": [
-            [
-                2,
-                "17045-veteran",
-                700
-            ],
-            [
-                2,
-                "16951-manticore",
-                700
-            ],
-            [
-                1,
-                "16917-gynosphinx",
-                7200
-            ]
-        ],
-        "text": "If the characters are defending the Pedestal of Judgment for the Brightguard, they\u2019re confronted by three Silent Roar agents: two veterans riding manticores, and Marzieh, a gynosphinx ally of the rebels and friend of Afsoun. The Silent Roar members are loyal to Afsoun and are unlikely to be talked out of abandoning their leader\u2014particularly after enacting a plan to liberate her."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17045-veteran", 700],
+            [2, "16951-manticore", 700],
+            [1, "16917-gynosphinx", 7200]
+        ]
     },
     {
+        "id": "eecc319f-ce43-4344-a3a1-9e4788a1ad07",
         "type": "combat",
-        "modified": 1741669499.0133643,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-nightseas-succor.html",
         "book_path": "Journeys through the Radiant Citadel; The Nightsea\u2019s Succor; The Restless Dead",
-        "monsters": [
-            [
-                2,
-                "2739097-haint",
-                2900
-            ],
-            [
-                1,
-                "17064-wraith",
-                1800
-            ]
-        ],
-        "text": "Amid the mist are two terrified figures who cry out, saying \u201cPlease, they\u2019re coming after us!\u201d and \u201cWe can\u2019t lose them again!\u201d These haints (detailed at the end of this adventure) are spirits murdered during the Passage of Vultures. They\u2019ve both taken on the lifelike appearances of the artisans they were in life and seek to escape the wicked souls who hold them captive in death. Their sorrow causes them to fear the characters are allies of the invaders who murdered them.\nBefore the haints can say much, or after 1 round of combat, a wraith that looks like a faceless sea raider manifests near them. This is the spirit of one of the wicked captors the haints are trying to escape. The wraith looks around, then signals toward the characters. If the haints haven\u2019t already attacked, they back away from the wraith and reluctantly join it in attacking the characters. All three Undead attack until the wraith is destroyed."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "2739097-haint", 2900],
+            [1, "17064-wraith", 1800]
+        ]
     },
     {
+        "id": "28e64008-e54e-4fc0-95d6-1f27c8905064",
         "type": "combat",
-        "modified": 1741669499.0133643,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-nightseas-succor.html",
         "book_path": "Journeys through the Radiant Citadel; The Nightsea\u2019s Succor; To the Nightsea; Beneath the Waves; Death Helms a Ghost Ship",
-        "monsters": [
-            [
-                1,
-                "17064-wraith",
-                1800
-            ],
-            [
-                4,
-                "17091-flameskull",
-                1100
-            ]
-        ],
-        "text": "The name Girscamen is plainly emblazoned on the ghost ship\u2019s hull. As the ship comes alongside the characters, the first mate (use the wraith stat block) is joined by four crew members who are little more than eerie light and drifting skulls (they use the flameskull stat block). At first, it appears they are searching for something\u2014they\u2019re hunting for the haints that escaped them, Derek and Violette. Once they see the characters, however, the hostile Undead snarl challenges and attack."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17064-wraith", 1800],
+            [4, "17091-flameskull", 1100]
+        ]
     },
     {
+        "id": "270a8e44-0a6f-4b0a-92fe-031984c8d46d",
         "type": "non-combat",
-        "modified": 1741669499.0133643,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-nightseas-succor.html",
         "book_path": "Journeys through the Radiant Citadel; The Nightsea\u2019s Succor; Arrival in Janya; Meeting Xoese-Addae",
-        "monsters": [
-            [
-                1,
-                "16955-merfolk",
-                25
-            ]
-        ],
-        "text": "A figure with kelp-colored hair and stingray-colored skin approaches the characters, introducing himself as Xoese-Addae, an emissary of the High Court of Janya. Xoese-Addae is neutral good and one of the Nightsea chil-liren (see below). He greets the characters warmly, saying his friend Gurau sent word of their coming, and asks what brings them to the city."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16955-merfolk", 25]
+        ]
     },
     {
+        "id": "23631791-3ef8-4862-a375-31f4a0b9d1c4",
         "type": "non-combat",
-        "modified": 1741669499.0133643,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-nightseas-succor.html",
         "book_path": "Journeys through the Radiant Citadel; The Nightsea\u2019s Succor; Arrival in Janya; Gala at the Cerulean Lyceum; Zisatta",
-        "monsters": [
-            [
-                1,
-                "16955-merfolk",
-                25
-            ]
-        ],
-        "text": "The aloof Zisatta is a member of the High Court and commands Janya\u2019s security forces, called the Billowing Patrol for their sable robes that undulate like jellyfish. She is lawful neutral and one of the Nightsea chil-liren (see the \u201cNightsea Chil-liren\u201d section). Tattoos of ancient Djaynaian symbols peak out from beneath her flowing robes\u2014signs of her fervent desire to prove her connection and dedication to Djaynai."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16955-merfolk", 25]
+        ]
     },
     {
+        "id": "0f192c16-9c33-402d-9faa-7b92998bdb7a",
         "type": "combat",
-        "modified": 1741669499.0133643,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-nightseas-succor.html",
         "book_path": "Journeys through the Radiant Citadel; The Nightsea\u2019s Succor; Trench of Love Lost; Trench of Love Lost Locations; T4: Obsidian Throne",
-        "monsters": [
-            [
-                1,
-                "17064-wraith",
-                1800
-            ]
-        ],
-        "text": "This hostile wraith wears armor similar to that of the wraiths the characters battled previously. It fights to the death."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17064-wraith", 1800]
+        ]
     },
     {
+        "id": "2de3ea88-2fad-49b5-8d5f-9c1bcbe6d14b",
         "type": "combat",
-        "modified": 1741669499.0133643,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-nightseas-succor.html",
         "book_path": "Journeys through the Radiant Citadel; The Nightsea\u2019s Succor; Trench of Love Lost; Trench of Love Lost Locations; T4: Obsidian Throne",
         "allies": [
-            [
-                1,
-                "2739097-haint",
-                2900
-            ]
+            [1, "2739097-haint", 2900]
         ],
-        "monsters": [
-            [
-                1,
-                "16762-aboleth",
-                5900
-            ],
-            [
-                3,
-                "17091-flameskull",
-                1100
-            ]
-        ],
-        "text": "Lurking Aboleth. In the shadows of the southwest alcove lurks the aboleth Ylch. It doesn\u2019t interfere with the wraith\u2019s attack and won\u2019t initially threaten the characters. Once it is revealed, it telepathically invites the characters to talk. Use the following information to guide the conversation.\nSunken Souls. At the aboleth\u2019s call, three flameskulls\u2014the remains of the hateful crew of the Girscamen\u2014come to the aboleth\u2019s defense via the passage to area T2. As the flameskulls enter the area, a familiar haint, Violette, appears in her incorporeal form and intercepts one of the flameskulls. Violette, now free from the crew of the Girscamen, is friendly toward the characters and keeps the flameskull she intercepted at bay. After 2 rounds she defeats that flameskull, then aids the characters against any remaining foes."
+        "bystanders": [],
+        "enemies": [
+            [1, "16762-aboleth", 5900],
+            [3, "17091-flameskull", 1100]
+        ]
     },
     {
+        "id": "aff6c303-8c9d-460d-89e5-4a9a35607911",
         "type": "non-combat",
-        "modified": 1741669499.0133643,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-nightseas-succor.html",
         "book_path": "Journeys through the Radiant Citadel; The Nightsea\u2019s Succor; Djaynai and Janya Gazetteer; Noteworthy Sites; Castle Djaynai",
-        "monsters": [
-            [
-                1,
-                "16945-lizard",
-                10
-            ]
-        ],
-        "text": "Castle Djaynai is made from onyx-colored mud brick studded with wooden pilasters and features a roof of sharp pinnacles. It is home to the rotating representative government called the People\u2019s Stewards, and its chambers hold ornate rugs and tapestries, the fragrance of essential oils, and performances of hypnotic music, which combine to create a warm welcome for invited guests. To deter intruders, the castle is lined with magical traps that polymorph victims into the saltwater salamanders (use the lizard stat block) common among Djaynai\u2019s mangroves."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16945-lizard", 10]
+        ]
     },
     {
+        "id": "74e0ce76-0312-4c67-a1cc-fd2c58b5450f",
         "type": "non-combat",
-        "modified": 1741669499.0133643,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/the-nightseas-succor.html",
         "book_path": "Journeys through the Radiant Citadel; The Nightsea\u2019s Succor; Djaynai and Janya Gazetteer; Noteworthy Sites; Ancestors\u2019 Danse House",
-        "monsters": [
-            [
-                1,
-                "17015-skeleton",
-                50
-            ]
-        ],
-        "text": "Home to the spiritual faction known as the Night Revelers, the Ancestors\u2019 Danse House in Djaynai is a mausoleum with smooth, chalky-white, mud-brick walls. Its library contains numerous scrolls of magical lore, and thousands of ancestors\u2019 bones in ossuaries throughout the site are enchanted to magically rise as skeletons and defend against would-be-thieves."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17015-skeleton", 50]
+        ]
     },
     {
+        "id": "160764a6-a043-4682-90e7-6afa2c24a05f",
         "type": "non-combat",
-        "modified": 1741669499.1365995,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/buried-dynasty.html",
         "book_path": "Journeys through the Radiant Citadel; Buried Dynasty; Starting the Adventure; Meeting the Secretary; Grand Secretary Wei",
-        "monsters": [
-            [
-                1,
-                "16789-archmage",
-                8400
-            ]
-        ],
-        "text": "Wei Feng Ying (lawful neutral, human archmage) commands respect from all as Grand Secretary, the leader of the government of Yongjing. Since the nation\u2019s rulers\u2019 source of extreme longevity has vanished, Secretary Wei is determined to hold the country together (as detailed in the \u201cEnd of an Era\u201d section). The secretary has an array of spell scrolls and other magic items at her disposal, and she often makes use of her crystal ball of telepathy and spells like project image when dealing with her agents."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16789-archmage", 8400]
+        ]
     },
     {
+        "id": "69fe2641-b29c-458b-911a-ec24a43092da",
         "type": "non-combat",
-        "modified": 1741669499.1365995,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/buried-dynasty.html",
         "book_path": "Journeys through the Radiant Citadel; Buried Dynasty; Starting the Adventure; The Shy Scholar; Lu Zhong Yin",
-        "monsters": [
-            [
-                1,
-                "17021-spy",
-                200
-            ]
-        ],
-        "text": "Lu Zhong Yin (lawful neutral, human spy) is an unremarkable human, about twenty years old and exuding an eager-to-please air. To the characters, Zhong Yin claims to be a scholar of ancient Xing history. In truth, the scholar is an Imperial Ghost, a spy of the court. Zhong Yin serves Secretary Wei and is currently helping with the search for Dragon\u2019s Blessing."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17021-spy", 200]
+        ]
     },
     {
+        "id": "156e74ab-e905-4a7c-b171-84f004eaf151",
         "type": "combat",
-        "modified": 1741669499.1365995,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/buried-dynasty.html",
         "book_path": "Journeys through the Radiant Citadel; Buried Dynasty; The Old City; Yun Dynasty Ruins Locations; Y1: Servants\u2019 Quarters",
-        "monsters": [
-            [
-                3,
-                "16999-roper",
-                1800
-            ]
-        ],
-        "text": "Ropers. Three ropers cling to the ceiling in the southeast part of the chamber. They shoot their tendrils at any creature that comes within 50 feet. Any spell used against the ropers that affects an area could jeopardize the box that rests on the floor beneath them."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16999-roper", 1800]
+        ]
     },
     {
+        "id": "4ca2317f-4f16-4a30-940c-a842621f26ae",
         "type": "combat",
-        "modified": 1741669499.1365995,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/buried-dynasty.html",
         "book_path": "Journeys through the Radiant Citadel; Buried Dynasty; The Old City; Yun Dynasty Ruins Locations; Y2: Destroyed Entry",
-        "monsters": [
-            [
-                1,
-                "16973-otyugh",
-                1800
-            ]
-        ],
-        "text": "Hungry Ghosts. An otyugh hides among the debris in the northwest corner of the room. When it notices the characters, it\u2019s excited at the prospect of a meal other than the rats that infest the ruins. The creature extends several dirty rags on its outstretched tentacles, gives a moan, and telepathically says, \u201cWe are the hungry dead. Honor us with lunch, or suffer our curse.\u201d Characters who hear the otyugh can make a DC 12 Wisdom (Insight) check. On a successful check, they realize something is pretending\u2014poorly\u2014to be a ghost. If given food or garbage, the otyugh continues to pretend to be three rag-ghosts, but it can telepathically warn the characters about the ropers in area Y1 and mentions having seen vicious spirits amid the ruins (a reference to the wraiths in area Y5). The otyugh attacks if any creature tries to enter area Y3 before the otyugh has been fed."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16973-otyugh", 1800]
+        ]
     },
     {
+        "id": "c262b5dc-a001-4fad-8c2d-db83705cd30a",
         "type": "combat",
-        "modified": 1741669499.1365995,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/buried-dynasty.html",
         "book_path": "Journeys through the Radiant Citadel; Buried Dynasty; The Old City; Yun Dynasty Ruins Locations; Y3a: Beneath the Throne",
-        "monsters": [
-            [
-                4,
-                "17196-revenant",
-                1800
-            ]
-        ],
-        "text": "A hidden chamber lies beneath the throne in area Y3. When the platform slides aside, four revenants emerge from the chamber and attack. These Undead, dressed like Yun Dynasty magistrates, were buried alive under the throne to ensure that they would protect the ruler\u2019s treasures even after death."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17196-revenant", 1800]
+        ]
     },
     {
+        "id": "875e7368-c49d-4193-9f57-b09b0c364951",
         "type": "combat",
-        "modified": 1741669499.1365995,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/buried-dynasty.html",
         "book_path": "Journeys through the Radiant Citadel; Buried Dynasty; The Old City; Yun Dynasty Ruins Locations; Y5: Bedchamber",
-        "monsters": [
-            [
-                4,
-                "17064-wraith",
-                1800
-            ]
-        ],
-        "text": "Four wraiths, spawned from royal courtiers who died when the palace was overrun, linger in and around the ruined bed. They bide their time until more than one creature enters this area, then attack."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17064-wraith", 1800]
+        ]
     },
     {
+        "id": "e8995ba2-8c91-4e28-b257-dfdd64ee5f1e",
         "type": "combat",
-        "modified": 1741669499.1365995,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/buried-dynasty.html",
         "book_path": "Journeys through the Radiant Citadel; Buried Dynasty; Secret Grotto; Secret Grotto Locations; S1: Jade Golem Tomb",
-        "monsters": [
-            [
-                4,
-                "17025-stone-golem",
-                5900
-            ]
-        ],
-        "text": "Stone Defenders. After the image of Secretary Wei fades, a sculpted soldier detaches from its alcove, then steps forward to attack. The soldier uses the stone golem stat block, except that its Slam action deals slashing damage because it wields a giant glaive."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17025-stone-golem", 5900]
+        ]
     },
     {
+        "id": "b1126052-b2e5-4a5f-955d-faaa3db12282",
         "type": "combat",
-        "modified": 1741669499.1365995,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/buried-dynasty.html",
         "book_path": "Journeys through the Radiant Citadel; Buried Dynasty; Secret Grotto; Secret Grotto Locations; S4: Dragon Grotto",
-        "monsters": [
-            [
-                3,
-                "16947-mage",
-                2300
-            ]
-        ],
-        "text": "Mages. Three mages work here. They are lawful evil and serve Secretary Wei as the dragon\u2019s handlers. They\u2019re hostile toward any creature that\u2019s not another agent of Secretary Wei. Each of them carries a jade key that opens the dragon\u2019s shackles and will do anything to prevent the dragon from being released."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16947-mage", 2300]
+        ]
     },
     {
+        "id": "25a2a492-6402-495d-93f0-1a103b44c0b0",
         "type": "non-combat",
-        "modified": 1741669499.1365995,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/buried-dynasty.html",
         "book_path": "Journeys through the Radiant Citadel; Buried Dynasty; Surprise Audience; An Unexpected Cameo",
-        "monsters": [
-            [
-                2,
-                "16947-mage",
-                2300
-            ],
-            [
-                5,
-                "17045-veteran",
-                700
-            ]
-        ],
-        "text": "The emperor\u2019s dais is 30 feet from the front of the stage. The emperor\u2019s guards notice any disturbance immediately, and two mages and five veterans move to surround the emperor. They order the characters to lay down their weapons and submit themselves for arrest."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16947-mage", 2300],
+            [5, "17045-veteran", 700]
+        ]
     },
     {
+        "id": "54d659b5-0ef0-4749-934d-4f3a2640af3c",
         "type": "combat",
-        "modified": 1741669499.296044,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/orchids-of-the-invisible-mountain.html",
         "book_path": "Journeys through the Radiant Citadel; Orchids of the Invisible Mountain; Starting the Adventure; Burning Sugar; Fire at the Mill",
-        "monsters": [
-            [
-                2,
-                "2739106-whistler",
-                5000
-            ]
-        ],
-        "text": "Whistlers. A moment after a character looks in the hole, two large, gaunt, bipedal figures appear within. These are creatures from the Far Realm called whistlers (detailed at the end of this adventure). They\u2019ve teleported into the sinkhole and seek to feed on the trapped workers. If unimpeded, the hostile whistlers slay one worker per round, taking their time to savor the confused mortals\u2019 fear. If attacked, they teleport near their attacker and ignore the workers. The alien beings fight to the death."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "2739106-whistler", 5000]
+        ]
     },
     {
+        "id": "4e7b03b7-196f-4ea6-931d-e32e3888b8c8",
         "type": "combat",
-        "modified": 1741669499.296044,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/orchids-of-the-invisible-mountain.html",
         "book_path": "Journeys through the Radiant Citadel; Orchids of the Invisible Mountain; Across the Llanos; Ambushed Thri-Kreen",
-        "monsters": [
-            [
-                1,
-                "16913-griffon",
-                450
-            ]
-        ],
-        "text": "The thri-kreen is 100 feet ahead of the characters and has little defense against the griffon. Roll initiative. The characters can drive off the griffon by dealing damage to it or by succeeding on a DC 18 Charisma (Intimidation) check. If they don\u2019t drive it off, the griffon grapples the thri-kreen and carries its panicking prey 20 feet into the air. The griffon tries to fly away, moving at half speed as it carries the thri-kreen back to its lair."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16913-griffon", 450]
+        ]
     },
     {
+        "id": "fec5aa34-c78e-4f6e-9532-739ff632b312",
         "type": "combat",
-        "modified": 1741669499.296044,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/orchids-of-the-invisible-mountain.html",
         "book_path": "Journeys through the Radiant Citadel; Orchids of the Invisible Mountain; Ghost Orchid Tepui; Tepui Locations; A2: Ancient Statue",
-        "monsters": [
-            [
-                2,
-                "16826-cloaker",
-                3900
-            ]
-        ],
-        "text": "Cloaker. Two pale cloakers that can speak Common and Elvish cling to the statue\u2019s back, disguising themselves as leathery wings. When a creature nears the statue, the cloakers take turns posing as the spirit of the statue. They offer to bless any character who shows their purity by bathing in the pool. A character who succeeds on a Wisdom (Insight) check contested by the cloakers\u2019 Charisma (Deception) check recognizes that the \u201cspirit\u201d is a little too eager with its request. Additionally, a character who succeeds on a DC 18 Wisdom (Perception) check realizes the voices are coming from behind the statue. The cloakers attack when a creature comes within 5 feet of the statue or it\u2019s clear no one\u2019s buying their lies."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16826-cloaker", 3900]
+        ]
     },
     {
+        "id": "424e0035-f6a4-4d7d-b96d-9ec7a0b6e6ef",
         "type": "combat",
-        "modified": 1741669499.296044,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/orchids-of-the-invisible-mountain.html",
         "book_path": "Journeys through the Radiant Citadel; Orchids of the Invisible Mountain; Crystal Caves; Crystal Caves Locations; C3: Whistling Hall",
-        "monsters": [
-            [
-                2,
-                "2739106-whistler",
-                5000
-            ]
-        ],
-        "text": "Two whistlers (detailed at the end of this adventure) lurk in this hall. If creatures make considerable noise in area C2, the whistlers attempt to teleport behind the intruders, following them into area C4 to ambush them with the other whistler in that area. Otherwise, they attack when the characters enter this passage."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "2739106-whistler", 5000]
+        ]
     },
     {
+        "id": "55ef5662-d257-4c4f-8c48-52699aa0336d",
         "type": "combat",
-        "modified": 1741669499.296044,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/orchids-of-the-invisible-mountain.html",
         "book_path": "Journeys through the Radiant Citadel; Orchids of the Invisible Mountain; Crystal Caves; Crystal Caves Locations; C4: Orchid Cavern",
-        "monsters": [
-            [
-                1,
-                "2739106-whistler",
-                5000
-            ]
-        ],
-        "text": "A whistler (detailed at the end of this adventure) lurks at the western edge of the northern platform. It waits to attack until intruders appear vulnerable\u2014such as when they\u2019re crossing the rope bridges."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "2739106-whistler", 5000]
+        ]
     },
     {
+        "id": "f98ad723-7400-4879-81f7-e546019688c7",
         "type": "combat",
-        "modified": 1741669499.296044,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/orchids-of-the-invisible-mountain.html",
         "book_path": "Journeys through the Radiant Citadel; Orchids of the Invisible Mountain; Crystal Caves; Crystal Caves Locations; C5: Ghost Orchid Tree",
-        "monsters": [
-            [
-                3,
-                "16965-night-hag",
-                2900
-            ]
-        ],
-        "text": "Night Hags. Three night hags\u2014Lola la L\u00fagubre, Tia T\u00f3xica, and Ofilia la Odiosa\u2014claim this cavern and the ghost orchids that grow here. The crones are invisible and lurk at the base of the tree. As soon as a character reaches the island, all three appear, disguised as elf priests in white robes. They claim to be magically bound to the island by the creature that lies on the ledge beyond\u2014pointing to area C6. They try to convince intruders to free them by slaying the monster there. In truth, they want to trick the characters onto the rope bridge so they can destroy it, dropping the characters into the water of area C7 and then disposing of them via magic."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16965-night-hag", 2900]
+        ]
     },
     {
+        "id": "5715b545-25c9-4bb4-8e78-3520bd1a8007",
         "type": "combat",
-        "modified": 1741669499.296044,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/orchids-of-the-invisible-mountain.html",
         "book_path": "Journeys through the Radiant Citadel; Orchids of the Invisible Mountain; Crystal Caves; Crystal Caves Locations; C7: Polluted Pool",
-        "monsters": [
-            [
-                2,
-                "16762-aboleth",
-                5900
-            ]
-        ],
-        "text": "Two aboleths, Glol and Kilzilg, lurk in the brackish but mundane waters of this pool. These servants of the Drought Elder infiltrated the tepui and used their master\u2019s magic to corrupt Chimagua and the Sleeping Stone. When Yarana arrived, they took control of her. They are using the warrior to watch Chimagua\u2019s final days."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16762-aboleth", 5900]
+        ]
     },
     {
+        "id": "94f2b663-f2bb-42ff-b527-d5e14c5f4a23",
         "type": "combat",
-        "modified": 1741669499.296044,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/orchids-of-the-invisible-mountain.html",
         "book_path": "Journeys through the Radiant Citadel; Orchids of the Invisible Mountain; Back across the Llanos; The Dawn Mother",
-        "monsters": [
-            [
-                1,
-                "17026-storm-giant",
-                10000
-            ]
-        ],
-        "text": "The hostile storm giant chasing the thri-kreen is the Dawn Mother. Although the giant has long been a stoic guardian of the Llanos, her recent dreams of otherworldly insects have confused and enraged her. Fearing the thri-kreen are to blame, she has attacked Cht-Chak\u2019s innocent band."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17026-storm-giant", 10000]
+        ]
     },
     {
+        "id": "8f6b29b8-0afc-41d1-815f-8c51c4cd8a17",
         "type": "combat",
-        "modified": 1741669499.296044,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/orchids-of-the-invisible-mountain.html",
         "book_path": "Journeys through the Radiant Citadel; Orchids of the Invisible Mountain; The Drought Elder; Drought Elder Features",
-        "monsters": [
-            [
-                1,
-                "2739106-whistler",
-                5000
-            ]
-        ],
-        "text": "Carapace Exterior. Characters can access the exterior of the Drought Elder\u2019s carapace from areas D3 and D5. It can be climbed by any creature that succeeds on a DC 16 Strength (Athletics) check. However, traveling outside the carapace beyond area D3 or D5 attracts the attention of 1d3 whistlers every minute. These whistlers are hostile."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "2739106-whistler", 5000]
+        ]
     },
     {
+        "id": "89ae55a7-5dd1-438b-b103-3641dd59ed5f",
         "type": "combat",
-        "modified": 1741669499.296044,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/orchids-of-the-invisible-mountain.html",
         "book_path": "Journeys through the Radiant Citadel; Orchids of the Invisible Mountain; The Drought Elder; Navigating the Drought Elder; D1: Egg Chamber",
-        "monsters": [
-            [
-                1,
-                "2739106-whistler",
-                5000
-            ]
-        ],
-        "text": "Egg Sucker. A moment after the characters arrive, a whistler (detailed at the end of this adventure) enters the chamber from area D2, moves to the pile of eggs, cracks one open, and feeds on the energy within. It ignores the characters unless attacked."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "2739106-whistler", 5000]
+        ]
     },
     {
+        "id": "5ff1963d-59b7-466c-b8b6-e1fb65f69a6b",
         "type": "combat",
-        "modified": 1741669499.296044,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/orchids-of-the-invisible-mountain.html",
         "book_path": "Journeys through the Radiant Citadel; Orchids of the Invisible Mountain; The Drought Elder; Navigating the Drought Elder; D2: Dead End",
-        "monsters": [
-            [
-                1,
-                "16901-gibbering-mouther",
-                450
-            ]
-        ],
-        "text": "If a creature approaches what appears to be the tunnel\u2019s end, hundreds of saucer-sized eyes with fanged pupils open and begin repeating a random character\u2019s name. The wall is a gibbering mouther controlled by the Drought Elder. It moves out of the way for any Aberration, revealing a 5-foot-diameter gap in the wall, but it attacks any other creature. Destroying the gibbering mouther leaves the gap in the wall unguarded."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16901-gibbering-mouther", 450]
+        ]
     },
     {
+        "id": "8c440baa-8bf7-406e-acea-5876fd61649e",
         "type": "combat",
-        "modified": 1741669499.296044,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/orchids-of-the-invisible-mountain.html",
         "book_path": "Journeys through the Radiant Citadel; Orchids of the Invisible Mountain; The Drought Elder; Navigating the Drought Elder; D3: Void Striders",
-        "monsters": [
-            [
-                1,
-                "17099-beholder",
-                10000
-            ]
-        ],
-        "text": "Servants of Dissolution. Drifting amid the shattered body is an old and withered beholder called Ozk. It blends in well amid the floating meat and has advantage on its Dexterity (Stealth) checks. If Ozk notices any non-Aberration, it stops meditating on its own decay and attacks, shouting in Deep Speech that the characters should \u201cwelcome the endless\u201d and \u201cescape the tyranny of breath.\u201d"
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17099-beholder", 10000]
+        ]
     },
     {
+        "id": "b1fa122c-c981-49a0-93b6-3c4c681838a9",
         "type": "combat",
-        "modified": 1741669499.296044,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/orchids-of-the-invisible-mountain.html",
         "book_path": "Journeys through the Radiant Citadel; Orchids of the Invisible Mountain; The Drought Elder; Navigating the Drought Elder; D4: Vestige of Consciousness",
-        "monsters": [
-            [
-                1,
-                "17129-demilich",
-                20000
-            ]
-        ],
-        "text": "Nexus of Dissolution. A sphere the size of a human head and composed of oversized centipede limbs encompasses a foul light. This sphere is a fraction of the Drought Elder\u2019s alien consciousness. It uses the demilich stat block but is an Aberration rather than Undead. It ignores the characters unless they try to harm it or try to enter area D5\u2014either through this area or via another route. This nexus of the Drought Elder\u2019s being is vulnerable to Chimagua\u2019s power. If it comes into contact with a seed from a ghost orchid\u2019s white seed pod, it and the pod are destroyed instantly."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17129-demilich", 20000]
+        ]
     },
     {
+        "id": "e050f3ab-d8ae-44ba-b6e8-88f4f2b47227",
         "type": "combat",
-        "modified": 1741669499.296044,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/orchids-of-the-invisible-mountain.html",
         "book_path": "Journeys through the Radiant Citadel; Orchids of the Invisible Mountain; The Drought Elder; Navigating the Drought Elder; Escaping the Drought Elder",
-        "monsters": [
-            [
-                2,
-                "2739106-whistler",
-                5000
-            ]
-        ],
-        "text": "Once the characters have claimed the shard of the Sleeping Stone, they must still return to Atagua. The Drought Elder does nothing to physically impede the characters, but it telepathically urges the creatures inhabiting its massive corpse to attack the intruders. At your discretion, additional pairs of whistlers (detailed at the end of this adventure) and groups of 2d4 gibbering mouthers menace the characters as they return to the portal."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "2739106-whistler", 5000]
+        ]
     },
     {
+        "id": "bcae5a36-4853-4385-be24-5f1b32a35cd4",
         "type": "combat",
-        "modified": 1741669499.296044,
-        "book": "Journeys through the Radiant Citadel",
-        "path": "./library/stripped/sources/jttrc/orchids-of-the-invisible-mountain.html",
         "book_path": "Journeys through the Radiant Citadel; Orchids of the Invisible Mountain; The Drought Elder; Navigating the Drought Elder; Escaping the Drought Elder",
-        "monsters": [
-            [
-                5,
-                "16901-gibbering-mouther",
-                450
-            ]
-        ],
-        "text": "Once the characters have claimed the shard of the Sleeping Stone, they must still return to Atagua. The Drought Elder does nothing to physically impede the characters, but it telepathically urges the creatures inhabiting its massive corpse to attack the intruders. At your discretion, additional pairs of whistlers (detailed at the end of this adventure) and groups of 2d4 gibbering mouthers menace the characters as they return to the portal."
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16901-gibbering-mouther", 450]
+        ]
     }
 ]

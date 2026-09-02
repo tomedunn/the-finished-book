@@ -141,6 +141,9 @@ def save_fig_html(fig, format, name, **kwargs):
     fig_soup.div['class'] = f'plotly-div-{format}'
     if kwargs.get('style', None):
         fig_soup.div['style'] = kwargs.get('style')
+    else:
+        fig_soup.div.attrs = {key: value for key, value in fig_soup.div.attrs.items() if key not in ['style']}
+    
     with open(file_name, 'wb') as fout:
         fout.write(fig_soup.prettify('utf-8'))
 
