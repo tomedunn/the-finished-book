@@ -4,6 +4,8 @@ excerpt: "An analysis of encounter difficulties from official 5e adventures."
 permalink: /:collection/:name/
 date: 2026-09-02
 last_modified_at: 2026-09-02
+header:
+  og_image: /assets/images/adventure-encounter-difficulties.png
 tags:
   - analysis
   - adventures
@@ -29,7 +31,7 @@ Each encounter in one of the official D&D 5e adventures can be assigned to a dif
 <figure id="fig:encounter-difficulty-2014">
     {% include_relative fig-encounter-difficulty-2014-small.html %}
     {% include_relative fig-encounter-difficulty-2014-large.html %}
-    <figcaption>Distribution of encounter difficulties for combat encounter found in adventure books published by WotC.</figcaption>
+    <figcaption>Distribution of encounter difficulties for combat encounters found in adventure books published by WotC.</figcaption>
 </figure>
 
 Trivial encounters were the most common, accounting for roughly $$30\%$$ of all encounters, with each higher difficulty category accounting for a progressively smaller portion of the total encounters until reaching Very Deadly which were about as common as Deadly encounters. If this result seems odd, it's worth recalling that I was purposefully conservative in what encounters I excluded from the list of possible combat encounters for each book.
@@ -41,7 +43,7 @@ As mentioned in the introduction, this approach is likely to inflate the number 
 <figure id="fig:encounter-difficulty-pdf-2014">
     {% include_relative fig-encounter-difficulty-pdf-2014-small.html %}
     {% include_relative fig-encounter-difficulty-pdf-2014-large.html %}
-    <figcaption>Distribution of encounter adjusted XP values relative to half the party's adventuring day budget for combat encounter found in adventure books published by WotC.</figcaption>
+    <figcaption>Distribution of encounter adjusted XP totals relative to half the party's adventuring day budget for combat encounters found in adventure books published by WotC.</figcaption>
 </figure>
 
 We can look at this data more granularly by focusing on how each encounter's adjusted XP total compares to half the party's adventuring day XP budget, as shown in Fig. \figref{fig:encounter-difficulty-pdf-2014} (above). With the exception of Trivial encounters, the number of encounters decreases as their relative XP total goes up.
@@ -53,7 +55,7 @@ The trend shown in Fig. \figref{fig:encounter-difficulty-pdf-2014} is close to t
 <figure id="fig:encounter-selection-pdf-2014">
     {% include_relative fig-encounter-selection-pdf-2014-small.html %}
     {% include_relative fig-encounter-selection-pdf-2014-large.html %}
-    <figcaption>Encounter adjusted XP normalized to account for XP budget construction for combat encounter found in adventure books published by WotC.</figcaption>
+    <figcaption>Encounter adjusted XP totals normalized to account for XP budget construction for combat encounters found in adventure books published by WotC.</figcaption>
 </figure>
 
 That said, this XP budget construction weighting isn't a perfect analogy for the encounters from published adventures. While the 2014 encounter building rules do include an XP budget in the form of the adventuring day, there are many encounters throughout these books that are clearly not designed with the adventuring day budget in mind.
@@ -63,7 +65,7 @@ Breaking the data down by level reveals a fairly consistent picture across the l
 <figure id="fig:encounter-median-xp-ratio-by-level-2014">
     {% include_relative fig-encounter-median-xp-ratio-by-level-2014-small.html %}
     {% include_relative fig-encounter-median-xp-ratio-by-level-2014-large.html %}
-    <figcaption>Median encounter XP relative to half the party's adventuring day budget for each level for combat encounter found in adventure books published by WotC.</figcaption>
+    <figcaption>Median encounter adjusted XP totals relative to half the party's adventuring day budget at each level for combat encounters found in adventure books published by WotC.</figcaption>
 </figure>
 
 Levels 18 and 19 stand out as being significantly harder than normal. This could be an intentional shift to account for tier 4 PCs being exceptionally strong, or to compensate for combat tending to take longer at higher levels. But it could also simply be statistical noise from there being only a few books with encounters in this level range.
@@ -73,7 +75,7 @@ Breaking things down by book reveals a slightly less consistent picture. As show
 <figure id="fig:encounter-median-xp-ratio-by-book">
     {% include_relative fig-encounter-median-xp-ratio-by-book-small.html %}
     {% include_relative fig-encounter-median-xp-ratio-by-book-large.html %}
-    <figcaption>Median encounter XP relative to half the party's adventuring day budget by book for combat encounter found in adventure books published by WotC.</figcaption>
+    <figcaption>Median encounter adjusted XP totals relative to half the party's adventuring day budget by book for combat encounters found in adventure books published by WotC.</figcaption>
 </figure>
 
 I don't intent to dig into the details of why these three books tend to skew towards having more difficult encounters in this post, but, in broad strokes, they tend to feature a higher number of very difficult encounters the PCs aren't intend to battle their way through, and/or encounters that appear harder but where the PCs have other advantages to balance things out.
@@ -83,7 +85,7 @@ A more subtle trend worth pointing out in Fig. \figref{fig:encounter-median-xp-r
 <figure id="fig:encounter-std-xp-ratio-by-book">
     {% include_relative fig-encounter-std-xp-ratio-by-book-small.html %}
     {% include_relative fig-encounter-std-xp-ratio-by-book-large.html %}
-    <figcaption>Standard deviation of encounter XP relative to half the party's adventuring day budget by book for combat encounter found in adventure books published by WotC.</figcaption>
+    <figcaption>Standard deviation of encounter adjusted XP totals relative to half the party's adventuring day budget by book for combat encounters found in adventure books published by WotC.</figcaption>
 </figure>
 
 Since Trivial encounters sit at the low end of the difficulty spectrum, reducing their numbers should reduce the overall variability in encounter difficulties. In other words, it should lead to more consistent encounter difficulties. And, as Fig. \figref{fig:encounter-std-xp-ratio-by-book} (above) shows, this is indeed the case. However, we also see this improved consistency when Trivial encounters are excluded entirely for all books.
@@ -93,7 +95,7 @@ This is because, in addition to having fewer Trivial encounters, starting in 202
 <figure id="fig:encounter-difficulty-split-2014">
     {% include_relative fig-encounter-difficulty-split-2014-small.html %}
     {% include_relative fig-encounter-difficulty-split-2014-large.html %}
-    <figcaption>Distribution of encounter difficulties for combat encounter found in adventure books published by WotC.</figcaption>
+    <figcaption>Distribution of encounter difficulties for combat encounters found in adventure books published by WotC.</figcaption>
 </figure>
 
 # Conclusion
