@@ -15,8 +15,6 @@ tags:
   - xp
 ---
 
-{% include LaTex.html %}
-
 # Introduction
 
 In my previous post [Adventure Encounter Difficulties]({{ site.data.page-links.adventure-encounter-difficulties.path }}), I looked at the difficulties of combat encounters from official D&D 5th edition (5e) adventures published by Wizards of the Coast (WotC). This post I expands on that analysis by looking at how monsters are used in those encounters.
@@ -136,6 +134,8 @@ Therefore, the only way to produce encounters that don't result in an average mo
 <!--
 ## math
 
+{% include LaTex.html %}
+
 These results aren't at all unexpected and are largely the result of how encounters are designed according to the rules. 
 
 To explain, if we wanted to build an encounter of a specific difficulty we would add monsters to the encounter until the adjusted XP total fell within the XP range for that difficulty. If we ignore the range aspect to this and think of an XP target instead then the average XP per monster $$(\XP_{\mathrm{m}})$$ will depend on the number of monsters $$(n)$$ in the following way,
@@ -167,15 +167,4 @@ In both of these equations $$P(n)$$ represents the fraction of encounters with $
 The roll of the encounter XP multiplier, $$\EM,$$ is fairly straight forward. It reduces the total XP available for monsters, $$\XP_{\mathrm{t}},$$ and therefore $$\XP_{\mathrm{m}}.$$ How much depends on how $$\EM$$ scales with the number of monsters, as well as on how the collection of encounters is distributed across the various encounter sizes through $$P(n).$$ If encounters with large $$\EM$$ values are common then $$\XP_{\mathrm{m}}$$ will be significantly lower than it would be if they weren't.
 
 The distribution of encounter sizes, i.e., $$P(n),$$ also affects $$\XP_{\mathrm{m}}$$ through $$n_{\mathrm{m}}$$ in Eqn. \eqref{eq:mean-monsters-per-encounter}. As encounters with more monsters in them become more common $$n_{\mathrm{m}}$$ increase and $$\XP_{\mathrm{m}}$$ goes down as a result.
-
-
-To a simple approximation the average XP for a Deadly encounter is about three times the XP of a single monster whose CR equals the party level for a party of five PCs. If we ignore the encounter XP multiplier for a moment, the average monster CR will drop below the party's level when the average number of monsters per encounter exceeds three. For Hard encounters this threshold drops to an average of 2 monsters per encounter. For Medium encounters it drops to 1.5 monsters per encounter. And for Easy encounters it drops to just 1 monster per encounter.
-
-When we factor the encounter multiplier back in
-
-<figure id="fig:monster-xp-vs-max-encounter-size">
-    {% include_relative fig-monster-xp-vs-max-encounter-size-small.html %}
-    {% include_relative fig-monster-xp-vs-max-encounter-size-large.html %}
-    <figcaption>Average monster XP relative to a monster with CR equal to the party's level as a function of the maximum allowed encounter size. XP targets were determined for a party of four PCs using the 2014 rules. Solid lines assume all encounter sizes are equally likely, and dashed lines assume smaller encounter sizes are significantly more likely than large encounter sizes.</figcaption>
-</figure>
 -->
