@@ -23,6 +23,9 @@ xp-and-player-characters:
 adventure-encounter-difficulties:
   path: /the-finished-book/monsters/adventure-encounter-difficulties/
 
+adventure-encounter-monsters:
+  path: /the-finished-book/monsters/adventure-encounter-monsters/
+
 baseline-monster-stats:
   path: /the-finished-book/monsters/baseline-monster-stats/
 

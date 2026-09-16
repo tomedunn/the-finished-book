@@ -675,17 +675,17 @@
     {
         "id": "2d2609cc-7f13-43e0-bcda-22d057ee4538",
         "type": "combat",
-        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung; 1. Thorn Maze; Thorn Maze Encounters",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung; 1. Thorn Maze; Thorn Maze Encounters; d20:10\u201312",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [9, "17262-grung", 50]
+            [10, "17262-grung", 50]
         ]
     },
     {
         "id": "b26c0248-e085-437a-b5d7-f50fc394250b",
         "type": "combat",
-        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung; 1. Thorn Maze; Thorn Maze Encounters",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung; 1. Thorn Maze; Thorn Maze Encounters; d20:13",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -695,21 +695,21 @@
     {
         "id": "830fbecf-2a19-4fbe-84a8-6edc54830fd0",
         "type": "combat",
-        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung; 1. Thorn Maze; Thorn Maze Encounters",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung; 1. Thorn Maze; Thorn Maze Encounters; d20:14",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [2, "16872-ghoul", 200]
+            [3, "16872-ghoul", 200]
         ]
     },
     {
         "id": "f1c8b809-4e63-455e-b7a7-a5ae4817f172",
         "type": "combat",
-        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung; 1. Thorn Maze; Thorn Maze Encounters",
+        "book_path": "Tomb of Annihilation; The Land of Chult; Locations A - D; Dungrunglung; 1. Thorn Maze; Thorn Maze Encounters; d20:17",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [3, "17077-zombie", 50]
+            [4, "17077-zombie", 50]
         ]
     },
     {
@@ -3043,14 +3043,108 @@
         ]
     },
     {
-        "id": "8588ed83-5f62-41f6-b9c4-c7b9e6f04f67",
+        "id": "f48d0380-b672-4135-b14e-927dcd85b523",
         "type": "combat",
-        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters",
+        "book_path": "Tomb of Annihilation; Random Encounters; Port Nyanzaru Encounters; Port Nyanzaru Encounters; d20:2",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "33021-chwinga", 10]
+            [1, "17088-ankylosaurus", 700]
         ]
+    },
+    {
+        "id": "597f52f4-37e3-464e-92aa-f95193946e68",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Port Nyanzaru Encounters; Port Nyanzaru Encounters; d20:3",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "dcf54caa-6707-4de7-8459-9967a6a27030",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Port Nyanzaru Encounters; Port Nyanzaru Encounters; d20:4",
+        "allies": [],
+        "bystanders": [
+            [3, "16829-commoner", 10]
+        ],
+        "enemies": [
+            [1, "17045-veteran", 700]
+        ]
+    },
+    {
+        "id": "1e7498ae-6a49-4cd8-bea2-f429b4c5bc31",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Port Nyanzaru Encounters; Port Nyanzaru Encounters; d20:5",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "becfe5d3-2d22-4c24-a8fc-8bb89761fe4d",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Port Nyanzaru Encounters; Port Nyanzaru Encounters; d20:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "17077-zombie", 50],
+            [7, "17015-skeleton", 50],
+            [1, "16872-ghoul", 200]
+        ]
+    },
+    {
+        "id": "1af7a7ac-da89-45e0-8206-138ffe5dfeb2",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Port Nyanzaru Encounters; Port Nyanzaru Encounters; d20:7",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17123-yuan-ti-pureblood", 200]
+        ]
+    },
+    {
+        "id": "75a85884-4037-4fa2-afa3-e14d6491d8a6",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Port Nyanzaru Encounters; Port Nyanzaru Encounters; d20:8",
+        "allies": [],
+        "bystanders": [
+            [1, "33262-tabaxi-minstrel", 50]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "b68d648b-044c-4424-b5ae-0023153c79d6",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Port Nyanzaru Encounters; Port Nyanzaru Encounters; d20:9",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17021-spy", 200]
+        ]
+    },
+    {
+        "id": "0ec318f5-1529-4ef0-a8a1-217b9145b92e",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Port Nyanzaru Encounters; Port Nyanzaru Encounters; d20:10",
+        "allies": [],
+        "bystanders": [
+            [1, "33269-volothamp-volo-geddarm", 50]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "8588ed83-5f62-41f6-b9c4-c7b9e6f04f67",
+        "type": "non-combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "33021-chwinga", 10]
+        ],
+        "enemies": []
     },
     {
         "id": "5056ebcb-fdf0-47c9-ab15-3e22886926fc",
@@ -3059,7 +3153,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17100-aarakocra", 50]
+            [4, "17100-aarakocra", 50]
         ]
     },
     {
@@ -3069,7 +3163,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [3, "32985-albino-dwarf-warrior", 50]
+            [6, "32985-albino-dwarf-warrior", 50]
         ]
     },
     {
@@ -3079,18 +3173,18 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "32991-aldani-lobsterfolk", 200]
+            [3, "32991-aldani-lobsterfolk", 200]
         ]
     },
     {
         "id": "c1564293-e4cf-47a6-8e27-55559a3e5e08",
-        "type": "combat",
+        "type": "non-combat",
         "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Almiraj",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [12, "32994-almiraj", 10]
-        ]
+        "bystanders": [
+            [4, "32994-almiraj", 10]
+        ],
+        "enemies": []
     },
     {
         "id": "9290b4da-a00c-4cd7-a5e2-a78cfe1e7a29",
@@ -3099,19 +3193,19 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "16788-ape", 100]
+            [5, "16788-ape", 100]
         ]
     },
     {
         "id": "537adb36-b642-4b9d-aa0a-fd724198134b",
-        "type": "combat",
+        "type": "non-combat",
         "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Artus Cimber",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "allies": [
             [1, "33005-artus-cimber", 2900],
             [1, "33022-dragonbait", 1800]
-        ]
+        ],
+        "bystanders": [],
+        "enemies": []
     },
     {
         "id": "fa54558a-d715-42df-ade7-3c34cc98f484",
@@ -3120,7 +3214,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "33010-assassin-vine", 700]
+            [2, "33010-assassin-vine", 700]
         ]
     },
     {
@@ -3130,7 +3224,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [3, "16793-axe-beak", 50]
+            [7, "16793-axe-beak", 50]
         ]
     },
     {
@@ -3140,7 +3234,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "16795-baboon", 10]
+            [11, "16795-baboon", 10]
         ]
     },
     {
@@ -3150,28 +3244,18 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17038-tribal-warrior", 25]
-        ]
-    },
-    {
-        "id": "29e606d5-9b79-4159-8f5c-fc0791e220f5",
-        "type": "combat",
-        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Cannibals",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "17038-tribal-warrior", 25]
+            [11, "17038-tribal-warrior", 25]
         ]
     },
     {
         "id": "50d7acc3-5632-4159-966f-53031216a0da",
-        "type": "combat",
+        "type": "non-combat",
         "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Chwinga",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "bystanders": [
             [1, "33021-chwinga", 10]
-        ]
+        ],
+        "enemies": []
     },
     {
         "id": "aae9b80c-a2a2-4452-aa9f-e045aaeae72b",
@@ -3180,7 +3264,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "16834-crocodile", 100]
+            [4, "16834-crocodile", 100]
         ]
     },
     {
@@ -3200,7 +3284,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17087-allosaurus", 450]
+            [2, "17087-allosaurus", 450]
         ]
     },
     {
@@ -3228,10 +3312,11 @@
         "type": "combat",
         "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Dinosaurs",
         "allies": [],
-        "bystanders": [],
+        "bystanders": [
+            [1, "16812-boar", 50]
+        ],
         "enemies": [
-            [1, "16812-boar", 50],
-            [2, "17240-deinonychus", 200]
+            [5, "17240-deinonychus", 200]
         ]
     },
     {
@@ -3241,7 +3326,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17238-dimetrodon", 50]
+            [7, "17238-dimetrodon", 50]
         ]
     },
     {
@@ -3251,7 +3336,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17241-hadrosaurus", 50]
+            [11, "17241-hadrosaurus", 50]
         ]
     },
     {
@@ -3271,7 +3356,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17093-pteranodon", 50]
+            [7, "17093-pteranodon", 50]
         ]
     },
     {
@@ -3281,7 +3366,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17242-quetzalcoatlus", 450]
+            [4, "17242-quetzalcoatlus", 450]
         ]
     },
     {
@@ -3321,28 +3406,28 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17243-velociraptor", 50]
+            [11, "17243-velociraptor", 50]
         ]
     },
     {
         "id": "1af2d0ba-fe27-462f-8d29-e19069c82cd8",
-        "type": "combat",
+        "type": "non-combat",
         "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Dragon, Faerie",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "bystanders": [
             [1, "17108-faerie-dragon-older", 450]
-        ]
+        ],
+        "enemies": []
     },
     {
         "id": "19e8cf60-e943-44fe-8bc2-b4d52b518310",
-        "type": "combat",
+        "type": "non-combat",
         "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Dragon, Red",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [50, "17074-young-red-dragon", 5900]
-        ]
+        "bystanders": [
+            [1, "17074-young-red-dragon", 5900]
+        ],
+        "enemies": []
     },
     {
         "id": "4378d68a-d4e2-4d23-82be-3552c6e09880",
@@ -3351,32 +3436,32 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "33024-eblis", 200]
+            [4, "33024-eblis", 200]
         ]
     },
     {
         "id": "94d580b1-cdea-4a2d-8ab5-ab7355837d7d",
-        "type": "combat",
+        "type": "non-combat",
         "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Emerald Enclave",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "bystanders": [
             [1, "16985-priest", 450],
-            [1, "17007-scout", 100]
-        ]
+            [3, "17007-scout", 100]
+        ],
+        "enemies": []
     },
     {
         "id": "2e1b65e6-0463-4110-8fe6-08c784479010",
-        "type": "combat",
+        "type": "non-combat",
         "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Explorers",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "bystanders": [
             [1, "16947-mage", 2300],
             [1, "16985-priest", 450],
             [1, "17007-scout", 100],
             [1, "17038-tribal-warrior", 25]
-        ]
+        ],
+        "enemies": []
     },
     {
         "id": "b6aef3ac-aca2-4bac-a9fc-f72c5a97fea9",
@@ -3385,9 +3470,18 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17246-firenewt-warrior", 100],
-            [1, "17247-giant-strider", 200],
-            [1, "17246-firenewt-warrior", 100],
+            [3, "17246-firenewt-warrior", 100],
+            [1, "17247-giant-strider", 200]
+        ]
+    },
+    {
+        "id": "c5958888-5077-4a3d-a765-7f5e2460f4b5",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Firenewts",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17246-firenewt-warrior", 100],
             [1, "17248-firenewt-warlock-of-imix", 200],
             [1, "17247-giant-strider", 200]
         ]
@@ -3413,18 +3507,18 @@
             [1, "17045-veteran", 700],
             [1, "16763-acolyte", 50],
             [1, "17007-scout", 100],
-            [1, "16915-guard", 25],
-            [1, "17240-deinonychus", 200]
+            [7, "16915-guard", 25],
+            [3, "17240-deinonychus", 200]
         ]
     },
     {
         "id": "7007deb4-451e-46e9-ba92-269d01c77dc1",
-        "type": "combat",
+        "type": "non-combat",
         "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Flying Monkeys",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "33025-flying-monkey", 10]
+            [11, "33025-flying-monkey", 10]
         ]
     },
     {
@@ -3434,8 +3528,17 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "16864-flying-snake", 25],
             [1, "16864-flying-snake", 25]
+        ]
+    },
+    {
+        "id": "60fccf0b-b33b-45db-900c-ed9fa0d9841c",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Flying Snakes",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "16864-flying-snake", 25]
         ]
     },
     {
@@ -3446,7 +3549,7 @@
         "bystanders": [],
         "enemies": [
             [3, "16867-frost-giant", 3900],
-            [1, "17061-winter-wolf", 700]
+            [2, "17061-winter-wolf", 700]
         ]
     },
     {
@@ -3456,7 +3559,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "16876-giant-boar", 450]
+            [4, "16876-giant-boar", 450]
         ]
     },
     {
@@ -3476,7 +3579,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "16884-giant-frog", 50]
+            [7, "16884-giant-frog", 50]
         ]
     },
     {
@@ -3486,7 +3589,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "16887-giant-lizard", 50]
+            [4, "16887-giant-lizard", 50]
         ]
     },
     {
@@ -3496,7 +3599,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [11, "16892-giant-scorpion", 700]
+            [2, "16892-giant-scorpion", 700]
         ]
     },
     {
@@ -3516,7 +3619,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "16898-giant-wasp", 100]
+            [4, "16898-giant-wasp", 100]
         ]
     },
     {
@@ -3537,7 +3640,7 @@
         "bystanders": [],
         "enemies": [
             [1, "17155-goblin-boss", 200],
-            [3, "16907-goblin", 50]
+            [10, "16907-goblin", 50]
         ]
     },
     {
@@ -3547,7 +3650,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17262-grung", 50],
+            [7, "17262-grung", 50],
             [1, "17263-grung-elite-warrior", 450]
         ]
     },
@@ -3558,7 +3661,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "33039-jaculi", 100]
+            [4, "33039-jaculi", 100]
         ]
     },
     {
@@ -3568,7 +3671,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "33044-kamadan", 1100]
+            [2, "33044-kamadan", 1100]
         ]
     },
     {
@@ -3578,7 +3681,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "16946-lizardfolk", 100],
+            [5, "16946-lizardfolk", 100],
             [1, "17171-lizardfolk-shaman", 450]
         ]
     },
@@ -3589,7 +3692,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "16949-magmin", 100]
+            [7, "16949-magmin", 100]
         ]
     },
     {
@@ -3599,7 +3702,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "33048-mantrap", 200]
+            [4, "33048-mantrap", 200]
         ]
     },
     {
@@ -3609,15 +3712,42 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "16948-magma-mephit", 100],
-            [1, "17173-mud-mephit", 50],
-            [1, "17174-smoke-mephit", 50],
-            [1, "17022-steam-mephit", 50]
+            [7, "16948-magma-mephit", 100]
+        ]
+    },
+    {
+        "id": "cd7af36e-9fdf-4926-b986-a5a8dbadd63b",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Mephits",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "17173-mud-mephit", 50]
+        ]
+    },
+    {
+        "id": "2e038ce8-1356-4a9c-b8e0-22fa1b4056aa",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Mephits",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "17174-smoke-mephit", 50]
+        ]
+    },
+    {
+        "id": "0849326c-e688-4b77-bccd-db67a4a96255",
+        "type": "combat",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Mephits",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "17022-steam-mephit", 50]
         ]
     },
     {
         "id": "ed0b48c1-3e4a-41be-89ee-d1984c1b06ac",
-        "type": "combat",
+        "type": "non-combat",
         "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Night Hag",
         "allies": [],
         "bystanders": [],
@@ -3632,7 +3762,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [2, "33242-pterafolk", 200]
+            [5, "33242-pterafolk", 200]
         ]
     },
     {
@@ -3643,8 +3773,8 @@
         "bystanders": [],
         "enemies": [
             [1, "16947-mage", 2300],
-            [1, "16915-guard", 25],
-            [1, "17015-skeleton", 50]
+            [4, "16915-guard", 25],
+            [4, "17015-skeleton", 50]
         ]
     },
     {
@@ -3655,7 +3785,7 @@
         "bystanders": [],
         "enemies": [
             [1, "17004-salamander", 1800],
-            [1, "17199-fire-snake", 200]
+            [4, "17199-fire-snake", 200]
         ]
     },
     {
@@ -3715,7 +3845,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [13, "16895-giant-spider", 200]
+            [4, "16895-giant-spider", 200]
         ]
     },
     {
@@ -3725,7 +3855,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17023-stirge", 25]
+            [7, "17023-stirge", 25]
         ]
     },
     {
@@ -3735,7 +3865,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "33257-su-monster", 200]
+            [4, "33257-su-monster", 200]
         ]
     },
     {
@@ -3745,7 +3875,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17028-swarm-of-bats", 50]
+            [3, "17028-swarm-of-bats", 50]
         ]
     },
     {
@@ -3755,7 +3885,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "301411-swarm-of-insects-centipedes", 100]
+            [3, "301411-swarm-of-insects-centipedes", 100]
         ]
     },
     {
@@ -3765,18 +3895,18 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17031-swarm-of-quippers", 200]
+            [3, "17031-swarm-of-quippers", 200]
         ]
     },
     {
         "id": "6d242b8b-22ae-4df8-9287-78ba87a7edbf",
-        "type": "combat",
+        "type": "non-combat",
         "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Tabaxi Hunter",
-        "allies": [],
+        "allies": [
+            [1, "33259-tabaxi-hunter", 200]
+        ],
         "bystanders": [],
-        "enemies": [
-            [15, "33259-tabaxi-hunter", 200]
-        ]
+        "enemies": []
     },
     {
         "id": "ee173694-bd17-48a1-bf0b-e08a55495e0a",
@@ -3795,7 +3925,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "33267-tri-flower-frond", 100]
+            [3, "33267-tri-flower-frond", 100]
         ]
     },
     {
@@ -3815,7 +3945,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [12, "16872-ghoul", 200],
+            [7, "16872-ghoul", 200],
             [1, "16870-ghast", 450]
         ]
     },
@@ -3826,7 +3956,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17015-skeleton", 50]
+            [11, "17015-skeleton", 50]
         ]
     },
     {
@@ -3852,17 +3982,17 @@
     {
         "id": "ed935f48-4a7f-4de9-ac16-f6e44f96c76a",
         "type": "combat",
-        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Undead; Zombies",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Undead; Zombies; d10:1\u20133",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17077-zombie", 50]
+            [11, "17077-zombie", 50]
         ]
     },
     {
         "id": "42bac100-e105-4018-9adf-e1681da6e94a",
         "type": "combat",
-        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Undead; Zombies",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Undead; Zombies; d10:4\u20135",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -3872,27 +4002,27 @@
     {
         "id": "9745d943-45e9-4c5e-9d1e-29b58c2e3496",
         "type": "combat",
-        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Undead; Zombies",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Undead; Zombies; d10:6\u20137",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "33284-girallon-zombie", 700]
+            [3, "33284-girallon-zombie", 700]
         ]
     },
     {
         "id": "888845f7-61bb-4f4e-bf9b-246a8755b703",
         "type": "combat",
-        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Undead; Zombies",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Undead; Zombies; d10:8\u20139",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "16970-ogre-zombie", 450]
+            [3, "16970-ogre-zombie", 450]
         ]
     },
     {
         "id": "663eec17-84ce-4e72-9436-9bbe8171ca85",
         "type": "combat",
-        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Undead; Zombies",
+        "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Undead; Zombies; d10:10",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -3906,8 +4036,8 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17308-vegepygmy", 50],
-            [1, "17310-thorny", 200]
+            [3, "17308-vegepygmy", 50],
+            [3, "17310-thorny", 200]
         ]
     },
     {
@@ -3922,23 +4052,23 @@
     },
     {
         "id": "ebc1582d-eadc-4da5-bed2-1bc95021d4d5",
-        "type": "combat",
+        "type": "non-combat",
         "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Weretiger",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "allies": [
             [1, "17056-weretiger", 1100]
-        ]
+        ],
+        "bystanders": [],
+        "enemies": []
     },
     {
         "id": "cc52363f-0101-4e72-8134-12d3aa1a928d",
-        "type": "combat",
+        "type": "non-combat",
         "book_path": "Tomb of Annihilation; Random Encounters; Wilderness Encounters; Winterscape",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [120, "33005-artus-cimber", 2900]
-        ]
+        "bystanders": [
+            [1, "33005-artus-cimber", 2900]
+        ],
+        "enemies": []
     },
     {
         "id": "57459900-154d-427e-a3c6-9c8377b4705c",
@@ -3947,7 +4077,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "33277-yellow-musk-zombie", 50],
+            [11, "33277-yellow-musk-zombie", 50],
             [1, "33275-yellow-musk-creeper", 450]
         ]
     },
@@ -3958,7 +4088,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17123-yuan-ti-pureblood", 200]
+            [5, "17123-yuan-ti-pureblood", 200]
         ]
     },
     {
@@ -3968,7 +4098,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [2, "301418-yuan-ti-malison-type-1", 700]
+            [3, "301418-yuan-ti-malison-type-1", 700]
         ]
     },
     {
@@ -3981,8 +4111,8 @@
             [1, "16790-assassin", 3900],
             [1, "16864-flying-snake", 25],
             [1, "16985-priest", 450],
-            [1, "17035-thug", 100],
-            [1, "17038-tribal-warrior", 25]
+            [7, "17035-thug", 100],
+            [4, "17038-tribal-warrior", 25]
         ]
     },
     {
@@ -3992,7 +4122,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "33290-zorbo", 100]
+            [7, "33290-zorbo", 100]
         ]
     },
     {
@@ -4002,7 +4132,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "16868-gargoyle", 450]
+            [5, "16868-gargoyle", 450]
         ]
     },
     {
@@ -4012,7 +4142,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "16900-giant-wolf-spider", 50]
+            [4, "16900-giant-wolf-spider", 50]
         ]
     },
     {
@@ -4032,130 +4162,8 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "16939-kobold", 25],
-            [1, "17277-kobold-inventor", 50],
-            [12, "17278-kobold-scale-sorcerer", 200]
-        ]
-    },
-    {
-        "id": "817aa6fc-f144-4ba9-be63-69008ca944e0",
-        "type": "combat",
-        "book_path": "Tomb of Annihilation; Discoveries; Magic Items; Bookmark",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "33005-artus-cimber", 2900]
-        ]
-    },
-    {
-        "id": "0db3e93c-971d-4dd2-8ec9-e8fcdb059a2b",
-        "type": "combat",
-        "book_path": "Tomb of Annihilation; Discoveries; Magic Items; Ring of Winter",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "33005-artus-cimber", 2900]
-        ]
-    },
-    {
-        "id": "6f6a50b0-e6e5-4c59-a901-79d07da47163",
-        "type": "combat",
-        "book_path": "Tomb of Annihilation; Discoveries; Magic Items; Ring of Winter",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "16871-ghost", 1100]
-        ]
-    },
-    {
-        "id": "d6dc3d6e-d7ea-4cbd-ac23-4b14de9c93f8",
-        "type": "combat",
-        "book_path": "Tomb of Annihilation; Monsters and NPCs; Albino Dwarves; Albino Dwarf Spirit Warriors",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "32988-albino-dwarf-spirit-warrior", 200]
-        ]
-    },
-    {
-        "id": "13bc10cb-66f8-473c-9571-af007f262508",
-        "type": "combat",
-        "book_path": "Tomb of Annihilation; Monsters and NPCs; Atropal",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "17064-wraith", 1800]
-        ]
-    },
-    {
-        "id": "f71f881e-20b1-46b6-a5b0-8ea4efe1c5dc",
-        "type": "combat",
-        "book_path": "Tomb of Annihilation; Monsters and NPCs; Atropal",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "17064-wraith", 1800]
-        ]
-    },
-    {
-        "id": "6853e57b-3712-4008-ba66-305d872bb014",
-        "type": "combat",
-        "book_path": "Tomb of Annihilation; Monsters and NPCs; Grungs",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "17262-grung", 50]
-        ]
-    },
-    {
-        "id": "e66b821c-f442-4ae7-8764-e7efc1fb03f3",
-        "type": "combat",
-        "book_path": "Tomb of Annihilation; Monsters and NPCs; Grungs",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "17264-grung-wildling", 200]
-        ]
-    },
-    {
-        "id": "0f7cb14e-aafd-4a22-a942-9c382d762b59",
-        "type": "combat",
-        "book_path": "Tomb of Annihilation; Monsters and NPCs; Grungs",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "17263-grung-elite-warrior", 450]
-        ]
-    },
-    {
-        "id": "235e1e32-a0e4-49e8-b0d9-68e02ac73e95",
-        "type": "combat",
-        "book_path": "Tomb of Annihilation; Monsters and NPCs; Xandala",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "16986-pseudodragon", 50]
-        ]
-    },
-    {
-        "id": "c4cec428-0aa1-4afe-8c8b-2144f0bc7320",
-        "type": "combat",
-        "book_path": "Tomb of Annihilation; Monsters and NPCs; Yellow Musk Creeper and Zombie; Yellow Musk Creeper",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [0, "33277-yellow-musk-zombie", 50]
-        ]
-    },
-    {
-        "id": "fd801320-d5d2-426d-ae5f-e81301092727",
-        "type": "combat",
-        "book_path": "Tomb of Annihilation; Monsters and NPCs; Zombies; Tyrannosaurus Zombie",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "17077-zombie", 50],
-            [1, "17077-zombie", 50]
+            [4, "16939-kobold", 25],
+            [1, "17277-kobold-inventor", 50]
         ]
     }
 ]

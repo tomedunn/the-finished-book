@@ -1,7 +1,7 @@
 [
     {
         "id": "fe7f9fa8-fb2d-49fb-bc21-b11c528df330",
-        "type": "alternate combat",
+        "type": "non-combat",
         "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; The Basilisk Gate; Meeting Captain Zodge",
         "allies": [],
         "bystanders": [],
@@ -12,7 +12,7 @@
     },
     {
         "id": "922c98c1-a3e9-4c6b-9c9b-b584744c9fc1",
-        "type": "alternate combat",
+        "type": "non-combat",
         "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern",
         "allies": [],
         "bystanders": [],
@@ -26,53 +26,113 @@
         "type": "non-combat",
         "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern; About the Tavern",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "bystanders": [
             [1, "16829-commoner", 10]
-        ]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "321d8e36-ccd7-4ca0-aa4d-4be27d09c87b",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern; Tavern Patrons",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "8e575f7f-aa19-409d-9f58-68ec921da08b",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern; Tavern Patrons",
+        "allies": [],
+        "bystanders": [
+            [1, "17021-spy", 200]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "4e7eb0a5-49c6-40fe-9432-05d05e36b262",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern; Tavern Patrons",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "b4af00ca-0cd9-4551-a6b4-d9470b009867",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern; Tavern Patrons",
+        "allies": [],
+        "bystanders": [
+            [1, "17035-thug", 100]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "6d87f2a2-008c-4194-af59-7b3ccb32f43d",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern; Tavern Patrons",
+        "allies": [],
+        "bystanders": [
+            [1, "16763-acolyte", 50]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "5ba8be5f-5a3c-4a7d-9f9e-9d1f22635349",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern; Tavern Patrons",
+        "allies": [],
+        "bystanders": [
+            [1, "16848-druid", 450]
+        ],
+        "enemies": []
     },
     {
         "id": "41240bc9-7569-4f69-bdcc-b65d50779ec9",
         "type": "non-combat",
         "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern; Tavern Locations; E1. Taproom",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [2, "16829-commoner", 10],
+        "bystanders": [
+            [3, "16829-commoner", 10],
             [1, "16786-animated-armor", 200],
             [1, "17185-half-ogre", 200]
-        ]
+        ],
+        "enemies": []
     },
     {
         "id": "86d5eb08-6bdc-417e-9846-47c768d46932",
         "type": "non-combat",
         "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern; Tavern Locations; E1. Taproom",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "bystanders": [
             [1, "16829-commoner", 10],
             [1, "17035-thug", 100]
-        ]
+        ],
+        "enemies": []
     },
     {
         "id": "f340c1bc-73b0-47b0-9dbe-4a18073123f6",
         "type": "non-combat",
         "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern; Tavern Locations; E6. Kitchen",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "bystanders": [
             [3, "16829-commoner", 10]
-        ]
+        ],
+        "enemies": []
     },
     {
         "id": "d5b2fe3a-2915-4c6a-b05d-8269878e0e85",
         "type": "non-combat",
         "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern; Tavern Locations; E11. Large Guest Room",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "bystanders": [
             [1, "17197-sahuagin-priestess", 450]
-        ]
+        ],
+        "enemies": []
     },
     {
         "id": "514c3d63-fc3a-48f6-8f2d-5733774b11de",
@@ -89,10 +149,10 @@
         "type": "non-combat",
         "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Elfsong Tavern; Dealing with Tarina",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "bystanders": [
             [1, "16798-bandit", 25]
-        ]
+        ],
+        "enemies": []
     },
     {
         "id": "384b70ed-76ad-4479-bf63-d6c8f3ba914a",
@@ -120,10 +180,20 @@
         "type": "non-combat",
         "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D1. Courtyard",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "bystanders": [
             [1, "16933-imp", 200]
-        ]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "002a1818-e4ad-412a-a534-139ecad1b1f9",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D2. Baths",
+        "allies": [],
+        "bystanders": [
+            [3, "16829-commoner", 0]
+        ],
+        "enemies": []
     },
     {
         "id": "c5149455-f800-410e-9460-730c2ff85e48",
@@ -151,10 +221,10 @@
         "type": "non-combat",
         "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D3. South Massage Room",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "bystanders": [
             [1, "16829-commoner", 10]
-        ]
+        ],
+        "enemies": []
     },
     {
         "id": "6c628e79-8c1d-43c8-83e4-4c6d2e2a0ed4",
@@ -165,6 +235,16 @@
         "enemies": [
             [1, "416948-necromite-of-myrkul", 100]
         ]
+    },
+    {
+        "id": "4babe6e8-f342-4a16-b584-be273984a8a5",
+        "type": "non-combat",
+        "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D4. North Massage Room",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
     },
     {
         "id": "6f6d9830-898f-4629-aafb-6e16272bde19",
@@ -192,10 +272,10 @@
         "type": "non-combat",
         "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D12. Bane\u2019s Altar",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "bystanders": [
             [1, "16966-noble", 25]
-        ]
+        ],
+        "enemies": []
     },
     {
         "id": "d1b89ae9-3efa-4897-a4f1-ddfbf3cad679",
@@ -223,20 +303,20 @@
         "type": "non-combat",
         "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D14. Hungry Rat",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "bystanders": [
             [1, "16991-rat", 10]
-        ]
+        ],
+        "enemies": []
     },
     {
         "id": "3e1c155b-c144-4182-8358-aa98e7a38cfa",
         "type": "non-combat",
         "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D17. Myrkul\u2019s Altar",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "allies": [
             [3, "17015-skeleton", 50]
-        ]
+        ],
+        "bystanders": [],
+        "enemies": []
     },
     {
         "id": "edbc1f3f-b76b-45bc-b39a-41209a9519d2",
@@ -253,10 +333,10 @@
         "type": "non-combat",
         "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D22. Torture Chamber",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "bystanders": [
             [1, "16829-commoner", 10]
-        ]
+        ],
+        "enemies": []
     },
     {
         "id": "4844908f-6585-40fa-99a1-ac87485ac8b0",
@@ -304,25 +384,25 @@
         "type": "non-combat",
         "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D29. Mortlock Vanthampur",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "bystanders": [
             [1, "417738-mortlock-vanthampur", 700],
             [1, "416937-deaths-head-of-bhaal", 1800]
-        ]
+        ],
+        "enemies": []
     },
     {
         "id": "aca8360e-ae93-4156-8322-f3bdd8c2d434",
         "type": "non-combat",
         "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D32. Stolen Goods",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "bystanders": [
             [6, "16991-rat", 10]
-        ]
+        ],
+        "enemies": []
     },
     {
         "id": "d2042db9-c0dc-4a90-a23f-bb5e0a4f390e",
-        "type": "non-combat",
+        "type": "combat",
         "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Bathhouse Locations; D33. Covenant of the Dead Three",
         "allies": [],
         "bystanders": [],
@@ -346,10 +426,10 @@
         "type": "non-combat",
         "book_path": "Baldur\u2019s Gate: Descent into Avernus; A Tale of Two Cities; Dungeon of the Dead Three; Surprise! Dragon Cultists!",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "bystanders": [
             [1, "16933-imp", 200]
-        ]
+        ],
+        "enemies": []
     },
     {
         "id": "48d3b545-aa77-4237-8d46-6ea750598612",

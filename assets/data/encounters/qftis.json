@@ -31,6 +31,137 @@
         ]
     },
     {
+        "id": "39832317-15b9-47ea-9843-8cd8a0c157b0",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; The Infinite Staircase; Traversing the Staircase; Infinite Staircase Encounters; Infinite Staircase Encounters; d100:01\u201307",
+        "allies": [],
+        "bystanders": [
+            [1, "17212-empyrean", 50000]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "acc74130-6c34-4512-8e96-e1c3f0277e6b",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; The Infinite Staircase; Traversing the Staircase; Infinite Staircase Encounters; Infinite Staircase Encounters; d100:08\u201314",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4635155-memory-web", 1100]
+        ]
+    },
+    {
+        "id": "e45ef4b5-516c-4130-aa91-31087676e484",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; The Infinite Staircase; Traversing the Staircase; Infinite Staircase Encounters; Infinite Staircase Encounters; d100:15\u201321",
+        "allies": [],
+        "bystanders": [
+            [3, "17100-aarakocra", 50]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "648ae273-5cf3-46e7-9449-99c8bc14f5c0",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; The Infinite Staircase; Traversing the Staircase; Infinite Staircase Encounters; Infinite Staircase Encounters; d100:22\u201328",
+        "allies": [],
+        "bystanders": [
+            [1, "16947-mage", 2300]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "5f0d8b44-3238-403f-8c6b-2f411c11be62",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; The Infinite Staircase; Traversing the Staircase; Infinite Staircase Encounters; Infinite Staircase Encounters; d100:29\u201335",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16803-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "b8893f62-0c64-44be-918f-78c471765276",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; The Infinite Staircase; Traversing the Staircase; Infinite Staircase Encounters; Infinite Staircase Encounters; d100:36\u201342",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "0155e052-435a-492c-9183-a974fe9eb971",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; The Infinite Staircase; Traversing the Staircase; Infinite Staircase Encounters; Infinite Staircase Encounters; d100:43\u201349",
+        "allies": [],
+        "bystanders": [
+            [1, "16840-deva", 5900]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "a1d68787-58d3-42cb-bcb9-481e6d9eb8b7",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; The Infinite Staircase; Traversing the Staircase; Infinite Staircase Encounters; Infinite Staircase Encounters; d100:50\u201356",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17132-young-red-shadow-dragon", 10000]
+        ]
+    },
+    {
+        "id": "8d4425dc-999f-4bbd-a25e-2b8bf12cd54b",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; The Infinite Staircase; Traversing the Staircase; Infinite Staircase Encounters; Infinite Staircase Encounters; d100:57\u201363",
+        "allies": [
+            [2, "17149-githyanki-warrior", 700]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "d5d9951a-d4d2-43f6-9640-90bc0bb5f2d0",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; The Infinite Staircase; Traversing the Staircase; Infinite Staircase Encounters; Infinite Staircase Encounters; d100:64\u201370",
+        "allies": [],
+        "bystanders": [
+            [5, "17180-duodrone", 50],
+            [4, "17177-tridrone", 100]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "2f11c45c-535e-4fa7-94ab-85567a2282c9",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; The Infinite Staircase; Traversing the Staircase; Infinite Staircase Encounters; Infinite Staircase Encounters; d100:78\u201384",
+        "allies": [],
+        "bystanders": [
+            [1, "16953-mastiff", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "abdff0bc-4325-4e6b-946a-3ff7207e9ec2",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; The Infinite Staircase; Traversing the Staircase; Infinite Staircase Encounters; Infinite Staircase Encounters; d100:85\u201391",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16956-merrow", 450]
+        ]
+    },
+    {
+        "id": "cc490762-93d7-4c2d-aac8-10a8d86bc483",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; The Infinite Staircase; Traversing the Staircase; Infinite Staircase Encounters; Infinite Staircase Encounters; d100:92\u201398",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4635159-swarm-of-gibberlings", 700]
+        ]
+    },
+    {
         "id": "648a536a-0ad0-4e90-88a2-25b64c16c87e",
         "type": "non-combat",
         "book_path": "Quests from the Infinite Staircase; The Infinite Staircase; Nafas",
@@ -68,6 +199,126 @@
         "bystanders": [],
         "enemies": [
             [1, "4635169-zargon-the-returner", 18000]
+        ]
+    },
+    {
+        "id": "8a716ac0-980d-437d-bd20-68d892434c5c",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; The Lost City; Buried Ziggurat; Random Encounters; Random Ziggurat Encounters; d12:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17001-rust-monster", 100]
+        ]
+    },
+    {
+        "id": "64bdd96c-9714-425f-9646-7222f28de67f",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; The Lost City; Buried Ziggurat; Random Encounters; Random Ziggurat Encounters; d12:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16877-giant-centipede", 50]
+        ]
+    },
+    {
+        "id": "3895542c-19e4-4920-83c8-0fdcea75c235",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; The Lost City; Buried Ziggurat; Random Encounters; Random Ziggurat Encounters; d12:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16975-owlbear", 700]
+        ]
+    },
+    {
+        "id": "38ea7f30-1085-43c3-9328-a76f8347be16",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; The Lost City; Buried Ziggurat; Random Encounters; Random Ziggurat Encounters; d12:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16925-hobgoblin", 100]
+        ]
+    },
+    {
+        "id": "ba5fa5dd-716c-49fb-b70b-9381c0ac32dd",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; The Lost City; Buried Ziggurat; Random Encounters; Random Ziggurat Encounters; d12:5",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "4d8065bf-38c9-4006-8997-8947ca45eeca",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; The Lost City; Buried Ziggurat; Random Encounters; Random Ziggurat Encounters; d12:6",
+        "allies": [],
+        "bystanders": [
+            [3, "16985-priest", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "ff8beae2-06fc-4028-9f57-b532c77c400f",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; The Lost City; Buried Ziggurat; Random Encounters; Random Ziggurat Encounters; d12:7",
+        "allies": [
+            [2, "16915-guard", 25]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "6e983da4-8f77-4e77-8f2e-3e4f10ed3b2b",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; The Lost City; Buried Ziggurat; Random Encounters; Random Ziggurat Encounters; d12:8",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16829-commoner", 10]
+        ]
+    },
+    {
+        "id": "d7bdf06a-685c-41ee-8201-2e9979cb89b1",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; The Lost City; Buried Ziggurat; Random Encounters; Random Ziggurat Encounters; d12:9",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "4635150-guardian-of-gorm", 25]
+        ]
+    },
+    {
+        "id": "0d3d103c-0f87-4706-9874-e5b265fb7764",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; The Lost City; Buried Ziggurat; Random Encounters; Random Ziggurat Encounters; d12:10",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "4635153-mage-of-usamigaras", 25]
+        ]
+    },
+    {
+        "id": "43f287d6-28e5-4f93-861a-6010c9b3b5fe",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; The Lost City; Buried Ziggurat; Random Encounters; Random Ziggurat Encounters; d12:11",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "4635166-warrior-of-madarua", 25]
+        ]
+    },
+    {
+        "id": "f2fe0799-9a17-4a47-877d-5a3172264147",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; The Lost City; Buried Ziggurat; Random Encounters; Random Ziggurat Encounters; d12:12",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16835-cultist", 25]
         ]
     },
     {
@@ -581,6 +832,89 @@
         ]
     },
     {
+        "id": "d2d901aa-ba1e-4133-a0b5-59efe60c0ede",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; When a Star Falls; Tegefed Mountains; Random Encounters; Random Tegefed Mountains Encounters; d8:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16913-griffon", 450]
+        ]
+    },
+    {
+        "id": "c9018889-ce01-404a-983a-d7f40b2f8b06",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; When a Star Falls; Tegefed Mountains; Random Encounters; Random Tegefed Mountains Encounters; d8:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17130-displacer-beast", 700]
+        ]
+    },
+    {
+        "id": "1b7ebf26-9946-43e6-bf31-3c7cae9ddb53",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; When a Star Falls; Tegefed Mountains; Random Encounters; Random Tegefed Mountains Encounters; d8:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16969-ogre", 450],
+            [5, "16812-boar", 50]
+        ]
+    },
+    {
+        "id": "9b6dd3d4-93ad-4074-a72c-75f395acfb9f",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; When a Star Falls; Tegefed Mountains; Random Encounters; Random Tegefed Mountains Encounters; d8:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16817-bugbear", 200]
+        ]
+    },
+    {
+        "id": "b5425088-d7e6-40b3-a080-875dac99a9d9",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; When a Star Falls; Tegefed Mountains; Random Encounters; Random Tegefed Mountains Encounters; d8:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "16875-giant-bat", 50]
+        ]
+    },
+    {
+        "id": "0ddb38f9-cfcc-45b8-80d8-011580e59ebd",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; When a Star Falls; Tegefed Mountains; Random Encounters; Random Tegefed Mountains Encounters; d8:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16841-dire-wolf", 200],
+            [5, "17062-wolf", 50]
+        ]
+    },
+    {
+        "id": "b0045e72-1e7c-4f4c-bd94-593d7ff4f0e7",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; When a Star Falls; Tegefed Mountains; Random Encounters; Random Tegefed Mountains Encounters; d8:7",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17040-troll", 1800]
+        ]
+    },
+    {
+        "id": "44f640ec-723f-4f2f-a0c7-ada7c0aea3d5",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; When a Star Falls; Tegefed Mountains; Random Encounters; Random Tegefed Mountains Encounters; d8:8",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17164-jackalwere", 100],
+            [5, "17164-jackalwere", 100]
+        ]
+    },
+    {
         "id": "5610e7ba-b744-4900-b2ff-463ed81c691c",
         "type": "combat",
         "book_path": "Quests from the Infinite Staircase; When a Star Falls; Death on the Moors; Memory Web",
@@ -1039,6 +1373,86 @@
         ]
     },
     {
+        "id": "07000907-e61c-411a-978c-fbf0db529670",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; Beyond the Crystal Cave; Eternal Garden; Random Encounters; Eternal Garden Encounters; d8:1",
+        "allies": [],
+        "bystanders": [
+            [2, "16874-giant-badger", 50]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "201d5243-672a-4454-875a-b1627b579f5a",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; Beyond the Crystal Cave; Eternal Garden; Random Encounters; Eternal Garden Encounters; d8:2",
+        "allies": [],
+        "bystanders": [
+            [2, "4635152-leprechaun", 1100]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "b938fdda-dcaa-4b63-8b1c-f7a45175a36b",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; Beyond the Crystal Cave; Eternal Garden; Random Encounters; Eternal Garden Encounters; d8:3",
+        "allies": [],
+        "bystanders": [
+            [3, "17005-satyr", 100]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "686a85c6-0fea-4aac-9b94-dd73f4646e1b",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; Beyond the Crystal Cave; Eternal Garden; Random Encounters; Eternal Garden Encounters; d8:4",
+        "allies": [],
+        "bystanders": [
+            [1, "17042-unicorn", 1800]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "2263b48b-32c2-43f2-8599-d8b1c65184c0",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; Beyond the Crystal Cave; Eternal Garden; Random Encounters; Eternal Garden Encounters; d8:5",
+        "allies": [],
+        "bystanders": [
+            [1, "17037-treant", 5000]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "d2d43df8-1578-4817-b082-d89ea0ad201c",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; Beyond the Crystal Cave; Eternal Garden; Random Encounters; Eternal Garden Encounters; d8:6",
+        "allies": [],
+        "bystanders": [
+            [1, "16792-awakened-tree", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "fb1dd32f-39de-4f3b-9a75-b027b52ecf21",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; Beyond the Crystal Cave; Eternal Garden; Random Encounters; Eternal Garden Encounters; d8:7",
+        "allies": [],
+        "bystanders": [
+            [1, "16823-chimera", 2300]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "b822ac02-0dfa-4717-b67d-d1a46eb68152",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; Beyond the Crystal Cave; Eternal Garden; Random Encounters; Eternal Garden Encounters; d8:8",
+        "allies": [],
+        "bystanders": [
+            [1, "4635160-the-gardener", 8400]
+        ],
+        "enemies": []
+    },
+    {
         "id": "cac5232d-85b7-40b7-bb96-646be68d19e9",
         "type": "combat",
         "book_path": "Quests from the Infinite Staircase; Beyond the Crystal Cave; Eternal Garden; Eternal Garden Locations; G1: Fairy Ring",
@@ -1253,6 +1667,57 @@
         ]
     },
     {
+        "id": "a0db9eea-40e5-415d-9a03-872eb6c3d628",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Pharaoh; Desert of Desolation; Desert Encounters; Desert of Desolation Encounters; d6:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16818-bulette", 1800]
+        ]
+    },
+    {
+        "id": "338cec4b-ebf9-47a9-8cf0-1b496bc3468b",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Pharaoh; Desert of Desolation; Desert Encounters; Desert of Desolation Encounters; d6:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16774-air-elemental", 1800],
+            [8, "16851-dust-mephit", 100]
+        ]
+    },
+    {
+        "id": "8435e923-c232-449e-8609-3479a8d2f0b6",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Pharaoh; Desert of Desolation; Desert Encounters; Desert of Desolation Encounters; d6:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16912-grick", 450]
+        ]
+    },
+    {
+        "id": "d2adf23f-c554-4ad5-8b31-400cb9d528f1",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Pharaoh; Desert of Desolation; Desert Encounters; Desert of Desolation Encounters; d6:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16854-efreeti", 7200]
+        ]
+    },
+    {
+        "id": "246c887a-681c-48da-a2a1-11fbab65a6ad",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Pharaoh; Desert of Desolation; Desert Encounters; Desert of Desolation Encounters; d6:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17065-wyvern", 2300]
+        ]
+    },
+    {
         "id": "6ef79887-d4ff-4d4e-aae9-39634142dbc1",
         "type": "non-combat",
         "book_path": "Quests from the Infinite Staircase; Pharaoh; Desert of Desolation; Ghost of Amun Sa",
@@ -1291,6 +1756,48 @@
         "bystanders": [],
         "enemies": [
             [3, "16957-mimic", 450]
+        ]
+    },
+    {
+        "id": "21059634-5775-4075-91e6-09c833f5f584",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Pharaoh; Pyramid of Amun Sa; Maze of Mists; Random Maze of Mists Encounters; d4:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16978-phase-spider", 700]
+        ]
+    },
+    {
+        "id": "6a61bb62-833f-494a-b5f8-63db7d3d0f5a",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Pharaoh; Pyramid of Amun Sa; Maze of Mists; Random Maze of Mists Encounters; d4:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16934-invisible-stalker", 2300]
+        ]
+    },
+    {
+        "id": "fdc75c96-745c-4e83-b764-b9cbcd57bcbe",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Pharaoh; Pyramid of Amun Sa; Maze of Mists; Random Maze of Mists Encounters; d4:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "16872-ghoul", 200]
+        ]
+    },
+    {
+        "id": "dfb6bfd7-88f4-44b9-a9d1-64fbd07af99a",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Pharaoh; Pyramid of Amun Sa; Maze of Mists; Random Maze of Mists Encounters; d4:4",
+        "allies": [],
+        "bystanders": [
+            [1, "16798-bandit", 25]
+        ],
+        "enemies": [
+            [2, "16958-minotaur", 700]
         ]
     },
     {
@@ -1382,6 +1889,46 @@
         "bystanders": [],
         "enemies": [
             [1, "16826-cloaker", 3900]
+        ]
+    },
+    {
+        "id": "b95d05b2-0dd4-4e51-984e-4cdf4c65411f",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Pharaoh; Pyramid of Amun Sa; Halls of the Upper Priesthood; Random Upper Priesthood Encounters; d4:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "16895-giant-spider", 200]
+        ]
+    },
+    {
+        "id": "f2c17de3-1e53-42a2-90f1-7463f69aa5a7",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Pharaoh; Pyramid of Amun Sa; Halls of the Upper Priesthood; Random Upper Priesthood Encounters; d4:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17138-carrion-crawler", 450]
+        ]
+    },
+    {
+        "id": "da3afe95-2e58-414a-b553-2168cb7a7b33",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Pharaoh; Pyramid of Amun Sa; Halls of the Upper Priesthood; Random Upper Priesthood Encounters; d4:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16870-ghast", 450]
+        ]
+    },
+    {
+        "id": "9d5869f4-3877-4ae9-ad0f-6d1bab390af9",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Pharaoh; Pyramid of Amun Sa; Halls of the Upper Priesthood; Random Upper Priesthood Encounters; d4:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17089-banshee", 1100]
         ]
     },
     {
@@ -1867,6 +2414,46 @@
         ]
     },
     {
+        "id": "a3acfa13-c235-405d-9c9f-6fa03176d408",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; The Lost Caverns of Tsojcanth; Lost Caverns; Greater Caverns Locations; G9: Glowing Grotto; Labyrinth Encounters; d20:13\u201314",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16923-hill-giant", 1800]
+        ]
+    },
+    {
+        "id": "5e53f4a1-085d-49a6-87c1-2c713dfda8f0",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; The Lost Caverns of Tsojcanth; Lost Caverns; Greater Caverns Locations; G9: Glowing Grotto; Labyrinth Encounters; d20:15\u201316",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16950-mammoth", 2300]
+        ]
+    },
+    {
+        "id": "d40e6f67-c0af-4f46-85d8-e6db61cc74f6",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; The Lost Caverns of Tsojcanth; Lost Caverns; Greater Caverns Locations; G9: Glowing Grotto; Labyrinth Encounters; d20:17\u201318",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16958-minotaur", 700]
+        ]
+    },
+    {
+        "id": "23d1b77b-01fc-45d0-bdb9-27f4c633f150",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; The Lost Caverns of Tsojcanth; Lost Caverns; Greater Caverns Locations; G9: Glowing Grotto; Labyrinth Encounters; d20:19\u201320",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17156-goristro", 18000]
+        ]
+    },
+    {
         "id": "f3d595b5-43df-49c6-a43f-4aedeecf07df",
         "type": "combat",
         "book_path": "Quests from the Infinite Staircase; The Lost Caverns of Tsojcanth; Lost Caverns; Greater Caverns Locations; G9: Glowing Grotto; G9b: Elysian Canyon",
@@ -1987,6 +2574,107 @@
         "bystanders": [],
         "enemies": [
             [1, "4635148-froghemoth-elder", 13000]
+        ]
+    },
+    {
+        "id": "5e78fdc9-39df-4c06-b8ac-8ca8f85efa06",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Expedition to the Barrier Peaks; The Spaceship; Spaceship Encounters, Level 1; Random Spaceship Encounters; d10:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [11, "4635164-vegepygmy-scavenger", 50],
+            [3, "4635165-vegepygmy-thorny-hunter", 450]
+        ]
+    },
+    {
+        "id": "925117a0-ee64-4478-9cbd-d28c35beea84",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Expedition to the Barrier Peaks; The Spaceship; Spaceship Encounters, Level 1; Random Spaceship Encounters; d10:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17163-intellect-devourer", 450]
+        ]
+    },
+    {
+        "id": "1cc39469-a8d2-4679-9f68-88834e5d86f7",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Expedition to the Barrier Peaks; The Spaceship; Spaceship Encounters, Level 1; Random Spaceship Encounters; d10:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "4635143-combat-robot", 2300]
+        ]
+    },
+    {
+        "id": "21f5e6b6-86cc-46dc-9eca-4b533b88f20b",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; Expedition to the Barrier Peaks; The Spaceship; Spaceship Encounters, Level 1; Random Spaceship Encounters; d10:4",
+        "allies": [
+            [1, "4635168-worker-robot", 700]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "7a90880f-595c-454f-8263-bd3ba3401a7e",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Expedition to the Barrier Peaks; The Spaceship; Spaceship Encounters, Level 1; Random Spaceship Encounters; d10:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "4635168-worker-robot", 700]
+        ]
+    },
+    {
+        "id": "4b7f8f6c-5e77-4c37-8aac-54c7a08c1335",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; Expedition to the Barrier Peaks; The Spaceship; Spaceship Encounters, Level 1; Random Spaceship Encounters; d10:6",
+        "allies": [],
+        "bystanders": [
+            [1, "4635138-android", 1800]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "b8df87b4-e705-49ea-be58-f5d3858a1d8f",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Expedition to the Barrier Peaks; The Spaceship; Spaceship Encounters, Level 1; Random Spaceship Encounters; d10:7",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4635143-combat-robot", 2300]
+        ]
+    },
+    {
+        "id": "bdca34ef-2817-430c-adfb-1759e852715d",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; Expedition to the Barrier Peaks; The Spaceship; Spaceship Encounters, Level 1; Random Spaceship Encounters; d10:8",
+        "allies": [],
+        "bystanders": [
+            [1, "4635168-worker-robot", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "42347b90-069d-4d00-adf8-8a1dd2bf40dd",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Expedition to the Barrier Peaks; The Spaceship; Spaceship Encounters, Level 1; Random Spaceship Encounters; d10:9",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16826-cloaker", 3900]
+        ]
+    },
+    {
+        "id": "33ef0322-e706-48f2-b8e9-b6583e549ed0",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Expedition to the Barrier Peaks; The Spaceship; Spaceship Encounters, Level 1; Random Spaceship Encounters; d10:10",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16999-roper", 1800]
         ]
     },
     {
@@ -2365,6 +3053,86 @@
         "enemies": [
             [1, "4635138-android", 1800]
         ]
+    },
+    {
+        "id": "821fabba-7a2b-43a2-ba68-095988c9e20d",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Expedition to the Barrier Peaks; The Spaceship; Spaceship Features, Level 3; Random Garden Encounters; d8:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "4635151-horrid-plant", 1100]
+        ]
+    },
+    {
+        "id": "0f5c048f-c004-4607-9aa4-43c014d5fbb0",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Expedition to the Barrier Peaks; The Spaceship; Spaceship Features, Level 3; Random Garden Encounters; d8:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "4635151-horrid-plant", 1100]
+        ]
+    },
+    {
+        "id": "8831cc43-1407-4a85-bbec-b1d19af58021",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Expedition to the Barrier Peaks; The Spaceship; Spaceship Features, Level 3; Random Garden Encounters; d8:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "4635151-horrid-plant", 1100]
+        ]
+    },
+    {
+        "id": "ec1932fd-9ed4-4756-a56d-03578688e932",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Expedition to the Barrier Peaks; The Spaceship; Spaceship Features, Level 3; Random Garden Encounters; d8:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "4635139-barkburr", 700]
+        ]
+    },
+    {
+        "id": "0e5a7da6-b039-4a9c-880c-a71947d01d58",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Expedition to the Barrier Peaks; The Spaceship; Spaceship Features, Level 3; Random Garden Encounters; d8:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4635159-swarm-of-gibberlings", 700]
+        ]
+    },
+    {
+        "id": "9fb93ec1-27fd-44b4-8256-2555be9ae5cf",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; Expedition to the Barrier Peaks; The Spaceship; Spaceship Features, Level 3; Random Garden Encounters; d8:6",
+        "allies": [],
+        "bystanders": [
+            [1, "16791-awakened-shrub", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "de25c3c2-8166-47f8-8eac-876b61661cf4",
+        "type": "combat",
+        "book_path": "Quests from the Infinite Staircase; Expedition to the Barrier Peaks; The Spaceship; Spaceship Features, Level 3; Random Garden Encounters; d8:7",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16896-giant-toad", 200]
+        ]
+    },
+    {
+        "id": "57e95041-aee4-4044-8149-310804ef2218",
+        "type": "non-combat",
+        "book_path": "Quests from the Infinite Staircase; Expedition to the Barrier Peaks; The Spaceship; Spaceship Features, Level 3; Random Garden Encounters; d8:8",
+        "allies": [],
+        "bystanders": [
+            [3, "17052-weasel", 10]
+        ],
+        "enemies": []
     },
     {
         "id": "89cdffd8-d68a-4e74-9f10-11b9e52171d7",

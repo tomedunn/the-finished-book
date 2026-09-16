@@ -1160,8 +1160,91 @@
         ]
     },
     {
+        "id": "e3527c94-454b-4f24-aed6-f014b8df6c1f",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Danger at Dunwater; Epilogue: Croc Hunt; Lair of the Devourer; Marsh Random Encounters; d8:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16884-giant-frog", 50]
+        ]
+    },
+    {
+        "id": "1a2f7132-3a32-43f2-a158-7720262598b5",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Danger at Dunwater; Epilogue: Croc Hunt; Lair of the Devourer; Marsh Random Encounters; d8:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17040-troll", 1800]
+        ]
+    },
+    {
+        "id": "2b04f199-9f6b-4a84-be91-0b3b4305a86a",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Danger at Dunwater; Epilogue: Croc Hunt; Lair of the Devourer; Marsh Random Encounters; d8:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16836-cult-fanatic", 450]
+        ]
+    },
+    {
+        "id": "fd88e867-5140-48e5-83ad-84f09edf0980",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Danger at Dunwater; Epilogue: Croc Hunt; Lair of the Devourer; Marsh Random Encounters; d8:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "301415-swarm-of-insects-wasps", 100]
+        ]
+    },
+    {
+        "id": "adee012e-9065-4dbb-b071-e355335197ad",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Danger at Dunwater; Epilogue: Croc Hunt; Lair of the Devourer; Marsh Random Encounters; d8:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16848-druid", 450],
+            [2, "17032-swarm-of-rats", 50]
+        ]
+    },
+    {
+        "id": "3bd0de44-4135-4d34-a647-fd05b0e3269c",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Danger at Dunwater; Epilogue: Croc Hunt; Lair of the Devourer; Marsh Random Encounters; d8:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16946-lizardfolk", 100]
+        ]
+    },
+    {
+        "id": "78ed045d-d470-43af-ac03-cba74d1149ce",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Danger at Dunwater; Epilogue: Croc Hunt; Lair of the Devourer; Marsh Random Encounters; d8:7",
+        "allies": [
+            [1, "17037-treant", 2500]
+        ],
+        "bystanders": [],
+        "enemies": [
+            [6, "17032-swarm-of-rats", 50]
+        ]
+    },
+    {
+        "id": "4b146d89-67ec-428a-817e-b1be58df10e2",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Danger at Dunwater; Epilogue: Croc Hunt; Lair of the Devourer; Marsh Random Encounters; d8:8",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16969-ogre", 450]
+        ]
+    },
+    {
         "id": "1cac2d93-82cf-4c98-83b4-606e62bbbfeb",
-        "type": "non-combat",
+        "type": "combat",
         "book_path": "Ghosts of Saltmarsh; Danger at Dunwater; Epilogue: Croc Hunt; Lair of the Devourer; Polluted Pool",
         "allies": [],
         "bystanders": [],
@@ -2282,7 +2365,7 @@
     {
         "id": "43bd80c7-a7e8-41cc-b87a-7793abf5bf3f",
         "type": "non-combat",
-        "book_path": "Ghosts of Saltmarsh; The Styes; Part 1: A Dying District; Styes Encounters; Styes Encounters; 1",
+        "book_path": "Ghosts of Saltmarsh; The Styes; Part 1: A Dying District; Styes Encounters; Styes Encounters; d6:1",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -2292,7 +2375,7 @@
     {
         "id": "92cb7460-1e37-4ceb-889e-d24e99390569",
         "type": "non-combat",
-        "book_path": "Ghosts of Saltmarsh; The Styes; Part 1: A Dying District; Styes Encounters; Styes Encounters; 2",
+        "book_path": "Ghosts of Saltmarsh; The Styes; Part 1: A Dying District; Styes Encounters; Styes Encounters; d6:2",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -2302,7 +2385,7 @@
     {
         "id": "791586fb-5106-4603-8d24-bc622def244b",
         "type": "non-combat",
-        "book_path": "Ghosts of Saltmarsh; The Styes; Part 1: A Dying District; Styes Encounters; Styes Encounters; 3",
+        "book_path": "Ghosts of Saltmarsh; The Styes; Part 1: A Dying District; Styes Encounters; Styes Encounters; d6:3",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -2312,7 +2395,7 @@
     {
         "id": "798100a1-af83-44b5-b881-ceb40d81b29f",
         "type": "non-combat",
-        "book_path": "Ghosts of Saltmarsh; The Styes; Part 1: A Dying District; Styes Encounters; Styes Encounters; 4",
+        "book_path": "Ghosts of Saltmarsh; The Styes; Part 1: A Dying District; Styes Encounters; Styes Encounters; d6:4",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -2322,7 +2405,7 @@
     {
         "id": "13b01757-3e35-406e-b9ab-ca1b79562d25",
         "type": "combat",
-        "book_path": "Ghosts of Saltmarsh; The Styes; Part 1: A Dying District; Styes Encounters; Styes Encounters; 5",
+        "book_path": "Ghosts of Saltmarsh; The Styes; Part 1: A Dying District; Styes Encounters; Styes Encounters; d6:5",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -2333,7 +2416,7 @@
     {
         "id": "bffe05b7-0aa9-4675-8605-7a12b83b3111",
         "type": "combat",
-        "book_path": "Ghosts of Saltmarsh; The Styes; Part 1: A Dying District; Styes Encounters; Styes Encounters; 6",
+        "book_path": "Ghosts of Saltmarsh; The Styes; Part 1: A Dying District; Styes Encounters; Styes Encounters; d6:6",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -2607,6 +2690,626 @@
             [2, "17017-specter", 200],
             [5, "16872-ghoul", 200],
             [14, "17077-zombie", 50]
+        ]
+    },
+    {
+        "id": "2d49412f-6972-4954-b900-714a44836cb6",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:01\u201303",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [11, "16989-quipper", 10]
+        ]
+    },
+    {
+        "id": "a7111b46-e33a-40f4-b6e6-425b78201b72",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:04\u201308",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17031-swarm-of-quippers", 200]
+        ]
+    },
+    {
+        "id": "f1d67b0a-94c2-4996-81dc-34fe575f8927",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:09\u201312",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [17, "17322-dolphin", 25]
+        ]
+    },
+    {
+        "id": "4ef7717c-2253-4aca-bee4-a096426b72ff",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:13\u201314",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16888-giant-octopus", 200]
+        ]
+    },
+    {
+        "id": "1a4b9442-f8c0-4de4-b7e9-7c203e56c1df",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:15\u201316",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16937-killer-whale", 700]
+        ]
+    },
+    {
+        "id": "dbb53bd1-ff29-469f-bab5-28c2a05bc289",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:17\u201318",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16955-merfolk", 25]
+        ]
+    },
+    {
+        "id": "b2b77c6f-eb16-48e6-a83b-d4095e6fb4fd",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:19\u201320",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16893-giant-sea-horse", 100]
+        ]
+    },
+    {
+        "id": "cd36fd2a-78fd-4326-8c78-569d3aba0a59",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:21\u201324",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16879-giant-crab", 25]
+        ]
+    },
+    {
+        "id": "905734de-1562-4f98-aabf-d94ba3da933c",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:25\u201328",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16994-reef-shark", 100]
+        ]
+    },
+    {
+        "id": "23d86882-df86-4c87-a72a-82599d0ee343",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:29",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16928-hunter-shark", 450]
+        ]
+    },
+    {
+        "id": "8dd3061e-59ae-4701-83ad-4ce6ba7da8c4",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:30\u201334",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17003-sahuagin", 100]
+        ]
+    },
+    {
+        "id": "3fabdc54-5a4d-40ed-b5fe-3697127d23dd",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:35\u201337",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "310386-koalinth", 100]
+        ]
+    },
+    {
+        "id": "e023a098-9638-4c39-bc61-ce4f670b9938",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:41\u201345",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "313041-locathah", 100]
+        ]
+    },
+    {
+        "id": "4aa95c67-83e8-4a89-b4bb-ab6476a6f7bc",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:46\u201351",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16919-harpy", 200]
+        ]
+    },
+    {
+        "id": "741cbd8e-9b07-4672-b653-8d98f2dd1704",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:52\u201354",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16956-merrow", 450]
+        ]
+    },
+    {
+        "id": "95f6b976-5b25-439a-84ad-5601be00389c",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:55\u201357",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17197-sahuagin-priestess", 450],
+            [3, "17003-sahuagin", 100]
+        ]
+    },
+    {
+        "id": "db5a852e-f46d-4a4a-a52e-7d12173a2966",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:58\u201359",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "310397-koalinth-sergeant", 450],
+            [5, "310386-koalinth", 100]
+        ]
+    },
+    {
+        "id": "314d8182-dedc-4dd4-9f39-63ded7bcca4c",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:60\u201362",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16981-plesiosaurus", 450]
+        ]
+    },
+    {
+        "id": "d8446502-67da-43c9-81f1-3370e9a8b69b",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:63\u201364",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17008-sea-hag", 450]
+        ]
+    },
+    {
+        "id": "1eda5812-3a6f-42e1-b4ac-4de7ba8571bd",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:65\u201367",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16810-blood-hawk", 25]
+        ]
+    },
+    {
+        "id": "1c65ba60-8d96-43d3-9f0c-999c54e47635",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:68\u201370",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "316122-sahuagin-champion", 700]
+        ]
+    },
+    {
+        "id": "fe7cdc01-9ad4-4299-b6e1-6b93f184e3b4",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:71\u201374",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16894-giant-shark", 1800]
+        ]
+    },
+    {
+        "id": "49cd8364-245b-4dea-a021-6fa4ca1ae5cc",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 1\u20134); d100:75",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17070-young-bronze-dragon", 3900]
+        ]
+    },
+    {
+        "id": "73978f65-057f-41f0-b65d-1677b4d0b008",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:01\u201303",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16894-giant-shark", 1800]
+        ]
+    },
+    {
+        "id": "ca329890-74b1-43d4-9799-bf5bf5bec557",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:04\u201307",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17031-swarm-of-quippers", 200]
+        ]
+    },
+    {
+        "id": "7c1f590e-bd7e-419a-8418-27d396661432",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:08\u201311",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16937-killer-whale", 700]
+        ]
+    },
+    {
+        "id": "3ee77dc1-02ad-4f98-b5d4-959e84946c6b",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:12\u201317",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [11, "16955-merfolk", 25]
+        ]
+    },
+    {
+        "id": "0d9e0d59-bb32-4e13-9c54-6dc587fe334e",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:18\u201325",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "316516-sahuagin-high-priestess", 1800],
+            [1, "316524-sahuagin-wave-shaper", 1800]
+        ]
+    },
+    {
+        "id": "d781a533-d464-4cd9-a361-a6d94bfe29dd",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:26\u201330",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [9, "16879-giant-crab", 25]
+        ]
+    },
+    {
+        "id": "30f6b8f1-7f09-4d2d-bc09-dc1b9c473961",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:31\u201335",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16994-reef-shark", 100]
+        ]
+    },
+    {
+        "id": "d5931db2-872b-46c3-8c2a-df3514744eec",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:36\u201338",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16928-hunter-shark", 450]
+        ]
+    },
+    {
+        "id": "a1491449-aeec-4fcf-aee3-2f0853593c17",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:39\u201340",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17051-water-elemental", 1800]
+        ]
+    },
+    {
+        "id": "7cf521bc-a452-4b20-8d28-406788d0c316",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:42\u201345",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "313041-locathah", 100]
+        ]
+    },
+    {
+        "id": "77741935-f3bb-43f5-946b-772892ffcf1f",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:46\u201347",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "310360-harpy-matriarch", 1800],
+            [3, "16919-harpy", 200]
+        ]
+    },
+    {
+        "id": "9305313f-a73d-4aaf-ad68-709de68e9cb6",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:48\u201349",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16956-merrow", 450]
+        ]
+    },
+    {
+        "id": "a36cd272-e9dd-49fc-a09a-52eec2a1c074",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:50\u201352",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17198-sahuagin-baron", 1800],
+            [3, "17003-sahuagin", 100]
+        ]
+    },
+    {
+        "id": "7a326a6d-7d60-4482-b19a-739c0b41827f",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:53\u201357",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "310397-koalinth-sergeant", 450],
+            [5, "310386-koalinth", 100]
+        ]
+    },
+    {
+        "id": "40599391-cbf0-4e21-89bd-9ff9ca503988",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:58\u201359",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [9, "16879-giant-crab", 25]
+        ]
+    },
+    {
+        "id": "06904ff4-170b-430d-bb56-21d9ad1ab378",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:60\u201361",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16981-plesiosaurus", 450]
+        ]
+    },
+    {
+        "id": "36f78f2d-612e-4948-9f11-f5e7993e39a6",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:62\u201363",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "301760-sea-hag-coven-variant", 450]
+        ]
+    },
+    {
+        "id": "479e6f0a-e454-4725-a7f3-8af88a165188",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:64\u201365",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "316104-sahuagin-blademaster", 2300]
+        ]
+    },
+    {
+        "id": "be999fdf-f53e-42ed-84f2-bee16db01b81",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:66\u201369",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16929-hydra", 3900]
+        ]
+    },
+    {
+        "id": "ad37db2b-7f92-4ac3-90d0-955386f6064d",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:70\u201371",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17143-marid", 7200]
+        ]
+    },
+    {
+        "id": "5a526df7-3dd3-45bf-b5c0-104fe1c34924",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:72",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17026-storm-giant", 10000]
+        ]
+    },
+    {
+        "id": "f0a14628-69bc-46ed-9b22-c2dea05240d9",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:73",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16767-adult-bronze-dragon", 13000]
+        ]
+    },
+    {
+        "id": "a80db6f2-d187-4ca4-913d-99bfd8364398",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 5\u201310); d100:74",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16845-dragon-turtle", 18000]
+        ]
+    },
+    {
+        "id": "e719e609-c372-460e-9275-4959b5a42bec",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 11\u201320); d100:01\u201303",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17026-storm-giant", 10000]
+        ]
+    },
+    {
+        "id": "4947f556-2174-4059-bef9-4cfd16aac65e",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 11\u201320); d100:04\u201307",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "16894-giant-shark", 1800]
+        ]
+    },
+    {
+        "id": "b867d53c-cc77-4388-a0d4-505b5005fdab",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 11\u201320); d100:08\u201311",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17143-marid", 7200]
+        ]
+    },
+    {
+        "id": "ae3fd116-b703-4ed6-a02a-c492d66a5a9e",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 11\u201320); d100:12\u201318",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "316516-sahuagin-high-priestess", 1800],
+            [5, "316122-sahuagin-champion", 700]
+        ]
+    },
+    {
+        "id": "74f2a2ee-96f9-452c-9c2c-919cea2d6b75",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 11\u201320); d100:19\u201325",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17198-sahuagin-baron", 1800],
+            [3, "316104-sahuagin-blademaster", 2300]
+        ]
+    },
+    {
+        "id": "18b0baa8-d561-49c5-ae5d-2ecea33a5057",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 11\u201320); d100:26\u201328",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [11, "16994-reef-shark", 100]
+        ]
+    },
+    {
+        "id": "e1645cea-79a6-4557-ae69-6218e2d2800f",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 11\u201320); d100:29\u201332",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "16928-hunter-shark", 450]
+        ]
+    },
+    {
+        "id": "1ffc3cf8-0a72-484c-9859-5e04515ae217",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 11\u201320); d100:44\u201345",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16929-hydra", 3900]
+        ]
+    },
+    {
+        "id": "510bf956-4d4e-4a4a-bcf6-e8458d8b8b25",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 11\u201320); d100:46\u201348",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "310397-koalinth-sergeant", 450],
+            [17, "310386-koalinth", 100]
+        ]
+    },
+    {
+        "id": "ae14824c-9e18-4a4d-8312-b7e1f1e80cbe",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 11\u201320); d100:49\u201350",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16981-plesiosaurus", 450]
+        ]
+    },
+    {
+        "id": "0afc9325-2e93-4bba-9f79-365ce708c70d",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 11\u201320); d100:51\u201353",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [11, "16956-merrow", 450]
+        ]
+    },
+    {
+        "id": "92b9f4f8-9785-4cdc-a97d-f16b03835d90",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 11\u201320); d100:54\u201357",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "310360-harpy-matriarch", 1800],
+            [9, "16919-harpy", 200]
+        ]
+    },
+    {
+        "id": "59a5ee78-cd59-480c-ba01-510cb2bf3a33",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 11\u201320); d100:58\u201360",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "301760-sea-hag-coven-variant", 450]
+        ]
+    },
+    {
+        "id": "fc76774c-baff-48da-a46b-a5da6aeb7e5b",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 11\u201320); d100:61\u201363",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16845-dragon-turtle", 18000]
+        ]
+    },
+    {
+        "id": "624387e7-0348-4f03-8b8a-b58930a336b3",
+        "type": "combat",
+        "book_path": "Ghosts of Saltmarsh; Of Ships and the Sea; Encounters at Sea; Random Encounters; Open Water Encounters (Levels 11\u201320); d100:64",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16778-ancient-bronze-dragon", 41000]
         ]
     },
     {

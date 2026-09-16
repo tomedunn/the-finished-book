@@ -64,100 +64,39 @@
         ]
     },
     {
-        "id": "d133a6f0-aa17-48fd-8f75-a871da19ae49",
+        "id": "225fadca-04d2-4b87-854d-090ce198ab60",
         "type": "combat",
-        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Barovian Commoners",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Daytime Random Encounters in Barovia; d12 + d8:2",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "16829-commoner", 10]
+            [11, "16829-commoner", 10]
         ]
     },
     {
-        "id": "120c8e56-d71d-4a74-b041-eb84721e0879",
+        "id": "363643bb-d736-4f61-b3fb-307676d553ca",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Daytime Random Encounters in Barovia; d12 + d8:3",
+        "allies": [],
+        "bystanders": [
+            [4, "17007-scout", 100]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "1aefcacc-f318-441a-9e85-7d3a5fb2faaf",
         "type": "combat",
-        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Barovian Scouts",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Daytime Random Encounters in Barovia; d12 + d8:7",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17007-scout", 100]
+            [4, "16798-bandit", 25]
         ]
     },
     {
-        "id": "39ba66d2-cb37-447a-a72e-90647e673150",
+        "id": "859dee86-1d6d-4aa8-b5ad-bee22ef87121",
         "type": "combat",
-        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Berserkers",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "16805-berserker", 450]
-        ]
-    },
-    {
-        "id": "0889fc16-18f2-4fc8-bc94-5eee250b1706",
-        "type": "combat",
-        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Dire Wolves",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "16841-dire-wolf", 200]
-        ]
-    },
-    {
-        "id": "33d75731-4cdf-4065-bde8-6dd8cc8131a6",
-        "type": "combat",
-        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Druid and Twig Blights",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "16848-druid", 450],
-            [1, "17095-twig-blight", 25]
-        ]
-    },
-    {
-        "id": "9b37e338-3adc-4edd-aa29-ae10f5e14641",
-        "type": "combat",
-        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Ghost",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "16871-ghost", 1100]
-        ]
-    },
-    {
-        "id": "a61ebb1e-f11e-49cb-a07e-57a697c58f5e",
-        "type": "combat",
-        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Needle Blights",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "17215-needle-blight", 50]
-        ]
-    },
-    {
-        "id": "39ea41f6-001f-4db2-a717-b24e1ef0d4da",
-        "type": "combat",
-        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Revenant",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "17196-revenant", 1800]
-        ]
-    },
-    {
-        "id": "55fd33cc-a383-4f7b-bcdd-29ff6f4e1cba",
-        "type": "combat",
-        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Scarecrows",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "17200-scarecrow", 200]
-        ]
-    },
-    {
-        "id": "084b4814-daf8-4cb4-99a5-a797431fea50",
-        "type": "combat",
-        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Skeletal Rider",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Nighttime Random Encounters in Barovia; d12 + d8:8",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -166,103 +105,247 @@
         ]
     },
     {
-        "id": "e822958e-9199-4949-b88c-36e0a831dc61",
-        "type": "combat",
-        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Strahd Zombies",
+        "id": "c3410a1c-4036-4010-befd-01c4b85d19e4",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Daytime Random Encounters in Barovia; d12 + d8:11",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "17375-strahd-zombie", 200]
-        ]
+        "bystanders": [
+            [3, "17033-swarm-of-ravens", 50]
+        ],
+        "enemies": []
     },
     {
-        "id": "43bed50e-21b5-4754-807b-3e3636a56521",
-        "type": "combat",
-        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Swarms of Bats",
+        "id": "c3410a1c-4036-4010-befd-01c4b85d19e4",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Daytime Random Encounters in Barovia; d12 + d8:11",
         "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "17028-swarm-of-bats", 50]
-        ]
-    },
-    {
-        "id": "32e4d0cf-9b00-423d-ab6b-160d719dd186",
-        "type": "combat",
-        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Swarms of Ravens",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "17033-swarm-of-ravens", 50]
-        ]
-    },
-    {
-        "id": "33357b15-10f3-444e-b1bb-afc5b8caf298",
-        "type": "combat",
-        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Vistani Bandits",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "16798-bandit", 25]
-        ]
-    },
-    {
-        "id": "8ea7d5f6-469c-47cb-861c-531e93b85e4d",
-        "type": "combat",
-        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Wereraven",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "bystanders": [
             [1, "17377-wereraven", 450]
-        ]
+        ],
+        "enemies": []
     },
     {
-        "id": "aa060cd2-18d2-4229-9f7c-50b2146381f4",
+        "id": "c38c40e4-b66b-4af1-b290-0333342b480a",
         "type": "combat",
-        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Werewolves",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Daytime Random Encounters in Barovia; d12 + d8:12",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17057-werewolf", 700]
+            [4, "16841-dire-wolf", 200]
         ]
     },
     {
-        "id": "c2d6a0af-782a-401c-a671-b2f69e9d9412",
+        "id": "cc3d4cd4-8781-41b1-a3fa-ca51ff3c7a7b",
         "type": "combat",
-        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Will-o\u2019-Wisp",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Daytime Random Encounters in Barovia; d12 + d8:13",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17060-will-o-wisp", 450]
+            [11, "17062-wolf", 50]
         ]
     },
     {
-        "id": "c24519f9-b91b-4878-b253-84f976c595c2",
+        "id": "1ab08312-ecf1-43ad-adf2-381149a4ae34",
         "type": "combat",
-        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Will-o\u2019-Wisp",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Daytime Random Encounters in Barovia; d12 + d8:14",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17077-zombie", 50]
+            [3, "16805-berserker", 450]
         ]
     },
     {
-        "id": "670b82d1-1260-462b-b4b5-8b137800d6bf",
+        "id": "575124c9-02cf-47fd-b57d-e47b1f382955",
         "type": "combat",
-        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Wolves",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Daytime Random Encounters in Barovia; d12 + d8:16",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17062-wolf", 50]
+            [4, "17057-werewolf", 700]
         ]
     },
     {
-        "id": "c637d12f-d9d1-4620-b43f-3ca2f44da843",
+        "id": "92c16cd7-0a81-4dc3-8530-7188c5dc9fac",
         "type": "combat",
-        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Zombies",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Daytime Random Encounters in Barovia; d12 + d8:17",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17077-zombie", 50]
+            [1, "16848-druid", 450],
+            [7, "17095-twig-blight", 25]
+        ]
+    },
+    {
+        "id": "ac7646dd-03a1-43a4-95d3-10087f7cf900",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Daytime Random Encounters in Barovia; d12 + d8:18",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17215-needle-blight", 50]
+        ]
+    },
+    {
+        "id": "fc4aa8fd-9cb2-49c8-9103-77ec47253f6d",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Daytime Random Encounters in Barovia; d12 + d8:19",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17200-scarecrow", 200]
+        ]
+    },
+    {
+        "id": "9c5a01ff-e3f2-4427-80eb-57296b0526c8",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Daytime Random Encounters in Barovia; d12 + d8:20",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17196-revenant", 1800]
+        ]
+    },
+    {
+        "id": "67928311-7cac-42e1-9409-2721722d0577",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Nighttime Random Encounters in Barovia; d12 + d8:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16871-ghost", 1100]
+        ]
+    },
+    {
+        "id": "084b4814-daf8-4cb4-99a5-a797431fea50",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Nighttime Random Encounters in Barovia; d12 + d8:8",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17015-skeleton", 50],
+            [1, "17050-warhorse-skeleton", 100]
+        ]
+    },
+    {
+        "id": "a8e95fed-796d-402d-a682-f32297790ba7",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Nighttime Random Encounters in Barovia; d12 + d8:9",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17028-swarm-of-bats", 50]
+        ]
+    },
+    {
+        "id": "b6f25ef9-c4a1-4633-bf37-b576c050cf4c",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Nighttime Random Encounters in Barovia; d12 + d8:10",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16841-dire-wolf", 200]
+        ]
+    },
+    {
+        "id": "4e0d9845-946e-4df5-9d65-632e999e3da3",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Nighttime Random Encounters in Barovia; d12 + d8:11",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [11, "17062-wolf", 50]
+        ]
+    },
+    {
+        "id": "a9aaf8c8-2419-4bc9-8db1-58a6bb2ef09b",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Nighttime Random Encounters in Barovia; d12 + d8:12",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16805-berserker", 450]
+        ]
+    },
+    {
+        "id": "624ad3cb-dc35-4449-8e08-2dc29d6acafc",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Nighttime Random Encounters in Barovia; d12 + d8:13",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16848-druid", 450],
+            [7, "17095-twig-blight", 25]
+        ]
+    },
+    {
+        "id": "9539afa9-e328-4087-b95d-e1d5b414cfdb",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Nighttime Random Encounters in Barovia; d12 + d8:14",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17215-needle-blight", 50]
+        ]
+    },
+    {
+        "id": "d6dddbbf-7b4c-477b-8173-9489a9e4ec9e",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Nighttime Random Encounters in Barovia; d12 + d8:15",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17057-werewolf", 700]
+        ]
+    },
+    {
+        "id": "71a4c052-0d33-467e-bf46-6cdec89dcaab",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Nighttime Random Encounters in Barovia; d12 + d8:16",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [11, "17077-zombie", 50]
+        ]
+    },
+    {
+        "id": "8b8ec88e-cc79-434f-b320-8a2454e14502",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Nighttime Random Encounters in Barovia; d12 + d8:17",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17200-scarecrow", 200]
+        ]
+    },
+    {
+        "id": "74f194c9-17dd-4d6e-9ba7-c83040ee13e2",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Nighttime Random Encounters in Barovia; d12 + d8:18",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17375-strahd-zombie", 200]
+        ]
+    },
+    {
+        "id": "2b682207-ea9e-4595-a183-053f8f3de913",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Nighttime Random Encounters in Barovia; d12 + d8:19",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17060-will-o-wisp", 450],
+            [11, "17077-zombie", 50]
+        ]
+    },
+    {
+        "id": "211ea9a5-0719-45d8-8b4c-8efbae50ff2d",
+        "type": "combat",
+        "book_path": "Curse of Strahd; The Lands of Barovia; Random Encounters; Nighttime Random Encounters in Barovia; d12 + d8:20",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17196-revenant", 1800]
         ]
     },
     {
@@ -519,89 +602,19 @@
         ]
     },
     {
-        "id": "991e2a72-acea-44f9-b18d-96c3ad2f054e",
+        "id": "93d8d68c-6a8c-4cc5-a56e-5f1eb2f44019",
         "type": "non-combat",
-        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (A-C); Barovian Commoners",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [2, "16829-commoner", 10]
-        ]
-    },
-    {
-        "id": "48cb682a-d099-4c6d-aa92-7018a0597657",
-        "type": "combat",
-        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (A-C); Barovian Witch",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "17362-barovian-witch", 100]
-        ]
-    },
-    {
-        "id": "6a17ab23-e633-4386-bc54-5a95ed80b05d",
-        "type": "non-combat",
-        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (A-C); Black Cat",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "16820-cat", 10]
-        ]
-    },
-    {
-        "id": "fdfab52f-85c2-49ca-a077-bbed861c3a86",
-        "type": "combat",
-        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (A-C); Broom of Animated Attack",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "17358-broom-of-animated-attack", 50]
-        ]
-    },
-    {
-        "id": "894ae562-9eb3-4b52-b6cc-401bd2e3642e",
-        "type": "combat",
-        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (A-C); Crawling Claws",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [7, "17139-crawling-claw", 10]
-        ]
-    },
-    {
-        "id": "597c1909-1388-4bd3-b19a-7250f34c40bf",
-        "type": "combat",
-        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (A-C); Crawling Strahd Zombie",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
-            [1, "17375-strahd-zombie", 200]
-        ]
-    },
-    {
-        "id": "3043c93c-6a6b-4b2a-91a9-8be36763f44c",
-        "type": "non-combat",
-        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (D-S); Ezmerelda d\u2019Avenir",
-        "allies": [],
-        "bystanders": [],
-        "enemies": [
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:2",
+        "allies": [
             [1, "17364-ezmerelda-davenir", 3900]
-        ]
-    },
-    {
-        "id": "b6b38bae-a4ee-480a-91b1-22a138997b84",
-        "type": "combat",
-        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (D-S); Flying Swords",
-        "allies": [],
+        ],
         "bystanders": [],
-        "enemies": [
-            [3, "16865-flying-sword", 50]
-        ]
+        "enemies": []
     },
     {
-        "id": "eb1608a3-8e88-4cb9-9e6f-82bf544ba73c",
+        "id": "386de1c0-aae2-4e83-bc41-a918285bc726",
         "type": "alternate combat",
-        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (D-S); Rahadin",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:3",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -609,39 +622,49 @@
         ]
     },
     {
-        "id": "3e93b6a2-4bda-4789-8f5d-c4872259c8f3",
+        "id": "a0f51806-b44e-4c10-83fd-20c3ef65dcad",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:4",
+        "allies": [],
+        "bystanders": [
+            [1, "16820-cat", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "4c2a077e-27fb-4d7a-9bfb-1e268eda3b0e",
         "type": "combat",
-        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (D-S); Shadows",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:5",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [3, "17010-shadow", 100]
+            [1, "17358-broom-of-animated-attack", 50]
         ]
     },
     {
-        "id": "f758dfc2-32b6-4c75-9dbc-2e7088060a6c",
-        "type": "alternate combat",
-        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (D-S); Strahd von Zarovich",
+        "id": "32ab600b-9b58-441a-842f-eeb670adc24e",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:6",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17374-strahd-von-zarovich", 13000]
+            [4, "16865-flying-sword", 50]
         ]
     },
     {
-        "id": "c470b66a-7451-43e9-8b67-95de057d7443",
+        "id": "c72e6175-b287-493a-943b-aae84a440817",
         "type": "combat",
-        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (D-S); Swarms of Bats",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:8; d6: 1",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [3, "17028-swarm-of-bats", 50]
+            [1, "17139-crawling-claw", 10]
         ]
     },
     {
-        "id": "9258ffd0-0429-4a3d-92a6-55353bddeaa8",
+        "id": "7a32f511-9954-497c-aaab-fbfb4bd755fb",
         "type": "combat",
-        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (T-Z); Vampire Spawn",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:8; d6: 2",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -649,23 +672,153 @@
         ]
     },
     {
-        "id": "2f0ad6f2-145e-4dfb-9712-f916fbdcc2c6",
+        "id": "9270cde4-ec7c-4575-b070-e5a6cf0e46d5",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:9",
+        "allies": [],
+        "bystanders": [
+            [3, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "1938262a-6985-40e8-b9f0-046b2e5b2a39",
         "type": "combat",
-        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (T-Z); Vistani Thugs",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:10",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [3, "17035-thug", 100]
+            [7, "17139-crawling-claw", 10]
         ]
     },
     {
-        "id": "f36dd4af-9ba8-4f0b-9035-60dd3c0f8946",
+        "id": "2ff76510-7deb-4a8a-95ec-7fa6ab20c893",
         "type": "combat",
-        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters (T-Z); Wights",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:11",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [2, "17059-wight", 700]
+            [4, "17010-shadow", 100]
+        ]
+    },
+    {
+        "id": "2a68af28-8d11-4631-ab62-e6818c7e3159",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:12",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17028-swarm-of-bats", 50]
+        ]
+    },
+    {
+        "id": "0c8ed0bc-1c20-4969-b584-4ae704d30e10",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:13",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17375-strahd-zombie", 100]
+        ]
+    },
+    {
+        "id": "da2eaff7-d296-47b7-9e74-191f842acf46",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:14",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17035-thug", 100]
+        ]
+    },
+    {
+        "id": "d438f536-c499-4d7b-a567-162f0e2664b2",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:15",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17059-wight", 700]
+        ]
+    },
+    {
+        "id": "00263b14-e499-411c-ae58-8282afb9b229",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:17; d6:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17362-barovian-witch", 100]
+        ]
+    },
+    {
+        "id": "b680375d-a6b5-4511-920b-a5e5d8c58137",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:17; d6:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17375-strahd-zombie", 200]
+        ]
+    },
+    {
+        "id": "dc396790-de26-4997-80dd-1863bc2c3bf6",
+        "type": "non-combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:17; d6:4",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 0]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "1bff94df-c2d9-4e22-a501-afa65251a70f",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:17",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "301414-swarm-of-insects-spiders", 100]
+        ]
+    },
+    {
+        "id": "f118e529-22f9-43e8-b3ee-006f7f556ccd",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:17",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "9ae016f8-308b-465d-86ed-83dd1f7a44c9",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:18",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17362-barovian-witch", 100]
+        ]
+    },
+    {
+        "id": "10cad200-0392-470c-99bc-bfd0fd488138",
+        "type": "combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:19",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17044-vampire-spawn", 1800]
+        ]
+    },
+    {
+        "id": "3e5823d3-0156-411d-88d2-98d95161074c",
+        "type": "alternate combat",
+        "book_path": "Curse of Strahd; Castle Ravenloft; Random Encounters; Random Encounters in Castle Ravenloft; d12 + d8:20",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17374-strahd-von-zarovich", 13000]
         ]
     },
     {

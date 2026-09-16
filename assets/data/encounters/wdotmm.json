@@ -570,7 +570,7 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [4, "17092-nothicr", 450]
+            [4, "17092-nothic", 450]
         ]
     },
     {
@@ -593,7 +593,7 @@
         "bystanders": [],
         "enemies": [
             [1, "17124-mezzoloth", 1800],
-            [4, "17092-nothicr", 450]
+            [4, "17092-nothic", 450]
         ]
     },
     {
@@ -1226,6 +1226,58 @@
         "bystanders": [],
         "enemies": [
             [2, "16817-bugbear", 200]
+        ]
+    },
+    {
+        "id": "4c03cf30-326a-47ca-b988-13f924389a3c",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dungeon of the Mad Mage; Sargauth Level; Exploring This Level; 21. Azrok\u2019s Hold; d10:3",
+        "allies": [],
+        "bystanders": [
+            [1, "16907-goblin", 50]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "438206ca-6efe-4c8a-9b98-16e69058e78a",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dungeon of the Mad Mage; Sargauth Level; Exploring This Level; 21. Azrok\u2019s Hold; d10:4",
+        "allies": [],
+        "bystanders": [
+            [3, "16907-goblin", 50]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "acdf1ed0-878f-4f8d-8439-b69ce008b153",
+        "type": "non-combat",
+        "book_path": "Waterdeep: Dungeon of the Mad Mage; Sargauth Level; Exploring This Level; 21. Azrok\u2019s Hold; d10:5",
+        "allies": [],
+        "bystanders": [
+            [2, "16817-bugbear", 200]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "ec80c5a4-7345-4c89-bdaa-274afbc00fe2",
+        "type": "combat",
+        "book_path": "Waterdeep: Dungeon of the Mad Mage; Sargauth Level; Exploring This Level; 21. Azrok\u2019s Hold; d10:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16817-bugbear", 200],
+            [1, "17163-intellect-devourer", 450]
+        ]
+    },
+    {
+        "id": "0e4dc1c5-6889-4237-873a-7dcc75a53ea4",
+        "type": "alternate combat",
+        "book_path": "Waterdeep: Dungeon of the Mad Mage; Sargauth Level; Exploring This Level; 21. Azrok\u2019s Hold; d10:8\u201310",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16925-hobgoblin", 100],
+            [1, "17160-hobgoblin-captain", 700]
         ]
     },
     {

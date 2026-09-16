@@ -413,6 +413,109 @@
         ]
     },
     {
+        "id": "46479e95-d81b-4113-89ac-75ccc52390e6",
+        "type": "non-combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Populace; d10:1",
+        "allies": [],
+        "bystanders": [
+            [1, "16805-berserker", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "8ef4fa3c-a97a-4124-8abf-d70974f7cff3",
+        "type": "non-combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Populace; d10:2",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "bfec5256-fdb1-4e8f-984a-262986334b04",
+        "type": "non-combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Populace; d10:3",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "4c68cadb-0fd4-4743-ac3f-dee1e59832f3",
+        "type": "non-combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Populace; d10:4",
+        "allies": [],
+        "bystanders": [
+            [1, "17134-drow-elite-warrior", 1800],
+            [2, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "fd543db4-4587-4d35-aafb-377a11fa669d",
+        "type": "non-combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Populace; d10:5",
+        "allies": [],
+        "bystanders": [
+            [10, "16915-guard", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "63f864ee-7956-420f-b7c1-b3c7b4b89803",
+        "type": "non-combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Populace; d10:6",
+        "allies": [],
+        "bystanders": [
+            [1, "16817-bugbear", 200],
+            [1, "17045-veteran", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "b6d14780-5e95-4826-a7b4-87275e05dcbb",
+        "type": "non-combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Populace; d10:7",
+        "allies": [],
+        "bystanders": [
+            [1, "16763-acolyte", 50]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "98282ed3-1fd9-4d5f-b47a-e71ad89903a3",
+        "type": "non-combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Populace; d10:8",
+        "allies": [],
+        "bystanders": [
+            [1, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "e3917bb9-ef73-419f-9f64-192237e9d611",
+        "type": "non-combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Populace; d10:9",
+        "allies": [],
+        "bystanders": [
+            [2, "17134-drow-elite-warrior", 1800],
+            [1, "16969-ogre", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "351fdfba-0da2-4fdb-a188-96e4d06daf8c",
+        "type": "non-combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Populace; d10:10",
+        "allies": [],
+        "bystanders": [
+            [1, "17045-veteran", 700]
+        ],
+        "enemies": []
+    },
+    {
         "id": "e719b967-5214-408c-9ca7-ad1d6ce6b001",
         "type": "non-combat",
         "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Bazzoxan Overview; Locations in Bazzoxan; B2: Crematorium",
@@ -543,6 +646,166 @@
         "bystanders": [],
         "enemies": [
             [2, "744314-gloomstalker", 2300]
+        ]
+    },
+    {
+        "id": "906ea63b-80ed-4e89-afb9-c0833f42a776",
+        "type": "alternate combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Features of the Betrayers\u2019 Rise; Expanding the Betrayers\u2019 Rise; d10:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17131-shadow-demon", 1100]
+        ]
+    },
+    {
+        "id": "210fb66a-4cbf-4749-9d92-c2c22bfeeb92",
+        "type": "alternate combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Features of the Betrayers\u2019 Rise; Expanding the Betrayers\u2019 Rise; d10:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16967-ochre-jelly", 450]
+        ]
+    },
+    {
+        "id": "1793cfe5-c4f5-484f-8e40-79ddf1448c90",
+        "type": "alternate combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Features of the Betrayers\u2019 Rise; Expanding the Betrayers\u2019 Rise; d10:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17127-yochlol", 5900]
+        ]
+    },
+    {
+        "id": "26bfc6d8-bfbc-442a-ac64-d7f772142197",
+        "type": "alternate combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Features of the Betrayers\u2019 Rise; Expanding the Betrayers\u2019 Rise; d10:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17127-yochlol", 5900]
+        ]
+    },
+    {
+        "id": "a7837388-42c6-4c48-ab58-06a11870f2ae",
+        "type": "alternate combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Features of the Betrayers\u2019 Rise; Expanding the Betrayers\u2019 Rise; d10:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17110-barlgura", 1800]
+        ]
+    },
+    {
+        "id": "160cd46e-4a1e-429b-87d8-bf26fb715332",
+        "type": "alternate combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Features of the Betrayers\u2019 Rise; Expanding the Betrayers\u2019 Rise; d10:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16964-nightmare", 700]
+        ]
+    },
+    {
+        "id": "60c81865-b4a1-45b6-a11a-54370573b752",
+        "type": "alternate combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Features of the Betrayers\u2019 Rise; Expanding the Betrayers\u2019 Rise; d10:7",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16999-roper", 1800]
+        ]
+    },
+    {
+        "id": "7e89f734-548b-47c5-970d-b5b8b540ba89",
+        "type": "alternate combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Features of the Betrayers\u2019 Rise; Expanding the Betrayers\u2019 Rise; d10:8",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17140-chasme", 2300]
+        ]
+    },
+    {
+        "id": "5457fc6e-ccb9-479a-a51e-1a246124e0d0",
+        "type": "alternate combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Features of the Betrayers\u2019 Rise; Expanding the Betrayers\u2019 Rise; d10:9",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16902-glabrezu", 5000]
+        ]
+    },
+    {
+        "id": "1465c3a4-4737-4b18-8386-28d5f70a763e",
+        "type": "non-combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Features of the Betrayers\u2019 Rise; Expanding the Betrayers\u2019 Rise; d10:10",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16797-balor", 22000]
+        ]
+    },
+    {
+        "id": "3fd97087-2d96-4d29-a84e-11d74dea9e09",
+        "type": "alternate combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Retreat and Reinforcements; d6:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16988-quasit", 200]
+        ]
+    },
+    {
+        "id": "cff41a15-5136-4a76-9378-109322739b1d",
+        "type": "alternate combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Retreat and Reinforcements; d6:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17140-chasme", 2300]
+        ]
+    },
+    {
+        "id": "ae7dedca-ff01-46b3-9776-6d9e5a8773fc",
+        "type": "alternate combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Retreat and Reinforcements; d6:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17110-barlgura", 1800]
+        ]
+    },
+    {
+        "id": "a7be4016-5964-4d5e-bb4e-1f01ce8ce84b",
+        "type": "alternate combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Retreat and Reinforcements; d6:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17131-shadow-demon", 1100]
+        ]
+    },
+    {
+        "id": "51651e7e-d8aa-4176-94ca-3e88ecf7fd77",
+        "type": "alternate combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Retreat and Reinforcements; d6:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [11, "17213-manes", 25]
+        ]
+    },
+    {
+        "id": "e7bf12a8-1e03-4e4e-8902-d0b8e5460d93",
+        "type": "alternate combat",
+        "book_path": "Critical Role: Call of the Netherdeep; Bazzoxan; Betrayers\u2019 Rise; Retreat and Reinforcements; d6:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "744314-gloomstalker", 2300]
         ]
     },
     {
@@ -1162,7 +1425,7 @@
     {
         "id": "beb9cb8b-ba54-4df8-a687-de0945d34725",
         "type": "combat",
-        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Uncharted Waters; Cael Morrow Encounters",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Uncharted Waters; d12:1",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1172,7 +1435,7 @@
     {
         "id": "b20d7814-ff6e-462e-b92a-30ec719575bc",
         "type": "combat",
-        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Uncharted Waters; Cael Morrow Encounters",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Uncharted Waters; d12:2",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1182,7 +1445,7 @@
     {
         "id": "2d58b388-212e-417f-9668-5d001636f047",
         "type": "combat",
-        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Uncharted Waters; Cael Morrow Encounters",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Uncharted Waters; d12:3",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1192,7 +1455,7 @@
     {
         "id": "2e4db1e5-ea5e-4a30-9e6a-721e5b5b0089",
         "type": "combat",
-        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Uncharted Waters; Cael Morrow Encounters",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Uncharted Waters; d12:4",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1202,7 +1465,7 @@
     {
         "id": "0329b642-91c8-49be-a2ed-43c63dd3459b",
         "type": "combat",
-        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Uncharted Waters; Cael Morrow Encounters",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Uncharted Waters; d12:5",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1212,7 +1475,7 @@
     {
         "id": "c1fa0a29-ee6b-42dd-9b48-4fb998d00d70",
         "type": "combat",
-        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Uncharted Waters; Cael Morrow Encounters",
+        "book_path": "Critical Role: Call of the Netherdeep; The Drowned City; Cael Morrow Overview; Uncharted Waters; d12:6",
         "allies": [],
         "bystanders": [],
         "enemies": [

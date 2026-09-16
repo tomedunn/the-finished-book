@@ -1267,6 +1267,46 @@
         ]
     },
     {
+        "id": "55b60da8-078d-4048-8e7e-a9fe660e92dc",
+        "type": "combat",
+        "book_path": "Candlekeep Mysteries; Lore of Lurue; Lore Comes to Life; Satyrs in Distress; Random Encounters; Demiplane Encounters; d20:6\u20137",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17033-swarm-of-ravens", 50]
+        ]
+    },
+    {
+        "id": "59f0a053-823a-475e-b256-5c6005b90fd2",
+        "type": "combat",
+        "book_path": "Candlekeep Mysteries; Lore of Lurue; Lore Comes to Life; Satyrs in Distress; Random Encounters; Demiplane Encounters; d20:8\u20139",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17054-wereboar", 1100]
+        ]
+    },
+    {
+        "id": "32ebe3e6-b74c-49e4-92f7-6a82a6ca262f",
+        "type": "combat",
+        "book_path": "Candlekeep Mysteries; Lore of Lurue; Lore Comes to Life; Satyrs in Distress; Random Encounters; Demiplane Encounters; d20:14\u201316",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16805-berserker", 450]
+        ]
+    },
+    {
+        "id": "009cf663-be3b-4deb-84ac-13d2b0c56e7e",
+        "type": "non-combat",
+        "book_path": "Candlekeep Mysteries; Lore of Lurue; Lore Comes to Life; Satyrs in Distress; Random Encounters; Demiplane Encounters; d20:17\u201320",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17062-wolf", 50]
+        ]
+    },
+    {
         "id": "338ad38f-2367-4753-8a3b-94507f4f4813",
         "type": "non-combat",
         "book_path": "Candlekeep Mysteries; Lore of Lurue; Into the Wood; Polvarth Plateau",
@@ -1734,6 +1774,36 @@
         ]
     },
     {
+        "id": "4afc5c64-c883-4a47-ab51-33daf39be87b",
+        "type": "alternate combat",
+        "book_path": "Candlekeep Mysteries; The Curious Tale of Wisteria Vale; Exploring the Manor; Manor Occupants; Manor Encounters; d20:2\u20139",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16786-animated-armor", 200]
+        ]
+    },
+    {
+        "id": "669b64e3-866c-4359-8a2f-4c53af32099d",
+        "type": "alternate combat",
+        "book_path": "Candlekeep Mysteries; The Curious Tale of Wisteria Vale; Exploring the Manor; Manor Occupants; Manor Encounters; d20:10\u201312",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17025-stone-golem", 5900]
+        ]
+    },
+    {
+        "id": "878f3690-27d1-40bd-aa00-1044938bd7bb",
+        "type": "alternate combat",
+        "book_path": "Candlekeep Mysteries; The Curious Tale of Wisteria Vale; Exploring the Manor; Manor Occupants; Manor Encounters; d20:18\u201320",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17099-beholder", 10000]
+        ]
+    },
+    {
         "id": "a6fe39c0-ec40-4f71-bc29-be28535ad356",
         "type": "non-combat",
         "book_path": "Candlekeep Mysteries; The Curious Tale of Wisteria Vale; Exploring the Manor; Manor Occupants; Arrant Quill and the Fake Quill",
@@ -1771,7 +1841,26 @@
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [4, "16786-animated-armor", 200],
+            [2, "16786-animated-armor", 200]
+        ]
+    },
+    {
+        "id": "54ef61e7-6a88-45c5-92da-d5864b1aa6b0",
+        "type": "combat",
+        "book_path": "Candlekeep Mysteries; The Curious Tale of Wisteria Vale; Exploring the Manor; Manor Occupants; Servants",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16786-animated-armor", 200]
+        ]
+    },
+    {
+        "id": "28aaa923-6599-4ceb-aa52-19ab467dab9b",
+        "type": "combat",
+        "book_path": "Candlekeep Mysteries; The Curious Tale of Wisteria Vale; Exploring the Manor; Manor Occupants; Servants",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
             [1, "17025-stone-golem", 5900]
         ]
     },

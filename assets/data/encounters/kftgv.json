@@ -621,6 +621,66 @@
         ]
     },
     {
+        "id": "32f99509-9386-4ac3-b188-9772e5ae71ef",
+        "type": "combat",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Into the Underdark; Underdark Encounters; d12:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17157-grell", 700]
+        ]
+    },
+    {
+        "id": "1d5df602-3955-4a4b-84aa-35e6cb058fb5",
+        "type": "combat",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Into the Underdark; Underdark Encounters; d12:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17162-hook-horror", 700]
+        ]
+    },
+    {
+        "id": "7bd9e944-eec4-40fb-aa6e-a3152194958d",
+        "type": "non-combat",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Into the Underdark; Underdark Encounters; d12:3",
+        "allies": [],
+        "bystanders": [
+            [1, "17148-galeb-duhr", 2300]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "c19440ea-99fb-4952-bb02-1711a2e6840f",
+        "type": "combat",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Into the Underdark; Underdark Encounters; d12:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16808-black-pudding", 1100]
+        ]
+    },
+    {
+        "id": "1b729e5a-b9c3-481e-a9a2-508130027832",
+        "type": "combat",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Into the Underdark; Underdark Encounters; d12:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16957-mimic", 450]
+        ]
+    },
+    {
+        "id": "023629d3-ccae-40a7-9c75-94beb8244805",
+        "type": "non-combat",
+        "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Into the Underdark; Underdark Encounters; d12:7\u201312",
+        "allies": [],
+        "bystanders": [
+            [1, "17211-deep-gnome-svirfneblin", 100]
+        ],
+        "enemies": []
+    },
+    {
         "id": "10b0fff0-3603-476c-b57f-d2f0120267dc",
         "type": "non-combat",
         "book_path": "Keys from the Golden Vault; Tockworth\u2019s Clockworks; Meeting the Mayor",
@@ -1796,6 +1856,28 @@
         "bystanders": [],
         "enemies": [
             [4, "17177-tridrone", 100]
+        ]
+    },
+    {
+        "id": "42941c39-c118-458b-8171-66ddfafee8f7",
+        "type": "combat",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; The Concordant Express; Moving on the Train; Guard Patrols; d6:4\u20135",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17177-tridrone", 100],
+            [1, "17178-quadrone", 200]
+        ]
+    },
+    {
+        "id": "02b6eae0-46b3-4f1c-a372-983261395ffa",
+        "type": "combat",
+        "book_path": "Keys from the Golden Vault; Affair on the Concordant Express; The Concordant Express; Moving on the Train; Guard Patrols; d6:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17178-quadrone", 200],
+            [1, "17179-pentadrone", 450]
         ]
     },
     {

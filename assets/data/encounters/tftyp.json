@@ -142,6 +142,66 @@
         ]
     },
     {
+        "id": "7d494025-ab14-4086-9995-e38496f5b79d",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; The Sunless Citadel; The Citadel; Locations on the Fortress Level; 12. Tomb of a Failed Dragonpriest; d20:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16939-kobold", 25]
+        ]
+    },
+    {
+        "id": "12688e9e-db8a-4488-a25d-6d7377ce6d88",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; The Sunless Citadel; The Citadel; Locations on the Fortress Level; 12. Tomb of a Failed Dragonpriest; d20:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16891-giant-rat", 25]
+        ]
+    },
+    {
+        "id": "630ed71d-1686-4c90-8292-d891488ffc35",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; The Sunless Citadel; The Citadel; Locations on the Fortress Level; 12. Tomb of a Failed Dragonpriest; d20:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16907-goblin", 50]
+        ]
+    },
+    {
+        "id": "3880fbb1-45e7-4fd4-8187-eb2d893ff6c6",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; The Sunless Citadel; The Citadel; Locations on the Fortress Level; 12. Tomb of a Failed Dragonpriest; d20:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16925-hobgoblin", 100]
+        ]
+    },
+    {
+        "id": "40ce0902-9eac-4fe6-ad21-32bef30c4c36",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; The Sunless Citadel; The Citadel; Locations on the Fortress Level; 12. Tomb of a Failed Dragonpriest; d20:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17015-skeleton", 50]
+        ]
+    },
+    {
+        "id": "f6e4e61d-552a-497a-bc95-e0a29e7f83a2",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; The Sunless Citadel; The Citadel; Locations on the Fortress Level; 12. Tomb of a Failed Dragonpriest; d20:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17095-twig-blight", 25]
+        ]
+    },
+    {
         "id": "6ad28400-ff77-4953-9ec2-fb0aa779602f",
         "type": "combat",
         "book_path": "Tales from the Yawning Portal; The Sunless Citadel; The Citadel; Locations on the Fortress Level; 14. Enchanted Water Cache",
@@ -952,8 +1012,8 @@
     },
     {
         "id": "7720e902-e43c-4f5d-8c21-c58f05059565",
-        "type": "non-combat",
-        "book_path": "Tales from the Yawning Portal; The Hidden Shrine of Tamoachan; Running the Adventure; Random Encounters; 1",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; The Hidden Shrine of Tamoachan; Running the Adventure; Random Encounters; d10:1",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -962,8 +1022,8 @@
     },
     {
         "id": "ecdbd1e9-ba20-40d0-9eb0-deca0f7f3d50",
-        "type": "non-combat",
-        "book_path": "Tales from the Yawning Portal; The Hidden Shrine of Tamoachan; Running the Adventure; Random Encounters; 2",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; The Hidden Shrine of Tamoachan; Running the Adventure; Random Encounters; d10:2",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -972,8 +1032,8 @@
     },
     {
         "id": "c7233745-eb4f-4c8d-808b-1d8ff6d65484",
-        "type": "non-combat",
-        "book_path": "Tales from the Yawning Portal; The Hidden Shrine of Tamoachan; Running the Adventure; Random Encounters; 3",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; The Hidden Shrine of Tamoachan; Running the Adventure; Random Encounters; d10:3",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -982,8 +1042,8 @@
     },
     {
         "id": "f13e20a6-5988-4041-8e8f-9ee44ef62825",
-        "type": "non-combat",
-        "book_path": "Tales from the Yawning Portal; The Hidden Shrine of Tamoachan; Running the Adventure; Random Encounters; 4",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; The Hidden Shrine of Tamoachan; Running the Adventure; Random Encounters; d10:4",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -992,8 +1052,8 @@
     },
     {
         "id": "1dffb924-0d77-4413-a2b7-a8ca0c15c7a1",
-        "type": "non-combat",
-        "book_path": "Tales from the Yawning Portal; The Hidden Shrine of Tamoachan; Running the Adventure; Random Encounters; 5",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; The Hidden Shrine of Tamoachan; Running the Adventure; Random Encounters; d10:5",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1002,8 +1062,8 @@
     },
     {
         "id": "065e322e-bdc9-4092-9e09-5ad2530bc14d",
-        "type": "non-combat",
-        "book_path": "Tales from the Yawning Portal; The Hidden Shrine of Tamoachan; Running the Adventure; Random Encounters; 6",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; The Hidden Shrine of Tamoachan; Running the Adventure; Random Encounters; d10:6",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1012,8 +1072,8 @@
     },
     {
         "id": "efbdc362-fe01-4fac-b175-d5a21d3e1cff",
-        "type": "non-combat",
-        "book_path": "Tales from the Yawning Portal; The Hidden Shrine of Tamoachan; Running the Adventure; Random Encounters; 7",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; The Hidden Shrine of Tamoachan; Running the Adventure; Random Encounters; d10:7",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1022,8 +1082,8 @@
     },
     {
         "id": "60160aa9-b397-491d-a0ac-d3d4c7606669",
-        "type": "non-combat",
-        "book_path": "Tales from the Yawning Portal; The Hidden Shrine of Tamoachan; Running the Adventure; Random Encounters; 8",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; The Hidden Shrine of Tamoachan; Running the Adventure; Random Encounters; d10:8",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1032,8 +1092,8 @@
     },
     {
         "id": "33ad27ac-0b9d-462f-b90d-3c72ed624056",
-        "type": "non-combat",
-        "book_path": "Tales from the Yawning Portal; The Hidden Shrine of Tamoachan; Running the Adventure; Random Encounters; 9",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; The Hidden Shrine of Tamoachan; Running the Adventure; Random Encounters; d10:9",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1043,7 +1103,7 @@
     {
         "id": "9a419932-5117-4b1c-99c0-5249ec46d77b",
         "type": "non-combat",
-        "book_path": "Tales from the Yawning Portal; The Hidden Shrine of Tamoachan; Running the Adventure; Random Encounters; 10",
+        "book_path": "Tales from the Yawning Portal; The Hidden Shrine of Tamoachan; Running the Adventure; Random Encounters; d10:10",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1442,7 +1502,7 @@
     {
         "id": "93bbea42-68de-4a9c-81ee-ff88253306b2",
         "type": "combat",
-        "book_path": "Tales from the Yawning Portal; White Plume Mountain; Running the Adventure; Random Encounters; 1",
+        "book_path": "Tales from the Yawning Portal; White Plume Mountain; Running the Adventure; Random Encounters; d6:1",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1452,7 +1512,7 @@
     {
         "id": "4b620d86-4bf0-4ba9-bc57-099fad849b67",
         "type": "combat",
-        "book_path": "Tales from the Yawning Portal; White Plume Mountain; Running the Adventure; Random Encounters; 2",
+        "book_path": "Tales from the Yawning Portal; White Plume Mountain; Running the Adventure; Random Encounters; d6:2",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1462,7 +1522,7 @@
     {
         "id": "dd499362-6a76-48c8-825c-a6e65779f219",
         "type": "combat",
-        "book_path": "Tales from the Yawning Portal; White Plume Mountain; Running the Adventure; Random Encounters; 3",
+        "book_path": "Tales from the Yawning Portal; White Plume Mountain; Running the Adventure; Random Encounters; d6:3",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1472,7 +1532,7 @@
     {
         "id": "cbcf2bbd-2ebc-4c63-b36f-666df01cc22a",
         "type": "combat",
-        "book_path": "Tales from the Yawning Portal; White Plume Mountain; Running the Adventure; Random Encounters; 4",
+        "book_path": "Tales from the Yawning Portal; White Plume Mountain; Running the Adventure; Random Encounters; d6:4",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1482,7 +1542,7 @@
     {
         "id": "2b81b0d1-6dd2-4b8b-89a0-680f9d2ebae6",
         "type": "combat",
-        "book_path": "Tales from the Yawning Portal; White Plume Mountain; Running the Adventure; Random Encounters; 5",
+        "book_path": "Tales from the Yawning Portal; White Plume Mountain; Running the Adventure; Random Encounters; d6:5",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1492,7 +1552,7 @@
     {
         "id": "06068ba9-ddde-48f7-944d-08d17d80d5a4",
         "type": "combat",
-        "book_path": "Tales from the Yawning Portal; White Plume Mountain; Running the Adventure; Random Encounters; 6",
+        "book_path": "Tales from the Yawning Portal; White Plume Mountain; Running the Adventure; Random Encounters; d6:6",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1682,14 +1742,451 @@
         ]
     },
     {
-        "id": "c9ff5829-9cb9-4e6a-8bb6-94e4a7a735c4",
-        "type": "non-combat",
-        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters",
+        "id": "104dac29-cb5f-488d-be57-9cfac4eeafbe",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Encounter Type; Minor Encounter; d4:1",
+        "allies": [],
+        "bystanders": [
+            [5, "16829-commoner", 10]
+        ],
+        "enemies": [
+            [1, "23129-thayan-apprentice", 450],
+            [4, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "dce8dc14-725a-4c02-850c-6062a5bb169a",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Encounter Type; Minor Encounter; d4:2\u20133",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [6, "23129-thayan-apprentice", 450],
-            [1, "23131-thayan-warrior", 450]
+            [1, "17059-wight", 700]
+        ]
+    },
+    {
+        "id": "9c0f9438-23d5-4dc9-b4e4-65b3f5dac6dc",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Encounter Type; Minor Encounter; d4:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17059-wight", 700],
+            [5, "17015-skeleton", 50]
+        ]
+    },
+    {
+        "id": "ed56a25d-eeb6-4901-a6e3-45c65c86de78",
+        "type": "alternate combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Encounter Type; Minor Encounter; d4:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17059-wight", 700],
+            [5, "17077-zombie", 50]
+        ]
+    },
+    {
+        "id": "4e549a03-2274-4f6b-9bc6-5c185aa7fc80",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Encounter Type; Dread Legion Patrol; d4:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16904-gnoll", 100]
+        ]
+    },
+    {
+        "id": "8e59fcf2-a94a-42f2-8162-d058f440ef37",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Encounter Type; Dread Legion Patrol; d4:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "22372-dread-warrior", 200],
+            [7, "17077-zombie", 50]
+        ]
+    },
+    {
+        "id": "85164ccf-fb15-4d24-9a1b-0aa9d2ea0569",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Encounter Type; Dread Legion Patrol; d4:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16972-orc", 100]
+        ]
+    },
+    {
+        "id": "1745640c-e457-4166-a739-936e75de8ada",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Encounter Type; Dread Legion Patrol; d4:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17040-troll", 1800]
+        ]
+    },
+    {
+        "id": "e3ef635f-4ca0-473f-9e99-117587830439",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Encounter Type; Thayan Patrol; 2d4:2",
+        "allies": [],
+        "bystanders": [
+            [5, "16829-commoner", 10]
+        ],
+        "enemies": [
+            [1, "22371-deathlock-wight", 700],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "3d688d35-1560-49c8-acf6-13a231f54049",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Encounter Type; Thayan Patrol; 2d4:3\u20134",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "22371-deathlock-wight", 700],
+            [2, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "7e8d177d-ea52-4c03-a49d-7f44bb8dc864",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Encounter Type; Thayan Patrol; 2d4:5\u20136",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17334-evoker", 5000],
+            [1, "23129-thayan-apprentice", 450],
+            [3, "22372-dread-warrior", 200]
+        ]
+    },
+    {
+        "id": "bff7b199-ab8e-45f5-981b-731c05484074",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Encounter Type; Thayan Patrol; 2d4:7\u20138",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17059-wight", 700],
+            [3, "22372-dread-warrior", 200]
+        ]
+    },
+    {
+        "id": "e6c18071-7c70-4c64-a902-0ce6f54b189d",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Abyssal Prisons*; d4:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "294396-reduced-threat-hezrou", 1800],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "d6f34c39-cfec-4750-bbe7-fb153a90ba57",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Abyssal Prisons*; d4:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [9, "17213-manes", 25],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "27b209c9-3e94-4569-9ed2-50bbb7faea3b",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Abyssal Prisons*; d4:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16988-quasit", 200],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "004de6c2-65be-41ad-b17e-5c3a7b64d316",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Abyssal Prisons*; d4:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "294512-reduced-threat-vrock", 1100],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "59d63032-8c63-462b-a662-f1b272035bac",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Blood Pens; d4:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "16877-giant-centipede", 50]
+        ]
+    },
+    {
+        "id": "4c1c4727-214a-43b1-b1c4-0820e224d7b1",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Blood Pens; d4:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16895-giant-spider", 200]
+        ]
+    },
+    {
+        "id": "6a84b51b-2d2e-4288-8d0c-890ec653536c",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Blood Pens; d4:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17011-shambling-mound", 1800],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "afdb5cee-7b84-4a92-990c-4e470cc1115f",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Masters\u2019 Domain; d4:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17010-shadow", 100]
+        ]
+    },
+    {
+        "id": "dda6882e-a607-404b-a95e-8add559e60e7",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Far Realm Cysts*; d4:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16901-gibbering-mouther", 450],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "11373633-e834-4c20-8422-bf334f1c7692",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Far Realm Cysts*; d4:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17157-grell", 700],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "cba83a27-35cf-4407-9066-f3c9b4c75d5d",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Far Realm Cysts*; d4:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16912-grick", 450],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "3bd19bc3-704e-49f1-86c3-030b1c90fc7a",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Far Realm Cysts*; d4:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16973-otyugh", 1800],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "3844e64b-c4f6-435f-a2b6-f2366053b55d",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Forests of Slaughter*; d4:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17162-hook-horror", 700],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "d2fab70b-1156-4273-8da5-c69433f37d60",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Forests of Slaughter*; d4:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16828-cockatrice", 100],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "c1a39826-baaa-4bdb-8e99-05e115fc7d6b",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Forests of Slaughter*; d4:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17130-displacer-beast", 700],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "c492bdf2-65dd-4b3e-b529-01fc07d39444",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Forests of Slaughter*; d4:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17040-troll", 1800],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "f34b0742-6f79-4c37-9e98-3412bee86044",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Ooze Grottos; d4:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16808-black-pudding", 1100],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "80872c5d-d3ea-4fb2-9f5d-ffbaf13286e6",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Ooze Grottos; d4:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16869-gelatinous-cube", 450],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "d25406f6-2a35-4c3d-902e-57627a8f0d5c",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Ooze Grottos; d4:3\u20134",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16909-gray-ooze", 100]
+        ]
+    },
+    {
+        "id": "b044eb3f-192e-457f-ab84-2e7d2c4dd852",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Predator Pools; d4:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16879-giant-crab", 25],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "81ee3d67-172d-4a0e-81f0-ce0b97e25d4d",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Predator Pools; d4:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17166-kuo-toa", 50]
+        ]
+    },
+    {
+        "id": "57ebb824-2340-4c7d-82e5-2500bdc060c3",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Predator Pools; d4:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16956-merrow", 450],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "086ecafe-b019-40f1-96f0-a6c7009aadfd",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Predator Pools; d4:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17040-troll", 1800],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "ccd5dc21-3a56-4b1c-ac00-1e9ceeeb5fe1",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Golem Laboratories*; d4:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "294518-reduced-threat-flesh-golem", 700],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "0f3b3ff6-7156-431d-9565-55478f9b3892",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Golem Laboratories*; d4:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16863-flesh-golem", 1800],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "f2b06f82-05f2-4202-a1ee-bcff68f34168",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Golem Laboratories*; d4:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "294522-reduced-threat-clay-golem", 2300],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
+        ]
+    },
+    {
+        "id": "d8542955-db77-4337-918c-c29ca5311dab",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Dead in Thay; The Doomvault; Random Encounters; Sector Encounters; Golem Laboratories*; d4:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16825-clay-golem", 5000],
+            [1, "23129-thayan-apprentice", 450],
+            [5, "23131-thayan-warrior", 450]
         ]
     },
     {
@@ -3011,6 +3508,118 @@
         ]
     },
     {
+        "id": "1d33c1f1-8ec6-4f5e-a390-371ca2c3ac0a",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; Steading of the Hill Giant Chief; Upper Works: General Features; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16923-hill-giant", 1800]
+        ]
+    },
+    {
+        "id": "d71b61a7-5d0b-47f0-883e-16e7a41fd81f",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; Steading of the Hill Giant Chief; Upper Works: General Features; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16827-cloud-giant", 5000]
+        ]
+    },
+    {
+        "id": "1199fa6a-73b8-44e1-9c7c-adc2045c9acd",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; Steading of the Hill Giant Chief; Upper Works: General Features; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17024-stone-giant", 2900]
+        ]
+    },
+    {
+        "id": "c9c9390e-4406-4f77-a505-2f5dbac7786a",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; Steading of the Hill Giant Chief; Upper Works: General Features; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16923-hill-giant", 1800],
+            [4, "16841-dire-wolf", 200]
+        ]
+    },
+    {
+        "id": "fb134bed-ba15-407e-bac2-98ad1542d62b",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; Steading of the Hill Giant Chief; Upper Works: General Features; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "295770-chief-nosnra", 3900],
+            [2, "16969-ogre", 450]
+        ]
+    },
+    {
+        "id": "8474aacf-48c9-486d-abd5-49bd64b130a5",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; Steading of the Hill Giant Chief; Upper Works: General Features; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16972-orc", 100]
+        ]
+    },
+    {
+        "id": "58444e75-a8aa-44ed-bb34-49a41dccf43b",
+        "type": "non-combat",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; Steading of the Hill Giant Chief; Upper Works: General Features; Random Encounters",
+        "allies": [],
+        "bystanders": [
+            [7, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "19a12c29-3cb9-4bad-ba8e-14a9c61cbc34",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; Steading of the Hill Giant Chief; Upper Works: General Features; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16923-hill-giant", 1800]
+        ]
+    },
+    {
+        "id": "59b807df-fbfb-400f-b9c9-adbdc3967f3f",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; Steading of the Hill Giant Chief; Upper Works: General Features; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16969-ogre", 450]
+        ]
+    },
+    {
+        "id": "b9326932-7430-450f-9c0b-5b2f0a1cc0c5",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; Steading of the Hill Giant Chief; Upper Works: General Features; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16923-hill-giant", 1800]
+        ]
+    },
+    {
+        "id": "61fef1b1-8159-42e5-aa2d-66e15cbd1347",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; Steading of the Hill Giant Chief; Upper Works: General Features; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16923-hill-giant", 1800]
+        ]
+    },
+    {
         "id": "b6b15fad-230f-4b01-bea5-8d800d705167",
         "type": "combat",
         "book_path": "Tales from the Yawning Portal; Against the Giants; Steading of the Hill Giant Chief; Locations on the Upper Level; 1. Front Gate and Foyer",
@@ -3150,6 +3759,57 @@
         "bystanders": [],
         "enemies": [
             [14, "16841-dire-wolf", 200]
+        ]
+    },
+    {
+        "id": "22aca14e-9f5c-47f1-996e-29ed810a98e0",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; Steading of the Hill Giant Chief; Dungeon Level: General Features; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16969-ogre", 450]
+        ]
+    },
+    {
+        "id": "9000bbb4-6a30-4bf5-b8ca-a173e52c62cb",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; Steading of the Hill Giant Chief; Dungeon Level: General Features; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "295790-the-keeper", 2900],
+            [1, "16788-ape", 100]
+        ]
+    },
+    {
+        "id": "ffb4f41b-0aa5-489b-9560-a56f1b48b761",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; Steading of the Hill Giant Chief; Dungeon Level: General Features; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "16972-orc", 100]
+        ]
+    },
+    {
+        "id": "4df64b30-2cb7-4536-9929-bdeaaac96e1b",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; Steading of the Hill Giant Chief; Dungeon Level: General Features; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16887-giant-lizard", 50]
+        ]
+    },
+    {
+        "id": "485ac15c-95eb-41ea-b758-23cf518d9f0b",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; Steading of the Hill Giant Chief; Dungeon Level: General Features; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17138-carrion-crawler", 450]
         ]
     },
     {
@@ -3372,6 +4032,46 @@
         "bystanders": [],
         "enemies": [
             [4, "16951-manticore", 700]
+        ]
+    },
+    {
+        "id": "9583fee7-f35b-48d4-8450-e6f5444bf2c4",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; The Glacial Rift of the Frost Giant Jarl; Upper Level: General Features; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17096-yeti", 700]
+        ]
+    },
+    {
+        "id": "358c6f9c-83cf-4765-883d-46e801a476c5",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; The Glacial Rift of the Frost Giant Jarl; Upper Level: General Features; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16867-frost-giant", 3900]
+        ]
+    },
+    {
+        "id": "5ea81f97-d5fa-4221-ade7-b9d58e9ad467",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; The Glacial Rift of the Frost Giant Jarl; Upper Level: General Features; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16969-ogre", 450]
+        ]
+    },
+    {
+        "id": "1de361bd-8d1a-494c-a3d5-29c0367be4ac",
+        "type": "combat",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; The Glacial Rift of the Frost Giant Jarl; Upper Level: General Features; Random Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17061-winter-wolf", 700]
         ]
     },
     {
@@ -3649,7 +4349,7 @@
     },
     {
         "id": "df9ba0dc-2be3-413a-8a76-93ca7976bbf1",
-        "type": "non-combat",
+        "type": "combat",
         "book_path": "Tales from the Yawning Portal; Against the Giants; The Glacial Rift of the Frost Giant Jarl; Lower Level: General Features; Random Encounters",
         "allies": [],
         "bystanders": [],
@@ -3659,17 +4359,17 @@
     },
     {
         "id": "7714e850-ea17-4fc5-ad2a-786e3f4d9500",
-        "type": "non-combat",
+        "type": "combat",
         "book_path": "Tales from the Yawning Portal; Against the Giants; The Glacial Rift of the Frost Giant Jarl; Lower Level: General Features; Random Encounters",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [3, "16969-ogre", 450]
+            [4, "16969-ogre", 450]
         ]
     },
     {
         "id": "fdbd7f01-9f81-4f41-b0dd-756c8c2a46de",
-        "type": "non-combat",
+        "type": "combat",
         "book_path": "Tales from the Yawning Portal; Against the Giants; The Glacial Rift of the Frost Giant Jarl; Lower Level: General Features; Random Encounters",
         "allies": [],
         "bystanders": [],
@@ -3680,7 +4380,7 @@
     },
     {
         "id": "74f67941-9bcd-4716-8031-cad773685e24",
-        "type": "non-combat",
+        "type": "combat",
         "book_path": "Tales from the Yawning Portal; Against the Giants; The Glacial Rift of the Frost Giant Jarl; Lower Level: General Features; Random Encounters",
         "allies": [],
         "bystanders": [],
@@ -4431,7 +5131,7 @@
     {
         "id": "7021a992-9111-42fb-b4ff-2e795a56f406",
         "type": "combat",
-        "book_path": "Tales from the Yawning Portal; Against the Giants; Hall of the Fire Giant King; Third Level: Random Encounters",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; Hall of the Fire Giant King; Third Level: General Features; Random Encounters",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -4441,7 +5141,7 @@
     {
         "id": "7c36805b-9d89-4299-9175-fdb7fd323402",
         "type": "combat",
-        "book_path": "Tales from the Yawning Portal; Against the Giants; Hall of the Fire Giant King; Third Level: Random Encounters",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; Hall of the Fire Giant King; Third Level: General Features; Random Encounters",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -4452,7 +5152,7 @@
     {
         "id": "75fe3039-609f-42d8-adcf-af4c98d901d6",
         "type": "combat",
-        "book_path": "Tales from the Yawning Portal; Against the Giants; Hall of the Fire Giant King; Third Level: Random Encounters",
+        "book_path": "Tales from the Yawning Portal; Against the Giants; Hall of the Fire Giant King; Third Level: General Features; Random Encounters",
         "allies": [],
         "bystanders": [],
         "enemies": [

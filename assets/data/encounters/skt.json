@@ -2383,7 +2383,7 @@
     {
         "id": "49abb5ca-e10a-48bb-b9e6-2ba9bc33f17e",
         "type": "non-combat",
-        "book_path": "Storm King's Thunder; The Savage Frontier; Locations of the North; Locations I - L; Icewind Dale; Random Encounters in Icewind Dale",
+        "book_path": "Storm King's Thunder; The Savage Frontier; Locations of the North; Locations I - L; Icewind Dale; Random Encounters in Icewind Dale; d20:1",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -2393,7 +2393,7 @@
     {
         "id": "ba8af044-be96-45f0-bda1-8fb55fbb2c61",
         "type": "combat",
-        "book_path": "Storm King's Thunder; The Savage Frontier; Locations of the North; Locations I - L; Icewind Dale; Random Encounters in Icewind Dale",
+        "book_path": "Storm King's Thunder; The Savage Frontier; Locations of the North; Locations I - L; Icewind Dale; Random Encounters in Icewind Dale; d20:2\u20135",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -2403,7 +2403,7 @@
     {
         "id": "9676f07c-064b-4e24-a5d8-ceafacbbe009",
         "type": "combat",
-        "book_path": "Storm King's Thunder; The Savage Frontier; Locations of the North; Locations I - L; Icewind Dale; Random Encounters in Icewind Dale",
+        "book_path": "Storm King's Thunder; The Savage Frontier; Locations of the North; Locations I - L; Icewind Dale; Random Encounters in Icewind Dale; d20:6\u20138",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -2413,7 +2413,7 @@
     {
         "id": "4d247bca-308f-4db8-8c84-d4443a40aeb3",
         "type": "combat",
-        "book_path": "Storm King's Thunder; The Savage Frontier; Locations of the North; Locations I - L; Icewind Dale; Random Encounters in Icewind Dale",
+        "book_path": "Storm King's Thunder; The Savage Frontier; Locations of the North; Locations I - L; Icewind Dale; Random Encounters in Icewind Dale; d20:9\u201312",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -2424,7 +2424,7 @@
     {
         "id": "0ffc58ac-c578-4cdc-8166-9485ddd675ec",
         "type": "non-combat",
-        "book_path": "Storm King's Thunder; The Savage Frontier; Locations of the North; Locations I - L; Icewind Dale; Random Encounters in Icewind Dale",
+        "book_path": "Storm King's Thunder; The Savage Frontier; Locations of the North; Locations I - L; Icewind Dale; Random Encounters in Icewind Dale; d20:13\u201315",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -2434,7 +2434,7 @@
     {
         "id": "55c69444-5140-4d60-988f-105c13d22286",
         "type": "non-combat",
-        "book_path": "Storm King's Thunder; The Savage Frontier; Locations of the North; Locations I - L; Icewind Dale; Random Encounters in Icewind Dale",
+        "book_path": "Storm King's Thunder; The Savage Frontier; Locations of the North; Locations I - L; Icewind Dale; Random Encounters in Icewind Dale; d20:16\u201317",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -2444,7 +2444,7 @@
     {
         "id": "dfd486b2-a4a5-42ba-a32f-5929adf43aed",
         "type": "combat",
-        "book_path": "Storm King's Thunder; The Savage Frontier; Locations of the North; Locations I - L; Icewind Dale; Random Encounters in Icewind Dale",
+        "book_path": "Storm King's Thunder; The Savage Frontier; Locations of the North; Locations I - L; Icewind Dale; Random Encounters in Icewind Dale; d20:18\u201319",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -2454,7 +2454,7 @@
     {
         "id": "b5d58e1f-5915-415b-afb8-bda10d6b888b",
         "type": "combat",
-        "book_path": "Storm King's Thunder; The Savage Frontier; Locations of the North; Locations I - L; Icewind Dale; Random Encounters in Icewind Dale",
+        "book_path": "Storm King's Thunder; The Savage Frontier; Locations of the North; Locations I - L; Icewind Dale; Random Encounters in Icewind Dale; d20:20",
         "allies": [],
         "bystanders": [],
         "enemies": [

@@ -1186,9 +1186,39 @@
         ]
     },
     {
-        "id": "c8194b07-f378-4e27-87b1-899356a77aac",
+        "id": "c411bf64-45b7-48a0-a1c0-3f6c91d8b73b",
+        "type": "non-combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K4. Castle Yard; d6:1",
+        "allies": [],
+        "bystanders": [
+            [2, "16829-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "6b7d502f-a43e-4a8e-9291-890f2055a964",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K4. Castle Yard; d6:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16798-bandit", 25]
+        ]
+    },
+    {
+        "id": "c6ac42a1-bbd4-422b-aca2-85f45181c72b",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K4. Castle Yard; d6:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17445-crushing-wave-reaver", 100]
+        ]
+    },
+    {
+        "id": "fcb15b8b-7d18-474f-a59e-129ed82b43b7",
         "type": "combat",
-        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K4. Castle Yard",
+        "book_path": "Princes of the Apocalypse; Secret of the Sumber Hills; Rivergard Keep; Keep Locations; K4. Castle Yard; d6:4",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1955,6 +1985,56 @@
         ]
     },
     {
+        "id": "838efc6b-bf3a-4425-a869-6c8f86cd33e2",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A14. Living Quarters; d20:1\u20132",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17421-howling-hatred-initiate", 25]
+        ]
+    },
+    {
+        "id": "11587ea8-34fd-42b1-9081-8cc2ba7b3b6b",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A14. Living Quarters; d20:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17423-hurricane", 450]
+        ]
+    },
+    {
+        "id": "d6ca9ea9-dcf8-4698-a0e6-b6363266ab1a",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A14. Living Quarters; d20:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17424-skyweaver", 700]
+        ]
+    },
+    {
+        "id": "20f388db-374f-4816-9f4e-04d7f68dd1ac",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A14. Living Quarters; d20:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17422-howling-hatred-priest", 450]
+        ]
+    },
+    {
+        "id": "48e3564e-374e-4a46-a3e4-bac4c4273d5f",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A14. Living Quarters; d20:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17165-kenku", 50]
+        ]
+    },
+    {
         "id": "ca0401fc-0501-48d1-8313-ec0a35281907",
         "type": "non-combat",
         "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Howling Hatred; Areas of the Air Temple; A15. Plaza of Fallen Spires",
@@ -2009,6 +2089,66 @@
         ]
     },
     {
+        "id": "8a2f1237-50f2-43da-a152-7fc31d82964b",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; The Dark Stream; d20:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16837-darkmantle", 100]
+        ]
+    },
+    {
+        "id": "f8629b5d-4d26-437d-a0d4-9528d6532fc3",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; The Dark Stream; d20:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17191-piercer", 100]
+        ]
+    },
+    {
+        "id": "39516c3a-a376-4e4b-ae7f-2d8b5c103eb9",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; The Dark Stream; d20:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "17204-troglodyte", 50]
+        ]
+    },
+    {
+        "id": "8e5e5daf-49f4-46c1-aa12-40c41c219fae",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; The Dark Stream; d20:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17010-shadow", 100]
+        ]
+    },
+    {
+        "id": "22d0db7c-c946-43f4-b0d2-00ad7fc7611b",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; The Dark Stream; d20:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17208-water-weird", 700]
+        ]
+    },
+    {
+        "id": "534c88d9-48d1-4223-830f-b39410404d0f",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; The Dark Stream; d20:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16824-chuul", 1100]
+        ]
+    },
+    {
         "id": "fd7ff735-6c93-4783-92eb-8505949e3849",
         "type": "combat",
         "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C1. Lake Landing",
@@ -2019,6 +2159,56 @@
             [1, "17448-fathomer", 450],
             [1, "17446-dark-tide-knight", 700],
             [1, "16928-hunter-shark", 450]
+        ]
+    },
+    {
+        "id": "1b33bfdb-123c-42ac-8114-56d5129215b1",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C2. Canals; d20:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16872-ghoul", 200]
+        ]
+    },
+    {
+        "id": "1e3fd487-82a6-4ad0-86db-795d3bcc9cea",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C2. Canals; d20:2\u20133",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "16946-lizardfolk", 100]
+        ]
+    },
+    {
+        "id": "b94bfaa6-06f9-422e-b151-c8148cdb488a",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C2. Canals; d20:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17040-troll", 1800]
+        ]
+    },
+    {
+        "id": "e864d3f6-76b1-4c2a-ad0f-b66f2f683911",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C2. Canals; d20:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16888-giant-octopus", 200]
+        ]
+    },
+    {
+        "id": "57c8a784-1daa-400a-be52-c060238cf904",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C2. Canals; d20:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16845-dragon-turtle", 18000]
         ]
     },
     {
@@ -2185,6 +2375,58 @@
         "enemies": [
             [1, "17448-fathomer", 450],
             [3, "16835-cultist", 25]
+        ]
+    },
+    {
+        "id": "7d0743bc-456e-4a0e-aaa7-7ca7c936ae89",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C22. Market Hall; d20:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "16946-lizardfolk", 100]
+        ]
+    },
+    {
+        "id": "ec872e50-f669-4bf0-890a-73773bc22a22",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C22. Market Hall; d20:2\u20133",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17445-crushing-wave-reaver", 100]
+        ]
+    },
+    {
+        "id": "b452c8b0-8870-4d87-82f0-1a9c168f6d5b",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C22. Market Hall; d20:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16817-bugbear", 200]
+        ]
+    },
+    {
+        "id": "4ff2679c-788c-4b4c-91c3-b7c902db6c6c",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C22. Market Hall; d20:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17444-crushing-wave-priest", 450],
+            [3, "16835-cultist", 25]
+        ]
+    },
+    {
+        "id": "fa081741-90aa-4ebe-b470-48ba218be7c2",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of the Crushing Wave; Areas of the Water Temple; C22. Market Hall; d20:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17008-sea-hag", 450],
+            [2, "16969-ogre", 450]
         ]
     },
     {
@@ -2400,6 +2642,69 @@
         "enemies": [
             [2, "17428-black-earth-guard", 450],
             [3, "16835-cultist", 25]
+        ]
+    },
+    {
+        "id": "a5fcc771-ed78-41a8-a623-b9ce7f4a13d3",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B20. Mess Hall; d20:1\u20132",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16850-duergar", 200]
+        ]
+    },
+    {
+        "id": "76741a94-974a-44aa-8a2d-68461ce195f8",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B20. Mess Hall; d20:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16969-ogre", 450]
+        ]
+    },
+    {
+        "id": "5ccb2b10-3e90-4da9-a71e-b17b921b9148",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B20. Mess Hall; d20:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17432-stonemelder", 1100],
+            [2, "17428-black-earth-guard", 450]
+        ]
+    },
+    {
+        "id": "de786451-8a4e-4fae-a386-4399d8a35fdd",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B20. Mess Hall; d20:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17430-burrowshark", 1100],
+            [3, "16835-cultist", 25]
+        ]
+    },
+    {
+        "id": "ab0a201c-c523-425c-b2c3-064e5a27df96",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B20. Mess Hall; d20:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17429-black-earth-priest", 700],
+            [3, "17428-black-earth-guard", 450]
+        ]
+    },
+    {
+        "id": "2c73e650-70fe-405c-86aa-e0cdd4491980",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Air, Earth, Fire, and Water; Temple of Black Earth; Areas of the Earth Temple; B20. Mess Hall; d20:7",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17434-miraj-vizann", 2300]
         ]
     },
     {
@@ -3120,6 +3425,57 @@
         ]
     },
     {
+        "id": "a7a72e38-f9f3-42d2-8cef-78e506be26ce",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Features; Random Encounters; d20:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16888-giant-octopus", 200]
+        ]
+    },
+    {
+        "id": "a2561218-50b8-4b7e-b8c6-ccca7d3a3300",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Features; Random Encounters; d20:2\u20133",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16932-ice-mephit", 100]
+        ]
+    },
+    {
+        "id": "e47e5235-8c20-479e-8480-04eb5f65da29",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Features; Random Encounters; d20:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17208-water-weird", 700]
+        ]
+    },
+    {
+        "id": "1483aed9-c026-4142-9f5d-cea36bdf1c36",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Features; Random Encounters; d20:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17446-dark-tide-knight", 700],
+            [1, "17208-water-weird", 700]
+        ]
+    },
+    {
+        "id": "6b30d2f4-e253-4fae-92c3-4a405d4b3317",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Features; Random Encounters; d20:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17031-swarm-of-quippers", 200]
+        ]
+    },
+    {
         "id": "38a24944-02c9-4249-b3bb-eeb1f3cc6836",
         "type": "combat",
         "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Plunging Torrents; Torrents Locations; P3. Nets",
@@ -3300,6 +3656,48 @@
         "enemies": [
             [1, "17451-gar-shatterkeel", 5000],
             [1, "17463-olhydra", 20000]
+        ]
+    },
+    {
+        "id": "75d44a1f-16b2-4fa5-b3b4-2cb3650585bf",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Features; Random Encounters; d20:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17430-burrowshark", 1100],
+            [1, "16818-bulette", 1800]
+        ]
+    },
+    {
+        "id": "42603a6a-1d50-489c-842f-859647be7e90",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Features; Random Encounters; d20:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17432-stonemelder", 1100],
+            [3, "17428-black-earth-guard", 450]
+        ]
+    },
+    {
+        "id": "1cdaaeb7-571b-4cb1-8376-7de504bf0a50",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Features; Random Encounters; d20:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16853-earth-elemental", 1800]
+        ]
+    },
+    {
+        "id": "b2997de7-2bb2-4c42-910a-ae0df6253395",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Black Geode; Geode Features; Random Encounters; d20:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17205-umber-hulk", 1800]
         ]
     },
     {
@@ -3496,6 +3894,36 @@
         "enemies": [
             [1, "17435-marlos-urnrayle", 3900],
             [1, "17462-ogremoch", 24500]
+        ]
+    },
+    {
+        "id": "3b9a1782-c4ba-4907-8bbc-c59df4a455b0",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Weeping Colossus; Random Encounters; d20:1\u20132",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16861-fire-elemental", 1800]
+        ]
+    },
+    {
+        "id": "d445b055-1f40-4b82-aedf-8de85c918da1",
+        "type": "combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Weeping Colossus; Random Encounters; d20:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16949-magmin", 100]
+        ]
+    },
+    {
+        "id": "291b09da-2f3b-4888-9ea6-dbea674b4bea",
+        "type": "alternate combat",
+        "book_path": "Princes of the Apocalypse; Temple of the Elder Elemental Eye; The Weeping Colossus; Random Encounters; d20:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17004-salamander", 1800]
         ]
     },
     {

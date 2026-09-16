@@ -801,7 +801,7 @@
     {
         "id": "6d23d761-c7db-485e-bb6b-08d3c7032139",
         "type": "combat",
-        "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; Storm of Destruction; Mass Destruction",
+        "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; Storm of Destruction; Mass Destruction; d6:6",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -822,7 +822,7 @@
     {
         "id": "b22175de-2c3f-4459-a44a-407b4a8534e5",
         "type": "combat",
-        "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; The Swamp Forest",
+        "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; The Swamp Forest; d10:4",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -832,7 +832,7 @@
     {
         "id": "4dd9672c-761f-41ba-9f93-5316e3907eb4",
         "type": "combat",
-        "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; The Swamp Forest",
+        "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; The Swamp Forest; d10:5",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -842,7 +842,7 @@
     {
         "id": "1232b6a2-14bf-47c7-90aa-4a25328930b6",
         "type": "combat",
-        "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; The Swamp Forest",
+        "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; The Swamp Forest; d10:6",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -884,7 +884,7 @@
     {
         "id": "f34bcce7-0ca0-4e18-8beb-efce44e4aff0",
         "type": "combat",
-        "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; Forest of Hands",
+        "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; Forest of Hands; d4:1",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -894,7 +894,7 @@
     {
         "id": "77f6cf80-8950-4db1-a721-5388c1b4420c",
         "type": "combat",
-        "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; Forest of Hands",
+        "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; Forest of Hands; d4:3",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -905,7 +905,7 @@
     {
         "id": "8aee1ded-e1e0-437a-9520-50ca0f9b454f",
         "type": "combat",
-        "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; Forest of Hands",
+        "book_path": "Journeys through the Radiant Citadel; In the Mists of Manivarsha; Forest of Hands; d4:4",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -973,6 +973,46 @@
         ]
     },
     {
+        "id": "70e42286-f714-4be4-9c2d-38ba53209f9c",
+        "type": "combat",
+        "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Traveling the Skybridge; Traveling the Skybridge; d4:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16774-air-elemental", 1800]
+        ]
+    },
+    {
+        "id": "26b76f70-77d4-4ecd-a988-bcb86f12fc8a",
+        "type": "non-combat",
+        "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Traveling the Skybridge; Traveling the Skybridge; d4:4",
+        "allies": [],
+        "bystanders": [
+            [1, "16827-cloud-giant", 5000]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "ab43edf7-7b19-488f-9eea-b19e2ec0308a",
+        "type": "non-combat",
+        "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Traveling the Skybridge; Traveling the Skybridge; Bonesinger",
+        "allies": [],
+        "bystanders": [
+            [1, "16985-priest", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "bd1748eb-40fc-45f2-9deb-abe65b2afbd2",
+        "type": "non-combat",
+        "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Lambakluha; The Final Steps of Courage",
+        "allies": [],
+        "bystanders": [
+            [4, "17045-veteran", 700]
+        ],
+        "enemies": []
+    },
+    {
         "id": "eff20910-25c5-494e-980b-dc55a6b5f885",
         "type": "combat",
         "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Lambakluha; The Final Steps of Courage; Attack on the Final Steps",
@@ -985,7 +1025,7 @@
     {
         "id": "6d2ae22a-431f-44a1-b14e-01c59dfcbc84",
         "type": "combat",
-        "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Lambakluha; The Weeping Paths",
+        "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Lambakluha; The Weeping Paths; d10:4\u20135",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -995,7 +1035,7 @@
     {
         "id": "295d6339-2d35-4d95-8755-1a8775181023",
         "type": "combat",
-        "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Lambakluha; The Weeping Paths",
+        "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Lambakluha; The Weeping Paths; d10:6\u20137",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1005,7 +1045,7 @@
     {
         "id": "758fb064-c725-496a-899d-b578eef4b7a4",
         "type": "combat",
-        "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Lambakluha; The Weeping Paths",
+        "book_path": "Journeys through the Radiant Citadel; Between Tangled Roots; Lambakluha; The Weeping Paths; d10:8\u20139",
         "allies": [],
         "bystanders": [],
         "enemies": [

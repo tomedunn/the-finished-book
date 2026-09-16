@@ -1339,6 +1339,89 @@
         ]
     },
     {
+        "id": "36e3ebc1-5b14-400b-aa55-9b1b16398520",
+        "type": "combat",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Journey through the Deep; Traversing the Tunnel; Random Encounters; Tunnel Encounters; d20:1\u20132",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17157-grell", 700]
+        ]
+    },
+    {
+        "id": "c54a922d-788a-4e00-ae20-f3ea64705b8d",
+        "type": "combat",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Journey through the Deep; Traversing the Tunnel; Random Encounters; Tunnel Encounters; d20:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16901-gibbering-mouther", 450]
+        ]
+    },
+    {
+        "id": "f0e77e65-eb5d-4bde-ba1d-21fcb726d6f0",
+        "type": "combat",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Journey through the Deep; Traversing the Tunnel; Random Encounters; Tunnel Encounters; d20:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17163-intellect-devourer", 450],
+            [1, "17193-quaggoth", 450]
+        ]
+    },
+    {
+        "id": "4c2f2161-930f-40ba-a0d9-b3925f405931",
+        "type": "combat",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Journey through the Deep; Traversing the Tunnel; Random Encounters; Tunnel Encounters; d20:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17146-fomorian", 3900]
+        ]
+    },
+    {
+        "id": "d6fac172-3398-4baf-b7f1-1b96852b8178",
+        "type": "combat",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Journey through the Deep; Traversing the Tunnel; Random Encounters; Tunnel Encounters; d20:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17162-hook-horror", 700]
+        ]
+    },
+    {
+        "id": "487c4344-3b58-4106-bb7a-7b64eface3a5",
+        "type": "combat",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Journey through the Deep; Traversing the Tunnel; Random Encounters; Tunnel Encounters; d20:7",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17193-quaggoth", 450],
+            [1, "17194-quaggoth-thonot", 700]
+        ]
+    },
+    {
+        "id": "f72151ee-2898-4d68-96e8-720a2f471bd2",
+        "type": "combat",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Journey through the Deep; Traversing the Tunnel; Random Encounters; Tunnel Encounters; d20:8",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "17204-troglodyte", 50],
+            [1, "17110-barlgura", 1800]
+        ]
+    },
+    {
+        "id": "aba281dc-a872-4f6d-a137-543e7f168872",
+        "type": "non-combat",
+        "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Journey through the Deep; Traversing the Tunnel; Random Encounters; Tunnel Encounters; d20:9",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "17013-shrieker", 10]
+        ]
+    },
+    {
         "id": "763e84b8-551f-4956-8060-8aed53efdd59",
         "type": "combat",
         "book_path": "Phandelver and Below: The Shattered Obelisk; Rifts in Reality; Journey through the Deep; Journey Locations; J3: Grell Lair",

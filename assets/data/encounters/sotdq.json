@@ -229,9 +229,29 @@
         ]
     },
     {
+        "id": "8bd7f94c-54b2-4a59-a279-905634af1d1a",
+        "type": "non-combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Invasion of Vogler; Invasion Encounters; Vogler Invasion Encounters; d10:1\u20132",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16829-commoner", 0]
+        ]
+    },
+    {
+        "id": "0758f924-13bd-4149-a80f-22e4608d7aae",
+        "type": "non-combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Invasion of Vogler; Invasion Encounters; Vogler Invasion Encounters; d10:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16820-cat", 0]
+        ]
+    },
+    {
         "id": "aeb5273b-c149-4d68-8f93-11a8d7be895a",
         "type": "combat",
-        "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Invasion of Vogler; Invasion Encounters; Airborne Assassin",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Invasion of Vogler; Invasion Encounters; Vogler Invasion Encounters; d10:4\u20135",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -241,7 +261,7 @@
     {
         "id": "87ca2033-f497-4d8e-ad85-0c89d53a113b",
         "type": "combat",
-        "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Invasion of Vogler; Invasion Encounters; Direct Attack",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Invasion of Vogler; Invasion Encounters; Vogler Invasion Encounters; d10:6\u20137",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -251,7 +271,7 @@
     {
         "id": "99658204-e05f-47b5-affd-8543ef2069c4",
         "type": "combat",
-        "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Invasion of Vogler; Invasion Encounters; Vogler Militia",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; When Home Burns; Invasion of Vogler; Invasion Encounters; Vogler Invasion Encounters; d10:9\u201310",
         "allies": [
             [2, "16915-guard", 25]
         ],
@@ -350,6 +370,26 @@
         "enemies": [
             [1, "16947-mage", 2300]
         ]
+    },
+    {
+        "id": "406f9250-7312-4dba-80fd-5c4157f8e5c4",
+        "type": "non-combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; The First Mission; Journey down Esker Brook; Hinterlands Encounters; d4:2",
+        "allies": [],
+        "bystanders": [
+            [5, "16798-bandit", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "2109cccf-2a35-48d2-9ce8-4bb7689f3620",
+        "type": "non-combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Shadow of War; The First Mission; Journey down Esker Brook; Hinterlands Encounters; d4:4",
+        "allies": [],
+        "bystanders": [
+            [1, "3081114-kender-skirmisher", 50]
+        ],
+        "enemies": []
     },
     {
         "id": "3c2e8de4-4677-4618-92dc-f1ceb3f879aa",
@@ -646,7 +686,7 @@
     {
         "id": "8d2b49d0-11b1-4cc7-8a01-70d4c1857a21",
         "type": "combat",
-        "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Dragon Army Patrols; Dragon Army Patrol",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Dragon Army Patrols; Dragon Army Patrol; d4:1",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -657,7 +697,7 @@
     {
         "id": "49569bf1-166c-4fdc-8646-22294924ee9f",
         "type": "combat",
-        "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Dragon Army Patrols; Dragon Army Patrol",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Dragon Army Patrols; Dragon Army Patrol; d4:2",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -668,7 +708,7 @@
     {
         "id": "3cec313c-0541-41bb-83d1-52c8f9dc906e",
         "type": "combat",
-        "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Dragon Army Patrols; Dragon Army Patrol",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Dragon Army Patrols; Dragon Army Patrol; d4:3",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -679,7 +719,7 @@
     {
         "id": "19807a33-520f-4c01-aa4f-9d76764e7789",
         "type": "combat",
-        "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Dragon Army Patrols; Dragon Army Patrol",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Dragon Army Patrols; Dragon Army Patrol; d4:4",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -695,6 +735,96 @@
         "bystanders": [],
         "enemies": [
             [1, "16825-clay-golem", 5000]
+        ]
+    },
+    {
+        "id": "9414dc51-dde8-42f4-a3b7-e5c2b12480bd",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Wastes Predators; Wastes Predators; d10:2\u20133",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16888-giant-octopus", 200]
+        ]
+    },
+    {
+        "id": "89a8ea02-ebee-42f7-afec-7f86a1863451",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Wastes Predators; Wastes Predators; d10:2\u20133",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16892-giant-scorpion", 700]
+        ]
+    },
+    {
+        "id": "a23b3e8a-a99e-4f2b-a3d3-3a5da398a4f0",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Wastes Predators; Wastes Predators; d10:4\u20135",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "16956-merrow", 450]
+        ]
+    },
+    {
+        "id": "46f2f353-87b8-4dc7-9c9f-4c89ef0ba456",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Wastes Predators; Wastes Predators; d10:4\u20135",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "16895-giant-spider", 200]
+        ]
+    },
+    {
+        "id": "d4258d7f-616f-45dd-ad04-08e60bd2dbad",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Wastes Predators; Wastes Predators; d10:6\u20137",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16981-plesiosaurus", 450]
+        ]
+    },
+    {
+        "id": "5ab15c62-2d27-42ca-b8f5-d2854fa5c6f5",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Wastes Predators; Wastes Predators; d10:6\u20137",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16951-manticore", 700]
+        ]
+    },
+    {
+        "id": "5ecd6cd0-a329-47f2-ac44-0f218d605d12",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Wastes Predators; Wastes Predators; d10:8\u20139",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "16894-giant-shark", 1800]
+        ]
+    },
+    {
+        "id": "48b4b8dc-5296-4268-beb6-21092586eb53",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Wastes Predators; Wastes Predators; d10:8\u20139",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "3081124-wasteland-dragonnel", 700]
+        ]
+    },
+    {
+        "id": "8a4378be-53dc-4474-a1c7-699bd64dc185",
+        "type": "non-combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; The Northern Wastes; Into the Wastes; Wastes Encounters; Wastes Predators; Wastes Predators; d10:10",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16987-purple-worm", 13000]
         ]
     },
     {
@@ -1143,9 +1273,19 @@
         ]
     },
     {
+        "id": "686ce760-4cf2-40ca-9d21-0a35dcb62aa1",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Exploring the City; City Encounters; Random City Encounters; d8:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "16870-ghast", 450]
+        ]
+    },
+    {
         "id": "6719a259-755f-417b-bb50-613ebaa67e22",
         "type": "combat",
-        "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Exploring the City; City Encounters; Bridge Checkpoint",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Exploring the City; City Encounters; Random City Encounters; d8:2",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1153,9 +1293,19 @@
         ]
     },
     {
+        "id": "6a246cf8-c7d7-4334-a442-b74248d7b8f8",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Exploring the City; City Encounters; Random City Encounters; d8:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "16871-ghost", 1100]
+        ]
+    },
+    {
         "id": "a9aa156f-d036-48cd-8396-1307eff9b1ad",
         "type": "combat",
-        "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Exploring the City; City Encounters; Dragon Army Engineers",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Exploring the City; City Encounters; Random City Encounters; d8:4",
         "allies": [],
         "bystanders": [
             [10, "16829-commoner", 10]
@@ -1166,10 +1316,22 @@
         ]
     },
     {
+        "id": "6666b425-fe69-46d4-8e43-7fd5ad3667c5",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Exploring the City; City Encounters; Random City Encounters; d8:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17113-death-slaad", 5900]
+        ]
+    },
+    {
         "id": "d9562cc4-b54b-4478-b8af-ea2ec9d1ba76",
         "type": "combat",
-        "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Exploring the City; City Encounters; Monster Hunters",
-        "allies": [],
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Exploring the City; City Encounters; Random City Encounters; d8:6",
+        "allies": [
+            [1, "3081110-istarian-drone", 2300]
+        ],
         "bystanders": [],
         "enemies": [
             [1, "3081121-sivak-draconian", 1100],
@@ -1177,9 +1339,19 @@
         ]
     },
     {
+        "id": "5e820985-6c65-42fa-86ec-d114743e310e",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Exploring the City; City Encounters; Random City Encounters; d8:7",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "17090-cyclops", 2300]
+        ]
+    },
+    {
         "id": "8936cd68-1cee-442d-a23f-b09474fc8f7e",
         "type": "combat",
-        "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Exploring the City; City Encounters; Patrol",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; City of Lost Names; Exploring the City; City Encounters; Random City Encounters; d8:8",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1501,7 +1673,7 @@
     {
         "id": "330969ee-9221-4f6d-888c-58677cc3caae",
         "type": "combat",
-        "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Night of Terror; No Sleep in Kalaman; Night Encounters",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Night of Terror; No Sleep in Kalaman; Night Encounters; d4:1",
         "allies": [
             [4, "3081111-kalaman-soldier", 100]
         ],
@@ -1513,7 +1685,7 @@
     {
         "id": "926d7fac-e963-4d0e-a6e9-21fc40203386",
         "type": "combat",
-        "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Night of Terror; No Sleep in Kalaman; Night Encounters",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Night of Terror; No Sleep in Kalaman; Night Encounters; d4:2",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1523,7 +1695,7 @@
     {
         "id": "edd74c93-c56e-4110-ac97-a3d0914c9bcb",
         "type": "combat",
-        "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Night of Terror; No Sleep in Kalaman; Testing the Defenses",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Night of Terror; No Sleep in Kalaman; Night Encounters; d4:3",
         "allies": [
             [6, "3081111-kalaman-soldier", 100]
         ],
@@ -1536,11 +1708,11 @@
     {
         "id": "46c512dc-8fc1-4924-9c82-4ad35c981830",
         "type": "combat",
-        "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Night of Terror; No Sleep in Kalaman; Highmaster\u2019s Message",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Night of Terror; No Sleep in Kalaman; Night Encounters; d4:4",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "3081116-lesser-death-dragon", 5900]
+            [1, "3081116-lesser-death-dragon", 5000]
         ]
     },
     {
@@ -1568,7 +1740,7 @@
     {
         "id": "c10505f8-f9e5-4f20-8f40-c246ef1a1136",
         "type": "combat",
-        "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Battle of Kalaman; Battle Begins; Ballista Breakers",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Battle of Kalaman; Battle Begins; Defending the Wall; d4:1",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1578,7 +1750,7 @@
     {
         "id": "cb0efdc1-948e-4514-b26b-af9503732e61",
         "type": "combat",
-        "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Battle of Kalaman; Battle Begins; Daring Riders",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Battle of Kalaman; Battle Begins; Defending the Wall; d4:2",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1589,7 +1761,7 @@
     {
         "id": "10c2a85f-622a-4aa7-a0cf-767c076e12d9",
         "type": "combat",
-        "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Battle of Kalaman; Battle Begins; Death Dragon Attack",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Battle of Kalaman; Battle Begins; Defending the Wall; d4:3",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -1600,7 +1772,7 @@
     {
         "id": "0d18a4ad-f6e2-43f5-9c25-a65485e15e9c",
         "type": "combat",
-        "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Battle of Kalaman; Battle Begins; Draconian Assassins",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; Battle of Kalaman; Battle Begins; Defending the Wall; d4:4",
         "allies": [
             [1, "17045-veteran", 700]
         ],
@@ -1693,6 +1865,26 @@
         "enemies": [
             [2, "3081122-skeletal-knight", 2900],
             [1, "16959-minotaur-skeleton", 450]
+        ]
+    },
+    {
+        "id": "a0bb5d58-ac99-4a36-bb3d-353795abfacd",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; Temple Crypts; S3: Burial Vault; Crypt Contents; d10:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17059-wight", 700]
+        ]
+    },
+    {
+        "id": "430ec8cc-6b9f-4fdf-9014-64d0375661fa",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Siege of Kalaman; The Flying Citadel; Temple Crypts; S3: Burial Vault; Crypt Contents; d10:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "16808-black-pudding", 1100]
         ]
     },
     {
@@ -1888,6 +2080,226 @@
         "bystanders": [],
         "enemies": [
             [1, "3081112-kansaldi-fire-eyes", 7200],
+            [1, "17074-young-red-dragon", 5900]
+        ]
+    },
+    {
+        "id": "787e0ad8-89de-40e4-8f61-5179f112ea1b",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Friends and Foes; Random Encounters; Dragon Army Encounters; d100:1\u20135",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "3081106-dragon-army-soldier", 200]
+        ]
+    },
+    {
+        "id": "8643a88c-e0e9-4681-8d2e-bbfc1d050a8d",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Friends and Foes; Random Encounters; Dragon Army Encounters; d100:6\u201311",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "3081100-baaz-draconian", 100]
+        ]
+    },
+    {
+        "id": "c3d36d7c-2d48-4dcd-a1ae-69fdf10998c7",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Friends and Foes; Random Encounters; Dragon Army Encounters; d100:12\u201316",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081104-dragon-army-dragonnel", 700],
+            [1, "3081105-dragon-army-officer", 700]
+        ]
+    },
+    {
+        "id": "bc0bc76c-e8f2-47ab-90a9-eff1dc117c88",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Friends and Foes; Random Encounters; Dragon Army Encounters; d100:17\u201320",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "3081106-dragon-army-soldier", 200],
+            [5, "3081114-kender-skirmisher", 50]
+        ]
+    },
+    {
+        "id": "0bc0ef47-48d7-4e72-87ac-6050bb197fdd",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Friends and Foes; Random Encounters; Dragon Army Encounters; d100:21\u201326",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "16925-hobgoblin", 100],
+            [1, "17160-hobgoblin-captain", 700]
+        ]
+    },
+    {
+        "id": "1be66c12-bc85-442d-8e3a-4659456d7089",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Friends and Foes; Random Encounters; Dragon Army Encounters; d100:27\u201332",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "3081106-dragon-army-soldier", 200],
+            [1, "3081105-dragon-army-officer", 700]
+        ]
+    },
+    {
+        "id": "35076111-d7ed-4573-8bde-7f71e00cdada",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Friends and Foes; Random Encounters; Dragon Army Encounters; d100:33\u201338",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "3081100-baaz-draconian", 100],
+            [1, "3081101-bozak-draconian", 450]
+        ]
+    },
+    {
+        "id": "b70bec1c-edeb-405c-be24-37d4239a39e9",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Friends and Foes; Random Encounters; Dragon Army Encounters; d100:39\u201345",
+        "allies": [
+            [7, "3081111-kalaman-soldier", 100]
+        ],
+        "bystanders": [],
+        "enemies": [
+            [5, "3081106-dragon-army-soldier", 200]
+        ]
+    },
+    {
+        "id": "56040755-d774-4818-8f27-07fe16781187",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Friends and Foes; Random Encounters; Dragon Army Encounters; d100:46\u201350",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "3081100-baaz-draconian", 100],
+            [1, "3081105-dragon-army-officer", 700]
+        ]
+    },
+    {
+        "id": "011adb5c-01c6-4e46-ac22-c0b194009b6b",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Friends and Foes; Random Encounters; Dragon Army Encounters; d100:51\u201355",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "3081106-dragon-army-soldier", 200],
+            [5, "16953-mastiff", 25]
+        ]
+    },
+    {
+        "id": "245c9676-bcd4-4364-a6a8-9afa0a1b024a",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Friends and Foes; Random Encounters; Dragon Army Encounters; d100:56\u201360",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "3081113-kapak-draconian", 700]
+        ]
+    },
+    {
+        "id": "6d0467ab-0f4e-4d25-8dff-350093f42e3d",
+        "type": "non-combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Friends and Foes; Random Encounters; Dragon Army Encounters; d100:61\u201365",
+        "allies": [],
+        "bystanders": [
+            [7, "16829-commoner", 10]
+        ],
+        "enemies": [
+            [1, "16985-priest", 450]
+        ]
+    },
+    {
+        "id": "ebe73eeb-413f-457c-9a02-4f48191c0f1a",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Friends and Foes; Random Encounters; Dragon Army Encounters; d100:66\u201371",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "3081121-sivak-draconian", 1100]
+        ]
+    },
+    {
+        "id": "9be80382-42c7-472f-9db3-1aca61474207",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Friends and Foes; Random Encounters; Dragon Army Encounters; d100:72\u201376",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "3081121-sivak-draconian", 1100]
+        ]
+    },
+    {
+        "id": "7cac6056-4957-4b89-8a80-d13daa2c6c5d",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Friends and Foes; Random Encounters; Dragon Army Encounters; d100:77\u201380",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081099-aurak-draconian", 2300],
+            [4, "3081106-dragon-army-soldier", 200]
+        ]
+    },
+    {
+        "id": "432739a0-fa7b-4977-b115-e386cff93fa4",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Friends and Foes; Random Encounters; Dragon Army Encounters; d100:81\u201384",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "3081122-skeletal-knight", 2900],
+            [3, "17049-warhorse", 100]
+        ]
+    },
+    {
+        "id": "d3790ee7-44e2-4172-9465-3eac794314e8",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Friends and Foes; Random Encounters; Dragon Army Encounters; d100:85\u201389",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081099-aurak-draconian", 2300],
+            [2, "3081121-sivak-draconian", 1100]
+        ]
+    },
+    {
+        "id": "bc4fc11b-18d5-4ce3-bdc6-e53ca0f836f7",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Friends and Foes; Random Encounters; Dragon Army Encounters; d100:90\u201393",
+        "allies": [],
+        "bystanders": [
+            [1, "16985-priest", 450]
+        ],
+        "enemies": [
+            [4, "3081121-sivak-draconian", 1100]
+        ]
+    },
+    {
+        "id": "40fadb42-634b-43fb-a1db-07fc59bd6ada",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Friends and Foes; Random Encounters; Dragon Army Encounters; d100:94\u201399",
+        "allies": [],
+        "bystanders": [
+            [1, "16966-noble", 25]
+        ],
+        "enemies": [
+            [4, "3081122-skeletal-knight", 2900],
+            [1, "3081102-caradoc", 3900]
+        ]
+    },
+    {
+        "id": "df05d031-2b4f-47b7-a6d4-f174857df0b0",
+        "type": "combat",
+        "book_path": "Dragonlance: Shadow of the Dragon Queen; Friends and Foes; Random Encounters; Dragon Army Encounters; d100:00",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "3081105-dragon-army-officer", 700],
             [1, "17074-young-red-dragon", 5900]
         ]
     }

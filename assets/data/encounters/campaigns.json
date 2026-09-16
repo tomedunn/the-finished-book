@@ -1,6 +1,6 @@
 [
     {
-        "name": "Tales from the Yawning Portal: The Sunless Citadel",
+        "name": "Tales from the Yawning Portal; The Sunless Citadel",
         "groups": [
             {
                 "party": [
@@ -19,6 +19,12 @@
                     "e7985242-c7c9-4eee-a504-15a37be2e4d9",
                     "1474fa89-529d-4559-a44f-aff14a0c6912",
                     "1e8b4974-dad8-49d9-a833-e0122cc0c97e",
+                    "7d494025-ab14-4086-9995-e38496f5b79d",
+                    "12688e9e-db8a-4488-a25d-6d7377ce6d88",
+                    "630ed71d-1686-4c90-8292-d891488ffc35",
+                    "3880fbb1-45e7-4fd4-8187-eb2d893ff6c6",
+                    "40ce0902-9eac-4fe6-ad21-32bef30c4c36",
+                    "f6e4e61d-552a-497a-bc95-e0a29e7f83a2",
                     "6ad28400-ff77-4953-9ec2-fb0aa779602f",
                     "488de2cc-1fb4-4ebd-9386-f3db75ba90aa",
                     "f823b308-9045-438d-b857-42ebf97452e6",
@@ -37,6 +43,12 @@
                     2
                 ],
                 "encounter_ids": [
+                    "7d494025-ab14-4086-9995-e38496f5b79d",
+                    "12688e9e-db8a-4488-a25d-6d7377ce6d88",
+                    "630ed71d-1686-4c90-8292-d891488ffc35",
+                    "3880fbb1-45e7-4fd4-8187-eb2d893ff6c6",
+                    "40ce0902-9eac-4fe6-ad21-32bef30c4c36",
+                    "f6e4e61d-552a-497a-bc95-e0a29e7f83a2",
                     "3ad0873b-94ef-49da-9c7b-6cd5cda3aa7d",
                     "7f2feb35-2df0-4ca4-a159-46cc5b39f10a",
                     "19efb16e-fcad-4000-b6b3-bb19d45acffa",
@@ -58,6 +70,12 @@
                     3
                 ],
                 "encounter_ids": [
+                    "7d494025-ab14-4086-9995-e38496f5b79d",
+                    "12688e9e-db8a-4488-a25d-6d7377ce6d88",
+                    "630ed71d-1686-4c90-8292-d891488ffc35",
+                    "3880fbb1-45e7-4fd4-8187-eb2d893ff6c6",
+                    "40ce0902-9eac-4fe6-ad21-32bef30c4c36",
+                    "f6e4e61d-552a-497a-bc95-e0a29e7f83a2",
                     "2f6b48cc-a3af-4839-9de7-b1a63c5d9dce",
                     "0a1a484b-597a-465d-b42c-12e610398f48",
                     "bd71c740-d553-4cba-97d7-b4ec01751902",
@@ -74,7 +92,7 @@
         ]
     },
     {
-        "name": "Tales from the Yawning Portal: The Forge of Fury",
+        "name": "Tales from the Yawning Portal; The Forge of Fury",
         "groups": [
             {
                 "party": [
@@ -133,7 +151,7 @@
         ]
     },
     {
-        "name": "Tales from the Yawning Portal: The Hidden Shrine of Tamoachan",
+        "name": "Tales from the Yawning Portal; The Hidden Shrine of Tamoachan",
         "groups": [
             {
                 "party": [
@@ -144,6 +162,15 @@
                     5
                 ],
                 "encounter_ids": [
+                    "7720e902-e43c-4f5d-8c21-c58f05059565",
+                    "ecdbd1e9-ba20-40d0-9eb0-deca0f7f3d50",
+                    "c7233745-eb4f-4c8d-808b-1d8ff6d65484",
+                    "f13e20a6-5988-4041-8e8f-9ee44ef62825",
+                    "1dffb924-0d77-4413-a2b7-a8ca0c15c7a1",
+                    "065e322e-bdc9-4092-9e09-5ad2530bc14d",
+                    "efbdc362-fe01-4fac-b175-d5a21d3e1cff",
+                    "60160aa9-b397-491d-a0ac-d3d4c7606669",
+                    "33ad27ac-0b9d-462f-b90d-3c72ed624056",
                     "b1ac9b18-eee5-4f19-a209-bc8b3ec4a9f0",
                     "8c62fb79-7b18-423b-9aaa-32b4161231b1",
                     "7a12f253-084b-491e-ab69-af43c389ae97",
@@ -166,6 +193,15 @@
                     6
                 ],
                 "encounter_ids": [
+                    "7720e902-e43c-4f5d-8c21-c58f05059565",
+                    "ecdbd1e9-ba20-40d0-9eb0-deca0f7f3d50",
+                    "c7233745-eb4f-4c8d-808b-1d8ff6d65484",
+                    "f13e20a6-5988-4041-8e8f-9ee44ef62825",
+                    "1dffb924-0d77-4413-a2b7-a8ca0c15c7a1",
+                    "065e322e-bdc9-4092-9e09-5ad2530bc14d",
+                    "efbdc362-fe01-4fac-b175-d5a21d3e1cff",
+                    "60160aa9-b397-491d-a0ac-d3d4c7606669",
+                    "33ad27ac-0b9d-462f-b90d-3c72ed624056",
                     "a038bce5-a0a8-4318-9ce7-a62ba8bd7cd6",
                     "8f1b6e8c-8d19-4e81-bcc1-7711a8c0820d",
                     "ea6a220c-9fda-4ca1-a65c-a994cb0ab9ca",
@@ -186,6 +222,15 @@
                     7
                 ],
                 "encounter_ids": [
+                    "7720e902-e43c-4f5d-8c21-c58f05059565",
+                    "ecdbd1e9-ba20-40d0-9eb0-deca0f7f3d50",
+                    "c7233745-eb4f-4c8d-808b-1d8ff6d65484",
+                    "f13e20a6-5988-4041-8e8f-9ee44ef62825",
+                    "1dffb924-0d77-4413-a2b7-a8ca0c15c7a1",
+                    "065e322e-bdc9-4092-9e09-5ad2530bc14d",
+                    "efbdc362-fe01-4fac-b175-d5a21d3e1cff",
+                    "60160aa9-b397-491d-a0ac-d3d4c7606669",
+                    "33ad27ac-0b9d-462f-b90d-3c72ed624056",
                     "f46243b7-4b0e-4527-8a5e-ed67e90f6eab",
                     "46513e2d-3c13-4c5b-b041-6a559288ba07",
                     "1ab22fbb-dc7a-4686-81a9-4f39a93a6ed1",
@@ -202,7 +247,7 @@
         ]
     },
     {
-        "name": "Tales from the Yawning Portal: White Plume Mountain",
+        "name": "Tales from the Yawning Portal; White Plume Mountain",
         "groups": [
             {
                 "party": [
@@ -239,7 +284,7 @@
         ]
     },
     {
-        "name": "Tales from the Yawning Portal: Dead in Thay",
+        "name": "Tales from the Yawning Portal; Dead in Thay",
         "groups": [
             {
                 "party": [
@@ -250,6 +295,25 @@
                     9
                 ],
                 "encounter_ids": [
+                    "104dac29-cb5f-488d-be57-9cfac4eeafbe",
+                    "dce8dc14-725a-4c02-850c-6062a5bb169a",
+                    "9c0f9438-23d5-4dc9-b4e4-65b3f5dac6dc",
+                    "ed56a25d-eeb6-4901-a6e3-45c65c86de78",
+                    "4e549a03-2274-4f6b-9bc6-5c185aa7fc80",
+                    "8e59fcf2-a94a-42f2-8162-d058f440ef37",
+                    "85164ccf-fb15-4d24-9a1b-0aa9d2ea0569",
+                    "1745640c-e457-4166-a739-936e75de8ada",
+                    "e3ef635f-4ca0-473f-9e99-117587830439",
+                    "3d688d35-1560-49c8-acf6-13a231f54049",
+                    "7e8d177d-ea52-4c03-a49d-7f44bb8dc864",
+                    "bff7b199-ab8e-45f5-981b-731c05484074",
+                    "e6c18071-7c70-4c64-a902-0ce6f54b189d",
+                    "d6f34c39-cfec-4750-bbe7-fb153a90ba57",
+                    "27b209c9-3e94-4569-9ed2-50bbb7faea3b",
+                    "004de6c2-65be-41ad-b17e-5c3a7b64d316",
+                    "59d63032-8c63-462b-a662-f1b272035bac",
+                    "4c1c4727-214a-43b1-b1c4-0820e224d7b1",
+                    "6a84b51b-2d2e-4288-8d0c-890ec653536c",
                     "0670ce29-edaf-4399-9684-03d0927d4a25",
                     "22af84b7-96ba-4f65-be5a-d082383d764e",
                     "d9877887-a3ab-4589-a0e5-ee4d1ad9e1b8",
@@ -298,6 +362,30 @@
                     10
                 ],
                 "encounter_ids": [
+                    "104dac29-cb5f-488d-be57-9cfac4eeafbe",
+                    "dce8dc14-725a-4c02-850c-6062a5bb169a",
+                    "9c0f9438-23d5-4dc9-b4e4-65b3f5dac6dc",
+                    "ed56a25d-eeb6-4901-a6e3-45c65c86de78",
+                    "4e549a03-2274-4f6b-9bc6-5c185aa7fc80",
+                    "8e59fcf2-a94a-42f2-8162-d058f440ef37",
+                    "85164ccf-fb15-4d24-9a1b-0aa9d2ea0569",
+                    "1745640c-e457-4166-a739-936e75de8ada",
+                    "e3ef635f-4ca0-473f-9e99-117587830439",
+                    "3d688d35-1560-49c8-acf6-13a231f54049",
+                    "7e8d177d-ea52-4c03-a49d-7f44bb8dc864",
+                    "bff7b199-ab8e-45f5-981b-731c05484074",
+                    "afdb5cee-7b84-4a92-990c-4e470cc1115f",
+                    "dda6882e-a607-404b-a95e-8add559e60e7",
+                    "11373633-e834-4c20-8422-bf334f1c7692",
+                    "cba83a27-35cf-4407-9066-f3c9b4c75d5d",
+                    "3bd19bc3-704e-49f1-86c3-030b1c90fc7a",
+                    "3844e64b-c4f6-435f-a2b6-f2366053b55d",
+                    "d2fab70b-1156-4273-8da5-c69433f37d60",
+                    "c1a39826-baaa-4bdb-8e99-05e115fc7d6b",
+                    "c492bdf2-65dd-4b3e-b529-01fc07d39444",
+                    "f34b0742-6f79-4c37-9e98-3412bee86044",
+                    "80872c5d-d3ea-4fb2-9f5d-ffbaf13286e6",
+                    "d25406f6-2a35-4c3d-902e-57627a8f0d5c",
                     "dadfb0e0-db1b-4650-aab2-41f92b650006",
                     "9e2aa225-a987-4472-8da3-e074b694bf1e",
                     "c64de20d-1666-4dcb-9c64-e611f316c5c0",
@@ -355,6 +443,26 @@
                     11
                 ],
                 "encounter_ids": [
+                    "104dac29-cb5f-488d-be57-9cfac4eeafbe",
+                    "dce8dc14-725a-4c02-850c-6062a5bb169a",
+                    "9c0f9438-23d5-4dc9-b4e4-65b3f5dac6dc",
+                    "ed56a25d-eeb6-4901-a6e3-45c65c86de78",
+                    "4e549a03-2274-4f6b-9bc6-5c185aa7fc80",
+                    "8e59fcf2-a94a-42f2-8162-d058f440ef37",
+                    "85164ccf-fb15-4d24-9a1b-0aa9d2ea0569",
+                    "1745640c-e457-4166-a739-936e75de8ada",
+                    "e3ef635f-4ca0-473f-9e99-117587830439",
+                    "3d688d35-1560-49c8-acf6-13a231f54049",
+                    "7e8d177d-ea52-4c03-a49d-7f44bb8dc864",
+                    "bff7b199-ab8e-45f5-981b-731c05484074",
+                    "b044eb3f-192e-457f-ab84-2e7d2c4dd852",
+                    "81ee3d67-172d-4a0e-81f0-ce0b97e25d4d",
+                    "57ebb824-2340-4c7d-82e5-2500bdc060c3",
+                    "086ecafe-b019-40f1-96f0-a6c7009aadfd",
+                    "ccd5dc21-3a56-4b1c-ac00-1e9ceeeb5fe1",
+                    "0f3b3ff6-7156-431d-9565-55478f9b3892",
+                    "f2b06f82-05f2-4202-a1ee-bcff68f34168",
+                    "d8542955-db77-4337-918c-c29ca5311dab",
                     "bd450d2c-2f4b-42ba-bec7-d58a0d103b0e",
                     "181a188f-8003-4c70-876f-8af9e07d84ce",
                     "ed5f7909-c236-4bc5-b490-a31ac667befb",
@@ -398,7 +506,7 @@
         ]
     },
     {
-        "name": "Tales from the Yawning Portal: Against the Giants",
+        "name": "Tales from the Yawning Portal; Against the Giants",
         "groups": [
             {
                 "party": [
@@ -409,6 +517,16 @@
                     11
                 ],
                 "encounter_ids": [
+                    "1d33c1f1-8ec6-4f5e-a390-371ca2c3ac0a",
+                    "d71b61a7-5d0b-47f0-883e-16e7a41fd81f",
+                    "1199fa6a-73b8-44e1-9c7c-adc2045c9acd",
+                    "c9c9390e-4406-4f77-a505-2f5dbac7786a",
+                    "fb134bed-ba15-407e-bac2-98ad1542d62b",
+                    "8474aacf-48c9-486d-abd5-49bd64b130a5",
+                    "19a12c29-3cb9-4bad-ba8e-14a9c61cbc34",
+                    "59b807df-fbfb-400f-b9c9-adbdc3967f3f",
+                    "b9326932-7430-450f-9c0b-5b2f0a1cc0c5",
+                    "61fef1b1-8159-42e5-aa2d-66e15cbd1347",
                     "b6b15fad-230f-4b01-bea5-8d800d705167",
                     "e3a23633-342c-43b2-9974-5b7cd253aa18",
                     "b3cb1b83-c1f2-4563-b47a-6cbd110827e5",
@@ -421,6 +539,11 @@
                     "00e118a4-8560-4ade-939d-288eadc7c629",
                     "6bc1e09c-fa3c-440d-a1db-503fe89bcf3d",
                     "a57f5ff1-e3b2-410b-9979-df49925d6b4f",
+                    "22aca14e-9f5c-47f1-996e-29ed810a98e0",
+                    "9000bbb4-6a30-4bf5-b8ca-a173e52c62cb",
+                    "ffb4f41b-0aa5-489b-9560-a56f1b48b761",
+                    "4df64b30-2cb7-4536-9929-bdeaaac96e1b",
+                    "485ac15c-95eb-41ea-b758-23cf518d9f0b",
                     "30ef1a84-81c4-4a7e-9715-9056210f2402",
                     "ad697740-dfe2-4ca3-bbce-07415c73e9f5",
                     "342b4f43-e692-4311-a177-16137424d19a",
@@ -444,6 +567,10 @@
                     12
                 ],
                 "encounter_ids": [
+                    "9583fee7-f35b-48d4-8450-e6f5444bf2c4",
+                    "358c6f9c-83cf-4765-883d-46e801a476c5",
+                    "5ea81f97-d5fa-4221-ade7-b9d58e9ad467",
+                    "1de361bd-8d1a-494c-a3d5-29c0367be4ac",
                     "d3e31081-0bbb-4011-a498-8cb9b4cc4989",
                     "adcaf9cf-77c7-4593-92ed-4e19a7d06afc",
                     "fe0625b3-5b5a-4f42-95c6-4a9844c73e09",
@@ -469,6 +596,10 @@
                     "02258dc4-fe6d-4272-a0ef-d8b263ad26c8",
                     "e82a8a87-e210-47a8-9685-87b81cce63fc",
                     "9d0e6c64-51e8-45da-871c-16a3f67d4881",
+                    "df9ba0dc-2be3-413a-8a76-93ca7976bbf1",
+                    "7714e850-ea17-4fc5-ad2a-786e3f4d9500",
+                    "fdbd7f01-9f81-4f41-b0dd-756c8c2a46de",
+                    "74f67941-9bcd-4716-8031-cad773685e24",
                     "11b1a252-e891-4347-a039-bf6d07d0fe55",
                     "0a9d23cc-a177-4b4d-9e68-9286438c1b4e",
                     "5f5a427f-5814-48f0-b1d0-03bfdce09fb1",
@@ -573,7 +704,7 @@
         ]
     },
     {
-        "name": "Tales from the Yawning Portal: Tomb of Horrors",
+        "name": "Tales from the Yawning Portal; Tomb of Horrors",
         "groups": [
             {
                 "party": [
@@ -604,7 +735,7 @@
         ]
     },
     {
-        "name": "Ghosts of Saltmarsh: The Sinister Secret of Saltmarsh",
+        "name": "Ghosts of Saltmarsh; The Sinister Secret of Saltmarsh",
         "groups": [
             {
                 "party": [
@@ -653,7 +784,7 @@
         ]
     },
     {
-        "name": "Ghosts of Saltmarsh: Danger at Dunwater",
+        "name": "Ghosts of Saltmarsh; Danger at Dunwater",
         "groups": [
             {
                 "party": [
@@ -686,13 +817,22 @@
                     "06a23ce6-7ec2-4d70-b336-af0cc44336f3",
                     "940f562c-4b37-4be0-9b29-0aff057317ec",
                     "57dab466-320d-4a69-9a6c-ddb9899052ee",
-                    "02f7aa85-754c-476c-9562-17eaa5e09dff"
+                    "02f7aa85-754c-476c-9562-17eaa5e09dff",
+                    "e3527c94-454b-4f24-aed6-f014b8df6c1f",
+                    "1a2f7132-3a32-43f2-a158-7720262598b5",
+                    "2b04f199-9f6b-4a84-be91-0b3b4305a86a",
+                    "fd88e867-5140-48e5-83ad-84f09edf0980",
+                    "adee012e-9065-4dbb-b071-e355335197ad",
+                    "3bd0de44-4135-4d34-a647-fd05b0e3269c",
+                    "78ed045d-d470-43af-ac03-cba74d1149ce",
+                    "4b146d89-67ec-428a-817e-b1be58df10e2",
+                    "1cac2d93-82cf-4c98-83b4-606e62bbbfeb"
                 ]
             }
         ]
     },
     {
-        "name": "Ghosts of Saltmarsh: Salvage Operation",
+        "name": "Ghosts of Saltmarsh; Salvage Operation",
         "groups": [
             {
                 "party": [
@@ -714,7 +854,7 @@
         ]
     },
     {
-        "name": "Ghosts of Saltmarsh: Isle of the Abbey",
+        "name": "Ghosts of Saltmarsh; Isle of the Abbey",
         "groups": [
             {
                 "party": [
@@ -757,7 +897,7 @@
         ]
     },
     {
-        "name": "Ghosts of Saltmarsh: The Final Enemy",
+        "name": "Ghosts of Saltmarsh; The Final Enemy",
         "groups": [
             {
                 "party": [
@@ -815,7 +955,7 @@
         ]
     },
     {
-        "name": "Ghosts of Saltmarsh: Tammeraut\u2019s Fate",
+        "name": "Ghosts of Saltmarsh; Tammeraut\u2019s Fate",
         "groups": [
             {
                 "party": [
@@ -862,7 +1002,7 @@
         ]
     },
     {
-        "name": "Ghosts of Saltmarsh: The Styes",
+        "name": "Ghosts of Saltmarsh; The Styes",
         "groups": [
             {
                 "party": [
@@ -890,7 +1030,7 @@
         ]
     },
     {
-        "name": "Candlekeep Mysteries: The Joy of Extradimensional Spaces",
+        "name": "Candlekeep Mysteries; The Joy of Extradimensional Spaces",
         "groups": [
             {
                 "party": [
@@ -915,7 +1055,7 @@
         ]
     },
     {
-        "name": "Candlekeep Mysteries: Mazfroth\u2019s Mighty Digressions",
+        "name": "Candlekeep Mysteries; Mazfroth\u2019s Mighty Digressions",
         "groups": [
             {
                 "party": [
@@ -939,7 +1079,7 @@
         ]
     },
     {
-        "name": "Candlekeep Mysteries: Book of the Raven",
+        "name": "Candlekeep Mysteries; Book of the Raven",
         "groups": [
             {
                 "party": [
@@ -961,7 +1101,7 @@
         ]
     },
     {
-        "name": "Candlekeep Mysteries: A Deep and Creeping Darkness",
+        "name": "Candlekeep Mysteries; A Deep and Creeping Darkness",
         "groups": [
             {
                 "party": [
@@ -982,7 +1122,7 @@
         ]
     },
     {
-        "name": "Candlekeep Mysteries: Shemshime\u2019s Bedtime Rhyme",
+        "name": "Candlekeep Mysteries; Shemshime\u2019s Bedtime Rhyme",
         "groups": [
             {
                 "party": [
@@ -1001,7 +1141,7 @@
         ]
     },
     {
-        "name": "Candlekeep Mysteries: The Price of Beauty",
+        "name": "Candlekeep Mysteries; The Price of Beauty",
         "groups": [
             {
                 "party": [
@@ -1029,7 +1169,7 @@
         ]
     },
     {
-        "name": "Candlekeep Mysteries: Book of Cylinders",
+        "name": "Candlekeep Mysteries; Book of Cylinders",
         "groups": [
             {
                 "party": [
@@ -1051,7 +1191,7 @@
         ]
     },
     {
-        "name": "Candlekeep Mysteries: Sarah of Yellowcrest Manor",
+        "name": "Candlekeep Mysteries; Sarah of Yellowcrest Manor",
         "groups": [
             {
                 "party": [
@@ -1074,7 +1214,7 @@
         ]
     },
     {
-        "name": "Candlekeep Mysteries: Lore of Lurue",
+        "name": "Candlekeep Mysteries; Lore of Lurue",
         "groups": [
             {
                 "party": [
@@ -1085,6 +1225,9 @@
                     8
                 ],
                 "encounter_ids": [
+                    "55b60da8-078d-4048-8e7e-a9fe660e92dc",
+                    "59f0a053-823a-475e-b256-5c6005b90fd2",
+                    "32ebe3e6-b74c-49e4-92f7-6a82a6ca262f",
                     "ec3ecb92-4a5c-4fa6-9bc7-8d80eac45b73",
                     "80c53ef1-27d6-4fbe-8dbc-262172b78191",
                     "00b546ea-6b97-4ef4-babe-2ab3ae40b834",
@@ -1096,7 +1239,7 @@
         ]
     },
     {
-        "name": "Candlekeep Mysteries: Kandlekeep Dekonstruktion",
+        "name": "Candlekeep Mysteries; Kandlekeep Dekonstruktion",
         "groups": [
             {
                 "party": [
@@ -1118,7 +1261,7 @@
         ]
     },
     {
-        "name": "Candlekeep Mysteries: Zikran\u2019s Zephyrean Tome",
+        "name": "Candlekeep Mysteries; Zikran\u2019s Zephyrean Tome",
         "groups": [
             {
                 "party": [
@@ -1148,7 +1291,7 @@
         ]
     },
     {
-        "name": "Candlekeep Mysteries: The Curious Tale of Wisteria Vale",
+        "name": "Candlekeep Mysteries; The Curious Tale of Wisteria Vale",
         "groups": [
             {
                 "party": [
@@ -1159,7 +1302,12 @@
                     11
                 ],
                 "encounter_ids": [
+                    "4afc5c64-c883-4a47-ab51-33daf39be87b",
+                    "669b64e3-866c-4359-8a2f-4c53af32099d",
+                    "878f3690-27d1-40bd-aa00-1044938bd7bb",
                     "a78b174f-36a3-45d9-9eda-4bf8cdfea841",
+                    "54ef61e7-6a88-45c5-92da-d5864b1aa6b0",
+                    "28aaa923-6599-4ceb-aa52-19ab467dab9b",
                     "8d37a263-3760-4f03-a0b9-e5a760620dd2",
                     "dbd1da20-3da3-4eed-82d1-7e89731a5ff3",
                     "13db8e07-ca20-48ab-8fbd-8de599e80c05",
@@ -1170,7 +1318,7 @@
         ]
     },
     {
-        "name": "Candlekeep Mysteries: The Book of Inner Alchemy",
+        "name": "Candlekeep Mysteries; The Book of Inner Alchemy",
         "groups": [
             {
                 "party": [
@@ -1192,7 +1340,7 @@
         ]
     },
     {
-        "name": "Candlekeep Mysteries: The Canopic Being",
+        "name": "Candlekeep Mysteries; The Canopic Being",
         "groups": [
             {
                 "party": [
@@ -1212,7 +1360,7 @@
         ]
     },
     {
-        "name": "Candlekeep Mysteries: The Scrivener\u2019s Tale",
+        "name": "Candlekeep Mysteries; The Scrivener\u2019s Tale",
         "groups": [
             {
                 "party": [
@@ -1239,7 +1387,7 @@
         ]
     },
     {
-        "name": "Candlekeep Mysteries: Alkazaar\u2019s Appendix",
+        "name": "Candlekeep Mysteries; Alkazaar\u2019s Appendix",
         "groups": [
             {
                 "party": [
@@ -1262,7 +1410,7 @@
         ]
     },
     {
-        "name": "Candlekeep Mysteries: Xanthoria",
+        "name": "Candlekeep Mysteries; Xanthoria",
         "groups": [
             {
                 "party": [
@@ -1283,7 +1431,7 @@
         ]
     },
     {
-        "name": "Journeys through the Radiant Citadel: Salted Legacy",
+        "name": "Journeys through the Radiant Citadel; Salted Legacy",
         "groups": [
             {
                 "party": [
@@ -1312,7 +1460,7 @@
         ]
     },
     {
-        "name": "Journeys through the Radiant Citadel: Written in Blood",
+        "name": "Journeys through the Radiant Citadel; Written in Blood",
         "groups": [
             {
                 "party": [
@@ -1334,7 +1482,7 @@
         ]
     },
     {
-        "name": "Journeys through the Radiant Citadel: The Fiend of Hollow Mine",
+        "name": "Journeys through the Radiant Citadel; The Fiend of Hollow Mine",
         "groups": [
             {
                 "party": [
@@ -1355,7 +1503,7 @@
         ]
     },
     {
-        "name": "Journeys through the Radiant Citadel: Wages of Vice",
+        "name": "Journeys through the Radiant Citadel; Wages of Vice",
         "groups": [
             {
                 "party": [
@@ -1375,7 +1523,7 @@
         ]
     },
     {
-        "name": "Journeys through the Radiant Citadel: Sins of Our Elders",
+        "name": "Journeys through the Radiant Citadel; Sins of Our Elders",
         "groups": [
             {
                 "party": [
@@ -1394,7 +1542,7 @@
         ]
     },
     {
-        "name": "Journeys through the Radiant Citadel: Gold for Fools and Princes",
+        "name": "Journeys through the Radiant Citadel; Gold for Fools and Princes",
         "groups": [
             {
                 "party": [
@@ -1415,7 +1563,7 @@
         ]
     },
     {
-        "name": "Journeys through the Radiant Citadel: Trail of Destruction",
+        "name": "Journeys through the Radiant Citadel; Trail of Destruction",
         "groups": [
             {
                 "party": [
@@ -1437,7 +1585,7 @@
         ]
     },
     {
-        "name": "Journeys through the Radiant Citadel: In the Mists of Manivarsha",
+        "name": "Journeys through the Radiant Citadel; In the Mists of Manivarsha",
         "groups": [
             {
                 "party": [
@@ -1465,7 +1613,7 @@
         ]
     },
     {
-        "name": "Journeys through the Radiant Citadel: Between Tangled Roots",
+        "name": "Journeys through the Radiant Citadel; Between Tangled Roots",
         "groups": [
             {
                 "party": [
@@ -1478,6 +1626,7 @@
                 "encounter_ids": [
                     "0aa27044-8a42-4b9b-aa5f-6a8cbfada26a",
                     "f1c7755e-4e0c-473e-b7e9-60f61f3e3e75",
+                    "70e42286-f714-4be4-9c2d-38ba53209f9c",
                     "eff20910-25c5-494e-980b-dc55a6b5f885",
                     "6d2ae22a-431f-44a1-b14e-01c59dfcbc84",
                     "295d6339-2d35-4d95-8755-1a8775181023",
@@ -1489,7 +1638,7 @@
         ]
     },
     {
-        "name": "Journeys through the Radiant Citadel: Shadow of the Sun",
+        "name": "Journeys through the Radiant Citadel; Shadow of the Sun",
         "groups": [
             {
                 "party": [
@@ -1514,7 +1663,7 @@
         ]
     },
     {
-        "name": "Journeys through the Radiant Citadel: The Nightsea\u2019s Succor",
+        "name": "Journeys through the Radiant Citadel; The Nightsea\u2019s Succor",
         "groups": [
             {
                 "party": [
@@ -1534,7 +1683,7 @@
         ]
     },
     {
-        "name": "Journeys through the Radiant Citadel: Buried Dynasty",
+        "name": "Journeys through the Radiant Citadel; Buried Dynasty",
         "groups": [
             {
                 "party": [
@@ -1556,7 +1705,7 @@
         ]
     },
     {
-        "name": "Journeys through the Radiant Citadel: Orchids of the Invisible Mountain",
+        "name": "Journeys through the Radiant Citadel; Orchids of the Invisible Mountain",
         "groups": [
             {
                 "party": [
@@ -1587,7 +1736,7 @@
         ]
     },
     {
-        "name": "Keys from the Golden Vault: The Murkmire Malevolence",
+        "name": "Keys from the Golden Vault; The Murkmire Malevolence",
         "groups": [
             {
                 "party": [
@@ -1618,7 +1767,7 @@
         ]
     },
     {
-        "name": "Keys from the Golden Vault: The Stygian Gambit",
+        "name": "Keys from the Golden Vault; The Stygian Gambit",
         "groups": [
             {
                 "party": [
@@ -1639,7 +1788,7 @@
         ]
     },
     {
-        "name": "Keys from the Golden Vault: Reach for the Stars",
+        "name": "Keys from the Golden Vault; Reach for the Stars",
         "groups": [
             {
                 "party": [
@@ -1669,7 +1818,7 @@
         ]
     },
     {
-        "name": "Keys from the Golden Vault: Prisoner 13",
+        "name": "Keys from the Golden Vault; Prisoner 13",
         "groups": [
             {
                 "party": [
@@ -1689,7 +1838,7 @@
         ]
     },
     {
-        "name": "Keys from the Golden Vault: Tockworth\u2019s Clockworks",
+        "name": "Keys from the Golden Vault; Tockworth\u2019s Clockworks",
         "groups": [
             {
                 "party": [
@@ -1700,6 +1849,10 @@
                     5
                 ],
                 "encounter_ids": [
+                    "32f99509-9386-4ac3-b188-9772e5ae71ef",
+                    "1d5df602-3955-4a4b-84aa-35e6cb058fb5",
+                    "c19440ea-99fb-4952-bb02-1711a2e6840f",
+                    "1b729e5a-b9c3-481e-a9a2-508130027832",
                     "3400f701-a65d-4b29-8db3-17c029d8cadc",
                     "a28e84e1-df36-4867-9fbc-43c159c19d24",
                     "749aa999-b44d-4d60-8b6c-e3c715198863",
@@ -1713,7 +1866,7 @@
         ]
     },
     {
-        "name": "Keys from the Golden Vault: Masterpiece Imbroglio",
+        "name": "Keys from the Golden Vault; Masterpiece Imbroglio",
         "groups": [
             {
                 "party": [
@@ -1741,7 +1894,7 @@
         ]
     },
     {
-        "name": "Keys from the Golden Vault: Axe from the Grave",
+        "name": "Keys from the Golden Vault; Axe from the Grave",
         "groups": [
             {
                 "party": [
@@ -1762,7 +1915,7 @@
         ]
     },
     {
-        "name": "Keys from the Golden Vault: Vidorant\u2019s Vault",
+        "name": "Keys from the Golden Vault; Vidorant\u2019s Vault",
         "groups": [
             {
                 "party": [
@@ -1782,7 +1935,7 @@
         ]
     },
     {
-        "name": "Keys from the Golden Vault: Shard of the Accursed",
+        "name": "Keys from the Golden Vault; Shard of the Accursed",
         "groups": [
             {
                 "party": [
@@ -1809,7 +1962,7 @@
         ]
     },
     {
-        "name": "Keys from the Golden Vault: Heart of Ashes",
+        "name": "Keys from the Golden Vault; Heart of Ashes",
         "groups": [
             {
                 "party": [
@@ -1834,7 +1987,7 @@
         ]
     },
     {
-        "name": "Keys from the Golden Vault: Affair on the Concordant Express",
+        "name": "Keys from the Golden Vault; Affair on the Concordant Express",
         "groups": [
             {
                 "party": [
@@ -1845,6 +1998,8 @@
                     9
                 ],
                 "encounter_ids": [
+                    "42941c39-c118-458b-8171-66ddfafee8f7",
+                    "02b6eae0-46b3-4f1c-a372-983261395ffa",
                     "5909fa84-deb4-4413-9844-d2cbe367d8e2",
                     "f5d6af89-b05a-40e2-b5e4-3a35ddf06534",
                     "5aa684d3-e1ab-4ea6-afb3-2384add8da35",
@@ -1859,7 +2014,7 @@
         ]
     },
     {
-        "name": "Keys from the Golden Vault: Party at Paliset Hall",
+        "name": "Keys from the Golden Vault; Party at Paliset Hall",
         "groups": [
             {
                 "party": [
@@ -1883,7 +2038,7 @@
         ]
     },
     {
-        "name": "Keys from the Golden Vault: Fire and Darkness",
+        "name": "Keys from the Golden Vault; Fire and Darkness",
         "groups": [
             {
                 "party": [
@@ -1918,7 +2073,7 @@
         ]
     },
     {
-        "name": "Quests from the Infinite Staircase: The Lost City",
+        "name": "Quests from the Infinite Staircase; The Lost City",
         "groups": [
             {
                 "party": [
@@ -1929,6 +2084,15 @@
                     1
                 ],
                 "encounter_ids": [
+                    "8a716ac0-980d-437d-bd20-68d892434c5c",
+                    "64bdd96c-9714-425f-9646-7222f28de67f",
+                    "3895542c-19e4-4920-83c8-0fdcea75c235",
+                    "38ea7f30-1085-43c3-9328-a76f8347be16",
+                    "6e983da4-8f77-4e77-8f2e-3e4f10ed3b2b",
+                    "d7bdf06a-685c-41ee-8201-2e9979cb89b1",
+                    "0d3d103c-0f87-4706-9874-e5b265fb7764",
+                    "43f287d6-28e5-4f93-861a-6010c9b3b5fe",
+                    "f2fe0799-9a17-4a47-877d-5a3172264147",
                     "1f84ff01-9770-4a91-aa9f-fcc484362d26",
                     "e9b80183-62e6-4da6-93d8-9f471c2283bb",
                     "65973057-68dd-4143-92c9-904b52ca5e80",
@@ -1945,6 +2109,15 @@
                     2
                 ],
                 "encounter_ids": [
+                    "8a716ac0-980d-437d-bd20-68d892434c5c",
+                    "64bdd96c-9714-425f-9646-7222f28de67f",
+                    "3895542c-19e4-4920-83c8-0fdcea75c235",
+                    "38ea7f30-1085-43c3-9328-a76f8347be16",
+                    "6e983da4-8f77-4e77-8f2e-3e4f10ed3b2b",
+                    "d7bdf06a-685c-41ee-8201-2e9979cb89b1",
+                    "0d3d103c-0f87-4706-9874-e5b265fb7764",
+                    "43f287d6-28e5-4f93-861a-6010c9b3b5fe",
+                    "f2fe0799-9a17-4a47-877d-5a3172264147",
                     "e255d212-d330-4502-b615-6603ff317a2a",
                     "79b1cdc2-603f-4a10-8bee-9016c9760530",
                     "70e1ea31-2f3c-42b6-ad5a-c26af5a92720",
@@ -1964,6 +2137,15 @@
                     3
                 ],
                 "encounter_ids": [
+                    "8a716ac0-980d-437d-bd20-68d892434c5c",
+                    "64bdd96c-9714-425f-9646-7222f28de67f",
+                    "3895542c-19e4-4920-83c8-0fdcea75c235",
+                    "38ea7f30-1085-43c3-9328-a76f8347be16",
+                    "6e983da4-8f77-4e77-8f2e-3e4f10ed3b2b",
+                    "d7bdf06a-685c-41ee-8201-2e9979cb89b1",
+                    "0d3d103c-0f87-4706-9874-e5b265fb7764",
+                    "43f287d6-28e5-4f93-861a-6010c9b3b5fe",
+                    "f2fe0799-9a17-4a47-877d-5a3172264147",
                     "343276be-f61b-4838-972d-baa62538a1ac",
                     "01176ab0-fd30-40fd-8091-4490d1e85e00",
                     "8c57df25-cb4b-40a1-a008-1e3076c1bcdc",
@@ -1993,7 +2175,7 @@
         ]
     },
     {
-        "name": "Quests from the Infinite Staircase: When a Star Falls",
+        "name": "Quests from the Infinite Staircase; When a Star Falls",
         "groups": [
             {
                 "party": [
@@ -2004,6 +2186,14 @@
                     4
                 ],
                 "encounter_ids": [
+                    "d2d901aa-ba1e-4133-a0b5-59efe60c0ede",
+                    "c9018889-ce01-404a-983a-d7f40b2f8b06",
+                    "1b7ebf26-9946-43e6-bf31-3c7cae9ddb53",
+                    "9b6dd3d4-93ad-4074-a72c-75f395acfb9f",
+                    "b5425088-d7e6-40b3-a080-875dac99a9d9",
+                    "0ddb38f9-cfcc-45b8-80d8-011580e59ebd",
+                    "b0045e72-1e7c-4f4c-bd94-593d7ff4f0e7",
+                    "44f640ec-723f-4f2f-a0c7-ada7c0aea3d5",
                     "5610e7ba-b744-4900-b2ff-463ed81c691c",
                     "08f89aa0-5c45-4ceb-9c6c-2b25fc5cb4f9",
                     "7fb30e77-2487-4237-9a1e-60b770cc1f9e",
@@ -2029,6 +2219,14 @@
                     5
                 ],
                 "encounter_ids": [
+                    "d2d901aa-ba1e-4133-a0b5-59efe60c0ede",
+                    "c9018889-ce01-404a-983a-d7f40b2f8b06",
+                    "1b7ebf26-9946-43e6-bf31-3c7cae9ddb53",
+                    "9b6dd3d4-93ad-4074-a72c-75f395acfb9f",
+                    "b5425088-d7e6-40b3-a080-875dac99a9d9",
+                    "0ddb38f9-cfcc-45b8-80d8-011580e59ebd",
+                    "b0045e72-1e7c-4f4c-bd94-593d7ff4f0e7",
+                    "44f640ec-723f-4f2f-a0c7-ada7c0aea3d5",
                     "d6b8a1b1-b366-4e87-ac50-df740bb19e48",
                     "7fc74d31-59a1-4e5d-95a3-eb70a5326137",
                     "1ae9d8c4-f896-47da-85fc-ee2358ff6215",
@@ -2055,7 +2253,7 @@
         ]
     },
     {
-        "name": "Quests from the Infinite Staircase: Beyond the Crystal Cave",
+        "name": "Quests from the Infinite Staircase; Beyond the Crystal Cave",
         "groups": [
             {
                 "party": [
@@ -2093,7 +2291,7 @@
         ]
     },
     {
-        "name": "Quests from the Infinite Staircase: Pharaoh",
+        "name": "Quests from the Infinite Staircase; Pharaoh",
         "groups": [
             {
                 "party": [
@@ -2104,9 +2302,18 @@
                     7
                 ],
                 "encounter_ids": [
+                    "a0db9eea-40e5-415d-9a03-872eb6c3d628",
+                    "338cec4b-ebf9-47a9-8cf0-1b496bc3468b",
+                    "8435e923-c232-449e-8609-3479a8d2f0b6",
+                    "d2adf23f-c554-4ad5-8b31-400cb9d528f1",
+                    "246c887a-681c-48da-a2a1-11fbab65a6ad",
                     "cf56102e-c445-4208-affc-6cf46c823ddf",
                     "3430cf18-5720-4d1f-9875-f568168238ad",
                     "516a48d5-7b18-461e-bc5f-7fa4287f836c",
+                    "21059634-5775-4075-91e6-09c833f5f584",
+                    "6a61bb62-833f-494a-b5f8-63db7d3d0f5a",
+                    "fdc75c96-745c-4e83-b764-b9cbcd57bcbe",
+                    "dfb6bfd7-88f4-44b9-a9d1-64fbd07af99a",
                     "4eab8782-5b3b-4064-942e-660438f0b6fe",
                     "d9c4ff4f-a788-4eb3-9773-4e080b1e5aa6",
                     "87618ed0-4239-409e-9c18-f711364f53ed",
@@ -2127,6 +2334,10 @@
                     8
                 ],
                 "encounter_ids": [
+                    "b95d05b2-0dd4-4e51-984e-4cdf4c65411f",
+                    "f2c17de3-1e53-42a2-90f1-7463f69aa5a7",
+                    "da3afe95-2e58-414a-b553-2168cb7a7b33",
+                    "9d5869f4-3877-4ae9-ad0f-6d1bab390af9",
                     "7c12c99f-4c95-465c-b5c6-b32dbd38c9f6",
                     "8f9765e0-c0fa-43ae-9a2e-3c3be1c6f034",
                     "687af124-8eb9-4111-ad8f-358a215d9575",
@@ -2140,7 +2351,7 @@
         ]
     },
     {
-        "name": "Quests from the Infinite Staircase: The Lost Caverns of Tsojcanth",
+        "name": "Quests from the Infinite Staircase; The Lost Caverns of Tsojcanth",
         "groups": [
             {
                 "party": [
@@ -2194,6 +2405,10 @@
                     "a69043cd-9038-4328-a6e6-6b30f49ba52b",
                     "97cf04ea-2fb4-4c57-9ce7-31df145a2789",
                     "6689a311-36e7-41cf-b515-a6fb4ac78ed3",
+                    "a3acfa13-c235-405d-9c9f-6fa03176d408",
+                    "5e53f4a1-085d-49a6-87c1-2c713dfda8f0",
+                    "d40e6f67-c0af-4f46-85d8-e6db61cc74f6",
+                    "23d1b77b-01fc-45d0-bdb9-27f4c633f150",
                     "f3d595b5-43df-49c6-a43f-4aedeecf07df",
                     "f3431d1b-a6e3-4090-a917-a0d0839f694d",
                     "c920b200-a88d-4fe2-b0c3-de5260e843f2",
@@ -2210,7 +2425,7 @@
         ]
     },
     {
-        "name": "Quests from the Infinite Staircase: Expedition to the Barrier Peaks",
+        "name": "Quests from the Infinite Staircase; Expedition to the Barrier Peaks",
         "groups": [
             {
                 "party": [
@@ -2221,6 +2436,13 @@
                     11
                 ],
                 "encounter_ids": [
+                    "5e78fdc9-39df-4c06-b8ac-8ca8f85efa06",
+                    "925117a0-ee64-4478-9cbd-d28c35beea84",
+                    "1cc39469-a8d2-4679-9f68-88834e5d86f7",
+                    "7a90880f-595c-454f-8263-bd3ba3401a7e",
+                    "b8df87b4-e705-49ea-be58-f5d3858a1d8f",
+                    "42347b90-069d-4d00-adf8-8a1dd2bf40dd",
+                    "33ef0322-e706-48f2-b8e9-b6583e549ed0",
                     "3f183209-8ba3-422b-9905-f4085b800b32",
                     "cbd13f54-2b02-4d25-9621-61780cb5918c",
                     "8f308fbd-fb79-44ae-bde4-cf790d053fd5",
@@ -2269,6 +2491,12 @@
                     12
                 ],
                 "encounter_ids": [
+                    "821fabba-7a2b-43a2-ba68-095988c9e20d",
+                    "0f5c048f-c004-4607-9aa4-43c014d5fbb0",
+                    "8831cc43-1407-4a85-bbec-b1d19af58021",
+                    "ec1932fd-9ed4-4756-a56d-03578688e932",
+                    "0e5a7da6-b039-4a9c-880c-a71947d01d58",
+                    "de25c3c2-8166-47f8-8eac-876b61661cf4",
                     "89cdffd8-d68a-4e74-9f10-11b9e52171d7",
                     "be43fd36-1748-49fd-8cb9-4fcd4fd108fb",
                     "0194ae9f-157a-49cd-82c4-2cdeecffad98",
@@ -2293,7 +2521,7 @@
         ]
     },
     {
-        "name": "Dragon Delves: Death at Sunset",
+        "name": "Dragon Delves; Death at Sunset",
         "groups": [
             {
                 "party": [
@@ -2332,7 +2560,7 @@
         ]
     },
     {
-        "name": "Dragon Delves: Baker\u2019s Doesn\u2019t",
+        "name": "Dragon Delves; Baker\u2019s Doesn\u2019t",
         "groups": [
             {
                 "party": [
@@ -2356,7 +2584,7 @@
         ]
     },
     {
-        "name": "Dragon Delves: The Will of Orcus",
+        "name": "Dragon Delves; The Will of Orcus",
         "groups": [
             {
                 "party": [
@@ -2385,7 +2613,7 @@
         ]
     },
     {
-        "name": "Dragon Delves: For Whom the Void Calls",
+        "name": "Dragon Delves; For Whom the Void Calls",
         "groups": [
             {
                 "party": [
@@ -2411,7 +2639,7 @@
         ]
     },
     {
-        "name": "Dragon Delves: The Dragon of Najkir",
+        "name": "Dragon Delves; The Dragon of Najkir",
         "groups": [
             {
                 "party": [
@@ -2431,7 +2659,7 @@
         ]
     },
     {
-        "name": "Dragon Delves: The Forbidden Vale",
+        "name": "Dragon Delves; The Forbidden Vale",
         "groups": [
             {
                 "party": [
@@ -2463,7 +2691,7 @@
         ]
     },
     {
-        "name": "Dragon Delves: Before the Storm",
+        "name": "Dragon Delves; Before the Storm",
         "groups": [
             {
                 "party": [
@@ -2486,7 +2714,7 @@
         ]
     },
     {
-        "name": "Dragon Delves: Shivering Death",
+        "name": "Dragon Delves; Shivering Death",
         "groups": [
             {
                 "party": [
@@ -2512,7 +2740,7 @@
         ]
     },
     {
-        "name": "Dragon Delves: A Copper for a Song",
+        "name": "Dragon Delves; A Copper for a Song",
         "groups": [
             {
                 "party": [
@@ -2538,7 +2766,7 @@
         ]
     },
     {
-        "name": "Dragon Delves: Dragons of the Sandstone City",
+        "name": "Dragon Delves; Dragons of the Sandstone City",
         "groups": [
             {
                 "party": [
@@ -2667,9 +2895,23 @@
                     5
                 ],
                 "encounter_ids": [
+                    "80dab542-3ebd-418e-94b3-610667b55fe5",
+                    "f9b8acf1-50fb-4449-85dc-940542b51b9f",
+                    "51987667-4c57-498f-bbf5-eb5dc2d01d97",
+                    "4a1b2453-fdd7-436e-ba6a-13f14e009e21",
+                    "15997e35-c8af-4dff-bde6-d42453a848df",
+                    "f1f834e6-b3a9-461f-b8ef-e0d6eb4f2578",
                     "23d30698-c75e-4654-b7de-04b41e4ef1d6",
                     "bcf5208a-e5a6-432a-868b-89d1e5ec0c45",
                     "a6dc9235-8c73-4e6d-8ee3-7c86271a287c",
+                    "4e14b9b7-cf61-46cb-944c-cf95388eaed0",
+                    "ad5bc6c1-928c-4cdf-a669-d1b6902929f9",
+                    "115670c3-0bc9-44c5-a8e1-aa67954bb081",
+                    "99297df6-56d6-469b-b988-ed973b5fe06a",
+                    "003ec2ce-3c0f-4c91-9770-a06a0ca95c43",
+                    "6fa0b319-e138-4758-be68-fb43d3c543de",
+                    "2b72c4fa-f0e4-45a3-a943-9208299d29f6",
+                    "29c2ae7c-1c65-47c1-8c88-2a0b499b076e",
                     "21ebbf08-5474-4fa5-a61a-af486385c984",
                     "b3b1de95-49b1-4c69-90e2-9a4cbb636e59",
                     "368ebfdb-4617-484a-8ae3-6eb40ed4c377",
@@ -2768,6 +3010,8 @@
                 "encounter_ids": [
                     "d3658335-741c-43cd-b18a-719f6d1ab482",
                     "805972ef-eefa-4fce-bd3b-493fa5e7c398",
+                    "a58a9a05-ee2c-4955-a7d6-074d4d0f64f4",
+                    "657a1025-2864-4bd3-96d9-a07ce3c76336",
                     "18e6a6b8-abe0-4358-b6ae-655561cff3ca",
                     "dc7160e0-9839-4f14-839b-aeab6b6c8b58",
                     "a6d741ad-0a50-40be-b3a2-718de20f4dfc",
@@ -3010,7 +3254,9 @@
                     "1f83ec28-1b77-422c-aeec-a4ba7474d68e",
                     "b87346f3-e78a-487c-82d2-5381ed4b051d",
                     "04aed3ad-05d8-4329-95d5-96e85ca3bf5b",
-                    "c8194b07-f378-4e27-87b1-899356a77aac",
+                    "6b7d502f-a43e-4a8e-9291-890f2055a964",
+                    "c6ac42a1-bbd4-422b-aca2-85f45181c72b",
+                    "fcb15b8b-7d18-474f-a59e-129ed82b43b7",
                     "8fedb50d-b3fc-4999-92ba-4936984a6240",
                     "97e0f526-6ce4-4a7e-a62a-43a61d588119",
                     "981bb105-9933-477f-b309-090d0bcf3cf7",
@@ -3090,6 +3336,11 @@
                     "0de558b5-ddab-4b08-b26e-9f5e8f962b48",
                     "eaaebac8-7d5a-47c3-b284-3642bac3b6de",
                     "e1728536-0b7b-4a62-971b-c6287459bde3",
+                    "838efc6b-bf3a-4425-a869-6c8f86cd33e2",
+                    "11587ea8-34fd-42b1-9081-8cc2ba7b3b6b",
+                    "d6ca9ea9-dcf8-4698-a0e6-b6363266ab1a",
+                    "20f388db-374f-4816-9f4e-04d7f68dd1ac",
+                    "48e3564e-374e-4a46-a3e4-bac4c4273d5f",
                     "7b8e8b35-b2c3-4e5f-90a1-ca2e6544e63f",
                     "c5825c23-2583-4109-a0d5-51ef48f482de",
                     "870c5f47-fbd1-4aa4-bebe-6012206aca26"
@@ -3108,7 +3359,18 @@
                     "debe002d-e972-41cb-a550-e25809c58a0e",
                     "61b97e08-b302-496b-a27b-2ee1ca4dc1ff",
                     "59ed7bf5-815c-47ff-b855-e3608bfd4ef7",
+                    "8a2f1237-50f2-43da-a152-7fc31d82964b",
+                    "f8629b5d-4d26-437d-a0d4-9528d6532fc3",
+                    "39516c3a-a376-4e4b-ae7f-2d8b5c103eb9",
+                    "8e5e5daf-49f4-46c1-aa12-40c41c219fae",
+                    "22d0db7c-c946-43f4-b0d2-00ad7fc7611b",
+                    "534c88d9-48d1-4223-830f-b39410404d0f",
                     "fd7ff735-6c93-4783-92eb-8505949e3849",
+                    "1b33bfdb-123c-42ac-8114-56d5129215b1",
+                    "1e3fd487-82a6-4ad0-86db-795d3bcc9cea",
+                    "b94bfaa6-06f9-422e-b151-c8148cdb488a",
+                    "e864d3f6-76b1-4c2a-ad0f-b66f2f683911",
+                    "57c8a784-1daa-400a-be52-c060238cf904",
                     "a9d40017-5dad-4e9d-adaa-56d8d28c162b",
                     "812314f3-5377-44e2-9d27-271f579653fd",
                     "0f65b378-4ebb-472b-ba68-52700916c651",
@@ -3125,6 +3387,11 @@
                     "14afd8fa-8a8d-42f9-a587-bba98116f119",
                     "ce1c4520-cb00-4a8e-bd18-2b4d26536a49",
                     "a9f735c9-6a58-4641-9d0e-803a417e258b",
+                    "7d0743bc-456e-4a0e-aaa7-7ca7c936ae89",
+                    "ec872e50-f669-4bf0-890a-73773bc22a22",
+                    "b452c8b0-8870-4d87-82f0-1a9c168f6d5b",
+                    "4ff2679c-788c-4b4c-91c3-b7c902db6c6c",
+                    "fa081741-90aa-4ebe-b470-48ba218be7c2",
                     "3913069d-b1ad-4d5d-ac5c-4a60ecf2540e",
                     "b291e6bd-4a8b-4549-bb6a-9c47bc6a8599",
                     "dcd75b2b-be00-4bc1-bd4a-52acb6425cf9",
@@ -3160,6 +3427,12 @@
                     "1471726f-ec82-433f-b564-8891fa65b41a",
                     "04086be8-d497-4fba-bd2f-ad986466bdc7",
                     "0ddba904-d083-4298-9231-5212296532a1",
+                    "a5fcc771-ed78-41a8-a623-b9ce7f4a13d3",
+                    "76741a94-974a-44aa-8a2d-68461ce195f8",
+                    "5ccb2b10-3e90-4da9-a71e-b17b921b9148",
+                    "de786451-8a4e-4fae-a386-4399d8a35fdd",
+                    "ab0a201c-c523-425c-b2c3-064e5a27df96",
+                    "2c73e650-70fe-405c-86aa-e0cdd4491980",
                     "9e5247ab-1b64-4c0c-90a6-b5b00a3bbac4",
                     "7b9a7174-c67b-472f-b12d-ef3babe3aa7d",
                     "d62ea202-324c-450f-aeda-746d5f04118b",
@@ -3253,6 +3526,11 @@
                     12
                 ],
                 "encounter_ids": [
+                    "a7a72e38-f9f3-42d2-8cef-78e506be26ce",
+                    "a2561218-50b8-4b7e-b8c6-ccca7d3a3300",
+                    "e47e5235-8c20-479e-8480-04eb5f65da29",
+                    "1483aed9-c026-4142-9f5d-cea36bdf1c36",
+                    "6b30d2f4-e253-4fae-92c3-4a405d4b3317",
                     "38a24944-02c9-4249-b3bb-eeb1f3cc6836",
                     "dc6ab6a4-43e0-4cf7-b61b-e4d05359cc8a",
                     "4d40f5e2-6769-40be-b2a1-5db047edbe74",
@@ -3270,6 +3548,10 @@
                     "c267fbea-7030-47b2-a925-f0e1b980abf1",
                     "809dbdb7-36da-4f2f-9357-423370d1d547",
                     "2e74846d-bdab-4d34-931c-35c5964fa776",
+                    "75d44a1f-16b2-4fa5-b3b4-2cb3650585bf",
+                    "42603a6a-1d50-489c-842f-859647be7e90",
+                    "1cdaaeb7-571b-4cb1-8376-7de504bf0a50",
+                    "b2997de7-2bb2-4c42-910a-ae0df6253395",
                     "e4a71fb0-8e32-491e-9912-feff18972c6d",
                     "76bed357-0877-45d6-9ae1-30df7d3cd174",
                     "aab4c390-fd35-49dc-b763-94117da94364",
@@ -3298,6 +3580,9 @@
                     13
                 ],
                 "encounter_ids": [
+                    "3b9a1782-c4ba-4907-8bbc-c59df4a455b0",
+                    "d445b055-1f40-4b82-aedf-8de85c918da1",
+                    "291b09da-2f3b-4888-9ea6-dbea674b4bea",
                     "b126f305-c85c-4348-824b-7dc6a342a1b1",
                     "89783b1f-24ab-468e-b410-96646252aad4",
                     "4a909ca1-7c8b-485d-862a-359ef07c8f10",
@@ -3509,18 +3794,24 @@
                     9
                 ],
                 "encounter_ids": [
-                    "48cb682a-d099-4c6d-aa92-7018a0597657",
-                    "fdfab52f-85c2-49ca-a077-bbed861c3a86",
-                    "894ae562-9eb3-4b52-b6cc-401bd2e3642e",
-                    "597c1909-1388-4bd3-b19a-7250f34c40bf",
-                    "b6b38bae-a4ee-480a-91b1-22a138997b84",
-                    "eb1608a3-8e88-4cb9-9e6f-82bf544ba73c",
-                    "3e93b6a2-4bda-4789-8f5d-c4872259c8f3",
-                    "f758dfc2-32b6-4c75-9dbc-2e7088060a6c",
-                    "c470b66a-7451-43e9-8b67-95de057d7443",
-                    "9258ffd0-0429-4a3d-92a6-55353bddeaa8",
-                    "2f0ad6f2-145e-4dfb-9712-f916fbdcc2c6",
-                    "f36dd4af-9ba8-4f0b-9035-60dd3c0f8946",
+                    "386de1c0-aae2-4e83-bc41-a918285bc726",
+                    "4c2a077e-27fb-4d7a-9bfb-1e268eda3b0e",
+                    "32ab600b-9b58-441a-842f-eeb670adc24e",
+                    "c72e6175-b287-493a-943b-aae84a440817",
+                    "7a32f511-9954-497c-aaab-fbfb4bd755fb",
+                    "1938262a-6985-40e8-b9f0-046b2e5b2a39",
+                    "2ff76510-7deb-4a8a-95ec-7fa6ab20c893",
+                    "2a68af28-8d11-4631-ab62-e6818c7e3159",
+                    "0c8ed0bc-1c20-4969-b584-4ae704d30e10",
+                    "da2eaff7-d296-47b7-9e74-191f842acf46",
+                    "d438f536-c499-4d7b-a567-162f0e2664b2",
+                    "00263b14-e499-411c-ae58-8282afb9b229",
+                    "b680375d-a6b5-4511-920b-a5e5d8c58137",
+                    "1bff94df-c2d9-4e22-a501-afa65251a70f",
+                    "f118e529-22f9-43e8-b3ee-006f7f556ccd",
+                    "9ae016f8-308b-465d-86ed-83dd1f7a44c9",
+                    "10cad200-0392-470c-99bc-bfd0fd488138",
+                    "3e5823d3-0156-411d-88d2-98d95161074c",
                     "1bf1fb09-340a-497c-b619-b86f8e9700ee",
                     "c220d376-02ba-4f38-9496-ae5b23b13339",
                     "7ccf62be-8afe-4574-8dae-0d38a6e941cb",
@@ -4618,6 +4909,8 @@
                     "326dc7b3-9520-49b9-bc0c-9af024c27ba4",
                     "7795ff0d-62e3-44d7-8b2e-d1bad9257971",
                     "0de98696-c786-4288-b2ce-9f73dafc02e0",
+                    "ec80c5a4-7345-4c89-bdaa-274afbc00fe2",
+                    "0e4dc1c5-6889-4237-873a-7dcc75a53ea4",
                     "8d0c029b-94ef-466a-92b2-6ff44de8b33c",
                     "60749b1a-602c-4b07-929e-98703e5c6429",
                     "64aca1b2-61c4-4b2f-a2de-cba83c42ffe0",
@@ -6073,6 +6366,14 @@
                     "3cec313c-0541-41bb-83d1-52c8f9dc906e",
                     "19807a33-520f-4c01-aa4f-9d76764e7789",
                     "2d279446-fbea-4fd4-bb35-574fefedc5db",
+                    "9414dc51-dde8-42f4-a3b7-e5c2b12480bd",
+                    "89a8ea02-ebee-42f7-afec-7f86a1863451",
+                    "a23b3e8a-a99e-4f2b-a3d3-3a5da398a4f0",
+                    "46f2f353-87b8-4dc7-9c9f-4c89ef0ba456",
+                    "d4258d7f-616f-45dd-ad04-08e60bd2dbad",
+                    "5ab15c62-2d27-42ca-b8f5-d2854fa5c6f5",
+                    "5ecd6cd0-a329-47f2-ac44-0f218d605d12",
+                    "48b4b8dc-5296-4268-beb6-21092586eb53",
                     "816d5f69-ce38-4823-ab81-e8927202794e",
                     "bca2e3cb-80a4-424c-bb06-3f34ea9c9124",
                     "e8030001-0e95-4cc4-aa64-f3451fd5d8e5"
@@ -6126,9 +6427,13 @@
                     "7c6bf0a9-0848-471e-a99f-254e6665b57f",
                     "365f2858-7a8e-47d2-a902-42602286638a",
                     "7c2fb767-cd58-40d6-8ef0-9e9d7ed7c7ff",
+                    "686ce760-4cf2-40ca-9d21-0a35dcb62aa1",
                     "6719a259-755f-417b-bb50-613ebaa67e22",
+                    "6a246cf8-c7d7-4334-a442-b74248d7b8f8",
                     "a9aa156f-d036-48cd-8396-1307eff9b1ad",
+                    "6666b425-fe69-46d4-8e43-7fd5ad3667c5",
                     "d9562cc4-b54b-4478-b8af-ea2ec9d1ba76",
+                    "5e820985-6c65-42fa-86ec-d114743e310e",
                     "8936cd68-1cee-442d-a23f-b09474fc8f7e",
                     "7c5830bc-cfb7-425c-8bcb-3696d7cf2fcf",
                     "20570164-7cbf-440a-a3ad-176bcecd1086",
@@ -6202,6 +6507,8 @@
                 "encounter_ids": [
                     "bdf7e164-050c-4e75-a680-11d08bb03ce4",
                     "77125376-3077-4190-864c-fc03d8b8ed3c",
+                    "a0bb5d58-ac99-4a36-bb3d-353795abfacd",
+                    "430ec8cc-6b9f-4fdf-9014-64d0375661fa",
                     "ca020efe-7739-4e9a-8c1d-64214b653d76",
                     "cbd674e1-2296-4e1e-95da-b74db74cf986",
                     "6cfc7fe0-ac1c-4e83-91f9-55a1956ca5c2",
@@ -6433,6 +6740,13 @@
                 "encounter_ids": [
                     "d08fc924-f291-47f2-9ba2-a79f61dedb29",
                     "6df30825-cdfd-4248-9d14-5a43af5ce45e",
+                    "36e3ebc1-5b14-400b-aa55-9b1b16398520",
+                    "c54a922d-788a-4e00-ae20-f3ea64705b8d",
+                    "f0e77e65-eb5d-4bde-ba1d-21fcb726d6f0",
+                    "4c2f2161-930f-40ba-a0d9-b3925f405931",
+                    "d6fac172-3398-4baf-b7f1-1b96852b8178",
+                    "487c4344-3b58-4106-bb7a-7b64eface3a5",
+                    "f72151ee-2898-4d68-96e8-720a2f471bd2",
                     "763e84b8-551f-4956-8060-8aed53efdd59",
                     "e616e8b7-0b2c-4807-ba77-1ffda67df4d1",
                     "7b1f8789-49b9-414f-81f0-acda0b048642",
@@ -6753,6 +7067,187 @@
                     "654f3844-6753-4f97-8f5b-397b9eba8cf3",
                     "f169b01a-b1a4-4a69-9f37-e096ea40610d",
                     "fdf8d111-532b-4439-ae4b-cf7af7a8b7c9"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Arcana Unleashed: Deadfall",
+        "groups": [
+            {
+                "party": [
+                    11,
+                    11,
+                    11,
+                    11,
+                    11
+                ],
+                "encounter_ids": [
+                    "2c6517da-b50f-447d-b05b-2323920d5a37",
+                    "70bea30f-a143-47d9-b514-dd5a39e4b035",
+                    "291785a3-f4cd-486e-929a-9e97b5b28f2c",
+                    "e50758bd-38cc-4acf-9d31-8109c22a5b99"
+                ]
+            },
+            {
+                "party": [
+                    12,
+                    12,
+                    12,
+                    12,
+                    12
+                ],
+                "encounter_ids": [
+                    "2bd65c4d-26ed-484a-8152-30a17cfc22b1",
+                    "c120f6a7-1c24-450d-8e44-c7c4b7793368",
+                    "a144649a-fa25-41af-ada9-19aa238a61a1",
+                    "1a527475-48e5-4edf-be8d-6e26658d4bcf",
+                    "ed085f29-4f4a-48dd-bbc7-5d1e365c923b",
+                    "b77682bb-59d1-4500-9abe-dbea0fd98b07",
+                    "d5b6d6a9-c0e3-49f5-97f2-7060644e2df3",
+                    "a1d08fc3-8fd1-49da-bbc9-354f16f458a2",
+                    "670268a0-2f42-415c-b002-60358776cedf",
+                    "dce9d13c-923f-4f86-b7f5-41e743abce3e"
+                ]
+            },
+            {
+                "party": [
+                    13,
+                    13,
+                    13,
+                    13,
+                    13
+                ],
+                "encounter_ids": [
+                    "e0a89a06-cd89-4742-a810-05b508648ede",
+                    "ece59b10-23b4-4bab-82bc-c473d19d00ca",
+                    "6591c18d-dc3d-4747-8a65-087157e5ae6c",
+                    "e01d7ac4-2237-4f0c-9bb6-393c05920e1c",
+                    "c799e2d7-6883-4d25-949f-db121f18603b"
+                ]
+            },
+            {
+                "party": [
+                    14,
+                    14,
+                    14,
+                    14,
+                    14
+                ],
+                "encounter_ids": [
+                    "0603b68f-aca9-4fe1-9a04-e7251e432362",
+                    "ed313447-bea1-423e-8be3-f6ad75640867",
+                    "6221653d-758f-4b5d-b0a0-37d0fed80998",
+                    "dbb6a6ad-fae7-4296-bc67-6f354580b6f0",
+                    "51de9155-f946-4f64-8db3-48a29fd6bf59",
+                    "db87e2e6-bce6-49e5-a7e6-8feb022bf5ae",
+                    "24f5bfb1-bc4b-4f86-8546-f1c5d9b3e4f1"
+                ]
+            },
+            {
+                "party": [
+                    15,
+                    15,
+                    15,
+                    15,
+                    15
+                ],
+                "encounter_ids": [
+                    "d80415cf-a7e1-4286-aab9-5946c24d8282",
+                    "9de909d5-665a-4e5b-b267-f310992f3ff3",
+                    "aefea9b5-2c37-4f92-a5d4-9d159c031f62",
+                    "bddb294a-b397-49e0-8a03-9cdab6bed818"
+                ]
+            },
+            {
+                "party": [
+                    16,
+                    16,
+                    16,
+                    16,
+                    16
+                ],
+                "encounter_ids": [
+                    "c012e4a3-93fe-4a15-833d-526b6e395741",
+                    "fd689613-d805-4881-8a5e-5e3e9ddc2d6b",
+                    "e7d71510-f545-4b43-bb32-d52318ca6718",
+                    "a48668b8-95ab-4a96-a1d9-c6436acb273d"
+                ]
+            },
+            {
+                "party": [
+                    17,
+                    17,
+                    17,
+                    17,
+                    17
+                ],
+                "encounter_ids": [
+                    "9bbca510-4496-4199-b76d-53ffc3268e61",
+                    "49673dbf-283f-4e82-a382-7fe96e02932c",
+                    "5d602f0f-0db7-4cbe-9aa3-5dee1c8612ce",
+                    "320d31f5-7a7e-41f5-ac73-201c349a00df",
+                    "d3d4825d-1610-4735-acb6-e02cfd6e8695",
+                    "528d0ebe-1eed-49dd-9755-f56010630510",
+                    "8884569f-3fbb-4e1b-a92c-038b217526ad",
+                    "91fc8e98-39c4-465d-8cea-63860c76ab7a",
+                    "260fa986-aec9-44d1-9212-36b3af699512",
+                    "7e93c31e-fbb9-4029-85bf-19ebd3f0bb8a",
+                    "bd95390f-c923-4383-b2e2-f025fdffe085",
+                    "7829b24f-d209-43bf-94ba-edefa9887a0d",
+                    "10e5e94e-01d7-4595-b6fb-0da9a0449bb5",
+                    "fb08413d-90b7-4b71-ac2f-02528ad5aec9",
+                    "6af44de8-2061-4347-93c7-33f46d542499",
+                    "e3d60147-d6db-4f04-96e7-de84cc9eeedb",
+                    "0038537f-e03f-4790-9753-f55f87958bb4"
+                ]
+            },
+            {
+                "party": [
+                    18,
+                    18,
+                    18,
+                    18,
+                    18
+                ],
+                "encounter_ids": [
+                    "9bbca510-4496-4199-b76d-53ffc3268e61",
+                    "49673dbf-283f-4e82-a382-7fe96e02932c",
+                    "5d602f0f-0db7-4cbe-9aa3-5dee1c8612ce",
+                    "320d31f5-7a7e-41f5-ac73-201c349a00df",
+                    "3d075047-9aa8-463a-bf0a-c068016d5b20",
+                    "ad5dfe68-2b78-4cee-be53-a870e5097d85",
+                    "504db104-f60e-40e9-8c3c-6f8bf03e0271"
+                ]
+            },
+            {
+                "party": [
+                    19,
+                    19,
+                    19,
+                    19,
+                    19
+                ],
+                "encounter_ids": [
+                    "75e18293-d97e-4fb4-9545-20a40019b295",
+                    "c028cfa4-ebb5-42d7-a03d-fc0d5ee872ee",
+                    "df98567f-2423-4411-9afb-9533975317f0",
+                    "812c6c6b-f404-4898-b93d-d04751a5b505",
+                    "fac4af24-d626-4bb9-8a01-975de47fe84f",
+                    "7ffffa6a-72f5-4f1c-926e-157be7e43f5c",
+                    "58210826-d6a9-4523-87db-e68a052b7ced"
+                ]
+            },
+            {
+                "party": [
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
+                ],
+                "encounter_ids": [
+                    "19ddb5dc-caec-4b5a-8f21-696e4a2e3c70"
                 ]
             }
         ]

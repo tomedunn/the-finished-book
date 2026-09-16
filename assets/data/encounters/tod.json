@@ -461,7 +461,7 @@
     {
         "id": "a892f61d-a1ab-4110-a0a3-b1da03bad210",
         "type": "combat",
-        "book_path": "Tyranny of Dragons; Dragon Hatchery; Dragon Hatchery; Wandering Monsters; Chapter 3 Encounters",
+        "book_path": "Tyranny of Dragons; Dragon Hatchery; Dragon Hatchery; Wandering Monsters; Chapter 3 Encounters; d6:1",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -471,7 +471,7 @@
     {
         "id": "4f8af9a3-0156-420c-a57a-943706a2f49d",
         "type": "combat",
-        "book_path": "Tyranny of Dragons; Dragon Hatchery; Dragon Hatchery; Wandering Monsters; Chapter 3 Encounters",
+        "book_path": "Tyranny of Dragons; Dragon Hatchery; Dragon Hatchery; Wandering Monsters; Chapter 3 Encounters; d6:2",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -482,7 +482,7 @@
     {
         "id": "c6fa5e19-668d-4b65-a372-8d689f3a1b94",
         "type": "combat",
-        "book_path": "Tyranny of Dragons; Dragon Hatchery; Dragon Hatchery; Wandering Monsters; Chapter 3 Encounters",
+        "book_path": "Tyranny of Dragons; Dragon Hatchery; Dragon Hatchery; Wandering Monsters; Chapter 3 Encounters; d6:3",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -492,7 +492,7 @@
     {
         "id": "ab62a311-153a-4694-9bbe-23762cd7d4f5",
         "type": "combat",
-        "book_path": "Tyranny of Dragons; Dragon Hatchery; Dragon Hatchery; Wandering Monsters; Chapter 3 Encounters",
+        "book_path": "Tyranny of Dragons; Dragon Hatchery; Dragon Hatchery; Wandering Monsters; Chapter 3 Encounters; d6:4",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -502,18 +502,18 @@
     {
         "id": "b93eb777-e911-4bef-b608-86c7eed197dd",
         "type": "combat",
-        "book_path": "Tyranny of Dragons; Dragon Hatchery; Dragon Hatchery; Wandering Monsters; Chapter 3 Encounters",
+        "book_path": "Tyranny of Dragons; Dragon Hatchery; Dragon Hatchery; Wandering Monsters; Chapter 3 Encounters; d6:5",
         "allies": [],
         "bystanders": [],
         "enemies": [
             [2, "17210-winged-kobold", 50],
-            [2, "2560843-guard-drake", 450]
+            [1, "2560843-guard-drake", 450]
         ]
     },
     {
         "id": "d1ff862f-963d-4bad-84c3-23ae5374a796",
         "type": "combat",
-        "book_path": "Tyranny of Dragons; Dragon Hatchery; Dragon Hatchery; Wandering Monsters; Chapter 3 Encounters",
+        "book_path": "Tyranny of Dragons; Dragon Hatchery; Dragon Hatchery; Wandering Monsters; Chapter 3 Encounters; d6:6",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -846,8 +846,8 @@
     },
     {
         "id": "80dab542-3ebd-418e-94b3-610667b55fe5",
-        "type": "non-combat",
-        "book_path": "Tyranny of Dragons; Construction Ahead; Northbound, Again; Encounters North of Waterdeep; Encounters North of Waterdeep",
+        "type": "combat",
+        "book_path": "Tyranny of Dragons; Construction Ahead; Northbound, Again; Encounters North of Waterdeep; Encounters North of Waterdeep; d20:15",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -856,8 +856,8 @@
     },
     {
         "id": "f9b8acf1-50fb-4449-85dc-940542b51b9f",
-        "type": "non-combat",
-        "book_path": "Tyranny of Dragons; Construction Ahead; Northbound, Again; Encounters North of Waterdeep; Encounters North of Waterdeep",
+        "type": "combat",
+        "book_path": "Tyranny of Dragons; Construction Ahead; Northbound, Again; Encounters North of Waterdeep; Encounters North of Waterdeep; d20:16",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -866,8 +866,8 @@
     },
     {
         "id": "51987667-4c57-498f-bbf5-eb5dc2d01d97",
-        "type": "non-combat",
-        "book_path": "Tyranny of Dragons; Construction Ahead; Northbound, Again; Encounters North of Waterdeep; Encounters North of Waterdeep",
+        "type": "combat",
+        "book_path": "Tyranny of Dragons; Construction Ahead; Northbound, Again; Encounters North of Waterdeep; Encounters North of Waterdeep; d20:17",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -877,8 +877,8 @@
     },
     {
         "id": "4a1b2453-fdd7-436e-ba6a-13f14e009e21",
-        "type": "non-combat",
-        "book_path": "Tyranny of Dragons; Construction Ahead; Northbound, Again; Encounters North of Waterdeep; Encounters North of Waterdeep",
+        "type": "combat",
+        "book_path": "Tyranny of Dragons; Construction Ahead; Northbound, Again; Encounters North of Waterdeep; Encounters North of Waterdeep; d20:18",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -887,8 +887,8 @@
     },
     {
         "id": "15997e35-c8af-4dff-bde6-d42453a848df",
-        "type": "non-combat",
-        "book_path": "Tyranny of Dragons; Construction Ahead; Northbound, Again; Encounters North of Waterdeep; Encounters North of Waterdeep",
+        "type": "combat",
+        "book_path": "Tyranny of Dragons; Construction Ahead; Northbound, Again; Encounters North of Waterdeep; Encounters North of Waterdeep; d20:19",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -898,8 +898,8 @@
     },
     {
         "id": "f1f834e6-b3a9-461f-b8ef-e0d6eb4f2578",
-        "type": "non-combat",
-        "book_path": "Tyranny of Dragons; Construction Ahead; Northbound, Again; Encounters North of Waterdeep; Encounters North of Waterdeep",
+        "type": "combat",
+        "book_path": "Tyranny of Dragons; Construction Ahead; Northbound, Again; Encounters North of Waterdeep; Encounters North of Waterdeep; d20:20",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -909,7 +909,7 @@
     {
         "id": "357bb9d8-5ea5-4b08-b267-c945f4272752",
         "type": "non-combat",
-        "book_path": "Tyranny of Dragons; Construction Ahead; Northbound, Again; Encounters North of Waterdeep; Encounters North of Waterdeep",
+        "book_path": "Tyranny of Dragons; Construction Ahead; Northbound, Again; Encounters North of Waterdeep; Encounters North of Waterdeep; d20:21",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -919,7 +919,7 @@
     {
         "id": "78ce4dc4-1c26-4e4f-b7c8-4333d303de38",
         "type": "non-combat",
-        "book_path": "Tyranny of Dragons; Construction Ahead; Northbound, Again; Encounters North of Waterdeep; Encounters North of Waterdeep",
+        "book_path": "Tyranny of Dragons; Construction Ahead; Northbound, Again; Encounters North of Waterdeep; Encounters North of Waterdeep; d20:22",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -968,9 +968,89 @@
         ]
     },
     {
+        "id": "4e14b9b7-cf61-46cb-944c-cf95388eaed0",
+        "type": "combat",
+        "book_path": "Tyranny of Dragons; Castle Naerytar; Traveling to the Castle; Mere of Dead Men Random Encounters; Mere of Dead Men Encounters; d12:1\u20132",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [13, "17120-bullywug", 50]
+        ]
+    },
+    {
+        "id": "ad5bc6c1-928c-4cdf-a669-d1b6902929f9",
+        "type": "combat",
+        "book_path": "Tyranny of Dragons; Castle Naerytar; Traveling to the Castle; Mere of Dead Men Random Encounters; Mere of Dead Men Encounters; d12:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [13, "16834-crocodile", 100]
+        ]
+    },
+    {
+        "id": "115670c3-0bc9-44c5-a8e1-aa67954bb081",
+        "type": "combat",
+        "book_path": "Tyranny of Dragons; Castle Naerytar; Traveling to the Castle; Mere of Dead Men Random Encounters; Mere of Dead Men Encounters; d12:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "16884-giant-frog", 50]
+        ]
+    },
+    {
+        "id": "99297df6-56d6-469b-b988-ed973b5fe06a",
+        "type": "combat",
+        "book_path": "Tyranny of Dragons; Castle Naerytar; Traveling to the Castle; Mere of Dead Men Random Encounters; Mere of Dead Men Encounters; d12:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [10, "16887-giant-lizard", 50]
+        ]
+    },
+    {
+        "id": "003ec2ce-3c0f-4c91-9770-a06a0ca95c43",
+        "type": "combat",
+        "book_path": "Tyranny of Dragons; Castle Naerytar; Traveling to the Castle; Mere of Dead Men Random Encounters; Mere of Dead Men Encounters; d12:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "16895-giant-spider", 200]
+        ]
+    },
+    {
+        "id": "6fa0b319-e138-4758-be68-fb43d3c543de",
+        "type": "combat",
+        "book_path": "Tyranny of Dragons; Castle Naerytar; Traveling to the Castle; Mere of Dead Men Random Encounters; Mere of Dead Men Encounters; d12:7\u20138",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "16946-lizardfolk", 100]
+        ]
+    },
+    {
+        "id": "2b72c4fa-f0e4-45a3-a943-9208299d29f6",
+        "type": "combat",
+        "book_path": "Tyranny of Dragons; Castle Naerytar; Traveling to the Castle; Mere of Dead Men Random Encounters; Mere of Dead Men Encounters; d12:10",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "17011-shambling-mound", 1800]
+        ]
+    },
+    {
+        "id": "29c2ae7c-1c65-47c1-8c88-2a0b499b076e",
+        "type": "combat",
+        "book_path": "Tyranny of Dragons; Castle Naerytar; Traveling to the Castle; Mere of Dead Men Random Encounters; Mere of Dead Men Encounters; d12:11",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "17060-will-o-wisp", 450]
+        ]
+    },
+    {
         "id": "21ebbf08-5474-4fa5-a61a-af486385c984",
         "type": "combat",
-        "book_path": "Tyranny of Dragons; Castle Naerytar; Traveling to the Castle; Mere of Dead Men Random Encounters; Mere of Dead Men Encounters",
+        "book_path": "Tyranny of Dragons; Castle Naerytar; Traveling to the Castle; Mere of Dead Men Random Encounters; Mere of Dead Men Encounters; d12:12",
         "allies": [],
         "bystanders": [],
         "enemies": [
@@ -2088,22 +2168,22 @@
     },
     {
         "id": "a58a9a05-ee2c-4955-a7d6-074d4d0f64f4",
-        "type": "non-combat",
+        "type": "combat",
         "book_path": "Tyranny of Dragons; Death to the Wyrmspeakers; Varram the White; The Serpent Hills; Serpent Hills Encounters",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "17048-vulture", 10]
+            [11, "17048-vulture", 10]
         ]
     },
     {
         "id": "657a1025-2864-4bd3-96d9-a07ce3c76336",
-        "type": "non-combat",
+        "type": "combat",
         "book_path": "Tyranny of Dragons; Death to the Wyrmspeakers; Varram the White; The Serpent Hills; Serpent Hills Encounters",
         "allies": [],
         "bystanders": [],
         "enemies": [
-            [1, "16946-lizardfolk", 100]
+            [9, "16946-lizardfolk", 100]
         ]
     },
     {
