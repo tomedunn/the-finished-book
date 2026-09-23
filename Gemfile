@@ -14,8 +14,12 @@ source "https://rubygems.org"
 
 # To upgrade, run `bundle update`.
 
-gem "jekyll"
+gem 'jekyll', '~> 4.3.3'
 gem "minimal-mistakes-jekyll"
+gem "csv"
+gem "bigdecimal"
+gem "base64"
+gem "webrick"
 
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
@@ -27,6 +31,5 @@ gem "minimal-mistakes-jekyll"
 # If you have any other plugins, put them here!
 # Cf. https://jekyllrb.com/docs/plugins/installation/
 group :jekyll_plugins do
+    gem 'jekyll-redirect-from'
 end
-
-gem "webrick"
