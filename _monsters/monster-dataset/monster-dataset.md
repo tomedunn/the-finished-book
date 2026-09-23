@@ -30,6 +30,6 @@ Adding monsters to the dataset is mostly automated, making it a relatively easy 
 </div>
 
 <!--
-[Monster Dataset](https://raw.githubusercontent.com/tomedunn/the-finished-book/master/assets/data/monsters.csv){: .btn .btn--primary}
+[Monster Dataset](https://raw.githubusercontent.com/tomedunn/the-finished-book/master/assets/data/monsters-2014.csv){: .btn .btn--primary}
 -->
 
