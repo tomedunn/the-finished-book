@@ -1,5 +1,7 @@
 # main links
 main:
+  - title: "Adventures"
+    url: /adventures/
   - title: "Classes"
     url: /classes/
   - title: "Monsters"

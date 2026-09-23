@@ -6,6 +6,8 @@ date: 2026-09-02
 last_modified_at: 2026-09-02
 header:
   og_image: /assets/images/adventure-encounter-difficulties.png
+redirect_from:
+  - /monsters/adventure-encounter-difficulties/
 tags:
   - analysis
   - adventures

@@ -272,6 +272,9 @@ compress_html:
     envs: development
 
 collections:
+  adventures:
+    output: true
+    permalink: /:collection/:path/
   classes:
     output: true
     permalink: /:collection/:path/
@@ -302,6 +305,16 @@ defaults:
         overlay_image: /assets/images/site-header.jpg
         show_overlay_excerpt: false
         caption: "Photo credit: **tomedunn**"
+  # _adventures
+  - scope:
+      path: ""
+      type: adventures
+    values:
+      layout: single
+      classes: wide
+      read_time: true
+      sidebar:
+        nav: "adventures"
   # _classes
   - scope:
       path: ""
