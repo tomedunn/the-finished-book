@@ -5,11 +5,14 @@ permalink: /:collection/:name/
 date: 2024-02-17
 last_modified_at: 2024-02-17
 tags:
-  - theory
-  - monsters
+  - D&D 5e
+  - D&D 5.5e
   - classes
-  - variability
+  - mechanics
+  - monsters
   - saving throws
+  - theory
+  - variability
 ---
 
 {% include LaTex.html %}

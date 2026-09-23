@@ -5,12 +5,15 @@ permalink: /:collection/:name/
 date: 2023-10-14
 last_modified_at: 2023-10-15
 tags:
-  - theory
-  - monsters
+  - D&D 5e
+  - D&D 5.5e
   - classes
-  - variability
   - damage
   - healing
+  - mechanics
+  - monsters
+  - theory
+  - variability
 ---
 
 {% include LaTex.html %}

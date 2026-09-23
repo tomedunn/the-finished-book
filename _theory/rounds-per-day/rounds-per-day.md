@@ -5,6 +5,7 @@ permalink: /:collection/:name/
 date: 2022-07-12
 last_modified_at: 2023-05-05
 tags:
+  - D&D 5e
   - encounter balancing
   - theory
   - xp

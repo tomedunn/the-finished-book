@@ -5,11 +5,11 @@ permalink: /:collection/:name/
 date: 2022-10-3
 last_modified_at: 2023-03-04
 tags:
+  - D&D 5e
   - analysis
   - adventuring day
   - classes
   - encounter balancing
-  - encounter difficulty
   - xp
 ---
 

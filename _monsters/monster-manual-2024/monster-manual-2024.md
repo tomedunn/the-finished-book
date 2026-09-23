@@ -7,11 +7,12 @@ last_modified_at: 2025-04-03
 header:
   og_image: /assets/images/monster-manual-2024.png
 tags:
-  - D&D 2024
-  - monsters
-  - combat
-  - xp
+  - D&D 5.5e
   - analysis
+  - combat
+  - challenge rating
+  - monsters
+  - xp
 ---
 
 {% include LaTex.html %}

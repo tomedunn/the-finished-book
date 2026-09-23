@@ -5,6 +5,8 @@ permalink: /:collection/:name/
 date: 2024-10-23
 last_modified_at: 2024-10-23
 tags:
+  - D&D 5e
+  - D&D 5.5e
   - theory
   - probability
   - combat

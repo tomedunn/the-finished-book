@@ -7,10 +7,12 @@ last_modified_at: 2026-09-02
 redirect_from:
   - /monsters/encounters-dataset/
 tags:
+  - D&D 5e
+  - D&D 5.5e
   - data
+  - adventures
   - combat
   - encounters
-  - adventures
 ---
 
 In order to analyze the encounters found in D&D adventures we first need a dataset that catalogues them in a way that's useful for us. To my knowledge, no such dataset already existed that fit this description, so I made one myself using Python scripts and many hours of checking and editing the results by hand.

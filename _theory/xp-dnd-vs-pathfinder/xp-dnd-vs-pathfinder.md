@@ -1,14 +1,15 @@
 ---
 title: "Encounter Building in Pathfinder vs D&D"
-excerpt: "How similar is the math between the XP and encounter building systems in D&D 5e and Pahtfinder 2e?"
+excerpt: "How similar is the math between the XP and encounter building systems in D&D 5e and Pathfinder 2e?"
 permalink: /:collection/:name/
 date: 2023-1-17
 last_modified_at: 2023-3-1
 tags:
+  - D&D 5e
+  - Pathfinder 2e
   - analysis
   - encounter balancing
   - encounter multiplier
-  - pathfinder 2e
   - theory
   - xp
 ---

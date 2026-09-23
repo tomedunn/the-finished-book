@@ -5,6 +5,7 @@ permalink: /:collection/:name/
 date: 2022-12-23
 last_modified_at: 2025-01-26
 tags:
+  - D&D 5e
   - analysis
   - conditions
   - immunities

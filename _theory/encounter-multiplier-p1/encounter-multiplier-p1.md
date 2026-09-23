@@ -5,6 +5,7 @@ permalink: /:collection/:name/
 date: 2022-02-21
 last_modified_at: 2026-01-05
 tags:
+  - D&D 5e
   - encounter balancing
   - encounter multiplier
   - theory

@@ -5,6 +5,7 @@ permalink: /:collection/:name/
 date: 2022-12-14
 last_modified_at: 2024-09-27
 tags:
+  - D&D 5e
   - conditions
   - mechanics
   - theory

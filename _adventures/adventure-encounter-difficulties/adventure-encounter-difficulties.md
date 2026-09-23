@@ -9,8 +9,9 @@ header:
 redirect_from:
   - /monsters/adventure-encounter-difficulties/
 tags:
-  - analysis
+  - D&D 5e
   - adventures
+  - analysis
   - combat
   - encounters
   - xp

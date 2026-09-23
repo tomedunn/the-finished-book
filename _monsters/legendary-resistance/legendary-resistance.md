@@ -5,6 +5,7 @@ permalink: /:collection/:name/
 date: 2022-09-24
 last_modified_at: 2023-03-04
 tags:
+  - D&D 5e
   - analysis
   - legendary resistance
   - mechanics

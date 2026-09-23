@@ -5,9 +5,7 @@ permalink: /:collection/:name/
 date: 2026-07-13
 last_modified_at: 2026-07-17
 tags:
-  - D&D
-  - D&D 2014
-  - 5e
+  - D&D 5e
   - combat
   - history
 ---

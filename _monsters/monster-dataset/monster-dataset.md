@@ -5,7 +5,9 @@ permalink: /:collection/:name/
 date: 2023-06-27
 last_modified_at: 2025-01-26
 tags:
-  - analysis
+  - D&D 5e
+  - D&D 5.5e
+  - data
   - monsters
 ---
 

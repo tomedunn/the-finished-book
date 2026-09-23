@@ -5,9 +5,9 @@ permalink: /:collection/:name/
 date: 2021-12-27
 last_modified_at: 2025-01-26
 tags:
+  - D&D 5e
   - analysis
   - challenge rating
-  - legendary monsters
   - monsters
   - xp
 ---

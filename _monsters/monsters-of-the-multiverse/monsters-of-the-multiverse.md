@@ -5,6 +5,7 @@ permalink: /:collection/:name/
 date: 2023-06-21
 last_modified_at: 2023-06-21
 tags:
+  - D&D 5e
   - analysis
   - challenge rating
   - monsters

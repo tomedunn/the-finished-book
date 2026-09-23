@@ -7,6 +7,8 @@ header:
 date: 2025-11-12
 last_modified_at: 2025-11-13
 tags:
+  - D&D 5e
+  - D&D 5.5e
   - encounter balancing
   - theory
   - xp

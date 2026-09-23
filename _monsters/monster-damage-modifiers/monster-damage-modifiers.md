@@ -5,8 +5,9 @@ permalink: /:collection/:name/
 date: 2023-01-15
 last_modified_at: 2023-06-27
 tags:
+  - D&D 5e
   - analysis
-  - damage types
+  - damage
   - immunities
   - mechanics
   - monsters

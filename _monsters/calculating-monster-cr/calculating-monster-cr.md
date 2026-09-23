@@ -5,6 +5,7 @@ date: 2021-10-30
 last_modified_at: 2025-01-26
 permalink: /:collection/:name/
 tags:
+  - D&D 5e
   - analysis
   - challenge rating
   - monsters

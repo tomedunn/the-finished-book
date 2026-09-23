@@ -7,6 +7,7 @@ last_modified_at: 2024-11-15
 header:
   og_image: /assets/images/variability-encounter-difficulty.png
 tags:
+  - D&D 5e
   - theory
   - variability
 ---

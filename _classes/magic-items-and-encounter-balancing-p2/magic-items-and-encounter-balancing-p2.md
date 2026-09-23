@@ -5,6 +5,8 @@ permalink: /:collection/:name/
 date: 2024-01-30
 last_modified_at: 2024-01-30
 tags:
+  - D&D 5e
+  - D&D 5.5e
   - analysis
   - adventuring day
   - classes

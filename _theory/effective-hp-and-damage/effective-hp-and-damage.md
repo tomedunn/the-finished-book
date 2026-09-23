@@ -5,6 +5,8 @@ permalink: /:collection/:name/
 date: 2022-01-17
 last_modified_at: 2024-05-01
 tags:
+  - D&D 5e
+  - D&D 5.5e
   - theory
   - xp
 ---

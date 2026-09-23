@@ -5,11 +5,14 @@ permalink: /:collection/:name/
 date: 2024-01-16
 last_modified_at: 2024-02-17
 tags:
-  - theory
-  - monsters
-  - classes
-  - variability
+  - D&D 5e
+  - D&D 5.5e
   - attacks
+  - classes
+  - mechanics
+  - monsters
+  - theory
+  - variability
 ---
 
 <!--

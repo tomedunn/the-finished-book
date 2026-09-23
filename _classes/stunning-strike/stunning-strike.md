@@ -6,6 +6,7 @@ share: true
 date: 2021-10-27
 last_modified_at: 2022-11-24
 tags:
+  - D&D 5e
   - analysis
   - classes
   - monk

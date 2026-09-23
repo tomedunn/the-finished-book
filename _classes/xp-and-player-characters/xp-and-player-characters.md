@@ -6,6 +6,7 @@ permalink: /:collection/:name/
 date: 2022-09-03
 last_modified_at: 2023-05-06
 tags:
+  - D&D 5e
   - analysis
   - adventuring day
   - classes
