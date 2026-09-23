@@ -4,6 +4,8 @@ excerpt: "Summary of the encounter dataset for 5th edition D&D adventures."
 permalink: /:collection/:name/
 date: 2026-09-02
 last_modified_at: 2026-09-02
+redirect_from:
+  - /monsters/encounters-dataset/
 tags:
   - data
   - combat

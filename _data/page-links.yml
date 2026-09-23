@@ -1,3 +1,10 @@
+adventure-encounter-difficulties:
+  path: /the-finished-book/adventures/adventure-encounter-difficulties/
+
+encounters-dataset:
+  path: /the-finished-book/adventures/encounters-dataset/
+
+
 baseline-player-character-stats:
   path: /the-finished-book/classes/baseline-player-character-stats/
 
@@ -20,9 +27,6 @@ xp-and-player-characters:
   path: /the-finished-book/classes/xp-and-player-characters/
 
 
-adventure-encounter-difficulties:
-  path: /the-finished-book/monsters/adventure-encounter-difficulties/
-
 adventure-encounter-monsters:
   path: /the-finished-book/monsters/adventure-encounter-monsters/
 
@@ -40,9 +44,6 @@ categorizing-monsters:
 
 early-legendary-monsters:
   path: /the-finished-book/monsters/early-legendary-monsters/
-
-encounters-dataset:
-  path: /the-finished-book/monsters/encounters-dataset/
 
 legendary-resistance:
   path: /the-finished-book/monsters/legendary-resistance/
