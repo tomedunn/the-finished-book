@@ -7251,5 +7251,1106 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; The Curse on Humble Hill",
+        "groups": [
+            {
+                "party": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "encounter_ids": [
+                    "d1ce9e15-27fc-484e-be35-3045b170116e",
+                    "6c445c13-fae6-45c2-baca-9650f7505e6a",
+                    "073684f6-473f-460a-9a11-13a01024b6df",
+                    "5614614a-1770-42d6-8074-16df211592d6",
+                    "49e39ddb-6091-41a2-bbc1-f078f07be5c6"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Robber Baron",
+        "groups": [
+            {
+                "party": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "encounter_ids": [
+                    "1d6589e1-7b22-4bc4-950b-d3ddd1ec10c8",
+                    "7f214026-8fbe-4d17-9631-9b1504562f2e",
+                    "cd67f1be-5958-4adb-8307-7a5ca5bf933f",
+                    "5f689675-2d56-4577-a53f-9640b749dc50"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; The Siege of Shalespire Priory",
+        "groups": [
+            {
+                "party": [
+                    2,
+                    2,
+                    2,
+                    2,
+                    2
+                ],
+                "encounter_ids": [
+                    "74776f71-743b-4d95-a96a-eee78918a412",
+                    "26baf19f-bcae-441a-9ffe-6f9be43568c1",
+                    "d7129b40-bc92-44ef-84c3-e30f8c0ab0a9",
+                    "89e08a33-6607-44d7-af9b-54398a63b09d",
+                    "fe2e78b3-4620-47e4-9085-6b39566b0491",
+                    "6df1ad87-d9b9-4b68-9158-09557fcb9a88",
+                    "789ac113-f86f-4398-9485-dae0013a2737",
+                    "a900d7e1-ae94-4601-a979-b29c72fc8103",
+                    "61d69237-ae44-4080-bfea-8f447be97ce2",
+                    "941a34c5-38c3-4d44-8d9c-25c07c9f80a7"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; The Weeping Goddess",
+        "groups": [
+            {
+                "party": [
+                    2,
+                    2,
+                    2,
+                    2,
+                    2
+                ],
+                "encounter_ids": [
+                    "94edd2a7-f0fa-4b0a-857a-f1a1cfc0cd27",
+                    "af987708-b0ca-48e3-9d42-053ca511f859",
+                    "0e8ef4ab-8746-4f97-b587-d5e8eb0ddd8a",
+                    "f7b66aeb-73ee-468e-8131-2fe439a31c5e",
+                    "374ca032-0389-4a01-bbfe-712df71219df"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Fury Grove",
+        "groups": [
+            {
+                "party": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "encounter_ids": [
+                    "45559f1b-6bf7-4065-bb78-95bfc0b09840",
+                    "d013d1c4-73a5-4799-adb9-811baf935e85",
+                    "f4aa6b46-9cfd-42ef-84c9-1645a5ed1353",
+                    "730d0dbe-f6bf-4bae-82db-0af0a35c3438",
+                    "0f9be104-afe6-473f-a98e-cdae4a0ff6e8",
+                    "1320886e-c809-4643-b807-a86fef48cf3f",
+                    "6aa93735-af51-46bb-8f68-d5d5cf0a3147"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; The Tenebrous Stone",
+        "groups": [
+            {
+                "party": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "encounter_ids": [
+                    "3e4325d3-eb51-4906-9747-38785f3fe15e",
+                    "dcaae399-9fb1-460c-8785-f096eff5195c",
+                    "3869f03a-c6e5-44c7-a612-91a6ae5179de"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Disinterred Danger",
+        "groups": [
+            {
+                "party": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ],
+                "encounter_ids": [
+                    "915417df-9252-4bc3-b958-3665de81a76f",
+                    "7fe7303f-f4ac-44f7-b05f-cbc26f1e3afd",
+                    "ce9cda11-045b-4e5d-9a6e-c3fbe0babb5e"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; The Drowning Forest",
+        "groups": [
+            {
+                "party": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ],
+                "encounter_ids": [
+                    "2f74eaba-ddcf-40dc-919a-3c0275c5fdf2",
+                    "afef5553-ef02-4034-a488-7c29e4603fba",
+                    "fc31efbe-4f94-4af6-9b8d-3da06ab897c3",
+                    "caceda3d-ab1b-4b5e-8d05-aa7d64c0a94f",
+                    "22f19716-88bd-4d1f-8214-067a1a031da2",
+                    "130963d4-5202-405d-af02-b9b7d84e5e0c",
+                    "7c8d8f59-b98d-4760-b5b6-f05ef24451e3",
+                    "ea13339a-aea7-4774-88f9-455e089969ca"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; The Lost Dawn",
+        "groups": [
+            {
+                "party": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ],
+                "encounter_ids": [
+                    "70e06020-481e-47b4-ba72-640618c0f890",
+                    "611ada03-3017-4650-899f-cd11485db001",
+                    "68be13a2-3e27-4b2a-acdc-dcd697a7ad52",
+                    "e832e4b8-3ce7-4807-a994-90631aaabe27"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Wolves of Amphail",
+        "groups": [
+            {
+                "party": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ],
+                "encounter_ids": [
+                    "8b810f75-91ab-42d0-9f9d-8e5ad589818d",
+                    "730041b7-12a3-4560-a601-6ebd4ed01545",
+                    "06f21a55-62a1-482b-a524-a5bbd9383446",
+                    "e8ab72b9-1080-45b8-b360-3faaf6077154"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; The Eyes of At\u2019ar",
+        "groups": [
+            {
+                "party": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ],
+                "encounter_ids": [
+                    "5286e589-a4b6-4115-9dd8-085e25610058",
+                    "0182bd78-9bf0-427f-acf6-040c47131ebd",
+                    "7cd117cf-3c0e-45ae-beed-5c94e93c5703"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Safe House Standoff",
+        "groups": [
+            {
+                "party": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ],
+                "encounter_ids": [
+                    "2a598a10-e6e3-4c0f-b80c-6f46fc87534a",
+                    "cac9a059-de32-4cd1-8ebb-62215325391f",
+                    "48f438fe-e402-4ab6-acc1-ee0da3ad803c",
+                    "48f438fe-e402-4ab6-acc1-ee0da3ad803c"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Tears Fall",
+        "groups": [
+            {
+                "party": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ],
+                "encounter_ids": [
+                    "75ad3200-9853-468d-a78c-6613b19f32c6",
+                    "afd979a5-fc93-4bdb-afe8-c2af56f23040",
+                    "81e0a340-5a2a-44a6-bd77-250dfa3be710",
+                    "ceef11d8-d59c-413b-b8f0-6c4ca25f917d",
+                    "b6b84202-59d7-44f0-abb2-e6820e7d4fdb"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Shadow of the Watch",
+        "groups": [
+            {
+                "party": [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6
+                ],
+                "encounter_ids": [
+                    "9ce27ae4-67e4-4d5b-af49-2a0ec9588c14",
+                    "f5ab6295-6d5f-409d-b370-9ef571fb486d",
+                    "c8cb4ccb-8f03-43b7-8d75-41178717ff45",
+                    "5767bb9e-d5e8-4d41-8706-eb53bdd926e3"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Well of Lies",
+        "groups": [
+            {
+                "party": [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6
+                ],
+                "encounter_ids": [
+                    "8ad54d96-c331-495c-9103-5a9de46d2323",
+                    "0dc64730-7499-4ae0-bdd1-7c01aef29247",
+                    "3f61f45d-f49e-4f64-9fb1-afd18d21eecd",
+                    "41d51ecb-bcae-454d-8912-4090ba95c9d7",
+                    "08fd5f07-813a-47db-8593-2f40d2699ba2"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Broken Mirrors",
+        "groups": [
+            {
+                "party": [
+                    7,
+                    7,
+                    7,
+                    7,
+                    7
+                ],
+                "encounter_ids": [
+                    "fdcb0fd5-9faf-49f0-a3a0-f211e5d7c37b",
+                    "a17ef8fd-57ff-4acf-9018-aa20e4838592",
+                    "1ddb3e6a-a766-4449-8a32-2fa456e169cb",
+                    "df3428bf-e69c-4ed9-a024-ccf1a7f37b37",
+                    "f09845a9-644b-439b-a4be-603d8eff1218",
+                    "97eb8e02-afba-465e-96fc-a7d7c1fd9a55",
+                    "7c5bfed7-f163-4ff0-8330-a3dfa080a468",
+                    "c75f0ba1-d140-46f3-b916-b184ed62b7dc"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; In for a Penny",
+        "groups": [
+            {
+                "party": [
+                    7,
+                    7,
+                    7,
+                    7,
+                    7
+                ],
+                "encounter_ids": [
+                    "19e6ae10-5563-4828-8dc2-c16879d1cd80",
+                    "0e1245a5-b379-47ca-8052-eb2abce81625",
+                    "a41fa339-44fe-4172-93e7-42d4226bca3a",
+                    "1e1d9f1b-dea5-409d-ad58-a9055c0c5556",
+                    "2ab6c850-c06e-4f18-a124-5c996dc4b107"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Hell Ship",
+        "groups": [
+            {
+                "party": [
+                    8,
+                    8,
+                    8,
+                    8,
+                    8
+                ],
+                "encounter_ids": [
+                    "3f72df0f-4f32-45fd-afea-606aa32b4279",
+                    "5be3a7b9-a928-4a9a-93e8-672ad774443a",
+                    "df3ea2d0-6ef8-4d2e-a094-0d08efb80224"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Moving Mountains",
+        "groups": [
+            {
+                "party": [
+                    8,
+                    8,
+                    8,
+                    8,
+                    8
+                ],
+                "encounter_ids": [
+                    "73603678-7e32-41ba-abc9-0b1a7f69375b",
+                    "697c3579-574a-472d-934f-071d5f027c11"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Summerlight Ceremony",
+        "groups": [
+            {
+                "party": [
+                    8,
+                    8,
+                    8,
+                    8,
+                    8
+                ],
+                "encounter_ids": [
+                    "6983211a-6121-4582-86e1-2d5762c2df4c",
+                    "bcc56af3-024b-42da-85c3-e716c9ba80bf",
+                    "db559ec5-6316-46d3-b916-77e8e346d2fc"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; The Vault of Velsharoon",
+        "groups": [
+            {
+                "party": [
+                    8,
+                    8,
+                    8,
+                    8,
+                    8
+                ],
+                "encounter_ids": [
+                    "c93f1d69-0714-46d3-97b6-dd83912ed077",
+                    "e015c92d-c3a4-4c9d-a3a1-1fa1d694577e",
+                    "12e9445f-7f3d-4df8-aa52-f49022c16016",
+                    "4fb4e744-d4f0-4186-887a-b56f7201cc93",
+                    "7884aa5b-6098-4ae3-909b-d3bf859c6847"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Dragon Orb",
+        "groups": [
+            {
+                "party": [
+                    9,
+                    9,
+                    9,
+                    9,
+                    9
+                ],
+                "encounter_ids": [
+                    "e4778e07-8824-47e9-a004-9a8c9072a2e4",
+                    "8df4ca2b-5b8d-481c-9567-aa5127536255",
+                    "4c0bb05b-0023-44cc-87d1-d877a04fcd10",
+                    "0dadf46f-7f77-41d1-ab49-6ce68db289da",
+                    "3103602a-be09-43c5-941c-3a70cdd18b10",
+                    "ae92548d-d777-442e-b0d0-0d012802785f",
+                    "3cc772e2-1d16-4646-bccb-339ebc190b2c"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Echoes of the Shaking Plague",
+        "groups": [
+            {
+                "party": [
+                    9,
+                    9,
+                    9,
+                    9,
+                    9
+                ],
+                "encounter_ids": [
+                    "da6e9c21-337c-4e32-b081-800278ea3f42",
+                    "5dbacc58-8ffa-4254-a21e-2189ed39bcc4",
+                    "cd9e938e-04ea-482e-bd40-95a033228702"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; The Ashen Faithful",
+        "groups": [
+            {
+                "party": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "encounter_ids": [
+                    "8f42fc30-e41f-4d7a-901a-ab262185a466",
+                    "e2245f34-967b-44f4-b55b-4176fb47c283",
+                    "b29d2212-5e61-40d7-bf67-9e516a839c07"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Silk and Suffering",
+        "groups": [
+            {
+                "party": [
+                    10,
+                    10,
+                    10,
+                    10,
+                    10
+                ],
+                "encounter_ids": [
+                    "4c29a40c-d4fc-49b2-abd4-f5c42cc9b1fd",
+                    "545e8f5a-8df7-4fd1-ac96-ac9fc5c9562c",
+                    "a9ccac3c-ebf2-42a9-99e3-9bcf28d7950f",
+                    "314e308a-5126-49bc-b9dc-38847117f926",
+                    "8cdd6075-3196-4822-b848-68c285a58bdc",
+                    "a32d00a9-0f31-4b7b-aeb1-59a33a8c25e1"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; The Flying Fortress",
+        "groups": [
+            {
+                "party": [
+                    11,
+                    11,
+                    11,
+                    11,
+                    11
+                ],
+                "encounter_ids": [
+                    "c5fb44ee-1968-4324-a532-3e8a5394d2eb",
+                    "272f61e0-d8f5-44f9-89f2-fb183f171d1c",
+                    "90b24c32-5ca3-4c13-84ad-e60bc752512d",
+                    "90b24c32-5ca3-4c13-84ad-e60bc752512d",
+                    "90b24c32-5ca3-4c13-84ad-e60bc752512d",
+                    "2dca787b-62e1-47f8-a0da-eb175263d60f"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; The Foehammer Horn",
+        "groups": [
+            {
+                "party": [
+                    11,
+                    11,
+                    11,
+                    11,
+                    11
+                ],
+                "encounter_ids": [
+                    "3b8bd8ee-0bca-43e3-ac55-97d92c035b51",
+                    "3cc42770-6c95-4dff-ab83-a0492e1e068b",
+                    "537b1eda-5dbd-456c-87f1-1c75390c3e1a",
+                    "17669a5a-6462-4910-bb92-713962f6d05a",
+                    "1dc8c92e-8a14-4cf6-b45e-bedc6ec59ed0"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; The Blight on Soubar",
+        "groups": [
+            {
+                "party": [
+                    12,
+                    12,
+                    12,
+                    12,
+                    12
+                ],
+                "encounter_ids": [
+                    "58e4b04b-f4b3-4024-a2b8-03e284a046aa",
+                    "63bfcbce-5a06-4589-8952-5dc9b15497bf",
+                    "48dcfdc6-70f6-4af5-8480-610cd8722b6d"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Mystery of Myth Rodarnum",
+        "groups": [
+            {
+                "party": [
+                    12,
+                    12,
+                    12,
+                    12,
+                    12
+                ],
+                "encounter_ids": [
+                    "60d69207-8922-4230-9578-85834b5f7182"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; A Restless Eternity",
+        "groups": [
+            {
+                "party": [
+                    12,
+                    12,
+                    12,
+                    12,
+                    12
+                ],
+                "encounter_ids": [
+                    "edf4201e-3b90-4079-aacf-19c3e9cafb37",
+                    "f92c77d5-4326-4606-805b-a6d18d9b440d",
+                    "76e1da1c-17ec-43d7-b591-29fb46d4b22f",
+                    "6570d7c0-2583-4764-9d18-5f3dcd35b39c",
+                    "6570d7c0-2583-4764-9d18-5f3dcd35b39c",
+                    "44045d40-7035-4029-a964-5ff7026aec09",
+                    "54bdc222-434f-4eda-bd22-ee4cbb54cb0b",
+                    "ade9c453-9702-4779-ae4f-ab65f617e916",
+                    "817b90ca-5037-4c40-b4a1-a64ea0433fb0",
+                    "4f3385d0-3c4a-4021-aaa4-494363210dae"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Dread March of the Bone Titan",
+        "groups": [
+            {
+                "party": [
+                    13,
+                    13,
+                    13,
+                    13,
+                    13
+                ],
+                "encounter_ids": [
+                    "728ebd92-8db2-4d44-9449-96acf1622643",
+                    "98dcb22f-9ead-4fd8-8cb4-272bddcd8bde",
+                    "9fc78888-e207-425a-ba18-ef0d3a434ba3",
+                    "a44e2cf4-8fd8-4a59-96d5-817d1e7e4d81",
+                    "d7cb0c69-97e2-4859-a563-24595e6d31cb",
+                    "9cfc7455-1077-4877-b0df-921cdc524e3d"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Heart of Fire",
+        "groups": [
+            {
+                "party": [
+                    13,
+                    13,
+                    13,
+                    13,
+                    13
+                ],
+                "encounter_ids": [
+                    "4ef7780b-b64e-491e-9b47-3ff84723fa99",
+                    "46c2a2c7-26bb-431a-9934-c6ee6807908a",
+                    "3a1ba5e7-62c1-4fb1-a786-845dbadb421b",
+                    "1d3088ba-cf7c-454e-bf92-27ced7bda09b",
+                    "e9450276-a4f0-4baa-a200-cd4a99056a38"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; The Tomb of Damara",
+        "groups": [
+            {
+                "party": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "encounter_ids": [
+                    "80f1863d-3e12-479d-b3a9-9a2328e9b6af",
+                    "899bf81c-7a36-4032-ac6c-8b82b851d3c8",
+                    "61d08369-566b-4e1e-9b71-0e5d5ae0dae1",
+                    "7cd431f9-d8c7-4d2f-aca1-8bb33813351f",
+                    "14c5e2cc-d905-45a7-ad6b-502e61b13063",
+                    "402b7958-abfa-41bf-95a7-dcfe66c5b4a1",
+                    "97202078-cc0c-48ff-9ac6-cd37fd5d4cea"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Restoring Freedale",
+        "groups": [
+            {
+                "party": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ],
+                "encounter_ids": [
+                    "f2b7de09-29f0-42b2-8a19-664dfec1847a",
+                    "15e8a7aa-bcb1-4b1a-8696-78021f1cb9a8",
+                    "0752469a-83b5-4385-b17a-e0f1549c79cf",
+                    "59967262-30e9-4da1-9765-84f68059b07a",
+                    "719c9396-0b88-4b62-b06e-2fc01f6bb9e1",
+                    "06699d27-71b4-4be8-b814-233b06ea5eea",
+                    "6b61d1b4-ead8-48ef-8900-7d6081912b7d",
+                    "ecb42935-2724-49dc-8da4-8072825406da",
+                    "38ee4b56-8e2a-4a2f-bb1c-27e178d0bd2a"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; The Temple of Transmutation",
+        "groups": [
+            {
+                "party": [
+                    7,
+                    7,
+                    7,
+                    7,
+                    7
+                ],
+                "encounter_ids": [
+                    "f5b93caf-03f1-4cad-9a59-c01b4e6bf0db",
+                    "f4999a53-7780-4525-ae1d-208a510e06ce",
+                    "29f7547a-b69a-4024-bbc5-f167d65dce78",
+                    "e4acfbec-ff1a-402a-82c3-f56def21f8f3",
+                    "cbbedf69-a98d-4d8b-9f72-12802c21f612",
+                    "604fa07b-c702-4241-936c-e75236b418b1",
+                    "3f467969-7618-4962-b33c-889ec352231f"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; The Cost of Warmth",
+        "groups": [
+            {
+                "party": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "encounter_ids": [
+                    "8443831b-4683-4a66-89e9-4a37aedf6656",
+                    "e8a5eb34-d095-48cc-bdd7-b8d875788e89",
+                    "9664ef5f-c3db-407d-9a1b-1644855e5b6c",
+                    "02e5a752-6ec2-43ad-9d98-e4e470b16cc1",
+                    "57fcbd6b-0da7-4a47-99c2-60f962dbbfbd",
+                    "110fbe74-444b-41dc-88c7-318d89b8bc89"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Retaking the Terror",
+        "groups": [
+            {
+                "party": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ],
+                "encounter_ids": [
+                    "7e2e7fa2-8211-4068-a0c5-a915b3a609d6",
+                    "ea0a6003-e07b-4d78-bd0f-500af3664eb7",
+                    "8adde76d-b8ff-4443-8582-bb3dde446474",
+                    "8337e938-9e71-4073-b59e-10528b015d47"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Dougan\u2019s Hell",
+        "groups": [
+            {
+                "party": [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6
+                ],
+                "encounter_ids": [
+                    "d2d957d3-e6a3-4c40-aa51-d35b944670fd",
+                    "2cac932a-b5a3-4d41-a32b-638cf65a8639",
+                    "6a17fdac-39e2-45aa-aa0d-c0f70be10999",
+                    "079edc3c-7e61-44ec-8b65-b6c3ca77b829",
+                    "61a1d2cc-3cdd-4a32-a0c4-940fe88391ed"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; What Wakes Below",
+        "groups": [
+            {
+                "party": [
+                    9,
+                    9,
+                    9,
+                    9,
+                    9
+                ],
+                "encounter_ids": [
+                    "2d9e160d-36e9-49e4-9495-91f5a6ed849e",
+                    "3f438e32-01bf-4952-886c-3abaa696522e",
+                    "98cdf4dd-2bf9-4cc9-afda-52a4b836d02c",
+                    "fb7ddca3-e683-4485-8abc-ace3b6fa687c"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Calim Crossing",
+        "groups": [
+            {
+                "party": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "encounter_ids": [
+                    "4fe3e02f-a9b7-4700-8d01-1932df3143cb",
+                    "4b2cbe94-d500-434f-bfef-4a4f4fb511fc",
+                    "44425908-94a7-42e1-846a-52e8e0b6dae8",
+                    "7c3c15e6-07ad-40f4-a896-aac039674a19"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Gods Long Forgotten",
+        "groups": [
+            {
+                "party": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ],
+                "encounter_ids": [
+                    "12723b8c-fbe0-4a22-8c8c-bafc6cf1312a",
+                    "4d57c414-4394-4ccf-bfc4-fb09e956d8e8",
+                    "1cb0528f-0d1a-4ffb-8c22-a992bbdf4cd0",
+                    "5872a68f-1377-4967-b2a7-39a674f5c754",
+                    "fa174bd0-3030-46fb-822e-69b39466d047"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; The Dallabad Curse",
+        "groups": [
+            {
+                "party": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ],
+                "encounter_ids": [
+                    "011d3327-db00-46d4-a288-6a07b7d82fa1",
+                    "a3ddb9cc-8e02-45c4-b060-56141b3f1861",
+                    "63e04ff2-22d4-49d4-9555-0c78f49803c1",
+                    "b41dc485-58b5-425b-98b4-934f7f410cff",
+                    "b241b96f-38cb-458a-b918-dd9aa1e98663",
+                    "e6b384f1-e8c5-4a21-b318-6a2e09fdb1f8"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; The Calimemnon Conspiracy",
+        "groups": [
+            {
+                "party": [
+                    8,
+                    8,
+                    8,
+                    8,
+                    8
+                ],
+                "encounter_ids": [
+                    "d2340b3b-9269-4629-8d5c-d451fec2fcb5",
+                    "fe48f349-6c5a-4808-bbec-848b86caf97d",
+                    "15ad1ed7-a6ee-4bee-b784-6f13a85b1334",
+                    "a5a1a664-c285-44cb-aad8-a014957f04f8",
+                    "8a401507-dd0f-4013-85aa-dd2ae3b7f95e"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; The Rushdown Well",
+        "groups": [
+            {
+                "party": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "encounter_ids": [
+                    "852e182a-bced-4fa5-86e6-87ded44ecfd4",
+                    "68f93242-dc9b-4f32-9c56-61fb75e5c8fb",
+                    "7949f3c3-a6bd-4827-8ab2-e0eb515bdd42",
+                    "979f8699-1f59-4f50-95bb-041b452665ab"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Message in a Bottle",
+        "groups": [
+            {
+                "party": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ],
+                "encounter_ids": [
+                    "1f5d6462-4445-4c2b-a91f-025f3815922e",
+                    "614b7af3-ed17-4fc7-b21a-26a821532f56",
+                    "e2f303aa-c1a6-43c0-9287-f34d1354c710",
+                    "23d42d41-bb15-4941-9d40-6f7c93ee0dc6"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Wreck of the Silverhand",
+        "groups": [
+            {
+                "party": [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6
+                ],
+                "encounter_ids": [
+                    "c17e180d-e8cf-4f04-8d2e-a666a3dd1374",
+                    "5d0051fd-eaa6-45bd-8b07-07752636b44d",
+                    "273e9e49-c8de-41f9-8773-bfa48a4702d5",
+                    "b46eba91-0d58-4232-90ea-519c694bd9d4"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; The Treaty of Ostoria",
+        "groups": [
+            {
+                "party": [
+                    8,
+                    8,
+                    8,
+                    8,
+                    8
+                ],
+                "encounter_ids": [
+                    "3b88ee4b-096f-4e2d-87ff-de0b67377f12",
+                    "b7023241-c5d5-4258-8e2c-fe0cdef71300",
+                    "5dc7cc89-4c7b-4462-b0aa-f84fa2e5f8a3",
+                    "6bed55b6-8b05-4ab7-920b-4c2e09a17722",
+                    "a1a7fafe-46f8-43b4-a572-dc3c06a55270"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Tide of Teeth",
+        "groups": [
+            {
+                "party": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "encounter_ids": [
+                    "16da34b5-2f46-4fb2-b568-c848d100f10f",
+                    "cbc14405-1def-4d1c-be3c-1a8b0e3f7a05",
+                    "a2adbe6d-d5c3-49ea-91c6-308bdc86008e",
+                    "8f1bb7c0-d2bc-43d2-811f-cf16f4a3a027",
+                    "33c974df-2ac0-4d59-887e-2c8345f101d7",
+                    "d9fa9bfc-e14c-493e-8ea4-e6b53ea78adf"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Blood Night",
+        "groups": [
+            {
+                "party": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ],
+                "encounter_ids": [
+                    "c19f9cbc-884b-4d12-9d1d-d5382b70a251",
+                    "99ecf204-cd33-494d-8b67-143700bedc80",
+                    "a43fbf9a-36ca-4e79-8e25-cdcbfd6bc964",
+                    "cba0d2c8-bb4d-4198-b422-40d3088d6c33"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; Clockwork Memories",
+        "groups": [
+            {
+                "party": [
+                    7,
+                    7,
+                    7,
+                    7,
+                    7
+                ],
+                "encounter_ids": [
+                    "a5e8a45a-7d15-4ee0-83e4-3688ec53d36f",
+                    "4d6dad36-04ac-48dc-99ee-60c1500ce5f1",
+                    "9b1c1a8e-8bf6-4310-9307-f0b7fdb49add"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; The Shadow Parliament",
+        "groups": [
+            {
+                "party": [
+                    9,
+                    9,
+                    9,
+                    9,
+                    9
+                ],
+                "encounter_ids": [
+                    "3572c44e-a303-4805-957c-794f4e1e034b",
+                    "49d1916d-d80a-4690-940b-b26a43e7d046",
+                    "56b61ba3-602f-488b-9577-8fc86d3229e8"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Forgotten Realms: Adventures in Faer\u00fbn; The Lost Library of Lethchauntos",
+        "groups": [
+            {
+                "party": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "encounter_ids": [
+                    "ee874445-09a1-43fd-ae2a-d4c5bc4845a8",
+                    "3aa6c614-0023-455f-95d9-d6e2141923f3",
+                    "29782996-ae3b-40f2-b99d-b99aa6129247",
+                    "ff084d8e-b2c8-4032-ab28-a6a82455eac5"
+                ]
+            },
+            {
+                "party": [
+                    2,
+                    2,
+                    2,
+                    2,
+                    2
+                ],
+                "encounter_ids": [
+                    "e5858e6b-2154-4b71-9f83-6ebc793d74cb",
+                    "2aaf9dde-af6f-4838-b615-d662910205e3",
+                    "2e5a9b54-4a85-4c51-b23f-abaca06fd8fa",
+                    "0889ac9a-3a03-4229-8e97-7fc4d18fecc4"
+                ]
+            }
+        ]
     }
 ]

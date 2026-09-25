@@ -1,0 +1,1145 @@
+[
+    {
+        "id": "ea789d16-5797-46b2-a0d2-ddfccbeff096",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 1: Thay, Dominion of Red Wizards; Eltabbar, Thay\u2019s Capital; City Overview; City Watch Encounters; 1d4:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5195065-guard", 25],
+            [1, "5194915-bandit", 25],
+            [1, "5195064-guard-captain", 1100]
+        ]
+    },
+    {
+        "id": "5f410c4e-10a8-4c88-a949-e799c417cb7a",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 1: Thay, Dominion of Red Wizards; Eltabbar, Thay\u2019s Capital; City Overview; City Watch Encounters; 1d4:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5195260-warrior-veteran", 700]
+        ]
+    },
+    {
+        "id": "737cc0b9-cb23-4df6-9317-b6dd3578a8bc",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 1: Thay, Dominion of Red Wizards; Eltabbar, Thay\u2019s Capital; City Overview; City Watch Encounters; 1d4:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195109-mage-apprentice", 450],
+            [2, "5195065-guard", 25],
+            [1, "5195260-warrior-veteran", 700]
+        ]
+    },
+    {
+        "id": "0df9e486-e984-44dd-b1a3-17c58180d643",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 1: Thay, Dominion of Red Wizards; Eltabbar, Thay\u2019s Capital; City Overview; City Watch Encounters; 1d4:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195144-noble-prodigy", 5900],
+            [3, "5195065-guard", 25]
+        ]
+    },
+    {
+        "id": "88bba1c9-3caa-4859-a22d-29eacb6d94ef",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 1: Thay, Dominion of Red Wizards; Eltabbar, Thay\u2019s Capital; Eltabbar\u2019s City Wards; Apprentices\u2019 Ward",
+        "allies": [],
+        "bystanders": [
+            [1, "5195144-noble-prodigy", 5900]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "c5e0fb7d-3de7-4472-86ac-c09264773103",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 1: Thay, Dominion of Red Wizards; Eltabbar, Thay\u2019s Capital; Eltabbar\u2019s City Wards; Bazaar Ward",
+        "allies": [],
+        "bystanders": [
+            [1, "5195216-spy-master", 5900]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "257ea62d-79ce-4301-85c0-e204cea0d320",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 1: Thay, Dominion of Red Wizards; Eltabbar, Thay\u2019s Capital; Eltabbar\u2019s City Wards; Eltab\u2019s Ward",
+        "allies": [],
+        "bystanders": [
+            [1, "5194955-cultist-hierophant", 5900]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "6423e4f0-7b94-49e0-bcd3-b192ecc90bf6",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 1: Thay, Dominion of Red Wizards; Eltabbar, Thay\u2019s Capital; Eltabbar\u2019s City Wards; Lower Ward",
+        "allies": [],
+        "bystanders": [
+            [1, "4831023-mage", 2300]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "8153fdc7-4ba4-4eb5-9701-e7bb161a043d",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 1: Thay, Dominion of Red Wizards; Eltabbar, Thay\u2019s Capital; Eltabbar\u2019s City Wards; Lower Ward",
+        "allies": [],
+        "bystanders": [
+            [1, "5195064-guard-captain", 1100]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "893c2b40-42a1-4655-adb7-16119137db2c",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 1: Thay, Dominion of Red Wizards; Eltabbar, Thay\u2019s Capital; Eltabbar\u2019s City Wards; Lower Ward",
+        "allies": [],
+        "bystanders": [
+            [1, "5195145-noble", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "4d782f41-ec79-44d1-b9a9-785988479efe",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 1: Thay, Dominion of Red Wizards; Eltabbar, Thay\u2019s Capital; Eltabbar\u2019s City Wards; Mages\u2019 Ward",
+        "allies": [],
+        "bystanders": [
+            [10, "5195006-ghast-gravecaller", 2300]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "6e87f188-60ce-4dc8-a87e-e65dfc8cb17b",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 1: Thay, Dominion of Red Wizards; Eltabbar, Thay\u2019s Capital; Eltabbar\u2019s City Wards; Ward of Towers",
+        "allies": [],
+        "bystanders": [
+            [1, "5194899-arcanaloth", 8400]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "94805668-b3eb-4950-99ce-f17400b75c5c",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 1: Thay, Dominion of Red Wizards; Eltabbar, Thay\u2019s Capital; Eltabbar\u2019s City Wards; Warehouse Ward",
+        "allies": [],
+        "bystanders": [
+            [1, "4831023-mage", 2300]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "c40b0454-e19e-4428-9d96-329796f2d9da",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 1: Thay, Dominion of Red Wizards; Eltabbar, Thay\u2019s Capital; Eltabbar\u2019s City Wards; Warehouse Ward",
+        "allies": [],
+        "bystanders": [
+            [1, "5195178-rakshasa", 10000]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "f7e73f21-e5f6-49d1-ba3a-2c4ea3046c2b",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 1: Thay, Dominion of Red Wizards; Eltabbar, Thay\u2019s Capital; Eltabbar\u2019s City Wards; Workshop Ward",
+        "allies": [],
+        "bystanders": [
+            [1, "5194902-archmage", 8000]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "c357cc81-298a-4be7-8dbb-2f33a8b5ed9a",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 2: Thay in Danger; Thay\u2019s Only Hope",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "6719634-xelnene-thrul", 18000]
+        ]
+    },
+    {
+        "id": "dd4e08a9-87e8-49dd-aa8e-ecddec3242f3",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 2: Thay in Danger; Magical Spy Thriller; Importance of Secrecy; Compromised Characters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194903-archpriest", 8400],
+            [3, "5195216-spy-master", 5900]
+        ]
+    },
+    {
+        "id": "6db716e5-2868-440b-967e-12544ef6bf1e",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Terror at the Bazaar",
+        "allies": [],
+        "bystanders": [
+            [1, "5194951-commoner", 10],
+            [1, "5195145-noble", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "b0931ed1-b8fa-477e-953c-79ffd8b32062",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Terror at the Bazaar; Bazaar Features; Buildings",
+        "allies": [],
+        "bystanders": [
+            [1, "5195145-noble", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "36188f2d-65ed-4a64-bfde-9e01cbaaa8d8",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Terror at the Bazaar; Bazaar Features; Buildings",
+        "allies": [],
+        "bystanders": [
+            [1, "5195145-noble", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "2cc64e61-8786-454c-ab77-d00bb25908ad",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Terror at the Bazaar; Bazaar Features; Fruit Displays",
+        "allies": [],
+        "bystanders": [
+            [1, "5195145-noble", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "8615e62f-1e85-4602-931e-d81bfdfe2891",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Terror at the Bazaar; Bazaar Features; Tents",
+        "allies": [],
+        "bystanders": [
+            [1, "5195145-noble", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "ac4a31ad-3b67-4370-a9cd-27c63f951457",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Terror at the Bazaar; Bazaar Features; Tents",
+        "allies": [],
+        "bystanders": [
+            [1, "5195145-noble", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "991d7f90-59c1-40ab-bc08-1a16ce05bf1f",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Terror at the Bazaar; Bazaar Features; Tents",
+        "allies": [],
+        "bystanders": [
+            [1, "5195145-noble", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "2c6517da-b50f-447d-b05b-2323920d5a37",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Terror at the Bazaar; Malefite Attack",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "4775841-skeleton", 50],
+            [1, "5194965-death-tyrant", 11500, 2]
+        ]
+    },
+    {
+        "id": "8ea05201-59fe-4621-9ffe-cad5decf37fd",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Terror at the Bazaar; Malefite Attack; Development",
+        "allies": [
+            [5, "5194902-archmage", 8000]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "7c543e5b-e16a-42f1-a804-f859e5f49647",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Terror at the Bazaar; After the Attack; Mysterious Messenger",
+        "allies": [],
+        "bystanders": [
+            [1, "5195216-spy-master", 5900]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "54706c54-72ed-481b-82a8-f115e7991b13",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Wrynn\u2019s Bespoke Vestments; Private Audience",
+        "allies": [],
+        "bystanders": [
+            [1, "5195145-noble", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "0ad3db6e-cde6-4cfe-82de-41c615671950",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; The Hooded Lantern; The Hooded Lantern Locations; H1: Barroom",
+        "allies": [],
+        "bystanders": [
+            [1, "5195042-gladiator", 1800],
+            [2, "5194951-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "9de9e9a3-9b63-4d27-8bb5-029c440711bd",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; The Hooded Lantern; The Hooded Lantern Locations; H3: Gambling Den",
+        "allies": [],
+        "bystanders": [
+            [1, "4904746-cultist-fanatic", 450],
+            [1, "5194904-assassin", 3900],
+            [1, "5194904-assassin", 3900],
+            [1, "5194955-cultist-hierophant", 5900]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "70bea30f-a143-47d9-b514-dd5a39e4b035",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; The Hooded Lantern; The Hooded Lantern Locations; H3: Gambling Den",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194955-cultist-hierophant", 5900]
+        ]
+    },
+    {
+        "id": "cf9bb156-93c5-42fa-a9a2-2a888e346144",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Nym Building 3; Nym Building 3 Locations; N2: Lower Eastern Apartment",
+        "allies": [],
+        "bystanders": [
+            [2, "5194951-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "e0280350-831c-455d-860c-d128a2330d94",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Nym Building 3; Nym Building 3 Locations; N3: Lower Western Apartment",
+        "allies": [],
+        "bystanders": [
+            [2, "5194951-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "291785a3-f4cd-486e-929a-9e97b5b28f2c",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Nym Building 3; Nym Building 3 Locations; N4: Upstairs Hallway",
+        "allies": [],
+        "bystanders": [
+            [1, "5194951-commoner", 10]
+        ],
+        "enemies": [
+            [1, "5195258-warrior-commander", 5900],
+            [2, "5194914-bandit-deceiver", 2900],
+            [1, "4831023-mage", 2300]
+        ]
+    },
+    {
+        "id": "ed182872-de7f-4884-b0c5-472dd76e3000",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Nym Building 3; Nym Building 3 Locations; N5: Upper Western Apartment",
+        "allies": [],
+        "bystanders": [
+            [1, "5194951-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "e50758bd-38cc-4acf-9d31-8109c22a5b99",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Lower Ward Alley; Encountering Rathan Jur",
+        "allies": [],
+        "bystanders": [
+            [1, "5194951-commoner", 10]
+        ],
+        "enemies": [
+            [1, "5194913-bandit-crime-lord", 7200],
+            [2, "5194914-bandit-deceiver", 2900]
+        ]
+    },
+    {
+        "id": "2bd65c4d-26ed-484a-8152-30a17cfc22b1",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Unwelcome Company",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194903-archpriest", 8400],
+            [3, "5194914-bandit-deceiver", 2900]
+        ]
+    },
+    {
+        "id": "d6069a8f-9099-4c6f-a4c9-17a2a27a86a9",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Two Plateaus Shipping; Shipping Company Locations; T1: Reception",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195145-noble", 25]
+        ]
+    },
+    {
+        "id": "c120f6a7-1c24-450d-8e44-c7c4b7793368",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Two Plateaus Shipping; Shipping Company Locations; T6: Northeast Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5194914-bandit-deceiver", 2900]
+        ]
+    },
+    {
+        "id": "a144649a-fa25-41af-ada9-19aa238a61a1",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Two Plateaus Shipping; Shipping Company Locations; T7: Warehouse A",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5194914-bandit-deceiver", 2900],
+            [1, "5194913-bandit-crime-lord", 7200],
+            [1, "5194904-assassin", 3900, 2],
+            [1, "5194913-bandit-crime-lord", 7200, 2]
+        ]
+    },
+    {
+        "id": "1a527475-48e5-4edf-be8d-6e26658d4bcf",
+        "type": "alternate combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Two Plateaus Shipping; Shipping Company Locations; T8: Warehouse B",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194904-assassin", 3900],
+            [1, "5194913-bandit-crime-lord", 7200, 2],
+            [1, "5194913-bandit-crime-lord", 7200, 2]
+        ]
+    },
+    {
+        "id": "ed085f29-4f4a-48dd-bbc7-5d1e365c923b",
+        "type": "alternate combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Two Plateaus Shipping; Shipping Company Locations; T9: Warehouse C",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194913-bandit-crime-lord", 7200],
+            [1, "5194913-bandit-crime-lord", 7200, 2],
+            [1, "5194904-assassin", 3900, 2]
+        ]
+    },
+    {
+        "id": "b77682bb-59d1-4500-9abe-dbea0fd98b07",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Two Plateaus Shipping; Shipping Company Locations; T10: Shipping Office",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4831023-mage", 2300]
+        ]
+    },
+    {
+        "id": "d5b6d6a9-c0e3-49f5-97f2-7060644e2df3",
+        "type": "alternate combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Two Plateaus Shipping; Shipping Company Locations; T10: Shipping Office",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4831023-mage", 2300],
+            [1, "5194913-bandit-crime-lord", 7200, 2],
+            [1, "5194913-bandit-crime-lord", 7200, 2],
+            [1, "5194904-assassin", 3900, 2]
+        ]
+    },
+    {
+        "id": "a1d08fc3-8fd1-49da-bbc9-354f16f458a2",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Two Plateaus Shipping; Shipping Company Locations; T14. Iskari\u2019s Office",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195178-rakshasa", 10000],
+            [1, "4904850-stone-golem", 5900]
+        ]
+    },
+    {
+        "id": "670268a0-2f42-415c-b002-60358776cedf",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Two Plateaus Shipping; Shipping Company Locations; T16: Loading Dock",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "4831023-mage", 2300],
+            [1, "5194903-archpriest", 8400]
+        ]
+    },
+    {
+        "id": "dce9d13c-923f-4f86-b7f5-41e743abce3e",
+        "type": "alternate combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 3: Operation Deadfall; Two Plateaus Shipping; Shipping Company Locations; T16: Loading Dock",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "4831023-mage", 2300],
+            [1, "5194903-archpriest", 8400],
+            [1, "5194913-bandit-crime-lord", 7200, 2]
+        ]
+    },
+    {
+        "id": "e0a89a06-cd89-4742-a810-05b508648ede",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 4: Peril in Pyarados; Pyarados Militia; Eastern Pyarados Trail",
+        "allies": [
+            [2, "5195260-warrior-veteran", 450],
+            [1, "5194939-centaur-trooper", 450]
+        ],
+        "bystanders": [],
+        "enemies": [
+            [1, "6719629-abveku", 11500],
+            [2, "5195041-glabrezu", 5000]
+        ]
+    },
+    {
+        "id": "ece59b10-23b4-4bab-82bc-c473d19d00ca",
+        "type": "alternate combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 4: Peril in Pyarados; Pyarados Militia; Eastern Pyarados Trail",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4831023-mage", 2300],
+            [1, "5194924-berserker-commander", 3900]
+        ]
+    },
+    {
+        "id": "6591c18d-dc3d-4747-8a65-087157e5ae6c",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 4: Peril in Pyarados; Tax Station Number 18; Station Locations; S1: Courtyard",
+        "allies": [],
+        "bystanders": [
+            [3, "5195260-warrior-veteran", 700]
+        ],
+        "enemies": [
+            [2, "5195041-glabrezu", 2900],
+            [1, "5195117-marilith", 10000]
+        ]
+    },
+    {
+        "id": "e01d7ac4-2237-4f0c-9bb6-393c05920e1c",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 4: Peril in Pyarados; Tax Station Number 18; Station Locations; S2: Main Chamber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "6719631-rendelith", 20000]
+        ]
+    },
+    {
+        "id": "50293880-0709-445e-bc58-e7e0b5ab7312",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 4: Peril in Pyarados; Tax Station Number 18; Station Locations; S3: Audience Chamber",
+        "allies": [],
+        "bystanders": [
+            [1, "5195258-warrior-commander", 5900],
+            [3, "5195260-warrior-veteran", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "c799e2d7-6883-4d25-949f-db121f18603b",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 4: Peril in Pyarados; Tax Station Number 18; Station Locations; S5: Battlements",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4831023-mage", 2300],
+            [1, "5194924-berserker-commander", 3900],
+            [1, "5195117-marilith", 15000]
+        ]
+    },
+    {
+        "id": "60828185-a7bf-4cd4-8dad-ef46b66bb7dc",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 4: Peril in Pyarados; Tax Station Number 18; Station Locations; S6: Basement",
+        "allies": [],
+        "bystanders": [
+            [6, "5194951-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "0603b68f-aca9-4fe1-9a04-e7251e432362",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 4: Peril in Pyarados; An Ancient Temple; Trail to the Temple",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194963-death-knight", 18000],
+            [8, "5194996-flaming-skeleton", 700]
+        ]
+    },
+    {
+        "id": "ed313447-bea1-423e-8be3-f6ad75640867",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 4: Peril in Pyarados; Temple of the Red Knight; Temple Locations; E1: Temple Entrance",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195090-iron-golem", 15000],
+            [1, "4904850-stone-golem", 5900]
+        ]
+    },
+    {
+        "id": "6221653d-758f-4b5d-b0a0-37d0fed80998",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 4: Peril in Pyarados; Temple of the Red Knight; Temple Locations; E3: Entry Chamber",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "5195006-ghast-gravecaller", 2300]
+        ]
+    },
+    {
+        "id": "dbb6a6ad-fae7-4296-bc67-6f354580b6f0",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 4: Peril in Pyarados; Temple of the Red Knight; Temple Locations; E7: Tomb of the Resting Wizard",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194967-demilich", 20000]
+        ]
+    },
+    {
+        "id": "51de9155-f946-4f64-8db3-48a29fd6bf59",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 4: Peril in Pyarados; Temple of the Red Knight; Temple Locations; E9: General\u2019s Tomb",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194963-death-knight", 18000],
+            [2, "5174960-wraith", 1800]
+        ]
+    },
+    {
+        "id": "db87e2e6-bce6-49e5-a7e6-8feb022bf5ae",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 4: Peril in Pyarados; Temple of the Red Knight; Temple Locations; E10: Tomb of the High Commander",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195134-mummy-lord", 13000],
+            [2, "5194924-berserker-commander", 3900]
+        ]
+    },
+    {
+        "id": "5f496eba-1dbe-4fdd-829c-ef449bea9b88",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 4: Peril in Pyarados; Temple of the Red Knight; Temple Locations; E10: Tomb of the High Commander",
+        "allies": [],
+        "bystanders": [
+            [1, "5195109-mage-apprentice", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "24f5bfb1-bc4b-4f86-8546-f1c5d9b3e4f1",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 4: Peril in Pyarados; Szass Tam\u2019s Agents",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5194902-archmage", 8000],
+            [1, "5195082-horned-devil", 7200]
+        ]
+    },
+    {
+        "id": "d80415cf-a7e1-4286-aab9-5946c24d8282",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 5: Rebel Alliances; Veiled Tower; Tower Locations; V1: Visitor Reception",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195174-purple-worm", 13000]
+        ]
+    },
+    {
+        "id": "9de909d5-665a-4e5b-b267-f310992f3ff3",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 5: Rebel Alliances; Veiled Tower; Tower Locations; V3: Tower Apex",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195090-iron-golem", 15000]
+        ]
+    },
+    {
+        "id": "00119119-e477-43ec-a3f1-b2b18e5464c4",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 5: Rebel Alliances; Veiled Tower; Tower Locations; V4: Lounge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "5194902-archmage", 8000]
+        ]
+    },
+    {
+        "id": "aefea9b5-2c37-4f92-a5d4-9d159c031f62",
+        "type": "alternate combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 5: Rebel Alliances; Veiled Tower; Tower Locations; V4: Lounge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "5194902-archmage", 8000],
+            [4, "4904850-stone-golem", 5900, 1]
+        ]
+    },
+    {
+        "id": "bddb294a-b397-49e0-8a03-9cdab6bed818",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 5: Rebel Alliances; Veiled Tower; Tower Locations; V4: Lounge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "4904850-stone-golem", 5900]
+        ]
+    },
+    {
+        "id": "77f9861f-6fc3-44fc-a601-dfc251ab8690",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 5: Rebel Alliances; Ala Harbor; Renting a Boat",
+        "allies": [],
+        "bystanders": [
+            [1, "5195144-noble-prodigy", 5900]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "c012e4a3-93fe-4a15-833d-526b6e395741",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 5: Rebel Alliances; Blackrock Cove; Cove Locations; B1: The Cove",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194973-dragon-turtle", 18000]
+        ]
+    },
+    {
+        "id": "fd689613-d805-4881-8a5e-5e3e9ddc2d6b",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 5: Rebel Alliances; Blackrock Cove; Cove Locations; B2: Pirate Lookouts",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195144-noble-prodigy", 5900],
+            [1, "4904838-pirate-captain", 2300]
+        ]
+    },
+    {
+        "id": "e7d71510-f545-4b43-bb32-d52318ca6718",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 5: Rebel Alliances; Blackrock Cove; Cove Locations; B4: Hidden Cave",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195161-pirate-admiral", 8400],
+            [2, "4904830-pirate", 200],
+            [2, "5195090-iron-golem", 15000]
+        ]
+    },
+    {
+        "id": "a48668b8-95ab-4a96-a1d9-c6436acb273d",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 5: Rebel Alliances; Enemy Ambush",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194902-archmage", 8000],
+            [1, "5194963-death-knight", 18000],
+            [2, "5194962-death-knight-aspirant", 7200]
+        ]
+    },
+    {
+        "id": "7f31c37d-a7a5-46e4-83b5-76cc0609dca9",
+        "type": "alternate combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Wrynn\u2019s Bespoke Vestments; Wynston Wrynn\u2019s Fate; Mission Failed",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195249-vampire-spawn", 1800]
+        ]
+    },
+    {
+        "id": "f7077545-30f4-46c1-8bc4-726643bcd32a",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Wrynn\u2019s Bespoke Vestments; Assault on the Shop",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195250-vampire-umbral-lord", 13000],
+            [3, "5194903-archpriest", 8400]
+        ]
+    },
+    {
+        "id": "9bbca510-4496-4199-b76d-53ffc3268e61",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Central Thaymount; Thaymount in Chaos; Thaymount Encounters; 1d4:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194963-death-knight", 18000],
+            [4, "5195073-hezrou", 3900]
+        ]
+    },
+    {
+        "id": "49673dbf-283f-4e82-a382-7fe96e02932c",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Central Thaymount; Thaymount in Chaos; Thaymount Encounters; 1d4:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194911-balor", 22000],
+            [3, "5194960-death-cultist", 3900]
+        ]
+    },
+    {
+        "id": "5d602f0f-0db7-4cbe-9aa3-5dee1c8612ce",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Central Thaymount; Thaymount in Chaos; Thaymount Encounters; 1d4:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195117-marilith", 15000],
+            [3, "5194962-death-knight-aspirant", 7200]
+        ]
+    },
+    {
+        "id": "320d31f5-7a7e-41f5-ac73-201c349a00df",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Central Thaymount; Thaymount in Chaos; Thaymount Encounters; 1d4:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195053-goristro", 18000]
+        ]
+    },
+    {
+        "id": "d3d4825d-1610-4735-acb6-e02cfd6e8695",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Fortress of Opposition; Fortress Locations; F1: Fortress Courtyard",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "6719631-rendelith", 20000],
+            [2, "5195073-hezrou", 3900]
+        ]
+    },
+    {
+        "id": "528d0ebe-1eed-49dd-9755-f56010630510",
+        "type": "alternate combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Fortress of Opposition; Fortress Locations; F1: Fortress Courtyard",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "4775841-skeleton", 50],
+            [5, "4775851-zombie", 50]
+        ]
+    },
+    {
+        "id": "8884569f-3fbb-4e1b-a92c-038b217526ad",
+        "type": "alternate combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Fortress of Opposition; Fortress Locations; F1: Fortress Courtyard",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "4775841-skeleton", 50],
+            [5, "4775851-zombie", 50]
+        ]
+    },
+    {
+        "id": "91fc8e98-39c4-465d-8cea-63860c76ab7a",
+        "type": "alternate combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Fortress of Opposition; Fortress Locations; F1: Fortress Courtyard",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "4775841-skeleton", 50],
+            [5, "4775851-zombie", 50]
+        ]
+    },
+    {
+        "id": "260fa986-aec9-44d1-9212-36b3af699512",
+        "type": "alternate combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Fortress of Opposition; Fortress Locations; F1: Fortress Courtyard",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "4775841-skeleton", 50],
+            [5, "4775851-zombie", 50]
+        ]
+    },
+    {
+        "id": "7e93c31e-fbb9-4029-85bf-19ebd3f0bb8a",
+        "type": "alternate combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Fortress of Opposition; Fortress Locations; F1: Fortress Courtyard",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "4775841-skeleton", 50],
+            [5, "4775851-zombie", 50]
+        ]
+    },
+    {
+        "id": "bd95390f-c923-4383-b2e2-f025fdffe085",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Fortress of Opposition; Fortress Locations; F2: Great Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195053-goristro", 18000],
+            [1, "6719629-abveku", 11500]
+        ]
+    },
+    {
+        "id": "7829b24f-d209-43bf-94ba-edefa9887a0d",
+        "type": "alternate combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Fortress of Opposition; Fortress Locations; F2: Great Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "4775841-skeleton", 50],
+            [5, "4775851-zombie", 50]
+        ]
+    },
+    {
+        "id": "10e5e94e-01d7-4595-b6fb-0da9a0449bb5",
+        "type": "alternate combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Fortress of Opposition; Fortress Locations; F2: Great Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "4775841-skeleton", 50],
+            [5, "4775851-zombie", 50]
+        ]
+    },
+    {
+        "id": "fb08413d-90b7-4b71-ac2f-02528ad5aec9",
+        "type": "alternate combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Fortress of Opposition; Fortress Locations; F2: Great Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "4775841-skeleton", 50],
+            [5, "4775851-zombie", 50]
+        ]
+    },
+    {
+        "id": "6af44de8-2061-4347-93c7-33f46d542499",
+        "type": "alternate combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Fortress of Opposition; Fortress Locations; F2: Great Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "4775841-skeleton", 50],
+            [5, "4775851-zombie", 50]
+        ]
+    },
+    {
+        "id": "6c5e2d17-eb2c-48e7-a9c8-5997f7ba7047",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Fortress of Opposition; Fortress Locations; F3: South Bedchamber",
+        "allies": [],
+        "bystanders": [
+            [1, "5195145-noble", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "a1357af7-2c6f-4a29-bfdb-3952caf4acec",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Fortress of Opposition; Fortress Locations; F4: Southwest Bedchamber",
+        "allies": [],
+        "bystanders": [
+            [1, "5195145-noble", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "36db7e18-cd84-493e-821e-30b245917e9f",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Fortress of Opposition; Fortress Locations; F5: North Bedchamber",
+        "allies": [],
+        "bystanders": [
+            [1, "5195109-mage-apprentice", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "e3d60147-d6db-4f04-96e7-de84cc9eeedb",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Fortress of Opposition; Fortress Locations; F8: Library",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195140-nalfeshnee", 10000],
+            [1, "5195117-marilith", 15000]
+        ]
+    },
+    {
+        "id": "0038537f-e03f-4790-9753-f55f87958bb4",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Fortress of Opposition; Fortress Locations; F11: Lounge",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195117-marilith", 15000],
+            [2, "5194962-death-knight-aspirant", 7200],
+            [1, "5195258-warrior-commander", 5900]
+        ]
+    },
+    {
+        "id": "6b1b73f8-6277-421e-b1bd-deae7b8a0c2f",
+        "type": "non-combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Fortress of Opposition; Fortress Locations; F14: Magical Lab",
+        "allies": [],
+        "bystanders": [
+            [1, "4831023-mage", 2300]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "3d075047-9aa8-463a-bf0a-c068016d5b20",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Castle Thrul; Castle Locations; C1: Necropolis",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5194962-death-knight-aspirant", 7200]
+        ]
+    },
+    {
+        "id": "ad5dfe68-2b78-4cee-be53-a870e5097d85",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Castle Thrul; Castle Locations; C4: Great Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5195053-goristro", 18000]
+        ]
+    },
+    {
+        "id": "504db104-f60e-40e9-8c3c-6f8bf03e0271",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 6: Precipice of Oblivion; Castle Thrul; Castle Locations; C15: Tower Summit",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194967-demilich", 20000],
+            [1, "5194902-archmage", 8000],
+            [1, "5194911-balor", 22000]
+        ]
+    },
+    {
+        "id": "75e18293-d97e-4fb4-9545-20a40019b295",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 7: Szass Tam Must Die; Reaching the Citadel; Underground Ambush",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "6719632-sarrukh-tyrant", 18000]
+        ]
+    },
+    {
+        "id": "c028cfa4-ebb5-42d7-a03d-fc0d5ee872ee",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 7: Szass Tam Must Die; Szass Tam\u2019s Sanctum; Sanctum Locations; Z2: Communal Hall",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "6719630-arisen-sarrukh", 20000],
+            [1, "6719632-sarrukh-tyrant", 18000]
+        ]
+    },
+    {
+        "id": "df98567f-2423-4411-9afb-9533975317f0",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 7: Szass Tam Must Die; Szass Tam\u2019s Sanctum; Sanctum Features; Z4: Library",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "6719630-arisen-sarrukh", 20000]
+        ]
+    },
+    {
+        "id": "812c6c6b-f404-4898-b93d-d04751a5b505",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 7: Szass Tam Must Die; Szass Tam\u2019s Sanctum; Sanctum Features; Z7: Magical Laboratory",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "6719632-sarrukh-tyrant", 18000]
+        ]
+    },
+    {
+        "id": "fac4af24-d626-4bb9-8a01-975de47fe84f",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 7: Szass Tam Must Die; Szass Tam\u2019s Sanctum; Sanctum Features; Z8: Scriptorium",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "6719632-sarrukh-tyrant", 18000]
+        ]
+    },
+    {
+        "id": "7ffffa6a-72f5-4f1c-926e-157be7e43f5c",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 7: Szass Tam Must Die; Szass Tam\u2019s Sanctum; Sanctum Features; Z12: Antechamber of Skulls",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "6719630-arisen-sarrukh", 20000],
+            [1, "6719632-sarrukh-tyrant", 18000]
+        ]
+    },
+    {
+        "id": "58210826-d6a9-4523-87db-e68a052b7ced",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 7: Szass Tam Must Die; Szass Tam\u2019s Sanctum; Sanctum Features; Z13: Hall of Corrupted Lava",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194972-dracolich", 18000],
+            [2, "6719630-arisen-sarrukh", 20000]
+        ]
+    },
+    {
+        "id": "19ddb5dc-caec-4b5a-8f21-696e4a2e3c70",
+        "type": "combat",
+        "book_path": "Arcana Unleashed: Deadfall; Chapter 7: Szass Tam Must Die; Szass Tam\u2019s Sanctum; Sanctum Features; Z14: Ritual Chamber",
+        "allies": [
+            [1, "6719634-xelnene-thrul", 100]
+        ],
+        "bystanders": [],
+        "enemies": [
+            [1, "6719633-szass-tam", 50000],
+            [1, "5195250-vampire-umbral-lord", 13000],
+            [2, "5195140-nalfeshnee", 10000]
+        ]
+    }
+]

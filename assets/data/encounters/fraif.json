@@ -1,0 +1,4946 @@
+[
+    {
+        "id": "b59079b8-b248-41e3-bfdf-64b270f6a3d4",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Creating Epic Fantasy; Low-Level Challenges; Preview the Villain",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195200-shadow-demon", 1100]
+        ]
+    },
+    {
+        "id": "0a9a37cb-6634-476e-a9b1-16da31058932",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Creating Epic Fantasy; High Stakes",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195170-priest", 450],
+            [1, "5195260-warrior-veteran", 700],
+            [1, "5195065-guard", 25]
+        ]
+    },
+    {
+        "id": "0c8ceeb8-c12e-4983-b709-3c4aed739fb4",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Curse on Humble Hill",
+        "allies": [],
+        "bystanders": [
+            [1, "5195169-priest-acolyte", 50]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "d1ce9e15-27fc-484e-be35-3045b170116e",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Curse on Humble Hill; Encounters; 1d4:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195254-violet-fungus", 50],
+            [1, "5195252-vine-blight", 100]
+        ]
+    },
+    {
+        "id": "6c445c13-fae6-45c2-baca-9650f7505e6a",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Curse on Humble Hill; Encounters; 1d4:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194961-death-dog", 200]
+        ]
+    },
+    {
+        "id": "073684f6-473f-460a-9a11-13a01024b6df",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Curse on Humble Hill; Encounters; 1d4:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195235-tough", 100]
+        ]
+    },
+    {
+        "id": "5614614a-1770-42d6-8074-16df211592d6",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Curse on Humble Hill; Encounters; 1d4:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195138-myconid-spore-servant", 200]
+        ]
+    },
+    {
+        "id": "49e39ddb-6091-41a2-bbc1-f078f07be5c6",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Curse on Humble Hill; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195172-psychic-gray-ooze", 200]
+        ]
+    },
+    {
+        "id": "4d082710-ce24-4246-89a9-df61cefdbb6f",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Robber Baron",
+        "allies": [],
+        "bystanders": [
+            [1, "5194951-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "1d6589e1-7b22-4bc4-950b-d3ddd1ec10c8",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Robber Baron; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195217-spy", 200],
+            [1, "5195169-priest-acolyte", 50]
+        ]
+    },
+    {
+        "id": "7f214026-8fbe-4d17-9631-9b1504562f2e",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Robber Baron; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195235-tough", 100],
+            [1, "4775828-mastiff", 25],
+            [3, "5194915-bandit", 25],
+            [1, "5174957-scout", 100]
+        ]
+    },
+    {
+        "id": "cd67f1be-5958-4adb-8307-7a5ca5bf933f",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Robber Baron; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5194915-bandit", 25],
+            [1, "4775828-mastiff", 25]
+        ]
+    },
+    {
+        "id": "6a796111-8728-41fa-b320-498f74323477",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Robber Baron; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5195259-warrior-infantry", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "5f689675-2d56-4577-a53f-9640b749dc50",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Robber Baron; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195235-tough", 100],
+            [1, "5174957-scout", 100],
+            [1, "4775828-mastiff", 25],
+            [3, "5194915-bandit", 25]
+        ]
+    },
+    {
+        "id": "74776f71-743b-4d95-a96a-eee78918a412",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Siege of Shalespire Priory; Encounters",
+        "allies": [],
+        "bystanders": [
+            [12, "5194951-commoner", 10]
+        ],
+        "enemies": [
+            [3, "5195050-goblin-warrior", 50],
+            [1, "5195047-goblin-boss", 200],
+            [4, "4775850-wolf", 50]
+        ]
+    },
+    {
+        "id": "26baf19f-bcae-441a-9ffe-6f9be43568c1",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Siege of Shalespire Priory; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904825-ogre", 450],
+            [3, "5195079-hobgoblin-warrior", 100]
+        ]
+    },
+    {
+        "id": "d7129b40-bc92-44ef-84c3-e30f8c0ab0a9",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Siege of Shalespire Priory; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "4831002-bugbear-warrior", 200]
+        ]
+    },
+    {
+        "id": "fe78f2b9-9d75-4278-b3d8-cba991f85479",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Siege of Shalespire Priory; Encounters",
+        "allies": [
+            [1, "5195169-priest-acolyte", 50]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "89e08a33-6607-44d7-af9b-54398a63b09d",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Siege of Shalespire Priory; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5195050-goblin-warrior", 50],
+            [1, "5195047-goblin-boss", 200]
+        ]
+    },
+    {
+        "id": "fe2e78b3-4620-47e4-9085-6b39566b0491",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Siege of Shalespire Priory; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5195079-hobgoblin-warrior", 100],
+            [1, "4831031-worg", 100]
+        ]
+    },
+    {
+        "id": "6df1ad87-d9b9-4b68-9158-09557fcb9a88",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Siege of Shalespire Priory; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4831002-bugbear-warrior", 200],
+            [4, "4775850-wolf", 50]
+        ]
+    },
+    {
+        "id": "789ac113-f86f-4398-9485-dae0013a2737",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Siege of Shalespire Priory; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195149-ogrillon-ogre", 200]
+        ]
+    },
+    {
+        "id": "a900d7e1-ae94-4601-a979-b29c72fc8103",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Siege of Shalespire Priory; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5195050-goblin-warrior", 50],
+            [1, "5195047-goblin-boss", 200],
+            [3, "5195079-hobgoblin-warrior", 100],
+            [1, "4831031-worg", 100]
+        ]
+    },
+    {
+        "id": "61d69237-ae44-4080-bfea-8f447be97ce2",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Siege of Shalespire Priory; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4831002-bugbear-warrior", 200],
+            [4, "4775850-wolf", 50],
+            [2, "5195149-ogrillon-ogre", 200]
+        ]
+    },
+    {
+        "id": "941a34c5-38c3-4d44-8d9c-25c07c9f80a7",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Siege of Shalespire Priory; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "5195079-hobgoblin-warrior", 100],
+            [1, "5195077-hobgoblin-captain", 700, 3]
+        ]
+    },
+    {
+        "id": "4fcd3497-92f1-4e95-9882-702a86a1cbc5",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Siege of Shalespire Priory; Encounters",
+        "allies": [
+            [1, "4904816-knight", 700],
+            [1, "5195170-priest", 450]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "94edd2a7-f0fa-4b0a-857a-f1a1cfc0cd27",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Weeping Goddess; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5195229-swarm-of-ravens", 50],
+            [1, "5195230-swarm-of-stirges", 450]
+        ]
+    },
+    {
+        "id": "af987708-b0ca-48e3-9d42-053ca511f859",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Weeping Goddess; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "5174958-shadow", 100]
+        ]
+    },
+    {
+        "id": "0e8ef4ab-8746-4f97-b587-d5e8eb0ddd8a",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Weeping Goddess; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5195094-kenku", 50],
+            [1, "4904746-cultist-fanatic", 450]
+        ]
+    },
+    {
+        "id": "f7b66aeb-73ee-468e-8131-2fe439a31c5e",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Weeping Goddess; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195102-lacedon-ghoul", 200]
+        ]
+    },
+    {
+        "id": "374ca032-0389-4a01-bbfe-712df71219df",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Weeping Goddess; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195170-priest", 450],
+            [3, "5195094-kenku", 50],
+            [1, "5174958-shadow", 100]
+        ]
+    },
+    {
+        "id": "45559f1b-6bf7-4065-bb78-95bfc0b09840",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Fury Grove; Encounters; 1d3:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195013-giant-boar", 450]
+        ]
+    },
+    {
+        "id": "d013d1c4-73a5-4799-adb9-811baf935e85",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Fury Grove; Encounters; 1d3:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "4775812-dire-wolf", 200]
+        ]
+    },
+    {
+        "id": "f4aa6b46-9cfd-42ef-84c9-1645a5ed1353",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Fury Grove; Encounters; 1d3:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194970-displacer-beast", 700]
+        ]
+    },
+    {
+        "id": "730d0dbe-f6bf-4bae-82db-0af0a35c3438",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Fury Grove; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5195217-spy", 200]
+        ]
+    },
+    {
+        "id": "0f9be104-afe6-473f-a98e-cdae4a0ff6e8",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Fury Grove; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195004-gas-spore-fungus", 100],
+            [3, "5195254-violet-fungus", 50],
+            [2, "5195136-myconid-adult", 100],
+            [5, "5195139-myconid-sprout", 10]
+        ]
+    },
+    {
+        "id": "1320886e-c809-4643-b807-a86fef48cf3f",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Fury Grove; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195004-gas-spore-fungus", 100],
+            [2, "5195136-myconid-adult", 100],
+            [3, "5195138-myconid-spore-servant", 200]
+        ]
+    },
+    {
+        "id": "6aa93735-af51-46bb-8f68-d5d5cf0a3147",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Fury Grove; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195137-myconid-sovereign", 450],
+            [1, "5195138-myconid-spore-servant", 200],
+            [1, "5194976-druid", 450]
+        ]
+    },
+    {
+        "id": "3e4325d3-eb51-4906-9747-38785f3fe15e",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Tenebrous Stone; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "4775851-zombie", 50],
+            [2, "5195009-ghoul", 200],
+            [1, "5195007-ghast", 450]
+        ]
+    },
+    {
+        "id": "dcaae399-9fb1-460c-8785-f096eff5195c",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Tenebrous Stone; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195269-wight", 700],
+            [2, "4775841-skeleton", 50]
+        ]
+    },
+    {
+        "id": "3869f03a-c6e5-44c7-a612-91a6ae5179de",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Tenebrous Stone; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904865-succubus", 1100]
+        ]
+    },
+    {
+        "id": "915417df-9252-4bc3-b958-3665de81a76f",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Disinterred Danger; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5174960-wraith", 1800]
+        ]
+    },
+    {
+        "id": "7fe7303f-f4ac-44f7-b05f-cbc26f1e3afd",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Disinterred Danger; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5174959-swarm-of-crawling-claws", 700],
+            [7, "5194954-crawling-claw", 10]
+        ]
+    },
+    {
+        "id": "ce9cda11-045b-4e5d-9a6e-c3fbe0babb5e",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Disinterred Danger; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194937-cambion", 1800]
+        ]
+    },
+    {
+        "id": "30705a7c-c140-4e67-8ed2-de698588ce79",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Drowning Forest",
+        "allies": [],
+        "bystanders": [
+            [1, "5194976-druid", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "2f74eaba-ddcf-40dc-919a-3c0275c5fdf2",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Drowning Forest; Encounters; 1d6:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195241-troll", 1800]
+        ]
+    },
+    {
+        "id": "afef5553-ef02-4034-a488-7c29e4603fba",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Drowning Forest; Encounters; 1d6:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195047-goblin-boss", 200],
+            [1, "5195048-goblin-hexer", 700],
+            [3, "4831031-worg", 100]
+        ]
+    },
+    {
+        "id": "fc31efbe-4f94-4af6-9b8d-3da06ab897c3",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Drowning Forest; Encounters; 1d6:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194934-bugbear-stalker", 700],
+            [2, "4831002-bugbear-warrior", 200]
+        ]
+    },
+    {
+        "id": "caceda3d-ab1b-4b5e-8d05-aa7d64c0a94f",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Drowning Forest; Encounters; 1d6:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195135-mummy", 700]
+        ]
+    },
+    {
+        "id": "22f19716-88bd-4d1f-8214-067a1a031da2",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Drowning Forest; Encounters; 1d6:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5195270-will-o-wisp", 450]
+        ]
+    },
+    {
+        "id": "130963d4-5202-405d-af02-b9b7d84e5e0c",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Drowning Forest; Encounters; 1d6:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5195224-swarm-of-insects", 100],
+            [1, "5195230-swarm-of-stirges", 450]
+        ]
+    },
+    {
+        "id": "7c8d8f59-b98d-4760-b5b6-f05ef24451e3",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Drowning Forest; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5194989-ettercap", 450],
+            [3, "4775821-giant-spider", 200]
+        ]
+    },
+    {
+        "id": "ea13339a-aea7-4774-88f9-455e089969ca",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Drowning Forest; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5195057-green-hag", 700]
+        ]
+    },
+    {
+        "id": "e612f70b-1ab7-48aa-961a-5ce2c3e601df",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Lost Dawn",
+        "allies": [],
+        "bystanders": [
+            [1, "5195169-priest-acolyte", 50]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "70e06020-481e-47b4-ba72-640618c0f890",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Lost Dawn; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "4904746-cultist-fanatic", 450],
+            [1, "", 200]
+        ]
+    },
+    {
+        "id": "99c45a19-47d2-4950-8aa5-a658e1dd6984",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Lost Dawn; Encounters; 1d4:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5195207-smoke-mephit", 50]
+        ]
+    },
+    {
+        "id": "611ada03-3017-4650-899f-cd11485db001",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Lost Dawn; Encounters; 1d4:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5194970-displacer-beast", 700]
+        ]
+    },
+    {
+        "id": "68be13a2-3e27-4b2a-acdc-dcd697a7ad52",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Lost Dawn; Encounters; 1d4:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195200-shadow-demon", 1100]
+        ]
+    },
+    {
+        "id": "e832e4b8-3ce7-4807-a994-90631aaabe27",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Lost Dawn",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195142-night-hag", 1800]
+        ]
+    },
+    {
+        "id": "5a4b32bc-e169-4438-b45b-6d6841b1e0cd",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Lost Dawn",
+        "allies": [],
+        "bystanders": [
+            [1, "5194986-empyrean-iota-celestial", 200]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "c6d8607a-61f6-4b13-821c-9b796e78b58b",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Wolves of Amphail",
+        "allies": [],
+        "bystanders": [
+            [1, "5195145-noble", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "8b810f75-91ab-42d0-9f9d-8e5ad589818d",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Wolves of Amphail; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5195157-peryton", 450]
+        ]
+    },
+    {
+        "id": "4a75cc5d-f0aa-4d03-8721-0cefdfec8a55",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Wolves of Amphail; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5194951-commoner", 0]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "8832147e-d836-4673-8072-3165bc0c18de",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Wolves of Amphail; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5174957-scout", 100]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "e8681923-05ec-416d-8a54-2ee367dac288",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Wolves of Amphail; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5195267-werewolf", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "c66731c6-ea5d-4add-a7fa-b410276fd8cf",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Wolves of Amphail; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5195145-noble", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "10fc6cde-3037-4335-9b85-8db684d0e98c",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Wolves of Amphail; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5195145-noble", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "b0bf26b1-d119-44e1-b806-01adae353241",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Wolves of Amphail; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195264-wereboar", 1100]
+        ]
+    },
+    {
+        "id": "99300c93-a86e-47ed-b027-d2dbf5254ac5",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Wolves of Amphail; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195265-wererat", 450]
+        ]
+    },
+    {
+        "id": "fba2d0d8-a734-4490-a8dc-a960be3acd9c",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Wolves of Amphail; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195267-werewolf", 700]
+        ]
+    },
+    {
+        "id": "3ada0eb7-7327-4b78-a4d8-b4f562d194e9",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Wolves of Amphail; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195266-weretiger", 1100]
+        ]
+    },
+    {
+        "id": "730041b7-12a3-4560-a601-6ebd4ed01545",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Wolves of Amphail; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195264-wereboar", 1100],
+            [1, "5195267-werewolf", 700]
+        ]
+    },
+    {
+        "id": "06f21a55-62a1-482b-a524-a5bbd9383446",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Wolves of Amphail; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195265-wererat", 450],
+            [2, "5195265-wererat", 450]
+        ]
+    },
+    {
+        "id": "e8ab72b9-1080-45b8-b360-3faaf6077154",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Wolves of Amphail; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195266-weretiger", 1100],
+            [1, "4775832-panther", 50]
+        ]
+    },
+    {
+        "id": "37cad630-924b-4ed2-880b-f8bcdb373188",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Eyes of At\u2019ar",
+        "allies": [],
+        "bystanders": [
+            [1, "5194902-archmage", 8000]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "43eb486e-8395-44f8-bda9-5af43229f3de",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Eyes of At\u2019ar; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5194951-commoner", 10],
+            [1, "5194904-assassin", 3900],
+            [3, "5194951-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "c927f8b2-2f93-447c-bbbf-3574325f6ca2",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Eyes of At\u2019ar; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5194951-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "5286e589-a4b6-4115-9dd8-085e25610058",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Eyes of At\u2019ar; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904883-tough-boss", 1100],
+            [8, "", 100]
+        ]
+    },
+    {
+        "id": "18cc3993-3942-4260-929c-a6ded65da7a0",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Eyes of At\u2019ar; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5194914-bandit-deceiver", 2900]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "c18117d1-c4db-4666-b899-615a261ea9fb",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Eyes of At\u2019ar; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5174957-scout", 100]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "0182bd78-9bf0-427f-acf6-040c47131ebd",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Eyes of At\u2019ar; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195103-lamia", 1100],
+            [4, "5194912-bandit-captain", 450],
+            [24, "5194915-bandit", 25],
+            [1, "5195115-manticore", 700]
+        ]
+    },
+    {
+        "id": "7cd117cf-3c0e-45ae-beed-5c94e93c5703",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Eyes of At\u2019ar; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5900668-phaerimm-agent", 3900]
+        ]
+    },
+    {
+        "id": "2a598a10-e6e3-4c0f-b80c-6f46fc87534a",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Safe House Standoff; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194914-bandit-deceiver", 2900],
+            [4, "5195235-tough", 100]
+        ]
+    },
+    {
+        "id": "cac9a059-de32-4cd1-8ebb-62215325391f",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Safe House Standoff; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5195217-spy", 200]
+        ]
+    },
+    {
+        "id": "48f438fe-e402-4ab6-acc1-ee0da3ad803c",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Safe House Standoff; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5194951-commoner", 0]
+        ],
+        "enemies": [
+            [2, "5195235-tough", 100]
+        ]
+    },
+    {
+        "id": "48f438fe-e402-4ab6-acc1-ee0da3ad803c",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Safe House Standoff; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5194951-commoner", 0]
+        ],
+        "enemies": [
+            [1, "5194914-bandit-deceiver", 2900],
+            [4, "5195235-tough", 100],
+            [4, "5195217-spy", 200],
+            [2, "5195235-tough", 100]
+        ]
+    },
+    {
+        "id": "fd1bbd2d-5f70-4a32-acf1-ed75303379ec",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Tears Fall",
+        "allies": [],
+        "bystanders": [
+            [1, "5195170-priest", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "75ad3200-9853-468d-a78c-6613b19f32c6",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Tears Fall; Encounters; 1d6:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195077-hobgoblin-captain", 700],
+            [8, "5195079-hobgoblin-warrior", 100],
+            [1, "5195109-mage-apprentice", 450]
+        ]
+    },
+    {
+        "id": "b0c06cd0-1f1b-4aa9-ad29-fc9a22e6645c",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Tears Fall; Encounters; 1d6:2",
+        "allies": [],
+        "bystanders": [
+            [1, "5195281-young-copper-dragon", 2900]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "cd60896a-70fb-4ee8-a2fa-81d017bf37e0",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Tears Fall; Encounters; 1d6:3",
+        "allies": [],
+        "bystanders": [
+            [1, "5195024-giant-owl", 50]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "afd979a5-fc93-4bdb-afe8-c2af56f23040",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Tears Fall; Encounters; 1d6:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195074-hill-giant", 1800]
+        ]
+    },
+    {
+        "id": "81e0a340-5a2a-44a6-bd77-250dfa3be710",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Tears Fall; Encounters; 1d6:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904746-cultist-fanatic", 450],
+            [1, "5195042-gladiator", 1800],
+            [2, "5195260-warrior-veteran", 700]
+        ]
+    },
+    {
+        "id": "ceef11d8-d59c-413b-b8f0-6c4ca25f917d",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Tears Fall; Encounters; 1d6:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5174960-wraith", 1800],
+            [6, "5195210-specter", 200]
+        ]
+    },
+    {
+        "id": "b6b84202-59d7-44f0-abb2-e6820e7d4fdb",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Tears Fall; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195263-werebear", 1800]
+        ]
+    },
+    {
+        "id": "c0d3f575-c1ef-485b-a963-eb76f015ca4e",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Shadow of the Watch",
+        "allies": [],
+        "bystanders": [
+            [1, "5195145-noble", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "9ce27ae4-67e4-4d5b-af49-2a0ec9588c14",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Shadow of the Watch; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195048-goblin-hexer", 700],
+            [1, "5195194-satyr-revelmaster", 2300],
+            [3, "5194934-bugbear-stalker", 700]
+        ]
+    },
+    {
+        "id": "f5ab6295-6d5f-409d-b370-9ef571fb486d",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Shadow of the Watch; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5194934-bugbear-stalker", 700]
+        ]
+    },
+    {
+        "id": "c8cb4ccb-8f03-43b7-8d75-41178717ff45",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Shadow of the Watch; Encounters",
+        "allies": [],
+        "bystanders": [
+            [2, "5194951-commoner", 10],
+            [1, "5195170-priest", 450]
+        ],
+        "enemies": [
+            [1, "5194940-centaur-warden", 2900]
+        ]
+    },
+    {
+        "id": "5767bb9e-d5e8-4d41-8706-eb53bdd926e3",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Shadow of the Watch; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5194976-druid", 450],
+            [1, "5195171-primeval-owlbear", 2900],
+            [1, "5195163-pixie-wonderbringer", 1800]
+        ]
+    },
+    {
+        "id": "8ad54d96-c331-495c-9103-5a9de46d2323",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Well of Lies; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194878-air-elemental", 1800],
+            [1, "5195002-galeb-duhr", 2300]
+        ]
+    },
+    {
+        "id": "0dc64730-7499-4ae0-bdd1-7c01aef29247",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Well of Lies; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5194906-awakened-tree", 450],
+            [1, "5194896-animated-rug-of-smothering", 450],
+            [1, "4904621-berserker", 450]
+        ]
+    },
+    {
+        "id": "3f61f45d-f49e-4f64-9fb1-afd18d21eecd",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Well of Lies; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195006-ghast-gravecaller", 2300],
+            [3, "5195009-ghoul", 200],
+            [1, "4904746-cultist-fanatic", 450]
+        ]
+    },
+    {
+        "id": "41d51ecb-bcae-454d-8912-4090ba95c9d7",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Well of Lies; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "4904746-cultist-fanatic", 450],
+            [2, "4904883-tough-boss", 1100],
+            [4, "4904636-cultist", 25]
+        ]
+    },
+    {
+        "id": "08fd5f07-813a-47db-8593-2f40d2699ba2",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Well of Lies; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4831023-mage", 2300],
+            [1, "5195143-nightmare", 700]
+        ]
+    },
+    {
+        "id": "fdcb0fd5-9faf-49f0-a3a0-f211e5d7c37b",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Broken Mirrors; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "4904793-incubus", 1100],
+            [2, "5195013-giant-boar", 450]
+        ]
+    },
+    {
+        "id": "6f01feb7-3d4a-4605-9ed8-fbb5ccd65240",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Broken Mirrors; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5195008-ghost", 1100]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "1d425b7c-bc3c-49c3-98b5-a58dc899c9ee",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Broken Mirrors; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4775835-quasit", 200]
+        ]
+    },
+    {
+        "id": "a17ef8fd-57ff-4acf-9018-aa20e4838592",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Broken Mirrors; Encounters; 1d6:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195073-hezrou", 3900]
+        ]
+    },
+    {
+        "id": "1ddb3e6a-a766-4449-8a32-2fa456e169cb",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Broken Mirrors; Encounters; 1d6:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195150-oni", 2900]
+        ]
+    },
+    {
+        "id": "df3428bf-e69c-4ed9-a024-ccf1a7f37b37",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Broken Mirrors; Encounters; 1d6:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195237-tree-blight", 2900],
+            [4, "5195141-needle-blight", 50],
+            [1, "5195203-shambling-mound", 1800]
+        ]
+    },
+    {
+        "id": "f09845a9-644b-439b-a4be-603d8eff1218",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Broken Mirrors; Encounters; 1d6:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195255-vrock", 2300],
+            [1, "5195223-swarm-of-dretches", 1100]
+        ]
+    },
+    {
+        "id": "97eb8e02-afba-465e-96fc-a7d7c1fd9a55",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Broken Mirrors; Encounters; 1d6:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5194918-barlgura", 1800]
+        ]
+    },
+    {
+        "id": "7c5bfed7-f163-4ff0-8330-a3dfa080a468",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Broken Mirrors; Encounters; 1d6:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5194925-black-pudding", 1100]
+        ]
+    },
+    {
+        "id": "c75f0ba1-d140-46f3-b916-b184ed62b7dc",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Broken Mirrors; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904838-pirate-captain", 2300],
+            [1, "5194866-aberrant-cultist", 3900],
+            [3, "5195225-swarm-of-larvae", 200]
+        ]
+    },
+    {
+        "id": "6da47b37-0817-402c-b929-d4ed65e89be9",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; In for a Penny; Encounters; 1d4:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "5194951-commoner", 10]
+        ]
+    },
+    {
+        "id": "19e6ae10-5563-4828-8dc2-c16879d1cd80",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; In for a Penny; Encounters; 1d4:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195155-performer-maestro", 2300]
+        ]
+    },
+    {
+        "id": "0e1245a5-b379-47ca-8052-eb2abce81625",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; In for a Penny; Encounters; 1d4:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194904-assassin", 3900]
+        ]
+    },
+    {
+        "id": "a41fa339-44fe-4172-93e7-42d4226bca3a",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; In for a Penny; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195151-otyugh", 1800],
+            [3, "5195231-swarm-of-venomous-snakes", 450]
+        ]
+    },
+    {
+        "id": "1e1d9f1b-dea5-409d-ad58-a9055c0c5556",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; In for a Penny; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "4904883-tough-boss", 1100],
+            [10, "5195235-tough", 100]
+        ]
+    },
+    {
+        "id": "2ab6c850-c06e-4f18-a124-5c996dc4b107",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; In for a Penny; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195216-spy-master", 5900],
+            [1, "5195230-swarm-of-stirges", 450],
+            [4, "5195159-piercer", 100],
+            [1, "5195081-hook-horror", 700]
+        ]
+    },
+    {
+        "id": "606862cc-ee20-43e1-b709-a27fa0672867",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Hell Ship",
+        "allies": [],
+        "bystanders": [
+            [1, "5194912-bandit-captain", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "2c31c62a-7f41-40c3-9533-cc4363593093",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Hell Ship; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5195235-tough", 100]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "3f72df0f-4f32-45fd-afea-606aa32b4279",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Hell Ship; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "4904830-pirate", 200],
+            [1, "4904838-pirate-captain", 2300],
+            [1, "5194995-flameskull", 1100]
+        ]
+    },
+    {
+        "id": "5be3a7b9-a928-4a9a-93e8-672ad774443a",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Hell Ship; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194937-cambion", 1800],
+            [2, "5194920-bearded-devil", 700],
+            [2, "4904830-pirate", 200]
+        ]
+    },
+    {
+        "id": "df3ea2d0-6ef8-4d2e-a094-0d08efb80224",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Hell Ship; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194941-chain-devil", 3900],
+            [2, "5194917-barbed-devil", 1800]
+        ]
+    },
+    {
+        "id": "3945e722-d715-4e30-bfb5-93e3a17db252",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Moving Mountains",
+        "allies": [],
+        "bystanders": [
+            [1, "5195107-lizardfolk-geomancer", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "73603678-7e32-41ba-abc9-0b1a7f69375b",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Moving Mountains; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5194994-fire-giant", 5000]
+        ]
+    },
+    {
+        "id": "697c3579-574a-472d-934f-071d5f027c11",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Moving Mountains; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194958-dao", 7200]
+        ]
+    },
+    {
+        "id": "11efeb0d-8bbd-4b5a-ae2c-685748d05f77",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Summerlight Ceremony",
+        "allies": [],
+        "bystanders": [
+            [1, "4831023-mage", 2300]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "a111f48a-619d-4ede-a323-81ad6efd4770",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Summerlight Ceremony; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5194908-azer-pyromancer", 2300]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "6983211a-6121-4582-86e1-2d5762c2df4c",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Summerlight Ceremony; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "5900660-drow-of-lolth", 50],
+            [2, "5900658-drow-elite-warrior-of-lolth", 1800],
+            [1, "5900661-drow-priestess-of-lolth", 3900]
+        ]
+    },
+    {
+        "id": "bcc56af3-024b-42da-85c3-e716c9ba80bf",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Summerlight Ceremony; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195236-treant", 5000]
+        ]
+    },
+    {
+        "id": "db559ec5-6316-46d3-b916-77e8e346d2fc",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Summerlight Ceremony; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195181-remorhaz", 7200]
+        ]
+    },
+    {
+        "id": "c93f1d69-0714-46d3-97b6-dd83912ed077",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Vault of Velsharoon; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195070-haunting-revenant", 5900]
+        ]
+    },
+    {
+        "id": "e015c92d-c3a4-4c9d-a3a1-1fa1d694577e",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Vault of Velsharoon; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194962-death-knight-aspirant", 7200]
+        ]
+    },
+    {
+        "id": "12e9445f-7f3d-4df8-aa52-f49022c16016",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Vault of Velsharoon; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194962-death-knight-aspirant", 7200]
+        ]
+    },
+    {
+        "id": "4fb4e744-d4f0-4186-887a-b56f7201cc93",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Vault of Velsharoon; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195116-marid", 7200]
+        ]
+    },
+    {
+        "id": "7884aa5b-6098-4ae3-909b-d3bf859c6847",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Vault of Velsharoon; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904850-stone-golem", 5900]
+        ]
+    },
+    {
+        "id": "1fd4a911-55cc-4f4a-b684-f350de7c5651",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Dragon Orb",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904746-cultist-fanatic", 450]
+        ]
+    },
+    {
+        "id": "e4778e07-8824-47e9-a004-9a8c9072a2e4",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Dragon Orb; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "5194996-flaming-skeleton", 700],
+            [5, "5195143-nightmare", 700]
+        ]
+    },
+    {
+        "id": "8df4ca2b-5b8d-481c-9567-aa5127536255",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Dragon Orb; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5195241-troll", 1800]
+        ]
+    },
+    {
+        "id": "4c0bb05b-0023-44cc-87d1-d877a04fcd10",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Dragon Orb; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195283-young-green-dragon", 3900]
+        ]
+    },
+    {
+        "id": "0dadf46f-7f77-41d1-ab49-6ce68db289da",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Dragon Orb; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195060-grick-ancient", 2900],
+            [6, "5195061-grick", 450]
+        ]
+    },
+    {
+        "id": "3103602a-be09-43c5-941c-3a70cdd18b10",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Dragon Orb; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195288-yuan-ti-abomination", 2900],
+            [4, "5195290-yuan-ti-malison-type-1", 700]
+        ]
+    },
+    {
+        "id": "ae92548d-d777-442e-b0d0-0d012802785f",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Dragon Orb; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194956-cyclops-oracle", 5900],
+            [1, "5194957-cyclops-sentry", 2300]
+        ]
+    },
+    {
+        "id": "df932dd9-c72b-4413-97ef-e6a7e34d3d01",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Dragon Orb",
+        "allies": [],
+        "bystanders": [
+            [1, "5194872-adult-copper-dragon", 11500]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "3cc772e2-1d16-4646-bccb-339ebc190b2c",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Dragon Orb; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904746-cultist-fanatic", 450],
+            [4, "4904883-tough-boss", 1100]
+        ]
+    },
+    {
+        "id": "cb067fb7-ca2b-48b1-9b02-77dec04e9f03",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Echoes of the Shaking Plague; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194913-bandit-crime-lord", 7200],
+            [1, "5194903-archpriest", 8400]
+        ]
+    },
+    {
+        "id": "da6e9c21-337c-4e32-b081-800278ea3f42",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Echoes of the Shaking Plague; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904883-tough-boss", 1100]
+        ]
+    },
+    {
+        "id": "207024c3-5e40-42ea-bd1b-29d659b2bec8",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Echoes of the Shaking Plague; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904838-pirate-captain", 2300]
+        ]
+    },
+    {
+        "id": "5dbacc58-8ffa-4254-a21e-2189ed39bcc4",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Echoes of the Shaking Plague; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5195182-revenant", 1800]
+        ]
+    },
+    {
+        "id": "cd9e938e-04ea-482e-bd40-95a033228702",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Echoes of the Shaking Plague; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195253-violet-fungus-necrohulk", 2900]
+        ]
+    },
+    {
+        "id": "744beae9-0bf7-42bc-a7a8-20100ee2fac8",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Ashen Faithful; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5195145-noble", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "8f42fc30-e41f-4d7a-901a-ab262185a466",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Ashen Faithful; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195064-guard-captain", 1100],
+            [3, "5195260-warrior-veteran", 700],
+            [1, "5195170-priest", 450],
+            [1, "5194904-assassin", 3900]
+        ]
+    },
+    {
+        "id": "e2245f34-967b-44f4-b55b-4176fb47c283",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Ashen Faithful; Encounters",
+        "allies": [],
+        "bystanders": [
+            [9, "5195145-noble", 25]
+        ],
+        "enemies": [
+            [2, "5195042-gladiator", 1800],
+            [3, "5194920-bearded-devil", 700],
+            [1, "5194955-cultist-hierophant", 5900, 3],
+            [2, "5195042-gladiator", 1800, 3]
+        ]
+    },
+    {
+        "id": "b29d2212-5e61-40d7-bf67-9e516a839c07",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Ashen Faithful; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195086-ice-devil", 11500]
+        ]
+    },
+    {
+        "id": "4c29a40c-d4fc-49b2-abd4-f5c42cc9b1fd",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Silk and Suffering; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195185-roper", 1800],
+            [8, "5195158-phase-spider", 700]
+        ]
+    },
+    {
+        "id": "545e8f5a-8df7-4fd1-ac96-ac9fc5c9562c",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Silk and Suffering; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195276-yochlol", 5900]
+        ]
+    },
+    {
+        "id": "a9ccac3c-ebf2-42a9-99e3-9bcf28d7950f",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Silk and Suffering; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5900661-drow-priestess-of-lolth", 3900]
+        ]
+    },
+    {
+        "id": "314e308a-5126-49bc-b9dc-38847117f926",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Silk and Suffering; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5194975-drider", 2300]
+        ]
+    },
+    {
+        "id": "8cdd6075-3196-4822-b848-68c285a58bdc",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Silk and Suffering; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5194975-drider", 2300]
+        ]
+    },
+    {
+        "id": "a32d00a9-0f31-4b7b-aeb1-59a33a8c25e1",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Silk and Suffering; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195251-vampire", 10000],
+            [2, "5195072-helmed-horror", 1100]
+        ]
+    },
+    {
+        "id": "6f11bf52-9ecf-4883-9cab-87e33c0ec871",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Silk and Suffering; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [11, "4775821-giant-spider", 200]
+        ]
+    },
+    {
+        "id": "395f9210-d183-4b70-8253-2ab6f8c01e70",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Flying Fortress",
+        "allies": [
+            [5, "5195273-wyvern", 2300]
+        ],
+        "bystanders": [],
+        "enemies": []
+    },
+    {
+        "id": "c5fb44ee-1968-4324-a532-3e8a5394d2eb",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Flying Fortress; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5195042-gladiator", 1800],
+            [4, "5195273-wyvern", 2300]
+        ]
+    },
+    {
+        "id": "272f61e0-d8f5-44f9-89f2-fb183f171d1c",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Flying Fortress; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5195277-young-black-dragon", 2900]
+        ]
+    },
+    {
+        "id": "90b24c32-5ca3-4c13-84ad-e60bc752512d",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Flying Fortress; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194902-archmage", 8000],
+            [5, "5195068-half-dragon", 1800]
+        ]
+    },
+    {
+        "id": "90b24c32-5ca3-4c13-84ad-e60bc752512d",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Flying Fortress; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194902-archmage", 8000]
+        ]
+    },
+    {
+        "id": "90b24c32-5ca3-4c13-84ad-e60bc752512d",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Flying Fortress; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "5195068-half-dragon", 1800]
+        ]
+    },
+    {
+        "id": "2dca787b-62e1-47f8-a0da-eb175263d60f",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Flying Fortress; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195201-shadow-dragon-huge", 11500]
+        ]
+    },
+    {
+        "id": "3b8bd8ee-0bca-43e3-ac55-97d92c035b51",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Foehammer Horn; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195258-warrior-commander", 5900],
+            [1, "5194924-berserker-commander", 3900],
+            [1, "5195036-githyanki-knight", 3900]
+        ]
+    },
+    {
+        "id": "3cc42770-6c95-4dff-ab83-a0492e1e068b",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Foehammer Horn; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "4904850-stone-golem", 5900]
+        ]
+    },
+    {
+        "id": "537b1eda-5dbd-456c-87f1-1c75390c3e1a",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Foehammer Horn; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "5195072-helmed-horror", 1100]
+        ]
+    },
+    {
+        "id": "17669a5a-6462-4910-bb92-713962f6d05a",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Foehammer Horn; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5195042-gladiator", 1800],
+            [9, "4904621-berserker", 450]
+        ]
+    },
+    {
+        "id": "1dc8c92e-8a14-4cf6-b45e-bedc6ec59ed0",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Foehammer Horn; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195177-questing-knight", 8400],
+            [1, "5194924-berserker-commander", 3900, 3]
+        ]
+    },
+    {
+        "id": "b393da1a-7250-4f6c-85d7-58f561700660",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Blight on Soubar",
+        "allies": [],
+        "bystanders": [
+            [1, "5194976-druid", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "58e4b04b-f4b3-4024-a2b8-03e284a046aa",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Blight on Soubar; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "5195249-vampire-spawn", 1800]
+        ]
+    },
+    {
+        "id": "63bfcbce-5a06-4589-8952-5dc9b15497bf",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Blight on Soubar; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194869-adult-black-dragon", 11500]
+        ]
+    },
+    {
+        "id": "48dcfdc6-70f6-4af5-8480-610cd8722b6d",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; The Blight on Soubar; Encounters",
+        "allies": [],
+        "bystanders": [
+            [4, "5194951-commoner", 10]
+        ],
+        "enemies": [
+            [6, "5195255-vrock", 2300]
+        ]
+    },
+    {
+        "id": "94eabe72-4b45-4aa9-9597-4d8150f4c8bf",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Mystery of Myth Rodarnum",
+        "allies": [],
+        "bystanders": [
+            [1, "5195066-guardian-naga", 5900]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "60d69207-8922-4230-9578-85834b5f7182",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Mystery of Myth Rodarnum; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5194969-dire-worg", 5900]
+        ]
+    },
+    {
+        "id": "edf4201e-3b90-4079-aacf-19c3e9cafb37",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; A Restless Eternity; Encounters; 1d8:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194877-adult-white-dragon", 10000]
+        ]
+    },
+    {
+        "id": "9dedea38-d89d-441c-9a94-4e11972e083a",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; A Restless Eternity; Encounters; 1d8:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "5195096-kobold-warrior", 25],
+            [1, "5195068-half-dragon", 1800]
+        ]
+    },
+    {
+        "id": "f92c77d5-4326-4606-805b-a6d18d9b440d",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; A Restless Eternity; Encounters; 1d8:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5195272-winter-wolf", 700],
+            [1, "5194969-dire-worg", 5900]
+        ]
+    },
+    {
+        "id": "76e1da1c-17ec-43d7-b591-29fb46d4b22f",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; A Restless Eternity; Encounters; 1d8:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "5174960-wraith", 1800]
+        ]
+    },
+    {
+        "id": "6570d7c0-2583-4764-9d18-5f3dcd35b39c",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; A Restless Eternity; Encounters; 1d8:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195078-hobgoblin-warlord", 2300],
+            [5, "5195079-hobgoblin-warrior", 2000]
+        ]
+    },
+    {
+        "id": "6570d7c0-2583-4764-9d18-5f3dcd35b39c",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; A Restless Eternity; Encounters; 1d8:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195078-hobgoblin-warlord", 2300],
+            [100, "5195079-hobgoblin-warrior", 100]
+        ]
+    },
+    {
+        "id": "7c53e251-6079-4740-afd2-b3d11d95c186",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; A Restless Eternity; Encounters; 1d8:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195001-frost-giant", 3900]
+        ]
+    },
+    {
+        "id": "44045d40-7035-4029-a964-5ff7026aec09",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; A Restless Eternity; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194877-adult-white-dragon", 11500],
+            [4, "5195068-half-dragon", 1800]
+        ]
+    },
+    {
+        "id": "54bdc222-434f-4eda-bd22-ee4cbb54cb0b",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; A Restless Eternity; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194955-cultist-hierophant", 5900],
+            [2, "5194993-fiend-cultist", 3900],
+            [8, "5195044-gnoll-fang-of-yeenoghu", 1100]
+        ]
+    },
+    {
+        "id": "ade9c453-9702-4779-ae4f-ab65f617e916",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; A Restless Eternity; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5195255-vrock", 2300]
+        ]
+    },
+    {
+        "id": "817b90ca-5037-4c40-b4a1-a64ea0433fb0",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; A Restless Eternity; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4831023-mage", 2300],
+            [2, "5194904-assassin", 3900]
+        ]
+    },
+    {
+        "id": "4f3385d0-3c4a-4021-aaa4-494363210dae",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; A Restless Eternity; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195053-goristro", 18000]
+        ]
+    },
+    {
+        "id": "728ebd92-8db2-4d44-9449-96acf1622643",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Dread March of the Bone Titan; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "5195249-vampire-spawn", 1800]
+        ]
+    },
+    {
+        "id": "98dcb22f-9ead-4fd8-8cb4-272bddcd8bde",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Dread March of the Bone Titan; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "5194997-flesh-golem", 1800]
+        ]
+    },
+    {
+        "id": "9fc78888-e207-425a-ba18-ef0d3a434ba3",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Dread March of the Bone Titan; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5194962-death-knight-aspirant", 7200]
+        ]
+    },
+    {
+        "id": "a44e2cf4-8fd8-4a59-96d5-817d1e7e4d81",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Dread March of the Bone Titan; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "5194960-death-cultist", 3900]
+        ]
+    },
+    {
+        "id": "d7cb0c69-97e2-4859-a563-24595e6d31cb",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Dread March of the Bone Titan; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "5194960-death-cultist", 3900]
+        ]
+    },
+    {
+        "id": "9cfc7455-1077-4877-b0df-921cdc524e3d",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Dread March of the Bone Titan",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194902-archmage", 8000]
+        ]
+    },
+    {
+        "id": "8eee23c8-5252-488d-b303-214080170ace",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Heart of Fire",
+        "allies": [],
+        "bystanders": [
+            [1, "5194903-archpriest", 8400]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "4ef7780b-b64e-491e-9b47-3ff84723fa99",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Heart of Fire; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194913-bandit-crime-lord", 7200],
+            [1, "5195216-spy-master", 5900],
+            [2, "5194904-assassin", 3900]
+        ]
+    },
+    {
+        "id": "46c2a2c7-26bb-431a-9934-c6ee6807908a",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Heart of Fire; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194955-cultist-hierophant", 5900],
+            [1, "5195284-young-red-dragon", 5900],
+            [2, "4904758-fire-elemental", 1800]
+        ]
+    },
+    {
+        "id": "3a1ba5e7-62c1-4fb1-a786-845dbadb421b",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Heart of Fire; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195193-salamander", 1800],
+            [1, "5195192-salamander-inferno-master", 13000]
+        ]
+    },
+    {
+        "id": "1d3088ba-cf7c-454e-bf92-27ced7bda09b",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Heart of Fire; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5195068-half-dragon", 1800],
+            [1, "5194993-fiend-cultist", 3900]
+        ]
+    },
+    {
+        "id": "e9450276-a4f0-4baa-a200-cd4a99056a38",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 1: Running the Realms; Adventures; Heart of Fire",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194875-adult-red-dragon", 20000]
+        ]
+    },
+    {
+        "id": "2d1e68bf-19cc-43e9-969c-0926a805db95",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; DM\u2019s Toolbox; Encounters in Cormanthor; Cormanthor Encounters; 1d20:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4775850-wolf", 50]
+        ]
+    },
+    {
+        "id": "26b8aa01-16fe-4334-9198-b9e3f05ecff3",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; DM\u2019s Toolbox; Encounters in Cormanthor; Cormanthor Encounters; 1d20:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195050-goblin-warrior", 50],
+            [1, "4831031-worg", 100]
+        ]
+    },
+    {
+        "id": "ded23441-3d4b-42dc-ada0-c6fc18fabe4e",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; DM\u2019s Toolbox; Encounters in Cormanthor; Cormanthor Encounters; 1d20:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194977-dryad", 200]
+        ]
+    },
+    {
+        "id": "382ccccb-6cb9-43ab-825d-c32fc329dc01",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; DM\u2019s Toolbox; Encounters in Cormanthor; Cormanthor Encounters; 1d20:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5194970-displacer-beast", 700]
+        ]
+    },
+    {
+        "id": "6b9c2808-6da4-4ef7-ab91-9a46d4a7764f",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; DM\u2019s Toolbox; Encounters in Cormanthor; Cormanthor Encounters; 1d20:7",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195046-gnoll-warrior", 100]
+        ]
+    },
+    {
+        "id": "2eb45bf0-b8e9-4d6c-8542-ec167e70b60f",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; DM\u2019s Toolbox; Encounters in Cormanthor; Cormanthor Encounters; 1d20:8",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195197-scout-captain", 700],
+            [1, "5174957-scout", 100]
+        ]
+    },
+    {
+        "id": "c753c7b5-eac4-4d3f-a340-8c96b3113cdc",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; DM\u2019s Toolbox; Encounters in Cormanthor; Cormanthor Encounters; 1d20:9",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195203-shambling-mound", 1800]
+        ]
+    },
+    {
+        "id": "132d2a4c-945c-4ac0-abdb-4f55841be4a6",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; DM\u2019s Toolbox; Encounters in Cormanthor; Cormanthor Encounters; 1d20:10",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195171-primeval-owlbear", 2900]
+        ]
+    },
+    {
+        "id": "03af6640-98ba-4a68-a54e-240ed87f6667",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; DM\u2019s Toolbox; Encounters in Cormanthor; Cormanthor Encounters; 1d20:11",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4775841-skeleton", 50]
+        ]
+    },
+    {
+        "id": "b2916797-3e36-49ec-90fa-6ea87c7b97a3",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; DM\u2019s Toolbox; Encounters in Cormanthor; Cormanthor Encounters; 1d20:12",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4831023-mage", 2300],
+            [2, "5195260-warrior-veteran", 700]
+        ]
+    },
+    {
+        "id": "71f5fe2a-9153-438e-9676-10bdfcb3d7d4",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; DM\u2019s Toolbox; Encounters in Cormanthor; Cormanthor Encounters; 1d20:13",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195283-young-green-dragon", 3900]
+        ]
+    },
+    {
+        "id": "704cda47-78cd-4f54-abc9-550390de5b3d",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; DM\u2019s Toolbox; Encounters in Cormanthor; Cormanthor Encounters; 1d20:14",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195006-ghast-gravecaller", 2300],
+            [1, "5195009-ghoul", 200]
+        ]
+    },
+    {
+        "id": "6eb9bb33-c2f9-4fce-a32c-961144af7707",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; DM\u2019s Toolbox; Encounters in Cormanthor; Cormanthor Encounters; 1d20:15",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5900678-spore-of-moander", 8400]
+        ]
+    },
+    {
+        "id": "d8f90f13-6041-4d27-980b-99b74f1928b5",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; DM\u2019s Toolbox; Encounters in Cormanthor; Cormanthor Encounters; 1d20:16",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195147-nycaloth", 5000],
+            [1, "5195122-mezzoloth", 1800]
+        ]
+    },
+    {
+        "id": "263813a5-8898-4153-9a2e-c755f923253f",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; DM\u2019s Toolbox; Encounters in Cormanthor; Cormanthor Encounters; 1d20:17",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195106-lich", 33000],
+            [1, "5194960-death-cultist", 3900]
+        ]
+    },
+    {
+        "id": "cae20a91-833b-489d-89e4-c13bc2ee7818",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; DM\u2019s Toolbox; Encounters in Cormanthor; Cormanthor Encounters; 1d20:18",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194904-assassin", 3900]
+        ]
+    },
+    {
+        "id": "005b0f01-8b80-4242-8fe7-4b30d0f589c0",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; DM\u2019s Toolbox; Encounters in Cormanthor; Cormanthor Encounters; 1d20:19",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195067-gulthias-blight", 15000]
+        ]
+    },
+    {
+        "id": "bac7edc9-31cc-4aad-871e-a8b907007df7",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; DM\u2019s Toolbox; Encounters in Cormanthor; Cormanthor Encounters; 1d20:20",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194902-archmage", 8000],
+            [1, "5195177-questing-knight", 8400]
+        ]
+    },
+    {
+        "id": "80f1863d-3e12-479d-b3a9-9a2328e9b6af",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; The Tomb of Damara; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195009-ghoul", 200]
+        ]
+    },
+    {
+        "id": "899bf81c-7a36-4032-ac6c-8b82b851d3c8",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; The Tomb of Damara; Encounters",
+        "allies": [],
+        "bystanders": [
+            [4, "5194951-commoner", 10]
+        ],
+        "enemies": [
+            [1, "5195077-hobgoblin-captain", 700],
+            [2, "5195079-hobgoblin-warrior", 100]
+        ]
+    },
+    {
+        "id": "c9d73ebc-3d79-46d8-bed0-74e9bbb688b6",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; The Tomb of Damara; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5195020-giant-frog", 50]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "61d08369-566b-4e1e-9b71-0e5d5ae0dae1",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; The Tomb of Damara; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "5195025-giant-rat", 25]
+        ]
+    },
+    {
+        "id": "7cd431f9-d8c7-4d2f-aca1-8bb33813351f",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; The Tomb of Damara; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195210-specter", 200],
+            [2, "4775850-wolf", 50]
+        ]
+    },
+    {
+        "id": "14c5e2cc-d905-45a7-ad6b-502e61b13063",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; The Tomb of Damara; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194938-carrion-crawler", 450]
+        ]
+    },
+    {
+        "id": "402b7958-abfa-41bf-95a7-dcfe66c5b4a1",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; The Tomb of Damara; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195005-gelatinous-cube", 450]
+        ]
+    },
+    {
+        "id": "97202078-cc0c-48ff-9ac6-cd37fd5d4cea",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; The Tomb of Damara; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195135-mummy", 700],
+            [2, "5174958-shadow", 100]
+        ]
+    },
+    {
+        "id": "f2b7de09-29f0-42b2-8a19-664dfec1847a",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; Restoring Freedale; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5194995-flameskull", 1100]
+        ]
+    },
+    {
+        "id": "15e8a7aa-bcb1-4b1a-8696-78021f1cb9a8",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; Restoring Freedale; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [7, "5174958-shadow", 100]
+        ]
+    },
+    {
+        "id": "0752469a-83b5-4385-b17a-e0f1549c79cf",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; Restoring Freedale; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195248-vampire-nightbringer", 3900]
+        ]
+    },
+    {
+        "id": "59967262-30e9-4da1-9765-84f68059b07a",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; Restoring Freedale; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195204-shield-guardian", 2900]
+        ]
+    },
+    {
+        "id": "719c9396-0b88-4b62-b06e-2fc01f6bb9e1",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; Restoring Freedale; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195006-ghast-gravecaller", 2300],
+            [3, "5195009-ghoul", 200]
+        ]
+    },
+    {
+        "id": "06699d27-71b4-4be8-b814-233b06ea5eea",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; Restoring Freedale; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "4904636-cultist", 25],
+            [1, "5194960-death-cultist", 3900]
+        ]
+    },
+    {
+        "id": "6b61d1b4-ead8-48ef-8900-7d6081912b7d",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; Restoring Freedale; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904883-tough-boss", 1100],
+            [2, "5195235-tough", 100],
+            [4, "4775812-dire-wolf", 200]
+        ]
+    },
+    {
+        "id": "ecb42935-2724-49dc-8da4-8072825406da",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; Restoring Freedale; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5194920-bearded-devil", 700]
+        ]
+    },
+    {
+        "id": "38ee4b56-8e2a-4a2f-bb1c-27e178d0bd2a",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; Restoring Freedale; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194904-assassin", 3900],
+            [5, "5195235-tough", 100]
+        ]
+    },
+    {
+        "id": "a31b0926-1fae-4bf4-b2fa-63115b76e7e4",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; The Temple of Transmutation; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5195065-guard", 25],
+            [1, "4831023-mage", 2300]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "f5b93caf-03f1-4cad-9a59-c01b4e6bf0db",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; The Temple of Transmutation; Encounters",
+        "allies": [],
+        "bystanders": [
+            [4, "5194951-commoner", 10]
+        ],
+        "enemies": [
+            [1, "5194944-chuul", 1100],
+            [1, "5194990-ettin", 1100],
+            [1, "5194995-flameskull", 1100],
+            [1, "5195072-helmed-horror", 1100]
+        ]
+    },
+    {
+        "id": "f4999a53-7780-4525-ae1d-208a510e06ce",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; The Temple of Transmutation; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195243-tyrannosaurus-rex", 3900]
+        ]
+    },
+    {
+        "id": "29f7547a-b69a-4024-bbc5-f167d65dce78",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; The Temple of Transmutation; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195241-troll", 1800],
+            [1, "5195245-umber-hulk", 1800]
+        ]
+    },
+    {
+        "id": "e4acfbec-ff1a-402a-82c3-f56def21f8f3",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; The Temple of Transmutation; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "5195269-wight", 700]
+        ]
+    },
+    {
+        "id": "c694f11c-4e9b-46de-9273-4fd34f3c6fb3",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; The Temple of Transmutation; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195275-yeti", 700]
+        ]
+    },
+    {
+        "id": "d5b7730b-c210-4501-903a-2f876c27f2f3",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; The Temple of Transmutation; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194957-cyclops-sentry", 2300]
+        ]
+    },
+    {
+        "id": "cbbedf69-a98d-4d8b-9f72-12802c21f612",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; The Temple of Transmutation; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5194943-chimera", 2300],
+            [1, "5194975-drider", 2300],
+            [1, "5195118-medusa", 2300]
+        ]
+    },
+    {
+        "id": "604fa07b-c702-4241-936c-e75236b418b1",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; The Temple of Transmutation; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195278-young-blue-dragon", 5000]
+        ]
+    },
+    {
+        "id": "3f467969-7618-4962-b33c-889ec352231f",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 2: The Dalelands; The Temple of Transmutation; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194969-dire-worg", 5900]
+        ]
+    },
+    {
+        "id": "4fda8f76-e4ed-43d8-b20f-8c646fccd939",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; DM\u2019s Toolbox; Icewind Dale Bastions; Bastion Events",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5900686-zlan", 20000]
+        ]
+    },
+    {
+        "id": "67fd247f-60f0-494e-b7dc-50ebf1070443",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; DM\u2019s Toolbox; Abroad in Icewind Dale; Ten-Towns Encounters; 1d10:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "4775825-imp", 200]
+        ]
+    },
+    {
+        "id": "c3be20a6-bf5d-48b7-b7a5-359ebe59a45e",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; DM\u2019s Toolbox; Abroad in Icewind Dale; Ten-Towns Encounters; 1d10:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195235-tough", 100]
+        ]
+    },
+    {
+        "id": "3138a122-d7ce-4b3b-8fa5-1b9e23a3f23b",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; DM\u2019s Toolbox; Abroad in Icewind Dale; Ten-Towns Encounters; 1d10:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904621-berserker", 450]
+        ]
+    },
+    {
+        "id": "c29fa548-f57b-4054-9082-d25712d01b59",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; DM\u2019s Toolbox; Abroad in Icewind Dale; Ten-Towns Encounters; 1d10:7",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195170-priest", 450]
+        ]
+    },
+    {
+        "id": "6188c57e-fa2d-48c3-a338-49091101fb40",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; DM\u2019s Toolbox; Abroad in Icewind Dale; Ten-Towns Encounters; 1d10:9",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [12, "5195001-frost-giant", 3900],
+            [1, "5195112-mammoth", 2300]
+        ]
+    },
+    {
+        "id": "5ecc6beb-46b5-4a7d-9ca0-dd4c85608dd8",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; DM\u2019s Toolbox; Abroad in Icewind Dale; Wilderness Encounters; 1d10:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "4775850-wolf", 50]
+        ]
+    },
+    {
+        "id": "0cca380c-6254-424f-929b-cc9bebbfcfb3",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; DM\u2019s Toolbox; Abroad in Icewind Dale; Wilderness Encounters; 1d10:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195181-remorhaz", 7200]
+        ]
+    },
+    {
+        "id": "d3b92370-62e6-4b2c-84be-d9c59e3f8783",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; DM\u2019s Toolbox; Abroad in Icewind Dale; Wilderness Encounters; 1d10:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194983-elemental-cultist", 3900]
+        ]
+    },
+    {
+        "id": "f8f894c8-234e-4225-9e70-bcc6d90fc13f",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; DM\u2019s Toolbox; Abroad in Icewind Dale; Wilderness Encounters; 1d10:7",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194877-adult-white-dragon", 10000]
+        ]
+    },
+    {
+        "id": "c5513cbd-cd8b-4d5e-b09f-f3cd92487a77",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; DM\u2019s Toolbox; Abroad in Icewind Dale; Wilderness Encounters; 1d10:9",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195235-tough", 100]
+        ]
+    },
+    {
+        "id": "6350505b-ab51-4e87-a397-189d705bdc18",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; The Cost of Warmth",
+        "allies": [],
+        "bystanders": [
+            [1, "5195260-warrior-veteran", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "8443831b-4683-4a66-89e9-4a37aedf6656",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; The Cost of Warmth; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "4775850-wolf", 50]
+        ]
+    },
+    {
+        "id": "e8a5eb34-d095-48cc-bdd7-b8d875788e89",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; The Cost of Warmth; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904746-cultist-fanatic", 450],
+            [3, "4904636-cultist", 25]
+        ]
+    },
+    {
+        "id": "9664ef5f-c3db-407d-9a1b-1644855e5b6c",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; The Cost of Warmth; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "4775825-imp", 200]
+        ]
+    },
+    {
+        "id": "02e5a752-6ec2-43ad-9d98-e4e470b16cc1",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; The Cost of Warmth; Encounters; 1d4:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "4904746-cultist-fanatic", 450]
+        ]
+    },
+    {
+        "id": "57fcbd6b-0da7-4a47-99c2-60f962dbbfbd",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; The Cost of Warmth; Encounters; 1d4:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195217-spy", 200]
+        ]
+    },
+    {
+        "id": "110fbe74-444b-41dc-88c7-318d89b8bc89",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; The Cost of Warmth; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904621-berserker", 450],
+            [4, "5195087-ice-mephit", 100]
+        ]
+    },
+    {
+        "id": "c6a8d3ab-abd3-4bc1-97e4-32ea5be3e101",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; Retaking the Terror",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195170-priest", 450]
+        ]
+    },
+    {
+        "id": "7e2e7fa2-8211-4068-a0c5-a915b3a609d6",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; Retaking the Terror; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5174960-wraith", 1800]
+        ]
+    },
+    {
+        "id": "ea0a6003-e07b-4d78-bd0f-500af3664eb7",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; Retaking the Terror; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195210-specter", 200],
+            [1, "5195168-poltergeist", 450]
+        ]
+    },
+    {
+        "id": "8adde76d-b8ff-4443-8582-bb3dde446474",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; Retaking the Terror; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "4904776-gray-ooze", 100]
+        ]
+    },
+    {
+        "id": "8337e938-9e71-4073-b59e-10528b015d47",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; Retaking the Terror; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195151-otyugh", 1800]
+        ]
+    },
+    {
+        "id": "33261441-a070-45aa-99b5-185d9581abe7",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; Dougan\u2019s Hell; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5195235-tough", 100],
+            [1, "5195217-spy", 200]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "d2d957d3-e6a3-4c40-aa51-d35b944670fd",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; Dougan\u2019s Hell; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904746-cultist-fanatic", 450],
+            [5, "4904621-berserker", 450]
+        ]
+    },
+    {
+        "id": "2cac932a-b5a3-4d41-a32b-638cf65a8639",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; Dougan\u2019s Hell; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5195069-harpy", 200],
+            [1, "5194938-carrion-crawler", 450]
+        ]
+    },
+    {
+        "id": "6a17fdac-39e2-45aa-aa0d-c0f70be10999",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; Dougan\u2019s Hell; Encounters; Dougan\u2019s Warren; 1d6:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904746-cultist-fanatic", 450],
+            [5, "5195050-goblin-warrior", 50]
+        ]
+    },
+    {
+        "id": "079edc3c-7e61-44ec-8b65-b6c3ca77b829",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; Dougan\u2019s Hell; Encounters; Dougan\u2019s Warren; 1d6:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904746-cultist-fanatic", 450],
+            [3, "4904621-berserker", 450]
+        ]
+    },
+    {
+        "id": "067c199b-3707-4221-9008-a038731a2054",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; Dougan\u2019s Hell; Encounters; Dougan\u2019s Warren; 1d6:4",
+        "allies": [],
+        "bystanders": [
+            [1, "5194951-commoner", 10],
+            [7, "5194951-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "b933212e-8999-46b0-b4ae-26cf33e884a6",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; Dougan\u2019s Hell; Encounters; Dougan\u2019s Warren; 1d6:6",
+        "allies": [],
+        "bystanders": [
+            [3, "5195259-warrior-infantry", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "61a1d2cc-3cdd-4a32-a0c4-940fe88391ed",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; Dougan\u2019s Hell; Encounters; Dougan\u2019s Warren",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5900650-beast-of-malar", 7200]
+        ]
+    },
+    {
+        "id": "2d9e160d-36e9-49e4-9495-91f5a6ed849e",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; What Wakes Below; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194923-beholder", 10000]
+        ]
+    },
+    {
+        "id": "cf0889a0-0591-46a3-8c3f-eb77ad0656b5",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; What Wakes Below",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5900645-adult-deep-dragon", 7200]
+        ]
+    },
+    {
+        "id": "3f438e32-01bf-4952-886c-3abaa696522e",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; What Wakes Below; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195070-haunting-revenant", 5900]
+        ]
+    },
+    {
+        "id": "2c32ff36-fc48-4c43-9fab-eb064144b52c",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; What Wakes Below; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5900645-adult-deep-dragon", 7200],
+            [1, "5900647-ancient-deep-dragon", 20000],
+            [1, "5900645-adult-deep-dragon", 7200]
+        ]
+    },
+    {
+        "id": "98cdf4dd-2bf9-4cc9-afda-52a4b836d02c",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; What Wakes Below; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5194925-black-pudding", 1100]
+        ]
+    },
+    {
+        "id": "fb7ddca3-e683-4485-8abc-ace3b6fa687c",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 3: Icewind Dale; What Wakes Below; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5195060-grick-ancient", 2900]
+        ]
+    },
+    {
+        "id": "7046fa65-def7-4c19-8bc7-86b3cf14ad1d",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Calimshan Bastions; Bastion Events",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194915-bandit", 25],
+            [1, "5195046-gnoll-warrior", 100],
+            [1, "5194983-elemental-cultist", 3900],
+            [1, "5194981-efreeti", 7200]
+        ]
+    },
+    {
+        "id": "add343d6-4870-4bc1-a09f-85c74b92bbd6",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Calimshan Bastions; Bastion Events",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194972-dracolich", 18000]
+        ]
+    },
+    {
+        "id": "31c385b0-41dc-47ea-95a0-e0d7008748b5",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calim Desert Encounters; 1d20:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194897-ankheg", 450]
+        ]
+    },
+    {
+        "id": "31aeea72-51dc-4dc4-9af6-c5a331e1feea",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calim Desert Encounters; 1d20:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195046-gnoll-warrior", 100],
+            [1, "5195021-giant-hyena", 200]
+        ]
+    },
+    {
+        "id": "241cc825-3f5c-4e4c-a93b-5088918c8532",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calim Desert Encounters; 1d20:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194915-bandit", 25],
+            [1, "5194912-bandit-captain", 450],
+            [1, "4775807-camel", 25]
+        ]
+    },
+    {
+        "id": "fafdb2c5-7127-4673-967f-1fc0f973f69b",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calim Desert Encounters; 1d20:7",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194976-druid", 450],
+            [1, "5174957-scout", 100]
+        ]
+    },
+    {
+        "id": "ac756ce4-1a95-4ee3-963e-4e8890bb2356",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calim Desert Encounters; 1d20:8",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195135-mummy", 700]
+        ]
+    },
+    {
+        "id": "a5cc5f0b-d4a8-441d-992e-ccf789f57e56",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calim Desert Encounters; 1d20:9",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194936-bulette", 1800]
+        ]
+    },
+    {
+        "id": "a0ddce1a-cebb-497d-b1c5-8a086695a603",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calim Desert Encounters; 1d20:10",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195118-medusa", 2300]
+        ]
+    },
+    {
+        "id": "7bb28e1c-1bef-48ef-bd5c-430c478ebb60",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calim Desert Encounters; 1d20:11",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195066-guardian-naga", 5900]
+        ]
+    },
+    {
+        "id": "9dd5e271-4c0a-4202-b513-68e3fe4d671a",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calim Desert Encounters; 1d20:12",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4831023-mage", 2300],
+            [1, "5194960-death-cultist", 3900],
+            [1, "4904636-cultist", 25],
+            [1, "5194881-ancient-blue-dragon", 50000],
+            [1, "5194972-dracolich", 18000]
+        ]
+    },
+    {
+        "id": "884e6376-5187-4b4e-ac9d-c11a050cbf54",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calim Desert Encounters; 1d20:14",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5174957-scout", 100]
+        ]
+    },
+    {
+        "id": "5557e999-5072-43f6-be9b-3a09d564e4ed",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calim Desert Encounters; 1d20:15",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195212-sphinx-of-secrets", 3900]
+        ]
+    },
+    {
+        "id": "04246101-df02-40e7-8af3-ad12c6431f06",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calim Desert Encounters; 1d20:16",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194902-archmage", 8000]
+        ]
+    },
+    {
+        "id": "c374619c-0599-412a-bc75-d5389aeb12a2",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calim Desert Encounters; 1d20:17",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194981-efreeti", 7200],
+            [1, "5194983-elemental-cultist", 3900],
+            [1, "4904636-cultist", 25]
+        ]
+    },
+    {
+        "id": "8186223b-a107-49ff-a00a-882d0903612c",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calim Desert Encounters; 1d20:18",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194881-ancient-blue-dragon", 50000]
+        ]
+    },
+    {
+        "id": "74ed8a08-620f-4543-b7a0-836da6178030",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calim Desert Encounters; 1d20:19",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194951-commoner", 10]
+        ]
+    },
+    {
+        "id": "c1188b11-57eb-4011-8cff-e0deb5ec1c04",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calimport Encounters; 1d20:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194873-adult-gold-dragon", 18000]
+        ]
+    },
+    {
+        "id": "1f0d426b-b8ae-40cc-9b80-e778774ab65f",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calimport Encounters; 1d20:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5195169-priest-acolyte", 50],
+            [1, "5195170-priest", 450]
+        ]
+    },
+    {
+        "id": "e22384cc-1a9b-41cb-8123-56931369a702",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calimport Encounters; 1d20:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904830-pirate", 200]
+        ]
+    },
+    {
+        "id": "501fc7a2-4946-476c-aa7a-05d0e23a3704",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calimport Encounters; 1d20:7",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194902-archmage", 8000],
+            [1, "5194980-earth-elemental", 1800]
+        ]
+    },
+    {
+        "id": "9329a49e-39fd-44e6-84ac-370ce68f8198",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calimport Encounters; 1d20:8",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194942-chasme", 2300]
+        ]
+    },
+    {
+        "id": "8edcb1ae-fe9e-498a-be58-f26da1d5c642",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calimport Encounters; 1d20:9",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194904-assassin", 3900],
+            [1, "5195145-noble", 25]
+        ]
+    },
+    {
+        "id": "7e8e0bb7-cc1f-4f1e-832d-0d634a091bee",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calimport Encounters; 1d20:10",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194984-empyrean-celestial"]
+        ]
+    },
+    {
+        "id": "da8dc33a-3277-4473-9bbf-d27b7f38cdfd",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calimport Encounters; 1d20:12",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195145-noble", 25]
+        ]
+    },
+    {
+        "id": "7646c8d0-edb5-49ef-8578-753fdca75a7a",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calimport Encounters; 1d20:13",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194951-commoner", 10]
+        ]
+    },
+    {
+        "id": "6b06dc3d-b3c9-4a35-bf23-a4b531c6aca9",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calimport Encounters; 1d20:14",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5174957-scout", 100]
+        ]
+    },
+    {
+        "id": "5ca83fc3-82f5-49b9-93f9-e3b974a8637b",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; DM\u2019s Toolbox; Encounters in Calimshan; Calimport Encounters; 1d20:17",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4831023-mage", 2300]
+        ]
+    },
+    {
+        "id": "bc2df794-b2c8-49e2-abf8-60f24ca33f48",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; Calim Crossing",
+        "allies": [],
+        "bystanders": [
+            [1, "5194951-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "4fe3e02f-a9b7-4700-8d01-1932df3143cb",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; Calim Crossing; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [8, "5195092-jackalwere", 100]
+        ]
+    },
+    {
+        "id": "4b2cbe94-d500-434f-bfef-4a4f4fb511fc",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; Calim Crossing; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195260-warrior-veteran", 700],
+            [1, "4775826-lion", 200]
+        ]
+    },
+    {
+        "id": "44425908-94a7-42e1-846a-52e8e0b6dae8",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; Calim Crossing; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195262-water-weird", 700]
+        ]
+    },
+    {
+        "id": "7c3c15e6-07ad-40f4-a896-aac039674a19",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; Calim Crossing; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195103-lamia", 1100],
+            [1, "4904758-fire-elemental", 1800]
+        ]
+    },
+    {
+        "id": "12723b8c-fbe0-4a22-8c8c-bafc6cf1312a",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; Gods Long Forgotten; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195072-helmed-horror", 1100]
+        ]
+    },
+    {
+        "id": "4d57c414-4394-4ccf-bfc4-fb09e956d8e8",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; Gods Long Forgotten; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194986-empyrean-iota-celestial", 200]
+        ]
+    },
+    {
+        "id": "1cb0528f-0d1a-4ffb-8c22-a992bbdf4cd0",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; Gods Long Forgotten; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195155-performer-maestro", 2300]
+        ]
+    },
+    {
+        "id": "5872a68f-1377-4967-b2a7-39a674f5c754",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; Gods Long Forgotten; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194953-couatl", 1100]
+        ]
+    },
+    {
+        "id": "fa174bd0-3030-46fb-822e-69b39466d047",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; Gods Long Forgotten; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195200-shadow-demon", 1100]
+        ]
+    },
+    {
+        "id": "011d3327-db00-46d4-a288-6a07b7d82fa1",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; The Dallabad Curse; Encounters; Oasis Encounters; 1d6:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195044-gnoll-fang-of-yeenoghu", 1100],
+            [1, "5195045-gnoll-pack-lord", 450],
+            [4, "5195046-gnoll-warrior", 100]
+        ]
+    },
+    {
+        "id": "a3ddb9cc-8e02-45c4-b060-56141b3f1861",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; The Dallabad Curse; Encounters; Oasis Encounters; 1d6:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195059-grell", 700],
+            [3, "5195061-grick", 450]
+        ]
+    },
+    {
+        "id": "63e04ff2-22d4-49d4-9555-0c78f49803c1",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; The Dallabad Curse; Encounters; Oasis Encounters; 1d6:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5195135-mummy", 700]
+        ]
+    },
+    {
+        "id": "b41dc485-58b5-425b-98b4-934f7f410cff",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; The Dallabad Curse; Encounters; Oasis Encounters; 1d6:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195006-ghast-gravecaller", 2300],
+            [4, "5195009-ghoul", 200]
+        ]
+    },
+    {
+        "id": "9f806916-412f-43bb-9b67-8f560dc5673f",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; The Dallabad Curse; Encounters; Oasis Encounters; 1d6: 5",
+        "allies": [],
+        "bystanders": [
+            [1, "5195008-ghost", 1100]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "b241b96f-38cb-458a-b918-dd9aa1e98663",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; The Dallabad Curse; Encounters; Oasis Encounters; 1d6:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5195088-intellect-devourer", 450]
+        ]
+    },
+    {
+        "id": "e6b384f1-e8c5-4a21-b318-6a2e09fdb1f8",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; The Dallabad Curse; Encounters; Oasis Encounters; 1d6:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195125-mind-flayer", 2900],
+            [1, "5195008-ghost", 1100]
+        ]
+    },
+    {
+        "id": "fd035961-73a9-4e76-8022-74ea5b432b5c",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; The Calimemnon Conspiracy; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194971-djinni", 7200]
+        ]
+    },
+    {
+        "id": "2a5e2735-174e-4b39-8d74-77823711b420",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; The Calimemnon Conspiracy; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194958-dao", 7200]
+        ]
+    },
+    {
+        "id": "f215710c-bbcb-41bc-9aff-76f7b40b4de5",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; The Calimemnon Conspiracy; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194981-efreeti", 7200]
+        ]
+    },
+    {
+        "id": "c1828da6-23d9-4364-b1db-8df80d81f5cd",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; The Calimemnon Conspiracy; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195116-marid", 7200]
+        ]
+    },
+    {
+        "id": "d2340b3b-9269-4629-8d5c-d451fec2fcb5",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; The Calimemnon Conspiracy; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195248-vampire-nightbringer", 3900],
+            [2, "5195249-vampire-spawn", 1800]
+        ]
+    },
+    {
+        "id": "fe48f349-6c5a-4808-bbec-848b86caf97d",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; The Calimemnon Conspiracy; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195055-gray-slaad", 5000],
+            [1, "5195180-red-slaad", 1800]
+        ]
+    },
+    {
+        "id": "15ad1ed7-a6ee-4bee-b784-6f13a85b1334",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; The Calimemnon Conspiracy; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195058-green-slaad", 3900],
+            [1, "5194929-blue-slaad", 2900]
+        ]
+    },
+    {
+        "id": "a5a1a664-c285-44cb-aad8-a014957f04f8",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; The Calimemnon Conspiracy; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5195180-red-slaad", 1800]
+        ]
+    },
+    {
+        "id": "8a401507-dd0f-4013-85aa-dd2ae3b7f95e",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 4: Calimshan; The Calimemnon Conspiracy; Encounters",
+        "allies": [
+            [1, "5195116-marid", 7200, 2]
+        ],
+        "bystanders": [],
+        "enemies": [
+            [1, "5900651-biha-babir", 8400]
+        ]
+    },
+    {
+        "id": "28d6b218-9d64-4bbb-9393-58346621081d",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; DM\u2019s Toolbox; Sailing the Sea of Moonshae; Sea of Moonshae Encounters; 1d20:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4831017-bullywug-warrior", 50]
+        ]
+    },
+    {
+        "id": "77333f5d-dafb-47b3-8561-e876f9e2aa21",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; DM\u2019s Toolbox; Sailing the Sea of Moonshae; Sea of Moonshae Encounters; 1d20:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195083-hunter-shark", 450]
+        ]
+    },
+    {
+        "id": "f1a4722e-9486-4fd6-8ead-549ae4812821",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; DM\u2019s Toolbox; Sailing the Sea of Moonshae; Sea of Moonshae Encounters; 1d20:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195119-merfolk-skirmisher", 25]
+        ]
+    },
+    {
+        "id": "c92ac622-f336-41b6-abcf-9cf0a40d76e5",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; DM\u2019s Toolbox; Sailing the Sea of Moonshae; Sea of Moonshae Encounters; 1d20:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195095-killer-whale", 700]
+        ]
+    },
+    {
+        "id": "fe3dc732-7e14-4b5d-ac94-c4e733c1ce5b",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; DM\u2019s Toolbox; Sailing the Sea of Moonshae; Sea of Moonshae Encounters; 1d20:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195145-noble", 25]
+        ]
+    },
+    {
+        "id": "628f682a-c28e-4e91-9607-7d6b9d50691f",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; DM\u2019s Toolbox; Sailing the Sea of Moonshae; Sea of Moonshae Encounters; 1d20:10",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195190-sahuagin-warrior", 100],
+            [1, "4775838-reef-shark", 100]
+        ]
+    },
+    {
+        "id": "a4c43c83-b917-4a89-bfed-104b7ceccd0e",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; DM\u2019s Toolbox; Sailing the Sea of Moonshae; Sea of Moonshae Encounters; 1d20:11",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195166-plesiosaurus", 450]
+        ]
+    },
+    {
+        "id": "1cdafe3c-fd36-41e6-a5dd-d64ae21ff3ed",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; DM\u2019s Toolbox; Sailing the Sea of Moonshae; Sea of Moonshae Encounters; 1d20:13",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195027-giant-shark", 1800]
+        ]
+    },
+    {
+        "id": "982c120d-8c20-4d20-bc74-0182078913f9",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; DM\u2019s Toolbox; Sailing the Sea of Moonshae; Sea of Moonshae Encounters; 1d20:14",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194901-archelon", 1100]
+        ]
+    },
+    {
+        "id": "ee8e8ab2-da78-4c3d-818f-77d838ba68e7",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; DM\u2019s Toolbox; Sailing the Sea of Moonshae; Sea of Moonshae Encounters; 1d20:15",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904830-pirate", 200],
+            [1, "4904838-pirate-captain", 2300]
+        ]
+    },
+    {
+        "id": "72517707-e298-45fb-b410-3745d164325e",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; DM\u2019s Toolbox; Sailing the Sea of Moonshae; Sea of Moonshae Encounters; 1d20:16",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195065-guard", 25],
+            [1, "5194924-berserker-commander", 3900]
+        ]
+    },
+    {
+        "id": "ac2f3317-cbc1-4893-bbdb-034485491939",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; DM\u2019s Toolbox; Sailing the Sea of Moonshae; Sea of Moonshae Encounters; 1d20:17",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195001-frost-giant", 3900]
+        ]
+    },
+    {
+        "id": "81b1d83d-f0ff-4861-b81b-e6c5d4c5ebd8",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; DM\u2019s Toolbox; Sailing the Sea of Moonshae; Sea of Moonshae Encounters; 1d20:18",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195221-storm-giant", 10000]
+        ]
+    },
+    {
+        "id": "a1c9ffe0-3f2f-4707-828c-18f52c9cb604",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; DM\u2019s Toolbox; Sailing the Sea of Moonshae; Sea of Moonshae Encounters; 1d20:19",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194973-dragon-turtle", 18000]
+        ]
+    },
+    {
+        "id": "16a42c6b-5fc2-4b23-9f12-a5fd191f9f18",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; DM\u2019s Toolbox; Sailing the Sea of Moonshae; Sea of Moonshae Encounters; 1d20:20",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195097-kraken", 50000]
+        ]
+    },
+    {
+        "id": "19772e51-d691-4ab1-8e7b-cbe2182474e6",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; The Rushdown Well",
+        "allies": [],
+        "bystanders": [
+            [1, "5195145-noble", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "852e182a-bced-4fa5-86e6-87ded44ecfd4",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; The Rushdown Well; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195265-wererat", 450],
+            [6, "5195025-giant-rat", 25]
+        ]
+    },
+    {
+        "id": "68f93242-dc9b-4f32-9c56-61fb75e5c8fb",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; The Rushdown Well; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195099-kuo-toa-monitor", 700],
+            [4, "5195101-kuo-toa", 50]
+        ]
+    },
+    {
+        "id": "7949f3c3-a6bd-4827-8ab2-e0eb515bdd42",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; The Rushdown Well; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5900673-rusted-berserker", 1100],
+            [6, "5195065-guard", 25]
+        ]
+    },
+    {
+        "id": "979f8699-1f59-4f50-95bb-041b452665ab",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; The Rushdown Well; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5174957-scout", 100],
+            [4, "5195065-guard", 25],
+            [2, "4775850-wolf", 50],
+            [1, "5195260-warrior-veteran", 700]
+        ]
+    },
+    {
+        "id": "1f5d6462-4445-4c2b-a91f-025f3815922e",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; Message in a Bottle; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194944-chuul", 1100]
+        ]
+    },
+    {
+        "id": "c23ebbfa-bea7-4b4b-ad41-836b5377962a",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; Message in a Bottle; Encounters",
+        "allies": [],
+        "bystanders": [
+            [2, "4904816-knight", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "94983a48-33b1-409a-8cac-871a8f303f7d",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; Message in a Bottle; Encounters; 1d4:1",
+        "allies": [],
+        "bystanders": [
+            [6, "5195050-goblin-warrior", 50],
+            [1, "5195047-goblin-boss", 200]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "614b7af3-ed17-4fc7-b21a-26a821532f56",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; Message in a Bottle; Encounters; 1d4:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195077-hobgoblin-captain", 700],
+            [3, "5195079-hobgoblin-warrior", 100]
+        ]
+    },
+    {
+        "id": "e2f303aa-c1a6-43c0-9287-f34d1354c710",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; Message in a Bottle; Encounters; 1d4:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5194934-bugbear-stalker", 700]
+        ]
+    },
+    {
+        "id": "5a807585-41c5-46f3-b421-2106c9d21aaf",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; Message in a Bottle; Encounters; 1d4:4",
+        "allies": [],
+        "bystanders": [
+            [1, "5194991-faerie-dragon-adult", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "be702019-699a-488e-9b26-44207ef7a7c3",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; Message in a Bottle",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195156-performer", 100]
+        ]
+    },
+    {
+        "id": "23d42d41-bb15-4941-9d40-6f7c93ee0dc6",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; Message in a Bottle; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195142-night-hag", 1800]
+        ]
+    },
+    {
+        "id": "ffc0d4c2-e969-4f1c-b170-635bd7c3992e",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; Wreck of the Silverhand",
+        "allies": [],
+        "bystanders": [
+            [1, "5900671-queen-forfallen", 5900]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "c17e180d-e8cf-4f04-8d2e-a666a3dd1374",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; Wreck of the Silverhand; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195027-giant-shark", 1800]
+        ]
+    },
+    {
+        "id": "5d0051fd-eaa6-45bd-8b07-07752636b44d",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; Wreck of the Silverhand; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "5195102-lacedon-ghoul", 200]
+        ]
+    },
+    {
+        "id": "97153320-b425-4b6b-a5ec-5ca834461542",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; Wreck of the Silverhand; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5195120-merfolk-wavebender", 2300]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "273e9e49-c8de-41f9-8773-bfa48a4702d5",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; Wreck of the Silverhand; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [5, "5195269-wight", 700]
+        ]
+    },
+    {
+        "id": "b46eba91-0d58-4232-90ea-519c694bd9d4",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; Wreck of the Silverhand; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904850-stone-golem", 5900]
+        ]
+    },
+    {
+        "id": "9b8d431e-38cd-4874-97d6-02c6c7ab1338",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; The Treaty of Ostoria",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195000-fomorian", 3900]
+        ]
+    },
+    {
+        "id": "57b9749d-9796-4464-b587-d1aa514829c3",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; The Treaty of Ostoria",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194994-fire-giant", 5000]
+        ]
+    },
+    {
+        "id": "3b88ee4b-096f-4e2d-87ff-de0b67377f12",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; The Treaty of Ostoria; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5195144-noble-prodigy", 5900]
+        ],
+        "enemies": [
+            [4, "4904825-ogre", 450]
+        ]
+    },
+    {
+        "id": "b7023241-c5d5-4258-8e2c-fe0cdef71300",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; The Treaty of Ostoria; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5195074-hill-giant", 1800]
+        ]
+    },
+    {
+        "id": "ae103052-68ad-4c15-a73f-ddddc8cf84ed",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; The Treaty of Ostoria; Encounters",
+        "allies": [],
+        "bystanders": [
+            [12, "5194994-fire-giant", 5000]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "5dc7cc89-4c7b-4462-b0aa-f84fa2e5f8a3",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; The Treaty of Ostoria; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194908-azer-pyromancer", 2300],
+            [2, "5195071-hell-hound", 700],
+            [4, "5194909-azer-sentinel", 450]
+        ]
+    },
+    {
+        "id": "01f3a969-ba9f-4ce2-bb78-97fc52be4daf",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; The Treaty of Ostoria; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5194994-fire-giant", 5000]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "6bed55b6-8b05-4ab7-920b-4c2e09a17722",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; The Treaty of Ostoria; Encounters",
+        "allies": [
+            [1, "5194994-fire-giant", 5000]
+        ],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194877-adult-white-dragon", 10000]
+        ]
+    },
+    {
+        "id": "a1a7fafe-46f8-43b4-a572-dc3c06a55270",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 5: Moonshae Isles; The Treaty of Ostoria; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5194994-fire-giant", 5000]
+        ],
+        "enemies": [
+            [1, "5195000-fomorian", 3900],
+            [3, "5195180-red-slaad", 1800]
+        ]
+    },
+    {
+        "id": "0f8169d7-074a-440c-9d71-05773bf8c369",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; DM\u2019s Toolbox; Encounters in Baldur\u2019s Gate; Baldur\u2019s Gate Encounters; 1d20:1",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195109-mage-apprentice", 450],
+            [1, "5195204-shield-guardian", 2900]
+        ]
+    },
+    {
+        "id": "9c7ed078-e541-470f-8fcd-d8d64596e629",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; DM\u2019s Toolbox; Encounters in Baldur\u2019s Gate; Baldur\u2019s Gate Encounters; 1d20:2",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195065-guard", 25]
+        ]
+    },
+    {
+        "id": "2e1131a9-b34e-4971-a040-b5322d8a2fb8",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; DM\u2019s Toolbox; Encounters in Baldur\u2019s Gate; Baldur\u2019s Gate Encounters; 1d20:3",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195042-gladiator", 1800]
+        ]
+    },
+    {
+        "id": "9ea04cc8-19db-4e1d-bf59-8edc798d0750",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; DM\u2019s Toolbox; Encounters in Baldur\u2019s Gate; Baldur\u2019s Gate Encounters; 1d20:4",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194904-assassin", 3900]
+        ]
+    },
+    {
+        "id": "91297624-a5a7-42b0-9dc6-be8e491a05a2",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; DM\u2019s Toolbox; Encounters in Baldur\u2019s Gate; Baldur\u2019s Gate Encounters; 1d20:5",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195145-noble", 25]
+        ]
+    },
+    {
+        "id": "42cb23d1-6767-44b5-a7a9-d995b944942a",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; DM\u2019s Toolbox; Encounters in Baldur\u2019s Gate; Baldur\u2019s Gate Encounters; 1d20:6",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5174955-doppelganger", 700]
+        ]
+    },
+    {
+        "id": "ece2de70-253e-481f-a4a6-40a084ab7689",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; DM\u2019s Toolbox; Encounters in Baldur\u2019s Gate; Baldur\u2019s Gate Encounters; 1d20:7",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195156-performer", 100],
+            [1, "5195217-spy", 200]
+        ]
+    },
+    {
+        "id": "6df773a4-75e1-4c78-a8c8-8b54213403ae",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; DM\u2019s Toolbox; Encounters in Baldur\u2019s Gate; Baldur\u2019s Gate Encounters; 1d20:8",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195169-priest-acolyte", 50]
+        ]
+    },
+    {
+        "id": "9abcb6f8-64b5-4ec9-8627-893d10564eff",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; DM\u2019s Toolbox; Encounters in Baldur\u2019s Gate; Baldur\u2019s Gate Encounters; 1d20:10",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195103-lamia", 1100],
+            [1, "5195092-jackalwere", 100]
+        ]
+    },
+    {
+        "id": "07039fec-ea54-4fa1-9768-be983212b214",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; DM\u2019s Toolbox; Encounters in Baldur\u2019s Gate; Baldur\u2019s Gate Encounters; 1d20:11",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904830-pirate", 200]
+        ]
+    },
+    {
+        "id": "d9c76004-74fe-43d5-a82d-bbac21e44ad1",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; DM\u2019s Toolbox; Encounters in Baldur\u2019s Gate; Baldur\u2019s Gate Encounters; 1d20:12",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194976-druid", 450]
+        ]
+    },
+    {
+        "id": "136eeeb0-8ced-4948-93d3-00dd7ba31347",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; DM\u2019s Toolbox; Encounters in Baldur\u2019s Gate; Baldur\u2019s Gate Encounters; 1d20:13",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "4904746-cultist-fanatic", 450]
+        ]
+    },
+    {
+        "id": "f739c1a4-6658-4316-9aa3-a110b9204e96",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; DM\u2019s Toolbox; Encounters in Baldur\u2019s Gate; Baldur\u2019s Gate Encounters; 1d20:14",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904883-tough-boss", 1100],
+            [1, "5195235-tough", 100]
+        ]
+    },
+    {
+        "id": "5588c54e-4a6c-4156-adde-8f857b5b83b4",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; DM\u2019s Toolbox; Encounters in Baldur\u2019s Gate; Baldur\u2019s Gate Encounters; 1d20:15",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195260-warrior-veteran", 700],
+            [1, "5195259-warrior-infantry", 25]
+        ]
+    },
+    {
+        "id": "683d8982-4d8b-4800-9e6e-4ce4f8913d88",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; DM\u2019s Toolbox; Encounters in Baldur\u2019s Gate; Baldur\u2019s Gate Encounters; 1d20:16",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195145-noble", 25]
+        ]
+    },
+    {
+        "id": "1913d1dc-64a5-4347-88d7-2e518ec4813a",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; DM\u2019s Toolbox; Encounters in Baldur\u2019s Gate; Baldur\u2019s Gate Encounters; 1d20:17",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195228-swarm-of-rats", 50],
+            [1, "5195265-wererat", 450]
+        ]
+    },
+    {
+        "id": "8ddd2df7-f607-45d8-9634-490b979e9037",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; DM\u2019s Toolbox; Encounters in Baldur\u2019s Gate; Baldur\u2019s Gate Encounters; 1d20:18",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195151-otyugh", 1800]
+        ]
+    },
+    {
+        "id": "81d355aa-bb0f-4caa-a229-ea28b30cbe75",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; DM\u2019s Toolbox; Encounters in Baldur\u2019s Gate; Baldur\u2019s Gate Encounters; 1d20:19",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194951-commoner", 10]
+        ]
+    },
+    {
+        "id": "5930abd3-d4be-44c5-80c0-26aba0f41019",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; DM\u2019s Toolbox; Encounters in Baldur\u2019s Gate; Baldur\u2019s Gate Encounters; 1d20:20",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195145-noble", 25]
+        ]
+    },
+    {
+        "id": "729134c9-9d85-4da2-a757-2e4b83963f79",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Tide of Teeth",
+        "allies": [],
+        "bystanders": [
+            [1, "4904883-tough-boss", 1100]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "9999acfd-8d00-4f2b-b26f-17e3288c6ab0",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Tide of Teeth; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195065-guard", 25]
+        ]
+    },
+    {
+        "id": "16da34b5-2f46-4fb2-b568-c848d100f10f",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Tide of Teeth; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195083-hunter-shark", 450]
+        ]
+    },
+    {
+        "id": "cbc14405-1def-4d1c-be3c-1a8b0e3f7a05",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Tide of Teeth; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5195102-lacedon-ghoul", 200]
+        ]
+    },
+    {
+        "id": "a2adbe6d-d5c3-49ea-91c6-308bdc86008e",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Tide of Teeth; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195123-mimic", 450]
+        ]
+    },
+    {
+        "id": "8f1bb7c0-d2bc-43d2-811f-cf16f4a3a027",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Tide of Teeth; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "4775838-reef-shark", 100]
+        ]
+    },
+    {
+        "id": "33c974df-2ac0-4d59-887e-2c8345f101d7",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Tide of Teeth; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195190-sahuagin-warrior", 100],
+            [1, "5195226-swarm-of-lemures", 700]
+        ]
+    },
+    {
+        "id": "d9fa9bfc-e14c-493e-8ea4-e6b53ea78adf",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Tide of Teeth; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4775825-imp", 200],
+            [1, "5195189-sahuagin-priest", 450]
+        ]
+    },
+    {
+        "id": "d9e0044b-f2c8-43ba-b337-a34181e65911",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Blood Night; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5195217-spy", 200]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "c19f9cbc-884b-4d12-9d1d-d5382b70a251",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Blood Night; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195156-performer", 100],
+            [1, "5194917-barbed-devil", 1800]
+        ]
+    },
+    {
+        "id": "99ecf204-cd33-494d-8b67-143700bedc80",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Blood Night; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195145-noble", 25]
+        ]
+    },
+    {
+        "id": "a43fbf9a-36ca-4e79-8e25-cdcbfd6bc964",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Blood Night; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195109-mage-apprentice", 450],
+            [4, "4775825-imp", 200]
+        ]
+    },
+    {
+        "id": "cba0d2c8-bb4d-4198-b422-40d3088d6c33",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Blood Night; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904746-cultist-fanatic", 450],
+            [4, "5195217-spy", 200]
+        ]
+    },
+    {
+        "id": "4c0a8610-9fdb-4818-a5fa-6b37175851f4",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Blood Night; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5195065-guard", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "ad2cd61f-8ce9-46b0-a349-40dec1f5bdf4",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Blood Night; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5195008-ghost", 1100]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "dec38763-598a-4668-ae83-4beded7d0227",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Clockwork Memories; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5195170-priest", 450],
+            [8, "5194951-commoner", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "43370ece-e65b-4cf7-ab25-10c91b88ca31",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Clockwork Memories; Encounters",
+        "allies": [],
+        "bystanders": [
+            [6, "5900665-nimblewright-guard", 700]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "b18ba9c2-e69f-4d2c-be6f-45d93c724061",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Clockwork Memories; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5194893-animated-armor", 200]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "f111837b-ee37-458d-9181-bc1ca66890b8",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Clockwork Memories; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "4775849-weasel", 10]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "97138c6b-11f1-4c9c-9e52-38ff62cc1f91",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Clockwork Memories; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5194997-flesh-golem", 1800]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "a5e8a45a-7d15-4ee0-83e4-3688ec53d36f",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Clockwork Memories; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194914-bandit-deceiver", 2900],
+            [2, "5195217-spy", 200]
+        ]
+    },
+    {
+        "id": "4d6dad36-04ac-48dc-99ee-60c1500ce5f1",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Clockwork Memories; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194904-assassin", 3900]
+        ]
+    },
+    {
+        "id": "9b1c1a8e-8bf6-4310-9307-f0b7fdb49add",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; Clockwork Memories; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "5900665-nimblewright-guard", 700]
+        ]
+    },
+    {
+        "id": "3572c44e-a303-4805-957c-794f4e1e034b",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; The Shadow Parliament; Encounters",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5900652-cultist-of-bane", 5000],
+            [2, "5195260-warrior-veteran", 700]
+        ]
+    },
+    {
+        "id": "49d1916d-d80a-4690-940b-b26a43e7d046",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; The Shadow Parliament; Encounters",
+        "allies": [],
+        "bystanders": [
+            [1, "5195145-noble", 25]
+        ],
+        "enemies": [
+            [3, "5195261-water-elemental", 1800],
+            [1, "4904746-cultist-fanatic", 450]
+        ]
+    },
+    {
+        "id": "8ee655c4-8ffd-4f5a-972d-f8d1a9108a0c",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; The Shadow Parliament",
+        "allies": [],
+        "bystanders": [
+            [1, "5195145-noble", 25]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "56b61ba3-602f-488b-9577-8fc86d3229e8",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 6: Baldur\u2019s Gate; The Shadow Parliament; Encounters",
+        "allies": [],
+        "bystanders": [
+            [2, "5195169-priest-acolyte", 50]
+        ],
+        "enemies": [
+            [2, "5195145-noble", 25],
+            [2, "5194914-bandit-deceiver", 2900]
+        ]
+    },
+    {
+        "id": "ee874445-09a1-43fd-ae2a-d4c5bc4845a8",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Library Features; Upper Level; 1: Guard Station",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5195050-goblin-warrior", 50],
+            [1, "4831031-worg", 100]
+        ]
+    },
+    {
+        "id": "3aa6c614-0023-455f-95d9-d6e2141923f3",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Library Features; Upper Level; 3: Cavern",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4775806-brown-bear", 200]
+        ]
+    },
+    {
+        "id": "29782996-ae3b-40f2-b99d-b99aa6129247",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Library Features; Upper Level; 5: Supply Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5195079-hobgoblin-warrior", 100]
+        ]
+    },
+    {
+        "id": "5facfb8e-f1c8-4697-b0aa-51a543873ee8",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Library Features; Upper Level; 6: Display Room",
+        "allies": [],
+        "bystanders": [
+            [1, "5194986-empyrean-iota-celestial", 200]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "ff084d8e-b2c8-4032-ab28-a6a82455eac5",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Library Features; Upper Level; 8: Rotunda",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195047-goblin-boss", 200],
+            [4, "5195050-goblin-warrior", 50]
+        ]
+    },
+    {
+        "id": "e5858e6b-2154-4b71-9f83-6ebc793d74cb",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Library Features; Lower Level; 12: Sitting Room",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5900685-zhentilar-soldier", 200]
+        ]
+    },
+    {
+        "id": "2aaf9dde-af6f-4838-b615-d662910205e3",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Library Features; Lower Level; 13: Powell\u2019s Bedroom",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195123-mimic", 450]
+        ]
+    },
+    {
+        "id": "2e5a9b54-4a85-4c51-b23f-abaca06fd8fa",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Library Features; Lower Level; 16: Gallery",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195109-mage-apprentice", 450],
+            [1, "5900685-zhentilar-soldier", 200],
+            [3, "5195050-goblin-warrior", 50]
+        ]
+    },
+    {
+        "id": "0889ac9a-3a03-4229-8e97-7fc4d18fecc4",
+        "type": "combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Library Features; Lower Level; 19: Chasm",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "4775821-giant-spider", 200],
+            [2, "5195224-swarm-of-insects", 100]
+        ]
+    },
+    {
+        "id": "4c1501f9-a8c4-4a01-8c6b-ae5b1b440768",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Icewind Dale; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "4775851-zombie", 50]
+        ]
+    },
+    {
+        "id": "2a5d626a-8d5f-457e-8413-ca734dd80ac8",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Icewind Dale; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4775806-brown-bear", 200]
+        ]
+    },
+    {
+        "id": "6b77fc7b-a666-4368-992a-eab0d7097680",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Icewind Dale; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5195235-tough", 100]
+        ]
+    },
+    {
+        "id": "88a6aee4-8358-49b6-93b8-2bdb6a377c54",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Icewind Dale; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195210-specter", 200]
+        ]
+    },
+    {
+        "id": "658f68cc-8208-46c9-a45f-3f1e3675c212",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Icewind Dale; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [2, "5195009-ghoul", 200]
+        ]
+    },
+    {
+        "id": "ec16ad91-1abd-491f-928e-4e9c6cdcaa3a",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Icewind Dale; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5195009-ghoul", 200]
+        ]
+    },
+    {
+        "id": "86a8fa56-e856-4c8c-8548-39f3e0acca1f",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Icewind Dale; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195123-mimic", 450]
+        ]
+    },
+    {
+        "id": "c9b6ef37-a2f6-4541-bcdd-1cc0219174a7",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Icewind Dale; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195109-mage-apprentice", 450],
+            [1, "5900685-zhentilar-soldier", 200],
+            [1, "5195235-tough", 100]
+        ]
+    },
+    {
+        "id": "61032df2-887c-4ac5-bd12-4a568c732f6e",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Calimshan; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "5195128-modron-duodrone", 50],
+            [1, "5194978-dust-mephit", 100]
+        ]
+    },
+    {
+        "id": "ff84a72c-b1ea-4a5a-aeed-758a52a4fabd",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Calimshan; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4775826-lion", 200]
+        ]
+    },
+    {
+        "id": "50f2870a-bd1b-4966-b1c4-67eb665358e0",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Calimshan; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5194978-dust-mephit", 100]
+        ]
+    },
+    {
+        "id": "b5ddf389-34e7-419c-9e56-7e8c1f4a0b09",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Calimshan; Encounter Areas",
+        "allies": [],
+        "bystanders": [
+            [1, "4775843-sphinx-of-wonder", 200]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "83a8c39a-f3d0-4b55-a4b5-5d7b0529bcfc",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Calimshan; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194893-animated-armor", 200],
+            [4, "5195128-modron-duodrone", 50]
+        ]
+    },
+    {
+        "id": "63881330-a535-4019-9db5-e34a280635f3",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Calimshan; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194896-animated-rug-of-smothering", 450]
+        ]
+    },
+    {
+        "id": "859a502d-c287-458c-8d6b-10d77460cf3c",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Calimshan; Encounter Areas",
+        "allies": [],
+        "bystanders": [
+            [1, "5194909-azer-sentinel", 450]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "5e240b99-0968-4a98-acba-30d3ee4d6531",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Moonshae Isles; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [4, "4831017-bullywug-warrior", 50],
+            [2, "5195020-giant-frog", 50]
+        ]
+    },
+    {
+        "id": "a3b9c5b6-bc2b-4e2b-9a14-031668f4d872",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Moonshae Isles; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "5195195-satyr", 100]
+        ]
+    },
+    {
+        "id": "3a85e05f-493b-4176-b2e7-4309cdec6d2a",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Moonshae Isles; Encounter Areas",
+        "allies": [],
+        "bystanders": [
+            [1, "5194992-faerie-dragon-youth", 200]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "c20b58a2-052e-4176-baa3-989070a41749",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Moonshae Isles; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195029-giant-toad", 200],
+            [4, "4831017-bullywug-warrior", 50]
+        ]
+    },
+    {
+        "id": "7409bc2a-cf28-47c2-81ae-08af122a5d3b",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Moonshae Isles; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194935-bulette-pup", 450]
+        ]
+    },
+    {
+        "id": "36dead4c-0ead-4c33-933f-90d13c7033cf",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Moonshae Isles; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195109-mage-apprentice", 450],
+            [1, "5900685-zhentilar-soldier", 200],
+            [3, "4831017-bullywug-warrior", 50]
+        ]
+    },
+    {
+        "id": "7a5461ef-685e-474c-aaeb-3620fc275396",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Baldur\u2019s Gate; Encounter Areas",
+        "allies": [],
+        "bystanders": [
+            [1, "4904636-cultist", 25]
+        ],
+        "enemies": [
+            [6, "5195239-troglodyte", 50]
+        ]
+    },
+    {
+        "id": "9f17c86d-d705-450c-a30b-6e4fc787d6df",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Baldur\u2019s Gate; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195009-ghoul", 200]
+        ]
+    },
+    {
+        "id": "a11ed388-35d4-4fc8-99d3-da3765f4db89",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Baldur\u2019s Gate; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [6, "4904636-cultist", 25]
+        ]
+    },
+    {
+        "id": "73aca15a-2595-486d-89d2-6df4a4786355",
+        "type": "non-combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Baldur\u2019s Gate; Encounter Areas",
+        "allies": [],
+        "bystanders": [
+            [1, "4775825-imp", 200]
+        ],
+        "enemies": []
+    },
+    {
+        "id": "01eb1d11-edb0-4fd9-abe3-1894bd3da78f",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Baldur\u2019s Gate; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5195217-spy", 200],
+            [4, "4904636-cultist", 25]
+        ]
+    },
+    {
+        "id": "7bca0fbe-9708-4b32-a5e1-7c56e8ffc45b",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Baldur\u2019s Gate; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [3, "4904830-pirate", 200]
+        ]
+    },
+    {
+        "id": "38375277-eebc-4511-89c0-4a2a59297e4d",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Baldur\u2019s Gate; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "5194938-carrion-crawler", 450]
+        ]
+    },
+    {
+        "id": "e28c3e09-7a92-411d-a019-b4a717dc671b",
+        "type": "alternate combat",
+        "book_path": "Forgotten Realms: Adventures in Faer\u00fbn; Chapter 7: The Lost Library of Lethchauntos; Customizing the Adventure; Baldur\u2019s Gate; Encounter Areas",
+        "allies": [],
+        "bystanders": [],
+        "enemies": [
+            [1, "4904746-cultist-fanatic", 450],
+            [1, "5195113-manes-vaporspawn", 200],
+            [6, "4904636-cultist", 25]
+        ]
+    }
+]
